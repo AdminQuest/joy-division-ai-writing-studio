@@ -3,9 +3,19 @@ function listBlock(items){
   return items.map(x=>'- '+x).join('\n');
 }
 
-function buildPrompt({chap,at,input,mode}){
-  const materiau=input&&input.trim()?input.trim():'[COLLER ICI LE TEXTE, LES NOTES OU LES REFERENCES A TRAITER]';
-  const sources=chap.sources&&chap.sources.length?chap.sources.join(', '):'À renseigner depuis le registre des références.';
+function buildPrompt({chap,at,input,mode,registre}){
+  const materiau=input&&input.trim()?input.trim():'[COLLER ICI LE TEXTE]';
+
+  let sourcesDetail='';
+  if(chap.sources && registre){
+    sourcesDetail = chap.sources.map(id=>{
+      const s = registre.find(x=>x.id===id);
+      return s ? `- ${id} — ${s.statut} — ${s.usage}` : `- ${id}`;
+    }).join("\n");
+  } else {
+    sourcesDetail = 'À renseigner.';
+  }
+
   return `Tu interviens sur le projet de livre « Joy Division, le son de l’éternel ».
 
 CHAPITRE CIBLE
@@ -17,43 +27,29 @@ ${chap.fonction}
 HORS CHAMP EXPLICITE
 ${listBlock(chap.hors_champ)}
 
-RISQUES DE GLISSEMENT OU DE DOUBLON
+RISQUES DE GLISSEMENT
 ${listBlock(chap.risques)}
 
-SOURCES A MOBILISER EN PRIORITE
-${sources}
+SOURCES A MOBILISER
+${sourcesDetail}
 
-ATELIER DE PILOTAGE REDACTIONNEL
+ATELIER
 ${at.nom}
 
-OBJECTIF DE L’ATELIER
+OBJECTIF
 ${at.objectif}
 
-CONTROLES A EFFECTUER
+CONTROLES
 ${listBlock(at.controles)}
 
-MODE DE SORTIE ATTENDU
+MODE
 ${mode}
 
-CONVENTIONS REDACTIONNELLES
-- Répondre en français.
-- Employer un style académique, direct et contrôlé.
-- Utiliser les guillemets français.
-- Écrire les albums en italique.
-- Écrire les titres de chansons entre guillemets.
-- Rédiger au présent lorsque tu proposes du texte destiné au livre.
-- Ne pas inventer de source, de citation, de page ou de référence.
-- Signaler explicitement les éléments à vérifier.
-- Ne pas pathologiser Ian Curtis hors des chapitres prévus.
-- Ne pas transformer Joy Division en simple symptôme de Manchester.
-- Ne pas conclure par une question ouverte.
+CONVENTIONS
+- Style académique
+- Sources vérifiées uniquement
+- Pas d’invention
 
-FORME DE LA REPONSE
-1. Diagnostic bref.
-2. Corrections ou arbitrages proposés.
-3. Texte révisé si nécessaire.
-4. Points restant à vérifier.
-
-MATERIAU A TRAITER
+MATERIAU
 ${materiau}`;
 }
