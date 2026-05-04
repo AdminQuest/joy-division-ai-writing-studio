@@ -1,17 +1,59 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>Joy Division — AI Writing Studio</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joy Division — AI Writing Studio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>AI Writing Studio</h1>
-<select id="chapitre"></select>
-<select id="atelier"></select>
-<textarea id="input" placeholder="Texte ou consignes..."></textarea>
-<button onclick="generate()">Générer</button>
-<pre id="output"></pre>
-<script src="js/app.js"></script>
+  <header>
+    <h1>Joy Division — AI Writing Studio</h1>
+    <p>Poste de pilotage local pour produire des prompts fiables au service du livre.</p>
+  </header>
+
+  <main>
+    <section class="panel grid">
+      <div>
+        <label for="chapitre">Chapitre cible</label>
+        <select id="chapitre"></select>
+      </div>
+      <div>
+        <label for="atelier">Atelier de pilotage rédactionnel</label>
+        <select id="atelier"></select>
+      </div>
+      <div>
+        <label for="mode">Mode de sortie</label>
+        <select id="mode">
+          <option value="Diagnostic bref + corrections ciblées">Diagnostic bref + corrections ciblées</option>
+          <option value="Tableau de contrôle">Tableau de contrôle</option>
+          <option value="Rédaction directement exploitable">Rédaction directement exploitable</option>
+          <option value="Format registre / traçabilité">Format registre / traçabilité</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="panel">
+      <label for="input">Texte, notes ou consignes à traiter</label>
+      <textarea id="input" placeholder="Colle ici le passage, les notes, la citation, la référence ou la demande à transformer en prompt."></textarea>
+    </section>
+
+    <section class="panel">
+      <div class="actions">
+        <button id="generateBtn">Générer le prompt</button>
+        <button id="copyBtn">Copier</button>
+        <button id="clearBtn">Effacer</button>
+      </div>
+      <label for="output">Prompt généré</label>
+      <textarea id="output" readonly></textarea>
+    </section>
+  </main>
+
+  <footer>
+    <p>Version 1 — application HTML locale, sans serveur, sans dépendance externe.</p>
+  </footer>
+
+  <script src="js/prompt-builder.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
