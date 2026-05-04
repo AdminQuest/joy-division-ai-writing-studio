@@ -1,1 +1,18 @@
-[{"id":"ch1","nom":"Chapitre 1"},{"id":"ch2","nom":"Chapitre 2"}]
+[
+{
+"id":"ch1",
+"nom":"Chapitre 1 — Manchester année zéro : le terreau de la colère",
+"fonction":"Établir Manchester comme environnement matériel, social et affectif.",
+"hors_champ":["Biographie du groupe","Analyse musicale détaillée","Esthétique visuelle","Patrimonialisation"],
+"risques":["Glissement vers analyse sonore","Glissement vers Ian Curtis","Glissement vers Saville"],
+"sources":["S01","S02","S03","S04","S05","S06"]
+},
+{
+"id":"ch2",
+"nom":"Chapitre 2 — Les années d’apprentissage",
+"fonction":"Décrire la formation et la transformation du groupe.",
+"hors_champ":["Son final Joy Division","Unknown Pleasures","Analyse clinique"],
+"risques":["Téléologie","Mythification","Glissement chapitre 3"],
+"sources":[]
+}
+]
