@@ -1,26 +1,50 @@
 [
-{
-"id":"coherence",
-"nom":"Relecture de cohérence",
-"objectif":"Vérifier la solidité du raisonnement et le respect du périmètre.",
-"controles":["Respect du périmètre","Progression logique","Absence de digression","Clarté"]
-},
-{
-"id":"sources",
-"nom":"Vérification des sources",
-"objectif":"Sécuriser citations et références.",
-"controles":["Exactitude des citations","Correspondance bibliographique","Statut des sources","Fiabilité"]
-},
-{
-"id":"style",
-"nom":"Réécriture style livre",
-"objectif":"Mettre le texte au niveau du livre.",
-"controles":["Densité","Absence de banalité","Respect du style","Fluidité"]
-},
-{
-"id":"doublons",
-"nom":"Anti-doublons",
-"objectif":"Éliminer redites et chevauchements.",
-"controles":["Répétitions internes","Chevauchements inter-chapitres","Propositions de coupe"]
-}
+  {
+    "id":"coherence",
+    "nom":"Relecture de cohérence",
+    "objectif":"Vérifier la solidité du raisonnement, le respect du périmètre et la progression démonstrative.",
+    "controles":["Respect du périmètre du chapitre","Progression logique","Cohérence argumentative","Absence de digression","Corrections ciblées"]
+  },
+  {
+    "id":"sources",
+    "nom":"Vérification des sources",
+    "objectif":"Sécuriser citations, références, statuts de sources et usages probatoires.",
+    "controles":["Exactitude des citations","Correspondance auteur / ouvrage","Statut de la source","Solidité scientifique","Points à consolider"]
+  },
+  {
+    "id":"style",
+    "nom":"Réécriture style livre",
+    "objectif":"Mettre le texte au niveau stylistique du livre sans modifier les faits.",
+    "controles":["Style académique narratif","Densité sans surcharge","Alternance des phrases courtes et longues","Absence de banalité","Respect des conventions typographiques"]
+  },
+  {
+    "id":"doublons",
+    "nom":"Anti-doublons",
+    "objectif":"Éliminer les redites internes et les chevauchements entre chapitres.",
+    "controles":["Répétitions internes","Chevauchements inter-chapitres","Passages à supprimer","Passages à déplacer","Version condensée éventuelle"]
+  },
+  {
+    "id":"notes_vers_texte",
+    "nom":"Transformation notes → texte",
+    "objectif":"Transformer des notes brutes en passage rédigé, hiérarchisé et publiable.",
+    "controles":["Hiérarchisation des idées","Absence d’effet catalogue","Lien logique entre les arguments","Style du livre","Aucune source inventée"]
+  },
+  {
+    "id":"document_maitre",
+    "nom":"Construction document maître",
+    "objectif":"Construire ou mettre à jour l’architecture préparatoire d’un chapitre.",
+    "controles":["Fonction du chapitre","Hors champ explicite","Axes directeurs","Corpus primaire et secondaire","Hypothèses interprétatives","Risques et points de vigilance"]
+  },
+  {
+    "id":"registre",
+    "nom":"Mise à jour du registre",
+    "objectif":"Actualiser la traçabilité documentaire et le statut des sources.",
+    "controles":["ID source","Référence complète","Nature de la source","Usage précis","Passages concernés","Statut opérationnel"]
+  },
+  {
+    "id":"notes_bas_page",
+    "nom":"Notes de bas de page",
+    "objectif":"Produire des notes exactes, sobres, contextualisées et vérifiables.",
+    "controles":["Exactitude bibliographique","Brièveté","Contextualisation","Aucune citation longue inutile","Respect des guillemets français"]
+  }
 ]
