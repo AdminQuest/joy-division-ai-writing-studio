@@ -1,10 +1,18 @@
+let chapData=[];let atelierData=[];
 async function load(){
-const c=await fetch('data/chapitres.json').then(r=>r.json());
-const a=await fetch('data/ateliers.json').then(r=>r.json());
-c.forEach(x=>chapitre.add(new Option(x.nom,x.id)));
-a.forEach(x=>atelier.add(new Option(x.nom,x.id)));
+chapData=await fetch('data/chapitres.json').then(r=>r.json());
+atelierData=await fetch('data/ateliers.json').then(r=>r.json());
+chapData.forEach(c=>document.getElementById('chapitre').add(new Option(c.nom,c.id)));
+atelierData.forEach(a=>document.getElementById('atelier').add(new Option(a.nom,a.id)));
 }
 function generate(){
-output.textContent=`Chapitre: ${chapitre.value}\nAtelier: ${atelier.value}\n\n${input.value}`;
+const chap=chapData.find(c=>c.id===document.getElementById('chapitre').value);
+const at=atelierData.find(a=>a.id===document.getElementById('atelier').value);
+const input=document.getElementById('input').value;
+const mode=document.getElementById('mode').value;
+document.getElementById('output').value=buildPrompt({chap,at,input,mode});
 }
+document.getElementById('generateBtn').onclick=generate;
+document.getElementById('copyBtn').onclick=function(){navigator.clipboard.writeText(document.getElementById('output').value)};
+document.getElementById('clearBtn').onclick=function(){document.getElementById('input').value='';document.getElementById('output').value=''};
 load();
