@@ -1,1 +1,26 @@
-[{"id":"coherence","nom":"Relecture de cohérence"},{"id":"sources","nom":"Vérification des sources"}]
+[
+{
+"id":"coherence",
+"nom":"Relecture de cohérence",
+"objectif":"Vérifier la solidité du raisonnement et le respect du périmètre.",
+"controles":["Respect du périmètre","Progression logique","Absence de digression","Clarté"]
+},
+{
+"id":"sources",
+"nom":"Vérification des sources",
+"objectif":"Sécuriser citations et références.",
+"controles":["Exactitude des citations","Correspondance bibliographique","Statut des sources","Fiabilité"]
+},
+{
+"id":"style",
+"nom":"Réécriture style livre",
+"objectif":"Mettre le texte au niveau du livre.",
+"controles":["Densité","Absence de banalité","Respect du style","Fluidité"]
+},
+{
+"id":"doublons",
+"nom":"Anti-doublons",
+"objectif":"Éliminer redites et chevauchements.",
+"controles":["Répétitions internes","Chevauchements inter-chapitres","Propositions de coupe"]
+}
+]
