@@ -16,6 +16,31 @@ function buildPrompt({chap,at,input,mode,registre}){
     sourcesDetail = 'À renseigner.';
   }
 
+  if(mode === 'Audit automatique'){
+    return `Audit complet du chapitre.
+
+CHAPITRE
+${chap.nom}
+
+FONCTION
+${chap.fonction}
+
+CONTROLE ATTENDU
+1. Cohérence globale
+2. Respect du périmètre
+3. Détection des doublons
+4. Analyse des sources utilisées
+5. Identification des zones non sourcées
+6. Identification des sources fragiles
+7. Recommandations structurées
+
+SOURCES
+${sourcesDetail}
+
+MATERIAU
+${materiau}`;
+  }
+
   return `Tu interviens sur le projet de livre « Joy Division, le son de l’éternel ».
 
 CHAPITRE CIBLE
