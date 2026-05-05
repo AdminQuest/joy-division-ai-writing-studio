@@ -1,0 +1,6 @@
+[
+  {"id":"sources","nom":"Sources (NotebookLM)","objectif":"Extraction et synthèse fidèle du corpus PDF."},
+  {"id":"recherche","nom":"Recherche (Perplexity)","objectif":"Recherche documentaire, validation et enrichissement des sources."},
+  {"id":"production","nom":"Production (Claude)","objectif":"Rédaction longue structurée à partir des matériaux validés."},
+  {"id":"controle","nom":"Contrôle (ChatGPT)","objectif":"Cohérence globale, anti-doublons et validation finale."}
+]
