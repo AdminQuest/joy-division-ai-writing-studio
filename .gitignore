@@ -1,0 +1,18 @@
+# Local source material not committed
+sources/**/ocr.txt
+sources/**/ocr.md
+sources/**/*.pdf
+sources/**/scans/
+sources/**/raw/
+
+# Python / local tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
