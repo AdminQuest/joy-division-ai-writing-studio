@@ -1,0 +1,72 @@
+schema: atom
+version: 1.0
+
+description: >
+  Schéma documentaire des unités atomiques.
+  Une unité atomique correspond à un fait, une idée,
+  une relation, une description ou une analyse minimale
+  issue d’une source.
+
+required:
+  - id
+  - source_id
+  - auteur
+  - titre
+  - type_unite
+  - concepts
+  - chapitres
+  - statut
+  - fiabilite
+
+recommended:
+  - pages_pdf
+  - pages_print
+  - citation_directe
+  - related_people
+  - related_songs
+  - related_events
+  - methodological_warnings
+  - notes
+
+controlled_values:
+
+  statut:
+    - verifie
+    - a_verifier
+    - a_reverifier
+
+  fiabilite:
+    - forte
+    - moyenne
+    - faible
+
+  type_unite:
+    - biographie
+    - production
+    - concert
+    - reception
+    - memoire
+    - santé
+    - relation
+    - politique
+    - esthétique
+    - archive
+    - sociologie
+    - analyse
+    - citation_clef
+    - psychologie_sociale
+    - culture_musicale
+    - domesticité
+
+rules:
+  - un atome = une idée identifiable
+  - éviter les paragraphes trop longs
+  - conserver les concepts en minuscules
+  - ne jamais fusionner plusieurs événements chronologiques
+  - distinguer fait et interprétation
+  - toujours rattacher l’atome à un ou plusieurs chapitres
+
+warnings:
+  - ne pas utiliser les atomes comme texte final du livre
+  - éviter les généralisations psychologiques
+  - signaler les contradictions documentaires
