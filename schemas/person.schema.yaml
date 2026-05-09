@@ -1,0 +1,55 @@
+schema: person
+version: 1.0
+
+description: >
+  Schéma documentaire des personnes, acteurs,
+  témoins, producteurs et figures institutionnelles.
+
+required:
+  - id
+  - name
+  - role
+  - sources
+
+recommended:
+  - full_name
+  - period
+  - associated_entities
+  - portraits_by_source
+  - related_atoms
+  - related_quotes
+  - related_songs
+  - related_events
+  - contradictions
+  - methodological_warnings
+  - notes
+
+controlled_values:
+
+  role:
+    - musicien
+    - chanteur
+    - manager
+    - producteur
+    - designer
+    - témoin
+    - proche
+    - journaliste
+    - photographe
+    - institution
+
+  certainty:
+    - strong
+    - medium
+    - weak
+
+rules:
+  - conserver plusieurs portraits concurrents
+  - distinguer faits et perceptions
+  - relier personnes, chansons et événements
+  - signaler les contradictions mémorielles
+
+warnings:
+  - éviter les portraits psychologiques définitifs
+  - éviter les biographies linéaires simplifiées
+  - distinguer témoignage et reconstruction rétrospective
