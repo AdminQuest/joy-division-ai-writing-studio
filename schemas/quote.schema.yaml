@@ -1,0 +1,55 @@
+schema: quote
+version: 1.0
+
+description: >
+  Schéma documentaire des citations exactes.
+  Une citation conserve le texte original,
+  les traductions et les métadonnées critiques.
+
+required:
+  - id
+  - source_id
+  - citation_originale
+  - langue_originale
+  - statut_verification
+
+recommended:
+  - traduction_litterale_fr
+  - traduction_editoriale_fr
+  - enjeu_traduction
+  - atomes_lies
+  - usage_recommande
+  - risques
+  - page_pdf
+  - page_print
+
+controlled_values:
+
+  langue_originale:
+    - en
+    - fr
+    - de
+    - it
+
+  importance:
+    - forte
+    - moyenne
+    - faible
+
+  statut_verification:
+    original:
+      - verifie
+      - a_verifier
+      - a_reverifier
+
+rules:
+  - toujours conserver la citation originale
+  - ne jamais remplacer l’original par une traduction
+  - distinguer traduction littérale et éditoriale
+  - conserver les citations courtes
+  - signaler les idiomes et enjeux culturels
+
+warnings:
+  - éviter les citations longues
+  - éviter les traductions automatiques non contrôlées
+  - éviter les citations reconstruites de mémoire
