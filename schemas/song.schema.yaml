@@ -1,0 +1,49 @@
+schema: song
+version: 1.0
+
+description: >
+  Schéma documentaire des chansons et morceaux.
+
+required:
+  - song
+  - themes
+  - sources
+  - chapters
+
+recommended:
+  - type
+  - period
+  - writers
+  - keywords
+  - production
+  - live_history
+  - lyrics
+  - related_atoms
+  - related_quotes
+  - contradictions
+  - notes
+
+controlled_values:
+
+  type:
+    - studio
+    - live
+    - demo
+    - unreleased
+    - posthumous
+
+  certainty:
+    - strong
+    - medium
+    - weak
+
+rules:
+  - distinguer chanson et interprétation
+  - relier les chansons aux événements et aux personnes
+  - conserver les motifs lyriques récurrents
+  - signaler les interprétations contradictoires
+
+warnings:
+  - ne pas réduire une chanson à l’autobiographie
+  - éviter les analyses purement impressionnistes
+  - distinguer texte, production et réception
