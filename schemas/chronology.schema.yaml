@@ -1,0 +1,53 @@
+schema: chronology
+version: 1.0
+
+description: >
+  Schéma documentaire des événements chronologiques.
+
+required:
+  - id
+  - date
+  - event
+  - type
+  - sources
+  - certainty
+
+recommended:
+  - precision_date
+  - location
+  - people
+  - songs
+  - related_atoms
+  - contradictions
+  - notes
+
+controlled_values:
+
+  certainty:
+    - strong
+    - medium
+    - weak
+
+  type:
+    - concert
+    - enregistrement
+    - biographie
+    - santé
+    - production
+    - sortie
+    - presse
+    - relation
+    - management
+    - archive
+
+rules:
+  - une entrée = un événement identifiable
+  - toujours relier aux sources
+  - distinguer date exacte et approximation
+  - signaler explicitement les contradictions
+  - éviter les blocs narratifs longs
+
+warnings:
+  - ne pas transformer le registre en récit biographique
+  - ne pas fusionner plusieurs événements
+  - distinguer événement et interprétation
