@@ -1,14 +1,18 @@
-# Marco Broll — source atomisée
+# S68 — Broll, « Joy Division », s.d.
 
 Dossier consacré à la source :
 
 ```yaml
-source_id: S-BROLL-JOY-001
+source_id: S68
+source_label: "S68 — Broll, Joy Division, s.d."
 source_auteur: Marco Broll
 source_titre: Joy Division
+source_year: "s.d."
 nature: source secondaire chronologique italienne
 status: atomisation primaire terminee
 priority: source de recoupement
+legacy_id:
+  - S-BROLL-JOY-001
 ```
 
 ## Fichiers
