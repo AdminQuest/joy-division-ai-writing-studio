@@ -20,6 +20,10 @@ main{max-width:1100px;margin:auto;padding:30px 28px}
 a.button{display:inline-block;background:#e5e5e5;color:#111;text-decoration:none;border-radius:10px;padding:12px 16px;font-weight:700;width:max-content}
 .section{margin-top:26px;background:#171b22;border:1px solid #2a2f38;border-radius:16px;padding:22px;color:#c8d0da;line-height:1.55}
 code{background:#0f1115;border:1px solid #2a2f38;border-radius:6px;padding:2px 6px;color:#fff}
+pre{background:#0f1115;border:1px solid #2a2f38;border-radius:10px;padding:14px;overflow:auto}
+pre code{background:transparent;border:0;padding:0}
+.section ol{margin:0 0 18px;padding-left:22px;color:#aeb7c2}
+.section li{margin:6px 0}
 @media(max-width:850px){.grid{grid-template-columns:1fr}h1{font-size:1.8rem}}
 </style>
 </head>
@@ -62,11 +66,53 @@ code{background:#0f1115;border:1px solid #2a2f38;border-radius:6px;padding:2px 6
 
 <section class="section">
 <h2>Mode d’emploi minimal</h2>
-<p>Avant d’utiliser le RAG Studio, générer les exports depuis la racine du repo :</p>
-<p><code>python tools/build_registers.py</code></p>
-<p>Puis lancer le serveur local :</p>
-<p><code>python tools/rag_server.py</code></p>
-<p>Le portail reste le point d’entrée unique. Les ateliers demeurent séparés pour éviter de mélanger rédaction, retrieval et validation documentaire.</p>
+
+<p>
+Le portail est le point d’entrée unique du dépôt. Il donne accès au RAG Studio, aux ateliers
+de rédaction et aux ateliers de validation documentaire. Ces espaces restent séparés afin de
+distinguer clairement trois opérations : retrouver les sources, rédiger le livre, contrôler
+les références.
+</p>
+
+<h3>1. Reconstruire les exports</h3>
+
+<p>Depuis la racine du dépôt, lancer :</p>
+
+<pre><code>python tools/build_registers.py</code></pre>
+
+<p>
+Cette commande doit être exécutée avant toute session de travail, puis relancée après toute
+modification d’une fiche source, d’un document maître, du registre des références, du fichier
+des citations vérifiées ou du tableau de cohérence thématique.
+</p>
+
+<h3>2. Lancer le serveur local</h3>
+
+<p>Depuis la racine du dépôt, lancer :</p>
+
+<pre><code>python tools/rag_server.py</code></pre>
+
+<p>
+Le terminal doit rester ouvert pendant toute la session. S’il est fermé, le serveur s’arrête.
+</p>
+
+<h3>3. Ordre de travail recommandé</h3>
+
+<ol>
+<li>Reconstruire les exports avec <code>build_registers.py</code>.</li>
+<li>Lancer le serveur avec <code>rag_server.py</code>.</li>
+<li>Interroger les sources dans le RAG Studio.</li>
+<li>Rédiger dans l’atelier de rédaction à partir des sources retrouvées.</li>
+<li>Contrôler le texte dans l’atelier de validation : sources, citations, doublons, périmètre du chapitre.</li>
+</ol>
+
+<h3>4. Règle de contrôle</h3>
+
+<p>
+Aucun passage n’est stabilisé tant que la source n’est pas identifiable, que les citations
+verbatim ne sont pas vérifiées, que le chapitre d’accueil n’est pas confirmé et que le tableau
+de cohérence thématique n’exclut pas un doublon.
+</p>
 </section>
 </main>
 </body>
