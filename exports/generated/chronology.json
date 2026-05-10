@@ -1886,6 +1886,519 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S70-001",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-001",
+      "date": "1983-02",
+      "precision_date": "mois",
+      "event": "Alfredo Suatoni dit avoir rencontré Joy Division autour de février 1983, avant une découverte plus intense deux ans plus tard.",
+      "type": "reception",
+      "people": [
+        "Alfredo Suatoni"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A002"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-002",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-002",
+      "date": 1976,
+      "precision_date": "annee",
+      "event": "Formation initiale autour de Peter Hook, Bernard Sumner et Terry Mason, puis rencontre avec Ian Curtis selon Suatoni.",
+      "type": "biographie",
+      "location": "Manchester",
+      "people": [
+        "Peter Hook",
+        "Bernard Sumner",
+        "Terry Mason",
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A006"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-003",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-003",
+      "date": "1977-07-18",
+      "precision_date": "jour",
+      "event": "Enregistrement d’une première démo aux Pennine Sound Studios selon Suatoni.",
+      "type": "enregistrement",
+      "location": "Pennine Sound Studios, Manchester",
+      "people": [
+        "Ian Curtis",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Stephen Morris"
+      ],
+      "songs": [
+        "Gutz",
+        "Novelty"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A007"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-004",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-004",
+      "date": "1977-10-02",
+      "precision_date": "jour",
+      "event": "Dernière soirée de l’Electric Circus mentionnée par Suatoni, avec enregistrement pour Short Circuit.",
+      "type": "concert",
+      "location": "Electric Circus, Manchester",
+      "songs": [
+        "At a Later Date"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "weak",
+      "related_atoms": [
+        "S70-A008"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-005",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-005",
+      "date": "1978-06-09",
+      "precision_date": "jour",
+      "event": "Joy Division joue à l’ouverture de The Factory selon Suatoni ; affiche de Peter Saville.",
+      "type": "concert",
+      "location": "The Factory / Russell Club, Manchester",
+      "people": [
+        "Tony Wilson",
+        "Peter Saville",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A011"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-006",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-006",
+      "date": "1978-05",
+      "precision_date": "mois",
+      "event": "Sessions RCA de Joy Division, puis abandon du projet et circulation ultérieure sous forme du bootleg Warsaw.",
+      "type": "enregistrement",
+      "people": [
+        "Derek Branwood"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A012"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-007",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-007",
+      "date": "1978-09-20",
+      "precision_date": "jour",
+      "event": "Apparition sur Granada TV pour What’s On avec Shadowplay selon Suatoni.",
+      "type": "television",
+      "location": "Granada TV",
+      "songs": [
+        "Shadowplay"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A013"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-008",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-008",
+      "date": "1979-04",
+      "precision_date": "mois",
+      "event": "Sessions de Unknown Pleasures aux Strawberry Studios de Stockport avec Martin Hannett.",
+      "type": "enregistrement",
+      "location": "Strawberry Studios, Stockport",
+      "people": [
+        "Martin Hannett"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A014",
+        "S70-A015"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-009",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-009",
+      "date": "1979-06",
+      "precision_date": "mois",
+      "event": "Sortie de Unknown Pleasures chez Factory selon Suatoni.",
+      "type": "sortie",
+      "people": [
+        "Peter Saville"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A015"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-010",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-010",
+      "date": "1979-06-04",
+      "precision_date": "jour",
+      "event": "Session Piccadilly Radio produite par Stewart James selon Suatoni.",
+      "type": "enregistrement",
+      "songs": [
+        "These Days",
+        "Candidate",
+        "The Only Mistake",
+        "Atmosphere",
+        "Atrocity Exhibition"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A016"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-011",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-011",
+      "date": "1979-09-08",
+      "precision_date": "jour",
+      "event": "Participation au premier Futurama Science Fiction Music Festival à Leeds selon Suatoni.",
+      "type": "concert",
+      "location": "Leeds",
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A017"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-012",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-012",
+      "date": "1979-12",
+      "precision_date": "mois",
+      "event": "Début d’une tournée européenne en France, Allemagne, Hollande et Belgique selon Suatoni.",
+      "type": "concert",
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A018"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-013",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-013",
+      "date": "1980-01-11",
+      "precision_date": "jour",
+      "event": "Concert au Paradiso d’Amsterdam selon Suatoni.",
+      "type": "concert",
+      "location": "Paradiso, Amsterdam",
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A019"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-014",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-014",
+      "date": "1980-03",
+      "precision_date": "mois",
+      "event": "Sessions de Closer et enregistrements associés à Britannia Row Studios selon Suatoni.",
+      "type": "enregistrement",
+      "location": "Britannia Row Studios",
+      "people": [
+        "Martin Hannett"
+      ],
+      "songs": [
+        "Love Will Tear Us Apart",
+        "These Days",
+        "Atrocity Exhibition"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A020"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-015",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-015",
+      "date": "1980-03",
+      "precision_date": "mois",
+      "event": "Sortie française de Licht und Blindheit chez Sordide Sentimental selon Suatoni.",
+      "type": "sortie",
+      "location": "France",
+      "songs": [
+        "Atmosphere",
+        "Dead Souls"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A021"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-016",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-016",
+      "date": "1980-04-28",
+      "precision_date": "jour",
+      "event": "Tournage de la vidéo promotionnelle de Love Will Tear Us Apart aux TJM Rehearsal Studios selon Suatoni.",
+      "type": "archive",
+      "location": "TJM Rehearsal Studios",
+      "songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A023"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-017",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-017",
+      "date": "1980-05-02",
+      "precision_date": "jour",
+      "event": "Dernier concert de Joy Division, avec Decades puis rappel sur Digital selon Suatoni.",
+      "type": "concert",
+      "songs": [
+        "Decades",
+        "Digital"
+      ],
+      "people": [
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A024"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-018",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-018",
+      "date": "1980-05-18",
+      "precision_date": "jour",
+      "event": "Mort de Ian Curtis à Macclesfield selon la chronologie reprise par Suatoni.",
+      "type": "biographie",
+      "location": "Macclesfield",
+      "people": [
+        "Ian Curtis",
+        "Deborah Curtis"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S70-A025"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-019",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-019",
+      "date": "1980-06-27",
+      "precision_date": "jour",
+      "event": "Sortie de Love Will Tear Us Apart mentionnée par Suatoni dans le contexte posthume.",
+      "type": "sortie",
+      "songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A026"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-020",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-020",
+      "date": "1981-10",
+      "precision_date": "mois",
+      "event": "Sortie de Still selon Suatoni.",
+      "type": "sortie",
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A027"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S70-021",
+    "file": "sources/suatoni/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S70-021",
+      "date": "1979-08-11",
+      "precision_date": "jour",
+      "event": "Interview de Joy Division par David McCullough dans Sounds, présentée par Suatoni comme la première et dernière interview officielle du groupe.",
+      "type": "presse",
+      "people": [
+        "David McCullough",
+        "Peter Hook",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S70"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S70-A035"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S69-001",
     "file": "sources/greig_strong/source.md",
     "heading": "5. Événements chronologiques lisibles par le registre",

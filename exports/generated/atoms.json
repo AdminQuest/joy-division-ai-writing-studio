@@ -19276,6 +19276,1642 @@
   },
   {
     "kind": "atom",
+    "id": "S70",
+    "file": "sources/suatoni/source.md",
+    "heading": "Métadonnées",
+    "data": {
+      "id": "S70",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "type_unite": "source",
+      "concepts": [
+        "joy division",
+        "chronologie",
+        "discographie",
+        "esthétique sonore",
+        "culte"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 10",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_consolider",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A001",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A001 — Préface : un travail de collectionneurs, non une vérité définitive",
+    "data": {
+      "id": "S70-A001",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni ; Alberto Lutriani",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "memoire",
+      "concepts": [
+        "collectionneurs",
+        "vérité documentaire",
+        "non définitif",
+        "valeur du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Alfredo Suatoni",
+        "Alberto Lutriani"
+      ],
+      "methodological_warnings": [
+        "Préface programmatique ; ne pas confondre intention documentaire et preuve."
+      ],
+      "notes": "La préface insiste sur l’effort collectif, la collecte massive de matériaux et le refus d’une prétention définitive."
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A002",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A002 — Découverte personnelle de Joy Division par Suatoni",
+    "data": {
+      "id": "S70-A002",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "memoire",
+      "concepts": [
+        "découverte personnelle",
+        "unknown pleasures",
+        "écoute nocturne",
+        "mémoire subjective"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Transmission"
+      ],
+      "related_events": [
+        "CHR-S70-001"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A003",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A003 — Joy Division comme musique de l’espace métropolitain intérieur",
+    "data": {
+      "id": "S70-A003",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "analyse",
+      "concepts": [
+        "métropole intérieure",
+        "conscience urbaine",
+        "underground",
+        "post-punk",
+        "new wave"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Atrocity Exhibition"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A004",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A004 — Le concert Joy Division comme expérience physique et collective",
+    "data": {
+      "id": "S70-A004",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "reception",
+      "concepts": [
+        "concert",
+        "expérience live",
+        "puissance sonore",
+        "atmosphère urbaine"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 7",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Stephen Morris"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A005",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A005 — Refus de faire du suicide le dernier geste créatif",
+    "data": {
+      "id": "S70-A005",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "analyse",
+      "concepts": [
+        "suicide",
+        "culte",
+        "presse musicale",
+        "mythe curtis",
+        "anti-romantisation"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Mike West"
+      ],
+      "methodological_warnings": [
+        "Point essentiel pour contrer les lectures téléologiques de Curtis."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A006",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A006 — Formation initiale : Hook, Sumner et l’impulsion punk",
+    "data": {
+      "id": "S70-A006",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "biographie",
+      "concepts": [
+        "formation du groupe",
+        "sex pistols",
+        "manchester",
+        "punk"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Hook",
+        "Bernard Sumner",
+        "Ian Curtis",
+        "Terry Mason"
+      ],
+      "related_events": [
+        "CHR-S70-002"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A007",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A007 — Warsaw : nom, line-up, premières démos",
+    "data": {
+      "id": "S70-A007",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "chronologie",
+      "concepts": [
+        "warsaw",
+        "david bowie",
+        "pennine sound studios",
+        "premières démos"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Peter Hook",
+        "Ian Curtis",
+        "Tony Tabac",
+        "Steve Brotherdale",
+        "Stephen Morris"
+      ],
+      "related_songs": [
+        "Gutz",
+        "Novelty"
+      ],
+      "related_events": [
+        "CHR-S70-003"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A008",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A008 — Manchester comme scène locale foisonnante",
+    "data": {
+      "id": "S70-A008",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "sociologie",
+      "concepts": [
+        "manchester",
+        "fanzines",
+        "electric circus",
+        "scène locale",
+        "buzzcocks"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Kevin Cummins",
+        "Paul Morley",
+        "Richard Boon"
+      ],
+      "related_events": [
+        "CHR-S70-004"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A009",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A009 — *An Ideal for Living* : provocation graphique et ambiguïté",
+    "data": {
+      "id": "S70-A009",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": "3-4",
+      "type_unite": "production",
+      "concepts": [
+        "an ideal for living",
+        "enigma records",
+        "graphisme",
+        "ambiguïté fasciste",
+        "nazisme"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Warsaw",
+        "No Love Lost",
+        "Leaders of Men",
+        "Failures"
+      ],
+      "methodological_warnings": [
+        "Les éléments nazis doivent être contextualisés sans complaisance et recoupés avec les sources primaires."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A010",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A010 — Origine du nom Joy Division et *House of Dolls*",
+    "data": {
+      "id": "S70-A010",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "analyse",
+      "concepts": [
+        "joy division nom",
+        "house of dolls",
+        "ka-tzetnik",
+        "nazisme",
+        "no love lost"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 11"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "No Love Lost"
+      ],
+      "methodological_warnings": [
+        "Point sensible ; vérifier avec le texte de Ka-Tzetnik et les sources primaires du groupe."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A011",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A011 — Rob Gretton, Tony Wilson, Factory et Peter Saville",
+    "data": {
+      "id": "S70-A011",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "relation",
+      "concepts": [
+        "rob gretton",
+        "tony wilson",
+        "factory records",
+        "peter saville",
+        "russell club"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 5",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Rob Gretton",
+        "Tony Wilson",
+        "Peter Saville",
+        "Alan Erasmus"
+      ],
+      "related_events": [
+        "CHR-S70-005"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A012",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A012 — Sessions RCA et bootleg *Warsaw*",
+    "data": {
+      "id": "S70-A012",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 4,
+      "type_unite": "production",
+      "concepts": [
+        "rca sessions",
+        "bootleg warsaw",
+        "derek branwood",
+        "transmission"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Derek Branwood"
+      ],
+      "related_songs": [
+        "Transmission"
+      ],
+      "related_events": [
+        "CHR-S70-006"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A013",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A013 — Granada TV, Factory Sample et maturation vers le son Joy Division",
+    "data": {
+      "id": "S70-A013",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 4,
+      "type_unite": "production",
+      "concepts": [
+        "granada tv",
+        "shadowplay",
+        "a factory sample",
+        "digital",
+        "glass"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Shadowplay",
+        "Digital",
+        "Glass"
+      ],
+      "related_events": [
+        "CHR-S70-007"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A014",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A014 — Hannett comme cinquième membre en studio",
+    "data": {
+      "id": "S70-A014",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 4,
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "type_unite": "production",
+      "concepts": [
+        "martin hannett",
+        "cinquième membre",
+        "unknown pleasures",
+        "strawberry studios",
+        "son post-punk"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 7"
+      ],
+      "citation_directe": false,
+      "related_people": [
+        "Martin Hannett"
+      ],
+      "related_songs": [
+        "Unknown Pleasures"
+      ],
+      "related_events": [
+        "CHR-S70-008"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A015",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A015 — *Unknown Pleasures* : synthèse musicale, graphique et mythique",
+    "data": {
+      "id": "S70-A015",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 4,
+      "type_unite": "reception",
+      "concepts": [
+        "unknown pleasures",
+        "peter saville",
+        "pochette",
+        "post-punk",
+        "messages vinyle"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Saville"
+      ],
+      "related_events": [
+        "CHR-S70-009"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A016",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A016 — Piccadilly Radio, Central Sound et « Transmission »",
+    "data": {
+      "id": "S70-A016",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 5,
+      "type_unite": "production",
+      "concepts": [
+        "piccadilly radio",
+        "central sound studios",
+        "transmission",
+        "novelty",
+        "dead souls"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "These Days",
+        "Candidate",
+        "The Only Mistake",
+        "Atmosphere",
+        "Atrocity Exhibition",
+        "Transmission",
+        "Novelty",
+        "Dead Souls",
+        "Something Must Break"
+      ],
+      "related_events": [
+        "CHR-S70-010"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A017",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A017 — Futurama, Scala, Buzzcocks et documents filmés",
+    "data": {
+      "id": "S70-A017",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 5,
+      "type_unite": "archive",
+      "concepts": [
+        "futurama",
+        "scala cinema",
+        "here are the young men",
+        "buzzcocks",
+        "richard boon"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Richard Boon"
+      ],
+      "related_songs": [
+        "Transmission",
+        "She's Lost Control",
+        "Dead Souls"
+      ],
+      "related_events": [
+        "CHR-S70-011"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A018",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A018 — Offre Warner américaine et tournée européenne",
+    "data": {
+      "id": "S70-A018",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 5,
+      "type_unite": "management",
+      "concepts": [
+        "warner bros",
+        "wea",
+        "tournée européenne",
+        "marché américain"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 9"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Rob Gretton",
+        "Peter Saville",
+        "Martin Hannett"
+      ],
+      "related_events": [
+        "CHR-S70-012"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A019",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A019 — Paradiso, Effenaar, Collyer, Marquee, Warehouse",
+    "data": {
+      "id": "S70-A019",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 5,
+      "type_unite": "concert",
+      "concepts": [
+        "paradiso",
+        "eindhoven",
+        "cologne",
+        "marquee",
+        "preston warehouse"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 8",
+        "Chapitre 9"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_events": [
+        "CHR-S70-013"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A020",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A020 — *Closer*, FAC 28 et sessions terminales",
+    "data": {
+      "id": "S70-A020",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 6,
+      "type_unite": "production",
+      "concepts": [
+        "closer",
+        "britannia row",
+        "love will tear us apart",
+        "fac 28",
+        "martin hannett"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 7",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Martin Hannett"
+      ],
+      "related_songs": [
+        "Love Will Tear Us Apart",
+        "These Days",
+        "Atrocity Exhibition",
+        "Komakino"
+      ],
+      "related_events": [
+        "CHR-S70-014"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A021",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A021 — Sordide Sentimental : *Licht und Blindheit*",
+    "data": {
+      "id": "S70-A021",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 6,
+      "type_unite": "production",
+      "concepts": [
+        "sordide sentimental",
+        "licht und blindheit",
+        "atmosphere",
+        "dead souls",
+        "france"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Atmosphere",
+        "Dead Souls"
+      ],
+      "related_events": [
+        "CHR-S70-015"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A022",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A022 — Crises, Moonlight Club et Rainbow Theatre",
+    "data": {
+      "id": "S70-A022",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 6,
+      "type_unite": "biographie",
+      "concepts": [
+        "ian curtis",
+        "épilepsie",
+        "moonlight club",
+        "rainbow theatre",
+        "fatigue"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 11"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "related_songs": [
+        "Sister Ray"
+      ],
+      "methodological_warnings": [
+        "Ne pas médicaliser le récit ; utiliser comme repère à recouper avec Deborah Curtis et Hook."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A023",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A023 — Vidéo promotionnelle « Love Will Tear Us Apart »",
+    "data": {
+      "id": "S70-A023",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 6,
+      "type_unite": "archive",
+      "concepts": [
+        "love will tear us apart",
+        "vidéo promotionnelle",
+        "tjm rehearsal studios",
+        "hangar industriel"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "related_events": [
+        "CHR-S70-016"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A024",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A024 — Derniers concerts et Birmingham",
+    "data": {
+      "id": "S70-A024",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 6,
+      "type_unite": "concert",
+      "concepts": [
+        "derniers concerts",
+        "bury",
+        "ajanta theatre",
+        "birmingham",
+        "still"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "related_songs": [
+        "Decades",
+        "Digital"
+      ],
+      "related_events": [
+        "CHR-S70-017"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A025",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A025 — Mort de Curtis et rejet des légendes",
+    "data": {
+      "id": "S70-A025",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": "6-7",
+      "type_unite": "biographie",
+      "concepts": [
+        "mort de ian curtis",
+        "stroszek",
+        "metallic ko",
+        "légendes",
+        "john peel"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Deborah Curtis",
+        "John Peel"
+      ],
+      "related_songs": [
+        "Transmission"
+      ],
+      "methodological_warnings": [
+        "Les détails du suicide doivent rester sobres et strictement nécessaires."
+      ],
+      "related_events": [
+        "CHR-S70-018"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A026",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A026 — Réception posthume de « Love Will Tear Us Apart » et *Closer*",
+    "data": {
+      "id": "S70-A026",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 7,
+      "type_unite": "reception",
+      "concepts": [
+        "réception posthume",
+        "love will tear us apart",
+        "closer",
+        "factory records",
+        "spéculation"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Saville"
+      ],
+      "related_songs": [
+        "Love Will Tear Us Apart",
+        "Atmosphere"
+      ],
+      "related_events": [
+        "CHR-S70-019"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A027",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A027 — *Still*, *Substance* et la gestion Factory de l’héritage",
+    "data": {
+      "id": "S70-A027",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 7,
+      "type_unite": "production",
+      "concepts": [
+        "still",
+        "substance",
+        "factory records",
+        "rééditions",
+        "atmosphere video"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Atmosphere"
+      ],
+      "related_events": [
+        "CHR-S70-020"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A028",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A028 — Passage à New Order et refus du répertoire Joy Division",
+    "data": {
+      "id": "S70-A028",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 7,
+      "type_unite": "relation",
+      "concepts": [
+        "new order",
+        "changement de nom",
+        "cérémonie",
+        "in a lonely place",
+        "continuité rupture"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Hook",
+        "Stephen Morris",
+        "Bernard Sumner",
+        "Gillian Gilbert"
+      ],
+      "related_songs": [
+        "Ceremony",
+        "In a Lonely Place",
+        "Decades",
+        "Love Will Tear Us Apart"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A029",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A029 — Son de scène : basse, guitare, batterie, voix, danse",
+    "data": {
+      "id": "S70-A029",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 8,
+      "type_unite": "analyse",
+      "concepts": [
+        "son live",
+        "basse",
+        "guitare",
+        "batterie",
+        "danse de curtis"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 7",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Stephen Morris"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A030",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A030 — Son studio : Hannett, bruits concrets et atmosphère",
+    "data": {
+      "id": "S70-A030",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 8,
+      "type_unite": "analyse",
+      "concepts": [
+        "son studio",
+        "martin hannett",
+        "urban degradation",
+        "rusty lift",
+        "closer"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 7"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Martin Hannett"
+      ],
+      "related_songs": [
+        "Insight",
+        "Closer"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A031",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A031 — Cartographie interprétative des chansons",
+    "data": {
+      "id": "S70-A031",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 8,
+      "type_unite": "analyse",
+      "concepts": [
+        "cartographie des chansons",
+        "unknown pleasures",
+        "closer",
+        "motifs sonores",
+        "variations"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Interzone",
+        "I Remember Nothing",
+        "Shadowplay",
+        "Glass",
+        "Digital",
+        "Twenty Four Hours",
+        "The Eternal",
+        "Atrocity Exhibition",
+        "Atmosphere",
+        "She's Lost Control",
+        "Exercise One",
+        "Sound of Music",
+        "A Means to an End",
+        "Heart and Soul",
+        "Komakino",
+        "No Love Lost",
+        "Warsaw",
+        "Wilderness"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A032",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A032 — Joy Division comme équilibre collectif, contre le mythe Curtis seul",
+    "data": {
+      "id": "S70-A032",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": "8-9",
+      "type_unite": "analyse",
+      "concepts": [
+        "collectif",
+        "mythe ian curtis",
+        "martin hannett",
+        "équilibre musical",
+        "mike west"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 7",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett",
+        "Mike West"
+      ],
+      "methodological_warnings": [
+        "Atome important pour combattre les lectures centrées exclusivement sur Curtis."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A033",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A033 — « Love Will Tear Us Apart » comme concession partielle au public",
+    "data": {
+      "id": "S70-A033",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 9,
+      "type_unite": "analyse",
+      "concepts": [
+        "love will tear us apart",
+        "concession au public",
+        "mixage",
+        "morceau simple",
+        "manager"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 7",
+        "Chapitre 11"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "related_people": [
+        "Ian Curtis",
+        "Rob Gretton"
+      ],
+      "methodological_warnings": [
+        "Interprétation polémique et discutable ; recouper avec Hook, Sumner, Morris et les sources de studio."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A034",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A034 — Refus des spéculations métaphysiques et préférence pour les faits",
+    "data": {
+      "id": "S70-A034",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 9,
+      "type_unite": "methode",
+      "concepts": [
+        "méthode documentaire",
+        "faits concrets",
+        "presse musicale",
+        "mystification"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A035",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A035 — Interview Sounds : conflit avec David McCullough",
+    "data": {
+      "id": "S70-A035",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 9,
+      "type_unite": "reception",
+      "concepts": [
+        "david mccullough",
+        "sounds",
+        "presse musicale",
+        "provocation",
+        "interview"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Hook",
+        "Rob Gretton",
+        "David McCullough"
+      ],
+      "related_events": [
+        "CHR-S70-021"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A036",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A036 — Critique des lectures morbides et ambiguës de Joy Division",
+    "data": {
+      "id": "S70-A036",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 9,
+      "type_unite": "analyse",
+      "concepts": [
+        "musique morbide",
+        "nécrophilie critique",
+        "ambiguïté",
+        "culte mort",
+        "réception"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Utile pour construire une réfutation des lectures morbides simplistes."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A037",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A037 — Curtis : mort avec l’art, non pour l’art",
+    "data": {
+      "id": "S70-A037",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 10,
+      "type_unite": "analyse",
+      "concepts": [
+        "ian curtis",
+        "martyr",
+        "suicide",
+        "art et mort",
+        "anti-mythification"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Bernard Sumner"
+      ],
+      "methodological_warnings": [
+        "Formulation utile mais à manier sobrement."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A038",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A038 — Joy Division comme communication au-delà du langage",
+    "data": {
+      "id": "S70-A038",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 10,
+      "type_unite": "analyse",
+      "concepts": [
+        "communication",
+        "langage",
+        "musique",
+        "transmission"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Transmission"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A039",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A039 — Hook : refus d’imposer le sens des paroles",
+    "data": {
+      "id": "S70-A039",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": 11,
+      "type_unite": "memoire",
+      "concepts": [
+        "paroles",
+        "interprétation",
+        "peter hook",
+        "refus du message unique"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Peter Hook"
+      ],
+      "methodological_warnings": [
+        "Citation rapportée ; vérifier l’origine exacte si reprise."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S70-A040",
+    "file": "sources/suatoni/source.md",
+    "heading": "S70-A040 — Classement thématique des paroles de Curtis",
+    "data": {
+      "id": "S70-A040",
+      "source_id": "S70",
+      "source_label": "S70 — Suatoni, Joy Division, s.d.",
+      "source_short_title": "Suatoni, Joy Division, s.d.",
+      "source_year": "s.d.",
+      "auteur": "Alfredo Suatoni",
+      "titre": "Joy Division",
+      "pages_pdf": "11-12",
+      "type_unite": "analyse",
+      "concepts": [
+        "paroles",
+        "modernité",
+        "vie souterraine",
+        "mémoire fragmentaire",
+        "doute",
+        "prémonition"
+      ],
+      "chapitres": [
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Failures",
+        "Leaders of Men",
+        "The Kill",
+        "At a Later Date",
+        "Transmission",
+        "These Days",
+        "Ice Age",
+        "Isolation",
+        "No Love Lost",
+        "Warsaw",
+        "Komakino",
+        "Shadowplay",
+        "Day of the Lords",
+        "Interzone",
+        "I Remember Nothing",
+        "From Safety to Where...?",
+        "Autosuggestion",
+        "Atmosphere",
+        "Disorder",
+        "Decades",
+        "The Eternal",
+        "Digital",
+        "Something Must Break",
+        "Insight",
+        "Atrocity Exhibition"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S69",
     "file": "sources/greig_strong/source.md",
     "heading": "Métadonnées",
