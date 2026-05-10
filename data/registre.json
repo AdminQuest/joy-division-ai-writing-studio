@@ -19,12 +19,12 @@
   },
   {
     "id": "S03",
-    "source_label": "S03 — ONS, séries emploi / population, s.d.",
-    "auteur": "ONS",
+    "source_label": "S03 — ONS / Demographia, séries emploi / population, s.d.",
+    "auteur": "ONS / Demographia",
     "titre": "Séries statistiques emploi / population",
     "annee": "s.d.",
-    "statut": "sécurisée",
-    "usage": "emploi"
+    "statut": "à consolider",
+    "usage": "emploi ; population"
   },
   {
     "id": "S04",
@@ -55,12 +55,12 @@
   },
   {
     "id": "S41",
-    "source_label": "S41 — Hook, Unknown Pleasures, 2012",
-    "auteur": "Peter Hook",
-    "titre": "Unknown Pleasures: Inside Joy Division",
-    "annee": "2012",
-    "statut": "atomisée",
-    "usage": "mémoire interne ; formation du groupe ; dynamique musicale ; Factory"
+    "source_label": "S41 — Blue Orchids, référence historique à consolider, s.d.",
+    "auteur": "Blue Orchids",
+    "titre": "Référence historique à consolider",
+    "annee": "s.d.",
+    "statut": "réservée historique ; à consolider",
+    "usage": "post-punk ; scène de Manchester"
   },
   {
     "id": "S45",
@@ -132,7 +132,17 @@
     "auteur": "Simon Reynolds",
     "titre": "Rip It Up and Start Again: Postpunk 1978–1984",
     "annee": "2005/2006",
-    "statut": "atomisation première passe ; source critique majeure",
+    "statut": "atomisation deuxième passe ; source critique majeure",
     "usage": "post-punk ; Joy Division ; Manchester ; Factory ; Ballard ; DIY ; New Order ; goth ; héritage"
+  },
+  {
+    "id": "S73",
+    "legacy_id": "S41-REPO",
+    "source_label": "S73 — Hook, Unknown Pleasures, 2012",
+    "auteur": "Peter Hook",
+    "titre": "Unknown Pleasures: Inside Joy Division",
+    "annee": "2012",
+    "statut": "atomisée ; déplacée depuis S41 pour libérer l’identifiant historique",
+    "usage": "mémoire interne ; formation du groupe ; dynamique musicale ; Factory"
   }
 ]
