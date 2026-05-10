@@ -3,6 +3,14 @@ let atelierData=[];
 let registreData=[];
 let niveauData=[];
 let corpus=[];
+let sourceLabels={};
+
+const KNOWN_SOURCE_LABELS={
+  S41:'S41 — Hook, Unknown Pleasures, 2012',
+  S45:'S45 — D. Curtis, Touching from a Distance, 1995',
+  S46:'S46 — Johnson/Morley, An Ideal for Living, 1984',
+  S47:'S47 — West, Joy Division, 1983'
+};
 
 async function loadJson(path,fallback){
   try{
@@ -22,6 +30,8 @@ async function load(){
   niveauData=await loadJson('../../data/niveaux.json',[]);
   corpus=await loadJson('../../exports/generated/all_records.json',[]);
 
+  sourceLabels=buildSourceLabels(corpus);
+
   populateSelect('chapitre',chapData);
   populateSelect('atelier',atelierData);
   populateSelect('niveau',niveauData);
@@ -39,10 +49,56 @@ function populateSelect(id,data){
   data.forEach(item=>select.add(new Option(item.nom,item.id)));
 }
 
+function compactTitle(title){
+  if(!title)return '';
+  return String(title)
+    .replace(/^Unknown Pleasures: Inside Joy Division$/,'Unknown Pleasures')
+    .replace(/^An Ideal for Living: An History of Joy Division$/,'An Ideal for Living')
+    .replace(/^Touching from a Distance: Ian Curtis and Joy Division$/,'Touching from a Distance')
+    .slice(0,42);
+}
+
+function compactAuthor(author){
+  if(!author)return '';
+  return String(author)
+    .replace('Peter Hook','Hook')
+    .replace('Deborah Curtis','D. Curtis')
+    .replace('Mike West','West')
+    .replace('Mark Johnson; Paul Morley; David Lees; Jon Wozencroft','Johnson/Morley')
+    .replace('Mark Johnson','Johnson')
+    .slice(0,28);
+}
+
+function findYear(data){
+  const values=[data?.annee,data?.year,data?.date,data?.publication_year,data?.titre,data?.reference].filter(Boolean).join(' ');
+  const match=String(values).match(/\b(19|20)\d{2}\b/);
+  return match?match[0]:'';
+}
+
+function buildSourceLabels(records){
+  const labels={...KNOWN_SOURCE_LABELS};
+
+  records.forEach(item=>{
+    const d=item.data||{};
+    const id=d.source_id;
+    if(!id||labels[id])return;
+
+    const author=compactAuthor(d.auteur||d.author);
+    const title=compactTitle(d.titre||d.title);
+    const year=findYear(d);
+
+    const parts=[id];
+    const detail=[author,title,year].filter(Boolean).join(', ');
+    labels[id]=detail?`${id} — ${detail}`:id;
+  });
+
+  return labels;
+}
+
 function populateSources(){
   const select=document.getElementById('sources');
   const ids=[...new Set(corpus.map(item=>item.data?.source_id).filter(Boolean))].sort();
-  ids.forEach(id=>select.add(new Option(id,id)));
+  ids.forEach(id=>select.add(new Option(sourceLabels[id]||id,id)));
 }
 
 function populateContextChapters(){
@@ -83,7 +139,8 @@ function buildContext(){
 
   return filtered.map(item=>{
     const d=item.data||{};
-    return `- ${item.id} | ${d.auteur||'Auteur inconnu'} | ${d.titre||''} | concepts : ${(d.concepts||[]).join(', ')} | chapitres : ${(d.chapitres||[]).join(', ')}`;
+    const sourceLabel=sourceLabels[d.source_id]||d.source_id||'Source inconnue';
+    return `- ${item.id} | ${sourceLabel} | ${d.auteur||'Auteur inconnu'} | ${d.titre||''} | concepts : ${(d.concepts||[]).join(', ')} | chapitres : ${(d.chapitres||[]).join(', ')}`;
   }).join('\n');
 }
 
