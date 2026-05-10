@@ -947,6 +947,333 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S72-001",
+    "file": "sources/reynolds_rip_it_up/source.md",
+    "heading": "Événements chronologiques de première passe",
+    "data": {
+      "id": "CHR-S72-001",
+      "date": "1977-01",
+      "precision_date": "mois",
+      "event": "Sortie de Spiral Scratch des Buzzcocks sur New Hormones, présenté par Reynolds comme jalon DIY et régionaliste mancunien.",
+      "type": "sortie",
+      "location": "Manchester",
+      "people": [
+        "Richard Boon",
+        "Pete Shelley",
+        "Howard Devoto"
+      ],
+      "songs": [
+        "Boredom"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S72-A008"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-002",
+    "file": "sources/reynolds_rip_it_up/source.md",
+    "heading": "Événements chronologiques de première passe",
+    "data": {
+      "id": "CHR-S72-002",
+      "date": 1978,
+      "precision_date": "annee",
+      "event": "Factory Records impose une identité moderniste par Peter Saville et une logique de catalogue conceptuel selon Reynolds.",
+      "type": "management",
+      "location": "Manchester",
+      "people": [
+        "Tony Wilson",
+        "Peter Saville",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S72-A011",
+        "S72-A012"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-003",
+    "file": "sources/reynolds_rip_it_up/source.md",
+    "heading": "Événements chronologiques de première passe",
+    "data": {
+      "id": "CHR-S72-003",
+      "date": "1978-10-11",
+      "precision_date": "jour",
+      "event": "Enregistrement de Digital et Glass pour A Factory Sample avec Martin Hannett, moment charnière du son Joy Division selon Reynolds.",
+      "type": "enregistrement",
+      "location": "Cargo Studios, Rochdale",
+      "people": [
+        "Martin Hannett"
+      ],
+      "songs": [
+        "Digital",
+        "Glass"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S72-A017",
+        "S72-A022"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-004",
+    "file": "sources/reynolds_rip_it_up/source.md",
+    "heading": "Événements chronologiques de première passe",
+    "data": {
+      "id": "CHR-S72-004",
+      "date": 1979,
+      "precision_date": "annee",
+      "event": "Joy Division devient, avec The Fall, l’un des deux pôles majeurs de la scène mancunienne analysée par Reynolds.",
+      "type": "reception",
+      "location": "Manchester",
+      "people": [
+        "Ian Curtis",
+        "Mark E. Smith"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S72-A015",
+        "S72-A023"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-005",
+    "file": "sources/reynolds_rip_it_up/source.md",
+    "heading": "Événements chronologiques de première passe",
+    "data": {
+      "id": "CHR-S72-005",
+      "date": 2005,
+      "precision_date": "annee",
+      "event": "Première publication de Rip It Up and Start Again par Faber and Faber.",
+      "type": "publication",
+      "people": [
+        "Simon Reynolds"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S72-A001"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-006",
+    "file": "sources/reynolds_rip_it_up/source.md",
+    "heading": "Événements chronologiques de première passe",
+    "data": {
+      "id": "CHR-S72-006",
+      "date": 2006,
+      "precision_date": "annee",
+      "event": "Publication de l’édition Penguin de Rip It Up and Start Again utilisée pour l’atomisation.",
+      "type": "publication",
+      "people": [
+        "Simon Reynolds"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S72-A001"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-007",
+    "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S72-007",
+      "date": 1977,
+      "precision_date": "annee",
+      "event": "Les Desperate Bicycles diffusent par leurs singles l’injonction DIY « it was easy, it was cheap—go and do it », selon Reynolds.",
+      "type": "sortie",
+      "people": [
+        "Desperate Bicycles"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S72-A034"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-008",
+    "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S72-008",
+      "date": 1978,
+      "precision_date": "annee",
+      "event": "Sheffield apparaît chez Reynolds comme scène industrielle jumelle de Manchester, nourrissant Cabaret Voltaire et Human League.",
+      "type": "scene",
+      "location": "Sheffield",
+      "people": [
+        "Richard H. Kirk",
+        "Martyn Ware"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S72-A040",
+        "S72-A041",
+        "S72-A042"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-009",
+    "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S72-009",
+      "date": "1983-03",
+      "precision_date": "mois",
+      "event": "Blue Monday cristallise la mutation de New Order vers la dance music et le club dans le cadre post-punk/New Pop analysé par Reynolds.",
+      "type": "sortie",
+      "songs": [
+        "Blue Monday"
+      ],
+      "people": [
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Gillian Gilbert"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S72-A052"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-010",
+    "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S72-010",
+      "date": 1979,
+      "precision_date": "annee",
+      "event": "Martin Hannett décrit Joy Division comme une musique de danse aux accents gothiques selon Reynolds.",
+      "type": "reception",
+      "people": [
+        "Martin Hannett"
+      ],
+      "songs": [
+        "Unknown Pleasures"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S72-A054",
+        "S72-A059"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-011",
+    "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S72-011",
+      "date": "1982-07",
+      "precision_date": "mois",
+      "event": "Ouverture du Batcave à Soho, lieu central de la première scène goth britannique selon Reynolds.",
+      "type": "lieu",
+      "location": "Soho, Londres",
+      "sources": [
+        "S72"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S72-A056"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-012",
+    "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S72-012",
+      "date": "1983-01",
+      "precision_date": "mois",
+      "event": "NME proclame l’arrivée de Positive Punk, moment de reconnaissance médiatique de la scène goth selon Reynolds.",
+      "type": "reception",
+      "sources": [
+        "S72"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S72-A057"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S72-013",
+    "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S72-013",
+      "date": 2005,
+      "precision_date": "annee",
+      "event": "Rip It Up and Start Again fixe un récit critique influent du post-punk comme archive réactivable.",
+      "type": "publication",
+      "people": [
+        "Simon Reynolds"
+      ],
+      "sources": [
+        "S72"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S72-A061"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S46-1976-001",
     "file": "sources/johnson_morley_an_ideal_for_living/source.md",
     "heading": "CHR-S46-1976-001 — Sex Pistols à Manchester",
