@@ -81,6 +81,40 @@ def nearest_heading(text: str, pos: int) -> Optional[str]:
     return headings[-1][1].strip()
 
 
+def normalize_yaml(raw: str) -> str:
+    """Quote common plain scalar values that contain ': '.
+
+    Markdown atomisation files often contain bibliographic titles such as
+    'Unknown Pleasures: Inside Joy Division'. Plain YAML scalars cannot contain
+    an unquoted colon followed by a space, so PyYAML rejects those blocks. This
+    normalizer keeps the source files readable while making the parser tolerant.
+    """
+    fixed_lines: List[str] = []
+    mapping_line = re.compile(r"^(\s*[A-Za-z_][A-Za-z0-9_\-]*:\s*)(.+?)\s*$")
+
+    for line in raw.splitlines():
+        match = mapping_line.match(line)
+        if not match:
+            fixed_lines.append(line)
+            continue
+
+        prefix, value = match.groups()
+        stripped = value.strip()
+
+        if not stripped or stripped[0] in {'\"', "'", "[", "{", "|", ">"}:
+            fixed_lines.append(line)
+            continue
+
+        if ": " not in stripped:
+            fixed_lines.append(line)
+            continue
+
+        escaped = stripped.replace("\\", "\\\\").replace('"', '\\"')
+        fixed_lines.append(f'{prefix}"{escaped}"')
+
+    return "\n".join(fixed_lines)
+
+
 def extract_yaml_blocks(path: Path) -> List[Tuple[Dict[str, Any], Optional[str]]]:
     text = path.read_text(encoding="utf-8")
     blocks: List[Tuple[Dict[str, Any], Optional[str]]] = []
@@ -91,7 +125,7 @@ def extract_yaml_blocks(path: Path) -> List[Tuple[Dict[str, Any], Optional[str]]
         if not raw:
             continue
         try:
-            loaded = yaml.safe_load(raw)
+            loaded = yaml.safe_load(normalize_yaml(raw))
         except yaml.YAMLError as exc:
             blocks.append(({"__parse_error__": str(exc), "__raw__": raw}, heading))
             continue
