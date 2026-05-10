@@ -54,7 +54,7 @@ references_from_data_registre:
   - S73
 ```
 
-Constat : le registre JSON contient désormais `S41` comme entrée historique Blue Orchids à consolider et `S73` comme entrée canonique repo pour Peter Hook.
+Constat : le registre JSON contient désormais `S41` comme entrée canonique repo de Peter Hook et `S73` comme entrée historique Blue Orchids à consolider.
 
 ---
 
@@ -62,16 +62,16 @@ Constat : le registre JSON contient désormais `S41` comme entrée historique Bl
 
 ```yaml
 atomized_sources_known:
+  - S41: Hook, Unknown Pleasures, 2012
   - S45: Curtis, Touching from a Distance, 1995
   - S68: Broll, Joy Division, s.d.
   - S69: Greig & Strong, But We Remember When We Were Young, 2014
   - S70: Suatoni, Joy Division, s.d.
   - S71: Flowers, Dreams Never End, 1995/2012
   - S72: Reynolds, Rip It Up and Start Again, 2005/2006
-  - S73: Hook, Unknown Pleasures, 2012
 ```
 
-À vérifier : les fichiers `sources/hook/*` contiennent encore des identifiants internes `S41-*` et `S41-Q*`. Ils doivent être migrés vers `S73-*` et `S73-Q*` par opération dédiée.
+Décision : les fichiers `sources/hook/*` restent en `S41-*` et `S41-Q*`. Aucune migration Hook vers `S73` ne doit être effectuée.
 
 ---
 
@@ -87,29 +87,32 @@ references_not_yet_atomized_or_incomplete:
   - S06
   - S07-S34
   - S36
-  - S38-S41
+  - S38-S40
   - S46
   - S47
+  - S73
 ```
 
 Traitement recommandé :
 
 ```text
 S01-S06 : consolider références complètes et usage chapitre 1 ; atomisation seulement si documents complets disponibles.
-S07-S41 : compléter depuis les registres historiques et sources disponibles.
+S07-S40 : compléter depuis les registres historiques et sources disponibles.
+S41 : conserver Peter Hook, déjà atomisé.
 S46 : atomiser Mark Johnson si le fichier source est disponible.
 S47 : atomiser Mike West si le fichier source est disponible.
+S73 : consolider Blue Orchids si la référence est conservée.
 ```
 
 ---
 
-## 5. Import historique S07-S41
+## 5. Import historique S07-S40 + déplacement Blue Orchids
 
 ```yaml
-range: S07-S41
+range: S07-S40
 status: imported_in_master_references
 risk: "Références incomplètes, souvent conceptuelles ou génériques, nécessitant consolidation bibliographique."
-decision: "Les identifiants S07-S41 ne doivent plus être réattribués. S41 est réservé à Blue Orchids ; Peter Hook est déplacé vers S73."
+decision: "Les identifiants S07-S40 ne doivent plus être réattribués. L’entrée historique Blue Orchids anciennement signalée en S41 est déplacée vers S73 afin de conserver Hook en S41."
 ```
 
 ---
@@ -122,12 +125,14 @@ known_identifier_conflicts:
     legacy_id: S20
     source: Simon Reynolds, Rip It Up and Start Again
     decision: "S72 conservé comme identifiant repo ; S20 conservé en legacy_id."
-  - canonical_id: S73
-    legacy_id:
-      - S41-REPO
-      - S35
+  - canonical_id: S41
+    legacy_id: S35
     source: Peter Hook, Unknown Pleasures
-    decision: "S73 devient l’identifiant canonique repo pour Hook ; S41 est libéré pour Blue Orchids."
+    decision: "S41 reste l’identifiant canonique repo pour Hook."
+  - canonical_id: S73
+    legacy_id: S41-HIST
+    source: Blue Orchids
+    decision: "Blue Orchids est déplacé vers S73 pour éviter toute collision avec Hook."
   - canonical_id: S45
     legacy_id: S37
     source: Deborah Curtis, Touching from a Distance
@@ -138,7 +143,7 @@ known_identifier_conflicts:
     decision: "S68 conservé comme identifiant repo ; identifiant long conservé en legacy_id."
 ```
 
-Action : migrer les fichiers locaux de Hook de `S41` vers `S73` pour éviter les collisions dans les exports.
+Action : ne pas migrer les fichiers locaux de Hook. Les atomes `S41-*` et citations `S41-Q*` sont cohérents.
 
 ---
 
@@ -180,7 +185,7 @@ quotes_to_import_from_atomization:
 Priorité recommandée :
 
 ```text
-1. Migrer Hook de S41-Q vers S73-Q, puis importer.
+1. Importer Hook en conservant S41-Q.
 2. Deborah Curtis : source primaire.
 3. Reynolds : cadre critique déjà utilisé dans les chapitres.
 4. Greig & Strong : chapitre 14.
@@ -214,9 +219,9 @@ arbitrage: "..."
 
 ```yaml
 before_deleting_historical_files:
-  - compléter les références importées S07-S41
+  - compléter les références importées S07-S40
   - consolider les références complètes S01-S06
-  - migrer les fichiers Hook de S41 vers S73
+  - consolider Blue Orchids désormais en S73
   - importer les citations historiques
   - importer les citations atomisées restantes
   - vérifier les citations candidates marquées a_reverifier
@@ -228,13 +233,11 @@ before_deleting_historical_files:
 
 ## 11. Conclusion opérationnelle
 
-Le repo dispose désormais d’une couche de consolidation plus cohérente.
-
-La collision `S41` est corrigée au niveau des registres :
+La collision `S41` est corrigée dans le sens retenu par l’utilisateur :
 
 ```text
-S41 = Blue Orchids, entrée historique à consolider
-S73 = Peter Hook, Unknown Pleasures, 2012
+S41 = Peter Hook, Unknown Pleasures, 2012
+S73 = Blue Orchids, entrée historique à consolider
 ```
 
-Il reste une opération technique à effectuer : migrer les identifiants internes des fichiers `sources/hook/*` de `S41` vers `S73`.
+Les fichiers `sources/hook/*` restent cohérents avec `S41` et ne doivent pas être migrés.
