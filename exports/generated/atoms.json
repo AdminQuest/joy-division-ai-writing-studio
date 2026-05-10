@@ -8782,6 +8782,3152 @@
   },
   {
     "kind": "atom",
+    "id": "S71",
+    "file": "sources/flowers/source.md",
+    "heading": "Métadonnées",
+    "data": {
+      "id": "S71",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "type_unite": "source",
+      "concepts": [
+        "joy division",
+        "new order",
+        "factory records",
+        "manchester",
+        "transition posthume"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 10",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "atomisation_premiere_passe",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A001",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A001 — Introduction : la découverte américaine de New Order puis de Joy Division",
+    "data": {
+      "id": "S71-A001",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "8-10",
+      "type_unite": "reception",
+      "concepts": [
+        "réception américaine",
+        "new wave radio",
+        "wlir",
+        "new order",
+        "joy division après-coup"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Temptation",
+        "Age of Consent",
+        "Love Will Tear Us Apart",
+        "Transmission",
+        "Novelty",
+        "Ceremony",
+        "Isolation"
+      ],
+      "notes": "Flowers construit son introduction comme une autobiographie d’auditeur : il découvre New Order à la radio américaine, puis revient vers Joy Division."
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A002",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A002 — Le projet du livre : fanzine devenu biographie",
+    "data": {
+      "id": "S71-A002",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "9-12",
+      "type_unite": "methode",
+      "concepts": [
+        "fanzine",
+        "biographie",
+        "collection",
+        "enquête amateur",
+        "culture fan"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Hook",
+        "Tony Wilson",
+        "Michael Shamberg",
+        "Rob Gretton",
+        "Peter Saville"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A003",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A003 — Manchester : déclin industriel et enfance de Hook et Sumner",
+    "data": {
+      "id": "S71-A003",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "16-17",
+      "type_unite": "contexte",
+      "concepts": [
+        "manchester",
+        "déclin industriel",
+        "enfance ouvrière",
+        "peter hook",
+        "bernard sumner"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Hook",
+        "Bernard Sumner"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A004",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A004 — Le concert des Sex Pistols comme événement d’autorisation",
+    "data": {
+      "id": "S71-A004",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 17,
+      "type_unite": "chronologie",
+      "concepts": [
+        "sex pistols",
+        "free trade hall",
+        "punk",
+        "autorisation musicale"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Hook",
+        "Bernard Sumner",
+        "Terry Mason"
+      ],
+      "related_events": [
+        "CHR-S71-001"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A005",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A005 — Stiff Kittens : achat des instruments et premier nom",
+    "data": {
+      "id": "S71-A005",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 17,
+      "type_unite": "biographie",
+      "concepts": [
+        "stiff kittens",
+        "apprentissage autodidacte",
+        "black swan pub",
+        "instruments"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Hook",
+        "Bernard Sumner",
+        "Terry Mason"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A006",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A006 — Ian Curtis : culture littéraire et entrée dans le groupe",
+    "data": {
+      "id": "S71-A006",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "17-18",
+      "type_unite": "biographie",
+      "concepts": [
+        "ian curtis",
+        "debbie woodruffe",
+        "littérature",
+        "jg ballard",
+        "william burroughs"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Deborah Curtis"
+      ],
+      "related_songs": [
+        "Gutz",
+        "Tension",
+        "The Kill",
+        "At a Later Date"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A007",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A007 — Electric Circus : premier concert, changement de nom et Tony Tabac",
+    "data": {
+      "id": "S71-A007",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "18-20",
+      "type_unite": "chronologie",
+      "concepts": [
+        "electric circus",
+        "warsaw",
+        "tony tabac",
+        "buzzcocks",
+        "paul morley"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Tony Tabac",
+        "Paul Morley"
+      ],
+      "related_events": [
+        "CHR-S71-002"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A008",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A008 — Rob Gretton découvre Warsaw à Rafters",
+    "data": {
+      "id": "S71-A008",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 20,
+      "type_unite": "relation",
+      "concepts": [
+        "rob gretton",
+        "rafters",
+        "concert sauvage",
+        "découverte du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Rob Gretton",
+        "Ian Curtis"
+      ],
+      "related_events": [
+        "CHR-S71-003"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A009",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A009 — « Novelty » comme premier accomplissement du groupe",
+    "data": {
+      "id": "S71-A009",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "20-21",
+      "type_unite": "analyse",
+      "concepts": [
+        "novelty",
+        "maturité artistique",
+        "autoréflexivité",
+        "cause musicale"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 7"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Novelty"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A010",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A010 — Pennine Sound Studios et la première démo",
+    "data": {
+      "id": "S71-A010",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 21,
+      "type_unite": "production",
+      "concepts": [
+        "pennine sound studios",
+        "première démo",
+        "one take",
+        "steve brotherdale"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Steve Brotherdale"
+      ],
+      "related_songs": [
+        "Inside the Line",
+        "Gutz",
+        "At a Later Date",
+        "The Kill",
+        "You're No Good for Me"
+      ],
+      "related_events": [
+        "CHR-S71-004"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A011",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A011 — Brotherdale, The Panik et arrivée de Stephen Morris",
+    "data": {
+      "id": "S71-A011",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 21,
+      "type_unite": "biographie",
+      "concepts": [
+        "stephen morris",
+        "steve brotherdale",
+        "the panik",
+        "stabilisation du line-up"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Steve Brotherdale",
+        "Stephen Morris",
+        "Ian Curtis"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A012",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A012 — Fermeture de l’Electric Circus et incident Rudolf Hess",
+    "data": {
+      "id": "S71-A012",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "21-23",
+      "type_unite": "reception",
+      "concepts": [
+        "electric circus",
+        "rudolf hess",
+        "nazi rumours",
+        "short circuit",
+        "paul morley"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Tony Wilson",
+        "Paul Morley"
+      ],
+      "related_songs": [
+        "At a Later Date"
+      ],
+      "related_events": [
+        "CHR-S71-005"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A013",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A013 — De Warsaw à Joy Division : *House of Dolls* et obscurité musicale",
+    "data": {
+      "id": "S71-A013",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "28-29",
+      "type_unite": "analyse",
+      "concepts": [
+        "house of dolls",
+        "joy division nom",
+        "obscurité",
+        "industrie musicale",
+        "prostitution métaphorique"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 11"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "No Love Lost"
+      ],
+      "related_events": [
+        "CHR-S71-006"
+      ],
+      "methodological_warnings": [
+        "Point sensible ; recouper avec Ka-Tzetnik et les sources primaires."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A014",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A014 — Pips, Stiff Test et rencontre décisive avec Wilson et Gretton",
+    "data": {
+      "id": "S71-A014",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "29-30",
+      "type_unite": "chronologie",
+      "concepts": [
+        "pips",
+        "stiff test",
+        "tony wilson",
+        "rob gretton",
+        "rafters"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Tony Wilson",
+        "Rob Gretton",
+        "Gillian Gilbert"
+      ],
+      "related_events": [
+        "CHR-S71-007"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A015",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A015 — RCA Album : enregistrement rapide, contrat défavorable et retrait",
+    "data": {
+      "id": "S71-A015",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "30-31",
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "type_unite": "production",
+      "concepts": [
+        "rca album",
+        "derek branwood",
+        "interzone",
+        "contrat défavorable",
+        "rob gretton manager"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "citation_directe": false,
+      "related_people": [
+        "Derek Branwood",
+        "Rob Gretton",
+        "Terry Mason"
+      ],
+      "related_songs": [
+        "The Drawback",
+        "Walked in Line",
+        "Novelty",
+        "Transmission",
+        "Ice Age",
+        "Shadowplay",
+        "Interzone"
+      ],
+      "related_events": [
+        "CHR-S71-008"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A016",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A016 — The Factory : origine du club, Wilson, Erasmus et Saville",
+    "data": {
+      "id": "S71-A016",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "31-34",
+      "type_unite": "relation",
+      "concepts": [
+        "factory club",
+        "tony wilson",
+        "alan erasmus",
+        "peter saville",
+        "russell club"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Tony Wilson",
+        "Alan Erasmus",
+        "Peter Saville"
+      ],
+      "related_events": [
+        "CHR-S71-009"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A017",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A017 — *An Ideal for Living* : Enigma, graphisme et anti-fascisme mal compris",
+    "data": {
+      "id": "S71-A017",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "34-35",
+      "type_unite": "production",
+      "concepts": [
+        "an ideal for living",
+        "enigma",
+        "graphisme fascisant",
+        "anti-fascisme",
+        "collector"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Stephen Morris"
+      ],
+      "related_songs": [
+        "Leaders of Men",
+        "No Love Lost"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A018",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A018 — *A Factory Sample* : naissance du label et rôle de Hannett",
+    "data": {
+      "id": "S71-A018",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "36-38",
+      "type_unite": "production",
+      "concepts": [
+        "a factory sample",
+        "martin hannett",
+        "digital",
+        "glass",
+        "factory records"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Tony Wilson",
+        "Alan Erasmus",
+        "Martin Hannett",
+        "Peter Saville"
+      ],
+      "related_songs": [
+        "Digital",
+        "Glass"
+      ],
+      "related_events": [
+        "CHR-S71-010"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A019",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A019 — Début londonien, danse de Curtis et interdiction des strobes",
+    "data": {
+      "id": "S71-A019",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "38-40",
+      "type_unite": "concert",
+      "concepts": [
+        "hope and anchor",
+        "danse de curtis",
+        "épilepsie",
+        "she's lost control",
+        "strobes"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 11"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Stephen Morris"
+      ],
+      "related_songs": [
+        "She's Lost Control"
+      ],
+      "related_events": [
+        "CHR-S71-011"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A020",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A020 — Première Peel Session : sortie du régionalisme",
+    "data": {
+      "id": "S71-A020",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 40,
+      "type_unite": "production",
+      "concepts": [
+        "john peel",
+        "bbc radio one",
+        "peel session",
+        "transmission",
+        "audience nationale"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "John Peel"
+      ],
+      "related_songs": [
+        "Exercise One",
+        "Insight",
+        "She's Lost Control",
+        "Transmission"
+      ],
+      "related_events": [
+        "CHR-S71-012"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A021",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A021 — Factory plutôt que Warner : le pari d’indépendance",
+    "data": {
+      "id": "S71-A021",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "40-42",
+      "type_unite": "management",
+      "concepts": [
+        "martin rushent",
+        "genetic records",
+        "warner brothers",
+        "indépendance",
+        "factory records"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Martin Rushent",
+        "Tony Wilson",
+        "Rob Gretton"
+      ],
+      "related_events": [
+        "CHR-S71-013"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A022",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A022 — *Unknown Pleasures* : désenchantement, Hannett, Saville et indépendance",
+    "data": {
+      "id": "S71-A022",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "42-47",
+      "type_unite": "analyse",
+      "concepts": [
+        "unknown pleasures",
+        "martin hannett",
+        "peter saville",
+        "pulsar",
+        "désenchantement"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Martin Hannett",
+        "Peter Saville",
+        "Tony Wilson",
+        "Bernard Sumner"
+      ],
+      "related_songs": [
+        "Disorder",
+        "Day of the Lords",
+        "Candidate",
+        "Insight",
+        "New Dawn Fades",
+        "She's Lost Control",
+        "Shadowplay",
+        "Wilderness",
+        "Interzone",
+        "I Remember Nothing"
+      ],
+      "related_events": [
+        "CHR-S71-014"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A023",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A023 — Silence médiatique, sens ouvert et défiance envers la presse",
+    "data": {
+      "id": "S71-A023",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 47,
+      "type_unite": "reception",
+      "concepts": [
+        "presse musicale",
+        "sens ouvert",
+        "refus interviews",
+        "autonomie du public"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "À croiser avec Hook et les entretiens contemporains."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A024",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A024 — Sessions 1979, « Transmission » et l’accident de tournée",
+    "data": {
+      "id": "S71-A024",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "47-49",
+      "type_unite": "chronologie",
+      "concepts": [
+        "piccadilly radio",
+        "granada tv",
+        "transmission",
+        "nashville club",
+        "accident de van"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 9"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Candidate",
+        "These Days",
+        "Atrocity Exhibition",
+        "Atmosphere",
+        "Chance",
+        "Transmission",
+        "Novelty",
+        "Dead Souls",
+        "Something Must Break"
+      ],
+      "related_events": [
+        "CHR-S71-015"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A025",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A025 — Fac 9, Buzzcocks, Plan K et rareté des images",
+    "data": {
+      "id": "S71-A025",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "50-52",
+      "type_unite": "archive",
+      "concepts": [
+        "fac 9",
+        "malcolm whitehead",
+        "plan k",
+        "here are the young men",
+        "rareté audiovisuelle"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Malcolm Whitehead",
+        "William Burroughs",
+        "Richard Boon"
+      ],
+      "related_songs": [
+        "Transmission",
+        "Novelty",
+        "Sister Ray"
+      ],
+      "related_events": [
+        "CHR-S71-016"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A026",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A026 — « Transmission », *Earcom 2* et choix du côté obscur",
+    "data": {
+      "id": "S71-A026",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "52-53",
+      "type_unite": "analyse",
+      "concepts": [
+        "transmission",
+        "novelty",
+        "autosuggestion",
+        "from safety to where",
+        "darkness"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Transmission",
+        "Novelty",
+        "Autosuggestion",
+        "From Safety to Where...?"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A027",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A027 — « Love Will Tear Us Apart » et « Twenty Four Hours »",
+    "data": {
+      "id": "S71-A027",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "53-54",
+      "type_unite": "analyse",
+      "concepts": [
+        "love will tear us apart",
+        "twenty four hours",
+        "pop parfaite",
+        "mariage",
+        "destin"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 7",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Love Will Tear Us Apart",
+        "Twenty Four Hours"
+      ],
+      "related_events": [
+        "CHR-S71-017"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A028",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A028 — Tournée européenne, Annik Honoré et sessions de *Closer*",
+    "data": {
+      "id": "S71-A028",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "54-56",
+      "type_unite": "biographie",
+      "concepts": [
+        "tournée européenne",
+        "annik honoré",
+        "closer",
+        "britannia row",
+        "santé de curtis"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 11"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Deborah Curtis",
+        "Annik Honoré",
+        "Martin Hannett"
+      ],
+      "related_songs": [
+        "These Days",
+        "Sound of Music",
+        "Komakino",
+        "Incubation",
+        "As You Said",
+        "Love Will Tear Us Apart"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A029",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A029 — *Closer* : Curtis comme guide de l’abîme",
+    "data": {
+      "id": "S71-A029",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "56-59",
+      "type_unite": "analyse",
+      "concepts": [
+        "closer",
+        "atrocity exhibition",
+        "isolation",
+        "passover",
+        "decades"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 7",
+        "Chapitre 11"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Atrocity Exhibition",
+        "Isolation",
+        "Passover",
+        "Colony",
+        "A Means to an End",
+        "Heart and Soul",
+        "Twenty Four Hours",
+        "The Eternal",
+        "Decades"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A030",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A030 — *Licht und Blindheit* et l’art total",
+    "data": {
+      "id": "S71-A030",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "58-59",
+      "type_unite": "production",
+      "concepts": [
+        "sordide sentimental",
+        "licht und blindheit",
+        "total art",
+        "atmosphere",
+        "dead souls"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Jean-Pierre Turmel",
+        "Rob Gretton"
+      ],
+      "related_songs": [
+        "Atmosphere",
+        "Dead Souls"
+      ],
+      "related_events": [
+        "CHR-S71-018"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A031",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A031 — Rainbow, Moonlight Club et dégradation de la santé de Curtis",
+    "data": {
+      "id": "S71-A031",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "60-61",
+      "type_unite": "biographie",
+      "concepts": [
+        "rainbow theatre",
+        "moonlight club",
+        "épilepsie",
+        "sister ray",
+        "dégradation physique"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Peter Hook"
+      ],
+      "related_songs": [
+        "Sister Ray"
+      ],
+      "related_events": [
+        "CHR-S71-019"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A032",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A032 — Tournée américaine, « Ceremony », « In a Lonely Place » et vidéo de « Love Will Tear Us Apart »",
+    "data": {
+      "id": "S71-A032",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "61-62",
+      "type_unite": "chronologie",
+      "concepts": [
+        "tournée américaine annulée",
+        "ceremony",
+        "in a lonely place",
+        "love will tear us apart vidéo",
+        "tj davidson"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Ceremony",
+        "In a Lonely Place",
+        "Love Will Tear Us Apart"
+      ],
+      "related_events": [
+        "CHR-S71-020"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A033",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A033 — Mort de Curtis et naissance du problème New Order",
+    "data": {
+      "id": "S71-A033",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "66-68",
+      "type_unite": "biographie",
+      "concepts": [
+        "mort de ian curtis",
+        "john peel",
+        "death cult",
+        "new order",
+        "rupture continuité"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Ian Curtis",
+        "Deborah Curtis",
+        "John Peel",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Rob Gretton"
+      ],
+      "related_songs": [
+        "Atmosphere",
+        "Love Will Tear Us Apart",
+        "These Days"
+      ],
+      "related_events": [
+        "CHR-S71-021"
+      ],
+      "methodological_warnings": [
+        "Détails intimes à utiliser avec sobriété et recoupement."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A034",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A034 — *Love Will Tear Us Apart* et *Closer* : succès posthume et soupçon contre Factory",
+    "data": {
+      "id": "S71-A034",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "67-68",
+      "type_unite": "reception",
+      "concepts": [
+        "réception posthume",
+        "closer",
+        "love will tear us apart",
+        "peter saville",
+        "exploitation commerciale"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Saville",
+        "Rob Gretton"
+      ],
+      "related_songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "related_events": [
+        "CHR-S71-022"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A035",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A035 — Les débuts de New Order : Western Works, Beach Club et choix du nom",
+    "data": {
+      "id": "S71-A035",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "68-70",
+      "type_unite": "relation",
+      "concepts": [
+        "new order",
+        "western works",
+        "beach club",
+        "situationnisme",
+        "nom du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Rob Gretton"
+      ],
+      "related_songs": [
+        "Ceremony",
+        "Homage",
+        "Truth",
+        "Dreams Never End"
+      ],
+      "related_events": [
+        "CHR-S71-023"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A036",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A036 — Gillian Gilbert et la redistribution des fonctions",
+    "data": {
+      "id": "S71-A036",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "72-73",
+      "type_unite": "biographie",
+      "concepts": [
+        "gillian gilbert",
+        "redistribution instrumentale",
+        "procession",
+        "ceremony",
+        "nouveau départ"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Gillian Gilbert",
+        "Stephen Morris",
+        "Bernard Sumner"
+      ],
+      "related_songs": [
+        "Procession",
+        "Ceremony"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A037",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A037 — *Movement* : incapacité provisoire à enterrer Joy Division",
+    "data": {
+      "id": "S71-A037",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "73-80",
+      "type_unite": "analyse",
+      "concepts": [
+        "movement",
+        "martin hannett",
+        "héritage joy division",
+        "voix de sumner",
+        "rupture difficile"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Martin Hannett",
+        "Tony Wilson",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Gillian Gilbert",
+        "Stephen Morris"
+      ],
+      "related_songs": [
+        "Dreams Never End",
+        "Truth",
+        "Senses",
+        "ICB",
+        "The Him",
+        "Doubts Even Here",
+        "Denial"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A038",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A038 — « Temptation » : Sumner trouve sa voix",
+    "data": {
+      "id": "S71-A038",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "79-81",
+      "type_unite": "analyse",
+      "concepts": [
+        "temptation",
+        "taboo number 7",
+        "voix de sumner",
+        "rupture avec joy division",
+        "spontanéité"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Bernard Sumner",
+        "Tony Wilson"
+      ],
+      "related_songs": [
+        "Temptation"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A039",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A039 — Hacienda : utopie de lieu et gouffre financier",
+    "data": {
+      "id": "S71-A039",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "81-83",
+      "type_unite": "sociologie",
+      "concepts": [
+        "hacienda",
+        "factory club",
+        "ben kelly",
+        "économie de factory",
+        "scène mancunienne"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Tony Wilson",
+        "Ben Kelly"
+      ],
+      "related_events": [
+        "CHR-S71-024"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A040",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A040 — « Blue Monday » : synthèse dance-rock et dette rendue à la musique",
+    "data": {
+      "id": "S71-A040",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "87-90",
+      "type_unite": "analyse",
+      "concepts": [
+        "blue monday",
+        "dance rock",
+        "synthétiseur",
+        "peter saville",
+        "hacienda"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Blue Monday",
+        "The Beach"
+      ],
+      "related_events": [
+        "CHR-S71-025"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A041",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A041 — *Power, Corruption and Lies* et le code Saville",
+    "data": {
+      "id": "S71-A041",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "85-91",
+      "type_unite": "production",
+      "concepts": [
+        "power corruption and lies",
+        "peter saville",
+        "code couleur",
+        "age of consent",
+        "your silent face"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Saville"
+      ],
+      "related_songs": [
+        "Age of Consent",
+        "We All Stand",
+        "The Village",
+        586,
+        "Your Silent Face",
+        "Ultraviolence",
+        "Ecstasy",
+        "Leave Me Alone"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A042",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A042 — « Love Will Tear Us Apart » rejoué par New Order en 1983",
+    "data": {
+      "id": "S71-A042",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 91,
+      "type_unite": "memoire",
+      "concepts": [
+        "mémoire de joy division",
+        "love will tear us apart",
+        "rob gretton",
+        "healing"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Rob Gretton"
+      ],
+      "related_songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "related_events": [
+        "CHR-S71-026"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A043",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A043 — Qwest, Quincy Jones et l’indépendance sous licence",
+    "data": {
+      "id": "S71-A043",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "98-101",
+      "type_unite": "management",
+      "concepts": [
+        "qwest",
+        "quincy jones",
+        "warner brothers",
+        "licence américaine",
+        "contrôle artistique"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Tom Atencio",
+        "Quincy Jones",
+        "Tony Wilson",
+        "Rob Gretton"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A044",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A044 — *Low-Life* : amour, perte, AIDS et requiem pour Curtis",
+    "data": {
+      "id": "S71-A044",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "101-105",
+      "type_unite": "analyse",
+      "concepts": [
+        "low-life",
+        "elegia",
+        "aids",
+        "perfect kiss",
+        "love vigilantes"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Love Vigilantes",
+        "The Perfect Kiss",
+        "This Time of Night",
+        "Sunrise",
+        "Elegia",
+        "Sooner Than You Think",
+        "Sub-Culture",
+        "Face Up"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A045",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A045 — Videos et refus de la performance imposée",
+    "data": {
+      "id": "S71-A045",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "105-107",
+      "type_unite": "archive",
+      "concepts": [
+        "the perfect kiss vidéo",
+        "jonathan demme",
+        "michael shamberg",
+        "refus de mimer",
+        "intégrité"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Jonathan Demme",
+        "Michael Shamberg",
+        "Tony Wilson"
+      ],
+      "related_songs": [
+        "The Perfect Kiss"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A046",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A046 — *Substance* Joy Division et vidéo « Atmosphere » : retour patrimonial",
+    "data": {
+      "id": "S71-A046",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "146-148",
+      "type_unite": "memoire",
+      "concepts": [
+        "substance joy division",
+        "atmosphere vidéo",
+        "anton corbijn",
+        "peter saville",
+        "culte de curtis"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Anton Corbijn",
+        "Peter Saville",
+        "Rob Gretton",
+        "Tony Wilson"
+      ],
+      "related_songs": [
+        "Atmosphere",
+        "Dead Souls",
+        "Love Will Tear Us Apart"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A047",
+    "file": "sources/flowers/source.md",
+    "heading": "S71-A047 — *Technique* et acid house : New Order danse à nouveau",
+    "data": {
+      "id": "S71-A047",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "148-152",
+      "type_unite": "analyse",
+      "concepts": [
+        "technique",
+        "acid house",
+        "ibiza",
+        "hacienda",
+        "ecstasy"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Tony Wilson",
+        "Rob Gretton"
+      ],
+      "related_songs": [
+        "Fine Time"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A048",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A048 — *Technique* : cohérence d’album et production unifiée",
+    "data": {
+      "id": "S71-A048",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "151-152",
+      "type_unite": "analyse",
+      "concepts": [
+        "technique",
+        "alan meyerson",
+        "acid house",
+        "rock dance",
+        "cohérence album"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Tony Wilson",
+        "Rob Gretton"
+      ],
+      "related_songs": [
+        "Fine Time",
+        "All the Way",
+        "Love Less",
+        "Round & Round",
+        "Guilty Partner",
+        "Run",
+        "Mr. Disco",
+        "Vanishing Point",
+        "Dream Attack"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A049",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A049 — « Fine Time » : acid house, Top of the Pops et imagerie ecstasy",
+    "data": {
+      "id": "S71-A049",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "151-152",
+      "type_unite": "reception",
+      "concepts": [
+        "fine time",
+        "acid house",
+        "top of the pops",
+        "ecstasy",
+        "richard heslop"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Richard Heslop"
+      ],
+      "related_songs": [
+        "Fine Time"
+      ],
+      "related_events": [
+        "CHR-S71-027"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A050",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A050 — Tournée américaine de 1989 : réussite commerciale et épuisement",
+    "data": {
+      "id": "S71-A050",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "158-160",
+      "type_unite": "reception",
+      "concepts": [
+        "tournée américaine",
+        "succès commercial",
+        "fatigue",
+        "drogues",
+        "dry bar"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Peter Hook"
+      ],
+      "related_events": [
+        "CHR-S71-028"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A051",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A051 — Vidéocassette *Substance* : consolidation de l’image New Order",
+    "data": {
+      "id": "S71-A051",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 160,
+      "type_unite": "archive",
+      "concepts": [
+        "substance vidéo",
+        "vidéographie",
+        "michael shamberg",
+        "clips",
+        "image du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Michael Shamberg"
+      ],
+      "related_songs": [
+        "Confusion",
+        "The Perfect Kiss",
+        "Shellshock",
+        "Bizarre Love Triangle",
+        "True Faith",
+        "Touched by the Hand of God",
+        "Blue Monday 1988"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A052",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A052 — Electronic : Sumner, Johnny Marr et les Pet Shop Boys",
+    "data": {
+      "id": "S71-A052",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "161-166",
+      "type_unite": "relation",
+      "concepts": [
+        "electronic",
+        "johnny marr",
+        "pet shop boys",
+        "getting away with it",
+        "projet parallèle"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Johnny Marr",
+        "Neil Tennant",
+        "Chris Lowe",
+        "Anne Dudley",
+        "David Palmer"
+      ],
+      "related_songs": [
+        "Getting Away with It",
+        "Lucky Bag"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A053",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A053 — « Getting Away With It » : succès, luxe sonore et premier compromis vidéo",
+    "data": {
+      "id": "S71-A053",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 166,
+      "type_unite": "reception",
+      "concepts": [
+        "getting away with it",
+        "lip sync",
+        "compromis promotionnel",
+        "electronic"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Johnny Marr",
+        "Neil Tennant"
+      ],
+      "related_songs": [
+        "Getting Away with It"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A054",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A054 — Revenge : Hook, démocratie affichée et esthétique fetish-rock",
+    "data": {
+      "id": "S71-A054",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "164-178",
+      "type_unite": "relation",
+      "concepts": [
+        "revenge",
+        "peter hook",
+        "skin two",
+        "fetishwear",
+        "hard rock dance"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Hook",
+        "Dave Hicks",
+        "Chris Jones",
+        "Trevor Watson"
+      ],
+      "related_songs": [
+        "7 Reasons",
+        "Jesus I Love You",
+        "Pineapple Face",
+        "Kiss the Chrome",
+        "Slave",
+        "Big Bang",
+        "Bleachman",
+        "Surf Nazi",
+        "Fag Hag",
+        "It's Quiet"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A055",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A055 — *World in Motion* : retour collectif et paradoxe du numéro un",
+    "data": {
+      "id": "S71-A055",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "167-173",
+      "type_unite": "production",
+      "concepts": [
+        "world in motion",
+        "englandneworder",
+        "coupe du monde",
+        "john barnes",
+        "pop stars"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Stephen Hague",
+        "Keith Allen",
+        "John Barnes",
+        "Peter Beardsley",
+        "Paul Gascoigne",
+        "Chris Waddle"
+      ],
+      "related_songs": [
+        "World in Motion"
+      ],
+      "related_events": [
+        "CHR-S71-029"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A056",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A056 — Hacienda, Madchester et crise des drogues",
+    "data": {
+      "id": "S71-A056",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "173-181",
+      "type_unite": "sociologie",
+      "concepts": [
+        "hacienda",
+        "madchester",
+        "acid house",
+        "drogue",
+        "violence"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Tony Wilson",
+        "Peter Hook",
+        "Stephen Morris",
+        "Bernard Sumner",
+        "Gillian Gilbert"
+      ],
+      "related_events": [
+        "CHR-S71-030"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A057",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A057 — Nouveaux bureaux Factory : esthétique, dépense et fragilité économique",
+    "data": {
+      "id": "S71-A057",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 175,
+      "type_unite": "management",
+      "concepts": [
+        "factory records",
+        "siège social",
+        "ben kelly",
+        "dépenses",
+        "fragilité économique"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Tony Wilson",
+        "Ben Kelly"
+      ],
+      "related_events": [
+        "CHR-S71-031"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A058",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A058 — Mort de Martin Hannett et mémoire Factory",
+    "data": {
+      "id": "S71-A058",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "183-189",
+      "type_unite": "memoire",
+      "concepts": [
+        "martin hannett",
+        "mort",
+        "factory records",
+        "cities in the park",
+        "martin compilation"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Martin Hannett",
+        "Tony Wilson",
+        "Bernard Sumner",
+        "Peter Hook"
+      ],
+      "related_songs": [
+        "She's Lost Control",
+        "Everything's Gone Green"
+      ],
+      "related_events": [
+        "CHR-S71-032"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A059",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A059 — Electronic, album 1991 : promesse brillante mais pacing discutable",
+    "data": {
+      "id": "S71-A059",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "185-188",
+      "type_unite": "analyse",
+      "concepts": [
+        "electronic album",
+        "pacing",
+        "johnny marr",
+        "bernard sumner",
+        "pop électronique"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Johnny Marr",
+        "Neil Tennant",
+        "Chris Lowe"
+      ],
+      "related_songs": [
+        "Idiot Country",
+        "Reality",
+        "Tighten Up",
+        "The Patience of a Saint",
+        "Getting Away with It",
+        "Gangster",
+        "Soviet",
+        "Get the Message",
+        "Try All You Want",
+        "Some Distant Memory",
+        "Feel Every Beat"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A060",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A060 — The Other Two : nom ironique et revendication de Gillian Gilbert",
+    "data": {
+      "id": "S71-A060",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "190-191",
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "type_unite": "relation",
+      "concepts": [
+        "the other two",
+        "gillian gilbert",
+        "stephen morris",
+        "tasty fish",
+        "reconnaissance vocale"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "citation_directe": false,
+      "related_people": [
+        "Gillian Gilbert",
+        "Stephen Morris",
+        "Tony Wilson"
+      ],
+      "related_songs": [
+        "Tasty Fish"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A061",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A061 — *Palatine* et le patrimoine Factory inefficace",
+    "data": {
+      "id": "S71-A061",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 191,
+      "type_unite": "memoire",
+      "concepts": [
+        "palatine",
+        "patrimoine factory",
+        "rétrospective",
+        "crise financière",
+        "archive commerciale"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_events": [
+        "CHR-S71-033"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A062",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A062 — *Gun World Porn* : Revenge après l’échec commercial",
+    "data": {
+      "id": "S71-A062",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "191-193",
+      "type_unite": "analyse",
+      "concepts": [
+        "revenge",
+        "gun world porn",
+        "state of shock",
+        "little pig",
+        "hook directeur"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Peter Hook",
+        "Chris Jones",
+        "Dave Hicks",
+        "David Potts"
+      ],
+      "related_songs": [
+        "Little Pig",
+        "State of Shock",
+        "Deadbeat"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A063",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A063 — *BBC Radio One Live in Concert* : autorisé mais appauvri",
+    "data": {
+      "id": "S71-A063",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 194,
+      "type_unite": "archive",
+      "concepts": [
+        "bbc radio one live in concert",
+        "glastonbury 1987",
+        "bootleg",
+        "archive appauvrie",
+        "contrôle qualité"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Elegia",
+        "Ceremony",
+        "Sub-Culture",
+        "Sunrise"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A064",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A064 — Factory, London Records et l’autonomie juridique de New Order",
+    "data": {
+      "id": "S71-A064",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "196-198",
+      "type_unite": "management",
+      "concepts": [
+        "factory bankruptcy",
+        "london records",
+        "propriété des masters",
+        "autonomie juridique",
+        "indépendance"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Tony Wilson",
+        "Rob Gretton",
+        "Tim Haves"
+      ],
+      "related_events": [
+        "CHR-S71-034"
+      ],
+      "methodological_warnings": [
+        "Vérifier les termes juridiques exacts dans des sources économiques ou juridiques si usage approfondi."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A065",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A065 — Receivership de Factory : fête finale et vente du siège",
+    "data": {
+      "id": "S71-A065",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "197-198",
+      "type_unite": "chronologie",
+      "concepts": [
+        "factory receivership",
+        "dette",
+        "siège social",
+        "paradise factory",
+        "fin de factory"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Tony Wilson",
+        "Tim Haves"
+      ],
+      "related_events": [
+        "CHR-S71-035"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A066",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A066 — *Republic* : album sous pression et rôle de Stephen Hague",
+    "data": {
+      "id": "S71-A066",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "196-205",
+      "type_unite": "analyse",
+      "concepts": [
+        "republic",
+        "stephen hague",
+        "pression économique",
+        "fatigue collective",
+        "fin de cycle"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Stephen Hague",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Gillian Gilbert",
+        "Stephen Morris"
+      ],
+      "related_songs": [
+        "Regret",
+        "World",
+        "Ruined in a Day",
+        "Spooky",
+        "Everyone Everywhere",
+        "Young Offender",
+        "Liar",
+        "Chemical",
+        "Times Change",
+        "Special",
+        "Avalanche"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A067",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A067 — « Regret » : dernier grand geste pop dans un climat d’effondrement",
+    "data": {
+      "id": "S71-A067",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "199-201",
+      "type_unite": "analyse",
+      "concepts": [
+        "regret",
+        "republic",
+        "fatigue",
+        "normal life",
+        "baywatch"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Peter Care",
+        "Stephen Morris",
+        "Bernard Sumner"
+      ],
+      "related_songs": [
+        "Regret"
+      ],
+      "related_events": [
+        "CHR-S71-036"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A068",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A068 — *Republic* comme album de l’amitié qui se dessèche",
+    "data": {
+      "id": "S71-A068",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "201-205",
+      "type_unite": "synthese",
+      "concepts": [
+        "republic",
+        "amitié",
+        "special",
+        "avalanche",
+        "fin de cycle"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_songs": [
+        "World",
+        "Ruined in a Day",
+        "Spooky",
+        "Liar",
+        "Chemical",
+        "Times Change",
+        "Special",
+        "Avalanche"
+      ],
+      "methodological_warnings": [
+        "Interprétation fortement critique de Flowers ; à présenter comme jugement d’auteur."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A069",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A069 — *NewOrderStory* : documentaire synthétique et insuffisant",
+    "data": {
+      "id": "S71-A069",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "210-211",
+      "type_unite": "archive",
+      "concepts": [
+        "neworderstory",
+        "documentaire",
+        "paul morley",
+        "archive footage",
+        "insuffisance documentaire"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Paul Morley",
+        "Tony Wilson",
+        "Rob Gretton",
+        "Peter Saville",
+        "Neil Tennant",
+        "Quincy Jones",
+        "Arthur Baker",
+        "John Robie",
+        "Bono"
+      ],
+      "related_songs": [
+        "Fine Time",
+        "Round & Round",
+        "Run",
+        "World in Motion",
+        "Regret",
+        "World",
+        "Atmosphere",
+        "Transmission",
+        "Love Will Tear Us Apart",
+        "Ceremony",
+        "Temptation",
+        "Blue Monday",
+        "Shellshock",
+        "Age of Consent",
+        "State of the Nation",
+        "True Faith",
+        "Ruined in a Day"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A070",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A070 — The Other Two & You : Gilbert et Morris sortent de l’ombre",
+    "data": {
+      "id": "S71-A070",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "210-214",
+      "type_unite": "analyse",
+      "concepts": [
+        "the other two and you",
+        "gillian gilbert",
+        "stephen morris",
+        "voix féminine",
+        "autonomie créative"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Gillian Gilbert",
+        "Stephen Morris"
+      ],
+      "related_songs": [
+        "Selfish",
+        "Movin' On",
+        "Tasty Fish",
+        "The Greatest Thing",
+        "Ninth Configuration",
+        "Feel This Love",
+        "Spirit Level",
+        "Night Voice",
+        "Loved It"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A071",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A071 — Conclusion du livre : le rêve n’est pas terminé",
+    "data": {
+      "id": "S71-A071",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": 214,
+      "type_unite": "synthese",
+      "concepts": [
+        "amitié",
+        "new order",
+        "electronic",
+        "revenge",
+        "the other two",
+        "rêve non terminé"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Bernard Sumner",
+        "Peter Hook",
+        "Gillian Gilbert",
+        "Stephen Morris"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A072",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A072 — Discographie sélectionnée : outil de cartographie historique",
+    "data": {
+      "id": "S71-A072",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "216-220",
+      "type_unite": "discographie",
+      "concepts": [
+        "discographie sélectionnée",
+        "joy division",
+        "new order",
+        "electronic",
+        "revenge",
+        "the other two"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Unknown Pleasures",
+        "Closer",
+        "Still",
+        "Movement",
+        "Temptation",
+        "Power, Corruption and Lies",
+        "Low-Life",
+        "Brotherhood",
+        "Substance",
+        "Salvation Theme",
+        "Touched by the Hand of God",
+        "Joy Division Substance",
+        "Blue Monday 1988",
+        "Technique",
+        "World in Motion",
+        "Regret",
+        "The Other Two & You"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A073",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A073 — Vidéographie sélectionnée : rareté, performance et mémoire visuelle",
+    "data": {
+      "id": "S71-A073",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "221-224",
+      "type_unite": "videographie",
+      "concepts": [
+        "vidéographie",
+        "here are the young men",
+        "taras shevchenko",
+        "pumped full of drugs",
+        "neworderstory",
+        "archives visuelles"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "From Safety to Where...?",
+        "Decades",
+        "Dead Souls",
+        "Love Will Tear Us Apart",
+        "Shadowplay",
+        "Day of the Lords",
+        "Digital",
+        "Colony",
+        "New Dawn Fades",
+        "Autosuggestion",
+        "Transmission",
+        "Sound of Music",
+        "She's Lost Control",
+        "Walked in Line",
+        "I Remember Nothing",
+        "Ceremony",
+        "Temptation",
+        "Confusion",
+        "Blue Monday",
+        "Atmosphere"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A074",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A074 — Entretiens de Flowers : statut documentaire du livre",
+    "data": {
+      "id": "S71-A074",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "222-224",
+      "type_unite": "methode",
+      "concepts": [
+        "entretiens",
+        "source secondaire",
+        "enquête",
+        "first-hand knowledge",
+        "chronologie documentaire"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Peter Saville",
+        "Rob Gretton",
+        "Michael Shamberg",
+        "Tony Wilson",
+        "Tom Atencio",
+        "Tim Haves"
+      ],
+      "methodological_warnings": [
+        "Les citations directes des acteurs doivent être distinguées de la narration de Flowers ; leur source immédiate reste l’entretien conduit par Flowers."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S71-A075",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "S71-A075 — Bibliographie sélectionnée : articulation avec Broll, Edge, Johnson, Suatoni, West",
+    "data": {
+      "id": "S71-A075",
+      "source_id": "S71",
+      "source_label": "S71 — Flowers, Dreams Never End, 1995/2012",
+      "source_short_title": "Flowers, Dreams Never End, 1995/2012",
+      "source_year": "1995/2012",
+      "auteur": "Claude Flowers",
+      "titre": "New Order + Joy Division: Dreams Never End",
+      "pages_pdf": "223-224",
+      "type_unite": "bibliographie",
+      "concepts": [
+        "bibliographie",
+        "marco broll",
+        "brian edge",
+        "mark johnson",
+        "alfredo suatoni",
+        "mike west"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Marco Broll",
+        "Brian Edge",
+        "Mark Johnson",
+        "Alfredo Suatoni",
+        "Mike West"
+      ],
+      "methodological_warnings": [
+        "Vérifier les éditions exactes citées par Flowers ; certaines dates diffèrent des entrées déjà utilisées dans le repo."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S47-041",
     "file": "sources/mike_west_joy_division/source_atomisation_02.md",
     "heading": "S47-041 — La Factory Sampler devient rapidement obsolète",

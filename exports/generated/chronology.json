@@ -1370,6 +1370,981 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S71-001",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-001",
+      "date": "1976-07-20",
+      "precision_date": "jour",
+      "event": "Concert des Sex Pistols au Manchester Free Trade Hall ; Hook, Sumner et Mason décident de former un groupe selon Flowers.",
+      "type": "concert",
+      "location": "Free Trade Hall, Manchester",
+      "people": [
+        "Peter Hook",
+        "Bernard Sumner",
+        "Terry Mason"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A004"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-002",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-002",
+      "date": "1977-05-29",
+      "precision_date": "jour",
+      "event": "Premier concert public de Warsaw, ex-Stiff Kittens, en support des Buzzcocks à l’Electric Circus selon Flowers.",
+      "type": "concert",
+      "location": "Electric Circus, Manchester",
+      "people": [
+        "Ian Curtis",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Tony Tabac"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A007"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-003",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-003",
+      "date": "1977-06",
+      "precision_date": "mois",
+      "event": "Warsaw joue à Rafters ; Rob Gretton remarque le groupe selon Flowers.",
+      "type": "concert",
+      "location": "Rafters, Manchester",
+      "people": [
+        "Rob Gretton",
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A008"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-004",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-004",
+      "date": "1977-07-18",
+      "precision_date": "jour",
+      "event": "Warsaw enregistre une démo aux Pennine Sound Studios selon Flowers.",
+      "type": "enregistrement",
+      "location": "Pennine Sound Studios",
+      "songs": [
+        "Inside the Line",
+        "Gutz",
+        "At a Later Date",
+        "The Kill",
+        "You're No Good for Me"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A010"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-005",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-005",
+      "date": "1977-10-02",
+      "precision_date": "jour",
+      "event": "Warsaw joue lors de la fermeture de l’Electric Circus ; incident Rudolf Hess selon Flowers.",
+      "type": "concert",
+      "location": "Electric Circus, Manchester",
+      "songs": [
+        "At a Later Date"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A012"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-006",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-006",
+      "date": "1978-01-25",
+      "precision_date": "jour",
+      "event": "Première apparition publique sous le nom Joy Division à Pips, Manchester, selon Flowers.",
+      "type": "concert",
+      "location": "Pips, Manchester",
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A013",
+        "S71-A014"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-007",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-007",
+      "date": "1978-04-14",
+      "precision_date": "jour",
+      "event": "Joy Division participe au Stiff/Chiswick Challenge à Rafters et attire Gretton, Wilson et Gillian Gilbert selon Flowers.",
+      "type": "concert",
+      "location": "Rafters, Manchester",
+      "people": [
+        "Rob Gretton",
+        "Tony Wilson",
+        "Gillian Gilbert"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A014"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-008",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-008",
+      "date": "1978-05-04",
+      "precision_date": "jour",
+      "event": "Fin des sessions de l’album RCA et signature d’un contrat défavorable selon Flowers.",
+      "type": "enregistrement",
+      "people": [
+        "Derek Branwood",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A015"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-009",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-009",
+      "date": "1978-06",
+      "precision_date": "mois",
+      "event": "Joy Division joue au club The Factory organisé par Tony Wilson et Alan Erasmus ; affiche de Peter Saville selon Flowers.",
+      "type": "concert",
+      "location": "Russell Club, Manchester",
+      "people": [
+        "Tony Wilson",
+        "Alan Erasmus",
+        "Peter Saville"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A016"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-010",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-010",
+      "date": "1978-10-11",
+      "precision_date": "jour",
+      "event": "Enregistrement de Digital et Glass à Cargo Studios pour A Factory Sample avec Martin Hannett selon Flowers.",
+      "type": "enregistrement",
+      "location": "Cargo Studios, Rochdale",
+      "people": [
+        "Martin Hannett"
+      ],
+      "songs": [
+        "Digital",
+        "Glass"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A018"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-011",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-011",
+      "date": "1978-12-27",
+      "precision_date": "jour",
+      "event": "Début londonien de Joy Division au Hope and Anchor selon Flowers.",
+      "type": "concert",
+      "location": "Hope and Anchor, Islington",
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A019"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-012",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-012",
+      "date": "1979-01-31",
+      "precision_date": "jour",
+      "event": "Première Peel Session de Joy Division selon Flowers.",
+      "type": "radio",
+      "location": "BBC Radio One",
+      "people": [
+        "John Peel"
+      ],
+      "songs": [
+        "Exercise One",
+        "Insight",
+        "She's Lost Control",
+        "Transmission"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A020"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-013",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-013",
+      "date": "1979-04",
+      "precision_date": "mois",
+      "event": "Joy Division choisit de réaliser son premier album chez Factory avec Martin Hannett plutôt que de rejoindre Warner/Radar/Genetic selon Flowers.",
+      "type": "management",
+      "people": [
+        "Rob Gretton",
+        "Tony Wilson",
+        "Martin Hannett",
+        "Martin Rushent"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A021"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-014",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-014",
+      "date": "1979-06",
+      "precision_date": "mois",
+      "event": "Sortie de Unknown Pleasures chez Factory selon Flowers.",
+      "type": "sortie",
+      "people": [
+        "Peter Saville",
+        "Martin Hannett"
+      ],
+      "songs": [
+        "Disorder",
+        "New Dawn Fades",
+        "I Remember Nothing"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A022"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-015",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-015",
+      "date": "1979-08-13",
+      "precision_date": "jour",
+      "event": "Accident du van de Joy Division au retour du Nashville Club selon Flowers.",
+      "type": "incident",
+      "people": [
+        "Peter Hook",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A024"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-016",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-016",
+      "date": "1979-10",
+      "precision_date": "mois",
+      "event": "Tournée Buzzcocks, captations amateurs et concert au Plan K selon Flowers.",
+      "type": "concert",
+      "location": "Royaume-Uni ; Bruxelles",
+      "people": [
+        "Richard Boon",
+        "William Burroughs"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A025"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-017",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-017",
+      "date": "1979-11-26",
+      "precision_date": "jour",
+      "event": "Seconde Peel Session de Joy Division avec Love Will Tear Us Apart et Twenty Four Hours selon Flowers.",
+      "type": "radio",
+      "songs": [
+        "Love Will Tear Us Apart",
+        "Twenty Four Hours",
+        "Sound of Music",
+        "Colony"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A027"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-018",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-018",
+      "date": "1980-03",
+      "precision_date": "mois",
+      "event": "Sortie de Licht Und Blindheit chez Sordide Sentimental selon Flowers.",
+      "type": "sortie",
+      "songs": [
+        "Atmosphere",
+        "Dead Souls"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A030"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-019",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-019",
+      "date": "1980-04",
+      "precision_date": "mois",
+      "event": "Série de concerts Moonlight Club / Rainbow Theatre révélant l’aggravation de la santé de Curtis selon Flowers.",
+      "type": "concert",
+      "location": "Londres",
+      "people": [
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A031"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-020",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-020",
+      "date": "1980-04-28",
+      "precision_date": "jour",
+      "event": "Tournage de la vidéo Love Will Tear Us Apart à T. J. Davidson’s selon Flowers.",
+      "type": "archive",
+      "songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A032"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-021",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-021",
+      "date": "1980-05-18",
+      "precision_date": "jour",
+      "event": "Mort de Ian Curtis et annulation de la tournée américaine selon Flowers.",
+      "type": "biographie",
+      "people": [
+        "Ian Curtis",
+        "Deborah Curtis",
+        "John Peel"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S71-A033"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-022",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-022",
+      "date": "1980-06",
+      "precision_date": "mois",
+      "event": "Sortie posthume de Love Will Tear Us Apart selon Flowers.",
+      "type": "sortie",
+      "songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A034"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-023",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-023",
+      "date": "1980-07-29",
+      "precision_date": "jour",
+      "event": "Premier concert discret du trio post-Joy Division au Beach Club selon Flowers.",
+      "type": "concert",
+      "location": "Beach Club, Manchester",
+      "people": [
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A035"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-024",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-024",
+      "date": "1982-05-21",
+      "precision_date": "jour",
+      "event": "Ouverture de la Hacienda à Manchester selon Flowers.",
+      "type": "lieu",
+      "location": "Hacienda, Manchester",
+      "people": [
+        "Tony Wilson",
+        "Ben Kelly"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A039"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-025",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-025",
+      "date": "1983-03-09",
+      "precision_date": "jour",
+      "event": "Sortie de Blue Monday selon Flowers.",
+      "type": "sortie",
+      "songs": [
+        "Blue Monday",
+        "The Beach"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A040"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-026",
+    "file": "sources/flowers/source.md",
+    "heading": "Événements chronologiques",
+    "data": {
+      "id": "CHR-S71-026",
+      "date": 1983,
+      "precision_date": "annee",
+      "event": "New Order joue Love Will Tear Us Apart pour l’anniversaire de Rob Gretton selon Flowers.",
+      "type": "concert",
+      "people": [
+        "Rob Gretton"
+      ],
+      "songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A042"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-027",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-027",
+      "date": "1988-11-21",
+      "precision_date": "jour",
+      "event": "Sortie de Fine Time, single acid house de New Order, selon Flowers.",
+      "type": "sortie",
+      "songs": [
+        "Fine Time"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A049"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-028",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-028",
+      "date": "1989-07-19",
+      "precision_date": "jour",
+      "event": "Fin de la tournée américaine de New Order au Meadowlands Arena, selon Flowers.",
+      "type": "concert",
+      "location": "Meadowlands Arena, New Jersey",
+      "people": [
+        "Bernard Sumner",
+        "Peter Hook"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A050"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-029",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-029",
+      "date": "1990-05",
+      "precision_date": "mois",
+      "event": "World in Motion devient numéro un au Royaume-Uni avec EnglandNewOrder, selon Flowers.",
+      "type": "sortie",
+      "people": [
+        "Bernard Sumner",
+        "Stephen Hague",
+        "Keith Allen",
+        "John Barnes"
+      ],
+      "songs": [
+        "World in Motion"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A055"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-030",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-030",
+      "date": "1991-01-31",
+      "precision_date": "jour",
+      "event": "Tony Wilson annonce la fermeture temporaire de la Hacienda pour raisons de sécurité, selon Flowers.",
+      "type": "lieu",
+      "location": "Hacienda, Manchester",
+      "people": [
+        "Tony Wilson"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A056"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-031",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-031",
+      "date": 1990,
+      "precision_date": "annee",
+      "event": "Factory investit les profits de World in Motion dans son nouveau siège, selon Flowers.",
+      "type": "management",
+      "location": "Manchester",
+      "people": [
+        "Tony Wilson",
+        "Ben Kelly"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A057"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-032",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-032",
+      "date": "1991-04-17",
+      "precision_date": "jour",
+      "event": "Mort de Martin Hannett d’une crise cardiaque, selon Flowers.",
+      "type": "biographie",
+      "people": [
+        "Martin Hannett"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S71-A058"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-033",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-033",
+      "date": "1991-12",
+      "precision_date": "mois",
+      "event": "Sortie de Palatine, coffret rétrospectif Factory, selon Flowers.",
+      "type": "sortie",
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A061"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-034",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-034",
+      "date": 1992,
+      "precision_date": "annee",
+      "event": "Négociations entre Factory, London Records et New Order autour des droits et de l’avenir du label, selon Flowers.",
+      "type": "management",
+      "people": [
+        "Tony Wilson",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A064"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-035",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-035",
+      "date": "1992-11-23",
+      "precision_date": "jour",
+      "event": "Factory Communications Limited entre en receivership, selon Flowers.",
+      "type": "management",
+      "location": "Manchester",
+      "people": [
+        "Tony Wilson",
+        "Tim Haves"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S71-A065"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-036",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-036",
+      "date": "1993-04",
+      "precision_date": "mois",
+      "event": "Sortie de Regret, single de Republic, selon Flowers.",
+      "type": "sortie",
+      "songs": [
+        "Regret"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A067"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-037",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-037",
+      "date": "1993-05",
+      "precision_date": "mois",
+      "event": "Republic entre à la première place des charts britanniques, selon Flowers.",
+      "type": "sortie",
+      "songs": [
+        "Republic"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A066",
+        "S71-A068"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-038",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-038",
+      "date": 1993,
+      "precision_date": "annee",
+      "event": "Diffusion de NewOrderStory, documentaire retraçant l’histoire du groupe, selon Flowers.",
+      "type": "documentaire",
+      "people": [
+        "Paul Morley",
+        "Tony Wilson",
+        "Rob Gretton",
+        "Peter Saville"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A069"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S71-039",
+    "file": "sources/flowers/second_pass_new_order_late_discography.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S71-039",
+      "date": "1994-02-01",
+      "precision_date": "jour",
+      "event": "Sortie de The Other Two & You, album de Stephen Morris et Gillian Gilbert, selon Flowers.",
+      "type": "sortie",
+      "people": [
+        "Stephen Morris",
+        "Gillian Gilbert"
+      ],
+      "songs": [
+        "The Other Two & You"
+      ],
+      "sources": [
+        "S71"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S71-A070"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S47-001",
     "file": "sources/mike_west_joy_division/chronology.md",
     "heading": "CHR-S47-001 — Concert Sex Pistols de Lesser Free Trade Hall",
