@@ -37,10 +37,10 @@ body {
 
 .layout {
   display: grid;
-  grid-template-columns: 360px 1fr;
+  grid-template-columns: 420px 1fr;
   gap: 24px;
   padding: 24px;
-  max-width: 1600px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
@@ -52,7 +52,8 @@ body {
 form,
 .examples,
 .status-card,
-.result-card {
+.result-card,
+.sources-browser {
   background: #171b22;
   border: 1px solid #2a2f38;
   border-radius: 14px;
@@ -107,6 +108,64 @@ button[type="submit"] {
   border-radius: 8px;
   padding: 12px;
   font-weight: 600;
+}
+
+.sources-browser {
+  margin-top: 18px;
+  padding: 18px;
+}
+
+.panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-heading h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.panel-note {
+  color: #9ea7b3;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+#sources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 720px;
+  overflow-y: auto;
+}
+
+.source-entry {
+  border: 1px solid #313845;
+  background: #101319;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.source-entry button {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: #f0f2f5;
+  text-align: left;
+  padding: 0;
+}
+
+.source-title {
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.source-meta {
+  margin-top: 8px;
+  color: #aab2bd;
+  font-size: 0.86rem;
+  line-height: 1.5;
 }
 
 .examples {
