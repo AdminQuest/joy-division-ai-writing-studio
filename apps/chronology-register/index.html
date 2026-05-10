@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registre chronologique — Joy Division</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Registre chronologique</h1>
+      <p class="subtitle">Vue documentaire dynamique générée depuis <code>exports/generated/chronology.json</code>.</p>
+      <p class="back"><a href="../../">← Retour au portail</a></p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="toolbar">
+      <div class="status-card" id="status-card">Chargement de la chronologie…</div>
+
+      <div class="filters">
+        <div class="field">
+          <label for="search">Recherche</label>
+          <input id="search" type="search" placeholder="Factory, Curtis, Peel Session, Closer…">
+        </div>
+
+        <div class="field">
+          <label for="year-filter">Année</label>
+          <select id="year-filter">
+            <option value="">Toutes</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="type-filter">Type</label>
+          <select id="type-filter">
+            <option value="">Tous</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="location-filter">Lieu</label>
+          <select id="location-filter">
+            <option value="">Tous</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="source-filter">Source</label>
+          <select id="source-filter">
+            <option value="">Toutes</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="reset-filters" type="button">Réinitialiser</button>
+        <button id="download-csv" type="button">Exporter CSV</button>
+      </div>
+
+      <p class="note">
+        Le registre chronologique fusionne les événements structurés issus des livres atomisés. Après toute nouvelle atomisation, reconstruire les exports avec <code>python3 tools/build_registers.py</code>.
+      </p>
+    </section>
+
+    <section class="register-panel">
+      <div class="results-header">
+        <h2>Événements</h2>
+        <div id="results-meta"></div>
+      </div>
+
+      <div class="timeline" id="timeline"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
