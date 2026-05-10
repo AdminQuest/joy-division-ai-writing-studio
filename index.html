@@ -150,20 +150,59 @@ Si l’adresse du navigateur commence par <code>file:///</code>, le portail n’
 Le RAG Studio affichera alors une erreur de type <code>NetworkError when attempting to fetch resource</code>, car les routes <code>/api/status</code> et <code>/api/search</code> ne sont pas accessibles.
 </p>
 
-<h3>6. Ordre de travail recommandé</h3>
+<h3>6. Si Firefox indique que la connexion a échoué</h3>
+
+<p>
+Ce message signifie que le navigateur ne trouve aucun serveur actif à l’adresse <code>127.0.0.1:8765</code>.
+Il faut alors contrôler le terminal qui a lancé le serveur.
+</p>
+
+<ol>
+<li>Dans le terminal, vérifier que la commande <code>python tools/rag_server.py</code> n’a pas rendu la main.</li>
+<li>Le terminal doit afficher une ligne de ce type :</li>
+</ol>
+
+<pre><code>Joy Division AI Writing Studio running at http://127.0.0.1:8765</code></pre>
+
+<ol start="3">
+<li>Si ce message n’apparaît pas, ou si une erreur est affichée, le serveur n’est pas lancé.</li>
+<li>Relancer alors la commande :</li>
+</ol>
+
+<pre><code>python tools/rag_server.py</code></pre>
+
+<p>Si Windows ne reconnaît pas <code>python</code>, essayer :</p>
+
+<pre><code>py tools/rag_server.py</code></pre>
+
+<p>Si le port <code>8765</code> est déjà utilisé, lancer le serveur sur un autre port :</p>
+
+<pre><code>python tools/rag_server.py --port 8766</code></pre>
+
+<p>Dans ce cas, ouvrir ensuite :</p>
+
+<pre><code>http://127.0.0.1:8766</code></pre>
+
+<p class="note">
+Le pare-feu Windows peut afficher une demande d’autorisation lors du premier lancement de Python comme serveur local.
+Autoriser l’accès pour les réseaux privés. Le serveur reste local : il sert uniquement les fichiers du dépôt sur la machine.
+</p>
+
+<h3>7. Ordre de travail recommandé</h3>
 
 <ol>
 <li>Ouvrir un terminal à la racine du dépôt.</li>
 <li>Vérifier l’emplacement avec <code>dir</code>.</li>
 <li>Reconstruire les exports avec <code>build_registers.py</code>.</li>
 <li>Lancer le serveur avec <code>rag_server.py</code>.</li>
+<li>Vérifier que le terminal affiche <code>running at http://127.0.0.1:8765</code>.</li>
 <li>Ouvrir <code>http://127.0.0.1:8765</code> dans le navigateur.</li>
 <li>Interroger les sources dans le RAG Studio.</li>
 <li>Rédiger dans l’atelier de rédaction à partir des sources retrouvées.</li>
 <li>Contrôler le texte dans l’atelier de validation : sources, citations, doublons, périmètre du chapitre.</li>
 </ol>
 
-<h3>7. Règle de contrôle</h3>
+<h3>8. Règle de contrôle</h3>
 
 <p>
 Aucun passage n’est stabilisé tant que la source n’est pas identifiable, que les citations
