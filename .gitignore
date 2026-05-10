@@ -5,6 +5,9 @@ sources/**/*.pdf
 sources/**/scans/
 sources/**/raw/
 
+# Generated exports
+exports/generated/
+
 # Python / local tooling
 __pycache__/
 *.pyc
