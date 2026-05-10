@@ -33,7 +33,7 @@ pre code{background:transparent;border:0;padding:0}
 <header>
 <div class="header-inner">
 <h1>Joy Division — AI Writing Studio</h1>
-<p class="subtitle">Portail local du système documentaire et rédactionnel. Deux ateliers distincts : construire des prompts de travail, ou interroger le corpus atomisé par le RAG.</p>
+<p class="subtitle">Portail documentaire et rédactionnel. Les registres deviennent des vues dynamiques générées automatiquement depuis les atomes.</p>
 </div>
 </header>
 <main>
@@ -55,160 +55,31 @@ pre code{background:transparent;border:0;padding:0}
 <article class="card">
 <div>
 <h2>RAG Studio</h2>
-<p>Interface documentaire locale pour interroger les atomes, citations, registres, chansons, personnes et événements.</p>
+<p>Interface documentaire pour interroger les atomes, citations, chansons, personnes et événements.</p>
 <ul>
 <li>recherche texte simple ;</li>
-<li>filtrage par type documentaire ;</li>
-<li>résultats sourcés par fichiers et identifiants.</li>
+<li>filtrage documentaire ;</li>
+<li>navigation par sources ;</li>
+<li>requêtes bilingues FR / EN.</li>
 </ul>
 </div>
 <a class="button" href="apps/rag-studio/">Ouvrir le RAG Studio</a>
 </article>
-</section>
 
-<section class="section">
-<h2>Mode d’emploi minimal</h2>
-
-<p>
-Le portail est le point d’entrée unique du dépôt. Il donne accès au RAG Studio, aux ateliers
-de rédaction et aux ateliers de validation documentaire. Ces espaces restent séparés afin de
-distinguer clairement trois opérations : retrouver les sources, rédiger le livre, contrôler
-les références.
-</p>
-
-<h3>1. Ouvrir un terminal dans le dossier du dépôt</h3>
-
-<p>Sous Windows 11, procéder ainsi :</p>
-
-<ol>
-<li>Ouvrir l’Explorateur de fichiers.</li>
-<li>Aller dans le dossier local du dépôt, par exemple :</li>
-</ol>
-
-<pre><code>C:\Users\TonNom\Documents\GitHub\joy-division-ai-writing-studio</code></pre>
-
-<ol start="3">
-<li>Cliquer dans la barre d’adresse du dossier.</li>
-<li>Taper <code>cmd</code>.</li>
-<li>Appuyer sur <code>Entrée</code>.</li>
-</ol>
-
-<p>
-Le terminal s’ouvre alors directement à la racine du dépôt. C’est depuis cet emplacement que les commandes doivent être lancées.
-</p>
-
-<p class="note">
-Si le terminal est déjà ouvert ailleurs, utiliser d’abord <code>cd</code> pour rejoindre le dépôt.
-</p>
-
-<pre><code>cd C:\Users\TonNom\Documents\GitHub\joy-division-ai-writing-studio</code></pre>
-
-<h3>2. Vérifier que l’on est bien à la racine du dépôt</h3>
-
-<p>Lancer :</p>
-
-<pre><code>dir</code></pre>
-
-<p>
-La liste affichée doit contenir notamment <code>index.html</code>, le dossier <code>apps</code> et le dossier <code>tools</code>.
-Si ces éléments n’apparaissent pas, le terminal n’est pas ouvert au bon endroit.
-</p>
-
-<h3>3. Reconstruire les exports</h3>
-
-<p>Lancer :</p>
-
-<pre><code>python tools/build_registers.py</code></pre>
-
-<p>
-Cette commande doit être exécutée avant toute session de travail, puis relancée après toute
-modification d’une fiche source, d’un document maître, du registre des références, du fichier
-des citations vérifiées ou du tableau de cohérence thématique.
-</p>
-
-<h3>4. Lancer le serveur local</h3>
-
-<p>Lancer :</p>
-
-<pre><code>python tools/rag_server.py</code></pre>
-
-<p>
-Le terminal doit rester ouvert pendant toute la session. S’il est fermé, le serveur s’arrête.
-</p>
-
-<h3>5. Ouvrir le portail dans le navigateur</h3>
-
-<p>
-Quand le serveur est lancé, ne pas ouvrir le fichier <code>index.html</code> directement dans l’Explorateur.
-Il faut ouvrir le portail par son adresse locale.
-</p>
-
-<pre><code>http://127.0.0.1:8765</code></pre>
-
-<p class="warning">
-Si l’adresse du navigateur commence par <code>file:///</code>, le portail n’est pas ouvert par le serveur local.
-Le RAG Studio affichera alors une erreur de type <code>NetworkError when attempting to fetch resource</code>, car les routes <code>/api/status</code> et <code>/api/search</code> ne sont pas accessibles.
-</p>
-
-<h3>6. Si Firefox indique que la connexion a échoué</h3>
-
-<p>
-Ce message signifie que le navigateur ne trouve aucun serveur actif à l’adresse <code>127.0.0.1:8765</code>.
-Il faut alors contrôler le terminal qui a lancé le serveur.
-</p>
-
-<ol>
-<li>Dans le terminal, vérifier que la commande <code>python tools/rag_server.py</code> n’a pas rendu la main.</li>
-<li>Le terminal doit afficher une ligne de ce type :</li>
-</ol>
-
-<pre><code>Joy Division AI Writing Studio running at http://127.0.0.1:8765</code></pre>
-
-<ol start="3">
-<li>Si ce message n’apparaît pas, ou si une erreur est affichée, le serveur n’est pas lancé.</li>
-<li>Relancer alors la commande :</li>
-</ol>
-
-<pre><code>python tools/rag_server.py</code></pre>
-
-<p>Si Windows ne reconnaît pas <code>python</code>, essayer :</p>
-
-<pre><code>py tools/rag_server.py</code></pre>
-
-<p>Si le port <code>8765</code> est déjà utilisé, lancer le serveur sur un autre port :</p>
-
-<pre><code>python tools/rag_server.py --port 8766</code></pre>
-
-<p>Dans ce cas, ouvrir ensuite :</p>
-
-<pre><code>http://127.0.0.1:8766</code></pre>
-
-<p class="note">
-Le pare-feu Windows peut afficher une demande d’autorisation lors du premier lancement de Python comme serveur local.
-Autoriser l’accès pour les réseaux privés. Le serveur reste local : il sert uniquement les fichiers du dépôt sur la machine.
-</p>
-
-<h3>7. Ordre de travail recommandé</h3>
-
-<ol>
-<li>Ouvrir un terminal à la racine du dépôt.</li>
-<li>Vérifier l’emplacement avec <code>dir</code>.</li>
-<li>Reconstruire les exports avec <code>build_registers.py</code>.</li>
-<li>Lancer le serveur avec <code>rag_server.py</code>.</li>
-<li>Vérifier que le terminal affiche <code>running at http://127.0.0.1:8765</code>.</li>
-<li>Ouvrir <code>http://127.0.0.1:8765</code> dans le navigateur.</li>
-<li>Interroger les sources dans le RAG Studio.</li>
-<li>Rédiger dans l’atelier de rédaction à partir des sources retrouvées.</li>
-<li>Contrôler le texte dans l’atelier de validation : sources, citations, doublons, périmètre du chapitre.</li>
-</ol>
-
-<h3>8. Règle de contrôle</h3>
-
-<p>
-Aucun passage n’est stabilisé tant que la source n’est pas identifiable, que les citations
-verbatim ne sont pas vérifiées, que le chapitre d’accueil n’est pas confirmé et que le tableau
-de cohérence thématique n’exclut pas un doublon.
-</p>
+<article class="card">
+<div>
+<h2>Registre des citations</h2>
+<p>Vue documentaire dynamique construite automatiquement depuis les citations structurées du corpus.</p>
+<ul>
+<li>citation originale ;</li>
+<li>traduction éditoriale ;</li>
+<li>niveau de vérification ;</li>
+<li>chapitres liés ;</li>
+<li>export CSV.</li>
+</ul>
+</div>
+<a class="button" href="apps/quote-register/">Ouvrir le registre</a>
+</article>
 </section>
 </main>
 </body>
