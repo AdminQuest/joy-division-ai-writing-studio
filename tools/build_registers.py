@@ -15,6 +15,7 @@ import json
 import re
 import sys
 from dataclasses import asdict, dataclass
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
@@ -194,17 +195,32 @@ def records_by_kind(records: List[ParsedRecord], kind: str) -> List[ParsedRecord
     return [record for record in records if record.kind == kind]
 
 
+def make_json_safe(value: Any) -> Any:
+    if isinstance(value, (datetime, date)):
+        return value.isoformat()
+    if isinstance(value, dict):
+        return {str(key): make_json_safe(val) for key, val in value.items()}
+    if isinstance(value, list):
+        return [make_json_safe(item) for item in value]
+    if isinstance(value, tuple):
+        return [make_json_safe(item) for item in value]
+    return value
+
+
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=False), encoding="utf-8")
+    safe_payload = make_json_safe(payload)
+    path.write_text(json.dumps(safe_payload, ensure_ascii=False, indent=2, sort_keys=False), encoding="utf-8")
 
 
 def flatten_value(value: Any) -> str:
     if value is None:
         return ""
+    if isinstance(value, (datetime, date)):
+        return value.isoformat()
     if isinstance(value, (str, int, float, bool)):
         return str(value)
-    return json.dumps(value, ensure_ascii=False)
+    return json.dumps(make_json_safe(value), ensure_ascii=False)
 
 
 def write_csv(path: Path, records: List[ParsedRecord], preferred_fields: List[str]) -> None:
