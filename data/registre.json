@@ -1,8 +1,93 @@
 [
-{"id":"S01","auteur":"Manchester City Council","statut":"sécurisée","usage":"contexte économique"},
-{"id":"S02","auteur":"Sénat","statut":"sécurisée","usage":"données démographiques"},
-{"id":"S03","auteur":"ONS","statut":"sécurisée","usage":"emploi"},
-{"id":"S04","auteur":"Alan Kidd","statut":"à consolider","usage":"industrialisation"},
-{"id":"S05","auteur":"Jeffery","statut":"sécurisée","usage":"émeutes"},
-{"id":"S06","auteur":"Carter","statut":"sécurisée","usage":"Hulme"}
+  {
+    "id": "S01",
+    "source_label": "S01 — Manchester City Council, East Manchester economic base decline, s.d.",
+    "auteur": "Manchester City Council",
+    "titre": "East Manchester economic base decline",
+    "annee": "s.d.",
+    "statut": "sécurisée",
+    "usage": "contexte économique"
+  },
+  {
+    "id": "S02",
+    "source_label": "S02 — Sénat, Rapport shrinking cities Manchester, s.d.",
+    "auteur": "Sénat",
+    "titre": "Rapport d’information – shrinking cities Manchester / Greater Manchester",
+    "annee": "s.d.",
+    "statut": "sécurisée",
+    "usage": "données démographiques"
+  },
+  {
+    "id": "S03",
+    "source_label": "S03 — ONS, séries emploi / population, s.d.",
+    "auteur": "ONS",
+    "titre": "Séries statistiques emploi / population",
+    "annee": "s.d.",
+    "statut": "sécurisée",
+    "usage": "emploi"
+  },
+  {
+    "id": "S04",
+    "source_label": "S04 — Kidd, Manchester: A History, 2006",
+    "auteur": "Alan Kidd",
+    "titre": "Manchester: A History",
+    "annee": "2006",
+    "statut": "à consolider",
+    "usage": "industrialisation"
+  },
+  {
+    "id": "S05",
+    "source_label": "S05 — Jeffery, Moss Side riots study, s.d.",
+    "auteur": "Peter Jeffery",
+    "titre": "Étude sur les émeutes de Moss Side",
+    "annee": "s.d.",
+    "statut": "sécurisée",
+    "usage": "émeutes"
+  },
+  {
+    "id": "S06",
+    "source_label": "S06 — Carter, Hulme Crescents study, s.d.",
+    "auteur": "Holly Carter",
+    "titre": "Mémoire / thèse sur Hulme Crescents et régénération",
+    "annee": "s.d.",
+    "statut": "sécurisée",
+    "usage": "Hulme"
+  },
+  {
+    "id": "S41",
+    "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+    "auteur": "Peter Hook",
+    "titre": "Unknown Pleasures: Inside Joy Division",
+    "annee": "2012",
+    "statut": "atomisée",
+    "usage": "mémoire interne ; formation du groupe ; dynamique musicale ; Factory"
+  },
+  {
+    "id": "S45",
+    "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+    "auteur": "Deborah Curtis",
+    "titre": "Touching from a Distance: Ian Curtis and Joy Division",
+    "annee": "1995",
+    "statut": "atomisée",
+    "usage": "mémoire intime ; Ian Curtis ; domesticité ; maladie ; derniers mois"
+  },
+  {
+    "id": "S46",
+    "source_label": "S46 — Johnson, An Ideal for Living, 1984",
+    "auteur": "Mark Johnson",
+    "titre": "An Ideal for Living: An History of Joy Division",
+    "annee": "1984",
+    "statut": "à atomiser / source repère",
+    "usage": "chronologie fondatrice ; premières années ; discographie initiale"
+  },
+  {
+    "id": "S68",
+    "source_label": "S68 — Broll, Joy Division, s.d.",
+    "auteur": "Marco Broll",
+    "titre": "Joy Division",
+    "annee": "s.d.",
+    "statut": "atomisée ; référence complète à consolider",
+    "usage": "recoupement chronologique et discographique ; sessions ; concerts ; objets discographiques ; bootlegs",
+    "legacy_id": "S-BROLL-JOY-001"
+  }
 ]
