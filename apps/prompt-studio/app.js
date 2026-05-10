@@ -5,12 +5,19 @@ let niveauData=[];
 let corpus=[];
 let sourceLabels={};
 
-const KNOWN_SOURCE_LABELS={
-  S41:'S41 — Hook, Unknown Pleasures, 2012',
-  S45:'S45 — D. Curtis, Touching from a Distance, 1995',
-  S46:'S46 — Johnson/Morley, An Ideal for Living, 1984',
-  S47:'S47 — West, Joy Division, 1983'
+const SOURCE_ID_ALIASES={
+  'S-BROLL-JOY-001':'S68'
 };
+
+const FALLBACK_SOURCE_LABELS={
+  S41:'S41 — Hook, Unknown Pleasures, 2012',
+  S45:'S45 — Curtis, Touching from a Distance, 1995',
+  S46:'S46 — Johnson, An Ideal for Living, 1984',
+  S47:'S47 — West, Joy Division, 1983',
+  S68:'S68 — Broll, Joy Division, s.d.'
+};
+
+function normalizeSourceId(id){return SOURCE_ID_ALIASES[id]||id}
 
 async function loadJson(path,fallback){
   try{
@@ -30,7 +37,7 @@ async function load(){
   niveauData=await loadJson('../../data/niveaux.json',[]);
   corpus=await loadJson('../../exports/generated/all_records.json',[]);
 
-  sourceLabels=buildSourceLabels(corpus);
+  sourceLabels=buildSourceLabels(registreData,corpus);
 
   populateSelect('chapitre',chapData);
   populateSelect('atelier',atelierData);
@@ -62,8 +69,9 @@ function compactAuthor(author){
   if(!author)return '';
   return String(author)
     .replace('Peter Hook','Hook')
-    .replace('Deborah Curtis','D. Curtis')
+    .replace('Deborah Curtis','Curtis')
     .replace('Mike West','West')
+    .replace('Marco Broll','Broll')
     .replace('Mark Johnson; Paul Morley; David Lees; Jon Wozencroft','Johnson/Morley')
     .replace('Mark Johnson','Johnson')
     .slice(0,28);
@@ -75,35 +83,54 @@ function findYear(data){
   return match?match[0]:'';
 }
 
-function buildSourceLabels(records){
-  const labels={...KNOWN_SOURCE_LABELS};
+function makeLabel(id,data){
+  const normalized=normalizeSourceId(id);
+  if(data?.source_label)return data.source_label;
+  const author=compactAuthor(data?.auteur||data?.author);
+  const title=compactTitle(data?.titre||data?.title);
+  const year=data?.annee||data?.source_year||findYear(data)||'s.d.';
+  const detail=[author,title,year].filter(Boolean).join(', ');
+  return detail?`${normalized} — ${detail}`:(FALLBACK_SOURCE_LABELS[normalized]||normalized);
+}
+
+function buildSourceLabels(registry,records){
+  const labels={...FALLBACK_SOURCE_LABELS};
+
+  registry.forEach(entry=>{
+    const id=normalizeSourceId(entry.id||entry.source_id);
+    if(!id)return;
+    labels[id]=makeLabel(id,entry);
+    if(entry.legacy_id)labels[entry.legacy_id]=labels[id];
+  });
 
   records.forEach(item=>{
     const d=item.data||{};
-    const id=d.source_id;
-    if(!id||labels[id])return;
-
-    const author=compactAuthor(d.auteur||d.author);
-    const title=compactTitle(d.titre||d.title);
-    const year=findYear(d);
-
-    const parts=[id];
-    const detail=[author,title,year].filter(Boolean).join(', ');
-    labels[id]=detail?`${id} — ${detail}`:id;
+    const ids=[];
+    if(d.source_id)ids.push(d.source_id);
+    if(Array.isArray(d.sources))ids.push(...d.sources);
+    ids.forEach(raw=>{
+      const id=normalizeSourceId(raw);
+      if(!id||labels[id])return;
+      labels[id]=makeLabel(id,d);
+    });
   });
 
   return labels;
 }
 
+function labelSource(id){return sourceLabels[normalizeSourceId(id)]||sourceLabels[id]||normalizeSourceId(id)||''}
+
 function populateSources(){
   const select=document.getElementById('sources');
-  const ids=[...new Set(corpus.map(item=>item.data?.source_id).filter(Boolean))].sort();
-  ids.forEach(id=>select.add(new Option(sourceLabels[id]||id,id)));
+  const ids=[...new Set(corpus.map(item=>normalizeSourceId(item.data?.source_id)).filter(Boolean))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));
+  select.innerHTML='';
+  ids.forEach(id=>select.add(new Option(labelSource(id),id)));
 }
 
 function populateContextChapters(){
   const select=document.getElementById('contextChapters');
   const chapters=[...new Set(corpus.flatMap(item=>item.data?.chapitres||[]))].sort();
+  select.innerHTML='';
   chapters.forEach(ch=>select.add(new Option(ch,ch)));
 }
 
@@ -120,7 +147,7 @@ function buildContext(){
   let filtered=[...corpus];
 
   if(selectedSources.length){
-    filtered=filtered.filter(item=>selectedSources.includes(item.data?.source_id));
+    filtered=filtered.filter(item=>selectedSources.includes(normalizeSourceId(item.data?.source_id)));
   }
 
   if(selectedChapters.length){
@@ -139,7 +166,8 @@ function buildContext(){
 
   return filtered.map(item=>{
     const d=item.data||{};
-    const sourceLabel=sourceLabels[d.source_id]||d.source_id||'Source inconnue';
+    const sourceId=normalizeSourceId(d.source_id);
+    const sourceLabel=labelSource(sourceId)||'Source inconnue';
     return `- ${item.id} | ${sourceLabel} | ${d.auteur||'Auteur inconnu'} | ${d.titre||''} | concepts : ${(d.concepts||[]).join(', ')} | chapitres : ${(d.chapitres||[]).join(', ')}`;
   }).join('\n');
 }
