@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registre des citations — Joy Division</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Registre des citations</h1>
+      <p class="subtitle">Vue documentaire dynamique générée depuis <code>exports/generated/quotes.json</code>.</p>
+      <p class="back"><a href="../../">← Retour au portail</a></p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="toolbar">
+      <div class="status-card" id="status-card">Chargement des citations…</div>
+
+      <div class="filters">
+        <div class="field">
+          <label for="search">Recherche</label>
+          <input id="search" type="search" placeholder="Curtis, Hannett, Closer, Factory…">
+        </div>
+
+        <div class="field">
+          <label for="source-filter">Source</label>
+          <select id="source-filter">
+            <option value="">Toutes</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="status-filter">Vérification</label>
+          <select id="status-filter">
+            <option value="">Toutes</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="importance-filter">Importance</label>
+          <select id="importance-filter">
+            <option value="">Toutes</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="chapter-filter">Chapitre</label>
+          <select id="chapter-filter">
+            <option value="">Tous</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="reset-filters" type="button">Réinitialiser</button>
+        <button id="download-csv" type="button">Exporter la vue CSV</button>
+      </div>
+
+      <p class="note">
+        Le registre est une vue calculée. Après toute atomisation ou correction de citation, reconstruire les exports sur le Mac avec <code>python3 tools/build_registers.py</code>, puis publier <code>exports/generated</code>.
+      </p>
+    </section>
+
+    <section class="register-panel">
+      <div class="results-header">
+        <h2>Citations</h2>
+        <div id="results-meta"></div>
+      </div>
+
+      <div class="table-wrap">
+        <table id="quotes-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Source</th>
+              <th>Citation originale</th>
+              <th>Traduction éditoriale</th>
+              <th>Page</th>
+              <th>Importance</th>
+              <th>Vérification</th>
+              <th>Chapitres</th>
+              <th>Fichier</th>
+            </tr>
+          </thead>
+          <tbody id="quotes-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
