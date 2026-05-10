@@ -1,17 +1,13 @@
 # Registre consolidé des références
 
-Ce registre est une couche de consolidation. Il ne donne pas automatiquement raison aux anciens registres ni aux fichiers issus de l’atomisation.
+Ce registre fusionne les références issues des documents de travail historiques, de `data/registre.json` et des atomisations. Aucune source n’est canonique par sa seule origine : chaque entrée conserve son statut, son origine et son arbitrage.
 
-Il fusionne progressivement les matériaux disponibles :
+Décision d’indexation actuellement retenue :
 
 ```text
-data/registre.json
-sources/*/source.md
-sources/*/README.md
-anciens registres et documents maîtres lorsqu’ils sont importés comme matériaux de travail
+S41 = Peter Hook, Unknown Pleasures, 2012
+S73 = Blue Orchids, entrée historique à consolider
 ```
-
-Chaque entrée conserve l’origine documentaire et les arbitrages à instruire.
 
 ---
 
@@ -28,10 +24,9 @@ nature: institutionnel
 statut: a_consolider
 fiabilite: moyenne
 usage: [contexte économique]
-concepts: [déclin emploi, East Manchester]
 chapitres: [Chapitre 1]
 source_origin: [data/registre.json, registre historique]
-arbitrage: "Source présente dans les deux familles de travail ; référence complète à consolider."
+arbitrage: "Référence complète à consolider."
 ```
 
 ## S02 — Sénat, Rapport shrinking cities Manchester, s.d.
@@ -47,10 +42,9 @@ nature: rapport institutionnel
 statut: a_consolider
 fiabilite: moyenne
 usage: [données démographiques, shrinking cities]
-concepts: [shrinking city, démographie, emploi]
 chapitres: [Chapitre 1]
 source_origin: [data/registre.json, registre historique]
-arbitrage: "Source présente dans les deux familles de travail ; référence complète et URL à vérifier."
+arbitrage: "Référence complète et URL à vérifier."
 ```
 
 ## S03 — Demographia / ONS, séries emploi / population, s.d.
@@ -66,10 +60,9 @@ nature: données statistiques
 statut: a_consolider
 fiabilite: moyenne
 usage: [démographie urbaine, emploi, population]
-concepts: [démographie urbaine, périmètres, emploi]
 chapitres: [Chapitre 1]
 source_origin: [data/registre.json, registre historique]
-arbitrage: "Le registre JSON mentionnait ONS ; le registre historique mentionne Demographia. Divergence à instruire avant validation."
+arbitrage: "Le registre JSON mentionnait ONS ; le registre historique mentionne Demographia. Divergence à instruire."
 ```
 
 ## S04 — Kidd, Manchester: A History, 2006
@@ -85,10 +78,9 @@ nature: livre historique
 statut: a_consolider
 fiabilite: forte
 usage: [industrialisation, histoire de Manchester]
-concepts: [désindustrialisation, emplois manufacturiers]
 chapitres: [Chapitre 1]
 source_origin: [data/registre.json, registre historique]
-arbitrage: "Référence à vérifier bibliographiquement avant passage en statut vérifié."
+arbitrage: "Référence bibliographique à vérifier."
 ```
 
 ## S05 — Jeffery, Moss Side riots study, s.d.
@@ -104,7 +96,6 @@ nature: étude universitaire ou historique
 statut: a_consolider
 fiabilite: moyenne
 usage: [émeutes, police, ordres de grandeur]
-concepts: [émeutes, police, ordres de grandeur]
 chapitres: [Chapitre 1]
 source_origin: [data/registre.json, registre historique]
 arbitrage: "Auteur, titre exact, date et support à vérifier."
@@ -123,7 +114,6 @@ nature: mémoire ou thèse
 statut: a_consolider
 fiabilite: moyenne
 usage: [Hulme, régénération urbaine]
-concepts: [modernisme, échec urbain, logement social]
 chapitres: [Chapitre 1]
 source_origin: [data/registre.json, registre historique]
 arbitrage: "Référence universitaire précise à identifier."
@@ -131,7 +121,7 @@ arbitrage: "Référence universitaire précise à identifier."
 
 ---
 
-# Références historiques importées S07-S41
+# Références historiques importées S07-S40
 
 ## S07 — Engels, La Situation de la classe laborieuse en Angleterre, 1845
 
@@ -146,13 +136,12 @@ nature: livre historique et politique
 statut: a_consolider
 fiabilite: forte
 usage: [conditions de vie, Salford, Manchester]
-concepts: [conditions de vie, Salford, Manchester]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Référence importée ; édition et pagination à préciser avant citation."
+arbitrage: "Édition et pagination à préciser avant citation."
 ```
 
-## S08 — Debord, psychogéographie / dérive, s.d.
+## S08 — Debord, Psychogéographie / dérive, s.d.
 
 ```yaml
 id: S08
@@ -165,10 +154,9 @@ nature: texte théorique
 statut: a_consolider
 fiabilite: moyenne
 usage: [psychogéographie, dérive]
-concepts: [psychogéographie, dérive]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Référence théorique utile ; texte exact et édition à fixer."
+arbitrage: "Texte exact et édition à fixer."
 ```
 
 ## S09 — Cummins, corpus photographique Joy Division / Manchester, 1979
@@ -184,10 +172,9 @@ nature: corpus photographique
 statut: a_consolider
 fiabilite: forte
 usage: [iconographie, paysage urbain]
-concepts: [iconographie, paysage urbain]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Référence importée ; préciser livre, exposition, archive ou image utilisée."
+arbitrage: "Préciser livre, exposition, archive ou image utilisée."
 ```
 
 ## S10 — University of Birmingham eTheses, Sumner sur Salford, s.d.
@@ -203,10 +190,9 @@ nature: thèse ou ressource universitaire
 statut: a_consolider
 fiabilite: moyenne
 usage: [témoignage, mémoire urbaine]
-concepts: [témoignage, mémoire urbaine]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Source utilisée pour citations attribuées à Sumner ; retrouver la thèse exacte et la source primaire si possible."
+arbitrage: "Retrouver la thèse exacte et la source primaire si possible."
 ```
 
 ## S11 — UK Gov / DTI, données industrielles 1978-1988, s.d.
@@ -222,10 +208,9 @@ nature: données statistiques et politiques publiques
 statut: a_consolider
 fiabilite: moyenne
 usage: [austérité, politique industrielle]
-concepts: [austérité, politique industrielle]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Référence importée ; source gouvernementale exacte à identifier."
+arbitrage: "Source gouvernementale exacte à identifier."
 ```
 
 ## S12 — Anderton, chef de police du Greater Manchester, s.d.
@@ -241,7 +226,6 @@ nature: profil / citations / source historique
 statut: a_consolider
 fiabilite: moyenne
 usage: [contrôle social, répression]
-concepts: [contrôle social, répression]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
 arbitrage: "Importer seulement les citations vérifiées dans master_quotes.md."
@@ -260,10 +244,9 @@ nature: analyse critique ou universitaire
 statut: a_consolider
 fiabilite: moyenne
 usage: [ordre public, conservatisme moral]
-concepts: [ordre public, conservatisme moral]
 chapitres: [Chapitre 7]
 source_origin: [registre historique]
-arbitrage: "Référence importée ; l’affectation au chapitre 7 vient du registre historique."
+arbitrage: "Référence à localiser."
 ```
 
 ## S14 — Happy Mondays, God's Cop, s.d.
@@ -279,10 +262,9 @@ nature: référence discographique
 statut: a_consolider
 fiabilite: moyenne
 usage: [réappropriation musicale, police]
-concepts: [réappropriation musicale, police]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 14]
 source_origin: [registre historique]
-arbitrage: "Référence connexe, utile surtout pour réception mancunienne ultérieure."
+arbitrage: "Référence connexe, plutôt utile pour réception mancunienne ultérieure."
 ```
 
 ## S15 — De Luca, concert Sex Pistols et scène mancunienne, s.d.
@@ -298,10 +280,9 @@ nature: analyse historique ou critique
 statut: a_consolider
 fiabilite: moyenne
 usage: [événement fondateur, catalyseur]
-concepts: [événement fondateur, catalyseur]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 2]
 source_origin: [registre historique]
-arbitrage: "Référence importée ; à vérifier avec les sources primaires sur les concerts Sex Pistols à Manchester."
+arbitrage: "À vérifier avec les sources primaires sur les concerts Sex Pistols à Manchester."
 ```
 
 ## S16 — Buzzcocks, Boredom, 1977
@@ -317,8 +298,7 @@ nature: référence discographique
 statut: a_consolider
 fiabilite: forte
 usage: [ennui, jeunesse]
-concepts: [ennui, jeunesse]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 2]
 source_origin: [registre historique]
 arbitrage: "Référence musicale à consolider avec Discogs ou source discographique stable."
 ```
@@ -336,10 +316,9 @@ nature: référence discographique
 statut: a_consolider
 fiabilite: forte
 usage: [critique sociale, médicaments]
-concepts: [critique sociale, médicaments]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 14]
 source_origin: [registre historique]
-arbitrage: "Référence connexe à la scène mancunienne ; préciser support et label."
+arbitrage: "Préciser support et label."
 ```
 
 ## S18 — Fédida, Manchester : L’éveil d’une scène musicale, s.d.
@@ -355,10 +334,9 @@ nature: analyse critique ou historique
 statut: a_consolider
 fiabilite: moyenne
 usage: [punk, génération]
-concepts: [punk, génération]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Référence importée ; localisation bibliographique à faire."
+arbitrage: "Localisation bibliographique à faire."
 ```
 
 ## S19 — Bourdieu, reconversion du capital, s.d.
@@ -374,10 +352,9 @@ nature: concept sociologique
 statut: a_consolider
 fiabilite: forte
 usage: [capital culturel, conversion]
-concepts: [capital culturel, conversion]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Référence conceptuelle ; ouvrage ou article exact à fixer avant citation."
+arbitrage: "Ouvrage ou article exact à fixer avant citation."
 ```
 
 ## S20 — Reynolds, cadre historique post-punk, migré vers S72
@@ -394,10 +371,9 @@ nature: legacy_reference
 statut: migree
 fiabilite: forte
 usage: [post-punk, scène]
-concepts: [post-punk, scène]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Identifiant historique conservé comme legacy_id ; l’identifiant repo canonique est S72."
+arbitrage: "Identifiant historique conservé comme legacy_id ; identifiant repo canonique : S72."
 ```
 
 ## S21 — City Fun, corpus 1978-1983, s.d.
@@ -413,10 +389,9 @@ nature: fanzine / archive
 statut: a_consolider
 fiabilite: moyenne
 usage: [médias alternatifs, DIY]
-concepts: [médias alternatifs, DIY]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 9]
 source_origin: [registre historique]
-arbitrage: "Référence d’archive ; préciser fonds, numéros et pages."
+arbitrage: "Préciser fonds, numéros et pages."
 ```
 
 ## S22 — Wilkinson, analyse de City Fun, s.d.
@@ -432,10 +407,9 @@ nature: analyse universitaire ou critique
 statut: a_consolider
 fiabilite: moyenne
 usage: [médias, politique]
-concepts: [médias, politique]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Référence importée ; à localiser."
+arbitrage: "Référence à localiser."
 ```
 
 ## S23 — Rochdale Alternative Press, infrastructure contre-culturelle, s.d.
@@ -451,10 +425,9 @@ nature: archive / infrastructure contre-culturelle
 statut: a_consolider
 fiabilite: moyenne
 usage: [DIY, production]
-concepts: [DIY, production]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Référence importée ; préciser support documentaire."
+arbitrage: "Préciser support documentaire."
 ```
 
 ## S24 — Boon / New Hormones, Spiral Scratch, s.d.
@@ -470,10 +443,9 @@ nature: label indépendant / référence discographique
 statut: a_consolider
 fiabilite: forte
 usage: [label indépendant, distribution]
-concepts: [label indé, distribution]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 2]
 source_origin: [registre historique]
-arbitrage: "À rapprocher de S72-A008 et des atomes Reynolds sur DIY."
+arbitrage: "À rapprocher de S72-A008."
 ```
 
 ## S25 — Factory Records, philosophie pas de contrats, s.d.
@@ -489,10 +461,9 @@ nature: concept documentaire / archive label
 statut: a_consolider
 fiabilite: moyenne
 usage: [indépendance, label]
-concepts: [indépendance, label]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 9, Chapitre 14]
 source_origin: [registre historique]
-arbitrage: "Entrée conceptuelle plus que référence unique ; peut être éclatée en sources primaires/secondaires."
+arbitrage: "Entrée conceptuelle plus que référence unique ; peut être éclatée."
 ```
 
 ## S26 — Butt, Post-Punk Then and Now, s.d.
@@ -508,8 +479,7 @@ nature: ouvrage ou article critique
 statut: a_consolider
 fiabilite: forte
 usage: [écoles d’art, réseaux]
-concepts: [écoles d’art, réseaux]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 14]
 source_origin: [registre historique]
 arbitrage: "Référence à localiser et compléter."
 ```
@@ -527,8 +497,7 @@ nature: sociologie des réseaux
 statut: a_consolider
 fiabilite: forte
 usage: [réseaux, sociologie]
-concepts: [réseaux, sociologie]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 9]
 source_origin: [registre historique]
 arbitrage: "Déterminer quel ouvrage/article de Crossley fonde l’usage."
 ```
@@ -546,8 +515,7 @@ nature: archive audiovisuelle
 statut: a_consolider
 fiabilite: forte
 usage: [médiatisation, TV]
-concepts: [médiatisation, TV]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 9]
 source_origin: [registre historique]
 arbitrage: "Préciser épisode, date et accès archive."
 ```
@@ -565,7 +533,6 @@ nature: article ou ouvrage critique
 statut: a_consolider
 fiabilite: forte
 usage: [hantologie, esthétique]
-concepts: [hantologie, esthétique]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
 arbitrage: "Référence centrale à consolider si le chapitre mobilise hantologie/paysage industriel."
@@ -584,7 +551,6 @@ nature: sociologie / musicologie populaire
 statut: a_consolider
 fiabilite: forte
 usage: [résistance, musique pop]
-concepts: [résistance, musique pop]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
 arbitrage: "Déterminer l’ouvrage ou article exact de Frith utilisé."
@@ -603,7 +569,6 @@ nature: analyse critique
 statut: a_consolider
 fiabilite: moyenne
 usage: [froid, modernité]
-concepts: [froid, modernité]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
 arbitrage: "Référence à localiser."
@@ -622,8 +587,7 @@ nature: référence musicale / influence
 statut: a_consolider
 fiabilite: forte
 usage: [avant-garde, mécanique]
-concepts: [avant-garde, mécanique]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 3]
 source_origin: [registre historique]
 arbitrage: "Entrée trop générale ; préciser albums, morceaux ou source critique."
 ```
@@ -641,8 +605,7 @@ nature: référence musicale / influence
 statut: a_consolider
 fiabilite: forte
 usage: [expérimentation, répétition]
-concepts: [expérimentation, répétition]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 3]
 source_origin: [registre historique]
 arbitrage: "Entrée trop générale ; préciser albums, morceaux ou source critique."
 ```
@@ -660,30 +623,28 @@ nature: article universitaire
 statut: a_consolider
 fiabilite: forte
 usage: [urbanité, incorporation]
-concepts: [urbanité, incorporation]
-chapitres: [Chapitre 1]
+chapitres: [Chapitre 1, Chapitre 13]
 source_origin: [registre historique]
 arbitrage: "Référence importante pour géographie émotionnelle ; à localiser et atomiser si disponible."
 ```
 
-## S35 — Peter Hook, autobiographie / mémoires, migré vers S73
+## S35 — Peter Hook, autobiographie / mémoires, migré vers S41
 
 ```yaml
 id: S35
-canonical_id: S73
+canonical_id: S41
 source_label: "S35 — Peter Hook, autobiographie / mémoires, s.d."
 auteur: Peter Hook
 titre: Autobiographie / mémoires
 annee: "s.d."
-reference_complete: "Voir S73 — Hook, Unknown Pleasures, 2012."
+reference_complete: "Voir S41 — Hook, Unknown Pleasures, 2012."
 nature: legacy_reference
 statut: migree
 fiabilite: forte
 usage: [ancrage territorial, Factory]
-concepts: [ancrage territorial, Factory]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Identifiant historique conservé comme entrée migrée ; l’identifiant repo canonique pour Hook est S73."
+arbitrage: "Identifiant historique conservé comme entrée migrée ; identifiant repo canonique pour Hook : S41."
 ```
 
 ## S36 — Crosthwaite, historicisme imaginatif, s.d.
@@ -699,7 +660,6 @@ nature: critique méthodologique
 statut: a_consolider
 fiabilite: moyenne
 usage: [réception critique, méthode]
-concepts: [réception critique, méthode]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
 arbitrage: "Référence à localiser ; utile pour cadrer les risques de projection rétrospective."
@@ -719,10 +679,9 @@ nature: legacy_reference
 statut: migree
 fiabilite: forte
 usage: [biographie, vote 1979]
-concepts: [biographie, vote 1979]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Identifiant historique conservé comme entrée migrée ; l’identifiant repo canonique pour Deborah Curtis est S45."
+arbitrage: "Identifiant historique conservé comme entrée migrée ; identifiant repo canonique pour Deborah Curtis : S45."
 ```
 
 ## S38 — Saville / Manchester United / Adidas, Pulsebeat of Manchester, 2023
@@ -738,7 +697,6 @@ nature: objet visuel / patrimonialisation contemporaine
 statut: a_consolider
 fiabilite: moyenne
 usage: [patrimonialisation, design]
-concepts: [patrimonialisation, design]
 chapitres: [Chapitre 1, Chapitre 14]
 source_origin: [registre historique]
 arbitrage: "Source contemporaine ; probablement à traiter surtout au chapitre 14."
@@ -757,10 +715,9 @@ nature: concept sociologique
 statut: a_consolider
 fiabilite: forte
 usage: [liquidité, liens sociaux]
-concepts: [liquidité, liens sociaux]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
-arbitrage: "Référence conceptuelle ; édition française ou originale à fixer avant citation."
+arbitrage: "Édition française ou originale à fixer avant citation."
 ```
 
 ## S40 — Cacciatore, nostalgie du futur, s.d.
@@ -776,34 +733,33 @@ nature: concept / citation à vérifier
 statut: a_consolider
 fiabilite: faible
 usage: [temps, futur perdu]
-concepts: [temps, futur perdu]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
 arbitrage: "Référence incertaine ; ne pas utiliser comme source probatoire avant identification exacte."
 ```
 
-## S41 — Blue Orchids, entrée historique
-
-```yaml
-id: S41
-source_label: "S41 — Blue Orchids, entrée historique à consolider, s.d."
-auteur: Blue Orchids
-titre: Référence à préciser
-annee: "s.d."
-reference_complete: "À consolider depuis le registre historique."
-nature: référence musicale / scène Manchester
-statut: a_consolider
-fiabilite: moyenne
-usage: [post-punk, scène de Manchester]
-concepts: [post-punk, scène de Manchester]
-chapitres: [Chapitre 1]
-source_origin: [registre historique]
-arbitrage: "S41 est réservé à l’entrée historique Blue Orchids. Peter Hook est déplacé vers S73."
-```
-
 ---
 
 # Sources atomisées et repères hors séquence historique importée
+
+## S41 — Hook, Unknown Pleasures, 2012
+
+```yaml
+id: S41
+legacy_id: [S35]
+source_label: "S41 — Hook, Unknown Pleasures, 2012"
+auteur: Peter Hook
+titre: Unknown Pleasures: Inside Joy Division
+annee: "2012"
+reference_complete: "HOOK, Peter, Unknown Pleasures: Inside Joy Division, Londres, Simon & Schuster, 2012."
+nature: mémoire primaire
+statut: atomisee
+fiabilite: forte
+usage: [mémoire interne, formation du groupe, dynamique musicale, Factory]
+chapitres: [Chapitre 1, Chapitre 2, Chapitre 3, Chapitre 5, Chapitre 6, Chapitre 7, Chapitre 8, Chapitre 9, Chapitre 10, Chapitre 11, Chapitre 13, Chapitre 14]
+source_origin: [data/registre.json, atomisation, registre historique]
+arbitrage: "Peter Hook conserve l’identifiant canonique S41. Les fichiers sources/hook/* restent cohérents et ne doivent pas être migrés."
+```
 
 ## S45 — Curtis, Touching from a Distance, 1995
 
@@ -951,21 +907,21 @@ source_origin: [data/registre.json, atomisation, registre historique]
 arbitrage: "S72 est l’identifiant canonique du repo ; S20 est conservé comme legacy_id issu des anciens documents de travail."
 ```
 
-## S73 — Hook, Unknown Pleasures, 2012
+## S73 — Blue Orchids, entrée historique à consolider, s.d.
 
 ```yaml
 id: S73
-legacy_id: [S41-REPO, S35]
-source_label: "S73 — Hook, Unknown Pleasures, 2012"
-auteur: Peter Hook
-titre: Unknown Pleasures: Inside Joy Division
-annee: "2012"
-reference_complete: "HOOK, Peter, Unknown Pleasures: Inside Joy Division, Londres, Simon & Schuster, 2012."
-nature: mémoire primaire
-statut: atomisee_a_migrer
-fiabilite: forte
-usage: [mémoire interne, formation du groupe, dynamique musicale, Factory]
-chapitres: [Chapitre 1, Chapitre 2, Chapitre 3, Chapitre 5, Chapitre 6, Chapitre 7, Chapitre 8, Chapitre 9, Chapitre 10, Chapitre 11, Chapitre 13, Chapitre 14]
-source_origin: [data/registre.json, atomisation, registre historique]
-arbitrage: "Peter Hook est déplacé de S41 vers S73 pour libérer l’identifiant historique S41. Les fichiers sources/hook contiennent encore des atomes S41-* et doivent être migrés par opération dédiée vers S73-*."
+legacy_id: [S41-HIST]
+source_label: "S73 — Blue Orchids, entrée historique à consolider, s.d."
+auteur: Blue Orchids
+titre: Référence à préciser
+annee: "s.d."
+reference_complete: "À consolider depuis le registre historique."
+nature: référence musicale / scène Manchester
+statut: a_consolider
+fiabilite: moyenne
+usage: [post-punk, scène de Manchester]
+chapitres: [Chapitre 1]
+source_origin: [registre historique, data/registre.json]
+arbitrage: "Blue Orchids est déplacé en S73 afin de laisser S41 à Peter Hook, dont les fichiers atomisés utilisent déjà cet identifiant."
 ```
