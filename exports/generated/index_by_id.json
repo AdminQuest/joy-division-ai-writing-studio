@@ -1,4 +1,1448 @@
 {
+  "S46-000": {
+    "kind": "atom",
+    "id": "S46-000",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "Référence source",
+    "data": {
+      "id": "S46-000",
+      "source_id": "S46",
+      "auteur": "Mark Johnson; Paul Morley; David Lees; Jon Wozencroft",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "1-123",
+      "type_unite": "source",
+      "auteur_principal": "Mark Johnson",
+      "editeur": "Proteus Books",
+      "lieu_publication": "London; New York",
+      "annee_publication": 1984,
+      "isbn_paperback": "0 86272 165 4",
+      "isbn_hardback": "0 86276 166 2",
+      "isbn_cloth": "0 86276 247 2",
+      "concepts": [
+        "histoire Joy Division",
+        "Factory Records",
+        "chronologie concerts",
+        "discographie",
+        "réception critique",
+        "iconographie",
+        "bootlegs"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-001": {
+    "kind": "atom",
+    "id": "S46-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-001 — Le livre comme histoire « éclectique » et non définitive",
+    "data": {
+      "id": "S46-001",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 6,
+      "type_unite": "methode",
+      "concepts": [
+        "historiographie",
+        "sources fans",
+        "Factory Records",
+        "incertitude documentaire"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false
+    }
+  },
+  "S46-002": {
+    "kind": "atom",
+    "id": "S46-002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-002 — Bootlegs et culture de circulation parallèle",
+    "data": {
+      "id": "S46-002",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 6,
+      "type_unite": "contexte_documentaire",
+      "concepts": [
+        "bootlegs",
+        "cassettes",
+        "fans",
+        "concerts",
+        "circulation pirate"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false
+    }
+  },
+  "S46-003": {
+    "kind": "atom",
+    "id": "S46-003",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-003 — Paul Morley et la mémoire instable de Warsaw",
+    "data": {
+      "id": "S46-003",
+      "source_id": "S46",
+      "auteur": "Paul Morley",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 7,
+      "type_unite": "temoignage_interpretatif",
+      "concepts": [
+        "Paul Morley",
+        "Warsaw",
+        "Pennine Sound",
+        "mémoire",
+        "critique musicale"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-004": {
+    "kind": "atom",
+    "id": "S46-004",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-004 — Les concerts des Sex Pistols comme matrice mancunienne",
+    "data": {
+      "id": "S46-004",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 8,
+      "type_unite": "chronologie",
+      "concepts": [
+        "Sex Pistols",
+        "Buzzcocks",
+        "Lesser Free Trade Hall",
+        "Manchester punk",
+        "origine du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-005": {
+    "kind": "atom",
+    "id": "S46-005",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-005 — Première mention presse : Stiff Kittens",
+    "data": {
+      "id": "S46-005",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 8,
+      "type_unite": "reception_presse",
+      "concepts": [
+        "Stiff Kittens",
+        "Sounds",
+        "Pete Silverton",
+        "Anarchy Tour",
+        "Electric Circus"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-006": {
+    "kind": "atom",
+    "id": "S46-006",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-006 — Warsaw et la substitution de Steve Brotherdale par Stephen Morris",
+    "data": {
+      "id": "S46-006",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "11-12",
+      "type_unite": "chronologie_interne",
+      "concepts": [
+        "Warsaw",
+        "Steve Brotherdale",
+        "Stephen Morris",
+        "formation du groupe",
+        "batterie"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-007": {
+    "kind": "atom",
+    "id": "S46-007",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-007 — La première démo Warsaw du 18 juillet 1977",
+    "data": {
+      "id": "S46-007",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "11-12; 120",
+      "type_unite": "discographie",
+      "concepts": [
+        "Warsaw Demo",
+        "Pennine Sound",
+        "18 juillet 1977",
+        "Inside the Line",
+        "The Kill",
+        "At a Later Date"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-008": {
+    "kind": "atom",
+    "id": "S46-008",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-008 — Le passage de Warsaw à Joy Division",
+    "data": {
+      "id": "S46-008",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "15-16",
+      "type_unite": "chronologie",
+      "concepts": [
+        "Warsaw Pakt",
+        "changement de nom",
+        "Joy Division",
+        "House of Dolls",
+        "RCA"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-009": {
+    "kind": "atom",
+    "id": "S46-009",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-009 — Premier concert sous le nom Joy Division",
+    "data": {
+      "id": "S46-009",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 16,
+      "type_unite": "chronologie",
+      "concepts": [
+        "Joy Division",
+        "Pips",
+        "Manchester",
+        "25 janvier 1978",
+        "première apparition"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-010": {
+    "kind": "atom",
+    "id": "S46-010",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-010 — Le Stiff/Chiswick Challenge comme bascule Gretton-Wilson",
+    "data": {
+      "id": "S46-010",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "16-17",
+      "type_unite": "evenement",
+      "concepts": [
+        "Stiff Test",
+        "Chiswick Challenge",
+        "Rafters",
+        "Rob Gretton",
+        "Tony Wilson"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 5",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false
+    }
+  },
+  "S46-011": {
+    "kind": "atom",
+    "id": "S46-011",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-011 — RCA, Arrow Studios et l’album avorté",
+    "data": {
+      "id": "S46-011",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "19; 21-22",
+      "type_unite": "discographie_avortee",
+      "concepts": [
+        "RCA",
+        "Arrow Studios",
+        "John Anderson",
+        "Bob Auger",
+        "album inédit",
+        "No Love Lost",
+        "Interzone"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-012": {
+    "kind": "atom",
+    "id": "S46-012",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-012 — Rob Gretton devient manager",
+    "data": {
+      "id": "S46-012",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 21,
+      "type_unite": "acteur",
+      "concepts": [
+        "Rob Gretton",
+        "management",
+        "Bernard Sumner",
+        "organisation",
+        "professionnalisation"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false
+    }
+  },
+  "S46-013": {
+    "kind": "atom",
+    "id": "S46-013",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-013 — Les badges Joy Division et Better Badges",
+    "data": {
+      "id": "S46-013",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 21,
+      "type_unite": "objet",
+      "concepts": [
+        "badges",
+        "Better Badges",
+        "Rob Gretton",
+        "identité visuelle",
+        "merchandising"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-014": {
+    "kind": "atom",
+    "id": "S46-014",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-014 — Factory I, Russell Club, 9 juin 1978",
+    "data": {
+      "id": "S46-014",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "21-22",
+      "type_unite": "evenement",
+      "concepts": [
+        "Factory I",
+        "Russell Club",
+        "Tony Wilson",
+        "Richard Boon",
+        "Peter Saville",
+        "FAC 1"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false
+    }
+  },
+  "S46-015": {
+    "kind": "atom",
+    "id": "S46-015",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-015 — *An Ideal for Living* 7 pouces : autoproduction et mauvais pressage",
+    "data": {
+      "id": "S46-015",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 22,
+      "type_unite": "discographie",
+      "concepts": [
+        "An Ideal for Living",
+        "Enigma",
+        "7 pouces",
+        "autoproduction",
+        "imagerie nazie"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-016": {
+    "kind": "atom",
+    "id": "S46-016",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-016 — *An Ideal for Living* 12 pouces : Anonymous Records et messages de run-out",
+    "data": {
+      "id": "S46-016",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 24,
+      "type_unite": "discographie",
+      "concepts": [
+        "An Ideal for Living",
+        "Anonymous Records",
+        "run-out groove",
+        "Digital",
+        "Rabid Records"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-017": {
+    "kind": "atom",
+    "id": "S46-017",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-017 — *A Factory Sample* et Cargo Studios",
+    "data": {
+      "id": "S46-017",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 24,
+      "type_unite": "discographie",
+      "concepts": [
+        "A Factory Sample",
+        "FAC 2",
+        "Cargo Studios",
+        "Martin Zero",
+        "Digital",
+        "Glass"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false
+    }
+  },
+  "S46-018": {
+    "kind": "atom",
+    "id": "S46-018",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-018 — Bowdon Vale, provocation publique et accusations de nazisme",
+    "data": {
+      "id": "S46-018",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 29,
+      "type_unite": "reception_live",
+      "concepts": [
+        "Bowdon Vale",
+        "public punk",
+        "accusations de nazisme",
+        "Bidet Boys",
+        "Rob Gretton"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-019": {
+    "kind": "atom",
+    "id": "S46-019",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-019 — Rob Gretton formule l’ambition nationale",
+    "data": {
+      "id": "S46-019",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 29,
+      "type_unite": "acteur",
+      "concepts": [
+        "Rob Gretton",
+        "stratégie",
+        "nord-ouest",
+        "diffusion nationale",
+        "refus du sud"
+      ],
+      "chapitres": [
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false
+    }
+  },
+  "S46-020": {
+    "kind": "atom",
+    "id": "S46-020",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-020 — Strawberry Studios et l’enregistrement d’*Unknown Pleasures*",
+    "data": {
+      "id": "S46-020",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "29-30",
+      "type_unite": "discographie",
+      "concepts": [
+        "Unknown Pleasures",
+        "Strawberry Studios",
+        "Martin Hannett",
+        "avril 1979",
+        "premier album"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 5"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false
+    }
+  },
+  "S46-021": {
+    "kind": "atom",
+    "id": "S46-021",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-021 — Réception NME à Eric’s : Joy Division comme « Important Band »",
+    "data": {
+      "id": "S46-021",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 29,
+      "type_unite": "reception_presse",
+      "concepts": [
+        "Ian Wood",
+        "NME",
+        "Eric's Liverpool",
+        "industrial malaise",
+        "Ian Curtis"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-022": {
+    "kind": "atom",
+    "id": "S46-022",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-022 — Pochette d’*Unknown Pleasures* et source scientifique du motif",
+    "data": {
+      "id": "S46-022",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 30,
+      "type_unite": "iconographie",
+      "concepts": [
+        "Unknown Pleasures",
+        "Peter Saville",
+        "Bernard Sumner",
+        "pulsar",
+        "design Factory"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false
+    }
+  },
+  "S46-023": {
+    "kind": "atom",
+    "id": "S46-023",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-023 — *Transmission* comme single de relance et attraction des majors",
+    "data": {
+      "id": "S46-023",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 49,
+      "type_unite": "discographie_strategie",
+      "concepts": [
+        "Transmission",
+        "Warner Brothers",
+        "Bob Krasnow",
+        "Martin Hannett",
+        "Peter Saville",
+        "Rob Gretton"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-024": {
+    "kind": "atom",
+    "id": "S46-024",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-024 — Le second Peel Session",
+    "data": {
+      "id": "S46-024",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "49; 120",
+      "type_unite": "broadcast",
+      "concepts": [
+        "Peel Session",
+        "26 novembre 1979",
+        "10 décembre 1979",
+        "Sound of Music",
+        "Colony",
+        "24 Hours",
+        "Love Will Tear Us Apart"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-025": {
+    "kind": "atom",
+    "id": "S46-025",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-025 — Europe 1979-1980 et Les Bains-Douches",
+    "data": {
+      "id": "S46-025",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 49,
+      "type_unite": "chronologie_tournee",
+      "concepts": [
+        "Les Bains-Douches",
+        "Paris",
+        "tournée européenne",
+        "radio française",
+        "18 décembre 1979"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-026": {
+    "kind": "atom",
+    "id": "S46-026",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-026 — Paradiso : double set du 11 janvier 1980",
+    "data": {
+      "id": "S46-026",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 49,
+      "type_unite": "chronologie_tournee",
+      "concepts": [
+        "Paradiso",
+        "Amsterdam",
+        "11 janvier 1980",
+        "double set",
+        "bootleg"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-027": {
+    "kind": "atom",
+    "id": "S46-027",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980",
+    "data": {
+      "id": "S46-027",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 53,
+      "type_unite": "evenement_biographique",
+      "concepts": [
+        "Ian Curtis",
+        "epilepsie",
+        "Rainbow Theatre",
+        "4 avril 1980",
+        "stroboscopes"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-028": {
+    "kind": "atom",
+    "id": "S46-028",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-028 — Plan K : William Burroughs et la rue de Manchester",
+    "data": {
+      "id": "S46-028",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 41,
+      "type_unite": "evenement",
+      "concepts": [
+        "Plan K",
+        "Bruxelles",
+        "William Burroughs",
+        "Cabaret Voltaire",
+        "Ian Curtis"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-029": {
+    "kind": "atom",
+    "id": "S46-029",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-029 — Paul Morley, Wozencroft et la lecture occulto-filmique",
+    "data": {
+      "id": "S46-029",
+      "source_id": "S46",
+      "auteur": "Paul Morley; Jon Wozencroft",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "33; 47-48; 64-65; 112-114",
+      "type_unite": "interpretation",
+      "concepts": [
+        "montage théorique",
+        "film",
+        "hypnose",
+        "backward masking",
+        "varispeed",
+        "voix",
+        "death drive"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "faible",
+      "citation_directe": false
+    }
+  },
+  "S46-030": {
+    "kind": "atom",
+    "id": "S46-030",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-030 — New Order comme futur programmé de Joy Division",
+    "data": {
+      "id": "S46-030",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": "77; 106-107; 110; 112",
+      "type_unite": "prolongement",
+      "concepts": [
+        "New Order",
+        "Ceremony",
+        "Procession",
+        "Blue Monday",
+        "Temptation",
+        "héritage Joy Division"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false
+    }
+  },
+  "S46-031": {
+    "kind": "atom",
+    "id": "S46-031",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-031 — Liste des photographes comme cartographie visuelle",
+    "data": {
+      "id": "S46-031",
+      "source_id": "S46",
+      "auteur": "Mark Johnson",
+      "titre": "An Ideal for Living: An History of Joy Division",
+      "pages_pdf": 122,
+      "type_unite": "iconographie",
+      "concepts": [
+        "photographes",
+        "Kevin Cummins",
+        "Anton Corbijn",
+        "Philippe Carly",
+        "Paul Slattery",
+        "Malcolm Whitehead"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false
+    }
+  },
+  "S46-Q001": {
+    "kind": "quote",
+    "id": "S46-Q001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-Q001 — Curtis sur le monde intérieur",
+    "data": {
+      "id": "S46-Q001",
+      "source_id": "S46",
+      "citation_originale": "You can live in your own little world.",
+      "langue_originale": "anglais",
+      "traduction_editoriale_fr": "On peut vivre dans son propre petit monde.",
+      "page_pdf": 2,
+      "statut_verification": "verifie_fragment",
+      "importance": "forte",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ]
+    }
+  },
+  "S46-Q002": {
+    "kind": "quote",
+    "id": "S46-Q002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-Q002 — Factory Newsletter sur l’alternative comme spectacle",
+    "data": {
+      "id": "S46-Q002",
+      "source_id": "S46",
+      "citation_originale": "the spectacle of the alternative",
+      "langue_originale": "anglais",
+      "traduction_editoriale_fr": "le spectacle de l’alternative",
+      "page_pdf": 8,
+      "statut_verification": "verifie_fragment",
+      "importance": "moyenne",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ]
+    }
+  },
+  "S46-Q003": {
+    "kind": "quote",
+    "id": "S46-Q003",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-Q003 — Nigel Bagley sur le vrai début de Joy Division",
+    "data": {
+      "id": "S46-Q003",
+      "source_id": "S46",
+      "citation_originale": "where Joy Division started",
+      "langue_originale": "anglais",
+      "traduction_editoriale_fr": "là où Joy Division commence vraiment",
+      "page_pdf": 22,
+      "statut_verification": "verifie_fragment",
+      "importance": "forte",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 9"
+      ]
+    }
+  },
+  "S46-Q004": {
+    "kind": "quote",
+    "id": "S46-Q004",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-Q004 — Saville sur le design Factory",
+    "data": {
+      "id": "S46-Q004",
+      "source_id": "S46",
+      "citation_originale": "designed, as opposed to decorated",
+      "langue_originale": "anglais",
+      "traduction_editoriale_fr": "conçu, plutôt que décoré",
+      "page_pdf": 30,
+      "statut_verification": "verifie_fragment",
+      "importance": "forte",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ]
+    }
+  },
+  "S46-Q005": {
+    "kind": "quote",
+    "id": "S46-Q005",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-Q005 — Gretton sur le refus du Sud",
+    "data": {
+      "id": "S46-Q005",
+      "source_id": "S46",
+      "citation_originale": "South.",
+      "langue_originale": "anglais",
+      "traduction_editoriale_fr": "Le Sud.",
+      "page_pdf": 29,
+      "statut_verification": "verifie_fragment",
+      "importance": "moyenne",
+      "chapitres": [
+        "Chapitre 9"
+      ]
+    }
+  },
+  "CHR-S46-1976-001": {
+    "kind": "chronology",
+    "id": "CHR-S46-1976-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1976-001 — Sex Pistols à Manchester",
+    "data": {
+      "id": "CHR-S46-1976-001",
+      "date": "1976-06",
+      "precision_date": "mois",
+      "event": "Concerts des Sex Pistols à Manchester organisés autour de Buzzcocks et Howard Devoto, matrice du punk mancunien.",
+      "type": "concert_contexte",
+      "location": "Lesser Free Trade Hall, Manchester",
+      "people": [
+        "Howard Devoto",
+        "Sex Pistols",
+        "Buzzcocks"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  "CHR-S46-1976-002": {
+    "kind": "chronology",
+    "id": "CHR-S46-1976-002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1976-002 — Anarchy Tour à l’Electric Circus",
+    "data": {
+      "id": "CHR-S46-1976-002",
+      "date": "1976-12-09",
+      "precision_date": "jour",
+      "event": "Passage de l’Anarchy Tour à l’Electric Circus ; Stiff Kittens reçoit une première mention dans Sounds.",
+      "type": "concert_contexte",
+      "location": "Electric Circus, Manchester",
+      "people": [
+        "Peter Hook",
+        "Bernard Sumner",
+        "Terry Mason"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  "CHR-S46-1977-001": {
+    "kind": "chronology",
+    "id": "CHR-S46-1977-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1977-001 — Démo Warsaw à Pennine Sound",
+    "data": {
+      "id": "CHR-S46-1977-001",
+      "date": "1977-07-18",
+      "precision_date": "jour",
+      "event": "Enregistrement de la Warsaw Demo à Pennine Sound.",
+      "type": "recording",
+      "location": "Pennine Sound, Manchester",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [
+        "Inside the Line",
+        "Gutz",
+        "At a Later Date",
+        "The Kill"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  "CHR-S46-1978-001": {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-001 — Premier concert Joy Division",
+    "data": {
+      "id": "CHR-S46-1978-001",
+      "date": "1978-01-25",
+      "precision_date": "jour",
+      "event": "Premier concert sous le nom Joy Division.",
+      "type": "concert",
+      "location": "Pips, Manchester",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  "CHR-S46-1978-002": {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-002 — Stiff/Chiswick Challenge",
+    "data": {
+      "id": "CHR-S46-1978-002",
+      "date": "1978-04-14",
+      "precision_date": "jour",
+      "event": "Joy Division joue au Stiff/Chiswick Challenge ; Tony Wilson et Rob Gretton remarquent le groupe.",
+      "type": "concert_bascule",
+      "location": "Rafters, Manchester",
+      "people": [
+        "Tony Wilson",
+        "Rob Gretton",
+        "Ian Curtis"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "high"
+    }
+  },
+  "CHR-S46-1978-003": {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-003",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-003 — Sessions RCA/Arrow",
+    "data": {
+      "id": "CHR-S46-1978-003",
+      "date": "1978-05-03",
+      "precision_date": "plage",
+      "event": "Début des sessions Arrow/RCA pour un LP non publié, les 3 et 4 mai 1978.",
+      "type": "recording",
+      "location": "Arrow Studios, Manchester",
+      "people": [
+        "John Anderson",
+        "Bob Auger",
+        "Rob Gretton"
+      ],
+      "songs": [
+        "No Love Lost",
+        "Interzone",
+        "Transmission",
+        "Warsaw"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  "CHR-S46-1978-004": {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-004",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-004 — Factory/Russell Club",
+    "data": {
+      "id": "CHR-S46-1978-004",
+      "date": "1978-06-09",
+      "precision_date": "jour",
+      "event": "Joy Division joue au Factory/Russell Club ; association décisive avec Factory.",
+      "type": "concert",
+      "location": "Russell Club, Manchester",
+      "people": [
+        "Tony Wilson",
+        "Peter Saville",
+        "Richard Boon"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "high"
+    }
+  },
+  "CHR-S46-1978-005": {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-005",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-005 — Sortie du 7 pouces *An Ideal for Living*",
+    "data": {
+      "id": "CHR-S46-1978-005",
+      "date": "1978-06",
+      "precision_date": "mois",
+      "event": "Auto-publication du 7 pouces An Ideal for Living sur Enigma.",
+      "type": "release",
+      "location": "Manchester",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [
+        "Warsaw",
+        "No Love Lost",
+        "Leaders of Men",
+        "Failures"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  "CHR-S46-1978-006": {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-006",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-006 — Enregistrement de « Digital » et « Glass »",
+    "data": {
+      "id": "CHR-S46-1978-006",
+      "date": "1978-10-11",
+      "precision_date": "jour",
+      "event": "Enregistrement de Digital et Glass pour A Factory Sample.",
+      "type": "recording",
+      "location": "Cargo Studios, Rochdale",
+      "people": [
+        "Martin Hannett",
+        "Tony Wilson"
+      ],
+      "songs": [
+        "Digital",
+        "Glass"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "high"
+    }
+  },
+  "CHR-S46-1979-001": {
+    "kind": "chronology",
+    "id": "CHR-S46-1979-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1979-001 — Enregistrement d’*Unknown Pleasures*",
+    "data": {
+      "id": "CHR-S46-1979-001",
+      "date": "1979-04",
+      "precision_date": "mois",
+      "event": "Enregistrement d’Unknown Pleasures à Strawberry Studios avec Martin Hannett.",
+      "type": "recording",
+      "location": "Strawberry Studios, Stockport",
+      "people": [
+        "Martin Hannett",
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [
+        "Disorder",
+        "Day of the Lords",
+        "Candidate",
+        "Insight",
+        "New Dawn Fades",
+        "She's Lost Control"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "high"
+    }
+  },
+  "CHR-S46-1979-002": {
+    "kind": "chronology",
+    "id": "CHR-S46-1979-002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1979-002 — Sortie d’*Unknown Pleasures*",
+    "data": {
+      "id": "CHR-S46-1979-002",
+      "date": "1979-06",
+      "precision_date": "mois",
+      "event": "Sortie de l’album Unknown Pleasures, FACT 10.",
+      "type": "release",
+      "location": "Manchester",
+      "people": [
+        "Peter Saville",
+        "Bernard Sumner",
+        "Martin Hannett"
+      ],
+      "songs": [
+        "Disorder",
+        "Shadowplay",
+        "She's Lost Control"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "high"
+    }
+  },
+  "CHR-S46-1979-003": {
+    "kind": "chronology",
+    "id": "CHR-S46-1979-003",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1979-003 — Plan K Bruxelles",
+    "data": {
+      "id": "CHR-S46-1979-003",
+      "date": "1979-10-16",
+      "precision_date": "jour",
+      "event": "Concert de Joy Division au Plan K, Bruxelles, avec Cabaret Voltaire et William Burroughs.",
+      "type": "concert",
+      "location": "Plan K, Bruxelles",
+      "people": [
+        "William Burroughs",
+        "Cabaret Voltaire",
+        "Ian Curtis"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  "CHR-S46-1979-004": {
+    "kind": "chronology",
+    "id": "CHR-S46-1979-004",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1979-004 — Seconde Peel Session",
+    "data": {
+      "id": "CHR-S46-1979-004",
+      "date": "1979-11-26",
+      "precision_date": "jour",
+      "event": "Enregistrement de la seconde Peel Session de Joy Division.",
+      "type": "broadcast_recording",
+      "location": "BBC",
+      "people": [
+        "John Peel",
+        "Tony Wilson"
+      ],
+      "songs": [
+        "Sound of Music",
+        "Colony",
+        "24 Hours",
+        "Love Will Tear Us Apart"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  "CHR-S46-1979-005": {
+    "kind": "chronology",
+    "id": "CHR-S46-1979-005",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1979-005 — Les Bains-Douches",
+    "data": {
+      "id": "CHR-S46-1979-005",
+      "date": "1979-12-18",
+      "precision_date": "jour",
+      "event": "Concert aux Bains-Douches, Paris, partiellement diffusé à la radio française.",
+      "type": "concert_broadcast",
+      "location": "Les Bains-Douches, Paris",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  "CHR-S46-1980-001": {
+    "kind": "chronology",
+    "id": "CHR-S46-1980-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1980-001 — Paradiso Amsterdam",
+    "data": {
+      "id": "CHR-S46-1980-001",
+      "date": "1980-01-11",
+      "precision_date": "jour",
+      "event": "Joy Division joue deux sets au Paradiso, Amsterdam.",
+      "type": "concert",
+      "location": "Paradiso, Amsterdam",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  "CHR-S46-1980-002": {
+    "kind": "chronology",
+    "id": "CHR-S46-1980-002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1980-002 — Rainbow Theatre",
+    "data": {
+      "id": "CHR-S46-1980-002",
+      "date": "1980-04-04",
+      "precision_date": "jour",
+      "event": "Crise d’épilepsie de Ian Curtis pendant le concert du Rainbow Theatre.",
+      "type": "concert_incident",
+      "location": "Rainbow Theatre, London",
+      "people": [
+        "Ian Curtis",
+        "Dave Pils",
+        "Twinny"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
   "S45-Q001": {
     "kind": "quote",
     "id": "S45-Q001",
@@ -4391,9 +5835,9 @@
       ]
     }
   },
-  "NO_ID::sources/hook/citations_exactes.md::152": {
+  "NO_ID::sources/hook/citations_exactes.md::205": {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::152",
+    "id": "NO_ID::sources/hook/citations_exactes.md::205",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -6322,9 +7766,9 @@
       "fiabilite": "forte"
     }
   },
-  "NO_ID::registers/songs/master_songs.md::225": {
+  "NO_ID::registers/songs/master_songs.md::278": {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::225",
+    "id": "NO_ID::registers/songs/master_songs.md::278",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -6903,9 +8347,9 @@
       "notes": "« Ceremony » constitue l’un des principaux points de passage entre les deux groupes."
     }
   },
-  "NO_ID::registers/people/master_people.md::233": {
+  "NO_ID::registers/people/master_people.md::286": {
     "kind": "unknown",
-    "id": "NO_ID::registers/people/master_people.md::233",
+    "id": "NO_ID::registers/people/master_people.md::286",
     "file": "registers/people/master_people.md",
     "heading": "Structure normalisée d’une personne",
     "data": {
@@ -7636,9 +9080,9 @@
       "notes": "Important pour décentrer le récit du seul génie Hannett."
     }
   },
-  "NO_ID::registers/chronology/master_chronology.md::246": {
+  "NO_ID::registers/chronology/master_chronology.md::299": {
     "kind": "unknown",
-    "id": "NO_ID::registers/chronology/master_chronology.md::246",
+    "id": "NO_ID::registers/chronology/master_chronology.md::299",
     "file": "registers/chronology/master_chronology.md",
     "heading": "Structure normalisée d’un événement",
     "data": {

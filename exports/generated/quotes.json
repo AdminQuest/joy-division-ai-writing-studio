@@ -1,6 +1,105 @@
 [
   {
     "kind": "quote",
+    "id": "S46-Q001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-Q001 — Curtis sur le monde intérieur",
+    "data": {
+      "id": "S46-Q001",
+      "source_id": "S46",
+      "citation_originale": "You can live in your own little world.",
+      "langue_originale": "anglais",
+      "traduction_editoriale_fr": "On peut vivre dans son propre petit monde.",
+      "page_pdf": 2,
+      "statut_verification": "verifie_fragment",
+      "importance": "forte",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ]
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S46-Q002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-Q002 — Factory Newsletter sur l’alternative comme spectacle",
+    "data": {
+      "id": "S46-Q002",
+      "source_id": "S46",
+      "citation_originale": "the spectacle of the alternative",
+      "langue_originale": "anglais",
+      "traduction_editoriale_fr": "le spectacle de l’alternative",
+      "page_pdf": 8,
+      "statut_verification": "verifie_fragment",
+      "importance": "moyenne",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S46-Q003",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-Q003 — Nigel Bagley sur le vrai début de Joy Division",
+    "data": {
+      "id": "S46-Q003",
+      "source_id": "S46",
+      "citation_originale": "where Joy Division started",
+      "langue_originale": "anglais",
+      "traduction_editoriale_fr": "là où Joy Division commence vraiment",
+      "page_pdf": 22,
+      "statut_verification": "verifie_fragment",
+      "importance": "forte",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 9"
+      ]
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S46-Q004",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-Q004 — Saville sur le design Factory",
+    "data": {
+      "id": "S46-Q004",
+      "source_id": "S46",
+      "citation_originale": "designed, as opposed to decorated",
+      "langue_originale": "anglais",
+      "traduction_editoriale_fr": "conçu, plutôt que décoré",
+      "page_pdf": 30,
+      "statut_verification": "verifie_fragment",
+      "importance": "forte",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S46-Q005",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "S46-Q005 — Gretton sur le refus du Sud",
+    "data": {
+      "id": "S46-Q005",
+      "source_id": "S46",
+      "citation_originale": "South.",
+      "langue_originale": "anglais",
+      "traduction_editoriale_fr": "Le Sud.",
+      "page_pdf": 29,
+      "statut_verification": "verifie_fragment",
+      "importance": "moyenne",
+      "chapitres": [
+        "Chapitre 9"
+      ]
+    }
+  },
+  {
+    "kind": "quote",
     "id": "S45-Q001",
     "file": "sources/deborah_curtis/citations_exactes.md",
     "heading": "S45-Q001 — Refus de la vie ordinaire",
@@ -621,7 +720,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::152",
+    "id": "NO_ID::sources/hook/citations_exactes.md::205",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {

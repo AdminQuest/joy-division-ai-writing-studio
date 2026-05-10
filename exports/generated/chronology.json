@@ -1,6 +1,429 @@
 [
   {
     "kind": "chronology",
+    "id": "CHR-S46-1976-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1976-001 — Sex Pistols à Manchester",
+    "data": {
+      "id": "CHR-S46-1976-001",
+      "date": "1976-06",
+      "precision_date": "mois",
+      "event": "Concerts des Sex Pistols à Manchester organisés autour de Buzzcocks et Howard Devoto, matrice du punk mancunien.",
+      "type": "concert_contexte",
+      "location": "Lesser Free Trade Hall, Manchester",
+      "people": [
+        "Howard Devoto",
+        "Sex Pistols",
+        "Buzzcocks"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1976-002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1976-002 — Anarchy Tour à l’Electric Circus",
+    "data": {
+      "id": "CHR-S46-1976-002",
+      "date": "1976-12-09",
+      "precision_date": "jour",
+      "event": "Passage de l’Anarchy Tour à l’Electric Circus ; Stiff Kittens reçoit une première mention dans Sounds.",
+      "type": "concert_contexte",
+      "location": "Electric Circus, Manchester",
+      "people": [
+        "Peter Hook",
+        "Bernard Sumner",
+        "Terry Mason"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1977-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1977-001 — Démo Warsaw à Pennine Sound",
+    "data": {
+      "id": "CHR-S46-1977-001",
+      "date": "1977-07-18",
+      "precision_date": "jour",
+      "event": "Enregistrement de la Warsaw Demo à Pennine Sound.",
+      "type": "recording",
+      "location": "Pennine Sound, Manchester",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [
+        "Inside the Line",
+        "Gutz",
+        "At a Later Date",
+        "The Kill"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-001 — Premier concert Joy Division",
+    "data": {
+      "id": "CHR-S46-1978-001",
+      "date": "1978-01-25",
+      "precision_date": "jour",
+      "event": "Premier concert sous le nom Joy Division.",
+      "type": "concert",
+      "location": "Pips, Manchester",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-002 — Stiff/Chiswick Challenge",
+    "data": {
+      "id": "CHR-S46-1978-002",
+      "date": "1978-04-14",
+      "precision_date": "jour",
+      "event": "Joy Division joue au Stiff/Chiswick Challenge ; Tony Wilson et Rob Gretton remarquent le groupe.",
+      "type": "concert_bascule",
+      "location": "Rafters, Manchester",
+      "people": [
+        "Tony Wilson",
+        "Rob Gretton",
+        "Ian Curtis"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "high"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-003",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-003 — Sessions RCA/Arrow",
+    "data": {
+      "id": "CHR-S46-1978-003",
+      "date": "1978-05-03",
+      "precision_date": "plage",
+      "event": "Début des sessions Arrow/RCA pour un LP non publié, les 3 et 4 mai 1978.",
+      "type": "recording",
+      "location": "Arrow Studios, Manchester",
+      "people": [
+        "John Anderson",
+        "Bob Auger",
+        "Rob Gretton"
+      ],
+      "songs": [
+        "No Love Lost",
+        "Interzone",
+        "Transmission",
+        "Warsaw"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-004",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-004 — Factory/Russell Club",
+    "data": {
+      "id": "CHR-S46-1978-004",
+      "date": "1978-06-09",
+      "precision_date": "jour",
+      "event": "Joy Division joue au Factory/Russell Club ; association décisive avec Factory.",
+      "type": "concert",
+      "location": "Russell Club, Manchester",
+      "people": [
+        "Tony Wilson",
+        "Peter Saville",
+        "Richard Boon"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "high"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-005",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-005 — Sortie du 7 pouces *An Ideal for Living*",
+    "data": {
+      "id": "CHR-S46-1978-005",
+      "date": "1978-06",
+      "precision_date": "mois",
+      "event": "Auto-publication du 7 pouces An Ideal for Living sur Enigma.",
+      "type": "release",
+      "location": "Manchester",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [
+        "Warsaw",
+        "No Love Lost",
+        "Leaders of Men",
+        "Failures"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1978-006",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1978-006 — Enregistrement de « Digital » et « Glass »",
+    "data": {
+      "id": "CHR-S46-1978-006",
+      "date": "1978-10-11",
+      "precision_date": "jour",
+      "event": "Enregistrement de Digital et Glass pour A Factory Sample.",
+      "type": "recording",
+      "location": "Cargo Studios, Rochdale",
+      "people": [
+        "Martin Hannett",
+        "Tony Wilson"
+      ],
+      "songs": [
+        "Digital",
+        "Glass"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "high"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1979-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1979-001 — Enregistrement d’*Unknown Pleasures*",
+    "data": {
+      "id": "CHR-S46-1979-001",
+      "date": "1979-04",
+      "precision_date": "mois",
+      "event": "Enregistrement d’Unknown Pleasures à Strawberry Studios avec Martin Hannett.",
+      "type": "recording",
+      "location": "Strawberry Studios, Stockport",
+      "people": [
+        "Martin Hannett",
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [
+        "Disorder",
+        "Day of the Lords",
+        "Candidate",
+        "Insight",
+        "New Dawn Fades",
+        "She's Lost Control"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "high"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1979-002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1979-002 — Sortie d’*Unknown Pleasures*",
+    "data": {
+      "id": "CHR-S46-1979-002",
+      "date": "1979-06",
+      "precision_date": "mois",
+      "event": "Sortie de l’album Unknown Pleasures, FACT 10.",
+      "type": "release",
+      "location": "Manchester",
+      "people": [
+        "Peter Saville",
+        "Bernard Sumner",
+        "Martin Hannett"
+      ],
+      "songs": [
+        "Disorder",
+        "Shadowplay",
+        "She's Lost Control"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "high"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1979-003",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1979-003 — Plan K Bruxelles",
+    "data": {
+      "id": "CHR-S46-1979-003",
+      "date": "1979-10-16",
+      "precision_date": "jour",
+      "event": "Concert de Joy Division au Plan K, Bruxelles, avec Cabaret Voltaire et William Burroughs.",
+      "type": "concert",
+      "location": "Plan K, Bruxelles",
+      "people": [
+        "William Burroughs",
+        "Cabaret Voltaire",
+        "Ian Curtis"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1979-004",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1979-004 — Seconde Peel Session",
+    "data": {
+      "id": "CHR-S46-1979-004",
+      "date": "1979-11-26",
+      "precision_date": "jour",
+      "event": "Enregistrement de la seconde Peel Session de Joy Division.",
+      "type": "broadcast_recording",
+      "location": "BBC",
+      "people": [
+        "John Peel",
+        "Tony Wilson"
+      ],
+      "songs": [
+        "Sound of Music",
+        "Colony",
+        "24 Hours",
+        "Love Will Tear Us Apart"
+      ],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1979-005",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1979-005 — Les Bains-Douches",
+    "data": {
+      "id": "CHR-S46-1979-005",
+      "date": "1979-12-18",
+      "precision_date": "jour",
+      "event": "Concert aux Bains-Douches, Paris, partiellement diffusé à la radio française.",
+      "type": "concert_broadcast",
+      "location": "Les Bains-Douches, Paris",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1980-001",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1980-001 — Paradiso Amsterdam",
+    "data": {
+      "id": "CHR-S46-1980-001",
+      "date": "1980-01-11",
+      "precision_date": "jour",
+      "event": "Joy Division joue deux sets au Paradiso, Amsterdam.",
+      "type": "concert",
+      "location": "Paradiso, Amsterdam",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S46-1980-002",
+    "file": "sources/johnson_morley_an_ideal_for_living/source.md",
+    "heading": "CHR-S46-1980-002 — Rainbow Theatre",
+    "data": {
+      "id": "CHR-S46-1980-002",
+      "date": "1980-04-04",
+      "precision_date": "jour",
+      "event": "Crise d’épilepsie de Ian Curtis pendant le concert du Rainbow Theatre.",
+      "type": "concert_incident",
+      "location": "Rainbow Theatre, London",
+      "people": [
+        "Ian Curtis",
+        "Dave Pils",
+        "Twinny"
+      ],
+      "songs": [],
+      "sources": [
+        "S46"
+      ],
+      "certainty": "medium"
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-1956-001",
     "file": "registers/chronology/master_chronology.md",
     "heading": "CHR-1956-001 — Naissance de Ian Curtis",
