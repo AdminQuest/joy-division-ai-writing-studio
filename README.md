@@ -68,6 +68,22 @@ Règles :
 
 ---
 
+## 1 bis. Consolidation des registres
+
+Les anciens registres de références ou de citations, les fichiers issus de l’atomisation et les exports générés sont tous des matériaux de travail.
+
+Aucun n’est automatiquement canonique par nature.
+
+La doctrine de consolidation est décrite ici :
+
+```text
+docs/CONSOLIDATION_REGISTRES.md
+```
+
+Principe : les références et les citations doivent être fusionnées par comparaison critique, avec traçabilité de leur origine, arbitrage des doublons, gestion des `legacy_id` et distinction entre citation candidate et citation validée.
+
+---
+
 ## 2. Architecture générale
 
 ```text
@@ -109,6 +125,8 @@ joy-division-ai-writing-studio/
     chronology/
     songs/
     people/
+    references/
+    quotes/
 
   schemas/                       # schémas documentaires
     atom.schema.yaml
@@ -132,6 +150,7 @@ joy-division-ai-writing-studio/
 
   docs/
     ATOMISATION_SOURCE.md        # procédure obligatoire d’atomisation
+    CONSOLIDATION_REGISTRES.md   # doctrine de fusion références / citations
     RAG_SETUP.md
     WEB_INTERFACE.md
 ```
@@ -231,6 +250,13 @@ registers/songs/master_songs.md
 registers/people/master_people.md
 ```
 
+Les registres consolidés à créer ou alimenter sont :
+
+```text
+registers/references/master_references.md
+registers/quotes/master_quotes.md
+```
+
 Ils servent à croiser les sources et à éviter une simple accumulation de notes.
 
 Leur fonction :
@@ -238,6 +264,8 @@ Leur fonction :
 - stabiliser la chronologie ;
 - relier chansons, événements et personnes ;
 - identifier les contradictions entre sources ;
+- consolider les références issues de l’atomisation et des documents de travail ;
+- distinguer citations candidates et citations validées ;
 - préparer les exports et le RAG ;
 - sécuriser la rédaction des chapitres.
 
@@ -353,6 +381,8 @@ data/registre.json
 
 Ce fichier est ensuite utilisé par toutes les interfaces pour afficher les titres complets des sources.
 
+À terme, `data/registre.json` peut devenir un export dérivé du registre consolidé `registers/references/master_references.md`.
+
 ---
 
 ## 13. Règles méthodologiques permanentes
@@ -370,19 +400,22 @@ Ce fichier est ensuite utilisé par toutes les interfaces pour afficher les titr
 11. Toute nouvelle source doit recevoir un identifiant `SXX` unique et un `source_label` lisible.
 12. Toute nouvelle source doit être ajoutée à `data/registre.json`.
 13. Toute atomisation doit viser tous les registres pertinents : sources, atomes, citations, chronologie, personnes, chansons, concepts.
+14. Les anciens registres et les fichiers issus de l’atomisation sont des matériaux de travail ; la consolidation résulte d’une comparaison critique documentée.
 
 ---
 
 ## 14. État actuel
 
 ```text
-sources atomisées : Hook, Deborah Curtis, Marco Broll, Greig & Strong
-citations exactes/candidates : Hook, Deborah Curtis, Marco Broll, Greig & Strong
+sources atomisées : Hook, Deborah Curtis, Marco Broll, Greig & Strong, Suatoni, Flowers, Reynolds
+citations exactes/candidates : fichiers locaux par source
 registres : chronologie, chansons, personnes, concepts via atomes
 schémas : présents
 parseur : présent, avec normalisation des sources
 RAG lexical : présent
 interface web : portail + Prompt Studio + RAG Studio + registres spécialisés
+registre consolidé des références : à créer
+registre consolidé des citations : à créer
 RAG vectoriel : non encore implémenté
 synthèse IA automatique : non encore implémentée
 ```
@@ -391,7 +424,9 @@ synthèse IA automatique : non encore implémentée
 
 ## 15. Prochaines évolutions probables
 
-- créer un registre maître `registers/sources/master_sources.md` ;
+- créer `registers/references/master_references.md` ;
+- créer `registers/quotes/master_quotes.md` ;
+- produire un rapport de divergence références / citations ;
 - créer un registre des lieux ;
 - créer un registre des contradictions ;
 - ajouter une recherche vectorielle ;
