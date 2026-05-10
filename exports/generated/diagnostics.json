@@ -1429,6 +1429,1242 @@
   },
   {
     "level": "warning",
+    "file": "registers/quotes/master_quotes.md",
+    "message": "Unable to infer documentary kind",
+    "record_id": "HIST-C1-IMPORT-001"
+  },
+  {
+    "level": "warning",
+    "file": "registers/quotes/master_quotes.md",
+    "message": "Unable to infer documentary kind",
+    "record_id": "QUOTES-CONSOLIDATION-RULES-001"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S01"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S01"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S01"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: consolidee",
+    "record_id": "S01"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S02"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S02"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S02"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: consolidee",
+    "record_id": "S02"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S03"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S03"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S03"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: consolidee_comme_source_web_a_archiver",
+    "record_id": "S03"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S04"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S04"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S04"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: consolidee",
+    "record_id": "S04"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S05"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S05"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S05"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: consolidee",
+    "record_id": "S05"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S06"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S06"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S06"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: consolidee",
+    "record_id": "S06"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S07"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S07"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S07"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S07"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S08"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S08"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S08"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S08"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S09"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S09"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S09"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S09"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S10"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S10"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S10"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S10"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S11"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S11"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S11"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S11"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S12"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S12"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S12"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S12"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S13"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S13"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S13"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S13"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S14"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S14"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S14"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S14"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S15"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S15"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S15"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S15"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S16"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S16"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S16"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S16"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S17"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S17"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S17"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S17"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S18"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S18"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S18"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S18"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S19"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S19"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S19"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S19"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S20"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S20"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S20"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: migree",
+    "record_id": "S20"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S21"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S21"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S21"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S21"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S22"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S22"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S22"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S22"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S23"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S23"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S23"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S23"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S24"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S24"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S24"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S24"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S25"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S25"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S25"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S25"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S26"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S26"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S26"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S26"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S27"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S27"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S27"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S27"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S28"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S28"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S28"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S28"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S29"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S29"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S29"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S29"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S30"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S30"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S30"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S30"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S31"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S31"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S31"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S31"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S32"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S32"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S32"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S32"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S33"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S33"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S33"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S33"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S34"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S34"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S34"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S34"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S35"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S35"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S35"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: migree",
+    "record_id": "S35"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S36"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S36"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S36"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S36"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S37"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S37"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S37"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: migree",
+    "record_id": "S37"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S38"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S38"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S38"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S38"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S39"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S39"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S39"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S39"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S40"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S40"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S40"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S40"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S41"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S41"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S41"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: atomisee",
+    "record_id": "S41"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S45"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S45"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S45"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: atomisee_a_consolider",
+    "record_id": "S45"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S46"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S46"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S46"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: consolidee_a_atomiser",
+    "record_id": "S46"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S47"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S47"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S47"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: consolidee_a_atomiser",
+    "record_id": "S47"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S68"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S68"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S68"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: consolidee_a_confirmer_sur_exemplaire",
+    "record_id": "S68"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S69"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S69"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S69"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: atomisee",
+    "record_id": "S69"
+  },
+  {
+    "level": "error",
+    "file": "registers/references/master_references.md",
+    "message": "Duplicate id also found in sources/greig_strong/source.md",
+    "record_id": "S69"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S70"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S70"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S70"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: consolidee",
+    "record_id": "S70"
+  },
+  {
+    "level": "error",
+    "file": "registers/references/master_references.md",
+    "message": "Duplicate id also found in sources/suatoni/source.md",
+    "record_id": "S70"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S71"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S71"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S71"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: atomisee",
+    "record_id": "S71"
+  },
+  {
+    "level": "error",
+    "file": "registers/references/master_references.md",
+    "message": "Duplicate id also found in sources/flowers/source.md",
+    "record_id": "S71"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S72"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S72"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S72"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: atomisee",
+    "record_id": "S72"
+  },
+  {
+    "level": "error",
+    "file": "registers/references/master_references.md",
+    "message": "Duplicate id also found in sources/reynolds_rip_it_up/source.md",
+    "record_id": "S72"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: source_id",
+    "record_id": "S73"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: type_unite",
+    "record_id": "S73"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Missing required field: concepts",
+    "record_id": "S73"
+  },
+  {
+    "level": "warning",
+    "file": "registers/references/master_references.md",
+    "message": "Invalid value for statut: a_consolider",
+    "record_id": "S73"
+  },
+  {
+    "level": "warning",
     "file": "registers/people/master_people.md",
     "message": "Unable to infer documentary kind",
     "record_id": null
