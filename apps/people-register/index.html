@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registre des acteurs — Joy Division</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Registre des acteurs</h1>
+      <p class="subtitle">Vue documentaire dynamique générée depuis <code>exports/generated/people.json</code>.</p>
+      <p class="back"><a href="../../">← Retour au portail</a></p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="toolbar">
+      <div class="status-card" id="status-card">Chargement des acteurs…</div>
+
+      <div class="filters">
+        <div class="field">
+          <label for="search">Recherche</label>
+          <input id="search" type="search" placeholder="Curtis, Hannett, Factory, designer, témoin…">
+        </div>
+
+        <div class="field">
+          <label for="source-filter">Source</label>
+          <select id="source-filter">
+            <option value="">Toutes</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="role-filter">Rôle</label>
+          <select id="role-filter">
+            <option value="">Tous</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="entity-filter">Entité associée</label>
+          <select id="entity-filter">
+            <option value="">Toutes</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="chapter-filter">Chapitre</label>
+          <select id="chapter-filter">
+            <option value="">Tous</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="reset-filters" type="button">Réinitialiser</button>
+        <button id="download-csv" type="button">Exporter CSV</button>
+      </div>
+
+      <p class="note">
+        Le registre des acteurs consolide les personnes, rôles, sources, chansons, événements, contradictions et précautions méthodologiques. Après enrichissement de <code>master_people.md</code> ou atomisation d’un livre, reconstruire les exports.
+      </p>
+    </section>
+
+    <section class="register-panel">
+      <div class="results-header">
+        <h2>Acteurs</h2>
+        <div id="results-meta"></div>
+      </div>
+
+      <div id="people-list" class="people-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
