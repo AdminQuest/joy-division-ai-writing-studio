@@ -10,20 +10,21 @@
 <header>
 <h1>Joy Division — Prompt Studio</h1>
 <p>Poste de pilotage rédactionnel structuré.</p>
-<p><a href="/">← Retour au portail</a></p>
+<p><a href="../../">← Retour au portail</a></p>
 </header>
 <main>
 <section class="panel">
 <h2>Pipeline multi-IA</h2>
-<p class="hint">Le prompteur distingue quatre niveaux : sources, structuration, production et contrôle. Chaque niveau correspond à un rôle d’IA distinct et produit un prompt adapté.</p>
+<p class="hint">Le prompteur distingue quatre niveaux : sources, structuration, production et contrôle. Il peut désormais injecter automatiquement le contexte documentaire issu des registres dynamiques.</p>
 </section>
+
 <section class="panel grid grid-four">
 <div>
 <label>Niveau IA</label>
 <select id="niveau"></select>
 </div>
 <div>
-<label>Chapitre</label>
+<label>Chapitre cible</label>
 <select id="chapitre"></select>
 </div>
 <div>
@@ -31,21 +32,68 @@
 <select id="atelier"></select>
 </div>
 <div>
-<label>Mode</label>
+<label>Mode rédactionnel</label>
 <select id="mode">
-<option>Diagnostic bref + corrections ciblées</option>
-<option>Tableau de contrôle</option>
-<option>Rédaction directement exploitable</option>
-<option>Format registre</option>
-<option>Rédaction chapitre complet</option>
-<option>Audit automatique</option>
-<option>Extraction documentaire</option>
-<option>Recherche documentaire</option>
-<option>Brief de rédaction</option>
-<option>Contrôle final multi-IA</option>
+<option value="analyse">Analyse documentaire</option>
+<option value="synthese">Synthèse argumentée</option>
+<option value="comparaison">Comparaison des sources</option>
+<option value="consolidation">Consolidation de chapitre</option>
+<option value="redaction_narrative">Rédaction narrative exploitable</option>
+<option value="verification_historiographique">Vérification historiographique</option>
+<option value="controle_citations">Contrôle des citations</option>
+<option value="chronologie">Construction chronologique</option>
+<option value="fiche_chanson">Fiche chanson</option>
+<option value="audit_final">Audit final multi-IA</option>
 </select>
 </div>
 </section>
+
+<section class="panel">
+<h2>Contexte documentaire à injecter</h2>
+<p class="hint">Sélectionner les registres, sources et chapitres à mobiliser. Le contexte sera ajouté automatiquement au prompt généré.</p>
+<div class="grid grid-three">
+<div>
+<label>Registres</label>
+<select id="registers" multiple size="7">
+<option value="atoms" selected>Atomes</option>
+<option value="quotes">Citations</option>
+<option value="chronology">Chronologie</option>
+<option value="people">Acteurs</option>
+<option value="songs">Chansons</option>
+<option value="concepts">Concepts</option>
+<option value="all">Tous les registres</option>
+</select>
+</div>
+<div>
+<label>Sources</label>
+<select id="sources" multiple size="7"></select>
+</div>
+<div>
+<label>Chapitres documentaires</label>
+<select id="contextChapters" multiple size="7"></select>
+</div>
+</div>
+<div class="grid grid-three context-controls">
+<div>
+<label>Requête documentaire</label>
+<input id="contextQuery" placeholder="Ex. Hannett Transmission urban decay">
+</div>
+<div>
+<label>Nombre maximum d’éléments injectés</label>
+<select id="contextLimit">
+<option>5</option>
+<option selected>10</option>
+<option>15</option>
+<option>25</option>
+</select>
+</div>
+<div>
+<label>État du corpus</label>
+<div id="corpusStatus" class="status">Chargement des exports…</div>
+</div>
+</div>
+</section>
+
 <section class="panel">
 <label>Matériau à traiter</label>
 <textarea id="input" placeholder="Coller ici notes, extraits, brouillon, résultats NotebookLM, résultats Perplexity ou texte rédigé par Claude."></textarea>
