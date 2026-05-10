@@ -89,6 +89,29 @@ def nearest_heading(text: str, pos: int) -> Optional[str]:
     return headings[-1][1].strip()
 
 
+def is_empty_template(data: Dict[str, Any]) -> bool:
+    if not isinstance(data, dict) or not data:
+        return False
+
+    if data.get("id") or data.get("song"):
+        return False
+
+    non_empty_scalars = []
+    for value in data.values():
+        if value is None:
+            continue
+        if isinstance(value, list) and value:
+            non_empty_scalars.extend(item for item in value if item not in (None, ""))
+            continue
+        if isinstance(value, dict) and value:
+            non_empty_scalars.extend(item for item in value.values() if item not in (None, ""))
+            continue
+        if value not in (None, ""):
+            non_empty_scalars.append(value)
+
+    return not non_empty_scalars
+
+
 def normalize_yaml(raw: str) -> str:
     """Make common atomisation YAML mistakes parseable.
 
@@ -142,6 +165,8 @@ def extract_yaml_blocks(path: Path) -> List[Tuple[Dict[str, Any], Optional[str]]
             continue
 
         if isinstance(loaded, dict):
+            if is_empty_template(loaded):
+                continue
             blocks.append((loaded, heading))
         else:
             blocks.append(({"__non_mapping__": loaded, "__raw__": raw}, heading))
