@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registre des chansons — Joy Division</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Registre des chansons</h1>
+      <p class="subtitle">Vue documentaire dynamique générée depuis <code>exports/generated/songs.json</code>.</p>
+      <p class="back"><a href="../../">← Retour au portail</a></p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="toolbar">
+      <div class="status-card" id="status-card">Chargement des chansons…</div>
+
+      <div class="filters">
+        <div class="field">
+          <label for="search">Recherche</label>
+          <input id="search" type="search" placeholder="Transmission, contrôle, Hannett, Factory, live…">
+        </div>
+
+        <div class="field">
+          <label for="source-filter">Source</label>
+          <select id="source-filter"><option value="">Toutes</option></select>
+        </div>
+
+        <div class="field">
+          <label for="type-filter">Type</label>
+          <select id="type-filter"><option value="">Tous</option></select>
+        </div>
+
+        <div class="field">
+          <label for="theme-filter">Thème</label>
+          <select id="theme-filter"><option value="">Tous</option></select>
+        </div>
+
+        <div class="field">
+          <label for="chapter-filter">Chapitre</label>
+          <select id="chapter-filter"><option value="">Tous</option></select>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="reset-filters" type="button">Réinitialiser</button>
+        <button id="download-csv" type="button">Exporter CSV</button>
+      </div>
+
+      <p class="note">
+        Ce registre consolide les chansons, versions, thèmes, sources, citations, atomes liés et usages par chapitre. Après enrichissement de <code>master_songs.md</code> ou atomisation d’un nouveau livre, reconstruire les exports.
+      </p>
+    </section>
+
+    <section class="register-panel">
+      <div class="results-header">
+        <h2>Chansons</h2>
+        <div id="results-meta"></div>
+      </div>
+      <div id="songs-list" class="songs-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
