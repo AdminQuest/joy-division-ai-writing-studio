@@ -11,9 +11,37 @@ Le système n’est pas conçu comme un générateur de texte autonome. Il vise 
 
 ---
 
+## 0. Règle impérative pour toute atomisation
+
+Toute demande du type :
+
+```text
+Atomise cette source.
+Atomise ce livre.
+Ajoute cette source au repo.
+```
+
+signifie obligatoirement :
+
+```text
+Créer ou modifier directement les fichiers nécessaires dans le repo GitHub.
+```
+
+Il est interdit de répondre uniquement par une archive locale, un dossier local, un fichier temporaire ou un contenu à copier-coller. Le travail n’est considéré comme fait que lorsque les fichiers sont créés ou modifiés dans le repo avec des commits effectifs.
+
+La procédure obligatoire est décrite ici :
+
+```text
+docs/ATOMISATION_SOURCE.md
+```
+
+Cette procédure prime sur toute pratique antérieure.
+
+---
+
 ## 1. Convention unique de codification des sources
 
-Toute source intellectuelle mobilisée dans le repo doit désormais respecter le format suivant :
+Toute source intellectuelle mobilisée dans le repo doit respecter le format suivant :
 
 ```text
 SXX — Auteur, Titre court, Année
@@ -25,6 +53,7 @@ Exemples :
 S41 — Hook, Unknown Pleasures, 2012
 S45 — Curtis, Touching from a Distance, 1995
 S68 — Broll, Joy Division, s.d.
+S69 — Greig & Strong, But We Remember When We Were Young, 2014
 ```
 
 Règles :
@@ -35,8 +64,7 @@ Règles :
 4. Les anciens identifiants longs ou techniques sont traités comme alias de migration, jamais comme identifiants d’affichage.
 5. Chaque atome, citation ou événement doit porter le champ `source_id` canonique.
 6. Les interfaces doivent afficher le champ `source_label` lorsqu’il existe.
-
-Pour la source Marco Broll, l’ancien identifiant `S-BROLL-JOY-001` est normalisé en `S68` dans le parseur et les interfaces.
+7. Toute nouvelle source doit être ajoutée à `data/registre.json`.
 
 ---
 
@@ -59,7 +87,13 @@ joy-division-ai-writing-studio/
       style.css
       app.js
 
-  data/                          # données JSON du Prompt Studio
+    quote-register/              # registre des citations
+    chronology-register/         # registre chronologique
+    people-register/             # registre des personnes
+    song-register/               # registre des chansons
+    concept-register/            # registre des concepts
+
+  data/                          # données JSON du Prompt Studio et registre central
     chapitres.json
     ateliers.json
     niveaux.json
@@ -69,6 +103,7 @@ joy-division-ai-writing-studio/
     hook/
     deborah_curtis/
     marco_broll/
+    greig_strong/
 
   registers/                     # registres transversaux
     chronology/
@@ -96,6 +131,7 @@ joy-division-ai-writing-studio/
     master_index.md              # index documentaire global
 
   docs/
+    ATOMISATION_SOURCE.md        # procédure obligatoire d’atomisation
     RAG_SETUP.md
     WEB_INTERFACE.md
 ```
@@ -154,12 +190,12 @@ Le principe fondamental est le suivant :
 
 ```text
 PDF OCR
-→ atomisation Markdown/YAML
+→ atomisation Markdown/YAML dans le repo
 → schémas documentaires
 → parseur documentaire
 → exports JSON/CSV
 → RAG lexical
-→ interface web locale
+→ interfaces web
 → usage rédactionnel contrôlé
 ```
 
@@ -171,28 +207,23 @@ L’IA générative ne doit pas être branchée directement sur les PDF OCR brut
 
 Les sources principales sont stockées dans `sources/` sous forme de fichiers Markdown contenant des blocs YAML.
 
-Sources actuellement structurées :
-
-```text
-sources/hook/
-sources/deborah_curtis/
-sources/marco_broll/
-```
-
-Chaque source doit idéalement comporter :
+Chaque source doit comporter au minimum :
 
 - une fiche `source.md` ;
-- des fichiers d’atomisation ;
 - un fichier `citations_exactes.md` ;
+- un fichier `README.md` ;
 - des identifiants stables ;
 - des rattachements aux chapitres ;
-- des liens vers personnes, chansons, événements ou concepts.
+- des liens vers personnes, chansons, événements ou concepts ;
+- une entrée dans `data/registre.json`.
+
+Pour les livres longs, des fichiers d’atomes complémentaires peuvent être créés, mais ils doivent rester dans le dossier source et respecter la procédure `docs/ATOMISATION_SOURCE.md`.
 
 ---
 
 ## 7. Registres transversaux
 
-Trois registres maîtres existent actuellement :
+Les registres maîtres existants sont :
 
 ```text
 registers/chronology/master_chronology.md
@@ -209,6 +240,8 @@ Leur fonction :
 - identifier les contradictions entre sources ;
 - préparer les exports et le RAG ;
 - sécuriser la rédaction des chapitres.
+
+Toute atomisation doit alimenter tous les registres pertinents, soit directement par modification d’un registre maître, soit indirectement par les champs YAML `related_people`, `related_songs`, `related_events`, `concepts`, `sources` et `chapitres`.
 
 ---
 
@@ -318,34 +351,38 @@ Le fichier produit est :
 data/registre.json
 ```
 
-Ce fichier est ensuite utilisé par le Prompt Studio.
+Ce fichier est ensuite utilisé par toutes les interfaces pour afficher les titres complets des sources.
 
 ---
 
 ## 13. Règles méthodologiques permanentes
 
-1. Ne pas stocker les PDF, OCR complets ou scans dans Git.
-2. Conserver les citations originales en langue source.
-3. Distinguer citation originale, traduction littérale, traduction éditoriale et interprétation.
-4. Ne pas utiliser les atomes comme texte final du livre.
-5. Ne pas interroger directement des PDF OCR bruts avec l’IA générative.
-6. Toute nouvelle source doit être atomisée avant d’alimenter le RAG.
-7. Tout nouveau fichier structuré doit respecter les schémas de `schemas/`.
-8. Les exports de `exports/generated/` sont régénérables et ne doivent pas être versionnés.
-9. Toute nouvelle source doit recevoir un identifiant `SXX` unique et un `source_label` lisible.
+1. Atomiser directement dans le repo GitHub.
+2. Ne jamais livrer uniquement une archive locale ou un dossier local.
+3. Ne pas stocker les PDF, OCR complets ou scans dans Git.
+4. Conserver les citations originales en langue source.
+5. Distinguer citation originale, traduction littérale, traduction éditoriale et interprétation.
+6. Ne pas utiliser les atomes comme texte final du livre.
+7. Ne pas interroger directement des PDF OCR bruts avec l’IA générative.
+8. Toute nouvelle source doit être atomisée avant d’alimenter le RAG.
+9. Tout nouveau fichier structuré doit respecter les schémas de `schemas/`.
+10. Les exports de `exports/generated/` sont régénérables et ne doivent pas être versionnés.
+11. Toute nouvelle source doit recevoir un identifiant `SXX` unique et un `source_label` lisible.
+12. Toute nouvelle source doit être ajoutée à `data/registre.json`.
+13. Toute atomisation doit viser tous les registres pertinents : sources, atomes, citations, chronologie, personnes, chansons, concepts.
 
 ---
 
 ## 14. État actuel
 
 ```text
-sources atomisées : Hook, Deborah Curtis, Marco Broll
-citations exactes/candidates : Hook, Deborah Curtis, Marco Broll
-registres : chronologie, chansons, personnes
+sources atomisées : Hook, Deborah Curtis, Marco Broll, Greig & Strong
+citations exactes/candidates : Hook, Deborah Curtis, Marco Broll, Greig & Strong
+registres : chronologie, chansons, personnes, concepts via atomes
 schémas : présents
 parseur : présent, avec normalisation des sources
 RAG lexical : présent
-interface web : portail + Prompt Studio + RAG Studio
+interface web : portail + Prompt Studio + RAG Studio + registres spécialisés
 RAG vectoriel : non encore implémenté
 synthèse IA automatique : non encore implémentée
 ```
@@ -354,7 +391,6 @@ synthèse IA automatique : non encore implémentée
 
 ## 15. Prochaines évolutions probables
 
-- étendre `SOURCE_LABELS` à l’ensemble des sources S01–S68 ;
 - créer un registre maître `registers/sources/master_sources.md` ;
 - créer un registre des lieux ;
 - créer un registre des contradictions ;
