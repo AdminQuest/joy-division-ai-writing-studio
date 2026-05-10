@@ -11,7 +11,7 @@
     <div class="hero-inner">
       <h1>Joy Division — RAG Studio</h1>
       <p class="subtitle">
-        Interface documentaire locale · RAG lexical · Corpus structuré
+        Interface documentaire web · RAG lexical · Corpus structuré
       </p>
       <p class="back"><a href="/">← Retour au portail</a></p>
     </div>
@@ -58,6 +58,15 @@
         </div>
       </form>
 
+      <section class="sources-browser">
+        <div class="panel-heading">
+          <h2>Sources atomisées</h2>
+          <span id="sources-count"></span>
+        </div>
+        <p class="panel-note">Ouvrir une source affiche ses atomes, citations, entrées chronologiques et autres enregistrements liés.</p>
+        <div id="sources-list"></div>
+      </section>
+
       <section class="examples">
         <h2>Exemples</h2>
 
@@ -85,7 +94,7 @@
       </div>
 
       <div class="results-header">
-        <h2>Résultats</h2>
+        <h2 id="results-title">Résultats</h2>
         <div id="results-meta"></div>
       </div>
 
