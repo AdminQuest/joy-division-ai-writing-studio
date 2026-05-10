@@ -1,6 +1,7 @@
 [
-  {"id":"sources","nom":"Sources (NotebookLM)","objectif":"Extraction et synthèse fidèle du corpus PDF."},
-  {"id":"recherche","nom":"Recherche (Perplexity)","objectif":"Recherche documentaire, validation et enrichissement des sources."},
-  {"id":"production","nom":"Production (Claude)","objectif":"Rédaction longue structurée à partir des matériaux validés."},
-  {"id":"controle","nom":"Contrôle (ChatGPT)","objectif":"Cohérence globale, anti-doublons et validation finale."}
+  {"id":"extraction","nom":"Extraction documentaire","objectif":"Extraire les faits, citations, dates, acteurs, chansons, concepts et références à partir du contexte injecté."},
+  {"id":"structuration","nom":"Structuration argumentative","objectif":"Organiser le matériau documentaire en plan, séquence narrative, architecture de chapitre ou matrice de raisonnement."},
+  {"id":"redaction","nom":"Rédaction contextualisée","objectif":"Produire un texte rédigé, fluide, exploitable dans le manuscrit, à partir du contexte documentaire sélectionné."},
+  {"id":"verification","nom":"Vérification critique","objectif":"Contrôler les citations, les sources, les contradictions, les doublons, la chronologie et les risques historiographiques."},
+  {"id":"consolidation","nom":"Consolidation éditoriale","objectif":"Fusionner, arbitrer et stabiliser une version de travail en respectant la traçabilité documentaire."}
 ]
