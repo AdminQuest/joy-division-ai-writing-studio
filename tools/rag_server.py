@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Joy Division AI Writing Studio — Local RAG web server v0.1
+Joy Division AI Writing Studio — Local web server v0.2
 
 Usage
 -----
@@ -12,6 +12,14 @@ From repository root:
 Then open:
 
     http://127.0.0.1:8765
+
+Routes
+------
+/                       unified portal
+/apps/prompt-studio/    prompt interface
+/apps/rag-studio/       documentary RAG interface
+/api/status             RAG corpus status
+/api/search             RAG search endpoint
 
 This server is local-only by default.
 It uses Python standard library only and wraps the existing lexical RAG engine.
@@ -27,7 +35,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-WEB_ROOT = REPO_ROOT / "web"
+APPS_ROOT = REPO_ROOT / "apps"
 TOOLS_ROOT = REPO_ROOT / "tools"
 
 sys.path.insert(0, str(TOOLS_ROOT))
@@ -49,7 +57,7 @@ CONTENT_TYPES = {
 
 
 class RAGRequestHandler(BaseHTTPRequestHandler):
-    server_version = "JoyDivisionRAG/0.1"
+    server_version = "JoyDivisionStudio/0.2"
 
     def _send_json(self, payload, status=200):
         body = json.dumps(payload, ensure_ascii=False, indent=2).encode("utf-8")
@@ -70,6 +78,20 @@ class RAGRequestHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(content)
 
+    def _serve_under_root(self, request_path: str, root: Path):
+        requested = request_path.lstrip("/")
+        safe_path = (REPO_ROOT / requested).resolve()
+
+        if request_path.endswith("/"):
+            safe_path = safe_path / "index.html"
+
+        root_resolved = root.resolve()
+        if not str(safe_path).startswith(str(root_resolved)):
+            self.send_error(403, "Forbidden")
+            return
+
+        self._send_file(safe_path)
+
     def do_GET(self):
         parsed = urlparse(self.path)
 
@@ -82,15 +104,22 @@ class RAGRequestHandler(BaseHTTPRequestHandler):
             return
 
         if parsed.path in {"/", "/index.html"}:
-            self._send_file(WEB_ROOT / "index.html")
+            self._send_file(REPO_ROOT / "index.html")
             return
 
-        requested = parsed.path.lstrip("/")
-        safe_path = (WEB_ROOT / requested).resolve()
-        if not str(safe_path).startswith(str(WEB_ROOT.resolve())):
-            self.send_error(403, "Forbidden")
+        if parsed.path in {"/prompt", "/prompt/"}:
+            self._send_file(APPS_ROOT / "prompt-studio" / "index.html")
             return
-        self._send_file(safe_path)
+
+        if parsed.path in {"/rag", "/rag/"}:
+            self._send_file(APPS_ROOT / "rag-studio" / "index.html")
+            return
+
+        if parsed.path.startswith("/apps/"):
+            self._serve_under_root(parsed.path, APPS_ROOT)
+            return
+
+        self.send_error(404, "Not found")
 
     def handle_status(self):
         try:
@@ -159,22 +188,22 @@ class RAGRequestHandler(BaseHTTPRequestHandler):
             self._send_json({"ok": False, "error": str(exc)}, status=500)
 
     def log_message(self, fmt, *args):
-        # Keep console output compact.
         print(f"{self.address_string()} - {fmt % args}")
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Run local RAG web interface.")
+    parser = argparse.ArgumentParser(description="Run local Joy Division AI Writing Studio web interface.")
     parser.add_argument("--host", default="127.0.0.1", help="Host, default 127.0.0.1")
     parser.add_argument("--port", type=int, default=8765, help="Port, default 8765")
     args = parser.parse_args()
 
-    if not WEB_ROOT.exists():
-        print("Missing web/ directory", file=sys.stderr)
+    if not APPS_ROOT.exists():
+        print("Missing apps/ directory", file=sys.stderr)
         return 2
 
     server = ThreadingHTTPServer((args.host, args.port), RAGRequestHandler)
-    print(f"Joy Division RAG web interface running at http://{args.host}:{args.port}")
+    print(f"Joy Division AI Writing Studio running at http://{args.host}:{args.port}")
+    print("Routes: / · /prompt · /rag · /apps/prompt-studio/ · /apps/rag-studio/")
     print("Press Ctrl+C to stop.")
     try:
         server.serve_forever()
