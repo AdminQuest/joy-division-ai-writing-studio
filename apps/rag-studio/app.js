@@ -1,5 +1,5 @@
 const STOPWORDS = new Set(['a','an','and','are','as','at','be','by','for','from','in','is','it','of','on','or','that','the','to','with','au','aux','ce','ces','dans','de','des','du','elle','en','et','il','la','le','les','pour','que','qui','sur','un','une']);
-const TOKEN_RE = /[\\wÀ-ÿ']+/gu;
+const TOKEN_RE = /[\wÀ-ÿ']+/gu;
 let ALL_RECORDS = [];
 
 function flatten(value){if(value===null||value===undefined)return '';if(typeof value==='string')return value;if(typeof value==='number'||typeof value==='boolean')return String(value);if(Array.isArray(value))return value.map(flatten).join(' ');if(typeof value==='object')return Object.entries(value).map(([k,v])=>`${k} ${flatten(v)}`).join(' ');return String(value)}
