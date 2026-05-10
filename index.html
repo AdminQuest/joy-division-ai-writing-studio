@@ -24,6 +24,7 @@ pre{background:#0f1115;border:1px solid #2a2f38;border-radius:10px;padding:14px;
 pre code{background:transparent;border:0;padding:0}
 .section ol{margin:0 0 18px;padding-left:22px;color:#aeb7c2}
 .section li{margin:6px 0}
+.note{border-left:3px solid #586170;padding-left:14px;color:#aeb7c2}
 @media(max-width:850px){.grid{grid-template-columns:1fr}h1{font-size:1.8rem}}
 </style>
 </head>
@@ -74,9 +75,47 @@ distinguer clairement trois opérations : retrouver les sources, rédiger le liv
 les références.
 </p>
 
-<h3>1. Reconstruire les exports</h3>
+<h3>1. Ouvrir un terminal dans le dossier du dépôt</h3>
 
-<p>Depuis la racine du dépôt, lancer :</p>
+<p>Sous Windows 11, procéder ainsi :</p>
+
+<ol>
+<li>Ouvrir l’Explorateur de fichiers.</li>
+<li>Aller dans le dossier local du dépôt, par exemple :</li>
+</ol>
+
+<pre><code>C:\Users\TonNom\Documents\GitHub\joy-division-ai-writing-studio</code></pre>
+
+<ol start="3">
+<li>Cliquer dans la barre d’adresse du dossier.</li>
+<li>Taper <code>cmd</code>.</li>
+<li>Appuyer sur <code>Entrée</code>.</li>
+</ol>
+
+<p>
+Le terminal s’ouvre alors directement à la racine du dépôt. C’est depuis cet emplacement que les commandes doivent être lancées.
+</p>
+
+<p class="note">
+Si le terminal est déjà ouvert ailleurs, utiliser d’abord <code>cd</code> pour rejoindre le dépôt.
+</p>
+
+<pre><code>cd C:\Users\TonNom\Documents\GitHub\joy-division-ai-writing-studio</code></pre>
+
+<h3>2. Vérifier que l’on est bien à la racine du dépôt</h3>
+
+<p>Lancer :</p>
+
+<pre><code>dir</code></pre>
+
+<p>
+La liste affichée doit contenir notamment <code>index.html</code>, le dossier <code>apps</code> et le dossier <code>tools</code>.
+Si ces éléments n’apparaissent pas, le terminal n’est pas ouvert au bon endroit.
+</p>
+
+<h3>3. Reconstruire les exports</h3>
+
+<p>Lancer :</p>
 
 <pre><code>python tools/build_registers.py</code></pre>
 
@@ -86,9 +125,9 @@ modification d’une fiche source, d’un document maître, du registre des réf
 des citations vérifiées ou du tableau de cohérence thématique.
 </p>
 
-<h3>2. Lancer le serveur local</h3>
+<h3>4. Lancer le serveur local</h3>
 
-<p>Depuis la racine du dépôt, lancer :</p>
+<p>Lancer :</p>
 
 <pre><code>python tools/rag_server.py</code></pre>
 
@@ -96,17 +135,19 @@ des citations vérifiées ou du tableau de cohérence thématique.
 Le terminal doit rester ouvert pendant toute la session. S’il est fermé, le serveur s’arrête.
 </p>
 
-<h3>3. Ordre de travail recommandé</h3>
+<h3>5. Ordre de travail recommandé</h3>
 
 <ol>
+<li>Ouvrir un terminal à la racine du dépôt.</li>
+<li>Vérifier l’emplacement avec <code>dir</code>.</li>
 <li>Reconstruire les exports avec <code>build_registers.py</code>.</li>
 <li>Lancer le serveur avec <code>rag_server.py</code>.</li>
-<li>Interroger les sources dans le RAG Studio.</li>
+<li>Ouvrir le portail puis interroger les sources dans le RAG Studio.</li>
 <li>Rédiger dans l’atelier de rédaction à partir des sources retrouvées.</li>
 <li>Contrôler le texte dans l’atelier de validation : sources, citations, doublons, périmètre du chapitre.</li>
 </ol>
 
-<h3>4. Règle de contrôle</h3>
+<h3>6. Règle de contrôle</h3>
 
 <p>
 Aucun passage n’est stabilisé tant que la source n’est pas identifiable, que les citations
