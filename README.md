@@ -2,7 +2,7 @@
 
 Environnement local de pilotage documentaire et rédactionnel pour la production du livre *Joy Division, le son de l’éternel*.
 
-Le projet combine désormais deux fonctions distinctes :
+Le projet combine deux fonctions distinctes :
 
 - un **Prompt Studio**, destiné à construire des prompts contraints pour la rédaction, la relecture et le contrôle éditorial ;
 - un **RAG Studio**, destiné à interroger localement le corpus atomisé : sources, citations, registres, chansons, personnes et événements.
@@ -11,7 +11,36 @@ Le système n’est pas conçu comme un générateur de texte autonome. Il vise 
 
 ---
 
-## 1. Architecture générale
+## 1. Convention unique de codification des sources
+
+Toute source intellectuelle mobilisée dans le repo doit désormais respecter le format suivant :
+
+```text
+SXX — Auteur, Titre court, Année
+```
+
+Exemples :
+
+```text
+S41 — Hook, Unknown Pleasures, 2012
+S45 — Curtis, Touching from a Distance, 1995
+S68 — Broll, Joy Division, s.d.
+```
+
+Règles :
+
+1. `SXX` est l’identifiant source canonique.
+2. Si une source existe déjà dans le registre, son numéro est conservé.
+3. Si une source nouvelle n’existe pas dans le registre, elle reçoit le prochain numéro libre.
+4. Les anciens identifiants longs ou techniques sont traités comme alias de migration, jamais comme identifiants d’affichage.
+5. Chaque atome, citation ou événement doit porter le champ `source_id` canonique.
+6. Les interfaces doivent afficher le champ `source_label` lorsqu’il existe.
+
+Pour la source Marco Broll, l’ancien identifiant `S-BROLL-JOY-001` est normalisé en `S68` dans le parseur et les interfaces.
+
+---
+
+## 2. Architecture générale
 
 ```text
 joy-division-ai-writing-studio/
@@ -39,6 +68,7 @@ joy-division-ai-writing-studio/
   sources/                       # sources atomisées en Markdown/YAML
     hook/
     deborah_curtis/
+    marco_broll/
 
   registers/                     # registres transversaux
     chronology/
@@ -72,7 +102,7 @@ joy-division-ai-writing-studio/
 
 ---
 
-## 2. Installation locale
+## 3. Installation locale
 
 Créer un environnement Python, puis installer les dépendances :
 
@@ -89,7 +119,7 @@ PyYAML
 
 ---
 
-## 3. Lancer le studio local
+## 4. Lancer le studio local
 
 Depuis la racine du repo :
 
@@ -118,7 +148,7 @@ Routes principales :
 
 ---
 
-## 4. Pipeline documentaire
+## 5. Pipeline documentaire
 
 Le principe fondamental est le suivant :
 
@@ -137,7 +167,7 @@ L’IA générative ne doit pas être branchée directement sur les PDF OCR brut
 
 ---
 
-## 5. Sources atomisées
+## 6. Sources atomisées
 
 Les sources principales sont stockées dans `sources/` sous forme de fichiers Markdown contenant des blocs YAML.
 
@@ -146,6 +176,7 @@ Sources actuellement structurées :
 ```text
 sources/hook/
 sources/deborah_curtis/
+sources/marco_broll/
 ```
 
 Chaque source doit idéalement comporter :
@@ -159,7 +190,7 @@ Chaque source doit idéalement comporter :
 
 ---
 
-## 6. Registres transversaux
+## 7. Registres transversaux
 
 Trois registres maîtres existent actuellement :
 
@@ -181,7 +212,7 @@ Leur fonction :
 
 ---
 
-## 7. Schémas documentaires
+## 8. Schémas documentaires
 
 Les schémas dans `schemas/` définissent les formats attendus pour :
 
@@ -195,7 +226,7 @@ Ils empêchent la dérive progressive des fichiers Markdown : champs variables, 
 
 ---
 
-## 8. Parseur documentaire
+## 9. Parseur documentaire
 
 Le parseur est lancé avec :
 
@@ -218,6 +249,7 @@ exports/generated/quotes.json
 exports/generated/chronology.json
 exports/generated/songs.json
 exports/generated/people.json
+exports/generated/sources.json
 exports/generated/all_records.json
 exports/generated/index_by_id.json
 exports/generated/diagnostics.json
@@ -233,7 +265,7 @@ python tools/build_registers.py --strict
 
 ---
 
-## 9. RAG local
+## 10. RAG local
 
 Le moteur RAG lexical est disponible en ligne de commande :
 
@@ -258,7 +290,7 @@ Le RAG Studio web utilise les mêmes données via :
 
 ---
 
-## 10. Prompt Studio
+## 11. Prompt Studio
 
 Le Prompt Studio aide à construire des prompts contraints selon :
 
@@ -270,19 +302,9 @@ Le Prompt Studio aide à construire des prompts contraints selon :
 
 Il repose sur les fichiers JSON du dossier `data/`.
 
-Il sert à produire des demandes de travail plus fiables pour :
-
-- extraction documentaire ;
-- recherche ;
-- rédaction ;
-- relecture ;
-- contrôle ;
-- anti-doublons ;
-- mise à jour de registres.
-
 ---
 
-## 11. Registre des sources Excel → JSON
+## 12. Registre des sources Excel → JSON
 
 Le registre Excel peut être converti en JSON avec :
 
@@ -300,7 +322,7 @@ Ce fichier est ensuite utilisé par le Prompt Studio.
 
 ---
 
-## 12. Règles méthodologiques permanentes
+## 13. Règles méthodologiques permanentes
 
 1. Ne pas stocker les PDF, OCR complets ou scans dans Git.
 2. Conserver les citations originales en langue source.
@@ -310,17 +332,18 @@ Ce fichier est ensuite utilisé par le Prompt Studio.
 6. Toute nouvelle source doit être atomisée avant d’alimenter le RAG.
 7. Tout nouveau fichier structuré doit respecter les schémas de `schemas/`.
 8. Les exports de `exports/generated/` sont régénérables et ne doivent pas être versionnés.
+9. Toute nouvelle source doit recevoir un identifiant `SXX` unique et un `source_label` lisible.
 
 ---
 
-## 13. État actuel
+## 14. État actuel
 
 ```text
-sources atomisées : Hook, Deborah Curtis
-citations exactes : Hook, Deborah Curtis
+sources atomisées : Hook, Deborah Curtis, Marco Broll
+citations exactes/candidates : Hook, Deborah Curtis, Marco Broll
 registres : chronologie, chansons, personnes
 schémas : présents
-parseur : présent
+parseur : présent, avec normalisation des sources
 RAG lexical : présent
 interface web : portail + Prompt Studio + RAG Studio
 RAG vectoriel : non encore implémenté
@@ -329,10 +352,10 @@ synthèse IA automatique : non encore implémentée
 
 ---
 
-## 14. Prochaines évolutions probables
+## 15. Prochaines évolutions probables
 
-- brancher effectivement `schema_validation.py` dans `build_registers.py` ;
-- supprimer les anciens reliquats d’interface après vérification ;
+- étendre `SOURCE_LABELS` à l’ensemble des sources S01–S68 ;
+- créer un registre maître `registers/sources/master_sources.md` ;
 - créer un registre des lieux ;
 - créer un registre des contradictions ;
 - ajouter une recherche vectorielle ;
