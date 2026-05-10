@@ -1886,6 +1886,202 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S69-001",
+    "file": "sources/greig_strong/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-S69-001",
+      "date": "2014-12-30",
+      "precision_date": "jour",
+      "event": "Publication imprimée de l’article de Greig et Strong dans Volume ! 11:1.",
+      "type": "publication",
+      "location": "France",
+      "people": [
+        "Alastair Greig",
+        "Catherine Strong"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S69-A001"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S69-002",
+    "file": "sources/greig_strong/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-S69-002",
+      "date": "2016-12-30",
+      "precision_date": "jour",
+      "event": "Mise en ligne de la traduction française de l’article sur OpenEdition Journals.",
+      "type": "publication",
+      "location": "OpenEdition",
+      "people": [
+        "Alastair Greig",
+        "Catherine Strong"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S69-A001"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S69-003",
+    "file": "sources/greig_strong/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-S69-003",
+      "date": 2007,
+      "precision_date": "annee",
+      "event": "Sortie de Control, relu par Greig et Strong comme un objet de mythification partielle de Ian Curtis.",
+      "type": "film",
+      "people": [
+        "Anton Corbijn",
+        "Deborah Curtis",
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S69-A013"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S69-004",
+    "file": "sources/greig_strong/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-S69-004",
+      "date": 2007,
+      "precision_date": "annee",
+      "event": "Sortie du documentaire Joy Division de Grant Gee, interprété comme récit de transformation mancunienne.",
+      "type": "documentaire",
+      "people": [
+        "Grant Gee"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S69-A014"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S69-005",
+    "file": "sources/greig_strong/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-S69-005",
+      "date": 1995,
+      "precision_date": "annee",
+      "event": "Publication de l’autobiographie de Deborah Curtis, interprétée par Greig et Strong comme une reprise de son histoire plutôt que comme une nostalgie.",
+      "type": "publication",
+      "people": [
+        "Deborah Curtis",
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S69-A011"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S69-006",
+    "file": "sources/greig_strong/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-S69-006",
+      "date": 2006,
+      "precision_date": "annee",
+      "event": "Publication de Torn Apart de Mick Middles et Lindsay Reade, lue comme réponse mémorielle à Deborah Curtis.",
+      "type": "publication",
+      "people": [
+        "Mick Middles",
+        "Lindsay Reade",
+        "Deborah Curtis"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S69-A012"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S69-007",
+    "file": "sources/greig_strong/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-S69-007",
+      "date": 2011,
+      "precision_date": "annee",
+      "event": "Campagne promotionnelle australienne autour de From Joy Division to New Order avec livret British Underground.",
+      "type": "marketing",
+      "location": "Australie",
+      "people": [
+        "Peter Hook"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S69-A017"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S69-008",
+    "file": "sources/greig_strong/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-S69-008",
+      "date": 2010,
+      "precision_date": "annee",
+      "event": "Peter Hook and the Light commence à rejouer le répertoire de Joy Division, suscitant des débats sur l’authenticité.",
+      "type": "concert",
+      "people": [
+        "Peter Hook",
+        "Bernard Sumner"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S69-A018",
+        "S69-A019"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-1956-001",
     "file": "registers/chronology/master_chronology.md",
     "heading": "CHR-1956-001 — Naissance de Ian Curtis",
