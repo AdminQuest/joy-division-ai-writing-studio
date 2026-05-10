@@ -3,24 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Joy Division — Prompt Studio</title>
+<title>Joy Division — Atelier rédactionnel documentaire</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-<h1>Joy Division — Prompt Studio</h1>
-<p>Poste de pilotage rédactionnel structuré.</p>
+<h1>Joy Division — Atelier rédactionnel documentaire</h1>
+<p>Corpus atomisé → registres → contexte injecté → tâche spécialisée → prompt final.</p>
 <p><a href="../../">← Retour au portail</a></p>
 </header>
 <main>
 <section class="panel">
-<h2>Pipeline multi-IA</h2>
-<p class="hint">Le prompteur distingue quatre niveaux : sources, structuration, production et contrôle. Il peut désormais injecter automatiquement le contexte documentaire issu des registres dynamiques.</p>
+<h2>Architecture documentaire</h2>
+<p class="hint">Le studio ne repose plus sur une logique « multi-IA ». Il construit désormais des prompts contextualisés à partir des registres dynamiques du corpus : citations, chronologie, acteurs, chansons, concepts et atomes.</p>
 </section>
 
 <section class="panel grid grid-four">
 <div>
-<label>Niveau IA</label>
+<label>Tâche spécialisée</label>
 <select id="niveau"></select>
 </div>
 <div>
@@ -28,7 +28,7 @@
 <select id="chapitre"></select>
 </div>
 <div>
-<label>Atelier</label>
+<label>Atelier documentaire</label>
 <select id="atelier"></select>
 </div>
 <div>
@@ -43,14 +43,14 @@
 <option value="controle_citations">Contrôle des citations</option>
 <option value="chronologie">Construction chronologique</option>
 <option value="fiche_chanson">Fiche chanson</option>
-<option value="audit_final">Audit final multi-IA</option>
+<option value="audit_final">Audit documentaire final</option>
 </select>
 </div>
 </section>
 
 <section class="panel">
-<h2>Contexte documentaire à injecter</h2>
-<p class="hint">Sélectionner les registres, sources et chapitres à mobiliser. Le contexte sera ajouté automatiquement au prompt généré.</p>
+<h2>Injection du contexte documentaire</h2>
+<p class="hint">Le contexte est généré automatiquement à partir des registres et des filtres sélectionnés.</p>
 <div class="grid grid-three">
 <div>
 <label>Registres</label>
@@ -61,7 +61,7 @@
 <option value="people">Acteurs</option>
 <option value="songs">Chansons</option>
 <option value="concepts">Concepts</option>
-<option value="all">Tous les registres</option>
+<option value="all">Corpus complet</option>
 </select>
 </div>
 <div>
@@ -76,10 +76,10 @@
 <div class="grid grid-three context-controls">
 <div>
 <label>Requête documentaire</label>
-<input id="contextQuery" placeholder="Ex. Hannett Transmission urban decay">
+<input id="contextQuery" placeholder="Ex. Hannett Factory urban decay Transmission">
 </div>
 <div>
-<label>Nombre maximum d’éléments injectés</label>
+<label>Nombre maximal d’éléments injectés</label>
 <select id="contextLimit">
 <option>5</option>
 <option selected>10</option>
@@ -89,19 +89,20 @@
 </div>
 <div>
 <label>État du corpus</label>
-<div id="corpusStatus" class="status">Chargement des exports…</div>
+<div id="corpusStatus" class="status">Chargement du corpus…</div>
 </div>
 </div>
 </section>
 
 <section class="panel">
 <label>Matériau à traiter</label>
-<textarea id="input" placeholder="Coller ici notes, extraits, brouillon, résultats NotebookLM, résultats Perplexity ou texte rédigé par Claude."></textarea>
+<textarea id="input" placeholder="Coller ici notes, brouillon, résultats NotebookLM, recherches, citations, commentaires ou texte à consolider."></textarea>
 </section>
+
 <section class="panel">
-<button id="generateBtn">Générer</button>
+<button id="generateBtn">Générer le prompt</button>
 <button id="copyBtn">Copier</button>
-<textarea id="output" placeholder="Le prompt généré apparaîtra ici."></textarea>
+<textarea id="output" placeholder="Le prompt documentaire généré apparaîtra ici."></textarea>
 </section>
 </main>
 <script src="prompt-builder.js"></script>
