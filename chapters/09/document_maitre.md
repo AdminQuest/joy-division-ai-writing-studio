@@ -1,0 +1,692 @@
+# Chapitre 9 — Résonances globales : l’influence internationale de Joy Division
+
+```yaml
+id: DM-CH09
+type_unite: document_maitre
+chapitre: "Chapitre 9"
+source_generation: "tools/build_master_docs.py"
+statut: genere
+```
+
+## 1. Statut du chapitre
+
+- Numéro : 9
+- Titre : Résonances globales : l’influence internationale de Joy Division
+- État : à consolider depuis les atomes et registres
+- Génération : automatique depuis `exports/generated/`
+
+## 2. Fonction du chapitre
+
+Étudier la diffusion internationale du groupe et ses réceptions hors du cadre britannique.
+
+## 3. Périmètre
+
+### 3.1 Inclus
+
+Périmètre documentaire propre au chapitre, sources rattachées, motifs conceptuels et éléments utiles à la rédaction.
+
+### 3.2 Hors champ explicite
+
+Les développements relevant d’un autre chapitre doivent être renvoyés au document maître correspondant.
+
+## 4. Questions directrices
+
+- Quel problème le chapitre résout-il dans l’économie générale du livre ?
+- Quelles sources permettent de stabiliser le propos ?
+- Quels risques de doublons doivent être maîtrisés ?
+
+## 5. Hypothèses interprétatives
+
+- Le chapitre doit rester une vue de consolidation, non un texte final.
+- Les sources rattachées orientent la rédaction mais ne remplacent pas la vérification.
+
+## 6. Sources primaires mobilisées
+
+- S41 — Hook, Unknown Pleasures, 2012
+- S45 — Curtis, Touching from a Distance, 1995
+- S46 — Johnson, An Ideal for Living, 1984
+- S47
+- S68 — Broll, Joy Division, s.d.
+- S69
+- S70
+- S71
+- S72
+
+## 7. Sources secondaires mobilisées
+
+- À compléter depuis le registre consolidé des références.
+
+## 8. Atomes documentaires rattachés
+
+- S68-A013 — relation
+- S68-A024 — reception
+- S68-A028 — relation
+- S68-A029 — concert
+- S68-A033 — production
+- S68-A039 — production
+- S72 — source
+- S72-A003 — analyse
+- S72-A007 — sociologie
+- S72-A008 — chronologie
+- S72-A009 — analyse
+- S72-A010 — sociologie
+- S72-A011 — analyse
+- S72-A012 — management
+- S72-A015 — sociologie
+- S72-A022 — production
+- S72-A023 — sociologie
+- S72-A024 — reception
+- S72-A025 — methode
+- S72-A034 — sociologie
+- S72-A036 — infrastructure
+- S72-A043 — contrepoint
+- S72-A044 — infrastructure
+- S46-123 — archive_broadcast
+- S46-125 — television
+- S46-126 — radio_broadcast
+- S46-135 — iconographie_photographe
+- S46-142 — methodologie_critique
+- S46-000 — source
+- S46-009 — chronologie
+- S46-010 — evenement
+- S46-012 — acteur
+- S46-014 — evenement
+- S46-018 — reception_live
+- S46-019 — acteur
+- S46-023 — discographie_strategie
+- S46-025 — chronologie_tournee
+- S46-026 — chronologie_tournee
+- S46-028 — evenement
+- S46-107 — management
+- S46-115 — reception_europeenne
+- S46-072 — concert
+- S46-073 — reception_live
+- S46-074 — concert
+- S46-078 — concert
+- S46-079 — concert_incident
+- S46-081 — evenement_scene
+- S46-084 — concert
+- S46-085 — concert_bascule
+- S46-087 — portrait_acteur
+- S46-090 — lieu
+- S46-091 — contexte_scene
+- S46-092 — contexte_scene
+- S46-093 — industrie_musicale
+- S46-095 — chanson_live
+- S46-097 — concert_detail
+- S46-098 — concert
+- S46-169 — interpretation_scenique
+- S46-032 — reception_temoin
+- S46-036 — industrie_musicale
+- S46-040 — reception_live
+- S46-041 — strategie_management
+- S46-046 — reception_live
+- S46-047 — scene_detail
+- S46-055 — industrie_musicale
+- S46-056 — concert_broadcast
+- S46-057 — concert_exceptionnel
+- S46-058 — concert_international
+- S46-059 — concert_incident
+- S46-060 — projet_avorte
+- S45-016 — dynamique_collective
+- S45-017 — sociologie_scene
+- S45-025 — réception_scene
+- S45-035 — evenement_live
+- S45-036 — chronologie
+- S45-012 — dynamique_collective
+- S71 — source
+- S71-A007 — chronologie
+- S71-A008 — relation
+- S71-A012 — reception
+- S71-A014 — chronologie
+- S71-A016 — relation
+- S71-A020 — production
+- S71-A021 — management
+- S71-A023 — reception
+- S71-A024 — chronologie
+- S71-A025 — archive
+- S71-A039 — sociologie
+- S47-045 — live_strategy
+- S47-046 — bootleg_culture
+- S47-058 — tournee
+- S47-069 — concert_sequence
+- S47-070 — concert_incident
+- S47-071 — dernier_concert
+- S47-072 — projet_avorte
+- S47-089 — equipment_file
+- S47-098 — archives_live
+- S47-134 — archive_video
+- S47-135 — video
+- S47-147 — versions_chanson
+
+## 9. Citations disponibles
+
+- S46-Q003
+- S46-Q005
+- S41-Q002
+- S41-Q004
+
+## 10. Éléments chronologiques rattachés
+
+- À compléter depuis `exports/generated/chronology.json`.
+
+## 11. Chansons rattachées
+
+- À compléter depuis `exports/generated/songs.json`.
+
+## 12. Personnes rattachées
+
+- À compléter depuis `exports/generated/people.json`.
+
+## 13. Concepts mobilisés
+
+- 11 janvier 1980
+- 14 février 1979
+- 16mm
+- 17 juillet 1977
+- 17 juin 1979
+- 18 décembre 1979
+- 1978
+- 1980
+- 2 mai 1980
+- 20 septembre 1978
+- 25 janvier 1978
+- 27 août 1977
+- 29 mai 1977
+- 30 juin 1977
+- 31 janvier 1979
+- 4 avril 1980
+- 4 juin 1979
+- 8mm
+- a factory sample
+- A Factory Sample
+- absence de concerts
+- accident de van
+- accusations de nazisme
+- Acklam Hall
+- Ajanta Theatre
+- alan erasmus
+- album live allemand
+- amateurisme
+- ambiguïté
+- amitie
+- amplification
+- Amsterdam
+- amsterdam
+- Anderson
+- anti-business
+- anti-lyrisme
+- anxiété
+- apprentissage
+- après joy division
+- archive live
+- archive non officielle
+- archives live
+- Arrow Studios
+- art schools
+- At a Later Date
+- atmosphere
+- Atmosphere
+- atmosphère urbaine
+- audience nationale
+- authenticité
+- automutilation
+- autonomie
+- autonomie du public
+- avril 1980
+- Band on the Wall
+- bauhaus
+- BBC
+- bbc radio one
+- Belgique
+- ben kelly
+- Berlin
+- Bernard Sumner
+- bernard sumner
+- Bidet Boys
+- Birmingham University
+- bob krasnow
+- Bob Krasnow
+- bootleg
+- bootlegs
+- Bowdon Vale
+- Bruxelles
+- Bury
+- buzzcocks
+- Buzzcocks
+- Buzzcocks tour
+- Cabaret Voltaire
+- Canterbury Odeon
+- capital culturel
+- Cargo Studios
+- cartel
+- catalogue fac
+- centralisation londonienne
+- Ceremony
+- changement de nom
+- Chelsea
+- Chiswick
+- Chiswick Challenge
+- chronologie
+- chronologie concerts
+- circulation
+- city fun
+- Coach House
+- cohesion
+- colere
+- cologne
+- commercialisation
+- composition
+- concert
+- concert reviews
+- concert sauvage
+- concerts
+- concerts isolés
+- conflit
+- conflit mémoriel
+- conflits
+- constructivisme
+- consécration
+- contraste
+- contrat
+- contrat américain
+- contrats informels
+- contre-information
+- cooperation
+- crise
+- crise du groupe
+- crises
+- critique musicale
+- culte
+- culture ouvrière
+- danse
+- david mccullough
+- dead souls
+- Dead Souls
+- dependance
+- Derby
+- Derby Hall
+- dernier concert
+- derniers concerts
+- design
+- desperate bicycles
+- die neue typographie
+- diffusion nationale
+- digital
+- direction artistique
+- discipline scénique
+- discographie
+- distribution indépendante
+- diversité musicale
+- diy
+- documentaire
+- double set
+- dynamique interne
+- décalage esthétique
+- découverte du groupe
+- efficacité
+- eindhoven
+- electric circus
+- Electric Circus
+- entourage
+- epilepsie
+- Eric Random
+- Eric's Liverpool
+- espace scénique
+- esthétique sonore
+- Europe
+- Europe continentale
+- exclusion
+- exploitation du patrimoine
+- expérience live
+- FAC 1
+- fac 9
+- factory
+- Factory
+- factory club
+- Factory Club
+- Factory Evenings
+- Factory I
+- Factory Nights
+- Factory Records
+- factory records
+- Factory Tour
+- Factory video
+- fanzine
+- fanzines
+- fast product
+- fatigue
+- femmes
+- fermeture
+- Final Solution
+- foule
+- france
+- frustration
+- futurama
+- Gene October
+- Genetic Records
+- genetic records
+- gestion amateur
+- glass
+- Granada Reports
+- granada tv
+- grant gee
+- gruftgesaenge
+- guitare
+- hacienda
+- Hannett
+- Here Are the Young Men
+- here are the young men
+- High Hall
+- histoire Joy Division
+- Hope and Anchor
+- Huddersfield
+- humiliation
+- humour
+- Ian Curtis
+- iconographie
+- incompréhension
+- industrie musicale
+- indépendance
+- infrastructure
+- infrastructures locales
+- intensite
+- intensité scénique
+- interview
+- intrusion du groupe
+- investissement
+- John Anderson
+- John Cooper Clarke
+- john peel
+- John Peel
+- John Peel Session
+- joy division
+- Joy Division
+- joydiv.org
+- label indépendant
+- labels indépendants
+- leeds
+- Leeds University
+- Les Bains-Douches
+- licht und blindheit
+- lieux rock
+- live
+- live archive
+- live favourite
+- live footage
+- live recordings
+- live side
+- live sound
+- live tapes
+- logistique
+- Londres
+- Love Will Tear Us Apart
+- magasins de disques
+- malcolm whitehead
+- Malvern
+- management
+- manager
+- manchester
+- Manchester
+- manchester contre londres
+- Manchester Musicians' Collective
+- Manchester vs London
+- Manor Mobile
+- marchandise critique
+- marché américain
+- mark e smith
+- marquee
+- Martin Hannett
+- martin hannett
+- Martin Rushent
+- martin rushent
+- masculinité
+- matériel
+- Mayflower Club
+- Middlesbrough
+- modernisme
+- moment disparu
+- Moonlight Club
+- Moss Side
+- moyens de production
+- music press
+- Musicians' Collective
+- mythe
+- mythologisation
+- médias de masse
+- médiateurs culturels
+- médiation
+- mémoire
+- mémoire collective
+- mémoire culturelle
+- naissance artistique
+- nashville club
+- nazi rumours
+- new hormones
+- new order
+- Nigel Bagley
+- nme
+- non-nostalgie
+- non-playing member
+- nord-ouest
+- nostalgie
+- notoriété limitée
+- Orchestral Manoeuvres in the Dark
+- organisation
+- ouverture
+- Oz PA
+- PA
+- Panik
+- paradiso
+- Paradiso
+- Paris
+- paternalisme
+- patrimoine personnel
+- paul morley
+- Peel Session
+- peel session
+- Peel Sessions
+- Penetration
+- performance
+- perseverance
+- persévérance
+- Pete Shelley
+- peter hook
+- peter saville
+- Peter Saville
+- Philippe Carly
+- photographie
+- photographie live
+- piccadilly radio
+- Piccadilly Radio
+- pips
+- Pips
+- plan k
+- Plan K
+- possession
+- post-punk
+- pouvoir interne
+- power pop
+- premier concert
+- premier concert londonien
+- première apparition
+- presse musicale
+- pression
+- preston warehouse
+- priorité du groupe
+- professionnalisation
+- progrès urbain
+- promotion locale
+- propriété musicale
+- protection
+- provocation
+- précarité
+- public
+- public absent
+- public hostile
+- public punk
+- puissance sonore
+- punk local
+- punk provincial
+- rabid records
+- radio française
+- rafters
+- Rafters
+- Rainbow Theatre
+- rareté
+- rareté audiovisuelle
+- rareté live
+- RCA
+- reconnaissance
+- red-light districts
+- refus du sud
+- refus interviews
+- Reichstag
+- repetition
+- retenue
+- revelation
+- revelation sonore
+- Rezillos
+- richard boon
+- Richard Boon
+- rivalité locale
+- roadie
+- rob gretton
+- Rob Gretton
+- rough trade
+- royalties
+- Royalty Theatre
+- rudolf hess
+- rue de Manchester
+- russell club
+- Russell Club
+- réception
+- réception conflictuelle
+- réception critique
+- réception live
+- répétition
+- répétitions
+- réseau
+- réseau mancunien
+- scala cinema
+- scally
+- scene locale
+- scène
+- scène culturelle
+- scène d’apprentissage
+- scène indépendante britannique
+- scène locale
+- scène mancunienne
+- scène musicale
+- scène post-punk
+- scène punk
+- Searling
+- second album
+- selection musicale
+- sens ouvert
+- session radio
+- setlist
+- setlists
+- Shadowplay
+- She's Lost Control
+- Short Circuit
+- short circuit
+- single
+- situationnisme
+- Something Must Break
+- son live
+- sordide sentimental
+- sounds
+- spiral scratch
+- spitting
+- Stephen Morris
+- Stiff Chiswick Test
+- Stiff Records
+- stiff test
+- Stiff Test
+- Still
+- still
+- stratégie
+- stratégie live
+- stratégie territoriale
+- stroboscopes
+- studio
+- subjectivité
+- succès indépendant
+- survivance discographique
+- Swinging Apple
+- tension
+- Terry Mason
+- The Cure
+- the fall
+- The Kill
+- The Negatives
+- The Noise
+- The Squat
+- The Stranglers
+- The Worst
+- Tiller Boys
+- timeline
+- TJ Davidson
+- tony tabac
+- tony wilson
+- Tony Wilson
+- tournée
+- tournée 1979
+- tournée américaine
+- tournée européenne
+- tournées
+- Transit van
+- transition
+- transition posthume
+- Transmission
+- transmission
+- travail salarié
+- tribute band
+- télévision
+- témoignage fan
+- témoins potentiels
+- Undertones
+- Unknown Pleasures
+- validation
+- video
+- vie conjugale
+- violence punk
+- violence scénique
+- Virgin Records
+- vol
+- Vox Phantom
+- Vox Teardrop
+- warner bros
+- Warner Brothers
+- warner brothers
+- warsaw
+- Warsaw
+- WEA
+- wea
+- West Indian cultural centre
+- William Burroughs
+- X-Ray Spex
+- Yorkshire Ripper
+- échec
+- économie de factory
+- émeute
+- émotion
+- épuisement
+
+## 14. Articulation avec les autres chapitres
+
+- À consolider au regard du tableau de cohérence thématique.
+
+## 15. Risques de doublons et points de vigilance
+
+- Vérifier les recouvrements avec les chapitres voisins.
+- Ne pas confondre document maître et texte rédigé.
+
+## 16. Lacunes documentaires
+
+- À renseigner après nouvelle génération des registres et consolidation des sources.
+
+## 17. État rédactionnel
+
+- Fichier généré et versionné pour consultation statique GitHub Pages.
