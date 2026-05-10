@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 EXPORT_DIR = REPO_ROOT / "exports" / "generated"
@@ -56,15 +57,39 @@ def load_json(name: str):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def as_list(value: Any) -> list[Any]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return value
+    return [value]
+
+
+def clean_text(value: Any) -> str | None:
+    if value is None:
+        return None
+    if isinstance(value, (dict, list)):
+        text = json.dumps(value, ensure_ascii=False, sort_keys=True)
+    else:
+        text = str(value)
+    text = text.strip()
+    return text or None
+
+
 def chapter_match(record, chapter_number):
     data = record.get("data", {})
-    chapters = data.get("chapitres") or data.get("chapters") or []
+    chapters = [clean_text(item) for item in as_list(data.get("chapitres") or data.get("chapters"))]
     target = f"Chapitre {chapter_number}"
     return target in chapters
 
 
 def bullet(lines):
-    return "\n".join(f"- {line}" for line in lines) if lines else "- À compléter"
+    cleaned = []
+    for line in lines:
+        text = clean_text(line)
+        if text:
+            cleaned.append(text)
+    return "\n".join(f"- {line}" for line in cleaned) if cleaned else "- À compléter"
 
 
 def main() -> int:
@@ -79,11 +104,20 @@ def main() -> int:
         related_atoms = [a for a in atoms if chapter_match(a, chapter_number)]
         related_quotes = [q for q in quotes if chapter_match(q, chapter_number)]
 
-        concepts = sorted({concept for atom in related_atoms for concept in atom.get("data", {}).get("concepts", [])})
-        source_ids = sorted({atom.get("data", {}).get("source_id") for atom in related_atoms if atom.get("data", {}).get("source_id")})
-        source_lines = [src.get("source_label") for src in sources if src.get("source_id") in source_ids]
-        atom_lines = [f"{atom.get('id')} — {atom.get('data', {}).get('type_unite', 'analyse')}" for atom in related_atoms[:100]]
-        quote_lines = [quote.get("id") for quote in related_quotes[:50]]
+        concepts = sorted({
+            text
+            for atom in related_atoms
+            for raw in as_list(atom.get("data", {}).get("concepts"))
+            if (text := clean_text(raw))
+        }, key=str.casefold)
+        source_ids = sorted({
+            text
+            for atom in related_atoms
+            if (text := clean_text(atom.get("data", {}).get("source_id")))
+        }, key=str.casefold)
+        source_lines = [src.get("source_label") for src in sources if clean_text(src.get("source_id")) in source_ids]
+        atom_lines = [f"{clean_text(atom.get('id')) or 'NO_ID'} — {clean_text(atom.get('data', {}).get('type_unite')) or 'analyse'}" for atom in related_atoms[:100]]
+        quote_lines = [clean_text(quote.get("id")) for quote in related_quotes[:50]]
 
         content = template.format(
             chapter_number=chapter_number,
