@@ -1,5 +1,2488 @@
 [
   {
+    "kind": "quote",
+    "id": "S-BROLL-Q001",
+    "file": "sources/marco_broll/citations_exactes.md",
+    "heading": "CIT-BROLL-001 — Contrat RCA abandonné",
+    "data": {
+      "id": "S-BROLL-Q001",
+      "source_id": "S-BROLL-JOY-001",
+      "citation_originale": "non se ne fece quindi nulla",
+      "langue_originale": "it",
+      "statut_verification": "a_verifier",
+      "traduction_litterale_fr": "il n’en fut donc rien",
+      "traduction_editoriale_fr": "l’affaire n’aboutit donc pas",
+      "enjeu_traduction": "Formule idiomatique italienne brève ; à utiliser seulement si le passage RCA est retenu comme micro-citation.",
+      "atomes_lies": [
+        "S-BROLL-A012"
+      ],
+      "usage_recommande": "Privilégier la paraphrase : le contrat RCA n’aboutit pas.",
+      "risques": "Référence bibliographique incomplète ; OCR bruité ; contexte contractuel à vérifier.",
+      "page_pdf": 1,
+      "importance": "faible"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S-BROLL-Q002",
+    "file": "sources/marco_broll/citations_exactes.md",
+    "heading": "CIT-BROLL-002 — Hannett comme seuil",
+    "data": {
+      "id": "S-BROLL-Q002",
+      "source_id": "S-BROLL-JOY-001",
+      "citation_originale": "non lascerà più i Joy Division",
+      "langue_originale": "it",
+      "statut_verification": "a_verifier",
+      "traduction_litterale_fr": "il ne quittera plus Joy Division",
+      "traduction_editoriale_fr": "à partir de là, il ne quittera plus Joy Division",
+      "enjeu_traduction": "Formulation synthétique de Broll ; elle dramatise le rôle de Hannett.",
+      "atomes_lies": [
+        "S-BROLL-A017"
+      ],
+      "usage_recommande": "À paraphraser plutôt qu’à citer, sauf si la source est bibliographiquement consolidée.",
+      "risques": "Formule interprétative ; ne prouve pas à elle seule la continuité exacte de la collaboration Hannett/Joy Division.",
+      "page_pdf": 2,
+      "importance": "faible"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S-BROLL-Q003",
+    "file": "sources/marco_broll/citations_exactes.md",
+    "heading": "CIT-BROLL-003 — Futurama 1979",
+    "data": {
+      "id": "S-BROLL-Q003",
+      "source_id": "S-BROLL-JOY-001",
+      "citation_originale": "strepitoso successo",
+      "langue_originale": "it",
+      "statut_verification": "a_verifier",
+      "traduction_litterale_fr": "succès retentissant",
+      "traduction_editoriale_fr": "succès éclatant",
+      "enjeu_traduction": "Adjectif critique et non donnée factuelle ; à éviter comme preuve autonome.",
+      "atomes_lies": [
+        "S-BROLL-A024"
+      ],
+      "usage_recommande": "Ne pas citer ; utiliser seulement comme indice de réception à recouper.",
+      "risques": "Appréciation subjective ; source non consolidée.",
+      "page_pdf": 2,
+      "importance": "faible"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A001",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A001 — Première apparition sous le nom Stiff Kittens",
+    "data": {
+      "id": "S-BROLL-A001",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "concert",
+      "concepts": [
+        "stiff kittens",
+        "electric circus",
+        "premiers concerts"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Peter Hook",
+        "Terry Mason"
+      ],
+      "related_events": [
+        "CHR-BROLL-001"
+      ],
+      "methodological_warnings": [
+        "OCR bruité ; date et plateau à recouper avec les listes de concerts."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A002",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A002 — Rencontre avec Ian Curtis et première chanson « Gutz »",
+    "data": {
+      "id": "S-BROLL-A002",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "relation",
+      "concepts": [
+        "ian curtis",
+        "gutz",
+        "formation du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 4"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook"
+      ],
+      "related_songs": [
+        "Gutz"
+      ],
+      "related_events": [
+        "CHR-BROLL-002"
+      ],
+      "methodological_warnings": [
+        "À confronter aux versions Hook, Deborah Curtis et Stephen Morris."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A003",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A003 — Été 1977 : apprentissage scénique dans les pubs",
+    "data": {
+      "id": "S-BROLL-A003",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "concert",
+      "concepts": [
+        "salford",
+        "black swan",
+        "rafters",
+        "apprentissage scénique"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "related_events": [
+        "CHR-BROLL-003"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A004",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A004 — Passage au nom Warsaw et changement de batteur",
+    "data": {
+      "id": "S-BROLL-A004",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "relation",
+      "concepts": [
+        "warsaw",
+        "steve brotherdale",
+        "stephen morris",
+        "stabilisation du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Steve Brotherdale",
+        "Stephen Morris"
+      ],
+      "related_events": [
+        "CHR-BROLL-004"
+      ],
+      "methodological_warnings": [
+        "Vérifier l’ordre exact entre changement de nom et stabilisation du batteur."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A005",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A005 — Démo du 18 juillet 1977 aux Pennine Studios",
+    "data": {
+      "id": "S-BROLL-A005",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "production",
+      "concepts": [
+        "pennine studios",
+        "demo tape",
+        "warsaw"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Inside the Line",
+        "Gutz",
+        "At a Later Date",
+        "The Kill"
+      ],
+      "related_events": [
+        "CHR-BROLL-005"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A006",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A006 — Electric Circus, 2 novembre 1977, et *Short Circuit*",
+    "data": {
+      "id": "S-BROLL-A006",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "concert",
+      "concepts": [
+        "electric circus",
+        "short circuit",
+        "virgin",
+        "live recording"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "At a Later Date"
+      ],
+      "related_events": [
+        "CHR-BROLL-006"
+      ],
+      "methodological_warnings": [
+        "Vérifier le plateau complet et la date exacte avec discographies spécialisées."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A007",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A007 — *An Ideal for Living* : enregistrement et insatisfaction initiale",
+    "data": {
+      "id": "S-BROLL-A007",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "production",
+      "concepts": [
+        "an ideal for living",
+        "pressage",
+        "qualité sonore",
+        "warsaw"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Warsaw",
+        "No Love Lost",
+        "Leaders of Men",
+        "Failures"
+      ],
+      "related_events": [
+        "CHR-BROLL-007"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A008",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A008 — Origine du nom Joy Division",
+    "data": {
+      "id": "S-BROLL-A008",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "analyse",
+      "concepts": [
+        "house of dolls",
+        "ka-tzetnik 135633",
+        "nom du groupe",
+        "nazisme"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 11"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "No Love Lost"
+      ],
+      "related_events": [
+        "CHR-BROLL-008"
+      ],
+      "methodological_warnings": [
+        "Point sensible ; recouper avec Ka-Tzetnik 135633 et les sources primaires."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A009",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A009 — RCA, Derek Branwood et Richard Searling",
+    "data": {
+      "id": "S-BROLL-A009",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "relation",
+      "concepts": [
+        "rca",
+        "derek branwood",
+        "richard searling",
+        "industrie musicale"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Derek Branwood",
+        "Richard Searling"
+      ],
+      "related_events": [
+        "CHR-BROLL-009"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A010",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A010 — Stiff/Chiswick Challenge au Rafters, 14 avril 1978",
+    "data": {
+      "id": "S-BROLL-A010",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "concert",
+      "concepts": [
+        "rafters",
+        "stiff records",
+        "chiswick records",
+        "concours"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Mark Johnson",
+        "Rob Gretton",
+        "Tony Wilson"
+      ],
+      "related_events": [
+        "CHR-BROLL-010"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A011",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A011 — Sessions RCA de mai 1978",
+    "data": {
+      "id": "S-BROLL-A011",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "production",
+      "concepts": [
+        "rca sessions",
+        "studio",
+        "anti-récit"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "The Drawback",
+        "Leaders of Men",
+        "They Walked in Line",
+        "Failures",
+        "Novelty",
+        "No Love Lost",
+        "Transmission",
+        "Ice Age",
+        "Interzone",
+        "Warsaw",
+        "Shadowplay"
+      ],
+      "related_events": [
+        "CHR-BROLL-011"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A012",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A012 — Contrat RCA refusé",
+    "data": {
+      "id": "S-BROLL-A012",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "analyse",
+      "concepts": [
+        "rca",
+        "contrat",
+        "indépendance",
+        "labels indépendants"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_events": [
+        "CHR-BROLL-012"
+      ],
+      "methodological_warnings": [
+        "Vérifier la clause de 3 %, la rupture après trois jours et les conditions exactes."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A013",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A013 — Contacts Rob Gretton et Tony Wilson",
+    "data": {
+      "id": "S-BROLL-A013",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 1,
+      "type_unite": "relation",
+      "concepts": [
+        "rob gretton",
+        "tony wilson",
+        "factory",
+        "médiateurs culturels"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 9"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Rob Gretton",
+        "Tony Wilson"
+      ],
+      "related_events": [
+        "CHR-BROLL-010"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A014",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A014 — Publication de *An Ideal for Living* en juin 1978",
+    "data": {
+      "id": "S-BROLL-A014",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "production",
+      "concepts": [
+        "an ideal for living",
+        "autoédition",
+        "enigma",
+        "bernard albrecht"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner"
+      ],
+      "related_events": [
+        "CHR-BROLL-013"
+      ],
+      "methodological_warnings": [
+        "Vérifier précisément le tirage de 5 000 copies et la chronologie des formats 7'' / 12''."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A015",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A015 — Réédition 12'' d’octobre 1978",
+    "data": {
+      "id": "S-BROLL-A015",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "production",
+      "concepts": [
+        "an ideal for living",
+        "anonymous",
+        "réédition",
+        "pressage"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_events": [
+        "CHR-BROLL-014"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A016",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A016 — « Digital » et « Glass » pour *A Factory Sample*",
+    "data": {
+      "id": "S-BROLL-A016",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "production",
+      "concepts": [
+        "a factory sample",
+        "digital",
+        "glass",
+        "factory"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Digital",
+        "Glass"
+      ],
+      "related_events": [
+        "CHR-BROLL-015"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A017",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A017 — Russell Club, Factory, Rabid Records et Hannett",
+    "data": {
+      "id": "S-BROLL-A017",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "concert",
+      "concepts": [
+        "russell club",
+        "factory",
+        "rabid records",
+        "martin hannett"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_people": [
+        "Martin Hannett"
+      ],
+      "related_events": [
+        "CHR-BROLL-016"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A018",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A018 — Première Peel Session",
+    "data": {
+      "id": "S-BROLL-A018",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "production",
+      "concepts": [
+        "john peel",
+        "bbc",
+        "peel session",
+        "radio"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Exercise One",
+        "Insight",
+        "Transmission",
+        "She's Lost Control"
+      ],
+      "related_events": [
+        "CHR-BROLL-017"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A019",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A019 — Martin Rushent / Genetic Records / Eden Studios",
+    "data": {
+      "id": "S-BROLL-A019",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "production",
+      "concepts": [
+        "martin rushent",
+        "genetic records",
+        "eden studios",
+        "demo"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Martin Rushent"
+      ],
+      "related_songs": [
+        "Glass",
+        "Transmission",
+        "Ice Age",
+        "Insight"
+      ],
+      "related_events": [
+        "CHR-BROLL-018"
+      ],
+      "methodological_warnings": [
+        "Vérifier le statut exact des bandes et l'affirmation d'absence de bootleg."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A020",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A020 — Strawberry Studios et *Unknown Pleasures*",
+    "data": {
+      "id": "S-BROLL-A020",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "production",
+      "concepts": [
+        "strawberry studios",
+        "unknown pleasures",
+        "martin hannett",
+        "factory"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Martin Hannett"
+      ],
+      "related_events": [
+        "CHR-BROLL-019"
+      ],
+      "methodological_warnings": [
+        "La formule des « meilleurs dix titres » est interprétative ; ne pas la reprendre sans distance."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A021",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A021 — FAST Product / *Earcom 2: Contradiction*",
+    "data": {
+      "id": "S-BROLL-A021",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "production",
+      "concepts": [
+        "fast product",
+        "earcom 2",
+        "autosuggestion",
+        "from safety to where"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Autosuggestion",
+        "From Safety to Where...?"
+      ],
+      "related_events": [
+        "CHR-BROLL-020"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A022",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A022 — Piccadilly Radio, 4 juin 1979",
+    "data": {
+      "id": "S-BROLL-A022",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "production",
+      "concepts": [
+        "piccadilly radio",
+        "pennine studios",
+        "radio session"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "These Days",
+        "Candidate",
+        "The Only Mistake",
+        "Atmosphere",
+        "Atrocity Exhibition"
+      ],
+      "related_events": [
+        "CHR-BROLL-021"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A023",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A023 — Central Sound Studio, juillet 1979",
+    "data": {
+      "id": "S-BROLL-A023",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "production",
+      "concepts": [
+        "central sound studio",
+        "transmission",
+        "dead souls",
+        "licht und blindheit"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Transmission",
+        "Novelty",
+        "Dead Souls",
+        "Something Must Break"
+      ],
+      "related_events": [
+        "CHR-BROLL-022"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A024",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A024 — Futurama 1979 à Leeds",
+    "data": {
+      "id": "S-BROLL-A024",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "reception",
+      "concepts": [
+        "futurama",
+        "leeds",
+        "réception live"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 9"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": true,
+      "related_events": [
+        "CHR-BROLL-023"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A025",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A025 — Films de Malcolm Whitehead et Charles Salem",
+    "data": {
+      "id": "S-BROLL-A025",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 2,
+      "type_unite": "archive",
+      "concepts": [
+        "malcolm whitehead",
+        "charles salem",
+        "no city fun music",
+        "captation super 8"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 10"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Malcolm Whitehead",
+        "Charles Salem",
+        "Rob Gretton"
+      ],
+      "related_events": [
+        "CHR-BROLL-024"
+      ],
+      "methodological_warnings": [
+        "Point sensible en raison de la mention de chants SS ; contextualiser strictement."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A026",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A026 — Apollo Theatre, Manchester, et *Here Are the Young Men*",
+    "data": {
+      "id": "S-BROLL-A026",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "archive",
+      "concepts": [
+        "apollo theatre",
+        "richard boon",
+        "here are the young men",
+        "vidéo"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 10"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Richard Boon"
+      ],
+      "related_events": [
+        "CHR-BROLL-025"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A027",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A027 — Seconde Peel Session",
+    "data": {
+      "id": "S-BROLL-A027",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "production",
+      "concepts": [
+        "john peel",
+        "bbc",
+        "deuxième peel session"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Sound of Music",
+        "Twenty Four Hours",
+        "Colony",
+        "Love Will Tear Us Apart"
+      ],
+      "related_events": [
+        "CHR-BROLL-026"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A028",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A028 — Offre américaine Warner / WEA / Bob Krasnow",
+    "data": {
+      "id": "S-BROLL-A028",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "relation",
+      "concepts": [
+        "warner bros",
+        "wea",
+        "bob krasnow",
+        "marché américain"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 9"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Bob Krasnow",
+        "Martin Hannett",
+        "Peter Saville",
+        "Rob Gretton"
+      ],
+      "related_events": [
+        "CHR-BROLL-027"
+      ],
+      "methodological_warnings": [
+        "Vérifier l'offre chiffrée avant tout usage rédactionnel."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A029",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A029 — Paradiso Amsterdam et bootleg *Gruftgesaenge*",
+    "data": {
+      "id": "S-BROLL-A029",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "concert",
+      "concepts": [
+        "paradiso",
+        "amsterdam",
+        "gruftgesaenge",
+        "bootleg"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_events": [
+        "CHR-BROLL-028"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A030",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A030 — Composition autour de FAC 28",
+    "data": {
+      "id": "S-BROLL-A030",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "production",
+      "concepts": [
+        "fac 28",
+        "flexidisc",
+        "komakino",
+        "incubation"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Incubation",
+        "Komakino",
+        "As You Said",
+        "Heart and Soul"
+      ],
+      "related_events": [
+        "CHR-BROLL-029"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A031",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A031 — Sessions de mars 1980 : *Closer* et « Love Will Tear Us Apart »",
+    "data": {
+      "id": "S-BROLL-A031",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "production",
+      "concepts": [
+        "closer",
+        "love will tear us apart",
+        "hannett",
+        "sessions terminales"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 8",
+        "Chapitre 10"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Love Will Tear Us Apart",
+        "These Days",
+        "She’s Lost Control",
+        "Atmosphere"
+      ],
+      "related_events": [
+        "CHR-BROLL-030"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A032",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A032 — Désaccord Curtis / Hannett sur « Love Will Tear Us Apart »",
+    "data": {
+      "id": "S-BROLL-A032",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "analyse",
+      "concepts": [
+        "love will tear us apart",
+        "ian curtis",
+        "martin hannett",
+        "versions alternatives"
+      ],
+      "chapitres": [
+        "Chapitre 6"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "faible",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Martin Hannett"
+      ],
+      "related_songs": [
+        "Love Will Tear Us Apart"
+      ],
+      "related_events": [
+        "CHR-BROLL-030"
+      ],
+      "methodological_warnings": [
+        "À vérifier impérativement ; ne pas utiliser comme fait établi sans source complémentaire."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A033",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A033 — Sordide Sentimental : « Atmosphere » / « Dead Souls »",
+    "data": {
+      "id": "S-BROLL-A033",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "production",
+      "concepts": [
+        "sordide sentimental",
+        "atmosphere",
+        "dead souls",
+        "france"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 9"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Atmosphere",
+        "Dead Souls"
+      ],
+      "related_events": [
+        "CHR-BROLL-031"
+      ],
+      "methodological_warnings": [
+        "Vérifier le tirage de 1 578 copies."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A034",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A034 — Flexi FAC 28 : distribution gratuite",
+    "data": {
+      "id": "S-BROLL-A034",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "production",
+      "concepts": [
+        "fac 28",
+        "flexi",
+        "factory",
+        "distribution gratuite"
+      ],
+      "chapitres": [
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_songs": [
+        "Komakino",
+        "Incubation",
+        "As You Said"
+      ],
+      "related_events": [
+        "CHR-BROLL-032"
+      ],
+      "methodological_warnings": [
+        "Vérifier le nombre de 25 000 exemplaires."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A035",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A035 — Ajanta Theatre, Derby, Section 25",
+    "data": {
+      "id": "S-BROLL-A035",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "concert",
+      "concepts": [
+        "ajanta theatre",
+        "derby",
+        "section 25",
+        "girls don't count"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Rob Gretton"
+      ],
+      "related_events": [
+        "CHR-BROLL-033"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A036",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A036 — Avril 1980 : santé de Ian Curtis et dates annulées",
+    "data": {
+      "id": "S-BROLL-A036",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "santé",
+      "concepts": [
+        "ian curtis",
+        "épilepsie",
+        "concerts annulés",
+        "fatigue"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 11"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "related_events": [
+        "CHR-BROLL-034"
+      ],
+      "methodological_warnings": [
+        "Ne pas médicaliser le récit ; croiser avec Deborah Curtis, Hook et dossiers médicaux uniquement s’ils sont disponibles."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A037",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A037 — Dernier concert : High Hall, Birmingham, 2 mai 1980",
+    "data": {
+      "id": "S-BROLL-A037",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "concert",
+      "concepts": [
+        "dernier concert",
+        "birmingham",
+        "ceremony",
+        "decades"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "related_songs": [
+        "Ceremony",
+        "Decades",
+        "Digital"
+      ],
+      "related_events": [
+        "CHR-BROLL-035"
+      ],
+      "methodological_warnings": [
+        "Vérifier le lieu exact et le déroulé scénique."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A038",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A038 — Tournée américaine prévue et mort de Ian Curtis",
+    "data": {
+      "id": "S-BROLL-A038",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "biographie",
+      "concepts": [
+        "tournée américaine",
+        "ian curtis",
+        "macclesfield",
+        "fin du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 11"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Don Loggins"
+      ],
+      "related_events": [
+        "CHR-BROLL-036",
+        "CHR-BROLL-037"
+      ],
+      "methodological_warnings": [
+        "La mort de Ian Curtis est un fait établi ; conserver une formulation sobre."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S-BROLL-A039",
+    "file": "sources/marco_broll/source.md",
+    "heading": "S-BROLL-A039 — Après Joy Division : New Order et *Still*",
+    "data": {
+      "id": "S-BROLL-A039",
+      "source_id": "S-BROLL-JOY-001",
+      "auteur": "Marco Broll",
+      "titre": "Joy Division",
+      "pages_pdf": 3,
+      "type_unite": "production",
+      "concepts": [
+        "new order",
+        "still",
+        "survivance discographique",
+        "après joy division"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_events": [
+        "CHR-BROLL-038"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-001",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-001",
+      "date": "1976-12-09",
+      "precision_date": "jour",
+      "event": "Première apparition des futurs Joy Division sous le nom Stiff Kittens à l’Electric Circus selon Broll.",
+      "type": "concert",
+      "location": "Electric Circus, Manchester",
+      "people": [
+        "Bernard Sumner",
+        "Peter Hook",
+        "Terry Mason"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A001"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-002",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-002",
+      "date": "1976-12",
+      "precision_date": "mois",
+      "event": "Rencontre avec Ian Curtis et écriture de « Gutz » selon Broll.",
+      "type": "relation",
+      "location": "Manchester",
+      "people": [
+        "Ian Curtis"
+      ],
+      "songs": [
+        "Gutz"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "weak",
+      "related_atoms": [
+        "S-BROLL-A002"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-003",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-003",
+      "date": "1977-07",
+      "precision_date": "mois",
+      "event": "Activité scénique régulière dans les pubs de Salford et Manchester, notamment Black Swan et Rafters.",
+      "type": "concert",
+      "location": "Salford / Manchester",
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A003"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-004",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-004",
+      "date": 1977,
+      "precision_date": "annee",
+      "event": "Passage au nom Warsaw et remplacement de Steve Brotherdale par Stephen Morris selon Broll.",
+      "type": "relation",
+      "people": [
+        "Steve Brotherdale",
+        "Stephen Morris"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A004"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-005",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-005",
+      "date": "1977-07-18",
+      "precision_date": "jour",
+      "event": "Enregistrement d’un premier demo tape aux Pennine Studios.",
+      "type": "enregistrement",
+      "location": "Pennine Studios",
+      "songs": [
+        "Inside the Line",
+        "Gutz",
+        "At a Later Date",
+        "The Kill"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A005"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-006",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-006",
+      "date": "1977-11-02",
+      "precision_date": "jour",
+      "event": "Concert à l’Electric Circus et enregistrement de « At a Later Date » pour *Short Circuit* selon Broll.",
+      "type": "concert",
+      "location": "Electric Circus, Manchester",
+      "songs": [
+        "At a Later Date"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A006"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-007",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-007",
+      "date": "1977-12",
+      "precision_date": "mois",
+      "event": "Enregistrement de *An Ideal for Living* selon Broll.",
+      "type": "enregistrement",
+      "songs": [
+        "Warsaw",
+        "No Love Lost",
+        "Leaders of Men",
+        "Failures"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A007"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-008",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-008",
+      "date": 1978,
+      "precision_date": "annee",
+      "event": "Adoption du nom Joy Division après confusion possible avec Warsaw Pakt selon Broll.",
+      "type": "relation",
+      "songs": [
+        "No Love Lost"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A008"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-009",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-009",
+      "date": 1978,
+      "precision_date": "annee",
+      "event": "Attention de RCA obtenue via Derek Branwood et suivi par Richard Searling selon Broll.",
+      "type": "management",
+      "people": [
+        "Ian Curtis",
+        "Derek Branwood",
+        "Richard Searling"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A009"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-010",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-010",
+      "date": "1978-04-14",
+      "precision_date": "jour",
+      "event": "Stiff/Chiswick Challenge au Rafters selon Broll.",
+      "type": "concert",
+      "location": "Rafters, Manchester",
+      "people": [
+        "Mark Johnson",
+        "Rob Gretton",
+        "Tony Wilson"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A010",
+        "S-BROLL-A013"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-011",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-011",
+      "date": "1978-05",
+      "precision_date": "mois",
+      "event": "Sessions RCA de Joy Division selon Broll.",
+      "type": "enregistrement",
+      "songs": [
+        "The Drawback",
+        "Leaders of Men",
+        "They Walked in Line",
+        "Failures",
+        "Novelty",
+        "No Love Lost",
+        "Transmission",
+        "Ice Age",
+        "Interzone",
+        "Warsaw",
+        "Shadowplay"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A011"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-012",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-012",
+      "date": "1978-05",
+      "precision_date": "mois",
+      "event": "Contrat RCA jugé insatisfaisant et abandonné selon Broll.",
+      "type": "management",
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "weak",
+      "related_atoms": [
+        "S-BROLL-A012"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-013",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-013",
+      "date": "1978-06",
+      "precision_date": "mois",
+      "event": "Publication à compte propre de *An Ideal for Living* selon Broll.",
+      "type": "sortie",
+      "songs": [
+        "Warsaw",
+        "No Love Lost",
+        "Leaders of Men",
+        "Failures"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A014"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-014",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-014",
+      "date": "1978-10",
+      "precision_date": "mois",
+      "event": "Réédition 12'' de *An Ideal for Living* selon Broll.",
+      "type": "sortie",
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A015"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-015",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-015",
+      "date": "1978-10-11",
+      "precision_date": "jour",
+      "event": "Enregistrement de « Digital » et « Glass » pour *A Factory Sample* selon Broll.",
+      "type": "enregistrement",
+      "songs": [
+        "Digital",
+        "Glass"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A016"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-016",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-016",
+      "date": "1978-10-20",
+      "precision_date": "jour",
+      "event": "Concert Factory au Russell Club avec Cabaret Voltaire et Tiller Boys ; contact avec Rabid Records / Hannett selon Broll.",
+      "type": "concert",
+      "location": "Russell Club, Manchester",
+      "people": [
+        "Martin Hannett"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A017"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-017",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-017",
+      "date": "1979-01-31",
+      "precision_date": "jour",
+      "event": "Première Peel Session enregistrée pour la BBC selon Broll.",
+      "type": "enregistrement",
+      "songs": [
+        "Exercise One",
+        "Insight",
+        "Transmission",
+        "She's Lost Control"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A018"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-018",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-018",
+      "date": "1979-03",
+      "precision_date": "mois",
+      "event": "Démo pour Martin Rushent / Genetic Records aux Eden Studios selon Broll.",
+      "type": "enregistrement",
+      "location": "Eden Studios, Londres",
+      "people": [
+        "Martin Rushent"
+      ],
+      "songs": [
+        "Glass",
+        "Transmission",
+        "Ice Age",
+        "Insight"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A019"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-019",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-019",
+      "date": "1979-04",
+      "precision_date": "mois",
+      "event": "Enregistrements de *Unknown Pleasures* aux Strawberry Studios avec Martin Hannett selon Broll.",
+      "type": "enregistrement",
+      "location": "Strawberry Studios, Stockport",
+      "people": [
+        "Martin Hannett"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A020"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-020",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-020",
+      "date": 1979,
+      "precision_date": "annee",
+      "event": "Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* selon Broll.",
+      "type": "sortie",
+      "songs": [
+        "Autosuggestion",
+        "From Safety to Where...?"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A021"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-021",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-021",
+      "date": "1979-06-04",
+      "precision_date": "jour",
+      "event": "Session Piccadilly Radio aux Pennine Studios selon Broll.",
+      "type": "enregistrement",
+      "location": "Pennine Studios",
+      "songs": [
+        "These Days",
+        "Candidate",
+        "The Only Mistake",
+        "Atmosphere",
+        "Atrocity Exhibition"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A022"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-022",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-022",
+      "date": "1979-07",
+      "precision_date": "mois",
+      "event": "Sessions au Central Sound Studio de Manchester selon Broll.",
+      "type": "enregistrement",
+      "location": "Central Sound Studio, Manchester",
+      "songs": [
+        "Transmission",
+        "Novelty",
+        "Dead Souls",
+        "Something Must Break"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A023"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-023",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-023",
+      "date": "1979-09-08",
+      "precision_date": "jour",
+      "event": "Concert au premier Futurama à Leeds selon Broll.",
+      "type": "concert",
+      "location": "Leeds",
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A024"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-024",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-024",
+      "date": "1979-09-13",
+      "precision_date": "jour",
+      "event": "Tournages super-8 liés à Malcolm Whitehead et Charles Salem selon Broll.",
+      "type": "archive",
+      "location": "Scala Cinema, Tottenham Court Road",
+      "people": [
+        "Malcolm Whitehead",
+        "Charles Salem",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A025"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-025",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-025",
+      "date": "1979-10-27",
+      "precision_date": "jour",
+      "event": "Captations à l’Apollo Theatre de Manchester par Richard Boon selon Broll.",
+      "type": "archive",
+      "location": "Apollo Theatre, Manchester",
+      "people": [
+        "Richard Boon"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A026"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-026",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-026",
+      "date": "1979-11-26",
+      "precision_date": "jour",
+      "event": "Seconde Peel Session enregistrée selon Broll.",
+      "type": "enregistrement",
+      "songs": [
+        "Sound of Music",
+        "Twenty Four Hours",
+        "Colony",
+        "Love Will Tear Us Apart"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A027"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-027",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-027",
+      "date": 1979,
+      "precision_date": "annee",
+      "event": "Offre américaine Warner / WEA évoquée par Broll.",
+      "type": "management",
+      "people": [
+        "Bob Krasnow",
+        "Martin Hannett",
+        "Peter Saville",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "weak",
+      "related_atoms": [
+        "S-BROLL-A028"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-028",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-028",
+      "date": "1980-01-11",
+      "precision_date": "jour",
+      "event": "Concert au Paradiso d’Amsterdam documenté par le bootleg *Gruftgesaenge* selon Broll.",
+      "type": "concert",
+      "location": "Paradiso, Amsterdam",
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A029"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-029",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-029",
+      "date": "1980-01-23",
+      "precision_date": "jour",
+      "event": "Composition ou préparation de titres liés au flexi FAC 28 selon Broll.",
+      "type": "production",
+      "songs": [
+        "Incubation",
+        "Komakino",
+        "As You Said",
+        "Heart and Soul"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "weak",
+      "related_atoms": [
+        "S-BROLL-A030"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-030",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-030",
+      "date": "1980-03",
+      "precision_date": "mois",
+      "event": "Sessions de *Closer* et de « Love Will Tear Us Apart » selon Broll.",
+      "type": "enregistrement",
+      "songs": [
+        "Love Will Tear Us Apart",
+        "These Days",
+        "She’s Lost Control",
+        "Atmosphere"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A031",
+        "S-BROLL-A032"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-031",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-031",
+      "date": "1980-03",
+      "precision_date": "mois",
+      "event": "Sortie française Sordide Sentimental avec « Atmosphere » et « Dead Souls » selon Broll.",
+      "type": "sortie",
+      "songs": [
+        "Atmosphere",
+        "Dead Souls"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A033"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-032",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-032",
+      "date": "1980-04",
+      "precision_date": "mois",
+      "event": "Distribution gratuite des premières copies du flexi FAC 28 selon Broll.",
+      "type": "sortie",
+      "songs": [
+        "Komakino",
+        "Incubation",
+        "As You Said"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A034"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-033",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-033",
+      "date": "1980-04-19",
+      "precision_date": "jour",
+      "event": "Concert à l’Ajanta Theatre de Derby avec Section 25 selon Broll.",
+      "type": "concert",
+      "location": "Ajanta Theatre, Derby",
+      "people": [
+        "Ian Curtis",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A035"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-034",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-034",
+      "date": "1980-04",
+      "precision_date": "mois",
+      "event": "Mauvaises conditions de santé de Ian Curtis et annulations de dates selon Broll.",
+      "type": "santé",
+      "people": [
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A036"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-035",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-035",
+      "date": "1980-05-02",
+      "precision_date": "jour",
+      "event": "Dernier concert de Joy Division à Birmingham selon Broll.",
+      "type": "concert",
+      "location": "High Hall, Birmingham",
+      "people": [
+        "Ian Curtis"
+      ],
+      "songs": [
+        "Ceremony",
+        "Decades",
+        "Digital"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A037"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-036",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-036",
+      "date": "1980-05-18",
+      "precision_date": "jour",
+      "event": "Mort de Ian Curtis à Macclesfield.",
+      "type": "biographie",
+      "location": "Macclesfield",
+      "people": [
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S-BROLL-A038"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-037",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-037",
+      "date": "1980-05-19",
+      "precision_date": "jour",
+      "event": "Départ prévu pour la première tournée américaine selon Broll.",
+      "type": "management",
+      "people": [
+        "Don Loggins"
+      ],
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A038"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-BROLL-038",
+    "file": "sources/marco_broll/source.md",
+    "heading": "5. Événements chronologiques lisibles par le registre",
+    "data": {
+      "id": "CHR-BROLL-038",
+      "date": "1981-10",
+      "precision_date": "mois",
+      "event": "Sortie de *Still* contenant inédits et morceaux live selon Broll.",
+      "type": "sortie",
+      "sources": [
+        "S-BROLL-JOY-001"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S-BROLL-A039"
+      ]
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "NO_ID::sources/marco_broll/README.md::81",
+    "file": "sources/marco_broll/README.md",
+    "heading": "Marco Broll — source atomisée",
+    "data": {
+      "source_id": "S-BROLL-JOY-001",
+      "source_auteur": "Marco Broll",
+      "source_titre": "Joy Division",
+      "nature": "source secondaire chronologique italienne",
+      "status": "atomisation primaire terminee",
+      "priority": "source de recoupement"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "NO_ID::sources/marco_broll/README.md::82",
+    "file": "sources/marco_broll/README.md",
+    "heading": "Couverture documentaire",
+    "data": {
+      "coverage": [
+        "Stiff Kittens",
+        "Warsaw",
+        "Electric Circus",
+        "premiers concerts",
+        "Pennine Studios",
+        "Short Circuit",
+        "An Ideal for Living",
+        "origine du nom Joy Division",
+        "RCA",
+        "Stiff / Chiswick Challenge",
+        "Factory",
+        "Rabid Records",
+        "Martin Hannett",
+        "John Peel",
+        "Unknown Pleasures",
+        "Earcom 2",
+        "Piccadilly Radio",
+        "Central Sound Studio",
+        "Futurama",
+        "captations super-8",
+        "Here Are the Young Men",
+        "Warner / WEA",
+        "Paradiso Amsterdam",
+        "Gruftgesaenge",
+        "FAC 28",
+        "Sordide Sentimental",
+        "dernier concert",
+        "Ian Curtis",
+        "New Order",
+        "Still"
+      ]
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "NO_ID::sources/marco_broll/README.md::83",
+    "file": "sources/marco_broll/README.md",
+    "heading": "Usages principaux",
+    "data": {
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 10",
+        "Chapitre 11",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
     "kind": "atom",
     "id": "S46-121",
     "file": "sources/johnson_morley_an_ideal_for_living/source_suite_05.md",
@@ -16682,7 +19165,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::599",
+    "id": "NO_ID::sources/hook/citations_exactes.md::682",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -18613,7 +21096,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::672",
+    "id": "NO_ID::registers/songs/master_songs.md::755",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -19194,7 +21677,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::registers/people/master_people.md::680",
+    "id": "NO_ID::registers/people/master_people.md::763",
     "file": "registers/people/master_people.md",
     "heading": "Structure normalisée d’une personne",
     "data": {
@@ -19927,7 +22410,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::registers/chronology/master_chronology.md::693",
+    "id": "NO_ID::registers/chronology/master_chronology.md::776",
     "file": "registers/chronology/master_chronology.md",
     "heading": "Structure normalisée d’un événement",
     "data": {
