@@ -7,8 +7,8 @@ source_auteur: Simon Reynolds
 source_titre: Rip It Up and Start Again: Postpunk 1978–1984
 source_year: "2005/2006"
 nature: essai historique et critique
-status: atomisation première passe terminée
-priority: source critique majeure pour le cadre post-punk, Manchester et Joy Division
+status: atomisation deuxième passe terminée
+priority: source critique majeure pour le cadre post-punk, Manchester, Joy Division et ses héritages
 ```
 
 ## Fichiers
@@ -16,9 +16,10 @@ priority: source critique majeure pour le cadre post-punk, Manchester et Joy Div
 | Fichier | Fonction | Statut |
 |---|---|---|
 | `sources/reynolds_rip_it_up/source.md` | fiche source + première passe d’atomes + événements chronologiques | actif |
+| `sources/reynolds_rip_it_up/second_pass_scenes_heritage.md` | deuxième passe : scènes, contrepoints et héritages | actif |
 | `sources/reynolds_rip_it_up/citations_exactes.md` | citations candidates courtes et contextualisées | actif |
 
-## Couverture documentaire première passe
+## Couverture documentaire consolidée
 
 ```yaml
 coverage:
@@ -35,6 +36,9 @@ coverage:
   - New Hormones
   - Factory Records
   - contrats informels Factory
+  - Rough Trade
+  - Mute Records
+  - Warm Leatherette
   - Ballard
   - Manchester post-industriel
   - Joy Division et The Fall
@@ -43,10 +47,27 @@ coverage:
   - A Factory Sample
   - Paul Morley
   - critique musicale comme acteur
-  - New Order et New Pop
-  - goth et héritages sombres
-  - synthpop et Europe froide
+  - PiL
+  - Gang of Four
+  - The Pop Group
+  - The Slits
+  - Pere Ubu
+  - Devo
+  - Sheffield
+  - Cabaret Voltaire
+  - Human League
   - Throbbing Gristle
+  - No Wave
+  - Talking Heads
+  - Wire
+  - 2-Tone
+  - New Order et New Pop
+  - MTV
+  - goth et héritages sombres
+  - Batcave
+  - Positive Punk
+  - ZTT
+  - post-punk revival
 ```
 
 ## Usages principaux
@@ -68,7 +89,9 @@ chapters:
 
 ## Règle d’usage
 
-S72 doit être utilisée comme source critique de cadrage. Elle est particulièrement forte pour situer Joy Division dans le post-punk, pour articuler Manchester, Ballard, Factory et l’espace sonore. Elle ne doit pas remplacer Hook, Curtis, Johnson, West, Broll ou les archives discographiques pour les faits de détail.
+S72 doit être utilisée comme source critique de cadrage. Elle est particulièrement forte pour situer Joy Division dans le post-punk, pour articuler Manchester, Ballard, Factory et l’espace sonore, puis pour distinguer l’œuvre du groupe de ses héritages ultérieurs : New Order, goth, post-punk revival et patrimonialisation.
+
+Elle ne doit pas remplacer Hook, Curtis, Johnson, West, Broll ou les archives discographiques pour les faits de détail.
 
 ## Migration depuis les anciens brouillons
 
@@ -78,8 +101,8 @@ Les documents maîtres anciens mentionnent parfois Simon Reynolds comme `S20`. D
 
 ```yaml
 next_pass:
-  - détailler la fin du chapitre 7 si nécessaire
-  - atomiser plus finement les chapitres New Pop / New Order
-  - atomiser le chapitre Goth si le chapitre 14 développe l’héritage gothique
-  - extraire les passages sur PiL, Gang of Four, Cabaret Voltaire, Throbbing Gristle comme contrepoints thématiques
+  - compléter les citations candidates issues de la deuxième passe
+  - atomiser finement New Order si le chapitre 14 développe Blue Monday et la culture club
+  - atomiser finement Goth si le chapitre 14 développe Batcave, Bauhaus et Positive Punk
+  - créer une table de correspondance S20 -> S72 pour les anciens documents maîtres si nécessaire
 ```
