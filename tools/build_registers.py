@@ -41,6 +41,14 @@ SCAN_DIRS = [
 ]
 
 YAML_BLOCK_RE = re.compile(r"```yaml\s*(.*?)\s*```", re.DOTALL | re.IGNORECASE)
+KNOWN_TOPLEVEL_KEYS = {
+    "id", "source_id", "auteur", "titre", "source_titre", "pages_pdf", "page_pdf",
+    "type_unite", "concepts", "chapitres", "statut", "fiabilite", "citation_directe",
+    "citation_originale", "traduction_editoriale_fr", "langue_originale", "importance",
+    "statut_verification", "date", "precision_date", "event", "type", "location",
+    "people", "songs", "sources", "certainty", "song", "period", "themes", "chapters",
+    "name", "full_name", "role", "notes"
+}
 
 
 @dataclass
@@ -82,23 +90,26 @@ def nearest_heading(text: str, pos: int) -> Optional[str]:
 
 
 def normalize_yaml(raw: str) -> str:
-    """Quote common plain scalar values that contain ': '.
+    """Make common atomisation YAML mistakes parseable.
 
-    Markdown atomisation files often contain bibliographic titles such as
-    'Unknown Pleasures: Inside Joy Division'. Plain YAML scalars cannot contain
-    an unquoted colon followed by a space, so PyYAML rejects those blocks. This
-    normalizer keeps the source files readable while making the parser tolerant.
+    The normalizer fixes two frequent problems in Markdown atomisation files:
+    unquoted bibliographic titles containing ': ', and stray spaces before known
+    top-level keys such as ' type_unite: fait'.
     """
     fixed_lines: List[str] = []
-    mapping_line = re.compile(r"^(\s*[A-Za-z_][A-Za-z0-9_\-]*:\s*)(.+?)\s*$")
+    mapping_line = re.compile(r"^(\s*)([A-Za-z_][A-Za-z0-9_\-]*:\s*)(.+?)\s*$")
 
     for line in raw.splitlines():
+        key_match = re.match(r"^\s+([A-Za-z_][A-Za-z0-9_\-]*):", line)
+        if key_match and key_match.group(1) in KNOWN_TOPLEVEL_KEYS:
+            line = line.lstrip()
+
         match = mapping_line.match(line)
         if not match:
             fixed_lines.append(line)
             continue
 
-        prefix, value = match.groups()
+        indent, key_prefix, value = match.groups()
         stripped = value.strip()
 
         if not stripped or stripped[0] in {'\"', "'", "[", "{", "|", ">"}:
@@ -110,7 +121,7 @@ def normalize_yaml(raw: str) -> str:
             continue
 
         escaped = stripped.replace("\\", "\\\\").replace('"', '\\"')
-        fixed_lines.append(f'{prefix}"{escaped}"')
+        fixed_lines.append(f'{indent}{key_prefix}"{escaped}"')
 
     return "\n".join(fixed_lines)
 
