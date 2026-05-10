@@ -12,12 +12,23 @@ const downloadButton = document.getElementById('download-csv');
 
 let events = [];
 
+function asText(value) {
+  if (value === null || value === undefined) return '';
+  return String(value);
+}
+
+function eventDate(item) {
+  return asText(item?.data?.date);
+}
+
 async function loadChronology() {
   try {
     const response = await fetch('../../exports/generated/chronology.json');
+    if (!response.ok) throw new Error(`chronology.json introuvable (${response.status})`);
+
     events = await response.json();
 
-    events.sort((a, b) => (a.data?.date || '').localeCompare(b.data?.date || ''));
+    events.sort((a, b) => eventDate(a).localeCompare(eventDate(b)));
 
     populateFilters();
     renderEvents(events);
@@ -25,12 +36,12 @@ async function loadChronology() {
     statusCard.textContent = `${events.length} événement(s) chargés`;
   } catch (error) {
     console.error(error);
-    statusCard.textContent = 'Erreur lors du chargement de la chronologie.';
+    statusCard.textContent = `Erreur lors du chargement de la chronologie : ${error.message}`;
   }
 }
 
 function unique(values) {
-  return [...new Set(values.filter(Boolean))].sort();
+  return [...new Set(values.map(asText).filter(Boolean))].sort();
 }
 
 function addOptions(select, values) {
@@ -43,7 +54,7 @@ function addOptions(select, values) {
 }
 
 function populateFilters() {
-  addOptions(yearFilter, unique(events.map(e => (e.data?.date || '').slice(0,4))));
+  addOptions(yearFilter, unique(events.map(e => eventDate(e).slice(0, 4))));
   addOptions(typeFilter, unique(events.map(e => e.data?.type)));
   addOptions(locationFilter, unique(events.map(e => e.data?.location)));
 
@@ -60,16 +71,17 @@ function renderEvents(items) {
 
   items.forEach(item => {
     const data = item.data || {};
+    const date = eventDate(item);
 
     const block = document.createElement('article');
     block.className = 'timeline-item';
 
-    const people = (data.people || []).map(p => `<li>${p}</li>`).join('');
-    const songs = (data.songs || []).map(s => `<li>${s}</li>`).join('');
-    const sources = (data.sources || []).map(s => `<span class="badge">${s}</span>`).join('');
+    const people = (data.people || []).map(p => `<li>${asText(p)}</li>`).join('');
+    const songs = (data.songs || []).map(s => `<li>${asText(s)}</li>`).join('');
+    const sources = (data.sources || []).map(s => `<span class="badge">${asText(s)}</span>`).join('');
 
     block.innerHTML = `
-      <div class="timeline-date">${data.date || 'Date inconnue'}</div>
+      <div class="timeline-date">${date || 'Date inconnue'}</div>
 
       <div class="timeline-event">${data.event || ''}</div>
 
@@ -110,10 +122,11 @@ function filterEvents() {
 
   const filtered = events.filter(item => {
     const data = item.data || {};
+    const date = eventDate(item);
 
     const haystack = [
       item.id,
-      data.date,
+      date,
       data.event,
       data.type,
       data.location,
@@ -121,11 +134,12 @@ function filterEvents() {
       ...(data.songs || []),
       ...(data.sources || [])
     ]
+      .map(asText)
       .join(' ')
       .toLowerCase();
 
     const matchesQuery = !query || haystack.includes(query);
-    const matchesYear = !year || (data.date || '').startsWith(year);
+    const matchesYear = !year || date.startsWith(year);
     const matchesType = !type || data.type === type;
     const matchesLocation = !location || data.location === location;
     const matchesSource = !source || (data.sources || []).includes(source);
@@ -137,17 +151,32 @@ function filterEvents() {
 }
 
 function exportCSV() {
-  const rows = [[
-    'id','date','event','type','location','people','songs','sources'
-  ]];
+  const rows = [['id', 'date', 'event', 'type', 'location', 'people', 'songs', 'sources']];
 
-  document.querySelectorAll('.timeline-item').forEach(item => {
-    const text = item.innerText.split('\n');
-    rows.push(text);
+  const visibleIds = [...document.querySelectorAll('.timeline-item')].map(item => {
+    const date = item.querySelector('.timeline-date')?.innerText || '';
+    const event = item.querySelector('.timeline-event')?.innerText || '';
+    return { date, event };
+  });
+
+  visibleIds.forEach(({ date, event }) => {
+    const match = events.find(item => eventDate(item) === date && (item.data?.event || '') === event);
+    if (!match) return;
+    const data = match.data || {};
+    rows.push([
+      match.id,
+      eventDate(match),
+      data.event,
+      data.type,
+      data.location,
+      (data.people || []).join(' | '),
+      (data.songs || []).join(' | '),
+      (data.sources || []).join(' | ')
+    ]);
   });
 
   const csv = rows
-    .map(row => row.map(v => `"${String(v || '').replace(/"/g,'""')}"`).join(','))
+    .map(row => row.map(v => `"${String(v || '').replace(/"/g, '""')}"`).join(','))
     .join('\n');
 
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
