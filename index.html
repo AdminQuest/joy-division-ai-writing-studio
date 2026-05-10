@@ -4,58 +4,70 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Joy Division — AI Writing Studio</title>
-<link rel="stylesheet" href="css/style.css">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0f1115;color:#f1f1f1}
+header{background:linear-gradient(to bottom,#1b2029,#101319);border-bottom:1px solid #2a2f38;padding:42px 28px}
+.header-inner{max-width:1100px;margin:auto}
+h1{margin:0;font-size:2.2rem;letter-spacing:-.03em}
+.subtitle{margin:10px 0 0;color:#aab2bd;max-width:780px;line-height:1.55}
+main{max-width:1100px;margin:auto;padding:30px 28px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:#171b22;border:1px solid #2a2f38;border-radius:16px;padding:24px;min-height:230px;display:flex;flex-direction:column;justify-content:space-between}
+.card h2{margin:0 0 10px;font-size:1.25rem}
+.card p{color:#c8d0da;line-height:1.55;margin:0 0 18px}
+.card ul{color:#aeb7c2;margin:0 0 22px;padding-left:20px;line-height:1.55}
+a.button{display:inline-block;background:#e5e5e5;color:#111;text-decoration:none;border-radius:10px;padding:12px 16px;font-weight:700;width:max-content}
+.section{margin-top:26px;background:#171b22;border:1px solid #2a2f38;border-radius:16px;padding:22px;color:#c8d0da;line-height:1.55}
+code{background:#0f1115;border:1px solid #2a2f38;border-radius:6px;padding:2px 6px;color:#fff}
+@media(max-width:850px){.grid{grid-template-columns:1fr}h1{font-size:1.8rem}}
+</style>
 </head>
 <body>
 <header>
+<div class="header-inner">
 <h1>Joy Division — AI Writing Studio</h1>
-<p>Poste de pilotage rédactionnel structuré.</p>
+<p class="subtitle">Portail local du système documentaire et rédactionnel. Deux ateliers distincts : construire des prompts de travail, ou interroger le corpus atomisé par le RAG.</p>
+</div>
 </header>
 <main>
-<section class="panel">
-<h2>Pipeline multi-IA</h2>
-<p class="hint">Le prompteur distingue désormais quatre niveaux : sources, structuration, production et contrôle. Chaque niveau correspond à un rôle d’IA distinct et produit un prompt adapté.</p>
+<section class="grid">
+<article class="card">
+<div>
+<h2>Prompt Studio</h2>
+<p>Atelier de construction de prompts contraints pour l’écriture du livre.</p>
+<ul>
+<li>sources ;</li>
+<li>structuration ;</li>
+<li>production ;</li>
+<li>contrôle.</li>
+</ul>
+</div>
+<a class="button" href="apps/prompt-studio/">Ouvrir le Prompt Studio</a>
+</article>
+
+<article class="card">
+<div>
+<h2>RAG Studio</h2>
+<p>Interface documentaire locale pour interroger les atomes, citations, registres, chansons, personnes et événements.</p>
+<ul>
+<li>recherche texte simple ;</li>
+<li>filtrage par type documentaire ;</li>
+<li>résultats sourcés par fichiers et identifiants.</li>
+</ul>
+</div>
+<a class="button" href="web/">Ouvrir le RAG Studio</a>
+</article>
 </section>
-<section class="panel grid grid-four">
-<div>
-<label>Niveau IA</label>
-<select id="niveau"></select>
-</div>
-<div>
-<label>Chapitre</label>
-<select id="chapitre"></select>
-</div>
-<div>
-<label>Atelier</label>
-<select id="atelier"></select>
-</div>
-<div>
-<label>Mode</label>
-<select id="mode">
-<option>Diagnostic bref + corrections ciblées</option>
-<option>Tableau de contrôle</option>
-<option>Rédaction directement exploitable</option>
-<option>Format registre</option>
-<option>Rédaction chapitre complet</option>
-<option>Audit automatique</option>
-<option>Extraction documentaire</option>
-<option>Recherche documentaire</option>
-<option>Brief de rédaction</option>
-<option>Contrôle final multi-IA</option>
-</select>
-</div>
-</section>
-<section class="panel">
-<label>Matériau à traiter</label>
-<textarea id="input" placeholder="Coller ici notes, extraits, brouillon, résultats NotebookLM, résultats Perplexity ou texte rédigé par Claude."></textarea>
-</section>
-<section class="panel">
-<button id="generateBtn">Générer</button>
-<button id="copyBtn">Copier</button>
-<textarea id="output" placeholder="Le prompt généré apparaîtra ici."></textarea>
+
+<section class="section">
+<h2>Mode d’emploi minimal</h2>
+<p>Avant d’utiliser le RAG Studio, générer les exports depuis la racine du repo :</p>
+<p><code>python tools/build_registers.py</code></p>
+<p>Puis lancer le serveur local :</p>
+<p><code>python tools/rag_server.py</code></p>
+<p>Le portail reste le point d’entrée unique. Les ateliers demeurent séparés pour éviter de mélanger rédaction, retrieval et validation documentaire.</p>
 </section>
 </main>
-<script src="js/prompt-builder.js"></script>
-<script src="js/app.js"></script>
 </body>
 </html>
