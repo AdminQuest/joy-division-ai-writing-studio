@@ -2,36 +2,58 @@
 
 ## Objectif
 
-L’interface web locale permet d’interroger le corpus documentaire sans utiliser directement la ligne de commande.
+L’interface web locale donne accès à deux ateliers distincts :
 
-Le système reste entièrement local :
+- le **Prompt Studio**, qui construit des prompts contraints pour le travail rédactionnel ;
+- le **RAG Studio**, qui interroge le corpus documentaire structuré.
+
+Le système reste local par défaut :
+
 - aucun appel API ;
 - aucun service cloud ;
-- aucune dépendance externe obligatoire.
+- aucune génération automatique de texte ;
+- aucune interrogation directe des PDF OCR bruts.
 
 ---
 
-# Architecture
+# Architecture actuelle
 
 ```text
 Browser
-→ web/index.html
-→ rag_server.py
-→ rag_search.py
+→ index.html                       # portail général
+  ├── apps/prompt-studio/           # atelier de prompts
+  └── apps/rag-studio/              # interface RAG documentaire
+
+RAG Studio
+→ /api/status
+→ /api/search
+→ tools/rag_server.py
+→ tools/rag_search.py
 → exports/generated/all_records.json
 ```
 
 ---
 
-# Fichiers
+# Fichiers concernés
 
 ```text
-web/
-  index.html
-  style.css
-  app.js
+index.html
+
+apps/
+  prompt-studio/
+    index.html
+    style.css
+    app.js
+    prompt-builder.js
+
+  rag-studio/
+    index.html
+    style.css
+    app.js
 
 tools/
+  build_registers.py
+  rag_search.py
   rag_server.py
 ```
 
@@ -39,17 +61,31 @@ tools/
 
 # Démarrage
 
-## Étape 1 — Générer les exports documentaires
+## Étape 1 — Installer les dépendances
 
 Depuis la racine du repo :
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Étape 2 — Générer les exports documentaires
 
 ```bash
 python tools/build_registers.py
 ```
 
+Cette commande produit les fichiers régénérables dans :
+
+```text
+exports/generated/
+```
+
 ---
 
-## Étape 2 — Lancer le serveur local
+## Étape 3 — Lancer le serveur local
 
 ```bash
 python tools/rag_server.py
@@ -63,11 +99,89 @@ http://127.0.0.1:8765
 
 ---
 
-# Fonctionnalités actuelles
+# Routes disponibles
 
-## Recherche documentaire
+```text
+/                       portail général
+/prompt                 Prompt Studio
+/rag                    RAG Studio
+/apps/prompt-studio/    accès direct au Prompt Studio
+/apps/rag-studio/       accès direct au RAG Studio
+/api/status             état du corpus documentaire
+/api/search             endpoint de recherche RAG
+```
 
-Exemples :
+---
+
+# Prompt Studio
+
+## Fonction
+
+Le Prompt Studio sert à construire des prompts selon :
+
+- le niveau IA ;
+- le chapitre ;
+- l’atelier ;
+- le mode de sortie ;
+- le matériau collé par l’utilisateur.
+
+Il s’appuie sur :
+
+```text
+data/chapitres.json
+data/ateliers.json
+data/niveaux.json
+data/registre.json
+```
+
+## Usage
+
+Ouvrir :
+
+```text
+http://127.0.0.1:8765/prompt
+```
+
+ou :
+
+```text
+http://127.0.0.1:8765/apps/prompt-studio/
+```
+
+---
+
+# RAG Studio
+
+## Fonction
+
+Le RAG Studio permet d’interroger :
+
+- les atomes ;
+- les citations ;
+- la chronologie ;
+- les chansons ;
+- les personnes ;
+- les registres transversaux.
+
+Il ne rédige pas encore de synthèse. Il retrouve les documents pertinents pour préparer ensuite le travail avec l’IA.
+
+## Usage
+
+Ouvrir :
+
+```text
+http://127.0.0.1:8765/rag
+```
+
+ou :
+
+```text
+http://127.0.0.1:8765/apps/rag-studio/
+```
+
+---
+
+# Exemples de recherches RAG
 
 ```text
 Ian Curtis epilepsy domestic life
@@ -81,68 +195,55 @@ Hannett live sound studio frustration
 Transmission first real Joy Division song
 ```
 
----
-
-## Filtrage par type
-
-- Atomes
-- Citations
-- Chronologie
-- Chansons
-- Personnes
+```text
+Rob Gretton Factory management
+```
 
 ---
 
-## Résultats affichés
+# Résultats affichés
 
-- score de pertinence ;
-- ID documentaire ;
-- fichier source ;
-- champs documentaires principaux.
+Le RAG Studio affiche :
+
+- le score de pertinence ;
+- l’identifiant documentaire ;
+- le type de document ;
+- le fichier source ;
+- les champs documentaires principaux.
 
 ---
 
-# Philosophie
+# Philosophie documentaire
 
-Cette interface n’est pas encore un assistant conversationnel.
+L’interface web n’est qu’une couche d’accès.
 
-Elle constitue :
-- une couche de retrieval ;
-- une console documentaire ;
-- un poste de recherche historiographique.
+Le système documentaire reste fondé sur :
+
+```text
+PDF OCR
+→ atomisation Markdown/YAML
+→ schémas
+→ parseur documentaire
+→ exports JSON/CSV
+→ retrieval
+→ usage rédactionnel contrôlé
+```
+
+Ne jamais brancher directement l’IA générative sur des PDF OCR bruts.
 
 ---
 
 # Évolutions prévues
 
-## Étape suivante
+Prochaines étapes possibles :
 
-Ajouter :
-- synthèse automatique ;
-- navigation entre relations ;
+- synthèse documentaire automatique ;
+- navigation relationnelle entre atomes, personnes, chansons et événements ;
 - graphe documentaire ;
-- recherche hybride vectorielle ;
-- mode rédaction ;
-- prompts contextualisés ;
+- recherche hybride lexicale/vectorielle ;
+- mode rédaction assistée ;
 - citations automatiques ;
 - export Word.
-
----
-
-# Important
-
-Le système doit toujours fonctionner dans cet ordre :
-
-```text
-PDF
-→ atomisation
-→ YAML
-→ exports
-→ retrieval
-→ IA générative
-```
-
-Ne jamais brancher directement l’IA générative sur des PDF OCR bruts.
 
 ---
 
@@ -151,3 +252,4 @@ Ne jamais brancher directement l’IA générative sur des PDF OCR bruts.
 | Date | Action | Auteur |
 |---|---|---|
 | 2026-05-09 | Création de l’interface web locale v0.1 | ChatGPT |
+| 2026-05-10 | Mise à jour vers portail unique et studios modulaires | ChatGPT |
