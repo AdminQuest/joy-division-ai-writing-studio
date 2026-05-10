@@ -1,23 +1,25 @@
-function buildPrompt({chap,at,input,mode,registre,niveau}){
+function buildPrompt({chap,at,input,mode,registre,niveau,contexte}){
   const materiau=input&&input.trim()?input.trim():'[COLLER ICI LE TEXTE]';
 
   const header=`NIVEAU IA : ${niveau?niveau.nom:'non défini'}\nOBJECTIF : ${niveau?niveau.objectif:''}`;
 
-  if(niveau && niveau.id==='sources'){
-    return `${header}\n\nEXTRACTION DOCUMENTAIRE\n\nExtraire fidèlement les informations suivantes :\n- faits\n- citations exactes\n- références\n\nINTERDICTIONS\n- aucune reformulation libre\n- aucune interprétation\n\nMATERIAU\n${materiau}`;
-  }
+  const contextualBlock=`\nCONTEXTE DOCUMENTAIRE INJECTE\n${contexte||'Aucun contexte'}\n`;
 
-  if(niveau && niveau.id==='recherche'){
-    return `${header}\n\nRECHERCHE DOCUMENTAIRE\n\nCompléter et vérifier :\n- sources\n- citations\n- références\n\nSIGNALER\n- sources fragiles\n- incohérences\n\nMATERIAU\n${materiau}`;
-  }
+  const chapitreBlock=chap?`\nCHAPITRE CIBLE\n${chap.nom}\n`:'\n';
+  const atelierBlock=at?`\nATELIER\n${at.nom}\n`:'\n';
 
-  if(niveau && niveau.id==='production'){
-    return `${header}\n\nREDACTION LONGUE\n\nProduire un texte structuré, fluide, sans inventer.\n\nCONTRAINTES\n- style académique\n- respect du chapitre\n\nMATERIAU\n${materiau}`;
-  }
+  const commonRules=`\nREGLES\n- Ne jamais inventer une citation\n- Signaler les contradictions documentaires\n- Distinguer les faits, hypothèses et interprétations\n- Respecter le style académique narratif défini pour le projet\n- Utiliser les références injectées lorsque pertinentes\n`;
 
-  if(niveau && niveau.id==='controle'){
-    return `${header}\n\nCONTROLE GLOBAL\n\nVérifier :\n- cohérence\n- doublons\n- sources\n- structure\n\nMATERIAU\n${materiau}`;
-  }
+  return `${header}
+${chapitreBlock}
+${atelierBlock}
+MODE REDACTIONNEL
+${mode}
+${contextualBlock}
+${commonRules}
+MISSION
+Produire une réponse adaptée au mode rédactionnel sélectionné en mobilisant le contexte documentaire injecté.
 
-  return `MODE STANDARD\n\n${materiau}`;
+MATERIAU A TRAITER
+${materiau}`;
 }
