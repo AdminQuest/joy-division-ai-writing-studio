@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joy Division — Prompt Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Joy Division — Prompt Studio</h1>
+<p>Poste de pilotage rédactionnel structuré.</p>
+<p><a href="/">← Retour au portail</a></p>
+</header>
+<main>
+<section class="panel">
+<h2>Pipeline multi-IA</h2>
+<p class="hint">Le prompteur distingue quatre niveaux : sources, structuration, production et contrôle. Chaque niveau correspond à un rôle d’IA distinct et produit un prompt adapté.</p>
+</section>
+<section class="panel grid grid-four">
+<div>
+<label>Niveau IA</label>
+<select id="niveau"></select>
+</div>
+<div>
+<label>Chapitre</label>
+<select id="chapitre"></select>
+</div>
+<div>
+<label>Atelier</label>
+<select id="atelier"></select>
+</div>
+<div>
+<label>Mode</label>
+<select id="mode">
+<option>Diagnostic bref + corrections ciblées</option>
+<option>Tableau de contrôle</option>
+<option>Rédaction directement exploitable</option>
+<option>Format registre</option>
+<option>Rédaction chapitre complet</option>
+<option>Audit automatique</option>
+<option>Extraction documentaire</option>
+<option>Recherche documentaire</option>
+<option>Brief de rédaction</option>
+<option>Contrôle final multi-IA</option>
+</select>
+</div>
+</section>
+<section class="panel">
+<label>Matériau à traiter</label>
+<textarea id="input" placeholder="Coller ici notes, extraits, brouillon, résultats NotebookLM, résultats Perplexity ou texte rédigé par Claude."></textarea>
+</section>
+<section class="panel">
+<button id="generateBtn">Générer</button>
+<button id="copyBtn">Copier</button>
+<textarea id="output" placeholder="Le prompt généré apparaîtra ici."></textarea>
+</section>
+</main>
+<script src="prompt-builder.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
