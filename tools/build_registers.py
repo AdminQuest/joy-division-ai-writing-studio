@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-Joy Division AI Writing Studio — Documentary parser v0.3
+Joy Division AI Writing Studio — Documentary parser v0.4
 
 This script scans Markdown files, extracts fenced YAML blocks, classifies records,
 normalizes source identifiers, validates them through the schema validation layer,
 and generates JSON/CSV exports for RAG and documentary control.
+
+v0.4 adds enriched atom metadata for argumentative and historiographical use.
 """
 
 from __future__ import annotations
@@ -61,7 +63,10 @@ KNOWN_TOPLEVEL_KEYS = {
     "pages_pdf", "page_pdf", "type_unite", "concepts", "chapitres", "statut", "fiabilite", "citation_directe",
     "citation_originale", "traduction_editoriale_fr", "langue_originale", "importance", "statut_verification",
     "date", "precision_date", "event", "type", "location", "people", "songs", "sources", "certainty", "song",
-    "period", "themes", "chapters", "name", "full_name", "role", "notes"
+    "period", "themes", "chapters", "name", "full_name", "role", "notes",
+    "role_argumentatif", "niveau_preuve", "stabilite", "risque_surinterpretation", "liens_interchapitres",
+    "liens_citations", "motifs", "concepts_derives", "charge_emotionnelle", "nature_discursive",
+    "usages_redactionnels", "contradictions", "limites_usage", "legacy_id", "related_places", "related_sources"
 }
 
 @dataclass
@@ -345,7 +350,13 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     write_json(EXPORT_DIR / "all_records.json", [asdict(record) for record in records])
     write_json(EXPORT_DIR / "index_by_id.json", {record.id: asdict(record) for record in records})
     write_json(EXPORT_DIR / "diagnostics.json", [asdict(d) for d in diagnostics])
-    write_csv(EXPORT_DIR / "atoms.csv", atoms, ["source_id", "source_label", "source_short_title", "auteur", "titre", "pages_pdf", "type_unite", "concepts", "chapitres", "statut", "fiabilite"])
+    write_csv(EXPORT_DIR / "atoms.csv", atoms, [
+        "source_id", "source_label", "source_short_title", "auteur", "titre", "pages_pdf",
+        "type_unite", "concepts", "chapitres", "statut", "fiabilite", "role_argumentatif",
+        "niveau_preuve", "stabilite", "importance", "risque_surinterpretation",
+        "liens_interchapitres", "liens_citations", "motifs", "concepts_derives",
+        "charge_emotionnelle", "nature_discursive"
+    ])
     write_csv(EXPORT_DIR / "quotes.csv", quotes, ["source_id", "source_label", "citation_originale", "traduction_editoriale_fr", "page_pdf", "langue_originale", "importance"])
     write_csv(EXPORT_DIR / "chronology.csv", chronology, ["date", "precision_date", "event", "type", "location", "people", "songs", "sources", "certainty"])
     write_csv(EXPORT_DIR / "songs.csv", songs, ["song", "period", "themes", "sources", "chapters", "certainty"])
