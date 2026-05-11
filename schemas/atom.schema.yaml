@@ -1,11 +1,14 @@
 schema: atom
-version: 1.0
+version: 2.0
 
 description: >
-  Schéma documentaire des unités atomiques.
+  Schéma documentaire enrichi des unités atomiques.
   Une unité atomique correspond à un fait, une idée,
-  une relation, une description ou une analyse minimale
-  issue d’une source.
+  une relation, une description, une citation-support,
+  une hypothèse ou une analyse minimale issue d’une source.
+  Depuis la version 2.0, l’atome n’est plus seulement une
+  information stockée : il devient une unité de raisonnement
+  qualifiée, reliée et contrôlable.
 
 required:
   - id
@@ -17,6 +20,15 @@ required:
   - chapitres
   - statut
   - fiabilite
+  - role_argumentatif
+  - niveau_preuve
+  - stabilite
+  - importance
+  - risque_surinterpretation
+  - liens_interchapitres
+  - liens_citations
+  - motifs
+  - concepts_derives
 
 recommended:
   - pages_pdf
@@ -25,8 +37,16 @@ recommended:
   - related_people
   - related_songs
   - related_events
+  - related_places
+  - related_sources
   - methodological_warnings
   - notes
+  - charge_emotionnelle
+  - nature_discursive
+  - usages_redactionnels
+  - contradictions
+  - limites_usage
+  - legacy_id
 
 controlled_values:
 
@@ -34,6 +54,7 @@ controlled_values:
     - verifie
     - a_verifier
     - a_reverifier
+    - a_consolider
 
   fiabilite:
     - forte
@@ -41,6 +62,12 @@ controlled_values:
     - faible
 
   type_unite:
+    - fait
+    - lecture
+    - concept
+    - citation_clef
+    - mythe
+    - controverse
     - biographie
     - production
     - concert
@@ -53,20 +80,179 @@ controlled_values:
     - archive
     - sociologie
     - analyse
-    - citation_clef
     - psychologie_sociale
     - culture_musicale
     - domesticité
+
+  niveau_preuve:
+    statut:
+      - etabli
+      - fortement_corrobore
+      - corrobore
+      - plausible
+      - fragile
+      - contesté
+      - hypothese
+    corroboration:
+      - forte
+      - moyenne
+      - faible
+      - absente
+    confiance:
+      - elevee
+      - moyenne
+      - faible
+
+  stabilite:
+    statut:
+      - stable
+      - assez_stable
+      - instable
+      - provisoire
+      - a_reviser
+    risque_revision:
+      - faible
+      - moyen
+      - eleve
+
+  importance:
+    niveau:
+      - structurante
+      - majeure
+      - moyenne
+      - secondaire
+      - marginale
+
+  risque_surinterpretation:
+    niveau:
+      - faible
+      - moyen
+      - eleve
+      - critique
+
+  charge_emotionnelle:
+    niveau:
+      - faible
+      - moyenne
+      - forte
+      - tres_forte
+
+  nature_discursive:
+    - descriptif
+    - analytique
+    - theorique
+    - memoriel
+    - polemique
+    - narratif
+    - critique
+
+field_definitions:
+
+  role_argumentatif: >
+    Fonction de l’atome dans l’argumentation du livre.
+    Indiquer ce que l’atome permet de soutenir, nuancer,
+    contester ou préparer.
+
+  niveau_preuve: >
+    Qualification de la solidité documentaire. Ce champ doit
+    distinguer les faits établis, les témoignages subjectifs,
+    les reconstructions mémorielles, les hypothèses et les
+    interprétations critiques.
+
+  stabilite: >
+    Degré de stabilisation de l’atome dans le système documentaire.
+    Un atome stable peut être réutilisé sans réinstruction lourde ;
+    un atome provisoire ou instable doit rester balisé.
+
+  importance: >
+    Poids de l’atome dans l’économie du livre ou d’un chapitre.
+    Un atome structurant commande une ligne argumentative ;
+    un atome marginal ne sert qu’à l’illustration.
+
+  risque_surinterpretation: >
+    Risque que l’atome conduise à une lecture trop téléologique,
+    pathologisante, mythologique, symbolique ou insuffisamment
+    corroborée.
+
+  liens_interchapitres: >
+    Liste normalisée des chapitres concernés par l’atome, au-delà
+    du chapitre principal.
+
+  liens_citations: >
+    Identifiants des citations liées à l’atome. Utiliser les ID
+    de type SXX-Q001 ou CIT-... selon les registres existants.
+
+  motifs: >
+    Motifs littéraires, musicaux, urbains, visuels ou affectifs
+    mobilisés par l’atome.
+
+  concepts_derives: >
+    Concepts secondaires produits par l’usage interprétatif de
+    l’atome. Ils ne remplacent pas le champ concepts, mais aident
+    à cartographier les dérivations théoriques.
 
 rules:
   - un atome = une idée identifiable
   - éviter les paragraphes trop longs
   - conserver les concepts en minuscules
+  - distinguer fait, lecture, concept, citation, mythe et controverse
+  - distinguer systématiquement fait établi et mémoire subjective
   - ne jamais fusionner plusieurs événements chronologiques
-  - distinguer fait et interprétation
   - toujours rattacher l’atome à un ou plusieurs chapitres
+  - toujours qualifier le rôle argumentatif
+  - toujours qualifier le niveau de preuve
+  - toujours signaler le risque de surinterprétation
+  - toujours relier l’atome aux citations pertinentes lorsqu’elles existent
+  - renseigner motifs et concepts dérivés même lorsqu’ils restent limités
 
 warnings:
   - ne pas utiliser les atomes comme texte final du livre
   - éviter les généralisations psychologiques
+  - éviter la mythologisation rétrospective
+  - éviter la téléologie du destin Joy Division
   - signaler les contradictions documentaires
+  - ne pas transformer une image mémorielle en fait établi
+
+minimal_example: |
+  id: SXX-A001
+  source_id: SXX
+  auteur: Auteur complet
+  titre: Titre complet
+  type_unite: fait
+  concepts:
+    - manchester
+    - désindustrialisation
+  chapitres:
+    - Chapitre 1
+  statut: verifie
+  fiabilite: forte
+  role_argumentatif:
+    - établit le contexte matériel du chapitre
+    - prépare l’analyse de la ville comme matrice affective
+  niveau_preuve:
+    statut: etabli
+    corroboration: forte
+    type_sources:
+      - archive
+      - source secondaire
+    confiance: elevee
+  stabilite:
+    statut: stable
+    risque_revision: faible
+  importance:
+    niveau: majeure
+    raison: donnée structurante pour le cadrage du chapitre
+  risque_surinterpretation:
+    niveau: moyen
+    raison: risque de symbolisation excessive du déclin urbain
+  liens_interchapitres:
+    - Chapitre 1
+    - Chapitre 13
+  liens_citations:
+    - SXX-Q001
+  motifs:
+    - ruine industrielle
+    - disparition
+  concepts_derives:
+    - ville spectrale
+    - mémoire ouvrière
