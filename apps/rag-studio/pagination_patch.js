@@ -3,6 +3,7 @@ const RESULTS_STATE = {
   all: [],
   currentPage: 1,
   perPage: 10,
+  totalMatches: 0,
 };
 
 function renderPagination(totalPages) {
@@ -53,7 +54,7 @@ function rerenderPage() {
   const end = start + RESULTS_STATE.perPage;
 
   ORIGINAL_RENDER_RESULTS({
-    total_matches: RESULTS_STATE.all.length,
+    total_matches: RESULTS_STATE.totalMatches,
     results: RESULTS_STATE.all.slice(start, end),
   });
 
@@ -62,6 +63,7 @@ function rerenderPage() {
 
 window.renderResults = function(data) {
   RESULTS_STATE.all = data.results || [];
+  RESULTS_STATE.totalMatches = data.total_matches || RESULTS_STATE.all.length;
   RESULTS_STATE.currentPage = 1;
   RESULTS_STATE.perPage = Number(document.getElementById('top')?.value || 10);
 
