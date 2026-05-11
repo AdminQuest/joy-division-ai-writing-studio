@@ -39,6 +39,49 @@ Cette procédure prime sur toute pratique antérieure.
 
 ---
 
+## 0 bis. Doctrine documentaire v2 — l’atome comme unité de raisonnement
+
+Depuis la version 2 du repo, l’atomisation ne consiste plus uniquement à découper des sources en fragments documentaires.
+
+Chaque atome devient une unité interprétative enrichie.
+
+L’objectif n’est plus seulement :
+
+- stocker ;
+- retrouver ;
+- citer.
+
+Le système doit désormais permettre :
+
+- la propagation conceptuelle ;
+- le contrôle des dérives interprétatives ;
+- la qualification du niveau de preuve ;
+- la détection des mythologies rétrospectives ;
+- la cartographie argumentative du livre ;
+- un RAG sémantique avancé.
+
+Les atomes doivent donc intégrer :
+
+- rôle argumentatif ;
+- niveau de preuve ;
+- stabilité ;
+- importance ;
+- risque de surinterprétation ;
+- liens interchapitres ;
+- liens vers citations ;
+- motifs ;
+- concepts dérivés.
+
+Le repo devient ainsi progressivement :
+
+```text
+un environnement historiographique assisté par IA
+```
+
+et non plus un simple manuscrit augmenté.
+
+---
+
 ## 1. Convention unique de codification des sources
 
 Toute source intellectuelle mobilisée dans le repo doit respecter le format suivant :
@@ -68,257 +111,184 @@ Règles :
 
 ---
 
-## 1 bis. Consolidation des registres
-
-Les anciens registres de références ou de citations, les fichiers issus de l’atomisation et les exports générés sont tous des matériaux de travail.
-
-Aucun n’est automatiquement canonique par nature.
-
-La doctrine de consolidation est décrite ici :
-
-```text
-docs/CONSOLIDATION_REGISTRES.md
-```
-
-Principe : les références et les citations doivent être fusionnées par comparaison critique, avec traçabilité de leur origine, arbitrage des doublons, gestion des `legacy_id` et distinction entre citation candidate et citation validée.
-
----
-
 ## 2. Architecture générale
 
 ```text
 joy-division-ai-writing-studio/
 
-  index.html                     # portail général
+  index.html
 
   apps/
-    prompt-studio/               # atelier de prompts rédactionnels
-      index.html
-      style.css
-      app.js
-      prompt-builder.js
-
-    rag-studio/                  # interface RAG documentaire
-      index.html
-      style.css
-      app.js
-
-    quote-register/              # registre des citations
-    chronology-register/         # registre chronologique
-    people-register/             # registre des personnes
-    song-register/               # registre des chansons
-    concept-register/            # registre des concepts
-
-  data/                          # données JSON du Prompt Studio et registre central
-    chapitres.json
-    ateliers.json
-    niveaux.json
-    registre.json
-
-  sources/                       # sources atomisées en Markdown/YAML
-    hook/
-    deborah_curtis/
-    marco_broll/
-    greig_strong/
-
-  registers/                     # registres transversaux
-    chronology/
-    songs/
-    people/
-    references/
-    quotes/
-
-  schemas/                       # schémas documentaires
-    atom.schema.yaml
-    quote.schema.yaml
-    chronology.schema.yaml
-    song.schema.yaml
-    person.schema.yaml
-
+  data/
+  sources/
+  registers/
+  schemas/
   tools/
-    convert_registre_xlsx.py     # conversion Excel → JSON
-    build_registers.py           # parseur documentaire
-    schema_validation.py         # règles de validation documentaire
-    rag_search.py                # moteur RAG lexical local
-    rag_server.py                # serveur web local
-
   exports/
-    generated/                   # exports régénérables, ignorés par Git
-
   indexes/
-    master_index.md              # index documentaire global
-
   docs/
-    ATOMISATION_SOURCE.md        # procédure obligatoire d’atomisation
-    CONSOLIDATION_REGISTRES.md   # doctrine de fusion références / citations
-    RAG_SETUP.md
-    WEB_INTERFACE.md
+```
+
+Le repo fonctionne désormais comme :
+
+```text
+sources atomisées
+→ atomes enrichis
+→ registres consolidés
+→ exports structurés
+→ moteur RAG
+→ pilotage rédactionnel
 ```
 
 ---
 
-## 3. Installation locale
+## 3. Atomes enrichis
 
-Créer un environnement Python, puis installer les dépendances :
+Un atome version 2 doit désormais répondre aux questions suivantes :
 
-```bash
-pip install -r requirements.txt
-```
+| Question | Champ |
+|---|---|
+| Que dit l’atome ? | contenu |
+| Pourquoi compte-t-il ? | role_argumentatif |
+| Est-ce solide ? | niveau_preuve |
+| Est-ce stable ? | stabilite |
+| Quel poids a-t-il ? | importance |
+| Où devient-il dangereux ? | risque_surinterpretation |
+| Où circule-t-il dans le livre ? | liens_interchapitres |
+| À quelles citations est-il relié ? | liens_citations |
+| Quels motifs mobilise-t-il ? | motifs |
+| Quels concepts secondaires produit-il ? | concepts_derives |
 
-Dépendances minimales :
-
-```text
-openpyxl
-PyYAML
-```
-
----
-
-## 4. Lancer le studio local
-
-Depuis la racine du repo :
-
-```bash
-python tools/build_registers.py
-python tools/rag_server.py
-```
-
-Puis ouvrir :
-
-```text
-http://127.0.0.1:8765
-```
-
-Routes principales :
-
-```text
-/                       portail général
-/prompt                 Prompt Studio
-/rag                    RAG Studio
-/apps/prompt-studio/    accès direct au Prompt Studio
-/apps/rag-studio/       accès direct au RAG Studio
-/api/status             état du corpus RAG
-/api/search             recherche RAG
-```
+Les schémas documentaires imposent désormais cette structure.
 
 ---
 
-## 5. Pipeline documentaire
+## 4. Types documentaires d’atomes
 
-Le principe fondamental est le suivant :
+Les atomes ne doivent plus être implicitement homogènes.
+
+Le repo distingue désormais explicitement :
 
 ```text
-PDF OCR
-→ atomisation Markdown/YAML dans le repo
-→ schémas documentaires
-→ parseur documentaire
-→ exports JSON/CSV
-→ RAG lexical
-→ interfaces web
-→ usage rédactionnel contrôlé
+fait
+lecture
+concept
+citation_clef
+mythe
+controverse
 ```
 
-L’IA générative ne doit pas être branchée directement sur les PDF OCR bruts. Les PDF servent à produire des atomes documentaires contrôlés, qui alimentent ensuite les registres et le RAG.
+Cette distinction est essentielle pour éviter :
+
+- la confusion entre mémoire et fait ;
+- la téléologie ;
+- la mythologisation de Joy Division ;
+- les dérives interprétatives.
 
 ---
 
-## 6. Sources atomisées
+## 5. Niveau de preuve
 
-Les sources principales sont stockées dans `sources/` sous forme de fichiers Markdown contenant des blocs YAML.
+Le champ `niveau_preuve` devient obligatoire.
 
-Chaque source doit comporter au minimum :
+Il distingue :
 
-- une fiche `source.md` ;
-- un fichier `citations_exactes.md` ;
-- un fichier `README.md` ;
-- des identifiants stables ;
-- des rattachements aux chapitres ;
-- des liens vers personnes, chansons, événements ou concepts ;
-- une entrée dans `data/registre.json`.
+```text
+établi
+fortement corroboré
+corroboré
+plausible
+fragile
+contesté
+hypothèse
+```
 
-Pour les livres longs, des fichiers d’atomes complémentaires peuvent être créés, mais ils doivent rester dans le dossier source et respecter la procédure `docs/ATOMISATION_SOURCE.md`.
+Cette qualification devient centrale pour :
+
+- les usages IA ;
+- les exports ;
+- les contrôles documentaires ;
+- les synthèses automatiques.
 
 ---
 
-## 7. Registres transversaux
+## 6. Risque de surinterprétation
 
-Les registres maîtres existants sont :
+Tout atome doit désormais expliciter son risque de dérive interprétative.
 
-```text
-registers/chronology/master_chronology.md
-registers/songs/master_songs.md
-registers/people/master_people.md
-```
+Exemples typiques dans le corpus Joy Division :
 
-Les registres consolidés à créer ou alimenter sont :
+- lecture prophétique de Ian Curtis ;
+- téléologie du post-punk ;
+- Manchester comme matrice absolue ;
+- sursymbolisation des ruines industrielles.
 
-```text
-registers/references/master_references.md
-registers/quotes/master_quotes.md
-```
+Ce champ devient critique pour :
 
-Ils servent à croiser les sources et à éviter une simple accumulation de notes.
-
-Leur fonction :
-
-- stabiliser la chronologie ;
-- relier chansons, événements et personnes ;
-- identifier les contradictions entre sources ;
-- consolider les références issues de l’atomisation et des documents de travail ;
-- distinguer citations candidates et citations validées ;
-- préparer les exports et le RAG ;
-- sécuriser la rédaction des chapitres.
-
-Toute atomisation doit alimenter tous les registres pertinents, soit directement par modification d’un registre maître, soit indirectement par les champs YAML `related_people`, `related_songs`, `related_events`, `concepts`, `sources` et `chapitres`.
+- les prompts IA ;
+- les synthèses automatiques ;
+- la stabilisation historiographique.
 
 ---
 
-## 8. Schémas documentaires
+## 7. Motifs et concepts dérivés
 
-Les schémas dans `schemas/` définissent les formats attendus pour :
+Les motifs permettent de suivre les récurrences sensibles ou symboliques :
 
-- les atomes ;
-- les citations ;
-- les événements chronologiques ;
-- les chansons ;
-- les personnes.
+```text
+ruine industrielle
+isolement
+spectralité
+froideur
+mémoire ouvrière
+fragmentation
+```
 
-Ils empêchent la dérive progressive des fichiers Markdown : champs variables, statuts incohérents, citations sans original, atomes sans rattachement au livre.
+Les concepts dérivés permettent de suivre les dérivations interprétatives secondaires :
+
+```text
+ville spectrale
+hantologie sonore
+cartographie émotionnelle
+futur perdu
+```
+
+Cette couche devient essentielle pour les futures recherches transversales.
+
+---
+
+## 8. RAG enrichi
+
+Le système RAG ne doit plus fonctionner seulement par proximité lexicale.
+
+Les nouveaux champs permettront progressivement :
+
+- recherche argumentative ;
+- recherche conceptuelle ;
+- recherche probabiliste ;
+- recherche historiographique.
+
+Exemple cible :
+
+```text
+retrouver tous les atomes fortement corroborés
+liant Hannett, spatialisation sonore et mémoire industrielle
+sans utiliser Fisher
+```
 
 ---
 
 ## 9. Parseur documentaire
 
+Le parseur documentaire devient désormais responsable :
+
+- de la validation des champs enrichis ;
+- du contrôle des types ;
+- de la cohérence des niveaux de preuve ;
+- du contrôle des listes argumentatives ;
+- de la préparation d’un graphe documentaire.
+
 Le parseur est lancé avec :
-
-```bash
-python tools/build_registers.py
-```
-
-Il scanne :
-
-```text
-sources/
-registers/
-```
-
-Il extrait les blocs YAML et génère :
-
-```text
-exports/generated/atoms.json
-exports/generated/quotes.json
-exports/generated/chronology.json
-exports/generated/songs.json
-exports/generated/people.json
-exports/generated/sources.json
-exports/generated/all_records.json
-exports/generated/index_by_id.json
-exports/generated/diagnostics.json
-```
-
-Des exports CSV sont également produits.
-
-Mode strict :
 
 ```bash
 python tools/build_registers.py --strict
@@ -326,109 +296,15 @@ python tools/build_registers.py --strict
 
 ---
 
-## 10. RAG local
+## 10. Objectif stratégique
 
-Le moteur RAG lexical est disponible en ligne de commande :
+Le projet ne vise plus uniquement à écrire un livre.
 
-```bash
-python tools/rag_search.py "Ian Curtis epilepsy domestic life"
-```
-
-Exemples :
-
-```bash
-python tools/rag_search.py "Hannett live sound studio frustration"
-python tools/rag_search.py "Transmission first real Joy Division song" --kind song
-python tools/rag_search.py "Love Will Tear Us Apart" --json
-```
-
-Le RAG Studio web utilise les mêmes données via :
+Le repo devient progressivement :
 
 ```text
-/api/status
-/api/search
+une base historiographique vivante sur Joy Division,
+Manchester et le post-punk.
 ```
 
----
-
-## 11. Prompt Studio
-
-Le Prompt Studio aide à construire des prompts contraints selon :
-
-- le niveau IA ;
-- le chapitre ;
-- l’atelier ;
-- le mode de sortie ;
-- le matériau collé par l’utilisateur.
-
-Il repose sur les fichiers JSON du dossier `data/`.
-
----
-
-## 12. Registre des sources Excel → JSON
-
-Le registre Excel peut être converti en JSON avec :
-
-```bash
-python tools/convert_registre_xlsx.py mon_registre.xlsx
-```
-
-Le fichier produit est :
-
-```text
-data/registre.json
-```
-
-Ce fichier est ensuite utilisé par toutes les interfaces pour afficher les titres complets des sources.
-
-À terme, `data/registre.json` peut devenir un export dérivé du registre consolidé `registers/references/master_references.md`.
-
----
-
-## 13. Règles méthodologiques permanentes
-
-1. Atomiser directement dans le repo GitHub.
-2. Ne jamais livrer uniquement une archive locale ou un dossier local.
-3. Ne pas stocker les PDF, OCR complets ou scans dans Git.
-4. Conserver les citations originales en langue source.
-5. Distinguer citation originale, traduction littérale, traduction éditoriale et interprétation.
-6. Ne pas utiliser les atomes comme texte final du livre.
-7. Ne pas interroger directement des PDF OCR bruts avec l’IA générative.
-8. Toute nouvelle source doit être atomisée avant d’alimenter le RAG.
-9. Tout nouveau fichier structuré doit respecter les schémas de `schemas/`.
-10. Les exports de `exports/generated/` sont régénérables et ne doivent pas être versionnés.
-11. Toute nouvelle source doit recevoir un identifiant `SXX` unique et un `source_label` lisible.
-12. Toute nouvelle source doit être ajoutée à `data/registre.json`.
-13. Toute atomisation doit viser tous les registres pertinents : sources, atomes, citations, chronologie, personnes, chansons, concepts.
-14. Les anciens registres et les fichiers issus de l’atomisation sont des matériaux de travail ; la consolidation résulte d’une comparaison critique documentée.
-
----
-
-## 14. État actuel
-
-```text
-sources atomisées : Hook, Deborah Curtis, Marco Broll, Greig & Strong, Suatoni, Flowers, Reynolds
-citations exactes/candidates : fichiers locaux par source
-registres : chronologie, chansons, personnes, concepts via atomes
-schémas : présents
-parseur : présent, avec normalisation des sources
-RAG lexical : présent
-interface web : portail + Prompt Studio + RAG Studio + registres spécialisés
-registre consolidé des références : à créer
-registre consolidé des citations : à créer
-RAG vectoriel : non encore implémenté
-synthèse IA automatique : non encore implémentée
-```
-
----
-
-## 15. Prochaines évolutions probables
-
-- créer `registers/references/master_references.md` ;
-- créer `registers/quotes/master_quotes.md` ;
-- produire un rapport de divergence références / citations ;
-- créer un registre des lieux ;
-- créer un registre des contradictions ;
-- ajouter une recherche vectorielle ;
-- construire un mode de synthèse documentaire sourcée ;
-- intégrer un export Word pour les dossiers de rédaction.
+L’écriture finale devient alors une orchestration narrative d’atomes enrichis, et non un simple empilement documentaire.
