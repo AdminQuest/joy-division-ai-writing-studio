@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Joy Division — Historiography Dashboard</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 20px;
+  background: #1b1b1b;
+  border-bottom: 1px solid #333;
+}
+main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+}
+.card h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+.metric {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.list div {
+  padding: 6px 0;
+  border-bottom: 1px solid #2a2a2a;
+}
+.warning {
+  color: #ffcc66;
+}
+.danger {
+  color: #ff7777;
+}
+.good {
+  color: #7bd88f;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Joy Division — Dashboard historiographique</h1>
+<p>Supervision documentaire, cohérence narrative et surveillance des dérives interprétatives.</p>
+</header>
+<main>
+<div class="card">
+<h2>Vue générale</h2>
+<div id="summary"></div>
+</div>
+
+<div class="card">
+<h2>Atomes fragiles</h2>
+<div id="fragile" class="list"></div>
+</div>
+
+<div class="card">
+<h2>Mythes actifs</h2>
+<div id="myths" class="list"></div>
+</div>
+
+<div class="card">
+<h2>Risques de surinterprétation</h2>
+<div id="risk" class="list"></div>
+</div>
+
+<div class="card">
+<h2>Motifs dominants</h2>
+<div id="motifs" class="list"></div>
+</div>
+
+<div class="card">
+<h2>Concepts dérivés dominants</h2>
+<div id="concepts" class="list"></div>
+</div>
+</main>
+
+<script>
+async function loadDiagnostics() {
+  const response = await fetch('../exports/generated/historiographical_diagnostics.json');
+  return await response.json();
+}
+
+function renderSummary(summary) {
+  const container = document.getElementById('summary');
+
+  container.innerHTML = `
+    <div>Total atomes : <span class="metric">${summary.total_atoms}</span></div>
+    <div class="warning">Atomes fragiles : ${summary.fragile_atoms}</div>
+    <div class="danger">Risques élevés : ${summary.high_risk_atoms}</div>
+    <div class="good">Mythes cartographiés : ${summary.myth_atoms}</div>
+  `;
+}
+
+function renderList(id, items) {
+  const container = document.getElementById(id);
+
+  if (!items || items.length === 0) {
+    container.innerHTML = '<div>Aucune donnée</div>';
+    return;
+  }
+
+  container.innerHTML = items.map(item => {
+    if (Array.isArray(item)) {
+      return `<div>${item[0]} — ${item[1]}</div>`;
+    }
+    if (typeof item === 'object') {
+      return `<div>${item.id || JSON.stringify(item)}</div>`;
+    }
+    return `<div>${item}</div>`;
+  }).join('');
+}
+
+async function init() {
+  const data = await loadDiagnostics();
+
+  renderSummary(data.summary);
+  renderList('fragile', data.fragile_atoms);
+  renderList('myths', data.myth_atoms);
+  renderList('risk', data.high_risk_atoms);
+  renderList('motifs', data.top_motifs);
+  renderList('concepts', data.top_derived_concepts);
+}
+
+init();
+</script>
+</body>
+</html>
