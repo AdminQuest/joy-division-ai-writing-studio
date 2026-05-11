@@ -253,6 +253,34 @@ button[type="submit"] {
   word-break: break-word;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  background: #171b22;
+  color: #d8dee8;
+  border: 1px solid #313845;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.pagination button.active {
+  background: #d8dee8;
+  color: #111;
+  font-weight: 700;
+}
+
+.pagination button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
 @media (max-width: 980px) {
   .layout {
     grid-template-columns: 1fr;
