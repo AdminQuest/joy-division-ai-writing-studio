@@ -1,4 +1,6 @@
 const ORIGINAL_RENDER_RESULTS = window.renderResults;
+const ORIGINAL_SCORE_RECORDS = window.scoreRecords;
+
 const RESULTS_STATE = {
   all: [],
   currentPage: 1,
@@ -17,10 +19,12 @@ function renderPagination(totalPages) {
   const prev = document.createElement('button');
   prev.textContent = '←';
   prev.disabled = RESULTS_STATE.currentPage === 1;
+
   prev.addEventListener('click', () => {
     RESULTS_STATE.currentPage -= 1;
     rerenderPage();
   });
+
   container.appendChild(prev);
 
   for (let i = 1; i <= totalPages; i++) {
@@ -42,10 +46,12 @@ function renderPagination(totalPages) {
   const next = document.createElement('button');
   next.textContent = '→';
   next.disabled = RESULTS_STATE.currentPage === totalPages;
+
   next.addEventListener('click', () => {
     RESULTS_STATE.currentPage += 1;
     rerenderPage();
   });
+
   container.appendChild(next);
 }
 
@@ -58,14 +64,34 @@ function rerenderPage() {
     results: RESULTS_STATE.all.slice(start, end),
   });
 
-  renderPagination(Math.ceil(RESULTS_STATE.all.length / RESULTS_STATE.perPage));
+  renderPagination(
+    Math.ceil(RESULTS_STATE.all.length / RESULTS_STATE.perPage)
+  );
 }
 
 window.renderResults = function(data) {
   RESULTS_STATE.all = data.results || [];
   RESULTS_STATE.totalMatches = data.total_matches || RESULTS_STATE.all.length;
   RESULTS_STATE.currentPage = 1;
-  RESULTS_STATE.perPage = Number(document.getElementById('top')?.value || 10);
+  RESULTS_STATE.perPage = Number(
+    document.getElementById('top')?.value || 10
+  );
 
   rerenderPage();
+};
+
+window.performSearch = async function(query, kind, top) {
+  document.getElementById('results-title').textContent = 'Résultats';
+
+  const results = document.getElementById('results');
+
+  results.innerHTML =
+    '<div class="status-card">Recherche en cours…</div>';
+
+  const scored = ORIGINAL_SCORE_RECORDS(query, kind);
+
+  window.renderResults({
+    total_matches: scored.length,
+    results: scored,
+  });
 };
