@@ -43,7 +43,7 @@
           </div>
 
           <div class="field">
-            <label for="top">Résultats</label>
+            <label for="top">Résultats / page</label>
             <select id="top" name="top">
               <option>5</option>
               <option selected>10</option>
@@ -126,6 +126,7 @@
       </div>
 
       <div id="results"></div>
+      <nav id="pagination" class="pagination" aria-label="Pagination des résultats"></nav>
     </section>
   </main>
 
@@ -145,5 +146,6 @@
   </template>
 
   <script src="app.js"></script>
+  <script src="pagination_patch.js"></script>
 </body>
 </html>
