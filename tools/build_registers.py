@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Joy Division AI Writing Studio — Documentary parser v0.8
+Joy Division AI Writing Studio — Documentary parser v0.10dd
 
 This script scans Markdown files, extracts fenced YAML blocks, classifies records,
 normalizes source identifiers, validates them through the schema validation layer,
@@ -10,6 +10,10 @@ v0.5 makes data/registre.json the canonical source registry for source labels.
 v0.6 produces a permanent, structured diagnostic report even when no error is found.
 v0.7 fixes YAML normalization, source record classification, and duplicate checks.
 v0.8 tolerates one-space legacy top-level indentation and avoids false source-usage alerts.
+v0.9 classifies concepts, myths, motifs, rules, quote batches and metadata blocks.
+v0.10d rewrites infer_kind without regex and classifies register templates.
+v0.10b classifies empty register schema examples as template records.
+v0.10 classifies empty register schema examples as template records.
 """
 
 from __future__ import annotations
@@ -267,6 +271,16 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
         return "chronology"
     if record_id.startswith("PERS-"):
         return "person"
+    if record_id.startswith("CONCEPT-"):
+        return "concept"
+    if record_id.startswith("MYTH-"):
+        return "myth"
+    if record_id.startswith("MOTIF-"):
+        return "motif"
+    if record_id.startswith("HIST-"):
+        return "quote_batch"
+    if "RULES" in record_id or "rules" in data:
+        return "rules"
     if "song" in data:
         return "song"
     if data.get("type_unite") == "source" or (re.fullmatch(r"S\d+", record_id) and data.get("source_label")):
@@ -275,6 +289,10 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
         return "quote"
     if record_id.startswith("S") and "-" in record_id:
         return "atom"
+    if not record_id and ("README.md" in file_rel or "coverage" in data or "chapters" in data or "source_id" in data or "source_label" in data):
+        return "metadata"
+    if not record_id and file_rel.startswith("registers/"):
+        return "template"
     return "unknown"
 
 def validate_record(kind: str, data: Dict[str, Any], file_path: Path) -> List[Diagnostic]:
@@ -288,7 +306,7 @@ def validate_record(kind: str, data: Dict[str, Any], file_path: Path) -> List[Di
     if kind == "unknown":
         diagnostics.append(Diagnostic("warning", file_rel, "Unable to infer documentary kind", record_id))
         return diagnostics
-    if kind in {"schema", "source"}:
+    if kind in {"schema", "source", "concept", "myth", "motif", "quote_batch", "rules", "metadata", "template"}:
         return diagnostics
     if kind != "song" and not data.get("id"):
         diagnostics.append(Diagnostic("warning", file_rel, "Missing id", record_id))
@@ -310,7 +328,7 @@ def parse_repository() -> Tuple[List[ParsedRecord], List[Diagnostic]]:
             record_id = str(data.get("id") or data.get("song") or "")
             if not record_id:
                 record_id = f"NO_ID::{rel(path)}::{len(records) + 1}"
-            if kind != "source":
+            if kind not in {"source", "metadata", "template"}:
                 if record_id in seen_ids:
                     diagnostics.append(Diagnostic("error", rel(path), f"Duplicate id also found in {seen_ids[record_id]}", record_id))
                 else:
@@ -578,6 +596,14 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     chronology = records_by_kind(records, "chronology")
     songs = records_by_kind(records, "song")
     people = records_by_kind(records, "person")
+    source_records = records_by_kind(records, "source")
+    concepts = records_by_kind(records, "concept")
+    myths = records_by_kind(records, "myth")
+    motifs = records_by_kind(records, "motif")
+    quote_batches = records_by_kind(records, "quote_batch")
+    rules = records_by_kind(records, "rules")
+    metadata = records_by_kind(records, "metadata")
+    templates = records_by_kind(records, "template")
     sources = build_source_registry(records)
     diagnostics_payload = build_diagnostics_payload(records, diagnostics, sources)
 
@@ -586,6 +612,14 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     write_json(EXPORT_DIR / "chronology.json", [asdict(r) for r in chronology])
     write_json(EXPORT_DIR / "songs.json", [asdict(r) for r in songs])
     write_json(EXPORT_DIR / "people.json", [asdict(r) for r in people])
+    write_json(EXPORT_DIR / "source_records.json", [asdict(r) for r in source_records])
+    write_json(EXPORT_DIR / "concepts.json", [asdict(r) for r in concepts])
+    write_json(EXPORT_DIR / "myths.json", [asdict(r) for r in myths])
+    write_json(EXPORT_DIR / "motifs.json", [asdict(r) for r in motifs])
+    write_json(EXPORT_DIR / "quote_batches.json", [asdict(r) for r in quote_batches])
+    write_json(EXPORT_DIR / "rules.json", [asdict(r) for r in rules])
+    write_json(EXPORT_DIR / "metadata.json", [asdict(r) for r in metadata])
+    write_json(EXPORT_DIR / "templates.json", [asdict(r) for r in templates])
     write_json(EXPORT_DIR / "sources.json", sources)
     write_json(EXPORT_DIR / "all_records.json", [asdict(record) for record in records])
     write_json(EXPORT_DIR / "index_by_id.json", {record.id: asdict(record) for record in records})
@@ -603,6 +637,14 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     write_csv(EXPORT_DIR / "chronology.csv", chronology, ["date", "precision_date", "event", "type", "location", "people", "songs", "sources", "certainty"])
     write_csv(EXPORT_DIR / "songs.csv", songs, ["song", "period", "themes", "sources", "chapters", "certainty"])
     write_csv(EXPORT_DIR / "people.csv", people, ["name", "full_name", "role", "sources", "chapters", "certainty"])
+    write_csv(EXPORT_DIR / "source_records.csv", source_records, ["source_id", "source_label", "auteur", "titre", "source_year", "nature", "status", "priority"])
+    write_csv(EXPORT_DIR / "concepts.csv", concepts, ["id", "nom", "name", "definition", "filiation", "niveau_consensus", "chapitres", "sources"])
+    write_csv(EXPORT_DIR / "myths.csv", myths, ["id", "mythe", "name", "niveau_risque", "correction", "chapitres", "sources"])
+    write_csv(EXPORT_DIR / "motifs.csv", motifs, ["id", "motif", "name", "definition", "chapitres", "sources"])
+    write_csv(EXPORT_DIR / "quote_batches.csv", quote_batches, ["id", "lot", "source_file", "rows_imported", "chapitres", "statut_consolidation"])
+    write_csv(EXPORT_DIR / "rules.csv", rules, ["id", "statut_consolidation", "rules"])
+    write_csv(EXPORT_DIR / "metadata.csv", metadata, ["source_id", "source_label", "coverage", "chapters", "nature", "status", "priority"])
+    write_csv(EXPORT_DIR / "templates.csv", templates, ["id", "name", "role", "sources", "certainty", "date", "event", "type"])
     source_csv_records = [ParsedRecord("source", e["source_id"], "exports/generated/sources.json", None, e) for e in sources]
     write_csv(EXPORT_DIR / "sources.csv", source_csv_records, ["source_id", "source_label", "auteur", "titre", "annee", "records", "atoms", "quotes", "chronology", "files"])
     diagnostic_csv_records = [ParsedRecord("diagnostic", f"D{idx:04d}", "exports/generated/diagnostics.json", None, asdict(diag)) for idx, diag in enumerate(diagnostics, start=1)]

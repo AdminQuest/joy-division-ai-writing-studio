@@ -21,6 +21,7 @@ Il doit rester relationnel, documentaire et critique.
 # Structure normalisée d’une personne
 
 ```yaml
+schema: person_template
 id:
 name:
 full_name:

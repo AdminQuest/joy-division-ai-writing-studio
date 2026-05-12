@@ -26,6 +26,7 @@ Il ne doit jamais devenir un récit littéraire.
 # Structure normalisée d’un événement
 
 ```yaml
+schema: chronology_template
 id:
 date:
 precision_date:
