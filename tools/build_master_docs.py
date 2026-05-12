@@ -160,6 +160,20 @@ def bullets(values: Iterable[Any], empty: str = "À compléter.", limit: Optiona
     return "\n".join(f"- {item}" for item in cleaned)
 
 
+def markdown_list(items: Iterable[Any], empty: str = "À compléter.", limit: Optional[int] = None) -> str:
+    """Return already formatted Markdown list items without adding bullets twice."""
+    cleaned: List[str] = []
+    for value in items:
+        item = text(value)
+        if item and item not in cleaned:
+            cleaned.append(item)
+        if limit and len(cleaned) >= limit:
+            break
+    if not cleaned:
+        return f"- {empty}"
+    return "\n".join(cleaned)
+
+
 def atom_title(atom: Dict[str, Any]) -> str:
     heading = text(atom.get("heading"))
     if heading:
@@ -353,15 +367,15 @@ def chapter_document(chapter_number: int, title: str, context: Dict[str, Any]) -
         "",
         "## 5. Atomes critiques ou majeurs",
         "",
-        bullets([atom_line(atom, source_index) for atom in critical], "Aucun atome critique ou majeur n’est encore qualifié."),
+        markdown_list([atom_line(atom, source_index) for atom in critical], "Aucun atome critique ou majeur n’est encore qualifié."),
         "",
         "## 6. Autres atomes utiles",
         "",
-        bullets([atom_line(atom, source_index) for atom in other], "Aucun autre atome rattaché.", MAX_OTHER_ATOMS),
+        markdown_list([atom_line(atom, source_index) for atom in other], "Aucun autre atome rattaché.", MAX_OTHER_ATOMS),
         "",
         "## 7. Citations disponibles",
         "",
-        bullets([quote_line(quote, source_index) for quote in quotes[:MAX_QUOTES]], "Aucune citation rattachée."),
+        markdown_list([quote_line(quote, source_index) for quote in quotes[:MAX_QUOTES]], "Aucune citation rattachée."),
         "",
         "## 8. Chronologie rattachée",
         "",
