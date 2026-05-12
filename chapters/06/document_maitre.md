@@ -207,8 +207,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - At A Later Date
 - At a Later Date
 - Atmosphere
-- atrocity exhibition
 - Atrocity Exhibition
+- atrocity exhibition
 - authenticité
 - Auto-Suggestion
 - automutilation
@@ -216,20 +216,20 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - B-side
 - basse mélodique
 - batterie
-- bbc
 - BBC
+- bbc
 - BBC-2
 - birmingham
 - Birmingham University
 - bob krasnow
 - bootlegs
-- britannia row
 - Britannia Row
+- britannia row
 - Bruxelles
 - bury
 - Bury
-- Buzzcocks tour
 - Buzzcocks Tour
+- Buzzcocks tour
 - Cabaret Voltaire
 - camp de concentration
 - canon parallèle
@@ -238,12 +238,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Central Sound
 - central sound studio
 - centre d'emploi
-- Ceremony
 - ceremony
+- Ceremony
 - chronologie
 - citation
-- Closer
 - closer
+- Closer
 - clôture
 - cologne
 - Colony
@@ -330,8 +330,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - House of Dolls
 - Hurrah's New York
 - I Remember Nothing
-- ian curtis
 - Ian Curtis
+- ian curtis
 - Ice Age
 - ignorance
 - In a Lonely Place
@@ -346,11 +346,11 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - inversion
 - inédit
 - Islington
-- isolation
 - Isolation
+- isolation
 - isolement
-- john peel
 - John Peel
+- john peel
 - John Peel Session
 - John Peel Sessions
 - joy division
@@ -360,17 +360,17 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - komakino
 - Komakino
 - lecture non téléologique
-- leeds
 - Leeds
-- Licht und Blindheit
+- leeds
 - licht und blindheit
+- Licht und Blindheit
 - Lindsay Wilson
 - live
 - live Birmingham
 - live favourite
 - Londres
-- love will tear us apart
 - Love Will Tear Us Apart
+- love will tear us apart
 - love will tear us apart vidéo
 - macclesfield
 - machine
@@ -383,18 +383,18 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - mariage
 - marquee
 - mars 1980
-- Martin Hannett
 - martin hannett
+- Martin Hannett
 - masculinité
 - mixage
-- Moonlight Club
 - moonlight club
+- Moonlight Club
 - morceau simple
 - motorik
 - mémoire
 - mémoire matérielle
-- New Order
 - new order
+- New Order
 - new sensation
 - New York Times
 - No Love Lost
@@ -405,8 +405,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - overdose
 - paradiso
 - passover
-- Peel Session
 - peel session
+- Peel Session
 - Peel Sessions
 - perception
 - Peter Hook
@@ -472,8 +472,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Still
 - still
 - stratégie
-- Strawberry Studios
 - strawberry studios
+- Strawberry Studios
 - stroboscopes
 - studio
 - succès
@@ -507,8 +507,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - twenty four hours
 - Twenty-Four Hours
 - télévision
-- unknown pleasures
 - Unknown Pleasures
+- unknown pleasures
 - Unknown Pleasures sessions
 - unreleased
 - Velvet Underground

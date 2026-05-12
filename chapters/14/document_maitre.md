@@ -228,8 +228,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - age of consent
 - aids
 - ajanta theatre
-- alan erasmus
 - Alan Erasmus
+- alan erasmus
 - alan meyerson
 - Albert Camus
 - album
@@ -295,8 +295,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - As You Said
 - At A Later Date
 - At a Later Date
-- atmosphere
 - Atmosphere
+- atmosphere
 - atmosphere video
 - atmosphere vidéo
 - atmosphère sombre
@@ -338,8 +338,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - ben kelly
 - Berlin
 - Bernard Albrecht
-- Bernard Sumner
 - bernard sumner
+- Bernard Sumner
 - best-selling album
 - Better Badges
 - bibliographie
@@ -348,8 +348,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - biographie
 - birmingham
 - Birmingham University
-- Blue Monday
 - blue monday
+- Blue Monday
 - blue vinyl
 - Bob Krasnow
 - Bob Last
@@ -380,8 +380,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - catalogue
 - catalogue fac
 - Celebration
-- Ceremony
 - ceremony
+- Ceremony
 - chaleur
 - chance
 - changement de nom
@@ -397,8 +397,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - cities in the park
 - city fun
 - clips
-- Closer
 - closer
+- Closer
 - cloth sleeve
 - club culture
 - code couleur
@@ -432,8 +432,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - continuité
 - continuité historique
 - continuité rupture
-- Contradiction
 - contradiction
+- Contradiction
 - contrat
 - contrat américain
 - contrats informels
@@ -512,8 +512,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Disorder
 - distribution
 - distribution indépendante
-- DIY
 - diy
+- DIY
 - documentaire
 - données discographiques
 - Dostoevsky
@@ -533,8 +533,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - désenchantement
 - Earcom 2
 - ecstasy
-- electric circus
 - Electric Circus
+- electric circus
 - electronic
 - electronic album
 - electronics
@@ -577,13 +577,13 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - FACT 40
 - Factory
 - factory bankruptcy
-- Factory club
 - factory club
+- Factory club
 - Factory I
 - Factory Newsletter
 - factory receivership
-- Factory Records
 - factory records
+- Factory Records
 - Factory Sample
 - Factory Sampler
 - Factory Tour
@@ -671,8 +671,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - haute culture
 - healing
 - Heart and Soul
-- Here Are the Young Men
 - here are the young men
+- Here Are the Young Men
 - heroes
 - High Hall
 - histoire critique
@@ -697,8 +697,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - héritage joy division
 - héritage Joy Division
 - héritage sombre
-- ian curtis
 - Ian Curtis
+- ian curtis
 - Ian Wood
 - ibiza
 - Ice Age
@@ -719,8 +719,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - imagination
 - imploding star
 - importation
-- In a Lonely Place
 - In A Lonely Place
+- In a Lonely Place
 - in a lonely place
 - incertitude documentaire
 - Incubation
@@ -761,8 +761,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - John Cooper Clarke
 - John Lennon
 - john lydon
-- john peel
 - John Peel
+- john peel
 - John Peel Session
 - John Peel Sessions
 - John Savage
@@ -792,8 +792,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Lesser Free Trade Hall
 - liberté artistique
 - licence américaine
-- Licht und Blindheit
 - licht und blindheit
+- Licht und Blindheit
 - limited edition
 - lindsay reade
 - lip sync
@@ -809,8 +809,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - london records
 - Londres
 - love vigilantes
-- love will tear us apart
 - Love Will Tear Us Apart
+- love will tear us apart
 - love will tear us apart vidéo
 - low
 - low-life
@@ -822,8 +822,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - magasins de disques
 - Maida Vale
 - major labels
-- malcolm whitehead
 - Malcolm Whitehead
+- malcolm whitehead
 - malentendu
 - management
 - manager
@@ -839,8 +839,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - mark johnson
 - marketing musical
 - martin compilation
-- Martin Hannett
 - martin hannett
+- Martin Hannett
 - Martin Rushent
 - Martin Zero
 - martyr
@@ -858,8 +858,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - metal box
 - metallic ko
 - michael shamberg
-- mick middles
 - Mick Middles
+- mick middles
 - mike west
 - Mike West
 - minimalisme
@@ -920,8 +920,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Neil Norman
 - New Act
 - New Dawn Fades
-- New Order
 - new order
+- New Order
 - New Order 1981-1982
 - New Order Demo
 - new pop
@@ -982,8 +982,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - partenariat
 - patrimoine factory
 - patrimoine personnel
-- paul morley
 - Paul Morley
+- paul morley
 - Paul Simonon
 - Paul Slattery
 - Paul Young
@@ -1035,8 +1035,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - pression économique
 - Prime 5.8.6.
 - Private Life
-- procession
 - Procession
+- procession
 - production
 - production complexity
 - professionnels musique
@@ -1099,8 +1099,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - richard boon
 - Richard Boon
 - richard heslop
-- rob gretton
 - Rob Gretton
+- rob gretton
 - Robert Palmer
 - rock
 - Rock City
@@ -1176,8 +1176,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - She's Lost Control
 - Sheffield
 - sheffield
-- Short Circuit
 - short circuit
+- Short Circuit
 - silence médiatique
 - single
 - single versions
@@ -1194,8 +1194,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - sold out
 - Something Else
 - Something Must Break
-- Sordide Sentimental
 - sordide sentimental
+- Sordide Sentimental
 - Sordide Sentimentale
 - sortie disque
 - Sound of Music
@@ -1215,8 +1215,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - state of shock
 - statistiques
 - stephen hague
-- Stephen Morris
 - stephen morris
+- Stephen Morris
 - Steve Taylor
 - Stiff Kittens
 - Still
@@ -1272,8 +1272,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - TJM practice studios
 - tjm rehearsal studios
 - Tolworth
-- tony wilson
 - Tony Wilson
+- tony wilson
 - top of the pops
 - total art
 - Total Art
@@ -1305,8 +1305,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - témoins potentiels
 - UK pressing
 - unauthorized excursion
-- unknown pleasures
 - Unknown Pleasures
+- unknown pleasures
 - Unknown Pleasures sessions
 - unreleased
 - unreleased album
@@ -1347,8 +1347,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Warsaw Pakt
 - WEA
 - Werner Herzog
-- Western Works
 - western works
+- Western Works
 - What's On
 - William Burroughs
 - wire

@@ -208,8 +208,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Hurrah's New York
 - hypnose japonaise
 - hôpital
-- ian curtis
 - Ian Curtis
+- ian curtis
 - Iggy Pop
 - ignorance
 - imaginaire

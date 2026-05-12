@@ -230,8 +230,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - basse
 - batterie
 - bernard albrecht
-- Bernard Sumner
 - bernard sumner
+- Bernard Sumner
 - black swan
 - black swan pub
 - blue vinyl
@@ -242,8 +242,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Bowie
 - bricolage
 - bruit
-- buzzcocks
 - Buzzcocks
+- buzzcocks
 - cause musicale
 - changement de nom
 - Chiswick
@@ -274,8 +274,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - culte
 - culture ouvrière
 - culture pop
-- David Bowie
 - david bowie
+- David Bowie
 - debbie woodruffe
 - demo tape
 - derek branwood
@@ -284,8 +284,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - direct-cut
 - discographie
 - distribution
-- DIY
 - diy
+- DIY
 - do it yourself
 - déclenchement
 - déclencheur
@@ -294,8 +294,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - démocratisation
 - développement
 - echec
-- electric circus
 - Electric Circus
+- electric circus
 - enfance
 - enfance ouvrière
 - enigma
@@ -310,10 +310,10 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - europe de l’est
 - factory
 - Factory
-- factory club
 - Factory Club
-- Factory Records
+- factory club
 - factory records
+- Factory Records
 - faible budget
 - fanzines
 - fermeture
@@ -340,8 +340,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - house of dolls
 - House of Dolls
 - humour
-- ian curtis
 - Ian Curtis
+- ian curtis
 - iconographie
 - Ideal for Living
 - identification aux victimes
@@ -378,8 +378,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - live recording
 - logistique
 - Londres
-- Low
 - low
+- Low
 - Macclesfield
 - malentendu
 - management
@@ -408,8 +408,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - nazisme
 - Needle Time
 - new hormones
-- New Order
 - new order
+- New Order
 - Nigel Bagley
 - No Love Lost
 - no love lost
@@ -424,8 +424,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - outsider
 - Panik
 - paroles
-- paul morley
 - Paul Morley
+- paul morley
 - Penetration
 - Pennine Sound
 - pennine sound studios
@@ -436,8 +436,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - peter hook
 - Peter Hook
 - peter saville
-- pips
 - Pips
+- pips
 - post-punk
 - premier concert
 - premier concert londonien
@@ -460,13 +460,13 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - punk identity
 - punk local
 - qualité sonore
-- rabid records
 - Rabid Records
-- rafters
+- rabid records
 - Rafters
+- rafters
 - Rare Records
-- RCA
 - rca
+- RCA
 - rca album
 - rca sessions
 - reconnaissance
@@ -480,8 +480,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - revelation
 - richard searling
 - roadie
-- rob gretton
 - Rob Gretton
+- rob gretton
 - rob gretton manager
 - royalties
 - rudolf hess
@@ -492,8 +492,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - répertoire
 - répétitions
 - réédition
-- salford
 - Salford
+- salford
 - Salford Grammar School
 - scally
 - scene locale
@@ -507,16 +507,16 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - sex pistols
 - Sex Pistols
 - shadowplay
-- Short Circuit
 - short circuit
+- Short Circuit
 - Slaughter and the Dogs
 - So It Goes
 - Sounds
 - spiral scratch
 - stabilisation du groupe
 - stabilisation du line-up
-- Stephen Morris
 - stephen morris
+- Stephen Morris
 - Steve Brotherdale
 - steve brotherdale
 - Stiff Chiswick Test
@@ -542,8 +542,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - timeline
 - TJ Davidson
 - tony tabac
-- tony wilson
 - Tony Wilson
+- tony wilson
 - Top of the Pops
 - Tosh Ryan
 - tournée

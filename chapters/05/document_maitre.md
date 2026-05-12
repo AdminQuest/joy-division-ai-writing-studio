@@ -241,16 +241,16 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - BBC
 - BBC-2
 - Bernard Albrecht
-- Bernard Sumner
 - bernard sumner
+- Bernard Sumner
 - Better Badges
 - bifurcation
 - Bob Krasnow
 - Bob Last
 - bootlegs
 - broadcast
-- Buzzcocks tour
 - Buzzcocks Tour
+- Buzzcocks tour
 - Cabaret Voltaire
 - Candidate
 - canonisation
@@ -299,8 +299,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Disorder
 - distribution
 - diversité musicale
-- DIY
 - diy
+- DIY
 - droits
 - dub
 - Durutti Column
@@ -331,12 +331,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - FAC 2
 - FACT 10
 - Factory
-- Factory club
 - Factory Club
+- Factory club
 - Factory I
 - Factory Newsletter
-- Factory Records
 - factory records
+- Factory Records
 - Factory Sample
 - Factory sound
 - Factory US 2
@@ -424,8 +424,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Manchester
 - Manchester punk
 - Manchester vs London
-- Martin Hannett
 - martin hannett
+- Martin Hannett
 - Martin Rushent
 - Martin Zero
 - masculinité
@@ -502,8 +502,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - revelation sonore
 - revenus
 - Richard Boon
-- rob gretton
 - Rob Gretton
+- rob gretton
 - Robert Palmer
 - Rochdale
 - Roger Eagle
@@ -528,8 +528,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - seize pistes
 - sessions studio
 - Shadowplay
-- She's Lost Control
 - she's lost control
+- She's Lost Control
 - Short Circuit
 - single
 - sleeve design
@@ -547,16 +547,16 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Sound City
 - spectacle
 - split
-- Stephen Morris
 - stephen morris
+- Stephen Morris
 - Stiff Chiswick Test
-- Stiff Test
 - Stiff test
+- Stiff Test
 - Still
 - Stockport
 - stratégie
-- Strawberry Studios
 - strawberry studios
+- Strawberry Studios
 - strobes
 - structure musicale
 - studio
@@ -577,8 +577,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Tiller Boys
 - timeline
 - TJ Davidson
-- tony wilson
 - Tony Wilson
+- tony wilson
 - Total Art
 - tracklist
 - traitement sonore
@@ -593,8 +593,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - UK pressing
 - underground
 - unité esthétique
-- unknown pleasures
 - Unknown Pleasures
+- unknown pleasures
 - Unknown Pleasures Track by Track
 - urban degradation
 - varispeed

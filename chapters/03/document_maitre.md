@@ -231,12 +231,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - basse mélodique
 - bassline
 - batterie
-- bbc
 - BBC
+- bbc
 - bbc radio one
 - beauté étrange
-- Bernard Sumner
 - bernard sumner
+- Bernard Sumner
 - Bettelheim
 - bifurcation
 - black sabbath
@@ -282,8 +282,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - disorientation
 - distorsion
 - distraction
-- DIY
 - diy
+- DIY
 - domesticité
 - drum machine
 - dub
@@ -292,11 +292,11 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - désenchantement
 - développement
 - développement rapide
-- earcom 2
 - Earcom 2
+- earcom 2
 - echec
-- eden studios
 - Eden Studios
+- eden studios
 - electronics
 - enregistrement
 - epilepsie
@@ -312,8 +312,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - FACT 10
 - factory
 - Factory
-- Factory Records
 - factory records
+- Factory Records
 - Factory sound
 - faible budget
 - FAST 9B
@@ -330,8 +330,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Genetic demos
 - genetic records
 - Gibson SG
-- Glass
 - glass
+- Glass
 - Granada Reports
 - granada tv
 - groundwork
@@ -369,8 +369,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - John Anderson
 - John Brierley
 - john lydon
-- john peel
 - John Peel
+- john peel
 - John Peel Session
 - joy division
 - Joy Division
@@ -396,8 +396,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - manchester
 - Manchester
 - Marshall
-- Martin Hannett
 - martin hannett
+- Martin Hannett
 - Martin Rushent
 - martin rushent
 - Martin Zero
@@ -436,8 +436,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - partenariat
 - Paul Morley
 - Paul Simonon
-- Peel Session
 - peel session
+- Peel Session
 - Pennine Sound
 - pennine studios
 - peter hook
@@ -516,13 +516,13 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Sound City
 - Sound of Music
 - Sounds
-- Stephen Morris
 - stephen morris
+- Stephen Morris
 - Still
 - Stockport
 - Strange Days
-- Strawberry Studios
 - strawberry studios
+- Strawberry Studios
 - structure musicale
 - studio
 - studio comme instrument
@@ -556,8 +556,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - transmission
 - trouble perceptif
 - underground
-- unknown pleasures
 - Unknown Pleasures
+- unknown pleasures
 - varispeed
 - Velvet Underground
 - vide musical

@@ -206,8 +206,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Atmosphere
 - atmosphère
 - atmosphère sombre
-- atrocity exhibition
 - Atrocity Exhibition
+- atrocity exhibition
 - authenticité
 - Auto-Suggestion
 - autonomie du public
@@ -238,8 +238,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - citation
 - classe ouvriere
 - classe ouvrière
-- Closer
 - closer
+- Closer
 - clôture
 - collectif
 - commercialisation
@@ -268,8 +268,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - danse de curtis
 - dark things
 - darkness
-- David Bowie
 - david bowie
+- David Bowie
 - Day of the Lords
 - deadly accurate
 - death drive
@@ -342,8 +342,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - hypnose
 - héritage sombre
 - I Remember Nothing
-- ian curtis
 - Ian Curtis
+- ian curtis
 - Ian Wood
 - identification aux victimes
 - imagerie concentrationnaire
@@ -386,10 +386,10 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - littérature
 - local universel
 - lourdeur
-- love will tear us apart
 - Love Will Tear Us Apart
-- Low
+- love will tear us apart
 - low
+- Low
 - légendes
 - légitimité
 - macclesfield
@@ -513,8 +513,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - sens ouvert
 - sensation
 - seuil
-- She's Lost Control
 - she's lost control
+- She's Lost Control
 - sheffield
 - silence
 - solitude
@@ -550,8 +550,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - travail social
 - twenty four hours
 - underground
-- unknown pleasures
 - Unknown Pleasures
+- unknown pleasures
 - urban malaise
 - urban paranoia
 - variations
@@ -567,8 +567,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Warsaw
 - Warsaw Pakt
 - Warszawa
-- william burroughs
 - William Burroughs
+- william burroughs
 - écoute
 - écoute musicale
 - écriture

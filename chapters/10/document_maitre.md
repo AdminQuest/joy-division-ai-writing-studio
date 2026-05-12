@@ -218,8 +218,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Hurrah's New York
 - hypnose japonaise
 - hôpital
-- ian curtis
 - Ian Curtis
+- ian curtis
 - in a lonely place
 - inquest
 - john peel
@@ -232,8 +232,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - love will tear us apart vidéo
 - légendes
 - légitimité du témoin
-- Macclesfield
 - macclesfield
+- Macclesfield
 - malcolm whitehead
 - malentendu
 - manchester
@@ -292,14 +292,14 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - sessions terminales
 - setlists
 - Sex Pistols
-- She's Lost Control
 - she's lost control
+- She's Lost Control
 - sister ray
 - situationnisme
 - spectacle
 - spéculation
-- Still
 - still
+- Still
 - strobes
 - stroboscopes
 - stroszek

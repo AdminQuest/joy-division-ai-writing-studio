@@ -225,8 +225,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Arrow Studios
 - art schools
 - At a Later Date
-- atmosphere
 - Atmosphere
+- atmosphere
 - atmosphère urbaine
 - audience nationale
 - authenticité
@@ -241,8 +241,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Belgique
 - ben kelly
 - Berlin
-- Bernard Sumner
 - bernard sumner
+- Bernard Sumner
 - Bidet Boys
 - Birmingham University
 - bob krasnow
@@ -252,8 +252,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Bowdon Vale
 - Bruxelles
 - Bury
-- buzzcocks
 - Buzzcocks
+- buzzcocks
 - Buzzcocks tour
 - Cabaret Voltaire
 - Canterbury Odeon
@@ -326,8 +326,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - découverte du groupe
 - efficacité
 - eindhoven
-- electric circus
 - Electric Circus
+- electric circus
 - entourage
 - epilepsie
 - Eric Random
@@ -343,13 +343,13 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - fac 9
 - factory
 - Factory
-- factory club
 - Factory Club
+- factory club
 - Factory Evenings
 - Factory I
 - Factory Nights
-- Factory Records
 - factory records
+- Factory Records
 - Factory Tour
 - Factory video
 - fanzine
@@ -364,8 +364,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - frustration
 - futurama
 - Gene October
-- Genetic Records
 - genetic records
+- Genetic Records
 - gestion amateur
 - glass
 - Granada Reports
@@ -375,8 +375,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - guitare
 - hacienda
 - Hannett
-- Here Are the Young Men
 - here are the young men
+- Here Are the Young Men
 - High Hall
 - histoire Joy Division
 - Hope and Anchor
@@ -397,8 +397,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - investissement
 - John Anderson
 - John Cooper Clarke
-- john peel
 - John Peel
+- john peel
 - John Peel Session
 - joy division
 - Joy Division
@@ -436,8 +436,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - marché américain
 - mark e smith
 - marquee
-- Martin Hannett
 - martin hannett
+- Martin Hannett
 - Martin Rushent
 - martin rushent
 - masculinité
@@ -477,14 +477,14 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Oz PA
 - PA
 - Panik
-- paradiso
 - Paradiso
+- paradiso
 - Paris
 - paternalisme
 - patrimoine personnel
 - paul morley
-- Peel Session
 - peel session
+- Peel Session
 - Peel Sessions
 - Penetration
 - performance
@@ -499,8 +499,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - photographie live
 - piccadilly radio
 - Piccadilly Radio
-- pips
 - Pips
+- pips
 - plan k
 - Plan K
 - possession
@@ -530,8 +530,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - punk provincial
 - rabid records
 - radio française
-- rafters
 - Rafters
+- rafters
 - Rainbow Theatre
 - rareté
 - rareté audiovisuelle
@@ -551,8 +551,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Richard Boon
 - rivalité locale
 - roadie
-- rob gretton
 - Rob Gretton
+- rob gretton
 - rough trade
 - royalties
 - Royalty Theatre
@@ -589,8 +589,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - setlists
 - Shadowplay
 - She's Lost Control
-- Short Circuit
 - short circuit
+- Short Circuit
 - single
 - situationnisme
 - Something Must Break
@@ -629,8 +629,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - timeline
 - TJ Davidson
 - tony tabac
-- tony wilson
 - Tony Wilson
+- tony wilson
 - tournée
 - tournée 1979
 - tournée américaine
@@ -662,8 +662,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - warner brothers
 - warsaw
 - Warsaw
-- WEA
 - wea
+- WEA
 - West Indian cultural centre
 - William Burroughs
 - X-Ray Spex

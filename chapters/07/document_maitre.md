@@ -136,8 +136,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 ## 13. Concepts mobilisés
 
 - 10cc
-- a factory sample
 - A Factory Sample
+- a factory sample
 - akron
 - alienation effects
 - AMS delay
@@ -155,8 +155,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - bernard sumner
 - black sabbath
 - brecht
-- britannia row
 - Britannia Row
+- britannia row
 - bruit
 - cabaret voltaire
 - Candidate
@@ -213,8 +213,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - funk
 - futurisme sombre
 - gang of four
-- Glass
 - glass
+- Glass
 - godard
 - guitare
 - heroes
@@ -259,8 +259,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - pere ubu
 - peter hook
 - Peter Hook
-- Peter Saville
 - peter saville
+- Peter Saville
 - pil
 - pochette
 - pop group
@@ -295,8 +295,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Stephen Morris
 - stephen morris
 - Stockport
-- Strawberry Studios
 - strawberry studios
+- Strawberry Studios
 - studio
 - studio comme instrument
 - synthpop

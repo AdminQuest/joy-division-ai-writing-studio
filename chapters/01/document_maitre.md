@@ -179,8 +179,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - bauhaus
 - Bernard Sumner
 - bernard sumner
-- Buzzcocks
 - buzzcocks
+- Buzzcocks
 - centralisation londonienne
 - city fun
 - clangorous noisescape
