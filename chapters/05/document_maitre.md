@@ -45,10 +45,10 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - S41 — Hook, Unknown Pleasures, 2012
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S70
-- S71
-- S72
+- S47 — West, Joy Division, 1984
+- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
+- S71 — Flowers, Dreams Never End, 1995/2012
+- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
 
 ## 7. Sources secondaires mobilisées
 
@@ -241,16 +241,16 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - BBC
 - BBC-2
 - Bernard Albrecht
-- bernard sumner
 - Bernard Sumner
+- bernard sumner
 - Better Badges
 - bifurcation
 - Bob Krasnow
 - Bob Last
 - bootlegs
 - broadcast
-- Buzzcocks Tour
 - Buzzcocks tour
+- Buzzcocks Tour
 - Cabaret Voltaire
 - Candidate
 - canonisation
@@ -299,8 +299,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Disorder
 - distribution
 - diversité musicale
-- diy
 - DIY
+- diy
 - droits
 - dub
 - Durutti Column
@@ -335,8 +335,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Factory club
 - Factory I
 - Factory Newsletter
-- factory records
 - Factory Records
+- factory records
 - Factory Sample
 - Factory sound
 - Factory US 2
@@ -397,8 +397,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - John Brierley
 - John Peel
 - John Peel Session
-- joy division
 - Joy Division
+- joy division
 - juillet 1979
 - Kevin Cummins
 - Komakino
@@ -420,12 +420,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - major labels
 - Malcolm Whitehead
 - management
-- manchester
 - Manchester
+- manchester
 - Manchester punk
 - Manchester vs London
-- martin hannett
 - Martin Hannett
+- martin hannett
 - Martin Rushent
 - Martin Zero
 - masculinité
@@ -463,8 +463,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Peel Session
 - perte de contrôle
 - Pete Shelley
-- peter hook
 - Peter Hook
+- peter hook
 - peter saville
 - Peter Saville
 - photographie
@@ -502,16 +502,16 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - revelation sonore
 - revenus
 - Richard Boon
-- Rob Gretton
 - rob gretton
+- Rob Gretton
 - Robert Palmer
 - Rochdale
 - Roger Eagle
 - Romantic art
 - royalties
 - run-out groove
-- russell club
 - Russell Club
+- russell club
 - rusty lift
 - réception
 - réception critique
@@ -528,8 +528,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - seize pistes
 - sessions studio
 - Shadowplay
-- she's lost control
 - She's Lost Control
+- she's lost control
 - Short Circuit
 - single
 - sleeve design
@@ -555,8 +555,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Still
 - Stockport
 - stratégie
-- strawberry studios
 - Strawberry Studios
+- strawberry studios
 - strobes
 - structure musicale
 - studio
@@ -577,8 +577,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Tiller Boys
 - timeline
 - TJ Davidson
-- Tony Wilson
 - tony wilson
+- Tony Wilson
 - Total Art
 - tracklist
 - traitement sonore
@@ -593,8 +593,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - UK pressing
 - underground
 - unité esthétique
-- Unknown Pleasures
 - unknown pleasures
+- Unknown Pleasures
 - Unknown Pleasures Track by Track
 - urban degradation
 - varispeed

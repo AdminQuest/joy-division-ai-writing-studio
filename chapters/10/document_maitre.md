@@ -45,12 +45,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - S41 — Hook, Unknown Pleasures, 2012
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S68 — Broll, Joy Division, s.d.
-- S69
-- S70
-- S71
-- S72
+- S47 — West, Joy Division, 1984
+- S68 — Broll, Joy Division, 1988
+- S69 — Greig & Strong, But We Remember When We Were Young, 2014
+- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
+- S71 — Flowers, Dreams Never End, 1995/2012
+- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
 
 ## 7. Sources secondaires mobilisées
 
@@ -218,8 +218,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Hurrah's New York
 - hypnose japonaise
 - hôpital
-- Ian Curtis
 - ian curtis
+- Ian Curtis
 - in a lonely place
 - inquest
 - john peel
@@ -227,13 +227,13 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Leeds University
 - lindsay reade
 - livres des années 1980
-- love will tear us apart
 - Love Will Tear Us Apart
+- love will tear us apart
 - love will tear us apart vidéo
 - légendes
 - légitimité du témoin
-- macclesfield
 - Macclesfield
+- macclesfield
 - malcolm whitehead
 - malentendu
 - manchester
@@ -292,8 +292,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - sessions terminales
 - setlists
 - Sex Pistols
-- she's lost control
 - She's Lost Control
+- she's lost control
 - sister ray
 - situationnisme
 - spectacle

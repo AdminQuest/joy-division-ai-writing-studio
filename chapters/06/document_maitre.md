@@ -45,10 +45,10 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - S41 — Hook, Unknown Pleasures, 2012
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S68 — Broll, Joy Division, s.d.
-- S70
-- S71
+- S47 — West, Joy Division, 1984
+- S68 — Broll, Joy Division, 1988
+- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
+- S71 — Flowers, Dreams Never End, 1995/2012
 
 ## 7. Sources secondaires mobilisées
 
@@ -204,8 +204,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - archive sonore
 - archives
 - As You Said
-- At A Later Date
 - At a Later Date
+- At A Later Date
 - Atmosphere
 - Atrocity Exhibition
 - atrocity exhibition
@@ -216,20 +216,20 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - B-side
 - basse mélodique
 - batterie
-- BBC
 - bbc
+- BBC
 - BBC-2
 - birmingham
 - Birmingham University
 - bob krasnow
 - bootlegs
-- Britannia Row
 - britannia row
+- Britannia Row
 - Bruxelles
 - bury
 - Bury
-- Buzzcocks Tour
 - Buzzcocks tour
+- Buzzcocks Tour
 - Cabaret Voltaire
 - camp de concentration
 - canon parallèle
@@ -242,8 +242,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Ceremony
 - chronologie
 - citation
-- closer
 - Closer
+- closer
 - clôture
 - cologne
 - Colony
@@ -260,12 +260,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - crise suicidaire
 - culte
 - célébrité
-- dead souls
 - Dead Souls
+- dead souls
 - Decades
 - decades
-- Derby
 - derby
+- Derby
 - Derby Hall
 - dernier concert
 - derniers concerts
@@ -298,8 +298,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - FACT 10
 - FACT 25
 - FACT 40
-- factory
 - Factory
+- factory
 - factory records
 - Factory Sample
 - FACUS2
@@ -334,10 +334,10 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - ian curtis
 - Ice Age
 - ignorance
-- In a Lonely Place
 - in a lonely place
-- Incubation
+- In a Lonely Place
 - incubation
+- Incubation
 - index des chansons
 - Insight
 - intensité live
@@ -346,24 +346,24 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - inversion
 - inédit
 - Islington
-- Isolation
 - isolation
+- Isolation
 - isolement
-- John Peel
 - john peel
+- John Peel
 - John Peel Session
 - John Peel Sessions
-- joy division
 - Joy Division
+- joy division
 - juillet 1979
 - Ka-Tzetnik
-- komakino
 - Komakino
+- komakino
 - lecture non téléologique
 - Leeds
 - leeds
-- licht und blindheit
 - Licht und Blindheit
+- licht und blindheit
 - Lindsay Wilson
 - live
 - live Birmingham
@@ -376,15 +376,15 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - machine
 - Maida Vale
 - manager
-- manchester
 - Manchester
+- manchester
 - manuscrit
 - marché américain
 - mariage
 - marquee
 - mars 1980
-- martin hannett
 - Martin Hannett
+- martin hannett
 - masculinité
 - mixage
 - moonlight club
@@ -405,8 +405,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - overdose
 - paradiso
 - passover
-- peel session
 - Peel Session
+- peel session
 - Peel Sessions
 - perception
 - Peter Hook
@@ -469,11 +469,11 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Sound of Music
 - spéculation
 - Stephen Morris
-- Still
 - still
+- Still
 - stratégie
-- strawberry studios
 - Strawberry Studios
+- strawberry studios
 - stroboscopes
 - studio
 - succès
@@ -500,15 +500,15 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - transcendance
 - transition
 - transition posthume
-- Transmission
 - transmission
+- Transmission
 - treize jours
 - treize nuits
 - twenty four hours
 - Twenty-Four Hours
 - télévision
-- Unknown Pleasures
 - unknown pleasures
+- Unknown Pleasures
 - Unknown Pleasures sessions
 - unreleased
 - Velvet Underground

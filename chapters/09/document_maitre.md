@@ -45,12 +45,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - S41 — Hook, Unknown Pleasures, 2012
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S68 — Broll, Joy Division, s.d.
-- S69
-- S70
-- S71
-- S72
+- S47 — West, Joy Division, 1984
+- S68 — Broll, Joy Division, 1988
+- S69 — Greig & Strong, But We Remember When We Were Young, 2014
+- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
+- S71 — Flowers, Dreams Never End, 1995/2012
+- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
 
 ## 7. Sources secondaires mobilisées
 
@@ -198,8 +198,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - 4 avril 1980
 - 4 juin 1979
 - 8mm
-- a factory sample
 - A Factory Sample
+- a factory sample
 - absence de concerts
 - accident de van
 - accusations de nazisme
@@ -211,8 +211,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - ambiguïté
 - amitie
 - amplification
-- Amsterdam
 - amsterdam
+- Amsterdam
 - Anderson
 - anti-business
 - anti-lyrisme
@@ -241,8 +241,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Belgique
 - ben kelly
 - Berlin
-- bernard sumner
 - Bernard Sumner
+- bernard sumner
 - Bidet Boys
 - Birmingham University
 - bob krasnow
@@ -301,8 +301,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - culture ouvrière
 - danse
 - david mccullough
-- dead souls
 - Dead Souls
+- dead souls
 - dependance
 - Derby
 - Derby Hall
@@ -341,15 +341,15 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - expérience live
 - FAC 1
 - fac 9
-- factory
 - Factory
-- Factory Club
+- factory
 - factory club
+- Factory Club
 - Factory Evenings
 - Factory I
 - Factory Nights
-- factory records
 - Factory Records
+- factory records
 - Factory Tour
 - Factory video
 - fanzine
@@ -397,11 +397,11 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - investissement
 - John Anderson
 - John Cooper Clarke
-- John Peel
 - john peel
+- John Peel
 - John Peel Session
-- joy division
 - Joy Division
+- joy division
 - joydiv.org
 - label indépendant
 - labels indépendants
@@ -426,8 +426,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Malvern
 - management
 - manager
-- manchester
 - Manchester
+- manchester
 - manchester contre londres
 - Manchester Musicians' Collective
 - Manchester vs London
@@ -436,8 +436,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - marché américain
 - mark e smith
 - marquee
-- martin hannett
 - Martin Hannett
+- martin hannett
 - Martin Rushent
 - martin rushent
 - masculinité
@@ -483,8 +483,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - paternalisme
 - patrimoine personnel
 - paul morley
-- peel session
 - Peel Session
+- peel session
 - Peel Sessions
 - Penetration
 - performance
@@ -497,12 +497,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Philippe Carly
 - photographie
 - photographie live
-- piccadilly radio
 - Piccadilly Radio
+- piccadilly radio
 - Pips
 - pips
-- plan k
 - Plan K
+- plan k
 - possession
 - post-punk
 - pouvoir interne
@@ -547,19 +547,19 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - revelation
 - revelation sonore
 - Rezillos
-- richard boon
 - Richard Boon
+- richard boon
 - rivalité locale
 - roadie
-- Rob Gretton
 - rob gretton
+- Rob Gretton
 - rough trade
 - royalties
 - Royalty Theatre
 - rudolf hess
 - rue de Manchester
-- russell club
 - Russell Club
+- russell club
 - réception
 - réception conflictuelle
 - réception critique
@@ -604,8 +604,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Stiff Records
 - stiff test
 - Stiff Test
-- Still
 - still
+- Still
 - stratégie
 - stratégie live
 - stratégie territoriale
@@ -629,8 +629,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - timeline
 - TJ Davidson
 - tony tabac
-- Tony Wilson
 - tony wilson
+- Tony Wilson
 - tournée
 - tournée 1979
 - tournée américaine
@@ -639,8 +639,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Transit van
 - transition
 - transition posthume
-- Transmission
 - transmission
+- Transmission
 - travail salarié
 - tribute band
 - télévision
@@ -660,8 +660,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - warner bros
 - Warner Brothers
 - warner brothers
-- warsaw
 - Warsaw
+- warsaw
 - wea
 - WEA
 - West Indian cultural centre

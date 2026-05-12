@@ -42,10 +42,10 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 
 ## 6. Sources primaires mobilisées
 
-- S68 — Broll, Joy Division, s.d.
-- S70
-- S71
-- S72
+- S68 — Broll, Joy Division, 1988
+- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
+- S71 — Flowers, Dreams Never End, 1995/2012
+- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
 
 ## 7. Sources secondaires mobilisées
 

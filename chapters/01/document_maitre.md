@@ -45,10 +45,10 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - S41 — Hook, Unknown Pleasures, 2012
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S70
-- S71
-- S72
+- S47 — West, Joy Division, 1984
+- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
+- S71 — Flowers, Dreams Never End, 1995/2012
+- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
 
 ## 7. Sources secondaires mobilisées
 
@@ -206,8 +206,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - double vie
 - dub
 - déclin industriel
-- electric circus
 - Electric Circus
+- electric circus
 - electronics
 - emploi
 - enfance
@@ -247,8 +247,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - local universel
 - Londres
 - Macclesfield
-- manchester
 - Manchester
+- manchester
 - manchester contre londres
 - Manchester punk
 - mariage jeune

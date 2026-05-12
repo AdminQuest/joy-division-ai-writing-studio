@@ -45,8 +45,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - S41 — Hook, Unknown Pleasures, 2012
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S68 — Broll, Joy Division, s.d.
+- S47 — West, Joy Division, 1984
+- S68 — Broll, Joy Division, 1988
 
 ## 7. Sources secondaires mobilisées
 
@@ -208,8 +208,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Hurrah's New York
 - hypnose japonaise
 - hôpital
-- Ian Curtis
 - ian curtis
+- Ian Curtis
 - Iggy Pop
 - ignorance
 - imaginaire

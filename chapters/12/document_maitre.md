@@ -44,8 +44,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S69
+- S47 — West, Joy Division, 1984
+- S69 — Greig & Strong, But We Remember When We Were Young, 2014
 
 ## 7. Sources secondaires mobilisées
 

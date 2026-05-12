@@ -45,12 +45,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - S41 — Hook, Unknown Pleasures, 2012
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S68 — Broll, Joy Division, s.d.
-- S69
-- S70
-- S71
-- S72
+- S47 — West, Joy Division, 1984
+- S68 — Broll, Joy Division, 1988
+- S69 — Greig & Strong, But We Remember When We Were Young, 2014
+- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
+- S71 — Flowers, Dreams Never End, 1995/2012
+- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
 
 ## 7. Sources secondaires mobilisées
 
@@ -269,8 +269,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - antifascisme
 - antimystique post-punk
 - antiracisme
-- anton corbijn
 - Anton Corbijn
+- anton corbijn
 - après Curtis
 - après joy division
 - archive
@@ -293,8 +293,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Arthur Baker
 - artwork
 - As You Said
-- At A Later Date
 - At a Later Date
+- At A Later Date
 - Atmosphere
 - atmosphere
 - atmosphere video
@@ -338,8 +338,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - ben kelly
 - Berlin
 - Bernard Albrecht
-- bernard sumner
 - Bernard Sumner
+- bernard sumner
 - best-selling album
 - Better Badges
 - bibliographie
@@ -397,8 +397,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - cities in the park
 - city fun
 - clips
-- closer
 - Closer
+- closer
 - cloth sleeve
 - club culture
 - code couleur
@@ -480,8 +480,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - dates approximatives
 - Dave McCullough
 - david mccullough
-- dead souls
 - Dead Souls
+- dead souls
 - deadly accurate
 - death cult
 - death factory
@@ -512,8 +512,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Disorder
 - distribution
 - distribution indépendante
-- diy
 - DIY
+- diy
 - documentaire
 - données discographiques
 - Dostoevsky
@@ -543,8 +543,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - englandneworder
 - enigma
 - Enigma
-- enigma records
 - Enigma Records
+- enigma records
 - enquête
 - enquête amateur
 - entretiens
@@ -582,8 +582,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Factory I
 - Factory Newsletter
 - factory receivership
-- factory records
 - Factory Records
+- factory records
 - Factory Sample
 - Factory Sampler
 - Factory Tour
@@ -694,8 +694,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - hypnose
 - héritage
 - héritage contemporain
-- héritage joy division
 - héritage Joy Division
+- héritage joy division
 - héritage sombre
 - Ian Curtis
 - ian curtis
@@ -720,8 +720,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - imploding star
 - importation
 - In A Lonely Place
-- In a Lonely Place
 - in a lonely place
+- In a Lonely Place
 - incertitude documentaire
 - Incubation
 - independent charts
@@ -761,15 +761,15 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - John Cooper Clarke
 - John Lennon
 - john lydon
-- John Peel
 - john peel
+- John Peel
 - John Peel Session
 - John Peel Sessions
 - John Savage
 - johnny marr
 - jonathan demme
-- joy division
 - Joy Division
+- joy division
 - joy division après-coup
 - joy division héritage
 - juillet 1980
@@ -792,8 +792,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Lesser Free Trade Hall
 - liberté artistique
 - licence américaine
-- licht und blindheit
 - Licht und Blindheit
+- licht und blindheit
 - limited edition
 - lindsay reade
 - lip sync
@@ -827,8 +827,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - malentendu
 - management
 - manager
-- manchester
 - Manchester
+- manchester
 - Manchester punk
 - Manchester vs London
 - Manor Mobile
@@ -839,8 +839,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - mark johnson
 - marketing musical
 - martin compilation
-- martin hannett
 - Martin Hannett
+- martin hannett
 - Martin Rushent
 - Martin Zero
 - martyr
@@ -858,10 +858,10 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - metal box
 - metallic ko
 - michael shamberg
-- Mick Middles
 - mick middles
-- mike west
+- Mick Middles
 - Mike West
+- mike west
 - minimalisme
 - mixage
 - modernisme
@@ -891,8 +891,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - mystère
 - mythe
 - mythe critique
-- mythe curtis
 - mythe Curtis
+- mythe curtis
 - mythe fondateur
 - mythe ian curtis
 - mythe romantique
@@ -928,8 +928,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - new psychedelia
 - new wave
 - new wave radio
-- new york
 - New York
+- new york
 - New York Times
 - neworderstory
 - NME
@@ -982,8 +982,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - partenariat
 - patrimoine factory
 - patrimoine personnel
-- Paul Morley
 - paul morley
+- Paul Morley
 - Paul Simonon
 - Paul Slattery
 - Paul Young
@@ -996,8 +996,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - performance
 - pet shop boys
 - Pete Petrol
-- peter hook
 - Peter Hook
+- peter hook
 - peter saville
 - Peter Saville
 - Peter Saville Associates
@@ -1008,8 +1008,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - photographie rock
 - Piccadilly Radio
 - pil
-- plan k
 - Plan K
+- plan k
 - pochette
 - politique du quotidien
 - pop
@@ -1096,11 +1096,11 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - retour du rock
 - revenge
 - revenus
-- richard boon
 - Richard Boon
+- richard boon
 - richard heslop
-- Rob Gretton
 - rob gretton
+- Rob Gretton
 - Robert Palmer
 - rock
 - Rock City
@@ -1124,8 +1124,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - rupture avec joy division
 - rupture continuité
 - rupture difficile
-- russell club
 - Russell Club
+- russell club
 - règles du rock
 - réalité
 - réception
@@ -1174,8 +1174,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Sex Pistols
 - Shadowplay
 - She's Lost Control
-- Sheffield
 - sheffield
+- Sheffield
 - short circuit
 - Short Circuit
 - silence médiatique
@@ -1194,8 +1194,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - sold out
 - Something Else
 - Something Must Break
-- sordide sentimental
 - Sordide Sentimental
+- sordide sentimental
 - Sordide Sentimentale
 - sortie disque
 - Sound of Music
@@ -1219,8 +1219,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Stephen Morris
 - Steve Taylor
 - Stiff Kittens
-- Still
 - still
+- Still
 - Strange Days
 - stratégie
 - Strawberry Studios
@@ -1255,8 +1255,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - technique
 - technologie pop
 - television
-- Temptation
 - temptation
+- Temptation
 - The Doors
 - The Drawback
 - The Kill
@@ -1272,8 +1272,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - TJM practice studios
 - tjm rehearsal studios
 - Tolworth
-- Tony Wilson
 - tony wilson
+- Tony Wilson
 - top of the pops
 - total art
 - Total Art
@@ -1287,8 +1287,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - transgression
 - transition
 - transition posthume
-- Transmission
 - transmission
+- Transmission
 - travail de mémoire
 - tribalisme post-punk
 - tribu
@@ -1305,8 +1305,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - témoins potentiels
 - UK pressing
 - unauthorized excursion
-- Unknown Pleasures
 - unknown pleasures
+- Unknown Pleasures
 - Unknown Pleasures sessions
 - unreleased
 - unreleased album
@@ -1347,8 +1347,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Warsaw Pakt
 - WEA
 - Werner Herzog
-- western works
 - Western Works
+- western works
 - What's On
 - William Burroughs
 - wire

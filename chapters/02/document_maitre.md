@@ -45,11 +45,11 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - S41 — Hook, Unknown Pleasures, 2012
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S68 — Broll, Joy Division, s.d.
-- S70
-- S71
-- S72
+- S47 — West, Joy Division, 1984
+- S68 — Broll, Joy Division, 1988
+- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
+- S71 — Flowers, Dreams Never End, 1995/2012
+- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
 
 ## 7. Sources secondaires mobilisées
 
@@ -189,8 +189,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - 30 juin 1977
 - 7 inch
 - 7 pouces
-- a factory sample
 - A Factory Sample
+- a factory sample
 - absence de concerts
 - agressivité
 - alan erasmus
@@ -217,8 +217,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - archives
 - Arrow Studios
 - artwork
-- At A Later Date
 - At a Later Date
+- At A Later Date
 - authenticité
 - autonomie
 - autoproduction
@@ -230,8 +230,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - basse
 - batterie
 - bernard albrecht
-- bernard sumner
 - Bernard Sumner
+- bernard sumner
 - black swan
 - black swan pub
 - blue vinyl
@@ -284,8 +284,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - direct-cut
 - discographie
 - distribution
-- diy
 - DIY
+- diy
 - do it yourself
 - déclenchement
 - déclencheur
@@ -300,20 +300,20 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - enfance ouvrière
 - enigma
 - Enigma
-- enigma records
 - Enigma Records
+- enigma records
 - enregistrement live
 - entourage
 - Eric's Liverpool
 - erreur technique
 - esthétique sonore
 - europe de l’est
-- factory
 - Factory
-- Factory Club
+- factory
 - factory club
-- factory records
+- Factory Club
 - Factory Records
+- factory records
 - faible budget
 - fanzines
 - fermeture
@@ -363,11 +363,11 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - jeunesse ouvrière
 - jg ballard
 - John Anderson
-- joy division
 - Joy Division
+- joy division
 - joy division nom
-- ka-tzetnik
 - Ka-Tzetnik
+- ka-tzetnik
 - ka-tzetnik 135633
 - Keep On Keepin' On
 - labels indépendants
@@ -378,14 +378,14 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - live recording
 - logistique
 - Londres
-- low
 - Low
+- low
 - Macclesfield
 - malentendu
 - management
 - manager
-- manchester
 - Manchester
+- manchester
 - manchester contre londres
 - Manchester Musicians' Collective
 - Manchester punk
@@ -424,8 +424,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - outsider
 - Panik
 - paroles
-- Paul Morley
 - paul morley
+- Paul Morley
 - Penetration
 - Pennine Sound
 - pennine sound studios
@@ -433,8 +433,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - performance
 - Pete Shelley
 - Pete Silverton
-- peter hook
 - Peter Hook
+- peter hook
 - peter saville
 - Pips
 - pips
@@ -465,8 +465,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Rafters
 - rafters
 - Rare Records
-- rca
 - RCA
+- rca
 - rca album
 - rca sessions
 - reconnaissance
@@ -480,20 +480,20 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - revelation
 - richard searling
 - roadie
-- Rob Gretton
 - rob gretton
+- Rob Gretton
 - rob gretton manager
 - royalties
 - rudolf hess
-- russell club
 - Russell Club
+- russell club
 - réception critique
 - récit critique
 - répertoire
 - répétitions
 - réédition
-- Salford
 - salford
+- Salford
 - Salford Grammar School
 - scally
 - scene locale
@@ -520,10 +520,10 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Steve Brotherdale
 - steve brotherdale
 - Stiff Chiswick Test
-- Stiff Kittens
 - stiff kittens
-- Stiff Records
+- Stiff Kittens
 - stiff records
+- Stiff Records
 - stiff test
 - Stiff Test
 - studio
@@ -542,8 +542,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - timeline
 - TJ Davidson
 - tony tabac
-- Tony Wilson
 - tony wilson
+- Tony Wilson
 - Top of the Pops
 - Tosh Ryan
 - tournée
@@ -560,14 +560,14 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - violence domestique
 - violence punk
 - violence scénique
-- Virgin
 - virgin
+- Virgin
 - Virgin Records
 - vitesse
 - vocation
 - vol
-- warsaw
 - Warsaw
+- warsaw
 - Warsaw Demo
 - Warsaw Pakt
 - Warszawa

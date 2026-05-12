@@ -44,7 +44,7 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 
 - S41 — Hook, Unknown Pleasures, 2012
 - S46 — Johnson, An Ideal for Living, 1984
-- S72
+- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
 
 ## 7. Sources secondaires mobilisées
 

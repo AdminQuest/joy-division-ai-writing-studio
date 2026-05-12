@@ -45,12 +45,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - S41 — Hook, Unknown Pleasures, 2012
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S68 — Broll, Joy Division, s.d.
-- S69
-- S70
-- S71
-- S72
+- S47 — West, Joy Division, 1984
+- S68 — Broll, Joy Division, 1988
+- S69 — Greig & Strong, But We Remember When We Were Young, 2014
+- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
+- S71 — Flowers, Dreams Never End, 1995/2012
+- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
 
 ## 7. Sources secondaires mobilisées
 
@@ -238,8 +238,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - citation
 - classe ouvriere
 - classe ouvrière
-- closer
 - Closer
+- closer
 - clôture
 - collectif
 - commercialisation
@@ -371,12 +371,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - jalousie
 - jg ballard
 - john peel
-- joy division
 - Joy Division
+- joy division
 - joy division héritage
 - joy division nom
-- ka-tzetnik
 - Ka-Tzetnik
+- ka-tzetnik
 - ka-tzetnik 135633
 - kafka
 - langage
@@ -388,8 +388,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - lourdeur
 - Love Will Tear Us Apart
 - love will tear us apart
-- low
 - Low
+- low
 - légendes
 - légitimité
 - macclesfield
@@ -513,8 +513,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - sens ouvert
 - sensation
 - seuil
-- she's lost control
 - She's Lost Control
+- she's lost control
 - sheffield
 - silence
 - solitude
@@ -543,15 +543,15 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - transe
 - transgression
 - transition posthume
-- Transmission
 - transmission
+- Transmission
 - travail de mémoire
 - travail industriel
 - travail social
 - twenty four hours
 - underground
-- Unknown Pleasures
 - unknown pleasures
+- Unknown Pleasures
 - urban malaise
 - urban paranoia
 - variations
@@ -563,8 +563,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - volonté
 - vulnérabilité
 - warm leatherette
-- warsaw
 - Warsaw
+- warsaw
 - Warsaw Pakt
 - Warszawa
 - William Burroughs

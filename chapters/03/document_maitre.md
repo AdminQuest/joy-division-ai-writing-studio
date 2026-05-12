@@ -45,11 +45,11 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - S41 — Hook, Unknown Pleasures, 2012
 - S45 — Curtis, Touching from a Distance, 1995
 - S46 — Johnson, An Ideal for Living, 1984
-- S47
-- S68 — Broll, Joy Division, s.d.
-- S70
-- S71
-- S72
+- S47 — West, Joy Division, 1984
+- S68 — Broll, Joy Division, 1988
+- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
+- S71 — Flowers, Dreams Never End, 1995/2012
+- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
 
 ## 7. Sources secondaires mobilisées
 
@@ -192,8 +192,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - 26 novembre 1979
 - 31 janvier 1979
 - 4 juin 1979
-- a factory sample
 - A Factory Sample
+- a factory sample
 - accent
 - accent régional
 - accident de van
@@ -231,12 +231,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - basse mélodique
 - bassline
 - batterie
-- BBC
 - bbc
+- BBC
 - bbc radio one
 - beauté étrange
-- bernard sumner
 - Bernard Sumner
+- bernard sumner
 - Bettelheim
 - bifurcation
 - black sabbath
@@ -270,20 +270,20 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - créativité
 - culte
 - Day of the Lords
-- dead souls
 - Dead Souls
+- dead souls
 - death drive
 - demo
 - dette
-- Digital
 - digital
+- Digital
 - discographie
 - Disorder
 - disorientation
 - distorsion
 - distraction
-- diy
 - DIY
+- diy
 - domesticité
 - drum machine
 - dub
@@ -310,10 +310,10 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - experimentation
 - FAC 2
 - FACT 10
-- factory
 - Factory
-- factory records
+- factory
 - Factory Records
+- factory records
 - Factory sound
 - faible budget
 - FAST 9B
@@ -369,11 +369,11 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - John Anderson
 - John Brierley
 - john lydon
-- John Peel
 - john peel
+- John Peel
 - John Peel Session
-- joy division
 - Joy Division
+- joy division
 - juillet 1979
 - Keep On Keepin' On
 - Kraftwerk
@@ -393,11 +393,11 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - machine humaine
 - Maida Vale
 - malentendu
-- manchester
 - Manchester
+- manchester
 - Marshall
-- martin hannett
 - Martin Hannett
+- martin hannett
 - Martin Rushent
 - martin rushent
 - Martin Zero
@@ -436,16 +436,16 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - partenariat
 - Paul Morley
 - Paul Simonon
-- peel session
 - Peel Session
+- peel session
 - Pennine Sound
 - pennine studios
-- peter hook
 - Peter Hook
+- peter hook
 - peter saville
 - photographie
-- piccadilly radio
 - Piccadilly Radio
+- piccadilly radio
 - pochette
 - post-punk
 - post-punk fondateur
@@ -521,8 +521,8 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - Still
 - Stockport
 - Strange Days
-- strawberry studios
 - Strawberry Studios
+- strawberry studios
 - structure musicale
 - studio
 - studio comme instrument
@@ -552,12 +552,12 @@ Les développements relevant d’un autre chapitre doivent être renvoyés au do
 - transition
 - transition posthume
 - transition vocale
-- Transmission
 - transmission
+- Transmission
 - trouble perceptif
 - underground
-- Unknown Pleasures
 - unknown pleasures
+- Unknown Pleasures
 - varispeed
 - Velvet Underground
 - vide musical
