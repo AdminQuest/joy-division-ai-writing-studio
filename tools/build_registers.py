@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Joy Division AI Writing Studio — Documentary parser v0.4
+Joy Division AI Writing Studio — Documentary parser v0.5
 
 This script scans Markdown files, extracts fenced YAML blocks, classifies records,
 normalizes source identifiers, validates them through the schema validation layer,
 and generates JSON/CSV exports for RAG and documentary control.
 
-v0.4 adds enriched atom metadata for argumentative and historiographical use.
+v0.5 makes data/registre.json the canonical source registry for source labels.
 """
 
 from __future__ import annotations
@@ -35,6 +35,7 @@ except ImportError as exc:
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 EXPORT_DIR = REPO_ROOT / "exports" / "generated"
+SOURCE_REGISTRY_PATH = REPO_ROOT / "data" / "registre.json"
 
 SCAN_DIRS = [REPO_ROOT / "sources", REPO_ROOT / "registers"]
 
@@ -50,12 +51,14 @@ ID_PREFIX_ALIASES = {
     "BROLL-A": "S68-A",
 }
 
-SOURCE_LABELS = {
+FALLBACK_SOURCE_LABELS = {
     "S41": {"auteur": "Peter Hook", "titre": "Unknown Pleasures: Inside Joy Division", "annee": "2012", "label": "S41 — Hook, Unknown Pleasures, 2012"},
     "S45": {"auteur": "Deborah Curtis", "titre": "Touching from a Distance", "annee": "1995", "label": "S45 — Curtis, Touching from a Distance, 1995"},
     "S46": {"auteur": "Mark Johnson", "titre": "An Ideal for Living: An History of Joy Division", "annee": "1984", "label": "S46 — Johnson, An Ideal for Living, 1984"},
     "S68": {"auteur": "Marco Broll", "titre": "Joy Division", "annee": "s.d.", "label": "S68 — Broll, Joy Division, s.d."},
 }
+
+SOURCE_LABELS: Dict[str, Dict[str, str]] = {}
 
 YAML_BLOCK_RE = re.compile(r"```yaml\s*(.*?)\s*```", re.DOTALL | re.IGNORECASE)
 KNOWN_TOPLEVEL_KEYS = {
@@ -104,9 +107,56 @@ def normalize_value(value: Any) -> Any:
         return {key: normalize_value(val) for key, val in value.items()}
     return value
 
+def normalize_source_entry(entry: Dict[str, Any]) -> Optional[Tuple[str, Dict[str, str]]]:
+    raw_id = entry.get("id") or entry.get("source_id")
+    if not isinstance(raw_id, str) or not raw_id.strip():
+        return None
+    source_id = normalize_identifier(raw_id.strip())
+    auteur = str(entry.get("auteur") or entry.get("author") or "Inconnu")
+    titre = str(entry.get("titre") or entry.get("title") or source_id)
+    annee = str(entry.get("annee") or entry.get("source_year") or "")
+    label = str(entry.get("source_label") or f"{source_id} — {auteur}, {titre}, {annee}".rstrip(", "))
+    return source_id, {"auteur": auteur, "titre": titre, "annee": annee, "label": label}
+
+def load_source_labels() -> Dict[str, Dict[str, str]]:
+    labels: Dict[str, Dict[str, str]] = dict(FALLBACK_SOURCE_LABELS)
+    if not SOURCE_REGISTRY_PATH.exists():
+        return labels
+    try:
+        registry = json.loads(SOURCE_REGISTRY_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        print(f"Warning: unable to parse {rel(SOURCE_REGISTRY_PATH)}: {exc}", file=sys.stderr)
+        return labels
+    if not isinstance(registry, list):
+        print(f"Warning: {rel(SOURCE_REGISTRY_PATH)} must contain a JSON list.", file=sys.stderr)
+        return labels
+    for entry in registry:
+        if not isinstance(entry, dict):
+            continue
+        normalized = normalize_source_entry(entry)
+        if not normalized:
+            continue
+        source_id, label_entry = normalized
+        labels[source_id] = label_entry
+        legacy_ids = entry.get("legacy_id") or entry.get("legacy_ids") or []
+        if isinstance(legacy_ids, str):
+            legacy_ids = [legacy_ids]
+        if isinstance(legacy_ids, list):
+            for legacy_id in legacy_ids:
+                if isinstance(legacy_id, str) and legacy_id.strip():
+                    SOURCE_ID_ALIASES.setdefault(legacy_id.strip(), source_id)
+                    labels[legacy_id.strip()] = label_entry
+    return labels
+
+def ensure_source_labels_loaded() -> None:
+    global SOURCE_LABELS
+    if not SOURCE_LABELS:
+        SOURCE_LABELS = load_source_labels()
+
 def enrich_source_label(data: Dict[str, Any]) -> Dict[str, Any]:
     if not isinstance(data, dict):
         return data
+    ensure_source_labels_loaded()
     data = normalize_value(data)
     source_id = data.get("source_id") or (data.get("id") if str(data.get("id", "")).startswith("S") and "-" not in str(data.get("id")) else None)
     if source_id in SOURCE_LABELS:
@@ -234,6 +284,7 @@ def validate_record(kind: str, data: Dict[str, Any], file_path: Path) -> List[Di
     return diagnostics
 
 def parse_repository() -> Tuple[List[ParsedRecord], List[Diagnostic]]:
+    ensure_source_labels_loaded()
     records: List[ParsedRecord] = []
     diagnostics: List[Diagnostic] = []
     seen_ids: Dict[str, str] = {}
@@ -299,7 +350,20 @@ def write_csv(path: Path, records: List[ParsedRecord], preferred_fields: List[st
                     row[key] = flatten_value(record.data.get(key))
             writer.writerow(row)
 
+def label_for_source(source_id: str, data: Dict[str, Any]) -> Dict[str, str]:
+    ensure_source_labels_loaded()
+    source_id = normalize_identifier(source_id)
+    if source_id in SOURCE_LABELS:
+        return SOURCE_LABELS[source_id]
+    return {
+        "label": data.get("source_label", source_id),
+        "auteur": data.get("auteur", "Inconnu"),
+        "titre": data.get("titre", source_id),
+        "annee": data.get("source_year", ""),
+    }
+
 def build_source_registry(records: List[ParsedRecord]) -> List[Dict[str, Any]]:
+    ensure_source_labels_loaded()
     grouped: Dict[str, Dict[str, Any]] = {}
     for record in records:
         data = record.data or {}
@@ -307,9 +371,10 @@ def build_source_registry(records: List[ParsedRecord]) -> List[Dict[str, Any]]:
         if data.get("source_id"):
             ids.append(data["source_id"])
         if isinstance(data.get("sources"), list):
-            ids.extend([s for s in data["sources"] if isinstance(s, str) and re.match(r"^S\d{2}$", s)])
-        for source_id in ids:
-            label = SOURCE_LABELS.get(source_id, {})
+            ids.extend([s for s in data["sources"] if isinstance(s, str) and re.match(r"^S\d+$", s)])
+        for raw_source_id in ids:
+            source_id = normalize_identifier(raw_source_id)
+            label = label_for_source(source_id, data)
             entry = grouped.setdefault(source_id, {
                 "source_id": source_id,
                 "source_label": label.get("label", source_id),
