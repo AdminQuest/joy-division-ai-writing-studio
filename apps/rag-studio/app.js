@@ -34,6 +34,28 @@ let LAST_RESULTS = [];
 let CURRENT_PAGE = 1;
 let RESULTS_PER_PAGE = 10;
 
+function $(id) {
+  return document.getElementById(id);
+}
+
+function showError(message, error = null) {
+  console.error(message, error || '');
+  const results = $('results');
+  const meta = $('results-meta');
+  if (meta) meta.textContent = 'Erreur de rendu';
+  if (results) {
+    results.innerHTML = `<div class="status-card"><strong>Erreur RAG 1</strong><br>${String(message)}${error ? `<br><code>${String(error.message || error)}</code>` : ''}</div>`;
+  }
+}
+
+window.addEventListener('error', event => {
+  showError('Erreur JavaScript dans le RAG Studio.', event.error || event.message);
+});
+
+window.addEventListener('unhandledrejection', event => {
+  showError('Promesse rejetée dans le RAG Studio.', event.reason);
+});
+
 function normalizeSourceId(id) {
   return SOURCE_ID_ALIASES[id] || id;
 }
@@ -177,42 +199,11 @@ function parseConsolidatedQuotesMarkdown(markdown) {
     if (mode === 'historical' && cells.length >= 5) {
       const [id, source, type, entry, status] = cells;
       const sourceId = inferSourceId(id, source);
-      rows.push({
-        kind: 'quote',
-        id,
-        file: 'registers/quotes/master_quotes.md',
-        heading: 'citation historique consolidée',
-        data: {
-          id,
-          source_id: sourceId,
-          source_label: sourceLabel(sourceId),
-          citation_originale: entry,
-          type_citation: type,
-          statut_consolidation: status,
-          statut_verification: status,
-          chapitres: ['Chapitre 1'],
-          source_origin: ['registre historique', 'master_quotes.md']
-        }
-      });
+      rows.push({kind: 'quote', id, file: 'registers/quotes/master_quotes.md', heading: 'citation historique consolidée', data: {id, source_id: sourceId, source_label: sourceLabel(sourceId), citation_originale: entry, type_citation: type, statut_consolidation: status, statut_verification: status, chapitres: ['Chapitre 1'], source_origin: ['registre historique', 'master_quotes.md']}});
     } else if (mode === 'atomized' && cells.length >= 4) {
       const [id, citation, status, usage] = cells;
       const sourceId = inferSourceId(id, '');
-      rows.push({
-        kind: 'quote',
-        id,
-        file: 'registers/quotes/master_quotes.md',
-        heading: 'citation atomisée consolidée',
-        data: {
-          id,
-          source_id: sourceId,
-          source_label: sourceLabel(sourceId),
-          citation_originale: citation,
-          usage_recommande: usage,
-          statut_consolidation: status,
-          statut_verification: status,
-          source_origin: ['atomisation', 'master_quotes.md']
-        }
-      });
+      rows.push({kind: 'quote', id, file: 'registers/quotes/master_quotes.md', heading: 'citation atomisée consolidée', data: {id, source_id: sourceId, source_label: sourceLabel(sourceId), citation_originale: citation, usage_recommande: usage, statut_consolidation: status, statut_verification: status, source_origin: ['atomisation', 'master_quotes.md']}});
     }
   }
   return rows;
@@ -247,16 +238,7 @@ function recordTitle(record) {
 
 function recordTextParts(record) {
   const data = record.data || {};
-  return [
-    record.id || '',
-    record.kind || '',
-    record.heading || '',
-    record.file || '',
-    recordTitle(record),
-    data.source_label || '',
-    sourceIdsForRecord(record).map(sourceLabel).join(' '),
-    flatten(data)
-  ];
+  return [record.id || '', record.kind || '', record.heading || '', record.file || '', recordTitle(record), data.source_label || '', sourceIdsForRecord(record).map(sourceLabel).join(' '), flatten(data)];
 }
 
 function buildSearchIndex(records) {
@@ -266,16 +248,7 @@ function buildSearchIndex(records) {
     const tokens = tokenize(rawText);
     const tokenCounts = new Map();
     tokens.forEach(token => tokenCounts.set(token, (tokenCounts.get(token) || 0) + 1));
-    return {
-      order,
-      record,
-      rawText,
-      normalizedText,
-      tokens,
-      tokenCounts,
-      sourceIds: sourceIdsForRecord(record),
-      chapters: chaptersForRecord(record)
-    };
+    return {order, record, rawText, normalizedText, tokens, tokenCounts, sourceIds: sourceIdsForRecord(record), chapters: chaptersForRecord(record)};
   });
 }
 
@@ -326,14 +299,7 @@ function buildSourcesIndex() {
   const grouped = new Map();
   for (const record of ALL_RECORDS) {
     for (const sourceId of sourceIdsForRecord(record)) {
-      if (!grouped.has(sourceId)) {
-        grouped.set(sourceId, {
-          source_id: sourceId,
-          source_label: sourceLabel(sourceId),
-          records: [],
-          counts: {atom: 0, quote: 0, chronology: 0, person: 0, song: 0, concept: 0, myth: 0, motif: 0, source: 0, metadata: 0}
-        });
-      }
+      if (!grouped.has(sourceId)) grouped.set(sourceId, {source_id: sourceId, source_label: sourceLabel(sourceId), records: [], counts: {atom: 0, quote: 0, chronology: 0, person: 0, song: 0, concept: 0, myth: 0, motif: 0, source: 0, metadata: 0}});
       const entry = grouped.get(sourceId);
       entry.records.push(record);
       entry.counts[record.kind] = (entry.counts[record.kind] || 0) + 1;
@@ -343,8 +309,9 @@ function buildSourcesIndex() {
 }
 
 function renderSources() {
-  const container = document.getElementById('sources-list');
-  const count = document.getElementById('sources-count');
+  const container = $('sources-list');
+  const count = $('sources-count');
+  if (!container || !count) return;
   container.innerHTML = '';
   count.textContent = `${SOURCES_INDEX.length} source(s)`;
   for (const source of SOURCES_INDEX) {
@@ -359,13 +326,13 @@ function renderSources() {
 }
 
 function clearResults() {
-  document.getElementById('results').innerHTML = '';
-  document.getElementById('results-meta').textContent = '';
-  document.getElementById('pagination').innerHTML = '';
+  if ($('results')) $('results').innerHTML = '';
+  if ($('results-meta')) $('results-meta').textContent = '';
+  if ($('pagination')) $('pagination').innerHTML = '';
 }
 
 function addField(dl, key, value) {
-  if (value === undefined || value === null || value === '') return;
+  if (!dl || value === undefined || value === null || value === '') return;
   const dt = document.createElement('dt');
   dt.textContent = key;
   const dd = document.createElement('dd');
@@ -375,7 +342,8 @@ function addField(dl, key, value) {
 }
 
 function renderPagination(totalPages) {
-  const container = document.getElementById('pagination');
+  const container = $('pagination');
+  if (!container) return;
   container.innerHTML = '';
   if (totalPages <= 1) return;
 
@@ -384,57 +352,62 @@ function renderPagination(totalPages) {
     button.textContent = label;
     button.disabled = disabled;
     if (active) button.classList.add('active');
-    button.addEventListener('click', () => {
-      CURRENT_PAGE = page;
-      renderCurrentPage();
-    });
+    button.addEventListener('click', () => { CURRENT_PAGE = page; renderCurrentPage(); });
     return button;
   };
 
   container.appendChild(makeButton('←', Math.max(1, CURRENT_PAGE - 1), CURRENT_PAGE === 1));
   const start = Math.max(1, CURRENT_PAGE - 3);
   const end = Math.min(totalPages, CURRENT_PAGE + 3);
-  for (let page = start; page <= end; page += 1) {
-    container.appendChild(makeButton(String(page), page, false, page === CURRENT_PAGE));
-  }
+  for (let page = start; page <= end; page += 1) container.appendChild(makeButton(String(page), page, false, page === CURRENT_PAGE));
   container.appendChild(makeButton('→', Math.min(totalPages, CURRENT_PAGE + 1), CURRENT_PAGE === totalPages));
 }
 
 function renderCurrentPage() {
-  clearResults();
-  const results = document.getElementById('results');
-  const meta = document.getElementById('results-meta');
-  const template = document.getElementById('result-template');
-  const total = LAST_RESULTS.length;
-  const totalPages = Math.ceil(total / RESULTS_PER_PAGE) || 1;
-  const start = (CURRENT_PAGE - 1) * RESULTS_PER_PAGE;
-  const pageResults = LAST_RESULTS.slice(start, start + RESULTS_PER_PAGE);
+  try {
+    clearResults();
+    const results = $('results');
+    const meta = $('results-meta');
+    const template = $('result-template');
+    if (!results || !meta || !template) throw new Error('Élément HTML manquant : results, results-meta ou result-template.');
 
-  meta.textContent = `${total} résultat(s) · page ${CURRENT_PAGE}/${totalPages}`;
+    const total = LAST_RESULTS.length;
+    const totalPages = Math.ceil(total / RESULTS_PER_PAGE) || 1;
+    const start = (CURRENT_PAGE - 1) * RESULTS_PER_PAGE;
+    const pageResults = LAST_RESULTS.slice(start, start + RESULTS_PER_PAGE);
+    meta.textContent = `${total} résultat(s) · page ${CURRENT_PAGE}/${totalPages}`;
 
-  if (!pageResults.length) {
-    const empty = document.createElement('div');
-    empty.className = 'status-card';
-    empty.textContent = 'Aucun résultat.';
-    results.appendChild(empty);
-    return;
+    if (!pageResults.length) {
+      const empty = document.createElement('div');
+      empty.className = 'status-card';
+      empty.textContent = 'Aucun résultat.';
+      results.appendChild(empty);
+      return;
+    }
+
+    for (const item of pageResults) {
+      if (!item || !item.record) continue;
+      const node = template.content.cloneNode(true);
+      const kind = node.querySelector('.result-kind');
+      const score = node.querySelector('.result-score');
+      const title = node.querySelector('.result-title');
+      const file = node.querySelector('.result-file');
+      const fields = node.querySelector('.result-fields');
+      if (kind) kind.textContent = item.record.kind || '';
+      if (score) score.textContent = `score ${item.score}`;
+      if (title) title.textContent = item.record.id || item.record.summary_fields?.titre || '(sans id)';
+      if (file) file.textContent = item.record.file || '';
+      for (const [key, value] of Object.entries(item.record.summary_fields || {})) addField(fields, key, value);
+      results.appendChild(node);
+    }
+    renderPagination(totalPages);
+  } catch (error) {
+    showError('Erreur pendant le rendu des résultats.', error);
   }
-
-  for (const item of pageResults) {
-    const node = template.content.cloneNode(true);
-    node.querySelector('.result-kind').textContent = item.record.kind;
-    node.querySelector('.result-score').textContent = `score ${item.score}`;
-    node.querySelector('.result-title').textContent = item.record.id || item.record.summary_fields.titre || '(sans id)';
-    node.querySelector('.result-file').textContent = item.record.file || '';
-    const fields = node.querySelector('.result-fields');
-    for (const [key, value] of Object.entries(item.record.summary_fields)) addField(fields, key, value);
-    results.appendChild(node);
-  }
-  renderPagination(totalPages);
 }
 
 function renderResults(scored, perPage = 10) {
-  LAST_RESULTS = scored;
+  LAST_RESULTS = Array.isArray(scored) ? scored : [];
   RESULTS_PER_PAGE = Number(perPage) || 10;
   CURRENT_PAGE = 1;
   renderCurrentPage();
@@ -453,7 +426,6 @@ function scoreIndexedRecord(indexed, terms, normalizedQuery) {
   let score = exactPhraseBonus(indexed.normalizedText, normalizedQuery);
   let matchedTerms = 0;
   const details = [];
-
   for (const term of terms) {
     const count = indexed.tokenCounts.get(term) || 0;
     const partial = count ? 0 : (indexed.normalizedText.includes(term) ? 1 : 0);
@@ -464,12 +436,9 @@ function scoreIndexedRecord(indexed, terms, normalizedQuery) {
       details.push(`${term}:${count || 'partial'}`);
     }
   }
-
   if (terms.length && matchedTerms === terms.length) score += 12;
-  if (indexed.record.id && normalizedText(indexed.record.id).includes(normalizedQuery)) score += 20;
-  score = Math.round(score * kindWeight(indexed.record.kind));
-
-  return {score, matchedTerms, details};
+  if (indexed.record.id && normalizeText(indexed.record.id).includes(normalizedQuery)) score += 20;
+  return {score: Math.round(score * kindWeight(indexed.record.kind)), matchedTerms, details};
 }
 
 function scoreRecords(query, kind) {
@@ -481,54 +450,48 @@ function scoreRecords(query, kind) {
   for (const indexed of SEARCH_INDEX) {
     if (kind && indexed.record.kind !== kind) continue;
     const scored = scoreIndexedRecord(indexed, terms, normalizedQuery);
-    if (scored.score > 0) {
-      results.push({
-        score: scored.score,
-        record: conciseRecord(indexed.record, scored.details.join(', ')),
-        order: indexed.order
-      });
-    }
+    if (scored.score > 0) results.push({score: scored.score, record: conciseRecord(indexed.record, scored.details.join(', ')), order: indexed.order});
   }
-
   return results.sort((a, b) => (b.score - a.score) || (a.order - b.order));
 }
 
 function openSource(sourceId) {
   const source = SOURCES_INDEX.find(item => item.source_id === sourceId);
   if (!source) return;
-  document.getElementById('results-title').textContent = source.source_label;
-  const scored = source.records.map((record, index) => ({score: 'source', record: conciseRecord(record), order: index}));
-  renderResults(scored, document.getElementById('top').value);
+  $('results-title').textContent = source.source_label;
+  renderResults(source.records.map((record, index) => ({score: 'source', record: conciseRecord(record), order: index})), $('top')?.value || 10);
 }
 
 async function performSearch(query, kind, top) {
-  document.getElementById('results-title').textContent = 'Résultats';
-  document.getElementById('results').innerHTML = '<div class="status-card">Recherche en cours…</div>';
-  const scored = scoreRecords(query, kind);
-  renderResults(scored, top);
+  try {
+    $('results-title').textContent = 'Résultats';
+    $('results').innerHTML = '<div class="status-card">Recherche en cours…</div>';
+    const scored = scoreRecords(query, kind);
+    renderResults(scored, top);
+  } catch (error) {
+    showError('Erreur pendant la recherche.', error);
+  }
 }
 
 async function loadCorpus() {
-  const card = document.getElementById('status-card');
+  const card = $('status-card');
   try {
     const [records, registry, quotesMd] = await Promise.all([
       loadJson('../../exports/generated/all_records.json', []),
       loadJson('../../data/registre.json', []),
       loadText('../../registers/quotes/master_quotes.md', '')
     ]);
-
     SOURCE_LABELS = buildSourceLabels(registry, records);
     ALL_RECORDS = mergeConsolidatedQuotes(records, parseConsolidatedQuotesMarkdown(quotesMd));
     buildSearchIndex(ALL_RECORDS);
     buildSourcesIndex();
     renderSources();
-
     const counts = {};
     for (const record of ALL_RECORDS) counts[record.kind || 'unknown'] = (counts[record.kind || 'unknown'] || 0) + 1;
     const summary = Object.entries(counts).sort().map(([kind, count]) => `${kind}: ${count}`).join(' · ');
-    card.textContent = `RAG 1 lexical chargé · ${ALL_RECORDS.length} enregistrements · ${summary}`;
+    if (card) card.textContent = `RAG 1 lexical chargé · ${ALL_RECORDS.length} enregistrements · ${summary}`;
   } catch (error) {
-    card.textContent = `Erreur : ${error.message}`;
+    if (card) card.textContent = `Erreur : ${error.message}`;
   }
 }
 
@@ -536,19 +499,20 @@ function bindExamples() {
   for (const button of document.querySelectorAll('.example-query')) {
     button.addEventListener('click', () => {
       const query = button.dataset.query;
-      document.getElementById('query').value = query;
-      performSearch(query, '', document.getElementById('top').value);
+      $('query').value = query;
+      performSearch(query, '', $('top')?.value || 10);
     });
   }
 }
 
 function bindForm() {
-  const form = document.getElementById('search-form');
+  const form = $('search-form');
+  if (!form) return;
   form.addEventListener('submit', async event => {
     event.preventDefault();
-    const query = document.getElementById('query').value.trim();
-    const kind = document.getElementById('kind').value;
-    const top = document.getElementById('top').value;
+    const query = $('query').value.trim();
+    const kind = $('kind').value;
+    const top = $('top').value;
     if (!query) return;
     await performSearch(query, kind, top);
   });
