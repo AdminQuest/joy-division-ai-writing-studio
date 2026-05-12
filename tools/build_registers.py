@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-Joy Division AI Writing Studio — Documentary parser v0.5
+Joy Division AI Writing Studio — Documentary parser v0.6
 
 This script scans Markdown files, extracts fenced YAML blocks, classifies records,
 normalizes source identifiers, validates them through the schema validation layer,
 and generates JSON/CSV exports for RAG and documentary control.
 
 v0.5 makes data/registre.json the canonical source registry for source labels.
+v0.6 produces a permanent, structured diagnostic report even when no error is found.
 """
 
 from __future__ import annotations
@@ -118,21 +119,22 @@ def normalize_source_entry(entry: Dict[str, Any]) -> Optional[Tuple[str, Dict[st
     label = str(entry.get("source_label") or f"{source_id} — {auteur}, {titre}, {annee}".rstrip(", "))
     return source_id, {"auteur": auteur, "titre": titre, "annee": annee, "label": label}
 
-def load_source_labels() -> Dict[str, Dict[str, str]]:
-    labels: Dict[str, Dict[str, str]] = dict(FALLBACK_SOURCE_LABELS)
+def load_source_registry_entries() -> List[Dict[str, Any]]:
     if not SOURCE_REGISTRY_PATH.exists():
-        return labels
+        return []
     try:
         registry = json.loads(SOURCE_REGISTRY_PATH.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
         print(f"Warning: unable to parse {rel(SOURCE_REGISTRY_PATH)}: {exc}", file=sys.stderr)
-        return labels
+        return []
     if not isinstance(registry, list):
         print(f"Warning: {rel(SOURCE_REGISTRY_PATH)} must contain a JSON list.", file=sys.stderr)
-        return labels
-    for entry in registry:
-        if not isinstance(entry, dict):
-            continue
+        return []
+    return [entry for entry in registry if isinstance(entry, dict)]
+
+def load_source_labels() -> Dict[str, Dict[str, str]]:
+    labels: Dict[str, Dict[str, str]] = dict(FALLBACK_SOURCE_LABELS)
+    for entry in load_source_registry_entries():
         normalized = normalize_source_entry(entry)
         if not normalized:
             continue
@@ -398,6 +400,165 @@ def build_source_registry(records: List[ParsedRecord]) -> List[Dict[str, Any]]:
         result.append(entry)
     return sorted(result, key=lambda e: e["source_id"])
 
+def source_ids_from_registry() -> Dict[str, Dict[str, Any]]:
+    declared: Dict[str, Dict[str, Any]] = {}
+    for entry in load_source_registry_entries():
+        normalized = normalize_source_entry(entry)
+        if not normalized:
+            continue
+        source_id, label = normalized
+        declared[source_id] = {
+            "source_id": source_id,
+            "source_label": label.get("label", source_id),
+            "auteur": label.get("auteur", "Inconnu"),
+            "titre": label.get("titre", source_id),
+            "annee": label.get("annee", ""),
+            "statut": entry.get("statut", ""),
+            "usage": entry.get("usage", ""),
+        }
+    return declared
+
+def source_ids_from_records(records: List[ParsedRecord]) -> List[str]:
+    used = set()
+    for record in records:
+        data = record.data or {}
+        if isinstance(data.get("source_id"), str):
+            used.add(normalize_identifier(data["source_id"]))
+        if isinstance(data.get("sources"), list):
+            for source in data["sources"]:
+                if isinstance(source, str) and re.match(r"^S\d+$", source):
+                    used.add(normalize_identifier(source))
+    return sorted(used)
+
+def weak_source_labels(sources: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    weak: List[Dict[str, Any]] = []
+    for source in sources:
+        source_id = source.get("source_id", "")
+        label = source.get("source_label", "")
+        auteur = source.get("auteur", "")
+        titre = source.get("titre", "")
+        if label == source_id or auteur == "Inconnu" or titre == source_id:
+            weak.append({
+                "source_id": source_id,
+                "source_label": label,
+                "auteur": auteur,
+                "titre": titre,
+            })
+    return weak
+
+def build_diagnostics_payload(records: List[ParsedRecord], diagnostics: List[Diagnostic], sources: List[Dict[str, Any]]) -> Dict[str, Any]:
+    counts: Dict[str, int] = {}
+    for record in records:
+        counts[record.kind] = counts.get(record.kind, 0) + 1
+
+    declared = source_ids_from_registry()
+    used_ids = source_ids_from_records(records)
+    used_set = set(used_ids)
+    declared_set = set(declared.keys())
+    exported_set = {source.get("source_id") for source in sources}
+
+    errors = [diag for diag in diagnostics if diag.level == "error"]
+    warnings = [diag for diag in diagnostics if diag.level == "warning"]
+    declared_but_unused = [declared[source_id] for source_id in sorted(declared_set - used_set)]
+    used_but_missing = sorted(used_set - declared_set)
+    weak_labels = weak_source_labels(sources)
+
+    status = "ok"
+    if errors or used_but_missing:
+        status = "error"
+    elif warnings or weak_labels:
+        status = "warning"
+
+    return {
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "status": status,
+        "summary": {
+            "records_total": len(records),
+            "records_by_kind": counts,
+            "diagnostics_total": len(diagnostics),
+            "errors": len(errors),
+            "warnings": len(warnings),
+            "sources_declared_in_registre_json": len(declared_set),
+            "sources_used_in_records": len(used_set),
+            "sources_exported": len(exported_set),
+            "declared_but_unused": len(declared_but_unused),
+            "used_but_missing_from_registre_json": len(used_but_missing),
+            "weak_source_labels": len(weak_labels),
+        },
+        "controls": {
+            "declared_but_unused": declared_but_unused,
+            "used_but_missing_from_registre_json": used_but_missing,
+            "weak_source_labels": weak_labels,
+            "exported_sources": sources,
+        },
+        "issues": [asdict(diag) for diag in diagnostics],
+    }
+
+def write_diagnostics_markdown(path: Path, payload: Dict[str, Any]) -> None:
+    summary = payload.get("summary", {})
+    controls = payload.get("controls", {})
+    lines = [
+        "# Diagnostic du repo documentaire",
+        "",
+        f"Généré le : `{payload.get('generated_at', '')}`",
+        "",
+        f"Statut : **{payload.get('status', 'unknown')}**",
+        "",
+        "## Synthèse",
+        "",
+        f"- Enregistrements : {summary.get('records_total', 0)}",
+        f"- Erreurs : {summary.get('errors', 0)}",
+        f"- Avertissements : {summary.get('warnings', 0)}",
+        f"- Sources déclarées dans `data/registre.json` : {summary.get('sources_declared_in_registre_json', 0)}",
+        f"- Sources utilisées dans les enregistrements : {summary.get('sources_used_in_records', 0)}",
+        f"- Sources exportées : {summary.get('sources_exported', 0)}",
+        f"- Sources déclarées mais non utilisées : {summary.get('declared_but_unused', 0)}",
+        f"- Sources utilisées mais absentes du registre : {summary.get('used_but_missing_from_registre_json', 0)}",
+        f"- Libellés faibles : {summary.get('weak_source_labels', 0)}",
+        "",
+        "## Enregistrements par type",
+        "",
+    ]
+    for kind, count in sorted((summary.get("records_by_kind") or {}).items()):
+        lines.append(f"- {kind} : {count}")
+
+    lines += ["", "## Sources utilisées mais absentes du registre", ""]
+    missing = controls.get("used_but_missing_from_registre_json") or []
+    if missing:
+        lines.extend(f"- {source_id}" for source_id in missing)
+    else:
+        lines.append("Aucune.")
+
+    lines += ["", "## Sources déclarées mais non utilisées", ""]
+    unused = controls.get("declared_but_unused") or []
+    if unused:
+        for source in unused:
+            lines.append(f"- {source.get('source_label', source.get('source_id', ''))} — statut : {source.get('statut', '')}")
+    else:
+        lines.append("Aucune.")
+
+    lines += ["", "## Libellés faibles", ""]
+    weak = controls.get("weak_source_labels") or []
+    if weak:
+        for source in weak:
+            lines.append(f"- {source.get('source_id', '')} : {source.get('source_label', '')}")
+    else:
+        lines.append("Aucun.")
+
+    lines += ["", "## Problèmes YAML / schéma", ""]
+    issues = payload.get("issues") or []
+    if issues:
+        for issue in issues[:100]:
+            record = f" [{issue.get('record_id')}]" if issue.get("record_id") else ""
+            lines.append(f"- **{issue.get('level', '').upper()}** `{issue.get('file', '')}`{record} : {issue.get('message', '')}")
+        if len(issues) > 100:
+            lines.append(f"- … {len(issues) - 100} problèmes supplémentaires dans `diagnostics.json`.")
+    else:
+        lines.append("Aucun.")
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
 def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) -> None:
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
     atoms = records_by_kind(records, "atom")
@@ -406,6 +567,8 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     songs = records_by_kind(records, "song")
     people = records_by_kind(records, "person")
     sources = build_source_registry(records)
+    diagnostics_payload = build_diagnostics_payload(records, diagnostics, sources)
+
     write_json(EXPORT_DIR / "atoms.json", [asdict(r) for r in atoms])
     write_json(EXPORT_DIR / "quotes.json", [asdict(r) for r in quotes])
     write_json(EXPORT_DIR / "chronology.json", [asdict(r) for r in chronology])
@@ -414,7 +577,9 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     write_json(EXPORT_DIR / "sources.json", sources)
     write_json(EXPORT_DIR / "all_records.json", [asdict(record) for record in records])
     write_json(EXPORT_DIR / "index_by_id.json", {record.id: asdict(record) for record in records})
-    write_json(EXPORT_DIR / "diagnostics.json", [asdict(d) for d in diagnostics])
+    write_json(EXPORT_DIR / "diagnostics.json", diagnostics_payload)
+    write_diagnostics_markdown(EXPORT_DIR / "diagnostics.md", diagnostics_payload)
+
     write_csv(EXPORT_DIR / "atoms.csv", atoms, [
         "source_id", "source_label", "source_short_title", "auteur", "titre", "pages_pdf",
         "type_unite", "concepts", "chapitres", "statut", "fiabilite", "role_argumentatif",
@@ -428,6 +593,8 @@ def build_exports(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
     write_csv(EXPORT_DIR / "people.csv", people, ["name", "full_name", "role", "sources", "chapters", "certainty"])
     source_csv_records = [ParsedRecord("source", e["source_id"], "exports/generated/sources.json", None, e) for e in sources]
     write_csv(EXPORT_DIR / "sources.csv", source_csv_records, ["source_id", "source_label", "auteur", "titre", "annee", "records", "atoms", "quotes", "chronology", "files"])
+    diagnostic_csv_records = [ParsedRecord("diagnostic", f"D{idx:04d}", "exports/generated/diagnostics.json", None, asdict(diag)) for idx, diag in enumerate(diagnostics, start=1)]
+    write_csv(EXPORT_DIR / "diagnostics.csv", diagnostic_csv_records, ["level", "file", "record_id", "message"])
 
 def print_summary(records: List[ParsedRecord], diagnostics: List[Diagnostic]) -> None:
     counts: Dict[str, int] = {}
