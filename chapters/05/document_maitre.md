@@ -6,638 +6,596 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
+generated_at: "2026-05-12T20:47:42"
 ```
 
-## 1. Statut du chapitre
-
-- Numéro : 5
-- Titre : La troisième racine : Peter Saville et l'esthétique du vide
-- État : à consolider depuis les atomes et registres
-- Génération : automatique depuis `exports/generated/`
-
-## 2. Fonction du chapitre
+## 1. Fonction du chapitre
 
 Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vide comme architecture parallèle au son.
 
-## 3. Périmètre
+## 2. Questions directrices
 
-### 3.1 Inclus
+- Comment Factory fabrique-t-elle une esthétique du vide ?
+- Quelles attributions Saville faut-il vérifier ?
 
-Périmètre documentaire propre au chapitre, sources rattachées, motifs conceptuels et éléments utiles à la rédaction.
+## 3. Tableau de bord documentaire
 
-### 3.2 Hors champ explicite
+| Indicateur | Valeur |
+|---|---|
+| Atomes | 185 |
+| Atomes critiques / majeurs | 17 |
+| Citations | 10 |
+| Événements chronologiques | 2 |
+| Personnes | 8 |
+| Chansons | 3 |
+| Sources mobilisées | 8 |
 
-Les développements relevant d’un autre chapitre doivent être renvoyés au document maître correspondant.
+## 4. Sources mobilisées
 
-## 4. Questions directrices
+| ID | Source | Atomes | Citations |
+|---|---|---|---|
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 63 | 4 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 4 | 1 |
+| S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
+| S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
+| S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
+| S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
+| S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
+| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 
-- Quel problème le chapitre résout-il dans l’économie générale du livre ?
-- Quelles sources permettent de stabiliser le propos ?
-- Quels risques de doublons doivent être maîtrisés ?
+## 5. Atomes critiques ou majeurs
 
-## 5. Hypothèses interprétatives
+- - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
+- - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
+- - **S74-A033** — S74-A033 — Cargo Studios : Digital et Glass comme seuil Hannett/Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A034** — S74-A034 — Hannett comme génie erratique : vision sonore et échecs répétés  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `portrait_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
+- - **S74-A039** — S74-A039 — Hannett, digital delay et invention d’espaces imaginaires  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A040** — S74-A040 — Hannett contre le groupe : conflit de contrôle et mixage sans témoins  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `conflit_studio` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- - **S74-A041** — S74-A041 — Unknown Pleasures : rejet initial du son par le groupe  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- - **S74-A042** — S74-A042 — Unknown Pleasures : beauté contenue, menace retenue et profit inattendu  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
+- - **S74-A045** — S74-A045 — Transmission : promesse de percée et échec commercial immédiat  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_single` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A047** — S74-A047 — Factory Club comme véritable foyer scénique de Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- - **S74-A048** — S74-A048 — Rainbow Theatre : la crise d’épilepsie comme effondrement scénique public  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A049** — S74-A049 — Derby Hall : erreur collective, expérimentation Factory et émeute  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `evenement_crise` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A056** — S74-A056 — Closer et Love Will Tear Us Apart : beauté posthume, design funéraire et campagne américaine absurde  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
+- - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
+- - **S74-A038** — S74-A038 — Strawberry Studios : Unknown Pleasures comme investissement disproportionné  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `majeure` ; preuve : `corrobore`.
+- - **S74-A051** — S74-A051 — Gretton, Sordide Sentimentale et l’émotion managériale devant « Dead Souls » et « Atmosphere »  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_affectif` ; importance : `majeure` ; preuve : `temoignage_direct_auteur`.
 
-- Le chapitre doit rester une vue de consolidation, non un texte final.
-- Les sources rattachées orientent la rédaction mais ne remplacent pas la vérification.
+## 6. Autres atomes utiles
 
-## 6. Sources primaires mobilisées
+- - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-018** — S41-018 — Apprendre « mal » : naissance d’un style mélodique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-036** — S41-036 — Naissance du son Joy Division par contrainte d’amplification  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-037** — S41-037 — T. J. Davidson’s : lieu de cristallisation sonore et visuelle  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-044** — S41-044 — Tony Wilson repère Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-055** — S41-055 — « Transmission » comme premier moment d’évidence collective  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-057** — S41-057 — Tony Wilson, Alan Erasmus et naissance de Factory comme lieu  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_historique` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-058** — S41-058 — Premier concert Factory de Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-062** — S41-062 — Première apparition télévisée : Granada Reports et « Shadowplay »  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-064** — S41-064 — Image scénique de Hook : basse basse, jeu aigu  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-066** — S41-066 — *A Factory Sample* : du club au label  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-067** — S41-067 — Absence de contrat et idéalisme Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-068** — S41-068 — Tony Wilson comme médiateur symbolique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-069** — S41-069 — Ian Curtis et Tony Wilson : affinité intellectuelle  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-071** — S41-071 — Martin Hannett : première impression de sorcier technique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-073** — S41-073 — « Digital » et « Glass » : meilleure captation du groupe à ce stade  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-074** — S41-074 — Assemblage matériel de *A Factory Sample*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_materiel` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-081** — S41-081 — Timeline 1978 : ossature factuelle de la métamorphose  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-082** — S41-082 — Le dilemme Genetic / Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_strategique` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-083** — S41-083 — Rob Gretton contre l’avance discographique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-084** — S41-084 — Manchester contre Londres : géographie de l’indépendance  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-085** — S41-085 — La contradiction sociale du refus de Genetic  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-086** — S41-086 — Martin Rushent et la tentation d’une captation plus directe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-087** — S41-087 — Les « Genetic demos » comme bifurcation fantôme  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-089** — S41-089 — Factory comme liberté musicale complète  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_strategique` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-090** — S41-090 — L’accord Factory : partage plus que contrat traditionnel  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_juridico_economique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-091** — S41-091 — Préparation de *Unknown Pleasures* : passer de la scène au studio  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-092** — S41-092 — Strawberry Studios : infrastructure technique du seuil esthétique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-093** — S41-093 — Hannett contre le groupe : le malentendu fondateur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `conflit_esthetique` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-094** — S41-094 — La batterie de Stephen Morris comme matériau de laboratoire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-095** — S41-095 — Hannett et la production comme dénaturalisation du groupe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-096** — S41-096 — Le refus initial de Hook face au son de *Unknown Pleasures*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_interne` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-097** — S41-097 — La grandeur rétrospective de l’erreur perçue  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-098** — S41-098 — Peter Saville et la pochette : image froide pour son froid  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-099** — S41-099 — *Unknown Pleasures* : sortie sans emballement commercial immédiat  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-100** — S41-100 — La critique comme confirmation extérieure  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-101** — S41-101 — « She’s Lost Control » : entre observation professionnelle et résonance biographique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_contexte` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-104** — S41-104 — Live : le décalage entre puissance scénique et image studio  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-106** — S41-106 — Rob Gretton comme pare-chocs contre l’industrie  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait_fonctionnel` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-108** — S41-108 — La photographie et l’image publique du groupe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-109** — S41-109 — Le succès indépendant comme reconnaissance sans sécurité  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_economique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-110** — S41-110 — Fin du segment : avant le commentaire piste par piste  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-111** — S41-111 — « Disorder » : basse motrice et chaos contrôlé  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-112** — S41-112 — « Day of the Lords » : lenteur lourde contre vitesse punk  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-113** — S41-113 — « Candidate » : espace vide et frustration de Hook  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `réception_interne` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-114** — S41-114 — « Insight » : la mélancolie comme architecture  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-115** — S41-115 — « New Dawn Fades » : la basse comme chant secondaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-116** — S41-116 — « She’s Lost Control » : machine, répétition et panique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-118** — S41-118 — « Shadowplay » : la ville comme labyrinthe mental  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-119** — S41-119 — « Wilderness » : survivance du punk dans Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-120** — S41-120 — « Interzone » : héritage Stooges et Velvet Underground  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `influences` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-121** — S41-121 — « I Remember Nothing » : disparition et vide final  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-122** — S41-122 — L’album comme unité émotionnelle complète  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-125** — S41-125 — « Transmission » : le premier hymne collectif  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-127** — S41-127 — « Atmosphere » : rupture émotionnelle majeure  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-128** — S41-128 — Hannett et l’espace spectral d’« Atmosphere »  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-129** — S41-129 — Le groupe s’éloigne définitivement du punk  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition_esthetique` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-153** — S41-153 — 2 septembre 1980 : « Atmosphere » / « She’s Lost Control » en 12 pouces  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-C02** — S41-C02 — La basse comme instrument principal de Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- - **S41-C03** — S41-C03 — Martin Hannett comme reconstructeur sonore  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- - **S41-C05** — S41-C05 — Joy Division comme tension entre live et studio  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- - **S45-013** — S45-013 — Factory Sample : première froideur Hannett  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-016** — S45-016 — Factory introduit une nouvelle hiérarchie affective  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `dynamique_collective` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-017** — S45-017 — Deborah vit l’entourage Factory comme un espace masculin fermé  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-010** — S46-010 — Le Stiff/Chiswick Challenge comme bascule Gretton-Wilson  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-013** — S46-013 — Les badges Joy Division et Better Badges  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-014** — S46-014 — Factory I, Russell Club, 9 juin 1978  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-015** — S46-015 — *An Ideal for Living* 7 pouces : autoproduction et mauvais pressage  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-016** — S46-016 — *An Ideal for Living* 12 pouces : Anonymous Records et messages de run-out  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-017** — S46-017 — *A Factory Sample* et Cargo Studios  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-020** — S46-020 — Strawberry Studios et l’enregistrement d’*Unknown Pleasures*  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-022** — S46-022 — Pochette d’*Unknown Pleasures* et source scientifique du motif  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-023** — S46-023 — *Transmission* comme single de relance et attraction des majors  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_strategie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-032** — S46-032 — Factory Club comme vrai point de naissance artistique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_temoin` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-033** — S46-033 — Autoédition du 7 pouces *An Ideal for Living*  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-034** — S46-034 — Mauvaise qualité sonore du 7 pouces  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-035** — S46-035 — La pochette de *An Ideal for Living* comme foyer de polémique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie_polemique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
-- S41 — Hook, Unknown Pleasures, 2012
-- S45 — Curtis, Touching from a Distance, 1995
-- S46 — Johnson, An Ideal for Living, 1984
-- S47 — West, Joy Division, 1984
-- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
-- S71 — Flowers, Dreams Never End, 1995/2012
-- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
+## 7. Citations disponibles
 
-## 7. Sources secondaires mobilisées
+- - **S46-Q002** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « the spectacle of the alternative »
+- - **S46-Q003** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « where Joy Division started »
+- - **S46-Q004** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « designed, as opposed to decorated »
+- - **S45-Q004** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « cleaner and colder »
+- - **S47-Q006** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « The contract was simply that all profits would be split fifty-fifty between Factory and the band. »
+- - **S47-Q007** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « Factory and Joy Division are contenders. »
+- - **S41-Q004** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « stop-the-press moment »
+- - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
+- - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
+- - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
 
-- À compléter depuis le registre consolidé des références.
+## 8. Chronologie rattachée
 
-## 8. Atomes documentaires rattachés
+- CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
+- CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
 
-- S72 — source
-- S72-A004 — analyse
-- S72-A019 — analyse
-- S72-A033 — analyse
-- S46-121 — discographie
-- S46-122 — discographie
-- S46-124 — session_enregistrement
-- S46-125 — television
-- S46-126 — radio_broadcast
-- S46-127 — television
-- S46-128 — television
-- S46-129 — vigilance_documentaire
-- S46-138 — acteur_image
-- S46-000 — source
-- S46-010 — evenement
-- S46-013 — objet
-- S46-014 — evenement
-- S46-015 — discographie
-- S46-016 — discographie
-- S46-017 — discographie
-- S46-020 — discographie
-- S46-022 — iconographie
-- S46-023 — discographie_strategie
-- S46-105 — enregistrement
-- S46-109 — production_sonore
-- S46-119 — interpretation_factory
-- S46-080 — objet_discographique
-- S46-085 — concert_bascule
-- S46-086 — scene_fondatrice
-- S46-088 — objet_merchandising
-- S46-089 — objet_factory
-- S46-090 — lieu
-- S46-091 — contexte_scene
-- S46-092 — contexte_scene
-- S46-093 — industrie_musicale
-- S46-094 — labels_independants
-- S46-096 — objet_merchandising
-- S46-099 — discographie_album
-- S46-100 — edition_discographique
-- S46-163 — citation_contextuelle
-- S46-172 — theorie_production
-- S46-032 — reception_temoin
-- S46-033 — objet_discographique
-- S46-034 — reception_critique
-- S46-035 — iconographie_polemique
-- S46-037 — objet_discographique
-- S46-038 — paratexte_discographique
-- S46-039 — discographie_factory
-- S46-042 — chronologie_pre_album
-- S46-043 — enregistrement
-- S46-048 — paratexte_discographique
-- S46-049 — design
-- S46-050 — iconographie
-- S46-052 — interpretation_technique
-- S46-053 — reception_critique
-- S46-055 — industrie_musicale
-- S45-016 — dynamique_collective
-- S45-017 — sociologie_scene
-- S45-018 — réception
-- S45-013 — production
-- S71 — source
-- S71-A019 — concert
-- S47-041 — reception_discographique
-- S47-044 — economie_factory
-- S47-048 — reception_album
-- S47-055 — economie_factory
-- S47-056 — economie_musicale
-- S47-057 — strategie_discographique
-- S47-059 — strategie_discographique
-- S47-060 — reception_commerciale
-- S47-063 — objet_artistique
-- S47-079 — analyse
-- S47-105 — statistique_discographique
-- S47-113 — objet_discographique
-- S47-114 — objet_discographique
-- S47-115 — objet_factory
-- S47-116 — production_discographique
-- S47-117 — design_discographique
-- S47-118 — production_album
-- S47-119 — single
-- S47-120 — objet_rare
-- S47-121 — objet_discographique
-- S47-122 — objet_discographique
-- S47-124 — strategie_distribution
-- S47-157 — reception_design
-- S47-164 — lieu_bascule
-- S47-165 — lieu_studio
-- S47-166 — lieu_studio
-- S47-170 — acteur
-- S47-171 — acteur
-- S47-172 — acteur
-- S47-179 — acteurs_objet
-- S47-182 — micro_chronologie
-- S47-183 — micro_chronologie
-- S47-190 — citation_repere
-- S47-015 — gouvernance
-- S47-016 — analyse
-- S47-017 — analyse
-- S47-018 — analyse
-- S47-022 — analyse
+## 9. Personnes et acteurs
 
-## 9. Citations disponibles
+- PERS-002 — Peter Hook
+- PERS-003 — Bernard Sumner
+- PERS-004 — Stephen Morris
+- PERS-006 — Rob Gretton
+- PERS-007 — Tony Wilson
+- PERS-008 — Martin Hannett
+- PERS-009 — Peter Saville
+- PERS-012 — John Brierley
 
-- S46-Q002
-- S46-Q003
-- S46-Q004
-- S45-Q004
-- S47-Q006
-- S47-Q007
-- S41-Q004
-- S41-Q005
-- S41-Q006
-- S41-Q007
+## 10. Chansons rattachées
 
-## 10. Éléments chronologiques rattachés
-
-- À compléter depuis `exports/generated/chronology.json`.
-
-## 11. Chansons rattachées
-
-- À compléter depuis `exports/generated/songs.json`.
-
-## 12. Personnes rattachées
-
-- À compléter depuis `exports/generated/people.json`.
-
-## 13. Concepts mobilisés
-
-- 10cc
-- 12 inch
-- 12 pouces
-- 14 février 1979
-- 15 septembre 1979
-- 1578 copies
-- 1978
-- 1979
-- 20 juillet 1979
-- 20 septembre 1978
-- 31 janvier 1979
-- 7 inch
-- 7 pouces
-- A Factory Sample
-- Acklam Hall
-- Adrian Thrills
-- affinite intellectuelle
-- agressivité
-- Alan Erasmus
-- album
-- alternative
-- alternative sonore
-- ambiguïté politique
-- AMS delay
-- An Ideal for Living
-- And Then Again
-- Anderson
-- Anonymous
-- Anonymous Records
-- anti-centralisme
-- anti-commercialisme
-- anti-decoration
-- anti-punk
-- anti-rock
-- anti-star attitude
-- apprentissage autodidacte
-- ARP Omni
-- Arrow Studios
-- At a Later Date
-- Atmosphere
-- atmosphère urbaine
-- Atrocity Exhibition
-- attente critique
-- Auto-Suggestion
-- autoproduction
-- avance
-- avril 1979
-- badge
-- badges
-- Bascax
-- basse
-- basse melodique
-- basse mélodique
-- batterie
-- BBC
-- BBC-2
-- Bernard Albrecht
-- Bernard Sumner
-- bernard sumner
-- Better Badges
-- bifurcation
-- Bob Krasnow
-- Bob Last
-- bootlegs
-- broadcast
-- Buzzcocks tour
-- Buzzcocks Tour
-- Cabaret Voltaire
-- Candidate
-- canonisation
-- cardboard sleeve
-- Cargo Studios
-- Celestion
-- Central Sound
-- charisme
-- Chiswick Challenge
-- chronologie
-- chronologie concerts
-- cinquième membre
-- closer
-- cloth sleeve
-- clôture
-- cohérence esthétique
-- collectif
-- commentaire rétrospectif
-- communication
-- composition
-- concert
-- conflit
-- conscience urbaine
-- constructivisme
-- contenders
-- continuité émotionnelle
-- Contradiction
-- contrainte materielle
-- contrat
-- contrat américain
-- contre-chant
-- contre-culture
-- contrôle artistique
-- contrôle source
-- critique musicale
-- culte
-- culture musicale
-- danse de curtis
-- Day of the Lords
-- Dead Souls
-- design
-- design conceptuel
-- design Factory
-- Digital
-- discographie
-- Disorder
-- distribution
-- diversité musicale
-- DIY
-- diy
-- droits
-- dub
-- Durutti Column
-- découverte
-- dénaturalisation
-- dénaturalisation sonore
-- Earcom 2
-- Eden Studios
-- Electric Circus
-- Enigma
-- Enigma Records
-- epilepsie
-- epilepsy
-- Eric Random
-- errance
-- erreur de date
-- erreur productive
-- erreur typographique
-- espace
-- espace sonore
-- esthétique sonore
-- Europe
-- exclusion
-- expérience live
-- expérimentation
-- FAC 1
-- FAC 13
-- FAC 2
-- FACT 10
-- Factory
-- Factory Club
-- Factory club
-- Factory I
-- Factory Newsletter
-- Factory Records
-- factory records
-- Factory Sample
-- Factory sound
-- Factory US 2
-- FACTUS 1
-- FACUS2
-- Fast
-- FAST 9B
-- Fast Products
-- femmes
-- flexi disc
-- From Safety to Where
-- frustration
-- frustration du groupe
-- fréquences
-- funk
-- février 1979
-- Genetic demos
-- Genetic Records
-- ghetto de Varsovie
-- Glass
-- Granada
-- Granada Reports
-- Granada TV
-- gratuité
-- guitare
-- géographie émotionnelle
-- Hannett
-- harmoniser
-- histoire Joy Division
-- Hitler Youth drummer sleeve
-- hope and anchor
-- I Remember Nothing
-- Ian Curtis
-- iconographie
-- Ideal for Living
-- idealisme
-- identité visuelle
-- Iggy Pop
-- IKON FCL
-- image
-- image publique
-- image scénique
-- imagerie nazie
-- imploding star
-- importation
-- Incubation
-- industrie musicale
-- indépendance
-- Insight
-- intensité scénique
-- Interzone
-- jah wobble
-- janvier 1979
-- Jean-François Jamoul
-- Jean-Jacques Burnel
-- Jean-Pierre Turmel
-- John Anderson
-- John Brierley
-- John Peel
-- John Peel Session
-- Joy Division
-- joy division
-- juillet 1979
-- Kevin Cummins
-- Komakino
-- Kraftwerk
-- Leaders of Men
-- legitimite
-- lenteur
-- liberté artistique
-- Licht und Blindheit
-- lieux rock
-- live
-- live sound
-- live versus studio
-- live vs studio
-- Londres
-- lourdeur
-- Love Will Tear Us Apart
-- machine
-- major labels
-- Malcolm Whitehead
-- management
-- Manchester
-- manchester
-- Manchester punk
-- Manchester vs London
-- Martin Hannett
-- martin hannett
-- Martin Rushent
-- Martin Zero
-- masculinité
-- mastering
-- matérialité
-- Mayflower Club
-- merchandising
-- mike west
-- minimalisme
-- modernisme sonore
-- Moss Side
-- mythe Hannett
-- mythe ian curtis
-- mélancolie
-- mémoire
-- métropole intérieure
-- naissance artistique
-- New Dawn Fades
-- new order
-- new wave
-- Nigel Bagley
-- NME
-- NME poll
-- noir et blanc
-- non-playing member
-- Novelty
-- numérotation
-- objet Factory
-- obsolescence
-- organisation
-- ouverture album
-- packaging
-- Paul Morley
-- Paul Simonon
-- Peel Session
-- perte de contrôle
-- Pete Shelley
-- Peter Hook
-- peter hook
-- peter saville
-- Peter Saville
-- photographie
-- pochette
-- post-punk
-- posthume
-- premier album
-- première sortie
-- pressage
-- presse musicale
-- priorité du groupe
-- producteur
-- production
-- production directe
-- production sonore
-- profit-sharing
-- protection
-- proto-punk
-- précarité
-- public
-- puissance sonore
-- pulsar
-- punk
-- qualité sonore
-- Rabid Records
-- radio
-- radio waves
-- Rafters
-- ralentissement
-- RCA Sessions
-- reconnaissance
-- reissue
-- repetition
-- retard
-- revelation sonore
-- revenus
-- Richard Boon
-- rob gretton
-- Rob Gretton
-- Robert Palmer
-- Rochdale
-- Roger Eagle
-- Romantic art
-- royalties
-- run-out groove
-- Russell Club
-- russell club
-- rusty lift
-- réception
-- réception critique
-- réception différée
-- réception interne
-- répétition
-- répétitions
-- réverbération
-- science
-- scène locale
-- scène post-punk
-- Searling
-- Second Peel Session
-- seize pistes
-- sessions studio
-- Shadowplay
-- She's Lost Control
-- she's lost control
-- Short Circuit
-- single
-- sleeve design
-- sleeve redesign
-- So It Goes
-- Something Else
-- son Factory
-- son Joy Division
-- son live
-- son post-punk
-- son studio
-- Sordide Sentimental
-- Sordide Sentimentale
-- sortie disque
-- Sound City
-- spectacle
-- split
-- stephen morris
-- Stephen Morris
-- Stiff Chiswick Test
-- Stiff test
-- Stiff Test
-- Still
-- Stockport
-- stratégie
-- Strawberry Studios
-- strawberry studios
-- strobes
-- structure musicale
-- studio
-- studio comme instrument
-- style instrumental
-- succès critique
-- succès indépendant
-- succès relatif
-- synthétiseur
-- système de signes
-- séparation des pistes
-- television
-- tension
-- texture sonore
-- The New York Times
-- Throbbing Gristle
-- Thursdays
-- Tiller Boys
-- timeline
-- TJ Davidson
-- tony wilson
-- Tony Wilson
-- Total Art
-- tracklist
-- traitement sonore
-- Trans-Europe Express
-- transcendance
-- transition posthume
 - Transmission
-- travail salarié
-- travail social
-- Turntable magazine
-- télévision
-- UK pressing
-- underground
-- unité esthétique
-- unknown pleasures
-- Unknown Pleasures
-- Unknown Pleasures Track by Track
-- urban degradation
-- varispeed
-- Velvet Underground
-- ventes
-- vide
-- vide musical
-- vidéo
-- ville
-- vinyle
-- Virgin
-- Virgin Records
-- vitesse
-- voix
-- Walthamstow
-- Warner Brothers
-- Warsaw
-- WEA
-- West Indian cultural centre
-- What's On
-- Wilderness
-- économie
-- économie musicale
-- édition américaine
-- émotion
-- énergie
-- épilepsie
-- équilibre musical
-- évolution
+- She's Lost Control
+- Disorder
 
-## 14. Articulation avec les autres chapitres
+## 11. Concepts récurrents
 
-- À consolider au regard du tableau de cohérence thématique.
+- Factory (31)
+- Martin Hannett (27)
+- Unknown Pleasures (25)
+- Tony Wilson (21)
+- Rob Gretton (17)
+- Peter Saville (15)
+- Transmission (12)
+- Atmosphere (11)
+- Digital (10)
+- A Factory Sample (10)
+- production (10)
+- Factory Records (10)
+- martin hannett (10)
+- An Ideal for Living (8)
+- indépendance (8)
+- Glass (7)
+- Strawberry Studios (7)
+- Ian Curtis (7)
+- espace sonore (6)
+- Dead Souls (6)
+- Manchester (6)
+- She's Lost Control (6)
+- Rafters (6)
+- Russell Club (6)
+- basse melodique (6)
+- post-punk (5)
+- Cargo Studios (5)
+- contrat (5)
+- management (5)
+- unknown pleasures (5)
+- Granada Reports (4)
+- télévision (4)
+- Anonymous Records (4)
+- run-out groove (4)
+- FAC 2 (4)
+- synthétiseur (4)
+- factory records (4)
+- studio (4)
+- basse (3)
+- Earcom 2 (3)
+- Joy Division (3)
+- Shadowplay (3)
+- Better Badges (3)
+- FAC 1 (3)
+- Enigma (3)
+- autoproduction (3)
+- pulsar (3)
+- design Factory (3)
+- reconnaissance (3)
+- album (3)
+- Still (3)
+- ventes (3)
+- Sordide Sentimentale (3)
+- cinquième membre (3)
+- répétition (3)
+- production sonore (3)
+- rob gretton (3)
+- Peter Hook (3)
+- Martin Rushent (3)
+- dub (2)
+- peter hook (2)
+- bernard sumner (2)
+- Licht und Blindheit (2)
+- Sordide Sentimental (2)
+- John Peel (2)
+- Peel Session (2)
+- Stiff Test (2)
+- Chiswick Challenge (2)
+- badges (2)
+- identité visuelle (2)
+- merchandising (2)
+- 7 pouces (2)
+- imagerie nazie (2)
+- Rabid Records (2)
+- Martin Zero (2)
+- avril 1979 (2)
+- premier album (2)
+- Bernard Sumner (2)
+- Warner Brothers (2)
+- Bob Krasnow (2)
 
-## 15. Risques de doublons et points de vigilance
+## 12. Motifs et chaînes relationnelles
 
-- Vérifier les recouvrements avec les chapitres voisins.
-- Ne pas confondre document maître et texte rédigé.
+### 12.1. Motifs dominants
 
-## 16. Lacunes documentaires
+- studio (3)
+- conflit (2)
+- northern soul (1)
+- impasse (1)
+- synthétiseur (1)
+- convention rock (1)
+- frustration (1)
+- entrepôt (1)
+- répétition (1)
+- poussière (1)
+- image industrielle (1)
+- Kevin Cummins (1)
+- Cargo (1)
+- Digital (1)
+- Glass (1)
+- build-up (1)
+- producteur (1)
+- génie erratique (1)
+- légende (1)
+- échec (1)
+- vision sonore (1)
+- investissement (1)
+- risque (1)
+- Strawberry (1)
+- bascule technique (1)
+- digital delay (1)
+- batterie (1)
+- chambre imaginaire (1)
+- isolation sonore (1)
+- visualité du son (1)
+- mixage nocturne (1)
+- contrôle (1)
+- froid (1)
+- fatigue (1)
+- rejet (1)
+- son drainé (1)
+- puissance live (1)
+- canonisation (1)
+- dépossession (1)
+- beauté rare (1)
 
-- À renseigner après nouvelle génération des registres et consolidation des sources.
+### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-## 17. État rédactionnel
+- S74-A025 — prolonge → S74-A023
+- S74-A025 — annonce → S74-A030
+- S74-A025 — nuance → MYTH-004
+- S74-A029 — renforce → CONCEPT_GEOGRAPHIE_EMOTIONNELLE
+- S74-A029 — nuance → MYTH-003
+- S74-A029 — prolonge → S74-A015
+- S74-A033 — nuance → MYTH-004
+- S74-A033 — prolonge → S74-A020
+- S74-A033 — complète → S74-A032
+- S74-A034 — nuance → MYTH-004
+- S74-A034 — complète → S74-A033
+- S74-A034 — prolonge → S74-A010
+- S74-A038 — prolonge → S74-A036
+- S74-A038 — annonce → S74-A039
+- S74-A038 — complète → S74-A033
+- S74-A039 — prolonge → S74-A020
+- S74-A039 — complète → S74-A033
+- S74-A039 — nuance → MYTH-004
+- S74-A040 — nuance → MYTH-004
+- S74-A040 — complète → S74-A039
+- S74-A040 — prolonge → S74-A034
+- S74-A041 — nuance → MYTH-004
+- S74-A041 — complète → S74-A040
+- S74-A041 — annonce → S74-A042
+- S74-A042 — prolonge → S74-A041
+- S74-A042 — complète → S74-A036
+- S74-A042 — nuance → MYTH-006
+- S74-A045 — prolonge → S74-A042
+- S74-A045 — complète → S74-A036
+- S74-A045 — nuance → MYTH-006
+- S74-A047 — prolonge → S74-A030
+- S74-A047 — complète → S74-A045
+- S74-A047 — nuance → MYTH-006
+- S74-A048 — nuance → MYTH-002
+- S74-A048 — prolonge → S74-A047
+- S74-A048 — annonce → S74-A049
+- S74-A049 — prolonge → S74-A048
+- S74-A049 — nuance → MYTH-002
+- S74-A049 — complète → S74-A047
+- S74-A051 — prolonge → S74-A050
+- S74-A051 — annonce → S74-A052
+- S74-A051 — nuance → MYTH-002
+- S74-A056 — prolonge → S74-A055
+- S74-A056 — nuance → MYTH-006
+- S74-A056 — complète → S74-A043
+- S74-A020 — nuance → MYTH-004
+- S74-A020 — prolonge → S74-A010
+- S74-A020 — annonce → CONCEPT_HANNETT_SPATIALISATION
+- S74-A010 — nuance → MYTH-004
+- S74-A010 — illustre → S74-A011
 
-- Fichier généré et versionné pour consultation statique GitHub Pages.
+## 13. Distribution documentaire
+
+### 13.1. Types d’atomes
+
+| Type | Nombre |
+|---|---|
+| analyse_morceau | 10 |
+| concept | 8 |
+| analyse | 7 |
+| discographie | 7 |
+| objet_discographique | 7 |
+| non qualifié | 6 |
+| fait | 6 |
+| production | 4 |
+| concept_transversal | 4 |
+| television | 3 |
+| evenement | 3 |
+| lieu | 3 |
+| reception_critique | 3 |
+| acteur | 3 |
+| session | 3 |
+| interpretation | 3 |
+| contexte_technique | 3 |
+| reception | 3 |
+| iconographie | 2 |
+| enregistrement | 2 |
+| objet_merchandising | 2 |
+| objet_factory | 2 |
+| contexte_scene | 2 |
+| industrie_musicale | 2 |
+| paratexte_discographique | 2 |
+| economie_factory | 2 |
+| strategie_discographique | 2 |
+| lieu_studio | 2 |
+| micro_chronologie | 2 |
+| analyse_studio | 2 |
+| reception_interne | 2 |
+| performance_live | 2 |
+| portrait | 2 |
+| decision_strategique | 2 |
+| transition | 2 |
+| esthétique_visuelle | 2 |
+| session_enregistrement | 1 |
+| radio_broadcast | 1 |
+| vigilance_documentaire | 1 |
+| acteur_image | 1 |
+| objet | 1 |
+| discographie_strategie | 1 |
+| production_sonore | 1 |
+| interpretation_factory | 1 |
+| concert_bascule | 1 |
+| scene_fondatrice | 1 |
+| labels_independants | 1 |
+| discographie_album | 1 |
+| edition_discographique | 1 |
+| citation_contextuelle | 1 |
+| theorie_production | 1 |
+| reception_temoin | 1 |
+| iconographie_polemique | 1 |
+| discographie_factory | 1 |
+| chronologie_pre_album | 1 |
+| design | 1 |
+| interpretation_technique | 1 |
+| dynamique_collective | 1 |
+| sociologie_scene | 1 |
+| réception | 1 |
+| concert | 1 |
+| reception_discographique | 1 |
+| reception_album | 1 |
+| economie_musicale | 1 |
+| reception_commerciale | 1 |
+| objet_artistique | 1 |
+| statistique_discographique | 1 |
+| production_discographique | 1 |
+| design_discographique | 1 |
+| production_album | 1 |
+| single | 1 |
+| objet_rare | 1 |
+| strategie_distribution | 1 |
+| reception_design | 1 |
+| lieu_bascule | 1 |
+| acteurs_objet | 1 |
+| citation_repere | 1 |
+| gouvernance | 1 |
+| portrait_critique | 1 |
+| conflit_studio | 1 |
+| reception_single | 1 |
+| evenement_crise | 1 |
+| temoignage_affectif | 1 |
+| reception_posthume | 1 |
+| biographie | 1 |
+| contexte_historique | 1 |
+| contexte_materiel | 1 |
+| chronologie | 1 |
+| tension | 1 |
+| contexte_juridico_economique | 1 |
+| conflit_esthetique | 1 |
+| interpretation_retrospective | 1 |
+| chanson_contexte | 1 |
+| portrait_fonctionnel | 1 |
+| contexte_economique | 1 |
+| réception_interne | 1 |
+| influences | 1 |
+| transition_esthetique | 1 |
+| relation | 1 |
+
+### 13.2. Importance documentaire
+
+| Importance | Nombre |
+|---|---|
+| non qualifiée | 168 |
+| critique | 14 |
+| majeure | 3 |
+
+## 14. Risques de surinterprétation et points de vigilance
+
+- S74-A025 [moyen] — risque de juger la session seulement comme fiasco sans voir les tensions formatrices qu’elle révèle
+- S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
+- S74-A033 [eleve] — risque de surestimer ou de sous-estimer Hannett au détriment du travail collectif
+- S74-A034 [eleve] — risque de basculer soit dans l’hagiographie, soit dans la démolition anecdotique
+- S74-A038 [faible] — le risque financier est historiquement pertinent et cohérent avec le modèle Factory
+- S74-A039 [moyen] — risque de transformer le digital delay en explication unique du son Joy Division
+- S74-A040 [eleve] — risque de basculer dans une lecture uniquement conflictuelle en oubliant le résultat artistique
+- S74-A041 [moyen] — risque de survaloriser le rejet initial au détriment de l’évolution ultérieure de la perception du groupe
+- S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
+- S74-A045 [moyen] — risque de lire l’échec commercial comme incompréhension pure du public sans examiner la promotion déficiente
+- S74-A047 [moyen] — risque de transformer le Factory Club en lieu mythique unique au détriment des autres scènes importantes
+- S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
+- S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel
+- S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
+- S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
+- S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
+- S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
+
+## 15. Lacunes et prochaines vérifications
+
+- Vérifier les atomes anciens encore incomplets au regard du schéma v2.
+- Contrôler les citations avant toute insertion dans le manuscrit.
+- Éviter les doublons avec les chapitres voisins en consultant les champs `liens_interchapitres`.
+- Ne pas transformer ce document maître en texte final : il sert de dossier documentaire de rédaction.

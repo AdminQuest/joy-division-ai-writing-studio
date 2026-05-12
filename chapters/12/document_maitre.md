@@ -6,366 +6,363 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
+generated_at: "2026-05-12T20:47:42"
 ```
 
-## 1. Statut du chapitre
-
-- Numéro : 12
-- Titre : L’expression du trauma : Joy Division et le dialogue sur la santé mentale
-- État : à consolider depuis les atomes et registres
-- Génération : automatique depuis `exports/generated/`
-
-## 2. Fonction du chapitre
+## 1. Fonction du chapitre
 
 Analyser le trauma, la santé mentale, l’éthique de la réception et la difficulté de parler de Curtis sans réduction clinique.
 
-## 3. Périmètre
+## 2. Questions directrices
 
-### 3.1 Inclus
+- Comment écrire la santé mentale sans diagnostic réducteur ?
+- Quelles sources protègent contre la romantisation ?
 
-Périmètre documentaire propre au chapitre, sources rattachées, motifs conceptuels et éléments utiles à la rédaction.
+## 3. Tableau de bord documentaire
 
-### 3.2 Hors champ explicite
+| Indicateur | Valeur |
+|---|---|
+| Atomes | 64 |
+| Atomes critiques / majeurs | 0 |
+| Citations | 7 |
+| Événements chronologiques | 2 |
+| Personnes | 2 |
+| Chansons | 1 |
+| Sources mobilisées | 4 |
 
-Les développements relevant d’un autre chapitre doivent être renvoyés au document maître correspondant.
+## 4. Sources mobilisées
 
-## 4. Questions directrices
+| ID | Source | Atomes | Citations |
+|---|---|---|---|
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 0 | 1 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 9 | 2 |
+| S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
+| S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
+| S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 
-- Quel problème le chapitre résout-il dans l’économie générale du livre ?
-- Quelles sources permettent de stabiliser le propos ?
-- Quels risques de doublons doivent être maîtrisés ?
+## 5. Atomes critiques ou majeurs
 
-## 5. Hypothèses interprétatives
+- Aucun atome critique ou majeur n’est encore qualifié.
 
-- Le chapitre doit rester une vue de consolidation, non un texte final.
-- Les sources rattachées orientent la rédaction mais ne remplacent pas la vérification.
+## 6. Autres atomes utiles
 
-## 6. Sources primaires mobilisées
+- - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-015** — S45-015 — « We took it for granted that the incident had been a one-off »  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `citation_clef` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-019** — S45-019 — Deborah Curtis découvre les effets concrets de l’épilepsie  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-020** — S45-020 — Les médicaments modifient le comportement de Ian Curtis  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `santé` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S45-024** — S45-024 — Deborah décrit une fatigue chronique de Ian Curtis  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `santé` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-029** — S45-029 — Deborah Curtis décrit la peur permanente des crises  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `peur` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-033** — S45-033 — La tentative de suicide bouleverse le foyer  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-039** — S45-039 — Le suicide détruit immédiatement la temporalité ordinaire  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `trauma` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-029** — S46-029 — Paul Morley, Wozencroft et la lecture occulto-filmique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-054** — S46-054 — Joy Division, transe et techniques de suggestion  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_theorique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-061** — S46-061 — Rainbow Theatre : crise et malentendu spectaculaire  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-111** — S46-111 — Curtis et la danse comme perte de contrôle  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `performance_scenique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-112** — S46-112 — « She’s Lost Control » comme miroir biographique indirect  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_biographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-117** — S46-117 — Le public prend parfois les crises pour une performance  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `perception_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-118** — S46-118 — Le studio comme lieu de contrôle impossible  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_studio` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-147** — S46-147 — Diffusion de *Stroszek* pendant la tournée australienne  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `coincidence_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-160** — S46-160 — Morley : impossibilité de parler de l’intérieur  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `epistemologie_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-161** — S46-161 — Morley : écouter Joy Division seulement en bonne santé  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_affective` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-162** — S46-162 — « Glass : Mesh » : le livre comme montage filmique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `dispositif_formel` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-164** — S46-164 — Camus, Nietzsche, Adorno : Joy Division encadré par la haute culture  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-170** — S46-170 — « Sound of Music : 5.8.6 » : voix comme information musicale  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_voix` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-175** — S46-175 — « Auto-Suggestion : The Him » : musique et langage symbolique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-176** — S46-176 — Backward masking : lecture paranoïde et critique culturelle  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_speculative` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-177** — S46-177 — Transe et répétition lente  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_rythmique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-178** — S46-178 — Désaccord volontaire et effet de trouble  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_sonore` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-179** — S46-179 — Danse de Curtis et japonisme hypnotique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_performance` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-181** — S46-181 — « Death Rattle : The Atrocity Exhibition » : bascule dans le réel  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `dispositif_formel` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-183** — S46-183 — Curtis, suicide et visualisation de la réalité  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_posthume` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-185** — S46-185 — « Isolation » comme symptôme d’une inversion avancée  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_chanson` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-186** — S46-186 — Dion Fortune et la psychisation de l’héritage Joy Division  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite_occultiste` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-187** — S46-187 — Dostoevsky et la résurrection des morts  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-189** — S46-189 — Le lexique du film comme méthode d’écriture  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `analyse_formelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-002** — S47-002 — Le mythe Joy Division dépasse Ian Curtis seul  
+  Source : S47 — West, Joy Division, 1984 ; type : `interpretation_historique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-025** — S47-025 — « Closer » n’est pas un disque-suicide  
+  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-026** — S47-026 — Curtis n’est pas un « artiste maudit » romantique  
+  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-027** — S47-027 — Joy Division véhicule aussi une idée d’espoir  
+  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-030** — S47-030 — « Closer » représente un commencement interrompu  
+  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-066** — S47-066 — *Closer* est enregistré à Britannia Row  
+  Source : S47 — West, Joy Division, 1984 ; type : `session_album` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-067** — S47-067 — Les sessions de *Closer* durent treize jours et treize nuits  
+  Source : S47 — West, Joy Division, 1984 ; type : `session_album` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-068** — S47-068 — *Closer* est une réussite artistique malgré le contexte humain délétère  
+  Source : S47 — West, Joy Division, 1984 ; type : `interpretation_album` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-069** — S47-069 — Moonlight Club : avril 1980, charge de travail et fragilité de Curtis  
+  Source : S47 — West, Joy Division, 1984 ; type : `concert_sequence` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-070** — S47-070 — Rainbow Theatre : soutien aux Stranglers et crise de Curtis  
+  Source : S47 — West, Joy Division, 1984 ; type : `concert_incident` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-071** — S47-071 — Birmingham University, 2 mai 1980 : dernier concert  
+  Source : S47 — West, Joy Division, 1984 ; type : `dernier_concert` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-073** — S47-073 — Le film « Stroszek » est associé aux dernières heures de Curtis  
+  Source : S47 — West, Joy Division, 1984 ; type : `biographie_finale` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-074** — S47-074 — La grève de la presse musicale retarde la diffusion de la nouvelle  
+  Source : S47 — West, Joy Division, 1984 ; type : `reception_deces` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-075** — S47-075 — John Peel annonce la mort de Curtis  
+  Source : S47 — West, Joy Division, 1984 ; type : `reception_radio` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-076** — S47-076 — West critique le culte morbide de Curtis  
+  Source : S47 — West, Joy Division, 1984 ; type : `critique_mythologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-077** — S47-077 — La mort de Curtis met fin à Joy Division comme entité morale  
+  Source : S47 — West, Joy Division, 1984 ; type : `fin_groupe` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-155** — S47-155 — NME 1980 : Curtis devient figure mémorielle majeure  
+  Source : S47 — West, Joy Division, 1984 ; type : `reception_poll` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-156** — S47-156 — NME 1981 : Ian Curtis deuxième « Most Missed Person »  
+  Source : S47 — West, Joy Division, 1984 ; type : `reception_poll` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-167** — S47-167 — Britannia Row comme studio de la dernière transformation  
+  Source : S47 — West, Joy Division, 1984 ; type : `lieu_studio` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-169** — S47-169 — Birmingham High Hall comme clôture scénique  
+  Source : S47 — West, Joy Division, 1984 ; type : `lieu_terminal` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-173** — S47-173 — John Peel : médiateur du public fervent  
+  Source : S47 — West, Joy Division, 1984 ; type : `acteur_media` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-178** — S47-178 — Neil Norman : la dimension quasi prométhéenne de Joy Division  
+  Source : S47 — West, Joy Division, 1984 ; type : `acteur_critique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S47-184** — S47-184 — Chronologie condensée 1980  
+  Source : S47 — West, Joy Division, 1984 ; type : `micro_chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-191** — S47-191 — Citation critique : Neil Norman et le défi à Dieu  
+  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S47-192** — S47-192 — Point de vigilance : « Saul Herzog » au lieu de Werner Herzog  
+  Source : S47 — West, Joy Division, 1984 ; type : `vigilance_erreur` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S47-195** — S47-195 — Point de vigilance : West mythifie tout en démystifiant  
+  Source : S47 — West, Joy Division, 1984 ; type : `vigilance_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-196** — S47-196 — Point de vigilance : *Closer* comme commencement interrompu  
+  Source : S47 — West, Joy Division, 1984 ; type : `idee_directrice` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-198** — S47-198 — Point de vigilance : la figure de Curtis ne doit pas absorber le groupe  
+  Source : S47 — West, Joy Division, 1984 ; type : `idee_directrice` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-199** — S47-199 — Synthèse critique : S47 comme antidote partiel au romantisme morbide  
+  Source : S47 — West, Joy Division, 1984 ; type : `synthese_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S69-A011** — S69-A011 — Deborah Curtis : expulsion du passé plutôt que nostalgie  
+  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
 
-- S45 — Curtis, Touching from a Distance, 1995
-- S46 — Johnson, An Ideal for Living, 1984
-- S47 — West, Joy Division, 1984
-- S69 — Greig & Strong, But We Remember When We Were Young, 2014
+## 7. Citations disponibles
 
-## 7. Sources secondaires mobilisées
+- - **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
+- - **S45-Q005** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « increasingly isolated »
+- - **S47-Q008** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Closer was not a suicide note. »
+- - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
+- - **S47-Q010** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a unique partnership. »
+- - **S47-Q011** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the death cult that has grown up around Ian Curtis. »
+- - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
 
-- À compléter depuis le registre consolidé des références.
+## 8. Chronologie rattachée
 
-## 8. Atomes documentaires rattachés
+- CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
+- CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
 
-- S46-147 — coincidence_culturelle
-- S46-027 — evenement_biographique
-- S46-029 — interpretation
-- S46-111 — performance_scenique
-- S46-112 — chanson_biographie
-- S46-117 — perception_scene
-- S46-118 — interpretation_studio
-- S46-160 — epistemologie_critique
-- S46-161 — reception_affective
-- S46-162 — dispositif_formel
-- S46-164 — intertextualite
-- S46-170 — theorie_voix
-- S46-175 — intertextualite
-- S46-176 — theorie_speculative
-- S46-177 — theorie_rythmique
-- S46-178 — theorie_sonore
-- S46-179 — theorie_performance
-- S46-181 — dispositif_formel
-- S46-183 — interpretation_posthume
-- S46-185 — interpretation_chanson
-- S46-186 — intertextualite_occultiste
-- S46-187 — intertextualite
-- S46-189 — analyse_formelle
-- S46-054 — interpretation_theorique
-- S46-061 — evenement_biographique
-- S45-019 — fait_sensible
-- S45-020 — santé
-- S45-024 — santé
-- S45-029 — peur
-- S45-033 — fait_sensible
-- S45-039 — trauma
-- S45-002 — biographie_culturelle
-- S45-014 — fait_sensible
-- S45-015 — citation_clef
-- S47-066 — session_album
-- S47-067 — session_album
-- S47-068 — interpretation_album
-- S47-069 — concert_sequence
-- S47-070 — concert_incident
-- S47-071 — dernier_concert
-- S47-073 — biographie_finale
-- S47-074 — reception_deces
-- S47-075 — reception_radio
-- S47-076 — critique_mythologie
-- S47-077 — fin_groupe
-- S47-155 — reception_poll
-- S47-156 — reception_poll
-- S47-167 — lieu_studio
-- S47-169 — lieu_terminal
-- S47-173 — acteur_media
-- S47-178 — acteur_critique
-- S47-184 — micro_chronologie
-- S47-191 — citation_repere
-- S47-192 — vigilance_erreur
-- S47-195 — vigilance_interpretative
-- S47-196 — idee_directrice
-- S47-198 — idee_directrice
-- S47-199 — synthese_critique
-- S47-002 — interpretation_historique
-- S47-025 — analyse
-- S47-026 — analyse
-- S47-027 — analyse
-- S47-030 — analyse
-- S69-A011 — memoire
-- S45 — analyse
-- S69 — analyse
+## 9. Personnes et acteurs
 
-## 9. Citations disponibles
+- PERS-001 — Ian Curtis
+- PERS-005 — Deborah Curtis
 
-- S45-Q003
-- S45-Q005
-- S47-Q008
-- S47-Q009
-- S47-Q010
-- S47-Q011
-- S41-Q001
+## 10. Chansons rattachées
 
-## 10. Éléments chronologiques rattachés
-
-- À compléter depuis `exports/generated/chronology.json`.
-
-## 11. Chansons rattachées
-
-- À compléter depuis `exports/generated/songs.json`.
-
-## 12. Personnes rattachées
-
-- À compléter depuis `exports/generated/people.json`.
-
-## 13. Concepts mobilisés
-
-- 2 mai 1980
-- 4 avril 1980
-- accomplissement
-- Adorno
-- affirmation
-- Albert Camus
-- annonce
-- annonce du décès
-- anti-nostalgie
-- Atmosphere
-- Atrocity Exhibition
-- audience
-- Australie
-- Auto-Suggestion
-- autobiographie
-- avril 1980
-- backward masking
-- bassline
-- Bernard Sumner
-- Birmingham University
-- Britannia Row
-- Brothers Karamazov
-- centre d'emploi
-- choc
-- Closer
-- commencement
-- comportement
-- contradiction
-- contrôle
-- crise
-- crises
-- critique extrême
-- critique musicale
-- danger esthétique
-- danse
-- death cult
-- death drive
-- Death Rattle
-- deborah curtis
-- dernier concert
-- deuil
-- Dion Fortune
-- distraction
-- Dostoevsky
-- décès
-- démystification
-- déni
-- dépassement
-- désaccord
-- epilepsie
-- erreur nom propre
-- espoir
-- expulsion du passé
-- expérience intérieure
-- Factory Evenings
-- famille
-- fatigue
-- Festive Fifty
-- film
-- fin
-- fin de Joy Division
-- foyer
-- fragmentation
-- Friedrich Nietzsche
-- futur empêché
-- futur interrompu
-- geste
-- Glass
-- God
-- groupe
-- grève
-- hallucination
-- Hannett
-- haute culture
-- Hermann Hesse
-- High Hall
-- Hook
-- Hope and Anchor
-- Horkheimer
-- humanité
-- hyperbole
-- hypnose
-- hypnose japonaise
-- hôpital
-- Ian Curtis
-- imaginaire historique
-- incompréhension médicale
-- indicible
-- induction
-- information
-- inside
-- intermission
-- introspection
-- intégrité
-- inversion
-- Islington
-- Isolation
-- John Lennon
-- John Peel
-- Joy Division
-- Ladybird books
-- lecture non téléologique
-- lectures
-- lenteur
-- live
-- Londres
-- Love Will Tear Us Apart
-- Macclesfield
-- machine
-- maladie
-- malentendu
-- mars 1980
-- Martin Hannett
-- mathématiques et musique
-- Mesh
-- montage
-- montage théorique
-- Moonlight Club
-- Morris
-- mort
-- morts
-- Most Missed Person
-- Most Wonderful Human Being
-- musique
-- mythe
-- mythification
-- médicaments
-- mélancolie
-- mémoire
-- narration expérimentale
-- Neil Norman
-- New Dawn Fades
-- New Order
-- NME
-- NME 1980
-- NME 1981
-- nom
-- observation clinique
-- occultisme
-- paranoïa culturelle
-- partenariat
-- Peel Sessions
-- perception
-- performance
-- perte de contrôle
-- Peter Hook
-- peur
-- phénobarbital
-- posthume
-- postérité
-- presse musicale
-- psychic attack
-- Psychic Self-Defense
-- public
-- quotidien
-- Radio 1
-- Rainbow Theatre
-- romantisme
-- romantisme morbide
-- romantisme noir
-- Rome antique
-- rumeur
-- réalité
-- réception
-- réception extrême
-- répétition
-- résistance
-- résurrection
-- réussite artistique
-- santé mentale
-- screenplay
-- scène
 - She's Lost Control
-- Something Must Break
-- sommeil
-- spectacle
-- Still
-- stroboscopes
-- Stroszek
-- studio
-- subliminal
-- suggestion
-- suicide
-- Sumner
-- surveillance
-- symboles
-- synthétiseur
-- technologie
-- Temazepam
-- temporalité
-- tension
-- tentative de suicide
-- The Him
-- The Only Mistake
-- The Stranglers
-- tournées
-- transe
-- trauma
-- treize jours
-- treize nuits
-- trouble perceptif
-- varispeed
-- visualisation
-- voix
-- volonté
-- Werner Herzog
-- écoute
-- épilepsie
 
-## 14. Articulation avec les autres chapitres
+## 11. Concepts récurrents
 
-- À consolider au regard du tableau de cohérence thématique.
+- Ian Curtis (25)
+- Closer (9)
+- épilepsie (7)
+- film (4)
+- Britannia Row (4)
+- Stroszek (3)
+- Werner Herzog (3)
+- New Order (3)
+- Rainbow Theatre (3)
+- hypnose (3)
+- backward masking (3)
+- contrôle (3)
+- Martin Hannett (3)
+- suicide (3)
+- réception (3)
+- fatigue (3)
+- mythe (3)
+- epilepsie (2)
+- 4 avril 1980 (2)
+- stroboscopes (2)
+- voix (2)
+- danse (2)
+- scène (2)
+- public (2)
+- technologie (2)
+- montage (2)
+- musique (2)
+- transe (2)
+- répétition (2)
+- réalité (2)
+- médicaments (2)
+- quotidien (2)
+- sommeil (2)
+- Bernard Sumner (2)
+- crise (2)
+- Islington (2)
+- tension (2)
+- groupe (2)
+- Birmingham University (2)
+- High Hall (2)
+- 2 mai 1980 (2)
+- dernier concert (2)
+- Still (2)
+- John Peel (2)
+- Radio 1 (2)
+- romantisme noir (2)
+- intégrité (2)
+- Neil Norman (2)
+- NME (2)
+- God (2)
+- volonté (2)
+- démystification (2)
+- espoir (2)
+- humanité (2)
+- Australie (1)
+- montage théorique (1)
+- varispeed (1)
+- death drive (1)
+- perte de contrôle (1)
+- She's Lost Control (1)
+- centre d'emploi (1)
+- observation clinique (1)
+- malentendu (1)
+- spectacle (1)
+- studio (1)
+- fragmentation (1)
+- inside (1)
+- critique musicale (1)
+- expérience intérieure (1)
+- indicible (1)
+- Joy Division (1)
+- écoute (1)
+- santé mentale (1)
+- mélancolie (1)
+- introspection (1)
+- danger esthétique (1)
+- Glass (1)
+- Mesh (1)
+- narration expérimentale (1)
+- Albert Camus (1)
 
-## 15. Risques de doublons et points de vigilance
+## 12. Motifs et chaînes relationnelles
 
-- Vérifier les recouvrements avec les chapitres voisins.
-- Ne pas confondre document maître et texte rédigé.
+### 12.1. Motifs dominants
 
-## 16. Lacunes documentaires
+- Aucun motif rattaché.
 
-- À renseigner après nouvelle génération des registres et consolidation des sources.
+### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-## 17. État rédactionnel
+- Aucune relation déclarée.
 
-- Fichier généré et versionné pour consultation statique GitHub Pages.
+## 13. Distribution documentaire
+
+### 13.1. Types d’atomes
+
+| Type | Nombre |
+|---|---|
+| non qualifié | 4 |
+| intertextualite | 3 |
+| fait_sensible | 3 |
+| evenement_biographique | 2 |
+| dispositif_formel | 2 |
+| santé | 2 |
+| session_album | 2 |
+| reception_poll | 2 |
+| idee_directrice | 2 |
+| coincidence_culturelle | 1 |
+| interpretation | 1 |
+| performance_scenique | 1 |
+| chanson_biographie | 1 |
+| perception_scene | 1 |
+| interpretation_studio | 1 |
+| epistemologie_critique | 1 |
+| reception_affective | 1 |
+| theorie_voix | 1 |
+| theorie_speculative | 1 |
+| theorie_rythmique | 1 |
+| theorie_sonore | 1 |
+| theorie_performance | 1 |
+| interpretation_posthume | 1 |
+| interpretation_chanson | 1 |
+| intertextualite_occultiste | 1 |
+| analyse_formelle | 1 |
+| interpretation_theorique | 1 |
+| peur | 1 |
+| trauma | 1 |
+| biographie_culturelle | 1 |
+| citation_clef | 1 |
+| interpretation_album | 1 |
+| concert_sequence | 1 |
+| concert_incident | 1 |
+| dernier_concert | 1 |
+| biographie_finale | 1 |
+| reception_deces | 1 |
+| reception_radio | 1 |
+| critique_mythologie | 1 |
+| fin_groupe | 1 |
+| lieu_studio | 1 |
+| lieu_terminal | 1 |
+| acteur_media | 1 |
+| acteur_critique | 1 |
+| micro_chronologie | 1 |
+| citation_repere | 1 |
+| vigilance_erreur | 1 |
+| vigilance_interpretative | 1 |
+| synthese_critique | 1 |
+| interpretation_historique | 1 |
+| memoire | 1 |
+
+### 13.2. Importance documentaire
+
+| Importance | Nombre |
+|---|---|
+| non qualifiée | 64 |
+
+## 14. Risques de surinterprétation et points de vigilance
+
+- Aucun risque explicite n’est encore qualifié.
+
+## 15. Lacunes et prochaines vérifications
+
+- Vérifier les atomes anciens encore incomplets au regard du schéma v2.
+- Contrôler les citations avant toute insertion dans le manuscrit.
+- Éviter les doublons avec les chapitres voisins en consultant les champs `liens_interchapitres`.
+- Ne pas transformer ce document maître en texte final : il sert de dossier documentaire de rédaction.

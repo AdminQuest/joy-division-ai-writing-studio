@@ -6,590 +6,555 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
+generated_at: "2026-05-12T20:47:42"
 ```
 
-## 1. Statut du chapitre
-
-- Numéro : 2
-- Titre : Les années d'apprentissage : quand quatre furieux décident de faire de la musique (1976-1978)
-- État : à consolider depuis les atomes et registres
-- Génération : automatique depuis `exports/generated/`
-
-## 2. Fonction du chapitre
+## 1. Fonction du chapitre
 
 Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk jusqu’à la stabilisation d’un langage.
 
-## 3. Périmètre
+## 2. Questions directrices
 
-### 3.1 Inclus
+- Comment Warsaw devient-il Joy Division ?
+- Quels échecs rendent possible la bifurcation Factory ?
 
-Périmètre documentaire propre au chapitre, sources rattachées, motifs conceptuels et éléments utiles à la rédaction.
+## 3. Tableau de bord documentaire
 
-### 3.2 Hors champ explicite
+| Indicateur | Valeur |
+|---|---|
+| Atomes | 173 |
+| Atomes critiques / majeurs | 15 |
+| Citations | 4 |
+| Événements chronologiques | 2 |
+| Personnes | 3 |
+| Chansons | 0 |
+| Sources mobilisées | 9 |
 
-Les développements relevant d’un autre chapitre doivent être renvoyés au document maître correspondant.
+## 4. Sources mobilisées
 
-## 4. Questions directrices
+| ID | Source | Atomes | Citations |
+|---|---|---|---|
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 47 | 4 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 4 | 0 |
+| S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
+| S47 | S47 — West, Joy Division, 1984 | 23 | 0 |
+| S68 | S68 — Broll, Joy Division, 1988 | 17 | 0 |
+| S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
+| S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 15 | 0 |
+| S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
+| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 18 | 0 |
 
-- Quel problème le chapitre résout-il dans l’économie générale du livre ?
-- Quelles sources permettent de stabiliser le propos ?
-- Quels risques de doublons doivent être maîtrisés ?
+## 5. Atomes critiques ou majeurs
 
-## 5. Hypothèses interprétatives
+- - **S74-A016** — S74-A016 — Concert des Sex Pistols et achat immédiat de la basse par Hook  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A021** — S74-A021 — Warsaw au premier concert : désespoir, confusion et identité non stabilisée  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `plausible`.
+- - **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
+- - **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
+- - **S74-A008** — S74-A008 — So It Goes comme dispositif médiatique de transition punk  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `majeure` ; preuve : `corrobore`.
+- - **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
+- - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
+- - **S74-A019** — S74-A019 — Buzzcocks, Pete Shelley et la désacralisation de la rock star pour Curtis  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `majeure` ; preuve : `temoignage_direct_rapporte`.
+- - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `majeure` ; preuve : `corrobore`.
+- - **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- - **S74-A004** — S74-A004 — Les concerts des Sex Pistols comme moment originel mancunien  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `structurante` ; preuve : `plausible`.
 
-- Le chapitre doit rester une vue de consolidation, non un texte final.
-- Les sources rattachées orientent la rédaction mais ne remplacent pas la vérification.
+## 6. Autres atomes utiles
 
-## 6. Sources primaires mobilisées
+- - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-005** — S41-005 — Enfance de Hook : Salford, violence domestique et monde ouvrier  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-007** — S41-007 — Jamaïque : rupture chromatique dans la mémoire de Hook  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-008** — S41-008 — Rencontre avec Bernard Sumner à Salford Grammar School  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-009** — S41-009 — Délinquance adolescente et logique de classe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-012** — S41-012 — Premières fascinations musicales : *Top of the Pops*, reggae, Cockney Rebel  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_musical` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-013** — S41-013 — Lecture de la presse musicale et découverte des Sex Pistols  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-014** — S41-014 — Lesser Free Trade Hall, 4 juin 1976 : mythe et expérience vécue  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-015** — S41-015 — Le punk comme double injonction : pouvoir faire et devoir faire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-016** — S41-016 — Formation du groupe dès le retour du concert  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-019** — S41-019 — Répétitions dans le salon de la grand-mère de Sumner  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-020** — S41-020 — Deuxième concert des Sex Pistols : constitution de la scène punk locale  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-021** — S41-021 — Première impression d’Ian Curtis : le manteau « Hate »  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-022** — S41-022 — Recrutement d’Ian Curtis  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-023** — S41-023 — Terry Mason : membre fondateur périphérique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-027** — S41-027 — Arrivée de Stephen Morris : puissance et texture  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-029** — S41-029 — Premiers concerts hors Manchester : Eric’s et Middlesbrough  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-030** — S41-030 — Electric Circus : fin d’un lieu et entrée dans l’archive discographique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-031** — S41-031 — *An Ideal for Living* : choix DIY et dette bancaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-032** — S41-032 — *An Ideal for Living* : mauvais pressage et apprentissage technique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-033** — S41-033 — *No Love Lost* et *House of Dolls*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-034** — S41-034 — Pochette de *An Ideal for Living* et imagerie nazie  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `controverse` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-035** — S41-035 — *Warsaw* devient Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-039** — S41-039 — Timeline 1976-1977 : ossature chronologique consolidée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-040** — S41-040 — Dernier concert sous le nom Warsaw  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-041** — S41-041 — Vide scénique après le premier concert Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-042** — S41-042 — Rafters et le Stiff/Chiswick Challenge comme scène de sélection  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-043** — S41-043 — La colère comme intensificateur scénique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-044** — S41-044 — Tony Wilson repère Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-045** — S41-045 — Rob Gretton découvre Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-046** — S41-046 — RCA : promesse industrielle et malentendu esthétique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-047** — S41-047 — Les sessions Arrow comme expérience négative structurante  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-048** — S41-048 — Classe sociale et exclusion de la scène arty mancunienne  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-049** — S41-049 — Rob Gretton entre dans le groupe par la pratique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-050** — S41-050 — Gretton corrige immédiatement *An Ideal for Living*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-051** — S41-051 — Rabid, Tosh Ryan et la reprise commerciale du premier EP  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-052** — S41-052 — Rachat des bandes Arrow : reconquête du contrôle artistique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-053** — S41-053 — Le Transit bleu : autonomie matérielle du groupe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_materiel` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-054** — S41-054 — Rob Gretton comme accélérateur systémique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-059** — S41-059 — Manchester Musicians’ Collective : coopération contrainte  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-079** — S41-079 — Hope & Anchor : premier concert londonien décevant  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-081** — S41-081 — Timeline 1978 : ossature factuelle de la métamorphose  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-088** — S41-088 — L’anecdote des autoradios : persistance du registre scally  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `anecdote_significative` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-119** — S41-119 — « Wilderness » : survivance du punk dans Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-120** — S41-120 — « Interzone » : héritage Stooges et Velvet Underground  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `influences` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-006** — S45-006 — Deborah Curtis construit un Ian pré-punk  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `cadre_narratif` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-007** — S45-007 — Rare Records comme point de bascule culturel  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `culture_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S45-011** — S45-011 — Les Sex Pistols comme déclencheur mais non origine totale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `histoire_punk` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-012** — S45-012 — Warsaw puis Joy Division : intrusion du groupe dans le foyer  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `dynamique_collective` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-003** — S46-003 — Paul Morley et la mémoire instable de Warsaw  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `temoignage_interpretatif` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-004** — S46-004 — Les concerts des Sex Pistols comme matrice mancunienne  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-005** — S46-005 — Première mention presse : Stiff Kittens  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-006** — S46-006 — Warsaw et la substitution de Steve Brotherdale par Stephen Morris  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie_interne` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-007** — S46-007 — La première démo Warsaw du 18 juillet 1977  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-008** — S46-008 — Le passage de Warsaw à Joy Division  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-009** — S46-009 — Premier concert sous le nom Joy Division  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-010** — S46-010 — Le Stiff/Chiswick Challenge comme bascule Gretton-Wilson  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-011** — S46-011 — RCA, Arrow Studios et l’album avorté  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_avortee` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-012** — S46-012 — Rob Gretton devient manager  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `acteur` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-015** — S46-015 — *An Ideal for Living* 7 pouces : autoproduction et mauvais pressage  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-032** — S46-032 — Factory Club comme vrai point de naissance artistique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_temoin` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-033** — S46-033 — Autoédition du 7 pouces *An Ideal for Living*  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-036** — S46-036 — Rupture avec RCA et durcissement de Gretton  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `industrie_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-067** — S46-067 — Le sous-titre comme programme historique total  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `paratexte` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-069** — S46-069 — La jeunesse mancunienne et le modèle Sex Pistols  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `contexte_punk` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-070** — S46-070 — Pete Silverton et la première caricature de Stiff Kittens  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-071** — S46-071 — Wroey, Terry Mason et la formation encore instable  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `formation_groupe` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-072** — S46-072 — Electric Circus, 29 mai 1977 : premier concert Warsaw  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-073** — S46-073 — Premier concert : malaise de Curtis et réactions mitigées  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-074** — S46-074 — Rafters, 30 juin 1977 : premier concert vraiment observé  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-075** — S46-075 — Steve Brotherdale et la violence sonore primitive  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `formation_groupe` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-076** — S46-076 — Stephen Morris rejoint Warsaw après une annonce  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `formation_groupe` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-077** — S46-077 — The Warsaw Demo : quatre titres fondateurs  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `enregistrement` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-078** — S46-078 — Eric’s Liverpool, 27 août 1977  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-079** — S46-079 — Squat Manchester, 17 juillet 1977 : concert et violence locale  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_incident` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-080** — S46-080 — Short Circuit : compilation de l’Electric Circus  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-081** — S46-081 — Dernières soirées de l’Electric Circus et visibilité locale  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-082** — S46-082 — Warsaw Pakt contraint le changement de nom  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `changement_nom` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
-- S41 — Hook, Unknown Pleasures, 2012
-- S45 — Curtis, Touching from a Distance, 1995
-- S46 — Johnson, An Ideal for Living, 1984
-- S47 — West, Joy Division, 1984
-- S68 — Broll, Joy Division, 1988
-- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
-- S71 — Flowers, Dreams Never End, 1995/2012
-- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
+## 7. Citations disponibles
 
-## 7. Sources secondaires mobilisées
+- - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
+- - **S41-Q002** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « X Factor for punks »
+- - **S41-Q003** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « get rid of this Nazi artwork »
+- - **S41-Q008** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "stabilisee"}` — « a turkey »
 
-- À compléter depuis le registre consolidé des références.
+## 8. Chronologie rattachée
 
-## 8. Atomes documentaires rattachés
+- CHR-1976-001 — Concert des Sex Pistols au Lesser Free Trade Hall de Manchester.
+- CHR-1978-001 — Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.
 
-- S68-A001 — concert
-- S68-A002 — relation
-- S68-A003 — concert
-- S68-A004 — relation
-- S68-A005 — production
-- S68-A006 — concert
-- S68-A007 — production
-- S68-A008 — analyse
-- S68-A009 — relation
-- S68-A010 — concert
-- S68-A011 — production
-- S68-A012 — analyse
-- S68-A013 — relation
-- S68-A014 — production
-- S68-A015 — production
-- S68-A016 — production
-- S68-A017 — concert
-- S72 — source
-- S72-A008 — chronologie
-- S72-A020 — analyse
-- S72-A021 — analyse
-- S46-000 — source
-- S46-003 — temoignage_interpretatif
-- S46-004 — chronologie
-- S46-005 — reception_presse
-- S46-006 — chronologie_interne
-- S46-007 — discographie
-- S46-008 — chronologie
-- S46-009 — chronologie
-- S46-010 — evenement
-- S46-011 — discographie_avortee
-- S46-012 — acteur
-- S46-015 — discographie
-- S46-101 — studio_enregistrement
-- S46-102 — evolution_repertoire
-- S46-103 — analyse_musicale
-- S46-067 — paratexte
-- S46-069 — contexte_punk
-- S46-070 — reception_presse
-- S46-071 — formation_groupe
-- S46-072 — concert
-- S46-073 — reception_live
-- S46-074 — concert
-- S46-075 — formation_groupe
-- S46-076 — formation_groupe
-- S46-077 — enregistrement
-- S46-078 — concert
-- S46-079 — concert_incident
-- S46-080 — objet_discographique
-- S46-081 — evenement_scene
-- S46-082 — changement_nom
-- S46-083 — changement_nom
-- S46-084 — concert
-- S46-085 — concert_bascule
-- S46-086 — scene_fondatrice
-- S46-156 — historiographie_subjective
-- S46-157 — anecdote_critique
-- S46-032 — reception_temoin
-- S46-033 — objet_discographique
-- S46-036 — industrie_musicale
-- S45-006 — cadre_narratif
-- S45-007 — culture_musicale
-- S45-011 — histoire_punk
-- S45-012 — dynamique_collective
-- S71 — source
-- S71-A003 — contexte
-- S71-A004 — chronologie
-- S71-A005 — biographie
-- S71-A006 — biographie
-- S71-A007 — chronologie
-- S71-A008 — relation
-- S71-A009 — analyse
-- S71-A010 — production
-- S71-A011 — biographie
-- S71-A012 — reception
-- S71-A013 — analyse
-- S71-A014 — chronologie
-- S71-A015 — production
-- S71-A016 — relation
-- S71-A017 — production
-- S47-094 — contexte_nom
-- S47-113 — objet_discographique
-- S47-127 — objet_discographique
-- S47-128 — genealogie_culturelle
-- S47-131 — archive_inedite
-- S47-133 — archive_live
-- S47-161 — lieu_biographique
-- S47-162 — lieu_scene
-- S47-163 — lieu_archive
-- S47-164 — lieu_bascule
-- S47-174 — acteur_scene
-- S47-181 — micro_chronologie
-- S47-182 — micro_chronologie
-- S47-004 — origine
-- S47-005 — biographie_collective
-- S47-006 — analyse_culturelle
-- S47-007 — origine_nom
-- S47-008 — chronologie
-- S47-009 — chronologie
-- S47-011 — analyse_developpement
+## 9. Personnes et acteurs
 
-## 9. Citations disponibles
+- PERS-002 — Peter Hook
+- PERS-003 — Bernard Sumner
+- PERS-004 — Stephen Morris
 
-- S41-Q001
-- S41-Q002
-- S41-Q003
-- S41-Q008
+## 10. Chansons rattachées
 
-## 10. Éléments chronologiques rattachés
+- Aucune chanson rattachée.
 
-- À compléter depuis `exports/generated/chronology.json`.
+## 11. Concepts récurrents
 
-## 11. Chansons rattachées
+- Warsaw (29)
+- Electric Circus (16)
+- Joy Division (11)
+- Rob Gretton (10)
+- Rafters (9)
+- punk (9)
+- Sex Pistols (8)
+- Manchester (8)
+- An Ideal for Living (8)
+- electric circus (7)
+- warsaw (7)
+- Ian Curtis (7)
+- Short Circuit (7)
+- an ideal for living (6)
+- tony wilson (6)
+- Buzzcocks (6)
+- Stephen Morris (6)
+- At a Later Date (6)
+- Warsaw Pakt (6)
+- Tony Wilson (6)
+- ian curtis (5)
+- nazisme (5)
+- industrie musicale (5)
+- rob gretton (5)
+- Pennine Sound (5)
+- Stiff Kittens (5)
+- batterie (5)
+- changement de nom (5)
+- Arrow Studios (5)
+- premier concert (5)
+- DIY (5)
+- formation du groupe (4)
+- rafters (4)
+- house of dolls (4)
+- rca (4)
+- factory (4)
+- buzzcocks (4)
+- Manchester punk (4)
+- House of Dolls (4)
+- RCA (4)
+- management (4)
+- Bernard Sumner (4)
+- imagerie nazie (4)
+- sex pistols (4)
+- Factory (4)
+- joy division (4)
+- steve brotherdale (3)
+- pressage (3)
+- nom du groupe (3)
+- derek branwood (3)
+- russell club (3)
+- joy division nom (3)
+- Paul Morley (3)
+- Lesser Free Trade Hall (3)
+- Warsaw Demo (3)
+- The Kill (3)
+- John Anderson (3)
+- organisation (3)
+- autoproduction (3)
+- scène locale (3)
+- manchester (3)
+- peter hook (3)
+- apprentissage autodidacte (3)
+- classe ouvriere (3)
+- stiff kittens (2)
+- salford (2)
+- stephen morris (2)
+- short circuit (2)
+- qualité sonore (2)
+- rca sessions (2)
+- contrat (2)
+- enigma (2)
+- a factory sample (2)
+- digital (2)
+- glass (2)
+- david bowie (2)
+- ka-tzetnik (2)
+- mémoire (2)
+- Sounds (2)
+- Pete Silverton (2)
 
-- À compléter depuis `exports/generated/songs.json`.
+## 12. Motifs et chaînes relationnelles
 
-## 12. Personnes rattachées
+### 12.1. Motifs dominants
 
-- À compléter depuis `exports/generated/people.json`.
+- frustration (2)
+- Sex Pistols (2)
+- Piccadilly Plaza (1)
+- bureau de promotion (1)
+- Bowie (1)
+- Iggy Pop (1)
+- échappée professionnelle (1)
+- major (1)
+- rejet (1)
+- bruit (1)
+- mauvais son (1)
+- bifurcation (1)
+- provocation (1)
+- imagerie fasciste (1)
+- naïveté (1)
+- réception critique (1)
+- Throbbing Gristle (1)
+- northern soul (1)
+- impasse (1)
+- synthétiseur (1)
+- convention rock (1)
+- talent contest (1)
+- note injurieuse (1)
+- reconnaissance (1)
+- naissance Factory (1)
+- exclusion (1)
+- scène locale (1)
+- jalousie (1)
+- projection (1)
+- Band on the Wall (1)
+- entrepôt (1)
+- répétition (1)
+- poussière (1)
+- image industrielle (1)
+- Kevin Cummins (1)
+- Salford (1)
+- Jamaïque (1)
+- retour (1)
+- clearance (1)
+- enfance déplacée (1)
 
-## 13. Concepts mobilisés
+### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- 17 juillet 1977
-- 18 juillet 1977
-- 1977
-- 1978
-- 25 janvier 1978
-- 27 août 1977
-- 29 mai 1977
-- 30 juin 1977
-- 7 inch
-- 7 pouces
-- A Factory Sample
-- a factory sample
-- absence de concerts
-- agressivité
-- alan erasmus
-- album inedit
-- album inédit
-- amateurisme
-- ambiguïté fasciste
-- amitie
-- An Ideal for Living
-- an ideal for living
-- Anarchy Tour
-- annonce
-- anonymous
-- anti-artiness
-- anti-déterminisme punk
-- anti-fascisme
-- anti-recit RCA
-- anti-récit
-- antifascisme
-- apprentissage
-- apprentissage autodidacte
-- apprentissage scénique
-- apprentissage studio
-- archives
-- Arrow Studios
-- artwork
-- At a Later Date
-- At A Later Date
-- authenticité
-- autonomie
-- autoproduction
-- autorisation
-- autorisation musicale
-- autoréflexivité
-- autoédition
-- Band on the Wall
-- basse
-- batterie
-- bernard albrecht
-- Bernard Sumner
-- bernard sumner
-- black swan
-- black swan pub
-- blue vinyl
-- Bob Auger
-- booking
-- bootleg warsaw
-- bootlegs
-- Bowie
-- bricolage
-- bruit
-- Buzzcocks
-- buzzcocks
-- cause musicale
-- changement de nom
-- Chiswick
-- Chiswick Challenge
-- chiswick records
-- chronologie
-- chronologie concerts
-- classe ouvriere
-- Cockney Rebel
-- colere
-- collector
-- concert sauvage
-- concerts
-- concours
-- continuité
-- continuité biographique
-- continuité historique
-- contrainte materielle
-- contraste sensoriel
-- contrat
-- contrat défavorable
-- controle artistique
-- controverse
-- cooperation
-- couleur
-- critique musicale
-- créativité
-- culte
-- culture ouvrière
-- culture pop
-- david bowie
-- David Bowie
-- debbie woodruffe
-- demo tape
-- derek branwood
-- dette
-- digital
-- direct-cut
-- discographie
-- distribution
-- DIY
-- diy
-- do it yourself
-- déclenchement
-- déclencheur
-- déclin industriel
-- découverte du groupe
-- démocratisation
-- développement
-- echec
-- Electric Circus
-- electric circus
-- enfance
-- enfance ouvrière
-- enigma
-- Enigma
-- Enigma Records
-- enigma records
-- enregistrement live
-- entourage
-- Eric's Liverpool
-- erreur technique
-- esthétique sonore
-- europe de l’est
-- Factory
-- factory
-- factory club
-- Factory Club
-- Factory Records
-- factory records
-- faible budget
-- fanzines
-- fermeture
-- formation
-- formation de groupe
-- formation du groupe
-- formation définitive
-- free trade hall
-- frustration
-- gestion amateur
-- glass
-- Granada Reports
-- granada tv
-- graphisme
-- graphisme fascisant
-- guerre froide
-- gutz
-- Gutz
-- Hate
-- histoire Joy Division
-- Hitler Youth drummer sleeve
-- HM band
-- Hope and Anchor
-- house of dolls
-- House of Dolls
-- humour
-- Ian Curtis
-- ian curtis
-- iconographie
-- Ideal for Living
-- identification aux victimes
-- identification sociale
-- Iggy Pop
-- imagerie concentrationnaire
-- imagerie nazie
-- industrie musicale
-- indépendance
-- influence
-- Inside the Line
-- instruments
-- intensite
-- Interzone
-- interzone
-- intrusion du groupe
-- isolement
-- Jamaica
-- jeunesse ouvrière
-- jg ballard
-- John Anderson
-- Joy Division
-- joy division
-- joy division nom
-- Ka-Tzetnik
-- ka-tzetnik
-- ka-tzetnik 135633
-- Keep On Keepin' On
-- labels indépendants
-- Lesser Free Trade Hall
-- line-up
-- littérature
-- live
-- live recording
-- logistique
-- Londres
-- Low
-- low
-- Macclesfield
-- malentendu
-- management
-- manager
-- Manchester
-- manchester
-- manchester contre londres
-- Manchester Musicians' Collective
-- Manchester punk
-- Manor Mobile
-- martin hannett
-- Martin Rushent
-- masculin populaire
-- masters
-- maturation
-- maturité artistique
-- Mazel Radio
-- Melody Maker
-- Middlesbrough
-- Musicians' Collective
-- mythe fondateur
-- médiateurs culturels
-- mémoire
-- naissance artistique
-- nazi rumours
-- nazisme
-- Needle Time
-- new hormones
-- new order
-- New Order
-- Nigel Bagley
-- No Love Lost
-- no love lost
-- nom du groupe
-- novelty
-- obscurité
-- Oldham
-- one take
-- organisation
-- origine du groupe
-- origines
-- outsider
-- Panik
-- paroles
-- paul morley
-- Paul Morley
-- Penetration
-- Pennine Sound
-- pennine sound studios
-- pennine studios
-- performance
-- Pete Shelley
-- Pete Silverton
-- Peter Hook
-- peter hook
-- peter saville
-- Pips
-- pips
-- post-punk
-- premier concert
-- premier concert londonien
-- premiers concerts
-- première apparition
-- première démo
-- première sortie
-- premières démos
-- pressage
-- presse musicale
-- production
-- professionnalisation
-- promotion locale
-- prostitution métaphorique
-- proto-punk
-- provocation punk
-- pré-punk
-- public hostile
-- punk
-- punk identity
-- punk local
-- qualité sonore
-- Rabid Records
-- rabid records
-- Rafters
-- rafters
-- Rare Records
-- RCA
-- rca
-- rca album
-- rca sessions
-- reconnaissance
-- recrutement
-- refus du cabaret
-- reggae
-- remastering
-- rendez-vous manqué
-- repetition
-- retour a Salford
-- revelation
-- richard searling
-- roadie
-- rob gretton
-- Rob Gretton
-- rob gretton manager
-- royalties
-- rudolf hess
-- Russell Club
-- russell club
-- réception critique
-- récit critique
-- répertoire
-- répétitions
-- réédition
-- salford
-- Salford
-- Salford Grammar School
-- scally
-- scene locale
-- scene mancunienne
-- scène
-- scène d’apprentissage
-- scène locale
-- scène punk
-- section rythmique
-- selection musicale
-- sex pistols
-- Sex Pistols
-- shadowplay
-- short circuit
-- Short Circuit
-- Slaughter and the Dogs
-- So It Goes
-- Sounds
-- spiral scratch
-- stabilisation du groupe
-- stabilisation du line-up
-- stephen morris
-- Stephen Morris
-- Steve Brotherdale
-- steve brotherdale
-- Stiff Chiswick Test
-- stiff kittens
-- Stiff Kittens
-- stiff records
-- Stiff Records
-- stiff test
-- Stiff Test
-- studio
-- studio recordings
-- subjectivité
-- surprise
-- Swinging Apple
-- tension interne
-- Terry Mason
-- texture
-- The Kill
-- The Negatives
-- the panik
-- The Squat
-- The Worst
-- timeline
-- TJ Davidson
-- tony tabac
-- tony wilson
-- Tony Wilson
-- Top of the Pops
-- Tosh Ryan
-- tournée
-- Transit van
-- transition
-- transition posthume
-- transmission
-- Trident Studios
-- télévision
-- unreleased album
-- validation
-- Velvet Underground
-- vie conjugale
-- violence domestique
-- violence punk
-- violence scénique
-- virgin
-- Virgin
-- Virgin Records
-- vitesse
-- vocation
-- vol
-- Warsaw
-- warsaw
-- Warsaw Demo
-- Warsaw Pakt
-- Warszawa
-- Wilderness
-- william burroughs
-- Wroey
-- X-Ray Spex
-- échec
+- S74-A022 — nuance → MYTH-002
+- S74-A022 — prolonge → S74-A017
+- S74-A023 — prolonge → S74-A022
+- S74-A023 — annonce → S74-A030
+- S74-A023 — nuance → MYTH-005
+- S74-A024 — nuance → MYTH-002
+- S74-A024 — prolonge → S74-A017
+- S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
+- S74-A025 — prolonge → S74-A023
+- S74-A025 — annonce → S74-A030
+- S74-A025 — nuance → MYTH-004
+- S74-A026 — nuance → MYTH-005
+- S74-A026 — prolonge → S74-A017
+- S74-A026 — annonce → S74-A030
+- S74-A028 — nuance → MYTH-002
+- S74-A028 — complète → S74-A021
+- S74-A028 — prolonge → S74-A018
+- S74-A029 — renforce → CONCEPT_GEOGRAPHIE_EMOTIONNELLE
+- S74-A029 — nuance → MYTH-003
+- S74-A029 — prolonge → S74-A015
+- S74-A014 — complète → S74-A002
+- S74-A014 — prolonge → S41
+- S74-A016 — mythologise → MYTH-001
+- S74-A016 — nuance → S74-A004
+- S74-A016 — complète → S41
+- S74-A017 — se_souvient → S45
+- S74-A017 — nuance → MYTH-002
+- S74-A018 — nuance → MYTH-001
+- S74-A018 — prolonge → S74-A004
+- S74-A018 — complète → S74-A013
+- S74-A019 — prolonge → S74-A016
+- S74-A019 — nuance → MYTH-001
+- S74-A021 — nuance → MYTH-002
+- S74-A021 — prolonge → S74-A018
+- S74-A021 — complète → S74-A019
+- S74-A003 — nuance → MYTH-001
+- S74-A003 — illustre → CONCEPT-003
+- S74-A004 — mythologise → MYTH-001
+- S74-A004 — se_souvient → S41
+- S74-A004 — nuance → S74-A003
+- S74-A008 — nuance → MYTH-001
+- S74-A008 — illustre → S74-A004
+- S74-A009 — nuance → MYTH-001
+- S74-A009 — prolonge → S74-A007
+- S74-A013 — nuance → MYTH-001
+- S74-A013 — prolonge → S74-A011
+- S74-A013 — illustre → S74-A012
+- S74-A013 — relie → S74-A005
 
-## 14. Articulation avec les autres chapitres
+## 13. Distribution documentaire
 
-- À consolider au regard du tableau de cohérence thématique.
+### 13.1. Types d’atomes
 
-## 15. Risques de doublons et points de vigilance
+| Type | Nombre |
+|---|---|
+| fait | 25 |
+| chronologie | 14 |
+| production | 12 |
+| concert | 9 |
+| relation | 7 |
+| analyse | 7 |
+| biographie | 6 |
+| scene_fondatrice | 5 |
+| objet_discographique | 4 |
+| lecture | 4 |
+| interpretation | 4 |
+| evenement | 3 |
+| formation_groupe | 3 |
+| contexte | 3 |
+| reception_presse | 2 |
+| discographie | 2 |
+| changement_nom | 2 |
+| micro_chronologie | 2 |
+| fait_interprete | 2 |
+| controverse | 2 |
+| mythe | 2 |
+| contexte_social | 2 |
+| temoignage_interpretatif | 1 |
+| chronologie_interne | 1 |
+| discographie_avortee | 1 |
+| acteur | 1 |
+| studio_enregistrement | 1 |
+| evolution_repertoire | 1 |
+| analyse_musicale | 1 |
+| paratexte | 1 |
+| contexte_punk | 1 |
+| reception_live | 1 |
+| enregistrement | 1 |
+| concert_incident | 1 |
+| evenement_scene | 1 |
+| concert_bascule | 1 |
+| historiographie_subjective | 1 |
+| anecdote_critique | 1 |
+| reception_temoin | 1 |
+| industrie_musicale | 1 |
+| cadre_narratif | 1 |
+| culture_musicale | 1 |
+| histoire_punk | 1 |
+| dynamique_collective | 1 |
+| reception | 1 |
+| contexte_nom | 1 |
+| genealogie_culturelle | 1 |
+| archive_inedite | 1 |
+| archive_live | 1 |
+| lieu_biographique | 1 |
+| lieu_scene | 1 |
+| lieu_archive | 1 |
+| lieu_bascule | 1 |
+| acteur_scene | 1 |
+| origine | 1 |
+| biographie_collective | 1 |
+| analyse_culturelle | 1 |
+| origine_nom | 1 |
+| analyse_developpement | 1 |
+| non qualifié | 1 |
+| anecdote | 1 |
+| session | 1 |
+| lieu | 1 |
+| temoignage | 1 |
+| contexte_materiel | 1 |
+| anecdote_significative | 1 |
+| contexte_biographique | 1 |
+| contexte_musical | 1 |
+| concept | 1 |
+| portrait | 1 |
+| analyse_morceau | 1 |
+| influences | 1 |
+| sociologie | 1 |
 
-- Vérifier les recouvrements avec les chapitres voisins.
-- Ne pas confondre document maître et texte rédigé.
+### 13.2. Importance documentaire
 
-## 16. Lacunes documentaires
+| Importance | Nombre |
+|---|---|
+| non qualifiée | 155 |
+| critique | 8 |
+| majeure | 6 |
+| moyenne | 2 |
+| structurante | 2 |
 
-- À renseigner après nouvelle génération des registres et consolidation des sources.
+## 14. Risques de surinterprétation et points de vigilance
 
-## 17. État rédactionnel
+- S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
+- S74-A023 [moyen] — risque de transformer RCA en simple repoussoir alors que Curtis reste attiré par cette voie
+- S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
+- S74-A025 [moyen] — risque de juger la session seulement comme fiasco sans voir les tensions formatrices qu’elle révèle
+- S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
+- S74-A028 [eleve] — risque de confirmer trop vite la légende du groupe maudit et isolé
+- S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
+- S74-A014 [moyen] — risque de surdéterminer l’esthétique du groupe par la seule biographie spatiale de Hook
+- S74-A016 [moyen] — risque de figer l’événement en origine absolue alors que Middles montre aussi une correction rétrospective
+- S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
+- S74-A018 [moyen] — risque de substituer un mythe Electric Circus au mythe Lesser Free Trade Hall
+- S74-A019 [moyen] — risque de transformer une rencontre en causalité unique de l’entrée en scène de Curtis
+- S74-A021 [eleve] — risque de projeter rétrospectivement Joy Division sur un groupe encore instable et embryonnaire
+- S74-A003 [moyen] — risque de projeter rétroactivement le punk sur des événements pré-punk
+- S74-A004 [eleve] — risque de transformer un événement déclencheur en origine absolue et nécessaire
+- S74-A008 [moyen] — risque de transformer So It Goes en cause unique de la médiatisation punk mancunienne
+- S74-A009 [moyen] — risque de surcharger symboliquement une anecdote devenue rétrospectivement célèbre par la présence de Morrissey
+- S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
 
-- Fichier généré et versionné pour consultation statique GitHub Pages.
+## 15. Lacunes et prochaines vérifications
+
+- Vérifier les atomes anciens encore incomplets au regard du schéma v2.
+- Contrôler les citations avant toute insertion dans le manuscrit.
+- Éviter les doublons avec les chapitres voisins en consultant les champs `liens_interchapitres`.
+- Ne pas transformer ce document maître en texte final : il sert de dossier documentaire de rédaction.

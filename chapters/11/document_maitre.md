@@ -6,589 +6,513 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
+generated_at: "2026-05-12T20:47:42"
 ```
 
-## 1. Statut du chapitre
-
-- Numéro : 11
-- Titre : Joy Division et la condition humaine moderne
-- État : à consolider depuis les atomes et registres
-- Génération : automatique depuis `exports/generated/`
-
-## 2. Fonction du chapitre
+## 1. Fonction du chapitre
 
 Interroger la persistance existentielle de Joy Division dans la condition humaine moderne.
 
-## 3. Périmètre
+## 2. Questions directrices
 
-### 3.1 Inclus
+- Pourquoi Joy Division parle-t-il encore à la condition moderne ?
+- Comment éviter les généralités existentielles ?
 
-Périmètre documentaire propre au chapitre, sources rattachées, motifs conceptuels et éléments utiles à la rédaction.
+## 3. Tableau de bord documentaire
 
-### 3.2 Hors champ explicite
+| Indicateur | Valeur |
+|---|---|
+| Atomes | 124 |
+| Atomes critiques / majeurs | 11 |
+| Citations | 6 |
+| Événements chronologiques | 0 |
+| Personnes | 1 |
+| Chansons | 5 |
+| Sources mobilisées | 10 |
 
-Les développements relevant d’un autre chapitre doivent être renvoyés au document maître correspondant.
+## 4. Sources mobilisées
 
-## 4. Questions directrices
+| ID | Source | Atomes | Citations |
+|---|---|---|---|
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
+| S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
+| S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
+| S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
+| S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 5 | 0 |
+| S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 14 | 0 |
+| S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 9 | 0 |
+| S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
+| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 11 | 0 |
 
-- Quel problème le chapitre résout-il dans l’économie générale du livre ?
-- Quelles sources permettent de stabiliser le propos ?
-- Quels risques de doublons doivent être maîtrisés ?
+## 5. Atomes critiques ou majeurs
 
-## 5. Hypothèses interprétatives
+- - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A042** — S74-A042 — Unknown Pleasures : beauté contenue, menace retenue et profit inattendu  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
+- - **S74-A048** — S74-A048 — Rainbow Theatre : la crise d’épilepsie comme effondrement scénique public  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `corrobore`.
+- - **S74-A050** — S74-A050 — Gretton reconnaît rétrospectivement l’aveuglement face à l’aggravation de Curtis  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_retrospectif` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- - **S74-A052** — S74-A052 — Vini Reilly comme témoin de l’impasse psychique de Curtis  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_direct_rapporte` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- - **S74-A053** — S74-A053 — Suicide de Curtis : mort privée contre mythe rock’n’roll  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `interpretation_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
+- - **S74-A054** — S74-A054 — Deborah Curtis contre la version simplifiée de la tragédie conjugale  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_direct_rapporte` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
+- - **S74-A051** — S74-A051 — Gretton, Sordide Sentimentale et l’émotion managériale devant « Dead Souls » et « Atmosphere »  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_affectif` ; importance : `majeure` ; preuve : `temoignage_direct_auteur`.
+- - **S74-A055** — S74-A055 — Mort de Curtis : onde de choc sur Factory, Topping, Hannett et Sumner  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
-- Le chapitre doit rester une vue de consolidation, non un texte final.
-- Les sources rattachées orientent la rédaction mais ne remplacent pas la vérification.
+## 6. Autres atomes utiles
 
-## 6. Sources primaires mobilisées
+- - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-025** — S41-025 — Premières paroles : Hook écrit, Curtis transcende  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-026** — S41-026 — Ian Curtis comme « people pleaser » et pluralité des personas  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `fragile`.
+- - **S41-033** — S41-033 — *No Love Lost* et *House of Dolls*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-101** — S41-101 — « She’s Lost Control » : entre observation professionnelle et résonance biographique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_contexte` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-112** — S41-112 — « Day of the Lords » : lenteur lourde contre vitesse punk  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-114** — S41-114 — « Insight » : la mélancolie comme architecture  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-116** — S41-116 — « She’s Lost Control » : machine, répétition et panique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-121** — S41-121 — « I Remember Nothing » : disparition et vide final  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-124** — S41-124 — Curtis sur scène : ambiguïté entre performance et crise  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-125** — S41-125 — « Transmission » : le premier hymne collectif  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-126** — S41-126 — Le paradoxe de la communication chez Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-127** — S41-127 — « Atmosphere » : rupture émotionnelle majeure  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-130** — S41-130 — « Love Will Tear Us Apart » : simplicité pop et tragédie interne  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-132** — S41-132 — Ian Curtis : fragmentation croissante  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait_sensible` ; importance : `non qualifiée` ; preuve : `fragile`.
+- - **S41-133** — S41-133 — La musique devient plus froide à mesure que la situation devient plus chaude  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- - **S45-003** — S45-003 — « There was more to living than working nine to five »  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `citation_clef` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-004** — S45-004 — Ian Curtis hérite du silence de son père  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `psychologie_sociale` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S45-008** — S45-008 — Ian Curtis exerce un contrôle affectif important  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation_conjugale` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S45-010** — S45-010 — Le couple écoute reggae et soul dans l’espace domestique  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `culture_domestique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S45-017** — S45-017 — Deborah vit l’entourage Factory comme un espace masculin fermé  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S45-021** — S45-021 — La grossesse de Deborah accentue l’isolement domestique  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `domesticité` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-022** — S45-022 — Natalie Curtis : paternité et désorganisation  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `famille` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-028** — S45-028 — Ian Curtis devient progressivement absent du foyer  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `domesticité` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-030** — S45-030 — « I felt increasingly isolated »  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `citation_clef` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S45-032** — S45-032 — Ian Curtis devient difficilement joignable émotionnellement  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation_conjugale` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S45-038** — S45-038 — Deborah Curtis décrit les derniers jours comme étrangement ordinaires  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-008** — S46-008 — Le passage de Warsaw à Joy Division  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-021** — S46-021 — Réception NME à Eric’s : Joy Division comme « Important Band »  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-029** — S46-029 — Paul Morley, Wozencroft et la lecture occulto-filmique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-035** — S46-035 — La pochette de *An Ideal for Living* comme foyer de polémique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie_polemique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-044** — S46-044 — Ian Wood : Joy Division et le malaise industriel  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `performance` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-054** — S46-054 — Joy Division, transe et techniques de suggestion  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_theorique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-068** — S46-068 — La citation inaugurale de Curtis : monde intérieur et rêverie ouvrière  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `citation_contextualisee` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-083** — S46-083 — Joy Division : choix du nom et risque symbolique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `changement_nom` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-106** — S46-106 — « No Love Lost » et l’insertion de Ka-Tzetnik  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reference_litteraire` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-113** — S46-113 — « Insight » et l’obsession de l’intériorité  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_lyrique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-114** — S46-114 — « I Remember Nothing » et la dissolution finale  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_album` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-116** — S46-116 — William Burroughs comme figure tutélaire distante  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `rencontre_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-158** — S46-158 — Morley : Joy Division et la chance  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_mythographique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-159** — S46-159 — Morley : Joy Division et la régénération du langage rock  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_esthetique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-160** — S46-160 — Morley : impossibilité de parler de l’intérieur  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `epistemologie_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-161** — S46-161 — Morley : écouter Joy Division seulement en bonne santé  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_affective` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-162** — S46-162 — « Glass : Mesh » : le livre comme montage filmique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `dispositif_formel` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-164** — S46-164 — Camus, Nietzsche, Adorno : Joy Division encadré par la haute culture  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-165** — S46-165 — « Disorder » comme seuil de l’ouvrage  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_seuil` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-167** — S46-167 — « About-Face » : The Noise comme concept critique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concept_critique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-168** — S46-168 — The Noise : art plus réel que le réel  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_esthetique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-169** — S46-169 — The Noise : espace minimal et tension maximale  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_scenique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-174** — S46-174 — Steve Taylor : sujets banals, opération urgente  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-175** — S46-175 — « Auto-Suggestion : The Him » : musique et langage symbolique  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-177** — S46-177 — Transe et répétition lente  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_rythmique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-181** — S46-181 — « Death Rattle : The Atrocity Exhibition » : bascule dans le réel  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `dispositif_formel` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S46-182** — S46-182 — Joy Division et la Dialectique de la raison  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-006** — S47-006 — Punk et destruction du monopole des « vrais musiciens »  
+  Source : S47 — West, Joy Division, 1984 ; type : `analyse_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-010** — S47-010 — Warsaw passe du punk à une esthétique répétitive et sombre  
+  Source : S47 — West, Joy Division, 1984 ; type : `evolution_esthetique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-027** — S47-027 — Joy Division véhicule aussi une idée d’espoir  
+  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-047** — S47-047 — Ian Wood : Joy Division comme abstraction grise du malaise urbain  
+  Source : S47 — West, Joy Division, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-054** — S47-054 — Joy Division comme composé chimique irréductible  
+  Source : S47 — West, Joy Division, 1984 ; type : `interpretation_esthetique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-128** — S47-128 — *Low* de Bowie comme objet de généalogie indirecte  
+  Source : S47 — West, Joy Division, 1984 ; type : `genealogie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-178** — S47-178 — Neil Norman : la dimension quasi prométhéenne de Joy Division  
+  Source : S47 — West, Joy Division, 1984 ; type : `acteur_critique` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S47-187** — S47-187 — Citation critique : Ian Wood et « deadly accurate »  
+  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-188** — S47-188 — Citation critique : Curtis comme « loser caught in a world only partially understood »  
+  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-191** — S47-191 — Citation critique : Neil Norman et le défi à Dieu  
+  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S68-A008** — S-BROLL-A008 — Origine du nom Joy Division  
+  Source : S68 — Broll, Joy Division, 1988 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S68-A036** — S-BROLL-A036 — Avril 1980 : santé de Ian Curtis et dates annulées  
+  Source : S68 — Broll, Joy Division, 1988 ; type : `santé` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S68-A038** — S-BROLL-A038 — Tournée américaine prévue et mort de Ian Curtis  
+  Source : S68 — Broll, Joy Division, 1988 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S69-A001** — S69-A001 — Étudier Joy Division comme travail de mémoire  
+  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S69-A003** — S69-A003 — Authenticité, Manchester, mort de Curtis  
+  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S69-A006** — S69-A006 — Nostalgie comme humeur, mode et ersatz  
+  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S69-A007** — S69-A007 — La nostalgie n’est pas automatiquement réactionnaire  
+  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S69-A020** — S69-A020 — Conclusion : Joy Division comme espace de nostalgies concurrentes  
+  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S70-A003** — S70-A003 — Joy Division comme musique de l’espace métropolitain intérieur  
+  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S70-A005** — S70-A005 — Refus de faire du suicide le dernier geste créatif  
+  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S70-A010** — S70-A010 — Origine du nom Joy Division et *House of Dolls*  
+  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S70-A022** — S70-A022 — Crises, Moonlight Club et Rainbow Theatre  
+  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S70-A025** — S70-A025 — Mort de Curtis et rejet des légendes  
+  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S70-A029** — S70-A029 — Son de scène : basse, guitare, batterie, voix, danse  
+  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
-- S41 — Hook, Unknown Pleasures, 2012
-- S45 — Curtis, Touching from a Distance, 1995
-- S46 — Johnson, An Ideal for Living, 1984
-- S47 — West, Joy Division, 1984
-- S68 — Broll, Joy Division, 1988
-- S69 — Greig & Strong, But We Remember When We Were Young, 2014
-- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
-- S71 — Flowers, Dreams Never End, 1995/2012
-- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
+## 7. Citations disponibles
 
-## 7. Sources secondaires mobilisées
+- - **S46-Q001** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « You can live in your own little world. »
+- - **S45-Q001** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "a_stabiliser"}` — « working nine to five »
+- - **S45-Q005** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « increasingly isolated »
+- - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
+- - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
+- - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
 
-- À compléter depuis le registre consolidé des références.
+## 8. Chronologie rattachée
 
-## 8. Atomes documentaires rattachés
+- Aucun événement chronologique rattaché.
 
-- S68-A008 — analyse
-- S68-A036 — santé
-- S68-A038 — biographie
-- S72 — source
-- S72-A005 — analyse
-- S72-A006 — analyse
-- S72-A013 — analyse
-- S72-A014 — analyse
-- S72-A018 — analyse
-- S72-A020 — analyse
-- S72-A021 — analyse
-- S72-A026 — analyse
-- S72-A028 — reception
-- S72-A030 — analyse
-- S72-A035 — analyse
-- S72-A038 — contrepoint
-- S72-A041 — analyse
-- S72-A045 — contrepoint
-- S72-A054 — reception
-- S72-A059 — synthese
-- S46-008 — chronologie
-- S46-021 — reception_presse
-- S46-029 — interpretation
-- S46-106 — reference_litteraire
-- S46-113 — interpretation_lyrique
-- S46-114 — interpretation_album
-- S46-116 — rencontre_culturelle
-- S46-068 — citation_contextualisee
-- S46-083 — changement_nom
-- S46-158 — interpretation_mythographique
-- S46-159 — interpretation_esthetique
-- S46-160 — epistemologie_critique
-- S46-161 — reception_affective
-- S46-162 — dispositif_formel
-- S46-164 — intertextualite
-- S46-165 — chanson_seuil
-- S46-167 — concept_critique
-- S46-168 — interpretation_esthetique
-- S46-169 — interpretation_scenique
-- S46-174 — reception_critique
-- S46-175 — intertextualite
-- S46-177 — theorie_rythmique
-- S46-181 — dispositif_formel
-- S46-182 — intertextualite
-- S46-035 — iconographie_polemique
-- S46-044 — reception_presse
-- S46-045 — performance
-- S46-054 — interpretation_theorique
-- S45-017 — sociologie_scene
-- S45-021 — domesticité
-- S45-022 — famille
-- S45-028 — domesticité
-- S45-030 — citation_clef
-- S45-032 — relation_conjugale
-- S45-038 — mémoire_sensible
-- S45-003 — citation_clef
-- S45-004 — psychologie_sociale
-- S45-008 — relation_conjugale
-- S45-010 — culture_domestique
-- S71 — source
-- S71-A006 — biographie
-- S71-A013 — analyse
-- S71-A019 — concert
-- S71-A022 — analyse
-- S71-A023 — reception
-- S71-A026 — analyse
-- S71-A027 — analyse
-- S71-A028 — biographie
-- S71-A029 — analyse
-- S47-047 — reception_critique
-- S47-054 — interpretation_esthetique
-- S47-128 — genealogie_culturelle
-- S47-178 — acteur_critique
-- S47-187 — citation_repere
-- S47-188 — citation_repere
-- S47-191 — citation_repere
-- S47-006 — analyse_culturelle
-- S47-010 — evolution_esthetique
-- S47-027 — analyse
-- S41-101 — chanson_contexte
-- S41-003 — fait
-- S41-025 — interpretation
-- S41-026 — interpretation
-- S41-033 — fait
-- S41-112 — analyse_morceau
-- S41-114 — analyse_morceau
-- S41-116 — analyse_morceau
-- S41-121 — analyse_morceau
-- S41-124 — fait_sensible
-- S41-125 — analyse_morceau
-- S41-126 — concept
-- S41-127 — analyse_morceau
-- S41-130 — analyse_morceau
-- S41-132 — portrait_sensible
-- S41-133 — concept
-- S41-C06 — concept_transversal
-- S70 — source
-- S70-A003 — analyse
-- S70-A005 — analyse
-- S70-A010 — analyse
+## 9. Personnes et acteurs
 
-## 9. Citations disponibles
+- PERS-001 — Ian Curtis
 
-- S46-Q001
-- S45-Q001
-- S45-Q005
-- S47-Q002
-- S47-Q003
-- S47-Q009
+## 10. Chansons rattachées
 
-## 10. Éléments chronologiques rattachés
-
-- À compléter depuis `exports/generated/chronology.json`.
-
-## 11. Chansons rattachées
-
-- À compléter depuis `exports/generated/songs.json`.
-
-## 12. Personnes rattachées
-
-- À compléter depuis `exports/generated/people.json`.
-
-## 13. Concepts mobilisés
-
-- absence
-- absurdité
-- Adorno
-- affirmation
-- Albert Camus
-- alienation
-- alienation effects
-- amateurisme
-- ambiguïté
-- ambiguïté politique
-- amour et isolation
-- An Ideal for Living
-- annik honoré
-- anti-mythification
-- anti-platonisme
-- anti-punk
-- anti-rock
-- anti-romantisation
-- anti-romantisme
-- art
-- art et mort
-- Atmosphere
-- atmosphère
-- atmosphère sombre
-- Atrocity Exhibition
-- atrocity exhibition
-- authenticité
-- Auto-Suggestion
-- autonomie du public
-- autosuggestion
-- avant-garde
-- backward masking
-- ballardian manchester
-- banalité
-- basse
-- bassline
-- batcave
-- batterie
-- bauhaus
-- beauté étrange
-- beckett
-- Bettelheim
-- brecht
-- britannia row
-- bruit
-- cabaret voltaire
-- camp de concentration
-- cartographie des chansons
-- chance
-- changement de nom
-- chimie musicale
-- chronologie
-- cinéma
-- citation
-- classe ouvriere
-- classe ouvrière
-- Closer
-- closer
-- clôture
-- collectif
-- commercialisation
-- communication
-- concerts annulés
-- concession au public
-- condition humaine
-- Conrad
-- conscience
-- conscience urbaine
-- consommation du passé
-- contraste émotionnel
-- controverse
-- contrôle
-- couple
-- critique extrême
-- critique musicale
-- culte
-- culte mort
-- culture de masse
-- cut-up
-- célébrité
-- danger esthétique
-- daniel miller
-- danse
-- danse de curtis
-- dark things
-- darkness
-- david bowie
-- David Bowie
-- Day of the Lords
-- deadly accurate
-- death drive
-- death factory
-- Death Rattle
-- debbie woodruffe
-- decades
-- derniers jours
-- destin
-- discographie
-- Disorder
-- disorientation
-- dissolution
-- diy
-- do it yourself
-- domesticité
-- doute
-- démocratisation
-- dépassement
-- désagrégation
-- désenchantement
-- désorganisation
-- ecriture
-- electronics
-- electropunk
-- epilepsie
-- Eric's Liverpool
-- ersatz nostalgia
-- espace scénique
-- espace sonore
-- espoir
-- esthétique sonore
-- europe de l’est
-- exclusion
-- existentialisme
-- expérience intérieure
-- Factory
-- factory records
-- famille
-- fatigue
-- femmes
-- film
-- fin du groupe
-- finalité
-- forme radicale
-- foyer
-- fragmentation
-- Friedrich Nietzsche
-- froid
-- froideur
-- from safety to where
-- gang of four
-- ghetto de Varsovie
-- Glass
-- God
-- godard
-- goth
-- gothic overtones
-- grossesse
-- guerre froide
-- guitare
-- hallucination
-- haute culture
-- Hermann Hesse
-- hope and anchor
-- Horkheimer
-- house of dolls
-- House of Dolls
-- humanité
-- hypnose
-- héritage sombre
-- I Remember Nothing
-- Ian Curtis
-- ian curtis
-- Ian Wood
-- identification aux victimes
-- imagerie concentrationnaire
-- imagerie nazie
-- imaginaire d'évasion
-- indicible
-- induction
-- industrial malaise
-- industrial music
-- industrial records
-- industrie culturelle
-- industrie musicale
-- influence
-- influences
-- inside
-- Insight
-- intensité
-- interprétation
-- introspection
-- intériorité
-- irréductibilité
-- isolation
-- isolement
-- j g ballard
-- jalousie
-- jg ballard
-- john peel
-- Joy Division
-- joy division
-- joy division héritage
-- joy division nom
-- Ka-Tzetnik
-- ka-tzetnik
-- ka-tzetnik 135633
-- kafka
-- langage
-- langage musical
-- Leaders of Men
-- lenteur
-- littérature
-- local universel
-- lourdeur
-- Love Will Tear Us Apart
-- love will tear us apart
-- Low
-- low
-- légendes
-- légitimité
-- macclesfield
-- machine
-- malentendu
-- manager
-- manchester
-- mariage
-- martin hannett
-- martyr
-- masculinité
-- mathématiques et musique
-- Melody Maker
-- mental collapse
-- Mesh
-- metallic ko
-- mike west
-- mixage
-- modernité
-- monde intérieur
-- montage
-- montage théorique
-- moonlight club
-- morceau simple
-- mort de ian curtis
-- motifs sonores
-- musique
-- musique morbide
-- mute records
-- mystère
-- mythe critique
-- mythe curtis
-- mythe ian curtis
-- médias de masse
-- mélancolie
-- mémoire
-- mémoire culturelle
-- mémoire fragmentaire
-- métropole intérieure
-- narration expérimentale
-- Natalie Curtis
-- nazisme
-- Neil Norman
-- new order
-- new psychedelia
-- new sensation
-- new wave
-- NME
-- No Love Lost
-- no love lost
-- nom du groupe
-- nord industriel
-- nostalgie
-- nostalgie comme humeur
-- nostalgie comme mode
-- nostalgie critique
-- nostalgie ersatz
-- nostalgies concurrentes
-- nouvelles générations
-- novelty
-- nécrophilie critique
-- obscurité
-- opération
-- originalité
-- paroles
-- paroles de curtis
-- passover
-- paternité
-- paysages de ruine
-- perception
-- performance
-- persona
-- perte de contrôle
-- peter hook
-- peter saville
-- peur
-- Plan K
-- politique du quotidien
-- pop
-- pop parfaite
-- post-industrialisme
-- post-punk
-- presse musicale
-- pression
-- prostitution métaphorique
-- provocation punk
-- prémonition
-- présence scénique
-- public
-- pulsar
-- punk
-- père
-- quotidien
-- radio
-- rainbow theatre
-- RCA
-- refus du message unique
-- refus du travail répétitif
-- refus interviews
-- reggae
-- retenue
-- retour du rock
-- retrait émotionnel
-- rock
-- rockism
-- romantisme noir
-- romantisme rock
-- réalité
-- réception
-- réception extrême
-- réel
-- régénération
-- répétition
-- résistance
-- rêverie
-- santé de curtis
-- santé mentale
-- scène
-- scène post-punk
-- self
-- sens ouvert
-- sensation
-- seuil
-- She's Lost Control
-- she's lost control
-- sheffield
-- silence
-- solitude
-- son live
-- soul
-- Stephen Morris
-- Steve Taylor
-- strobes
-- stroszek
-- subculture
-- subjectivite
-- succès
-- suicide
-- symboles
-- séparation
-- tension
-- texture sonore
-- The Him
-- The Noise
-- throbbing gristle
-- tournée
-- tournée américaine
-- tournée européenne
-- tournées
-- transcendance
-- transe
-- transgression
-- transition posthume
-- transmission
 - Transmission
-- travail de mémoire
-- travail industriel
-- travail social
-- twenty four hours
-- underground
-- unknown pleasures
-- Unknown Pleasures
-- urban malaise
-- urban paranoia
-- variations
-- varispeed
-- vide
-- vie conjugale
-- vie souterraine
-- voix
-- volonté
-- vulnérabilité
-- warm leatherette
-- Warsaw
-- warsaw
-- Warsaw Pakt
-- Warszawa
-- William Burroughs
-- william burroughs
-- écoute
-- écoute musicale
-- écriture
-- émotion
-- épilepsie
-- équilibre musical
+- She's Lost Control
+- Disorder
+- Love Will Tear Us Apart
+- Decades
 
-## 14. Articulation avec les autres chapitres
+## 11. Concepts récurrents
 
-- À consolider au regard du tableau de cohérence thématique.
+- Ian Curtis (16)
+- ian curtis (12)
+- NME (7)
+- isolement (6)
+- épilepsie (5)
+- suicide (5)
+- Joy Division (5)
+- House of Dolls (5)
+- post-punk (5)
+- domesticité (5)
+- epilepsie (5)
+- house of dolls (4)
+- nazisme (4)
+- martin hannett (4)
+- Ian Wood (4)
+- répétition (4)
+- humanité (4)
+- paroles (4)
+- fatigue (3)
+- joy division (3)
+- joy division nom (3)
+- goth (3)
+- bruit (3)
+- film (3)
+- The Noise (3)
+- unknown pleasures (3)
+- closer (3)
+- réception (3)
+- authenticité (3)
+- fragmentation (3)
+- communication (3)
+- nom du groupe (2)
+- macclesfield (2)
+- conscience (2)
+- existentialisme (2)
+- j g ballard (2)
+- post-industrialisme (2)
+- manchester (2)
+- sheffield (2)
+- pression (2)
+- perte de contrôle (2)
+- ka-tzetnik (2)
+- throbbing gristle (2)
+- death factory (2)
+- Eric's Liverpool (2)
+- industrial malaise (2)
+- hypnose (2)
+- backward masking (2)
+- No Love Lost (2)
+- Ka-Tzetnik (2)
+- Insight (2)
+- intériorité (2)
+- perception (2)
+- I Remember Nothing (2)
+- vide (2)
+- Unknown Pleasures (2)
+- clôture (2)
+- influence (2)
+- controverse (2)
+- destin (2)
+- mélancolie (2)
+- Adorno (2)
+- Horkheimer (2)
+- tension (2)
+- transe (2)
+- lenteur (2)
+- réalité (2)
+- imagerie nazie (2)
+- vulnérabilité (2)
+- solitude (2)
+- silence (2)
+- couple (2)
+- mémoire (2)
+- danse de curtis (2)
+- presse musicale (2)
+- transmission (2)
+- love will tear us apart (2)
+- urban malaise (2)
+- Neil Norman (2)
+- God (2)
 
-## 15. Risques de doublons et points de vigilance
+## 12. Motifs et chaînes relationnelles
 
-- Vérifier les recouvrements avec les chapitres voisins.
-- Ne pas confondre document maître et texte rédigé.
+### 12.1. Motifs dominants
 
-## 16. Lacunes documentaires
+- domesticité (3)
+- réception critique (2)
+- manager (2)
+- provocation (1)
+- imagerie fasciste (1)
+- naïveté (1)
+- Throbbing Gristle (1)
+- beauté rare (1)
+- menace contenue (1)
+- profit inattendu (1)
+- intensité (1)
+- crise (1)
+- scène (1)
+- public ignorant (1)
+- honte (1)
+- impuissance (1)
+- aveuglement (1)
+- stress (1)
+- annulation impossible (1)
+- crise répétée (1)
+- larmes (1)
+- beauté (1)
+- Sordide Sentimentale (1)
+- ultime Joy Division (1)
+- impasse (1)
+- barbituriques (1)
+- dépression (1)
+- appel téléphonique (1)
+- absence de solution (1)
+- mort privée (1)
+- suicide (1)
+- mythe rock (1)
+- pression (1)
+- exclusion (1)
+- manipulation (1)
+- divorce impossible (1)
+- témoin intime (1)
+- deuil (1)
+- Factory assombrie (1)
+- Hannett (1)
 
-- À renseigner après nouvelle génération des registres et consolidation des sources.
+### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-## 17. État rédactionnel
+- S74-A024 — nuance → MYTH-002
+- S74-A024 — prolonge → S74-A017
+- S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
+- S74-A042 — prolonge → S74-A041
+- S74-A042 — complète → S74-A036
+- S74-A042 — nuance → MYTH-006
+- S74-A048 — nuance → MYTH-002
+- S74-A048 — prolonge → S74-A047
+- S74-A048 — annonce → S74-A049
+- S74-A050 — complète → S74-A049
+- S74-A050 — nuance → MYTH-002
+- S74-A050 — prolonge → S45
+- S74-A051 — prolonge → S74-A050
+- S74-A051 — annonce → S74-A052
+- S74-A051 — nuance → MYTH-002
+- S74-A052 — prolonge → S74-A048
+- S74-A052 — complète → S74-A050
+- S74-A052 — nuance → MYTH-002
+- S74-A053 — nuance → MYTH-002
+- S74-A053 — complète → S74-A052
+- S74-A053 — prolonge → S45
+- S74-A054 — prolonge → S45
+- S74-A054 — nuance → S74-A053
+- S74-A054 — contredit_partiellement → S74-A050
+- S74-A055 — prolonge → S74-A053
+- S74-A055 — complète → S74-A056
+- S74-A055 — nuance → MYTH-006
+- S74-A015 — renforce → S74-A002
+- S74-A015 — nuance → MYTH-003
+- S74-A015 — complète → S41
+- S74-A017 — se_souvient → S45
+- S74-A017 — nuance → MYTH-002
 
-- Fichier généré et versionné pour consultation statique GitHub Pages.
+## 13. Distribution documentaire
+
+### 13.1. Types d’atomes
+
+| Type | Nombre |
+|---|---|
+| analyse | 32 |
+| analyse_morceau | 7 |
+| biographie | 6 |
+| reception | 3 |
+| interpretation | 3 |
+| interpretation_esthetique | 3 |
+| intertextualite | 3 |
+| reception_critique | 3 |
+| citation_repere | 3 |
+| contrepoint | 2 |
+| synthese | 2 |
+| reception_presse | 2 |
+| dispositif_formel | 2 |
+| domesticité | 2 |
+| citation_clef | 2 |
+| relation_conjugale | 2 |
+| temoignage_direct_rapporte | 2 |
+| fait | 2 |
+| concept | 2 |
+| santé | 1 |
+| chronologie | 1 |
+| reference_litteraire | 1 |
+| interpretation_lyrique | 1 |
+| interpretation_album | 1 |
+| rencontre_culturelle | 1 |
+| citation_contextualisee | 1 |
+| changement_nom | 1 |
+| interpretation_mythographique | 1 |
+| epistemologie_critique | 1 |
+| reception_affective | 1 |
+| chanson_seuil | 1 |
+| concept_critique | 1 |
+| interpretation_scenique | 1 |
+| theorie_rythmique | 1 |
+| iconographie_polemique | 1 |
+| performance | 1 |
+| interpretation_theorique | 1 |
+| sociologie_scene | 1 |
+| famille | 1 |
+| mémoire_sensible | 1 |
+| psychologie_sociale | 1 |
+| culture_domestique | 1 |
+| concert | 1 |
+| genealogie_culturelle | 1 |
+| acteur_critique | 1 |
+| analyse_culturelle | 1 |
+| evolution_esthetique | 1 |
+| non qualifié | 1 |
+| controverse | 1 |
+| performance_live | 1 |
+| temoignage_retrospectif | 1 |
+| temoignage_affectif | 1 |
+| interpretation_critique | 1 |
+| reception_interne | 1 |
+| temoignage | 1 |
+| chanson_contexte | 1 |
+| fait_sensible | 1 |
+| portrait_sensible | 1 |
+| concept_transversal | 1 |
+| memoire | 1 |
+
+### 13.2. Importance documentaire
+
+| Importance | Nombre |
+|---|---|
+| non qualifiée | 113 |
+| critique | 8 |
+| majeure | 3 |
+
+## 14. Risques de surinterprétation et points de vigilance
+
+- S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
+- S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
+- S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
+- S74-A050 [eleve] — risque de moraliser rétrospectivement une situation médicale et organisationnelle mal comprise à l’époque
+- S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
+- S74-A052 [tres_eleve] — sujet médical et suicidaire ; risque de causalité simpliste, romantisation ou déterminisme rétrospectif
+- S74-A053 [tres_eleve] — tout traitement de la mort de Curtis risque la téléologie tragique et la lecture sacrificielle
+- S74-A054 [eleve] — risque d’opposer mécaniquement vérité domestique et mémoire du groupe sans reconnaître les angles morts de chaque témoin
+- S74-A055 [moyen] — risque de faire de la mort de Curtis la cause unique de toutes les mutations ultérieures de Factory
+- S74-A015 [eleve] — risque de transformer une hypothèse mémorielle de Sumner en explication totale de Joy Division
+- S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
+
+## 15. Lacunes et prochaines vérifications
+
+- Vérifier les atomes anciens encore incomplets au regard du schéma v2.
+- Contrôler les citations avant toute insertion dans le manuscrit.
+- Éviter les doublons avec les chapitres voisins en consultant les champs `liens_interchapitres`.
+- Ne pas transformer ce document maître en texte final : il sert de dossier documentaire de rédaction.

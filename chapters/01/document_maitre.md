@@ -6,340 +6,344 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
+generated_at: "2026-05-12T20:47:42"
 ```
 
-## 1. Statut du chapitre
-
-- Numéro : 1
-- Titre : Manchester année zéro : le terreau de la colère
-- État : à consolider depuis les atomes et registres
-- Génération : automatique depuis `exports/generated/`
-
-## 2. Fonction du chapitre
+## 1. Fonction du chapitre
 
 Établir Manchester comme matrice urbaine, sociale et affective du livre.
 
-## 3. Périmètre
+## 2. Questions directrices
 
-### 3.1 Inclus
+- Qu’est-ce que Manchester apporte que Londres ne peut pas produire ?
+- Comment éviter le déterminisme urbain ?
 
-Périmètre documentaire propre au chapitre, sources rattachées, motifs conceptuels et éléments utiles à la rédaction.
+## 3. Tableau de bord documentaire
 
-### 3.2 Hors champ explicite
+| Indicateur | Valeur |
+|---|---|
+| Atomes | 48 |
+| Atomes critiques / majeurs | 5 |
+| Citations | 4 |
+| Événements chronologiques | 1 |
+| Personnes | 0 |
+| Chansons | 0 |
+| Sources mobilisées | 8 |
 
-Les développements relevant d’un autre chapitre doivent être renvoyés au document maître correspondant.
+## 4. Sources mobilisées
 
-## 4. Questions directrices
+| ID | Source | Atomes | Citations |
+|---|---|---|---|
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 5 | 2 |
+| S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
+| S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
+| S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 1 | 0 |
+| S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
+| S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
+| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 5 | 0 |
 
-- Quel problème le chapitre résout-il dans l’économie générale du livre ?
-- Quelles sources permettent de stabiliser le propos ?
-- Quels risques de doublons doivent être maîtrisés ?
+## 5. Atomes critiques ou majeurs
 
-## 5. Hypothèses interprétatives
+- - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
+- - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
+- - **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
+- - **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 
-- Le chapitre doit rester une vue de consolidation, non un texte final.
-- Les sources rattachées orientent la rédaction mais ne remplacent pas la vérification.
+## 6. Autres atomes utiles
 
-## 6. Sources primaires mobilisées
+- - **S41-005** — S41-005 — Enfance de Hook : Salford, violence domestique et monde ouvrier  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-009** — S41-009 — Délinquance adolescente et logique de classe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-010** — S41-010 — Destruction d’Ordsall et relogement forcé  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-011** — S41-011 — Ellor Street comme contre-utopie moderniste  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-084** — S41-084 — Manchester contre Londres : géographie de l’indépendance  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S41-118** — S41-118 — « Shadowplay » : la ville comme labyrinthe mental  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S41-C01** — S41-C01 — Manchester comme matrice émotionnelle  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- - **S45-001** — S45-001 — Ian Curtis naît à Old Trafford mais grandit à Macclesfield  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-003** — S45-003 — « There was more to living than working nine to five »  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `citation_clef` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-005** — S45-005 — Aunty Nell : horizon d’une vie différente  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `environnement_social` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-009** — S45-009 — Mariage précoce et provincialité  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S45-023** — S45-023 — Ian Curtis continue de travailler malgré le succès  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `travail` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-004** — S46-004 — Les concerts des Sex Pistols comme matrice mancunienne  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-044** — S46-044 — Ian Wood : Joy Division et le malaise industriel  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-068** — S46-068 — La citation inaugurale de Curtis : monde intérieur et rêverie ouvrière  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `citation_contextualisee` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S46-069** — S46-069 — La jeunesse mancunienne et le modèle Sex Pistols  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `contexte_punk` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S46-108** — S46-108 — Tony Wilson et le romantisme de l’échec mancunien  
+  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_culturelle` ; importance : `non qualifiée` ; preuve : `faible`.
+- - **S47-005** — S47-005 — Curtis, Sumner, Hook et Morris ont vingt ans en 1976  
+  Source : S47 — West, Joy Division, 1984 ; type : `biographie_collective` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-047** — S47-047 — Ian Wood : Joy Division comme abstraction grise du malaise urbain  
+  Source : S47 — West, Joy Division, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-161** — S47-161 — Macclesfield comme origine biographique de Curtis et Morris  
+  Source : S47 — West, Joy Division, 1984 ; type : `lieu_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S47-162** — S47-162 — Manchester comme scène d’apprentissage collectif  
+  Source : S47 — West, Joy Division, 1984 ; type : `lieu_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S47-187** — S47-187 — Citation critique : Ian Wood et « deadly accurate »  
+  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S70-A008** — S70-A008 — Manchester comme scène locale foisonnante  
+  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S71-A003** — S71-A003 — Manchester : déclin industriel et enfance de Hook et Sumner  
+  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- - **S72-A001** — S72-A001 — Le projet du livre : post-punk comme âge de l’expérimentation  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `methode` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A002** — S72-A002 — Post-punk : poursuivre la révolution inachevée de punk  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A003** — S72-A003 — Modernisme, art schools et design graphique  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A007** — S72-A007 — DIY et infrastructure indépendante  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A008** — S72-A008 — *Spiral Scratch* comme matrice DIY mancunienne  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A009** — S72-A009 — New Hormones, Rabid et le précédent que Factory refuse de suivre  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A013** — S72-A013 — Ballard et les paysages post-industriels  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A014** — S72-A014 — Joy Division : membrane entre le local et l’universel  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A015** — S72-A015 — Joy Division et The Fall : rivalité tacite pour définir Manchester  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A016** — S72-A016 — Trafford Park et l’incorporation de la ville dans le son  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A023** — S72-A023 — Manchester : scène, fanzines et infrastructures locales  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A031** — S72-A031 — Reynolds comme source déjà présente dans le socle du livre  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `methode` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A034** — S72-A034 — DIY : Desperate Bicycles et l’injonction « do it yourself »  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A039** — S72-A039 — Pere Ubu et Devo : grotesque industriel et Amérique post-industrielle  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A040** — S72-A040 — Sheffield : ville industrielle jumelle de Manchester  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A043** — S72-A043 — The Fall : Manchester par irritation, répétition et anti-lyrisme  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A044** — S72-A044 — City Fun : fanzine comme cartographie locale  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `infrastructure` ; importance : `non qualifiée` ; preuve : `forte`.
+- - **S72-A049** — S72-A049 — 2-Tone : autre réponse britannique à la crise sociale  
+  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
 
-- S41 — Hook, Unknown Pleasures, 2012
-- S45 — Curtis, Touching from a Distance, 1995
-- S46 — Johnson, An Ideal for Living, 1984
-- S47 — West, Joy Division, 1984
-- S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990
-- S71 — Flowers, Dreams Never End, 1995/2012
-- S72 — Reynolds, Rip It Up and Start Again, 2005/2006
+## 7. Citations disponibles
 
-## 7. Sources secondaires mobilisées
+- - **S45-Q001** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "a_stabiliser"}` — « working nine to five »
+- - **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
+- - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
+- - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
 
-- À compléter depuis le registre consolidé des références.
+## 8. Chronologie rattachée
 
-## 8. Atomes documentaires rattachés
+- CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 
-- S72 — source
-- S72-A001 — methode
-- S72-A002 — analyse
-- S72-A003 — analyse
-- S72-A007 — sociologie
-- S72-A008 — chronologie
-- S72-A009 — analyse
-- S72-A013 — analyse
-- S72-A014 — analyse
-- S72-A015 — sociologie
-- S72-A016 — contexte
-- S72-A023 — sociologie
-- S72-A031 — methode
-- S72-A034 — sociologie
-- S72-A039 — contrepoint
-- S72-A040 — contexte
-- S72-A043 — contrepoint
-- S72-A044 — infrastructure
-- S72-A049 — contrepoint
-- S46-004 — chronologie
-- S46-108 — interpretation_culturelle
-- S46-068 — citation_contextualisee
-- S46-069 — contexte_punk
-- S46-044 — reception_presse
-- S45-023 — travail
-- S45-001 — biographie
-- S45-003 — citation_clef
-- S45-005 — environnement_social
-- S45-009 — sociologie
-- S71 — source
-- S71-A003 — contexte
-- S47-047 — reception_critique
-- S47-161 — lieu_biographique
-- S47-162 — lieu_scene
-- S47-187 — citation_repere
-- S47-005 — biographie_collective
-- S41-084 — concept
-- S41-005 — contexte_social
-- S41-006 — concept
-- S41-009 — contexte_social
-- S41-010 — fait
-- S41-011 — concept
-- S41-118 — analyse_morceau
-- S41-C01 — concept_transversal
-- S70-A008 — sociologie
-- S01 — analyse
-- S02 — analyse
-- S03 — analyse
-- S04 — analyse
-- S05 — analyse
-- S06 — analyse
-- S07 — analyse
-- S08 — analyse
-- S09 — analyse
-- S10 — analyse
-- S11 — analyse
-- S12 — analyse
-- S14 — analyse
-- S15 — analyse
-- S16 — analyse
-- S17 — analyse
-- S18 — analyse
-- S19 — analyse
-- S20 — analyse
-- S21 — analyse
-- S22 — analyse
-- S23 — analyse
-- S24 — analyse
-- S25 — analyse
-- S26 — analyse
-- S27 — analyse
-- S28 — analyse
-- S29 — analyse
-- S30 — analyse
-- S31 — analyse
-- S32 — analyse
-- S33 — analyse
-- S34 — analyse
-- S35 — analyse
-- S36 — analyse
-- S37 — analyse
-- S38 — analyse
-- S39 — analyse
-- S40 — analyse
-- S41 — analyse
-- S71 — analyse
-- S72 — analyse
-- S73 — analyse
+## 9. Personnes et acteurs
 
-## 9. Citations disponibles
+- Aucune personne rattachée.
 
-- S45-Q001
-- S45-Q002
-- S47-Q002
-- S41-Q001
+## 10. Chansons rattachées
 
-## 10. Éléments chronologiques rattachés
+- Aucune chanson rattachée.
 
-- À compléter depuis `exports/generated/chronology.json`.
+## 11. Concepts récurrents
 
-## 11. Chansons rattachées
+- manchester (9)
+- Manchester (6)
+- Salford (5)
+- diy (4)
+- Ian Curtis (4)
+- Ian Wood (3)
+- NME (3)
+- Macclesfield (3)
+- classe ouvriere (3)
+- géographie émotionnelle (3)
+- factory records (2)
+- new hormones (2)
+- buzzcocks (2)
+- indépendance (2)
+- sheffield (2)
+- joy division (2)
+- the fall (2)
+- city fun (2)
+- fanzine (2)
+- scène locale (2)
+- Sex Pistols (2)
+- Buzzcocks (2)
+- enfance (2)
+- peter hook (2)
+- bernard sumner (2)
+- urban malaise (2)
+- Stephen Morris (2)
+- salford (2)
+- post-punk (1)
+- âge d’or (1)
+- présentisme (1)
+- contre-culture (1)
+- histoire critique (1)
+- révolution inachevée (1)
+- rupture avec le rock (1)
+- radical content radical form (1)
+- electronics (1)
+- dub (1)
+- modernisme (1)
+- art schools (1)
+- peter saville (1)
+- constructivisme (1)
+- bauhaus (1)
+- labels indépendants (1)
+- rough trade (1)
+- infrastructure (1)
+- spiral scratch (1)
+- manchester contre londres (1)
+- rabid records (1)
+- centralisation londonienne (1)
+- j g ballard (1)
+- post-industrialisme (1)
+- paysages de ruine (1)
+- ballardian manchester (1)
+- local universel (1)
+- atmosphère (1)
+- condition humaine (1)
+- rivalité locale (1)
+- scène post-punk (1)
+- trafford park (1)
+- pollution (1)
+- industrial estate (1)
+- paysage sonore (1)
+- scène mancunienne (1)
+- infrastructures locales (1)
+- socle documentaire (1)
+- registre des sources (1)
+- consolidation (1)
+- s20 migration (1)
+- source critique (1)
+- desperate bicycles (1)
+- autonomie (1)
+- moyens de production (1)
+- punk provincial (1)
+- pere ubu (1)
+- devo (1)
+- cleveland (1)
+- akron (1)
+- industrial grotesque (1)
+- industrie lourde (1)
 
-- À compléter depuis `exports/generated/songs.json`.
+## 12. Motifs et chaînes relationnelles
 
-## 12. Personnes rattachées
+### 12.1. Motifs dominants
 
-- À compléter depuis `exports/generated/people.json`.
+- Salford (2)
+- Jamaïque (1)
+- retour (1)
+- clearance (1)
+- enfance déplacée (1)
+- mémoire effacée (1)
+- tour d’habitation (1)
+- communauté détruite (1)
+- enfance (1)
+- noirceur (1)
+- désindustrialisation (1)
+- ruine urbaine (1)
+- reconstruction (1)
+- spectralité urbaine (1)
+- Manchester (1)
+- mémoire ouvrière (1)
+- suburbia (1)
+- ascension sociale (1)
+- identité urbaine (1)
+- Wythenshawe (1)
+- périphérie (1)
+- overspill estate (1)
+- violence sociale (1)
+- réseau local (1)
 
-## 13. Concepts mobilisés
+### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- akron
-- anti-centralisme
-- anti-lyrisme
-- antiracisme
-- art schools
-- assistance sociale
-- atmosphère
-- Aunty Nell
-- autonomie
-- ballardian manchester
-- bauhaus
-- Bernard Sumner
-- bernard sumner
-- buzzcocks
-- Buzzcocks
-- centralisation londonienne
-- city fun
-- clangorous noisescape
-- classe ouvriere
-- classe ouvrière
-- classe populaire
-- cleveland
-- concrete wasteland
-- condition humaine
-- consolidation
-- constructivisme
-- contre-culture
-- contre-information
-- crise sociale
-- danse politique
-- deadly accurate
-- desperate bicycles
-- destruction urbaine
-- devo
-- distinction
-- diy
-- do it yourself
-- double vie
-- dub
-- déclin industriel
-- Electric Circus
-- electric circus
-- electronics
-- emploi
-- enfance
-- enfance ouvrière
-- Eric's Liverpool
-- errance
-- esthétique sonore
-- Factory
-- factory records
-- Factory Records
-- fanzine
-- fanzines
-- formation
-- formation de groupe
-- futurisme sombre
-- géographie
-- géographie émotionnelle
-- histoire critique
-- horizon social
-- humanité
-- Ian Curtis
-- Ian Wood
-- imaginaire
-- imaginaire d'évasion
-- industrial estate
-- industrial grotesque
-- industrial malaise
-- industrie lourde
-- indépendance
-- infrastructure
-- infrastructures locales
-- j g ballard
-- jeunesse ouvrière
-- joy division
-- labels indépendants
-- Lesser Free Trade Hall
-- local universel
-- Londres
-- Macclesfield
-- Manchester
-- manchester
-- manchester contre londres
-- Manchester punk
-- mariage jeune
-- mark e smith
-- masculin populaire
-- mobilité sociale
-- modernisme
-- monde intérieur
-- moyens de production
-- mémoire visuelle
-- new hormones
-- new order
-- NME
-- noir et blanc
-- nord industriel
-- Old Trafford
-- Ordsall
-- origine du groupe
-- origines
-- paysage industriel
-- paysage sonore
-- paysages de ruine
-- pere ubu
-- peter hook
-- Peter Hook
-- peter saville
-- pollution
-- post-industrialisme
-- post-punk
-- présentisme
-- punk local
-- punk provincial
-- rabid records
-- radical content radical form
-- Rafters
-- refus du travail répétitif
-- registre des sources
-- relogement
-- renovation urbaine
-- rivalité locale
-- romantisme industriel
-- rough trade
-- rupture avec le rock
-- réception
-- répétition
-- révolution inachevée
-- rêverie
-- s20 migration
-- Salford
-- scène d’apprentissage
-- scène locale
-- scène mancunienne
-- scène post-punk
-- Sex Pistols
-- Shadowplay
-- sheffield
-- ska
-- slum clearance
-- socle documentaire
-- source critique
-- spiral scratch
-- Stephen Morris
-- the fall
-- Tony Wilson
-- trafford park
-- transition posthume
-- travail administratif
-- travail industriel
-- two tone
-- urban malaise
-- urbanisme brutaliste
-- ville
-- violence domestique
-- vol
-- wasteland
-- âge d’or
-- échec
+- S74-A014 — complète → S74-A002
+- S74-A014 — prolonge → S41
+- S74-A015 — renforce → S74-A002
+- S74-A015 — nuance → MYTH-003
+- S74-A015 — complète → S41
+- S74-A002 — nuance → MYTH-003
+- S74-A002 — derive_de → CONCEPT-002
+- S74-A002 — prolonge → CONCEPT-003
+- S74-A006 — nuance → MYTH-005
+- S74-A006 — illustre → CONCEPT-003
+- S74-A011 — nuance → MYTH-003
+- S74-A011 — complète → S74-A002
 
-## 14. Articulation avec les autres chapitres
+## 13. Distribution documentaire
 
-- À consolider au regard du tableau de cohérence thématique.
+### 13.1. Types d’atomes
 
-## 15. Risques de doublons et points de vigilance
+| Type | Nombre |
+|---|---|
+| sociologie | 6 |
+| analyse | 5 |
+| contexte | 3 |
+| contrepoint | 3 |
+| biographie | 3 |
+| concept | 3 |
+| methode | 2 |
+| chronologie | 2 |
+| lecture | 2 |
+| contexte_social | 2 |
+| infrastructure | 1 |
+| interpretation_culturelle | 1 |
+| citation_contextualisee | 1 |
+| contexte_punk | 1 |
+| reception_presse | 1 |
+| travail | 1 |
+| citation_clef | 1 |
+| environnement_social | 1 |
+| reception_critique | 1 |
+| lieu_biographique | 1 |
+| lieu_scene | 1 |
+| citation_repere | 1 |
+| biographie_collective | 1 |
+| temoignage | 1 |
+| fait | 1 |
+| analyse_morceau | 1 |
+| concept_transversal | 1 |
 
-- Vérifier les recouvrements avec les chapitres voisins.
-- Ne pas confondre document maître et texte rédigé.
+### 13.2. Importance documentaire
 
-## 16. Lacunes documentaires
+| Importance | Nombre |
+|---|---|
+| non qualifiée | 43 |
+| majeure | 4 |
+| critique | 1 |
 
-- À renseigner après nouvelle génération des registres et consolidation des sources.
+## 14. Risques de surinterprétation et points de vigilance
 
-## 17. État rédactionnel
+- S74-A014 [moyen] — risque de surdéterminer l’esthétique du groupe par la seule biographie spatiale de Hook
+- S74-A015 [eleve] — risque de transformer une hypothèse mémorielle de Sumner en explication totale de Joy Division
+- S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
+- S74-A006 [moyen] — risque de psychologiser Factory à partir de la seule trajectoire sociale de Wilson
+- S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
 
-- Fichier généré et versionné pour consultation statique GitHub Pages.
+## 15. Lacunes et prochaines vérifications
+
+- Vérifier les atomes anciens encore incomplets au regard du schéma v2.
+- Contrôler les citations avant toute insertion dans le manuscrit.
+- Éviter les doublons avec les chapitres voisins en consultant les champs `liens_interchapitres`.
+- Ne pas transformer ce document maître en texte final : il sert de dossier documentaire de rédaction.
