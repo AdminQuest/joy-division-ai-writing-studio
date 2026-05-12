@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-12T20:47:42"
+generated_at: "2026-05-12T20:52:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -45,103 +45,103 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 6. Autres atomes utiles
 
-- - **S68-A005** — S-BROLL-A005 — Démo du 18 juillet 1977 aux Pennine Studios  
+- **S68-A005** — S-BROLL-A005 — Démo du 18 juillet 1977 aux Pennine Studios  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A006** — S-BROLL-A006 — Electric Circus, 2 novembre 1977, et *Short Circuit*  
+- **S68-A006** — S-BROLL-A006 — Electric Circus, 2 novembre 1977, et *Short Circuit*  
   Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A007** — S-BROLL-A007 — *An Ideal for Living* : enregistrement et insatisfaction initiale  
+- **S68-A007** — S-BROLL-A007 — *An Ideal for Living* : enregistrement et insatisfaction initiale  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A011** — S-BROLL-A011 — Sessions RCA de mai 1978  
+- **S68-A011** — S-BROLL-A011 — Sessions RCA de mai 1978  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A012** — S-BROLL-A012 — Contrat RCA refusé  
+- **S68-A012** — S-BROLL-A012 — Contrat RCA refusé  
   Source : S68 — Broll, Joy Division, 1988 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A014** — S-BROLL-A014 — Publication de *An Ideal for Living* en juin 1978  
+- **S68-A014** — S-BROLL-A014 — Publication de *An Ideal for Living* en juin 1978  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A015** — S-BROLL-A015 — Réédition 12'' d’octobre 1978  
+- **S68-A015** — S-BROLL-A015 — Réédition 12'' d’octobre 1978  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A016** — S-BROLL-A016 — « Digital » et « Glass » pour *A Factory Sample*  
+- **S68-A016** — S-BROLL-A016 — « Digital » et « Glass » pour *A Factory Sample*  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A018** — S-BROLL-A018 — Première Peel Session  
+- **S68-A018** — S-BROLL-A018 — Première Peel Session  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A019** — S-BROLL-A019 — Martin Rushent / Genetic Records / Eden Studios  
+- **S68-A019** — S-BROLL-A019 — Martin Rushent / Genetic Records / Eden Studios  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A021** — S-BROLL-A021 — FAST Product / *Earcom 2: Contradiction*  
+- **S68-A021** — S-BROLL-A021 — FAST Product / *Earcom 2: Contradiction*  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A022** — S-BROLL-A022 — Piccadilly Radio, 4 juin 1979  
+- **S68-A022** — S-BROLL-A022 — Piccadilly Radio, 4 juin 1979  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A023** — S-BROLL-A023 — Central Sound Studio, juillet 1979  
+- **S68-A023** — S-BROLL-A023 — Central Sound Studio, juillet 1979  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A025** — S-BROLL-A025 — Films de Malcolm Whitehead et Charles Salem  
+- **S68-A025** — S-BROLL-A025 — Films de Malcolm Whitehead et Charles Salem  
   Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A026** — S-BROLL-A026 — Apollo Theatre, Manchester, et *Here Are the Young Men*  
+- **S68-A026** — S-BROLL-A026 — Apollo Theatre, Manchester, et *Here Are the Young Men*  
   Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A027** — S-BROLL-A027 — Seconde Peel Session  
+- **S68-A027** — S-BROLL-A027 — Seconde Peel Session  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A029** — S-BROLL-A029 — Paradiso Amsterdam et bootleg *Gruftgesaenge*  
+- **S68-A029** — S-BROLL-A029 — Paradiso Amsterdam et bootleg *Gruftgesaenge*  
   Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A030** — S-BROLL-A030 — Composition autour de FAC 28  
+- **S68-A030** — S-BROLL-A030 — Composition autour de FAC 28  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A031** — S-BROLL-A031 — Sessions de mars 1980 : *Closer* et « Love Will Tear Us Apart »  
+- **S68-A031** — S-BROLL-A031 — Sessions de mars 1980 : *Closer* et « Love Will Tear Us Apart »  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A033** — S-BROLL-A033 — Sordide Sentimental : « Atmosphere » / « Dead Souls »  
+- **S68-A033** — S-BROLL-A033 — Sordide Sentimental : « Atmosphere » / « Dead Souls »  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A034** — S-BROLL-A034 — Flexi FAC 28 : distribution gratuite  
+- **S68-A034** — S-BROLL-A034 — Flexi FAC 28 : distribution gratuite  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A035** — S-BROLL-A035 — Ajanta Theatre, Derby, Section 25  
+- **S68-A035** — S-BROLL-A035 — Ajanta Theatre, Derby, Section 25  
   Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A007** — S70-A007 — Warsaw : nom, line-up, premières démos  
+- **S70-A007** — S70-A007 — Warsaw : nom, line-up, premières démos  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A009** — S70-A009 — *An Ideal for Living* : provocation graphique et ambiguïté  
+- **S70-A009** — S70-A009 — *An Ideal for Living* : provocation graphique et ambiguïté  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A012** — S70-A012 — Sessions RCA et bootleg *Warsaw*  
+- **S70-A012** — S70-A012 — Sessions RCA et bootleg *Warsaw*  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A013** — S70-A013 — Granada TV, Factory Sample et maturation vers le son Joy Division  
+- **S70-A013** — S70-A013 — Granada TV, Factory Sample et maturation vers le son Joy Division  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A016** — S70-A016 — Piccadilly Radio, Central Sound et « Transmission »  
+- **S70-A016** — S70-A016 — Piccadilly Radio, Central Sound et « Transmission »  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A017** — S70-A017 — Futurama, Scala, Buzzcocks et documents filmés  
+- **S70-A017** — S70-A017 — Futurama, Scala, Buzzcocks et documents filmés  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A019** — S70-A019 — Paradiso, Effenaar, Collyer, Marquee, Warehouse  
+- **S70-A019** — S70-A019 — Paradiso, Effenaar, Collyer, Marquee, Warehouse  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A020** — S70-A020 — *Closer*, FAC 28 et sessions terminales  
+- **S70-A020** — S70-A020 — *Closer*, FAC 28 et sessions terminales  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A021** — S70-A021 — Sordide Sentimental : *Licht und Blindheit*  
+- **S70-A021** — S70-A021 — Sordide Sentimental : *Licht und Blindheit*  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A023** — S70-A023 — Vidéo promotionnelle « Love Will Tear Us Apart »  
+- **S70-A023** — S70-A023 — Vidéo promotionnelle « Love Will Tear Us Apart »  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A027** — S70-A027 — *Still*, *Substance* et la gestion Factory de l’héritage  
+- **S70-A027** — S70-A027 — *Still*, *Substance* et la gestion Factory de l’héritage  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A031** — S70-A031 — Cartographie interprétative des chansons  
+- **S70-A031** — S70-A031 — Cartographie interprétative des chansons  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A010** — S71-A010 — Pennine Sound Studios et la première démo  
+- **S71-A010** — S71-A010 — Pennine Sound Studios et la première démo  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A015** — S71-A015 — RCA Album : enregistrement rapide, contrat défavorable et retrait  
+- **S71-A015** — S71-A015 — RCA Album : enregistrement rapide, contrat défavorable et retrait  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A017** — S71-A017 — *An Ideal for Living* : Enigma, graphisme et anti-fascisme mal compris  
+- **S71-A017** — S71-A017 — *An Ideal for Living* : Enigma, graphisme et anti-fascisme mal compris  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A018** — S71-A018 — *A Factory Sample* : naissance du label et rôle de Hannett  
+- **S71-A018** — S71-A018 — *A Factory Sample* : naissance du label et rôle de Hannett  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A020** — S71-A020 — Première Peel Session : sortie du régionalisme  
+- **S71-A020** — S71-A020 — Première Peel Session : sortie du régionalisme  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A022** — S71-A022 — *Unknown Pleasures* : désenchantement, Hannett, Saville et indépendance  
+- **S71-A022** — S71-A022 — *Unknown Pleasures* : désenchantement, Hannett, Saville et indépendance  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A024** — S71-A024 — Sessions 1979, « Transmission » et l’accident de tournée  
+- **S71-A024** — S71-A024 — Sessions 1979, « Transmission » et l’accident de tournée  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A025** — S71-A025 — Fac 9, Buzzcocks, Plan K et rareté des images  
+- **S71-A025** — S71-A025 — Fac 9, Buzzcocks, Plan K et rareté des images  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A026** — S71-A026 — « Transmission », *Earcom 2* et choix du côté obscur  
+- **S71-A026** — S71-A026 — « Transmission », *Earcom 2* et choix du côté obscur  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A030** — S71-A030 — *Licht und Blindheit* et l’art total  
+- **S71-A030** — S71-A030 — *Licht und Blindheit* et l’art total  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A032** — S71-A032 — Tournée américaine, « Ceremony », « In a Lonely Place » et vidéo de « Love Will Tear Us Apart »  
+- **S71-A032** — S71-A032 — Tournée américaine, « Ceremony », « In a Lonely Place » et vidéo de « Love Will Tear Us Apart »  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A072** — S71-A072 — Discographie sélectionnée : outil de cartographie historique  
+- **S71-A072** — S71-A072 — Discographie sélectionnée : outil de cartographie historique  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A073** — S71-A073 — Vidéographie sélectionnée : rareté, performance et mémoire visuelle  
+- **S71-A073** — S71-A073 — Vidéographie sélectionnée : rareté, performance et mémoire visuelle  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `videographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S72-A017** — S72-A017 — « Digital » : métal, vitesse et gravité  
+- **S72-A017** — S72-A017 — « Digital » : métal, vitesse et gravité  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A022** — S72-A022 — *A Factory Sample* : « Digital » et « Glass » comme seuil du son Joy Division  
+- **S72-A022** — S72-A022 — *A Factory Sample* : « Digital » et « Glass » comme seuil du son Joy Division  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles

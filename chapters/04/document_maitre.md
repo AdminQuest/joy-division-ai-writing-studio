@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-12T20:47:42"
+generated_at: "2026-05-12T20:52:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -43,171 +43,171 @@ generated_at: "2026-05-12T20:47:42"
 
 ## 5. Atomes critiques ou majeurs
 
-- - **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
+- **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
-- - **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
+- **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
+- **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_institution` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
+- **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `institution` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A036** — S74-A036 — Gretton et le pari économique de rester chez Factory  
+- **S74-A036** — S74-A036 — Gretton et le pari économique de rester chez Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `decision_strategique` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A037** — S74-A037 — Freedom to fuck off : clause de liberté et ethos Factory  
+- **S74-A037** — S74-A037 — Freedom to fuck off : clause de liberté et ethos Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `principe_institutionnel` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
+- **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
-- - **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
+- **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `corrobore`.
-- - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
+- **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- - **S74-A008** — S74-A008 — So It Goes comme dispositif médiatique de transition punk  
+- **S74-A008** — S74-A008 — So It Goes comme dispositif médiatique de transition punk  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `majeure` ; preuve : `corrobore`.
-- - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
+- **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- - **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
+- **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
-- - **S74-A012** — S74-A012 — Vini Reilly, apprentissage musical et refus des frontières populaires/savantes  
+- **S74-A012** — S74-A012 — Vini Reilly, apprentissage musical et refus des frontières populaires/savantes  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `corrobore`.
-- - **S74-A035** — S74-A035 — Après le Factory Sample : vide stratégique et tentation des majors  
+- **S74-A035** — S74-A035 — Après le Factory Sample : vide stratégique et tentation des majors  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `contexte_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- - **S74-A044** — S74-A044 — Factory scene : Distractions comme antithèse lumineuse de Joy Division  
+- **S74-A044** — S74-A044 — Factory scene : Distractions comme antithèse lumineuse de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_locale` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- - **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
+- **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
-- - **S41-021** — S41-021 — Première impression d’Ian Curtis : le manteau « Hate »  
+- **S41-021** — S41-021 — Première impression d’Ian Curtis : le manteau « Hate »  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-022** — S41-022 — Recrutement d’Ian Curtis  
+- **S41-022** — S41-022 — Recrutement d’Ian Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-025** — S41-025 — Premières paroles : Hook écrit, Curtis transcende  
+- **S41-025** — S41-025 — Premières paroles : Hook écrit, Curtis transcende  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-026** — S41-026 — Ian Curtis comme « people pleaser » et pluralité des personas  
+- **S41-026** — S41-026 — Ian Curtis comme « people pleaser » et pluralité des personas  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `fragile`.
-- - **S41-028** — S41-028 — Le groupe comme archipel : Curtis comme force d’agrégation  
+- **S41-028** — S41-028 — Le groupe comme archipel : Curtis comme force d’agrégation  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-061** — S41-061 — Tension Ian Curtis / Rob Gretton : double autorité  
+- **S41-061** — S41-061 — Tension Ian Curtis / Rob Gretton : double autorité  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-069** — S41-069 — Ian Curtis et Tony Wilson : affinité intellectuelle  
+- **S41-069** — S41-069 — Ian Curtis et Tony Wilson : affinité intellectuelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-080** — S41-080 — Premier signal critique de l’épilepsie de Ian Curtis  
+- **S41-080** — S41-080 — Premier signal critique de l’épilepsie de Ian Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-085** — S41-085 — La contradiction sociale du refus de Genetic  
+- **S41-085** — S41-085 — La contradiction sociale du refus de Genetic  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-101** — S41-101 — « She’s Lost Control » : entre observation professionnelle et résonance biographique  
+- **S41-101** — S41-101 — « She’s Lost Control » : entre observation professionnelle et résonance biographique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_contexte` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-102** — S41-102 — La scène comme aggravateur physique  
+- **S41-102** — S41-102 — La scène comme aggravateur physique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-103** — S41-103 — Le groupe face à la maladie : incompréhension et minimisation  
+- **S41-103** — S41-103 — Le groupe face à la maladie : incompréhension et minimisation  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_sensible` ; importance : `non qualifiée` ; preuve : `fragile`.
-- - **S41-107** — S41-107 — Les débuts de la mythologie Curtis sur scène  
+- **S41-107** — S41-107 — Les débuts de la mythologie Curtis sur scène  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-124** — S41-124 — Curtis sur scène : ambiguïté entre performance et crise  
+- **S41-124** — S41-124 — Curtis sur scène : ambiguïté entre performance et crise  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-132** — S41-132 — Ian Curtis : fragmentation croissante  
+- **S41-132** — S41-132 — Ian Curtis : fragmentation croissante  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait_sensible` ; importance : `non qualifiée` ; preuve : `fragile`.
-- - **S41-136** — S41-136 — 2–4 avril 1980 : crise sur scène après une séquence d’épuisement  
+- **S41-136** — S41-136 — 2–4 avril 1980 : crise sur scène après une séquence d’épuisement  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-137** — S41-137 — Malvern, 5 avril 1980 : trace extérieure d’un Curtis fatigué mais disponible  
+- **S41-137** — S41-137 — Malvern, 5 avril 1980 : trace extérieure d’un Curtis fatigué mais disponible  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `témoignage_externe` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-138** — S41-138 — 6 avril 1980 : première overdose de Ian Curtis  
+- **S41-138** — S41-138 — 6 avril 1980 : première overdose de Ian Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-140** — S41-140 — Tony et Lindsay Wilson : refuge temporaire après Bury  
+- **S41-140** — S41-140 — Tony et Lindsay Wilson : refuge temporaire après Bury  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_biographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
+- **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
+- **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- - **S45-001** — S45-001 — Ian Curtis naît à Old Trafford mais grandit à Macclesfield  
+- **S45-001** — S45-001 — Ian Curtis naît à Old Trafford mais grandit à Macclesfield  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
+- **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-004** — S45-004 — Ian Curtis hérite du silence de son père  
+- **S45-004** — S45-004 — Ian Curtis hérite du silence de son père  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `psychologie_sociale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S45-005** — S45-005 — Aunty Nell : horizon d’une vie différente  
+- **S45-005** — S45-005 — Aunty Nell : horizon d’une vie différente  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `environnement_social` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-006** — S45-006 — Deborah Curtis construit un Ian pré-punk  
+- **S45-006** — S45-006 — Deborah Curtis construit un Ian pré-punk  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `cadre_narratif` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-008** — S45-008 — Ian Curtis exerce un contrôle affectif important  
+- **S45-008** — S45-008 — Ian Curtis exerce un contrôle affectif important  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation_conjugale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S45-009** — S45-009 — Mariage précoce et provincialité  
+- **S45-009** — S45-009 — Mariage précoce et provincialité  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
+- **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-015** — S45-015 — « We took it for granted that the incident had been a one-off »  
+- **S45-015** — S45-015 — « We took it for granted that the incident had been a one-off »  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `citation_clef` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-019** — S45-019 — Deborah Curtis découvre les effets concrets de l’épilepsie  
+- **S45-019** — S45-019 — Deborah Curtis découvre les effets concrets de l’épilepsie  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-020** — S45-020 — Les médicaments modifient le comportement de Ian Curtis  
+- **S45-020** — S45-020 — Les médicaments modifient le comportement de Ian Curtis  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `santé` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S45-021** — S45-021 — La grossesse de Deborah accentue l’isolement domestique  
+- **S45-021** — S45-021 — La grossesse de Deborah accentue l’isolement domestique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `domesticité` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-022** — S45-022 — Natalie Curtis : paternité et désorganisation  
+- **S45-022** — S45-022 — Natalie Curtis : paternité et désorganisation  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `famille` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-023** — S45-023 — Ian Curtis continue de travailler malgré le succès  
+- **S45-023** — S45-023 — Ian Curtis continue de travailler malgré le succès  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `travail` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-024** — S45-024 — Deborah décrit une fatigue chronique de Ian Curtis  
+- **S45-024** — S45-024 — Deborah décrit une fatigue chronique de Ian Curtis  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `santé` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-025** — S45-025 — Le public ne comprend pas les crises de Ian Curtis  
+- **S45-025** — S45-025 — Le public ne comprend pas les crises de Ian Curtis  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception_scene` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
+- **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S45-028** — S45-028 — Ian Curtis devient progressivement absent du foyer  
+- **S45-028** — S45-028 — Ian Curtis devient progressivement absent du foyer  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `domesticité` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-029** — S45-029 — Deborah Curtis décrit la peur permanente des crises  
+- **S45-029** — S45-029 — Deborah Curtis décrit la peur permanente des crises  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `peur` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-032** — S45-032 — Ian Curtis devient difficilement joignable émotionnellement  
+- **S45-032** — S45-032 — Ian Curtis devient difficilement joignable émotionnellement  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation_conjugale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S45-033** — S45-033 — La tentative de suicide bouleverse le foyer  
+- **S45-033** — S45-033 — La tentative de suicide bouleverse le foyer  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-037** — S45-037 — La séparation conjugale devient concrète  
+- **S45-037** — S45-037 — La séparation conjugale devient concrète  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
+- **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
+- **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `performance` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-047** — S46-047 — Bowdon Vale, guitare de Curtis et obscurité scénique  
+- **S46-047** — S46-047 — Bowdon Vale, guitare de Curtis et obscurité scénique  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `scene_detail` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-051** — S46-051 — Voix de Curtis : transition des premiers enregistrements au studio  
+- **S46-051** — S46-051 — Voix de Curtis : transition des premiers enregistrements au studio  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_sonore` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S46-061** — S46-061 — Rainbow Theatre : crise et malentendu spectaculaire  
+- **S46-061** — S46-061 — Rainbow Theatre : crise et malentendu spectaculaire  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-068** — S46-068 — La citation inaugurale de Curtis : monde intérieur et rêverie ouvrière  
+- **S46-068** — S46-068 — La citation inaugurale de Curtis : monde intérieur et rêverie ouvrière  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `citation_contextualisee` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S46-073** — S46-073 — Premier concert : malaise de Curtis et réactions mitigées  
+- **S46-073** — S46-073 — Premier concert : malaise de Curtis et réactions mitigées  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-111** — S46-111 — Curtis et la danse comme perte de contrôle  
+- **S46-111** — S46-111 — Curtis et la danse comme perte de contrôle  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `performance_scenique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-136** — S46-136 — Paul Slattery et la documentation de 1979-1980  
+- **S46-136** — S46-136 — Paul Slattery et la documentation de 1979-1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie_photographe` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-170** — S46-170 — « Sound of Music : 5.8.6 » : voix comme information musicale  
+- **S46-170** — S46-170 — « Sound of Music : 5.8.6 » : voix comme information musicale  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_voix` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S46-171** — S46-171 — Voix de Curtis : régionalité effacée et grave artificiel  
+- **S46-171** — S46-171 — Voix de Curtis : régionalité effacée et grave artificiel  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_voix` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S46-179** — S46-179 — Danse de Curtis et japonisme hypnotique  
+- **S46-179** — S46-179 — Danse de Curtis et japonisme hypnotique  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_performance` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S46-180** — S46-180 — Paul Morley, NME 1978 : Curtis comme force vocale  
+- **S46-180** — S46-180 — Paul Morley, NME 1978 : Curtis comme force vocale  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-053** — S47-053 — Curtis : entre Jim Morrison et Iggy Pop dans la réception critique  
+- **S47-053** — S47-053 — Curtis : entre Jim Morrison et Iggy Pop dans la réception critique  
   Source : S47 — West, Joy Division, 1984 ; type : `reception_comparative` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-089** — S47-089 — L’équipement de Ian Curtis  
+- **S47-089** — S47-089 — L’équipement de Ian Curtis  
   Source : S47 — West, Joy Division, 1984 ; type : `equipment_file` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-188** — S47-188 — Citation critique : Curtis comme « loser caught in a world only partially understood »  
+- **S47-188** — S47-188 — Citation critique : Curtis comme « loser caught in a world only partially understood »  
   Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A002** — S-BROLL-A002 — Rencontre avec Ian Curtis et première chanson « Gutz »  
+- **S68-A002** — S-BROLL-A002 — Rencontre avec Ian Curtis et première chanson « Gutz »  
   Source : S68 — Broll, Joy Division, 1988 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S74-A013** — S74-A013 — Ed Banger And The Nosebleeds comme contre-mythe punk local  
+- **S74-A013** — S74-A013 — Ed Banger And The Nosebleeds comme contre-mythe punk local  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `structurante` ; preuve : `plausible`.
 
 ## 7. Citations disponibles
 
-- - **S46-Q001** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « You can live in your own little world. »
-- - **S45-Q001** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "a_stabiliser"}` — « working nine to five »
-- - **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
-- - **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
-- - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
+- **S46-Q001** — S46 — Johnson, An Ideal for Living, 1984 — statut : `verifie_fragment` — « You can live in your own little world. »
+- **S45-Q001** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "a_stabiliser"}` — « working nine to five »
+- **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
+- **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
+- **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 
 ## 8. Chronologie rattachée
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-12T20:47:42"
+generated_at: "2026-05-12T20:52:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -43,137 +43,137 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ## 5. Atomes critiques ou majeurs
 
-- - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
+- **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
-- - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
+- **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A031** — S74-A031 — Peter Saville et l’apparition immédiate d’une grammaire graphique Factory  
+- **S74-A031** — S74-A031 — Peter Saville et l’apparition immédiate d’une grammaire graphique Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `design` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
+- **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `institution` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A041** — S74-A041 — Unknown Pleasures : rejet initial du son par le groupe  
+- **S74-A041** — S74-A041 — Unknown Pleasures : rejet initial du son par le groupe  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- - **S74-A043** — S74-A043 — La pochette d’Unknown Pleasures comme choc visuel non maîtrisé par le groupe  
+- **S74-A043** — S74-A043 — La pochette d’Unknown Pleasures comme choc visuel non maîtrisé par le groupe  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `design` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- - **S74-A056** — S74-A056 — Closer et Love Will Tear Us Apart : beauté posthume, design funéraire et campagne américaine absurde  
+- **S74-A056** — S74-A056 — Closer et Love Will Tear Us Apart : beauté posthume, design funéraire et campagne américaine absurde  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
-- - **S74-A060** — S74-A060 — New Order : controverse nominale, mémoire fasciste et stratégie du silence  
+- **S74-A060** — S74-A060 — New Order : controverse nominale, mémoire fasciste et stratégie du silence  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
-- - **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
+- **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-071** — S41-071 — Martin Hannett : première impression de sorcier technique  
+- **S41-071** — S41-071 — Martin Hannett : première impression de sorcier technique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-072** — S41-072 — John Brierley : contrepoint rationnel à Hannett  
+- **S41-072** — S41-072 — John Brierley : contrepoint rationnel à Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-073** — S41-073 — « Digital » et « Glass » : meilleure captation du groupe à ce stade  
+- **S41-073** — S41-073 — « Digital » et « Glass » : meilleure captation du groupe à ce stade  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-091** — S41-091 — Préparation de *Unknown Pleasures* : passer de la scène au studio  
+- **S41-091** — S41-091 — Préparation de *Unknown Pleasures* : passer de la scène au studio  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-092** — S41-092 — Strawberry Studios : infrastructure technique du seuil esthétique  
+- **S41-092** — S41-092 — Strawberry Studios : infrastructure technique du seuil esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-093** — S41-093 — Hannett contre le groupe : le malentendu fondateur  
+- **S41-093** — S41-093 — Hannett contre le groupe : le malentendu fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `conflit_esthetique` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-094** — S41-094 — La batterie de Stephen Morris comme matériau de laboratoire  
+- **S41-094** — S41-094 — La batterie de Stephen Morris comme matériau de laboratoire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-095** — S41-095 — Hannett et la production comme dénaturalisation du groupe  
+- **S41-095** — S41-095 — Hannett et la production comme dénaturalisation du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-096** — S41-096 — Le refus initial de Hook face au son de *Unknown Pleasures*  
+- **S41-096** — S41-096 — Le refus initial de Hook face au son de *Unknown Pleasures*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_interne` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-113** — S41-113 — « Candidate » : espace vide et frustration de Hook  
+- **S41-113** — S41-113 — « Candidate » : espace vide et frustration de Hook  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `réception_interne` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-117** — S41-117 — Stephen Morris et la précision quasi-métronomique  
+- **S41-117** — S41-117 — Stephen Morris et la précision quasi-métronomique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait_technique` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-128** — S41-128 — Hannett et l’espace spectral d’« Atmosphere »  
+- **S41-128** — S41-128 — Hannett et l’espace spectral d’« Atmosphere »  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-134** — S41-134 — Transition vers *Closer*  
+- **S41-134** — S41-134 — Transition vers *Closer*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-145** — S41-145 — Martin Hannett devait mixer le son live de la tournée américaine  
+- **S41-145** — S41-145 — Martin Hannett devait mixer le son live de la tournée américaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-149** — S41-149 — 18 juillet 1980 : sortie de *Closer*  
+- **S41-149** — S41-149 — 18 juillet 1980 : sortie de *Closer*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-C03** — S41-C03 — Martin Hannett comme reconstructeur sonore  
+- **S41-C03** — S41-C03 — Martin Hannett comme reconstructeur sonore  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- - **S45-013** — S45-013 — Factory Sample : première froideur Hannett  
+- **S45-013** — S45-013 — Factory Sample : première froideur Hannett  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-031** — S45-031 — *Closer* est vécu comme un album froid et distant  
+- **S45-031** — S45-031 — *Closer* est vécu comme un album froid et distant  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A004** — S70-A004 — Le concert Joy Division comme expérience physique et collective  
+- **S70-A004** — S70-A004 — Le concert Joy Division comme expérience physique et collective  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A014** — S70-A014 — Hannett comme cinquième membre en studio  
+- **S70-A014** — S70-A014 — Hannett comme cinquième membre en studio  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A015** — S70-A015 — *Unknown Pleasures* : synthèse musicale, graphique et mythique  
+- **S70-A015** — S70-A015 — *Unknown Pleasures* : synthèse musicale, graphique et mythique  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A020** — S70-A020 — *Closer*, FAC 28 et sessions terminales  
+- **S70-A020** — S70-A020 — *Closer*, FAC 28 et sessions terminales  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A029** — S70-A029 — Son de scène : basse, guitare, batterie, voix, danse  
+- **S70-A029** — S70-A029 — Son de scène : basse, guitare, batterie, voix, danse  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A030** — S70-A030 — Son studio : Hannett, bruits concrets et atmosphère  
+- **S70-A030** — S70-A030 — Son studio : Hannett, bruits concrets et atmosphère  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A031** — S70-A031 — Cartographie interprétative des chansons  
+- **S70-A031** — S70-A031 — Cartographie interprétative des chansons  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A032** — S70-A032 — Joy Division comme équilibre collectif, contre le mythe Curtis seul  
+- **S70-A032** — S70-A032 — Joy Division comme équilibre collectif, contre le mythe Curtis seul  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A033** — S70-A033 — « Love Will Tear Us Apart » comme concession partielle au public  
+- **S70-A033** — S70-A033 — « Love Will Tear Us Apart » comme concession partielle au public  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A009** — S71-A009 — « Novelty » comme premier accomplissement du groupe  
+- **S71-A009** — S71-A009 — « Novelty » comme premier accomplissement du groupe  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A018** — S71-A018 — *A Factory Sample* : naissance du label et rôle de Hannett  
+- **S71-A018** — S71-A018 — *A Factory Sample* : naissance du label et rôle de Hannett  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A022** — S71-A022 — *Unknown Pleasures* : désenchantement, Hannett, Saville et indépendance  
+- **S71-A022** — S71-A022 — *Unknown Pleasures* : désenchantement, Hannett, Saville et indépendance  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A026** — S71-A026 — « Transmission », *Earcom 2* et choix du côté obscur  
+- **S71-A026** — S71-A026 — « Transmission », *Earcom 2* et choix du côté obscur  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A027** — S71-A027 — « Love Will Tear Us Apart » et « Twenty Four Hours »  
+- **S71-A027** — S71-A027 — « Love Will Tear Us Apart » et « Twenty Four Hours »  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A029** — S71-A029 — *Closer* : Curtis comme guide de l’abîme  
+- **S71-A029** — S71-A029 — *Closer* : Curtis comme guide de l’abîme  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A058** — S71-A058 — Mort de Martin Hannett et mémoire Factory  
+- **S71-A058** — S71-A058 — Mort de Martin Hannett et mémoire Factory  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S72-A002** — S72-A002 — Post-punk : poursuivre la révolution inachevée de punk  
+- **S72-A002** — S72-A002 — Post-punk : poursuivre la révolution inachevée de punk  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A004** — S72-A004 — La basse devient voix instrumentale principale  
+- **S72-A004** — S72-A004 — La basse devient voix instrumentale principale  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A017** — S72-A017 — « Digital » : métal, vitesse et gravité  
+- **S72-A017** — S72-A017 — « Digital » : métal, vitesse et gravité  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A019** — S72-A019 — L’espace dans Joy Division : basse mélodique, guitare lacunaire, batterie au bord du cratère  
+- **S72-A019** — S72-A019 — L’espace dans Joy Division : basse mélodique, guitare lacunaire, batterie au bord du cratère  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A029** — S72-A029 — Synthpop, Europe froide et futurisme électronique  
+- **S72-A029** — S72-A029 — Synthpop, Europe froide et futurisme électronique  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A030** — S72-A030 — Throbbing Gristle et l’industrie comme matériau esthétique  
+- **S72-A030** — S72-A030 — Throbbing Gristle et l’industrie comme matériau esthétique  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A032** — S72-A032 — PiL : John Lydon comme passage de punk vers post-punk  
+- **S72-A032** — S72-A032 — PiL : John Lydon comme passage de punk vers post-punk  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A033** — S72-A033 — PiL et la basse dub comme modèle d’espace  
+- **S72-A033** — S72-A033 — PiL et la basse dub comme modèle d’espace  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A035** — S72-A035 — Mute et « Warm Leatherette » : Ballard devient électronique minimale  
+- **S72-A035** — S72-A035 — Mute et « Warm Leatherette » : Ballard devient électronique minimale  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A037** — S72-A037 — The Pop Group et The Slits : tribu, reggae, funk, anti-rock  
+- **S72-A037** — S72-A037 — The Pop Group et The Slits : tribu, reggae, funk, anti-rock  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A038** — S72-A038 — Gang of Four : forme radicale, Brecht, Godard et anti-romantisme  
+- **S72-A038** — S72-A038 — Gang of Four : forme radicale, Brecht, Godard et anti-romantisme  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A039** — S72-A039 — Pere Ubu et Devo : grotesque industriel et Amérique post-industrielle  
+- **S72-A039** — S72-A039 — Pere Ubu et Devo : grotesque industriel et Amérique post-industrielle  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A040** — S72-A040 — Sheffield : ville industrielle jumelle de Manchester  
+- **S72-A040** — S72-A040 — Sheffield : ville industrielle jumelle de Manchester  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A041** — S72-A041 — Cabaret Voltaire : cut-up, machines et documentaire du malaise  
+- **S72-A041** — S72-A041 — Cabaret Voltaire : cut-up, machines et documentaire du malaise  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A045** — S72-A045 — Throbbing Gristle : l’usine de mort comme limite du post-punk  
+- **S72-A045** — S72-A045 — Throbbing Gristle : l’usine de mort comme limite du post-punk  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A047** — S72-A047 — Talking Heads et Wire : art rock discipliné et formes courtes  
+- **S72-A047** — S72-A047 — Talking Heads et Wire : art rock discipliné et formes courtes  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A048** — S72-A048 — PiL et la chute du moment post-punk  
+- **S72-A048** — S72-A048 — PiL et la chute du moment post-punk  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S74-A007** — S74-A007 — Wilson, les pochettes de disques et l’esthétique matérielle  
+- **S74-A007** — S74-A007 — Wilson, les pochettes de disques et l’esthétique matérielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `moyenne` ; preuve : `plausible`.
 
 ## 7. Citations disponibles
 
-- - **S45-Q004** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « cleaner and colder »
-- - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
-- - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
+- **S45-Q004** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « cleaner and colder »
+- **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
+- **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
 
 ## 8. Chronologie rattachée
 

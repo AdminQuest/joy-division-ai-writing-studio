@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-12T20:47:42"
+generated_at: "2026-05-12T20:52:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -49,114 +49,114 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 6. Autres atomes utiles
 
-- - **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
+- **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-146** — S41-146 — 23 mai 1980 : crémation et wake Factory  
+- **S41-146** — S41-146 — 23 mai 1980 : crémation et wake Factory  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_biographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-147** — S41-147 — 13 juin 1980 : inquest à Macclesfield  
+- **S41-147** — S41-147 — 13 juin 1980 : inquest à Macclesfield  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-026** — S45-026 — Deborah Curtis refuse la mythologie romantique du génie détruit  
+- **S45-026** — S45-026 — Deborah Curtis refuse la mythologie romantique du génie détruit  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `positionnement` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-033** — S45-033 — La tentative de suicide bouleverse le foyer  
+- **S45-033** — S45-033 — La tentative de suicide bouleverse le foyer  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-034** — S45-034 — Deborah Curtis refuse d’endosser seule une responsabilité morale  
+- **S45-034** — S45-034 — Deborah Curtis refuse d’endosser seule une responsabilité morale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-037** — S45-037 — La séparation conjugale devient concrète  
+- **S45-037** — S45-037 — La séparation conjugale devient concrète  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-038** — S45-038 — Deborah Curtis décrit les derniers jours comme étrangement ordinaires  
+- **S45-038** — S45-038 — Deborah Curtis décrit les derniers jours comme étrangement ordinaires  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S45-039** — S45-039 — Le suicide détruit immédiatement la temporalité ordinaire  
+- **S45-039** — S45-039 — Le suicide détruit immédiatement la temporalité ordinaire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `trauma` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-040** — S45-040 — Factory transforme rapidement Joy Division en archive  
+- **S45-040** — S45-040 — Factory transforme rapidement Joy Division en archive  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire_collective` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S45-041** — S45-041 — Deborah Curtis se sent progressivement dépossédée du récit public  
+- **S45-041** — S45-041 — Deborah Curtis se sent progressivement dépossédée du récit public  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-042** — S45-042 — Le manuscrit de « Love Will Tear Us Apart » devient relique  
+- **S45-042** — S45-042 — Le manuscrit de « Love Will Tear Us Apart » devient relique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-043** — S45-043 — Deborah Curtis écrit contre le mythe romantique posthume  
+- **S45-043** — S45-043 — Deborah Curtis écrit contre le mythe romantique posthume  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `positionnement` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-044** — S45-044 — Deborah Curtis devient malgré elle gardienne d’archive  
+- **S45-044** — S45-044 — Deborah Curtis devient malgré elle gardienne d’archive  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive_vivante` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
+- **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
+- **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `performance` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-059** — S46-059 — Leeds University : foule écrasée et Curtis aidé hors scène  
+- **S46-059** — S46-059 — Leeds University : foule écrasée et Curtis aidé hors scène  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_incident` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-061** — S46-061 — Rainbow Theatre : crise et malentendu spectaculaire  
+- **S46-061** — S46-061 — Rainbow Theatre : crise et malentendu spectaculaire  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-111** — S46-111 — Curtis et la danse comme perte de contrôle  
+- **S46-111** — S46-111 — Curtis et la danse comme perte de contrôle  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `performance_scenique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-112** — S46-112 — « She’s Lost Control » comme miroir biographique indirect  
+- **S46-112** — S46-112 — « She’s Lost Control » comme miroir biographique indirect  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_biographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S46-117** — S46-117 — Le public prend parfois les crises pour une performance  
+- **S46-117** — S46-117 — Le public prend parfois les crises pour une performance  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `perception_scene` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S46-179** — S46-179 — Danse de Curtis et japonisme hypnotique  
+- **S46-179** — S46-179 — Danse de Curtis et japonisme hypnotique  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_performance` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S47-188** — S47-188 — Citation critique : Curtis comme « loser caught in a world only partially understood »  
+- **S47-188** — S47-188 — Citation critique : Curtis comme « loser caught in a world only partially understood »  
   Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A025** — S-BROLL-A025 — Films de Malcolm Whitehead et Charles Salem  
+- **S68-A025** — S-BROLL-A025 — Films de Malcolm Whitehead et Charles Salem  
   Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A026** — S-BROLL-A026 — Apollo Theatre, Manchester, et *Here Are the Young Men*  
+- **S68-A026** — S-BROLL-A026 — Apollo Theatre, Manchester, et *Here Are the Young Men*  
   Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A031** — S-BROLL-A031 — Sessions de mars 1980 : *Closer* et « Love Will Tear Us Apart »  
+- **S68-A031** — S-BROLL-A031 — Sessions de mars 1980 : *Closer* et « Love Will Tear Us Apart »  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A036** — S-BROLL-A036 — Avril 1980 : santé de Ian Curtis et dates annulées  
+- **S68-A036** — S-BROLL-A036 — Avril 1980 : santé de Ian Curtis et dates annulées  
   Source : S68 — Broll, Joy Division, 1988 ; type : `santé` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A037** — S-BROLL-A037 — Dernier concert : High Hall, Birmingham, 2 mai 1980  
+- **S68-A037** — S-BROLL-A037 — Dernier concert : High Hall, Birmingham, 2 mai 1980  
   Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A038** — S-BROLL-A038 — Tournée américaine prévue et mort de Ian Curtis  
+- **S68-A038** — S-BROLL-A038 — Tournée américaine prévue et mort de Ian Curtis  
   Source : S68 — Broll, Joy Division, 1988 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S68-A039** — S-BROLL-A039 — Après Joy Division : New Order et *Still*  
+- **S68-A039** — S-BROLL-A039 — Après Joy Division : New Order et *Still*  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S69-A003** — S69-A003 — Authenticité, Manchester, mort de Curtis  
+- **S69-A003** — S69-A003 — Authenticité, Manchester, mort de Curtis  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S69-A004** — S69-A004 — Les premiers livres laissent peu de place à l’intimité  
+- **S69-A004** — S69-A004 — Les premiers livres laissent peu de place à l’intimité  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `reception` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S69-A009** — S69-A009 — Les témoins produisent l’histoire populaire de Joy Division  
+- **S69-A009** — S69-A009 — Les témoins produisent l’histoire populaire de Joy Division  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S69-A011** — S69-A011 — Deborah Curtis : expulsion du passé plutôt que nostalgie  
+- **S69-A011** — S69-A011 — Deborah Curtis : expulsion du passé plutôt que nostalgie  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S69-A012** — S69-A012 — Middles et Reade contestent Deborah Curtis  
+- **S69-A012** — S69-A012 — Middles et Reade contestent Deborah Curtis  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S69-A013** — S69-A013 — Control : adaptation, esthétique et mythification  
+- **S69-A013** — S69-A013 — Control : adaptation, esthétique et mythification  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `reception` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S69-A014** — S69-A014 — Grant Gee : Manchester comme récit de transformation  
+- **S69-A014** — S69-A014 — Grant Gee : Manchester comme récit de transformation  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `reception` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S70-A005** — S70-A005 — Refus de faire du suicide le dernier geste créatif  
+- **S70-A005** — S70-A005 — Refus de faire du suicide le dernier geste créatif  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A022** — S70-A022 — Crises, Moonlight Club et Rainbow Theatre  
+- **S70-A022** — S70-A022 — Crises, Moonlight Club et Rainbow Theatre  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A023** — S70-A023 — Vidéo promotionnelle « Love Will Tear Us Apart »  
+- **S70-A023** — S70-A023 — Vidéo promotionnelle « Love Will Tear Us Apart »  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A024** — S70-A024 — Derniers concerts et Birmingham  
+- **S70-A024** — S70-A024 — Derniers concerts et Birmingham  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A025** — S70-A025 — Mort de Curtis et rejet des légendes  
+- **S70-A025** — S70-A025 — Mort de Curtis et rejet des légendes  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A026** — S70-A026 — Réception posthume de « Love Will Tear Us Apart » et *Closer*  
+- **S70-A026** — S70-A026 — Réception posthume de « Love Will Tear Us Apart » et *Closer*  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A028** — S70-A028 — Passage à New Order et refus du répertoire Joy Division  
+- **S70-A028** — S70-A028 — Passage à New Order et refus du répertoire Joy Division  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S70-A037** — S70-A037 — Curtis : mort avec l’art, non pour l’art  
+- **S70-A037** — S70-A037 — Curtis : mort avec l’art, non pour l’art  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A019** — S71-A019 — Début londonien, danse de Curtis et interdiction des strobes  
+- **S71-A019** — S71-A019 — Début londonien, danse de Curtis et interdiction des strobes  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A028** — S71-A028 — Tournée européenne, Annik Honoré et sessions de *Closer*  
+- **S71-A028** — S71-A028 — Tournée européenne, Annik Honoré et sessions de *Closer*  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A031** — S71-A031 — Rainbow, Moonlight Club et dégradation de la santé de Curtis  
+- **S71-A031** — S71-A031 — Rainbow, Moonlight Club et dégradation de la santé de Curtis  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A032** — S71-A032 — Tournée américaine, « Ceremony », « In a Lonely Place » et vidéo de « Love Will Tear Us Apart »  
+- **S71-A032** — S71-A032 — Tournée américaine, « Ceremony », « In a Lonely Place » et vidéo de « Love Will Tear Us Apart »  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A033** — S71-A033 — Mort de Curtis et naissance du problème New Order  
+- **S71-A033** — S71-A033 — Mort de Curtis et naissance du problème New Order  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A034** — S71-A034 — *Love Will Tear Us Apart* et *Closer* : succès posthume et soupçon contre Factory  
+- **S71-A034** — S71-A034 — *Love Will Tear Us Apart* et *Closer* : succès posthume et soupçon contre Factory  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S71-A035** — S71-A035 — Les débuts de New Order : Western Works, Beach Club et choix du nom  
+- **S71-A035** — S71-A035 — Les débuts de New Order : Western Works, Beach Club et choix du nom  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
-- - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
+- **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 
 ## 8. Chronologie rattachée
 

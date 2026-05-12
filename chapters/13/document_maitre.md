@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-12T20:47:42"
+generated_at: "2026-05-12T20:52:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -41,68 +41,68 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 5. Atomes critiques ou majeurs
 
-- - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
+- **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
+- **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
+- **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
-- - **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
+- **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_institution` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A039** — S74-A039 — Hannett, digital delay et invention d’espaces imaginaires  
+- **S74-A039** — S74-A039 — Hannett, digital delay et invention d’espaces imaginaires  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A047** — S74-A047 — Factory Club comme véritable foyer scénique de Joy Division  
+- **S74-A047** — S74-A047 — Factory Club comme véritable foyer scénique de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
+- **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
-- - **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
+- **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
-- - **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
+- **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- - **S74-A057** — S74-A057 — Beach Club : lieu de transition entre post-punk sombre et second glam age  
+- **S74-A057** — S74-A057 — Beach Club : lieu de transition entre post-punk sombre et second glam age  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
-- - **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
+- **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-010** — S41-010 — Destruction d’Ordsall et relogement forcé  
+- **S41-010** — S41-010 — Destruction d’Ordsall et relogement forcé  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-011** — S41-011 — Ellor Street comme contre-utopie moderniste  
+- **S41-011** — S41-011 — Ellor Street comme contre-utopie moderniste  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-048** — S41-048 — Classe sociale et exclusion de la scène arty mancunienne  
+- **S41-048** — S41-048 — Classe sociale et exclusion de la scène arty mancunienne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-084** — S41-084 — Manchester contre Londres : géographie de l’indépendance  
+- **S41-084** — S41-084 — Manchester contre Londres : géographie de l’indépendance  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-108** — S41-108 — La photographie et l’image publique du groupe  
+- **S41-108** — S41-108 — La photographie et l’image publique du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-118** — S41-118 — « Shadowplay » : la ville comme labyrinthe mental  
+- **S41-118** — S41-118 — « Shadowplay » : la ville comme labyrinthe mental  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-C01** — S41-C01 — Manchester comme matrice émotionnelle  
+- **S41-C01** — S41-C01 — Manchester comme matrice émotionnelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- - **S46-028** — S46-028 — Plan K : William Burroughs et la rue de Manchester  
+- **S46-028** — S46-028 — Plan K : William Burroughs et la rue de Manchester  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-041** — S46-041 — Gretton et le refus symbolique du Sud  
+- **S46-041** — S46-041 — Gretton et le refus symbolique du Sud  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `strategie_management` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S46-058** — S46-058 — Plan K : Burroughs, Bruxelles et la rue de Manchester  
+- **S46-058** — S46-058 — Plan K : Burroughs, Bruxelles et la rue de Manchester  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_international` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-090** — S46-090 — Russell Club : lieu culturel ouest-indien et scène mancunienne  
+- **S46-090** — S46-090 — Russell Club : lieu culturel ouest-indien et scène mancunienne  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `lieu` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-108** — S46-108 — Tony Wilson et le romantisme de l’échec mancunien  
+- **S46-108** — S46-108 — Tony Wilson et le romantisme de l’échec mancunien  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_culturelle` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S72-A013** — S72-A013 — Ballard et les paysages post-industriels  
+- **S72-A013** — S72-A013 — Ballard et les paysages post-industriels  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A014** — S72-A014 — Joy Division : membrane entre le local et l’universel  
+- **S72-A014** — S72-A014 — Joy Division : membrane entre le local et l’universel  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A016** — S72-A016 — Trafford Park et l’incorporation de la ville dans le son  
+- **S72-A016** — S72-A016 — Trafford Park et l’incorporation de la ville dans le son  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A039** — S72-A039 — Pere Ubu et Devo : grotesque industriel et Amérique post-industrielle  
+- **S72-A039** — S72-A039 — Pere Ubu et Devo : grotesque industriel et Amérique post-industrielle  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A040** — S72-A040 — Sheffield : ville industrielle jumelle de Manchester  
+- **S72-A040** — S72-A040 — Sheffield : ville industrielle jumelle de Manchester  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A041** — S72-A041 — Cabaret Voltaire : cut-up, machines et documentaire du malaise  
+- **S72-A041** — S72-A041 — Cabaret Voltaire : cut-up, machines et documentaire du malaise  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S72-A043** — S72-A043 — The Fall : Manchester par irritation, répétition et anti-lyrisme  
+- **S72-A043** — S72-A043 — The Fall : Manchester par irritation, répétition et anti-lyrisme  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles

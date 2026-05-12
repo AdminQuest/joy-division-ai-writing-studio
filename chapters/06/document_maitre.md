@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-12T20:47:42"
+generated_at: "2026-05-12T20:52:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -45,213 +45,213 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 5. Atomes critiques ou majeurs
 
-- - **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
+- **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
+- **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
-- - **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
+- **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
+- **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_institution` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
+- **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `institution` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A033** — S74-A033 — Cargo Studios : Digital et Glass comme seuil Hannett/Joy Division  
+- **S74-A033** — S74-A033 — Cargo Studios : Digital et Glass comme seuil Hannett/Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A036** — S74-A036 — Gretton et le pari économique de rester chez Factory  
+- **S74-A036** — S74-A036 — Gretton et le pari économique de rester chez Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `decision_strategique` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A037** — S74-A037 — Freedom to fuck off : clause de liberté et ethos Factory  
+- **S74-A037** — S74-A037 — Freedom to fuck off : clause de liberté et ethos Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `principe_institutionnel` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A040** — S74-A040 — Hannett contre le groupe : conflit de contrôle et mixage sans témoins  
+- **S74-A040** — S74-A040 — Hannett contre le groupe : conflit de contrôle et mixage sans témoins  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `conflit_studio` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- - **S74-A042** — S74-A042 — Unknown Pleasures : beauté contenue, menace retenue et profit inattendu  
+- **S74-A042** — S74-A042 — Unknown Pleasures : beauté contenue, menace retenue et profit inattendu  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- - **S74-A045** — S74-A045 — Transmission : promesse de percée et échec commercial immédiat  
+- **S74-A045** — S74-A045 — Transmission : promesse de percée et échec commercial immédiat  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_single` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A049** — S74-A049 — Derby Hall : erreur collective, expérimentation Factory et émeute  
+- **S74-A049** — S74-A049 — Derby Hall : erreur collective, expérimentation Factory et émeute  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `evenement_crise` ; importance : `critique` ; preuve : `corrobore`.
-- - **S74-A050** — S74-A050 — Gretton reconnaît rétrospectivement l’aveuglement face à l’aggravation de Curtis  
+- **S74-A050** — S74-A050 — Gretton reconnaît rétrospectivement l’aveuglement face à l’aggravation de Curtis  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_retrospectif` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- - **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
+- **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
-- - **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
+- **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `corrobore`.
-- - **S74-A035** — S74-A035 — Après le Factory Sample : vide stratégique et tentation des majors  
+- **S74-A035** — S74-A035 — Après le Factory Sample : vide stratégique et tentation des majors  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `contexte_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- - **S74-A038** — S74-A038 — Strawberry Studios : Unknown Pleasures comme investissement disproportionné  
+- **S74-A038** — S74-A038 — Strawberry Studios : Unknown Pleasures comme investissement disproportionné  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `majeure` ; preuve : `corrobore`.
-- - **S74-A051** — S74-A051 — Gretton, Sordide Sentimentale et l’émotion managériale devant « Dead Souls » et « Atmosphere »  
+- **S74-A051** — S74-A051 — Gretton, Sordide Sentimentale et l’émotion managériale devant « Dead Souls » et « Atmosphere »  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_affectif` ; importance : `majeure` ; preuve : `temoignage_direct_auteur`.
-- - **S74-A055** — S74-A055 — Mort de Curtis : onde de choc sur Factory, Topping, Hannett et Sumner  
+- **S74-A055** — S74-A055 — Mort de Curtis : onde de choc sur Factory, Topping, Hannett et Sumner  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
-- - **S41-080** — S41-080 — Premier signal critique de l’épilepsie de Ian Curtis  
+- **S41-080** — S41-080 — Premier signal critique de l’épilepsie de Ian Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-102** — S41-102 — La scène comme aggravateur physique  
+- **S41-102** — S41-102 — La scène comme aggravateur physique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-103** — S41-103 — Le groupe face à la maladie : incompréhension et minimisation  
+- **S41-103** — S41-103 — Le groupe face à la maladie : incompréhension et minimisation  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_sensible` ; importance : `non qualifiée` ; preuve : `fragile`.
-- - **S41-127** — S41-127 — « Atmosphere » : rupture émotionnelle majeure  
+- **S41-127** — S41-127 — « Atmosphere » : rupture émotionnelle majeure  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-130** — S41-130 — « Love Will Tear Us Apart » : simplicité pop et tragédie interne  
+- **S41-130** — S41-130 — « Love Will Tear Us Apart » : simplicité pop et tragédie interne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-131** — S41-131 — Le paradoxe commercial de « Love Will Tear Us Apart »  
+- **S41-131** — S41-131 — Le paradoxe commercial de « Love Will Tear Us Apart »  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `réception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-132** — S41-132 — Ian Curtis : fragmentation croissante  
+- **S41-132** — S41-132 — Ian Curtis : fragmentation croissante  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait_sensible` ; importance : `non qualifiée` ; preuve : `fragile`.
-- - **S41-133** — S41-133 — La musique devient plus froide à mesure que la situation devient plus chaude  
+- **S41-133** — S41-133 — La musique devient plus froide à mesure que la situation devient plus chaude  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-134** — S41-134 — Transition vers *Closer*  
+- **S41-134** — S41-134 — Transition vers *Closer*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-135** — S41-135 — Le Moonlight Club : concentration finale de l’énergie live  
+- **S41-135** — S41-135 — Le Moonlight Club : concentration finale de l’énergie live  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-136** — S41-136 — 2–4 avril 1980 : crise sur scène après une séquence d’épuisement  
+- **S41-136** — S41-136 — 2–4 avril 1980 : crise sur scène après une séquence d’épuisement  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-138** — S41-138 — 6 avril 1980 : première overdose de Ian Curtis  
+- **S41-138** — S41-138 — 6 avril 1980 : première overdose de Ian Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-139** — S41-139 — Derby Hall, Bury, 8 avril 1980 : concert empêché et émeute  
+- **S41-139** — S41-139 — Derby Hall, Bury, 8 avril 1980 : concert empêché et émeute  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-140** — S41-140 — Tony et Lindsay Wilson : refuge temporaire après Bury  
+- **S41-140** — S41-140 — Tony et Lindsay Wilson : refuge temporaire après Bury  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_biographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-141** — S41-141 — Ajanta Theatre, Derby, 19 avril 1980 : encore une capacité scénique  
+- **S41-141** — S41-141 — Ajanta Theatre, Derby, 19 avril 1980 : encore une capacité scénique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-142** — S41-142 — Birmingham University, 2 mai 1980 : dernier concert officiel  
+- **S41-142** — S41-142 — Birmingham University, 2 mai 1980 : dernier concert officiel  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-143** — S41-143 — « Ceremony » : morceau de passage vers l’après-Joy Division  
+- **S41-143** — S41-143 — « Ceremony » : morceau de passage vers l’après-Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `morceau_transitionnel` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
+- **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-148** — S41-148 — 27 juin 1980 : sortie de « Love Will Tear Us Apart » en 12 pouces  
+- **S41-148** — S41-148 — 27 juin 1980 : sortie de « Love Will Tear Us Apart » en 12 pouces  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-149** — S41-149 — 18 juillet 1980 : sortie de *Closer*  
+- **S41-149** — S41-149 — 18 juillet 1980 : sortie de *Closer*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-150** — S41-150 — *Closer* : track list comme architecture funéraire  
+- **S41-150** — S41-150 — *Closer* : track list comme architecture funéraire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie_analysee` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-151** — S41-151 — FAC 28 : le flexidisc comme compromis après l’abandon du double album  
+- **S41-151** — S41-151 — FAC 28 : le flexidisc comme compromis après l’abandon du double album  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-152** — S41-152 — Refus du double album  
+- **S41-152** — S41-152 — Refus du double album  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_artistique` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-153** — S41-153 — 2 septembre 1980 : « Atmosphere » / « She’s Lost Control » en 12 pouces  
+- **S41-153** — S41-153 — 2 septembre 1980 : « Atmosphere » / « She’s Lost Control » en 12 pouces  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-154** — S41-154 — *Still* : constitution de l’archive officielle  
+- **S41-154** — S41-154 — *Still* : constitution de l’archive officielle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie_posthume` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-155** — S41-155 — *Still* : double temporalité studio/live  
+- **S41-155** — S41-155 — *Still* : double temporalité studio/live  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S41-156** — S41-156 — Bootlegs et incertitudes d’origine documentaire  
+- **S41-156** — S41-156 — Bootlegs et incertitudes d’origine documentaire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `note_documentaire` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
+- **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- - **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
+- **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S45-031** — S45-031 — *Closer* est vécu comme un album froid et distant  
+- **S45-031** — S45-031 — *Closer* est vécu comme un album froid et distant  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S45-035** — S45-035 — Derby Hall devient un moment de rupture visible  
+- **S45-035** — S45-035 — Derby Hall devient un moment de rupture visible  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S45-036** — S45-036 — Ian Curtis hésite face à la tournée américaine  
+- **S45-036** — S45-036 — Ian Curtis hésite face à la tournée américaine  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S45-042** — S45-042 — Le manuscrit de « Love Will Tear Us Apart » devient relique  
+- **S45-042** — S45-042 — Le manuscrit de « Love Will Tear Us Apart » devient relique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S46-024** — S46-024 — Le second Peel Session  
+- **S46-024** — S46-024 — Le second Peel Session  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `broadcast` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-095** — S46-095 — « Something Must Break » : unique performance publique possible  
+- **S46-095** — S46-095 — « Something Must Break » : unique performance publique possible  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_live` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S46-099** — S46-099 — *Unknown Pleasures* : tracklist et architecture d’album  
+- **S46-099** — S46-099 — *Unknown Pleasures* : tracklist et architecture d’album  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_album` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S46-102** — S46-102 — « The Kill » comme noyau ancien du répertoire  
+- **S46-102** — S46-102 — « The Kill » comme noyau ancien du répertoire  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evolution_repertoire` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-103** — S46-103 — « At a Later Date » et le son punk brut de Warsaw  
+- **S46-103** — S46-103 — « At a Later Date » et le son punk brut de Warsaw  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `analyse_musicale` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S46-104** — S46-104 — Steve Morris et la précision mécanique du rythme  
+- **S46-104** — S46-104 — Steve Morris et la précision mécanique du rythme  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `portrait_musicien` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-106** — S46-106 — « No Love Lost » et l’insertion de Ka-Tzetnik  
+- **S46-106** — S46-106 — « No Love Lost » et l’insertion de Ka-Tzetnik  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reference_litteraire` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S46-110** — S46-110 — Peter Hook et la montée mélodique de la basse  
+- **S46-110** — S46-110 — Peter Hook et la montée mélodique de la basse  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `analyse_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-112** — S46-112 — « She’s Lost Control » comme miroir biographique indirect  
+- **S46-112** — S46-112 — « She’s Lost Control » comme miroir biographique indirect  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_biographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S46-113** — S46-113 — « Insight » et l’obsession de l’intériorité  
+- **S46-113** — S46-113 — « Insight » et l’obsession de l’intériorité  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_lyrique` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S46-114** — S46-114 — « I Remember Nothing » et la dissolution finale  
+- **S46-114** — S46-114 — « I Remember Nothing » et la dissolution finale  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_album` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S46-122** — S46-122 — *Licht und Blindheit* comme objet européen singulier  
+- **S46-122** — S46-122 — *Licht und Blindheit* comme objet européen singulier  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-124** — S46-124 — « Transmission » Session à Central Sound  
+- **S46-124** — S46-124 — « Transmission » Session à Central Sound  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `session_enregistrement` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-127** — S46-127 — *What’s On*, Granada TV, 20 juillet 1979  
+- **S46-127** — S46-127 — *What’s On*, Granada TV, 20 juillet 1979  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `television` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-128** — S46-128 — *Something Else*, BBC-2, 15 septembre 1979  
+- **S46-128** — S46-128 — *Something Else*, BBC-2, 15 septembre 1979  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `television` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-165** — S46-165 — « Disorder » comme seuil de l’ouvrage  
+- **S46-165** — S46-165 — « Disorder » comme seuil de l’ouvrage  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_seuil` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-173** — S46-173 — « Dead Souls » sur *Still* et le jugement de Robert Palmer  
+- **S46-173** — S46-173 — « Dead Souls » sur *Still* et le jugement de Robert Palmer  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S46-185** — S46-185 — « Isolation » comme symptôme d’une inversion avancée  
+- **S46-185** — S46-185 — « Isolation » comme symptôme d’une inversion avancée  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_chanson` ; importance : `non qualifiée` ; preuve : `faible`.
-- - **S46-188** — S46-188 — « From Safety to Where…? » comme seuil final  
+- **S46-188** — S46-188 — « From Safety to Where…? » comme seuil final  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_seuil` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-012** — S47-012 — « At A Later Date » comme premier enregistrement officiel  
+- **S47-012** — S47-012 — « At A Later Date » comme premier enregistrement officiel  
   Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-019** — S47-019 — Le John Peel Session de janvier 1979 marque une rupture  
+- **S47-019** — S47-019 — Le John Peel Session de janvier 1979 marque une rupture  
   Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-020** — S47-020 — « Unknown Pleasures » est enregistré en quatre jours et demi  
+- **S47-020** — S47-020 — « Unknown Pleasures » est enregistré en quatre jours et demi  
   Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-021** — S47-021 — « Transmission » est volontairement exclu de l’album  
+- **S47-021** — S47-021 — « Transmission » est volontairement exclu de l’album  
   Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-024** — S47-024 — « Atmosphere » et « Dead Souls » sont presque sabotés commercialement  
+- **S47-024** — S47-024 — « Atmosphere » et « Dead Souls » sont presque sabotés commercialement  
   Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-030** — S47-030 — « Closer » représente un commencement interrompu  
+- **S47-030** — S47-030 — « Closer » représente un commencement interrompu  
   Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-038** — S47-038 — Les Peel Sessions sont considérées comme essentielles  
+- **S47-038** — S47-038 — Les Peel Sessions sont considérées comme essentielles  
   Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-039** — S47-039 — « The Drawback » reste inédit  
+- **S47-039** — S47-039 — « The Drawback » reste inédit  
   Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-042** — S47-042 — La première Peel Session révèle la puissance intérieure du groupe  
+- **S47-042** — S47-042 — La première Peel Session révèle la puissance intérieure du groupe  
   Source : S47 — West, Joy Division, 1984 ; type : `reception_radio` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-043** — S47-043 — Les quatre titres de la première Peel Session  
+- **S47-043** — S47-043 — Les quatre titres de la première Peel Session  
   Source : S47 — West, Joy Division, 1984 ; type : `session_radio` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-049** — S47-049 — *Unknown Pleasures* retient deux titres de la Peel Session  
+- **S47-049** — S47-049 — *Unknown Pleasures* retient deux titres de la Peel Session  
   Source : S47 — West, Joy Division, 1984 ; type : `discographie_album` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-050** — S47-050 — Titres enregistrés mais exclus d’*Unknown Pleasures*  
+- **S47-050** — S47-050 — Titres enregistrés mais exclus d’*Unknown Pleasures*  
   Source : S47 — West, Joy Division, 1984 ; type : `outtakes` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-059** — S47-059 — « Transmission » paraît après la tournée, contre toute logique commerciale  
+- **S47-059** — S47-059 — « Transmission » paraît après la tournée, contre toute logique commerciale  
   Source : S47 — West, Joy Division, 1984 ; type : `strategie_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-061** — S47-061 — Session Cargo d’octobre 1979 : « Ice Age », « Dead Souls », « Atmosphere »  
+- **S47-061** — S47-061 — Session Cargo d’octobre 1979 : « Ice Age », « Dead Souls », « Atmosphere »  
   Source : S47 — West, Joy Division, 1984 ; type : `session_enregistrement` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-062** — S47-062 — « Ice Age » devait alimenter le projet Futurama  
+- **S47-062** — S47-062 — « Ice Age » devait alimenter le projet Futurama  
   Source : S47 — West, Joy Division, 1984 ; type : `projet_avorte` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-064** — S47-064 — Seconde Peel Session : versions définitives de nouveaux titres  
+- **S47-064** — S47-064 — Seconde Peel Session : versions définitives de nouveaux titres  
   Source : S47 — West, Joy Division, 1984 ; type : `session_radio` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-066** — S47-066 — *Closer* est enregistré à Britannia Row  
+- **S47-066** — S47-066 — *Closer* est enregistré à Britannia Row  
   Source : S47 — West, Joy Division, 1984 ; type : `session_album` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-067** — S47-067 — Les sessions de *Closer* durent treize jours et treize nuits  
+- **S47-067** — S47-067 — Les sessions de *Closer* durent treize jours et treize nuits  
   Source : S47 — West, Joy Division, 1984 ; type : `session_album` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-068** — S47-068 — *Closer* est une réussite artistique malgré le contexte humain délétère  
+- **S47-068** — S47-068 — *Closer* est une réussite artistique malgré le contexte humain délétère  
   Source : S47 — West, Joy Division, 1984 ; type : `interpretation_album` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-080** — S47-080 — *Love Will Tear Us Apart* : deux mixes publiés  
+- **S47-080** — S47-080 — *Love Will Tear Us Apart* : deux mixes publiés  
   Source : S47 — West, Joy Division, 1984 ; type : `discographie_single` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-090** — S47-090 — *Still* rassemble studio, Peel, live et outtakes  
+- **S47-090** — S47-090 — *Still* rassemble studio, Peel, live et outtakes  
   Source : S47 — West, Joy Division, 1984 ; type : `discographie_album` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-091** — S47-091 — « Sister Ray » est l’unique reprise enregistrée par Joy Division  
+- **S47-091** — S47-091 — « Sister Ray » est l’unique reprise enregistrée par Joy Division  
   Source : S47 — West, Joy Division, 1984 ; type : `reprise` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-100** — S47-100 — Les versions Peel diffèrent fortement des versions officielles  
+- **S47-100** — S47-100 — Les versions Peel diffèrent fortement des versions officielles  
   Source : S47 — West, Joy Division, 1984 ; type : `archive_radio` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-101** — S47-101 — L’index des chansons fonctionne comme cartographie du corpus  
+- **S47-101** — S47-101 — L’index des chansons fonctionne comme cartographie du corpus  
   Source : S47 — West, Joy Division, 1984 ; type : `index_chansons` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-119** — S47-119 — « Transmission/Novelty » : premier single conventionnel  
+- **S47-119** — S47-119 — « Transmission/Novelty » : premier single conventionnel  
   Source : S47 — West, Joy Division, 1984 ; type : `single` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-132** — S47-132 — Trois titres Joy Division finis restent inédits selon West  
+- **S47-132** — S47-132 — Trois titres Joy Division finis restent inédits selon West  
   Source : S47 — West, Joy Division, 1984 ; type : `archive_inedite` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- - **S47-136** — S47-136 — « A Means to an End » : double statut studio/live  
+- **S47-136** — S47-136 — « A Means to an End » : double statut studio/live  
   Source : S47 — West, Joy Division, 1984 ; type : `index_chanson` ; importance : `non qualifiée` ; preuve : `forte`.
-- - **S47-137** — S47-137 — « Incubation » et « And Then Again » : logique du flexi gratuit  
+- **S47-137** — S47-137 — « Incubation » et « And Then Again » : logique du flexi gratuit  
   Source : S47 — West, Joy Division, 1984 ; type : `index_chanson` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
-- - **S47-Q008** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Closer was not a suicide note. »
-- - **S47-Q015** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the Peel Sessions are essential Joy Division. »
-- - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S47-Q008** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Closer was not a suicide note. »
+- **S47-Q015** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the Peel Sessions are essential Joy Division. »
+- **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
 
 ## 8. Chronologie rattachée
 
