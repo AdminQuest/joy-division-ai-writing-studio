@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Joy Division AI Writing Studio — Documentary parser v0.6
+Joy Division AI Writing Studio — Documentary parser v0.8
 
 This script scans Markdown files, extracts fenced YAML blocks, classifies records,
 normalizes source identifiers, validates them through the schema validation layer,
@@ -8,6 +8,8 @@ and generates JSON/CSV exports for RAG and documentary control.
 
 v0.5 makes data/registre.json the canonical source registry for source labels.
 v0.6 produces a permanent, structured diagnostic report even when no error is found.
+v0.7 fixes YAML normalization, source record classification, and duplicate checks.
+v0.8 tolerates one-space legacy top-level indentation and avoids false source-usage alerts.
 """
 
 from __future__ import annotations
@@ -206,12 +208,19 @@ def is_empty_template(data: Dict[str, Any]) -> bool:
     return not non_empty
 
 def normalize_yaml(raw: str) -> str:
+    """Normalize unsafe one-line scalars while preserving valid YAML nesting.
+
+    The parser accepts a narrow legacy defect: exactly one accidental leading
+    space before a known top-level key, for example ' type_unite: fait'.
+    It does not de-indent valid nested fields, which normally use two spaces.
+    """
     fixed_lines: List[str] = []
     mapping_line = re.compile(r"^(\s*)([A-Za-z_][A-Za-z0-9_\-]*:\s*)(.+?)\s*$")
+    one_space_top_key = re.compile(r"^ ([A-Za-z_][A-Za-z0-9_\-]*):")
     for line in raw.splitlines():
-        key_match = re.match(r"^\s+([A-Za-z_][A-Za-z0-9_\-]*):", line)
-        if key_match and key_match.group(1) in KNOWN_TOPLEVEL_KEYS:
-            line = line.lstrip()
+        top_key = one_space_top_key.match(line)
+        if top_key and top_key.group(1) in KNOWN_TOPLEVEL_KEYS:
+            line = line[1:]
         match = mapping_line.match(line)
         if not match:
             fixed_lines.append(line)
@@ -260,9 +269,11 @@ def infer_kind(data: Dict[str, Any], file_path: Path) -> str:
         return "person"
     if "song" in data:
         return "song"
+    if data.get("type_unite") == "source" or (re.fullmatch(r"S\d+", record_id) and data.get("source_label")):
+        return "source"
     if "-Q" in record_id or "citations_exactes" in file_rel:
         return "quote"
-    if record_id.startswith("S"):
+    if record_id.startswith("S") and "-" in record_id:
         return "atom"
     return "unknown"
 
@@ -277,7 +288,7 @@ def validate_record(kind: str, data: Dict[str, Any], file_path: Path) -> List[Di
     if kind == "unknown":
         diagnostics.append(Diagnostic("warning", file_rel, "Unable to infer documentary kind", record_id))
         return diagnostics
-    if kind == "schema":
+    if kind in {"schema", "source"}:
         return diagnostics
     if kind != "song" and not data.get("id"):
         diagnostics.append(Diagnostic("warning", file_rel, "Missing id", record_id))
@@ -299,10 +310,11 @@ def parse_repository() -> Tuple[List[ParsedRecord], List[Diagnostic]]:
             record_id = str(data.get("id") or data.get("song") or "")
             if not record_id:
                 record_id = f"NO_ID::{rel(path)}::{len(records) + 1}"
-            if record_id in seen_ids:
-                diagnostics.append(Diagnostic("error", rel(path), f"Duplicate id also found in {seen_ids[record_id]}", record_id))
-            else:
-                seen_ids[record_id] = rel(path)
+            if kind != "source":
+                if record_id in seen_ids:
+                    diagnostics.append(Diagnostic("error", rel(path), f"Duplicate id also found in {seen_ids[record_id]}", record_id))
+                else:
+                    seen_ids[record_id] = rel(path)
             records.append(ParsedRecord(kind=kind, id=record_id, file=rel(path), heading=heading, data=data))
     return records, diagnostics
 
@@ -606,12 +618,15 @@ def print_summary(records: List[ParsedRecord], diagnostics: List[Diagnostic]) ->
         print(f"{kind:12s}: {counts[kind]}")
     errors = [d for d in diagnostics if d.level == "error"]
     warnings = [d for d in diagnostics if d.level == "warning"]
+    unknowns = [d for d in diagnostics if d.message == "Unable to infer documentary kind"]
     print(f"errors      : {len(errors)}")
     print(f"warnings    : {len(warnings)}")
+    print(f"unknown     : {len(unknowns)}")
     print(f"exports     : {rel(EXPORT_DIR)}")
     if diagnostics:
+        ordered = errors + [d for d in diagnostics if d.level != "error"]
         print("\nDiagnostics:")
-        for diag in diagnostics[:50]:
+        for diag in ordered[:50]:
             suffix = f" [{diag.record_id}]" if diag.record_id else ""
             print(f"- {diag.level.upper()} {diag.file}{suffix}: {diag.message}")
         if len(diagnostics) > 50:
