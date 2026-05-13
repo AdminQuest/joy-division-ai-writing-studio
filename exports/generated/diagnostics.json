@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-13T21:12:39",
+  "generated_at": "2026-05-13T21:51:12",
   "status": "warning",
   "summary": {
-    "records_total": 2196,
+    "records_total": 2245,
     "records_by_kind": {
-      "atom": 1243,
-      "quote": 324,
-      "chronology": 314,
+      "atom": 1256,
+      "quote": 333,
+      "chronology": 320,
       "metadata": 18,
       "source": 56,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
-      "template": 12,
-      "motif": 17,
-      "person": 143,
-      "concept": 15,
+      "template": 19,
+      "motif": 22,
+      "person": 149,
+      "concept": 18,
       "myth": 11
     },
-    "diagnostics_total": 12614,
+    "diagnostics_total": 12833,
     "errors": 0,
-    "warnings": 12614,
+    "warnings": 12833,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -126,27 +126,32 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 167,
-        "atoms": 88,
-        "quotes": 27,
-        "chronology": 24,
+        "records": 201,
+        "atoms": 101,
+        "quotes": 36,
+        "chronology": 30,
         "files": [
           "registers/chronology/master_chronology.md",
           "registers/chronology/s45_curtis_chronology_1976_1977.md",
           "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+          "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
           "registers/people/master_people.md",
           "registers/people/s45_curtis_people_1976_1977.md",
           "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+          "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
           "registers/people/s45_curtis_people_vote_conservateur.md",
           "registers/people/s76_torn_apart_people_part_02.md",
           "registers/quotes/s45_curtis_quotes_1976_1977.md",
           "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+          "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
           "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
           "registers/songs/master_songs.md",
           "registers/songs/s45_curtis_songs_1976_1977.md",
           "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+          "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
           "sources/curtis_touching_from_a_distance/source_part_1976_1977_formation.md",
           "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+          "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
           "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
           "sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md",
           "sources/deborah_curtis/atomisation_02_unknown_pleasures_domesticite_maladie.md",
@@ -421,6 +426,486 @@
     ]
   },
   "issues": [
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Invalid value for type_unite: scene_scene_locale",
+      "record_id": "S45-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A053"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S45-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A054"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S45-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A055"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Invalid value for type_unite: mediation_visuelle",
+      "record_id": "S45-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Invalid value for type_unite: relation_management",
+      "record_id": "S45-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Invalid value for type_unite: processus_creatif",
+      "record_id": "S45-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Invalid value for type_unite: infrastructure_scene",
+      "record_id": "S45-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Invalid value for type_unite: contrepoint_domestique",
+      "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A060"
+    },
     {
       "level": "warning",
       "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
@@ -69435,6 +69920,426 @@
     },
     {
       "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-SHADOWPLAY-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
       "file": "registers/songs/s45_curtis_songs_1976_1977.md",
       "message": "Missing required field: auteur",
       "record_id": "SONG-S45-1976-WARSAWA"
@@ -74667,6 +75572,168 @@
     },
     {
       "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q028"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q028"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q028"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q029"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q029"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q029"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q030"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q030"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q030"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q031"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q031"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q031"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q032"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q032"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q032"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q033"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q033"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q033"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q034"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q034"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q034"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q035"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q035"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q035"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q036"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q036"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q036"
+    },
+    {
+      "level": "warning",
       "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S76-Q045"
@@ -75582,6 +76649,114 @@
       "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
       "message": "Missing required field: sources",
       "record_id": "PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-TONY-WILSON-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-TONY-WILSON-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-TONY-WILSON-GRANADA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-ROB-GRETTON-GARDIEN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-ROB-GRETTON-GARDIEN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-ROB-GRETTON-GARDIEN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-LESLEY-GILBERT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-LESLEY-GILBERT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-LESLEY-GILBERT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-MICK-MIDDLES-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-MICK-MIDDLES-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-MICK-MIDDLES-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-CANDY"
     },
     {
       "level": "warning",
@@ -76104,6 +77279,150 @@
       "file": "registers/chronology/s76_torn_apart_chronology_part_01.md",
       "message": "Invalid value for certainty: low",
       "record_id": "CHR-S76-1972-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1978-STIFF-CHISWICK-RAFTERS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1978-STIFF-CHISWICK-RAFTERS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1978-STIFF-CHISWICK-RAFTERS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1978-STIFF-CHISWICK-RAFTERS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1978-GRANADA-SHADOWPLAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1978-GRANADA-SHADOWPLAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1978-GRANADA-SHADOWPLAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1978-GRANADA-SHADOWPLAY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1978-GRETTON-MANAGER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1978-GRETTON-MANAGER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1978-GRETTON-MANAGER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1978-GRETTON-MANAGER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1978-BASS-HOOK-INCIDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1978-BASS-HOOK-INCIDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1978-BASS-HOOK-INCIDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1978-BASS-HOOK-INCIDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1978-CANDY-DOG"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1978-CANDY-DOG"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1978-CANDY-DOG"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1978-CANDY-DOG"
     }
   ]
 }

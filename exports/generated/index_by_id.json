@@ -1,4 +1,616 @@
 {
+  "S45-A053": {
+    "kind": "atom",
+    "id": "S45-A053",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45-A053 — Stiff/Chiswick Challenge : le concours comme théâtre de l’ambition provinciale",
+    "data": {
+      "id": "S45-A053",
+      "type_unite": "scene_scene_locale",
+      "titre": "Stiff/Chiswick Challenge : le concours comme théâtre de l’ambition provinciale",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "67-68",
+        "papier": "à verrouiller"
+      },
+      "citation": "anyone who was hoping to be anyone joined a band",
+      "resume": "Deborah décrit le concours Stiff / Chiswick à Rafters comme une scène de compression sociale : producteurs, managers, journalistes, photographes et musiciens se retrouvent dans le sous-sol moite du club, souvent dans des rôles déplacés. L’événement n’est pas seulement un concert ; c’est un théâtre de l’ambition, où chacun cherche un accès aux labels londoniens.\n",
+      "role_argumentatif": "Montrer que Joy Division se forme dans un milieu où les rôles ne sont pas encore stabilisés : la scène locale est à la fois musicale, médiatique, managériale et opportuniste.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne à forte ; à croiser avec archives Rafters, Wilson, Gretton, Reade, Johnson",
+        "confiance": "élevée pour l’ambiance ; moyenne pour le détail exhaustif des participants"
+      },
+      "stabilite": {
+        "statut": "stable comme scène de milieu"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de donner au concours une importance commerciale excessive ; son rôle est surtout relationnel et scénique.\n"
+      },
+      "motifs": [
+        "Rafters",
+        "Stiff",
+        "Chiswick",
+        "concours",
+        "scène locale",
+        "ambition"
+      ],
+      "concepts_derives": [
+        "scène comme marché d’attention",
+        "rôles instables",
+        "théâtre de l’accès aux labels"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-013",
+          "note": "La scène mancunienne d’anticipation se transforme en marché d’attention."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A054",
+          "note": "Le concours fournit le cadre de la rencontre décisive avec Wilson."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-005",
+          "note": "Avant Factory, les labels londoniens restent une tentation concrète."
+        }
+      ],
+      "couche_narrative": [
+        "scène locale",
+        "industrie",
+        "formation"
+      ],
+      "usage_livre": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-A054": {
+    "kind": "atom",
+    "id": "S45-A054",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45-A054 — Curtis force l’accès à Tony Wilson par l’invective",
+    "data": {
+      "id": "S45-A054",
+      "type_unite": "scene_fondatrice",
+      "titre": "Curtis force l’accès à Tony Wilson par l’invective",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "67-68",
+        "papier": "à verrouiller"
+      },
+      "citation": "Cause you haven’t put us on television.",
+      "resume": "Deborah rapporte la scène de Rafters où Ian Curtis remet à Tony Wilson une lettre abusive puis l’insulte directement pour ne pas avoir programmé Joy Division à la télévision. Wilson ne répond pas par la colère mais promet que Joy Division sera le prochain groupe qu’il mettra à l’écran. La scène condense l’ambition médiatique de Curtis et l’ouverture d’une médiation décisive.\n",
+      "role_argumentatif": "Atome central : la télévision n’arrive pas comme reconnaissance spontanée, mais comme résultat d’un geste maladroit, forcé, presque anti-social, qui transforme l’agressivité en accès médiatique.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne à forte ; à croiser avec Wilson, Hook, Reade, Johnson",
+        "confiance": "élevée pour la scène générale ; moyenne pour le verbatim exact"
+      },
+      "stabilite": {
+        "statut": "stable comme scène fondatrice ; citation à vérifier sur édition papier"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de romantiser l’insulte comme génie tactique ; Deborah insiste aussi sur le caractère forcé et peu naturel de l’impolitesse.\n"
+      },
+      "motifs": [
+        "Tony Wilson",
+        "télévision",
+        "insulte",
+        "Rafters",
+        "Granada"
+      ],
+      "concepts_derives": [
+        "violence d’accès médiatique",
+        "médiation arrachée",
+        "ambition télévisuelle bricolée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A039",
+          "note": "La quête Granada devient interaction directe avec Wilson."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A056",
+          "note": "La promesse de Wilson conduit au passage télévisé de Shadowplay."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Ne pas transformer l’anecdote en stratégie entièrement consciente."
+        }
+      ],
+      "couche_narrative": [
+        "médias",
+        "Factory",
+        "formation"
+      ],
+      "usage_livre": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-A055": {
+    "kind": "atom",
+    "id": "S45-A055",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45-A055 — Rob Gretton voit Joy Division au moment de leur détermination maximale",
+    "data": {
+      "id": "S45-A055",
+      "type_unite": "scene_fondatrice",
+      "titre": "Rob Gretton voit Joy Division au moment de leur détermination maximale",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "68-69",
+        "papier": "à verrouiller"
+      },
+      "citation": "the opportunity to see Joy Division at their most determined and enthusiastic",
+      "resume": "Deborah souligne que la soirée du concours est importante pour deux raisons : Curtis parle à Wilson et Rob Gretton voit Joy Division dans un moment d’intensité et de détermination. La scène prépare l’arrivée de Gretton comme manager : il ne découvre pas seulement un groupe, mais un collectif prêt à se battre pour sa place.\n",
+      "role_argumentatif": "Introduire Gretton sans mythe providentiel : son arrivée est une conséquence d’une observation située dans un moment de tension, de concurrence et d’auto-affirmation.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "forte avec récits Gretton / Hook / Reade",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme nœud narratif"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de transformer Gretton en sauveur immédiat ; la scène prépare son rôle, elle ne l’accomplit pas encore.\n"
+      },
+      "motifs": [
+        "Rob Gretton",
+        "détermination",
+        "concurrence",
+        "management"
+      ],
+      "concepts_derives": [
+        "reconnaissance managériale",
+        "seuil Gretton",
+        "manager par observation"
+      ],
+      "relations": [
+        {
+          "type": "prépare",
+          "cible": "S45-A057",
+          "note": "Prépare l’acceptation de Gretton par Curtis."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-009",
+          "note": "Gretton n’arrive pas comme providence abstraite mais par observation de scène."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-007",
+          "note": "Le management de proximité commence par la scène locale."
+        }
+      ],
+      "couche_narrative": [
+        "management",
+        "formation"
+      ],
+      "usage_livre": [
+        "Chapitre 6"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-A056": {
+    "kind": "atom",
+    "id": "S45-A056",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45-A056 — « Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel",
+    "data": {
+      "id": "S45-A056",
+      "type_unite": "mediation_visuelle",
+      "titre": "« Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "68",
+        "papier": "à verrouiller"
+      },
+      "citation": "With monochrome footage of a dire cityscape",
+      "resume": "Tony Wilson organise une apparition de Joy Division dans Granada Reports / What’s On avec « Shadowplay ». Deborah insiste sur le montage entre la chanson et des images monochromes d’un paysage urbain sombre issues de World in Action. La télévision fabrique ainsi une association puissante entre Joy Division, noir et blanc, ville menaçante et différence sonore.\n",
+      "role_argumentatif": "Atome majeur pour l’articulation son / image / Manchester : la ville n’est pas seulement contexte, elle devient dispositif audiovisuel de réception.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif + archive télévisuelle vérifiable",
+        "corroboration": "forte si archive Granada consultée",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de prendre le montage télévisuel comme essence du groupe ; il s’agit d’une médiation qui fixe la lecture urbaine.\n"
+      },
+      "motifs": [
+        "Shadowplay",
+        "Granada",
+        "World in Action",
+        "monochrome",
+        "cityscape",
+        "télévision"
+      ],
+      "concepts_derives": [
+        "ville télévisuelle",
+        "médiation audiovisuelle",
+        "Manchester monté en noir et blanc"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MYTH-003",
+          "note": "Le montage télévisuel renforce Manchester comme matrice perçue."
+        },
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-008",
+          "note": "Le monochrome Factory se prépare aussi par la télévision."
+        },
+        {
+          "type": "prépare",
+          "cible": "CHAPITRE-5-IMAGE-FACTORY",
+          "note": "Nœud à relier au travail visuel et médiatique."
+        },
+        {
+          "type": "prolonge",
+          "cible": "SONG-S45-SHADOWPLAY-RCA",
+          "note": "Shadowplay circule entre session, scène et télévision."
+        }
+      ],
+      "couche_narrative": [
+        "médias",
+        "Manchester",
+        "esthétique visuelle"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-A057": {
+    "kind": "atom",
+    "id": "S45-A057",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45-A057 — Gretton comme gardien, parent de substitution et médiateur confidentiel",
+    "data": {
+      "id": "S45-A057",
+      "type_unite": "relation_management",
+      "titre": "Gretton comme gardien, parent de substitution et médiateur confidentiel",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "69",
+        "papier": "à verrouiller"
+      },
+      "citation": "as if they were his guardians, or surrogate parents",
+      "resume": "Deborah décrit l’acceptation de Rob Gretton par Ian Curtis : après avoir rencontré Gretton et Lesley Gilbert, il se répète leur amabilité comme pour stabiliser une décision. Il les présente comme des gardiens ou parents de substitution. Plus tard, la relation Rob / Ian devient selon Deborah une relation confidentielle proche de celle d’un avocat ou d’un médecin, marginalisant Deborah et Lesley.\n",
+      "role_argumentatif": "Atome critique sur le management : Gretton n’est pas seulement manager tactique, il devient médiateur d’intimité, protecteur et écran, ce qui modifie l’équilibre conjugal et informationnel.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif situé",
+        "corroboration": "moyenne ; à croiser avec Hook, Reade, Wilson, Gretton indirectement",
+        "confiance": "élevée pour la perception de Deborah ; moyenne pour la dynamique interne Rob / Ian"
+      },
+      "stabilite": {
+        "statut": "stable comme perception située"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de psychologiser Gretton en père de substitution ou d’opposer brutalement manager et épouse ; la source décrit une perception conjugale.\n"
+      },
+      "motifs": [
+        "Rob Gretton",
+        "Lesley Gilbert",
+        "gardien",
+        "parent de substitution",
+        "confidentialité",
+        "dépossession conjugale"
+      ],
+      "concepts_derives": [
+        "management-confession",
+        "médiation protectrice",
+        "dépossession informationnelle"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-007",
+          "note": "Le management de proximité devient relation confidentielle et protectrice."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-009",
+          "note": "Gretton protège mais déplace aussi les circuits de confiance."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A001",
+          "note": "Deborah écrit depuis une place de témoin partiellement dépossédé."
+        }
+      ],
+      "couche_narrative": [
+        "management",
+        "intime",
+        "méthode"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-A058": {
+    "kind": "atom",
+    "id": "S45-A058",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45-A058 — L’incident du second guitariste : la basse de Hook avance par conflit",
+    "data": {
+      "id": "S45-A058",
+      "type_unite": "processus_creatif",
+      "titre": "L’incident du second guitariste : la basse de Hook avance par conflit",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "69-70",
+        "papier": "à verrouiller"
+      },
+      "citation": "this incident that brought Peter Hook’s bass-playing more up front",
+      "resume": "Deborah rapporte que Curtis, frustré par les absences de Bernard Sumner, propose un second guitariste pour renforcer le son, puis nie l’idée lorsque Bernard l’apprend. Selon elle, cet incident fait avancer la basse de Peter Hook et la rend plus dominante, jusqu’à devenir l’une des marques les plus aimées de Joy Division.\n",
+      "role_argumentatif": "Atome majeur de genèse sonore : une caractéristique centrale du son Joy Division ne résulte pas seulement d’une décision esthétique abstraite, mais d’un conflit de groupe, d’une absence, d’un déni et d’un rééquilibrage instrumental.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne à forte ; à croiser avec Hook, Sumner, Morris",
+        "confiance": "moyenne à élevée"
+      },
+      "stabilite": {
+        "statut": "plausible et structurant ; causalité à recouper"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque d’attribuer toute la centralité de la basse à cet incident unique ; il faut le traiter comme catalyseur possible, non cause totale.\n"
+      },
+      "motifs": [
+        "Peter Hook",
+        "basse",
+        "Bernard Sumner",
+        "conflit interne",
+        "second guitariste"
+      ],
+      "concepts_derives": [
+        "conflit productif",
+        "basse comme solution relationnelle",
+        "architecture sonore par rééquilibrage"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-006",
+          "note": "L’architecture sonore se construit aussi par conflit interne."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-005",
+          "note": "La contrainte relationnelle devient productive."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-006",
+          "note": "Le son ne surgit pas d’un génie immédiat ; il se stabilise par incidents."
+        }
+      ],
+      "couche_narrative": [
+        "processus créatif",
+        "architecture sonore",
+        "tensions internes"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-A059": {
+    "kind": "atom",
+    "id": "S45-A059",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45-A059 — Band on the Wall : laboratoire chaotique, répétition publique et réception divergente",
+    "data": {
+      "id": "S45-A059",
+      "type_unite": "infrastructure_scene",
+      "titre": "Band on the Wall : laboratoire chaotique, répétition publique et réception divergente",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "70",
+        "papier": "à verrouiller"
+      },
+      "citation": "not so much gigs as rehearsals",
+      "resume": "Deborah décrit les réunions du Musicians’ Union Collective au Band on the Wall comme des répétitions publiques plutôt que comme de véritables concerts, sous les sarcasmes de The Fall. Les incidents abondent : bouncer refusant le retour après les chips, Curtis aux toilettes lorsque son intro commence. La réception critique diverge fortement : Middles juge le groupe limité et son exploitation du nazisme au-delà de la tolérance, tandis que Morley y voit animation, volatilité, éloquence et direction.\n",
+      "role_argumentatif": "Atome central sur l’apprentissage public : Joy Division se construit dans le chaos, la friction critique et les lectures opposées, non dans une progression linéaire.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + réception critique rapportée",
+        "corroboration": "forte à croiser avec Middles, Morley, gig lists",
+        "confiance": "élevée pour le cadre ; moyenne pour les citations critiques exactes"
+      },
+      "stabilite": {
+        "statut": "stable comme scène ; citations critiques à vérifier"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de faire de Morley le seul bon lecteur et de Middles le mauvais ; les deux captent des dimensions concurrentes du même moment.\n"
+      },
+      "motifs": [
+        "Band on the Wall",
+        "Musicians’ Union Collective",
+        "The Fall",
+        "répétition publique",
+        "réception divergente",
+        "Nazi connection"
+      ],
+      "concepts_derives": [
+        "laboratoire chaotique",
+        "critique divergente",
+        "répétition devant public"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A048",
+          "note": "Le Collective devient ici pratique scénique concrète."
+        },
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-013",
+          "note": "La scène mancunienne fonctionne par frictions."
+        },
+        {
+          "type": "requiert",
+          "cible": "MYTH-007",
+          "note": "La critique de Middles porte sur l’exploitation du lien nazi."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-006",
+          "note": "Le groupe reste limité et samey pour certains contemporains."
+        }
+      ],
+      "couche_narrative": [
+        "scène locale",
+        "réception critique",
+        "apprentissage"
+      ],
+      "usage_livre": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-A060": {
+    "kind": "atom",
+    "id": "S45-A060",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45-A060 — Candy : contrepoint domestique au récit d’intensification",
+    "data": {
+      "id": "S45-A060",
+      "type_unite": "contrepoint_domestique",
+      "titre": "Candy : contrepoint domestique au récit d’intensification",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "70-71",
+        "papier": "à verrouiller"
+      },
+      "citation": "Ian named her Candy after the Velvet Underground song ‘Candy Says’",
+      "resume": "Deborah raconte l’adoption de Candy après la mort de son vieux chien Tess. Ian donne à la chienne le nom de « Candy Says », la promène volontiers, se réjouit qu’elle ait gardé la maison lors d’un vol, et apparaît ici tendre, ordinaire, domestique. La scène coupe le récit de l’intensification médiatique et scénique par un rappel du foyer.\n",
+      "role_argumentatif": "Conserver une image non monolithique de Curtis : au moment même où le groupe bascule vers Wilson, Gretton et la scène, le récit domestique maintient une présence affective simple et presque anti-mythologique.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "faible nécessaire ; fait domestique",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme scène domestique"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible",
+        "raison": "Risque limité, sauf si l’on transforme la scène en preuve morale générale de douceur.\n"
+      },
+      "motifs": [
+        "Candy",
+        "Candy Says",
+        "chien",
+        "domesticité",
+        "tendresse",
+        "vol"
+      ],
+      "concepts_derives": [
+        "contrepoint domestique",
+        "anti-mythe ordinaire",
+        "Curtis affectif"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-012",
+          "note": "La domesticité productive inclut aussi des scènes affectives ordinaires."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "note": "Curtis ne se réduit pas à la figure prophétique ou torturée."
+        },
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-012",
+          "note": "Barton Street est aussi foyer, pas seulement atelier ou lieu de crise."
+        }
+      ],
+      "couche_narrative": [
+        "domesticité",
+        "contrepoint"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
   "S45-A035": {
     "kind": "atom",
     "id": "S45-A035",
@@ -5104,9 +5716,9 @@
       ]
     }
   },
-  "NO_ID::sources/marco_broll/README.md::115": {
+  "NO_ID::sources/marco_broll/README.md::123": {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::115",
+    "id": "NO_ID::sources/marco_broll/README.md::123",
     "file": "sources/marco_broll/README.md",
     "heading": "S68 — Broll, « Joy Division », s.d.",
     "data": {
@@ -5124,9 +5736,9 @@
       "source_short_title": "Marco Broll, Joy Division, 1988"
     }
   },
-  "NO_ID::sources/marco_broll/README.md::116": {
+  "NO_ID::sources/marco_broll/README.md::124": {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::116",
+    "id": "NO_ID::sources/marco_broll/README.md::124",
     "file": "sources/marco_broll/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -5164,9 +5776,9 @@
       ]
     }
   },
-  "NO_ID::sources/marco_broll/README.md::117": {
+  "NO_ID::sources/marco_broll/README.md::125": {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::117",
+    "id": "NO_ID::sources/marco_broll/README.md::125",
     "file": "sources/marco_broll/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -8165,9 +8777,9 @@
       ]
     }
   },
-  "NO_ID::sources/reynolds_rip_it_up/README.md::204": {
+  "NO_ID::sources/reynolds_rip_it_up/README.md::212": {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::204",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::212",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "S72 — Reynolds, *Rip It Up and Start Again*, 2005/2006",
     "data": {
@@ -8182,9 +8794,9 @@
       "source_short_title": "Simon Reynolds, Rip It Up and Start Again: Postpunk 1978–1984, 2005/2006"
     }
   },
-  "NO_ID::sources/reynolds_rip_it_up/README.md::205": {
+  "NO_ID::sources/reynolds_rip_it_up/README.md::213": {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::205",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::213",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Couverture documentaire consolidée",
     "data": {
@@ -8237,9 +8849,9 @@
       ]
     }
   },
-  "NO_ID::sources/reynolds_rip_it_up/README.md::206": {
+  "NO_ID::sources/reynolds_rip_it_up/README.md::214": {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::206",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::214",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -8258,9 +8870,9 @@
       ]
     }
   },
-  "NO_ID::sources/reynolds_rip_it_up/README.md::207": {
+  "NO_ID::sources/reynolds_rip_it_up/README.md::215": {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::207",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::215",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -19453,9 +20065,9 @@
       ]
     }
   },
-  "NO_ID::sources/flowers/README.md::563": {
+  "NO_ID::sources/flowers/README.md::571": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::563",
+    "id": "NO_ID::sources/flowers/README.md::571",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -19470,9 +20082,9 @@
       "source_short_title": "Claude Flowers, New Order + Joy Division: Dreams Never End, 1995/2012"
     }
   },
-  "NO_ID::sources/flowers/README.md::564": {
+  "NO_ID::sources/flowers/README.md::572": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::564",
+    "id": "NO_ID::sources/flowers/README.md::572",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -19530,9 +20142,9 @@
       ]
     }
   },
-  "NO_ID::sources/flowers/README.md::565": {
+  "NO_ID::sources/flowers/README.md::573": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::565",
+    "id": "NO_ID::sources/flowers/README.md::573",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -19551,9 +20163,9 @@
       ]
     }
   },
-  "NO_ID::sources/flowers/README.md::566": {
+  "NO_ID::sources/flowers/README.md::574": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::566",
+    "id": "NO_ID::sources/flowers/README.md::574",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -24268,9 +24880,9 @@
       "source_year": "2004"
     }
   },
-  "NO_ID::sources/ott_unknown_pleasures/README.md::648": {
+  "NO_ID::sources/ott_unknown_pleasures/README.md::656": {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::648",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::656",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -59569,9 +60181,9 @@
       "source_year": "2012"
     }
   },
-  "NO_ID::sources/hook/citations_exactes.md::1271": {
+  "NO_ID::sources/hook/citations_exactes.md::1279": {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1271",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1279",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -64164,9 +64776,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1417": {
+  "NO_ID::sources/suatoni/README.md::1425": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1417",
+    "id": "NO_ID::sources/suatoni/README.md::1425",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -64181,9 +64793,9 @@
       "source_short_title": "Alfredo Suatoni, Joy Division: Dal cuore della città / From the Centre of the City, 1990"
     }
   },
-  "NO_ID::sources/suatoni/README.md::1418": {
+  "NO_ID::sources/suatoni/README.md::1426": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1418",
+    "id": "NO_ID::sources/suatoni/README.md::1426",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -64219,9 +64831,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1419": {
+  "NO_ID::sources/suatoni/README.md::1427": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1419",
+    "id": "NO_ID::sources/suatoni/README.md::1427",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -65364,9 +65976,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1455": {
+  "NO_ID::sources/greig_strong/README.md::1463": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1455",
+    "id": "NO_ID::sources/greig_strong/README.md::1463",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -65381,9 +65993,9 @@
       "source_short_title": "Alastair Greig ; Catherine Strong, But We Remember When We Were Young, 2014"
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1456": {
+  "NO_ID::sources/greig_strong/README.md::1464": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1456",
+    "id": "NO_ID::sources/greig_strong/README.md::1464",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -65410,9 +66022,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1457": {
+  "NO_ID::sources/greig_strong/README.md::1465": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1457",
+    "id": "NO_ID::sources/greig_strong/README.md::1465",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -66433,9 +67045,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/songs/master_songs.md::1483": {
+  "NO_ID::registers/songs/master_songs.md::1491": {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1483",
+    "id": "NO_ID::registers/songs/master_songs.md::1491",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -67897,6 +68509,130 @@
       "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
       "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
       "source_year": "2004"
+    }
+  },
+  "SONG-S45-SHADOWPLAY-GRANADA": {
+    "kind": "atom",
+    "id": "SONG-S45-SHADOWPLAY-GRANADA",
+    "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chansons, vidéos et objets — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "SONG-S45-SHADOWPLAY-GRANADA",
+      "source_id": "S45",
+      "titre": "Shadowplay",
+      "artiste": "Joy Division",
+      "nature": "performance télévisuelle / Granada Reports / What’s On",
+      "usage": "Performance télévisuelle montée avec des images monochromes de paysage urbain issues de World in Action ; nœud essentiel entre son, ville et image.\n",
+      "atomes_lies": [
+        "S45-A056"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "prudence": "À analyser comme médiation audiovisuelle, non comme essence de Joy Division.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "SONG-S45-TRANSMISSION-GRANADA-FUTURE": {
+    "kind": "atom",
+    "id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE",
+    "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chansons, vidéos et objets — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "SONG-S45-TRANSMISSION-GRANADA-FUTURE",
+      "source_id": "S45",
+      "titre": "Transmission",
+      "artiste": "Joy Division",
+      "nature": "performance télévisuelle ultérieure mentionnée",
+      "usage": "Mentionnée par Deborah comme performance filmée ultérieure à Granada, avec « She’s Lost Control ».\n",
+      "atomes_lies": [
+        "S45-A056"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "prudence": "Simple mention dans ce passage ; à atomiser plus finement avec le passage ou les archives correspondantes.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE": {
+    "kind": "atom",
+    "id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE",
+    "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chansons, vidéos et objets — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "SONG-S45-SHES-LOST-CONTROL-GRANADA-FUTURE",
+      "source_id": "S45",
+      "titre": "She’s Lost Control",
+      "artiste": "Joy Division",
+      "nature": "performance télévisuelle ultérieure mentionnée",
+      "usage": "Mentionnée par Deborah comme performance filmée ultérieure à Granada, avec « Transmission ».\n",
+      "atomes_lies": [
+        "S45-A056"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "prudence": "Simple mention dans ce passage ; ne pas analyser ici sans l’archive ou passage spécifique.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL": {
+    "kind": "atom",
+    "id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL",
+    "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chansons, vidéos et objets — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "SONG-S45-NO-LOVE-LOST-BAND-ON-THE-WALL",
+      "source_id": "S45",
+      "titre": "No Love Lost",
+      "artiste": "Joy Division",
+      "nature": "intro live / anecdote Band on the Wall",
+      "usage": "Morceau dont la longue introduction permet à Curtis de rejoindre la scène alors qu’il était aux toilettes lorsque le groupe commence à jouer.\n",
+      "atomes_lies": [
+        "S45-A059"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "prudence": "Usage anecdotique lié à l’apprentissage public ; ne pas transformer en analyse du morceau.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "SONG-S45-CANDY-SAYS-CANDY": {
+    "kind": "atom",
+    "id": "SONG-S45-CANDY-SAYS-CANDY",
+    "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chansons, vidéos et objets — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "SONG-S45-CANDY-SAYS-CANDY",
+      "source_id": "S45",
+      "titre": "Candy Says",
+      "artiste": "The Velvet Underground",
+      "nature": "référence nominale domestique",
+      "usage": "Origine du nom de la chienne Candy ; contrepoint domestique à la trajectoire scénique et médiatique.\n",
+      "atomes_lies": [
+        "S45-A060"
+      ],
+      "chapitres": [
+        "Chapitre 10"
+      ],
+      "prudence": "Référence affective et domestique, non influence musicale directe.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
     }
   },
   "SONG-S45-1976-WARSAWA": {
@@ -76817,6 +77553,288 @@
       "source_year": "2006"
     }
   },
+  "S45-Q028": {
+    "kind": "quote",
+    "id": "S45-Q028",
+    "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Citations candidates — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "S45-Q028",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "anyone who was hoping to be anyone joined a band",
+      "traduction_de_travail": "quiconque espérait devenir quelqu’un montait un groupe",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_67",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 2",
+        "scène locale",
+        "Stiff/Chiswick Challenge"
+      ],
+      "atomes_lies": [
+        "S45-A053"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-Q029": {
+    "kind": "quote",
+    "id": "S45-Q029",
+    "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Citations candidates — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "S45-Q029",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "Cause you haven’t put us on television.",
+      "traduction_de_travail": "Parce que tu ne nous as pas passés à la télévision.",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_68",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 6",
+        "Wilson et Granada"
+      ],
+      "remarque": "Citation sensible : conserver le contexte de l’invective sans romantiser l’agression verbale.\n",
+      "atomes_lies": [
+        "S45-A054"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-Q030": {
+    "kind": "quote",
+    "id": "S45-Q030",
+    "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Citations candidates — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "S45-Q030",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "the opportunity to see Joy Division at their most determined and enthusiastic",
+      "traduction_de_travail": "l’occasion de voir Joy Division au plus déterminé et enthousiaste",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_68",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 6",
+        "seuil Gretton"
+      ],
+      "atomes_lies": [
+        "S45-A055"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-Q031": {
+    "kind": "quote",
+    "id": "S45-Q031",
+    "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Citations candidates — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "S45-Q031",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "With monochrome footage of a dire cityscape",
+      "traduction_de_travail": "Avec des images monochromes d’un paysage urbain sinistre",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_68",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 1",
+        "Chapitre 5",
+        "Chapitre 6",
+        "Granada / Shadowplay"
+      ],
+      "atomes_lies": [
+        "S45-A056"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-Q032": {
+    "kind": "quote",
+    "id": "S45-Q032",
+    "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Citations candidates — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "S45-Q032",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "as if they were his guardians, or surrogate parents",
+      "traduction_de_travail": "comme s’ils étaient ses gardiens, ou des parents de substitution",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_69",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Gretton comme gardien"
+      ],
+      "remarque": "Formule de Deborah Curtis ; à traiter comme perception conjugale située.\n",
+      "atomes_lies": [
+        "S45-A057"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-Q033": {
+    "kind": "quote",
+    "id": "S45-Q033",
+    "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Citations candidates — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "S45-Q033",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "this incident that brought Peter Hook’s bass-playing more up front",
+      "traduction_de_travail": "cet incident qui fit avancer davantage le jeu de basse de Peter Hook",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_70",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 3",
+        "architecture sonore",
+        "basse de Hook"
+      ],
+      "atomes_lies": [
+        "S45-A058"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-Q034": {
+    "kind": "quote",
+    "id": "S45-Q034",
+    "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Citations candidates — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "S45-Q034",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "not so much gigs as rehearsals",
+      "traduction_de_travail": "pas tant des concerts que des répétitions",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_70",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 2",
+        "Band on the Wall",
+        "apprentissage public"
+      ],
+      "atomes_lies": [
+        "S45-A059"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-Q035": {
+    "kind": "quote",
+    "id": "S45-Q035",
+    "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Citations candidates — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "S45-Q035",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "exploited beyond tolerance",
+      "traduction_de_travail": "exploité au-delà du tolérable",
+      "statut": {
+        "original": "citation_rapportee_par_S45",
+        "source_presse": "a_verifier_Mick_Middles",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_70",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation critique rapportée",
+      "usage": [
+        "Chapitre 5",
+        "imagerie nazie",
+        "réception critique contemporaine"
+      ],
+      "remarque": "Citation de Mick Middles rapportée par Deborah Curtis ; vérifier l’article original avant emploi définitif.\n",
+      "atomes_lies": [
+        "S45-A059"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "S45-Q036": {
+    "kind": "quote",
+    "id": "S45-Q036",
+    "file": "registers/quotes/s45_curtis_quotes_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Citations candidates — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "S45-Q036",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "Ian named her Candy after the Velvet Underground song ‘Candy Says’",
+      "traduction_de_travail": "Ian l’appela Candy d’après la chanson du Velvet Underground « Candy Says »",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_70",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 10",
+        "contrepoint domestique"
+      ],
+      "atomes_lies": [
+        "S45-A060"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
   "S76-Q045": {
     "kind": "quote",
     "id": "S76-Q045",
@@ -79753,9 +80771,273 @@
       "source_year": "s.d."
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1840": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1862": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1840",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1862",
+    "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "Relations stabilisées",
+    "data": {
+      "relations": [
+        {
+          "id": "REL-S45-A053-MOTIF-013",
+          "source": "S45-A053",
+          "type": "prolonge",
+          "cible": "MOTIF-013",
+          "justification": "Le Stiff/Chiswick Challenge montre la scène mancunienne comme marché d’attention où les rôles restent instables.\n"
+        },
+        {
+          "id": "REL-S45-A054-S45-A039",
+          "source": "S45-A054",
+          "type": "prolonge",
+          "cible": "S45-A039",
+          "justification": "L’obsession Granada de Curtis devient accès direct à Tony Wilson par l’invective.\n"
+        },
+        {
+          "id": "REL-S45-A055-MYTH-009",
+          "source": "S45-A055",
+          "type": "nuance",
+          "cible": "MYTH-009",
+          "justification": "Gretton découvre Joy Division dans une scène de détermination, non comme sauveur extérieur tombé du ciel.\n"
+        },
+        {
+          "id": "REL-S45-A056-CONCEPT-015",
+          "source": "S45-A056",
+          "type": "prolonge",
+          "cible": "CONCEPT-015",
+          "justification": "Le passage Granada de « Shadowplay » fixe une lecture audiovisuelle de Joy Division par la ville monochrome.\n"
+        },
+        {
+          "id": "REL-S45-A056-MYTH-003",
+          "source": "S45-A056",
+          "type": "nuance",
+          "cible": "MYTH-003",
+          "justification": "Manchester devient médiation télévisuelle, non cause naturelle du son.\n"
+        },
+        {
+          "id": "REL-S45-A057-CONCEPT-016",
+          "source": "S45-A057",
+          "type": "prolonge",
+          "cible": "CONCEPT-016",
+          "justification": "Gretton devient dépositaire d’une confiance intime et médiateur confidentiel.\n"
+        },
+        {
+          "id": "REL-S45-A057-MYTH-009",
+          "source": "S45-A057",
+          "type": "nuance",
+          "cible": "MYTH-009",
+          "justification": "La protection de Gretton s’accompagne d’une dépossession informationnelle du côté de Deborah Curtis.\n"
+        },
+        {
+          "id": "REL-S45-A058-CONCEPT-006",
+          "source": "S45-A058",
+          "type": "prolonge",
+          "cible": "CONCEPT-006",
+          "justification": "La centralité de la basse de Peter Hook est reliée à un conflit interne et à un rééquilibrage instrumental.\n"
+        },
+        {
+          "id": "REL-S45-A058-CONCEPT-017",
+          "source": "S45-A058",
+          "type": "prolonge",
+          "cible": "CONCEPT-017",
+          "justification": "L’incident du second guitariste constitue un cas de conflit productif interne.\n"
+        },
+        {
+          "id": "REL-S45-A059-S45-A048",
+          "source": "S45-A059",
+          "type": "prolonge",
+          "cible": "S45-A048",
+          "justification": "Le Manchester Musicians’ Collective devient, au Band on the Wall, une pratique de répétition publique chaotique.\n"
+        },
+        {
+          "id": "REL-S45-A059-MYTH-007",
+          "source": "S45-A059",
+          "type": "requiert",
+          "cible": "MYTH-007",
+          "justification": "La critique de Mick Middles sur la connexion nazie impose de traiter la controverse comme contemporaine, non seulement rétrospective.\n"
+        },
+        {
+          "id": "REL-S45-A060-CONCEPT-012",
+          "source": "S45-A060",
+          "type": "prolonge",
+          "cible": "CONCEPT-012",
+          "justification": "Candy rappelle que Barton Street est aussi foyer et contrepoint affectif, pas seulement lieu de crise ou atelier."
+        }
+      ]
+    }
+  },
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1863": {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1863",
+    "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "Entrées RAG candidates",
+    "data": {
+      "rag_index": [
+        {
+          "id": "RAG-S45-A054",
+          "source_id": "S45",
+          "atom_id": "S45-A054",
+          "title": "Curtis force l’accès à Tony Wilson par l’invective",
+          "chapters": [
+            "Chapitre 2",
+            "Chapitre 6"
+          ],
+          "tags": [
+            "tony-wilson",
+            "granada",
+            "television",
+            "rafters",
+            "ian-curtis",
+            "media-access"
+          ],
+          "query_boost": [
+            "Cause you haven’t put us on television",
+            "Ian Curtis Tony Wilson Rafters television",
+            "Joy Division Granada access Deborah Curtis"
+          ],
+          "use_for": [
+            "expliquer l’accès à Granada",
+            "relier Curtis, Wilson et visibilité télévisuelle",
+            "nuancer la stratégie médiatique"
+          ],
+          "avoid_for": [
+            "héroïsation de l’insulte",
+            "stratégie professionnelle entièrement consciente"
+          ]
+        },
+        {
+          "id": "RAG-S45-A056",
+          "source_id": "S45",
+          "atom_id": "S45-A056",
+          "title": "« Shadowplay » sur Granada et la ville monochrome",
+          "chapters": [
+            "Chapitre 1",
+            "Chapitre 5",
+            "Chapitre 6"
+          ],
+          "tags": [
+            "shadowplay",
+            "granada",
+            "world-in-action",
+            "monochrome",
+            "manchester",
+            "television",
+            "cityscape"
+          ],
+          "query_boost": [
+            "With monochrome footage of a dire cityscape",
+            "Shadowplay Granada World in Action",
+            "Joy Division cityscape television"
+          ],
+          "use_for": [
+            "analyser la médiation audiovisuelle de Manchester",
+            "relier son et image",
+            "préparer le monochrome Factory"
+          ],
+          "avoid_for": [
+            "Manchester comme cause totale",
+            "image télévisuelle comme essence du groupe"
+          ]
+        },
+        {
+          "id": "RAG-S45-A057",
+          "source_id": "S45",
+          "atom_id": "S45-A057",
+          "title": "Gretton comme gardien et médiateur confidentiel",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "tags": [
+            "rob-gretton",
+            "management",
+            "deborah-curtis",
+            "surrogate-parents",
+            "guardians",
+            "confidentiality"
+          ],
+          "query_boost": [
+            "as if they were his guardians, or surrogate parents",
+            "Rob Gretton Ian Curtis Deborah guardians",
+            "Gretton solicitor doctor patient confidentiality"
+          ],
+          "use_for": [
+            "nuancer Gretton manager sauveur",
+            "analyser management et intimité",
+            "montrer dépossession informationnelle de Deborah"
+          ],
+          "avoid_for": [
+            "psychologisation familiale simpliste",
+            "manager contre épouse"
+          ]
+        },
+        {
+          "id": "RAG-S45-A058",
+          "source_id": "S45",
+          "atom_id": "S45-A058",
+          "title": "La basse de Hook avance par conflit interne",
+          "chapters": [
+            "Chapitre 3",
+            "Chapitre 6"
+          ],
+          "tags": [
+            "peter-hook",
+            "bass",
+            "bernard-sumner",
+            "sound-architecture",
+            "internal-conflict"
+          ],
+          "query_boost": [
+            "this incident that brought Peter Hook’s bass-playing more up front",
+            "second rhythm guitarist Peter Hook bass",
+            "Joy Division bass brought more up front Deborah Curtis"
+          ],
+          "use_for": [
+            "expliquer la centralité de la basse",
+            "relier architecture sonore et conflit interne",
+            "anti-génie immédiat"
+          ],
+          "avoid_for": [
+            "causalité unique de la basse"
+          ]
+        },
+        {
+          "id": "RAG-S45-A059",
+          "source_id": "S45",
+          "atom_id": "S45-A059",
+          "title": "Band on the Wall comme laboratoire chaotique",
+          "chapters": [
+            "Chapitre 2",
+            "Chapitre 6"
+          ],
+          "tags": [
+            "band-on-the-wall",
+            "musicians-union-collective",
+            "the-fall",
+            "mick-middles",
+            "paul-morley",
+            "rehearsal"
+          ],
+          "query_boost": [
+            "not so much gigs as rehearsals",
+            "Band on the Wall Joy Division rehearsals",
+            "exploited beyond tolerance animated volatile eloquence direction"
+          ],
+          "use_for": [
+            "analyser apprentissage public",
+            "montrer réception critique divergente",
+            "contextualiser controverse nazie contemporaine"
+          ],
+          "avoid_for": [
+            "sélectionner seulement les lectures favorables"
+          ]
+        }
+      ]
+    }
+  },
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1864": {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1864",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -79875,9 +81157,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1841": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1865": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1841",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1865",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -80009,9 +81291,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1842": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1866": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1842",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1866",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -80030,9 +81312,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1843": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1867": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1843",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1867",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -80152,9 +81434,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1844": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1868": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1844",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1868",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -80318,9 +81600,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1845": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1869": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1845",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1869",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -80377,9 +81659,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1846": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1870": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1846",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1870",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -80426,9 +81708,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1847": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1871": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1847",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1871",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -80442,6 +81724,183 @@
         "Ian Curtis est thatchérien.",
         "Joy Division exprime politiquement le conservatisme de Curtis.",
         "Le vote de Curtis contredit le rôle du contexte social mancunien."
+      ]
+    }
+  },
+  "MOTIF-018": {
+    "kind": "motif",
+    "id": "MOTIF-018",
+    "file": "registers/motifs/s45_curtis_motifs_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "MOTIF-018 — télévision arrachée",
+    "data": {
+      "id": "MOTIF-018",
+      "nom": "télévision arrachée",
+      "definition": "Motif désignant l’accès à la télévision non comme reconnaissance naturelle, mais comme résultat d’un geste forcé, maladroit ou agressif, où l’ambition de visibilité se convertit en médiation concrète. Dans S45, Curtis obtient de Tony Wilson la promesse d’une apparition télévisée après une invective à Rafters.\n",
+      "formes": [
+        "Tony Wilson",
+        "Granada",
+        "lettre abusive",
+        "insulte",
+        "« Shadowplay »",
+        "World in Action"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "concepts_associes": [
+        "CONCEPT-015",
+        "CONCEPT-011"
+      ],
+      "risques": [
+        "romantisation de l’impolitesse",
+        "confusion entre accident relationnel et stratégie consciente",
+        "effacement du rôle de Wilson comme médiateur"
+      ],
+      "atomes_lies": [
+        "S45-A054",
+        "S45-A056"
+      ]
+    }
+  },
+  "MOTIF-019": {
+    "kind": "motif",
+    "id": "MOTIF-019",
+    "file": "registers/motifs/s45_curtis_motifs_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "MOTIF-019 — gardien Gretton",
+    "data": {
+      "id": "MOTIF-019",
+      "nom": "gardien Gretton",
+      "definition": "Motif désignant Rob Gretton comme figure de protection, d’organisation et de confiance intime, mais aussi comme écran entre Ian Curtis, le groupe et le foyer.\n",
+      "formes": [
+        "manager de proximité",
+        "surrogate parents",
+        "guardians",
+        "confidentialité",
+        "Rob et Lesley",
+        "dépossession conjugale"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "concepts_associes": [
+        "CONCEPT-007",
+        "CONCEPT-016"
+      ],
+      "risques": [
+        "héroïsation du manager sauveur",
+        "psychologisation familiale",
+        "effacement de Deborah Curtis et Lesley Gilbert"
+      ],
+      "atomes_lies": [
+        "S45-A055",
+        "S45-A057"
+      ]
+    }
+  },
+  "MOTIF-020": {
+    "kind": "motif",
+    "id": "MOTIF-020",
+    "file": "registers/motifs/s45_curtis_motifs_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "MOTIF-020 — basse avancée par conflit",
+    "data": {
+      "id": "MOTIF-020",
+      "nom": "basse avancée par conflit",
+      "definition": "Motif de genèse sonore selon lequel la basse de Peter Hook gagne une centralité accrue à la suite d’un déséquilibre relationnel et instrumental : absence de Bernard Sumner, proposition d’un second guitariste, déni de Curtis, puis rééquilibrage du son.\n",
+      "formes": [
+        "Peter Hook",
+        "basse dominante",
+        "second guitariste",
+        "Bernard absent",
+        "conflit interne"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "concepts_associes": [
+        "CONCEPT-006",
+        "CONCEPT-017",
+        "CONCEPT-005"
+      ],
+      "risques": [
+        "causalité unique",
+        "effacement des autres facteurs techniques",
+        "dramatisation excessive des tensions internes"
+      ],
+      "atomes_lies": [
+        "S45-A058"
+      ]
+    }
+  },
+  "MOTIF-021": {
+    "kind": "motif",
+    "id": "MOTIF-021",
+    "file": "registers/motifs/s45_curtis_motifs_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "MOTIF-021 — laboratoire chaotique",
+    "data": {
+      "id": "MOTIF-021",
+      "nom": "laboratoire chaotique",
+      "definition": "Motif désignant les espaces d’apprentissage où Joy Division joue moins des concerts stabilisés que des répétitions publiques, sous contraintes, sarcasmes, incidents et lectures critiques contradictoires.\n",
+      "formes": [
+        "Band on the Wall",
+        "Musicians’ Union Collective",
+        "The Fall",
+        "Ian aux toilettes",
+        "critique Middles / Morley"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "concepts_associes": [
+        "CONCEPT-011",
+        "CONCEPT-004"
+      ],
+      "risques": [
+        "romantisation du chaos",
+        "sélection rétrospective des seuls avis favorables",
+        "effacement des critiques contemporaines négatives"
+      ],
+      "atomes_lies": [
+        "S45-A059"
+      ]
+    }
+  },
+  "MOTIF-022": {
+    "kind": "motif",
+    "id": "MOTIF-022",
+    "file": "registers/motifs/s45_curtis_motifs_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "MOTIF-022 — contrepoint domestique animal",
+    "data": {
+      "id": "MOTIF-022",
+      "nom": "contrepoint domestique animal",
+      "definition": "Motif désignant les scènes où la présence d’un animal domestique réintroduit un Curtis ordinaire, tendre ou burlesque, en contrepoint du récit d’intensification scénique, médiatique et morbide.\n",
+      "formes": [
+        "Candy",
+        "« Candy Says »",
+        "promenades",
+        "vol domestique",
+        "tendresse ordinaire"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "concepts_associes": [
+        "CONCEPT-012",
+        "CONCEPT-004"
+      ],
+      "risques": [
+        "preuve morale simpliste",
+        "édulcoration des tensions domestiques",
+        "anecdote isolée"
+      ],
+      "atomes_lies": [
+        "S45-A060"
       ]
     }
   },
@@ -86465,6 +87924,152 @@
       ]
     }
   },
+  "PERS-S45-TONY-WILSON-GRANADA": {
+    "kind": "person",
+    "id": "PERS-S45-TONY-WILSON-GRANADA",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-TONY-WILSON-GRANADA",
+      "personne": "Tony Wilson",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A054",
+        "S45-A056"
+      ],
+      "contenu": "Médiateur télévisuel décisif : accepte, après une invective de Curtis à Rafters, de programmer Joy Division à Granada ; associe « Shadowplay » à des images monochromes de paysage urbain.\n",
+      "statut": "médiateur télévision / Factory",
+      "usage": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "prudence": "Ne pas héroïser Wilson seul ; la scène repose aussi sur l’agressivité de Curtis, la concurrence locale et l’infrastructure Granada.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "PERS-S45-ROB-GRETTON-GARDIEN": {
+    "kind": "person",
+    "id": "PERS-S45-ROB-GRETTON-GARDIEN",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-ROB-GRETTON-GARDIEN",
+      "personne": "Rob Gretton",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A055",
+        "S45-A057"
+      ],
+      "contenu": "Manager de proximité, observateur de Joy Division à Rafters, puis figure de protection et de confidentialité pour Ian Curtis ; perçu par Deborah comme gardien ou parent de substitution.\n",
+      "statut": "manager / médiateur intime",
+      "usage": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "prudence": "Ne pas réduire Gretton au manager sauveur ; sa protection déplace aussi les circuits d’information hors du foyer.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "PERS-S45-LESLEY-GILBERT": {
+    "kind": "person",
+    "id": "PERS-S45-LESLEY-GILBERT",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-LESLEY-GILBERT",
+      "personne": "Lesley Gilbert",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A057"
+      ],
+      "contenu": "Compagne de Rob Gretton ; associée par Deborah à la perception de Rob et Lesley comme figures protectrices, mais aussi à une position de désavantage lorsque la relation Rob / Ian devient confidentielle.\n",
+      "statut": "témoin périphérique / figure relationnelle",
+      "usage": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "PERS-S45-MICK-MIDDLES-BAND-ON-THE-WALL": {
+    "kind": "person",
+    "id": "PERS-S45-MICK-MIDDLES-BAND-ON-THE-WALL",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-MICK-MIDDLES-BAND-ON-THE-WALL",
+      "personne": "Mick Middles",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A059"
+      ],
+      "contenu": "Critique qui juge certaines performances au Band on the Wall limitées et « samey » et considère que le lien nazi est exploité au-delà du tolérable.\n",
+      "statut": "réception critique contemporaine rapportée",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 5"
+      ],
+      "prudence": "Vérifier la citation dans l’article original avant insertion définitive.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL": {
+    "kind": "person",
+    "id": "PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL",
+      "personne": "Paul Morley",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A056",
+        "S45-A059"
+      ],
+      "contenu": "Critique favorable à la singularité de Joy Division, opposé ici à Mick Middles dans une réception divergente : là où Middles voit limite et répétition, Morley perçoit animation, volatilité, éloquence et direction.\n",
+      "statut": "critique / médiateur esthétique",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "prudence": "Éviter de faire de Morley le seul lecteur légitime ; conserver la divergence.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "PERS-S45-CANDY": {
+    "kind": "person",
+    "id": "PERS-S45-CANDY",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-CANDY",
+      "personne": "Candy",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A060"
+      ],
+      "contenu": "Chienne Border collie adoptée par Ian et Deborah Curtis, nommée d’après « Candy Says » du Velvet Underground ; sert de contrepoint domestique au récit de montée en intensité du groupe.\n",
+      "statut": "animal domestique / motif affectif",
+      "usage": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
   "PERS-S75-032": {
     "kind": "person",
     "id": "PERS-S75-032",
@@ -86902,6 +88507,212 @@
         {
           "type": "requiert",
           "cible": "CONCEPT-004"
+        }
+      ]
+    }
+  },
+  "CONCEPT-015": {
+    "kind": "concept",
+    "id": "CONCEPT-015",
+    "file": "registers/concepts/s45_curtis_concepts_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "CONCEPT-015 — médiation audiovisuelle mancunienne",
+    "data": {
+      "id": "CONCEPT-015",
+      "nom": "médiation audiovisuelle mancunienne",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_analytique",
+          "concept_medias"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Concept désignant le rôle des dispositifs télévisuels locaux, en particulier Granada / What’s On / Granada Reports, dans la fixation d’une lecture de Joy Division : ville monochrome, paysage urbain sombre, performance ramassée, association entre son, image et Manchester.\n",
+      "usage_repo": {
+        "fonction": [
+          "analyser la médiation Wilson / Granada",
+          "relier « Shadowplay » à l’imaginaire visuel urbain",
+          "préparer l’analyse du monochrome Factory et de l’image post-punk"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "motifs_associes": [
+        "Granada",
+        "World in Action",
+        "« Shadowplay »",
+        "cityscape",
+        "monochrome"
+      ],
+      "risques": [
+        "confondre médiation télévisuelle et essence du groupe",
+        "renforcer Manchester comme matrice unique",
+        "effacer la dimension construite du montage"
+      ],
+      "atomes_lies": [
+        "S45-A054",
+        "S45-A056"
+      ],
+      "concepts_derives": [
+        "ville télévisuelle",
+        "Manchester monté en noir et blanc",
+        "image-son comme réception"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-008"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-003"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        }
+      ]
+    }
+  },
+  "CONCEPT-016": {
+    "kind": "concept",
+    "id": "CONCEPT-016",
+    "file": "registers/concepts/s45_curtis_concepts_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "CONCEPT-016 — management-confession",
+    "data": {
+      "id": "CONCEPT-016",
+      "nom": "management-confession",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_analytique",
+          "concept_management"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Concept désignant une forme de management où le manager n’assure pas seulement des fonctions de négociation, de protection ou d’organisation, mais devient aussi dépositaire d’informations intimes, écran entre le chanteur et le foyer, et figure de confiance quasi parentale, médicale ou juridique.\n",
+      "usage_repo": {
+        "fonction": [
+          "analyser Rob Gretton sans le réduire au manager sauveur",
+          "montrer la protection et la dépossession informationnelle",
+          "articuler management, couple et santé"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "motifs_associes": [
+        "Rob Gretton",
+        "Lesley Gilbert",
+        "gardien",
+        "parent de substitution",
+        "confidentialité",
+        "dépossession conjugale"
+      ],
+      "risques": [
+        "psychologisation de Gretton",
+        "opposition simpliste entre manager et épouse",
+        "héroïsation du protecteur"
+      ],
+      "atomes_lies": [
+        "S45-A055",
+        "S45-A057"
+      ],
+      "concepts_derives": [
+        "dépossession informationnelle",
+        "médiation protectrice",
+        "manager-écran"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-007"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-009"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        }
+      ]
+    }
+  },
+  "CONCEPT-017": {
+    "kind": "concept",
+    "id": "CONCEPT-017",
+    "file": "registers/concepts/s45_curtis_concepts_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "CONCEPT-017 — conflit productif interne",
+    "data": {
+      "id": "CONCEPT-017",
+      "nom": "conflit productif interne",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_analytique",
+          "concept_processus_creatif"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Concept désignant les situations où un désaccord, une absence, une gêne ou une tension entre membres du groupe modifie concrètement l’architecture sonore. Dans S45, l’épisode du second guitariste refusé puis nié contribue à faire avancer la basse de Peter Hook dans le mix symbolique du groupe.\n",
+      "usage_repo": {
+        "fonction": [
+          "expliquer la centralité de la basse sans essentialisme",
+          "relier architecture sonore et tensions internes",
+          "éviter le mythe du son immédiatement constitué"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "motifs_associes": [
+        "Peter Hook",
+        "basse",
+        "Bernard Sumner",
+        "second guitariste",
+        "conflit interne"
+      ],
+      "risques": [
+        "causalité unique d’un incident vers tout le son Joy Division",
+        "psychologisation des tensions internes",
+        "oubli des contraintes techniques et live"
+      ],
+      "atomes_lies": [
+        "S45-A058"
+      ],
+      "concepts_derives": [
+        "basse comme solution relationnelle",
+        "architecture sonore par rééquilibrage"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-006"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-005"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-006"
         }
       ]
     }
@@ -87802,9 +89613,9 @@
       ]
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2024": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2062": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2024",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2062",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -87824,9 +89635,9 @@
       "usage_recommande": "Utiliser ces atomes pour écrire un récit d’apprentissage, non une légende de révélation instantanée."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2025": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2063": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2025",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2063",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -87842,9 +89653,9 @@
       "usage_recommande": "Contextualiser sans excuser. Distinguer intention, effet visuel, réception, immaturité politique et charge morale."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2026": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2064": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2026",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2064",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -87860,9 +89671,9 @@
       "usage_recommande": "Éviter la vision de Factory comme anti-business naturel ; montrer l’apprentissage par contraste."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2027": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2065": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2027",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2065",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -88281,6 +90092,89 @@
           "cible": "MYTH-002"
         }
       ]
+    }
+  },
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2076": {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2076",
+    "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "Complément MYTH-003 — Manchester comme matrice unique",
+    "data": {
+      "mythe_id": "MYTH-003",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A053",
+        "S45-A056",
+        "S45-A059"
+      ],
+      "apport": "Le passage montre que Manchester n’est pas seulement un paysage ou une cause. La ville devient médiation : concours de labels, télévision Granada, montage urbain de « Shadowplay », répétitions publiques au Band on the Wall. Le contexte agit par infrastructures, conflits et images, non par déterminisme direct.\n",
+      "usage_recommande": "Utiliser ces atomes pour écrire Manchester comme dispositif relationnel et médiatique, non comme matrice mécanique du son."
+    }
+  },
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2077": {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2077",
+    "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "Complément MYTH-005 — Factory comme anti-business pur",
+    "data": {
+      "mythe_id": "MYTH-005",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A053",
+        "S45-A054",
+        "S45-A055",
+        "S45-A056"
+      ],
+      "apport": "Avant que Factory ne s’impose comme horizon esthétique, le passage par Stiff, Chiswick, Granada et les concours de bands montre une scène déjà prise dans des stratégies d’accès, de visibilité et de compétition.\n",
+      "usage_recommande": "Présenter Factory comme configuration émergente dans un champ concurrentiel, pas comme pure extériorité anti-business."
+    }
+  },
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2078": {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2078",
+    "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
+    "data": {
+      "mythe_id": "MYTH-006",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A053",
+        "S45-A058",
+        "S45-A059"
+      ],
+      "apport": "Le son et la présence de Joy Division progressent par concours, répétitions publiques, incidents, critiques divergentes et conflits internes. La basse de Hook avance par rééquilibrage, non par révélation immédiate.\n",
+      "usage_recommande": "Inscrire le son Joy Division dans une série de frictions et de corrections."
+    }
+  },
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2079": {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2079",
+    "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
+    "data": {
+      "mythe_id": "MYTH-007",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A059"
+      ],
+      "apport": "La critique de Mick Middles sur le lien nazi « exploited beyond tolerance » montre que la controverse n’est pas seulement postérieure : elle existe déjà comme fatigue critique contemporaine.\n",
+      "usage_recommande": "Croiser la critique contemporaine négative avec les lectures plus favorables de Paul Morley pour éviter un récit univoque."
+    }
+  },
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2080": {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2080",
+    "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "Complément MYTH-009 — Rob Gretton comme manager sauveur",
+    "data": {
+      "mythe_id": "MYTH-009",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A055",
+        "S45-A057"
+      ],
+      "apport": "Deborah Curtis permet de nuancer Gretton : il devient protecteur, gardien et médiateur confidentiel, mais cette protection produit aussi une dépossession informationnelle du côté du foyer.\n",
+      "usage_recommande": "Présenter Gretton comme manager de proximité et médiateur, non comme sauveur providentiel ni simple obstacle conjugal."
     }
   },
   "CHR-S76-1978-007": {
@@ -94410,6 +96304,147 @@
         "détail des versions et masters à vérifier avec livret de l'anthologie"
       ],
       "notes": "Moment de stabilisation officielle d'un corpus longtemps fragmenté entre album, compilations et archives."
+    }
+  },
+  "CHR-S45-1978-STIFF-CHISWICK-RAFTERS": {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-STIFF-CHISWICK-RAFTERS",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-STIFF-CHISWICK-RAFTERS",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Stiff et Chiswick organisent à Rafters un concours de groupes ; Curtis y force l’accès à Tony Wilson et Rob Gretton y voit Joy Division dans un moment de détermination maximale.\n",
+      "chapitre_usage": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S45-A053",
+        "S45-A054",
+        "S45-A055"
+      ],
+      "statut": "datation à préciser ; événement à croiser avec gig lists et sources Wilson/Gretton",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "CHR-S45-1978-GRANADA-SHADOWPLAY": {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-GRANADA-SHADOWPLAY",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-GRANADA-SHADOWPLAY",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Tony Wilson organise une apparition de Joy Division sur Granada Reports / What’s On avec « Shadowplay », montée avec des images monochromes d’un paysage urbain issu de World in Action.\n",
+      "chapitre_usage": [
+        "Chapitre 1",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S45-A056"
+      ],
+      "statut": "datation à préciser ; archive télévisuelle à vérifier",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "CHR-S45-1978-GRETTON-MANAGER": {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-GRETTON-MANAGER",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-GRETTON-MANAGER",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Rob Gretton devient manager de Joy Division ; Deborah Curtis décrit son acceptation par Ian comme celle d’un gardien ou parent de substitution.\n",
+      "chapitre_usage": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A055",
+        "S45-A057"
+      ],
+      "statut": "datation à préciser ; événement établi par sources croisées",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "CHR-S45-1978-BASS-HOOK-INCIDENT": {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-BASS-HOOK-INCIDENT",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-BASS-HOOK-INCIDENT",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "À la suite d’un conflit lié aux absences de Bernard Sumner et à l’idée d’un second guitariste, la basse de Peter Hook devient plus avancée et dominante selon Deborah Curtis.\n",
+      "chapitre_usage": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S45-A058"
+      ],
+      "statut": "causalité à recouper avec Hook, Sumner et Morris",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE": {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Joy Division participe aux réunions du Musicians’ Union Collective au Band on the Wall, décrites par Deborah comme des répétitions publiques chaotiques.\n",
+      "chapitre_usage": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S45-A059"
+      ],
+      "statut": "datation à préciser ; à croiser avec gig lists et presse Middles/Morley",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  "CHR-S45-1978-CANDY-DOG": {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-CANDY-DOG",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-CANDY-DOG",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Ian et Deborah Curtis adoptent une chienne Border collie appelée Candy d’après « Candy Says » du Velvet Underground.\n",
+      "chapitre_usage": [
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A060"
+      ],
+      "statut": "scène domestique ; datation à préciser",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
     }
   },
   "CHR-S76-1979-011": {

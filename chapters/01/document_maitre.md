@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T21:12:56"
+generated_at: "2026-05-13T21:51:28"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ generated_at: "2026-05-13T21:12:56"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 62 |
-| Atomes critiques / majeurs | 17 |
+| Atomes | 64 |
+| Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
@@ -35,7 +35,7 @@ generated_at: "2026-05-13T21:12:56"
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 9 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 1 | 0 |
@@ -51,6 +51,8 @@ generated_at: "2026-05-13T21:12:56"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage issue d’un témoignage direct`.
 - **S45-A031** — S45-A031 — Manchester comme « nouvelle capitale » : scène d’auto-habilitation  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contexte_scene` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A056** — S45-A056 — « Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mediation_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + archive télévisuelle vérifiable`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S75-A004** — S75-A004 — Manchester contre Londres : le punk comme possibilité, non comme modèle  
@@ -174,6 +176,8 @@ generated_at: "2026-05-13T21:12:56"
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `infrastructure` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A049** — S72-A049 — 2-Tone : autre réponse britannique à la crise sociale  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
+- **SONG-S45-SHADOWPLAY-GRANADA** — S45 — Chansons, vidéos et objets — Wilson, Gretton, Band on the Wall  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -235,6 +239,9 @@ generated_at: "2026-05-13T21:12:56"
 - salford (2)
 - géographie biographique (2)
 - mémoire ouvrière (2)
+- ville télévisuelle (1)
+- médiation audiovisuelle (1)
+- Manchester monté en noir et blanc (1)
 - rupture politique intime (1)
 - auto-habilitation mancunienne (1)
 - scène comme écosystème (1)
@@ -279,9 +286,6 @@ generated_at: "2026-05-13T21:12:56"
 - pollution (1)
 - industrial estate (1)
 - paysage sonore (1)
-- scène mancunienne (1)
-- infrastructures locales (1)
-- socle documentaire (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -294,6 +298,12 @@ generated_at: "2026-05-13T21:12:56"
 - mémoire ouvrière (2)
 - Wythenshawe (2)
 - overspill estate (2)
+- Shadowplay (1)
+- Granada (1)
+- World in Action (1)
+- monochrome (1)
+- cityscape (1)
+- télévision (1)
 - Tony Nuttall (1)
 - rupture amicale (1)
 - An Ideal for Living (1)
@@ -321,15 +331,13 @@ generated_at: "2026-05-13T21:12:56"
 - 1979 (1)
 - crise anglaise (1)
 - disco (1)
-- punk épuisé (1)
-- chômage (1)
-- Jamaïque (1)
-- retour (1)
-- clearance (1)
-- enfance déplacée (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A056 — prolonge → MYTH-003
+- S45-A056 — prolonge → MOTIF-008
+- S45-A056 — prépare → CHAPITRE-5-IMAGE-FACTORY
+- S45-A056 — prolonge → SONG-S45-SHADOWPLAY-RCA
 - S45-A046 — prolonge → S45-A019
 - S45-A046 — prolonge → CONCEPT-010
 - S45-A046 — prolonge → S45-A042
@@ -404,6 +412,7 @@ generated_at: "2026-05-13T21:12:56"
 | tension_documentaire | 2 |
 | methode | 2 |
 | chronologie | 2 |
+| mediation_visuelle | 1 |
 | contexte_scene | 1 |
 | prudence_methodologique | 1 |
 | infrastructure | 1 |
@@ -426,18 +435,20 @@ generated_at: "2026-05-13T21:12:56"
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
+| non qualifié | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 43 |
+| non qualifiée | 44 |
+| critique | 9 |
 | majeure | 9 |
-| critique | 8 |
 | majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A056 [moyen] — Risque de prendre le montage télévisuel comme essence du groupe ; il s’agit d’une médiation qui fixe la lecture urbaine.
 - S45-A046 [élevé] — Risque de durcir gauche/droite en doctrine politique explicite ou d’en faire une clé de lecture de l’œuvre.
 - S45-A031 [moyen] — Risque de reconstruire Manchester comme capitale évidente alors que la scène est encore précaire, locale et partiellement fantasmée.
 - S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.

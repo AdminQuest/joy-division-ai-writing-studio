@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T21:12:56"
+generated_at: "2026-05-13T21:51:28"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 87 |
-| Atomes critiques / majeurs | 22 |
+| Atomes | 90 |
+| Atomes critiques / majeurs | 23 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
@@ -35,7 +35,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 3 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 18 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 21 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
@@ -51,6 +51,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A052** — S45-A052 — Joy Division pariahs : Sue Barlow et Deborah comme faux public  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie_scene` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Hook`.
+- **S45-A057** — S45-A057 — Gretton comme gardien, parent de substitution et médiateur confidentiel  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif situé`.
 - **S75-A038** — S75-A038 — *Unknown Pleasures* comme secret produit en masse  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_donnees_de_vente`.
 - **S75-A053** — S75-A053 — « Autosuggestion » et « From Safety to Where...? » : les chutes qui déplacent l'album  
@@ -132,6 +134,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A047** — S45-A047 — La Morris Traveller : autonomie de Deborah et nouvelle cartographie des concerts  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_social` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A060** — S45-A060 — Candy : contrepoint domestique au récit d’intensification  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
@@ -208,6 +212,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S71-A035** — S71-A035 — Les débuts de New Order : Western Works, Beach Club et choix du nom  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **SONG-S45-CANDY-SAYS-CANDY** — S45 — Chansons, vidéos et objets — Wilson, Gretton, Band on the Wall  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-020** — SONG-S76-020 — *The Factory Sample* comme objet-manifeste  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_release` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-021** — SONG-S76-021 — « Digital » comme seuil Factory / Hannett  
@@ -325,6 +331,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - réception posthume (2)
 - manchester (2)
 - mythification (2)
+- management-confession (1)
+- médiation protectrice (1)
+- dépossession informationnelle (1)
+- contrepoint domestique (1)
+- anti-mythe ordinaire (1)
+- Curtis affectif (1)
 - savoir administratif du handicap (1)
 - non-monocausalité médicale (1)
 - précompréhension sociale de l’épilepsie (1)
@@ -363,12 +375,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - 4 avril 1980 (1)
 - perte de contrôle (1)
 - centre d'emploi (1)
-- observation clinique (1)
-- malentendu (1)
-- spectacle (1)
-- hypnose japonaise (1)
-- performance (1)
-- geste (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -377,6 +383,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Peter Saville (6)
 - Unknown Pleasures (3)
 - Kevin Cummins (3)
+- Rob Gretton (2)
 - indépendance (2)
 - Deborah Curtis (2)
 - contradiction biographique (2)
@@ -388,6 +395,17 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - The Factory Sample (2)
 - Tony Wilson (2)
 - Martin Hannett (2)
+- Lesley Gilbert (1)
+- gardien (1)
+- parent de substitution (1)
+- confidentialité (1)
+- dépossession conjugale (1)
+- Candy (1)
+- Candy Says (1)
+- chien (1)
+- domesticité (1)
+- tendresse (1)
+- vol (1)
 - travail social (1)
 - handicap (1)
 - Employment Exchange (1)
@@ -402,21 +420,15 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - concerts (1)
 - mobilité (1)
 - pariahs (1)
-- faux public (1)
-- Sue Barlow (1)
-- gigs gratuits (1)
-- outsiders (1)
-- provocation (1)
-- préjugé (1)
-- HATE (1)
-- punk demi-adopté (1)
-- wasteland (1)
-- violence domestique (1)
-- silence (1)
-- danger nocturne (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A057 — prolonge → CONCEPT-007
+- S45-A057 — nuance → MYTH-009
+- S45-A057 — prolonge → S45-A001
+- S45-A060 — prolonge → CONCEPT-012
+- S45-A060 — nuance → MYTH-002
+- S45-A060 — prolonge → MOTIF-012
 - S45-A035 — prolonge → CONCEPT-009
 - S45-A035 — prépare → S45-A036
 - S45-A035 — requiert → CONCEPT-004
@@ -491,12 +503,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S76-A082 — relie → CONCEPT-006
 - S76-A082 — relie → CONCEPT-008
 - S76-A082 — relie → MOTIF-006
-- S76-A084 — relie → MOTIF-008
-- S76-A084 — nuance → MYTH-003
-- S76-A084 — relie → CONCEPT-003
-- S76-A129 — relie → CONCEPT-008
-- S76-A129 — relie → MOTIF-004
-- S76-A129 — nuance → MYTH-005
 
 ## 13. Distribution documentaire
 
@@ -521,6 +527,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mémoire | 2 |
 | chronologie | 2 |
 | song | 2 |
+| relation_management | 1 |
+| contrepoint_domestique | 1 |
 | fait_structurant | 1 |
 | fait_social | 1 |
 | sociologie_scene | 1 |
@@ -557,18 +565,21 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | song_or_release | 1 |
 | song_or_video | 1 |
 | release_object | 1 |
+| non qualifié | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 60 |
-| critique | 20 |
-| majeur | 5 |
+| non qualifiée | 61 |
+| critique | 21 |
+| majeur | 6 |
 | majeure | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A057 [élevé] — Risque de psychologiser Gretton en père de substitution ou d’opposer brutalement manager et épouse ; la source décrit une perception conjugale.
+- S45-A060 [faible] — Risque limité, sauf si l’on transforme la scène en preuve morale générale de douceur.
 - S45-A035 [moyen] — Risque de surcharger téléologiquement ce poste comme annonce de sa propre épilepsie ; il faut le traiter comme fait professionnel et contexte de savoir.
 - S45-A046 [élevé] — Risque de durcir gauche/droite en doctrine politique explicite ou d’en faire une clé de lecture de l’œuvre.
 - S45-A047 [faible] — Risque limité ; éviter seulement de surcharger la voiture comme symbole politique global.

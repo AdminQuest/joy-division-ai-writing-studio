@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T21:12:56"
+generated_at: "2026-05-13T21:51:28"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 190 |
+| Atomes | 191 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -35,7 +35,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 0 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 12 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 13 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
@@ -138,6 +138,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `trauma` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-A038** — S45-A038 — Rafters : la scène comme débordement corporel et inquiétude conjugale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_live` ; importance : `majeur` ; preuve : `témoignage direct rapporté par Hook dans S45`.
+- **S45-A060** — S45-A060 — Candy : contrepoint domestique au récit d’intensification  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-029** — S46-029 — Paul Morley, Wozencroft et la lecture occulto-filmique  
@@ -276,8 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_domestique` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoignage_Deborah`.
 - **S76-A117** — S76-A117 — *Something Else*, 1er septembre 1979 : télévision, fatigue et dilution technique  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `television` ; importance : `critique` ; preuve : `evenement_televisuel_corroborable_et_interpretation_S76`.
-- **S76-A120** — S76-A120 — Annik Honoré : plusieurs vérités contre le récit officiel  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_memorielle` ; importance : `critique` ; preuve : `temoignage_Annik_Honore_Reeder_Reade`.
 
 ## 7. Citations disponibles
 
@@ -480,6 +480,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - mémoire située (2)
 - mémoire conjugale croisée (2)
 - anti-téléologie (2)
+- contrepoint domestique (1)
+- anti-mythe ordinaire (1)
+- Curtis affectif (1)
 - savoir administratif du handicap (1)
 - précompréhension sociale de l’épilepsie (1)
 - savoir préalable de la maladie (1)
@@ -491,9 +494,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - montage théorique (1)
 - varispeed (1)
 - death drive (1)
-- perte de contrôle (1)
-- She's Lost Control (1)
-- centre d'emploi (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -512,6 +512,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - handicap (4)
 - She’s Lost Control (4)
 - Love Will Tear Us Apart (4)
+- domesticité (3)
 - Macclesfield (3)
 - Derby Hall (3)
 - Britannia Row (3)
@@ -522,12 +523,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Mark Reeder (3)
 - mariage (3)
 - tournée américaine (3)
+- Candy (2)
+- chien (2)
 - travail social (2)
 - Employment Exchange (2)
 - mort jeune (2)
 - Jon Savage (2)
 - Mick Middles (2)
-- domesticité (2)
 - responsabilité (2)
 - Plan K (2)
 - culpabilité (2)
@@ -537,11 +539,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - paternité (2)
 - New Dawn Fades (2)
 - I Remember Nothing (2)
-- Strawberry Studios (2)
-- Carole Curtis (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A060 — prolonge → CONCEPT-012
+- S45-A060 — nuance → MYTH-002
+- S45-A060 — prolonge → MOTIF-012
 - S45-A035 — prolonge → CONCEPT-009
 - S45-A035 — prépare → S45-A036
 - S45-A035 — requiert → CONCEPT-004
@@ -619,9 +622,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A143 — requiert → CONCEPT-004
 - S76-A144 — prolonge → S76-A141
 - S76-A144 — relie → CONCEPT-009
-- S76-A144 — relie → S76-A119
-- S76-A146 — prolonge → S76-A145
-- S76-A146 — relie → CONCEPT-009
 
 ## 13. Distribution documentaire
 
@@ -661,6 +661,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | contexte_intime | 2 |
 | scene_intime | 2 |
 | bascule_tournee | 2 |
+| contrepoint_domestique | 1 |
 | fait_structurant | 1 |
 | tension_documentaire | 1 |
 | coincidence_culturelle | 1 |
@@ -773,10 +774,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | non qualifiée | 85 |
 | critique | 84 |
 | majeure | 20 |
-| majeur | 1 |
+| majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A060 [faible] — Risque limité, sauf si l’on transforme la scène en preuve morale générale de douceur.
 - S45-A035 [moyen] — Risque de surcharger téléologiquement ce poste comme annonce de sa propre épilepsie ; il faut le traiter comme fait professionnel et contexte de savoir.
 - S45-A036 [élevé] — Risque de téléologie médicale : le cours ne prédit pas la maladie ; il produit seulement un savoir préalable.
 - S45-A038 [élevé] — Risque de lire rétrospectivement cette violence scénique comme symptôme médical ou préfiguration morbide.
@@ -836,7 +838,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A162 [tres_eleve] — la pochette est l’un des objets les plus téléologisés de l’histoire du groupe
 - S76-A163 [tres_eleve] — *Closer* est le lieu majeur de la téléologie critique autour de Joy Division
 - S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
-- S76-A088 [eleve] — risque de lire grossesse et pression comme causes directes de la crise ultérieure
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T21:12:56"
+generated_at: "2026-05-13T21:51:28"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 266 |
+| Atomes | 270 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 32 |
@@ -35,7 +35,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 47 | 4 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 42 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 23 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 17 | 0 |
@@ -80,6 +80,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A052** — S45-A052 — Joy Division pariahs : Sue Barlow et Deborah comme faux public  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie_scene` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Hook`.
+- **S45-A054** — S45-A054 — Curtis force l’accès à Tony Wilson par l’invective  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A059** — S45-A059 — Band on the Wall : laboratoire chaotique, répétition publique et réception divergente  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
 - **S74-A016** — S74-A016 — Concert des Sex Pistols et achat immédiat de la basse par Hook  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
@@ -113,10 +117,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S75-A015** — S75-A015 — Stephen Morris comme catalyseur formel : le batteur qui permet d'entendre  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A016** — S75-A016 — Electric Circus, « At a Later Date » et l'ambiguïté Hess  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A017** — S75-A017 — Warsaw devient Joy Division : nécessité nominale et charge éthique du nouveau nom  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A018** — S75-A018 — *An Ideal for Living* : provocation visuelle, jeunesse et impasse critique  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
@@ -247,6 +247,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A047** — S45-A047 — La Morris Traveller : autonomie de Deborah et nouvelle cartographie des concerts  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_social` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A053** — S45-A053 — Stiff/Chiswick Challenge : le concours comme théâtre de l’ambition provinciale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_scene_locale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S46-003** — S46-003 — Paul Morley et la mémoire instable de Warsaw  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `temoignage_interpretatif` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-004** — S46-004 — Les concerts des Sex Pistols comme matrice mancunienne  
@@ -279,8 +281,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `paratexte` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-069** — S46-069 — La jeunesse mancunienne et le modèle Sex Pistols  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `contexte_punk` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-070** — S46-070 — Pete Silverton et la première caricature de Stiff Kittens  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -481,15 +481,19 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Warsaw (6)
 - Electric Circus (5)
 - Sex Pistols (5)
+- Rafters (4)
+- scène locale (4)
 - RCA (4)
 - Paul Morley (4)
 - provocation (4)
 - Bowie (4)
+- Tony Wilson (3)
+- télévision (3)
+- Band on the Wall (3)
 - Short Circuit (3)
 - Deborah Curtis (3)
 - Joy Division (3)
 - Warsaw Pakt (3)
-- scène locale (3)
 - synthétiseur (3)
 - Iggy Pop (3)
 - Barton Street (3)
@@ -502,24 +506,30 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Enigma (3)
 - Kevin Cummins (3)
 - domesticité (3)
+- Granada (2)
 - Rudolf Hess (2)
-- Rafters (2)
-- télévision (2)
-- Tony Wilson (2)
 - reconnaissance (2)
 - Pennine Sound (2)
 - imagerie nazie (2)
 - Hitler Youth (2)
 - Liverpool (2)
-- Band on the Wall (2)
 - Piccadilly Plaza (2)
 - Martin Hannett (2)
 - Interzone (2)
 - Lesser Free Trade Hall (2)
-- rencontre (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A053 — prolonge → MOTIF-013
+- S45-A053 — prépare → S45-A054
+- S45-A053 — nuance → MYTH-005
+- S45-A054 — prolonge → S45-A039
+- S45-A054 — prépare → S45-A056
+- S45-A054 — requiert → CONCEPT-004
+- S45-A059 — prolonge → S45-A048
+- S45-A059 — prolonge → MOTIF-013
+- S45-A059 — requiert → MYTH-007
+- S45-A059 — nuance → MYTH-006
 - S45-A037 — prolonge → MOTIF-004
 - S45-A037 — prolonge → MOTIF-005
 - S45-A037 — nuance → MYTH-006
@@ -590,16 +600,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S45-A028 — prépare → S45-A034
 - S45-A028 — corrobore → H3-STABILISATION-HUMAINE-STABILISATION-MUSICALE
 - S45-A029 — prolonge → S45-A021
-- S45-A029 — nuance → MYTH-006
-- S45-A029 — prolonge → MOTIF-007
-- S45-A030 — prolonge → S45-A025
-- S45-A030 — prolonge → CONCEPT-005
-- S45-A030 — nuance → MYTH-002
-- S45-A031 — prolonge → CONCEPT-011
-- S45-A031 — nuance → MYTH-003
-- S45-A031 — prolonge → S72-A023
-- S45-A032 — nuance → MYTH-006
-- S45-A032 — prolonge → MOTIF-006
 
 ## 13. Distribution documentaire
 
@@ -608,11 +608,11 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Type | Nombre |
 |---|---|
 | fait | 25 |
-| scene_fondatrice | 19 |
+| scene_fondatrice | 20 |
 | production | 16 |
 | concert | 15 |
 | chronologie | 14 |
-| non qualifié | 11 |
+| non qualifié | 12 |
 | objet_discographique | 9 |
 | session | 7 |
 | controverse | 7 |
@@ -631,6 +631,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | formation_groupe | 3 |
 | contexte | 3 |
 | contexte_social | 3 |
+| infrastructure_scene | 2 |
 | temoignage | 2 |
 | reception_presse | 2 |
 | changement_nom | 2 |
@@ -640,10 +641,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | mythe_nomination | 2 |
 | contexte_biographique | 2 |
 | scene_de_transition | 2 |
+| scene_scene_locale | 1 |
 | tension_mediatique | 1 |
 | seuil_identitaire | 1 |
 | fait_social | 1 |
-| infrastructure_scene | 1 |
 | infrastructure_industrielle | 1 |
 | sociologie_scene | 1 |
 | lieu_creatif | 1 |
@@ -708,15 +709,18 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 166 |
-| critique | 66 |
+| non qualifiée | 167 |
+| critique | 68 |
 | majeure | 18 |
-| majeur | 12 |
+| majeur | 13 |
 | moyenne | 2 |
 | structurante | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A053 [moyen] — Risque de donner au concours une importance commerciale excessive ; son rôle est surtout relationnel et scénique.
+- S45-A054 [moyen] — Risque de romantiser l’insulte comme génie tactique ; Deborah insiste aussi sur le caractère forcé et peu naturel de l’impolitesse.
+- S45-A059 [moyen] — Risque de faire de Morley le seul bon lecteur et de Middles le mauvais ; les deux captent des dimensions concurrentes du même moment.
 - S45-A037 [moyen] — Risque de surestimer la valeur musicale du morceau ou de réduire l’objet à la seule provocation Hess.
 - S45-A038 [élevé] — Risque de lire rétrospectivement cette violence scénique comme symptôme médical ou préfiguration morbide.
 - S45-A039 [moyen] — Ne pas transformer l’obsession Granada en stratégie professionnelle aboutie ; elle reste bricolée, impatiente, parfois irréaliste.
@@ -774,9 +778,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S74-A023 [moyen] — risque de transformer RCA en simple repoussoir alors que Curtis reste attiré par cette voie
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
 - S74-A025 [moyen] — risque de juger la session seulement comme fiasco sans voir les tensions formatrices qu’elle révèle
-- S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
-- S74-A028 [eleve] — risque de confirmer trop vite la légende du groupe maudit et isolé
-- S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
 
 ## 15. Lacunes et prochaines vérifications
 

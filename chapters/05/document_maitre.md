@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T21:12:56"
+generated_at: "2026-05-13T21:51:28"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 280 |
+| Atomes | 284 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -35,7 +35,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 63 | 4 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 8 | 1 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 12 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
@@ -53,6 +53,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
 - **S45-A044** — S45-A044 — De Warsaw à Joy Division : nom choquant et resserrement musical  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_identitaire` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A056** — S45-A056 — « Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mediation_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + archive télévisuelle vérifiable`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A021** — S74-A021 — Warsaw au premier concert : désespoir, confusion et identité non stabilisée  
@@ -115,8 +117,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignages_directs`.
 - **S76-A046** — S76-A046 — Rabid refuse l’iconographie mais distribue *An Ideal For Living*  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `economie_discographique` ; importance : `critique` ; preuve : `temoignages_Lawrence_Beedle_et_reconstruction`.
-- **S76-A047** — S76-A047 — Curtis contre Tony Wilson : injure, frustration et accès à la télévision  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignages_croises_Wilson_Mason`.
 
 ## 6. Autres atomes utiles
 
@@ -521,6 +521,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - John Anderson (3)
 - Moonlight Club (3)
 - Band On The Wall (3)
+- Shadowplay (2)
+- monochrome (2)
 - imagerie nazie (2)
 - Hitler Youth (2)
 - Joy Division (2)
@@ -541,11 +543,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Rock Against Racism (2)
 - Stiff Test (2)
 - The Eternal (2)
-- Warner Bros (2)
-- Dave McCullough (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A056 — prolonge → MYTH-003
+- S45-A056 — prolonge → MOTIF-008
+- S45-A056 — prépare → CHAPITRE-5-IMAGE-FACTORY
+- S45-A056 — prolonge → SONG-S45-SHADOWPLAY-RCA
 - S45-A037 — prolonge → MOTIF-004
 - S45-A037 — prolonge → MOTIF-005
 - S45-A037 — nuance → MYTH-006
@@ -622,10 +626,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A056 — prolonge → S74-A055
 - S74-A056 — nuance → MYTH-006
 - S74-A056 — complète → S74-A043
-- S74-A020 — nuance → MYTH-004
-- S74-A020 — prolonge → S74-A010
-- S74-A020 — annonce → CONCEPT_HANNETT_SPATIALISATION
-- S74-A021 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -634,11 +634,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Type | Nombre |
 |---|---|
 | objet_discographique | 10 |
+| non qualifié | 10 |
 | analyse_morceau | 10 |
 | discographie | 8 |
 | concept | 8 |
 | analyse | 7 |
-| non qualifié | 7 |
 | fait | 6 |
 | production | 5 |
 | concert | 5 |
@@ -680,6 +680,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | transition | 2 |
 | esthétique_visuelle | 2 |
 | song_or_cover | 2 |
+| mediation_visuelle | 1 |
 | seuil_identitaire | 1 |
 | session_enregistrement | 1 |
 | radio_broadcast | 1 |
@@ -798,12 +799,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 184 |
-| critique | 70 |
+| non qualifiée | 187 |
+| critique | 71 |
 | majeure | 26 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A056 [moyen] — Risque de prendre le montage télévisuel comme essence du groupe ; il s’agit d’une médiation qui fixe la lecture urbaine.
 - S45-A037 [moyen] — Risque de surestimer la valeur musicale du morceau ou de réduire l’objet à la seule provocation Hess.
 - S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
@@ -863,7 +865,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A073 [faible] — la généalogie locale est structurante et limite la téléologie Factory
 - S76-A084 [moyen] — le lieu est très mythifiable ; il faut distinguer fonction pratique et iconisation postérieure
 - S76-A085 [moyen] — risque de folklore masculin ; utile seulement comme contrepoint à l’iconisation
-- S76-A086 [moyen] — témoin unique et rétrospectif ; ne pas en faire portrait psychologique total
 
 ## 15. Lacunes et prochaines vérifications
 
