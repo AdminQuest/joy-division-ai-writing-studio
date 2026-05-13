@@ -165,3 +165,130 @@ related_songs:
 risque:
   - formule forte d'Ott à articuler avec d'autres seuils possibles
 ```
+
+---
+
+## S75-Q006 — RCA et l'inaptitude supposée du groupe
+
+```yaml
+id: S75-Q006
+type_unite: quote
+source_id: S75
+source_label: "S75 — Ott, Joy Division's Unknown Pleasures, 2004"
+auteur: Chris Ott
+citation: "They just can't play."
+statut: candidate
+verification: a_verifier_sur_pdf
+pages:
+  imprimees:
+    - 36
+usage:
+  - RCA
+  - désillusion industrielle
+  - studio professionnel
+chapitres:
+  - Chapitre 2
+  - Chapitre 3
+related_atoms:
+  - S75-A021
+  - S75-A024
+related_concepts:
+  - CONCEPT-005
+risque:
+  - formule à contextualiser comme jugement industriel d'Anderson, non comme vérité musicale
+```
+
+---
+
+## S75-Q007 — Hannett et le mythe du secret trouvé
+
+```yaml
+id: S75-Q007
+type_unite: quote
+source_id: S75
+source_label: "S75 — Ott, Joy Division's Unknown Pleasures, 2004"
+auteur: Peter Hook cité par Chris Ott
+citation: "Hannett was OK—we were a bit in awe of him—but he didn’t write the songs."
+statut: candidate
+verification: a_verifier_sur_pdf
+pages:
+  imprimees:
+    - 46
+    - 47
+usage:
+  - Hannett
+  - producteur catalyseur
+  - mythe du génie solitaire
+chapitres:
+  - Chapitre 3
+  - Chapitre 6
+  - Chapitre 14
+related_atoms:
+  - S75-A029
+related_myths:
+  - MYTH-004
+risque:
+  - citation secondaire rapportée ; vérifier la source NME si usage central
+```
+
+---
+
+## S75-Q008 — Factory comme pacte de liberté
+
+```yaml
+id: S75-Q008
+type_unite: quote
+source_id: S75
+source_label: "S75 — Ott, Joy Division's Unknown Pleasures, 2004"
+auteur: Tony Wilson rapporté par Chris Ott
+citation: "The musicians own everything, the company owns nothing."
+statut: candidate
+verification: a_verifier_sur_pdf
+pages:
+  imprimees:
+    - 58
+usage:
+  - Factory
+  - contrat symbolique
+  - mythe institutionnel
+chapitres:
+  - Chapitre 6
+  - Chapitre 14
+related_atoms:
+  - S75-A036
+related_myths:
+  - MYTH-005
+risque:
+  - légende institutionnelle à citer comme récit rapporté, non comme contrat juridique complet
+```
+
+---
+
+## S75-Q009 — Secret produit en masse
+
+```yaml
+id: S75-Q009
+type_unite: quote
+source_id: S75
+source_label: "S75 — Ott, Joy Division's Unknown Pleasures, 2004"
+auteur: Jon Pareles cité par Chris Ott
+citation: "mass-produced secret"
+statut: candidate
+verification: a_verifier_sur_pdf
+pages:
+  imprimees:
+    - 59
+    - 60
+usage:
+  - Unknown Pleasures
+  - diffusion indépendante
+  - économie du secret
+chapitres:
+  - Chapitre 6
+  - Chapitre 10
+  - Chapitre 14
+related_atoms:
+  - S75-A038
+risque:
+  - expression conceptuelle à rattacher à Pareles / Saville / neworderstory si développée
+```
