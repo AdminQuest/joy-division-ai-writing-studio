@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T20:39:29"
+generated_at: "2026-05-13T21:12:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 166 |
+| Atomes | 167 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 5 |
@@ -35,7 +35,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 12 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 13 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
@@ -49,6 +49,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 5. Atomes critiques ou majeurs
 
+- **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
@@ -117,8 +119,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -421,6 +421,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - domesticité (5)
 - réception critique (3)
 - Ian Curtis (3)
+- An Ideal for Living (2)
+- imagerie nazie (2)
 - Atmosphere (2)
 - silence (2)
 - Dead Souls (2)
@@ -438,6 +440,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - fatigue (2)
 - Debbie Curtis (2)
 - Natalie Curtis (2)
+- Hitler Youth (1)
+- umlauts (1)
+- controverse politique (1)
 - préjugé (1)
 - HATE (1)
 - contradiction biographique (1)
@@ -452,14 +457,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - mémoire rock (1)
 - fantômes (1)
 - eternals (1)
-- réincarnation (1)
-- ressentiment (1)
-- misogynie (1)
-- pose dramatique (1)
-- Curtis immature (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A042 — prolonge → MYTH-007
+- S45-A042 — prolonge → MOTIF-005
+- S45-A042 — nuance → MYTH-006
+- S45-A042 — requiert → CONCEPT-004
 - S45-A026 — prolonge → MOTIF-009
 - S45-A026 — requiert → CONCEPT-004
 - S45-A026 — nuance → MYTH-002
@@ -536,10 +540,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A040 — nuance → MYTH-006
 - S76-A040 — relie → S76-A039
 - S76-A040 — relie → SONG-NoLoveLost
-- S76-A043 — prolonge → S76-A041
-- S76-A043 — nuance → MYTH-006
-- S76-A043 — prepare → S76-A044
-- S76-A152 — prolonge → S76-A151
 
 ## 13. Distribution documentaire
 
@@ -549,9 +549,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 |---|---|
 | analyse | 32 |
 | analyse_morceau | 7 |
+| controverse | 6 |
 | biographie | 6 |
 | lecture_chanson | 6 |
-| controverse | 5 |
 | song | 5 |
 | reception | 3 |
 | interpretation | 3 |
@@ -637,12 +637,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 120 |
-| critique | 32 |
+| critique | 33 |
 | majeure | 13 |
 | majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
 - S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
 - S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète

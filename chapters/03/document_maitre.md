@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T20:39:29"
+generated_at: "2026-05-13T21:12:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 189 |
+| Atomes | 193 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -35,7 +35,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 36 | 4 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 8 | 0 |
@@ -48,6 +48,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 5. Atomes critiques ou majeurs
 
+- **S45-A050** — S45-A050 — Arrow / RCA : désir de studio, absence de discussion et naïveté industrielle  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A051** — S45-A051 — Arrow Studios : chant soul imposé, synthétiseur accepté, métamorphose inachevée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S74-A048** — S74-A048 — Rainbow Theatre : la crise d’épilepsie comme effondrement scénique public  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A049** — S74-A049 — Derby Hall : erreur collective, expérimentation Factory et émeute  
@@ -114,10 +118,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `reconstruction_S76_sessionographie_et_interpretation_sonore`.
 - **S76-A134** — S76-A134 — Pennine, 8 janvier 1980 : première tentative de « Love Will Tear Us Apart »  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `session_corroborable_et_interpretation_S76`.
-- **S76-A142** — S76-A142 — 24 février 1980 : « She’s Lost Control » 12 pouces, fatigue extrême et nouveau vers nocturne  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `lettre_Ian_a_Annik_et_sessionographie`.
-- **S76-A151** — S76-A151 — 8 mars 1980 : Strawberry, Sinatra et la seconde naissance de « Love Will Tear Us Apart »  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `lettre_Ian_a_Annik_et_temoignage_Tony_Wilson`.
 
 ## 6. Autres atomes utiles
 
@@ -466,11 +466,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Hannett (6)
 - Martin Hannett (6)
 - Strawberry Studios (5)
+- Shadowplay (3)
+- Interzone (3)
 - Transmission (3)
 - Atmosphere (3)
 - Unknown Pleasures (3)
 - domesticité (3)
 - Britannia Row (3)
+- RCA (2)
+- synthétiseur (2)
 - radio (2)
 - Dead Souls (2)
 - Sordide Sentimental (2)
@@ -478,9 +482,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - cathédrale sonore (2)
 - apprentissage (2)
 - écoute (2)
-- Interzone (2)
 - studio (2)
-- Shadowplay (2)
 - Digital (2)
 - Glass (2)
 - Peel Session (2)
@@ -497,15 +499,19 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Cargo Studios (2)
 - Sister Ray (2)
 - Velvet Underground (2)
-- distance stéréophonique (1)
-- Licht und Blindheit (1)
-- eternal (1)
-- orgues (1)
-- mémoire rock (1)
-- amateurisme (1)
+- Arrow Studios (1)
+- désir d’enregistrer (1)
+- inexpérience (1)
+- financement externe (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A050 — prolonge → S75-A021
+- S45-A050 — prolonge → CONCEPT-005
+- S45-A050 — prépare → S45-A051
+- S45-A051 — prolonge → S75-A024
+- S45-A051 — prolonge → CONCEPT-006
+- S45-A051 — nuance → MYTH-006
 - S75-A060 — prolonge → CONCEPT-006
 - S75-A060 — prolonge → S75-A034
 - S75-A060 — nuance → MYTH-004
@@ -580,12 +586,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S74-A022 — nuance → MYTH-002
 - S74-A022 — prolonge → S74-A017
 - S74-A048 — nuance → MYTH-002
-- S74-A048 — prolonge → S74-A047
-- S74-A048 — annonce → S74-A049
-- S74-A049 — prolonge → S74-A048
-- S74-A049 — nuance → MYTH-002
-- S74-A049 — complète → S74-A047
-- S74-A050 — complète → S74-A049
 
 ## 13. Distribution documentaire
 
@@ -598,12 +598,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | analyse | 9 |
 | fait | 9 |
 | session_studio | 8 |
+| session | 6 |
+| non qualifié | 6 |
 | concept | 5 |
 | analyse_morceau | 5 |
 | discographie | 4 |
 | reception_critique | 4 |
-| session | 4 |
-| non qualifié | 4 |
 | reception_presse | 3 |
 | interpretation | 3 |
 | enregistrement | 3 |
@@ -687,12 +687,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 140 |
-| critique | 38 |
+| non qualifiée | 142 |
+| critique | 40 |
 | majeure | 11 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A050 [moyen] — Ne pas caricaturer RCA comme seul méchant industriel ; la naïveté du groupe est aussi documentée.
+- S45-A051 [moyen] — Ne pas opposer mécaniquement âme industrielle et pureté Joy Division ; le problème est l’inadéquation entre commande, production et état du groupe.
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
 - S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète

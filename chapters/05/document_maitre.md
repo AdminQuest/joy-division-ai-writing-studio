@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T20:39:29"
+generated_at: "2026-05-13T21:12:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 276 |
+| Atomes | 280 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -35,7 +35,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 63 | 4 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 4 | 1 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 8 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
@@ -47,6 +47,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ## 5. Atomes critiques ou majeurs
 
+- **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
+- **S45-A044** — S45-A044 — De Warsaw à Joy Division : nom choquant et resserrement musical  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_identitaire` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A021** — S74-A021 — Warsaw au premier concert : désespoir, confusion et identité non stabilisée  
@@ -111,12 +117,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `economie_discographique` ; importance : `critique` ; preuve : `temoignages_Lawrence_Beedle_et_reconstruction`.
 - **S76-A047** — S76-A047 — Curtis contre Tony Wilson : injure, frustration et accès à la télévision  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignages_croises_Wilson_Mason`.
-- **S76-A048** — S76-A048 — RCA Piccadilly Plaza : Curtis cherche une sortie par la major  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_industrielle` ; importance : `critique` ; preuve : `temoignages_directs_Brandwood_Mason_et_reconstruction`.
-- **S76-A049** — S76-A049 — Grapevine/RCA : le projet soul « Keep On Keepin’ On » comme malentendu productif  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `projet_discographique` ; importance : `critique` ; preuve : `temoignages_Brandwood_Searling_et_reconstruction`.
-- **S76-A050** — S76-A050 — Arrow Studios, 3-5 mai 1978 : collision entre soul professionnelle et post-punk froid  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `temoignage_Brandwood_et_reconstruction_discographique`.
 
 ## 6. Autres atomes utiles
 
@@ -505,11 +505,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 - Rob Gretton (11)
 - fatigue (6)
+- An Ideal for Living (4)
 - Kevin Cummins (4)
 - Rabid Records (4)
 - Terry Mason (4)
 - Sister Ray (4)
-- An Ideal for Living (3)
 - répétition (3)
 - studio (3)
 - An Ideal For Living (3)
@@ -521,6 +521,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - John Anderson (3)
 - Moonlight Club (3)
 - Band On The Wall (3)
+- imagerie nazie (2)
+- Hitler Youth (2)
+- Joy Division (2)
+- Warsaw Pakt (2)
 - provocation (2)
 - réception critique (2)
 - image industrielle (2)
@@ -539,13 +543,21 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - The Eternal (2)
 - Warner Bros (2)
 - Dave McCullough (2)
-- Sounds (2)
-- Stuff the Superstars (2)
-- Atrocity Exhibition (2)
-- Dead Souls (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A037 — prolonge → MOTIF-004
+- S45-A037 — prolonge → MOTIF-005
+- S45-A037 — nuance → MYTH-006
+- S45-A037 — requiert → MYTH-007
+- S45-A042 — prolonge → MYTH-007
+- S45-A042 — prolonge → MOTIF-005
+- S45-A042 — nuance → MYTH-006
+- S45-A042 — requiert → CONCEPT-004
+- S45-A044 — prolonge → MYTH-007
+- S45-A044 — prolonge → MOTIF-006
+- S45-A044 — nuance → MYTH-006
+- S45-A044 — requiert → CONCEPT-004
 - S75-A013 — prolonge → S75-A018
 - S75-A013 — nuance → MYTH-nazi_imagery_simple_fascination
 - S75-A018 — prolonge → S75-A016
@@ -614,18 +626,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A020 — prolonge → S74-A010
 - S74-A020 — annonce → CONCEPT_HANNETT_SPATIALISATION
 - S74-A021 — nuance → MYTH-002
-- S74-A021 — prolonge → S74-A018
-- S74-A021 — complète → S74-A019
-- S74-A010 — nuance → MYTH-004
-- S74-A010 — illustre → S74-A011
-- S76-A035 — prolonge → S76-A034
-- S76-A035 — prepare → S76-A036
-- S76-A035 — nuance → MYTH-003
-- S76-A036 — prolonge → S76-A035
-- S76-A036 — corrobore → S68-A010
-- S76-A036 — prepare → S76-A041
-- S76-A039 — prolonge → S76-A032
-- S76-A039 — prepare → S76-A041
 
 ## 13. Distribution documentaire
 
@@ -633,12 +633,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Type | Nombre |
 |---|---|
+| objet_discographique | 10 |
 | analyse_morceau | 10 |
-| objet_discographique | 9 |
 | discographie | 8 |
 | concept | 8 |
 | analyse | 7 |
-| non qualifié | 6 |
+| non qualifié | 7 |
 | fait | 6 |
 | production | 5 |
 | concert | 5 |
@@ -648,6 +648,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception_critique | 4 |
 | concert_europeen | 4 |
 | concept_transversal | 4 |
+| controverse | 3 |
 | television | 3 |
 | evenement | 3 |
 | lieu | 3 |
@@ -664,7 +665,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | objet_factory | 2 |
 | contexte_scene | 2 |
 | paratexte_discographique | 2 |
-| controverse | 2 |
 | economie_factory | 2 |
 | strategie_discographique | 2 |
 | lieu_studio | 2 |
@@ -680,6 +680,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | transition | 2 |
 | esthétique_visuelle | 2 |
 | song_or_cover | 2 |
+| seuil_identitaire | 1 |
 | session_enregistrement | 1 |
 | radio_broadcast | 1 |
 | vigilance_documentaire | 1 |
@@ -797,12 +798,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 183 |
-| critique | 67 |
+| non qualifiée | 184 |
+| critique | 70 |
 | majeure | 26 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A037 [moyen] — Risque de surestimer la valeur musicale du morceau ou de réduire l’objet à la seule provocation Hess.
+- S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
+- S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
 - S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
 - S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
@@ -860,9 +864,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A084 [moyen] — le lieu est très mythifiable ; il faut distinguer fonction pratique et iconisation postérieure
 - S76-A085 [moyen] — risque de folklore masculin ; utile seulement comme contrepoint à l’iconisation
 - S76-A086 [moyen] — témoin unique et rétrospectif ; ne pas en faire portrait psychologique total
-- S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
-- S76-A123 [moyen] — risque de transformer chaque date de tournée en marche vers la consécration ou la catastrophe
-- S76-A124 [moyen] — dates à recouper avec gig listings et bootlegs ; ne pas isoler un concert comme bascule absolue
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T20:39:29"
+generated_at: "2026-05-13T21:12:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 83 |
-| Atomes critiques / majeurs | 20 |
+| Atomes | 87 |
+| Atomes critiques / majeurs | 22 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
@@ -35,7 +35,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 3 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 18 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
@@ -47,6 +47,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 5. Atomes critiques ou majeurs
 
+- **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A052** — S45-A052 — Joy Division pariahs : Sue Barlow et Deborah comme faux public  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie_scene` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Hook`.
 - **S75-A038** — S75-A038 — *Unknown Pleasures* comme secret produit en masse  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_donnees_de_vente`.
 - **S75-A053** — S75-A053 — « Autosuggestion » et « From Safety to Where...? » : les chutes qui déplacent l'album  
@@ -124,6 +128,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct et témoignage rapporté`.
 - **S45-A027** — S45-A027 — Le wasteland et la main au cou : scène domestique de danger et de silence  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A046** — S45-A046 — Tony Nuttall : rupture politique et rejet d’*An Ideal for Living*  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A047** — S45-A047 — La Morris Traveller : autonomie de Deborah et nouvelle cartographie des concerts  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_social` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
@@ -289,6 +297,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - new order (4)
 - suicide (4)
 - mémoire (3)
+- biographie contre mythe social (2)
 - fatigue (2)
 - birmingham (2)
 - ceremony (2)
@@ -316,6 +325,15 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - réception posthume (2)
 - manchester (2)
 - mythification (2)
+- savoir administratif du handicap (1)
+- non-monocausalité médicale (1)
+- précompréhension sociale de l’épilepsie (1)
+- rupture politique intime (1)
+- autonomie logistique (1)
+- cartographie conjugale des gigs (1)
+- public fabriqué (1)
+- outsiderisme de scène (1)
+- classe et scène post-punk (1)
 - biographie non édifiante (1)
 - zone éthique instable (1)
 - contradiction de l’altérité (1)
@@ -324,7 +342,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - domesticité sombre (1)
 - complexité politique de Curtis (1)
 - anti-déterminisme sociologique (1)
-- biographie contre mythe social (1)
 - discordance entre œuvre et opinion (1)
 - malcolm whitehead (1)
 - charles salem (1)
@@ -352,15 +369,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - hypnose japonaise (1)
 - performance (1)
 - geste (1)
-- présence scénique (1)
-- peur (1)
-- Leeds University (1)
-- Buzzcocks (1)
-- foule (1)
-- mythe romantique (1)
-- démystification (1)
-- tentative de suicide (1)
-- hôpital (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -369,6 +377,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Peter Saville (6)
 - Unknown Pleasures (3)
 - Kevin Cummins (3)
+- indépendance (2)
+- Deborah Curtis (2)
 - contradiction biographique (2)
 - pulsar (2)
 - Dave McCullough (2)
@@ -378,6 +388,24 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - The Factory Sample (2)
 - Tony Wilson (2)
 - Martin Hannett (2)
+- travail social (1)
+- handicap (1)
+- Employment Exchange (1)
+- Ernest Beard (1)
+- Macclesfield (1)
+- Tony Nuttall (1)
+- rupture amicale (1)
+- politique (1)
+- An Ideal for Living (1)
+- image controversée (1)
+- Morris Traveller (1)
+- concerts (1)
+- mobilité (1)
+- pariahs (1)
+- faux public (1)
+- Sue Barlow (1)
+- gigs gratuits (1)
+- outsiders (1)
 - provocation (1)
 - préjugé (1)
 - HATE (1)
@@ -386,29 +414,21 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - violence domestique (1)
 - silence (1)
 - danger nocturne (1)
-- témoin situé (1)
-- politique domestique (1)
-- conservatisme ordinaire (1)
-- contrepoint au récit social (1)
-- Manchester non homogène (1)
-- reprise (1)
-- postérité (1)
-- austérité (1)
-- internalisation (1)
-- ombre portée (1)
-- secret produit en masse (1)
-- bouche-à-oreille (1)
-- image (1)
-- indépendance (1)
-- Autosuggestion (1)
-- From Safety to Where...? (1)
-- Earcom 2 (1)
-- dub (1)
-- FAST Product (1)
-- Unknown Pleasures sleeve (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A035 — prolonge → CONCEPT-009
+- S45-A035 — prépare → S45-A036
+- S45-A035 — requiert → CONCEPT-004
+- S45-A046 — prolonge → S45-A019
+- S45-A046 — prolonge → CONCEPT-010
+- S45-A046 — prolonge → S45-A042
+- S45-A047 — prolonge → CONCEPT-012
+- S45-A047 — nuance → MOTIF-007
+- S45-A047 — prépare → S45-A060
+- S45-A052 — prolonge → MOTIF-013
+- S45-A052 — nuance → MYTH-003
+- S45-A052 — prolonge → CONCEPT-012
 - S45-A026 — prolonge → MOTIF-009
 - S45-A026 — requiert → CONCEPT-004
 - S45-A026 — nuance → MYTH-002
@@ -477,9 +497,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S76-A129 — relie → CONCEPT-008
 - S76-A129 — relie → MOTIF-004
 - S76-A129 — nuance → MYTH-005
-- S76-A187 — relie → MYTH-002
-- S76-A187 — prolonge → S76-A185
-- S76-A187 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -490,13 +507,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | biographie | 6 |
 | reception | 6 |
 | archive | 4 |
+| tension_documentaire | 3 |
 | concert | 3 |
 | relation | 3 |
 | objet_discographique | 3 |
 | objet_visuel | 3 |
 | analyse | 3 |
 | memoire | 3 |
-| tension_documentaire | 2 |
 | production | 2 |
 | evenement_biographique | 2 |
 | positionnement | 2 |
@@ -504,6 +521,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mémoire | 2 |
 | chronologie | 2 |
 | song | 2 |
+| fait_structurant | 1 |
+| fait_social | 1 |
+| sociologie_scene | 1 |
 | scene_sensible | 1 |
 | santé | 1 |
 | performance_scenique | 1 |
@@ -543,12 +563,16 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| critique | 18 |
-| majeur | 3 |
+| critique | 20 |
+| majeur | 5 |
 | majeure | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A035 [moyen] — Risque de surcharger téléologiquement ce poste comme annonce de sa propre épilepsie ; il faut le traiter comme fait professionnel et contexte de savoir.
+- S45-A046 [élevé] — Risque de durcir gauche/droite en doctrine politique explicite ou d’en faire une clé de lecture de l’œuvre.
+- S45-A047 [faible] — Risque limité ; éviter seulement de surcharger la voiture comme symbole politique global.
+- S45-A052 [moyen] — Risque de transformer le statut de paria en posture héroïque ; il s’agit aussi de précarité matérielle très concrète.
 - S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
 - S45-A027 [très élevé] — Risque de voyeurisme, de psychologisation ou de portrait criminel totalisant.
 - S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.

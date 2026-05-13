@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T20:39:29"
+generated_at: "2026-05-13T21:12:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-13T20:39:29"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 61 |
+| Atomes | 62 |
 | Atomes critiques / majeurs | 17 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
@@ -35,7 +35,7 @@ generated_at: "2026-05-13T20:39:29"
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 8 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 9 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 1 | 0 |
@@ -111,6 +111,8 @@ generated_at: "2026-05-13T20:39:29"
 - **S45-023** — S45-023 — Ian Curtis continue de travailler malgré le succès  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `travail` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-A019** — S45-A019 — Le vote conservateur d’Ian Curtis comme contrepoint biographique fragile  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A046** — S45-A046 — Tony Nuttall : rupture politique et rejet d’*An Ideal for Living*  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S46-004** — S46-004 — Les concerts des Sex Pistols comme matrice mancunienne  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
@@ -210,6 +212,7 @@ generated_at: "2026-05-13T20:39:29"
 - NME (3)
 - Macclesfield (3)
 - classe ouvriere (3)
+- biographie contre mythe social (2)
 - factory records (2)
 - new hormones (2)
 - buzzcocks (2)
@@ -232,12 +235,12 @@ generated_at: "2026-05-13T20:39:29"
 - salford (2)
 - géographie biographique (2)
 - mémoire ouvrière (2)
+- rupture politique intime (1)
 - auto-habilitation mancunienne (1)
 - scène comme écosystème (1)
 - capitale alternative (1)
 - complexité politique de Curtis (1)
 - anti-déterminisme sociologique (1)
-- biographie contre mythe social (1)
 - discordance entre œuvre et opinion (1)
 - seuil de preuve politique (1)
 - distinction anecdote / position idéologique (1)
@@ -279,7 +282,6 @@ generated_at: "2026-05-13T20:39:29"
 - scène mancunienne (1)
 - infrastructures locales (1)
 - socle documentaire (1)
-- registre des sources (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -287,10 +289,15 @@ generated_at: "2026-05-13T20:39:29"
 
 - Manchester (3)
 - Salford (3)
+- politique (2)
 - scène locale (2)
 - mémoire ouvrière (2)
 - Wythenshawe (2)
 - overspill estate (2)
+- Tony Nuttall (1)
+- rupture amicale (1)
+- An Ideal for Living (1)
+- image controversée (1)
 - anti-Londres (1)
 - anticipation (1)
 - auto-habilitation (1)
@@ -300,7 +307,6 @@ generated_at: "2026-05-13T20:39:29"
 - contrepoint au récit social (1)
 - Manchester non homogène (1)
 - prudence citationnelle (1)
-- politique (1)
 - Thatcher (1)
 - conservatisme (1)
 - extrapolation (1)
@@ -321,13 +327,12 @@ generated_at: "2026-05-13T20:39:29"
 - retour (1)
 - clearance (1)
 - enfance déplacée (1)
-- mémoire effacée (1)
-- tour d’habitation (1)
-- communauté détruite (1)
-- enfance (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A046 — prolonge → S45-A019
+- S45-A046 — prolonge → CONCEPT-010
+- S45-A046 — prolonge → S45-A042
 - S45-A031 — prolonge → CONCEPT-011
 - S45-A031 — nuance → MYTH-003
 - S45-A031 — prolonge → S72-A023
@@ -396,10 +401,10 @@ generated_at: "2026-05-13T20:39:29"
 | lieu_scene | 3 |
 | contexte_social | 3 |
 | concept | 3 |
+| tension_documentaire | 2 |
 | methode | 2 |
 | chronologie | 2 |
 | contexte_scene | 1 |
-| tension_documentaire | 1 |
 | prudence_methodologique | 1 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
@@ -429,10 +434,11 @@ generated_at: "2026-05-13T20:39:29"
 | non qualifiée | 43 |
 | majeure | 9 |
 | critique | 8 |
-| majeur | 1 |
+| majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A046 [élevé] — Risque de durcir gauche/droite en doctrine politique explicite ou d’en faire une clé de lecture de l’œuvre.
 - S45-A031 [moyen] — Risque de reconstruire Manchester comme capitale évidente alors que la scène est encore précaire, locale et partiellement fantasmée.
 - S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.
 - S45-A020 [très élevé] — « Conservateur » peut être surtraduit en « thatchérien », alors que le passage ne l’établit pas.

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T20:39:29"
+generated_at: "2026-05-13T21:12:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 264 |
+| Atomes | 267 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -35,7 +35,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 5 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 8 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
@@ -47,6 +47,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 5. Atomes critiques ou majeurs
 
+- **S45-A048** — S45-A048 — Manchester Musicians’ Collective : expérimentation sans obligation d’audience  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `citation de Curtis rapportée par Deborah`.
+- **S45-A049** — S45-A049 — Piccadilly Plaza / RCA : bureau discret et promesse industrielle  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_industrielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
@@ -113,10 +117,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A060** — S75-A060 — « Transmission » comme accomplissement Hannett / Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A066** — S75-A066 — Buzzcocks tour, Plan K et bascule vers la reconnaissance nationale  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A069** — S75-A069 — *Licht und Blindheit* : « Atmosphere » et « Dead Souls » comme seuil de l'éternel  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_discographie`.
 
 ## 6. Autres atomes utiles
 
@@ -186,6 +186,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S45-042** — S45-042 — Le manuscrit de « Love Will Tear Us Apart » devient relique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S45-A039** — S45-A039 — Granada comme obsession médiatique : Curtis pousse Sumner vers la télévision  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_mediatique` ; importance : `majeur` ; preuve : `témoignage direct + témoignage rapporté de Sumner`.
 - **S46-024** — S46-024 — Le second Peel Session  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `broadcast` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-095** — S46-095 — « Something Must Break » : unique performance publique possible  
@@ -277,8 +279,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S47-132** — S47-132 — Trois titres Joy Division finis restent inédits selon West  
   Source : S47 — West, Joy Division, 1984 ; type : `archive_inedite` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S47-136** — S47-136 — « A Means to an End » : double statut studio/live  
-  Source : S47 — West, Joy Division, 1984 ; type : `index_chanson` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-137** — S47-137 — « Incubation » et « And Then Again » : logique du flexi gratuit  
   Source : S47 — West, Joy Division, 1984 ; type : `index_chanson` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
@@ -511,14 +511,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
+- Martin Hannett (10)
 - Rob Gretton (10)
-- Martin Hannett (9)
 - Unknown Pleasures (8)
 - Hannett (7)
+- Tony Wilson (6)
 - Factory (6)
+- RCA (5)
 - Gretton (5)
 - Love Will Tear Us Apart (5)
-- Tony Wilson (5)
 - Peter Saville (5)
 - Transmission (4)
 - Strawberry Studios (4)
@@ -526,10 +527,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Closer (4)
 - Britannia Row (4)
 - synthétiseur (4)
-- RCA (4)
 - manager (4)
 - fatigue (4)
 - John Anderson (4)
+- reconnaissance (3)
 - Dead Souls (3)
 - Sordide Sentimental (3)
 - silence (3)
@@ -545,15 +546,23 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - The Eternal (3)
 - Bernard Sumner (3)
 - Terry Mason (3)
-- radio (2)
-- Buzzcocks tour (2)
-- Plan K (2)
-- America (2)
-- Peel Session (2)
-- Genetic (2)
+- télévision (2)
+- risque (2)
+- Piccadilly Plaza (2)
+- Derek Brandwood (2)
+- Richard Searling (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A039 — prépare → S45-A049
+- S45-A039 — prolonge → CONCEPT-011
+- S45-A039 — nuance → MYTH-006
+- S45-A048 — prolonge → CONCEPT-011
+- S45-A048 — prolonge → MOTIF-013
+- S45-A048 — prépare → S45-A052
+- S45-A049 — prépare → S45-A050
+- S45-A049 — prolonge → S75-A021
+- S45-A049 — prolonge → CONCEPT-011
 - S75-A060 — prolonge → CONCEPT-006
 - S75-A060 — prolonge → S75-A034
 - S75-A060 — nuance → MYTH-004
@@ -625,15 +634,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S75-A049 — prolonge → CONCEPT-006
 - S75-A049 — prolonge → MOTIF-001
 - S75-A049 — requiert → CONCEPT-004
-- S75-A050 — prolonge → MOTIF-004
-- S75-A050 — prolonge → CONCEPT-005
-- S75-A050 — prépare → S75-A053
-- S75-A051 — nuance → MYTH-004
-- S75-A051 — illustre → CONCEPT-005
-- S75-A051 — prolonge → S75-A042
-- S75-A052 — nuance → MYTH-004
-- S75-A052 — prolonge → CONCEPT-006
-- S75-A052 — nuance → MYTH-003
 
 ## 13. Distribution documentaire
 
@@ -690,6 +690,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | song_session | 2 |
 | album | 2 |
 | song_or_cover | 2 |
+| tension_mediatique | 1 |
+| infrastructure_scene | 1 |
+| infrastructure_industrielle | 1 |
 | broadcast | 1 |
 | evolution_repertoire | 1 |
 | portrait_musicien | 1 |
@@ -786,11 +789,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 146 |
-| critique | 94 |
+| critique | 96 |
 | majeure | 24 |
+| majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A039 [moyen] — Ne pas transformer l’obsession Granada en stratégie professionnelle aboutie ; elle reste bricolée, impatiente, parfois irréaliste.
+- S45-A048 [moyen] — Risque de romantiser le Collective ; il faut conserver sa dimension pratique et parfois chaotique.
+- S45-A049 [moyen] — Risque de traiter RCA comme simple accident externe, alors que le passage montre un nœud local et relationnel.
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
 - S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
@@ -848,9 +855,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S76-A145 [moyen] — anecdote très pittoresque ; ne pas folkloriser la précarité ou la colère de Curtis
 - S76-A151 [moyen] — scène très séduisante ; ne pas exagérer le rôle de Wilson au détriment de Curtis, Hannett et du groupe
 - S76-A152 [tres_eleve] — chanson la plus mythifiable du corpus ; risque d’absorber toute la biographie de Curtis
-- S76-A098 [faible] — événement stable, interprétation sonore à croiser avec écoute et sources BBC
-- S76-A099 [moyen] — réception très suggestive ; ne pas transformer l’imaginaire européen en essence du groupe
-- S76-A100 [moyen] — éviter de transformer le choix Factory en geste purement moral ou purement économique
 
 ## 15. Lacunes et prochaines vérifications
 

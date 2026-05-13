@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-13T20:39:12",
+  "generated_at": "2026-05-13T21:12:39",
   "status": "warning",
   "summary": {
-    "records_total": 2131,
+    "records_total": 2196,
     "records_by_kind": {
-      "atom": 1219,
-      "quote": 311,
-      "chronology": 305,
+      "atom": 1243,
+      "quote": 324,
+      "chronology": 314,
       "metadata": 18,
       "source": 56,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
-      "template": 6,
-      "motif": 13,
-      "person": 136,
-      "concept": 13,
+      "template": 12,
+      "motif": 17,
+      "person": 143,
+      "concept": 15,
       "myth": 11
     },
-    "diagnostics_total": 12255,
+    "diagnostics_total": 12614,
     "errors": 0,
-    "warnings": 12255,
+    "warnings": 12614,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -126,22 +126,27 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 114,
-        "atoms": 64,
-        "quotes": 14,
-        "chronology": 15,
+        "records": 167,
+        "atoms": 88,
+        "quotes": 27,
+        "chronology": 24,
         "files": [
           "registers/chronology/master_chronology.md",
           "registers/chronology/s45_curtis_chronology_1976_1977.md",
+          "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
           "registers/people/master_people.md",
           "registers/people/s45_curtis_people_1976_1977.md",
+          "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
           "registers/people/s45_curtis_people_vote_conservateur.md",
           "registers/people/s76_torn_apart_people_part_02.md",
           "registers/quotes/s45_curtis_quotes_1976_1977.md",
+          "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
           "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
           "registers/songs/master_songs.md",
           "registers/songs/s45_curtis_songs_1976_1977.md",
+          "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
           "sources/curtis_touching_from_a_distance/source_part_1976_1977_formation.md",
+          "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
           "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
           "sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md",
           "sources/deborah_curtis/atomisation_02_unknown_pleasures_domesticite_maladie.md",
@@ -416,6 +421,1080 @@
     ]
   },
   "issues": [
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: fait_structurant",
+      "record_id": "S45-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "record_id": "S45-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: objet_discographique",
+      "record_id": "S45-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: performance_live",
+      "record_id": "S45-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: tension_mediatique",
+      "record_id": "S45-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: objet_discographique",
+      "record_id": "S45-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: session",
+      "record_id": "S45-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A042"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: performance_live",
+      "record_id": "S45-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A043"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: seuil_identitaire",
+      "record_id": "S45-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A044"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: performance_live",
+      "record_id": "S45-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A045"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "record_id": "S45-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A046"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: fait_social",
+      "record_id": "S45-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A047"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: infrastructure_scene",
+      "record_id": "S45-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A048"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: infrastructure_industrielle",
+      "record_id": "S45-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A049"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: session",
+      "record_id": "S45-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A050"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: session",
+      "record_id": "S45-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A051"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Invalid value for type_unite: sociologie_scene",
+      "record_id": "S45-A052"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A052"
+    },
     {
       "level": "warning",
       "file": "sources/curtis_touching_from_a_distance/source_part_1976_1977_formation.md",
@@ -66832,6 +67911,510 @@
     },
     {
       "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-AN-IDEAL-FOR-LIVING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-THE-PASSENGER-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-KEEP-ON-KEEPIN-ON-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-SHADOWPLAY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
       "file": "registers/songs/s76_torn_apart_songs_part_08.md",
       "message": "Missing required field: auteur",
       "record_id": "SONG-S76-020"
@@ -73606,6 +75189,240 @@
     },
     {
       "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q015"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q016"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q016"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q016"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q017"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q017"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q017"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q018"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q018"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q018"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q019"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q019"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q019"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q020"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q020"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q020"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q022"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q022"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q022"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q023"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q023"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q023"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q024"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q024"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q024"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q025"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q025"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q025"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q026"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q026"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q026"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q027"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q027"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q027"
+    },
+    {
+      "level": "warning",
       "file": "registers/people/s45_curtis_people_vote_conservateur.md",
       "message": "Missing required field: name",
       "record_id": "PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR"
@@ -73639,6 +75456,132 @@
       "file": "registers/people/s45_curtis_people_vote_conservateur.md",
       "message": "Missing required field: sources",
       "record_id": "PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-ERNEST-BEARD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-ERNEST-BEARD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-ERNEST-BEARD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-DEREK-BRANDWOOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-DEREK-BRANDWOOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-DEREK-BRANDWOOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-RICHARD-SEARLING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-RICHARD-SEARLING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-RICHARD-SEARLING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-JOHN-ANDERSON"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-JOHN-ANDERSON"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-JOHN-ANDERSON"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-BERNIE-BINNICK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-BERNIE-BINNICK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-BERNIE-BINNICK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-SUE-BARLOW"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-SUE-BARLOW"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-SUE-BARLOW"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE"
     },
     {
       "level": "warning",
@@ -73915,6 +75858,222 @@
       "file": "registers/chronology/s45_curtis_chronology_1976_1977.md",
       "message": "Missing required field: certainty",
       "record_id": "CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1977-09-TOPS-DEBORAH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1977-09-TOPS-DEBORAH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1977-09-TOPS-DEBORAH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1977-09-TOPS-DEBORAH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1977-EMPLOYMENT-EXCHANGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1977-EMPLOYMENT-EXCHANGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1977-EMPLOYMENT-EXCHANGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1977-EMPLOYMENT-EXCHANGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1977-EPILEPSY-COURSE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1977-EPILEPSY-COURSE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1977-EPILEPSY-COURSE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1977-EPILEPSY-COURSE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1977-12-PENNINE-AN-IDEAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1977-12-PENNINE-AN-IDEAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1977-12-PENNINE-AN-IDEAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1977-12-PENNINE-AN-IDEAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1977-12-31-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1977-12-31-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1977-12-31-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1977-12-31-SWINGING-APPLE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1978-01-25-PIPS-FIRST-JD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1978-01-25-PIPS-FIRST-JD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1978-01-25-PIPS-FIRST-JD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1978-01-25-PIPS-FIRST-JD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-1978-04-RCA-ARROW"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-1978-04-RCA-ARROW"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-1978-04-RCA-ARROW"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-1978-04-RCA-ARROW"
     },
     {
       "level": "warning",
