@@ -395,3 +395,69 @@ concepts_derives:
   - protection contractuelle
   - infrastructure minimale du management
 ```
+
+---
+
+# CONCEPT-008 — dispositif club-label
+
+```yaml
+id: CONCEPT-008
+
+nom: dispositif club-label
+
+origine:
+  auteur: méthode interne du repo
+
+statut:
+  type:
+    - concept_analytique
+    - concept_institutionnel
+  stabilite: assez_stable
+  niveau_consensus: interne
+
+definition: >
+  Concept désignant une configuration où un lieu de concerts, une économie de promotion,
+  une identité graphique, un producteur, un réseau de presse et un label se construisent
+  ensemble. Dans le cas de Factory, le Russell Club / Factory Club ne précède pas simplement
+  Factory Records : il forme avec lui un appareil de visibilité, de sélection et d'inscription
+  esthétique.
+
+usage_repo:
+  fonction:
+    - analyse de Factory Records
+    - analyse des liens entre lieux, labels, design et presse
+    - compréhension de *The Factory Sample* comme objet institutionnel
+
+chapitres:
+  - Chapitre 6
+  - Chapitre 10
+  - Chapitre 13
+  - Chapitre 14
+
+motifs_associes:
+  - Factory Club
+  - Russell Club
+  - monochrome
+  - objet-manifeste
+  - image graphique
+  - Nord industriel
+
+risques:
+  - homogénéisation de Factory en système trop cohérent
+  - effacement des bricolages initiaux
+  - héroïsation de Wilson au détriment d'Erasmus, Wise, Saville, Hannett, Gretton et Reade
+  - confusion entre club, label et mythe postérieur
+
+atomes_lies:
+  - S76-A072
+  - S76-A073
+  - S76-A076
+  - S76-A079
+  - S76-A080
+  - S76-A082
+
+concepts_derives:
+  - appareil Factory
+  - objet institutionnel
+  - co-production club-label-image
+```
