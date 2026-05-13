@@ -29,10 +29,10 @@ sources
 
 Chaque niveau a une fonction différente.
 
-- `sources/` conserve la matière documentaire première.
+- `sources/` conserve la matière documentaire atomisée. Les PDF/OCR bruts ne sont pas versionnés dans Git.
 - Les atomes extraient les unités historiographiques importantes.
-- `registers/` stabilise les références, citations, concepts, motifs, mythes, personnes et chronologies.
-- `exports/generated/` rend le corpus exploitable par les outils.
+- `registers/` stabilise références, citations, concepts, motifs, mythes, personnes, chansons et chronologies.
+- `exports/generated/` rend le corpus exploitable par les outils et le RAG Studio.
 - Les diagnostics contrôlent la santé du repo.
 - `chapters/XX/document_maitre.md` fournit les dossiers documentaires par chapitre.
 - Le RAG Studio permet de chercher, filtrer, regrouper et préparer les corpus de rédaction.
@@ -45,15 +45,9 @@ Chaque niveau a une fonction différente.
 
 Les documents maîtres ne sont pas des sources primaires. Ils sont des dossiers documentaires de rédaction, produits depuis les atomes.
 
-Ils servent à :
+Ils servent à préparer l’écriture d’un chapitre, donner à l’IA un corpus lisible, synthétiser les atomes par chapitre, repérer sources, citations, motifs, concepts et risques, et contrôler les lacunes documentaires.
 
-- préparer l’écriture d’un chapitre ;
-- donner à l’IA un corpus lisible ;
-- synthétiser les atomes par chapitre ;
-- repérer les sources, citations, motifs, concepts et risques ;
-- contrôler les lacunes documentaires.
-
-Ils ne servent pas à prouver seuls. La preuve reste dans les atomes, les citations, les références et les sources d’origine.
+Ils ne prouvent pas seuls. La preuve reste dans les atomes, les citations, les références et les sources d’origine.
 
 Les documents maîtres sont les fichiers à déposer en priorité dans les sources d’une IA de rédaction :
 
@@ -71,8 +65,9 @@ Toute demande du type :
 
 ```text
 Atomise cette source.
-Atomise ce livre.
+Atomise ce passage.
 Ajoute cette source au repo.
+Intègre ce passage selon le workflow industrialisé.
 ```
 
 signifie obligatoirement : créer ou modifier directement les fichiers nécessaires dans le repo GitHub.
@@ -85,7 +80,7 @@ La procédure historique détaillée reste disponible dans :
 docs/ATOMISATION_SOURCE.md
 ```
 
-La présente page fixe toutefois le workflow opérationnel courant.
+La présente page fixe le workflow opérationnel courant.
 
 ---
 
@@ -107,16 +102,6 @@ Convention :
 SXX — Auteur, Titre court, Année
 ```
 
-Exemples :
-
-```text
-S41 — Hook, Unknown Pleasures, 2012
-S45 — Curtis, Touching from a Distance, 1995
-S74 — Middles, From Joy Division to New Order, 1996
-S75 — Middles, Torn Apart, 2006
-S76 — Ott, Joy Division’s Unknown Pleasures, 2004
-```
-
 Règles :
 
 1. Une source = un identifiant canonique stable.
@@ -125,26 +110,28 @@ Règles :
 4. Tout atome doit porter le `source_id` canonique.
 5. Toute nouvelle source doit être ajoutée à `data/registre.json` avant atomisation définitive.
 6. Les anciens identifiants ou alias servent seulement à la migration.
+7. Pour les sources longues, créer des fichiers de passages successifs : `source_part_01.md`, `source_part_02.md`, etc.
+
+Exemple de dossier source :
+
+```text
+sources/ott_unknown_pleasures/
+  source_part_01.md
+  source_part_02.md
+```
 
 Exemple d’entrée canonique :
 
 ```json
 {
   "id": "S75",
-  "source_label": "S75 — Middles, Torn Apart, 2006",
-  "auteur": "Mick Middles",
-  "titre": "Torn Apart: The Life of Ian Curtis",
-  "annee": "2006",
+  "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+  "auteur": "Chris Ott",
+  "titre": "Joy Division's Unknown Pleasures",
+  "annee": "2004",
   "statut": "atomisation sélective v2",
-  "usage": "Ian Curtis ; biographie ; mémoire ; santé ; réception ; mythologies rétrospectives"
+  "usage": "Unknown Pleasures ; RCA ; Hannett ; Factory ; réception ; mythologies critiques"
 }
-```
-
-Créer ensuite le dossier source correspondant, par exemple :
-
-```text
-sources/middles_torn_apart/
-sources/ott_unknown_pleasures/
 ```
 
 ---
@@ -153,26 +140,7 @@ sources/ott_unknown_pleasures/
 
 Depuis la version 2, l’atomisation ne consiste plus à découper exhaustivement les sources en fragments. Chaque atome devient une unité interprétative enrichie.
 
-Le système doit permettre :
-
-- la propagation conceptuelle ;
-- le contrôle des dérives interprétatives ;
-- la qualification du niveau de preuve ;
-- la détection des mythologies rétrospectives ;
-- la cartographie argumentative du livre ;
-- un RAG sémantique et historiographique.
-
-Un atome mérite d’exister s’il :
-
-- structure un chapitre ;
-- relie plusieurs concepts ;
-- nourrit le graphe relationnel ;
-- éclaire un mythe ;
-- stabilise un concept ;
-- apporte une contradiction ;
-- possède une forte densité narrative ;
-- documente une rupture esthétique ;
-- reste réutilisable.
+Un atome mérite d’exister s’il structure un chapitre, relie plusieurs concepts, nourrit le graphe relationnel, éclaire un mythe, stabilise un concept, apporte une contradiction, possède une forte densité narrative, documente une rupture esthétique ou reste réutilisable.
 
 Un atome faible encombre le système. Un atome fort crée des relations.
 
@@ -217,13 +185,14 @@ Champs critiques :
 - `risque_surinterpretation` : prudence historiographique ;
 - `motifs` : récurrences sensibles ou symboliques ;
 - `concepts_derives` : dérivations interprétatives ;
-- `relations` : liens avec autres atomes, concepts, mythes, citations ou chapitres.
+- `relations` : liens avec autres atomes, concepts, mythes, citations ou chapitres ;
+- `usage_livre` : chapitres où l’atome doit remonter dans les documents maîtres.
 
 ---
 
 ## 7. Types documentaires et niveau de preuve
 
-Les atomes doivent distinguer les natures documentaires. Typologies prioritaires :
+Typologies prioritaires :
 
 ```text
 fait
@@ -236,8 +205,13 @@ scene_fondatrice
 temoignage
 biographie
 session
+session_radio
 lieu
 objet_visuel
+objet_discographique
+archive
+archive_visuelle
+bootleg
 reception
 ```
 
@@ -256,18 +230,11 @@ hypothèse
 reconstruction rétrospective
 témoignage direct rapporté
 interprétation critique
+interprétation critique appuyée sur écoute
+mythe institutionnel avec noyau factuel
 ```
 
-Tout atome doit signaler explicitement les risques suivants lorsqu’ils existent :
-
-- téléologie ;
-- mythologisation ;
-- psychologisation ;
-- surinterprétation ;
-- reconstruction mémorielle douteuse ;
-- lecture prophétique de Ian Curtis ;
-- Manchester comme matrice absolue ;
-- sursymbolisation des ruines industrielles.
+Tout atome doit signaler les risques qui existent : téléologie, mythologisation, psychologisation, surinterprétation, reconstruction mémorielle douteuse, lecture prophétique de Ian Curtis, Manchester comme matrice absolue, héroïsation de Hannett, romantisation de Factory, sursymbolisation des ruines industrielles.
 
 ---
 
@@ -295,16 +262,7 @@ relations:
     cible: S41-A022
 ```
 
-Les relations doivent permettre de repérer :
-
-- ce qui confirme ;
-- ce qui contredit ;
-- ce qui nuance ;
-- ce qui mythologise ;
-- ce qui déconstruit ;
-- ce qui déplace un concept ;
-- ce qui rattache deux chapitres ;
-- ce qui signale une prudence.
+Les relations doivent permettre de repérer ce qui confirme, contredit, nuance, mythologise, déconstruit, déplace un concept, rattache deux chapitres ou signale une prudence.
 
 Un atome sans relation reste isolé. Un atome relationnel devient utile au manuscrit.
 
@@ -312,67 +270,177 @@ Un atome sans relation reste isolé. Un atome relationnel devient utile au manus
 
 ## 9. Registres
 
-Mettre à jour uniquement les registres utiles :
+Les registres sont la mémoire stable du repo. Ils ne sont pas des brouillons de rédaction et ne doivent pas devenir des zones de prose libre.
+
+### Registres structurants
+
+Ils stabilisent les grandes catégories interprétatives :
 
 ```text
-registers/references/master_references.md
-registers/quotes/master_quotes.md
 registers/concepts/master_concepts.md
 registers/motifs/master_motifs.md
 registers/myths/master_myths.md
-registers/chronology/master_chronology.md
-registers/people/master_people.md
 ```
 
-Les registres servent à :
+Ils ne doivent être enrichis que si le passage crée un vrai nœud durable. Sinon, les atomes pointent vers l’existant.
 
-- stabiliser ;
-- superviser ;
-- cartographier ;
-- contrôler la cohérence ;
-- éviter les doublons ;
-- préparer le RAG.
+### Registres spécialisés
 
-Ils ne sont pas des brouillons de rédaction et ne doivent pas devenir des zones de prose libre.
+Ils créent des points d’entrée transversaux :
+
+```text
+registers/quotes/
+registers/chronology/
+registers/people/
+registers/songs/
+registers/references/
+```
+
+Ils ne doivent pas être exhaustifs. Ils reçoivent uniquement les citations, dates, personnes et chansons réellement réutilisables.
+
+Pour une source longue déjà ouverte, préférer des fichiers spécialisés par source ou par tranche :
+
+```text
+registers/quotes/s75_ott_quotes.md
+registers/chronology/s75_ott_chronology.md
+registers/songs/s75_ott_songs_part_02.md
+registers/people/s75_ott_people_part_02.md
+registers/concepts/s75_ott_concepts_part_02.md
+```
+
+Les citations restent candidates tant qu’elles n’ont pas été vérifiées mot à mot sur le PDF/OCR ou l’édition papier.
 
 ---
 
-## 10. Workflow quotidien
+## 10. Workflow industrialisé d’atomisation d’un passage
 
-### Étape 1 — Lecture stratégique
+Le mode normal n’est plus l’enchaînement artisanal : atomisation → relations → concepts → motifs → mythes → citations → dates → personnes → chansons → documents maîtres → RAG.
 
-Lire : livre, article, interview, bootleg, presse, archive, notice discographique, témoignage, document iconographique.
+Pour un passage donné, produire un paquet complet en une seule passe.
 
-Objectif : identifier uniquement les passages qui structurent réellement le livre.
+### Entrée attendue
 
-Chercher : passages pivots, concepts, motifs, mythes, contradictions, scènes importantes, formulations fortes, témoignages décisifs, éléments de chronologie, tensions entre sources.
+L’utilisateur fournit un passage, un PDF/OCR ou un extrait, et indique :
 
-Ne pas chercher : tout extraire, tout résumer, atomiser tout le livre, multiplier les reformulations.
+```text
+Atomise et intègre ce nouveau passage de SXX selon le workflow industrialisé.
+Je veux une passe complète : atomes v2, relations stabilisées, registres, documents maîtres, RAG, commandes et contrôles.
+Ne fragmente pas le traitement en étapes successives.
+```
 
-### Étape 2 — Source canonique
+### Sortie attendue
 
-Fixer ou créer la source dans `data/registre.json` avant tout atome définitif.
+Le traitement doit créer ou modifier directement :
 
-### Étape 3 — Extraction sélective
+```text
+1. sources/<slug>/source_part_XX.md
+2. registres structurants si nécessaire seulement
+3. registres spécialisés utiles
+4. scripts de patch ou cleanup si un correctif local est nécessaire
+5. consignes terminal pour build_registers / audit / build_master_docs
+6. contrôles grep
+7. commande git add / commit / push
+```
 
-Créer uniquement les atomes critiques, relationnels et argumentatifs.
+### Contenu minimal du paquet
 
-### Étape 4 — Enrichissement v2
+Le paquet doit comprendre :
 
-Qualifier `role_argumentatif`, `niveau_preuve`, `stabilite`, `importance`, `risque_surinterpretation`, `motifs`, `concepts_derives`, `relations`, `couche_narrative`, `usage_livre`.
+```text
+- atomes v2 complets ;
+- relations déjà stabilisées vers CONCEPT-XXX, MOTIF-XXX, MYTH-XXX ou SXX-AXXX ;
+- nouveaux concepts / motifs / mythes uniquement si l’existant ne suffit pas ;
+- citations candidates limitées ;
+- dates structurantes limitées ;
+- personnes réellement utiles ;
+- chansons réellement utiles ;
+- rattachement aux chapitres via usage_livre ;
+- prudences historiographiques ;
+- commandes terminal finales.
+```
 
-### Étape 5 — Relations
+### Ratio recommandé
 
-Créer les liens utiles vers atomes, concepts, motifs, mythes, citations ou chapitres.
+Pour un passage de 20 à 40 pages, viser en principe :
 
-### Étape 6 — Registres
+```text
+10 à 20 atomes maximum ;
+0 à 1 concept structurant nouveau ;
+0 à 2 motifs ou mythes nouveaux ;
+2 à 5 citations candidates ;
+3 à 10 dates structurantes ;
+3 à 10 personnes ;
+3 à 10 chansons.
+```
 
-Mettre à jour seulement les registres nécessaires.
+Ces chiffres ne sont pas des plafonds mécaniques. Ils servent à empêcher l’indexation exhaustive.
 
-### Étape 7 — Exports
+### Règle sur les relations candidates
+
+Les relations doivent pointer d’abord vers les entrées existantes :
+
+```text
+CONCEPT-004 — prudence historiographique
+CONCEPT-005 — contrainte productive
+CONCEPT-006 — architecture sonore
+MOTIF-004 — culture bootleg
+MOTIF-006 — seuil
+MYTH-002 — Ian Curtis comme prophète
+MYTH-003 — Manchester comme matrice unique
+MYTH-004 — Martin Hannett comme génie solitaire
+MYTH-005 — Factory comme anti-business pur
+MYTH-006 — Le génie immédiat de Joy Division
+MYTH-007 — L’imagerie nazie comme fascination fasciste
+```
+
+Si une cible n’existe pas encore, utiliser provisoirement :
+
+```yaml
+relations:
+  - type: prépare
+    cible: CONCEPT-xxx
+    note: "Concept candidat à créer seulement si confirmé par plusieurs atomes."
+```
+
+Puis créer l’entrée canonique dans le même paquet si elle est manifestement structurante.
+
+### Cas S75 comme modèle
+
+Le modèle opérationnel est le traitement de Chris Ott, `S75`, part 2 :
+
+```text
+sources/ott_unknown_pleasures/source_part_02.md
+registers/quotes/s75_ott_quotes.md
+registers/chronology/s75_ott_chronology.md
+registers/concepts/s75_ott_concepts_part_02.md
+registers/songs/s75_ott_songs_part_02.md
+registers/people/s75_ott_people_part_02.md
+```
+
+Ce modèle évite vingt allers-retours : un seul paquet crée les atomes, relations, registres spécialisés et commandes de régénération.
+
+---
+
+## 11. Chaîne locale obligatoire après chaque paquet
+
+Après réception d’un paquet industrialisé, lancer depuis la racine du repo :
+
+```bash
+git pull
+```
+
+Si un script de nettoyage a été ajouté :
+
+```bash
+python3 tools/<script_de_cleanup>.py
+```
+
+Puis :
 
 ```bash
 python3 tools/build_registers.py --strict
+python3 tools/audit_repo.py
+python3 tools/build_master_docs.py
 ```
 
 Résultat attendu :
@@ -384,42 +452,9 @@ unknown : 0
 
 Les warnings v2 peuvent rester nombreux tant que les anciens atomes ne sont pas tous enrichis. Ce n’est pas bloquant si les erreurs sont à zéro.
 
-### Étape 8 — Audit
+---
 
-```bash
-python3 tools/audit_repo.py
-```
-
-Sorties :
-
-```text
-exports/generated/audit_repo.md
-exports/generated/audit_repo.json
-exports/generated/audit_repo_issues.csv
-```
-
-Résultat attendu :
-
-```text
-errors  : 0
-unknown : 0
-```
-
-### Étape 9 — Documents maîtres
-
-```bash
-python3 tools/build_master_docs.py
-```
-
-Sorties :
-
-```text
-chapters/01/document_maitre.md
-...
-chapters/14/document_maitre.md
-```
-
-### Étape 10 — Publication des exports pour le RAG Studio
+## 12. Publication des exports pour le RAG Studio
 
 Le RAG Studio publié sur GitHub Pages ne lit pas directement le repo local. Il lit les exports publiés dans :
 
@@ -429,15 +464,7 @@ exports/generated/
 
 Après une nouvelle atomisation, les sources peuvent être présentes localement dans `sources/`, `chapters/` ou les registres, mais rester invisibles dans le RAG si les exports générés ne sont pas poussés.
 
-Après :
-
-```bash
-python3 tools/build_registers.py --strict
-python3 tools/audit_repo.py
-python3 tools/build_master_docs.py
-```
-
-committer les fichiers de travail :
+Après génération :
 
 ```bash
 git add data/registre.json sources/ registers/ chapters/
@@ -451,6 +478,10 @@ git add -f exports/generated/all_records.json \
   exports/generated/diagnostics.json \
   exports/generated/atoms.json \
   exports/generated/atoms.csv \
+  exports/generated/quotes.json \
+  exports/generated/quotes.csv \
+  exports/generated/songs.json \
+  exports/generated/songs.csv \
   exports/generated/sources.json \
   exports/generated/sources.csv \
   exports/generated/master_docs_index.json
@@ -470,11 +501,51 @@ https://adminquest.github.io/joy-division-ai-writing-studio/apps/rag-studio/
 Cmd + Shift + R
 ```
 
-Résultat attendu : les nouvelles sources apparaissent dans « Sources atomisées », les filtres RAG 2 sont mis à jour, les regroupements RAG 3 et prompts RAG 4 intègrent les nouveaux atomes.
+Si GitHub Pages semble afficher une ancienne version, attendre 1 à 3 minutes, puis ajouter un paramètre de cache :
+
+```text
+https://adminquest.github.io/joy-division-ai-writing-studio/apps/rag-studio/?v=YYYYMMDD-HHMM
+```
 
 ---
 
-## 11. RAG Studio
+## 13. Contrôles grep standard après un paquet
+
+Contrôler la présence des nouveaux atomes :
+
+```bash
+grep -R "SXX-A" sources/<slug>/
+```
+
+Contrôler la remontée dans les documents maîtres :
+
+```bash
+grep -R "SXX-A\|SXX —" chapters/*/document_maitre.md
+```
+
+Contrôler les registres spécialisés :
+
+```bash
+grep -R "SXX-Q\|CHR-\|SONG-SXX\|PERS-SXX\|CONCEPT-" registers/
+```
+
+Contrôler les exports RAG :
+
+```bash
+grep -n "SXX" exports/generated/all_records.json | head
+```
+
+Pour S75 :
+
+```bash
+grep -R "S75-A021\|S75-A038\|CONCEPT-007" sources/ott_unknown_pleasures/
+grep -R "S75-A021\|S75-A038\|CONCEPT-007" chapters/*/document_maitre.md
+grep -R "S75-Q009\|CHR-1979-003\|SONG-S75-012\|PERS-S75-024" registers/
+```
+
+---
+
+## 14. RAG Studio
 
 Interface principale :
 
@@ -499,29 +570,9 @@ An Ideal for Living controversy
 
 Filtres par chapitre, source, type documentaire, type d’atome, importance, niveau de preuve, concept, motif.
 
-Exemples :
-
-```text
-Chapitre 2 + Source S74
-Chapitre 2 + Importance critique
-Curtis epilepsy + Type documentaire atom
-```
-
 ### RAG 3 — Dossier regroupé
 
-Regroupement automatique des résultats par rôle documentaire :
-
-```text
-faits établis
-scènes fondatrices
-lectures / interprétations
-mythes à déconstruire
-controverses
-citations
-concepts / motifs
-points de vigilance
-autres résultats
-```
+Regroupement automatique des résultats par rôle documentaire : faits établis, scènes fondatrices, lectures / interprétations, mythes à déconstruire, controverses, citations, concepts / motifs, points de vigilance, autres résultats.
 
 Le bouton « Copier le dossier » exporte un dossier documentaire en Markdown.
 
@@ -529,23 +580,11 @@ Le bouton « Copier le dossier » exporte un dossier documentaire en Markdown.
 
 Génère un prompt directement utilisable dans une IA externe.
 
-Le prompt contient :
-
-- objectif ;
-- périmètre du corpus ;
-- index rapide ;
-- dossier documentaire autonome ;
-- dossier regroupé ;
-- citations disponibles ;
-- contraintes historiographiques ;
-- contraintes stylistiques ;
-- consigne de rédaction.
-
 Point décisif : RAG 4 embarque le contenu utile des atomes. Il ne renvoie plus seulement à des identifiants codés dans le repo.
 
 ---
 
-## 12. Usage dans une IA de rédaction
+## 15. Usage dans une IA de rédaction
 
 Trois modes sont possibles.
 
@@ -553,19 +592,8 @@ Trois modes sont possibles.
 
 Possible seulement si l’IA dispose d’un accès GitHub, web ou connecteur.
 
-Donner l’URL :
-
 ```text
 https://github.com/AdminQuest/joy-division-ai-writing-studio
-```
-
-Et préciser les chemins utiles :
-
-```text
-chapters/02/document_maitre.md
-registers/quotes/master_quotes.md
-registers/references/master_references.md
-exports/generated/all_records.json
 ```
 
 Mode moins stable.
@@ -585,13 +613,14 @@ chapters/14/document_maitre.md
 Puis les registres transversaux :
 
 ```text
-registers/quotes/master_quotes.md
-registers/references/master_references.md
-registers/concepts/master_concepts.md
-registers/motifs/master_motifs.md
-registers/myths/master_myths.md
-registers/chronology/master_chronology.md
-registers/people/master_people.md
+registers/quotes/
+registers/references/
+registers/concepts/
+registers/motifs/
+registers/myths/
+registers/chronology/
+registers/people/
+registers/songs/
 ```
 
 À éviter sauf besoin technique :
@@ -609,11 +638,9 @@ Mode le plus portable.
 
 Procédure : filtrer dans RAG Studio, vérifier le dossier RAG 3, générer le prompt RAG 4, copier le prompt, coller dans l’IA, demander une rédaction ou une reprise ciblée.
 
-Ce mode fonctionne même si l’IA n’a pas accès au repo.
-
 ---
 
-## 13. Commandes terminal
+## 16. Commandes terminal
 
 Toujours lancer les commandes depuis la racine du repo.
 
@@ -687,7 +714,7 @@ http://localhost:8000/apps/rag-studio/
 
 ---
 
-## 14. Workflow hebdomadaire
+## 17. Workflow hebdomadaire
 
 Ordre recommandé :
 
@@ -709,6 +736,10 @@ git add -f exports/generated/all_records.json \
   exports/generated/diagnostics.json \
   exports/generated/atoms.json \
   exports/generated/atoms.csv \
+  exports/generated/quotes.json \
+  exports/generated/quotes.csv \
+  exports/generated/songs.json \
+  exports/generated/songs.csv \
   exports/generated/sources.json \
   exports/generated/sources.csv \
   exports/generated/master_docs_index.json
@@ -721,7 +752,7 @@ Objectifs : cohérence, stabilité, supervision, contrôle des dérives, prépar
 
 ---
 
-## 15. Workflow de rédaction
+## 18. Workflow de rédaction
 
 Ordre recommandé :
 
@@ -740,7 +771,7 @@ La rédaction ne doit jamais produire directement de nouveaux faits sans retour 
 
 ---
 
-## 16. Workflow mobile
+## 19. Workflow mobile
 
 Depuis téléphone, sont autorisés : lecture, annotation, enrichissement qualitatif, relations, concepts, motifs, mythes, qualification historiographique, préparation de prompts, consultation RAG Studio.
 
@@ -750,7 +781,7 @@ Le téléphone est un outil d’enrichissement qualitatif, pas de maintenance lo
 
 ---
 
-## 17. Priorités documentaires
+## 20. Priorités documentaires
 
 Sources prioritaires : Peter Hook, Deborah Curtis, Martin Hannett, Simon Reynolds, Factory, Tony Wilson, Rob Gretton, Manchester, Salford, *Unknown Pleasures*, *Closer*, RCA sessions, *An Ideal for Living*, bootlegs majeurs, performances live, archives visuelles, réception contemporaine.
 
@@ -758,7 +789,7 @@ Axes prioritaires : spatialité sonore, désindustrialisation, Factory, Hannett,
 
 ---
 
-## 18. Interdits
+## 21. Interdits
 
 Sont interdits :
 
@@ -780,7 +811,7 @@ Sont interdits :
 
 ---
 
-## 19. Objectif final
+## 22. Objectif final
 
 Le système doit progressivement devenir stable, relationnel, historiographiquement prudent, maintenable, dense, non redondant, exploitable par IA, utile à la rédaction et contrôlable humainement.
 
