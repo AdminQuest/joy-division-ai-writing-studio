@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:09:12"
+generated_at: "2026-05-13T17:22:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 156 |
+| Atomes | 157 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 14 |
 | Événements chronologiques | 5 |
@@ -45,7 +45,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 18 | 7 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 19 | 7 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -105,6 +105,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_analyse_textuelle_a_recouper`.
 - **S76-A138** — S76-A138 — Plan K Bruxelles, 17 janvier 1980 : scène industrielle, première « The Eternal » et reprise de « Sister Ray »  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `concert_listing_et_reconstruction_S76`.
+- **S76-A152** — S76-A152 — « Love Will Tear Us Apart » : douleur, universalisation et danger du monument posthume  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_reception_posthume`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -117,8 +119,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A010** — S75-A010 — « Gutz », domesticité et brutalité des premiers textes de Curtis  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
 
 ## 6. Autres atomes utiles
 
@@ -535,10 +535,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A043 — prolonge → S76-A041
 - S76-A043 — nuance → MYTH-006
 - S76-A043 — prepare → S76-A044
+- S76-A152 — prolonge → S76-A151
+- S76-A152 — nuance → MYTH-002
+- S76-A152 — requiert → CONCEPT-004
 - S76-A003 — prolonge → MOTIF-002
-- S76-A003 — nuance → MYTH-003
-- S76-A003 — requiert → CONCEPT-004
-- S76-A007 — prolonge → S76-A004
 
 ## 13. Distribution documentaire
 
@@ -556,6 +556,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | intertextualite | 3 |
 | reception_critique | 3 |
 | citation_repere | 3 |
+| lecture_chanson | 3 |
 | contexte_biographique | 3 |
 | contrepoint | 2 |
 | synthese | 2 |
@@ -568,7 +569,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | lecture | 2 |
 | temoignage_direct_rapporte | 2 |
 | tension_biographique | 2 |
-| lecture_chanson | 2 |
 | fait | 2 |
 | concept | 2 |
 | song | 2 |
@@ -633,7 +633,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 116 |
-| critique | 28 |
+| critique | 29 |
 | majeure | 12 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -665,6 +665,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
 - S76-A040 [tres_eleve] — risque de rabattre le nom sur une sympathie fasciste ou, inversement, de neutraliser la violence référentielle
 - S76-A043 [tres_eleve] — dossier politiquement sensible ; distinguer rumeur, perception, iconographie et position idéologique
+- S76-A152 [tres_eleve] — chanson la plus mythifiable du corpus ; risque d’absorber toute la biographie de Curtis
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 - S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
 - S76-A113 [moyen] — S76 valorise Curtis ; rester attentif aux effets de contraste avec les autres membres du groupe

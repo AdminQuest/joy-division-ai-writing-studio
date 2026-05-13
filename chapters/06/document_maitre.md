@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:09:12"
+generated_at: "2026-05-13T17:22:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 241 |
+| Atomes | 246 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 46 |
-| Événements chronologiques | 31 |
-| Personnes | 35 |
+| Citations | 47 |
+| Événements chronologiques | 33 |
+| Personnes | 36 |
 | Chansons | 17 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 68 | 35 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 73 | 36 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -314,6 +314,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -322,7 +323,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q051** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -349,6 +349,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S76-1979-007 — Joy Division enregistre cinq demos aux Eden Studios pour Genetic / Martin Rushent : « Insight », « Glass », « Transmission », « Ice Age » et « Digital ».
 - CHR-S76-1979-008 — Joy Division joue deux concerts londoniens : retour au Hope & Anchor puis Marquee Club, Wardour Street, en support de The Cure.
 - CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
+- CHR-S76-1980-010 — Joy Division joue au Warehouse de Preston avec Section 25. Le concert est marqué par des problèmes techniques, l’effondrement momentané de « The Eternal », la première apparition live de « Heart and Soul » et une frustration économique autour du cachet.
+- CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
 - CHR-S76-1978-004 — Au printemps 1978, les passages de Ian Curtis au bureau RCA de Piccadilly Plaza et les contacts avec Derek Brandwood font naître la possibilité d’un disque avec RCA/Grapevine.
 - CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
 - CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
@@ -390,6 +392,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S76-057 — John Peel
 - PERS-S76-058 — Martin Rushent
 - PERS-S76-060 — Paul Hanley
+- PERS-S76-073 — Tony Wilson
 - PERS-S76-024 — Martin Hannett
 - PERS-S76-027 — Rob Gretton
 - PERS-S76-028 — Bob Dickinson
@@ -509,14 +512,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Hannett (6)
 - Factory (6)
 - Gretton (5)
+- Love Will Tear Us Apart (5)
+- Tony Wilson (5)
 - Transmission (4)
+- Strawberry Studios (4)
 - Atmosphere (4)
 - RCA (4)
 - manager (4)
-- Tony Wilson (4)
 - Peter Saville (4)
 - John Anderson (4)
-- Strawberry Studios (3)
 - Dead Souls (3)
 - Sordide Sentimental (3)
 - silence (3)
@@ -532,17 +536,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - contrôle (3)
 - Bernard Sumner (3)
 - Terry Mason (3)
-- Love Will Tear Us Apart (3)
 - radio (2)
 - Buzzcocks tour (2)
 - Plan K (2)
 - America (2)
+- Britannia Row (2)
 - Peel Session (2)
 - Genetic (2)
 - caisse claire (2)
 - Disorder (2)
 - voix de Curtis (2)
-- Sumner (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -637,9 +640,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | non qualifié | 8 |
 | lecture_musicale | 7 |
 | index_chanson | 7 |
+| session_studio | 7 |
 | concert | 6 |
 | session | 6 |
-| session_studio | 6 |
 | biographie | 5 |
 | discographie | 5 |
 | scene_fondatrice | 5 |
@@ -649,12 +652,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | fait_interprete | 4 |
 | objet_discographique | 4 |
 | session_radio | 4 |
+| lecture_chanson | 4 |
 | song | 4 |
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
 | versions_chanson | 3 |
-| lecture_chanson | 3 |
 | release_or_session | 3 |
 | reception | 2 |
 | relation | 2 |
@@ -676,6 +679,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | concept_management | 2 |
 | chronologie_live | 2 |
 | analyse_morceau | 2 |
+| song_session | 2 |
 | song_or_cover | 2 |
 | broadcast | 1 |
 | evolution_repertoire | 1 |
@@ -719,6 +723,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | temoignage_affectif | 1 |
 | reception_interne | 1 |
 | ecosysteme | 1 |
+| concert_incident | 1 |
 | bifurcation_industrielle | 1 |
 | decision_management | 1 |
 | relation_studio | 1 |
@@ -759,19 +764,19 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | transition | 1 |
 | concept_transversal | 1 |
 | management | 1 |
+| live_set_context | 1 |
 | album | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
 | song_or_release | 1 |
-| song_session | 1 |
 | live_set_bootleg_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 137 |
-| critique | 81 |
+| non qualifiée | 139 |
+| critique | 84 |
 | majeure | 23 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -830,12 +835,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S76-A035 [moyen] — la présence de Hannett est probable mais le lien causal avec la production ultérieure ne doit pas être forcé
 - S76-A036 [moyen] — la phrase de C. P. Lee sur la chaîne Music Force/Rabid/Factory/Haçienda doit être utilisée comme lecture historiographique, non comme causalité mécanique
 - S76-A045 [moyen] — scène fortement canonisée ; conserver le contexte tardif et conflictuel
+- S76-A145 [moyen] — anecdote très pittoresque ; ne pas folkloriser la précarité ou la colère de Curtis
+- S76-A151 [moyen] — scène très séduisante ; ne pas exagérer le rôle de Wilson au détriment de Curtis, Hannett et du groupe
+- S76-A152 [tres_eleve] — chanson la plus mythifiable du corpus ; risque d’absorber toute la biographie de Curtis
 - S76-A098 [faible] — événement stable, interprétation sonore à croiser avec écoute et sources BBC
 - S76-A099 [moyen] — réception très suggestive ; ne pas transformer l’imaginaire européen en essence du groupe
 - S76-A100 [moyen] — éviter de transformer le choix Factory en geste purement moral ou purement économique
-- S76-A101 [faible] — l’atome compare des choix de production précis et vérifiables
-- S76-A102 [moyen] — le récit Wilson peut héroïser Gretton ; conserver l’économie concrète de la décision
-- S76-A104 [eleve] — risque de confondre danse, épilepsie et mythe du corps possédé ; ne pas médicaliser sans preuve
 
 ## 15. Lacunes et prochaines vérifications
 

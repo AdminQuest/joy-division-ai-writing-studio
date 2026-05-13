@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:09:12"
+generated_at: "2026-05-13T17:22:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 131 |
+| Atomes | 147 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 42 |
-| Événements chronologiques | 32 |
-| Personnes | 19 |
+| Citations | 53 |
+| Événements chronologiques | 40 |
+| Personnes | 23 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
 
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 47 | 28 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 63 | 39 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -311,16 +311,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q138** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q112** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q120** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q121** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q122** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q123** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q124** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q143** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q144** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q145** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q146** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q148** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q149** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q150** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q151** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q152** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q153** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -348,6 +348,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S75-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
+- CHR-S76-1980-007 — Joy Division joue au Town Hall de High Wycombe avec Killing Joke en support, puis effectue un aller-retour nocturne très fatigant depuis le Nord-Ouest.
+- CHR-S76-1980-008 — Joy Division retourne à Strawberry Studios pour enregistrer une version 12 pouces de « She’s Lost Control », destinée au marché américain. Curtis écrit à Annik que la session se termine vers neuf heures du matin et qu’il a dû écrire un nouveau vers en studio.
+- CHR-S76-1980-009 — Ian Curtis écrit à Annik Honoré après la session Strawberry. La lettre articule fatigue, amour, confusion domestique, impression de destination inconnue et dilemme entre foyer, obligations et relation amoureuse.
+- CHR-S76-1980-011 — Joy Division joue au Lyceum de Londres. Curtis subit une crise grand mal qui commence sur scène ; Terry Mason et Tony Wilson le retirent vers les escaliers du théâtre.
+- CHR-S76-1980-012 — Joy Division joue au Trinity Hall de Bristol. Curtis subit de nouveau une crise vers la fin du set. Annik Honoré conserve la setlist et note l’épisode.
+- CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
+- CHR-S76-1980-014 — Ian Curtis écrit à Annik Honoré une lettre détaillant sa peur de l’aggravation de l’épilepsie, les examens médicaux, la localisation dans le lobe temporal gauche, l’absence de cause évidente et le souvenir du David Lewis Centre.
+- CHR-S76-1980-015 — Pendant que Curtis s’apprête à partir enregistrer *Closer* à Londres, Deborah Curtis et ses parents trouvent un nouveau foyer pour Candy, le chien de Ian. L’épisode marque la matérialisation domestique de la crise conjugale.
 - CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.
 - CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
 - CHR-S76-1979-011 — Natalie Curtis naît le lundi de Pâques. S76 met en tension la joie de Ian Curtis, la maternité de Deborah et la crainte que l’épilepsie empêche Ian de s’occuper physiquement de sa fille en sécurité.
@@ -376,6 +384,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-002 — Doreen Curtis
 - PERS-S76-060 — Paul Hanley
+- PERS-S76-073 — Tony Wilson
+- PERS-S76-074 — Terry Mason
+- PERS-S76-075 — John Curd
+- PERS-S76-076 — Candy
 - PERS-S75-032 — Annik Honoré
 - PERS-S75-035 — Alan Hempsall
 
@@ -475,19 +487,25 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
+- Annik Honoré (10)
 - épilepsie (9)
+- Deborah Curtis (8)
 - Ian Curtis (7)
-- Annik Honoré (7)
-- Deborah Curtis (5)
-- fatigue (4)
-- Natalie Curtis (4)
-- She’s Lost Control (3)
+- fatigue (7)
+- Natalie Curtis (6)
+- She’s Lost Control (4)
+- Tony Wilson (4)
+- Love Will Tear Us Apart (4)
+- Closer (3)
+- David Lewis Centre (3)
 - Unknown Pleasures (3)
 - Mark Reeder (3)
 - mariage (3)
 - Mick Middles (2)
 - domesticité (2)
+- responsabilité (2)
 - Derby Hall (2)
+- Britannia Row (2)
 - Macclesfield (2)
 - Hope & Anchor (2)
 - crise épileptique (2)
@@ -495,26 +513,20 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - paternité (2)
 - New Dawn Fades (2)
 - I Remember Nothing (2)
+- Strawberry Studios (2)
+- Terry Mason (2)
 - Martin Hannett (2)
 - Lindsay Reade (2)
 - Barton Street (2)
 - Belgique (2)
 - Debbie Curtis (2)
-- David Lewis Centre (2)
 - handicap (2)
 - Atmosphere (2)
 - Dead Souls (2)
 - Sordide Sentimental (2)
 - European tour (2)
 - Amsterdam (2)
-- Love Will Tear Us Apart (2)
 - version Pennine (2)
-- Bowie (1)
-- Jim Morrison (1)
-- mort jeune (1)
-- romantisme rock (1)
-- dead fly dance (1)
-- performance live (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -575,29 +587,29 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S74-A002 — prolonge → CONCEPT-003
 - S74-A010 — nuance → MYTH-004
 - S74-A010 — illustre → S74-A011
-- S76-A097 — alimente → MYTH-002
-- S76-A097 — requiert → CONCEPT-004
-- S76-A097 — prolonge → S76-A096
-- S76-A104 — requiert → CONCEPT-009
-- S76-A104 — relie → S76-A103
-- S76-A104 — nuance → MYTH-002
-- S76-A106 — prolonge → S76-A105
-- S76-A106 — relie → CONCEPT-006
-- S76-A106 — nuance → MYTH-004
-- S76-A108 — requiert → CONCEPT-004
-- S76-A108 — nuance → MYTH-002
-- S76-A108 — relie → CONCEPT-009
-- S76-A001 — requiert → CONCEPT-004
-- S76-A001 — nuance → S45
-- S76-A001 — prolonge → S75-A075
-- S76-A002 — deconstruit → MYTH-002
-- S76-A002 — prolonge → CONCEPT-004
-- S76-A002 — nuance → S75-A075
-- S76-A009 — prolonge → CONCEPT-004
-- S76-A009 — nuance → MYTH-002
-- S76-A009 — prolonge → S76-A001
-- S76-A010 — requiert → CONCEPT-004
-- S76-A010 — prolonge → S76-A007
+- S76-A141 — prolonge → S76-A123
+- S76-A141 — relie → CONCEPT-009
+- S76-A141 — requiert → CONCEPT-004
+- S76-A142 — prolonge → S76-A090
+- S76-A142 — relie → CONCEPT-009
+- S76-A142 — relie → S76-A105
+- S76-A143 — prolonge → S76-A120
+- S76-A143 — prolonge → S76-A115
+- S76-A143 — requiert → CONCEPT-004
+- S76-A144 — prolonge → S76-A141
+- S76-A144 — relie → CONCEPT-009
+- S76-A144 — relie → S76-A119
+- S76-A146 — prolonge → S76-A145
+- S76-A146 — relie → CONCEPT-009
+- S76-A146 — nuance → MYTH-010
+- S76-A147 — prolonge → S76-A146
+- S76-A147 — relie → CONCEPT-009
+- S76-A147 — requiert → CONCEPT-004
+- S76-A148 — prolonge → S76-A092
+- S76-A148 — fonde → CONCEPT-009
+- S76-A148 — nuance → MYTH-010
+- S76-A149 — prolonge → S76-A120
+- S76-A149 — relie → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -606,12 +618,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Type | Nombre |
 |---|---|
 | non qualifié | 4 |
+| session_studio | 4 |
+| lecture_chanson | 4 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
 | prudence_methodologique | 3 |
 | tension_biographique | 3 |
-| lecture_chanson | 3 |
+| song_session | 3 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
 | santé | 2 |
@@ -623,9 +637,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | session_album | 2 |
 | reception_poll | 2 |
 | idee_directrice | 2 |
+| scene_medicale_live | 2 |
+| tension_domestique | 2 |
 | scene_medicale | 2 |
 | contexte_intime | 2 |
-| session_studio | 2 |
+| live_set_context | 2 |
 | song | 2 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
@@ -676,12 +692,17 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | synthese_critique | 1 |
 | interpretation_historique | 1 |
 | lecture | 1 |
+| tension_synthese | 1 |
+| lettre_intime | 1 |
+| tournee_fatigue | 1 |
+| lettre_medicale | 1 |
+| controverse_intime_medicale | 1 |
+| crise_professionnelle | 1 |
 | scene_memorielle | 1 |
 | performance_live | 1 |
 | relation_studio | 1 |
 | lecture_album | 1 |
 | cadrage_source | 1 |
-| tension_domestique | 1 |
 | television | 1 |
 | controverse_memorielle | 1 |
 | scene_fondatrice_intime | 1 |
@@ -704,16 +725,15 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | memoire | 1 |
 | tv_session | 1 |
 | release_or_session | 1 |
-| song_session | 1 |
 | live_set_bootleg_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 70 |
-| critique | 48 |
-| majeure | 13 |
+| non qualifiée | 74 |
+| critique | 58 |
+| majeure | 15 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -737,6 +757,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S75-A049 [eleve] — les images domestiques et médicales de « I Remember Nothing » imposent une prudence forte
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
+- S76-A141 [eleve] — risque de téléologie du succès fatal ; maintenir la pluralité des contraintes
+- S76-A142 [moyen] — ne pas lire la fatigue comme signe isolé ; elle s’inscrit dans un régime général d’épuisement
+- S76-A143 [tres_eleve] — risque de réduire la crise à un triangle amoureux ou à une faute individuelle
+- S76-A144 [faible] — fait logistique concret ; ne pas le sursymboliser
+- S76-A146 [tres_eleve] — scène spectaculaire et médicale ; très fort risque de causalité simpliste ou de théâtralisation morbide
+- S76-A147 [tres_eleve] — les formulations de Curtis sont très fortes ; ne pas les transformer en annonce du suicide
+- S76-A148 [tres_eleve] — lettre très explicite ; risque de médicalisation totale du récit
+- S76-A149 [tres_eleve] — risque de défense unilatérale d’Annik ou de disqualification de Deborah
+- S76-A150 [tres_eleve] — formulation extrêmement forte ; risque de l’utiliser comme preuve d’une issue déjà décidée
+- S76-A151 [moyen] — scène très séduisante ; ne pas exagérer le rôle de Wilson au détriment de Curtis, Hannett et du groupe
+- S76-A152 [tres_eleve] — chanson la plus mythifiable du corpus ; risque d’absorber toute la biographie de Curtis
+- S76-A153 [eleve] — risque de moraliser Deborah ou de sentimentaliser l’animal comme pur symbole tragique
 - S76-A097 [tres_eleve] — risque maximal de médiumnité, prophétisation et lecture surnaturelle de Curtis
 - S76-A104 [eleve] — risque de confondre danse, épilepsie et mythe du corps possédé ; ne pas médicaliser sans preuve
 - S76-A106 [moyen] — intimité privée difficile à objectiver ; éviter l’héroïsation ou la psychologisation
@@ -765,18 +797,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
 - S76-A123 [moyen] — risque de transformer chaque date de tournée en marche vers la consécration ou la catastrophe
 - S76-A126 [moyen] — éviter de lire « Atmosphere » comme épitaphe déjà consciente ; la session reste un travail de création vivant
-- S76-A127 [tres_eleve] — risque maximal d’épitaphe rétroactive et de prophétisation de Curtis
-- S76-A128 [tres_eleve] — le titre attire des lectures possessionnelles, morbides ou psychopathologiques
-- S76-A131 [eleve] — formulation « dernier » très téléologique ; à traiter comme savoir rétrospectif, non comme sens vécu
-- S76-A132 [tres_eleve] — risque de triangle romantique simplificateur et de causalité intime unique
-- S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
-- S76-A071 [eleve] — risque de transformer tout écart biographique en signe avant-coureur ; conserver la prudence anti-téléologique
-- S76-A028 [moyen] — risque de projeter sur Barton Street la fin de 1980 dès 1977
-- S76-A031 [eleve] — risque majeur de causalité médicale unique et de psychologisation
-- S76-A133 [eleve] — risque de téléologie biographique ; la tournée est un faisceau d’expansion, de fatigue et d’intime, non un destin
-- S76-A134 [moyen] — ne pas lire la version Pennine uniquement à partir de la version finale ; elle documente un état de recherche
-- S76-A135 [moyen] — la richesse bootleg et la mémoire intime peuvent gonfler la signification vécue de l’événement
-- S76-A136 [moyen] — dates européennes parfois confuses ; vérifier lieux, setlists et témoins
 
 ## 15. Lacunes et prochaines vérifications
 

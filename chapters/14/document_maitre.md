@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:09:12"
+generated_at: "2026-05-13T17:22:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 580 |
+| Atomes | 593 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 75 |
-| Événements chronologiques | 43 |
-| Personnes | 54 |
+| Citations | 76 |
+| Événements chronologiques | 47 |
+| Personnes | 57 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 86 | 48 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 99 | 49 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -359,15 +359,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1979-006 — Joy Division enregistre sa première John Peel Session aux studios BBC de Maida Vale, avec Bob Sargeant et Nick Gomm. Les titres enregistrés sont « Exercise One », « Insight », « Transmission » et « She’s Lost Control ».
 - CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
 - CHR-S76-1978-003 — Joy Division participe au Stiff Test / Chiswick Challenge à Rafters ; The Negatives contribuent à retarder le passage du groupe, Bob Dickinson est frappé par son énergie négative, Rob Gretton décide de le manager, et Curtis interpelle violemment Tony Wilson après le set.
+- CHR-S76-1980-008 — Joy Division retourne à Strawberry Studios pour enregistrer une version 12 pouces de « She’s Lost Control », destinée au marché américain. Curtis écrit à Annik que la session se termine vers neuf heures du matin et qu’il a dû écrire un nouveau vers en studio.
+- CHR-S76-1980-010 — Joy Division joue au Warehouse de Preston avec Section 25. Le concert est marqué par des problèmes techniques, l’effondrement momentané de « The Eternal », la première apparition live de « Heart and Soul » et une frustration économique autour du cachet.
+- CHR-S76-1980-011 — Joy Division joue au Lyceum de Londres. Curtis subit une crise grand mal qui commence sur scène ; Terry Mason et Tony Wilson le retirent vers les escaliers du théâtre.
+- CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
 - CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
 - CHR-S75-1997-001 — Inclusion de la session complète de *Unknown Pleasures* dans l'anthologie *Heart and Soul*.
 - CHR-S76-1979-012 — Le lendemain de la naissance de Natalie, Joy Division joue à Acklam Hall, Londres, avec John Dowie en support. S76 souligne que les concerts londoniens sont considérés comme trop importants pour être annulés.
-- CHR-S76-1979-014 — Dave McCullough interviewe Joy Division pour *Sounds* autour de *Unknown Pleasures* et de l’événement Stuff the Superstars au Mayflower Club, Gorton. L’entretien tourne au conflit autour de l’anti-image, de la presse, des noms absents et de l’imagerie nazie.
-- CHR-S76-1979-015 — Joy Division joue à l’Electric Ballroom de Camden avec Scritti Politti, Monochrome Set et A Certain Ratio, devant un public d’environ 1 200 personnes selon S76.
-- CHR-S76-1979-016 — Joy Division enregistre « Transmission » et « She’s Lost Control » pour BBC2 *Something Else*, programme diffusé le 15 septembre 1979.
-- CHR-S76-1979-017 — Joy Division joue au Futurama Festival à Leeds. S76 décrit une performance qui place le groupe au-dessus de la plupart des autres formations post-punk présentes, avec un set qui circulera ensuite en bootlegs.
 
 ## 9. Personnes et acteurs
 
@@ -510,18 +510,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
+- Annik Honoré (10)
+- Tony Wilson (10)
 - Rob Gretton (8)
-- Annik Honoré (7)
-- Tony Wilson (7)
-- Factory (6)
+- Factory (7)
 - Unknown Pleasures (6)
+- fatigue (6)
 - Gretton (5)
 - Peter Saville (5)
 - Ian Curtis (4)
 - épilepsie (4)
-- fatigue (4)
 - Kevin Cummins (4)
 - Rabid Records (4)
+- Love Will Tear Us Apart (4)
 - Bowie (3)
 - presse musicale (3)
 - Plan K (3)
@@ -538,6 +539,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - silence (3)
 - pochette (3)
 - Martin Hannett (3)
+- Strawberry Studios (3)
+- Deborah Curtis (3)
 - Transmission (2)
 - Mick Middles (2)
 - romantisme (2)
@@ -547,9 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Derby Hall (2)
 - Licht und Blindheit (2)
 - Atmosphere (2)
-- Sordide Sentimental (2)
-- Rainbow Theatre (2)
-- Sister Ray (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -687,7 +687,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | prudence_methodologique | 3 |
 | concept | 3 |
 | decision_strategique | 3 |
+| session_studio | 3 |
+| lecture_chanson | 3 |
 | interpretation | 3 |
+| song_session | 3 |
 | infrastructure | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -717,9 +720,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | idee_directrice | 2 |
 | reception_interne | 2 |
 | reception_scene | 2 |
-| lecture_chanson | 2 |
 | concept_management | 2 |
 | esthétique_visuelle | 2 |
+| live_set_context | 2 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
 | objet_sonore_new_order | 1 |
@@ -854,12 +857,17 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | ecosysteme | 1 |
 | mythe_nomination | 1 |
 | economie_discographique | 1 |
+| tension_synthese | 1 |
+| lettre_intime | 1 |
+| concert_incident | 1 |
+| scene_medicale_live | 1 |
+| controverse_intime_medicale | 1 |
+| crise_professionnelle | 1 |
 | image_et_reception | 1 |
 | scene_memorielle | 1 |
 | bifurcation_industrielle | 1 |
 | decision_management | 1 |
 | concert_iconographie | 1 |
-| session_studio | 1 |
 | objet_album | 1 |
 | cadrage_source | 1 |
 | controverse_historiographique | 1 |
@@ -920,15 +928,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | song_or_video | 1 |
 | song | 1 |
 | release_object | 1 |
-| song_session | 1 |
 | live_video_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 436 |
-| critique | 107 |
+| non qualifiée | 440 |
+| critique | 116 |
 | majeure | 33 |
 | structurante | 2 |
 | moyenne | 2 |

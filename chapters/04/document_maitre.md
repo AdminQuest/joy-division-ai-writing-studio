@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:09:12"
+generated_at: "2026-05-13T17:22:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ generated_at: "2026-05-13T17:09:12"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 147 |
+| Atomes | 157 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 44 |
-| Événements chronologiques | 32 |
-| Personnes | 25 |
+| Citations | 48 |
+| Événements chronologiques | 37 |
+| Personnes | 26 |
 | Chansons | 13 |
 | Sources mobilisées | 8 |
 
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T17:09:12"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 47 | 32 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 57 | 36 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -309,6 +309,10 @@ generated_at: "2026-05-13T17:09:12"
 - **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q145** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q148** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q152** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q153** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q101** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -317,10 +321,6 @@ generated_at: "2026-05-13T17:09:12"
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q112** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q118** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -346,6 +346,11 @@ generated_at: "2026-05-13T17:09:12"
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 - CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
 - CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
+- CHR-S76-1980-009 — Ian Curtis écrit à Annik Honoré après la session Strawberry. La lettre articule fatigue, amour, confusion domestique, impression de destination inconnue et dilemme entre foyer, obligations et relation amoureuse.
+- CHR-S76-1980-011 — Joy Division joue au Lyceum de Londres. Curtis subit une crise grand mal qui commence sur scène ; Terry Mason et Tony Wilson le retirent vers les escaliers du théâtre.
+- CHR-S76-1980-012 — Joy Division joue au Trinity Hall de Bristol. Curtis subit de nouveau une crise vers la fin du set. Annik Honoré conserve la setlist et note l’épisode.
+- CHR-S76-1980-014 — Ian Curtis écrit à Annik Honoré une lettre détaillant sa peur de l’aggravation de l’épilepsie, les examens médicaux, la localisation dans le lobe temporal gauche, l’absence de cause évidente et le souvenir du David Lewis Centre.
+- CHR-S76-1980-015 — Pendant que Curtis s’apprête à partir enregistrer *Closer* à Londres, Deborah Curtis et ses parents trouvent un nouveau foyer pour Candy, le chien de Ian. L’épisode marque la matérialisation domestique de la crise conjugale.
 - CHR-S76-1956-001 — Naissance de Ian Kevin Curtis à Basford House, Old Trafford, dans une famille ouvrière respectable.
 - CHR-S76-1960-001 — Naissance de Carole Curtis, sœur de Ian, avec laquelle S76 décrit une relation durablement proche.
 - CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
@@ -381,6 +386,7 @@ generated_at: "2026-05-13T17:09:12"
 - PERS-S76-008 — Paul Heapy
 - PERS-S76-059 — Martin O’Neill
 - PERS-S76-060 — Paul Hanley
+- PERS-S76-076 — Candy
 - PERS-S75-032 — Annik Honoré
 - PERS-S75-033 — William S. Burroughs
 - PERS-S75-037 — Paul Morley
@@ -490,24 +496,29 @@ generated_at: "2026-05-13T17:09:12"
 
 - Ian Curtis (8)
 - épilepsie (8)
-- Deborah Curtis (5)
+- Deborah Curtis (7)
+- Natalie Curtis (6)
 - Bowie (4)
 - domesticité (4)
-- Natalie Curtis (4)
+- Annik Honoré (4)
 - Mark Reeder (4)
 - Macclesfield (3)
 - Wythenshawe (3)
+- Tony Wilson (3)
+- Terry Mason (3)
+- David Lewis Centre (3)
 - Pete Johnson (3)
 - mariage (3)
 - Mick Middles (2)
+- responsabilité (2)
 - deification (2)
-- Annik Honoré (2)
 - histoire (2)
 - Kevin Cummins (2)
 - Disorder (2)
 - paroles (2)
 - paternité (2)
 - New Dawn Fades (2)
+- fatigue (2)
 - She’s Lost Control (2)
 - contrôle (2)
 - Shadowplay (2)
@@ -518,16 +529,11 @@ generated_at: "2026-05-13T17:09:12"
 - télévision régionale (2)
 - mémoire ouvrière (2)
 - violence sociale (2)
+- Closer (2)
+- Love Will Tear Us Apart (2)
 - Lindsay Reade (2)
 - enfance (2)
 - King’s School (2)
-- classe sociale (2)
-- Barton Street (2)
-- Debbie Curtis (2)
-- David Lewis Centre (2)
-- handicap (2)
-- Deborah Woodruff (2)
-- Iggy Pop (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -640,11 +646,15 @@ generated_at: "2026-05-13T17:09:12"
 | chronologie_sensible | 2 |
 | mythe | 2 |
 | temoignage | 2 |
+| scene_medicale_live | 2 |
+| lecture_chanson | 2 |
+| tension_domestique | 2 |
 | contexte_social | 2 |
 | scene_medicale | 2 |
 | contexte_intime | 2 |
 | scene_de_transition | 2 |
 | fait | 2 |
+| live_set_context | 2 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
 | citation_contextualisee | 1 |
@@ -678,6 +688,10 @@ generated_at: "2026-05-13T17:09:12"
 | scene_locale | 1 |
 | mediation_culturelle | 1 |
 | fait_interprete | 1 |
+| tension_synthese | 1 |
+| lettre_intime | 1 |
+| lettre_medicale | 1 |
+| crise_professionnelle | 1 |
 | image_et_reception | 1 |
 | scene_memorielle | 1 |
 | performance_live | 1 |
@@ -686,7 +700,6 @@ generated_at: "2026-05-13T17:09:12"
 | temoignage_biographique | 1 |
 | controverse_historiographique | 1 |
 | portrait_relationnel | 1 |
-| tension_domestique | 1 |
 | controverse_memorielle | 1 |
 | entretien_collectif | 1 |
 | temoignage_lieu | 1 |
@@ -699,7 +712,6 @@ generated_at: "2026-05-13T17:09:12"
 | micro_scene_relationnelle | 1 |
 | scene_reception | 1 |
 | contraste_biographique | 1 |
-| lecture_chanson | 1 |
 | témoignage_externe | 1 |
 | fait_biographique | 1 |
 | tension | 1 |
@@ -713,9 +725,9 @@ generated_at: "2026-05-13T17:09:12"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 60 |
-| critique | 55 |
-| majeure | 31 |
+| non qualifiée | 62 |
+| critique | 62 |
+| majeure | 32 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -760,6 +772,14 @@ generated_at: "2026-05-13T17:09:12"
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
 - S74-A012 [moyen] — risque de transformer Reilly en pur symbole de sophistication populaire
 - S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
+- S76-A141 [eleve] — risque de téléologie du succès fatal ; maintenir la pluralité des contraintes
+- S76-A143 [tres_eleve] — risque de réduire la crise à un triangle amoureux ou à une faute individuelle
+- S76-A146 [tres_eleve] — scène spectaculaire et médicale ; très fort risque de causalité simpliste ou de théâtralisation morbide
+- S76-A147 [tres_eleve] — les formulations de Curtis sont très fortes ; ne pas les transformer en annonce du suicide
+- S76-A148 [tres_eleve] — lettre très explicite ; risque de médicalisation totale du récit
+- S76-A150 [tres_eleve] — formulation extrêmement forte ; risque de l’utiliser comme preuve d’une issue déjà décidée
+- S76-A152 [tres_eleve] — chanson la plus mythifiable du corpus ; risque d’absorber toute la biographie de Curtis
+- S76-A153 [eleve] — risque de moraliser Deborah ou de sentimentaliser l’animal comme pur symbole tragique
 - S76-A096 [moyen] — l’atome peut nourrir un mythe de l’outsider ; il doit au contraire en expliquer la fabrication
 - S76-A097 [tres_eleve] — risque maximal de médiumnité, prophétisation et lecture surnaturelle de Curtis
 - S76-A104 [eleve] — risque de confondre danse, épilepsie et mythe du corps possédé ; ne pas médicaliser sans preuve
@@ -772,14 +792,6 @@ generated_at: "2026-05-13T17:09:12"
 - S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
 - S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
 - S76-A008 [moyen] — souvenir d'enfance à valeur surtout narrative, non musicale
-- S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire
-- S76-A010 [eleve] — risque de faire de l'incident un signe annonciateur de la mort ou de la maladie
-- S76-A109 [eleve] — risque de lire la naissance comme déclencheur tragique ; elle doit rester un élément du faisceau de contraintes
-- S76-A110 [tres_eleve] — risque de causalité directe traitement/personnalité/suicide ; conserver les modalisateurs et le faisceau de facteurs
-- S76-A113 [moyen] — S76 valorise Curtis ; rester attentif aux effets de contraste avec les autres membres du groupe
-- S76-A115 [eleve] — risque de simplifier Deborah contre groupe ; conserver la pluralité des points de vue
-- S76-A120 [tres_eleve] — risque de roman sentimental, jugement moral, effacement de Deborah ou blanchiment d’Ian
-- S76-A122 [eleve] — Annik relit la scène depuis la suite ; conserver la joie du moment et ne pas la transformer en présage
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:09:12"
+generated_at: "2026-05-13T17:22:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 259 |
+| Atomes | 263 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 63 |
-| Événements chronologiques | 32 |
-| Personnes | 35 |
+| Citations | 64 |
+| Événements chronologiques | 34 |
+| Personnes | 36 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 66 | 53 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 70 | 54 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -351,6 +351,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S76-1977-010 — Warsaw enregistre à Pennine Sound Studios les quatre titres qui formeront *An Ideal For Living* : « Warsaw », « No Love Lost », « Leaders Of Men » et « Failures ».
 - CHR-S76-1978-001 — Le groupe joue pour la première fois sous le nom Joy Division à Pip’s Disco, Manchester.
 - CHR-S76-1978-003 — Joy Division participe au Stiff Test / Chiswick Challenge à Rafters ; The Negatives contribuent à retarder le passage du groupe, Bob Dickinson est frappé par son énergie négative, Rob Gretton décide de le manager, et Curtis interpelle violemment Tony Wilson après le set.
+- CHR-S76-1980-007 — Joy Division joue au Town Hall de High Wycombe avec Killing Joke en support, puis effectue un aller-retour nocturne très fatigant depuis le Nord-Ouest.
+- CHR-S76-1980-010 — Joy Division joue au Warehouse de Preston avec Section 25. Le concert est marqué par des problèmes techniques, l’effondrement momentané de « The Eternal », la première apparition live de « Heart and Soul » et une frustration économique autour du cachet.
 - CHR-S76-1978-004 — Au printemps 1978, les passages de Ian Curtis au bureau RCA de Piccadilly Plaza et les contacts avec Derek Brandwood font naître la possibilité d’un disque avec RCA/Grapevine.
 - CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
 - CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
@@ -389,6 +391,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S76-034 — John Anderson
 - PERS-S76-036 — Bernie Binnick
 - PERS-S76-004 — Carole Curtis
+- PERS-S76-074 — Terry Mason
 - PERS-S76-024 — Martin Hannett
 - PERS-S76-025 — Tosh Ryan
 - PERS-S76-026 — Lawrence Beedle
@@ -493,11 +496,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 - Rob Gretton (10)
 - Kevin Cummins (4)
+- fatigue (4)
 - Rabid Records (4)
 - An Ideal for Living (3)
 - répétition (3)
 - studio (3)
-- fatigue (3)
 - An Ideal For Living (3)
 - Paul Morley (3)
 - Terry Mason (3)
@@ -521,6 +524,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Enigma (2)
 - Rock Against Racism (2)
 - Stiff Test (2)
+- The Eternal (2)
 - Warner Bros (2)
 - Dave McCullough (2)
 - Sounds (2)
@@ -530,7 +534,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Dead Souls (2)
 - T. J. Davidson’s (2)
 - gang (2)
-- Ian Curtis (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -664,6 +667,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | decision_strategique | 2 |
 | transition | 2 |
 | esthétique_visuelle | 2 |
+| live_set_context | 2 |
 | song_or_cover | 2 |
 | session_enregistrement | 1 |
 | radio_broadcast | 1 |
@@ -719,6 +723,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | biographie | 1 |
 | ecosysteme | 1 |
 | economie_discographique | 1 |
+| tournee_fatigue | 1 |
+| concert_incident | 1 |
 | bifurcation_industrielle | 1 |
 | decision_management | 1 |
 | concert_iconographie | 1 |
@@ -774,9 +780,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 177 |
-| critique | 61 |
-| majeure | 21 |
+| non qualifiée | 179 |
+| critique | 62 |
+| majeure | 22 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -816,6 +822,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A045 [moyen] — scène fortement canonisée ; conserver le contexte tardif et conflictuel
 - S76-A046 [eleve] — dossier sensible ; il faut distinguer décision esthétique, morale, commerciale et distribution
 - S76-A047 [moyen] — scène souvent mythifiée ; ne pas en faire une prophétie automatique de Factory
+- S76-A144 [faible] — fait logistique concret ; ne pas le sursymboliser
+- S76-A145 [moyen] — anecdote très pittoresque ; ne pas folkloriser la précarité ou la colère de Curtis
 - S76-A100 [moyen] — éviter de transformer le choix Factory en geste purement moral ou purement économique
 - S76-A102 [moyen] — le récit Wilson peut héroïser Gretton ; conserver l’économie concrète de la décision
 - S76-A103 [moyen] — le caractère iconique peut faire croire à une importance scénique supérieure à celle documentée
@@ -838,8 +846,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
 - S76-A123 [moyen] — risque de transformer chaque date de tournée en marche vers la consécration ou la catastrophe
 - S76-A124 [moyen] — dates à recouper avec gig listings et bootlegs ; ne pas isoler un concert comme bascule absolue
-- S76-A125 [moyen] — ne pas projeter rétrospectivement *Closer* comme déjà contenu entièrement dans ces dates
-- S76-A130 [moyen] — la postérité discographique peut gonfler la signification contemporaine du concert
 
 ## 15. Lacunes et prochaines vérifications
 

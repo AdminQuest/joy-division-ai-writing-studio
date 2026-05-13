@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:09:12"
+generated_at: "2026-05-13T17:22:50"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 180 |
+| Atomes | 184 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 24 |
-| Événements chronologiques | 15 |
-| Personnes | 18 |
+| Citations | 25 |
+| Événements chronologiques | 17 |
+| Personnes | 19 |
 | Chansons | 18 |
 | Sources mobilisées | 11 |
 
@@ -44,7 +44,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 19 | 8 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 23 | 9 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -114,10 +114,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `reconstruction_S76_sessionographie_et_interpretation_sonore`.
 - **S76-A134** — S76-A134 — Pennine, 8 janvier 1980 : première tentative de « Love Will Tear Us Apart »  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `session_corroborable_et_interpretation_S76`.
-- **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
-- **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `majeure` ; preuve : `corrobore`.
+- **S76-A142** — S76-A142 — 24 février 1980 : « She’s Lost Control » 12 pouces, fatigue extrême et nouveau vers nocturne  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `lettre_Ian_a_Annik_et_sessionographie`.
+- **S76-A151** — S76-A151 — 8 mars 1980 : Strawberry, Sinatra et la seconde naissance de « Love Will Tear Us Apart »  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `lettre_Ian_a_Annik_et_temoignage_Tony_Wilson`.
 
 ## 6. Autres atomes utiles
 
@@ -304,6 +304,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -325,6 +326,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - CHR-S76-1979-006 — Joy Division enregistre sa première John Peel Session aux studios BBC de Maida Vale, avec Bob Sargeant et Nick Gomm. Les titres enregistrés sont « Exercise One », « Insight », « Transmission » et « She’s Lost Control ».
 - CHR-S76-1979-007 — Joy Division enregistre cinq demos aux Eden Studios pour Genetic / Martin Rushent : « Insight », « Glass », « Transmission », « Ice Age » et « Digital ».
 - CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
+- CHR-S76-1980-008 — Joy Division retourne à Strawberry Studios pour enregistrer une version 12 pouces de « She’s Lost Control », destinée au marché américain. Curtis écrit à Annik que la session se termine vers neuf heures du matin et qu’il a dû écrire un nouveau vers en studio.
+- CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
 - CHR-S75-1979-004 — Sessions d'enregistrement de *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett.
 
 ## 9. Personnes et acteurs
@@ -347,6 +350,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - PERS-S76-042 — Jeremy Kerr
 - PERS-S76-069 — Martin Hannett
 - PERS-S76-058 — Martin Rushent
+- PERS-S76-073 — Tony Wilson
 
 ## 10. Chansons rattachées
 
@@ -456,10 +460,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ### 12.1. Motifs dominants
 
+- Strawberry Studios (5)
 - Hannett (5)
 - Martin Hannett (5)
 - Transmission (3)
-- Strawberry Studios (3)
 - Atmosphere (3)
 - Unknown Pleasures (3)
 - domesticité (3)
@@ -481,6 +485,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - caisse claire (2)
 - Hook (2)
 - Kraftwerk (2)
+- Love Will Tear Us Apart (2)
 - Ice Age (2)
 - Cargo Studios (2)
 - distance stéréophonique (1)
@@ -495,7 +500,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - boîte à rythmes (1)
 - stabilisation (1)
 - précision (1)
-- No Love Lost (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -590,7 +594,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | lecture_musicale | 10 |
 | analyse | 9 |
 | fait | 9 |
-| session_studio | 5 |
+| session_studio | 7 |
 | concept | 5 |
 | analyse_morceau | 5 |
 | discographie | 4 |
@@ -603,6 +607,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | interpretation_esthetique | 3 |
 | equipment_file | 3 |
 | contexte_technique | 3 |
+| song_session | 3 |
 | release_or_session | 3 |
 | session_enregistrement | 2 |
 | theorie_voix | 2 |
@@ -672,14 +677,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | transition_esthetique | 1 |
 | reception | 1 |
 | album | 1 |
-| song_session | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 137 |
-| critique | 33 |
+| non qualifiée | 139 |
+| critique | 35 |
 | majeure | 10 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -717,6 +721,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S74-A053 [tres_eleve] — tout traitement de la mort de Curtis risque la téléologie tragique et la lecture sacrificielle
 - S74-A054 [eleve] — risque d’opposer mécaniquement vérité domestique et mémoire du groupe sans reconnaître les angles morts de chaque témoin
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
+- S76-A142 [moyen] — ne pas lire la fatigue comme signe isolé ; elle s’inscrit dans un régime général d’épuisement
+- S76-A151 [moyen] — scène très séduisante ; ne pas exagérer le rôle de Wilson au détriment de Curtis, Hannett et du groupe
 - S76-A098 [faible] — événement stable, interprétation sonore à croiser avec écoute et sources BBC
 - S76-A101 [faible] — l’atome compare des choix de production précis et vérifiables
 - S76-A105 [moyen] — éviter de transformer Hannett en auteur unique ; le groupe fournit les matériaux et résiste aussi au résultat
