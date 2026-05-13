@@ -1,7 +1,7 @@
-// RAG 4 — générateur de prompt de rédaction
-// Ce module s'appuie sur les résultats filtrés par RAG 2 et, si disponible,
-// sur le regroupement Markdown produit par RAG 3. Il ne rédige pas le chapitre :
-// il prépare un prompt exploitable dans ChatGPT, Claude ou NotebookLM.
+// RAG 4 — générateur de prompt de rédaction autonome
+// Ce module s'appuie sur les résultats filtrés par RAG 2 et le regroupement RAG 3.
+// Il produit un prompt qui reste exploitable même dans une IA n'ayant pas accès au repo,
+// car il embarque les informations essentielles des atomes sélectionnés.
 
 (function () {
   function $(id) {
@@ -14,14 +14,35 @@
     try { return JSON.stringify(value, null, 2); } catch (_) { return String(value); }
   }
 
+  function compact(value, max = 900) {
+    const text = stringify(value).replace(/\s+/g, ' ').trim();
+    return text.length > max ? text.slice(0, max) + '…' : text;
+  }
+
   function fieldsOf(result) {
     return result?.record?.summary_fields || {};
   }
 
+  function idOf(result) {
+    return result?.record?.id || '';
+  }
+
+  function fullRecordFor(result) {
+    const id = idOf(result);
+    const records = window.rag2?.state?.records || [];
+    return records.find(record => record.id === id) || result?.record || {};
+  }
+
+  function fullDataOf(result) {
+    const record = fullRecordFor(result);
+    return record?.data || record?.summary_fields || fieldsOf(result) || {};
+  }
+
   function titleOf(result) {
-    const record = result.record || {};
+    const record = fullRecordFor(result);
+    const data = fullDataOf(result);
     const fields = fieldsOf(result);
-    return record.id || fields.titre || record.heading || '(sans id)';
+    return record.id || data.titre || fields.titre || record.heading || '(sans id)';
   }
 
   function activeFilters() {
@@ -67,15 +88,73 @@
     return `Rédiger une section du manuscrit ${base.join(', ')}.`;
   }
 
+  function sourceOf(result) {
+    const data = fullDataOf(result);
+    const fields = fieldsOf(result);
+    return fields.source_label || data.source_label || data.source_id || fields.source_id || '';
+  }
+
+  function valueAt(obj, path) {
+    let cursor = obj;
+    for (const part of path.split('.')) {
+      if (!cursor || typeof cursor !== 'object' || !(part in cursor)) return '';
+      cursor = cursor[part];
+    }
+    return cursor;
+  }
+
+  function atomBrief(result, index) {
+    const record = fullRecordFor(result);
+    const data = fullDataOf(result);
+    const fields = fieldsOf(result);
+    const id = record.id || idOf(result) || `RESULT-${index + 1}`;
+    const source = sourceOf(result);
+    const type = data.type_unite || fields.type_unite || record.kind || '';
+    const importance = data.importance || fields.importance || '';
+    const proof = data.niveau_preuve || fields.niveau_preuve || data.fiabilite || data.certainty || fields.certainty || '';
+    const summary = data.resume || data.résumé || data.argument || data.description || data.event || data.citation_directe || fields.citation_originale || fields.titre || titleOf(result);
+    const role = data.role_argumentatif || data.usage_recommande || data.usage || '';
+    const concepts = data.concepts || fields.concepts || '';
+    const motifs = data.motifs || fields.motifs || '';
+    const risk = data.risque_surinterpretation || data.limites_usage || data.contradictions || '';
+    const relations = data.relations || data.liens_interchapitres || '';
+    const quote = data.citation_originale || data.citation_directe || fields.citation_originale || data.traduction_editoriale_fr || fields.traduction_editoriale_fr || '';
+
+    const lines = [
+      `### ${id} — ${compact(titleOf(result), 160)}`,
+      source ? `- Source : ${compact(source, 240)}` : '',
+      type ? `- Type documentaire : ${compact(type, 160)}` : '',
+      importance ? `- Importance : ${compact(importance, 240)}` : '',
+      proof ? `- Niveau de preuve : ${compact(proof, 300)}` : '',
+      summary ? `- Contenu utile : ${compact(summary, 1100)}` : '',
+      role ? `- Rôle argumentatif : ${compact(role, 700)}` : '',
+      concepts ? `- Concepts : ${compact(concepts, 500)}` : '',
+      motifs ? `- Motifs : ${compact(motifs, 500)}` : '',
+      risk ? `- Prudence / risque : ${compact(risk, 700)}` : '',
+      relations ? `- Relations : ${compact(relations, 700)}` : '',
+      quote ? `- Citation disponible : « ${compact(quote, 700)} »` : ''
+    ].filter(Boolean);
+
+    return lines.join('\n');
+  }
+
+  function autonomousCorpusSection(results, max = 45) {
+    if (!results?.length) return 'Aucun résultat actuellement sélectionné. Lance d’abord une recherche ou applique un filtre.';
+    const shown = results.slice(0, max).map(atomBrief).join('\n\n');
+    const hidden = results.length > max ? `\n\n> ${results.length - max} résultat(s) supplémentaire(s) non inclus pour limiter la taille du prompt.` : '';
+    return shown + hidden;
+  }
+
   function corpusLines(results, max = 60) {
     if (!results?.length) return ['- Aucun résultat actuellement sélectionné. Lance d’abord une recherche ou applique un filtre.'];
     return results.slice(0, max).map(result => {
+      const data = fullDataOf(result);
       const fields = fieldsOf(result);
       const meta = [
-        fields.source_label || fields.source_id,
-        fields.type_unite,
-        stringify(fields.importance).replace(/\n/g, ' '),
-        stringify(fields.niveau_preuve).replace(/\n/g, ' ')
+        sourceOf(result),
+        data.type_unite || fields.type_unite,
+        stringify(data.importance || fields.importance).replace(/\n/g, ' '),
+        stringify(data.niveau_preuve || fields.niveau_preuve).replace(/\n/g, ' ')
       ].filter(Boolean).join(' ; ');
       return `- ${titleOf(result)}${meta ? ` — ${meta}` : ''}`;
     });
@@ -83,15 +162,17 @@
 
   function citationLines(results, max = 20) {
     const citations = (results || []).filter(result => {
+      const data = fullDataOf(result);
       const fields = fieldsOf(result);
-      return result.record?.kind === 'quote' || fields.citation_originale || fields.traduction_editoriale_fr;
+      return result.record?.kind === 'quote' || data.citation_originale || data.citation_directe || fields.citation_originale || data.traduction_editoriale_fr;
     });
     if (!citations.length) return ['- Aucune citation directement présente dans les résultats filtrés.'];
     return citations.slice(0, max).map(result => {
+      const data = fullDataOf(result);
       const fields = fieldsOf(result);
-      const citation = fields.citation_originale || fields.traduction_editoriale_fr || '';
-      const status = fields.statut_consolidation || fields.statut_verification || fields.niveau_preuve || 'statut à vérifier';
-      return `- ${titleOf(result)} — statut : ${stringify(status).replace(/\n/g, ' ')} — « ${stringify(citation).replace(/\n/g, ' ')} »`;
+      const citation = data.citation_originale || data.citation_directe || fields.citation_originale || data.traduction_editoriale_fr || fields.traduction_editoriale_fr || '';
+      const status = data.statut_consolidation || data.statut_verification || fields.statut_consolidation || fields.statut_verification || data.niveau_preuve || fields.niveau_preuve || 'statut à vérifier';
+      return `- ${titleOf(result)} — statut : ${compact(status, 220)} — « ${compact(citation, 900)} »`;
     });
   }
 
@@ -150,31 +231,35 @@
       `- Nombre de résultats : ${results.length}`,
       `- Généré le : ${generatedAt}`,
       '',
-      '## 3. Corpus à mobiliser',
+      '## 3. Corpus à mobiliser — index rapide',
       '',
       ...corpusLines(results),
       '',
-      '## 4. Dossier regroupé par rôle documentaire',
+      '## 4. Dossier documentaire autonome',
+      '',
+      autonomousCorpusSection(results),
+      '',
+      '## 5. Dossier regroupé par rôle documentaire',
       '',
       groupedSection(),
       '',
-      '## 5. Citations disponibles',
+      '## 6. Citations disponibles',
       '',
       ...citationLines(results),
       '',
-      '## 6. Contraintes historiographiques',
+      '## 7. Contraintes historiographiques',
       '',
       ...historiographicConstraints(),
       '',
-      '## 7. Contraintes stylistiques du projet',
+      '## 8. Contraintes stylistiques du projet',
       '',
       ...styleConstraints(),
       '',
-      '## 8. Consigne de rédaction',
+      '## 9. Consigne de rédaction',
       '',
       'À partir du corpus ci-dessus, rédige une section structurée du manuscrit. La section doit être argumentative, non cumulative. Elle doit faire apparaître les tensions documentaires, hiérarchiser les preuves et intégrer les citations seulement lorsque leur statut le permet. Elle doit conserver le style du projet : une prose académique, dense, précise, alternant phrases brèves et phrases plus longues, avec une attention particulière aux images de l’espace, du son, du vide et de la mémoire.',
       '',
-      'Ne produis pas une simple fiche. Produis un texte rédigé, directement intégrable après révision dans le manuscrit.'
+      'Ne produis pas une simple fiche. Produis un texte rédigé, directement intégrable après révision dans le manuscrit. N’utilise aucune information extérieure au corpus fourni, sauf si elle est explicitement demandée ensuite.'
     ];
 
     return lines.join('\n');
@@ -192,15 +277,15 @@
     panel.innerHTML = `
       <div class="rag4-header">
         <div>
-          <h2>RAG 4 — Prompt de rédaction</h2>
-          <p class="panel-note">Génère un prompt à partir du corpus filtré et du dossier regroupé.</p>
+          <h2>RAG 4 — Prompt de rédaction autonome</h2>
+          <p class="panel-note">Génère un prompt qui embarque le contenu utile des atomes sélectionnés.</p>
         </div>
         <div class="rag4-actions">
           <button type="button" id="rag4-refresh">Générer le prompt</button>
           <button type="button" id="rag4-copy">Copier le prompt</button>
         </div>
       </div>
-      <textarea id="rag4-output" rows="18" spellcheck="false" placeholder="Le prompt de rédaction apparaîtra ici après une recherche."></textarea>
+      <textarea id="rag4-output" rows="22" spellcheck="false" placeholder="Le prompt de rédaction apparaîtra ici après une recherche."></textarea>
     `;
     resultsPanel.appendChild(panel);
 
