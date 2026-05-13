@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:47:15"
+generated_at: "2026-05-13T16:59:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 176 |
+| Atomes | 178 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 22 |
-| Événements chronologiques | 13 |
-| Personnes | 16 |
+| Citations | 23 |
+| Événements chronologiques | 14 |
+| Personnes | 17 |
 | Chansons | 18 |
 | Sources mobilisées | 11 |
 
@@ -44,7 +44,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 15 | 6 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 17 | 7 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -110,14 +110,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `temoignages_Morley_Hook_S76`.
 - **S76-A106** — S76-A106 — Hannett et Curtis : intimité vocale contre lecture collective du groupe  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `relation_studio` ; importance : `critique` ; preuve : `temoignages_Hook_Reade_et_interpretation_S76`.
+- **S76-A126** — S76-A126 — Cargo Studios, octobre-novembre 1979 : session Sordide comme laboratoire atmosphérique  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `reconstruction_S76_sessionographie_et_interpretation_sonore`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A022** — S75-A022 — « Keep On Keepin’ On » et la greffe soul comme absurdité productive  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `majeure` ; preuve : `corrobore`.
-- **S75-A028** — S75-A028 — Granada TV et l’image industrielle comme mauvais miroir  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -301,6 +301,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -311,6 +312,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
+- CHR-S76-1979-024 — Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.
 - CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
 - CHR-S75-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
 - CHR-S75-1978-007 — Enregistrement de « Digital » et « Glass » pour *A Factory Sample* à Cargo Studios avec Martin Hannett.
@@ -340,6 +342,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - PERS-013 — Chris Ott
 - PERS-004-S75 — Stephen Morris
 - PERS-S76-042 — Jeremy Kerr
+- PERS-S76-069 — Martin Hannett
 - PERS-S76-058 — Martin Rushent
 
 ## 10. Chansons rattachées
@@ -451,13 +454,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 ### 12.1. Motifs dominants
 
 - Hannett (5)
-- Martin Hannett (4)
+- Martin Hannett (5)
 - Transmission (3)
 - Strawberry Studios (3)
+- Atmosphere (3)
 - Unknown Pleasures (3)
 - domesticité (3)
 - radio (2)
-- Atmosphere (2)
+- Dead Souls (2)
+- Sordide Sentimental (2)
 - silence (2)
 - cathédrale sonore (2)
 - apprentissage (2)
@@ -473,10 +478,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - caisse claire (2)
 - Hook (2)
 - Kraftwerk (2)
+- Ice Age (2)
+- Cargo Studios (2)
 - distance stéréophonique (1)
 - Licht und Blindheit (1)
-- Dead Souls (1)
-- Sordide Sentimental (1)
 - eternal (1)
 - orgues (1)
 - mémoire rock (1)
@@ -488,8 +493,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - stabilisation (1)
 - précision (1)
 - No Love Lost (1)
-- House of Dolls (1)
-- funk sec (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -590,13 +593,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | reception_critique | 4 |
 | session | 4 |
 | non qualifié | 4 |
+| session_studio | 4 |
 | reception_presse | 3 |
 | interpretation | 3 |
 | enregistrement | 3 |
 | interpretation_esthetique | 3 |
 | equipment_file | 3 |
-| session_studio | 3 |
 | contexte_technique | 3 |
+| release_or_session | 3 |
 | session_enregistrement | 2 |
 | theorie_voix | 2 |
 | chronologie | 2 |
@@ -612,7 +616,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | scene_repetition | 2 |
 | evenement | 2 |
 | concept_transversal | 2 |
-| release_or_session | 2 |
 | song | 2 |
 | song_or_cover | 2 |
 | concert | 1 |
@@ -671,8 +674,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 135 |
-| critique | 31 |
+| non qualifiée | 136 |
+| critique | 32 |
 | majeure | 10 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -717,6 +720,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S76-A082 [moyen] — éviter d’en faire déjà la forme achevée de *Unknown Pleasures* ; c’est un seuil, non un aboutissement
 - S76-A083 [moyen] — scène de conflit instrumentale à ne pas transformer en opposition structurelle Hook / Sumner
 - S76-A087 [moyen] — mémoire impressionniste ; utile pour qualifier une atmosphère, non pour fixer une vérité sonore exhaustive
+- S76-A126 [moyen] — éviter de lire « Atmosphere » comme épitaphe déjà consciente ; la session reste un travail de création vivant
 - S76-A070 [moyen] — scène spectaculaire facilement mythifiable ; traiter comme mémoire de témoin, pas comme norme scénique
 
 ## 15. Lacunes et prochaines vérifications

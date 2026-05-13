@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:47:15"
+generated_at: "2026-05-13T16:59:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 115 |
+| Atomes | 124 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 33 |
-| Événements chronologiques | 27 |
-| Personnes | 15 |
+| Citations | 39 |
+| Événements chronologiques | 30 |
+| Personnes | 17 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
 
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 31 | 19 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 40 | 25 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -276,8 +276,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice_intime` ; importance : `critique` ; preuve : `temoignage_Annik_Honore_et_reconstruction_S76`.
 - **S76-A122** — S76-A122 — Walthamstow, 24 août 1979 : interview Annik, joie collective et thèmes déjà dangereux  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `entretien_collectif` ; importance : `critique` ; preuve : `cassette_entretien_Annik_et_reconstruction_S76`.
-- **SONG-S76-028** — SONG-S76-028 — *Something Else* : « Transmission » et « She’s Lost Control »  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tv_session` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **S76-A123** — S76-A123 — Automne 1979 : Joy Division entre dans une économie de grandes salles sans devenir groupe de grande salle  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `bascule_live` ; importance : `critique` ; preuve : `reconstruction_S76_et_concert_listing`.
 
 ## 7. Citations disponibles
 
@@ -300,6 +300,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q133** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q134** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q135** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -328,6 +334,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
 - CHR-S76-1974-001 — Ian Curtis et Deborah Woodruff se fiancent ; une fête est organisée au domicile familial de Deborah à Sutton, Macclesfield.
 - CHR-S76-1975-001 — Mariage de Ian Curtis et Deborah Woodruff à St Thomas’s Church, Henbury, près de Macclesfield.
+- CHR-S76-1979-024 — Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.
+- CHR-S76-1979-026 — S76 clôt 1979 sur le dernier réveillon de Ian Curtis, en le présentant comme seuil rétrospectif avant la tournée européenne et la reprise de la relation avec Annik Honoré.
+- CHR-S76-1980-001 — À Amsterdam, pendant la tournée européenne de Joy Division, Annik Honoré rapporte que sa relation avec Ian Curtis reprend et devient assumée comme relation amoureuse durable dans sa mémoire.
 - CHR-S76-1977-002 — Ian et Deborah Curtis s’installent à Barton Street, Macclesfield, peu avant le premier concert de Warsaw.
 - CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
 - CHR-S76-1978-019 — Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.
@@ -353,6 +362,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-053 — Mark Reeder
 - PERS-S76-054 — Alan Wise
 - PERS-S76-055 — Dr David Holmes
+- PERS-S76-067 — Annik Honoré
+- PERS-S76-069 — Martin Hannett
 - PERS-S76-009 — Deborah Woodruff / Deborah Curtis
 - PERS-S76-061 — Natalie Curtis
 - PERS-S76-063 — Annik Honoré
@@ -462,8 +473,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - épilepsie (8)
 - Ian Curtis (7)
 - Deborah Curtis (5)
+- Annik Honoré (5)
 - Natalie Curtis (4)
-- Annik Honoré (3)
 - She’s Lost Control (3)
 - Unknown Pleasures (3)
 - Mark Reeder (3)
@@ -479,11 +490,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - paternité (2)
 - New Dawn Fades (2)
 - I Remember Nothing (2)
+- Martin Hannett (2)
 - Lindsay Reade (2)
 - Barton Street (2)
 - Debbie Curtis (2)
 - David Lewis Centre (2)
 - handicap (2)
+- Atmosphere (2)
+- Dead Souls (2)
+- Sordide Sentimental (2)
+- European tour (2)
 - Bowie (1)
 - Jim Morrison (1)
 - mort jeune (1)
@@ -494,11 +510,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - méprise critique (1)
 - Phenobarbital (1)
 - Dilantin (1)
-- lumières blanches (1)
-- Altrincham (1)
-- presse musicale (1)
-- Jon Savage (1)
-- stage presence (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -608,6 +619,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | idee_directrice | 2 |
 | scene_medicale | 2 |
 | contexte_intime | 2 |
+| lecture_chanson | 2 |
+| song | 2 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
 | performance_scenique | 1 |
@@ -672,20 +685,25 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | renversement_biographique | 1 |
 | temoignages_medicaux | 1 |
 | controverse_medicale | 1 |
+| bascule_live | 1 |
+| session_studio | 1 |
+| scene_intime | 1 |
+| scene_intime_europeenne | 1 |
 | micro_scene_relationnelle | 1 |
 | contraste_biographique | 1 |
 | scene_de_transition | 1 |
 | contexte_biographique | 1 |
 | memoire | 1 |
 | tv_session | 1 |
+| release_or_session | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 65 |
-| critique | 39 |
-| majeure | 11 |
+| non qualifiée | 68 |
+| critique | 44 |
+| majeure | 12 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -735,6 +753,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A017 [moyen] — risque d'opposer trop simplement mémoire familiale et mémoire de Deborah Curtis
 - S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
 - S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
+- S76-A123 [moyen] — risque de transformer chaque date de tournée en marche vers la consécration ou la catastrophe
+- S76-A126 [moyen] — éviter de lire « Atmosphere » comme épitaphe déjà consciente ; la session reste un travail de création vivant
+- S76-A127 [tres_eleve] — risque maximal d’épitaphe rétroactive et de prophétisation de Curtis
+- S76-A128 [tres_eleve] — le titre attire des lectures possessionnelles, morbides ou psychopathologiques
+- S76-A131 [eleve] — formulation « dernier » très téléologique ; à traiter comme savoir rétrospectif, non comme sens vécu
+- S76-A132 [tres_eleve] — risque de triangle romantique simplificateur et de causalité intime unique
 - S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
 - S76-A071 [eleve] — risque de transformer tout écart biographique en signe avant-coureur ; conserver la prudence anti-téléologique
 - S76-A028 [moyen] — risque de projeter sur Barton Street la fin de 1980 dès 1977

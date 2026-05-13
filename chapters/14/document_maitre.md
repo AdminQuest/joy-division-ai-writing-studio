@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:47:15"
+generated_at: "2026-05-13T16:59:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 557 |
+| Atomes | 568 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 66 |
-| Événements chronologiques | 33 |
-| Personnes | 49 |
+| Citations | 71 |
+| Événements chronologiques | 39 |
+| Personnes | 52 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 63 | 39 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 74 | 44 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -322,9 +322,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q009** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q065** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q066** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q070** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q126** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q127** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -332,6 +332,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
+- CHR-S76-1979-021 — Joy Division entre dans une phase de tournée nationale en première partie de Buzzcocks, jouant dans des salles plus grandes et devant des publics plus nombreux, tout en restant matériellement fragile.
+- CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
+- CHR-S76-1979-023 — Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.
+- CHR-S76-1979-025 — Joy Division joue aux Bains-Douches à Paris. Le concert devient ensuite une archive live majeure et un objet important de la mémoire européenne du groupe.
+- CHR-S76-1979-026 — S76 clôt 1979 sur le dernier réveillon de Ian Curtis, en le présentant comme seuil rétrospectif avant la tournée européenne et la reprise de la relation avec Annik Honoré.
+- CHR-S76-1980-001 — À Amsterdam, pendant la tournée européenne de Joy Division, Annik Honoré rapporte que sa relation avec Ian Curtis reprend et devient assumée comme relation amoureuse durable dans sa mémoire.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
@@ -395,15 +401,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-044 — John Anderson
 - PERS-S76-037 — Rob Gretton
 - PERS-S76-038 — Mike Pickering
+- PERS-S76-066 — Jean-Pierre Turmel
+- PERS-S76-067 — Annik Honoré
+- PERS-S76-068 — Buzzcocks
 - PERS-S76-012 — Kevin Cummins
 - PERS-S76-062 — Dave McCullough
 - PERS-S76-063 — Annik Honoré
 - PERS-S76-064 — Dave Pils et Jasmine
 - PERS-S76-065 — Steve Harley
 - PERS-S76-001 — Lindsay Reade
-- PERS-S76-004 — Carole Curtis
-- PERS-S76-056 — Kevin Cummins
-- PERS-S76-057 — John Peel
 
 ## 10. Chansons rattachées
 
@@ -507,6 +513,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Tony Wilson (7)
 - Factory (6)
 - Unknown Pleasures (6)
+- Annik Honoré (5)
 - Gretton (5)
 - Peter Saville (5)
 - Ian Curtis (4)
@@ -515,7 +522,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Bowie (3)
 - épilepsie (3)
 - presse musicale (3)
-- Annik Honoré (3)
+- Buzzcocks tour (3)
 - transition (3)
 - Wilson (3)
 - contrat (3)
@@ -524,6 +531,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - indépendance (3)
 - manager (3)
 - Factory Club (3)
+- silence (3)
 - pochette (3)
 - Martin Hannett (3)
 - Transmission (2)
@@ -534,15 +542,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Futurama (2)
 - America (2)
 - Derby Hall (2)
+- Licht und Blindheit (2)
+- Atmosphere (2)
 - Dead Souls (2)
+- Sordide Sentimental (2)
+- Rainbow Theatre (2)
 - Ceremony (2)
 - New Order (2)
-- suicide (2)
-- canonisation (2)
-- Sex Pistols (2)
-- Manchester (2)
-- NME (2)
-- Hannett (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -638,7 +644,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | non qualifié | 13 |
 | memoire | 12 |
 | discographie | 11 |
-| objet_discographique | 10 |
+| objet_discographique | 11 |
 | reception_poll | 10 |
 | archive | 9 |
 | production | 8 |
@@ -710,6 +716,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_scene | 2 |
 | concept_management | 2 |
 | esthétique_visuelle | 2 |
+| live_set_bootleg_context | 2 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
 | objet_sonore_new_order | 1 |
@@ -875,6 +882,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | contre_image | 1 |
 | temoignages_medicaux | 1 |
 | lecture_culturelle | 1 |
+| bascule_live | 1 |
+| concert_local | 1 |
+| concert_majeur | 1 |
+| lecture_chanson | 1 |
+| concert_europeen | 1 |
+| scene_intime | 1 |
+| scene_intime_europeenne | 1 |
 | scene_management | 1 |
 | scene_contractuelle | 1 |
 | contexte_historique | 1 |
@@ -897,18 +911,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | release_or_session | 1 |
 | album | 1 |
 | tv_session | 1 |
-| live_set_bootleg_context | 1 |
 | album_reception_object | 1 |
 | song_or_release | 1 |
 | song_or_video | 1 |
+| song | 1 |
+| release_object | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 428 |
-| critique | 95 |
-| majeure | 30 |
+| non qualifiée | 431 |
+| critique | 101 |
+| majeure | 32 |
 | structurante | 2 |
 | moyenne | 2 |
 

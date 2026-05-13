@@ -46103,6 +46103,776 @@
       "source_year": "2006"
     }
   },
+  "S76-A123": {
+    "kind": "atom",
+    "id": "S76-A123",
+    "file": "sources/middles_reade_torn_apart/source_part_12.md",
+    "heading": "S76-A123 — Automne 1979 : Joy Division entre dans une économie de grandes salles sans devenir groupe de grande salle",
+    "data": {
+      "id": "S76-A123",
+      "type_unite": "bascule_live",
+      "source_id": "S76",
+      "titre": "Automne 1979 : Joy Division entre dans une économie de grandes salles sans devenir groupe de grande salle",
+      "pages": {
+        "pdf": [
+          203,
+          207
+        ]
+      },
+      "resume": "S76 présente l’automne 1979 comme un changement d’échelle : après l’intensité de Futurama et l’installation de *Unknown Pleasures*, Joy Division circule dans des salles plus grandes, souvent en première partie de Buzzcocks. Le groupe gagne en puissance et en assurance, mais reste matériellement et psychologiquement fragile. La grande salle ne neutralise pas l’étrangeté du groupe ; elle l’expose davantage.\n",
+      "role_argumentatif": [
+        "documenter le passage de la scène indépendante aux circuits nationaux plus larges",
+        "montrer la coexistence entre ascension publique et fragilité interne",
+        "éviter le récit linéaire de conquête nationale"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76_et_concert_listing",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_dans_ses_grandes_lignes"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque de transformer chaque date de tournée en marche vers la consécration ou la catastrophe"
+      },
+      "motifs": [
+        "tournée Buzzcocks",
+        "grandes salles",
+        "ascension live",
+        "fragilité matérielle"
+      ],
+      "concepts_derives": [
+        "changement d’échelle live",
+        "exposition accrue"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A118",
+          "note": "Futurama ouvre une autorité live qui se prolonge dans les grandes salles."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-006",
+          "note": "L’ascension n’efface ni l’apprentissage ni les conditions pauvres de tournée."
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-009",
+          "note": "L’exposition live augmente le faisceau fatigue / maladie / travail scénique."
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "tournee",
+        "reception"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A124": {
+    "kind": "atom",
+    "id": "S76-A124",
+    "file": "sources/middles_reade_torn_apart/source_part_12.md",
+    "heading": "S76-A124 — Apollo Manchester, octobre 1979 : retour local en position d’ascension",
+    "data": {
+      "id": "S76-A124",
+      "type_unite": "concert_local",
+      "source_id": "S76",
+      "titre": "Apollo Manchester, octobre 1979 : retour local en position d’ascension",
+      "pages": {
+        "pdf": [
+          204,
+          206
+        ]
+      },
+      "resume": "S76 traite les dates de Manchester Apollo comme un moment paradoxal : Joy Division revient dans sa ville dans une salle plus grande, avec un répertoire déjà transformé et une réputation désormais nationale. La proximité locale rend la scène plus exposée encore : le groupe n’est plus seulement une promesse mancunienne, il devient un objet d’observation publique.\n",
+      "role_argumentatif": [
+        "inscrire l’ascension du groupe dans sa ville d’origine",
+        "relier Manchester, public local et changement d’échelle",
+        "montrer que le retour local est aussi une mise à l’épreuve"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76_et_concert_listing",
+        "corroboration": "moyenne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_recouper_dates_setlists"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "dates à recouper avec gig listings et bootlegs ; ne pas isoler un concert comme bascule absolue"
+      },
+      "motifs": [
+        "Manchester Apollo",
+        "Buzzcocks tour",
+        "public local",
+        "répertoire 1979"
+      ],
+      "concepts_derives": [
+        "retour local exposé",
+        "consécration provinciale"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A123"
+        },
+        {
+          "type": "relie",
+          "cible": "MYTH-003"
+        },
+        {
+          "type": "relie",
+          "cible": "S76-A115"
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "Manchester",
+        "reception"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A125": {
+    "kind": "atom",
+    "id": "S76-A125",
+    "file": "sources/middles_reade_torn_apart/source_part_12.md",
+    "heading": "S76-A125 — Rainbow Theatre, novembre 1979 : Joy Division devant le grand Londres post-punk",
+    "data": {
+      "id": "S76-A125",
+      "type_unite": "concert_majeur",
+      "source_id": "S76",
+      "titre": "Rainbow Theatre, novembre 1979 : Joy Division devant le grand Londres post-punk",
+      "pages": {
+        "pdf": [
+          206,
+          209
+        ]
+      },
+      "resume": "S76 situe les deux dates du Rainbow Theatre comme un seuil londonien majeur. Joy Division joue devant un public beaucoup plus vaste, avec un répertoire où apparaissent déjà des morceaux récents et des formes qui conduisent vers *Closer*. Le Rainbow signale le passage d’un groupe culte à un groupe désormais observable par le grand réseau post-punk britannique.\n",
+      "role_argumentatif": [
+        "stabiliser le Rainbow comme seuil de grande visibilité londonienne",
+        "relier setlists, morceaux récents et futur *Closer*",
+        "montrer que l’extension du public précède encore la stabilisation discographique de 1980"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76_concert_listing_et_reception_live",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_dans_ses_grandes_lignes"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "ne pas projeter rétrospectivement *Closer* comme déjà contenu entièrement dans ces dates"
+      },
+      "motifs": [
+        "Rainbow Theatre",
+        "London",
+        "Buzzcocks tour",
+        "Love Will Tear Us Apart",
+        "Atrocity Exhibition"
+      ],
+      "concepts_derives": [
+        "visibilité londonienne majeure",
+        "répertoire de transition"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A123"
+        },
+        {
+          "type": "relie",
+          "cible": "S76-A108"
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A132"
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "London",
+        "transition_album"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A126": {
+    "kind": "atom",
+    "id": "S76-A126",
+    "file": "sources/middles_reade_torn_apart/source_part_12.md",
+    "heading": "S76-A126 — Cargo Studios, octobre-novembre 1979 : session Sordide comme laboratoire atmosphérique",
+    "data": {
+      "id": "S76-A126",
+      "type_unite": "session_studio",
+      "source_id": "S76",
+      "titre": "Cargo Studios, octobre-novembre 1979 : session Sordide comme laboratoire atmosphérique",
+      "pages": {
+        "pdf": [
+          209,
+          213
+        ]
+      },
+      "resume": "S76 traite les sessions Cargo de l’automne 1979 comme un nouveau seuil : Joy Division enregistre « Atmosphere », « Dead Souls » et « Ice Age » dans une configuration où Hannett pousse l’espace sonore au-delà de *Unknown Pleasures*. La session paraît moins tournée vers la restitution d’un groupe que vers la fabrication d’une atmosphère autonome, lente, funèbre, européenne.\n",
+      "role_argumentatif": [
+        "stabiliser la session Sordide/Cargo comme seuil sonore vers *Closer*",
+        "montrer que Joy Division ne répète pas *Unknown Pleasures*",
+        "relier Hannett, Cargo, électronique et atmosphère funèbre"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76_sessionographie_et_interpretation_sonore",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_dans_ses_grandes_lignes"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "éviter de lire « Atmosphere » comme épitaphe déjà consciente ; la session reste un travail de création vivant"
+      },
+      "motifs": [
+        "Cargo Studios",
+        "Atmosphere",
+        "Dead Souls",
+        "Ice Age",
+        "Martin Hannett",
+        "Sordide Sentimental"
+      ],
+      "concepts_derives": [
+        "laboratoire atmosphérique",
+        "seuil vers Closer"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A105"
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-006"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ],
+      "couche_narrative": [
+        "studio",
+        "production",
+        "transition_Closer"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A127": {
+    "kind": "atom",
+    "id": "S76-A127",
+    "file": "sources/middles_reade_torn_apart/source_part_12.md",
+    "heading": "S76-A127 — « Atmosphere » : solennité, lenteur et refus de l’épitaphe immédiate",
+    "data": {
+      "id": "S76-A127",
+      "type_unite": "lecture_chanson",
+      "source_id": "S76",
+      "titre": "« Atmosphere » : solennité, lenteur et refus de l’épitaphe immédiate",
+      "pages": {
+        "pdf": [
+          210,
+          214
+        ]
+      },
+      "resume": "S76 donne à « Atmosphere » une place centrale : morceau lent, processionnel, solennel, porté par un espace sonore qui semble retirer le groupe du rock ordinaire. Mais l’usage historiographique doit rester strict : la réception postérieure tend à faire du morceau une épitaphe, alors qu’il est d’abord un travail sonore et poétique produit avant la mort de Curtis.\n",
+      "role_argumentatif": [
+        "isoler « Atmosphere » comme nœud sonore et émotionnel majeur",
+        "empêcher la lecture exclusivement funéraire et posthume",
+        "préparer l’analyse du morceau comme forme de retrait plutôt que comme prophétie"
+      ],
+      "niveau_preuve": {
+        "statut": "lecture_critique_S76_et_reception_postérieure",
+        "corroboration": "forte_comme_lecture; faible_comme_intention",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_noeud_critique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "risque maximal d’épitaphe rétroactive et de prophétisation de Curtis"
+      },
+      "motifs": [
+        "Atmosphere",
+        "procession",
+        "silence",
+        "retrait",
+        "épitaphe"
+      ],
+      "concepts_derives": [
+        "anti-épitaphe",
+        "solennité non prophétique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A126"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        }
+      ],
+      "couche_narrative": [
+        "chanson",
+        "reception",
+        "prudence_historiographique"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A128": {
+    "kind": "atom",
+    "id": "S76-A128",
+    "file": "sources/middles_reade_torn_apart/source_part_12.md",
+    "heading": "S76-A128 — « Dead Souls » : histoire, possession et risque de surlecture démonologique",
+    "data": {
+      "id": "S76-A128",
+      "type_unite": "lecture_chanson",
+      "source_id": "S76",
+      "titre": "« Dead Souls » : histoire, possession et risque de surlecture démonologique",
+      "pages": {
+        "pdf": [
+          210,
+          214
+        ]
+      },
+      "resume": "S76 rattache « Dead Souls » à la même phase de sophistication sombre que « Atmosphere ». Le titre concentre l’imaginaire historique, la hantise et le sentiment d’être appelé par des voix mortes. Il constitue un matériau critique puissant, mais dangereux : la tentation est forte de l’utiliser comme preuve d’un Curtis possédé par le passé ou par la mort.\n",
+      "role_argumentatif": [
+        "intégrer « Dead Souls » comme morceau majeur de la phase Sordide",
+        "relier histoire, hantise et mémoire européenne",
+        "prévenir l’usage démonologique ou pathologique des paroles"
+      ],
+      "niveau_preuve": {
+        "statut": "lecture_critique_S76_et_analyse_textuelle_a_recouper",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_noeud_interpretatif"
+      },
+      "stabilite": {
+        "statut": "stable_comme_noeud_critique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "le titre attire des lectures possessionnelles, morbides ou psychopathologiques"
+      },
+      "motifs": [
+        "Dead Souls",
+        "voix mortes",
+        "hantise",
+        "histoire",
+        "Sordide Sentimental"
+      ],
+      "concepts_derives": [
+        "hantise historique",
+        "voix du passé"
+      ],
+      "relations": [
+        {
+          "type": "relie",
+          "cible": "CONCEPT-001"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S76-A126"
+        }
+      ],
+      "couche_narrative": [
+        "chanson",
+        "spectralite",
+        "textes"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A129": {
+    "kind": "atom",
+    "id": "S76-A129",
+    "file": "sources/middles_reade_torn_apart/source_part_12.md",
+    "heading": "S76-A129 — Sordide Sentimental : objet européen, anti-Factory et art total limité",
+    "data": {
+      "id": "S76-A129",
+      "type_unite": "objet_discographique",
+      "source_id": "S76",
+      "titre": "Sordide Sentimental : objet européen, anti-Factory et art total limité",
+      "pages": {
+        "pdf": [
+          212,
+          216
+        ]
+      },
+      "resume": "S76 présente l’ouverture Sordide Sentimental comme une extension européenne de Joy Division hors du seul cadre Factory. Le disque futur *Licht und Blindheit* associe rareté, texte, image, format numéroté et ambition artistique. L’objet ne nie pas Factory : il le déplace vers une Europe littéraire, romantique et conceptuelle.\n",
+      "role_argumentatif": [
+        "situer Sordide Sentimental comme bifurcation européenne du système Joy Division",
+        "relier support discographique, rareté, texte et image",
+        "éviter la fétichisation pure de l’objet rare"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76_a_recouper_avec_sources_Sordide",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_orientation"
+      },
+      "stabilite": {
+        "statut": "a_consolider_avec_sources_Sordide"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "l’objet est fortement fétichisable ; le traiter comme dispositif culturel, non comme relique"
+      },
+      "motifs": [
+        "Sordide Sentimental",
+        "Licht und Blindheit",
+        "Jean-Pierre Turmel",
+        "Europe",
+        "objet numéroté"
+      ],
+      "concepts_derives": [
+        "objet européen",
+        "art total limité"
+      ],
+      "relations": [
+        {
+          "type": "relie",
+          "cible": "CONCEPT-008"
+        },
+        {
+          "type": "relie",
+          "cible": "MOTIF-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-005"
+        }
+      ],
+      "couche_narrative": [
+        "discographie",
+        "Europe",
+        "design"
+      ],
+      "usage_livre": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A130": {
+    "kind": "atom",
+    "id": "S76-A130",
+    "file": "sources/middles_reade_torn_apart/source_part_12.md",
+    "heading": "S76-A130 — Paris, Les Bains-Douches, 18 décembre 1979 : réception française et archive future",
+    "data": {
+      "id": "S76-A130",
+      "type_unite": "concert_europeen",
+      "source_id": "S76",
+      "titre": "Paris, Les Bains-Douches, 18 décembre 1979 : réception française et archive future",
+      "pages": {
+        "pdf": [
+          216,
+          220
+        ]
+      },
+      "resume": "S76 traite le concert des Bains-Douches comme un moment d’européanisation scénique : Joy Division se présente à Paris avec un répertoire post-*Unknown Pleasures* déjà enrichi de morceaux récents. Le concert devient ensuite une archive majeure, souvent rééditée et réinterprétée, ce qui transforme un événement de tournée en objet de mémoire sonore.\n",
+      "role_argumentatif": [
+        "stabiliser Les Bains-Douches comme concert européen pivot",
+        "relier réception française, live, bootleg et postérité discographique",
+        "montrer que l’Europe devient un espace de reconnaissance et de mémoire"
+      ],
+      "niveau_preuve": {
+        "statut": "evenement_live_corroborable_et_reception_S76",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_dans_ses_grandes_lignes"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "la postérité discographique peut gonfler la signification contemporaine du concert"
+      },
+      "motifs": [
+        "Les Bains-Douches",
+        "Paris",
+        "live recording",
+        "France",
+        "Europe"
+      ],
+      "concepts_derives": [
+        "européanisation live",
+        "concert devenu archive"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A121"
+        },
+        {
+          "type": "relie",
+          "cible": "MOTIF-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-006"
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "Europe",
+        "archive"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A131": {
+    "kind": "atom",
+    "id": "S76-A131",
+    "file": "sources/middles_reade_torn_apart/source_part_12.md",
+    "heading": "S76-A131 — Dernier réveillon 1979 : seuil intime avant la tournée européenne",
+    "data": {
+      "id": "S76-A131",
+      "type_unite": "scene_intime",
+      "source_id": "S76",
+      "titre": "Dernier réveillon 1979 : seuil intime avant la tournée européenne",
+      "pages": {
+        "pdf": [
+          226,
+          230
+        ]
+      },
+      "resume": "S76 ferme la séquence de 1979 sur un réveillon chargé rétrospectivement par la connaissance de la mort de Curtis. Le texte signale que ce New Year’s Eve est le dernier de Ian, puis ouvre le chapitre suivant sur l’éloignement provisoire d’Annik en Tunisie et son retour vers la tournée européenne. L’atome sert de seuil, non de présage.\n",
+      "role_argumentatif": [
+        "marquer la fin de 1979 comme seuil narratif",
+        "préparer la tournée européenne de janvier 1980 et la reprise de la relation Annik / Ian",
+        "empêcher la transformation du réveillon en signe fatal"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76_et_memoire_Annik",
+        "corroboration": "moyenne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable_comme_transition_narrative"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "formulation « dernier » très téléologique ; à traiter comme savoir rétrospectif, non comme sens vécu"
+      },
+      "motifs": [
+        "New Year’s Eve",
+        "Annik Honoré",
+        "Tunisia",
+        "European tour",
+        "dernier réveillon"
+      ],
+      "concepts_derives": [
+        "seuil rétrospectif",
+        "transition intime"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A120"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A132"
+        }
+      ],
+      "couche_narrative": [
+        "intime",
+        "transition",
+        "anti_teleologie"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A132": {
+    "kind": "atom",
+    "id": "S76-A132",
+    "file": "sources/middles_reade_torn_apart/source_part_12.md",
+    "heading": "S76-A132 — Amsterdam, 11 janvier 1980 : l’amour revendiqué dans l’espace de la tournée",
+    "data": {
+      "id": "S76-A132",
+      "type_unite": "scene_intime_europeenne",
+      "source_id": "S76",
+      "titre": "Amsterdam, 11 janvier 1980 : l’amour revendiqué dans l’espace de la tournée",
+      "pages": {
+        "pdf": [
+          230
+        ]
+      },
+      "resume": "À l’ouverture du chapitre 15, Annik rapporte que Curtis la contacte après son retour de Tunisie pour lui parler de la tournée européenne. Elle se rend aux concerts néerlandais et belges ; à Amsterdam, le 11 janvier, la relation reprend et se revendique comme impossible à éviter. La scène est centrale mais très dangereuse historiographiquement : elle doit être lue comme mémoire intime située, non comme vérité totale du couple Curtis / Honoré.\n",
+      "role_argumentatif": [
+        "documenter l’entrée de la relation Annik / Ian dans la tournée européenne",
+        "relier mobilité européenne, fanzine, amour et scène live",
+        "éviter le roman sentimental et la substitution d’Annik à Deborah comme clé explicative"
+      ],
+      "niveau_preuve": {
+        "statut": "lettre_Annik_a_Carole_et_reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_temoignage; moyenne_comme_totalite"
+      },
+      "stabilite": {
+        "statut": "stable_comme_memoire_situee"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "risque de triangle romantique simplificateur et de causalité intime unique"
+      },
+      "motifs": [
+        "Amsterdam",
+        "European tour",
+        "Annik Honoré",
+        "relation intime",
+        "six days together"
+      ],
+      "concepts_derives": [
+        "amour de tournée",
+        "mémoire intime située"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A131"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ],
+      "couche_narrative": [
+        "intime",
+        "Europe",
+        "tournee"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
   "S76-A056": {
     "kind": "atom",
     "id": "S76-A056",
@@ -51885,9 +52655,9 @@
       "source_year": "2012"
     }
   },
-  "NO_ID::sources/hook/citations_exactes.md::1171": {
+  "NO_ID::sources/hook/citations_exactes.md::1181": {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1171",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1181",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -56480,9 +57250,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1317": {
+  "NO_ID::sources/suatoni/README.md::1327": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1317",
+    "id": "NO_ID::sources/suatoni/README.md::1327",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -56497,9 +57267,9 @@
       "source_short_title": "Alfredo Suatoni, Joy Division: Dal cuore della città / From the Centre of the City, 1990"
     }
   },
-  "NO_ID::sources/suatoni/README.md::1318": {
+  "NO_ID::sources/suatoni/README.md::1328": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1318",
+    "id": "NO_ID::sources/suatoni/README.md::1328",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -56535,9 +57305,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1319": {
+  "NO_ID::sources/suatoni/README.md::1329": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1319",
+    "id": "NO_ID::sources/suatoni/README.md::1329",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -57680,9 +58450,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1355": {
+  "NO_ID::sources/greig_strong/README.md::1365": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1355",
+    "id": "NO_ID::sources/greig_strong/README.md::1365",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -57697,9 +58467,9 @@
       "source_short_title": "Alastair Greig ; Catherine Strong, But We Remember When We Were Young, 2014"
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1356": {
+  "NO_ID::sources/greig_strong/README.md::1366": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1356",
+    "id": "NO_ID::sources/greig_strong/README.md::1366",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -57726,9 +58496,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1357": {
+  "NO_ID::sources/greig_strong/README.md::1367": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1357",
+    "id": "NO_ID::sources/greig_strong/README.md::1367",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -58321,9 +59091,9 @@
       "source_year": "2004"
     }
   },
-  "NO_ID::registers/songs/master_songs.md::1372": {
+  "NO_ID::registers/songs/master_songs.md::1382": {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1372",
+    "id": "NO_ID::registers/songs/master_songs.md::1382",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -59090,6 +59860,195 @@
       "verification": {
         "status": "a_recouper_gig_listing",
         "notes": "À vérifier avec les listes de concerts et souvenirs croisés."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "SONG-S76-031": {
+    "kind": "atom",
+    "id": "SONG-S76-031",
+    "file": "registers/songs/s76_torn_apart_songs_part_12.md",
+    "heading": "SONG-S76-031 — Sessions Cargo / Sordide Sentimental",
+    "data": {
+      "id": "SONG-S76-031",
+      "type_unite": "release_or_session",
+      "source_id": "S76",
+      "titre": "Cargo / Sordide Sentimental sessions",
+      "recording_period": "1979-10/1979-11",
+      "studio": [
+        "Cargo Studios"
+      ],
+      "associated_people": [
+        "Martin Hannett"
+      ],
+      "tracks": [
+        "Atmosphere",
+        "Dead Souls",
+        "Ice Age"
+      ],
+      "resume": "S76 rattache « Atmosphere », « Dead Souls » et « Ice Age » aux sessions Cargo de l’automne 1979, dans une phase où Joy Division développe une écriture plus atmosphérique, européenne et pré-*Closer*.\n",
+      "related_atoms": [
+        "S76-A126",
+        "S76-A127",
+        "S76-A128"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "verification": {
+        "status": "a_recouper_sessionographie",
+        "notes": "Vérifier dates exactes, crédits techniques, versions et destination première de chaque titre."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "SONG-S76-032": {
+    "kind": "atom",
+    "id": "SONG-S76-032",
+    "file": "registers/songs/s76_torn_apart_songs_part_12.md",
+    "heading": "SONG-S76-032 — « Atmosphere » comme anti-épitaphe",
+    "data": {
+      "id": "SONG-S76-032",
+      "type_unite": "song",
+      "source_id": "S76",
+      "titre": "Atmosphere",
+      "release_context": [
+        "Licht und Blindheit",
+        "Sordide Sentimental"
+      ],
+      "resume": "S76 donne à « Atmosphere » une valeur majeure dans la séquence de fin 1979. Le registre retient l’usage anti-épitaphique : le morceau peut devenir central dans le livre, mais doit rester analysé comme création pré-mortem, non comme annonce de la mort de Curtis.\n",
+      "related_atoms": [
+        "S76-A127"
+      ],
+      "related_quotes": [
+        "S76-Q129"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "verification": {
+        "status": "a_recouper_paroles_et_sessions",
+        "notes": "Vérifier paroles exactes et contexte d’enregistrement avant toute citation."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "SONG-S76-033": {
+    "kind": "atom",
+    "id": "SONG-S76-033",
+    "file": "registers/songs/s76_torn_apart_songs_part_12.md",
+    "heading": "SONG-S76-033 — « Dead Souls » et la hantise historique",
+    "data": {
+      "id": "SONG-S76-033",
+      "type_unite": "song",
+      "source_id": "S76",
+      "titre": "Dead Souls",
+      "release_context": [
+        "Licht und Blindheit",
+        "Sordide Sentimental"
+      ],
+      "resume": "S76 rattache « Dead Souls » à l’imaginaire spectral et historique de la phase Sordide. Le morceau doit être utilisé pour la hantise et la voix du passé, sans glisser vers une lecture de possession ou de diagnostic psychique.\n",
+      "related_atoms": [
+        "S76-A128"
+      ],
+      "related_quotes": [
+        "S76-Q130"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "verification": {
+        "status": "a_recouper_paroles_et_sessions",
+        "notes": "Vérifier paroles exactes, version publiée et relation avec *Licht und Blindheit*."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "SONG-S76-034": {
+    "kind": "atom",
+    "id": "SONG-S76-034",
+    "file": "registers/songs/s76_torn_apart_songs_part_12.md",
+    "heading": "SONG-S76-034 — Les Bains-Douches comme archive live",
+    "data": {
+      "id": "SONG-S76-034",
+      "type_unite": "live_set_bootleg_context",
+      "source_id": "S76",
+      "titre": "Les Bains-Douches — Paris, 18 décembre 1979",
+      "recording_date": "1979-12-18",
+      "location": [
+        "Les Bains-Douches",
+        "Paris"
+      ],
+      "resume": "S76 traite le concert parisien des Bains-Douches comme une étape européenne importante, devenue ensuite une archive live majeure. L’entrée est utile pour le chapitre bootlegs et pour la réception européenne.\n",
+      "related_atoms": [
+        "S76-A130"
+      ],
+      "related_quotes": [
+        "S76-Q132"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "verification": {
+        "status": "a_recouper_bootlegs_et_editions",
+        "notes": "Vérifier setlist, captation, éditions officielles ou semi-officielles et circulation bootleg."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "SONG-S76-035": {
+    "kind": "atom",
+    "id": "SONG-S76-035",
+    "file": "registers/songs/s76_torn_apart_songs_part_12.md",
+    "heading": "SONG-S76-035 — *Licht und Blindheit* comme objet Sordide",
+    "data": {
+      "id": "SONG-S76-035",
+      "type_unite": "release_object",
+      "source_id": "S76",
+      "titre": "Licht und Blindheit",
+      "associated_label": [
+        "Sordide Sentimental"
+      ],
+      "associated_people": [
+        "Jean-Pierre Turmel"
+      ],
+      "tracks": [
+        "Atmosphere",
+        "Dead Souls"
+      ],
+      "resume": "S76 ouvre la voie à *Licht und Blindheit* comme objet européen distinct du cadre Factory : rareté, ambition conceptuelle, titre allemand, texte, image et numérotation. L’objet doit être croisé avec les sources Sordide.\n",
+      "related_atoms": [
+        "S76-A129",
+        "S76-A127",
+        "S76-A128"
+      ],
+      "chapters": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "verification": {
+        "status": "a_recouper_Sordide_Discogs_Turmel",
+        "notes": "Vérifier tirage exact, date de sortie, crédits visuels et texte d’accompagnement."
       },
       "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
@@ -61947,6 +62906,406 @@
       ],
       "risque": [
         "formule de synthèse biographique ; ne pas isoler de son contexte domestique et professionnel"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q126": {
+    "kind": "quote",
+    "id": "S76-Q126",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_12.md",
+    "heading": "S76-Q126 — Tournée Buzzcocks et changement d’échelle",
+    "data": {
+      "id": "S76-Q126",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "formulation S76 sur le changement d’échelle live de l’automne 1979, à vérifier mot à mot",
+      "statut": "paraphrase_candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          203,
+          207
+        ]
+      },
+      "usage": [
+        "tournée Buzzcocks",
+        "ascension live",
+        "grandes salles"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A123"
+      ],
+      "risque": [
+        "conserver comme paraphrase tant que la citation exacte n’est pas vérifiée"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q127": {
+    "kind": "quote",
+    "id": "S76-Q127",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_12.md",
+    "heading": "S76-Q127 — Rainbow Theatre comme visibilité londonienne",
+    "data": {
+      "id": "S76-Q127",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "formulation S76 sur Rainbow Theatre et le passage à une grande visibilité londonienne, à vérifier mot à mot",
+      "statut": "paraphrase_candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          206,
+          209
+        ]
+      },
+      "usage": [
+        "Rainbow Theatre",
+        "Buzzcocks tour",
+        "visibilité londonienne"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A125"
+      ],
+      "risque": [
+        "ne pas transformer la visibilité en triomphe linéaire"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q128": {
+    "kind": "quote",
+    "id": "S76-Q128",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_12.md",
+    "heading": "S76-Q128 — Session Cargo comme atmosphère autonome",
+    "data": {
+      "id": "S76-Q128",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "formulation S76 sur la session Cargo / Atmosphere / Dead Souls, à vérifier mot à mot",
+      "statut": "paraphrase_candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          209,
+          213
+        ]
+      },
+      "usage": [
+        "Cargo Studios",
+        "Atmosphere",
+        "Dead Souls",
+        "Martin Hannett"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A126"
+      ],
+      "risque": [
+        "citation à stabiliser avec sessionographies et sources Hannett"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q129": {
+    "kind": "quote",
+    "id": "S76-Q129",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_12.md",
+    "heading": "S76-Q129 — « Atmosphere » comme épitaphe à désamorcer",
+    "data": {
+      "id": "S76-Q129",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "formulation S76 sur la portée funèbre ou solennelle de « Atmosphere », à vérifier mot à mot",
+      "statut": "paraphrase_candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          210,
+          214
+        ]
+      },
+      "usage": [
+        "Atmosphere",
+        "anti-épitaphe",
+        "prudence historiographique"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A127"
+      ],
+      "related_concepts": [
+        "CONCEPT-004"
+      ],
+      "risque": [
+        "risque très élevé de citation téléologique ; vérifier et contextualiser"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q130": {
+    "kind": "quote",
+    "id": "S76-Q130",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_12.md",
+    "heading": "S76-Q130 — « Dead Souls » et les voix mortes",
+    "data": {
+      "id": "S76-Q130",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "formulation S76 sur « Dead Souls » et la hantise historique, à vérifier mot à mot",
+      "statut": "paraphrase_candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          210,
+          214
+        ]
+      },
+      "usage": [
+        "Dead Souls",
+        "hantise",
+        "spectralité"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A128"
+      ],
+      "related_concepts": [
+        "CONCEPT-001"
+      ],
+      "risque": [
+        "ne pas glisser vers possession ou pathologisation"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q131": {
+    "kind": "quote",
+    "id": "S76-Q131",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_12.md",
+    "heading": "S76-Q131 — Sordide Sentimental et l’objet européen",
+    "data": {
+      "id": "S76-Q131",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade / Jean-Pierre Turmel selon passage exact",
+      "citation": "formulation S76 sur Sordide Sentimental / Licht und Blindheit comme objet européen, à vérifier mot à mot",
+      "statut": "paraphrase_candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          212,
+          216
+        ]
+      },
+      "usage": [
+        "Licht und Blindheit",
+        "Sordide Sentimental",
+        "objet numéroté"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A129"
+      ],
+      "risque": [
+        "citation à recouper avec sources Sordide / Turmel"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q132": {
+    "kind": "quote",
+    "id": "S76-Q132",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_12.md",
+    "heading": "S76-Q132 — Bains-Douches comme archive future",
+    "data": {
+      "id": "S76-Q132",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "formulation S76 sur le concert des Bains-Douches et sa portée européenne, à vérifier mot à mot",
+      "statut": "paraphrase_candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          216,
+          220
+        ]
+      },
+      "usage": [
+        "Les Bains-Douches",
+        "Paris",
+        "live archive",
+        "Europe"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A130"
+      ],
+      "risque": [
+        "distinguer importance vécue en 1979 et canonisation discographique ultérieure"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q133": {
+    "kind": "quote",
+    "id": "S76-Q133",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_12.md",
+    "heading": "S76-Q133 — Dernier réveillon de Curtis",
+    "data": {
+      "id": "S76-Q133",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "Sadly, this particular New Year’s Eve was to be Ian’s last.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          229
+        ]
+      },
+      "usage": [
+        "dernier réveillon",
+        "anti-téléologie",
+        "seuil narratif"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A131"
+      ],
+      "related_concepts": [
+        "CONCEPT-004"
+      ],
+      "risque": [
+        "phrase explicitement rétrospective ; ne jamais l’utiliser comme présage vécu"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q134": {
+    "kind": "quote",
+    "id": "S76-Q134",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_12.md",
+    "heading": "S76-Q134 — Annik : oublier Ian est inutile",
+    "data": {
+      "id": "S76-Q134",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Annik Honoré",
+      "citation": "useless and a waste of time",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          230
+        ]
+      },
+      "usage": [
+        "Annik Honoré",
+        "relation intime",
+        "tournée européenne"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A132"
+      ],
+      "risque": [
+        "fragment intime ; à replacer dans la lettre à Carole et la pluralité des récits"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q135": {
+    "kind": "quote",
+    "id": "S76-Q135",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_12.md",
+    "heading": "S76-Q135 — Annik : six jours en Europe",
+    "data": {
+      "id": "S76-Q135",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Annik Honoré",
+      "citation": "Six wonderful days in Europe. Six days together all the time.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          230
+        ]
+      },
+      "usage": [
+        "Annik Honoré",
+        "Amsterdam",
+        "tournée européenne",
+        "relation intime"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A132"
+      ],
+      "risque": [
+        "citation très romanesque ; croiser avec S45 et autres témoignages avant usage narratif"
       ],
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
@@ -70272,6 +71631,175 @@
       ]
     }
   },
+  "PERS-S76-066": {
+    "kind": "person",
+    "id": "PERS-S76-066",
+    "file": "registers/people/s76_torn_apart_people_part_12.md",
+    "heading": "PERS-S76-066 — Jean-Pierre Turmel",
+    "data": {
+      "id": "PERS-S76-066",
+      "type_unite": "person",
+      "name": "Jean-Pierre Turmel",
+      "role": [
+        "fondateur / animateur de Sordide Sentimental",
+        "médiateur français de Joy Division",
+        "acteur du disque-objet *Licht und Blindheit*"
+      ],
+      "associated_entities": [
+        "Sordide Sentimental",
+        "Licht und Blindheit",
+        "France",
+        "Rouen"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Turmel apparaît comme le médiateur d’une sortie européenne singulière : Sordide Sentimental déplace Joy Division hors du seul dispositif Factory et l’inscrit dans un objet rare, numéroté, textuel et visuel.\n"
+      },
+      "related_atoms": [
+        "S76-A129"
+      ],
+      "related_quotes": [
+        "S76-Q131"
+      ],
+      "chapters": [
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "à recouper avec sources Sordide, discographies et témoignages français ; ne pas fétichiser l’objet rare"
+      ]
+    }
+  },
+  "PERS-S76-067": {
+    "kind": "person",
+    "id": "PERS-S76-067",
+    "file": "registers/people/s76_torn_apart_people_part_12.md",
+    "heading": "PERS-S76-067 — Annik Honoré",
+    "data": {
+      "id": "PERS-S76-067",
+      "type_unite": "person",
+      "name": "Annik Honoré",
+      "role": [
+        "journaliste/fanzine En Attendant",
+        "médiatrice européenne",
+        "relation intime de Ian Curtis"
+      ],
+      "associated_entities": [
+        "En Attendant",
+        "European tour 1980",
+        "Amsterdam",
+        "Belgium",
+        "Tunisia"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Dans cette passe, Annik apparaît à la charnière de 1979 et 1980 : elle tente de prendre distance pendant un séjour en Tunisie, puis rejoint la tournée européenne après un appel de Curtis. Sa lettre à Carole présente Amsterdam comme moment de reprise assumée de la relation.\n"
+      },
+      "related_atoms": [
+        "S76-A131",
+        "S76-A132"
+      ],
+      "related_quotes": [
+        "S76-Q134",
+        "S76-Q135"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "témoignage intime situé ; toujours croiser avec S45, lettres, Deborah Curtis et autres sources ; éviter roman sentimental et causalité unique"
+      ]
+    }
+  },
+  "PERS-S76-068": {
+    "kind": "person",
+    "id": "PERS-S76-068",
+    "file": "registers/people/s76_torn_apart_people_part_12.md",
+    "heading": "PERS-S76-068 — Buzzcocks",
+    "data": {
+      "id": "PERS-S76-068",
+      "type_unite": "person_collective",
+      "name": "Buzzcocks",
+      "role": [
+        "groupe mancunien tête d’affiche",
+        "support institutionnel indirect de la montée live de Joy Division en 1979"
+      ],
+      "associated_entities": [
+        "Manchester Apollo",
+        "Rainbow Theatre",
+        "UK tour 1979"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Dans cette séquence, Buzzcocks fournit à Joy Division une exposition nationale accrue : grandes salles, public plus large, insertion dans un circuit post-punk déjà reconnu.\n"
+      },
+      "related_atoms": [
+        "S76-A123",
+        "S76-A124",
+        "S76-A125"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "vérifier dates, setlists et hiérarchie d’affiche avec concert listings"
+      ]
+    }
+  },
+  "PERS-S76-069": {
+    "kind": "person",
+    "id": "PERS-S76-069",
+    "file": "registers/people/s76_torn_apart_people_part_12.md",
+    "heading": "PERS-S76-069 — Martin Hannett",
+    "data": {
+      "id": "PERS-S76-069",
+      "type_unite": "person",
+      "name": "Martin Hannett",
+      "role": [
+        "producteur",
+        "architecte sonore des sessions Cargo / Sordide"
+      ],
+      "associated_entities": [
+        "Cargo Studios",
+        "Atmosphere",
+        "Dead Souls",
+        "Ice Age",
+        "Sordide Sentimental"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Hannett est présenté comme l’opérateur de la transition entre la spatialisation d’*Unknown Pleasures* et une atmosphère plus lente, plus électronique et plus funèbre, qui préfigure certaines zones de *Closer* sans s’y confondre.\n"
+      },
+      "related_atoms": [
+        "S76-A126",
+        "S76-A127",
+        "S76-A128"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "ne pas transformer Hannett en auteur unique ; maintenir le collectif groupe / studio / producteur"
+      ]
+    }
+  },
   "PERS-S76-009": {
     "kind": "person",
     "id": "PERS-S76-009",
@@ -73951,6 +75479,298 @@
         "datation fine à contrôler avec S45 et documents biographiques"
       ],
       "notes": "Repère de la tension entre domesticité, travail et ambition musicale."
+    }
+  },
+  "CHR-S76-1979-021": {
+    "kind": "chronology",
+    "id": "CHR-S76-1979-021",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_12.md",
+    "heading": "CHR-S76-1979-021 — Tournée Buzzcocks et changement d’échelle live",
+    "data": {
+      "id": "CHR-S76-1979-021",
+      "type_unite": "chronology",
+      "date": "1979-10",
+      "precision_date": "month",
+      "event": "Joy Division entre dans une phase de tournée nationale en première partie de Buzzcocks, jouant dans des salles plus grandes et devant des publics plus nombreux, tout en restant matériellement fragile.\n",
+      "type": [
+        "tour",
+        "Buzzcocks",
+        "live_scale"
+      ],
+      "location": [
+        "United Kingdom"
+      ],
+      "people": [
+        "Joy Division",
+        "Buzzcocks",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A123"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "dates et setlists à recouper avec concert listing"
+      ],
+      "notes": "Changement d’échelle, non triomphe linéaire."
+    }
+  },
+  "CHR-S76-1979-022": {
+    "kind": "chronology",
+    "id": "CHR-S76-1979-022",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_12.md",
+    "heading": "CHR-S76-1979-022 — Manchester Apollo pendant la tournée Buzzcocks",
+    "data": {
+      "id": "CHR-S76-1979-022",
+      "type_unite": "chronology",
+      "date": "1979-10",
+      "precision_date": "late_october",
+      "event": "Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.\n",
+      "type": [
+        "live",
+        "Manchester",
+        "Buzzcocks_tour"
+      ],
+      "location": [
+        "Manchester Apollo"
+      ],
+      "people": [
+        "Joy Division",
+        "Buzzcocks"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A124"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "dates exactes et setlists à vérifier"
+      ],
+      "notes": "Retour local en situation d’exposition accrue."
+    }
+  },
+  "CHR-S76-1979-023": {
+    "kind": "chronology",
+    "id": "CHR-S76-1979-023",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_12.md",
+    "heading": "CHR-S76-1979-023 — Rainbow Theatre, Londres",
+    "data": {
+      "id": "CHR-S76-1979-023",
+      "type_unite": "chronology",
+      "date": "1979-11-09/1979-11-10",
+      "precision_date": "exact_range",
+      "event": "Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.\n",
+      "type": [
+        "live",
+        "London",
+        "Buzzcocks_tour"
+      ],
+      "location": [
+        "Rainbow Theatre",
+        "Finsbury Park"
+      ],
+      "people": [
+        "Joy Division",
+        "Buzzcocks"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A125"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "setlists à vérifier dans les registres spécialisés"
+      ],
+      "notes": "Seuil londonien majeur, à ne pas lire comme *Closer* déjà achevé."
+    }
+  },
+  "CHR-S76-1979-024": {
+    "kind": "chronology",
+    "id": "CHR-S76-1979-024",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_12.md",
+    "heading": "CHR-S76-1979-024 — Sessions Cargo / Sordide Sentimental",
+    "data": {
+      "id": "CHR-S76-1979-024",
+      "type_unite": "chronology",
+      "date": "1979-10/1979-11",
+      "precision_date": "month_range",
+      "event": "Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.\n",
+      "type": [
+        "studio_session",
+        "Cargo_Studios",
+        "Sordide_Sentimental"
+      ],
+      "location": [
+        "Cargo Studios",
+        "Rochdale"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Martin Hannett"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A126",
+        "S76-A127",
+        "S76-A128"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "dates exactes à recouper avec sessionographies ; certaines sources donnent fin octobre / début novembre"
+      ],
+      "notes": "Laboratoire sonore décisif ; prudence contre la lecture épitaphique."
+    }
+  },
+  "CHR-S76-1979-025": {
+    "kind": "chronology",
+    "id": "CHR-S76-1979-025",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_12.md",
+    "heading": "CHR-S76-1979-025 — Les Bains-Douches, Paris",
+    "data": {
+      "id": "CHR-S76-1979-025",
+      "type_unite": "chronology",
+      "date": "1979-12-18",
+      "precision_date": "exact",
+      "event": "Joy Division joue aux Bains-Douches à Paris. Le concert devient ensuite une archive live majeure et un objet important de la mémoire européenne du groupe.\n",
+      "type": [
+        "live",
+        "Europe",
+        "France",
+        "archive"
+      ],
+      "location": [
+        "Les Bains-Douches",
+        "Paris"
+      ],
+      "people": [
+        "Joy Division"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A130"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "vérifier setlist, captation et circulation ultérieure"
+      ],
+      "notes": "Concert européen pivot ; distinguer événement vécu et canonisation ultérieure."
+    }
+  },
+  "CHR-S76-1979-026": {
+    "kind": "chronology",
+    "id": "CHR-S76-1979-026",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_12.md",
+    "heading": "CHR-S76-1979-026 — Dernier réveillon de Ian Curtis",
+    "data": {
+      "id": "CHR-S76-1979-026",
+      "type_unite": "chronology",
+      "date": "1979-12-31",
+      "precision_date": "exact",
+      "event": "S76 clôt 1979 sur le dernier réveillon de Ian Curtis, en le présentant comme seuil rétrospectif avant la tournée européenne et la reprise de la relation avec Annik Honoré.\n",
+      "type": [
+        "biography",
+        "retrospective_threshold"
+      ],
+      "location": [
+        "United Kingdom"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Annik Honoré"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A131"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "contexte précis du réveillon à documenter si besoin"
+      ],
+      "notes": "Formulation fortement téléologique ; utiliser comme savoir rétrospectif."
+    }
+  },
+  "CHR-S76-1980-001": {
+    "kind": "chronology",
+    "id": "CHR-S76-1980-001",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_12.md",
+    "heading": "CHR-S76-1980-001 — Amsterdam et reprise de la relation Annik / Ian",
+    "data": {
+      "id": "CHR-S76-1980-001",
+      "type_unite": "chronology",
+      "date": "1980-01-11",
+      "precision_date": "exact",
+      "event": "À Amsterdam, pendant la tournée européenne de Joy Division, Annik Honoré rapporte que sa relation avec Ian Curtis reprend et devient assumée comme relation amoureuse durable dans sa mémoire.\n",
+      "type": [
+        "biography",
+        "European_tour",
+        "Annik_Honore"
+      ],
+      "location": [
+        "Amsterdam"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Annik Honoré"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A132"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "à croiser avec S45, lettres et autres témoignages"
+      ],
+      "notes": "Mémoire intime située ; ne pas la transformer en vérité totale de la relation."
     }
   },
   "CHR-S76-1976-002": {

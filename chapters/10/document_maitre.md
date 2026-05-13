@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:47:15"
+generated_at: "2026-05-13T16:59:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 75 |
-| Atomes critiques / majeurs | 17 |
-| Citations | 15 |
+| Atomes | 77 |
+| Atomes critiques / majeurs | 18 |
+| Citations | 16 |
 | Événements chronologiques | 6 |
-| Personnes | 13 |
+| Personnes | 14 |
 | Chansons | 6 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 19 | 13 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 21 | 14 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -77,6 +77,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_visuel` ; importance : `critique` ; preuve : `reconstruction_S76_Saville_Middles`.
 - **S76-A112** — S76-A112 — Dave McCullough : entretien conflictuel et impasse de l’anti-image Joy Division  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_reception` ; importance : `critique` ; preuve : `article_contemporain_Sounds_et_reconstruction_S76`.
+- **S76-A129** — S76-A129 — Sordide Sentimental : objet européen, anti-Factory et art total limité  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `reconstruction_S76_a_recouper_avec_sources_Sordide`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S76-A114** — S76-A114 — Stuff the Superstars : succès scénique, critique de la gravité et réalité triviale  
@@ -200,6 +202,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `album` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-030** — SONG-S76-030 — *Unknown Pleasures* comme objet public après sortie  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `album_reception_object` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-035** — SONG-S76-035 — *Licht und Blindheit* comme objet Sordide  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `release_object` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -209,6 +213,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q098** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -240,6 +245,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S76-049 — Peter Saville
 - PERS-S76-050 — Tony Wilson
 - PERS-016 — Bedhead
+- PERS-S76-066 — Jean-Pierre Turmel
 - PERS-S76-062 — Dave McCullough
 - PERS-S76-056 — Kevin Cummins
 - PERS-S76-059 — Martin O’Neill
@@ -434,6 +440,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S76-A084 — relie → MOTIF-008
 - S76-A084 — nuance → MYTH-003
 - S76-A084 — relie → CONCEPT-003
+- S76-A129 — relie → CONCEPT-008
+- S76-A129 — relie → MOTIF-004
+- S76-A129 — nuance → MYTH-005
 
 ## 13. Distribution documentaire
 
@@ -446,6 +455,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | archive | 4 |
 | concert | 3 |
 | relation | 3 |
+| objet_discographique | 3 |
 | analyse | 3 |
 | memoire | 3 |
 | production | 2 |
@@ -454,7 +464,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | fait_sensible | 2 |
 | mémoire | 2 |
 | chronologie | 2 |
-| objet_discographique | 2 |
 | objet_visuel | 2 |
 | song | 2 |
 | santé | 1 |
@@ -486,13 +495,14 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | album_reception_object | 1 |
 | song_or_release | 1 |
 | song_or_video | 1 |
+| release_object | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 58 |
-| critique | 15 |
+| non qualifiée | 59 |
+| critique | 16 |
 | majeure | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -514,6 +524,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S76-A080 [moyen] — risque d’effacer les acteurs moins canoniques ; l’atome doit rester un schéma, non une totalité explicative
 - S76-A082 [moyen] — éviter d’en faire déjà la forme achevée de *Unknown Pleasures* ; c’est un seuil, non un aboutissement
 - S76-A084 [moyen] — le lieu est très mythifiable ; il faut distinguer fonction pratique et iconisation postérieure
+- S76-A129 [moyen] — l’objet est fortement fétichisable ; le traiter comme dispositif culturel, non comme relique
 
 ## 15. Lacunes et prochaines vérifications
 

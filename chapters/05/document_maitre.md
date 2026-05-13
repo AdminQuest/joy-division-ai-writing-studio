@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:47:15"
+generated_at: "2026-05-13T16:59:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 244 |
+| Atomes | 249 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 57 |
-| Événements chronologiques | 24 |
-| Personnes | 33 |
+| Citations | 60 |
+| Événements chronologiques | 28 |
+| Personnes | 34 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 51 | 47 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 56 | 50 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -294,6 +294,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
 - **S76-Q088** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q126** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q127** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q132** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q058** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q059** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q060** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -320,14 +323,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q037** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q040** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q041** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
+- CHR-S76-1979-021 — Joy Division entre dans une phase de tournée nationale en première partie de Buzzcocks, jouant dans des salles plus grandes et devant des publics plus nombreux, tout en restant matériellement fragile.
+- CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
+- CHR-S76-1979-023 — Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.
+- CHR-S76-1979-025 — Joy Division joue aux Bains-Douches à Paris. Le concert devient ensuite une archive live majeure et un objet important de la mémoire européenne du groupe.
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
 - CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
@@ -373,6 +377,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S76-043 — Lesley Gilbert
 - PERS-S76-044 — John Anderson
 - PERS-S76-037 — Rob Gretton
+- PERS-S76-068 — Buzzcocks
 - PERS-S76-012 — Kevin Cummins
 - PERS-S76-032 — Derek Brandwood
 - PERS-S76-033 — Richard Searling
@@ -515,12 +520,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Sounds (2)
 - Stuff the Superstars (2)
 - A Certain Ratio (2)
+- Atrocity Exhibition (2)
 - T. J. Davidson’s (2)
 - gang (2)
 - Ian Curtis (2)
 - Bowie (2)
-- Manchester City (2)
-- Maine Road (2)
+- Buzzcocks tour (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -652,6 +657,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | decision_strategique | 2 |
 | transition | 2 |
 | esthétique_visuelle | 2 |
+| live_set_bootleg_context | 2 |
 | song_or_cover | 2 |
 | session_enregistrement | 1 |
 | radio_broadcast | 1 |
@@ -725,6 +731,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | contre_image | 1 |
 | temoignage_lieu | 1 |
 | lecture_culturelle | 1 |
+| bascule_live | 1 |
+| concert_local | 1 |
+| concert_majeur | 1 |
+| concert_europeen | 1 |
 | scene_management | 1 |
 | micro_scene_relationnelle | 1 |
 | sociabilite_scene | 1 |
@@ -749,16 +759,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | influences | 1 |
 | transition_esthetique | 1 |
 | relation | 1 |
-| live_set_bootleg_context | 1 |
 | song_or_release | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 172 |
-| critique | 53 |
-| majeure | 19 |
+| non qualifiée | 173 |
+| critique | 56 |
+| majeure | 20 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -818,10 +827,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A085 [moyen] — risque de folklore masculin ; utile seulement comme contrepoint à l’iconisation
 - S76-A086 [moyen] — témoin unique et rétrospectif ; ne pas en faire portrait psychologique total
 - S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
-- S76-A056 [moyen] — scène fortement mémorielle et comique ; ne pas la transformer en acte fondateur trop téléologique
-- S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
-- S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
-- S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
+- S76-A123 [moyen] — risque de transformer chaque date de tournée en marche vers la consécration ou la catastrophe
+- S76-A124 [moyen] — dates à recouper avec gig listings et bootlegs ; ne pas isoler un concert comme bascule absolue
+- S76-A125 [moyen] — ne pas projeter rétrospectivement *Closer* comme déjà contenu entièrement dans ces dates
+- S76-A130 [moyen] — la postérité discographique peut gonfler la signification contemporaine du concert
 
 ## 15. Lacunes et prochaines vérifications
 

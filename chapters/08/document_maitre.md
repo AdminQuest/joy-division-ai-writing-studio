@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:47:15"
+generated_at: "2026-05-13T16:59:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 76 |
-| Atomes critiques / majeurs | 23 |
-| Citations | 4 |
-| Événements chronologiques | 17 |
-| Personnes | 5 |
+| Atomes | 80 |
+| Atomes critiques / majeurs | 25 |
+| Citations | 6 |
+| Événements chronologiques | 18 |
+| Personnes | 6 |
 | Chansons | 4 |
 | Sources mobilisées | 6 |
 
@@ -39,7 +39,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 18 | 4 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 22 | 6 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -79,6 +79,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `session_corroborable_et_interpretation_S76`.
 - **S76-A118** — S76-A118 — Futurama, 8 septembre 1979 : Joy Division dépasse le post-punk par intensité  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `festival` ; importance : `critique` ; preuve : `temoignages_Terry_Mason_Jeremy_Kerr_et_reconstruction_S76`.
+- **S76-A129** — S76-A129 — Sordide Sentimental : objet européen, anti-Factory et art total limité  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `reconstruction_S76_a_recouper_avec_sources_Sordide`.
+- **S76-A130** — S76-A130 — Paris, Les Bains-Douches, 18 décembre 1979 : réception française et archive future  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reception_S76`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
@@ -198,9 +202,15 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `release_or_session` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-029** — SONG-S76-029 — Futurama 1979 comme set bootleg majeur  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-034** — SONG-S76-034 — Les Bains-Douches comme archive live  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-035** — SONG-S76-035 — *Licht und Blindheit* comme objet Sordide  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `release_object` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
+- **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q132** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q026** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -210,6 +220,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
+- CHR-S76-1979-025 — Joy Division joue aux Bains-Douches à Paris. Le concert devient ensuite une archive live majeure et un objet important de la mémoire européenne du groupe.
 - CHR-S76-1977-003 — Premier concert de Warsaw à l’Electric Circus, en ouverture de Buzzcocks, Penetration et John Cooper Clarke ; l’affichage et certaines mémoires entretiennent une confusion avec Stiff Kittens et The Prefects.
 - CHR-S76-1977-005 — Warsaw enregistre cinq morceaux à Pennine Sound Studios, Oldham, avec Steve Brotherdale à la batterie.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
@@ -232,6 +243,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - PERS-S76-016 — Terry Mason
 - PERS-S76-020 — Steve Brotherdale
 - PERS-S76-023 — Kevin Cummins
+- PERS-S76-066 — Jean-Pierre Turmel
 - PERS-S75-036 — Jean-Pierre Turmel
 
 ## 10. Chansons rattachées
@@ -331,7 +343,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - bootleg (3)
 - Enigma (3)
 - An Ideal For Living (3)
+- Licht und Blindheit (2)
 - Dead Souls (2)
+- Sordide Sentimental (2)
 - Warsaw (2)
 - Movie Play Gold (2)
 - Heart and Soul (2)
@@ -342,10 +356,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Paul Morley (2)
 - Rabid Records (2)
 - Arrow Studios (2)
+- Europe (2)
 - Electric Circus (2)
-- Licht und Blindheit (1)
 - Atmosphere (1)
-- Sordide Sentimental (1)
 - eternal (1)
 - archive sonore (1)
 - document impur (1)
@@ -367,7 +380,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - sessions Unknown Pleasures (1)
 - archive de session (1)
 - Autosuggestion (1)
-- From Safety to Where...? (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -423,6 +435,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A079 — prolonge → S76-A078
 - S76-A079 — relie → CONCEPT-005
 - S76-A079 — relie → MOTIF-004
+- S76-A129 — relie → CONCEPT-008
+- S76-A129 — relie → MOTIF-004
+- S76-A129 — nuance → MYTH-005
+- S76-A130 — prolonge → S76-A121
+- S76-A130 — relie → MOTIF-004
+- S76-A130 — nuance → MYTH-006
 - S76-A065 — prolonge → S76-A064
 - S76-A065 — relie → CONCEPT-005
 - S76-A065 — prepare → S76-A066
@@ -446,7 +464,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Type | Nombre |
 |---|---|
 | production | 32 |
-| objet_discographique | 7 |
+| objet_discographique | 8 |
 | concert | 6 |
 | analyse | 5 |
 | archive | 5 |
@@ -454,6 +472,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | discographie | 2 |
 | bootleg | 2 |
 | session_studio | 2 |
+| live_set_bootleg_context | 2 |
 | song_or_release | 2 |
 | videographie | 1 |
 | controverse | 1 |
@@ -462,16 +481,17 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | festival | 1 |
 | analyse_sonore | 1 |
 | bifurcation_institutionnelle | 1 |
+| concert_europeen | 1 |
 | fait_contractuel | 1 |
 | release_or_session | 1 |
-| live_set_bootleg_context | 1 |
+| release_object | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 53 |
-| critique | 18 |
+| non qualifiée | 55 |
+| critique | 20 |
 | majeure | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -494,6 +514,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A051 [moyen] — description qualitative ; à croiser avec écoute des bandes RCA et sources Hook/Ott
 - S76-A078 [moyen] — scène fortement narrative ; à croiser avec sources Factory et témoignages Wilson/Erasmus
 - S76-A079 [moyen] — scène très séduisante et mythifiable ; à traiter comme anecdote fondatrice à vérifier, non comme causalité unique
+- S76-A129 [moyen] — l’objet est fortement fétichisable ; le traiter comme dispositif culturel, non comme relique
+- S76-A130 [moyen] — la postérité discographique peut gonfler la signification contemporaine du concert
 - S76-A065 [faible] — fait contractuel assez circonscrit ; vérifier les montants dans Hook, Deborah Curtis ou sources RCA si disponibles
 - S76-A066 [faible] — articulation forte entre support, argent et stratégie ; à croiser avec discographies
 - S76-A030 [moyen] — risque de transformer un concert hésitant en naissance glorieuse

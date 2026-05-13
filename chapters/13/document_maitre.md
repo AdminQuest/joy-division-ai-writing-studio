@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:47:15"
+generated_at: "2026-05-13T16:59:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 55 |
-| Atomes critiques / majeurs | 34 |
+| Atomes | 56 |
+| Atomes critiques / majeurs | 35 |
 | Citations | 15 |
-| Événements chronologiques | 7 |
+| Événements chronologiques | 8 |
 | Personnes | 16 |
 | Chansons | 2 |
 | Sources mobilisées | 6 |
@@ -39,7 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 18 | 15 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 19 | 15 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -111,6 +111,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_lieu` ; importance : `majeure` ; preuve : `temoignage_Tony_Davidson`.
 - **S76-A099** — S76-A099 — Peel entend Joy Division comme romantisme russe et Europe centrale  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_critique` ; importance : `majeure` ; preuve : `citation_retrospective_John_Peel`.
+- **S76-A124** — S76-A124 — Apollo Manchester, octobre 1979 : retour local en position d’ascension  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_local` ; importance : `majeure` ; preuve : `reconstruction_S76_et_concert_listing`.
 
 ## 6. Autres atomes utiles
 
@@ -178,6 +180,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 ## 8. Chronologie rattachée
 
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
+- CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
 - CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
 - CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
 - CHR-S76-1978-014 — Lors de la troisième soirée Factory, Rob Gretton et Tony Wilson invitent Mick Middles à couvrir Cabaret Voltaire et Durutti Column pour *Sounds*. La presse londonienne commence à lire Manchester, Sheffield et les villes du Nord comme un espace post-punk émergent.
@@ -457,6 +460,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | temoignage_lieu | 1 |
 | lieu_culturel | 1 |
 | reseau_culturel | 1 |
+| concert_local | 1 |
 | sociabilite_scene | 1 |
 | geographie_sociale | 1 |
 | portrait_social | 1 |
@@ -472,7 +476,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 21 |
-| majeure | 20 |
+| majeure | 21 |
 | critique | 14 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -506,6 +510,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A086 [moyen] — témoin unique et rétrospectif ; ne pas en faire portrait psychologique total
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
 - S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe
+- S76-A124 [moyen] — dates à recouper avec gig listings et bootlegs ; ne pas isoler un concert comme bascule absolue
 - S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
 - S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
 - S76-A060 [faible] — portrait social utile ; éviter seulement l’anecdote décorative

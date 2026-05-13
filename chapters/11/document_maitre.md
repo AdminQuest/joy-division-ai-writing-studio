@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:47:15"
+generated_at: "2026-05-13T16:59:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 150 |
+| Atomes | 154 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 11 |
+| Citations | 13 |
 | Événements chronologiques | 4 |
 | Personnes | 5 |
 | Chansons | 10 |
@@ -45,7 +45,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 12 | 4 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 16 | 6 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -99,6 +99,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `reconstruction_S76`.
 - **S76-A113** — S76-A113 — Curtis contre l’aloofness : désir de communication et politesse envers les journalistes  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `portrait_relationnel` ; importance : `critique` ; preuve : `synthese_S76_appuyee_sur_temoin_presse`.
+- **S76-A127** — S76-A127 — « Atmosphere » : solennité, lenteur et refus de l’épitaphe immédiate  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_reception_postérieure`.
+- **S76-A128** — S76-A128 — « Dead Souls » : histoire, possession et risque de surlecture démonologique  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_analyse_textuelle_a_recouper`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -115,10 +119,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
 - **S75-A064** — S75-A064 — Goethe, Werther et le risque de romantiser Curtis  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_litteraire` ; importance : `majeure` ; preuve : `interpretation_litteraire`.
-- **S75-A071** — S75-A071 — « Dead Souls » : revenance, histoire et danger ésotérique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S76-A003** — S76-A003 — Old Trafford, guerre familiale et mémoire populaire comme arrière-plan Curtis  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `memoire_familiale_rapportee`.
 
 ## 6. Autres atomes utiles
 
@@ -291,6 +291,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
+- **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -416,6 +418,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - provocation (4)
 - réception critique (3)
 - Ian Curtis (3)
+- Atmosphere (2)
+- silence (2)
+- Dead Souls (2)
+- histoire (2)
 - Throbbing Gristle (2)
 - Warsaw Pakt (2)
 - Joy Division (2)
@@ -431,16 +437,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - romantisme (1)
 - suicide littéraire (1)
 - deification (1)
-- Atmosphere (1)
 - orgues (1)
-- silence (1)
 - cathédrale sonore (1)
 - mémoire rock (1)
-- Dead Souls (1)
 - fantômes (1)
 - eternals (1)
 - réincarnation (1)
-- histoire (1)
 - ressentiment (1)
 - misogynie (1)
 - pose dramatique (1)
@@ -564,8 +566,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | lecture | 2 |
 | temoignage_direct_rapporte | 2 |
 | tension_biographique | 2 |
+| lecture_chanson | 2 |
 | fait | 2 |
 | concept | 2 |
+| song | 2 |
 | santé | 1 |
 | chronologie | 1 |
 | reference_litteraire | 1 |
@@ -624,8 +628,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 113 |
-| critique | 25 |
+| non qualifiée | 115 |
+| critique | 27 |
 | majeure | 12 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -664,6 +668,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A088 [eleve] — risque de lire grossesse et pression comme causes directes de la crise ultérieure
 - S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études
 - S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
+- S76-A127 [tres_eleve] — risque maximal d’épitaphe rétroactive et de prophétisation de Curtis
+- S76-A128 [tres_eleve] — le titre attire des lectures possessionnelles, morbides ou psychopathologiques
 - S76-A068 [moyen] — scène très suggestive ; ne pas en faire une théorie générale de Curtis comme stratège médiatique
 - S76-A071 [eleve] — risque de transformer tout écart biographique en signe avant-coureur ; conserver la prudence anti-téléologique
 - S76-A031 [eleve] — risque majeur de causalité médicale unique et de psychologisation
