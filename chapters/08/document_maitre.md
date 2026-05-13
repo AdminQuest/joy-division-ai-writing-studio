@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:01:48"
+generated_at: "2026-05-13T11:46:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 51 |
-| Atomes critiques / majeurs | 2 |
+| Atomes | 54 |
+| Atomes critiques / majeurs | 5 |
 | Citations | 0 |
-| Événements chronologiques | 2 |
-| Personnes | 0 |
+| Événements chronologiques | 4 |
+| Personnes | 1 |
 | Chansons | 0 |
 | Sources mobilisées | 5 |
 
@@ -38,14 +38,20 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 5 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
 - **S75-A008** — S75-A008 — Les démos Warsaw comme document bootleg empiriquement précieux  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `bootleg` ; importance : `critique` ; preuve : `plausible`.
+- **S75-A021** — S75-A021 — RCA comme désastre industriel et illusion majeure  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A025** — S75-A025 — Les bandes RCA comme archive bootleg d'un désastre utile  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `bootleg` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
+- **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -156,10 +162,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 - CHR-1977-001 — Session de démos de Warsaw à Pennine Sound, utilisée par Ott pour documenter l'amateurisme technique et la valeur empirique des premières traces sonores.
 - CHR-1978-004 — Repressage / remastering 12 pouces de *An Ideal for Living*, lu par Ott comme correction partielle du mauvais rendu sonore initial du 7 pouces.
+- CHR-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
+- CHR-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
 
 ## 9. Personnes et acteurs
 
-- Aucune personne rattachée.
+- PERS-S75-017 — Derek Brandwood
 
 ## 10. Chansons rattachées
 
@@ -203,6 +211,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - unknown pleasures (2)
 - granada tv (2)
 - novelty (2)
+- contrainte productive (2)
 - demo tape (1)
 - electric circus (1)
 - short circuit (1)
@@ -246,15 +255,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - distribution gratuite (1)
 - ajanta theatre (1)
 - derby (1)
-- section 25 (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
-- bootleg (1)
+- bootleg (2)
+- Movie Play Gold (2)
 - Warsaw (1)
-- Movie Play Gold (1)
 - archive sonore (1)
 - document impur (1)
 - EP (1)
@@ -262,6 +270,19 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Enigma (1)
 - remastering (1)
 - Macclesfield (1)
+- RCA (1)
+- studio professionnel (1)
+- échec (1)
+- industrie musicale (1)
+- illusion (1)
+- RCA demos (1)
+- archive négative (1)
+- Heart and Soul (1)
+- An Ideal for Living (1)
+- 12 pouces (1)
+- échafaudage (1)
+- espace (1)
+- panning (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -269,6 +290,15 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S75-A008 — corrobore → S68
 - S75-A019 — prolonge → S75-A018
 - S75-A019 — illustre → CONCEPT-contrainte_produit_la_forme
+- S75-A021 — prolonge → CONCEPT-005
+- S75-A021 — prépare → S75-A026
+- S75-A021 — nuance → MYTH-006
+- S75-A025 — prolonge → MOTIF-004
+- S75-A025 — illustre → CONCEPT-005
+- S75-A025 — prolonge → S75-A008
+- S75-A030 — prolonge → S75-A019
+- S75-A030 — prolonge → CONCEPT-006
+- S75-A030 — prolonge → CONCEPT-005
 
 ## 13. Distribution documentaire
 
@@ -281,23 +311,27 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | archive | 5 |
 | concert | 4 |
 | chronologie | 3 |
+| bootleg | 2 |
+| objet_discographique | 2 |
 | discographie | 1 |
 | videographie | 1 |
-| bootleg | 1 |
-| objet_discographique | 1 |
+| controverse | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 49 |
-| critique | 1 |
-| majeure | 1 |
+| critique | 3 |
+| majeure | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A008 [moyen] — l'objet est utile mais son statut juridique, la filiation des bandes et la chaîne de copie restent incertains
 - S75-A019 [faible] — fait discographique relativement stable, mais les jugements sonores restent critiques
+- S75-A021 [moyen] — risque de transformer RCA en pure caricature industrielle alors que l'échec tient aussi à l'inexpérience du groupe
+- S75-A025 [moyen] — les bandes survivantes doivent être distinguées des intentions et des versions officielles ultérieures
+- S75-A030 [moyen] — ne pas surestimer le 12 pouces comme rupture autonome ; il reste un seuil matériel
 
 ## 15. Lacunes et prochaines vérifications
 

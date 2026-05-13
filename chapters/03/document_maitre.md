@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:01:48"
+generated_at: "2026-05-13T11:46:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 139 |
-| Atomes critiques / majeurs | 11 |
-| Citations | 8 |
-| Événements chronologiques | 2 |
-| Personnes | 7 |
-| Chansons | 2 |
+| Atomes | 148 |
+| Atomes critiques / majeurs | 20 |
+| Citations | 10 |
+| Événements chronologiques | 6 |
+| Personnes | 12 |
+| Chansons | 11 |
 | Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
@@ -43,7 +43,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 1 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 12 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -65,10 +65,28 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A020** — S75-A020 — « No Love Lost » comme début réel de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A021** — S75-A021 — RCA comme désastre industriel et illusion majeure  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A024** — S75-A024 — Arrow Studios : nervosité, synthétiseurs et conflit de définition du son  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A025** — S75-A025 — Les bandes RCA comme archive bootleg d'un désastre utile  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `bootleg` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A027** — S75-A027 — T.J. Davidson : lieu de répétition et cathédrale matérielle de la maturation  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A029** — S75-A029 — Hannett sur *A Factory Sample* : catalyseur, pas auteur unique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A033** — S75-A033 — Première Peel Session : sortie sonore du régionalisme  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session_radio` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `majeure` ; preuve : `corrobore`.
+- **S75-A022** — S75-A022 — « Keep On Keepin’ On » et la greffe soul comme absurdité productive  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `majeure` ; preuve : `corrobore`.
+- **S75-A028** — S75-A028 — Granada TV et l’image industrielle comme mauvais miroir  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -243,9 +261,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q008** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "stabilisee"}` — « a turkey »
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
+- CHR-1978-007 — Enregistrement de « Digital » et « Glass » pour *A Factory Sample* à Cargo Studios avec Martin Hannett.
+- CHR-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
+- CHR-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
 - CHR-1978-001 — Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
 
@@ -256,6 +280,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - PERS-004 — Stephen Morris
 - PERS-008 — Martin Hannett
 - PERS-012 — John Brierley
+- PERS-S75-019 — John Anderson
+- PERS-S75-020 — Bob Auger
+- PERS-S75-021 — John Peel
+- PERS-S75-022 — Martin Rushent
+- PERS-S75-025 — T.J. Davidson
 - PERS-013 — Chris Ott
 - PERS-004-S75 — Stephen Morris
 
@@ -263,6 +292,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 - Transmission
 - SONG-S75-001 — No Love Lost
+- SONG-S75-007 — Interzone
+- SONG-S75-008 — Ice Age
+- SONG-S75-009 — Shadowplay
+- SONG-S75-010 — Digital
+- SONG-S75-011 — Glass
+- SONG-S75-012 — Transmission
+- SONG-S75-013 — Exercise One
+- SONG-S75-014 — Insight
+- SONG-S75-015 — She’s Lost Control
 
 ## 11. Concepts récurrents
 
@@ -287,6 +325,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - NME (5)
 - studio (5)
 - synthétiseur (5)
+- contrainte productive (5)
 - a factory sample (4)
 - glass (4)
 - factory (4)
@@ -298,6 +337,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - batterie (4)
 - Dead Souls (4)
 - répétition (4)
+- architecture sonore (4)
 - Atmosphere (4)
 - piccadilly radio (3)
 - dub (3)
@@ -344,8 +384,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - technologie (2)
 - The Noise (2)
 - Still (2)
-- Robert Palmer (2)
-- lenteur (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -367,30 +405,30 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - funk sec (1)
 - double-delay (1)
 - seuil (1)
-- Piccadilly Plaza (1)
-- bureau de promotion (1)
-- Bowie (1)
-- Iggy Pop (1)
-- échappée professionnelle (1)
-- crise (1)
-- scène (1)
-- public ignorant (1)
-- honte (1)
-- impuissance (1)
-- substitution (1)
-- panique (1)
-- public frustré (1)
-- violence (1)
-- responsabilité collective (1)
-- aveuglement (1)
-- stress (1)
-- annulation impossible (1)
-- manager (1)
-- crise répétée (1)
-- impasse (1)
-- barbituriques (1)
-- dépression (1)
-- appel téléphonique (1)
+- RCA (1)
+- studio professionnel (1)
+- échec (1)
+- industrie musicale (1)
+- illusion (1)
+- reprise imposée (1)
+- Interzone (1)
+- soul (1)
+- détournement (1)
+- synthétiseur (1)
+- studio (1)
+- polissage (1)
+- résistance (1)
+- son brut (1)
+- RCA demos (1)
+- bootleg (1)
+- archive négative (1)
+- Movie Play Gold (1)
+- Heart and Soul (1)
+- T.J. Davidson (1)
+- répétition (1)
+- isolement (1)
+- espace (1)
+- cathédrale sonore (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -401,6 +439,31 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A020 — prolonge → S75-A015
 - S75-A020 — nuance → S75-A019
 - S75-A020 — annonce → CONCEPT-architecture_sonore
+- S75-A021 — prolonge → CONCEPT-005
+- S75-A021 — prépare → S75-A026
+- S75-A021 — nuance → MYTH-006
+- S75-A022 — illustre → CONCEPT-005
+- S75-A022 — prépare → S75-A024
+- S75-A024 — illustre → CONCEPT-006
+- S75-A024 — illustre → CONCEPT-005
+- S75-A024 — prépare → S75-A029
+- S75-A025 — prolonge → MOTIF-004
+- S75-A025 — illustre → CONCEPT-005
+- S75-A025 — prolonge → S75-A008
+- S75-A027 — prolonge → CONCEPT-003
+- S75-A027 — prolonge → CONCEPT-006
+- S75-A027 — prolonge → MOTIF-003
+- S75-A028 — nuance → MYTH-003
+- S75-A028 — prolonge → MOTIF-002
+- S75-A028 — prépare → S75-A029
+- S75-A029 — prolonge → CONCEPT-006
+- S75-A029 — nuance → MYTH-004
+- S75-A029 — prolonge → S75-A024
+- S75-A033 — prolonge → CONCEPT-006
+- S75-A033 — nuance → MYTH-003
+- S75-A033 — prépare → S75-A036
+- S75-A034 — prolonge → CONCEPT-006
+- S75-A034 — nuance → MYTH-joy_division_pure_obscurité
 - S74-A022 — nuance → MYTH-002
 - S74-A022 — prolonge → S74-A017
 - S74-A048 — nuance → MYTH-002
@@ -442,12 +505,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | interpretation | 3 |
 | enregistrement | 3 |
 | interpretation_esthetique | 3 |
+| session | 3 |
+| lecture_musicale | 3 |
 | equipment_file | 3 |
 | contexte_technique | 3 |
 | session_enregistrement | 2 |
 | theorie_voix | 2 |
 | chronologie | 2 |
 | scene_fondatrice | 2 |
+| lieu | 2 |
 | lieu_studio | 2 |
 | citation_repere | 2 |
 | temoignage_direct_rapporte | 2 |
@@ -478,8 +544,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | culture_musicale | 1 |
 | culture_domestique | 1 |
 | management | 1 |
-| session | 1 |
-| lecture_musicale | 1 |
+| controverse | 1 |
+| bootleg | 1 |
+| archive | 1 |
+| session_radio | 1 |
 | reception_discographique | 1 |
 | reception_radio | 1 |
 | demythification | 1 |
@@ -497,7 +565,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | biographie | 1 |
 | transition | 1 |
 | conflit_esthetique | 1 |
-| lieu | 1 |
 | portrait_technique | 1 |
 | influences | 1 |
 | transition_esthetique | 1 |
@@ -508,14 +575,23 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 128 |
-| critique | 9 |
-| majeure | 2 |
+| critique | 16 |
+| majeure | 4 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A009 [faible] — Ott signale lui-même qu'une critique trop sévère serait inutile, compte tenu de la fonction pratique de la session
 - S75-A015 [faible] — lecture cohérente avec la place reconnue de Morris, mais à articuler avec les autres membres
 - S75-A020 [moyen] — formule forte d'Ott ; à articuler avec d'autres seuils possibles comme « Digital » ou les sessions RCA
+- S75-A021 [moyen] — risque de transformer RCA en pure caricature industrielle alors que l'échec tient aussi à l'inexpérience du groupe
+- S75-A022 [moyen] — la généalogie d'« Interzone » doit être maniée comme lecture de session, non comme origine exclusive du morceau
+- S75-A024 [moyen] — ne pas opposer naïvement organique et électronique ; le problème est l'usage imposé du son
+- S75-A025 [moyen] — les bandes survivantes doivent être distinguées des intentions et des versions officielles ultérieures
+- S75-A027 [moyen] — risque de transformer le lieu en cathédrale mythique ; conserver sa fonction concrète de répétition
+- S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
+- S75-A029 [eleve] — risque classique d'héroïser Hannett comme génie solitaire du son Joy Division
+- S75-A033 [moyen] — ne pas confondre visibilité radio et reconnaissance installée
+- S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
 - S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
 - S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
 - S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:01:48"
+generated_at: "2026-05-13T11:46:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 188 |
-| Atomes critiques / majeurs | 30 |
-| Citations | 7 |
-| Événements chronologiques | 7 |
-| Personnes | 8 |
-| Chansons | 5 |
+| Atomes | 198 |
+| Atomes critiques / majeurs | 35 |
+| Citations | 8 |
+| Événements chronologiques | 11 |
+| Personnes | 14 |
+| Chansons | 6 |
 | Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
@@ -43,7 +43,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 15 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 18 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 15 | 3 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -87,6 +87,22 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A020** — S75-A020 — « No Love Lost » comme début réel de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A021** — S75-A021 — RCA comme désastre industriel et illusion majeure  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A023** — S75-A023 — Stiff/Chiswick Challenge : performance de crise et capture par Wilson / Gretton  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A024** — S75-A024 — Arrow Studios : nervosité, synthétiseurs et conflit de définition du son  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A025** — S75-A025 — Les bandes RCA comme archive bootleg d'un désastre utile  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `bootleg` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A026** — S75-A026 — Gretton comme défenseur contractuel et traducteur stratégique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `fait_interprete` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A027** — S75-A027 — T.J. Davidson : lieu de répétition et cathédrale matérielle de la maturation  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A031** — S75-A031 — Londres, Hope & Anchor et crise épileptique : anti-triomphe de la sortie régionale  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_retrospective`.
+- **S75-A035** — S75-A035 — Rushent / Genetic : offre généreuse, rejet mancunien et choix Factory  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `fait_interprete` ; importance : `critique` ; preuve : `reconstruction_critique`.
 - **S74-A008** — S74-A008 — So It Goes comme dispositif médiatique de transition punk  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
@@ -101,12 +117,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A006** — S75-A006 — Stiff Kittens comme non-nom et mythe de formation surestimé  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `majeure` ; preuve : `plausible`.
-- **S75-A007** — S75-A007 — Paul Morley comme premier lecteur critique de Warsaw  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `corrobore`.
-- **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A004** — S74-A004 — Les concerts des Sex Pistols comme moment originel mancunien  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `structurante` ; preuve : `plausible`.
 
 ## 6. Autres atomes utiles
 
@@ -280,6 +290,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S75-Q003** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q004** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -288,6 +299,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - CHR-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.
 - CHR-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
 - CHR-1978-004 — Repressage / remastering 12 pouces de *An Ideal for Living*, lu par Ott comme correction partielle du mauvais rendu sonore initial du 7 pouces.
+- CHR-1978-005 — Performance de Joy Division au Stiff/Chiswick Challenge à Rafter's, observée par Tony Wilson et Rob Gretton.
+- CHR-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
+- CHR-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
+- CHR-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
 - CHR-1976-001 — Concert des Sex Pistols au Lesser Free Trade Hall de Manchester.
 - CHR-1978-001 — Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.
 
@@ -296,6 +311,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - PERS-002 — Peter Hook
 - PERS-003 — Bernard Sumner
 - PERS-004 — Stephen Morris
+- PERS-S75-017 — Derek Brandwood
+- PERS-S75-018 — Richard Searling
+- PERS-S75-019 — John Anderson
+- PERS-S75-020 — Bob Auger
+- PERS-S75-022 — Martin Rushent
+- PERS-S75-025 — T.J. Davidson
 - PERS-013 — Chris Ott
 - PERS-014 — Paul Morley
 - PERS-015 — Steve Brotherdale
@@ -309,6 +330,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - SONG-S75-004 — Warsaw
 - SONG-S75-005 — Failures
 - SONG-S75-006 — Gutz
+- SONG-S75-007 — Interzone
 
 ## 11. Concepts récurrents
 
@@ -343,6 +365,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Arrow Studios (5)
 - premier concert (5)
 - DIY (5)
+- contrainte productive (5)
 - formation du groupe (4)
 - rafters (4)
 - house of dolls (4)
@@ -375,6 +398,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - manchester (3)
 - peter hook (3)
 - apprentissage autodidacte (3)
+- architecture sonore (3)
 - classe ouvriere (3)
 - stiff kittens (2)
 - salford (2)
@@ -390,8 +414,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - david bowie (2)
 - ka-tzetnik (2)
 - mémoire (2)
-- Sounds (2)
-- Pete Silverton (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -399,18 +421,26 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 - provocation (4)
 - Sex Pistols (3)
+- Gretton (3)
 - Manchester (2)
+- Londres (2)
 - punk (2)
 - Free Trade Hall (2)
 - mythe fondateur (2)
 - nom (2)
+- bootleg (2)
+- Movie Play Gold (2)
 - stabilisation (2)
 - Throbbing Gristle (2)
 - Salford (2)
 - House of Dolls (2)
+- An Ideal for Living (2)
 - réception critique (2)
+- RCA (2)
+- synthétiseur (2)
+- répétition (2)
+- espace (2)
 - frustration (2)
-- Londres (1)
 - auto-suffisance (1)
 - déclencheur (1)
 - inflation mémorielle (1)
@@ -421,9 +451,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - NME (1)
 - Morley (1)
 - dissimilarité (1)
-- bootleg (1)
 - Warsaw (1)
-- Movie Play Gold (1)
 - archive sonore (1)
 - document impur (1)
 - amateurisme (1)
@@ -431,12 +459,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Pennine Sound (1)
 - économie de moyens (1)
 - apprentissage (1)
-- éviction (1)
-- Brotherdale (1)
-- Gretton (1)
-- dynamique de groupe (1)
-- shock art (1)
-- postwar nihilism (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -473,6 +495,35 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S75-A020 — prolonge → S75-A015
 - S75-A020 — nuance → S75-A019
 - S75-A020 — annonce → CONCEPT-architecture_sonore
+- S75-A021 — prolonge → CONCEPT-005
+- S75-A021 — prépare → S75-A026
+- S75-A021 — nuance → MYTH-006
+- S75-A022 — illustre → CONCEPT-005
+- S75-A022 — prépare → S75-A024
+- S75-A023 — prolonge → MOTIF-006
+- S75-A023 — prépare → S75-A026
+- S75-A023 — prépare → S75-A030
+- S75-A024 — illustre → CONCEPT-006
+- S75-A024 — illustre → CONCEPT-005
+- S75-A024 — prépare → S75-A029
+- S75-A025 — prolonge → MOTIF-004
+- S75-A025 — illustre → CONCEPT-005
+- S75-A025 — prolonge → S75-A008
+- S75-A026 — prolonge → S75-A021
+- S75-A026 — prépare → S75-A034
+- S75-A026 — nuance → MYTH-005
+- S75-A027 — prolonge → CONCEPT-003
+- S75-A027 — prolonge → CONCEPT-006
+- S75-A027 — prolonge → MOTIF-003
+- S75-A030 — prolonge → S75-A019
+- S75-A030 — prolonge → CONCEPT-006
+- S75-A030 — prolonge → CONCEPT-005
+- S75-A031 — nuance → MYTH-002
+- S75-A031 — prolonge → CONCEPT-004
+- S75-A031 — nuance → MYTH-003
+- S75-A035 — nuance → MYTH-005
+- S75-A035 — prolonge → S75-A026
+- S75-A035 — prépare → S75-A036
 - S74-A022 — nuance → MYTH-002
 - S74-A022 — prolonge → S74-A017
 - S74-A023 — prolonge → S74-A022
@@ -491,35 +542,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S74-A028 — complète → S74-A021
 - S74-A028 — prolonge → S74-A018
 - S74-A029 — renforce → CONCEPT_GEOGRAPHIE_EMOTIONNELLE
-- S74-A029 — nuance → MYTH-003
-- S74-A029 — prolonge → S74-A015
-- S74-A014 — complète → S74-A002
-- S74-A014 — prolonge → S41
-- S74-A016 — mythologise → MYTH-001
-- S74-A016 — nuance → S74-A004
-- S74-A016 — complète → S41
-- S74-A017 — se_souvient → S45
-- S74-A017 — nuance → MYTH-002
-- S74-A018 — nuance → MYTH-001
-- S74-A018 — prolonge → S74-A004
-- S74-A018 — complète → S74-A013
-- S74-A019 — prolonge → S74-A016
-- S74-A019 — nuance → MYTH-001
-- S74-A021 — nuance → MYTH-002
-- S74-A021 — prolonge → S74-A018
-- S74-A021 — complète → S74-A019
-- S74-A003 — nuance → MYTH-001
-- S74-A003 — illustre → CONCEPT-003
-- S74-A004 — mythologise → MYTH-001
-- S74-A004 — se_souvient → S41
-- S74-A004 — nuance → S74-A003
-- S74-A008 — nuance → MYTH-001
-- S74-A008 — illustre → S74-A004
-- S74-A009 — nuance → MYTH-001
-- S74-A009 — prolonge → S74-A007
-- S74-A013 — nuance → MYTH-001
-- S74-A013 — prolonge → S74-A011
-- S74-A013 — illustre → S74-A012
 
 ## 13. Distribution documentaire
 
@@ -531,14 +553,16 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | chronologie | 14 |
 | production | 12 |
 | concert | 9 |
+| scene_fondatrice | 9 |
 | relation | 7 |
 | analyse | 7 |
-| scene_fondatrice | 7 |
 | biographie | 7 |
-| objet_discographique | 5 |
+| objet_discographique | 6 |
+| controverse | 6 |
 | lecture | 5 |
-| controverse | 5 |
 | mythe | 4 |
+| session | 4 |
+| fait_interprete | 4 |
 | interpretation | 4 |
 | evenement | 3 |
 | formation_groupe | 3 |
@@ -547,9 +571,9 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | discographie | 2 |
 | changement_nom | 2 |
 | reception | 2 |
-| session | 2 |
+| bootleg | 2 |
+| lieu | 2 |
 | micro_chronologie | 2 |
-| fait_interprete | 2 |
 | contexte_social | 2 |
 | temoignage_interpretatif | 1 |
 | chronologie_interne | 1 |
@@ -573,7 +597,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | culture_musicale | 1 |
 | histoire_punk | 1 |
 | dynamique_collective | 1 |
-| bootleg | 1 |
 | influence | 1 |
 | lecture_musicale | 1 |
 | contexte_nom | 1 |
@@ -592,7 +615,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | analyse_developpement | 1 |
 | non qualifié | 1 |
 | anecdote | 1 |
-| lieu | 1 |
 | temoignage | 1 |
 | contexte_materiel | 1 |
 | anecdote_significative | 1 |
@@ -609,8 +631,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 155 |
-| critique | 20 |
-| majeure | 9 |
+| critique | 28 |
+| majeure | 11 |
 | moyenne | 2 |
 | structurante | 2 |
 
@@ -631,6 +653,16 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
 - S75-A019 [faible] — fait discographique relativement stable, mais les jugements sonores restent critiques
 - S75-A020 [moyen] — formule forte d'Ott ; à articuler avec d'autres seuils possibles comme « Digital » ou les sessions RCA
+- S75-A021 [moyen] — risque de transformer RCA en pure caricature industrielle alors que l'échec tient aussi à l'inexpérience du groupe
+- S75-A022 [moyen] — la généalogie d'« Interzone » doit être maniée comme lecture de session, non comme origine exclusive du morceau
+- S75-A023 [moyen] — le caractère fondateur de la scène peut être surdramatisé ; l'intérêt est dans la bifurcation Wilson/Gretton
+- S75-A024 [moyen] — ne pas opposer naïvement organique et électronique ; le problème est l'usage imposé du son
+- S75-A025 [moyen] — les bandes survivantes doivent être distinguées des intentions et des versions officielles ultérieures
+- S75-A026 [faible] — le rôle protecteur de Gretton est fortement cohérent avec plusieurs récits, mais certains détails contractuels doivent rester vérifiables
+- S75-A027 [moyen] — risque de transformer le lieu en cathédrale mythique ; conserver sa fonction concrète de répétition
+- S75-A030 [moyen] — ne pas surestimer le 12 pouces comme rupture autonome ; il reste un seuil matériel
+- S75-A031 [eleve] — risque de téléologie morbide si la crise est lue comme signe fatal plutôt que comme événement médical et biographique
+- S75-A035 [moyen] — éviter l'opposition simpliste entre industrie mauvaise et Factory pure
 - S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
 - S74-A023 [moyen] — risque de transformer RCA en simple repoussoir alors que Curtis reste attiré par cette voie
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie

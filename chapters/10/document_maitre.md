@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:01:48"
+generated_at: "2026-05-13T11:46:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 53 |
-| Atomes critiques / majeurs | 1 |
-| Citations | 1 |
+| Atomes | 54 |
+| Atomes critiques / majeurs | 2 |
+| Citations | 2 |
 | Événements chronologiques | 1 |
 | Personnes | 5 |
 | Chansons | 4 |
@@ -42,10 +42,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 7 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
+- **S75-A038** — S75-A038 — *Unknown Pleasures* comme secret produit en masse  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_donnees_de_vente`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
@@ -159,6 +161,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 ## 7. Citations disponibles
 
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
+- **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -271,11 +274,19 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - austérité (1)
 - internalisation (1)
 - ombre portée (1)
+- Unknown Pleasures (1)
+- secret produit en masse (1)
+- bouche-à-oreille (1)
+- image (1)
+- indépendance (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
 - S75-A001 — prolonge → MOTIF-heritage
 - S75-A001 — nuance → MYTH-culte_sombre
+- S75-A038 — prolonge → MYTH-005
+- S75-A038 — prolonge → CONCEPT-007
+- S75-A038 — prolonge → S75-A036
 
 ## 13. Distribution documentaire
 
@@ -307,6 +318,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | trauma | 1 |
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
+| concept | 1 |
 | citation_repere | 1 |
 | fait_biographique | 1 |
 
@@ -316,10 +328,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 |---|---|
 | non qualifiée | 52 |
 | majeure | 1 |
+| critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
+- S75-A038 [moyen] — chiffres de vente et formule conceptuelle doivent être recoupés avec sources Factory / discographiques
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:01:48"
+generated_at: "2026-05-13T11:46:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 189 |
-| Atomes critiques / majeurs | 21 |
+| Atomes | 192 |
+| Atomes critiques / majeurs | 24 |
 | Citations | 10 |
-| Événements chronologiques | 3 |
-| Personnes | 8 |
-| Chansons | 3 |
+| Événements chronologiques | 4 |
+| Personnes | 9 |
+| Chansons | 4 |
 | Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
@@ -42,7 +42,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 5 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -88,6 +88,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A051** — S74-A051 — Gretton, Sordide Sentimentale et l’émotion managériale devant « Dead Souls » et « Atmosphere »  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_affectif` ; importance : `majeure` ; preuve : `temoignage_direct_auteur`.
+- **S75-A028** — S75-A028 — Granada TV et l’image industrielle comme mauvais miroir  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A032** — S75-A032 — Kevin Cummins et le contre-portrait de Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -268,6 +274,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 ## 8. Chronologie rattachée
 
 - CHR-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
+- CHR-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
 - CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
 
@@ -281,12 +288,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-008 — Martin Hannett
 - PERS-009 — Peter Saville
 - PERS-012 — John Brierley
+- PERS-S75-023 — Kevin Cummins
 
 ## 10. Chansons rattachées
 
 - Transmission
 - She's Lost Control
 - Disorder
+- SONG-S75-009 — Shadowplay
 
 ## 11. Concepts récurrents
 
@@ -377,16 +386,30 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 - studio (3)
 - provocation (2)
+- An Ideal for Living (2)
 - réception critique (2)
+- image industrielle (2)
+- Kevin Cummins (2)
 - rejet (2)
 - conflit (2)
 - shock art (1)
 - Throbbing Gristle (1)
 - postwar nihilism (1)
 - flyer (1)
-- An Ideal for Living (1)
 - imagerie nazie (1)
 - jeunesse (1)
+- Granada TV (1)
+- Shadowplay (1)
+- industrial cityscapes (1)
+- cliché (1)
+- 12 pouces (1)
+- échafaudage (1)
+- espace (1)
+- panning (1)
+- NME (1)
+- portrait (1)
+- Curtis icône (1)
+- image médiatique (1)
 - major (1)
 - bruit (1)
 - mauvais son (1)
@@ -399,22 +422,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - entrepôt (1)
 - répétition (1)
 - poussière (1)
-- image industrielle (1)
-- Kevin Cummins (1)
 - Cargo (1)
 - Digital (1)
-- Glass (1)
-- build-up (1)
-- producteur (1)
-- génie erratique (1)
-- légende (1)
-- échec (1)
-- vision sonore (1)
-- investissement (1)
-- risque (1)
-- Strawberry (1)
-- bascule technique (1)
-- digital delay (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -423,6 +432,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S75-A018 — prolonge → S75-A016
 - S75-A018 — prolonge → S75-A017
 - S75-A018 — nuance → MYTH-fascination_fasciste
+- S75-A028 — nuance → MYTH-003
+- S75-A028 — prolonge → MOTIF-002
+- S75-A028 — prépare → S75-A029
+- S75-A030 — prolonge → S75-A019
+- S75-A030 — prolonge → CONCEPT-006
+- S75-A030 — prolonge → CONCEPT-005
+- S75-A032 — nuance → MYTH-002
+- S75-A032 — prolonge → CONCEPT-004
 - S74-A023 — prolonge → S74-A022
 - S74-A023 — annonce → S74-A030
 - S74-A023 — nuance → MYTH-005
@@ -487,10 +504,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Type | Nombre |
 |---|---|
 | analyse_morceau | 10 |
+| objet_discographique | 8 |
 | concept | 8 |
 | analyse | 7 |
 | discographie | 7 |
-| objet_discographique | 7 |
 | non qualifié | 6 |
 | fait | 6 |
 | production | 4 |
@@ -549,6 +566,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | concert | 1 |
 | influence | 1 |
 | controverse | 1 |
+| archive | 1 |
+| archive_visuelle | 1 |
 | reception_discographique | 1 |
 | reception_album | 1 |
 | economie_musicale | 1 |
@@ -595,12 +614,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 |---|---|
 | non qualifiée | 168 |
 | critique | 18 |
-| majeure | 3 |
+| majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
+- S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
+- S75-A030 [moyen] — ne pas surestimer le 12 pouces comme rupture autonome ; il reste un seuil matériel
+- S75-A032 [moyen] — ne pas faire d'une photographie un tournant causal ; elle cristallise une image
 - S74-A023 [moyen] — risque de transformer RCA en simple repoussoir alors que Curtis reste attiré par cette voie
 - S74-A025 [moyen] — risque de juger la session seulement comme fiasco sans voir les tensions formatrices qu’elle révèle
 - S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique

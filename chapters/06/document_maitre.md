@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:01:48"
+generated_at: "2026-05-13T11:46:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 144 |
-| Atomes critiques / majeurs | 22 |
-| Citations | 3 |
-| Événements chronologiques | 3 |
-| Personnes | 3 |
-| Chansons | 4 |
+| Atomes | 153 |
+| Atomes critiques / majeurs | 31 |
+| Citations | 6 |
+| Événements chronologiques | 5 |
+| Personnes | 6 |
+| Chansons | 7 |
 | Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
@@ -42,7 +42,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -76,6 +76,22 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_retrospectif` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S75-A011** — S75-A011 — Brotherdale, Gretton et la stabilisation négative du groupe  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_retrospective`.
+- **S75-A023** — S75-A023 — Stiff/Chiswick Challenge : performance de crise et capture par Wilson / Gretton  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A024** — S75-A024 — Arrow Studios : nervosité, synthétiseurs et conflit de définition du son  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A026** — S75-A026 — Gretton comme défenseur contractuel et traducteur stratégique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `fait_interprete` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A029** — S75-A029 — Hannett sur *A Factory Sample* : catalyseur, pas auteur unique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A033** — S75-A033 — Première Peel Session : sortie sonore du régionalisme  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session_radio` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A035** — S75-A035 — Rushent / Genetic : offre généreuse, rejet mancunien et choix Factory  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `fait_interprete` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S75-A036** — S75-A036 — Le pacte Factory : sang, napkins et contrat symbolique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe_institutionnel` ; importance : `critique` ; preuve : `mythe_institutionnel_avec_noyau_factuel`.
+- **S75-A038** — S75-A038 — *Unknown Pleasures* comme secret produit en masse  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_donnees_de_vente`.
 - **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
@@ -90,6 +106,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_affectif` ; importance : `majeure` ; preuve : `temoignage_direct_auteur`.
 - **S74-A055** — S74-A055 — Mort de Curtis : onde de choc sur Factory, Topping, Hannett et Sumner  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A037** — S75-A037 — Alan Erasmus, l’effacement du cofondateur et les zones mortes du mythe Factory  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -259,9 +277,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S47-Q008** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Closer was not a suicide note. »
 - **S47-Q015** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the Peel Sessions are essential Joy Division. »
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-1978-007 — Enregistrement de « Digital » et « Glass » pour *A Factory Sample* à Cargo Studios avec Martin Hannett.
+- CHR-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
 - CHR-1980-001 — Concert du Derby Hall à Bury marqué par l’état critique de Ian Curtis.
 - CHR-1980-002 — Dernier concert officiel de Joy Division à Birmingham University.
 - CHR-1980-004 — Sortie posthume de l’album Closer.
@@ -271,6 +294,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-001 — Ian Curtis
 - PERS-008 — Martin Hannett
 - PERS-010 — Annick Honoré
+- PERS-S75-021 — John Peel
+- PERS-S75-022 — Martin Rushent
+- PERS-S75-024 — Alan Erasmus
 
 ## 10. Chansons rattachées
 
@@ -278,6 +304,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Atmosphere
 - Decades
 - Ceremony
+- SONG-S75-010 — Digital
+- SONG-S75-011 — Glass
+- SONG-S75-014 — Insight
 
 ## 11. Concepts récurrents
 
@@ -318,6 +347,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Warsaw (3)
 - Something Must Break (3)
 - scène (3)
+- architecture sonore (3)
 - Exercise One (3)
 - tension (3)
 - mixage (3)
@@ -358,59 +388,85 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - britannia row (2)
 - rainbow theatre (2)
 - moonlight club (2)
+- économie de la confiance (2)
 - Maida Vale (2)
-- Walked in Line (2)
-- anti-commercialisme (2)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- Gretton (5)
+- Wilson (3)
+- Factory (3)
+- indépendance (3)
 - manager (3)
-- Gretton (2)
+- synthétiseur (2)
+- studio (2)
+- contrat (2)
+- Hannett (2)
+- Digital (2)
+- Glass (2)
 - frustration (2)
 - reconnaissance (2)
-- indépendance (2)
 - contrôle (2)
 - éviction (1)
 - stabilisation (1)
 - Brotherdale (1)
 - dynamique de groupe (1)
-- major (1)
-- rejet (1)
-- bruit (1)
-- mauvais son (1)
-- bifurcation (1)
-- northern soul (1)
-- impasse (1)
-- synthétiseur (1)
-- convention rock (1)
-- talent contest (1)
-- note injurieuse (1)
-- naissance Factory (1)
-- répétition (1)
-- maladresse (1)
-- club (1)
-- Hulme (1)
-- reggae (1)
-- étudiants (1)
-- danger (1)
-- sampler (1)
-- objet disque (1)
-- plastique (1)
-- impraticabilité (1)
-- décision esthétique (1)
-- Cargo (1)
-- Digital (1)
-- Glass (1)
-- build-up (1)
-- producteur (1)
-- vide stratégique (1)
+- Stiff/Chiswick Challenge (1)
+- performance limite (1)
+- reconnaissance scénique (1)
+- polissage (1)
+- résistance (1)
+- son brut (1)
+- RCA (1)
+- protection (1)
+- management (1)
+- delay (1)
+- production créative (1)
+- Peel Session (1)
+- John Peel (1)
+- radio (1)
+- sortie du régionalisme (1)
+- audience (1)
+- Rushent (1)
+- Genetic (1)
+- Radar (1)
+- méfiance mancunienne (1)
+- sang (1)
+- Erasmus (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
 - S75-A011 — prolonge → S75-A009
 - S75-A011 — annonce → CONCEPT-gretton_management
+- S75-A023 — prolonge → MOTIF-006
+- S75-A023 — prépare → S75-A026
+- S75-A023 — prépare → S75-A030
+- S75-A024 — illustre → CONCEPT-006
+- S75-A024 — illustre → CONCEPT-005
+- S75-A024 — prépare → S75-A029
+- S75-A026 — prolonge → S75-A021
+- S75-A026 — prépare → S75-A034
+- S75-A026 — nuance → MYTH-005
+- S75-A029 — prolonge → CONCEPT-006
+- S75-A029 — nuance → MYTH-004
+- S75-A029 — prolonge → S75-A024
+- S75-A033 — prolonge → CONCEPT-006
+- S75-A033 — nuance → MYTH-003
+- S75-A033 — prépare → S75-A036
+- S75-A035 — nuance → MYTH-005
+- S75-A035 — prolonge → S75-A026
+- S75-A035 — prépare → S75-A036
+- S75-A036 — nuance → MYTH-005
+- S75-A036 — prolonge → S75-A035
+- S75-A036 — prolonge → CONCEPT-004
+- S75-A037 — nuance → MYTH-005
+- S75-A037 — prolonge → S75-A036
+- S75-A037 — prolonge → CONCEPT-004
+- S75-A038 — prolonge → MYTH-005
+- S75-A038 — prolonge → CONCEPT-007
+- S75-A038 — prolonge → S75-A036
 - S74-A023 — prolonge → S74-A022
 - S74-A023 — annonce → S74-A030
 - S74-A023 — nuance → MYTH-005
@@ -462,16 +518,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S74-A050 — complète → S74-A049
 - S74-A050 — nuance → MYTH-002
 - S74-A050 — prolonge → S45
-- S74-A051 — prolonge → S74-A050
-- S74-A051 — annonce → S74-A052
-- S74-A051 — nuance → MYTH-002
-- S74-A055 — prolonge → S74-A053
-- S74-A055 — complète → S74-A056
-- S74-A055 — nuance → MYTH-006
-- S74-A001 — nuance → MYTH-005
-- S74-A001 — prolonge → CONCEPT-001
-- S74-A005 — nuance → MYTH-005
-- S74-A005 — illustre → S74-A001
 
 ## 13. Distribution documentaire
 
@@ -487,10 +533,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | discographie | 5 |
 | fait_sensible | 5 |
 | analyse | 4 |
+| session | 4 |
 | discographie_album | 3 |
 | evenement_live | 3 |
+| scene_fondatrice | 3 |
+| fait_interprete | 3 |
+| session_radio | 3 |
 | versions_chanson | 3 |
-| session | 3 |
 | reception | 2 |
 | relation | 2 |
 | session_enregistrement | 2 |
@@ -501,8 +550,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | reception_critique | 2 |
 | réception | 2 |
 | chronologie | 2 |
-| scene_fondatrice | 2 |
-| session_radio | 2 |
+| lecture | 2 |
+| concept | 2 |
 | outtakes | 2 |
 | session_album | 2 |
 | lieu_studio | 2 |
@@ -518,6 +567,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | chanson_live | 1 |
 | interpretation_chanson | 1 |
 | archive | 1 |
+| lecture_musicale | 1 |
+| mythe_institutionnel | 1 |
 | reception_radio | 1 |
 | strategie_discographique | 1 |
 | projet_avorte | 1 |
@@ -531,7 +582,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | lieu_radio | 1 |
 | acteur_media | 1 |
 | idee_directrice | 1 |
-| fait_interprete | 1 |
 | mythe | 1 |
 | lieu_institution | 1 |
 | institution | 1 |
@@ -545,7 +595,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | temoignage_retrospectif | 1 |
 | temoignage_affectif | 1 |
 | reception_interne | 1 |
-| lecture | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
 | discographie_analysee | 1 |
@@ -555,7 +604,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | note_documentaire | 1 |
 | interpretation_sensible | 1 |
 | portrait_sensible | 1 |
-| concept | 1 |
 | transition | 1 |
 | concept_transversal | 1 |
 | management | 1 |
@@ -565,12 +613,21 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 122 |
-| critique | 15 |
-| majeure | 7 |
+| critique | 23 |
+| majeure | 8 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A011 [moyen] — l'épisode du pneu crevé appartient à la mémoire anecdotique et doit être recoupé
+- S75-A023 [moyen] — le caractère fondateur de la scène peut être surdramatisé ; l'intérêt est dans la bifurcation Wilson/Gretton
+- S75-A024 [moyen] — ne pas opposer naïvement organique et électronique ; le problème est l'usage imposé du son
+- S75-A026 [faible] — le rôle protecteur de Gretton est fortement cohérent avec plusieurs récits, mais certains détails contractuels doivent rester vérifiables
+- S75-A029 [eleve] — risque classique d'héroïser Hannett comme génie solitaire du son Joy Division
+- S75-A033 [moyen] — ne pas confondre visibilité radio et reconnaissance installée
+- S75-A035 [moyen] — éviter l'opposition simpliste entre industrie mauvaise et Factory pure
+- S75-A036 [eleve] — risque d'adhérer trop facilement à la légende Factory ou de la dissoudre entièrement
+- S75-A037 [moyen] — le portrait d'Erasmus doit être recoupé avec des sources Factory spécifiques
+- S75-A038 [moyen] — chiffres de vente et formule conceptuelle doivent être recoupés avec sources Factory / discographiques
 - S74-A023 [moyen] — risque de transformer RCA en simple repoussoir alors que Curtis reste attiré par cette voie
 - S74-A025 [moyen] — risque de juger la session seulement comme fiasco sans voir les tensions formatrices qu’elle révèle
 - S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique

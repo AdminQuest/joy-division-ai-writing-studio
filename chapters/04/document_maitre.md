@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:01:48"
+generated_at: "2026-05-13T11:46:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ generated_at: "2026-05-13T11:01:48"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 81 |
-| Atomes critiques / majeurs | 20 |
+| Atomes | 82 |
+| Atomes critiques / majeurs | 21 |
 | Citations | 6 |
-| Événements chronologiques | 2 |
-| Personnes | 4 |
-| Chansons | 4 |
+| Événements chronologiques | 3 |
+| Personnes | 5 |
+| Chansons | 6 |
 | Sources mobilisées | 7 |
 
 ## 4. Sources mobilisées
@@ -40,7 +40,7 @@ generated_at: "2026-05-13T11:01:48"
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 5 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -84,6 +84,8 @@ generated_at: "2026-05-13T11:01:48"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A012** — S75-A012 — Curtis dans la pièce bleue : ambition, naïveté et écriture de transition  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
+- **S75-A032** — S75-A032 — Kevin Cummins et le contre-portrait de Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -221,6 +223,7 @@ generated_at: "2026-05-13T11:01:48"
 
 ## 8. Chronologie rattachée
 
+- CHR-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 
@@ -230,6 +233,7 @@ generated_at: "2026-05-13T11:01:48"
 - PERS-005 — Deborah Curtis
 - PERS-010 — Annick Honoré
 - PERS-011 — Natalie Curtis
+- PERS-S75-023 — Kevin Cummins
 
 ## 10. Chansons rattachées
 
@@ -237,6 +241,8 @@ generated_at: "2026-05-13T11:01:48"
 - Love Will Tear Us Apart
 - SONG-S75-001 — No Love Lost
 - SONG-S75-006 — Gutz
+- SONG-S75-013 — Exercise One
+- SONG-S75-015 — She’s Lost Control
 
 ## 11. Concepts récurrents
 
@@ -349,6 +355,11 @@ generated_at: "2026-05-13T11:01:48"
 - funk sec (1)
 - double-delay (1)
 - seuil (1)
+- Kevin Cummins (1)
+- NME (1)
+- portrait (1)
+- Curtis icône (1)
+- image médiatique (1)
 - frustration (1)
 - talent contest (1)
 - note injurieuse (1)
@@ -360,11 +371,6 @@ generated_at: "2026-05-13T11:01:48"
 - club (1)
 - Hulme (1)
 - reggae (1)
-- étudiants (1)
-- danger (1)
-- sampler (1)
-- objet disque (1)
-- plastique (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -377,6 +383,8 @@ generated_at: "2026-05-13T11:01:48"
 - S75-A020 — prolonge → S75-A015
 - S75-A020 — nuance → S75-A019
 - S75-A020 — annonce → CONCEPT-architecture_sonore
+- S75-A032 — nuance → MYTH-002
+- S75-A032 — prolonge → CONCEPT-004
 - S74-A026 — nuance → MYTH-005
 - S74-A026 — prolonge → S74-A017
 - S74-A026 — annonce → S74-A030
@@ -461,6 +469,7 @@ generated_at: "2026-05-13T11:01:48"
 | sociologie | 1 |
 | citation_clef | 1 |
 | lecture_musicale | 1 |
+| archive_visuelle | 1 |
 | reception_comparative | 1 |
 | equipment_file | 1 |
 | citation_repere | 1 |
@@ -487,7 +496,7 @@ generated_at: "2026-05-13T11:01:48"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| majeure | 12 |
+| majeure | 13 |
 | critique | 8 |
 | structurante | 1 |
 
@@ -497,6 +506,7 @@ generated_at: "2026-05-13T11:01:48"
 - S75-A010 [eleve] — risque de psychologiser Curtis à partir d'un texte primitif et d'une lecture secondaire
 - S75-A012 [moyen] — scène très suggestive, exposée au risque de psychologisation
 - S75-A020 [moyen] — formule forte d'Ott ; à articuler avec d'autres seuils possibles comme « Digital » ou les sessions RCA
+- S75-A032 [moyen] — ne pas faire d'une photographie un tournant causal ; elle cristallise une image
 - S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
 - S74-A027 [faible] — scène largement cohérente avec les autres récits internes, mais stylisée par Middles
 - S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique

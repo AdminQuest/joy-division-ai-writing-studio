@@ -460,7 +460,7 @@ usage_livre:
 ```yaml
 id: S75-A028
 type_unite: archive
- titre: Granada TV et l’image industrielle comme mauvais miroir
+titre: Granada TV et l’image industrielle comme mauvais miroir
 source_id: S75
 pages:
   pdf:
@@ -1089,7 +1089,7 @@ usage_livre:
 ```yaml
 id: S75-A038
 type_unite: concept
- titre: Unknown Pleasures comme secret produit en masse
+titre: Unknown Pleasures comme secret produit en masse
 source_id: S75
 pages:
   pdf:
@@ -1133,9 +1133,9 @@ relations:
   - type: prolonge
     cible: MYTH-005
     note: "Montre que Factory combine image, accessibilité et économie, sans pureté anti-business."
-  - type: prépare
-    cible: CONCEPT-mass-produced-secret
-    note: "Concept candidat à créer si plusieurs atomes traitent la diffusion comme secret communautaire."
+  - type: prolonge
+    cible: CONCEPT-007
+    note: "Prolonge le concept de secret produit en masse pour penser la diffusion initiale d'Unknown Pleasures."
   - type: prolonge
     cible: S75-A036
     note: "Relie le pacte Factory à la diffusion concrète d'Unknown Pleasures."

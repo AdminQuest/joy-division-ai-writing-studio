@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:01:48"
+generated_at: "2026-05-13T11:46:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 65 |
-| Atomes critiques / majeurs | 12 |
+| Atomes | 66 |
+| Atomes critiques / majeurs | 13 |
 | Citations | 3 |
 | Événements chronologiques | 3 |
 | Personnes | 4 |
-| Chansons | 2 |
+| Chansons | 3 |
 | Sources mobilisées | 7 |
 
 ## 4. Sources mobilisées
@@ -40,7 +40,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 12 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -66,6 +66,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A060** — S74-A060 — New Order : controverse nominale, mémoire fasciste et stratégie du silence  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
@@ -201,6 +203,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 - She's Lost Control
 - SONG-S75-003 — Disorder
+- SONG-S75-012 — Transmission
 
 ## 11. Concepts récurrents
 
@@ -295,6 +298,11 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - austérité (1)
 - internalisation (1)
 - ombre portée (1)
+- Transmission (1)
+- communication (1)
+- pop song (1)
+- post-punk (1)
+- électronique (1)
 - provocation (1)
 - imagerie fasciste (1)
 - naïveté (1)
@@ -324,16 +332,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - chambre imaginaire (1)
 - isolation sonore (1)
 - visualité du son (1)
-- rejet (1)
-- son drainé (1)
-- puissance live (1)
-- canonisation (1)
-- dépossession (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
 - S75-A001 — prolonge → MOTIF-heritage
 - S75-A001 — nuance → MYTH-culte_sombre
+- S75-A034 — prolonge → CONCEPT-006
+- S75-A034 — nuance → MYTH-joy_division_pure_obscurité
 - S74-A024 — nuance → MYTH-002
 - S74-A024 — prolonge → S74-A017
 - S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
@@ -392,6 +397,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | synthese | 1 |
 | réception | 1 |
 | memoire | 1 |
+| lecture_musicale | 1 |
 | lieu | 1 |
 | institution | 1 |
 | session | 1 |
@@ -409,13 +415,14 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 52 |
-| critique | 11 |
+| critique | 12 |
 | majeure | 1 |
 | moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
+- S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
 - S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
 - S74-A031 [moyen] — risque de téléologie reliant trop directement le premier poster à l’ensemble de l’esthétique Factory ultérieure

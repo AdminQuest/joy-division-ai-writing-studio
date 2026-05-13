@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:01:48"
+generated_at: "2026-05-13T11:46:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 133 |
-| Atomes critiques / majeurs | 20 |
+| Atomes | 134 |
+| Atomes critiques / majeurs | 21 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 1 |
-| Chansons | 7 |
+| Chansons | 8 |
 | Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
@@ -44,7 +44,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 9 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 5 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -76,6 +76,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A018** — S75-A018 — *An Ideal for Living* : provocation visuelle, jeunesse et impasse critique  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -279,6 +281,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Decades
 - SONG-S75-002 — At a Later Date
 - SONG-S75-006 — Gutz
+- SONG-S75-012 — Transmission
 
 ## 11. Concepts récurrents
 
@@ -392,6 +395,11 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - An Ideal for Living (1)
 - imagerie nazie (1)
 - jeunesse (1)
+- Transmission (1)
+- communication (1)
+- pop song (1)
+- post-punk (1)
+- électronique (1)
 - Piccadilly Plaza (1)
 - bureau de promotion (1)
 - Bowie (1)
@@ -402,11 +410,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - scène locale (1)
 - jalousie (1)
 - projection (1)
-- Band on the Wall (1)
-- beauté rare (1)
-- menace contenue (1)
-- profit inattendu (1)
-- intensité (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -422,6 +425,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S75-A018 — prolonge → S75-A016
 - S75-A018 — prolonge → S75-A017
 - S75-A018 — nuance → MYTH-fascination_fasciste
+- S75-A034 — prolonge → CONCEPT-006
+- S75-A034 — nuance → MYTH-joy_division_pure_obscurité
 - S74-A022 — nuance → MYTH-002
 - S74-A022 — prolonge → S74-A017
 - S74-A024 — nuance → MYTH-002
@@ -518,6 +523,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | culture_domestique | 1 |
 | concert | 1 |
 | influence | 1 |
+| lecture_musicale | 1 |
 | genealogie_culturelle | 1 |
 | acteur_critique | 1 |
 | analyse_culturelle | 1 |
@@ -543,7 +549,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 113 |
-| critique | 14 |
+| critique | 15 |
 | majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -553,6 +559,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S75-A016 [eleve] — risque d'assimiler toute référence WWII à une sympathie politique ; risque inverse d'excuser trop vite la provocation
 - S75-A017 [eleve] — tension entre correction factuelle sur Warsaw et condamnation éthique du nom Joy Division
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
+- S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
 - S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
 - S74-A028 [eleve] — risque de confirmer trop vite la légende du groupe maudit et isolé

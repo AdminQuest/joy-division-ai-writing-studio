@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:01:48"
+generated_at: "2026-05-13T11:46:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 68 |
-| Atomes critiques / majeurs | 4 |
+| Atomes | 69 |
+| Atomes critiques / majeurs | 5 |
 | Citations | 8 |
-| Événements chronologiques | 2 |
+| Événements chronologiques | 3 |
 | Personnes | 2 |
-| Chansons | 1 |
+| Chansons | 2 |
 | Sources mobilisées | 6 |
 
 ## 4. Sources mobilisées
@@ -40,12 +40,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 1 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
 - **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A031** — S75-A031 — Londres, Hope & Anchor et crise épileptique : anti-triomphe de la sortie régionale  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_retrospective`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
@@ -197,6 +199,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ## 8. Chronologie rattachée
 
+- CHR-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
 
@@ -208,6 +211,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 ## 10. Chansons rattachées
 
 - She's Lost Control
+- SONG-S75-015 — She’s Lost Control
 
 ## 11. Concepts récurrents
 
@@ -246,6 +250,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - sommeil (2)
 - Bernard Sumner (2)
 - crise (2)
+- téléologie morbide (2)
 - Islington (2)
 - tension (2)
 - groupe (2)
@@ -290,7 +295,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - danger esthétique (1)
 - Glass (1)
 - Mesh (1)
-- narration expérimentale (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -305,6 +309,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - ambition (1)
 - naïveté (1)
 - Macclesfield (1)
+- Londres (1)
+- Hope & Anchor (1)
+- crise épileptique (1)
+- fatigue (1)
+- sortie régionale (1)
 - désindustrialisation (1)
 - ruine urbaine (1)
 - reconstruction (1)
@@ -322,6 +331,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S75-A003 — prolonge → S45
 - S75-A012 — nuance → S75-A010
 - S75-A012 — prépare → CONCEPT-poesie_de_l_alienation
+- S75-A031 — nuance → MYTH-002
+- S75-A031 — prolonge → CONCEPT-004
+- S75-A031 — nuance → MYTH-003
 - S74-A002 — nuance → MYTH-003
 - S74-A002 — derive_de → CONCEPT-002
 - S74-A002 — prolonge → CONCEPT-003
@@ -367,6 +379,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | biographie_culturelle | 1 |
 | citation_clef | 1 |
 | mythe | 1 |
+| scene_fondatrice | 1 |
 | interpretation_album | 1 |
 | concert_sequence | 1 |
 | concert_incident | 1 |
@@ -395,12 +408,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|
 | non qualifiée | 64 |
 | majeure | 3 |
-| critique | 1 |
+| critique | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
 - S75-A012 [moyen] — scène très suggestive, exposée au risque de psychologisation
+- S75-A031 [eleve] — risque de téléologie morbide si la crise est lue comme signe fatal plutôt que comme événement médical et biographique
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
 
