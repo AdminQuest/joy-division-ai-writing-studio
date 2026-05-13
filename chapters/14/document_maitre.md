@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:10:17"
+generated_at: "2026-05-13T15:20:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 509 |
+| Atomes | 512 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 39 |
+| Citations | 40 |
 | Événements chronologiques | 17 |
 | Personnes | 30 |
 | Chansons | 8 |
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 15 | 12 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 18 | 13 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -322,6 +322,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q047** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
@@ -483,6 +484,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - transition (3)
 - Wilson (3)
 - indépendance (3)
+- manager (3)
 - Rabid Records (3)
 - épilepsie (2)
 - Unknown Pleasures (2)
@@ -493,11 +495,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - America (2)
 - Derby Hall (2)
 - Ceremony (2)
+- New Order (2)
 - suicide (2)
 - canonisation (2)
 - Sex Pistols (2)
 - NME (2)
 - contrat (2)
+- RCA (2)
 - Hannett (2)
 - fatigue (2)
 - dépossession (2)
@@ -505,7 +509,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Still (2)
 - réception critique (2)
 - reconnaissance (2)
-- manager (2)
 - club (2)
 - objet disque (2)
 - studio (2)
@@ -514,8 +517,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Factory Club (2)
 - silence (2)
 - DIY (2)
-- pochette (2)
-- Tosh Ryan (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -817,6 +818,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | economie_discographique | 1 |
 | cadrage_source | 1 |
 | controverse_historiographique | 1 |
+| scene_industrielle | 1 |
+| tension_technique | 1 |
+| bascule_management | 1 |
 | lecture_culturelle | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
@@ -842,7 +846,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 421 |
-| critique | 61 |
+| critique | 64 |
 | majeure | 23 |
 | structurante | 2 |
 | moyenne | 2 |

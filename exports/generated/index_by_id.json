@@ -40462,6 +40462,668 @@
       "source_year": "2006"
     }
   },
+  "S76-A048": {
+    "kind": "atom",
+    "id": "S76-A048",
+    "file": "sources/middles_reade_torn_apart/source_part_05.md",
+    "heading": "S76-A048 — RCA Piccadilly Plaza : Curtis cherche une sortie par la major",
+    "data": {
+      "id": "S76-A048",
+      "type_unite": "scene_industrielle",
+      "source_id": "S76",
+      "titre": "RCA Piccadilly Plaza : Curtis cherche une sortie par la major",
+      "pages": {
+        "pdf": [
+          93,
+          96
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "Au printemps 1978, Joy Division attire une attention croissante. S76 insiste sur l’initiative de Curtis : ses passages réguliers au bureau RCA de Piccadilly Plaza, auprès de Derek Brandwood, font naître la possibilité d’un album. Curtis apparaît comme le membre le plus « driven » avec Terry Mason, fasciné par Bowie et Iggy Pop, encore attiré par l’idée d’une major plutôt que par un label indépendant.\n",
+      "role_argumentatif": [
+        "montrer le rôle moteur de Curtis dans la recherche d’un débouché industriel",
+        "nuancer l’idée d’un refus originel de l’industrie musicale",
+        "relier l’imaginaire Bowie/Iggy à l’attraction initiale pour RCA"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignages_directs_Brandwood_Mason_et_reconstruction",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "ne pas projeter rétrospectivement l’éthique Factory sur un Curtis qui cherche encore une reconnaissance par la major"
+      },
+      "motifs": [
+        "RCA",
+        "Piccadilly Plaza",
+        "Derek Brandwood",
+        "Ian Curtis driven",
+        "major label"
+      ],
+      "concepts_derives": [
+        "désir de major",
+        "transition industrie indépendante"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A047",
+          "note": "Après Rafters et Wilson, Curtis continue à chercher des canaux de reconnaissance institutionnelle."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-004",
+          "note": "L’indépendance Factory n’est pas une posture originelle pure ; elle se construit aussi contre l’échec RCA."
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A049",
+          "note": "Les contacts RCA débouchent sur l’idée de « Keep On Keepin’ On » et d’un album."
+        }
+      ],
+      "couche_narrative": [
+        "industrie_musicale",
+        "biographique",
+        "management"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A049": {
+    "kind": "atom",
+    "id": "S76-A049",
+    "file": "sources/middles_reade_torn_apart/source_part_05.md",
+    "heading": "S76-A049 — Grapevine/RCA : le projet soul « Keep On Keepin’ On » comme malentendu productif",
+    "data": {
+      "id": "S76-A049",
+      "type_unite": "projet_discographique",
+      "source_id": "S76",
+      "titre": "Grapevine/RCA : le projet soul « Keep On Keepin’ On » comme malentendu productif",
+      "pages": {
+        "pdf": [
+          95,
+          97
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "Richard Searling, lié à John Anderson de Grapevine Records et à Bernie Binnick, imagine faire enregistrer à un groupe local une version vive du titre northern soul « Keep On Keepin’ On ». Curtis se trouve là, et Joy Division devient le candidat disponible. La proposition glisse d’un single de reprise vers le financement d’un album complet destiné à être présenté à des majors. S76 montre un malentendu originel : l’occasion paraît majeure, mais elle repose sur une incompatibilité esthétique.\n",
+      "role_argumentatif": [
+        "documenter la genèse précise du projet RCA/Grapevine",
+        "montrer que l’opportunité naît d’une logique commerciale externe au groupe",
+        "introduire la tension soul commerciale / post-punk industriel"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignages_Brandwood_Searling_et_reconstruction",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_dans_ses_grandes_lignes"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "le projet ne doit pas être présenté comme vraie signature RCA ; S76 insiste sur le « almost »"
+      },
+      "motifs": [
+        "Grapevine Records",
+        "RCA",
+        "Keep On Keepin’ On",
+        "northern soul",
+        "Bernie Binnick",
+        "John Anderson"
+      ],
+      "concepts_derives": [
+        "malentendu productif",
+        "promesse industrielle",
+        "single devenu album"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A048",
+          "note": "Les visites de Curtis à RCA rendent possible l’embranchement Grapevine."
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A050",
+          "note": "Le projet débouche sur les sessions Arrow Studios de mai 1978."
+        },
+        {
+          "type": "nuance",
+          "cible": "CONCEPT-industrie_musicale",
+          "note": "La major n’est pas seulement une machine coercitive ; elle fonctionne aussi comme réseau de hasard, d’intermédiaires et de promesses floues."
+        }
+      ],
+      "couche_narrative": [
+        "production",
+        "industrie_musicale"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A050": {
+    "kind": "atom",
+    "id": "S76-A050",
+    "file": "sources/middles_reade_torn_apart/source_part_05.md",
+    "heading": "S76-A050 — Arrow Studios, 3-5 mai 1978 : collision entre soul professionnelle et post-punk froid",
+    "data": {
+      "id": "S76-A050",
+      "type_unite": "session_studio",
+      "source_id": "S76",
+      "titre": "Arrow Studios, 3-5 mai 1978 : collision entre soul professionnelle et post-punk froid",
+      "pages": {
+        "pdf": [
+          97,
+          99
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "Les 3, 4 et 5 mai 1978, Joy Division enregistre à Arrow Studios. Le studio est techniquement moderne, comparable à Strawberry, mais la session est froide. Brandwood se souvient du groupe replié, d’Anderson et Auger jugeant que les musiciens ne savent pas jouer, et d’une incompatibilité entre l’objectif d’un disque de soul et l’univers industriel du groupe. Les sessions fixent une scène d’incompréhension mutuelle, non une simple incompétence.\n",
+      "role_argumentatif": [
+        "stabiliser la séquence RCA/Arrow avec date, lieu, acteurs et logique esthétique",
+        "montrer la formation négative du son Joy Division par rejet d’un cadre extérieur",
+        "éviter l’opposition simpliste amateurs géniaux / professionnels aveugles"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Brandwood_et_reconstruction_discographique",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique"
+      },
+      "motifs": [
+        "Arrow Studios",
+        "RCA sessions",
+        "John Anderson",
+        "Bob Auger",
+        "Richard Searling",
+        "soul versus industrial"
+      ],
+      "concepts_derives": [
+        "collision esthétique",
+        "formation négative du son",
+        "studio comme miroir déformant"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A049",
+          "note": "Le projet soul se transforme en session album problématique."
+        },
+        {
+          "type": "nuance",
+          "cible": "S75-A0XX",
+          "note": "À croiser avec Ott sur les sessions RCA et la fonction formatrice de l’échec."
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A051",
+          "note": "L’incompréhension technique prépare le conflit autour du synthétiseur et de la voix de Curtis."
+        }
+      ],
+      "couche_narrative": [
+        "studio",
+        "production",
+        "esthétique"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A051": {
+    "kind": "atom",
+    "id": "S76-A051",
+    "file": "sources/middles_reade_torn_apart/source_part_05.md",
+    "heading": "S76-A051 — La voix de Curtis à Arrow : adrift, dislodged, reedy",
+    "data": {
+      "id": "S76-A051",
+      "type_unite": "analyse_sonore",
+      "source_id": "S76",
+      "titre": "La voix de Curtis à Arrow : adrift, dislodged, reedy",
+      "pages": {
+        "pdf": [
+          99
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "S76 décrit la voix de Curtis dans les sessions Arrow comme placée au-dessus du mix, semi-punk, « adrift », « dislodged » et « reedy », très loin des moments ultérieurs plus célébrés. Cette caractérisation est précieuse : elle montre que la voix Curtis n’est pas encore l’évidence spectrale de *Unknown Pleasures*, mais un matériau mal situé dans une production inadéquate.\n",
+      "role_argumentatif": [
+        "documenter l’instabilité du timbre Curtis avant Hannett",
+        "montrer que la voix mythique résulte aussi de choix de production ultérieurs",
+        "éviter de naturaliser le chant de Curtis comme déjà pleinement formé"
+      ],
+      "niveau_preuve": {
+        "statut": "description_critique_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_interpretation_de_source"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "description qualitative ; à croiser avec écoute des bandes RCA et sources Hook/Ott"
+      },
+      "motifs": [
+        "voix de Curtis",
+        "Arrow Studios",
+        "mixage",
+        "pré-Hannett"
+      ],
+      "concepts_derives": [
+        "voix non stabilisée",
+        "production du spectral"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A050",
+          "note": "L’échec Arrow se manifeste concrètement dans le placement de la voix."
+        },
+        {
+          "type": "prepare",
+          "cible": "CONCEPT-spatialite_sonore",
+          "note": "Le contraste avec Hannett permet de comprendre la fabrication ultérieure de l’espace vocal."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "note": "Curtis n’apparaît pas comme voix spectralement achevée dès l’origine."
+        }
+      ],
+      "couche_narrative": [
+        "sonore",
+        "studio"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A052": {
+    "kind": "atom",
+    "id": "S76-A052",
+    "file": "sources/middles_reade_torn_apart/source_part_05.md",
+    "heading": "S76-A052 — Le synthétiseur ajouté par Anderson : rejet, ironie rétrospective et futur New Order",
+    "data": {
+      "id": "S76-A052",
+      "type_unite": "tension_technique",
+      "source_id": "S76",
+      "titre": "Le synthétiseur ajouté par Anderson : rejet, ironie rétrospective et futur New Order",
+      "pages": {
+        "pdf": [
+          97,
+          100
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "Anderson ajoute discrètement du synthétiseur pour épaissir le son, mais cette intervention heurte Joy Division, en particulier Curtis, qui la déteste et réagit avec frustration. S76 souligne l’ironie : les musiciens qui deviendront New Order refusent alors les synthétiseurs, alors qu’ils chercheront peu après à élargir leur musique de façon proche. L’atome isole une tension fondamentale : technologie subie contre technologie choisie.\n",
+      "role_argumentatif": [
+        "montrer que le rejet du synthé porte moins sur l’instrument que sur la dépossession esthétique",
+        "relier l’échec RCA à la future appropriation électronique",
+        "nuancer la trajectoire post-punk vers New Order"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_critique_et_temoignage",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_episode; interpretation_a_croiser"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "l’ironie New Order est forte mais ne doit pas écraser les contextes techniques distincts"
+      },
+      "motifs": [
+        "synthesizer",
+        "John Anderson",
+        "New Order",
+        "RCA sessions",
+        "technologie"
+      ],
+      "concepts_derives": [
+        "technologie subie",
+        "technologie choisie",
+        "appropriation électronique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A050",
+          "note": "La collision esthétique se cristallise dans l’ajout non consenti de synthétiseur."
+        },
+        {
+          "type": "prepare",
+          "cible": "CONCEPT-post_punk_electronique",
+          "note": "Le refus initial annonce paradoxalement une future appropriation électronique."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-005",
+          "note": "L’électronique n’entre pas par révélation pure ; elle passe par rejet, conflit puis réappropriation."
+        }
+      ],
+      "couche_narrative": [
+        "technologie",
+        "production",
+        "postérité"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A053": {
+    "kind": "atom",
+    "id": "S76-A053",
+    "file": "sources/middles_reade_torn_apart/source_part_05.md",
+    "heading": "S76-A053 — Contrats RCA : inexpérience juridique et management manquant",
+    "data": {
+      "id": "S76-A053",
+      "type_unite": "industrie_musicale",
+      "source_id": "S76",
+      "titre": "Contrats RCA : inexpérience juridique et management manquant",
+      "pages": {
+        "pdf": [
+          99
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "S76 insiste sur l’inexpérience contractuelle de Joy Division. Au-delà de Terry Mason, le groupe est presque sans manager et se trouve confronté à un contrat d’enregistrement standard et à un contrat d’édition chargé d’américanismes. Les clauses sont discutées au pub, dans la confusion. Le groupe sollicite Richard Boon, mais cette aide attendue ne résout pas simplement la situation.\n",
+      "role_argumentatif": [
+        "montrer la fragilité institutionnelle du groupe avant Gretton",
+        "documenter l’apprentissage par risque contractuel",
+        "expliquer pourquoi l’arrivée d’un manager devient structurellement nécessaire"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_et_temoignage_Terry_Mason",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible",
+        "raison": "atome structurel ; utile pour comprendre la bascule managériale"
+      },
+      "motifs": [
+        "RCA contracts",
+        "publishing",
+        "Richard Boon",
+        "Terry Mason",
+        "pub meetings"
+      ],
+      "concepts_derives": [
+        "inexpérience contractuelle",
+        "management manquant",
+        "vulnérabilité juridique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A049",
+          "note": "La promesse industrielle se matérialise en contrats mal compris."
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A055",
+          "note": "La fragilité contractuelle donne un rôle décisif à Gretton."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-004",
+          "note": "Avant l’éthique Factory, le groupe est exposé à des cadres contractuels ordinaires et mal maîtrisés."
+        }
+      ],
+      "couche_narrative": [
+        "industrie_musicale",
+        "management"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A054": {
+    "kind": "atom",
+    "id": "S76-A054",
+    "file": "sources/middles_reade_torn_apart/source_part_05.md",
+    "heading": "S76-A054 — Les bandes RCA comme démo impossible : trop d’album, pas assez d’identité",
+    "data": {
+      "id": "S76-A054",
+      "type_unite": "diagnostic_discographique",
+      "source_id": "S76",
+      "titre": "Les bandes RCA comme démo impossible : trop d’album, pas assez d’identité",
+      "pages": {
+        "pdf": [
+          100
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "Brandwood se souvient que les bandes RCA sont finalement envisagées comme démo pour attirer un intérêt sérieux, mais que l’option d’un album complet est une erreur : quatre titres auraient suffi. Présenter un album entier et sub-standard ne donne pas aux labels un objet de désir mais un dossier trop lourd, trop faible, impossible à travailler. L’échec est aussi une erreur de format industriel.\n",
+      "role_argumentatif": [
+        "montrer que l’échec RCA est esthétique mais aussi stratégique",
+        "documenter l’apprentissage du format démo",
+        "relier industrie musicale et construction de l’identité sonore"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Brandwood",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_temoignage"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible",
+        "raison": "diagnostic industriel clair, sans surplomb téléologique nécessaire"
+      },
+      "motifs": [
+        "demo",
+        "album sub-standard",
+        "RCA tapes",
+        "major labels"
+      ],
+      "concepts_derives": [
+        "erreur de format",
+        "objet industriel inadéquat"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A050",
+          "note": "La session ratée devient une démo mal calibrée."
+        },
+        {
+          "type": "nuance",
+          "cible": "S76-A048",
+          "note": "Le désir de major se heurte à une mauvaise compréhension du format attendu par l’industrie."
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A055",
+          "note": "L’échec de cette médiation précipite le retrait de Curtis et l’entrée de Gretton."
+        }
+      ],
+      "couche_narrative": [
+        "industrie_musicale",
+        "discographie"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A055": {
+    "kind": "atom",
+    "id": "S76-A055",
+    "file": "sources/middles_reade_torn_apart/source_part_05.md",
+    "heading": "S76-A055 — Après RCA : Curtis se détache, Gretton entre dans le champ",
+    "data": {
+      "id": "S76-A055",
+      "type_unite": "bascule_management",
+      "source_id": "S76",
+      "titre": "Après RCA : Curtis se détache, Gretton entre dans le champ",
+      "pages": {
+        "pdf": [
+          100,
+          101
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "Après les sessions RCA, Brandwood perçoit un changement net chez Curtis : l’enthousiasme initial laisse place à une distance froide, comme si Curtis avait compris que la voie RCA ne fonctionnerait pas. Au même moment, Rob Gretton mûrit l’idée de manager le groupe après le Stiff Test/Chiswick Challenge. Le passage relie l’échec industriel à la bascule managériale, sans en faire un enchaînement mécanique.\n",
+      "role_argumentatif": [
+        "relier la sortie de l’orbite RCA à l’entrée de Gretton",
+        "montrer la transformation de Curtis par expérience négative",
+        "préparer l’émergence de Factory comme solution par défaut autant que par conviction"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Brandwood_Hooky_et_reconstruction",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_dans_ses_grandes_lignes"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "ne pas transformer la simultanéité RCA/Gretton en causalité simple ; elle doit rester relation structurante à vérifier par S75 et Hook"
+      },
+      "motifs": [
+        "Rob Gretton",
+        "après RCA",
+        "Stiff Test",
+        "manager",
+        "détachement de Curtis"
+      ],
+      "concepts_derives": [
+        "bascule managériale",
+        "apprentissage par échec",
+        "désenchantement industriel"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A045",
+          "note": "Gretton a été converti à Rafters et commence maintenant à chercher une place effective."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S76-A054",
+          "note": "L’échec de l’objet RCA accompagne le retrait de Curtis."
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A056",
+          "note": "La suite doit traiter l’installation concrète de Gretton comme manager."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-004",
+          "note": "Factory et Gretton surgissent après une tentative major manquée, non dans une pure alternative originelle."
+        }
+      ],
+      "couche_narrative": [
+        "management",
+        "industrie_musicale",
+        "biographique"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
   "S76-A011": {
     "kind": "atom",
     "id": "S76-A011",
@@ -45735,9 +46397,9 @@
       "source_year": "2012"
     }
   },
-  "NO_ID::sources/hook/citations_exactes.md::1096": {
+  "NO_ID::sources/hook/citations_exactes.md::1104": {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1096",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1104",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -50330,9 +50992,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1242": {
+  "NO_ID::sources/suatoni/README.md::1250": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1242",
+    "id": "NO_ID::sources/suatoni/README.md::1250",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -50347,9 +51009,9 @@
       "source_short_title": "Alfredo Suatoni, Joy Division: Dal cuore della città / From the Centre of the City, 1990"
     }
   },
-  "NO_ID::sources/suatoni/README.md::1243": {
+  "NO_ID::sources/suatoni/README.md::1251": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1243",
+    "id": "NO_ID::sources/suatoni/README.md::1251",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -50385,9 +51047,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1244": {
+  "NO_ID::sources/suatoni/README.md::1252": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1244",
+    "id": "NO_ID::sources/suatoni/README.md::1252",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -51530,9 +52192,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1280": {
+  "NO_ID::sources/greig_strong/README.md::1288": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1280",
+    "id": "NO_ID::sources/greig_strong/README.md::1288",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -51547,9 +52209,9 @@
       "source_short_title": "Alastair Greig ; Catherine Strong, But We Remember When We Were Young, 2014"
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1281": {
+  "NO_ID::sources/greig_strong/README.md::1289": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1281",
+    "id": "NO_ID::sources/greig_strong/README.md::1289",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -51576,9 +52238,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1282": {
+  "NO_ID::sources/greig_strong/README.md::1290": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1282",
+    "id": "NO_ID::sources/greig_strong/README.md::1290",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -51884,9 +52546,9 @@
       "source_year": "2004"
     }
   },
-  "NO_ID::registers/songs/master_songs.md::1291": {
+  "NO_ID::registers/songs/master_songs.md::1299": {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1291",
+    "id": "NO_ID::registers/songs/master_songs.md::1299",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -55861,6 +56523,497 @@
       ],
       "risque": [
         "utile comme formule méthodologique ; ne pas dramatiser la scission identitaire"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q045": {
+    "kind": "quote",
+    "id": "S76-Q045",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q045 — Exergue Brandwood sur le potentiel encore invisible de Joy Division",
+    "data": {
+      "id": "S76-Q045",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Derek Brandwood",
+      "citation": "Nobody could have been aware, at that point, just how good Joy Division were about to become.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          93
+        ]
+      },
+      "usage": [
+        "RCA sessions",
+        "potentiel non stabilisé",
+        "lecture rétrospective"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "related_atoms": [
+        "S76-A050"
+      ],
+      "risque": [
+        "exergue déjà fortement téléologique ; à traiter comme mémoire rétrospective"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q046": {
+    "kind": "quote",
+    "id": "S76-Q046",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q046 — Brandwood sur le talent mancunien ignoré par Londres",
+    "data": {
+      "id": "S76-Q046",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Derek Brandwood",
+      "citation": "There I was, working in a city that was just bursting with talent and potential",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          94
+        ]
+      },
+      "usage": [
+        "Manchester versus London",
+        "industrie musicale",
+        "RCA"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S76-A048"
+      ],
+      "risque": [
+        "citation utile sur le centralisme londonien ; éviter le cliché provincial trop simple"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q047": {
+    "kind": "quote",
+    "id": "S76-Q047",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q047 — Curtis ne veut pas seulement l’indépendance",
+    "data": {
+      "id": "S76-Q047",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Derek Brandwood",
+      "citation": "Ian told me that he didn’t really want to be on an independent label.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          95
+        ]
+      },
+      "usage": [
+        "désir de major",
+        "RCA",
+        "démythification de l’éthique indépendante originelle"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A048"
+      ],
+      "risque": [
+        "citation importante mais à croiser avec Hook, Ott et sources Factory"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q048": {
+    "kind": "quote",
+    "id": "S76-Q048",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q048 — Mason sur RCA comme initiative de Curtis",
+    "data": {
+      "id": "S76-Q048",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Terry Mason",
+      "citation": "The RCA thing was entirely Ian.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          95
+        ]
+      },
+      "usage": [
+        "RCA",
+        "rôle moteur de Curtis",
+        "Terry Mason"
+      ],
+      "chapitres": [
+        "Chapitre 5"
+      ],
+      "related_atoms": [
+        "S76-A048"
+      ],
+      "risque": [
+        "citation à utiliser pour rôle moteur, non pour isoler Curtis du groupe"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q049": {
+    "kind": "quote",
+    "id": "S76-Q049",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q049 — S76 sur la quasi-signature RCA",
+    "data": {
+      "id": "S76-Q049",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "Were Joy Division about to be signed to RCA? Not Quite. But it seemed close enough… almost.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          96
+        ]
+      },
+      "usage": [
+        "RCA",
+        "promesse industrielle",
+        "presque-signature"
+      ],
+      "chapitres": [
+        "Chapitre 5"
+      ],
+      "related_atoms": [
+        "S76-A049"
+      ],
+      "risque": [
+        "formulation narrative ; utile pour cadrer sans surdéterminer"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q050": {
+    "kind": "quote",
+    "id": "S76-Q050",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q050 — Brandwood sur l’investissement RCA/Grapevine",
+    "data": {
+      "id": "S76-Q050",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Derek Brandwood",
+      "citation": "We could instigate and oversee the recordings and move the band on.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          97
+        ]
+      },
+      "usage": [
+        "RCA sessions",
+        "médiation industrielle",
+        "Brandwood"
+      ],
+      "chapitres": [
+        "Chapitre 5"
+      ],
+      "related_atoms": [
+        "S76-A049"
+      ],
+      "risque": [
+        "à traiter comme point de vue Brandwood, non comme réalité contractuelle assurée"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q051": {
+    "kind": "quote",
+    "id": "S76-Q051",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q051 — Brandwood sur l’incompatibilité Arrow",
+    "data": {
+      "id": "S76-Q051",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Derek Brandwood",
+      "citation": "It was never going to work. That much was obvious.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          98
+        ]
+      },
+      "usage": [
+        "Arrow Studios",
+        "collision esthétique",
+        "RCA sessions"
+      ],
+      "chapitres": [
+        "Chapitre 6"
+      ],
+      "related_atoms": [
+        "S76-A050"
+      ],
+      "risque": [
+        "jugement rétrospectif ; ne pas le transformer en évidence contemporaine"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q052": {
+    "kind": "quote",
+    "id": "S76-Q052",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q052 — Brandwood sur Joy Division au seuil de sa propre qualité",
+    "data": {
+      "id": "S76-Q052",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Derek Brandwood",
+      "citation": "they weren’t just another punk band pulled in from the streets",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          98
+        ]
+      },
+      "usage": [
+        "RCA sessions",
+        "statut artistique non stabilisé",
+        "post-punk"
+      ],
+      "chapitres": [
+        "Chapitre 6"
+      ],
+      "related_atoms": [
+        "S76-A050"
+      ],
+      "risque": [
+        "citation rétrospective ; à équilibrer avec le constat de faiblesse en studio"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q053": {
+    "kind": "quote",
+    "id": "S76-Q053",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q053 — S76 sur la voix Curtis à Arrow",
+    "data": {
+      "id": "S76-Q053",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "the Curtis vocals seemed adrift, dislodged and reedy",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          99
+        ]
+      },
+      "usage": [
+        "voix de Curtis",
+        "pré-Hannett",
+        "RCA sessions"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "related_atoms": [
+        "S76-A051"
+      ],
+      "risque": [
+        "citation critique utile ; à croiser avec écoute et autres sources"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q054": {
+    "kind": "quote",
+    "id": "S76-Q054",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q054 — Brandwood sur le format démo",
+    "data": {
+      "id": "S76-Q054",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Derek Brandwood",
+      "citation": "Four songs would have been enough",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          100
+        ]
+      },
+      "usage": [
+        "RCA tapes",
+        "erreur de format",
+        "démo"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "related_atoms": [
+        "S76-A054"
+      ],
+      "risque": [
+        "citation courte, utile pour diagnostic industriel"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q055": {
+    "kind": "quote",
+    "id": "S76-Q055",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q055 — Brandwood sur le changement de Curtis après RCA",
+    "data": {
+      "id": "S76-Q055",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Derek Brandwood",
+      "citation": "I just knew he had gone.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          100
+        ]
+      },
+      "usage": [
+        "après RCA",
+        "détachement de Curtis",
+        "bascule managériale"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "related_atoms": [
+        "S76-A055"
+      ],
+      "risque": [
+        "formule forte ; à utiliser comme perception de Brandwood, non comme fait psychologique certain"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q056": {
+    "kind": "quote",
+    "id": "S76-Q056",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q056 — Mason sur la valeur d’expérience des bandes RCA",
+    "data": {
+      "id": "S76-Q056",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Terry Mason",
+      "citation": "Ian could say, ‘Oh, I have recorded an album’.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          100
+        ]
+      },
+      "usage": [
+        "RCA sessions",
+        "progression subjective",
+        "expérience studio"
+      ],
+      "chapitres": [
+        "Chapitre 5"
+      ],
+      "related_atoms": [
+        "S76-A054"
+      ],
+      "risque": [
+        {
+          "citation utile pour nuancer l’échec": "l’objet échoue, l’expérience compte"
+        }
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q057": {
+    "kind": "quote",
+    "id": "S76-Q057",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
+    "heading": "S76-Q057 — Hook sur Gretton comme figure encore floue",
+    "data": {
+      "id": "S76-Q057",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Peter Hook",
+      "citation": "he was a shadowy figure, to say the least",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          100,
+          101
+        ]
+      },
+      "usage": [
+        "Rob Gretton",
+        "entrée du manager",
+        "après RCA"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "related_atoms": [
+        "S76-A055"
+      ],
+      "risque": [
+        "citation de mémoire ; à croiser avec Hook 2012 et autres sources Gretton/Factory"
       ],
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
@@ -59861,6 +61014,214 @@
       "certainty": "medium",
       "methodological_warnings": [
         "figure secondaire ; utile pour la sociabilité intime et scolaire"
+      ]
+    }
+  },
+  "PERS-S76-032": {
+    "kind": "person",
+    "id": "PERS-S76-032",
+    "file": "registers/people/s76_torn_apart_people_part_05.md",
+    "heading": "PERS-S76-032 — Derek Brandwood",
+    "data": {
+      "id": "PERS-S76-032",
+      "type_unite": "person",
+      "name": "Derek Brandwood",
+      "role": [
+        "représentant RCA nord de l’Angleterre",
+        "médiateur industriel des sessions RCA/Grapevine",
+        "témoin du potentiel et de l’échec RCA"
+      ],
+      "associated_entities": [
+        "RCA",
+        "Piccadilly Plaza",
+        "Arrow Studios",
+        "Derek Brandwood RCA office"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Brandwood apparaît comme un passeur local entre l’industrie musicale nationale et la scène mancunienne. Il perçoit le potentiel de Curtis, mais n’a pas de pouvoir A&R clair et se trouve associé à une tentative RCA/Grapevine qui échoue par incompatibilité esthétique et mauvais calibrage industriel.\n"
+      },
+      "related_atoms": [
+        "S76-A048",
+        "S76-A049",
+        "S76-A050",
+        "S76-A054",
+        "S76-A055"
+      ],
+      "related_quotes": [
+        "S76-Q045",
+        "S76-Q046",
+        "S76-Q047",
+        "S76-Q050",
+        "S76-Q051",
+        "S76-Q052",
+        "S76-Q054",
+        "S76-Q055"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "témoin rétrospectif ; distinguer mémoire personnelle, diagnostic industriel et faits de session"
+      ]
+    }
+  },
+  "PERS-S76-033": {
+    "kind": "person",
+    "id": "PERS-S76-033",
+    "file": "registers/people/s76_torn_apart_people_part_05.md",
+    "heading": "PERS-S76-033 — Richard Searling",
+    "data": {
+      "id": "PERS-S76-033",
+      "type_unite": "person",
+      "name": "Richard Searling",
+      "role": [
+        "DJ northern soul",
+        "assistant de Derek Brandwood",
+        "intermédiaire du projet RCA/Grapevine"
+      ],
+      "associated_entities": [
+        "RCA",
+        "Grapevine Records",
+        "Keep On Keepin’ On",
+        "northern soul"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Searling relie le monde northern soul et le projet RCA/Grapevine. Son idée de faire enregistrer « Keep On Keepin’ On » par un groupe local fournit l’embranchement accidentel par lequel Joy Division entre aux Arrow Studios.\n"
+      },
+      "related_atoms": [
+        "S76-A049",
+        "S76-A050"
+      ],
+      "related_quotes": [],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "ne pas confondre son initiative soul avec une vision post-punk du groupe"
+      ]
+    }
+  },
+  "PERS-S76-034": {
+    "kind": "person",
+    "id": "PERS-S76-034",
+    "file": "registers/people/s76_torn_apart_people_part_05.md",
+    "heading": "PERS-S76-034 — John Anderson",
+    "data": {
+      "id": "PERS-S76-034",
+      "type_unite": "person",
+      "name": "John Anderson",
+      "role": [
+        "responsable de Grapevine Records",
+        "producteur / directeur de session associé aux sessions Arrow"
+      ],
+      "associated_entities": [
+        "Grapevine Records",
+        "RCA sessions",
+        "Arrow Studios",
+        "Keep On Keepin’ On"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Anderson incarne la logique professionnelle soul/R&B projetée sur Joy Division. À Arrow, il juge le groupe faible techniquement, cherche à épaissir le son et ajoute du synthétiseur, provoquant un rejet du groupe, notamment de Curtis.\n"
+      },
+      "related_atoms": [
+        "S76-A049",
+        "S76-A050",
+        "S76-A052"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "éviter la caricature du professionnel aveugle ; son diagnostic technique est partiellement compréhensible dans son cadre esthétique"
+      ]
+    }
+  },
+  "PERS-S76-035": {
+    "kind": "person",
+    "id": "PERS-S76-035",
+    "file": "registers/people/s76_torn_apart_people_part_05.md",
+    "heading": "PERS-S76-035 — Bob Auger",
+    "data": {
+      "id": "PERS-S76-035",
+      "type_unite": "person",
+      "name": "Bob Auger",
+      "role": [
+        "ingénieur / acteur technique des sessions Arrow selon S76"
+      ],
+      "associated_entities": [
+        "Arrow Studios",
+        "RCA sessions",
+        "John Anderson"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Auger apparaît aux côtés de John Anderson dans le souvenir de Brandwood, au pupitre des sessions Arrow, jugeant la faiblesse technique du groupe.\n"
+      },
+      "related_atoms": [
+        "S76-A050"
+      ],
+      "chapters": [
+        "Chapitre 6"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "rôle exact à recouper avec sessionographies spécialisées"
+      ]
+    }
+  },
+  "PERS-S76-036": {
+    "kind": "person",
+    "id": "PERS-S76-036",
+    "file": "registers/people/s76_torn_apart_people_part_05.md",
+    "heading": "PERS-S76-036 — Bernie Binnick",
+    "data": {
+      "id": "PERS-S76-036",
+      "type_unite": "person",
+      "name": "Bernie Binnick",
+      "role": [
+        "exécutif américain lié au projet Grapevine/RCA",
+        "producteur de soul destiné à l’export britannique"
+      ],
+      "associated_entities": [
+        "Swan Records",
+        "Grapevine Records",
+        "RCA sessions",
+        "Keep On Keepin’ On"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Binnick fournit l’arrière-plan américain du projet : ancien exécutif de Swan Records, impliqué dans la production de soul exportée vers le Royaume-Uni, il appartient au réseau qui finance ou rend plausible l’enregistrement de Joy Division.\n"
+      },
+      "related_atoms": [
+        "S76-A049",
+        "S76-A050"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "présence importante mais périphérique ; ne pas la surdévelopper sans recoupement"
       ]
     }
   },
@@ -63938,6 +65299,147 @@
         "date précise à vérifier dans registre concert listing / appendice"
       ],
       "notes": "Bascule managériale majeure ; ne pas surmythifier l’incident Wilson."
+    }
+  },
+  "CHR-S76-1978-004": {
+    "kind": "chronology",
+    "id": "CHR-S76-1978-004",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_05.md",
+    "heading": "CHR-S76-1978-004 — RCA/Grapevine envisage Joy Division",
+    "data": {
+      "id": "CHR-S76-1978-004",
+      "type_unite": "chronology",
+      "date": 1978,
+      "precision_date": "spring",
+      "needs_verification": true,
+      "event": "Au printemps 1978, les passages de Ian Curtis au bureau RCA de Piccadilly Plaza et les contacts avec Derek Brandwood font naître la possibilité d’un disque avec RCA/Grapevine.\n",
+      "type": [
+        "industrie_musicale",
+        "RCA",
+        "pre_session"
+      ],
+      "location": [
+        "RCA Northern Office",
+        "Piccadilly Plaza",
+        "Manchester"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Derek Brandwood",
+        "Terry Mason",
+        "Richard Searling"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A048",
+        "S76-A049"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "chronologie exacte des réunions préalables à consolider avec Hook/Ott/sessionographies"
+      ],
+      "notes": "À traiter comme préhistoire des sessions RCA, non comme signature."
+    }
+  },
+  "CHR-S76-1978-005": {
+    "kind": "chronology",
+    "id": "CHR-S76-1978-005",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_05.md",
+    "heading": "CHR-S76-1978-005 — Sessions Arrow Studios RCA/Grapevine",
+    "data": {
+      "id": "CHR-S76-1978-005",
+      "type_unite": "chronology",
+      "date": "1978-05-03/1978-05-05",
+      "precision_date": "exact_range",
+      "event": "Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.\n",
+      "type": [
+        "session_studio",
+        "RCA",
+        "Grapevine"
+      ],
+      "location": [
+        "Arrow Studios"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris",
+        "Derek Brandwood",
+        "Richard Searling",
+        "John Anderson",
+        "Bob Auger",
+        "Bernie Binnick"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A049",
+        "S76-A050",
+        "S76-A051",
+        "S76-A052",
+        "S76-A054"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "lieu et détails à croiser avec Hook 2012, Ott 2004, sessionographies Joydiv/World In Motion"
+      ],
+      "notes": "S76 donne Arrow Studios et les 3, 4 et 5 mai 1978 ; le document maître antérieur signale des divergences possibles avec certaines sessionographies."
+    }
+  },
+  "CHR-S76-1978-006": {
+    "kind": "chronology",
+    "id": "CHR-S76-1978-006",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_05.md",
+    "heading": "CHR-S76-1978-006 — Après RCA : désengagement de Curtis et amorce Gretton",
+    "data": {
+      "id": "CHR-S76-1978-006",
+      "type_unite": "chronology",
+      "date": 1978,
+      "precision_date": "after_1978-05-05",
+      "event": "Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.\n",
+      "type": [
+        "management",
+        "after_RCA",
+        "transition"
+      ],
+      "location": [
+        "Manchester"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Rob Gretton",
+        "Derek Brandwood",
+        "Bernard Sumner",
+        "Peter Hook"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A055"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "temporalité exacte de l’entrée effective de Gretton à croiser avec Hook, Ott et sources Factory"
+      ],
+      "notes": "Relation structurante : l’échec RCA et l’entrée de Gretton se superposent mais ne doivent pas être confondus avec une causalité simple."
     }
   },
   "CHR-S76-1956-001": {

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:10:17"
+generated_at: "2026-05-13T15:20:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 64 |
-| Atomes critiques / majeurs | 15 |
-| Citations | 2 |
-| Événements chronologiques | 13 |
+| Atomes | 66 |
+| Atomes critiques / majeurs | 17 |
+| Citations | 3 |
+| Événements chronologiques | 14 |
 | Personnes | 5 |
 | Chansons | 4 |
 | Sources mobilisées | 6 |
@@ -39,7 +39,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 6 | 2 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 8 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -67,12 +67,16 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `discographie` ; importance : `critique` ; preuve : `evenement_discographique_corroborable_et_temoignage`.
 - **S76-A046** — S76-A046 — Rabid refuse l’iconographie mais distribue *An Ideal For Living*  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `economie_discographique` ; importance : `critique` ; preuve : `temoignages_Lawrence_Beedle_et_reconstruction`.
+- **S76-A050** — S76-A050 — Arrow Studios, 3-5 mai 1978 : collision entre soul professionnelle et post-punk froid  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `temoignage_Brandwood_et_reconstruction_discographique`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A054** — S75-A054 — *Still* et les titres de réserve : austérité gothique, exercices et titres trouvés  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S76-A051** — S76-A051 — La voix de Curtis à Arrow : adrift, dislodged, reedy  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `analyse_sonore` ; importance : `majeure` ; preuve : `description_critique_S76`.
 
 ## 6. Autres atomes utiles
 
@@ -179,6 +183,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 - **S76-Q026** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q053** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -192,6 +197,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - CHR-S75-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
 - CHR-S75-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
 - CHR-S76-1977-010 — Warsaw enregistre à Pennine Sound Studios les quatre titres qui formeront *An Ideal For Living* : « Warsaw », « No Love Lost », « Leaders Of Men » et « Failures ».
+- CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
 - CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
 - CHR-S75-1997-001 — Inclusion de la session complète de *Unknown Pleasures* dans l'anthologie *Heart and Soul*.
@@ -309,6 +315,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Pennine Sound Studios (2)
 - Paul Morley (2)
 - Rabid Records (2)
+- Arrow Studios (2)
 - Electric Circus (2)
 - Licht und Blindheit (1)
 - Atmosphere (1)
@@ -337,7 +344,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - archive de session (1)
 - Autosuggestion (1)
 - From Safety to Where...? (1)
-- dub (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -375,6 +381,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A046 — prolonge → S76-A045
 - S76-A046 — corrobore → S76-A036
 - S76-A046 — nuance → MYTH-006
+- S76-A050 — prolonge → S76-A049
+- S76-A050 — nuance → S75-A0XX
+- S76-A050 — prepare → S76-A051
+- S76-A051 — prolonge → S76-A050
+- S76-A051 — prepare → CONCEPT-spatialite_sonore
+- S76-A051 — nuance → MYTH-002
 - S76-A030 — prolonge → S76-A029
 - S76-A030 — nuance → MYTH-001
 - S76-A030 — corrobore → S68-A006
@@ -403,14 +415,16 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | controverse | 1 |
 | chronology | 1 |
 | economie_discographique | 1 |
+| session_studio | 1 |
+| analyse_sonore | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 49 |
-| critique | 12 |
-| majeure | 3 |
+| critique | 13 |
+| majeure | 4 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -426,6 +440,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A039 [moyen] — ne pas surestimer le niveau artistique de la session ; S76 insiste sur le son pauvre et live
 - S76-A041 [tres_eleve] — la pochette Hitler Youth doit être analysée dans sa violence symbolique sans conclure automatiquement à une idéologie fasciste
 - S76-A046 [eleve] — dossier sensible ; il faut distinguer décision esthétique, morale, commerciale et distribution
+- S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
+- S76-A051 [moyen] — description qualitative ; à croiser avec écoute des bandes RCA et sources Hook/Ott
 - S76-A030 [moyen] — risque de transformer un concert hésitant en naissance glorieuse
 - S76-A032 [faible] — atome factuel mais à ne pas survaloriser esthétiquement
 - S76-A034 [moyen] — fort risque de transformer un concert chaotique en consécration téléologique
