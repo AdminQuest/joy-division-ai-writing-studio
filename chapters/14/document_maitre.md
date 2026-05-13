@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:50:59"
+generated_at: "2026-05-13T16:03:07"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 517 |
+| Atomes | 526 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 43 |
-| Événements chronologiques | 18 |
-| Personnes | 33 |
+| Citations | 50 |
+| Événements chronologiques | 21 |
+| Personnes | 38 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 23 | 16 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 32 | 23 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -303,6 +303,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S41-Q003** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « get rid of this Nazi artwork »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q081** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q085** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q001** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q003** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -318,13 +325,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q070** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q038** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q041** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q044** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_sensible` — «  »
-- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -334,6 +334,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
+- CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
+- CHR-S76-1978-014 — Lors de la troisième soirée Factory, Rob Gretton et Tony Wilson invitent Mick Middles à couvrir Cabaret Voltaire et Durutti Column pour *Sounds*. La presse londonienne commence à lire Manchester, Sheffield et les villes du Nord comme un espace post-punk émergent.
+- CHR-S76-1978-015 — Roger Eagle appelle Tony Wilson pour proposer la formation d’un label réunissant les talents émergents de Manchester et Liverpool. Le projet envisagé repose sur un disque de lancement partagé entre les deux villes, avant d’échouer sur un désaccord de format.
 - CHR-S75-1978-005 — Performance de Joy Division au Stiff/Chiswick Challenge à Rafter's, observée par Tony Wilson et Rob Gretton.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-S75-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
@@ -364,6 +367,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S75-021 — John Peel
 - PERS-S75-023 — Kevin Cummins
 - PERS-S75-024 — Alan Erasmus
+- PERS-S76-045 — Alan Erasmus
+- PERS-S76-047 — Alan Wise
+- PERS-S76-048 — Roger Eagle
+- PERS-S76-049 — Peter Saville
+- PERS-S76-050 — Tony Wilson
 - PERS-S76-022 — Tony Wilson
 - PERS-S76-023 — Kevin Cummins
 - PERS-013 — Chris Ott
@@ -484,6 +492,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Rob Gretton (6)
 - Factory (5)
 - Gretton (5)
+- Tony Wilson (5)
+- Rabid Records (4)
 - Ian Curtis (3)
 - Bowie (3)
 - transition (3)
@@ -491,8 +501,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - contrat (3)
 - RCA (3)
 - indépendance (3)
+- Peter Saville (3)
 - manager (3)
-- Rabid Records (3)
+- Factory Club (3)
 - épilepsie (2)
 - Unknown Pleasures (2)
 - presse musicale (2)
@@ -506,6 +517,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - suicide (2)
 - canonisation (2)
 - Sex Pistols (2)
+- Manchester (2)
 - NME (2)
 - Hannett (2)
 - fatigue (2)
@@ -516,11 +528,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - reconnaissance (2)
 - répétition (2)
 - club (2)
-- objet disque (2)
-- studio (2)
-- contrôle (2)
-- télévision régionale (2)
-- Factory Club (2)
+- sampler (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -616,8 +624,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | non qualifié | 13 |
 | memoire | 12 |
 | discographie | 11 |
+| objet_discographique | 10 |
 | reception_poll | 10 |
-| objet_discographique | 9 |
 | archive | 9 |
 | production | 8 |
 | contrepoint | 8 |
@@ -684,6 +692,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
 | reception_interne | 2 |
+| reception_scene | 2 |
 | concept_management | 2 |
 | esthétique_visuelle | 2 |
 | archive_broadcast | 1 |
@@ -826,6 +835,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_industrielle | 1 |
 | tension_technique | 1 |
 | bascule_management | 1 |
+| lecture_institutionnelle | 1 |
+| genese_label | 1 |
+| scene_institutionnelle | 1 |
+| dispositif_scene | 1 |
+| bifurcation_institutionnelle | 1 |
+| triade_institutionnelle | 1 |
 | lecture_culturelle | 1 |
 | scene_management | 1 |
 | scene_contractuelle | 1 |
@@ -842,19 +857,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | contexte_juridico_economique | 1 |
 | interpretation_retrospective | 1 |
 | portrait_fonctionnel | 1 |
-| reception_scene | 1 |
 | contexte_scene | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
 | marketing | 1 |
+| song_or_release | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 421 |
-| critique | 69 |
-| majeure | 23 |
+| non qualifiée | 422 |
+| critique | 75 |
+| majeure | 25 |
 | structurante | 2 |
 | moyenne | 2 |
 

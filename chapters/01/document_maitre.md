@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:50:59"
+generated_at: "2026-05-13T16:03:07"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ generated_at: "2026-05-13T15:50:59"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 57 |
-| Atomes critiques / majeurs | 14 |
-| Citations | 5 |
+| Atomes | 58 |
+| Atomes critiques / majeurs | 15 |
+| Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
@@ -43,7 +43,7 @@ generated_at: "2026-05-13T15:50:59"
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 5 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 6 | 1 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -57,6 +57,8 @@ generated_at: "2026-05-13T15:50:59"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_culturel` ; importance : `critique` ; preuve : `temoignages_croises`.
 - **S76-A059** — S76-A059 — Newell Green / Wythenshawe : matrice sociale de Gretton  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `geographie_sociale` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_temoin_et_memoire_locale`.
+- **S76-A075** — S76-A075 — Russell Club / Hulme : lieu anti-glam pour le post-punk industriel  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -171,6 +173,7 @@ generated_at: "2026-05-13T15:50:59"
 - **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
+- **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -344,6 +347,9 @@ generated_at: "2026-05-13T15:50:59"
 - S76-A004 — nuance → MYTH-003
 - S76-A004 — prolonge → S75-A057
 - S76-A004 — requiert → CONCEPT-004
+- S76-A075 — nuance → MYTH-003
+- S76-A075 — relie → CONCEPT-003
+- S76-A075 — relie → MOTIF-008
 - S76-A015 — prolonge → MOTIF-006
 - S76-A015 — nuance → MYTH-003
 - S76-A015 — prepare → S76-A016
@@ -369,11 +375,11 @@ generated_at: "2026-05-13T15:50:59"
 | biographie | 4 |
 | contrepoint | 3 |
 | lecture | 3 |
+| lieu_scene | 3 |
 | contexte_social | 3 |
 | concept | 3 |
 | methode | 2 |
 | chronologie | 2 |
-| lieu_scene | 2 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
 | citation_contextualisee | 1 |
@@ -401,7 +407,7 @@ generated_at: "2026-05-13T15:50:59"
 |---|---|
 | non qualifiée | 43 |
 | majeure | 9 |
-| critique | 5 |
+| critique | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -415,6 +421,7 @@ generated_at: "2026-05-13T15:50:59"
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 - S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
+- S76-A075 [moyen] — éviter de faire du lieu une cause unique du son ; il agit comme intensificateur spatial
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
 - S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
 - S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:50:59"
+generated_at: "2026-05-13T16:03:07"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 69 |
-| Atomes critiques / majeurs | 19 |
+| Atomes | 72 |
+| Atomes critiques / majeurs | 21 |
 | Citations | 4 |
 | Événements chronologiques | 15 |
 | Personnes | 5 |
@@ -39,7 +39,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 11 | 4 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 14 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -71,6 +71,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `temoignage_Brandwood_et_reconstruction_discographique`.
 - **S76-A066** — S76-A066 — La réédition 12 pouces de *An Ideal for Living* : financement, Anonymous Records, sleeve échafaudage  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `temoignage_Terry_Mason_et_reconstruction_S76`.
+- **S76-A078** — S76-A078 — Roger Eagle et le sampler avorté : Liverpool-Manchester contre Manchester seul  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `bifurcation_institutionnelle` ; importance : `critique` ; preuve : `reconstruction_S76_sur_Wilson_Eagle_Erasmus`.
+- **S76-A079** — S76-A079 — *The Factory Sample* : Wilson, acid, Abraxas thaïlandais et esthétique de l’objet  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `anecdote_Wilson_reconstruite_par_S76`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
@@ -183,6 +187,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - **S72-A022** — S72-A022 — *A Factory Sample* : « Digital » et « Glass » comme seuil du son Joy Division  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
 - **SONG-S76-018** — SONG-S76-018 — *An Ideal for Living* comme ressource financière  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_release` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-020** — SONG-S76-020 — *The Factory Sample* comme objet-manifeste  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_release` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
@@ -395,6 +401,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A051 — prolonge → S76-A050
 - S76-A051 — prepare → CONCEPT-spatialite_sonore
 - S76-A051 — nuance → MYTH-002
+- S76-A078 — prolonge → S76-A073
+- S76-A078 — nuance → MYTH-005
+- S76-A078 — relie → CONCEPT-005
+- S76-A079 — prolonge → S76-A078
+- S76-A079 — relie → CONCEPT-005
+- S76-A079 — relie → MOTIF-004
 - S76-A065 — prolonge → S76-A064
 - S76-A065 — relie → CONCEPT-005
 - S76-A065 — prepare → S76-A066
@@ -418,28 +430,29 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Type | Nombre |
 |---|---|
 | production | 32 |
+| objet_discographique | 7 |
 | concert | 6 |
-| objet_discographique | 6 |
 | analyse | 5 |
 | archive | 5 |
 | chronologie | 3 |
 | discographie | 2 |
 | bootleg | 2 |
+| song_or_release | 2 |
 | videographie | 1 |
 | controverse | 1 |
 | chronology | 1 |
 | economie_discographique | 1 |
 | session_studio | 1 |
 | analyse_sonore | 1 |
+| bifurcation_institutionnelle | 1 |
 | fait_contractuel | 1 |
-| song_or_release | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 50 |
-| critique | 14 |
+| non qualifiée | 51 |
+| critique | 16 |
 | majeure | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -458,6 +471,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A046 [eleve] — dossier sensible ; il faut distinguer décision esthétique, morale, commerciale et distribution
 - S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
 - S76-A051 [moyen] — description qualitative ; à croiser avec écoute des bandes RCA et sources Hook/Ott
+- S76-A078 [moyen] — scène fortement narrative ; à croiser avec sources Factory et témoignages Wilson/Erasmus
+- S76-A079 [moyen] — scène très séduisante et mythifiable ; à traiter comme anecdote fondatrice à vérifier, non comme causalité unique
 - S76-A065 [faible] — fait contractuel assez circonscrit ; vérifier les montants dans Hook, Deborah Curtis ou sources RCA si disponibles
 - S76-A066 [faible] — articulation forte entre support, argent et stratégie ; à croiser avec discographies
 - S76-A030 [moyen] — risque de transformer un concert hésitant en naissance glorieuse

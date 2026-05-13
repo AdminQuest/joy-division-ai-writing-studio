@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:50:59"
+generated_at: "2026-05-13T16:03:07"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 47 |
-| Atomes critiques / majeurs | 27 |
-| Citations | 6 |
-| Événements chronologiques | 3 |
-| Personnes | 10 |
+| Atomes | 49 |
+| Atomes critiques / majeurs | 29 |
+| Citations | 9 |
+| Événements chronologiques | 5 |
+| Personnes | 12 |
 | Chansons | 2 |
 | Sources mobilisées | 6 |
 
@@ -39,7 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 10 | 6 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 12 | 9 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -65,6 +65,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_multiples`.
 - **S76-A059** — S76-A059 — Newell Green / Wythenshawe : matrice sociale de Gretton  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `geographie_sociale` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_temoin_et_memoire_locale`.
+- **S76-A075** — S76-A075 — Russell Club / Hulme : lieu anti-glam pour le post-punk industriel  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -97,6 +99,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `portrait_social` ; importance : `majeure` ; preuve : `portrait_S76_et_memoire_locale`.
 - **S76-A067** — S76-A067 — Band On The Wall : lieu de transition, Musicians Collective et premier laboratoire public  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `majeure` ; preuve : `reconstruction_S76_et_memoire_scene`.
+- **S76-A077** — S76-A077 — Troisième Factory night : le regard de Londres se déplace vers le Nord  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_scene` ; importance : `majeure` ; preuve : `temoignage_Mick_Middles_et_reconstruction_S76`.
 
 ## 6. Autres atomes utiles
 
@@ -143,6 +147,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 7. Citations disponibles
 
+- **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q011** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q013** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q062** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -154,11 +161,15 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
 - CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
+- CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
+- CHR-S76-1978-014 — Lors de la troisième soirée Factory, Rob Gretton et Tony Wilson invitent Mick Middles à couvrir Cabaret Voltaire et Durutti Column pour *Sounds*. La presse londonienne commence à lire Manchester, Sheffield et les villes du Nord comme un espace post-punk émergent.
 - CHR-S76-1978-001 — Le groupe joue pour la première fois sous le nom Joy Division à Pip’s Disco, Manchester.
 
 ## 9. Personnes et acteurs
 
 - PERS-S75-025 — T.J. Davidson
+- PERS-S76-046 — Don Tonay
+- PERS-S76-048 — Roger Eagle
 - PERS-S76-018 — Steve Burke / Steve Shy
 - PERS-003-S75 — Bernard Sumner
 - PERS-S76-037 — Rob Gretton
@@ -262,12 +273,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 ### 12.1. Motifs dominants
 
 - Salford (4)
+- Factory Club (3)
 - répétition (2)
 - image industrielle (2)
 - scène locale (2)
 - Kevin Cummins (2)
 - club (2)
-- Factory Club (2)
 - Wythenshawe (2)
 - overspill estate (2)
 - Pip’s (2)
@@ -360,6 +371,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A004 — nuance → MYTH-003
 - S76-A004 — prolonge → S75-A057
 - S76-A004 — requiert → CONCEPT-004
+- S76-A075 — nuance → MYTH-003
+- S76-A075 — relie → CONCEPT-003
+- S76-A075 — relie → MOTIF-008
+- S76-A077 — prolonge → S76-A076
+- S76-A077 — relie → MOTIF-008
+- S76-A077 — nuance → MYTH-003
 - S76-A015 — prolonge → MOTIF-006
 - S76-A015 — nuance → MYTH-003
 - S76-A015 — prepare → S76-A016
@@ -378,9 +395,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A067 — prolonge → S76-A058
 - S76-A067 — nuance → MYTH-003
 - S76-A067 — relie → CONCEPT-003
-- S76-A021 — nuance → MYTH-001
-- S76-A021 — prolonge → MOTIF-006
-- S76-A021 — relie → S41
 
 ## 13. Distribution documentaire
 
@@ -396,6 +410,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | contexte | 2 |
 | contrepoint | 2 |
 | contexte_social | 2 |
+| lieu_scene | 2 |
 | evenement | 1 |
 | interpretation_culturelle | 1 |
 | strategie_management | 1 |
@@ -410,12 +425,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | temoignage | 1 |
 | chronologie_scene | 1 |
 | concert | 1 |
+| reception_scene | 1 |
 | lieu_culturel | 1 |
 | reseau_culturel | 1 |
 | sociabilite_scene | 1 |
 | geographie_sociale | 1 |
 | portrait_social | 1 |
-| lieu_scene | 1 |
 | interpretation | 1 |
 | esthétique_visuelle | 1 |
 | fait | 1 |
@@ -427,8 +442,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 20 |
-| majeure | 16 |
-| critique | 11 |
+| majeure | 17 |
+| critique | 12 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -452,6 +467,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A037 [faible] — atome factuel à haute valeur de cadrage
 - S76-A042 [moyen] — risque de transformer une soirée déprimante pour le groupe en triomphe rétrospectif
 - S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
+- S76-A075 [moyen] — éviter de faire du lieu une cause unique du son ; il agit comme intensificateur spatial
+- S76-A077 [moyen] — ne pas faire de cette soirée un basculement unique ; elle signale un processus de visibilité
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
 - S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe
 - S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton

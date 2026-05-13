@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:50:59"
+generated_at: "2026-05-13T16:03:07"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 195 |
+| Atomes | 209 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 27 |
-| Événements chronologiques | 18 |
-| Personnes | 23 |
+| Citations | 34 |
+| Événements chronologiques | 22 |
+| Personnes | 29 |
 | Chansons | 17 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 22 | 16 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 36 | 23 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -286,6 +286,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S47-Q008** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « Closer was not a suicide note. »
 - **S47-Q015** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the Peel Sessions are essential Joy Division. »
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S76-Q078** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q079** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q081** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q085** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q086** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -319,6 +326,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S75-1980-004 — Joy Division enregistre *Closer* à Britannia Row avec Martin Hannett, dans un contexte personnel très tendu mais sans conscience collective d'un testament.
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
+- CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
+- CHR-S76-1978-014 — Lors de la troisième soirée Factory, Rob Gretton et Tony Wilson invitent Mick Middles à couvrir Cabaret Voltaire et Durutti Column pour *Sounds*. La presse londonienne commence à lire Manchester, Sheffield et les villes du Nord comme un espace post-punk émergent.
+- CHR-S76-1978-015 — Roger Eagle appelle Tony Wilson pour proposer la formation d’un label réunissant les talents émergents de Manchester et Liverpool. Le projet envisagé repose sur un disque de lancement partagé entre les deux villes, avant d’échouer sur un désaccord de format.
+- CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
 - CHR-S75-1978-007 — Enregistrement de « Digital » et « Glass » pour *A Factory Sample* à Cargo Studios avec Martin Hannett.
 - CHR-S75-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
 - CHR-1980-001 — Concert du Derby Hall à Bury marqué par l’état critique de Ian Curtis.
@@ -342,6 +353,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S75-021 — John Peel
 - PERS-S75-022 — Martin Rushent
 - PERS-S75-024 — Alan Erasmus
+- PERS-S76-045 — Alan Erasmus
+- PERS-S76-046 — Don Tonay
+- PERS-S76-047 — Alan Wise
+- PERS-S76-048 — Roger Eagle
+- PERS-S76-049 — Peter Saville
+- PERS-S76-050 — Tony Wilson
 - PERS-S76-021 — Steve Morris
 - PERS-S76-042 — Jeremy Kerr
 - PERS-S76-043 — Lesley Gilbert
@@ -471,14 +488,18 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Gretton (5)
 - RCA (4)
 - manager (4)
+- Martin Hannett (4)
 - John Anderson (4)
 - Unknown Pleasures (3)
 - Wilson (3)
 - studio (3)
 - contrat (3)
+- Digital (3)
+- Glass (3)
 - indépendance (3)
 - contrôle (3)
 - Terry Mason (3)
+- Tony Wilson (3)
 - Transmission (2)
 - Strawberry Studios (2)
 - radio (2)
@@ -486,8 +507,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Atmosphere (2)
 - silence (2)
 - synthétiseur (2)
-- Digital (2)
-- Glass (2)
 - caisse claire (2)
 - voix de Curtis (2)
 - Sumner (2)
@@ -499,12 +518,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - frustration (2)
 - reconnaissance (2)
 - répétition (2)
-- Martin Hannett (2)
+- sampler (2)
+- Rabid Records (2)
 - Arrow Studios (2)
 - RCA sessions (2)
-- Band On The Wall (2)
-- distance stéréophonique (1)
-- ventes (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -607,10 +624,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | fait_sensible | 5 |
 | analyse | 4 |
 | fait_interprete | 4 |
+| objet_discographique | 4 |
 | discographie_album | 3 |
 | reception_critique | 3 |
 | evenement_live | 3 |
-| objet_discographique | 3 |
 | session_radio | 3 |
 | versions_chanson | 3 |
 | reception | 2 |
@@ -629,9 +646,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | session_album | 2 |
 | lieu_studio | 2 |
 | micro_chronologie | 2 |
+| session_studio | 2 |
 | concept_management | 2 |
 | chronologie_live | 2 |
 | analyse_morceau | 2 |
+| song | 2 |
 | broadcast | 1 |
 | evolution_repertoire | 1 |
 | portrait_musicien | 1 |
@@ -676,12 +695,20 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | ecosysteme | 1 |
 | scene_industrielle | 1 |
 | projet_discographique | 1 |
-| session_studio | 1 |
 | analyse_sonore | 1 |
 | tension_technique | 1 |
 | industrie_musicale | 1 |
 | diagnostic_discographique | 1 |
 | bascule_management | 1 |
+| lecture_institutionnelle | 1 |
+| genese_label | 1 |
+| scene_institutionnelle | 1 |
+| lieu_scene | 1 |
+| dispositif_scene | 1 |
+| reception_scene | 1 |
+| bifurcation_institutionnelle | 1 |
+| triade_institutionnelle | 1 |
+| tension_biographique | 1 |
 | scene_management | 1 |
 | tension_interne | 1 |
 | scene_contractuelle | 1 |
@@ -699,15 +726,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | transition | 1 |
 | concept_transversal | 1 |
 | management | 1 |
+| song_or_release | 1 |
 | song_or_cover | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 123 |
-| critique | 53 |
-| majeure | 19 |
+| non qualifiée | 126 |
+| critique | 62 |
+| majeure | 21 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

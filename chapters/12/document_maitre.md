@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:50:59"
+generated_at: "2026-05-13T16:03:07"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 95 |
-| Atomes critiques / majeurs | 31 |
+| Atomes | 96 |
+| Atomes critiques / majeurs | 32 |
 | Citations | 19 |
 | Événements chronologiques | 18 |
 | Personnes | 8 |
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 11 | 5 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 12 | 5 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -89,6 +89,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
 - **S76-A031** — S76-A031 — Assistant Disablement Resettlement Officer : travail, handicap et préfiguration de l’épilepsie  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
+- **S76-A081** — S76-A081 — Curtis en marge des rouages Factory : domesticité, grossesse de Debbie et leadership créatif  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `temoignage_Terry_Mason_et_reconstruction_S76`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
@@ -389,12 +391,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
-- Ian Curtis (5)
+- Ian Curtis (6)
 - épilepsie (5)
 - Deborah Curtis (3)
 - Mick Middles (2)
 - domesticité (2)
 - Derby Hall (2)
+- Macclesfield (2)
 - fatigue (2)
 - paroles (2)
 - Lindsay Reade (2)
@@ -428,7 +431,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - pause (1)
 - crise (1)
 - Closer (1)
-- Britannia Row (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -501,6 +503,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A010 — requiert → CONCEPT-004
 - S76-A010 — prolonge → S76-A007
 - S76-A010 — nuance → MYTH-002
+- S76-A081 — prolonge → S76-A071
+- S76-A081 — vigilance → CONCEPT-004
+- S76-A081 — nuance → MYTH-002
 - S76-A017 — nuance → S45
 - S76-A017 — prolonge → S76-A002
 - S76-A017 — requiert → CONCEPT-004
@@ -509,9 +514,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A018 — nuance → S45
 - S76-A019 — nuance → S76-A018
 - S76-A019 — nuance → S45
-- S76-A019 — deconstruit → MYTH-002
-- S76-A057 — prolonge → S76-A056
-- S76-A057 — nuance → MYTH-manager_sauveur
 
 ## 13. Distribution documentaire
 
@@ -586,6 +588,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_historique | 1 |
 | lecture | 1 |
 | cadrage_source | 1 |
+| tension_biographique | 1 |
 | micro_scene_relationnelle | 1 |
 | contraste_biographique | 1 |
 | scene_de_transition | 1 |
@@ -597,7 +600,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 64 |
-| critique | 22 |
+| critique | 23 |
 | majeure | 9 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -626,6 +629,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A002 [faible] — l'atome réduit la téléologie morbide plutôt qu'il ne l'alimente
 - S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire
 - S76-A010 [eleve] — risque de faire de l'incident un signe annonciateur de la mort ou de la maladie
+- S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
 - S76-A017 [moyen] — risque d'opposer trop simplement mémoire familiale et mémoire de Deborah Curtis
 - S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
 - S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite

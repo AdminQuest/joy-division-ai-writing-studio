@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:50:59"
+generated_at: "2026-05-13T16:03:07"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 163 |
-| Atomes critiques / majeurs | 34 |
-| Citations | 17 |
-| Événements chronologiques | 9 |
+| Atomes | 166 |
+| Atomes critiques / majeurs | 35 |
+| Citations | 18 |
+| Événements chronologiques | 10 |
 | Personnes | 15 |
 | Chansons | 18 |
 | Sources mobilisées | 11 |
@@ -44,7 +44,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 1 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 5 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -98,6 +98,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_discographie`.
 - **S75-A070** — S75-A070 — « Atmosphere » : fin du pop, voix résignée et cathédrale sonore  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S76-A082** — S76-A082 — Cargo Studios, 11 octobre 1978 : « Digital », « Glass » et la rencontre naturelle avec Hannett  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_Lindsay_Reade_et_Savage`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -289,6 +291,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q008** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "stabilisee"}` — « a turkey »
+- **S76-Q086** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -304,6 +307,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
+- CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
 - CHR-S75-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
 - CHR-S75-1978-007 — Enregistrement de « Digital » et « Glass » pour *A Factory Sample* à Cargo Studios avec Martin Hannett.
 - CHR-S75-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
@@ -451,6 +455,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Interzone (2)
 - studio (2)
 - Shadowplay (2)
+- Digital (2)
+- Glass (2)
 - électronique (2)
 - caisse claire (2)
 - Hook (2)
@@ -476,8 +482,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - seuil (1)
 - RCA (1)
 - studio professionnel (1)
-- échec (1)
-- industrie musicale (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -597,6 +601,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | temoignage_direct_rapporte | 2 |
 | evenement | 2 |
 | concept_transversal | 2 |
+| song | 2 |
 | concert | 1 |
 | contrepoint | 1 |
 | archive_broadcast | 1 |
@@ -641,6 +646,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | temoignage_retrospectif | 1 |
 | interpretation_critique | 1 |
 | biographie | 1 |
+| session_studio | 1 |
 | transition | 1 |
 | conflit_esthetique | 1 |
 | portrait_technique | 1 |
@@ -653,8 +659,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 129 |
-| critique | 25 |
+| non qualifiée | 131 |
+| critique | 26 |
 | majeure | 9 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -692,6 +698,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S74-A053 [tres_eleve] — tout traitement de la mort de Curtis risque la téléologie tragique et la lecture sacrificielle
 - S74-A054 [eleve] — risque d’opposer mécaniquement vérité domestique et mémoire du groupe sans reconnaître les angles morts de chaque témoin
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
+- S76-A082 [moyen] — éviter d’en faire déjà la forme achevée de *Unknown Pleasures* ; c’est un seuil, non un aboutissement
 - S76-A070 [moyen] — scène spectaculaire facilement mythifiable ; traiter comme mémoire de témoin, pas comme norme scénique
 
 ## 15. Lacunes et prochaines vérifications

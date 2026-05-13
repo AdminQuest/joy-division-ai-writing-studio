@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:50:59"
+generated_at: "2026-05-13T16:03:07"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-13T15:50:59"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 128 |
+| Atomes | 129 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 33 |
 | Événements chronologiques | 25 |
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T15:50:59"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 28 | 21 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 29 | 21 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -470,17 +470,17 @@ generated_at: "2026-05-13T15:50:59"
 
 ### 12.1. Motifs dominants
 
-- Ian Curtis (5)
+- Ian Curtis (6)
 - épilepsie (5)
 - Bowie (4)
 - domesticité (4)
 - Deborah Curtis (3)
+- Macclesfield (3)
 - Wythenshawe (3)
 - Pete Johnson (3)
 - Mick Middles (2)
 - deification (2)
 - histoire (2)
-- Macclesfield (2)
 - paroles (2)
 - contrôle (2)
 - reconnaissance (2)
@@ -661,6 +661,7 @@ generated_at: "2026-05-13T15:50:59"
 | cadrage_source | 1 |
 | temoignage_biographique | 1 |
 | controverse_historiographique | 1 |
+| tension_biographique | 1 |
 | lecture_culturelle | 1 |
 | reseau_culturel | 1 |
 | micro_scene_relationnelle | 1 |
@@ -680,7 +681,7 @@ generated_at: "2026-05-13T15:50:59"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| critique | 38 |
+| critique | 39 |
 | majeure | 29 |
 | structurante | 1 |
 
@@ -736,6 +737,7 @@ generated_at: "2026-05-13T15:50:59"
 - S76-A008 [moyen] — souvenir d'enfance à valeur surtout narrative, non musicale
 - S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire
 - S76-A010 [eleve] — risque de faire de l'incident un signe annonciateur de la mort ou de la maladie
+- S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
 - S76-A011 [moyen] — risque de faire du glam une cause linéaire de la présence scénique de Curtis
 - S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
 - S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
@@ -745,7 +747,6 @@ generated_at: "2026-05-13T15:50:59"
 - S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
 - S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
 - S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
-- S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
 
 ## 15. Lacunes et prochaines vérifications
 

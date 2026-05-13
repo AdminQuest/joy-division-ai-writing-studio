@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:50:59"
+generated_at: "2026-05-13T16:03:07"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 230 |
+| Atomes | 231 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 53 |
 | Événements chronologiques | 17 |
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 37 | 43 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 38 | 43 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -473,11 +473,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 ### 12.1. Motifs dominants
 
 - Rob Gretton (9)
+- Rabid Records (4)
 - An Ideal for Living (3)
 - Kevin Cummins (3)
 - répétition (3)
 - studio (3)
-- Rabid Records (3)
 - An Ideal For Living (3)
 - Paul Morley (3)
 - Terry Mason (3)
@@ -500,6 +500,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Enigma (2)
 - Rock Against Racism (2)
 - Stiff Test (2)
+- Tony Wilson (2)
 - Bowie (2)
 - Manchester City (2)
 - Maine Road (2)
@@ -511,7 +512,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - jeunesse (1)
 - Granada TV (1)
 - Shadowplay (1)
-- industrial cityscapes (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -703,6 +703,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | session_studio | 1 |
 | diagnostic_discographique | 1 |
 | bascule_management | 1 |
+| genese_label | 1 |
 | lecture_culturelle | 1 |
 | scene_management | 1 |
 | micro_scene_relationnelle | 1 |
@@ -736,7 +737,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 170 |
-| critique | 45 |
+| critique | 46 |
 | majeure | 15 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -784,6 +785,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A053 [faible] — atome structurel ; utile pour comprendre la bascule managériale
 - S76-A054 [faible] — diagnostic industriel clair, sans surplomb téléologique nécessaire
 - S76-A055 [moyen] — ne pas transformer la simultanéité RCA/Gretton en causalité simple ; elle doit rester relation structurante à vérifier par S75 et Hook
+- S76-A073 [faible] — la généalogie locale est structurante et limite la téléologie Factory
 - S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
 - S76-A056 [moyen] — scène fortement mémorielle et comique ; ne pas la transformer en acte fondateur trop téléologique
 - S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
@@ -800,7 +802,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A068 [moyen] — scène très suggestive ; ne pas en faire une théorie générale de Curtis comme stratège médiatique
 - S76-A069 [faible] — tension documentaire utile ; elle nuance la téléologie du génie immédiat
 - S76-A070 [moyen] — scène spectaculaire facilement mythifiable ; traiter comme mémoire de témoin, pas comme norme scénique
-- S76-A029 [eleve] — les noms envisagés, notamment Progrom/Gdansk, peuvent nourrir des lectures politiques rapides
 
 ## 15. Lacunes et prochaines vérifications
 

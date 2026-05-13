@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:50:59"
+generated_at: "2026-05-13T16:03:07"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 147 |
-| Atomes critiques / majeurs | 34 |
+| Atomes | 148 |
+| Atomes critiques / majeurs | 35 |
 | Citations | 11 |
 | Événements chronologiques | 4 |
 | Personnes | 5 |
@@ -45,7 +45,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 9 | 4 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 10 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -93,6 +93,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_et_contexte_historique`.
 - **S76-A068** — S76-A068 — Ian Wood et Curtis : sérieux documentaire contre mythe du chanteur instinctif  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_reception` ; importance : `critique` ; preuve : `temoignage_Ian_Wood_rapporté_par_S76`.
+- **S76-A081** — S76-A081 — Curtis en marge des rouages Factory : domesticité, grossesse de Debbie et leadership créatif  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `temoignage_Terry_Mason_et_reconstruction_S76`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -419,6 +421,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - exclusion (2)
 - manager (2)
 - Terry Mason (2)
+- Ian Curtis (2)
 - Goethe (1)
 - Werther (1)
 - romantisme (1)
@@ -449,7 +452,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - House of Dolls (1)
 - éthique (1)
 - An Ideal for Living (1)
-- imagerie nazie (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -607,6 +609,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | temoignage | 1 |
 | mythe_nomination | 1 |
 | contexte_social | 1 |
+| tension_biographique | 1 |
 | scene_de_transition | 1 |
 | scene_reception | 1 |
 | contraste_biographique | 1 |
@@ -621,7 +624,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 113 |
-| critique | 22 |
+| critique | 23 |
 | majeure | 12 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -655,6 +658,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A043 [tres_eleve] — dossier politiquement sensible ; distinguer rumeur, perception, iconographie et position idéologique
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 - S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
+- S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
 - S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études
 - S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
 - S76-A068 [moyen] — scène très suggestive ; ne pas en faire une théorie générale de Curtis comme stratège médiatique
