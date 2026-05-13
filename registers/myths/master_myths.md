@@ -368,3 +368,63 @@ relations:
   - type: nuance
     cible: MOTIF-006
 ```
+
+---
+
+# MYTH-009 — Rob Gretton comme manager sauveur
+
+```yaml
+id: MYTH-009
+
+nom: Rob Gretton comme manager sauveur
+
+statut:
+  type: mythe_managerial
+  niveau_risque: moyen
+  utilite_narrative: forte
+  solidite_factuelle: partielle
+
+noyau_factuel: >
+  Rob Gretton joue un rôle décisif dans la structuration pratique de Joy Division,
+  la sortie de l'impasse RCA, les relations avec les labels, la protection du groupe
+  et l'inscription dans l'écosystème Factory.
+
+construction_mythique: >
+  Le récit peut transformer Gretton en sauveur providentiel, comme si son arrivée
+  résolvait d'un coup les faiblesses du groupe et comme si son autorité procédait
+  d'une stratégie claire dès l'origine.
+
+risque_interpretatif:
+  - héroïsation rétrospective
+  - effacement de Terry Mason
+  - effacement du hasard et du malentendu initial
+  - romantisation du gang masculin
+  - confusion entre protection tactique et vision stratégique
+
+usage_recommande: >
+  Présenter Gretton comme manager de proximité, protecteur et tacticien pratique,
+  dont l'efficacité naît de ressources modestes, de sociabilité locale et d'une capacité
+  à agir contre les intermédiaires, non comme figure providentielle.
+
+chapitres:
+  - Chapitre 5
+  - Chapitre 6
+  - Chapitre 14
+
+atomes_lies:
+  - S76-A056
+  - S76-A057
+  - S76-A058
+  - S76-A062
+  - S76-A063
+  - S76-A064
+  - S76-A065
+
+relations:
+  - type: requiert
+    cible: CONCEPT-007
+  - type: requiert
+    cible: MOTIF-007
+  - type: nuance
+    cible: MYTH-005
+```
