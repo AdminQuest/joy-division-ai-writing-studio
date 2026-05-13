@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:34:10"
+generated_at: "2026-05-13T16:47:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ generated_at: "2026-05-13T16:34:10"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 140 |
+| Atomes | 146 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 40 |
-| Événements chronologiques | 29 |
-| Personnes | 24 |
+| Citations | 43 |
+| Événements chronologiques | 32 |
+| Personnes | 25 |
 | Chansons | 13 |
 | Sources mobilisées | 8 |
 
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T16:34:10"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 40 | 28 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 46 | 31 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -318,9 +318,9 @@ generated_at: "2026-05-13T16:34:10"
 - **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q019** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q112** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q118** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q120** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -353,6 +353,9 @@ generated_at: "2026-05-13T16:34:10"
 - CHR-S76-1968-001 — Autour de douze ans, Ian Curtis organise Treacle Teapot, groupe d’enfance sans véritable équipement mais déjà orienté vers l’idée de scène.
 - CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.
 - CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
+- CHR-S76-1979-011 — Natalie Curtis naît le lundi de Pâques. S76 met en tension la joie de Ian Curtis, la maternité de Deborah et la crainte que l’épilepsie empêche Ian de s’occuper physiquement de sa fille en sécurité.
+- CHR-S76-1979-012 — Le lendemain de la naissance de Natalie, Joy Division joue à Acklam Hall, Londres, avec John Dowie en support. S76 souligne que les concerts londoniens sont considérés comme trop importants pour être annulés.
+- CHR-S76-1979-013 — Ian Curtis subit à Barton Street plusieurs crises épileptiques consécutives. Deborah appelle une ambulance lorsqu’elle ne parvient plus à le réveiller.
 
 ## 9. Personnes et acteurs
 
@@ -367,6 +370,7 @@ generated_at: "2026-05-13T16:34:10"
 - PERS-S76-009 — Deborah Woodruff / Deborah Curtis
 - PERS-S76-010 — David Bowie
 - PERS-S76-015 — Kelvin Briggs
+- PERS-S76-061 — Natalie Curtis
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-002 — Doreen Curtis
 - PERS-S76-003 — Kevin Curtis
@@ -484,21 +488,25 @@ generated_at: "2026-05-13T16:34:10"
 
 ### 12.1. Motifs dominants
 
-- Ian Curtis (7)
-- épilepsie (6)
+- Ian Curtis (8)
+- épilepsie (8)
+- Deborah Curtis (5)
 - Bowie (4)
 - domesticité (4)
-- Deborah Curtis (3)
+- Natalie Curtis (4)
+- Mark Reeder (4)
 - Macclesfield (3)
 - Wythenshawe (3)
 - Pete Johnson (3)
-- Mark Reeder (3)
+- mariage (3)
 - Mick Middles (2)
 - deification (2)
+- Annik Honoré (2)
 - histoire (2)
 - Kevin Cummins (2)
 - Disorder (2)
 - paroles (2)
+- paternité (2)
 - New Dawn Fades (2)
 - She’s Lost Control (2)
 - contrôle (2)
@@ -514,16 +522,12 @@ generated_at: "2026-05-13T16:34:10"
 - enfance (2)
 - King’s School (2)
 - classe sociale (2)
+- Barton Street (2)
 - Debbie Curtis (2)
-- Natalie Curtis (2)
 - David Lewis Centre (2)
 - handicap (2)
 - Deborah Woodruff (2)
 - Iggy Pop (2)
-- mariage (2)
-- Terry Mason (2)
-- Peter Hook (2)
-- Manchester punk (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -626,6 +630,7 @@ generated_at: "2026-05-13T16:34:10"
 | lecture_textuelle | 3 |
 | prudence_methodologique | 3 |
 | contexte_biographique | 3 |
+| tension_biographique | 3 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | performance | 2 |
@@ -636,7 +641,7 @@ generated_at: "2026-05-13T16:34:10"
 | mythe | 2 |
 | temoignage | 2 |
 | contexte_social | 2 |
-| tension_biographique | 2 |
+| scene_medicale | 2 |
 | contexte_intime | 2 |
 | scene_de_transition | 2 |
 | fait | 2 |
@@ -680,8 +685,11 @@ generated_at: "2026-05-13T16:34:10"
 | cadrage_source | 1 |
 | temoignage_biographique | 1 |
 | controverse_historiographique | 1 |
+| portrait_relationnel | 1 |
+| tension_domestique | 1 |
+| controverse_memorielle | 1 |
+| entretien_collectif | 1 |
 | temoignage_lieu | 1 |
-| scene_medicale | 1 |
 | fait_medical | 1 |
 | prudence_medicale | 1 |
 | renversement_biographique | 1 |
@@ -705,7 +713,7 @@ generated_at: "2026-05-13T16:34:10"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| critique | 48 |
+| critique | 54 |
 | majeure | 31 |
 | structurante | 1 |
 
@@ -765,12 +773,12 @@ generated_at: "2026-05-13T16:34:10"
 - S76-A008 [moyen] — souvenir d'enfance à valeur surtout narrative, non musicale
 - S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire
 - S76-A010 [eleve] — risque de faire de l'incident un signe annonciateur de la mort ou de la maladie
-- S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
-- S76-A086 [moyen] — témoin unique et rétrospectif ; ne pas en faire portrait psychologique total
-- S76-A088 [eleve] — risque de lire grossesse et pression comme causes directes de la crise ultérieure
-- S76-A089 [eleve] — scène médicale fondatrice ; ne pas la lire comme point d’annonce fatal mais comme seuil clinique et social
-- S76-A090 [moyen] — toute médicalisation du récit doit rester proportionnée et historiographiquement prudente
-- S76-A091 [tres_eleve] — chaque hypothèse est séduisante mais insuffisante isolément ; risque maximal de psychologisation et de causalité unique
+- S76-A109 [eleve] — risque de lire la naissance comme déclencheur tragique ; elle doit rester un élément du faisceau de contraintes
+- S76-A110 [tres_eleve] — risque de causalité directe traitement/personnalité/suicide ; conserver les modalisateurs et le faisceau de facteurs
+- S76-A113 [moyen] — S76 valorise Curtis ; rester attentif aux effets de contraste avec les autres membres du groupe
+- S76-A115 [eleve] — risque de simplifier Deborah contre groupe ; conserver la pluralité des points de vue
+- S76-A120 [tres_eleve] — risque de roman sentimental, jugement moral, effacement de Deborah ou blanchiment d’Ian
+- S76-A122 [eleve] — Annik relit la scène depuis la suite ; conserver la joie du moment et ne pas la transformer en présage
 
 ## 15. Lacunes et prochaines vérifications
 

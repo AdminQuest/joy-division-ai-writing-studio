@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:34:10"
+generated_at: "2026-05-13T16:47:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 542 |
+| Atomes | 557 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 58 |
-| Événements chronologiques | 25 |
-| Personnes | 45 |
+| Citations | 66 |
+| Événements chronologiques | 33 |
+| Personnes | 49 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 48 | 31 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 63 | 39 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -353,6 +353,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
 - CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
 - CHR-S75-1997-001 — Inclusion de la session complète de *Unknown Pleasures* dans l'anthologie *Heart and Soul*.
+- CHR-S76-1979-012 — Le lendemain de la naissance de Natalie, Joy Division joue à Acklam Hall, Londres, avec John Dowie en support. S76 souligne que les concerts londoniens sont considérés comme trop importants pour être annulés.
+- CHR-S76-1979-014 — Dave McCullough interviewe Joy Division pour *Sounds* autour de *Unknown Pleasures* et de l’événement Stuff the Superstars au Mayflower Club, Gorton. L’entretien tourne au conflit autour de l’anti-image, de la presse, des noms absents et de l’imagerie nazie.
+- CHR-S76-1979-015 — Joy Division joue à l’Electric Ballroom de Camden avec Scritti Politti, Monochrome Set et A Certain Ratio, devant un public d’environ 1 200 personnes selon S76.
+- CHR-S76-1979-016 — Joy Division enregistre « Transmission » et « She’s Lost Control » pour BBC2 *Something Else*, programme diffusé le 15 septembre 1979.
+- CHR-S76-1979-017 — Joy Division joue au Futurama Festival à Leeds. S76 décrit une performance qui place le groupe au-dessus de la plupart des autres formations post-punk présentes, avec un set qui circulera ensuite en bootlegs.
+- CHR-S76-1979-018 — Après le concert au Nashville Rooms, le van de Joy Division est percuté par un camion sur l’autoroute ; l’équipement est projeté sur la route, mais personne n’est blessé.
+- CHR-S76-1979-019 — Annik Honoré voit Joy Division au Nashville Rooms, venue de Belgique après avoir été bouleversée par *Unknown Pleasures*. Elle demande ensuite une interview pour le fanzine *En Attendant*.
+- CHR-S76-1979-020 — Annik Honoré réalise une longue interview de Joy Division à Walthamstow Youth Club pour *En Attendant*. L’entretien aborde notamment films, amour, mariage, enfants, santé, mort et épilepsie.
 
 ## 9. Personnes et acteurs
 
@@ -388,14 +396,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-037 — Rob Gretton
 - PERS-S76-038 — Mike Pickering
 - PERS-S76-012 — Kevin Cummins
+- PERS-S76-062 — Dave McCullough
+- PERS-S76-063 — Annik Honoré
+- PERS-S76-064 — Dave Pils et Jasmine
+- PERS-S76-065 — Steve Harley
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-004 — Carole Curtis
 - PERS-S76-056 — Kevin Cummins
 - PERS-S76-057 — John Peel
-- PERS-S76-058 — Martin Rushent
-- PERS-S76-059 — Martin O’Neill
-- PERS-S76-027 — Rob Gretton
-- PERS-S76-030 — John The Postman
 
 ## 10. Chansons rattachées
 
@@ -495,17 +503,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (7)
+- Rob Gretton (8)
 - Tony Wilson (7)
 - Factory (6)
+- Unknown Pleasures (6)
 - Gretton (5)
-- Unknown Pleasures (4)
+- Peter Saville (5)
+- Ian Curtis (4)
 - Kevin Cummins (4)
-- Peter Saville (4)
 - Rabid Records (4)
-- Ian Curtis (3)
 - Bowie (3)
+- épilepsie (3)
 - presse musicale (3)
+- Annik Honoré (3)
 - transition (3)
 - Wilson (3)
 - contrat (3)
@@ -516,13 +526,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Factory Club (3)
 - pochette (3)
 - Martin Hannett (3)
-- épilepsie (2)
+- Transmission (2)
 - Mick Middles (2)
 - romantisme (2)
 - deification (2)
 - Plan K (2)
+- Futurama (2)
 - America (2)
 - Derby Hall (2)
+- Dead Souls (2)
 - Ceremony (2)
 - New Order (2)
 - suicide (2)
@@ -531,10 +543,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Manchester (2)
 - NME (2)
 - Hannett (2)
-- fatigue (2)
-- Peel Session (2)
-- Genetic (2)
-- dépossession (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -648,7 +656,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | controverse | 5 |
 | citation_repere | 5 |
 | management | 4 |
+| television | 4 |
 | iconographie | 4 |
+| concert | 4 |
 | projet_avorte | 4 |
 | fait_interprete | 4 |
 | mythe | 4 |
@@ -656,13 +666,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | acteur_critique | 4 |
-| television | 3 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
 | reception_posthume | 3 |
 | chronologie | 3 |
 | reception_live | 3 |
-| concert | 3 |
 | intertextualite | 3 |
 | chanson_transition | 3 |
 | design | 3 |
@@ -688,6 +696,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | positionnement | 2 |
 | mémoire | 2 |
 | controverse_biographique | 2 |
+| objet_visuel | 2 |
 | outtakes | 2 |
 | reception_radio | 2 |
 | collection | 2 |
@@ -762,7 +771,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | archive_visuelle | 1 |
 | mythe_institutionnel | 1 |
 | chronology | 1 |
-| objet_visuel | 1 |
 | bootleg_culture | 1 |
 | reception_album | 1 |
 | reception_comparative | 1 |
@@ -845,6 +853,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | objet_album | 1 |
 | cadrage_source | 1 |
 | controverse_historiographique | 1 |
+| controverse_reception | 1 |
+| portrait_relationnel | 1 |
+| performance_reception | 1 |
+| tension_domestique | 1 |
+| festival | 1 |
+| incident_tournee | 1 |
+| controverse_memorielle | 1 |
+| scene_fondatrice_intime | 1 |
+| entretien_collectif | 1 |
 | scene_industrielle | 1 |
 | tension_technique | 1 |
 | bascule_management | 1 |
@@ -879,6 +896,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | marketing | 1 |
 | release_or_session | 1 |
 | album | 1 |
+| tv_session | 1 |
+| live_set_bootleg_context | 1 |
+| album_reception_object | 1 |
 | song_or_release | 1 |
 | song_or_video | 1 |
 
@@ -886,9 +906,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 425 |
-| critique | 85 |
-| majeure | 28 |
+| non qualifiée | 428 |
+| critique | 95 |
+| majeure | 30 |
 | structurante | 2 |
 | moyenne | 2 |
 

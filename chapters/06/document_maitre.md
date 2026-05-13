@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:34:10"
+generated_at: "2026-05-13T16:47:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 225 |
+| Atomes | 229 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 41 |
-| Événements chronologiques | 26 |
-| Personnes | 32 |
+| Citations | 42 |
+| Événements chronologiques | 27 |
+| Personnes | 33 |
 | Chansons | 17 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 52 | 30 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 56 | 31 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -316,13 +316,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q051** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q052** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q053** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q054** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q055** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q057** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -352,6 +352,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
 - CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
+- CHR-S76-1979-016 — Joy Division enregistre « Transmission » et « She’s Lost Control » pour BBC2 *Something Else*, programme diffusé le 15 septembre 1979.
 
 ## 9. Personnes et acteurs
 
@@ -379,6 +380,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S76-034 — John Anderson
 - PERS-S76-035 — Bob Auger
 - PERS-S76-036 — Bernie Binnick
+- PERS-S76-065 — Steve Harley
 - PERS-S76-057 — John Peel
 - PERS-S76-058 — Martin Rushent
 - PERS-S76-060 — Paul Hanley
@@ -495,17 +497,18 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (8)
-- Unknown Pleasures (7)
+- Rob Gretton (9)
+- Unknown Pleasures (8)
 - Martin Hannett (7)
 - Hannett (6)
 - Factory (6)
 - Gretton (5)
+- Transmission (4)
 - RCA (4)
 - manager (4)
 - Tony Wilson (4)
+- Peter Saville (4)
 - John Anderson (4)
-- Transmission (3)
 - Strawberry Studios (3)
 - Wilson (3)
 - synthétiseur (3)
@@ -515,8 +518,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Glass (3)
 - John Peel (3)
 - indépendance (3)
+- She’s Lost Control (3)
 - contrôle (3)
-- Peter Saville (3)
+- Bernard Sumner (3)
 - Terry Mason (3)
 - radio (2)
 - America (2)
@@ -530,11 +534,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Sumner (2)
 - Hook (2)
 - Kraftwerk (2)
-- She’s Lost Control (2)
 - I Remember Nothing (2)
 - Earcom 2 (2)
 - Still (2)
-- northern soul (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -641,13 +643,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | objet_discographique | 4 |
 | session_radio | 4 |
 | session_studio | 4 |
+| television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
 | versions_chanson | 3 |
 | reception | 2 |
 | relation | 2 |
 | session_enregistrement | 2 |
-| television | 2 |
 | analyse_musicale | 2 |
 | interpretation_album | 2 |
 | chanson_seuil | 2 |
@@ -715,6 +717,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | relation_studio | 1 |
 | objet_album | 1 |
 | lecture_album | 1 |
+| objet_visuel | 1 |
 | scene_industrielle | 1 |
 | projet_discographique | 1 |
 | analyse_sonore | 1 |
@@ -748,14 +751,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | concept_transversal | 1 |
 | management | 1 |
 | album | 1 |
+| tv_session | 1 |
+| album_reception_object | 1 |
 | song_or_release | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 130 |
-| critique | 72 |
+| non qualifiée | 132 |
+| critique | 74 |
 | majeure | 23 |
 
 ## 14. Risques de surinterprétation et points de vigilance

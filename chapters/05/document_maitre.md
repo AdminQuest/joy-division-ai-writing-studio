@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:34:10"
+generated_at: "2026-05-13T16:47:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 238 |
+| Atomes | 244 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 56 |
-| Événements chronologiques | 21 |
+| Citations | 57 |
+| Événements chronologiques | 24 |
 | Personnes | 33 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 45 | 46 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 51 | 47 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -347,6 +347,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
 - CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
+- CHR-S76-1979-015 — Joy Division joue à l’Electric Ballroom de Camden avec Scritti Politti, Monochrome Set et A Certain Ratio, devant un public d’environ 1 200 personnes selon S76.
+- CHR-S76-1979-017 — Joy Division joue au Futurama Festival à Leeds. S76 décrit une performance qui place le groupe au-dessus de la plupart des autres formations post-punk présentes, avec un set qui circulera ensuite en bootlegs.
+- CHR-S76-1979-018 — Après le concert au Nashville Rooms, le van de Joy Division est percuté par un camion sur l’autoroute ; l’équipement est projeté sur la route, mais personne n’est blessé.
 
 ## 9. Personnes et acteurs
 
@@ -508,16 +511,16 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Rock Against Racism (2)
 - Stiff Test (2)
 - Warner Bros (2)
+- Dave McCullough (2)
+- Sounds (2)
+- Stuff the Superstars (2)
+- A Certain Ratio (2)
 - T. J. Davidson’s (2)
 - gang (2)
 - Ian Curtis (2)
 - Bowie (2)
 - Manchester City (2)
 - Maine Road (2)
-- shock art (1)
-- Throbbing Gristle (1)
-- postwar nihilism (1)
-- flyer (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -616,9 +619,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | non qualifié | 6 |
 | fait | 6 |
 | production | 5 |
+| concert | 5 |
 | scene_fondatrice | 4 |
 | reception_critique | 4 |
-| concert | 4 |
 | concept_transversal | 4 |
 | television | 3 |
 | evenement | 3 |
@@ -708,6 +711,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | decision_management | 1 |
 | concert_iconographie | 1 |
 | controverse_historiographique | 1 |
+| controverse_reception | 1 |
+| performance_reception | 1 |
+| festival | 1 |
+| incident_tournee | 1 |
 | scene_industrielle | 1 |
 | projet_discographique | 1 |
 | session_studio | 1 |
@@ -742,15 +749,16 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | influences | 1 |
 | transition_esthetique | 1 |
 | relation | 1 |
+| live_set_bootleg_context | 1 |
 | song_or_release | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 171 |
-| critique | 50 |
-| majeure | 17 |
+| non qualifiée | 172 |
+| critique | 53 |
+| majeure | 19 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -794,6 +802,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A102 [moyen] — le récit Wilson peut héroïser Gretton ; conserver l’économie concrète de la décision
 - S76-A103 [moyen] — le caractère iconique peut faire croire à une importance scénique supérieure à celle documentée
 - S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
+- S76-A112 [moyen] — McCullough est polémique ; il faut traiter son texte comme réception critique située, non comme verdict
+- S76-A114 [moyen] — l’opposition humour/noirceur peut devenir trop schématique
+- S76-A116 [moyen] — scène fortement ascendante ; ne pas la transformer en triomphe continu sans les contrepoints médicaux et domestiques
+- S76-A118 [moyen] — scène de triomphe facilement canonisable ; garder le contexte festivalier difficile et l’ambivalence médicale
+- S76-A119 [faible] — incident concret ; éviter seulement d’en faire symbole tragique
 - S76-A048 [moyen] — ne pas projeter rétrospectivement l’éthique Factory sur un Curtis qui cherche encore une reconnaissance par la major
 - S76-A049 [moyen] — le projet ne doit pas être présenté comme vraie signature RCA ; S76 insiste sur le « almost »
 - S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
@@ -809,11 +822,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
 - S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
 - S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
-- S76-A060 [faible] — portrait social utile ; éviter seulement l’anecdote décorative
-- S76-A061 [moyen] — risque de folklore ou de psychologie de surface ; utile seulement si relié au management concret
-- S76-A062 [moyen] — risque de romantiser le « gang » ; l’atome doit rester analytique, non nostalgique
-- S76-A063 [moyen] — Mason parle depuis une position d’évincé ; conserver la charge affective du témoignage
-- S76-A064 [moyen] — scène héroïsante pour Gretton ; conserver le caractère tactique et contingent de l’action
 
 ## 15. Lacunes et prochaines vérifications
 

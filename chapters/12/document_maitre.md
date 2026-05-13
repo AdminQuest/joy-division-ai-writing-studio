@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:34:10"
+generated_at: "2026-05-13T16:47:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 107 |
+| Atomes | 115 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 27 |
-| Événements chronologiques | 21 |
-| Personnes | 12 |
+| Citations | 33 |
+| Événements chronologiques | 27 |
+| Personnes | 15 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
 
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 23 | 13 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 31 | 19 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -109,12 +109,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `relation_studio` ; importance : `critique` ; preuve : `temoignages_Hook_Reade_et_interpretation_S76`.
 - **S76-A108** — S76-A108 — *Unknown Pleasures* morceau par morceau : Curtis comme force de transformation, mais non testament  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_album` ; importance : `critique` ; preuve : `lecture_critique_S76`.
-- **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- **S75-A012** — S75-A012 — Curtis dans la pièce bleue : ambition, naïveté et écriture de transition  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
+- **S76-A109** — S76-A109 — 16 avril 1979 : naissance de Natalie et paternité empêchée par la maladie  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `fait_biographique_corroborable_et_interpretation_S76`.
+- **S76-A110** — S76-A110 — 24 mai 1979 : crise grave à Barton Street et changement de personnalité perçu par Deborah  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_medicale` ; importance : `critique` ; preuve : `temoignage_Deborah_Curtis_et_reconstruction_S76`.
+- **S76-A115** — S76-A115 — Curtis « public property » : Deborah face à la capture publique du chanteur  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_domestique` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoignage_Deborah`.
 
 ## 6. Autres atomes utiles
 
@@ -246,6 +246,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S47 — West, Joy Division, 1984 ; type : `synthese_critique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S69-A011** — S69-A011 — Deborah Curtis : expulsion du passé plutôt que nostalgie  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
+- **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
+- **S75-A012** — S75-A012 — Curtis dans la pièce bleue : ambition, naïveté et écriture de transition  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
 - **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
@@ -262,6 +268,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_medicale` ; importance : `majeure` ; preuve : `interpretation_psychologique_et_croyance_historique`.
 - **S76-A097** — S76-A097 — Carole, Wilson et le mot « communiquer » : médiumnité, différence et risque spirite  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_memorielle` ; importance : `majeure` ; preuve : `memoire_familiale_et_reconstruction_reade_wilson`.
+- **S76-A117** — S76-A117 — *Something Else*, 1er septembre 1979 : télévision, fatigue et dilution technique  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `television` ; importance : `critique` ; preuve : `evenement_televisuel_corroborable_et_interpretation_S76`.
+- **S76-A120** — S76-A120 — Annik Honoré : plusieurs vérités contre le récit officiel  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_memorielle` ; importance : `critique` ; preuve : `temoignage_Annik_Honore_Reeder_Reade`.
+- **S76-A121** — S76-A121 — Nashville Rooms, 13 août 1979 : Annik entend *Unknown Pleasures* et entre dans l’histoire  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice_intime` ; importance : `critique` ; preuve : `temoignage_Annik_Honore_et_reconstruction_S76`.
+- **S76-A122** — S76-A122 — Walthamstow, 24 août 1979 : interview Annik, joie collective et thèmes déjà dangereux  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `entretien_collectif` ; importance : `critique` ; preuve : `cassette_entretien_Annik_et_reconstruction_S76`.
+- **SONG-S76-028** — SONG-S76-028 — *Something Else* : « Transmission » et « She’s Lost Control »  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tv_session` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -288,6 +304,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q112** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q120** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q121** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q122** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q123** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q124** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q019** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -316,6 +338,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
 - CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.
 - CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
+- CHR-S76-1979-011 — Natalie Curtis naît le lundi de Pâques. S76 met en tension la joie de Ian Curtis, la maternité de Deborah et la crainte que l’épilepsie empêche Ian de s’occuper physiquement de sa fille en sécurité.
+- CHR-S76-1979-012 — Le lendemain de la naissance de Natalie, Joy Division joue à Acklam Hall, Londres, avec John Dowie en support. S76 souligne que les concerts londoniens sont considérés comme trop importants pour être annulés.
+- CHR-S76-1979-013 — Ian Curtis subit à Barton Street plusieurs crises épileptiques consécutives. Deborah appelle une ambulance lorsqu’elle ne parvient plus à le réveiller.
+- CHR-S76-1979-016 — Joy Division enregistre « Transmission » et « She’s Lost Control » pour BBC2 *Something Else*, programme diffusé le 15 septembre 1979.
+- CHR-S76-1979-019 — Annik Honoré voit Joy Division au Nashville Rooms, venue de Belgique après avoir été bouleversée par *Unknown Pleasures*. Elle demande ensuite une interview pour le fanzine *En Attendant*.
+- CHR-S76-1979-020 — Annik Honoré réalise une longue interview de Joy Division à Walthamstow Youth Club pour *En Attendant*. L’entretien aborde notamment films, amour, mariage, enfants, santé, mort et épilepsie.
 
 ## 9. Personnes et acteurs
 
@@ -326,6 +354,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-054 — Alan Wise
 - PERS-S76-055 — Dr David Holmes
 - PERS-S76-009 — Deborah Woodruff / Deborah Curtis
+- PERS-S76-061 — Natalie Curtis
+- PERS-S76-063 — Annik Honoré
+- PERS-S76-064 — Dave Pils et Jasmine
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-002 — Doreen Curtis
 - PERS-S76-060 — Paul Hanley
@@ -428,9 +459,15 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
+- épilepsie (8)
 - Ian Curtis (7)
-- épilepsie (6)
-- Deborah Curtis (3)
+- Deborah Curtis (5)
+- Natalie Curtis (4)
+- Annik Honoré (3)
+- She’s Lost Control (3)
+- Unknown Pleasures (3)
+- Mark Reeder (3)
+- mariage (3)
 - Mick Middles (2)
 - domesticité (2)
 - Derby Hall (2)
@@ -439,17 +476,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - crise épileptique (2)
 - fatigue (2)
 - paroles (2)
+- paternité (2)
 - New Dawn Fades (2)
-- She’s Lost Control (2)
 - I Remember Nothing (2)
-- Unknown Pleasures (2)
 - Lindsay Reade (2)
+- Barton Street (2)
 - Debbie Curtis (2)
-- Natalie Curtis (2)
-- Mark Reeder (2)
 - David Lewis Centre (2)
 - handicap (2)
-- mariage (2)
 - Bowie (1)
 - Jim Morrison (1)
 - mort jeune (1)
@@ -465,9 +499,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - presse musicale (1)
 - Jon Savage (1)
 - stage presence (1)
-- possession (1)
-- rock star self-absorption (1)
-- responsabilité (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -563,6 +594,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
 | prudence_methodologique | 3 |
+| tension_biographique | 3 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
 | santé | 2 |
@@ -574,7 +606,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | session_album | 2 |
 | reception_poll | 2 |
 | idee_directrice | 2 |
-| tension_biographique | 2 |
+| scene_medicale | 2 |
 | contexte_intime | 2 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
@@ -630,7 +662,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | relation_studio | 1 |
 | lecture_album | 1 |
 | cadrage_source | 1 |
-| scene_medicale | 1 |
+| tension_domestique | 1 |
+| television | 1 |
+| controverse_memorielle | 1 |
+| scene_fondatrice_intime | 1 |
+| entretien_collectif | 1 |
 | fait_medical | 1 |
 | prudence_medicale | 1 |
 | renversement_biographique | 1 |
@@ -641,13 +677,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_de_transition | 1 |
 | contexte_biographique | 1 |
 | memoire | 1 |
+| tv_session | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 64 |
-| critique | 32 |
+| non qualifiée | 65 |
+| critique | 39 |
 | majeure | 11 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -680,6 +717,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A002 [faible] — l'atome réduit la téléologie morbide plutôt qu'il ne l'alimente
 - S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire
 - S76-A010 [eleve] — risque de faire de l'incident un signe annonciateur de la mort ou de la maladie
+- S76-A109 [eleve] — risque de lire la naissance comme déclencheur tragique ; elle doit rester un élément du faisceau de contraintes
+- S76-A110 [tres_eleve] — risque de causalité directe traitement/personnalité/suicide ; conserver les modalisateurs et le faisceau de facteurs
+- S76-A115 [eleve] — risque de simplifier Deborah contre groupe ; conserver la pluralité des points de vue
+- S76-A117 [faible] — événement documentable ; prudence sur les effets précis de fatigue sur Curtis
+- S76-A120 [tres_eleve] — risque de roman sentimental, jugement moral, effacement de Deborah ou blanchiment d’Ian
+- S76-A121 [moyen] — scène fondatrice intime mais d’abord culturelle et médiatique ; ne pas la sentimentaliser trop vite
+- S76-A122 [eleve] — Annik relit la scène depuis la suite ; conserver la joie du moment et ne pas la transformer en présage
 - S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
 - S76-A088 [eleve] — risque de lire grossesse et pression comme causes directes de la crise ultérieure
 - S76-A089 [eleve] — scène médicale fondatrice ; ne pas la lire comme point d’annonce fatal mais comme seuil clinique et social

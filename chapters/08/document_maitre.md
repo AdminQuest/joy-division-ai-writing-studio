@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:34:10"
+generated_at: "2026-05-13T16:47:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 74 |
-| Atomes critiques / majeurs | 22 |
+| Atomes | 76 |
+| Atomes critiques / majeurs | 23 |
 | Citations | 4 |
-| Événements chronologiques | 16 |
+| Événements chronologiques | 17 |
 | Personnes | 5 |
 | Chansons | 4 |
 | Sources mobilisées | 6 |
@@ -39,7 +39,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 16 | 4 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 18 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -77,6 +77,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `anecdote_Wilson_reconstruite_par_S76`.
 - **S76-A101** — S76-A101 — Genetic demos : Rushent éclaire Joy Division mais n’obtient pas l’intimité Hannett  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `session_corroborable_et_interpretation_S76`.
+- **S76-A118** — S76-A118 — Futurama, 8 septembre 1979 : Joy Division dépasse le post-punk par intensité  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `festival` ; importance : `critique` ; preuve : `temoignages_Terry_Mason_Jeremy_Kerr_et_reconstruction_S76`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
@@ -194,6 +196,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_release` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-026** — SONG-S76-026 — Genetic demos  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `release_or_session` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-029** — SONG-S76-029 — Futurama 1979 comme set bootleg majeur  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -220,6 +224,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
 - CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
 - CHR-S75-1997-001 — Inclusion de la session complète de *Unknown Pleasures* dans l'anthologie *Heart and Soul*.
+- CHR-S76-1979-017 — Joy Division joue au Futurama Festival à Leeds. S76 décrit une performance qui place le groupe au-dessus de la plupart des autres formations post-punk présentes, avec un set qui circulera ensuite en bootlegs.
 
 ## 9. Personnes et acteurs
 
@@ -326,6 +331,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - bootleg (3)
 - Enigma (3)
 - An Ideal For Living (3)
+- Dead Souls (2)
 - Warsaw (2)
 - Movie Play Gold (2)
 - Heart and Soul (2)
@@ -339,7 +345,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Electric Circus (2)
 - Licht und Blindheit (1)
 - Atmosphere (1)
-- Dead Souls (1)
 - Sordide Sentimental (1)
 - eternal (1)
 - archive sonore (1)
@@ -403,6 +408,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A101 — nuance → MYTH-004
 - S76-A101 — relie → CONCEPT-006
 - S76-A101 — prolonge → S76-A100
+- S76-A118 — prolonge → S76-A116
+- S76-A118 — relie → MOTIF-004
+- S76-A118 — nuance → CONCEPT-009
 - S76-A050 — prolonge → S76-A049
 - S76-A050 — nuance → S75-A0XX
 - S76-A050 — prepare → S76-A051
@@ -451,17 +459,19 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | controverse | 1 |
 | chronology | 1 |
 | economie_discographique | 1 |
+| festival | 1 |
 | analyse_sonore | 1 |
 | bifurcation_institutionnelle | 1 |
 | fait_contractuel | 1 |
 | release_or_session | 1 |
+| live_set_bootleg_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 52 |
-| critique | 17 |
+| non qualifiée | 53 |
+| critique | 18 |
 | majeure | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -479,6 +489,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A041 [tres_eleve] — la pochette Hitler Youth doit être analysée dans sa violence symbolique sans conclure automatiquement à une idéologie fasciste
 - S76-A046 [eleve] — dossier sensible ; il faut distinguer décision esthétique, morale, commerciale et distribution
 - S76-A101 [faible] — l’atome compare des choix de production précis et vérifiables
+- S76-A118 [moyen] — scène de triomphe facilement canonisable ; garder le contexte festivalier difficile et l’ambivalence médicale
 - S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
 - S76-A051 [moyen] — description qualitative ; à croiser avec écoute des bandes RCA et sources Hook/Ott
 - S76-A078 [moyen] — scène fortement narrative ; à croiser avec sources Factory et témoignages Wilson/Erasmus
