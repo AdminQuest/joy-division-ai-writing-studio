@@ -1,25 +1,26 @@
 {
-  "generated_at": "2026-05-13T18:44:39",
+  "generated_at": "2026-05-13T20:18:35",
   "status": "warning",
   "summary": {
-    "records_total": 2062,
+    "records_total": 2085,
     "records_by_kind": {
-      "quote": 293,
-      "atom": 1199,
-      "chronology": 297,
+      "atom": 1201,
+      "quote": 304,
+      "chronology": 298,
       "metadata": 18,
       "source": 56,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 8,
-      "person": 128,
-      "concept": 10,
-      "myth": 10
+      "template": 3,
+      "motif": 10,
+      "person": 130,
+      "concept": 11,
+      "myth": 11
     },
-    "diagnostics_total": 11929,
+    "diagnostics_total": 11992,
     "errors": 0,
-    "warnings": 11929,
+    "warnings": 11992,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -125,15 +126,18 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 70,
-        "atoms": 44,
-        "quotes": 5,
+        "records": 76,
+        "atoms": 46,
+        "quotes": 7,
         "chronology": 8,
         "files": [
           "registers/chronology/master_chronology.md",
           "registers/people/master_people.md",
+          "registers/people/s45_curtis_people_vote_conservateur.md",
           "registers/people/s76_torn_apart_people_part_02.md",
+          "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
           "registers/songs/master_songs.md",
+          "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
           "sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md",
           "sources/deborah_curtis/atomisation_02_unknown_pleasures_domesticite_maladie.md",
           "sources/deborah_curtis/atomisation_03_closer_derniers_mois_memoire.md",
@@ -317,9 +321,9 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 605,
+        "records": 614,
         "atoms": 229,
-        "quotes": 186,
+        "quotes": 195,
         "chronology": 101,
         "files": [
           "registers/chronology/s76_torn_apart_chronology_part_01.md",
@@ -373,6 +377,7 @@
           "registers/quotes/s76_torn_apart_quotes_part_15.md",
           "registers/quotes/s76_torn_apart_quotes_part_16.md",
           "registers/quotes/s76_torn_apart_quotes_part_17.md",
+          "registers/quotes/s76_torn_apart_quotes_part_18.md",
           "registers/songs/s76_torn_apart_songs_part_07.md",
           "registers/songs/s76_torn_apart_songs_part_08.md",
           "registers/songs/s76_torn_apart_songs_part_09.md",
@@ -406,6 +411,126 @@
     ]
   },
   "issues": [
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "record_id": "S45-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S45-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A020"
+    },
     {
       "level": "warning",
       "file": "sources/marco_broll/source.md",
@@ -68574,6 +68699,168 @@
     },
     {
       "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q187"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q187"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q187"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q188"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q188"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q188"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q189"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q189"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q189"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q190"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q190"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q190"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q191"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q191"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q191"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q192"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q192"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q192"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q193"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q193"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q193"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q194"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q194"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q194"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q195"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q195"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_18.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q195"
+    },
+    {
+      "level": "warning",
       "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S76-Q087"
@@ -71886,6 +72173,42 @@
     },
     {
       "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S45-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S45-Q007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S45-Q007"
+    },
+    {
+      "level": "warning",
       "file": "registers/quotes/s75_ott_quotes_part_04.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S75-Q017"
@@ -71973,6 +72296,66 @@
       "file": "registers/quotes/s75_ott_quotes_part_04.md",
       "message": "Missing required field: statut_verification",
       "record_id": "S75-Q021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_vote_conservateur.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_vote_conservateur.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_vote_conservateur.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_vote_conservateur.md",
+      "message": "Missing required field: name",
+      "record_id": "PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_vote_conservateur.md",
+      "message": "Missing required field: role",
+      "record_id": "PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s45_curtis_people_vote_conservateur.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_vote_conservateur.md",
+      "message": "Missing required field: event",
+      "record_id": "CHR-S45-VOTE-CONSERVATEUR-LOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_vote_conservateur.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S45-VOTE-CONSERVATEUR-LOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_vote_conservateur.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S45-VOTE-CONSERVATEUR-LOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s45_curtis_chronology_vote_conservateur.md",
+      "message": "Missing required field: certainty",
+      "record_id": "CHR-S45-VOTE-CONSERVATEUR-LOCAL"
     },
     {
       "level": "warning",

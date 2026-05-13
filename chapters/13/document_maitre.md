@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:44:55"
+generated_at: "2026-05-13T20:18:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -24,7 +24,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 |---|---|
 | Atomes | 58 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 17 |
+| Citations | 19 |
 | Événements chronologiques | 9 |
 | Personnes | 16 |
 | Chansons | 2 |
@@ -39,7 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 21 | 17 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 21 | 19 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -168,6 +168,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q084** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q189** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q195** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q088** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q089** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »

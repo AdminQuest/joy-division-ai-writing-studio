@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:44:55"
+generated_at: "2026-05-13T20:18:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ generated_at: "2026-05-13T18:44:55"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 58 |
-| Atomes critiques / majeurs | 15 |
+| Atomes | 60 |
+| Atomes critiques / majeurs | 16 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
@@ -35,7 +35,7 @@ generated_at: "2026-05-13T18:44:55"
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 5 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 7 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 1 | 0 |
@@ -47,6 +47,8 @@ generated_at: "2026-05-13T18:44:55"
 
 ## 5. Atomes critiques ou majeurs
 
+- **S45-A020** — S45-A020 — Ne pas confondre vote conservateur local et adhésion au thatchérisme  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage issue d’un témoignage direct`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S75-A004** — S75-A004 — Manchester contre Londres : le punk comme possibilité, non comme modèle  
@@ -106,6 +108,8 @@ generated_at: "2026-05-13T18:44:55"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-023** — S45-023 — Ian Curtis continue de travailler malgré le succès  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `travail` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S45-A019** — S45-A019 — Le vote conservateur d’Ian Curtis comme contrepoint biographique fragile  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S46-004** — S46-004 — Les concerts des Sex Pistols comme matrice mancunienne  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-044** — S46-044 — Ian Wood : Joy Division et le malaise industriel  
@@ -226,6 +230,13 @@ generated_at: "2026-05-13T18:44:55"
 - salford (2)
 - géographie biographique (2)
 - mémoire ouvrière (2)
+- complexité politique de Curtis (1)
+- anti-déterminisme sociologique (1)
+- biographie contre mythe social (1)
+- discordance entre œuvre et opinion (1)
+- seuil de preuve politique (1)
+- distinction anecdote / position idéologique (1)
+- formulation contrôlée (1)
 - post-punk (1)
 - âge d’or (1)
 - présentisme (1)
@@ -267,13 +278,6 @@ generated_at: "2026-05-13T18:44:55"
 - consolidation (1)
 - s20 migration (1)
 - source critique (1)
-- desperate bicycles (1)
-- autonomie (1)
-- moyens de production (1)
-- punk provincial (1)
-- pere ubu (1)
-- devo (1)
-- cleveland (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -284,6 +288,16 @@ generated_at: "2026-05-13T18:44:55"
 - mémoire ouvrière (2)
 - Wythenshawe (2)
 - overspill estate (2)
+- contradiction biographique (1)
+- politique domestique (1)
+- conservatisme ordinaire (1)
+- contrepoint au récit social (1)
+- Manchester non homogène (1)
+- prudence citationnelle (1)
+- politique (1)
+- Thatcher (1)
+- conservatisme (1)
+- extrapolation (1)
 - Londres (1)
 - punk (1)
 - auto-suffisance (1)
@@ -309,19 +323,18 @@ generated_at: "2026-05-13T18:44:55"
 - désindustrialisation (1)
 - ruine urbaine (1)
 - reconstruction (1)
-- spectralité urbaine (1)
-- suburbia (1)
-- ascension sociale (1)
-- identité urbaine (1)
-- périphérie (1)
-- violence sociale (1)
-- réseau local (1)
-- Old Trafford (1)
-- Stamford Street (1)
-- guerre familiale (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A019 — nuance → MYTH-003
+- S45-A019 — nuance → MYTH-011
+- S45-A019 — prolonge → CONCEPT-010
+- S45-A019 — requiert → CONCEPT-004
+- S45-A019 — alerte → RISQUE-SURTRADUCTION-POLITIQUE
+- S45-A020 — corrige → FORMULATION-IAN-CURTIS-VOTE-THATCHER
+- S45-A020 — stabilise → REGISTRE-CITATIONS-VERIFIEES
+- S45-A020 — alerte → RISQUE-SURTRADUCTION-POLITIQUE
+- S45-A020 — nuance → S45-A019
 - S75-A004 — nuance → MYTH-lesser_free_trade_hall_origine_absolue
 - S75-A004 — prolonge → CONCEPT-geographie_emotionnelle
 - S75-A014 — nuance → MYTH-curtis_centre_unique
@@ -380,6 +393,8 @@ generated_at: "2026-05-13T18:44:55"
 | concept | 3 |
 | methode | 2 |
 | chronologie | 2 |
+| tension_documentaire | 1 |
+| prudence_methodologique | 1 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
 | citation_contextualisee | 1 |
@@ -407,10 +422,13 @@ generated_at: "2026-05-13T18:44:55"
 |---|---|
 | non qualifiée | 43 |
 | majeure | 9 |
-| critique | 6 |
+| critique | 7 |
+| majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.
+- S45-A020 [très élevé] — « Conservateur » peut être surtraduit en « thatchérien », alors que le passage ne l’établit pas.
 - S75-A004 [moyen] — risque de durcir excessivement l'opposition Londres/Manchester
 - S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
 - S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale

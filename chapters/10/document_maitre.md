@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:44:55"
+generated_at: "2026-05-13T20:18:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 80 |
+| Atomes | 81 |
 | Atomes critiques / majeurs | 20 |
-| Citations | 18 |
+| Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
 | Chansons | 6 |
@@ -35,7 +35,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 3 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 12 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
@@ -43,7 +43,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 24 | 16 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 24 | 18 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -118,6 +118,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `positionnement` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-044** — S45-044 — Deborah Curtis devient malgré elle gardienne d’archive  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive_vivante` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S45-A019** — S45-A019 — Le vote conservateur d’Ian Curtis comme contrepoint biographique fragile  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
@@ -218,6 +220,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q193** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q194** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q185** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -308,6 +312,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - réception posthume (2)
 - manchester (2)
 - mythification (2)
+- complexité politique de Curtis (1)
+- anti-déterminisme sociologique (1)
+- biographie contre mythe social (1)
+- discordance entre œuvre et opinion (1)
 - malcolm whitehead (1)
 - charles salem (1)
 - no city fun music (1)
@@ -349,10 +357,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - séparation (1)
 - divorce (1)
 - rupture (1)
-- derniers jours (1)
-- banalité (1)
-- quotidien (1)
-- trauma (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -369,6 +373,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - The Factory Sample (2)
 - Tony Wilson (2)
 - Martin Hannett (2)
+- contradiction biographique (1)
+- politique domestique (1)
+- conservatisme ordinaire (1)
+- contrepoint au récit social (1)
+- Manchester non homogène (1)
 - reprise (1)
 - postérité (1)
 - austérité (1)
@@ -393,14 +402,14 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Curtis outsider (1)
 - image sérieuse (1)
 - sourire absent (1)
-- photographie rock (1)
-- Bowdon Vale (1)
-- Martin O’Neill (1)
-- photographie (1)
-- flock wallpaper (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A019 — nuance → MYTH-003
+- S45-A019 — nuance → MYTH-011
+- S45-A019 — prolonge → CONCEPT-010
+- S45-A019 — requiert → CONCEPT-004
+- S45-A019 — alerte → RISQUE-SURTRADUCTION-POLITIQUE
 - S75-A001 — prolonge → MOTIF-heritage
 - S75-A001 — nuance → MYTH-culte_sombre
 - S75-A038 — prolonge → MYTH-005
@@ -484,6 +493,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mémoire | 2 |
 | chronologie | 2 |
 | song | 2 |
+| tension_documentaire | 1 |
 | santé | 1 |
 | performance_scenique | 1 |
 | chanson_biographie | 1 |
@@ -524,9 +534,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | non qualifiée | 60 |
 | critique | 18 |
 | majeure | 2 |
+| majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.
 - S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
 - S75-A038 [moyen] — chiffres de vente et formule conceptuelle doivent être recoupés avec sources Factory / discographiques
 - S75-A053 [moyen] — ne pas réécrire l'album idéal à partir des chutes ; elles documentent une constellation, pas un album alternatif certain
