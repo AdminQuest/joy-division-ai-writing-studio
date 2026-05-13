@@ -41933,6 +41933,506 @@
   },
   {
     "kind": "atom",
+    "id": "S76-A056",
+    "file": "sources/middles_reade_torn_apart/source_part_06.md",
+    "heading": "S76-A056 — Gretton entre par malentendu : téléphone, oubli de Sumner, répétition surprise",
+    "data": {
+      "id": "S76-A056",
+      "type_unite": "scene_management",
+      "source_id": "S76",
+      "titre": "Gretton entre par malentendu : téléphone, oubli de Sumner, répétition surprise",
+      "pages": {
+        "pdf": [
+          100,
+          101
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "Tandis que l’épisode RCA tourne mal, Rob Gretton prépare son entrée comme manager. Il rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, lui propose ses services, reçoit une forme d’accord, mais Sumner oublie d’en parler au groupe. Gretton arrive ensuite à une répétition en pensant être attendu. La scène fixe une entrée non institutionnelle, presque burlesque, du futur manager.\n",
+      "role_argumentatif": [
+        "montrer que l’arrivée de Gretton n’est pas un recrutement formel mais une greffe sociale et pratique",
+        "relier l’échec RCA à une bascule managériale sans causalité mécanique",
+        "documenter la part de hasard et de malentendu dans la structuration du groupe"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Peter_Hook_et_reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_scene_memorielle"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "scène fortement mémorielle et comique ; ne pas la transformer en acte fondateur trop téléologique"
+      },
+      "motifs": [
+        "Rob Gretton",
+        "cabine téléphonique",
+        "Bernard Sumner",
+        "répétition",
+        "malentendu managérial"
+      ],
+      "concepts_derives": [
+        "greffe managériale",
+        "hasard structurant",
+        "management informel"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A055",
+          "note": "La sortie de l’orbite RCA laisse place à l’entrée concrète de Gretton."
+        },
+        {
+          "type": "nuance",
+          "cible": "CONCEPT-management_post_punk",
+          "note": "Le management émerge d’une sociabilité locale plus que d’un dispositif professionnel."
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A057",
+          "note": "L’arrivée surprise provoque une réaction sensible de Curtis."
+        }
+      ],
+      "couche_narrative": [
+        "management",
+        "scene_locale",
+        "biographique"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S76-A057",
+    "file": "sources/middles_reade_torn_apart/source_part_06.md",
+    "heading": "S76-A057 — Curtis face à l’intrusion de Gretton : sensibilité, retrait, bord relationnel",
+    "data": {
+      "id": "S76-A057",
+      "type_unite": "micro_scene_relationnelle",
+      "source_id": "S76",
+      "titre": "Curtis face à l’intrusion de Gretton : sensibilité, retrait, bord relationnel",
+      "pages": {
+        "pdf": [
+          101
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "Selon Hook, Ian Curtis est visiblement troublé par l’entrée inattendue de Gretton pendant la répétition. Il chante, puis se retire soudainement. Hook interprète cette réaction comme une sensibilité particulière aux intrusions. Le passage ajoute qu’il existe peut-être toujours un léger « edge » entre Ian et Rob. L’intérêt historiographique tient moins à la psychologie qu’à la fragilité du dispositif collectif au moment où un manager extérieur s’y introduit.\n",
+      "role_argumentatif": [
+        "qualifier prudemment la relation Curtis-Gretton dès son origine",
+        "éviter de réduire Gretton à une figure immédiatement salvatrice",
+        "signaler une tension relationnelle possible sans psychologiser Curtis"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Peter_Hook",
+        "corroboration": "faible_a_moyenne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "sensible_a_recoupement"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis"
+      },
+      "motifs": [
+        "Ian Curtis",
+        "Rob Gretton",
+        "répétition",
+        "intrusion",
+        "sensibilité"
+      ],
+      "concepts_derives": [
+        "tension relationnelle latente",
+        "intrusion dans le collectif"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A056",
+          "note": "L’arrivée de Gretton est vécue comme une intrusion par Curtis."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-manager_sauveur",
+          "note": "Gretton n’apparaît pas seulement comme solution ; son entrée crée aussi du trouble."
+        },
+        {
+          "type": "vigilance",
+          "cible": "CONCEPT-psychologisation_Curtis",
+          "note": "Ne pas inférer une fragilité psychologique générale à partir de cette micro-scène."
+        }
+      ],
+      "couche_narrative": [
+        "biographique",
+        "relationnelle",
+        "management"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 5",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S76-A058",
+    "file": "sources/middles_reade_torn_apart/source_part_06.md",
+    "heading": "S76-A058 — Le pub comme audition sociale : Gretton devient acceptable parce qu’il appartient au même monde",
+    "data": {
+      "id": "S76-A058",
+      "type_unite": "sociabilite_scene",
+      "source_id": "S76",
+      "titre": "Le pub comme audition sociale : Gretton devient acceptable parce qu’il appartient au même monde",
+      "pages": {
+        "pdf": [
+          101
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "Après la répétition, le groupe part naturellement au pub avec Gretton. Hook résume les sujets : Manchester City, musique, femmes. La scène est triviale, mais décisive : le manager se fait accepter par sociabilité masculine et compatibilité de milieu, non par démonstration professionnelle. Ian semble se détendre, même si Hook laisse subsister l’idée d’une légère tension avec Rob.\n",
+      "role_argumentatif": [
+        "montrer le rôle du pub comme instance de validation sociale dans la scène mancunienne",
+        "inscrire Gretton dans une culture de groupe, de football et de conversation ordinaire",
+        "démythifier l’entrée du manager sans en diminuer la portée"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Peter_Hook",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_scene_memorielle"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton"
+      },
+      "motifs": [
+        "pub",
+        "Manchester City",
+        "Rob Gretton",
+        "sociabilité masculine",
+        "gang of lads"
+      ],
+      "concepts_derives": [
+        "audition sociale",
+        "validation par milieu",
+        "management de proximité"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A056",
+          "note": "Après le malentendu de répétition, le pub transforme l’intrusion en intégration."
+        },
+        {
+          "type": "nuance",
+          "cible": "CONCEPT-management_post_punk",
+          "note": "Le management est d’abord un ajustement social avant d’être une fonction technique."
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A059",
+          "note": "La sociabilité de Gretton se comprend par son ancrage Newell Green / Wythenshawe."
+        }
+      ],
+      "couche_narrative": [
+        "scene_locale",
+        "sociabilite",
+        "management"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S76-A059",
+    "file": "sources/middles_reade_torn_apart/source_part_06.md",
+    "heading": "S76-A059 — Newell Green / Wythenshawe : matrice sociale de Gretton",
+    "data": {
+      "id": "S76-A059",
+      "type_unite": "geographie_sociale",
+      "source_id": "S76",
+      "titre": "Newell Green / Wythenshawe : matrice sociale de Gretton",
+      "pages": {
+        "pdf": [
+          101,
+          102
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "S76 replace Gretton dans Newell Green, Baguley et Wythenshawe, ancien immense overspill estate à la bordure de Cheshire et de Wilmslow. Le pub Newell Green apparaît comme un espace de brassage où se croisent talents musicaux, figures locales et marges plus troubles : Vini Reilly, Paul Young, Billy Duffy, Martin Hannett, Eddie Garrity, Donald Johnson, voire Johnny Marr. Gretton n’est donc pas seulement un manager ; il vient d’une géographie sociale dense, périphérique, connectée.\n",
+      "role_argumentatif": [
+        "inscrire Gretton dans une géographie populaire et périphérique de Manchester",
+        "montrer que l’écosystème musical ne se limite pas au centre-ville, à Factory ou aux studios",
+        "relier Wythenshawe, pubs, football et réseaux post-punk"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76_appuyee_sur_temoin_et_memoire_locale",
+        "corroboration": "moyenne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "a_recouper"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé"
+      },
+      "motifs": [
+        "Wythenshawe",
+        "Newell Green",
+        "Baguley",
+        "overspill estate",
+        "pub network",
+        "Manchester peripheries"
+      ],
+      "concepts_derives": [
+        "géographie périphérique",
+        "sociabilité de pub",
+        "réseau informel mancunien"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A058",
+          "note": "L’acceptation de Gretton par le pub renvoie à son monde social d’origine."
+        },
+        {
+          "type": "nuance",
+          "cible": "CONCEPT-scene_manchester",
+          "note": "La scène ne se réduit pas aux lieux canoniques du centre ; elle circule par les périphéries."
+        },
+        {
+          "type": "relie",
+          "cible": "MOTIF-geographie_emotionnelle",
+          "note": "Wythenshawe ajoute une strate périphérique à la cartographie émotionnelle du livre."
+        }
+      ],
+      "couche_narrative": [
+        "geographie_sociale",
+        "scene_locale",
+        "reseaux"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S76-A060",
+    "file": "sources/middles_reade_torn_apart/source_part_06.md",
+    "heading": "S76-A060 — Gretton : catholicisme scolaire, Manchester City et style terrace",
+    "data": {
+      "id": "S76-A060",
+      "type_unite": "portrait_social",
+      "source_id": "S76",
+      "titre": "Gretton : catholicisme scolaire, Manchester City et style terrace",
+      "pages": {
+        "pdf": [
+          102
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "S76 décrit Gretton comme un garçon catholique intelligent, ancien élève de St Bede’s à Moss Side, fortement attaché à Manchester City. Il suit le club à domicile et à l’extérieur, dans une tenue de terrace culture — crombie, Levi’s Sta-Prest, brogues « Royals ». Ce portrait stabilise un Gretton situé entre éducation catholique, culture footballistique et style populaire codé.\n",
+      "role_argumentatif": [
+        "donner une épaisseur sociale au manager",
+        "relier Gretton à Moss Side, Maine Road et Manchester City",
+        "montrer comment style, football et compétence sociale participent du capital local de Gretton"
+      ],
+      "niveau_preuve": {
+        "statut": "portrait_S76_et_memoire_locale",
+        "corroboration": "moyenne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable_dans_ses_grandes_lignes"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible",
+        "raison": "portrait social utile ; éviter seulement l’anecdote décorative"
+      },
+      "motifs": [
+        "St Bede's",
+        "Manchester City",
+        "Maine Road",
+        "terrace culture",
+        "crombie"
+      ],
+      "concepts_derives": [
+        "capital local",
+        "style populaire codé",
+        "football comme sociabilité"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A059",
+          "note": "Le portrait personnel de Gretton découle de sa géographie sociale."
+        },
+        {
+          "type": "nuance",
+          "cible": "CONCEPT-management_post_punk",
+          "note": "Le manager tient aussi sa légitimité d’un capital social extra-musical."
+        },
+        {
+          "type": "relie",
+          "cible": "S76-A058",
+          "note": "Les conversations sur Manchester City au pub deviennent un langage d’intégration."
+        }
+      ],
+      "couche_narrative": [
+        "portrait",
+        "sociologie_culturelle",
+        "management"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S76-A061",
+    "file": "sources/middles_reade_torn_apart/source_part_06.md",
+    "heading": "S76-A061 — Détachement, cannabis et style managérial : Gretton contre la panique professionnelle",
+    "data": {
+      "id": "S76-A061",
+      "type_unite": "concept_management",
+      "source_id": "S76",
+      "titre": "Détachement, cannabis et style managérial : Gretton contre la panique professionnelle",
+      "pages": {
+        "pdf": [
+          102,
+          103
+        ],
+        "imprimees": [
+          "chapitre 6"
+        ]
+      },
+      "resume": "S76 reprend l’image de Gretton entouré de fumée bleue, notamment sur les terrasses de Maine Road, répondant aux mauvais matchs de Manchester City par un détachement cynique. Le texte relie cette posture à son style managérial futur. L’intérêt n’est pas folklorique : Gretton apparaît comme une figure capable d’opposer une distance froide aux emballements de l’industrie, du groupe et de la scène.\n",
+      "role_argumentatif": [
+        "identifier le détachement comme composante du style Gretton",
+        "relier culture footballistique, cannabis et management sans réduire Gretton à une caricature",
+        "préparer l’analyse de Gretton comme bouclier face aux pressions industrielles"
+      ],
+      "niveau_preuve": {
+        "statut": "portrait_S76_et_reconstruction_culturelle",
+        "corroboration": "moyenne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "interpretation_a_croiser"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque de folklore ou de psychologie de surface ; utile seulement si relié au management concret"
+      },
+      "motifs": [
+        "Rob Gretton",
+        "cannabis",
+        "Maine Road",
+        "détachement",
+        "managerial style"
+      ],
+      "concepts_derives": [
+        "détachement managérial",
+        "bouclier contre l’industrie",
+        "cynisme protecteur"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A060",
+          "note": "La culture terrace nourrit l’image d’un Gretton détaché et cynique."
+        },
+        {
+          "type": "prepare",
+          "cible": "CONCEPT-gretton_bouclier",
+          "note": "Le détachement deviendra une ressource dans la protection du groupe."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-manager_sauveur",
+          "note": "Gretton n’est pas un stratège abstrait ; son style se forme dans des sociabilités ordinaires."
+        }
+      ],
+      "couche_narrative": [
+        "management",
+        "sociologie_culturelle",
+        "scene_locale"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S76-A021",
     "file": "sources/middles_reade_torn_apart/source_part_03.md",
     "heading": "S76-A021 — Salford Grammar, Lambretta et sociabilité pré-Joy Division",
@@ -46377,7 +46877,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1104",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1110",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -50963,7 +51463,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1250",
+    "id": "NO_ID::sources/suatoni/README.md::1256",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -50980,7 +51480,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1251",
+    "id": "NO_ID::sources/suatoni/README.md::1257",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -51018,7 +51518,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1252",
+    "id": "NO_ID::sources/suatoni/README.md::1258",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -52155,7 +52655,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1288",
+    "id": "NO_ID::sources/greig_strong/README.md::1294",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -52172,7 +52672,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1289",
+    "id": "NO_ID::sources/greig_strong/README.md::1295",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -52201,7 +52701,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1290",
+    "id": "NO_ID::sources/greig_strong/README.md::1296",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -52509,7 +53009,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1299",
+    "id": "NO_ID::registers/songs/master_songs.md::1305",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -55091,6 +55591,310 @@
       ],
       "risque": [
         "formule de synthèse biographique ; ne pas isoler de son contexte domestique et professionnel"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S76-Q058",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_06.md",
+    "heading": "S76-Q058 — Gretton comme figure d’abord incertaine",
+    "data": {
+      "id": "S76-Q058",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Peter Hook",
+      "citation": "he was a shadowy figure",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          100
+        ]
+      },
+      "usage": [
+        "Rob Gretton",
+        "entrée managériale",
+        "mémoire de Hook"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "related_atoms": [
+        "S76-A056"
+      ],
+      "risque": [
+        "formule mémorielle ; ne pas en faire une description objective totale de Gretton"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S76-Q059",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_06.md",
+    "heading": "S76-Q059 — Le groupe voulait surtout que Gretton passe le disque",
+    "data": {
+      "id": "S76-Q059",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Peter Hook",
+      "citation": "Mostly we just wanted him to play our record",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          101
+        ]
+      },
+      "usage": [
+        "Rafters",
+        "DJ",
+        "stratégie naïve de visibilité"
+      ],
+      "chapitres": [
+        "Chapitre 5"
+      ],
+      "related_atoms": [
+        "S76-A056"
+      ],
+      "risque": [
+        "citation utile pour démythifier l’entrée de Gretton ; garder le ton trivial"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S76-Q060",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_06.md",
+    "heading": "S76-Q060 — Sumner oublie l’accord avec Gretton",
+    "data": {
+      "id": "S76-Q060",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Peter Hook",
+      "citation": "he just said yes and then fucking forgot",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          101
+        ]
+      },
+      "usage": [
+        "Bernard Sumner",
+        "Rob Gretton",
+        "malentendu managérial"
+      ],
+      "chapitres": [
+        "Chapitre 5"
+      ],
+      "related_atoms": [
+        "S76-A056"
+      ],
+      "risque": [
+        "citation familière ; utile seulement si le registre oral est assumé"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S76-Q061",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_06.md",
+    "heading": "S76-Q061 — Curtis troublé par l’intrusion",
+    "data": {
+      "id": "S76-Q061",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Peter Hook",
+      "citation": "Ian was visibly freaked by the intrusion",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          101
+        ]
+      },
+      "usage": [
+        "Ian Curtis",
+        "Rob Gretton",
+        "répétition",
+        "sensibilité"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 5"
+      ],
+      "related_atoms": [
+        "S76-A057"
+      ],
+      "risque": [
+        "citation à manipuler prudemment ; ne pas psychologiser Curtis"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S76-Q062",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_06.md",
+    "heading": "S76-Q062 — Le pub transforme l’intrusion en sociabilité",
+    "data": {
+      "id": "S76-Q062",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Peter Hook",
+      "citation": "It was just a gang of lads.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          101
+        ]
+      },
+      "usage": [
+        "pub",
+        "sociabilité masculine",
+        "intégration de Gretton"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S76-A058"
+      ],
+      "risque": [
+        "citation très utile pour sociologie de la scène ; éviter la nostalgie masculine non critique"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S76-Q063",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_06.md",
+    "heading": "S76-Q063 — Tension possible entre Curtis et Gretton",
+    "data": {
+      "id": "S76-Q063",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Peter Hook",
+      "citation": "There was always, perhaps, a slight edge between Ian and Rob.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          101
+        ]
+      },
+      "usage": [
+        "Ian Curtis",
+        "Rob Gretton",
+        "tension relationnelle"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 5",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A057"
+      ],
+      "risque": [
+        "citation hypothétique ; conserver les modalisateurs « perhaps » et « slight » dans toute exploitation"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S76-Q064",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_06.md",
+    "heading": "S76-Q064 — Newell Green comme carrefour de talents",
+    "data": {
+      "id": "S76-Q064",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "people blessed with all sorts of talents mingled",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          101
+        ]
+      },
+      "usage": [
+        "Newell Green",
+        "Wythenshawe",
+        "réseau local"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S76-A059"
+      ],
+      "risque": [
+        "formulation générale ; à appuyer par noms et recoupements"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S76-Q065",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_06.md",
+    "heading": "S76-Q065 — Gretton et le détachement cynique",
+    "data": {
+      "id": "S76-Q065",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "It was this detachment that so flavoured his celebrated managerial style.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          103
+        ]
+      },
+      "usage": [
+        "Rob Gretton",
+        "style managérial",
+        "détachement"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A061"
+      ],
+      "risque": [
+        "interprétation de S76 ; à croiser avec Hook, Wilson et sources Factory"
       ],
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
@@ -60890,6 +61694,179 @@
   },
   {
     "kind": "person",
+    "id": "PERS-S76-037",
+    "file": "registers/people/s76_torn_apart_people_part_06.md",
+    "heading": "PERS-S76-037 — Rob Gretton",
+    "data": {
+      "id": "PERS-S76-037",
+      "type_unite": "person",
+      "name": "Rob Gretton",
+      "role": [
+        "futur manager de Joy Division",
+        "DJ à Rafters",
+        "figure des réseaux Wythenshawe / Newell Green / Manchester City"
+      ],
+      "associated_entities": [
+        "Joy Division",
+        "Rafters",
+        "Newell Green",
+        "Wythenshawe",
+        "Manchester City",
+        "Slaughter & The Dogs"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Gretton apparaît comme une figure d’abord floue, remarquée à Rafters, liée à Slaughter & The Dogs et au DJing, puis introduite auprès du groupe par un malentendu avec Bernard Sumner. S76 insiste sur son ancrage social : Newell Green, Wythenshawe, St Bede’s, Manchester City, cannabis et détachement cynique. Son style managérial futur est présenté comme issu d’une sociabilité locale plus que d’une compétence professionnelle formalisée.\n"
+      },
+      "related_atoms": [
+        "S76-A056",
+        "S76-A057",
+        "S76-A058",
+        "S76-A059",
+        "S76-A060",
+        "S76-A061"
+      ],
+      "related_quotes": [
+        "S76-Q058",
+        "S76-Q059",
+        "S76-Q060",
+        "S76-Q061",
+        "S76-Q062",
+        "S76-Q063",
+        "S76-Q064",
+        "S76-Q065"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "distinguer portrait mémoriel, folklore local et fonction managériale effective",
+        "éviter le mythe du manager sauveur ; l’entrée de Gretton est progressive, sociale, accidentée"
+      ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S76-038",
+    "file": "registers/people/s76_torn_apart_people_part_06.md",
+    "heading": "PERS-S76-038 — Mike Pickering",
+    "data": {
+      "id": "PERS-S76-038",
+      "type_unite": "person",
+      "name": "Mike Pickering",
+      "role": [
+        "supporter de Manchester City croisé par Gretton selon l’anecdote de Nottingham",
+        "futur acteur de la Haçienda et de la scène dance mancunienne"
+      ],
+      "associated_entities": [
+        "Manchester City",
+        "The Haçienda",
+        "Quando Quango",
+        "T-Coy",
+        "M People"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Pickering apparaît dans une anecdote de football où Gretton, fuyant une confrontation à Nottingham, retrouve un autre supporter de City. S76 utilise cette image pour relier culture terrace, futurs réseaux de la Haçienda et mémoire mancunienne.\n"
+      },
+      "related_atoms": [
+        "S76-A060",
+        "S76-A061"
+      ],
+      "chapters": [
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "anecdote probablement vraie selon S76 mais susceptible de nostalgie et d’embellissement"
+      ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S76-039",
+    "file": "registers/people/s76_torn_apart_people_part_06.md",
+    "heading": "PERS-S76-039 — Donald Johnson",
+    "data": {
+      "id": "PERS-S76-039",
+      "type_unite": "person",
+      "name": "Donald Johnson",
+      "role": [
+        "batteur de A Certain Ratio",
+        "figure citée dans la cartographie Newell Green / Wythenshawe"
+      ],
+      "associated_entities": [
+        "A Certain Ratio",
+        "Newell Green",
+        "Wythenshawe"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Donald Johnson est cité parmi les figures que l’on pouvait croiser dans le pub de Newell Green, signe de la densité musicale périphérique autour de Wythenshawe et Baguley.\n"
+      },
+      "related_atoms": [
+        "S76-A059"
+      ],
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "citation de cartographie sociale ; ne pas inférer de relation directe avec Joy Division sans source complémentaire"
+      ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S76-040",
+    "file": "registers/people/s76_torn_apart_people_part_06.md",
+    "heading": "PERS-S76-040 — Eddie Garrity / Ed Banger",
+    "data": {
+      "id": "PERS-S76-040",
+      "type_unite": "person",
+      "name": "Eddie Garrity / Ed Banger",
+      "role": [
+        "chanteur lié à Ed Banger & The Nosebleeds",
+        "figure citée dans la cartographie Newell Green / Wythenshawe"
+      ],
+      "associated_entities": [
+        "Ed Banger & The Nosebleeds",
+        "Newell Green",
+        "Wythenshawe"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "S76 cite Eddie Garrity, plus tard Ed Banger, parmi les figures présentes dans ou autour de Newell Green, ce qui renforce l’idée d’une sociabilité musicale périphérique dense autour de Gretton.\n"
+      },
+      "related_atoms": [
+        "S76-A059"
+      ],
+      "chapters": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "rôle contextuel seulement dans cette passe"
+      ]
+    }
+  },
+  {
+    "kind": "person",
     "id": "PERS-S76-009",
     "file": "registers/people/s76_torn_apart_people_part_02.md",
     "heading": "PERS-S76-009 — Deborah Woodruff / Deborah Curtis",
@@ -62929,6 +63906,91 @@
           "cible": "MOTIF-006"
         }
       ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S76-1978-007",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_06.md",
+    "heading": "CHR-S76-1978-007 — Gretton propose ses services à Bernard Sumner",
+    "data": {
+      "id": "CHR-S76-1978-007",
+      "type_unite": "chronology",
+      "date": 1978,
+      "precision_date": "after_Stiff_Test_Chiswick_Challenge_before_full_management",
+      "event": "Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.\n",
+      "type": [
+        "management",
+        "Rob_Gretton",
+        "rehearsal"
+      ],
+      "location": [
+        "Manchester"
+      ],
+      "people": [
+        "Rob Gretton",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A056",
+        "S76-A057"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "temporalité exacte et lieu de répétition à recouper avec Hook et autres sources"
+      ],
+      "notes": "Événement à traiter comme scène mémorielle structurante, non comme contrat managérial formel."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S76-1978-008",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_06.md",
+    "heading": "CHR-S76-1978-008 — Intégration sociale de Gretton au pub",
+    "data": {
+      "id": "CHR-S76-1978-008",
+      "type_unite": "chronology",
+      "date": 1978,
+      "precision_date": "same_sequence_as_Gretton_rehearsal_entry",
+      "event": "Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.\n",
+      "type": [
+        "sociabilite",
+        "management",
+        "pub"
+      ],
+      "location": [
+        "Manchester"
+      ],
+      "people": [
+        "Rob Gretton",
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A058"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "scène principalement issue du souvenir de Hook ; vérifier si d’autres témoins la confirment"
+      ],
+      "notes": "Utile pour montrer que le management se valide d’abord socialement."
     }
   },
   {

@@ -3897,6 +3897,91 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S76-1978-007",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_06.md",
+    "heading": "CHR-S76-1978-007 — Gretton propose ses services à Bernard Sumner",
+    "data": {
+      "id": "CHR-S76-1978-007",
+      "type_unite": "chronology",
+      "date": 1978,
+      "precision_date": "after_Stiff_Test_Chiswick_Challenge_before_full_management",
+      "event": "Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.\n",
+      "type": [
+        "management",
+        "Rob_Gretton",
+        "rehearsal"
+      ],
+      "location": [
+        "Manchester"
+      ],
+      "people": [
+        "Rob Gretton",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A056",
+        "S76-A057"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "temporalité exacte et lieu de répétition à recouper avec Hook et autres sources"
+      ],
+      "notes": "Événement à traiter comme scène mémorielle structurante, non comme contrat managérial formel."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S76-1978-008",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_06.md",
+    "heading": "CHR-S76-1978-008 — Intégration sociale de Gretton au pub",
+    "data": {
+      "id": "CHR-S76-1978-008",
+      "type_unite": "chronology",
+      "date": 1978,
+      "precision_date": "same_sequence_as_Gretton_rehearsal_entry",
+      "event": "Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.\n",
+      "type": [
+        "sociabilite",
+        "management",
+        "pub"
+      ],
+      "location": [
+        "Manchester"
+      ],
+      "people": [
+        "Rob Gretton",
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A058"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "scène principalement issue du souvenir de Hook ; vérifier si d’autres témoins la confirment"
+      ],
+      "notes": "Utile pour montrer que le management se valide d’abord socialement."
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S75-1979-008",
     "file": "registers/chronology/s75_ott_chronology_part_04.md",
     "heading": "CHR-S75-1979-008 — Crise majeure du 24 mai 1979",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:20:38"
+generated_at: "2026-05-13T15:29:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 213 |
+| Atomes | 219 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 36 |
-| Événements chronologiques | 12 |
-| Personnes | 26 |
+| Citations | 43 |
+| Événements chronologiques | 14 |
+| Personnes | 27 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 20 | 26 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 26 | 33 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -293,6 +293,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
+- **S76-Q058** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q059** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q060** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q061** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q062** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q065** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -316,12 +323,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q049** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q050** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q054** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q055** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q056** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q057** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
+- CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
 - CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
@@ -350,6 +356,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-012 — John Brierley
 - PERS-S75-023 — Kevin Cummins
 - PERS-S76-022 — Tony Wilson
+- PERS-S76-037 — Rob Gretton
 - PERS-S76-012 — Kevin Cummins
 - PERS-S76-032 — Derek Brandwood
 - PERS-S76-033 — Richard Searling
@@ -458,7 +465,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ### 12.1. Motifs dominants
 
+- Rob Gretton (6)
 - Kevin Cummins (3)
+- répétition (3)
 - studio (3)
 - Rabid Records (3)
 - An Ideal For Living (3)
@@ -472,6 +481,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - conflit (2)
 - manager (2)
 - DIY (2)
+- Wythenshawe (2)
 - Martin Hannett (2)
 - Warsaw (2)
 - Tosh Ryan (2)
@@ -480,10 +490,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Rock Against Racism (2)
 - Terry Mason (2)
 - Stiff Test (2)
-- Rob Gretton (2)
 - RCA (2)
 - John Anderson (2)
 - Bowie (2)
+- Manchester City (2)
+- Maine Road (2)
 - shock art (1)
 - Throbbing Gristle (1)
 - postwar nihilism (1)
@@ -494,10 +505,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Shadowplay (1)
 - industrial cityscapes (1)
 - cliché (1)
-- 12 pouces (1)
-- échafaudage (1)
-- espace (1)
-- panning (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -689,6 +696,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | diagnostic_discographique | 1 |
 | bascule_management | 1 |
 | lecture_culturelle | 1 |
+| scene_management | 1 |
+| micro_scene_relationnelle | 1 |
+| sociabilite_scene | 1 |
+| geographie_sociale | 1 |
+| portrait_social | 1 |
+| concept_management | 1 |
 | contexte_historique | 1 |
 | contexte_materiel | 1 |
 | chronologie | 1 |
@@ -709,8 +722,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 168 |
-| critique | 37 |
-| majeure | 8 |
+| critique | 40 |
+| majeure | 11 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -758,6 +771,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A054 [faible] — diagnostic industriel clair, sans surplomb téléologique nécessaire
 - S76-A055 [moyen] — ne pas transformer la simultanéité RCA/Gretton en causalité simple ; elle doit rester relation structurante à vérifier par S75 et Hook
 - S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
+- S76-A056 [moyen] — scène fortement mémorielle et comique ; ne pas la transformer en acte fondateur trop téléologique
+- S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
+- S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
+- S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
+- S76-A060 [faible] — portrait social utile ; éviter seulement l’anecdote décorative
+- S76-A061 [moyen] — risque de folklore ou de psychologie de surface ; utile seulement si relié au management concret
 - S76-A029 [eleve] — les noms envisagés, notamment Progrom/Gdansk, peuvent nourrir des lectures politiques rapides
 
 ## 15. Lacunes et prochaines vérifications

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:20:38"
+generated_at: "2026-05-13T15:29:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 186 |
+| Atomes | 188 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 22 |
-| Événements chronologiques | 15 |
-| Personnes | 19 |
+| Citations | 23 |
+| Événements chronologiques | 16 |
+| Personnes | 20 |
 | Chansons | 17 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 13 | 11 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 15 | 12 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -293,6 +293,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q058** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -308,6 +309,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 8. Chronologie rattachée
 
+- CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S75-1980-004 — Joy Division enregistre *Closer* à Britannia Row avec Martin Hannett, dans un contexte personnel très tendu mais sans conscience collective d'un testament.
@@ -335,6 +337,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S75-022 — Martin Rushent
 - PERS-S75-024 — Alan Erasmus
 - PERS-S76-021 — Steve Morris
+- PERS-S76-037 — Rob Gretton
 - PERS-S76-032 — Derek Brandwood
 - PERS-S76-033 — Richard Searling
 - PERS-S76-034 — John Anderson
@@ -457,6 +460,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Factory (5)
 - Gretton (5)
 - manager (4)
+- Rob Gretton (4)
 - Unknown Pleasures (3)
 - Wilson (3)
 - studio (3)
@@ -484,15 +488,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - northern soul (2)
 - frustration (2)
 - reconnaissance (2)
+- répétition (2)
 - Martin Hannett (2)
-- Rob Gretton (2)
 - Arrow Studios (2)
 - RCA sessions (2)
 - Terry Mason (2)
 - distance stéréophonique (1)
 - ventes (1)
 - pauvreté (1)
-- Buzzcocks tour (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -669,6 +672,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | industrie_musicale | 1 |
 | diagnostic_discographique | 1 |
 | bascule_management | 1 |
+| scene_management | 1 |
+| concept_management | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
 | discographie_analysee | 1 |
@@ -687,7 +692,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 122 |
-| critique | 48 |
+| critique | 50 |
 | majeure | 16 |
 
 ## 14. Risques de surinterprétation et points de vigilance

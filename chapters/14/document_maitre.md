@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:20:38"
+generated_at: "2026-05-13T15:29:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 512 |
+| Atomes | 514 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 40 |
+| Citations | 41 |
 | Événements chronologiques | 17 |
-| Personnes | 30 |
+| Personnes | 32 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 18 | 13 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 20 | 14 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -313,6 +313,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q009** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q065** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q038** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -324,7 +325,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q047** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -368,6 +368,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-013 — Chris Ott
 - PERS-014 — Paul Morley
 - PERS-016 — Bedhead
+- PERS-S76-037 — Rob Gretton
+- PERS-S76-038 — Mike Pickering
 - PERS-S76-012 — Kevin Cummins
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-004 — Carole Curtis
@@ -479,6 +481,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 - Factory (5)
 - Gretton (5)
+- Rob Gretton (4)
 - Ian Curtis (3)
 - Bowie (3)
 - transition (3)
@@ -509,14 +512,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Still (2)
 - réception critique (2)
 - reconnaissance (2)
+- répétition (2)
 - club (2)
 - objet disque (2)
 - studio (2)
 - contrôle (2)
 - télévision régionale (2)
 - Factory Club (2)
-- silence (2)
-- DIY (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -822,6 +824,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_technique | 1 |
 | bascule_management | 1 |
 | lecture_culturelle | 1 |
+| scene_management | 1 |
+| concept_management | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -846,7 +850,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 421 |
-| critique | 64 |
+| critique | 66 |
 | majeure | 23 |
 | structurante | 2 |
 | moyenne | 2 |

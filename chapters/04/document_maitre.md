@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:20:38"
+generated_at: "2026-05-13T15:29:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ generated_at: "2026-05-13T15:20:38"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 125 |
+| Atomes | 126 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 27 |
+| Citations | 29 |
 | Événements chronologiques | 24 |
 | Personnes | 20 |
 | Chansons | 13 |
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T15:20:38"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 25 | 15 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 26 | 17 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -296,6 +296,8 @@ generated_at: "2026-05-13T15:20:38"
 - **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q061** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -463,9 +465,9 @@ generated_at: "2026-05-13T15:20:38"
 ### 12.1. Motifs dominants
 
 - épilepsie (5)
+- Ian Curtis (4)
 - Bowie (4)
 - domesticité (4)
-- Ian Curtis (3)
 - Deborah Curtis (3)
 - Wythenshawe (3)
 - Pete Johnson (3)
@@ -476,6 +478,7 @@ generated_at: "2026-05-13T15:20:38"
 - paroles (2)
 - contrôle (2)
 - reconnaissance (2)
+- répétition (2)
 - indépendance (2)
 - télévision régionale (2)
 - mémoire ouvrière (2)
@@ -501,7 +504,6 @@ generated_at: "2026-05-13T15:20:38"
 - presse musicale (1)
 - Jon Savage (1)
 - stage presence (1)
-- possession (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -655,6 +657,7 @@ generated_at: "2026-05-13T15:20:38"
 | controverse_historiographique | 1 |
 | lecture_culturelle | 1 |
 | reseau_culturel | 1 |
+| micro_scene_relationnelle | 1 |
 | témoignage_externe | 1 |
 | fait_biographique | 1 |
 | tension | 1 |
@@ -670,7 +673,7 @@ generated_at: "2026-05-13T15:20:38"
 |---|---|
 | non qualifiée | 60 |
 | critique | 37 |
-| majeure | 27 |
+| majeure | 28 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -734,7 +737,7 @@ generated_at: "2026-05-13T15:20:38"
 - S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
 - S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
 - S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
-- S76-A022 [moyen] — risque de reconduire le mythe instantané « voir les Pistols = former Joy Division »
+- S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
 
 ## 15. Lacunes et prochaines vérifications
 

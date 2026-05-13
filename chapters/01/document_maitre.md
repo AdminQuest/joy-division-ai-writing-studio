@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:20:38"
+generated_at: "2026-05-13T15:29:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ generated_at: "2026-05-13T15:20:38"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 54 |
-| Atomes critiques / majeurs | 11 |
-| Citations | 4 |
+| Atomes | 56 |
+| Atomes critiques / majeurs | 13 |
+| Citations | 5 |
 | Événements chronologiques | 2 |
-| Personnes | 2 |
+| Personnes | 4 |
 | Chansons | 0 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ generated_at: "2026-05-13T15:20:38"
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 5 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 0 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 5 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -55,6 +55,8 @@ generated_at: "2026-05-13T15:20:38"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S76-A015** — S76-A015 — Rare Records : le disquaire comme matrice de sociabilité musicale  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_culturel` ; importance : `critique` ; preuve : `temoignages_croises`.
+- **S76-A059** — S76-A059 — Newell Green / Wythenshawe : matrice sociale de Gretton  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `geographie_sociale` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_temoin_et_memoire_locale`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -69,6 +71,8 @@ generated_at: "2026-05-13T15:20:38"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `memoire_familiale_rapportee`.
 - **S76-A004** — S76-A004 — Macclesfield : respectabilité, pauvreté relative et enfance non misérabiliste  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_contextuelle`.
+- **S76-A058** — S76-A058 — Le pub comme audition sociale : Gretton devient acceptable parce qu’il appartient au même monde  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `sociabilite_scene` ; importance : `majeure` ; preuve : `temoignage_Peter_Hook`.
 
 ## 6. Autres atomes utiles
 
@@ -165,6 +169,7 @@ generated_at: "2026-05-13T15:20:38"
 - **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
+- **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -174,6 +179,8 @@ generated_at: "2026-05-13T15:20:38"
 ## 9. Personnes et acteurs
 
 - PERS-003-S75 — Bernard Sumner
+- PERS-S76-039 — Donald Johnson
+- PERS-S76-040 — Eddie Garrity / Ed Banger
 - PERS-S76-003 — Kevin Curtis
 
 ## 10. Chansons rattachées
@@ -270,6 +277,8 @@ generated_at: "2026-05-13T15:20:38"
 - Salford (3)
 - Manchester (2)
 - mémoire ouvrière (2)
+- Wythenshawe (2)
+- overspill estate (2)
 - Londres (1)
 - punk (1)
 - auto-suffisance (1)
@@ -299,9 +308,7 @@ generated_at: "2026-05-13T15:20:38"
 - suburbia (1)
 - ascension sociale (1)
 - identité urbaine (1)
-- Wythenshawe (1)
 - périphérie (1)
-- overspill estate (1)
 - violence sociale (1)
 - réseau local (1)
 - Old Trafford (1)
@@ -338,6 +345,12 @@ generated_at: "2026-05-13T15:20:38"
 - S76-A015 — prolonge → MOTIF-006
 - S76-A015 — nuance → MYTH-003
 - S76-A015 — prepare → S76-A016
+- S76-A058 — prolonge → S76-A056
+- S76-A058 — nuance → CONCEPT-management_post_punk
+- S76-A058 — prepare → S76-A059
+- S76-A059 — prolonge → S76-A058
+- S76-A059 — nuance → CONCEPT-scene_manchester
+- S76-A059 — relie → MOTIF-geographie_emotionnelle
 
 ## 13. Distribution documentaire
 
@@ -371,6 +384,8 @@ generated_at: "2026-05-13T15:20:38"
 | temoignage | 1 |
 | contexte_biographique | 1 |
 | lieu_culturel | 1 |
+| sociabilite_scene | 1 |
+| geographie_sociale | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
@@ -380,8 +395,8 @@ generated_at: "2026-05-13T15:20:38"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 43 |
-| majeure | 7 |
-| critique | 4 |
+| majeure | 8 |
+| critique | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -396,6 +411,8 @@ generated_at: "2026-05-13T15:20:38"
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 - S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
+- S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
+- S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
 
 ## 15. Lacunes et prochaines vérifications
 

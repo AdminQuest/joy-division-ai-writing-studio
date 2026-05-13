@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:20:38"
+generated_at: "2026-05-13T15:29:15"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 93 |
-| Atomes critiques / majeurs | 29 |
-| Citations | 17 |
+| Atomes | 94 |
+| Atomes critiques / majeurs | 30 |
+| Citations | 18 |
 | Événements chronologiques | 17 |
 | Personnes | 8 |
 | Chansons | 6 |
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 9 | 3 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 10 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -103,6 +103,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `chronologie_sensible` ; importance : `majeure` ; preuve : `temoignage_retroactif_sensible`.
 - **S76-A017** — S76-A017 — Fiançailles de 1974 : jeunesse, famille et normalité conjugale  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `majeure` ; preuve : `memoire_familiale`.
+- **S76-A057** — S76-A057 — Curtis face à l’intrusion de Gretton : sensibilité, retrait, bord relationnel  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `micro_scene_relationnelle` ; importance : `majeure` ; preuve : `temoignage_Peter_Hook`.
 
 ## 6. Autres atomes utiles
 
@@ -249,6 +251,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -383,7 +386,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 ### 12.1. Motifs dominants
 
 - épilepsie (5)
-- Ian Curtis (3)
+- Ian Curtis (4)
 - Deborah Curtis (3)
 - Mick Middles (2)
 - domesticité (2)
@@ -503,8 +506,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A019 — nuance → S76-A018
 - S76-A019 — nuance → S45
 - S76-A019 — deconstruit → MYTH-002
-- S76-A028 — prolonge → S76-A020
-- S76-A028 — prepare → S76-A030
+- S76-A057 — prolonge → S76-A056
+- S76-A057 — nuance → MYTH-manager_sauveur
 
 ## 13. Distribution documentaire
 
@@ -579,6 +582,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_historique | 1 |
 | lecture | 1 |
 | cadrage_source | 1 |
+| micro_scene_relationnelle | 1 |
 | scene_de_transition | 1 |
 | contexte_biographique | 1 |
 | memoire | 1 |
@@ -589,7 +593,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|
 | non qualifiée | 64 |
 | critique | 22 |
-| majeure | 7 |
+| majeure | 8 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -620,6 +624,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A017 [moyen] — risque d'opposer trop simplement mémoire familiale et mémoire de Deborah Curtis
 - S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
 - S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
+- S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
 - S76-A028 [moyen] — risque de projeter sur Barton Street la fin de 1980 dès 1977
 - S76-A031 [eleve] — risque majeur de causalité médicale unique et de psychologisation
 
