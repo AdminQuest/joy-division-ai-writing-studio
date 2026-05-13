@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 185 |
-| Atomes critiques / majeurs | 17 |
+| Atomes | 189 |
+| Atomes critiques / majeurs | 21 |
 | Citations | 10 |
 | Événements chronologiques | 2 |
 | Personnes | 8 |
 | Chansons | 3 |
-| Sources mobilisées | 8 |
+| Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
 
@@ -41,12 +41,17 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
-| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
+| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S74-A021** — S74-A021 — Warsaw au premier concert : désespoir, confusion et identité non stabilisée  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `plausible`.
+- **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
@@ -73,6 +78,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `evenement_crise` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A056** — S74-A056 — Closer et Love Will Tear Us Apart : beauté posthume, design funéraire et campagne américaine absurde  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A013** — S75-A013 — Throbbing Gristle, shock art et postwar nihilism dans l'imaginaire de Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `influence` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A018** — S75-A018 — *An Ideal for Living* : provocation visuelle, jeunesse et impasse critique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A038** — S74-A038 — Strawberry Studios : Unknown Pleasures comme investissement disproportionné  
@@ -366,7 +375,21 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 ### 12.1. Motifs dominants
 
 - studio (3)
+- provocation (2)
+- réception critique (2)
+- rejet (2)
 - conflit (2)
+- shock art (1)
+- Throbbing Gristle (1)
+- postwar nihilism (1)
+- flyer (1)
+- An Ideal for Living (1)
+- imagerie nazie (1)
+- jeunesse (1)
+- major (1)
+- bruit (1)
+- mauvais son (1)
+- bifurcation (1)
 - northern soul (1)
 - impasse (1)
 - synthétiseur (1)
@@ -391,23 +414,17 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Strawberry (1)
 - bascule technique (1)
 - digital delay (1)
-- batterie (1)
-- chambre imaginaire (1)
-- isolation sonore (1)
-- visualité du son (1)
-- mixage nocturne (1)
-- contrôle (1)
-- froid (1)
-- fatigue (1)
-- rejet (1)
-- son drainé (1)
-- puissance live (1)
-- canonisation (1)
-- dépossession (1)
-- beauté rare (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A013 — prolonge → S75-A018
+- S75-A013 — nuance → MYTH-nazi_imagery_simple_fascination
+- S75-A018 — prolonge → S75-A016
+- S75-A018 — prolonge → S75-A017
+- S75-A018 — nuance → MYTH-fascination_fasciste
+- S74-A023 — prolonge → S74-A022
+- S74-A023 — annonce → S74-A030
+- S74-A023 — nuance → MYTH-005
 - S74-A025 — prolonge → S74-A023
 - S74-A025 — annonce → S74-A030
 - S74-A025 — nuance → MYTH-004
@@ -456,6 +473,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A020 — nuance → MYTH-004
 - S74-A020 — prolonge → S74-A010
 - S74-A020 — annonce → CONCEPT_HANNETT_SPATIALISATION
+- S74-A021 — nuance → MYTH-002
+- S74-A021 — prolonge → S74-A018
+- S74-A021 — complète → S74-A019
 - S74-A010 — nuance → MYTH-004
 - S74-A010 — illustre → S74-A011
 
@@ -485,6 +505,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception | 3 |
 | iconographie | 2 |
 | enregistrement | 2 |
+| scene_fondatrice | 2 |
 | objet_merchandising | 2 |
 | objet_factory | 2 |
 | contexte_scene | 2 |
@@ -510,7 +531,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | production_sonore | 1 |
 | interpretation_factory | 1 |
 | concert_bascule | 1 |
-| scene_fondatrice | 1 |
 | labels_independants | 1 |
 | discographie_album | 1 |
 | edition_discographique | 1 |
@@ -526,6 +546,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | sociologie_scene | 1 |
 | réception | 1 |
 | concert | 1 |
+| influence | 1 |
+| controverse | 1 |
 | reception_discographique | 1 |
 | reception_album | 1 |
 | economie_musicale | 1 |
@@ -543,6 +565,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | acteurs_objet | 1 |
 | citation_repere | 1 |
 | gouvernance | 1 |
+| fait_interprete | 1 |
 | portrait_critique | 1 |
 | conflit_studio | 1 |
 | reception_single | 1 |
@@ -570,11 +593,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 168 |
-| critique | 14 |
+| critique | 18 |
 | majeure | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
+- S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
+- S74-A023 [moyen] — risque de transformer RCA en simple repoussoir alors que Curtis reste attiré par cette voie
 - S74-A025 [moyen] — risque de juger la session seulement comme fiasco sans voir les tensions formatrices qu’elle révèle
 - S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
 - S74-A033 [eleve] — risque de surestimer ou de sous-estimer Hannett au détriment du travail collectif
@@ -591,6 +617,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
 - S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
 - S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
+- S74-A021 [eleve] — risque de projeter rétrospectivement Joy Division sur un groupe encore instable et embryonnaire
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
 
 ## 15. Lacunes et prochaines vérifications

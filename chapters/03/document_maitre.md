@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 136 |
-| Atomes critiques / majeurs | 8 |
+| Atomes | 139 |
+| Atomes critiques / majeurs | 11 |
 | Citations | 7 |
 | Événements chronologiques | 2 |
 | Personnes | 5 |
 | Chansons | 1 |
-| Sources mobilisées | 9 |
+| Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -58,6 +59,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `interpretation_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A054** — S74-A054 — Deborah Curtis contre la version simplifiée de la tragédie conjugale  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_direct_rapporte` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S75-A009** — S75-A009 — Pennine Sound 1977 : l'incompétence technique comme trace de mutation  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A015** — S75-A015 — Stephen Morris comme catalyseur formel : le batteur qui permet d'entendre  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A020** — S75-A020 — « No Love Lost » comme début réel de Joy Division  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -341,6 +348,21 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 ### 12.1. Motifs dominants
 
 - domesticité (3)
+- amateurisme (1)
+- contrainte (1)
+- Pennine Sound (1)
+- économie de moyens (1)
+- apprentissage (1)
+- boîte à rythmes (1)
+- écoute (1)
+- silence (1)
+- stabilisation (1)
+- précision (1)
+- No Love Lost (1)
+- House of Dolls (1)
+- funk sec (1)
+- double-delay (1)
+- seuil (1)
 - Piccadilly Plaza (1)
 - bureau de promotion (1)
 - Bowie (1)
@@ -365,22 +387,16 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - barbituriques (1)
 - dépression (1)
 - appel téléphonique (1)
-- absence de solution (1)
-- mort privée (1)
-- suicide (1)
-- mythe rock (1)
-- pression (1)
-- exclusion (1)
-- manipulation (1)
-- divorce impossible (1)
-- témoin intime (1)
-- obsession (1)
-- pauvreté (1)
-- punk (1)
-- tension conjugale (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A009 — prolonge → S75-A008
+- S75-A009 — nuance → MYTH-genie_immediat
+- S75-A015 — prolonge → S75-A011
+- S75-A015 — prépare → CONCEPT-architecture_sonore
+- S75-A020 — prolonge → S75-A015
+- S75-A020 — nuance → S75-A019
+- S75-A020 — annonce → CONCEPT-architecture_sonore
 - S74-A022 — nuance → MYTH-002
 - S74-A022 — prolonge → S74-A017
 - S74-A048 — nuance → MYTH-002
@@ -427,6 +443,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | session_enregistrement | 2 |
 | theorie_voix | 2 |
 | chronologie | 2 |
+| scene_fondatrice | 2 |
 | lieu_studio | 2 |
 | citation_repere | 2 |
 | temoignage_direct_rapporte | 2 |
@@ -457,6 +474,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | culture_musicale | 1 |
 | culture_domestique | 1 |
 | management | 1 |
+| session | 1 |
+| lecture_musicale | 1 |
 | reception_discographique | 1 |
 | reception_radio | 1 |
 | demythification | 1 |
@@ -467,7 +486,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | qualification_esthetique | 1 |
 | evolution_esthetique | 1 |
 | analyse_developpement | 1 |
-| scene_fondatrice | 1 |
 | performance_live | 1 |
 | evenement_crise | 1 |
 | temoignage_retrospectif | 1 |
@@ -486,11 +504,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 128 |
-| critique | 6 |
+| critique | 9 |
 | majeure | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A009 [faible] — Ott signale lui-même qu'une critique trop sévère serait inutile, compte tenu de la fonction pratique de la session
+- S75-A015 [faible] — lecture cohérente avec la place reconnue de Morris, mais à articuler avec les autres membres
+- S75-A020 [moyen] — formule forte d'Ott ; à articuler avec d'autres seuils possibles comme « Digital » ou les sessions RCA
 - S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
 - S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
 - S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel

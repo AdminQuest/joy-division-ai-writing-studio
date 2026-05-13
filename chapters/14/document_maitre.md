@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 443 |
-| Atomes critiques / majeurs | 20 |
+| Atomes | 464 |
+| Atomes critiques / majeurs | 35 |
 | Citations | 18 |
 | Événements chronologiques | 4 |
 | Personnes | 9 |
 | Chansons | 4 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
@@ -43,16 +43,39 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 53 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
-| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 22 | 0 |
+| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 5 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
+- **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_institution` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A031** — S74-A031 — Peter Saville et l’apparition immédiate d’une grammaire graphique Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `design` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `institution` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A034** — S74-A034 — Hannett comme génie erratique : vision sonore et échecs répétés  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `portrait_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S74-A036** — S74-A036 — Gretton et le pari économique de rester chez Factory  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `decision_strategique` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A037** — S74-A037 — Freedom to fuck off : clause de liberté et ethos Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `principe_institutionnel` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A040** — S74-A040 — Hannett contre le groupe : conflit de contrôle et mixage sans témoins  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `conflit_studio` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S74-A041** — S74-A041 — Unknown Pleasures : rejet initial du son par le groupe  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S74-A042** — S74-A042 — Unknown Pleasures : beauté contenue, menace retenue et profit inattendu  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A043** — S74-A043 — La pochette d’Unknown Pleasures comme choc visuel non maîtrisé par le groupe  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `design` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A045** — S74-A045 — Transmission : promesse de percée et échec commercial immédiat  
@@ -67,26 +90,34 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A061** — S74-A061 — Movement : dernier reste de Joy Division et échec fécond de la transition Hannett/New Order  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session_transition` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S75-A002** — S75-A002 — Ott contre la littérature mystificatrice sur Joy Division  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `critique` ; preuve : `declaration_programmatique_de_l_auteur`.
+- **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A005** — S75-A005 — Free Trade Hall : mythe fondateur, inflation mémorielle et second choc de juillet  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
+- **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `corrobore`.
+- **S74-A008** — S74-A008 — So It Goes comme dispositif médiatique de transition punk  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A012** — S74-A012 — Vini Reilly, apprentissage musical et refus des frontières populaires/savantes  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A019** — S74-A019 — Buzzcocks, Pete Shelley et la désacralisation de la rock star pour Curtis  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `majeure` ; preuve : `temoignage_direct_rapporte`.
+- **S74-A035** — S74-A035 — Après le Factory Sample : vide stratégique et tentation des majors  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `contexte_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A044** — S74-A044 — Factory scene : Distractions comme antithèse lumineuse de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_locale` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
+- **S74-A051** — S74-A051 — Gretton, Sordide Sentimentale et l’émotion managériale devant « Dead Souls » et « Atmosphere »  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_affectif` ; importance : `majeure` ; preuve : `temoignage_direct_auteur`.
 - **S74-A055** — S74-A055 — Mort de Curtis : onde de choc sur Factory, Topping, Hannett et Sumner  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A057** — S74-A057 — Beach Club : lieu de transition entre post-punk sombre et second glam age  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S74-A058** — S74-A058 — New Order comme nécessité d’allègement après Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `transition_artistique` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S74-A059** — S74-A059 — Gillian Gilbert comme choix organique de reconstruction  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `decision_groupe` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A004** — S74-A004 — Les concerts des Sex Pistols comme moment originel mancunien  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `structurante` ; preuve : `plausible`.
 
 ## 6. Autres atomes utiles
 
@@ -311,20 +342,21 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - NME (15)
 - Love Will Tear Us Apart (15)
 - new order (13)
+- factory records (13)
 - Atmosphere (13)
 - peter saville (12)
+- martin hannett (11)
 - Tony Wilson (11)
 - Ceremony (11)
 - mémoire (11)
 - réception (11)
-- factory records (10)
 - She's Lost Control (10)
 - presse musicale (10)
 - John Peel (10)
 - Dead Souls (9)
 - An Ideal for Living (9)
+- rob gretton (9)
 - indépendance (8)
-- martin hannett (8)
 - Transmission (8)
 - Factory Records (8)
 - postérité (8)
@@ -333,8 +365,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Warsaw (7)
 - Martin Hannett (7)
 - Closer (7)
+- factory (7)
 - authenticité (7)
 - post-punk (6)
+- joy division (6)
 - goth (6)
 - archive (6)
 - Procession (6)
@@ -343,13 +377,17 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - charts (6)
 - suicide (6)
 - Peter Hook (6)
+- tony wilson (6)
+- unknown pleasures (6)
 - Sordide Sentimentale (6)
+- management (6)
 - critique musicale (5)
 - manchester (5)
 - Manchester (5)
 - Plan K (5)
 - Londres (5)
 - Festive Fifty (5)
+- imagerie nazie (5)
 - Digital (5)
 - love will tear us apart (5)
 - Peel Sessions (5)
@@ -357,7 +395,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - culte (5)
 - fanzine (4)
 - paul morley (4)
-- joy division (4)
 - new pop (4)
 - télévision (4)
 - 1982 (4)
@@ -372,71 +409,105 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - 1983 (4)
 - Paul Morley (4)
 - changement de nom (4)
-- imagerie nazie (4)
 - Anonymous Records (4)
 - run-out groove (4)
-- A Factory Sample (4)
-- FAC 2 (4)
-- Glass (4)
-- pulsar (4)
-- Cabaret Voltaire (4)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- suicide (2)
+- canonisation (2)
+- Sex Pistols (2)
+- réception critique (2)
+- reconnaissance (2)
+- manager (2)
+- Gretton (2)
+- club (2)
+- objet disque (2)
+- studio (2)
+- indépendance (2)
+- contrôle (2)
+- télévision régionale (2)
 - Factory Club (2)
 - transition (2)
+- silence (2)
 - pochette (2)
-- poster (1)
-- minimalisme (1)
-- Hulme Crescents (1)
-- design (1)
-- photographie (1)
-- génie erratique (1)
-- studio (1)
-- légende (1)
-- échec (1)
-- vision sonore (1)
-- liberté (1)
-- contrat oral (1)
-- confiance (1)
-- fragilité (1)
-- anti-major (1)
-- pochette noire (1)
-- Fourier analysis (1)
-- mystère (1)
-- objet autonome (1)
-- design minimal (1)
-- pop locale (1)
-- antithèse (1)
-- fraîcheur (1)
-- Island (1)
-- scène Factory (1)
-- Radio One (1)
-- plugger (1)
-- presse musicale (1)
-- copies invendues (1)
-- percée manquée (1)
-- Granada (1)
-- Liverpool (1)
-- télévision régionale (1)
-- médiation empêchée (1)
-- intensité live (1)
-- proximité (1)
-- lieu foyer (1)
+- reprise (1)
+- postérité (1)
+- austérité (1)
+- internalisation (1)
+- ombre portée (1)
+- mystification (1)
+- perspective (1)
+- journalisme marginal (1)
+- critique du mythe (1)
+- réception posthume (1)
+- notoriété tardive (1)
+- Free Trade Hall (1)
+- mythe fondateur (1)
+- inflation mémorielle (1)
+- Manchester (1)
+- première réception (1)
+- NME (1)
+- Morley (1)
+- dissimilarité (1)
+- provocation (1)
+- imagerie fasciste (1)
+- naïveté (1)
+- Throbbing Gristle (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A001 — prolonge → MOTIF-heritage
+- S75-A001 — nuance → MYTH-culte_sombre
+- S75-A002 — nuance → MYTH-joy_division_mystique
+- S75-A002 — prolonge → CONCEPT-prudence_historiographique
+- S75-A003 — nuance → MYTH-curtis_prophete_de_sa_mort
+- S75-A003 — prolonge → S45
+- S75-A005 — nuance → MYTH-lesser_free_trade_hall_origine_absolue
+- S75-A005 — corrobore → S74-A004
+- S75-A007 — prolonge → S75-A006
+- S75-A007 — nuance → MYTH-reconnaissance_immediate
+- S74-A024 — nuance → MYTH-002
+- S74-A024 — prolonge → S74-A017
+- S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
+- S74-A026 — nuance → MYTH-005
+- S74-A026 — prolonge → S74-A017
+- S74-A026 — annonce → S74-A030
+- S74-A027 — prolonge → S74-A005
+- S74-A027 — complète → S74-A026
+- S74-A027 — annonce → S74-A031
+- S74-A030 — prolonge → S74-A018
+- S74-A030 — annonce → S74-A031
+- S74-A030 — complète → S74-A001
 - S74-A031 — prolonge → S74-A007
 - S74-A031 — complète → S74-A030
 - S74-A031 — annonce → CONCEPT_FACTORY_VISUAL_IDENTITY
+- S74-A032 — prolonge → S74-A001
+- S74-A032 — complète → S74-A031
+- S74-A032 — annonce → S74-A033
 - S74-A034 — nuance → MYTH-004
 - S74-A034 — complète → S74-A033
 - S74-A034 — prolonge → S74-A010
+- S74-A035 — prolonge → S74-A023
+- S74-A035 — annonce → S74-A036
+- S74-A035 — nuance → MYTH-005
+- S74-A036 — prolonge → S74-A027
+- S74-A036 — complète → S74-A032
+- S74-A036 — nuance → MYTH-005
 - S74-A037 — prolonge → S74-A036
 - S74-A037 — complète → S74-A001
 - S74-A037 — nuance → MYTH-005
+- S74-A040 — nuance → MYTH-004
+- S74-A040 — complète → S74-A039
+- S74-A040 — prolonge → S74-A034
+- S74-A041 — nuance → MYTH-004
+- S74-A041 — complète → S74-A040
+- S74-A041 — annonce → S74-A042
+- S74-A042 — prolonge → S74-A041
+- S74-A042 — complète → S74-A036
+- S74-A042 — nuance → MYTH-006
 - S74-A043 — prolonge → S74-A031
 - S74-A043 — complète → S74-A032
 - S74-A043 — annonce → CONCEPT_UNKNOWN_PLEASURES_ICON
@@ -452,6 +523,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S74-A047 — prolonge → S74-A030
 - S74-A047 — complète → S74-A045
 - S74-A047 — nuance → MYTH-006
+- S74-A051 — prolonge → S74-A050
+- S74-A051 — annonce → S74-A052
+- S74-A051 — nuance → MYTH-002
 - S74-A053 — nuance → MYTH-002
 - S74-A053 — complète → S74-A052
 - S74-A053 — prolonge → S45
@@ -465,30 +539,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S74-A057 — annonce → S74-A058
 - S74-A057 — nuance → MYTH-003
 - S74-A058 — prolonge → S74-A057
-- S74-A058 — annonce → S74-A059
-- S74-A058 — nuance → MYTH-006
-- S74-A059 — prolonge → S74-A058
-- S74-A059 — complète → S74-A027
-- S74-A059 — annonce → CONCEPT_NEW_ORDER_RECONSTRUCTION
-- S74-A060 — prolonge → S74-A024
-- S74-A060 — nuance → MYTH-007
-- S74-A060 — complète → S74-A058
-- S74-A061 — prolonge → S74-A058
-- S74-A061 — complète → S74-A060
-- S74-A061 — clôture → MYTH-006
-- S74-A019 — prolonge → S74-A016
-- S74-A019 — nuance → MYTH-001
-- S74-A001 — nuance → MYTH-005
-- S74-A001 — prolonge → CONCEPT-001
-- S74-A004 — mythologise → MYTH-001
-- S74-A004 — se_souvient → S41
-- S74-A004 — nuance → S74-A003
-- S74-A007 — prolonge → S74-A001
-- S74-A007 — nuance → MYTH-005
-- S74-A009 — nuance → MYTH-001
-- S74-A009 — prolonge → S74-A007
-- S74-A012 — illustre → S74-A001
-- S74-A012 — prolonge → S74-A011
 
 ## 13. Distribution documentaire
 
@@ -497,7 +547,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Type | Nombre |
 |---|---|
 | analyse | 34 |
-| reception | 25 |
+| reception | 27 |
 | non qualifié | 13 |
 | memoire | 12 |
 | discographie | 10 |
@@ -511,12 +561,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | objet_discographique | 7 |
 | relation | 7 |
 | fait | 7 |
+| reception_critique | 6 |
 | iconographie_photographe | 5 |
-| reception_critique | 5 |
+| biographie | 5 |
+| lecture | 5 |
 | citation_repere | 5 |
 | management | 4 |
 | projet_avorte | 4 |
-| biographie | 4 |
+| mythe | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | acteur_critique | 4 |
@@ -530,6 +582,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | intertextualite | 3 |
 | chanson_transition | 3 |
 | design | 3 |
+| controverse | 3 |
+| decision_strategique | 3 |
 | interpretation | 3 |
 | infrastructure | 2 |
 | methodologie_source | 2 |
@@ -558,10 +612,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | acteur | 2 |
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
-| controverse | 2 |
-| lecture | 2 |
+| scene_fondatrice | 2 |
+| reception_interne | 2 |
 | concept | 2 |
-| decision_strategique | 2 |
 | esthétique_visuelle | 2 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
@@ -666,21 +719,25 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | interpretation_historique | 1 |
 | qualification_esthetique | 1 |
 | gouvernance | 1 |
+| lieu_institution | 1 |
+| institution | 1 |
 | portrait_critique | 1 |
+| contexte_transition | 1 |
 | principe_institutionnel | 1 |
+| conflit_studio | 1 |
 | scene_locale | 1 |
 | reception_single | 1 |
 | mediation_culturelle | 1 |
 | performance_live | 1 |
+| temoignage_affectif | 1 |
 | interpretation_critique | 1 |
-| reception_interne | 1 |
 | lieu_transition | 1 |
 | transition_artistique | 1 |
 | decision_groupe | 1 |
 | session_transition | 1 |
 | temoignage | 1 |
-| mythe | 1 |
-| scene_fondatrice | 1 |
+| analyse_studio | 1 |
+| fait_interprete | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -705,21 +762,37 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 421 |
-| critique | 10 |
-| majeure | 9 |
+| critique | 24 |
+| majeure | 15 |
+| structurante | 2 |
 | moyenne | 2 |
-| structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
+- S75-A002 [faible] — l'auteur formule explicitement son propre positionnement critique
+- S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
+- S75-A005 [moyen] — le mythe est documenté mais souvent simplifié en scène primitive unique
+- S75-A007 [faible] — la citation critique doit être utilisée comme indice, non comme preuve d'une grandeur déjà accomplie
+- S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
+- S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
+- S74-A027 [faible] — scène largement cohérente avec les autres récits internes, mais stylisée par Middles
+- S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique
 - S74-A031 [moyen] — risque de téléologie reliant trop directement le premier poster à l’ensemble de l’esthétique Factory ultérieure
+- S74-A032 [moyen] — risque de romantiser l’impraticabilité financière comme vertu en soi
 - S74-A034 [eleve] — risque de basculer soit dans l’hagiographie, soit dans la démolition anecdotique
+- S74-A035 [moyen] — risque de reconstruire a posteriori un moment de flottement comme stratégie consciente
+- S74-A036 [moyen] — risque de faire de Gretton un stratège totalement lucide alors que le choix reste empirique et risqué
 - S74-A037 [moyen] — risque de mythifier une clause informelle comme pure vertu sans examiner ses effets économiques
+- S74-A040 [eleve] — risque de basculer dans une lecture uniquement conflictuelle en oubliant le résultat artistique
+- S74-A041 [moyen] — risque de survaloriser le rejet initial au détriment de l’évolution ultérieure de la perception du groupe
+- S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
 - S74-A043 [moyen] — risque de mythifier l’ignorance de Sumner comme preuve d’une œuvre purement accidentelle
 - S74-A044 [moyen] — risque de survaloriser les Distractions uniquement comme faire-valoir de Joy Division
 - S74-A045 [moyen] — risque de lire l’échec commercial comme incompréhension pure du public sans examiner la promotion déficiente
 - S74-A046 [moyen] — risque de romantiser Factory comme seul espace authentique contre une télévision nécessairement morte
 - S74-A047 [moyen] — risque de transformer le Factory Club en lieu mythique unique au détriment des autres scènes importantes
+- S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
 - S74-A053 [tres_eleve] — tout traitement de la mort de Curtis risque la téléologie tragique et la lecture sacrificielle
 - S74-A055 [moyen] — risque de faire de la mort de Curtis la cause unique de toutes les mutations ultérieures de Factory
 - S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
@@ -728,12 +801,17 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S74-A059 [faible] — interprétation cohérente avec la trajectoire ultérieure du groupe
 - S74-A060 [eleve] — risque symétrique de disculpation naïve ou d’accusation intentionnaliste
 - S74-A061 [moyen] — risque de réduire Movement à un échec alors qu’il est aussi un laboratoire de transition
+- S74-A018 [moyen] — risque de substituer un mythe Electric Circus au mythe Lesser Free Trade Hall
 - S74-A019 [moyen] — risque de transformer une rencontre en causalité unique de l’entrée en scène de Curtis
+- S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
 - S74-A001 [moyen] — risque de romantisation de l’échec économique Factory comme geste esthétique pur
 - S74-A004 [eleve] — risque de transformer un événement déclencheur en origine absolue et nécessaire
+- S74-A005 [faible] — source proche du témoin, mais portrait fortement stylisé par Middles
 - S74-A007 [moyen] — risque de téléologie biographique reliant trop directement les goûts adolescents à la politique esthétique de Factory
+- S74-A008 [moyen] — risque de transformer So It Goes en cause unique de la médiatisation punk mancunienne
 - S74-A009 [moyen] — risque de surcharger symboliquement une anecdote devenue rétrospectivement célèbre par la présence de Morrissey
 - S74-A012 [moyen] — risque de transformer Reilly en pur symbole de sophistication populaire
+- S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
 
 ## 15. Lacunes et prochaines vérifications
 

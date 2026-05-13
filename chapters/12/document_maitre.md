@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 64 |
-| Atomes critiques / majeurs | 0 |
+| Atomes | 68 |
+| Atomes critiques / majeurs | 4 |
 | Citations | 7 |
 | Événements chronologiques | 2 |
 | Personnes | 2 |
 | Chansons | 1 |
-| Sources mobilisées | 4 |
+| Sources mobilisées | 6 |
 
 ## 4. Sources mobilisées
 
@@ -39,10 +39,19 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
+| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
-- Aucun atome critique ou majeur n’est encore qualifié.
+- **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
+- **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
+- **S75-A012** — S75-A012 — Curtis dans la pièce bleue : ambition, naïveté et écriture de transition  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -255,6 +264,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - démystification (2)
 - espoir (2)
 - humanité (2)
+- géographie émotionnelle (2)
 - Australie (1)
 - montage théorique (1)
 - varispeed (1)
@@ -280,17 +290,42 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Glass (1)
 - Mesh (1)
 - narration expérimentale (1)
-- Albert Camus (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
-- Aucun motif rattaché.
+- suicide (1)
+- canonisation (1)
+- réception posthume (1)
+- notoriété tardive (1)
+- pièce bleue (1)
+- écriture (1)
+- ambition (1)
+- naïveté (1)
+- Macclesfield (1)
+- désindustrialisation (1)
+- ruine urbaine (1)
+- reconstruction (1)
+- spectralité urbaine (1)
+- Manchester (1)
+- Wythenshawe (1)
+- conflit (1)
+- producteur local (1)
+- réseau pré-Factory (1)
+- violence comique (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- Aucune relation déclarée.
+- S75-A003 — nuance → MYTH-curtis_prophete_de_sa_mort
+- S75-A003 — prolonge → S45
+- S75-A012 — nuance → S75-A010
+- S75-A012 — prépare → CONCEPT-poesie_de_l_alienation
+- S74-A002 — nuance → MYTH-003
+- S74-A002 — derive_de → CONCEPT-002
+- S74-A002 — prolonge → CONCEPT-003
+- S74-A010 — nuance → MYTH-004
+- S74-A010 — illustre → S74-A011
 
 ## 13. Distribution documentaire
 
@@ -304,6 +339,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
 | santé | 2 |
+| biographie | 2 |
 | session_album | 2 |
 | reception_poll | 2 |
 | idee_directrice | 2 |
@@ -329,6 +365,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | trauma | 1 |
 | biographie_culturelle | 1 |
 | citation_clef | 1 |
+| mythe | 1 |
 | interpretation_album | 1 |
 | concert_sequence | 1 |
 | concert_incident | 1 |
@@ -348,6 +385,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | vigilance_interpretative | 1 |
 | synthese_critique | 1 |
 | interpretation_historique | 1 |
+| lecture | 1 |
 | memoire | 1 |
 
 ### 13.2. Importance documentaire
@@ -355,10 +393,15 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 64 |
+| majeure | 3 |
+| critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
-- Aucun risque explicite n’est encore qualifié.
+- S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
+- S75-A012 [moyen] — scène très suggestive, exposée au risque de psychologisation
+- S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
+- S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 61 |
-| Atomes critiques / majeurs | 8 |
+| Atomes | 65 |
+| Atomes critiques / majeurs | 12 |
 | Citations | 3 |
 | Événements chronologiques | 3 |
 | Personnes | 3 |
 | Chansons | 1 |
-| Sources mobilisées | 6 |
+| Sources mobilisées | 7 |
 
 ## 4. Sources mobilisées
 
@@ -39,7 +39,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
-| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 9 | 0 |
+| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 12 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -47,10 +48,16 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A031** — S74-A031 — Peter Saville et l’apparition immédiate d’une grammaire graphique Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `design` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `institution` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A033** — S74-A033 — Cargo Studios : Digital et Glass comme seuil Hannett/Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A039** — S74-A039 — Hannett, digital delay et invention d’espaces imaginaires  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A041** — S74-A041 — Unknown Pleasures : rejet initial du son par le groupe  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A043** — S74-A043 — La pochette d’Unknown Pleasures comme choc visuel non maîtrisé par le groupe  
@@ -59,6 +66,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A060** — S74-A060 — New Order : controverse nominale, mémoire fasciste et stratégie du silence  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -194,8 +203,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 ## 11. Concepts récurrents
 
 - Martin Hannett (15)
-- martin hannett (9)
-- unknown pleasures (6)
+- martin hannett (11)
+- unknown pleasures (7)
 - closer (5)
 - dub (4)
 - espace sonore (4)
@@ -203,6 +212,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - love will tear us apart (4)
 - production (4)
 - post-punk (3)
+- digital (3)
 - basse (3)
 - Closer (3)
 - factory records (3)
@@ -212,7 +222,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - batterie (3)
 - electronics (2)
 - funk (2)
-- digital (2)
 - bernard sumner (2)
 - throbbing gristle (2)
 - death factory (2)
@@ -223,9 +232,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - Digital (2)
 - Glass (2)
 - novelty (2)
+- glass (2)
+- répétition (2)
 - factory (2)
+- spatialisation sonore (2)
 - réception interne (2)
 - pochette (2)
+- design funéraire (2)
 - production sonore (2)
 - Cargo Studios (2)
 - John Brierley (2)
@@ -269,21 +282,27 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - alienation effects (1)
 - anti-romantisme (1)
 - pere ubu (1)
-- devo (1)
-- cleveland (1)
-- akron (1)
-- industrial grotesque (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
 - objet disque (2)
+- reprise (1)
+- postérité (1)
+- austérité (1)
+- internalisation (1)
+- ombre portée (1)
 - provocation (1)
 - imagerie fasciste (1)
 - naïveté (1)
 - réception critique (1)
 - Throbbing Gristle (1)
+- entrepôt (1)
+- répétition (1)
+- poussière (1)
+- image industrielle (1)
+- Kevin Cummins (1)
 - poster (1)
 - minimalisme (1)
 - Hulme Crescents (1)
@@ -293,43 +312,44 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - plastique (1)
 - impraticabilité (1)
 - décision esthétique (1)
+- Cargo (1)
+- Digital (1)
+- Glass (1)
+- build-up (1)
+- producteur (1)
+- digital delay (1)
+- batterie (1)
+- chambre imaginaire (1)
+- isolation sonore (1)
+- visualité du son (1)
 - rejet (1)
 - son drainé (1)
 - puissance live (1)
 - canonisation (1)
 - dépossession (1)
-- pochette noire (1)
-- Fourier analysis (1)
-- mystère (1)
-- objet autonome (1)
-- design minimal (1)
-- beauté posthume (1)
-- tombeau (1)
-- Sunset Strip (1)
-- Rolling Stone (1)
-- promotion sans tournée (1)
-- nom (1)
-- fascisme (1)
-- indignation (1)
-- silence (1)
-- presse (1)
-- studio (1)
-- séparation sonore (1)
-- clarté (1)
-- préhistoire Hannett (1)
-- DIY (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A001 — prolonge → MOTIF-heritage
+- S75-A001 — nuance → MYTH-culte_sombre
 - S74-A024 — nuance → MYTH-002
 - S74-A024 — prolonge → S74-A017
 - S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
+- S74-A029 — renforce → CONCEPT_GEOGRAPHIE_EMOTIONNELLE
+- S74-A029 — nuance → MYTH-003
+- S74-A029 — prolonge → S74-A015
 - S74-A031 — prolonge → S74-A007
 - S74-A031 — complète → S74-A030
 - S74-A031 — annonce → CONCEPT_FACTORY_VISUAL_IDENTITY
 - S74-A032 — prolonge → S74-A001
 - S74-A032 — complète → S74-A031
 - S74-A032 — annonce → S74-A033
+- S74-A033 — nuance → MYTH-004
+- S74-A033 — prolonge → S74-A020
+- S74-A033 — complète → S74-A032
+- S74-A039 — prolonge → S74-A020
+- S74-A039 — complète → S74-A033
+- S74-A039 — nuance → MYTH-004
 - S74-A041 — nuance → MYTH-004
 - S74-A041 — complète → S74-A040
 - S74-A041 — annonce → S74-A042
@@ -357,21 +377,23 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | analyse | 19 |
 | contrepoint | 6 |
 | production | 6 |
+| reception | 3 |
 | controverse | 2 |
 | design | 2 |
+| analyse_studio | 2 |
 | reception_interne | 2 |
 | contexte_technique | 2 |
 | portrait | 2 |
 | fait | 2 |
 | transition | 2 |
-| reception | 2 |
 | contexte | 1 |
 | synthese | 1 |
 | réception | 1 |
 | memoire | 1 |
+| lieu | 1 |
 | institution | 1 |
+| session | 1 |
 | reception_posthume | 1 |
-| analyse_studio | 1 |
 | lecture | 1 |
 | discographie | 1 |
 | conflit_esthetique | 1 |
@@ -385,14 +407,19 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 52 |
-| critique | 8 |
+| critique | 11 |
+| majeure | 1 |
 | moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
+- S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
 - S74-A031 [moyen] — risque de téléologie reliant trop directement le premier poster à l’ensemble de l’esthétique Factory ultérieure
 - S74-A032 [moyen] — risque de romantiser l’impraticabilité financière comme vertu en soi
+- S74-A033 [eleve] — risque de surestimer ou de sous-estimer Hannett au détriment du travail collectif
+- S74-A039 [moyen] — risque de transformer le digital delay en explication unique du son Joy Division
 - S74-A041 [moyen] — risque de survaloriser le rejet initial au détriment de l’évolution ultérieure de la perception du groupe
 - S74-A043 [moyen] — risque de mythifier l’ignorance de Sumner comme preuve d’une œuvre purement accidentelle
 - S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort

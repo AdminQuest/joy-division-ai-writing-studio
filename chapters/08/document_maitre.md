@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 49 |
-| Atomes critiques / majeurs | 0 |
+| Atomes | 51 |
+| Atomes critiques / majeurs | 2 |
 | Citations | 0 |
 | Événements chronologiques | 0 |
 | Personnes | 0 |
 | Chansons | 0 |
-| Sources mobilisées | 4 |
+| Sources mobilisées | 5 |
 
 ## 4. Sources mobilisées
 
@@ -38,10 +38,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
-- Aucun atome critique ou majeur n’est encore qualifié.
+- **S75-A008** — S75-A008 — Les démos Warsaw comme document bootleg empiriquement précieux  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `bootleg` ; importance : `critique` ; preuve : `plausible`.
+- **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -247,11 +251,23 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ### 12.1. Motifs dominants
 
-- Aucun motif rattaché.
+- bootleg (1)
+- Warsaw (1)
+- Movie Play Gold (1)
+- archive sonore (1)
+- document impur (1)
+- EP (1)
+- pressage (1)
+- Enigma (1)
+- remastering (1)
+- Macclesfield (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- Aucune relation déclarée.
+- S75-A008 — prolonge → MOTIF-bootleg
+- S75-A008 — corrobore → S68
+- S75-A019 — prolonge → S75-A018
+- S75-A019 — illustre → CONCEPT-contrainte_produit_la_forme
 
 ## 13. Distribution documentaire
 
@@ -266,16 +282,21 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | chronologie | 3 |
 | discographie | 1 |
 | videographie | 1 |
+| bootleg | 1 |
+| objet_discographique | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 49 |
+| critique | 1 |
+| majeure | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
-- Aucun risque explicite n’est encore qualifié.
+- S75-A008 [moyen] — l'objet est utile mais son statut juridique, la filiation des bandes et la chaîne de copie restent incertains
+- S75-A019 [faible] — fait discographique relativement stable, mais les jugements sonores restent critiques
 
 ## 15. Lacunes et prochaines vérifications
 

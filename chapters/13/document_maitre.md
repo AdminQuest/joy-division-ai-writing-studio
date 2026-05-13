@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 30 |
-| Atomes critiques / majeurs | 10 |
+| Atomes | 34 |
+| Atomes critiques / majeurs | 14 |
 | Citations | 0 |
 | Événements chronologiques | 0 |
 | Personnes | 0 |
 | Chansons | 0 |
-| Sources mobilisées | 4 |
+| Sources mobilisées | 5 |
 
 ## 4. Sources mobilisées
 
@@ -37,7 +37,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
-| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 10 | 0 |
+| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -53,12 +54,20 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A047** — S74-A047 — Factory Club comme véritable foyer scénique de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S75-A014** — S75-A014 — Sumner, Lower Broughton et la géographie sociale du futur sans issue  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
+- **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
+- **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A057** — S74-A057 — Beach Club : lieu de transition entre post-punk sombre et second glam age  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
@@ -125,10 +134,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - Manchester (6)
 - manchester (5)
+- géographie émotionnelle (5)
 - sheffield (3)
 - Factory (3)
-- géographie émotionnelle (3)
 - Salford (3)
+- post-industrialisme (2)
 - joy division (2)
 - répétition (2)
 - Plan K (2)
@@ -137,9 +147,14 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Cabaret Voltaire (2)
 - Londres (2)
 - factory (2)
+- tony wilson (2)
+- spatialisation sonore (2)
+- factory club (2)
+- second glam age (2)
+- salford (2)
+- géographie biographique (2)
 - noir et blanc (2)
 - j g ballard (1)
-- post-industrialisme (1)
 - paysages de ruine (1)
 - ballardian manchester (1)
 - local universel (1)
@@ -175,40 +190,40 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - nord-ouest (1)
 - stratégie territoriale (1)
 - rue de Manchester (1)
+- géographie sociale de Joy Division (1)
+- futur fermé (1)
+- mémoire ouvrière déplacée (1)
 - band on the wall (1)
 - manchester musicians collective (1)
 - scène locale (1)
+- aloofness partagée (1)
+- scène périphérique (1)
+- isolement construit (1)
 - little peter street (1)
 - tj davidson (1)
 - esthétique industrielle (1)
+- matrice visuelle (1)
+- chambre de résonance industrielle (1)
+- géographie de répétition (1)
 - russell club (1)
-- tony wilson (1)
 - alan wise (1)
+- institution-lieu (1)
+- catalyseur post-punk (1)
+- géographie Factory (1)
 - martin hannett (1)
 - digital delay (1)
-- unknown pleasures (1)
-- spatialisation sonore (1)
-- factory club (1)
-- joy division live (1)
-- intensité (1)
-- beach club (1)
-- new hormones (1)
-- second glam age (1)
-- post-industrial manchester (1)
-- bernard sumner (1)
-- lower broughton (1)
-- clearance (1)
-- noirceur sonore (1)
-- electric circus (1)
-- collyhurst (1)
-- punk mancunien (1)
-- désindustrialisation (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- Salford (3)
 - club (2)
+- Factory Club (2)
+- Lower Broughton (1)
+- déplacement (1)
+- tour (1)
+- travail répétitif (1)
 - exclusion (1)
 - scène locale (1)
 - jalousie (1)
@@ -228,8 +243,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - chambre imaginaire (1)
 - isolation sonore (1)
 - visualité du son (1)
+- Granada (1)
+- Liverpool (1)
+- télévision régionale (1)
+- médiation empêchée (1)
 - intensité live (1)
-- Factory Club (1)
 - proximité (1)
 - lieu foyer (1)
 - choc physique (1)
@@ -237,20 +255,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - électro (1)
 - couleur (1)
 - fin du post-punk gris (1)
-- mémoire effacée (1)
-- tour d’habitation (1)
-- communauté détruite (1)
-- enfance (1)
-- noirceur (1)
-- lieu sordide (1)
-- Collyhurst (1)
-- peur (1)
-- tension (1)
-- communauté punk (1)
-- désindustrialisation (1)
+- Jamaïque (1)
+- retour (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A014 — nuance → MYTH-curtis_centre_unique
+- S75-A014 — prolonge → CONCEPT-geographie_emotionnelle
 - S74-A028 — nuance → MYTH-002
 - S74-A028 — complète → S74-A021
 - S74-A028 — prolonge → S74-A018
@@ -263,12 +274,17 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S74-A039 — prolonge → S74-A020
 - S74-A039 — complète → S74-A033
 - S74-A039 — nuance → MYTH-004
+- S74-A046 — prolonge → S74-A008
+- S74-A046 — complète → S74-A030
+- S74-A046 — nuance → MYTH-005
 - S74-A047 — prolonge → S74-A030
 - S74-A047 — complète → S74-A045
 - S74-A047 — nuance → MYTH-006
 - S74-A057 — prolonge → S74-A046
 - S74-A057 — annonce → S74-A058
 - S74-A057 — nuance → MYTH-003
+- S74-A014 — complète → S74-A002
+- S74-A014 — prolonge → S41
 - S74-A015 — renforce → S74-A002
 - S74-A015 — nuance → MYTH-003
 - S74-A015 — complète → S41
@@ -278,6 +294,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S74-A002 — nuance → MYTH-003
 - S74-A002 — derive_de → CONCEPT-002
 - S74-A002 — prolonge → CONCEPT-003
+- S74-A006 — nuance → MYTH-005
+- S74-A006 — illustre → CONCEPT-003
 - S74-A011 — nuance → MYTH-003
 - S74-A011 — complète → S74-A002
 
@@ -289,6 +307,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 |---|---|
 | lecture | 4 |
 | analyse | 3 |
+| biographie | 3 |
 | concept | 3 |
 | contexte | 2 |
 | contrepoint | 2 |
@@ -299,6 +318,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | concert_international | 1 |
 | lieu_institution | 1 |
 | analyse_studio | 1 |
+| mediation_culturelle | 1 |
 | performance_live | 1 |
 | lieu_transition | 1 |
 | temoignage | 1 |
@@ -313,20 +333,24 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 20 |
-| critique | 6 |
-| majeure | 4 |
+| critique | 7 |
+| majeure | 7 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
 - S74-A028 [eleve] — risque de confirmer trop vite la légende du groupe maudit et isolé
 - S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
 - S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique
 - S74-A039 [moyen] — risque de transformer le digital delay en explication unique du son Joy Division
+- S74-A046 [moyen] — risque de romantiser Factory comme seul espace authentique contre une télévision nécessairement morte
 - S74-A047 [moyen] — risque de transformer le Factory Club en lieu mythique unique au détriment des autres scènes importantes
 - S74-A057 [moyen] — risque de transformer un lieu précis en symbole total d’un changement national
+- S74-A014 [moyen] — risque de surdéterminer l’esthétique du groupe par la seule biographie spatiale de Hook
 - S74-A015 [eleve] — risque de transformer une hypothèse mémorielle de Sumner en explication totale de Joy Division
 - S74-A018 [moyen] — risque de substituer un mythe Electric Circus au mythe Lesser Free Trade Hall
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
+- S74-A006 [moyen] — risque de psychologiser Factory à partir de la seule trajectoire sociale de Wilson
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
 
 ## 15. Lacunes et prochaines vérifications

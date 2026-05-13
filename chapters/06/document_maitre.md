@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 141 |
-| Atomes critiques / majeurs | 19 |
+| Atomes | 144 |
+| Atomes critiques / majeurs | 22 |
 | Citations | 3 |
 | Événements chronologiques | 3 |
 | Personnes | 3 |
 | Chansons | 4 |
-| Sources mobilisées | 8 |
+| Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
 
@@ -41,12 +41,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
-| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
+| S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
 - **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
+- **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
@@ -71,6 +74,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `evenement_crise` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A050** — S74-A050 — Gretton reconnaît rétrospectivement l’aveuglement face à l’aggravation de Curtis  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_retrospectif` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S75-A011** — S75-A011 — Brotherdale, Gretton et la stabilisation négative du groupe  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_retrospective`.
 - **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
@@ -79,6 +84,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `contexte_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A038** — S74-A038 — Strawberry Studios : Unknown Pleasures comme investissement disproportionné  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `majeure` ; preuve : `corrobore`.
+- **S74-A044** — S74-A044 — Factory scene : Distractions comme antithèse lumineuse de Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_locale` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A051** — S74-A051 — Gretton, Sordide Sentimentale et l’émotion managériale devant « Dead Souls » et « Atmosphere »  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_affectif` ; importance : `majeure` ; preuve : `temoignage_direct_auteur`.
 - **S74-A055** — S74-A055 — Mort de Curtis : onde de choc sur Factory, Topping, Hannett et Sumner  
@@ -305,6 +312,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Insight (4)
 - Factory (4)
 - studio (4)
+- joy division (4)
 - unknown pleasures (3)
 - tournée américaine (3)
 - Warsaw (3)
@@ -353,28 +361,35 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Maida Vale (2)
 - Walked in Line (2)
 - anti-commercialisme (2)
-- Novelty (2)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
 - manager (3)
+- Gretton (2)
+- frustration (2)
 - reconnaissance (2)
 - indépendance (2)
 - contrôle (2)
+- éviction (1)
+- stabilisation (1)
+- Brotherdale (1)
+- dynamique de groupe (1)
 - major (1)
 - rejet (1)
 - bruit (1)
 - mauvais son (1)
 - bifurcation (1)
-- frustration (1)
+- northern soul (1)
+- impasse (1)
+- synthétiseur (1)
+- convention rock (1)
 - talent contest (1)
 - note injurieuse (1)
 - naissance Factory (1)
 - répétition (1)
 - maladresse (1)
-- Gretton (1)
 - club (1)
 - Hulme (1)
 - reggae (1)
@@ -391,20 +406,17 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - build-up (1)
 - producteur (1)
 - vide stratégique (1)
-- majors (1)
-- tentation RCA (1)
-- rampe de lancement (1)
-- incertitude (1)
-- calcul (1)
-- bière (1)
-- 50/50 (1)
-- refus de l’avance (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A011 — prolonge → S75-A009
+- S75-A011 — annonce → CONCEPT-gretton_management
 - S74-A023 — prolonge → S74-A022
 - S74-A023 — annonce → S74-A030
 - S74-A023 — nuance → MYTH-005
+- S74-A025 — prolonge → S74-A023
+- S74-A025 — annonce → S74-A030
+- S74-A025 — nuance → MYTH-004
 - S74-A026 — nuance → MYTH-005
 - S74-A026 — prolonge → S74-A017
 - S74-A026 — annonce → S74-A030
@@ -438,6 +450,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S74-A042 — prolonge → S74-A041
 - S74-A042 — complète → S74-A036
 - S74-A042 — nuance → MYTH-006
+- S74-A044 — complète → S74-A030
+- S74-A044 — nuance → MYTH-005
+- S74-A044 — contraste → S74-A042
 - S74-A045 — prolonge → S74-A042
 - S74-A045 — complète → S74-A036
 - S74-A045 — nuance → MYTH-006
@@ -475,6 +490,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | discographie_album | 3 |
 | evenement_live | 3 |
 | versions_chanson | 3 |
+| session | 3 |
 | reception | 2 |
 | relation | 2 |
 | session_enregistrement | 2 |
@@ -485,12 +501,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | reception_critique | 2 |
 | réception | 2 |
 | chronologie | 2 |
+| scene_fondatrice | 2 |
 | session_radio | 2 |
 | outtakes | 2 |
 | session_album | 2 |
 | lieu_studio | 2 |
 | micro_chronologie | 2 |
-| session | 2 |
 | chronologie_live | 2 |
 | analyse_morceau | 2 |
 | broadcast | 1 |
@@ -517,13 +533,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | idee_directrice | 1 |
 | fait_interprete | 1 |
 | mythe | 1 |
-| scene_fondatrice | 1 |
 | lieu_institution | 1 |
 | institution | 1 |
 | contexte_transition | 1 |
 | decision_strategique | 1 |
 | principe_institutionnel | 1 |
 | conflit_studio | 1 |
+| scene_locale | 1 |
 | reception_single | 1 |
 | evenement_crise | 1 |
 | temoignage_retrospectif | 1 |
@@ -549,12 +565,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 122 |
-| critique | 13 |
-| majeure | 6 |
+| critique | 15 |
+| majeure | 7 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A011 [moyen] — l'épisode du pneu crevé appartient à la mémoire anecdotique et doit être recoupé
 - S74-A023 [moyen] — risque de transformer RCA en simple repoussoir alors que Curtis reste attiré par cette voie
+- S74-A025 [moyen] — risque de juger la session seulement comme fiasco sans voir les tensions formatrices qu’elle révèle
 - S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
 - S74-A027 [faible] — scène largement cohérente avec les autres récits internes, mais stylisée par Middles
 - S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique
@@ -566,6 +584,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S74-A038 [faible] — le risque financier est historiquement pertinent et cohérent avec le modèle Factory
 - S74-A040 [eleve] — risque de basculer dans une lecture uniquement conflictuelle en oubliant le résultat artistique
 - S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
+- S74-A044 [moyen] — risque de survaloriser les Distractions uniquement comme faire-valoir de Joy Division
 - S74-A045 [moyen] — risque de lire l’échec commercial comme incompréhension pure du public sans examiner la promotion déficiente
 - S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel
 - S74-A050 [eleve] — risque de moraliser rétrospectivement une situation médicale et organisationnelle mal comprise à l’époque

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-13T10:16:53"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 77 |
-| Atomes critiques / majeurs | 16 |
+| Atomes | 81 |
+| Atomes critiques / majeurs | 20 |
 | Citations | 5 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 2 |
-| Sources mobilisées | 6 |
+| Sources mobilisées | 7 |
 
 ## 4. Sources mobilisées
 
@@ -40,6 +40,7 @@ generated_at: "2026-05-13T10:16:53"
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -55,6 +56,10 @@ generated_at: "2026-05-13T10:16:53"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `decision_strategique` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A037** — S74-A037 — Freedom to fuck off : clause de liberté et ethos Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `principe_institutionnel` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A020** — S75-A020 — « No Love Lost » comme début réel de Joy Division  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
@@ -75,6 +80,10 @@ generated_at: "2026-05-13T10:16:53"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_locale` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
+- **S75-A010** — S75-A010 — « Gutz », domesticité et brutalité des premiers textes de Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A012** — S75-A012 — Curtis dans la pièce bleue : ambition, naïveté et écriture de transition  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -318,6 +327,25 @@ generated_at: "2026-05-13T10:16:53"
 - indépendance (2)
 - télévision régionale (2)
 - violence sociale (2)
+- suicide (1)
+- canonisation (1)
+- réception posthume (1)
+- notoriété tardive (1)
+- domesticité (1)
+- ressentiment (1)
+- misogynie (1)
+- pose dramatique (1)
+- Curtis immature (1)
+- pièce bleue (1)
+- écriture (1)
+- ambition (1)
+- naïveté (1)
+- Macclesfield (1)
+- No Love Lost (1)
+- House of Dolls (1)
+- funk sec (1)
+- double-delay (1)
+- seuil (1)
 - frustration (1)
 - talent contest (1)
 - note injurieuse (1)
@@ -334,28 +362,18 @@ generated_at: "2026-05-13T10:16:53"
 - sampler (1)
 - objet disque (1)
 - plastique (1)
-- impraticabilité (1)
-- décision esthétique (1)
-- vide stratégique (1)
-- majors (1)
-- tentation RCA (1)
-- rampe de lancement (1)
-- incertitude (1)
-- calcul (1)
-- bière (1)
-- 50/50 (1)
-- refus de l’avance (1)
-- liberté (1)
-- contrat oral (1)
-- confiance (1)
-- fragilité (1)
-- anti-major (1)
-- pop locale (1)
-- antithèse (1)
-- fraîcheur (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A003 — nuance → MYTH-curtis_prophete_de_sa_mort
+- S75-A003 — prolonge → S45
+- S75-A010 — nuance → MYTH-curtis_poete_deja_accompli
+- S75-A010 — corrobore → S45
+- S75-A012 — nuance → S75-A010
+- S75-A012 — prépare → CONCEPT-poesie_de_l_alienation
+- S75-A020 — prolonge → S75-A015
+- S75-A020 — nuance → S75-A019
+- S75-A020 — annonce → CONCEPT-architecture_sonore
 - S74-A026 — nuance → MYTH-005
 - S74-A026 — prolonge → S74-A017
 - S74-A026 — annonce → S74-A030
@@ -409,15 +427,16 @@ generated_at: "2026-05-13T10:16:53"
 | Type | Nombre |
 |---|---|
 | fait_sensible | 9 |
-| biographie | 5 |
+| biographie | 6 |
 | interpretation | 5 |
+| lecture | 4 |
 | relation | 3 |
-| lecture | 3 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | santé | 2 |
 | domesticité | 2 |
 | relation_conjugale | 2 |
+| mythe | 2 |
 | fait | 2 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
@@ -438,10 +457,10 @@ generated_at: "2026-05-13T10:16:53"
 | cadre_narratif | 1 |
 | sociologie | 1 |
 | citation_clef | 1 |
+| lecture_musicale | 1 |
 | reception_comparative | 1 |
 | equipment_file | 1 |
 | citation_repere | 1 |
-| mythe | 1 |
 | scene_fondatrice | 1 |
 | lieu_institution | 1 |
 | institution | 1 |
@@ -465,12 +484,16 @@ generated_at: "2026-05-13T10:16:53"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| majeure | 10 |
-| critique | 6 |
+| majeure | 12 |
+| critique | 8 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
+- S75-A010 [eleve] — risque de psychologiser Curtis à partir d'un texte primitif et d'une lecture secondaire
+- S75-A012 [moyen] — scène très suggestive, exposée au risque de psychologisation
+- S75-A020 [moyen] — formule forte d'Ott ; à articuler avec d'autres seuils possibles comme « Digital » ou les sessions RCA
 - S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
 - S74-A027 [faible] — scène largement cohérente avec les autres récits internes, mais stylisée par Middles
 - S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique

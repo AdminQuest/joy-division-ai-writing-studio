@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-13T10:16:53"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 48 |
-| Atomes critiques / majeurs | 5 |
+| Atomes | 50 |
+| Atomes critiques / majeurs | 7 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 0 |
 | Chansons | 0 |
-| Sources mobilisées | 8 |
+| Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
 
@@ -42,11 +42,16 @@ generated_at: "2026-05-13T10:16:53"
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 5 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S75-A004** — S75-A004 — Manchester contre Londres : le punk comme possibilité, non comme modèle  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A014** — S75-A014 — Sumner, Lower Broughton et la géographie sociale du futur sans issue  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -168,6 +173,7 @@ generated_at: "2026-05-13T10:16:53"
 
 - manchester (9)
 - Manchester (6)
+- géographie émotionnelle (5)
 - Salford (5)
 - diy (4)
 - Ian Curtis (4)
@@ -175,11 +181,11 @@ generated_at: "2026-05-13T10:16:53"
 - NME (3)
 - Macclesfield (3)
 - classe ouvriere (3)
-- géographie émotionnelle (3)
 - factory records (2)
 - new hormones (2)
 - buzzcocks (2)
 - indépendance (2)
+- post-industrialisme (2)
 - sheffield (2)
 - joy division (2)
 - the fall (2)
@@ -194,6 +200,7 @@ generated_at: "2026-05-13T10:16:53"
 - urban malaise (2)
 - Stephen Morris (2)
 - salford (2)
+- géographie biographique (2)
 - post-punk (1)
 - âge d’or (1)
 - présentisme (1)
@@ -217,7 +224,6 @@ generated_at: "2026-05-13T10:16:53"
 - rabid records (1)
 - centralisation londonienne (1)
 - j g ballard (1)
-- post-industrialisme (1)
 - paysages de ruine (1)
 - ballardian manchester (1)
 - local universel (1)
@@ -245,13 +251,21 @@ generated_at: "2026-05-13T10:16:53"
 - cleveland (1)
 - akron (1)
 - industrial grotesque (1)
-- industrie lourde (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
-- Salford (2)
+- Salford (3)
+- Manchester (2)
+- Londres (1)
+- punk (1)
+- auto-suffisance (1)
+- déclencheur (1)
+- Lower Broughton (1)
+- déplacement (1)
+- tour (1)
+- travail répétitif (1)
 - Jamaïque (1)
 - retour (1)
 - clearance (1)
@@ -265,7 +279,6 @@ generated_at: "2026-05-13T10:16:53"
 - ruine urbaine (1)
 - reconstruction (1)
 - spectralité urbaine (1)
-- Manchester (1)
 - mémoire ouvrière (1)
 - suburbia (1)
 - ascension sociale (1)
@@ -278,6 +291,10 @@ generated_at: "2026-05-13T10:16:53"
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A004 — nuance → MYTH-lesser_free_trade_hall_origine_absolue
+- S75-A004 — prolonge → CONCEPT-geographie_emotionnelle
+- S75-A014 — nuance → MYTH-curtis_centre_unique
+- S75-A014 — prolonge → CONCEPT-geographie_emotionnelle
 - S74-A014 — complète → S74-A002
 - S74-A014 — prolonge → S41
 - S74-A015 — renforce → S74-A002
@@ -299,13 +316,13 @@ generated_at: "2026-05-13T10:16:53"
 |---|---|
 | sociologie | 6 |
 | analyse | 5 |
+| biographie | 4 |
 | contexte | 3 |
 | contrepoint | 3 |
-| biographie | 3 |
+| lecture | 3 |
 | concept | 3 |
 | methode | 2 |
 | chronologie | 2 |
-| lecture | 2 |
 | contexte_social | 2 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
@@ -331,10 +348,12 @@ generated_at: "2026-05-13T10:16:53"
 |---|---|
 | non qualifiée | 43 |
 | majeure | 4 |
-| critique | 1 |
+| critique | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A004 [moyen] — risque de durcir excessivement l'opposition Londres/Manchester
+- S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
 - S74-A014 [moyen] — risque de surdéterminer l’esthétique du groupe par la seule biographie spatiale de Hook
 - S74-A015 [eleve] — risque de transformer une hypothèse mémorielle de Sumner en explication totale de Joy Division
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division

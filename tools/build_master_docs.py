@@ -139,8 +139,28 @@ def chapter_label(number: int) -> str:
 def chapter_match(record: Dict[str, Any], chapter_number: int) -> bool:
     data = record.get("data", {})
     target = chapter_label(chapter_number)
-    values = as_list(data.get("chapitres")) + as_list(data.get("chapters"))
-    return target in {text(value) for value in values}
+    target_short = f"CH{chapter_number:02d}"
+
+    # The v2 atom schema often uses `usage_livre` rather than `chapitres`
+    # to indicate chapter use. Master docs must therefore project atoms from
+    # all explicit chapter-use fields, not only from legacy chapter fields.
+    values = (
+        as_list(data.get("chapitres"))
+        + as_list(data.get("chapters"))
+        + as_list(data.get("usage_livre"))
+        + as_list(data.get("liens_interchapitres"))
+    )
+
+    normalized = {text(value) for value in values if text(value)}
+    normalized_lower = {value.lower() for value in normalized}
+
+    return (
+        target in normalized
+        or target.lower() in normalized_lower
+        or target_short in normalized
+        or target_short.lower() in normalized_lower
+        or str(chapter_number) in normalized
+    )
 
 
 def md_escape(value: Any) -> str:
@@ -278,7 +298,9 @@ def motif_values(atoms: List[Dict[str, Any]]) -> List[str]:
 def concept_values(atoms: List[Dict[str, Any]]) -> List[str]:
     counter: Counter[str] = Counter()
     for atom in atoms:
-        for concept in as_list(atom.get("data", {}).get("concepts")):
+        data = atom.get("data", {})
+        values = as_list(data.get("concepts")) + as_list(data.get("concepts_derives"))
+        for concept in values:
             item = text(concept)
             if item:
                 counter[item] += 1

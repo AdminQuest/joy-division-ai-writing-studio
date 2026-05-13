@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:16:53"
+generated_at: "2026-05-13T10:22:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 52 |
-| Atomes critiques / majeurs | 0 |
+| Atomes | 53 |
+| Atomes critiques / majeurs | 1 |
 | Citations | 1 |
 | Événements chronologiques | 1 |
 | Personnes | 4 |
 | Chansons | 3 |
-| Sources mobilisées | 8 |
+| Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
 
@@ -42,10 +42,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 7 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
-- Aucun atome critique ou majeur n’est encore qualifié.
+- **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -262,11 +264,16 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ### 12.1. Motifs dominants
 
-- Aucun motif rattaché.
+- reprise (1)
+- postérité (1)
+- austérité (1)
+- internalisation (1)
+- ombre portée (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- Aucune relation déclarée.
+- S75-A001 — prolonge → MOTIF-heritage
+- S75-A001 — nuance → MYTH-culte_sombre
 
 ## 13. Distribution documentaire
 
@@ -275,7 +282,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Type | Nombre |
 |---|---|
 | biographie | 6 |
-| reception | 5 |
+| reception | 6 |
 | archive | 4 |
 | concert | 3 |
 | relation | 3 |
@@ -306,10 +313,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 52 |
+| majeure | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
-- Aucun risque explicite n’est encore qualifié.
+- S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
 
 ## 15. Lacunes et prochaines vérifications
 
