@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T13:52:24"
+generated_at: "2026-05-13T14:01:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -254,7 +254,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S75-1980-006 — Ian Curtis annonce à Deborah Curtis avoir pris une overdose de Phenobarbital ; hospitalisation, note de suicide et sortie rapide.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
-- CHR-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
+- CHR-S75-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
 - CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.

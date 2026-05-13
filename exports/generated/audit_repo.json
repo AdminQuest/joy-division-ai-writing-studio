@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T13:52:15",
+  "generated_at": "2026-05-13T14:00:46",
   "summary": {
     "records_total": 1481,
     "records_by_kind": {
@@ -16,8 +16,8 @@
       "concept": 7,
       "myth": 8
     },
-    "diagnostics_total": 9190,
-    "errors": 2,
+    "diagnostics_total": 9188,
+    "errors": 0,
     "warnings": 9188,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
@@ -259,7 +259,6 @@
     ]
   ],
   "issue_categories": {
-    "duplicate_id": 2,
     "invalid_controlled_value": 791,
     "missing_required_field": 635,
     "schema_warning": 86,
@@ -387,24 +386,7 @@
       129
     ]
   ],
-  "blocking_errors": [
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/chronology/master_chronology.md",
-      "record_id": "CHR-1979-001",
-      "message": "Duplicate id also found in registers/chronology/s75_ott_chronology.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/chronology/master_chronology.md",
-      "record_id": "CHR-1979-002",
-      "message": "Duplicate id also found in registers/chronology/s75_ott_chronology.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    }
-  ],
+  "blocking_errors": [],
   "unknown_yaml_blocks": [],
   "v2_migration": {
     "atoms_total": 980,
@@ -74209,22 +74191,6 @@
       "record_id": "S75-Q021",
       "message": "Missing required field: statut_verification",
       "suggested_action": "Compléter le champ obligatoire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/chronology/master_chronology.md",
-      "record_id": "CHR-1979-001",
-      "message": "Duplicate id also found in registers/chronology/s75_ott_chronology.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/chronology/master_chronology.md",
-      "record_id": "CHR-1979-002",
-      "message": "Duplicate id also found in registers/chronology/s75_ott_chronology.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",

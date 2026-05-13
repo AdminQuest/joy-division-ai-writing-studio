@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-13T13:52:06",
-  "status": "error",
+  "generated_at": "2026-05-13T14:00:39",
+  "status": "warning",
   "summary": {
     "records_total": 1481,
     "records_by_kind": {
@@ -17,8 +17,8 @@
       "concept": 7,
       "myth": 8
     },
-    "diagnostics_total": 9190,
-    "errors": 2,
+    "diagnostics_total": 9188,
+    "errors": 0,
     "warnings": 9188,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
@@ -55450,18 +55450,6 @@
       "file": "registers/quotes/s75_ott_quotes_part_04.md",
       "message": "Missing required field: statut_verification",
       "record_id": "S75-Q021"
-    },
-    {
-      "level": "error",
-      "file": "registers/chronology/master_chronology.md",
-      "message": "Duplicate id also found in registers/chronology/s75_ott_chronology.md",
-      "record_id": "CHR-1979-001"
-    },
-    {
-      "level": "error",
-      "file": "registers/chronology/master_chronology.md",
-      "message": "Duplicate id also found in registers/chronology/s75_ott_chronology.md",
-      "record_id": "CHR-1979-002"
     },
     {
       "level": "warning",
