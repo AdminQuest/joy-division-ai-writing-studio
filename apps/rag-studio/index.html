@@ -11,7 +11,7 @@
     <div class="hero-inner">
       <h1>Joy Division — RAG Studio</h1>
       <p class="subtitle">
-        Interface documentaire web · RAG 1 lexical · Corpus structuré
+        Interface documentaire web · RAG 2 lexical + filtres structurés · Corpus structuré
       </p>
       <p class="back"><a href="../../">← Retour au portail</a></p>
     </div>
@@ -26,7 +26,6 @@
           name="query"
           rows="3"
           placeholder="Exemple : Hannett live sound Unknown Pleasures"
-          required
         ></textarea>
 
         <div class="controls">
@@ -47,6 +46,55 @@
           </div>
 
           <div class="field">
+            <label for="chapter-filter">Chapitre</label>
+            <select id="chapter-filter" name="chapter-filter">
+              <option value="">Tous</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="source-filter">Source</label>
+            <select id="source-filter" name="source-filter">
+              <option value="">Toutes</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="type-filter">Type d’atome</label>
+            <select id="type-filter" name="type-filter">
+              <option value="">Tous</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="importance-filter">Importance</label>
+            <select id="importance-filter" name="importance-filter">
+              <option value="">Toutes</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="proof-filter">Niveau de preuve</label>
+            <select id="proof-filter" name="proof-filter">
+              <option value="">Tous</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="concept-filter">Concept</label>
+            <select id="concept-filter" name="concept-filter">
+              <option value="">Tous</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="motif-filter">Motif</label>
+            <select id="motif-filter" name="motif-filter">
+              <option value="">Tous</option>
+            </select>
+          </div>
+
+          <div class="field">
             <label for="top">Résultats / page</label>
             <select id="top" name="top">
               <option>5</option>
@@ -59,6 +107,7 @@
 
         <div class="actions">
           <button type="submit">Interroger le corpus</button>
+          <button type="button" id="reset-filters">Réinitialiser les filtres</button>
         </div>
       </form>
 
@@ -94,7 +143,7 @@
       <section class="examples">
         <h2>Recherche bilingue</h2>
         <p class="panel-note">
-          Le moteur RAG 1 est lexical : il retrouve d’abord les mots présents dans les atomes. Pour une recherche complète, interroger souvent la base en couples français / anglais.
+          RAG 2 combine recherche lexicale et filtres structurés. Les filtres peuvent être utilisés seuls pour explorer le corpus.
         </p>
 
         <button class="example-query" data-query="désindustrialisation urban decay industrial decline">
