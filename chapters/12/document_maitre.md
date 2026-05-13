@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:00:08"
+generated_at: "2026-05-13T18:20:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 161 |
+| Atomes | 171 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 58 |
-| Événements chronologiques | 44 |
-| Personnes | 26 |
+| Citations | 64 |
+| Événements chronologiques | 48 |
+| Personnes | 30 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
 
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 77 | 44 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 87 | 50 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -307,6 +307,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q134** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q135** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q165** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q167** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q168** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q169** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q170** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q171** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q138** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -315,12 +321,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q144** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q145** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q146** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q148** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q149** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q150** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q151** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q152** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q153** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -333,6 +333,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S75-1980-006 — Ian Curtis annonce à Deborah Curtis avoir pris une overdose de Phenobarbital ; hospitalisation, note de suicide et sortie rapide.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
+- CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
+- CHR-S76-1980-023 — Joy Division joue au Winter Gardens de Malvern, prolongeant sans pause la séquence de concerts suivant *Closer*.
+- CHR-S76-1980-024 — Joy Division joue au Derby Hall de Bury. Ian Curtis n’étant pas en état d’assurer normalement le début du concert, Alan Hempsall et Simon Topping interviennent comme voix de substitution, avant que la soirée ne dégénère en violences dans la salle.
+- CHR-S76-1980-025 — Ian Curtis effectue une tentative de suicide par ingestion de médicaments. L’épisode entraîne une prise en charge médicale, mais ne suspend pas durablement la trajectoire professionnelle du groupe.
 - CHR-S76-1974-001 — Ian Curtis et Deborah Woodruff se fiancent ; une fête est organisée au domicile familial de Deborah à Sutton, Macclesfield.
 - CHR-S76-1975-001 — Mariage de Ian Curtis et Deborah Woodruff à St Thomas’s Church, Henbury, près de Macclesfield.
 - CHR-S76-1979-024 — Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.
@@ -360,10 +364,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S76-1980-017 — Factory loue deux appartements à York Street, près de Baker Street, pour loger le groupe et Rob Gretton pendant les sessions londoniennes de *Closer*.
 - CHR-S76-1980-018 — Les sessions principales de *Closer* à Britannia Row s’achèvent vers la fin mars 1980. S76 souligne que le groupe doit immédiatement rester à Londres pour quatre concerts en trois jours au début d’avril.
 - CHR-S76-1980-019 — La pochette de *Closer* est élaborée autour d’une photographie de Bernard Pierre Wolff prise au cimetière de Staglieno, avec Martyn Atkins et Peter Saville. La signification funéraire de l’objet sera amplifiée après la mort de Curtis.
-- CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.
-- CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
-- CHR-S76-1979-011 — Natalie Curtis naît le lundi de Pâques. S76 met en tension la joie de Ian Curtis, la maternité de Deborah et la crainte que l’épilepsie empêche Ian de s’occuper physiquement de sa fille en sécurité.
-- CHR-S76-1979-012 — Le lendemain de la naissance de Natalie, Joy Division joue à Acklam Hall, Londres, avec John Dowie en support. S76 souligne que les concerts londoniens sont considérés comme trop importants pour être annulés.
 
 ## 9. Personnes et acteurs
 
@@ -375,6 +375,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-055 — Dr David Holmes
 - PERS-S76-070 — Annik Honoré
 - PERS-S76-072 — Martin Hannett
+- PERS-S76-080 — Alan Hempsall
+- PERS-S76-081 — Simon Topping
+- PERS-S76-082 — Perry Boys
+- PERS-S76-083 — Larry Cassidy
 - PERS-S76-067 — Annik Honoré
 - PERS-S76-069 — Martin Hannett
 - PERS-S76-009 — Deborah Woodruff / Deborah Curtis
@@ -491,16 +495,20 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 ### 12.1. Motifs dominants
 
 - Annik Honoré (12)
-- fatigue (10)
+- fatigue (12)
 - épilepsie (9)
 - Deborah Curtis (8)
 - Ian Curtis (7)
-- Closer (6)
+- Closer (7)
 - Natalie Curtis (6)
+- Tony Wilson (5)
 - She’s Lost Control (4)
-- Tony Wilson (4)
 - Love Will Tear Us Apart (4)
+- Rob Gretton (4)
+- Derby Hall (3)
 - Britannia Row (3)
+- crise épileptique (3)
+- Terry Mason (3)
 - David Lewis Centre (3)
 - Unknown Pleasures (3)
 - Mark Reeder (3)
@@ -508,28 +516,24 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Mick Middles (2)
 - domesticité (2)
 - responsabilité (2)
-- Derby Hall (2)
+- Alan Hempsall (2)
 - Macclesfield (2)
 - Hope & Anchor (2)
-- crise épileptique (2)
 - paroles (2)
 - paternité (2)
 - New Dawn Fades (2)
 - I Remember Nothing (2)
 - Strawberry Studios (2)
-- Terry Mason (2)
 - synthétiseur (2)
 - Martin Hannett (2)
 - Lindsay Reade (2)
 - Barton Street (2)
+- médicaments (2)
 - Belgique (2)
 - York Street (2)
-- Rob Gretton (2)
 - procession (2)
 - postérité (2)
 - Debbie Curtis (2)
-- handicap (2)
-- Atmosphere (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -628,8 +632,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
 | prudence_methodologique | 3 |
+| scene_medicale_live | 3 |
 | tension_biographique | 3 |
 | song_session | 3 |
+| live_set_context | 3 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
 | santé | 2 |
@@ -641,12 +647,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | session_album | 2 |
 | reception_poll | 2 |
 | idee_directrice | 2 |
-| scene_medicale_live | 2 |
 | tension_domestique | 2 |
 | lecture_album | 2 |
 | scene_medicale | 2 |
 | contexte_intime | 2 |
-| live_set_context | 2 |
+| bascule_tournee | 2 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
 | performance_scenique | 1 |
@@ -722,10 +727,15 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_intime | 1 |
 | scene_intime_europeenne | 1 |
 | micro_scene_relationnelle | 1 |
+| concert_fatigue | 1 |
+| incident_public | 1 |
+| crise_gouvernance | 1 |
+| scene_suicide_attempt | 1 |
+| hospitalisation | 1 |
+| synthese_interpretative | 1 |
 | contraste_biographique | 1 |
 | scene_de_transition | 1 |
 | contexte_biographique | 1 |
-| bascule_tournee | 1 |
 | concert_archive | 1 |
 | concert_europeen | 1 |
 | memoire | 1 |
@@ -734,15 +744,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | song_pair | 1 |
 | release_design | 1 |
 | release_or_session | 1 |
+| live_sequence | 1 |
 | live_set_bootleg_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 80 |
-| critique | 65 |
-| majeure | 16 |
+| non qualifiée | 82 |
+| critique | 72 |
+| majeure | 17 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

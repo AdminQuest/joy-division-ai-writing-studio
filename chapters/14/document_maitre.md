@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:00:08"
+generated_at: "2026-05-13T18:20:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 600 |
+| Atomes | 613 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 77 |
-| Événements chronologiques | 48 |
-| Personnes | 59 |
+| Citations | 81 |
+| Événements chronologiques | 52 |
+| Personnes | 63 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 106 | 50 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 119 | 54 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -332,6 +332,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
+- CHR-S76-1980-021 — Joy Division rejoue au Moonlight Club. La séquence accentue la continuité live post-*Closer* et la future mémoire de ces concerts dans les archives du groupe.
+- CHR-S76-1980-022 — Joy Division joue une troisième fois au Moonlight Club. La mémoire ultérieure de cette séquence est liée notamment à la reprise de « Sister Ray » publiée dans *Still*.
+- CHR-S76-1980-024 — Joy Division joue au Derby Hall de Bury. Ian Curtis n’étant pas en état d’assurer normalement le début du concert, Alan Hempsall et Simon Topping interviennent comme voix de substitution, avant que la soirée ne dégénère en violences dans la salle.
+- CHR-S76-1980-025 — Ian Curtis effectue une tentative de suicide par ingestion de médicaments. L’épisode entraîne une prise en charge médicale, mais ne suspend pas durablement la trajectoire professionnelle du groupe.
 - CHR-S76-1979-021 — Joy Division entre dans une phase de tournée nationale en première partie de Buzzcocks, jouant dans des salles plus grandes et devant des publics plus nombreux, tout en restant matériellement fragile.
 - CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
 - CHR-S76-1979-023 — Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.
@@ -364,10 +368,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1980-011 — Joy Division joue au Lyceum de Londres. Curtis subit une crise grand mal qui commence sur scène ; Terry Mason et Tony Wilson le retirent vers les escaliers du théâtre.
 - CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
 - CHR-S76-1980-019 — La pochette de *Closer* est élaborée autour d’une photographie de Bernard Pierre Wolff prise au cimetière de Staglieno, avec Martyn Atkins et Peter Saville. La signification funéraire de l’objet sera amplifiée après la mort de Curtis.
-- CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
-- CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
-- CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
-- CHR-S75-1997-001 — Inclusion de la session complète de *Unknown Pleasures* dans l'anthologie *Heart and Soul*.
 
 ## 9. Personnes et acteurs
 
@@ -402,15 +402,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-014 — Paul Morley
 - PERS-016 — Bedhead
 - PERS-S76-044 — John Anderson
+- PERS-S76-080 — Alan Hempsall
+- PERS-S76-081 — Simon Topping
+- PERS-S76-082 — Perry Boys
+- PERS-S76-083 — Larry Cassidy
 - PERS-S76-037 — Rob Gretton
 - PERS-S76-038 — Mike Pickering
 - PERS-S76-066 — Jean-Pierre Turmel
 - PERS-S76-067 — Annik Honoré
 - PERS-S76-068 — Buzzcocks
-- PERS-S76-012 — Kevin Cummins
-- PERS-S76-078 — Martyn Atkins
-- PERS-S76-079 — Bernard Pierre Wolff
-- PERS-S76-062 — Dave McCullough
 
 ## 10. Chansons rattachées
 
@@ -511,24 +511,28 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 ### 12.1. Motifs dominants
 
 - Annik Honoré (11)
-- Tony Wilson (10)
-- Rob Gretton (8)
+- Tony Wilson (11)
+- Rob Gretton (10)
+- fatigue (8)
 - Factory (7)
-- fatigue (7)
 - Unknown Pleasures (6)
 - Peter Saville (6)
+- Closer (5)
 - Gretton (5)
 - Ian Curtis (4)
 - épilepsie (4)
-- Closer (4)
+- Sister Ray (4)
 - Kevin Cummins (4)
+- Still (4)
 - Rabid Records (4)
 - Love Will Tear Us Apart (4)
 - Bowie (3)
 - presse musicale (3)
 - Plan K (3)
 - Buzzcocks tour (3)
+- Derby Hall (3)
 - Dead Souls (3)
+- Alan Hempsall (3)
 - transition (3)
 - postérité (3)
 - Wilson (3)
@@ -542,14 +546,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - silence (3)
 - pochette (3)
 - Martin Hannett (3)
+- Terry Mason (3)
 - Strawberry Studios (3)
 - Deborah Curtis (3)
-- Transmission (2)
-- Mick Middles (2)
-- romantisme (2)
-- deification (2)
-- Futurama (2)
-- America (2)
+- Moonlight Club (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -676,6 +676,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | acteur_critique | 4 |
 | lecture_chanson | 4 |
 | concert_europeen | 4 |
+| live_set_context | 4 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
 | reception_posthume | 3 |
@@ -715,14 +716,17 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | archive_inedite | 2 |
 | versions_chanson | 2 |
 | statistique_vente | 2 |
+| synthese_interpretative | 2 |
 | acteur | 2 |
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
 | reception_interne | 2 |
+| scene_medicale_live | 2 |
 | reception_scene | 2 |
 | concept_management | 2 |
+| bascule_tournee | 2 |
+| concert_archive | 2 |
 | esthétique_visuelle | 2 |
-| live_set_context | 2 |
 | album | 2 |
 | song | 2 |
 | archive_broadcast | 1 |
@@ -822,7 +826,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | collection_statistique | 1 |
 | reception_design | 1 |
 | reception_musiciens | 1 |
-| synthese_interpretative | 1 |
 | lieu_archive | 1 |
 | lieu_radio | 1 |
 | lieu_terminal | 1 |
@@ -862,7 +865,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_synthese | 1 |
 | lettre_intime | 1 |
 | concert_incident | 1 |
-| scene_medicale_live | 1 |
 | controverse_intime_medicale | 1 |
 | crise_professionnelle | 1 |
 | image_et_reception | 1 |
@@ -903,9 +905,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_intime | 1 |
 | scene_intime_europeenne | 1 |
 | scene_management | 1 |
+| lecture_reprise | 1 |
+| incident_public | 1 |
+| controverse_live | 1 |
+| crise_gouvernance | 1 |
+| scene_suicide_attempt | 1 |
+| hospitalisation | 1 |
 | scene_contractuelle | 1 |
-| bascule_tournee | 1 |
-| concert_archive | 1 |
 | concert_filme | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
@@ -931,15 +937,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | song_or_release | 1 |
 | song_or_video | 1 |
 | release_object | 1 |
+| live_sequence | 1 |
 | live_video_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 443 |
-| critique | 120 |
-| majeure | 33 |
+| non qualifiée | 446 |
+| critique | 128 |
+| majeure | 35 |
 | structurante | 2 |
 | moyenne | 2 |
 

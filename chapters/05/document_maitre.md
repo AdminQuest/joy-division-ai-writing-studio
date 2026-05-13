@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:00:08"
+generated_at: "2026-05-13T18:20:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 263 |
+| Atomes | 273 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 64 |
-| Événements chronologiques | 34 |
-| Personnes | 36 |
+| Citations | 67 |
+| Événements chronologiques | 39 |
+| Personnes | 39 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 70 | 54 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 80 | 57 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -304,6 +304,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q062** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q065** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q166** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q167** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q168** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q066** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q067** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q068** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -320,14 +323,16 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q139** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q141** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q033** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q034** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q035** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
+- CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
+- CHR-S76-1980-021 — Joy Division rejoue au Moonlight Club. La séquence accentue la continuité live post-*Closer* et la future mémoire de ces concerts dans les archives du groupe.
+- CHR-S76-1980-022 — Joy Division joue une troisième fois au Moonlight Club. La mémoire ultérieure de cette séquence est liée notamment à la reprise de « Sister Ray » publiée dans *Still*.
+- CHR-S76-1980-023 — Joy Division joue au Winter Gardens de Malvern, prolongeant sans pause la séquence de concerts suivant *Closer*.
+- CHR-S76-1980-024 — Joy Division joue au Derby Hall de Bury. Ian Curtis n’étant pas en état d’assurer normalement le début du concert, Alan Hempsall et Simon Topping interviennent comme voix de substitution, avant que la soirée ne dégénère en violences dans la salle.
 - CHR-S76-1979-021 — Joy Division entre dans une phase de tournée nationale en première partie de Buzzcocks, jouant dans des salles plus grandes et devant des publics plus nombreux, tout en restant matériellement fragile.
 - CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
 - CHR-S76-1979-023 — Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.
@@ -383,6 +388,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S76-042 — Jeremy Kerr
 - PERS-S76-043 — Lesley Gilbert
 - PERS-S76-044 — John Anderson
+- PERS-S76-080 — Alan Hempsall
+- PERS-S76-081 — Simon Topping
+- PERS-S76-082 — Perry Boys
 - PERS-S76-037 — Rob Gretton
 - PERS-S76-068 — Buzzcocks
 - PERS-S76-012 — Kevin Cummins
@@ -494,20 +502,23 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (10)
+- Rob Gretton (11)
+- fatigue (6)
 - Kevin Cummins (4)
-- fatigue (4)
 - Rabid Records (4)
+- Terry Mason (4)
+- Sister Ray (4)
 - An Ideal for Living (3)
 - répétition (3)
 - studio (3)
 - An Ideal For Living (3)
 - Paul Morley (3)
-- Terry Mason (3)
 - Rafters (3)
 - Tony Wilson (3)
+- A Certain Ratio (3)
 - RCA (3)
 - John Anderson (3)
+- Moonlight Club (3)
 - Band On The Wall (3)
 - provocation (2)
 - réception critique (2)
@@ -529,11 +540,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Dave McCullough (2)
 - Sounds (2)
 - Stuff the Superstars (2)
-- A Certain Ratio (2)
 - Atrocity Exhibition (2)
 - Dead Souls (2)
-- T. J. Davidson’s (2)
-- gang (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -638,6 +646,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception_critique | 4 |
 | concert_europeen | 4 |
 | concept_transversal | 4 |
+| live_set_context | 4 |
 | television | 3 |
 | evenement | 3 |
 | lieu | 3 |
@@ -663,11 +672,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception_interne | 2 |
 | mythe_nomination | 2 |
 | concept_management | 2 |
+| bascule_tournee | 2 |
+| concert_archive | 2 |
 | portrait | 2 |
 | decision_strategique | 2 |
 | transition | 2 |
 | esthétique_visuelle | 2 |
-| live_set_context | 2 |
 | song_or_cover | 2 |
 | session_enregistrement | 1 |
 | radio_broadcast | 1 |
@@ -751,13 +761,16 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | sociabilite_scene | 1 |
 | geographie_sociale | 1 |
 | portrait_social | 1 |
+| lecture_reprise | 1 |
+| concert_fatigue | 1 |
+| scene_medicale_live | 1 |
+| incident_public | 1 |
+| controverse_live | 1 |
 | tension_interne | 1 |
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
 | lieu_scene | 1 |
 | scene_reception | 1 |
-| bascule_tournee | 1 |
-| concert_archive | 1 |
 | concert_filme | 1 |
 | contexte_historique | 1 |
 | contexte_materiel | 1 |
@@ -773,6 +786,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | influences | 1 |
 | transition_esthetique | 1 |
 | relation | 1 |
+| live_sequence | 1 |
 | song_or_release | 1 |
 | live_video_context | 1 |
 
@@ -780,9 +794,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 179 |
-| critique | 62 |
-| majeure | 22 |
+| non qualifiée | 182 |
+| critique | 66 |
+| majeure | 25 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

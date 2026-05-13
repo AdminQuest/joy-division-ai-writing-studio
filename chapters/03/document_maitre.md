@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:00:08"
+generated_at: "2026-05-13T18:20:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 188 |
+| Atomes | 189 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -44,7 +44,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 27 | 11 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 28 | 11 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -495,14 +495,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Ice Age (2)
 - Peter Hook (2)
 - Cargo Studios (2)
+- Sister Ray (2)
+- Velvet Underground (2)
 - distance stéréophonique (1)
 - Licht und Blindheit (1)
 - eternal (1)
 - orgues (1)
 - mémoire rock (1)
 - amateurisme (1)
-- contrainte (1)
-- Pennine Sound (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -675,6 +675,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | biographie | 1 |
 | relation_studio | 1 |
 | controverse_studio | 1 |
+| lecture_reprise | 1 |
 | transition | 1 |
 | conflit_esthetique | 1 |
 | portrait_technique | 1 |
@@ -688,7 +689,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 |---|---|
 | non qualifiée | 140 |
 | critique | 38 |
-| majeure | 10 |
+| majeure | 11 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -738,6 +739,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S76-A083 [moyen] — scène de conflit instrumentale à ne pas transformer en opposition structurelle Hook / Sumner
 - S76-A087 [moyen] — mémoire impressionniste ; utile pour qualifier une atmosphère, non pour fixer une vérité sonore exhaustive
 - S76-A126 [moyen] — éviter de lire « Atmosphere » comme épitaphe déjà consciente ; la session reste un travail de création vivant
+- S76-A166 [eleve] — la place dans *Still* invite à lire la reprise comme signe final ; prudence nécessaire
 - S76-A070 [moyen] — scène spectaculaire facilement mythifiable ; traiter comme mémoire de témoin, pas comme norme scénique
 - S76-A134 [moyen] — ne pas lire la version Pennine uniquement à partir de la version finale ; elle documente un état de recherche
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:00:08"
+generated_at: "2026-05-13T18:20:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 84 |
-| Atomes critiques / majeurs | 27 |
-| Citations | 8 |
-| Événements chronologiques | 20 |
+| Atomes | 87 |
+| Atomes critiques / majeurs | 29 |
+| Citations | 9 |
+| Événements chronologiques | 23 |
 | Personnes | 7 |
 | Chansons | 4 |
 | Sources mobilisées | 6 |
@@ -39,7 +39,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 26 | 8 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 29 | 9 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -87,6 +87,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_archive` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_memoire_Annik`.
 - **S76-A139** — S76-A139 — Effenaar Eindhoven, 18 janvier 1980 : tension, Minny Pops et future mémoire filmée  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_filme` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_archive_video`.
+- **S76-A165** — S76-A165 — Moonlight Club, 2-4 avril 1980 : club intime, archive de Still et fatigue visible  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_archive` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reception_S76`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
@@ -97,6 +99,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `analyse_sonore` ; importance : `majeure` ; preuve : `description_critique_S76`.
 - **S76-A065** — S76-A065 — Racheter les bandes : 1 000 livres, puis 850, et le sentiment d’être « mugged »  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `fait_contractuel` ; importance : `majeure` ; preuve : `reconstruction_S76_contractuelle`.
+- **S76-A166** — S76-A166 — « Sister Ray » au Moonlight : reprise terminale ou mémoire d’apprentissage persistante  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_reprise` ; importance : `majeure` ; preuve : `live_archive_et_interpretation_S76`.
 
 ## 6. Autres atomes utiles
 
@@ -214,11 +218,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-040** — SONG-S76-040 — Effenaar Eindhoven et *Here Are The Young Men*  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_video_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-052** — SONG-S76-052 — Moonlight Club / *Still* / « Sister Ray »  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
 - **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q132** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q166** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q026** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -230,6 +237,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
+- CHR-S76-1980-020 — Joy Division joue au Moonlight Club de West Hampstead, dans la première séquence de concerts suivant les sessions de *Closer*.
+- CHR-S76-1980-021 — Joy Division rejoue au Moonlight Club. La séquence accentue la continuité live post-*Closer* et la future mémoire de ces concerts dans les archives du groupe.
+- CHR-S76-1980-022 — Joy Division joue une troisième fois au Moonlight Club. La mémoire ultérieure de cette séquence est liée notamment à la reprise de « Sister Ray » publiée dans *Still*.
 - CHR-S76-1979-025 — Joy Division joue aux Bains-Douches à Paris. Le concert devient ensuite une archive live majeure et un objet important de la mémoire européenne du groupe.
 - CHR-S76-1977-003 — Premier concert de Warsaw à l’Electric Circus, en ouverture de Buzzcocks, Penetration et John Cooper Clarke ; l’affichage et certaines mémoires entretiennent une confusion avec Stiff Kittens et The Prefects.
 - CHR-S76-1977-005 — Warsaw enregistre cinq morceaux à Pennine Sound Studios, Oldham, avec Steve Brotherdale à la batterie.
@@ -354,6 +364,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 ### 12.1. Motifs dominants
 
 - bootleg (4)
+- Still (4)
 - Dead Souls (3)
 - Enigma (3)
 - An Ideal For Living (3)
@@ -364,12 +375,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Heart and Soul (2)
 - An Ideal for Living (2)
 - Earcom 2 (2)
-- Still (2)
 - Pennine Sound Studios (2)
 - Paul Morley (2)
 - Rabid Records (2)
 - Arrow Studios (2)
 - Europe (2)
+- Moonlight Club (2)
+- Sister Ray (2)
 - Electric Circus (2)
 - Atmosphere (1)
 - eternal (1)
@@ -391,8 +403,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - espace (1)
 - panning (1)
 - sessions Unknown Pleasures (1)
-- archive de session (1)
-- Autosuggestion (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -454,6 +464,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A130 — prolonge → S76-A121
 - S76-A130 — relie → MOTIF-004
 - S76-A130 — nuance → MYTH-006
+- S76-A165 — prolonge → S76-A164
+- S76-A165 — relie → MOTIF-004
+- S76-A165 — nuance → MYTH-002
+- S76-A166 — prolonge → S76-A070
+- S76-A166 — relie → SONG-S76-024
+- S76-A166 — requiert → CONCEPT-004
 - S76-A065 — prolonge → S76-A064
 - S76-A065 — relie → CONCEPT-005
 - S76-A065 — prepare → S76-A066
@@ -470,11 +486,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A034 — nuance → MYTH-001
 - S76-A034 — relie → DM-CH08
 - S76-A135 — prolonge → S76-A132
-- S76-A135 — relie → MOTIF-004
-- S76-A135 — nuance → MYTH-002
-- S76-A139 — prolonge → S76-A138
-- S76-A139 — relie → MOTIF-004
-- S76-A139 — relie → S76-A128
 
 ## 13. Distribution documentaire
 
@@ -492,6 +503,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | discographie | 2 |
 | bootleg | 2 |
 | session_studio | 2 |
+| concert_archive | 2 |
 | song_or_release | 2 |
 | videographie | 1 |
 | controverse | 1 |
@@ -501,20 +513,21 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | analyse_sonore | 1 |
 | bifurcation_institutionnelle | 1 |
 | concert_europeen | 1 |
+| lecture_reprise | 1 |
 | fait_contractuel | 1 |
-| concert_archive | 1 |
 | concert_filme | 1 |
 | release_or_session | 1 |
 | release_object | 1 |
+| live_set_context | 1 |
 | live_video_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 57 |
-| critique | 22 |
-| majeure | 5 |
+| non qualifiée | 58 |
+| critique | 23 |
+| majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -538,6 +551,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A079 [moyen] — scène très séduisante et mythifiable ; à traiter comme anecdote fondatrice à vérifier, non comme causalité unique
 - S76-A129 [moyen] — l’objet est fortement fétichisable ; le traiter comme dispositif culturel, non comme relique
 - S76-A130 [moyen] — la postérité discographique peut gonfler la signification contemporaine du concert
+- S76-A165 [moyen] — la postérité de *Still* peut gonfler la conscience contemporaine de l’événement
+- S76-A166 [eleve] — la place dans *Still* invite à lire la reprise comme signe final ; prudence nécessaire
 - S76-A065 [faible] — fait contractuel assez circonscrit ; vérifier les montants dans Hook, Deborah Curtis ou sources RCA si disponibles
 - S76-A066 [faible] — articulation forte entre support, argent et stratégie ; à croiser avec discographies
 - S76-A030 [moyen] — risque de transformer un concert hésitant en naissance glorieuse

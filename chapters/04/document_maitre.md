@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:00:08"
+generated_at: "2026-05-13T18:20:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ generated_at: "2026-05-13T18:00:08"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 158 |
+| Atomes | 166 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 48 |
-| Événements chronologiques | 38 |
-| Personnes | 26 |
+| Citations | 51 |
+| Événements chronologiques | 40 |
+| Personnes | 28 |
 | Chansons | 13 |
 | Sources mobilisées | 8 |
 
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T18:00:08"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 58 | 36 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 66 | 39 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -302,6 +302,9 @@ generated_at: "2026-05-13T18:00:08"
 - **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q061** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q165** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q167** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q170** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q072** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -318,9 +321,6 @@ generated_at: "2026-05-13T18:00:08"
 - **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -328,6 +328,8 @@ generated_at: "2026-05-13T18:00:08"
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
 - CHR-S75-1980-002 — Tournée européenne de Joy Division, durant laquelle Ott souligne l'aggravation des tensions affectives et médicales autour de Curtis.
+- CHR-S76-1980-024 — Joy Division joue au Derby Hall de Bury. Ian Curtis n’étant pas en état d’assurer normalement le début du concert, Alan Hempsall et Simon Topping interviennent comme voix de substitution, avant que la soirée ne dégénère en violences dans la salle.
+- CHR-S76-1980-025 — Ian Curtis effectue une tentative de suicide par ingestion de médicaments. L’épisode entraîne une prise en charge médicale, mais ne suspend pas durablement la trajectoire professionnelle du groupe.
 - CHR-S76-1972-002 — Ian Curtis assiste avec Deborah Woodruff à un concert de David Bowie au Hardrock de Manchester ; S76 présente cette soirée comme leur premier rendez-vous.
 - CHR-S76-1973-001 — La famille Curtis quitte Macclesfield pour New Moston, ce qui modifie les trajets, les sociabilités et le rapport de Curtis à Manchester.
 - CHR-S76-1973-002 — Ian Curtis emmène Deborah Woodruff au concert de Lou Reed au Liverpool Empire, durant la tournée *Rock’n’Roll Animal*.
@@ -373,6 +375,8 @@ generated_at: "2026-05-13T18:00:08"
 - PERS-S76-053 — Mark Reeder
 - PERS-S75-023 — Kevin Cummins
 - PERS-S76-041 — Ian Wood
+- PERS-S76-080 — Alan Hempsall
+- PERS-S76-081 — Simon Topping
 - PERS-S76-009 — Deborah Woodruff / Deborah Curtis
 - PERS-S76-010 — David Bowie
 - PERS-S76-015 — Kelvin Briggs
@@ -502,24 +506,27 @@ generated_at: "2026-05-13T18:00:08"
 - Annik Honoré (5)
 - Bowie (4)
 - domesticité (4)
+- Tony Wilson (4)
 - Mark Reeder (4)
 - Macclesfield (3)
+- fatigue (3)
 - Wythenshawe (3)
-- Tony Wilson (3)
 - Terry Mason (3)
 - David Lewis Centre (3)
+- Closer (3)
 - Pete Johnson (3)
 - mariage (3)
+- Rob Gretton (3)
 - Mick Middles (2)
 - responsabilité (2)
 - deification (2)
+- Derby Hall (2)
 - histoire (2)
 - Kevin Cummins (2)
 - Disorder (2)
 - paroles (2)
 - paternité (2)
 - New Dawn Fades (2)
-- fatigue (2)
 - She’s Lost Control (2)
 - contrôle (2)
 - Shadowplay (2)
@@ -530,11 +537,8 @@ generated_at: "2026-05-13T18:00:08"
 - télévision régionale (2)
 - mémoire ouvrière (2)
 - violence sociale (2)
-- Closer (2)
 - Love Will Tear Us Apart (2)
 - Lindsay Reade (2)
-- enfance (2)
-- King’s School (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -636,8 +640,10 @@ generated_at: "2026-05-13T18:00:08"
 | controverse_biographique | 3 |
 | lecture_textuelle | 3 |
 | prudence_methodologique | 3 |
+| scene_medicale_live | 3 |
 | contexte_biographique | 3 |
 | tension_biographique | 3 |
+| live_set_context | 3 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | performance | 2 |
@@ -647,7 +653,6 @@ generated_at: "2026-05-13T18:00:08"
 | chronologie_sensible | 2 |
 | mythe | 2 |
 | temoignage | 2 |
-| scene_medicale_live | 2 |
 | lecture_chanson | 2 |
 | tension_domestique | 2 |
 | contexte_social | 2 |
@@ -655,7 +660,6 @@ generated_at: "2026-05-13T18:00:08"
 | contexte_intime | 2 |
 | scene_de_transition | 2 |
 | fait | 2 |
-| live_set_context | 2 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
 | citation_contextualisee | 1 |
@@ -712,6 +716,12 @@ generated_at: "2026-05-13T18:00:08"
 | lecture_culturelle | 1 |
 | reseau_culturel | 1 |
 | micro_scene_relationnelle | 1 |
+| bascule_tournee | 1 |
+| controverse_live | 1 |
+| crise_gouvernance | 1 |
+| scene_suicide_attempt | 1 |
+| hospitalisation | 1 |
+| synthese_interpretative | 1 |
 | scene_reception | 1 |
 | contraste_biographique | 1 |
 | témoignage_externe | 1 |
@@ -727,9 +737,9 @@ generated_at: "2026-05-13T18:00:08"
 
 | Importance | Nombre |
 |---|---|
-| critique | 63 |
-| non qualifiée | 62 |
-| majeure | 32 |
+| critique | 69 |
+| non qualifiée | 63 |
+| majeure | 33 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
