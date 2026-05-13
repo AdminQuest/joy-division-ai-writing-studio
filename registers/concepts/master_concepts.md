@@ -333,3 +333,65 @@ concepts_derives:
   - spatialisation rythmique
   - forme post-punk
 ```
+
+---
+
+# CONCEPT-007 — management de proximité
+
+```yaml
+id: CONCEPT-007
+
+nom: management de proximité
+
+origine:
+  auteur: méthode interne du repo
+
+statut:
+  type:
+    - concept_analytique
+  stabilite: assez_stable
+  niveau_consensus: interne
+
+definition: >
+  Concept désignant une forme de management issue de la sociabilité locale,
+  de la confiance de groupe, des ressources pratiques immédiates et d'une capacité
+  de protection concrète, plutôt que d'une expertise professionnelle formalisée.
+  Dans le cas de Rob Gretton, il permet d'analyser le passage d'une camaraderie de scène
+  à une fonction managériale efficace.
+
+usage_repo:
+  fonction:
+    - analyse de Rob Gretton
+    - analyse de la sortie RCA
+    - analyse des médiations entre groupe, labels et scènes locales
+
+chapitres:
+  - Chapitre 5
+  - Chapitre 6
+  - Chapitre 14
+
+motifs_associes:
+  - gang
+  - pub
+  - téléphone
+  - contrat
+  - protection
+  - anti-pretension
+
+risques:
+  - romantisation du manager copain
+  - oubli des conflits internes
+  - héroïsation de Gretton
+  - confusion entre efficacité pratique et stratégie consciente
+
+atomes_lies:
+  - S76-A062
+  - S76-A063
+  - S76-A064
+
+concepts_derives:
+  - manager-membre
+  - autorité par appartenance
+  - protection contractuelle
+  - infrastructure minimale du management
+```
