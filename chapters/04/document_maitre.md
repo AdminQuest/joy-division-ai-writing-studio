@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:01:00"
+generated_at: "2026-05-13T14:14:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ generated_at: "2026-05-13T14:01:00"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 110 |
+| Atomes | 119 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 19 |
-| Événements chronologiques | 14 |
-| Personnes | 17 |
+| Citations | 25 |
+| Événements chronologiques | 21 |
+| Personnes | 20 |
 | Chansons | 13 |
 | Sources mobilisées | 8 |
 
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T14:01:00"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 10 | 7 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 19 | 13 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -97,6 +97,16 @@ generated_at: "2026-05-13T14:01:00"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `critique` ; preuve : `temoignage_retroactif`.
 - **S76-A009** — S76-A009 — Compartimentation amicale et pluralité des Ian Curtis  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `interpretation_temoignage`.
+- **S76-A011** — S76-A011 — Bowie, glam et expérimentation de soi à Macclesfield  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `memoire_familiale_et_temoignage_ami`.
+- **S76-A012** — S76-A012 — Ziggy Stardust au Hardrock : Bowie comme choc de scène avant le punk  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
+- **S76-A018** — S76-A018 — Doutes prénuptiaux et tentation de prophétiser Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `temoignages_retrospectifs_sensibles`.
+- **S76-A019** — S76-A019 — Mariage de 1975 : amour, jeunesse et absence d’anormalité visible  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `critique` ; preuve : `memoire_familiale_et_reconstruction_biographique`.
+- **S76-A020** — S76-A020 — Chadderton : vie conjugale ordinaire et rêve encore informel de rock star  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
 - **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
@@ -105,16 +115,6 @@ generated_at: "2026-05-13T14:01:00"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A008** — S74-A008 — So It Goes comme dispositif médiatique de transition punk  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
-- **S74-A012** — S74-A012 — Vini Reilly, apprentissage musical et refus des frontières populaires/savantes  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A035** — S74-A035 — Après le Factory Sample : vide stratégique et tentation des majors  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `contexte_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S74-A044** — S74-A044 — Factory scene : Distractions comme antithèse lumineuse de Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_locale` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -238,8 +238,18 @@ generated_at: "2026-05-13T14:01:00"
   Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S68-A002** — S-BROLL-A002 — Rencontre avec Ian Curtis et première chanson « Gutz »  
   Source : S68 — Broll, Joy Division, 1988 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
+- **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
+- **S74-A012** — S74-A012 — Vini Reilly, apprentissage musical et refus des frontières populaires/savantes  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A013** — S74-A013 — Ed Banger And The Nosebleeds comme contre-mythe punk local  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `structurante` ; preuve : `plausible`.
+- **S74-A035** — S74-A035 — Après le Factory Sample : vide stratégique et tentation des majors  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `contexte_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S74-A044** — S74-A044 — Factory scene : Distractions comme antithèse lumineuse de Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_locale` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A010** — S75-A010 — « Gutz », domesticité et brutalité des premiers textes de Curtis  
@@ -280,6 +290,12 @@ generated_at: "2026-05-13T14:01:00"
 - **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q008** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q009** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q010** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -297,6 +313,13 @@ generated_at: "2026-05-13T14:01:00"
 - CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
 - CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
 - CHR-S75-1980-002 — Tournée européenne de Joy Division, durant laquelle Ott souligne l'aggravation des tensions affectives et médicales autour de Curtis.
+- CHR-S76-1972-002 — Ian Curtis assiste avec Deborah Woodruff à un concert de David Bowie au Hardrock de Manchester ; S76 présente cette soirée comme leur premier rendez-vous.
+- CHR-S76-1973-001 — La famille Curtis quitte Macclesfield pour New Moston, ce qui modifie les trajets, les sociabilités et le rapport de Curtis à Manchester.
+- CHR-S76-1973-002 — Ian Curtis emmène Deborah Woodruff au concert de Lou Reed au Liverpool Empire, durant la tournée *Rock’n’Roll Animal*.
+- CHR-S76-1974-001 — Ian Curtis et Deborah Woodruff se fiancent ; une fête est organisée au domicile familial de Deborah à Sutton, Macclesfield.
+- CHR-S76-1975-001 — Mariage de Ian Curtis et Deborah Woodruff à St Thomas’s Church, Henbury, près de Macclesfield.
+- CHR-S76-1975-002 — Après leur mariage, Ian Curtis et Deborah Woodruff vivent plusieurs mois chez les grands-parents de Ian à Stamford Street, Old Trafford.
+- CHR-S76-1976-001 — Ian et Deborah Curtis s’installent dans une petite maison en terrasse à Chadderton, avec l’aide financière et matérielle de la famille Curtis.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
@@ -316,6 +339,9 @@ generated_at: "2026-05-13T14:01:00"
 - PERS-010 — Annick Honoré
 - PERS-011 — Natalie Curtis
 - PERS-S75-023 — Kevin Cummins
+- PERS-S76-009 — Deborah Woodruff / Deborah Curtis
+- PERS-S76-010 — David Bowie
+- PERS-S76-015 — Kelvin Briggs
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-002 — Doreen Curtis
 - PERS-S76-003 — Kevin Curtis
@@ -395,6 +421,8 @@ generated_at: "2026-05-13T14:01:00"
 - factory records (2)
 - indépendance (2)
 - mémoire située (2)
+- mémoire conjugale croisée (2)
+- anti-téléologie (2)
 - Rob Gretton (2)
 - Tony Wilson (2)
 - avril 1980 (2)
@@ -424,8 +452,6 @@ generated_at: "2026-05-13T14:01:00"
 - force (1)
 - présence scénique (1)
 - Bowdon Vale (1)
-- The Kill (1)
-- apprentissage (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -433,11 +459,12 @@ generated_at: "2026-05-13T14:01:00"
 
 - épilepsie (4)
 - Ian Curtis (3)
+- Bowie (3)
+- Deborah Curtis (3)
+- domesticité (3)
 - Wythenshawe (3)
 - Pete Johnson (3)
 - Mick Middles (2)
-- Deborah Curtis (2)
-- domesticité (2)
 - deification (2)
 - histoire (2)
 - Macclesfield (2)
@@ -448,10 +475,11 @@ generated_at: "2026-05-13T14:01:00"
 - télévision régionale (2)
 - mémoire ouvrière (2)
 - violence sociale (2)
+- Lindsay Reade (2)
 - enfance (2)
 - King’s School (2)
 - classe sociale (2)
-- Bowie (1)
+- Deborah Woodruff (2)
 - Jim Morrison (1)
 - mort jeune (1)
 - romantisme rock (1)
@@ -469,8 +497,6 @@ generated_at: "2026-05-13T14:01:00"
 - possession (1)
 - rock star self-absorption (1)
 - responsabilité (1)
-- masque (1)
-- Goethe (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -567,21 +593,23 @@ generated_at: "2026-05-13T14:01:00"
 | lecture | 4 |
 | lecture_musicale | 4 |
 | relation | 3 |
+| lecture_biographique | 3 |
+| controverse_biographique | 3 |
 | lecture_textuelle | 3 |
 | prudence_methodologique | 3 |
+| scene_fondatrice | 3 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | performance | 2 |
 | santé | 2 |
 | domesticité | 2 |
 | relation_conjugale | 2 |
-| lecture_biographique | 2 |
-| controverse_biographique | 2 |
 | chronologie_sensible | 2 |
 | mythe | 2 |
 | temoignage | 2 |
-| scene_fondatrice | 2 |
+| contexte_biographique | 2 |
 | contexte_social | 2 |
+| contexte_intime | 2 |
 | fait | 2 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
@@ -617,9 +645,11 @@ generated_at: "2026-05-13T14:01:00"
 | mediation_culturelle | 1 |
 | fait_interprete | 1 |
 | cadrage_source | 1 |
-| contexte_biographique | 1 |
 | temoignage_biographique | 1 |
 | controverse_historiographique | 1 |
+| lecture_culturelle | 1 |
+| reseau_culturel | 1 |
+| scene_de_transition | 1 |
 | témoignage_externe | 1 |
 | fait_biographique | 1 |
 | tension | 1 |
@@ -634,8 +664,8 @@ generated_at: "2026-05-13T14:01:00"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| critique | 26 |
-| majeure | 23 |
+| critique | 31 |
+| majeure | 27 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -690,6 +720,15 @@ generated_at: "2026-05-13T14:01:00"
 - S76-A008 [moyen] — souvenir d'enfance à valeur surtout narrative, non musicale
 - S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire
 - S76-A010 [eleve] — risque de faire de l'incident un signe annonciateur de la mort ou de la maladie
+- S76-A011 [moyen] — risque de faire du glam une cause linéaire de la présence scénique de Curtis
+- S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
+- S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
+- S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études
+- S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe
+- S76-A017 [moyen] — risque d'opposer trop simplement mémoire familiale et mémoire de Deborah Curtis
+- S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
+- S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
+- S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
 
 ## 15. Lacunes et prochaines vérifications
 

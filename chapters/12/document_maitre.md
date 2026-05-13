@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:01:00"
+generated_at: "2026-05-13T14:14:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 88 |
-| Atomes critiques / majeurs | 24 |
-| Citations | 15 |
-| Événements chronologiques | 14 |
-| Personnes | 7 |
+| Atomes | 91 |
+| Atomes critiques / majeurs | 27 |
+| Citations | 17 |
+| Événements chronologiques | 16 |
+| Personnes | 8 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
 
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 4 | 1 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -81,6 +81,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `temoignage_familial_rapporte`.
 - **S76-A009** — S76-A009 — Compartimentation amicale et pluralité des Ian Curtis  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `interpretation_temoignage`.
+- **S76-A018** — S76-A018 — Doutes prénuptiaux et tentation de prophétiser Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `temoignages_retrospectifs_sensibles`.
+- **S76-A019** — S76-A019 — Mariage de 1975 : amour, jeunesse et absence d’anormalité visible  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `critique` ; preuve : `memoire_familiale_et_reconstruction_biographique`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
@@ -93,6 +97,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S76-A010** — S76-A010 — Incident de drogues à King’s School : classe, sanction et fragilité adolescente  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `chronologie_sensible` ; importance : `majeure` ; preuve : `temoignage_retroactif_sensible`.
+- **S76-A017** — S76-A017 — Fiançailles de 1974 : jeunesse, famille et normalité conjugale  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `majeure` ; preuve : `memoire_familiale`.
 
 ## 6. Autres atomes utiles
 
@@ -237,6 +243,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -254,6 +262,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S75-1980-006 — Ian Curtis annonce à Deborah Curtis avoir pris une overdose de Phenobarbital ; hospitalisation, note de suicide et sortie rapide.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
+- CHR-S76-1974-001 — Ian Curtis et Deborah Woodruff se fiancent ; une fête est organisée au domicile familial de Deborah à Sutton, Macclesfield.
+- CHR-S76-1975-001 — Mariage de Ian Curtis et Deborah Woodruff à St Thomas’s Church, Henbury, près de Macclesfield.
 - CHR-S75-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
@@ -265,6 +275,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S75-028 — Natalie Curtis
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
+- PERS-S76-009 — Deborah Woodruff / Deborah Curtis
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-002 — Doreen Curtis
 - PERS-S75-032 — Annik Honoré
@@ -344,6 +355,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - humanité (2)
 - géographie émotionnelle (2)
 - mémoire située (2)
+- mémoire conjugale croisée (2)
+- anti-téléologie (2)
 - Australie (1)
 - montage théorique (1)
 - varispeed (1)
@@ -359,8 +372,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - inside (1)
 - critique musicale (1)
 - expérience intérieure (1)
-- indicible (1)
-- Joy Division (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -368,11 +379,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 - épilepsie (4)
 - Ian Curtis (3)
+- Deborah Curtis (3)
 - Mick Middles (2)
-- Deborah Curtis (2)
 - Derby Hall (2)
 - fatigue (2)
 - paroles (2)
+- Lindsay Reade (2)
 - Bowie (1)
 - Jim Morrison (1)
 - mort jeune (1)
@@ -405,7 +417,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Closer (1)
 - Britannia Row (1)
 - analog echo (1)
-- America (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -478,6 +489,15 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A010 — requiert → CONCEPT-004
 - S76-A010 — prolonge → S76-A007
 - S76-A010 — nuance → MYTH-002
+- S76-A017 — nuance → S45
+- S76-A017 — prolonge → S76-A002
+- S76-A017 — requiert → CONCEPT-004
+- S76-A018 — requiert → CONCEPT-004
+- S76-A018 — alimente → MYTH-002
+- S76-A018 — nuance → S45
+- S76-A019 — nuance → S76-A018
+- S76-A019 — nuance → S45
+- S76-A019 — deconstruit → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -488,12 +508,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | non qualifié | 4 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
+| controverse_biographique | 3 |
 | prudence_methodologique | 3 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
 | santé | 2 |
 | lecture_biographique | 2 |
-| controverse_biographique | 2 |
 | chronologie_sensible | 2 |
 | scene_fondatrice | 2 |
 | biographie | 2 |
@@ -501,6 +521,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | session_album | 2 |
 | reception_poll | 2 |
 | idee_directrice | 2 |
+| contexte_intime | 2 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
 | performance_scenique | 1 |
@@ -558,8 +579,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 64 |
-| critique | 18 |
-| majeure | 6 |
+| critique | 20 |
+| majeure | 7 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -587,6 +608,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A002 [faible] — l'atome réduit la téléologie morbide plutôt qu'il ne l'alimente
 - S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire
 - S76-A010 [eleve] — risque de faire de l'incident un signe annonciateur de la mort ou de la maladie
+- S76-A017 [moyen] — risque d'opposer trop simplement mémoire familiale et mémoire de Deborah Curtis
+- S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
+- S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -28,13 +28,14 @@
     "auteur": "Deborah Curtis",
     "titre": "Touching from a Distance: Ian Curtis and Joy Division",
     "annee": "1995",
-    "records": 69,
+    "records": 70,
     "atoms": 44,
     "quotes": 5,
     "chronology": 8,
     "files": [
       "registers/chronology/master_chronology.md",
       "registers/people/master_people.md",
+      "registers/people/s76_torn_apart_people_part_02.md",
       "registers/songs/master_songs.md",
       "sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md",
       "sources/deborah_curtis/atomisation_02_unknown_pleasures_domesticite_maladie.md",
@@ -218,15 +219,19 @@
     "auteur": "Mick Middles ; Lindsay Reade",
     "titre": "Torn Apart: The Life of Ian Curtis",
     "annee": "2006",
-    "records": 31,
-    "atoms": 10,
-    "quotes": 7,
-    "chronology": 6,
+    "records": 64,
+    "atoms": 20,
+    "quotes": 16,
+    "chronology": 13,
     "files": [
       "registers/chronology/s76_torn_apart_chronology_part_01.md",
+      "registers/chronology/s76_torn_apart_chronology_part_02.md",
       "registers/people/s76_torn_apart_people_part_01.md",
+      "registers/people/s76_torn_apart_people_part_02.md",
       "registers/quotes/s76_torn_apart_quotes_part_01.md",
-      "sources/middles_reade_torn_apart/source_part_01.md"
+      "registers/quotes/s76_torn_apart_quotes_part_02.md",
+      "sources/middles_reade_torn_apart/source_part_01.md",
+      "sources/middles_reade_torn_apart/source_part_02.md"
     ]
   }
 ]

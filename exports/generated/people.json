@@ -1568,6 +1568,282 @@
   },
   {
     "kind": "person",
+    "id": "PERS-S76-009",
+    "file": "registers/people/s76_torn_apart_people_part_02.md",
+    "heading": "PERS-S76-009 — Deborah Woodruff / Deborah Curtis",
+    "data": {
+      "id": "PERS-S76-009",
+      "type_unite": "person",
+      "name": "Deborah Woodruff / Deborah Curtis",
+      "role": [
+        "future épouse de Ian Curtis",
+        "témoin intime central par S45",
+        "personnage biographique structurant dans S76"
+      ],
+      "associated_entities": [
+        "famille Woodruff",
+        "famille Curtis",
+        "St Thomas’s Church, Henbury"
+      ],
+      "sources": [
+        "S45",
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Deborah apparaît dans ce passage comme petite amie, fiancée puis épouse de Ian, inscrite dans une sociabilité familiale et musicale pré-Warsaw.\n"
+      },
+      "related_atoms": [
+        "S76-A012",
+        "S76-A017",
+        "S76-A018",
+        "S76-A019",
+        "S76-A020"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "croiser systématiquement avec S45 ; ne pas laisser la mémoire familiale remplacer la mémoire de Deborah Curtis"
+      ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S76-010",
+    "file": "registers/people/s76_torn_apart_people_part_02.md",
+    "heading": "PERS-S76-010 — David Bowie",
+    "data": {
+      "id": "PERS-S76-010",
+      "type_unite": "person",
+      "name": "David Bowie",
+      "role": [
+        "artiste formateur pour Ian Curtis",
+        "figure glam et scénique pré-punk"
+      ],
+      "associated_entities": [
+        "Ziggy Stardust Tour",
+        "Hardrock Manchester"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Bowie agit comme choc esthétique et scénique antérieur au punk, à la fois par les concerts, le style et la médiation berlinoise ultérieure.\n"
+      },
+      "related_atoms": [
+        "S76-A011",
+        "S76-A012",
+        "S76-A013"
+      ],
+      "related_quotes": [
+        "S76-Q010"
+      ],
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 4",
+        "Chapitre 7"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "ne pas remplacer le mythe punk par un mythe Bowie comme origine unique"
+      ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S76-011",
+    "file": "registers/people/s76_torn_apart_people_part_02.md",
+    "heading": "PERS-S76-011 — Mark Reeder",
+    "data": {
+      "id": "PERS-S76-011",
+      "type_unite": "person",
+      "name": "Mark Reeder",
+      "role": [
+        "témoin des sociabilités de disquaires",
+        "ami musical de Ian Curtis"
+      ],
+      "associated_entities": [
+        "Rare Records",
+        "Virgin Records"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Reeder décrit Curtis comme interlocuteur de disquaire, amateur de musiques en marge et figure des sociabilités pré-Warsaw.\n"
+      },
+      "related_atoms": [
+        "S76-A015",
+        "S76-A016"
+      ],
+      "related_quotes": [
+        "S76-Q011"
+      ],
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 13"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "témoignage utile pour les réseaux, non pour établir seul une causalité esthétique"
+      ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S76-012",
+    "file": "registers/people/s76_torn_apart_people_part_02.md",
+    "heading": "PERS-S76-012 — Kevin Cummins",
+    "data": {
+      "id": "PERS-S76-012",
+      "type_unite": "person",
+      "name": "Kevin Cummins",
+      "role": [
+        "photographe",
+        "témoin de la scène mancunienne"
+      ],
+      "associated_entities": [
+        "Rare Records",
+        "NME",
+        "Joy Division"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Cummins reconnaît Curtis par Rare Records avant de devenir l'un des photographes qui figent l'iconographie de Joy Division.\n"
+      },
+      "related_atoms": [
+        "S76-A015"
+      ],
+      "related_quotes": [
+        "S76-Q012"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "distinguer le témoin de scène du constructeur ultérieur de l'iconographie"
+      ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S76-013",
+    "file": "registers/people/s76_torn_apart_people_part_02.md",
+    "heading": "PERS-S76-013 — Clinton Heylin",
+    "data": {
+      "id": "PERS-S76-013",
+      "type_unite": "person",
+      "name": "Clinton Heylin",
+      "role": [
+        "biographe musical",
+        "témoin d'une interaction conflictuelle à Rare Records"
+      ],
+      "associated_entities": [
+        "Rare Records"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Heylin rapporte un souvenir antagoniste avec un assistant qu'il identifie comme Ian Curtis, autour d'un single et de sa pochette.\n"
+      },
+      "related_atoms": [
+        "S76-A015"
+      ],
+      "chapters": [
+        "Chapitre 2"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "témoignage mémoriel ponctuel ; ne pas surcharger"
+      ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S76-014",
+    "file": "registers/people/s76_torn_apart_people_part_02.md",
+    "heading": "PERS-S76-014 — Vini Reilly",
+    "data": {
+      "id": "PERS-S76-014",
+      "type_unite": "person",
+      "name": "Vini Reilly",
+      "role": [
+        "musicien",
+        "futur membre / centre de Durutti Column",
+        "témoin pré-Warsaw"
+      ],
+      "associated_entities": [
+        "Reno’s",
+        "Durutti Column",
+        "Eugene Ryan"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Reilly situe sa rencontre avec Curtis dans le sous-sol de Reno’s, par l'intermédiaire d'Eugene Ryan, avant la stabilisation de Warsaw.\n"
+      },
+      "related_atoms": [
+        "S76-A016"
+      ],
+      "related_quotes": [
+        "S76-Q013"
+      ],
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 13"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "à mobiliser pour la cartographie pré-Warsaw, pas comme origine unique du groupe"
+      ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S76-015",
+    "file": "registers/people/s76_torn_apart_people_part_02.md",
+    "heading": "PERS-S76-015 — Kelvin Briggs",
+    "data": {
+      "id": "PERS-S76-015",
+      "type_unite": "person",
+      "name": "Kelvin Briggs",
+      "role": [
+        "ami de King’s School",
+        "témoin du cercle adolescent",
+        "témoin / best man au mariage de Curtis"
+      ],
+      "associated_entities": [
+        "King’s School",
+        "mariage Ian Curtis / Deborah Woodruff"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Briggs appartient au cercle adolescent de Curtis et devient son témoin de mariage.\n"
+      },
+      "related_atoms": [
+        "S76-A019"
+      ],
+      "chapters": [
+        "Chapitre 4"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "figure secondaire ; utile pour la sociabilité intime et scolaire"
+      ]
+    }
+  },
+  {
+    "kind": "person",
     "id": "PERS-S76-001",
     "file": "registers/people/s76_torn_apart_people_part_01.md",
     "heading": "PERS-S76-001 — Lindsay Reade",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:01:00"
+generated_at: "2026-05-13T14:14:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 194 |
-| Atomes critiques / majeurs | 26 |
+| Atomes | 195 |
+| Atomes critiques / majeurs | 27 |
 | Citations | 12 |
 | Événements chronologiques | 5 |
-| Personnes | 14 |
+| Personnes | 15 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 1 | 2 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -99,6 +99,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A032** — S75-A032 — Kevin Cummins et le contre-portrait de Curtis  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S76-A013** — S76-A013 — Cabaret, Berlin et la médiation glam du germanisme culturel  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_culturelle` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_temoin`.
 
 ## 6. Autres atomes utiles
 
@@ -300,6 +302,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-009 — Peter Saville
 - PERS-012 — John Brierley
 - PERS-S75-023 — Kevin Cummins
+- PERS-S76-012 — Kevin Cummins
 - PERS-S76-004 — Carole Curtis
 - PERS-S75-036 — Jean-Pierre Turmel
 
@@ -515,6 +518,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A006 — deconstruit → MYTH-006
 - S76-A006 — requiert → CONCEPT-004
 - S76-A006 — prépare → S76-A011
+- S76-A013 — nuance → MYTH-006
+- S76-A013 — prolonge → S76-A006
+- S76-A013 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -614,6 +620,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception_posthume | 1 |
 | biographie | 1 |
 | controverse_historiographique | 1 |
+| lecture_culturelle | 1 |
 | contexte_historique | 1 |
 | contexte_materiel | 1 |
 | chronologie | 1 |
@@ -635,7 +642,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 |---|---|
 | non qualifiée | 168 |
 | critique | 20 |
-| majeure | 6 |
+| majeure | 7 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -665,6 +672,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A021 [eleve] — risque de projeter rétrospectivement Joy Division sur un groupe encore instable et embryonnaire
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
 - S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
+- S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
 
 ## 15. Lacunes et prochaines vérifications
 

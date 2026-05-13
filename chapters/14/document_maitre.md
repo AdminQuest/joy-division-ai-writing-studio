@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:01:00"
+generated_at: "2026-05-13T14:14:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 498 |
+| Atomes | 501 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 31 |
+| Citations | 34 |
 | Événements chronologiques | 15 |
-| Personnes | 24 |
+| Personnes | 25 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 4 | 4 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 7 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -310,6 +310,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q009** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -355,6 +358,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-013 — Chris Ott
 - PERS-014 — Paul Morley
 - PERS-016 — Bedhead
+- PERS-S76-012 — Kevin Cummins
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-004 — Carole Curtis
 - PERS-S75-032 — Annik Honoré
@@ -463,6 +467,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Factory (5)
 - Gretton (5)
 - Ian Curtis (3)
+- Bowie (3)
 - transition (3)
 - Wilson (3)
 - indépendance (3)
@@ -496,10 +501,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Factory Club (2)
 - silence (2)
 - pochette (2)
-- Bowie (1)
+- Lindsay Reade (2)
 - Jim Morrison (1)
 - mort jeune (1)
-- romantisme rock (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -629,6 +633,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | intertextualite | 3 |
 | chanson_transition | 3 |
 | design | 3 |
+| lecture_biographique | 3 |
 | prudence_methodologique | 3 |
 | session_radio | 3 |
 | concept | 3 |
@@ -651,7 +656,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | réception | 2 |
 | positionnement | 2 |
 | mémoire | 2 |
-| lecture_biographique | 2 |
+| controverse_biographique | 2 |
 | outtakes | 2 |
 | reception_radio | 2 |
 | collection | 2 |
@@ -716,7 +721,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | bibliographie | 1 |
 | performance | 1 |
 | lecture_litteraire | 1 |
-| controverse_biographique | 1 |
 | controverse_institutionnelle | 1 |
 | chronologie_sensible | 1 |
 | session | 1 |
@@ -798,6 +802,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse_studio | 1 |
 | cadrage_source | 1 |
 | controverse_historiographique | 1 |
+| lecture_culturelle | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -822,8 +827,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 421 |
-| critique | 51 |
-| majeure | 22 |
+| critique | 53 |
+| majeure | 23 |
 | structurante | 2 |
 | moyenne | 2 |
 

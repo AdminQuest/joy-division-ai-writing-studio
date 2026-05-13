@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:01:00"
+generated_at: "2026-05-13T14:14:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 75 |
-| Atomes critiques / majeurs | 22 |
+| Atomes | 76 |
+| Atomes critiques / majeurs | 23 |
 | Citations | 4 |
 | Événements chronologiques | 9 |
-| Personnes | 5 |
+| Personnes | 6 |
 | Chansons | 7 |
 | Sources mobilisées | 8 |
 
@@ -41,7 +41,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 12 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 1 | 1 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -85,6 +85,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
 - **S76-A005** — S76-A005 — Le jeune Curtis meneur discret : charisme sans domination  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_biographique` ; importance : `critique` ; preuve : `temoignage_retroactif`.
+- **S76-A012** — S76-A012 — Ziggy Stardust au Hardrock : Bowie comme choc de scène avant le punk  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
@@ -224,6 +226,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - PERS-008 — Martin Hannett
 - PERS-012 — John Brierley
 - PERS-016 — Bedhead
+- PERS-S76-010 — David Bowie
 - PERS-S75-035 — Alan Hempsall
 
 ## 10. Chansons rattachées
@@ -432,6 +435,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S76-A005 — nuance → MYTH-002
 - S76-A005 — prolonge → S76-A002
 - S76-A005 — requiert → CONCEPT-004
+- S76-A012 — nuance → MYTH-001
+- S76-A012 — prolonge → S76-A011
+- S76-A012 — prepare → S76-A017
 
 ## 13. Distribution documentaire
 
@@ -444,7 +450,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | production | 6 |
 | lecture_musicale | 4 |
 | reception | 4 |
-| scene_fondatrice | 2 |
+| scene_fondatrice | 3 |
 | controverse | 2 |
 | design | 2 |
 | analyse_studio | 2 |
@@ -477,7 +483,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 52 |
-| critique | 20 |
+| critique | 21 |
 | majeure | 2 |
 | moyenne | 1 |
 
@@ -506,6 +512,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
 - S74-A007 [moyen] — risque de téléologie biographique reliant trop directement les goûts adolescents à la politique esthétique de Factory
 - S76-A005 [moyen] — souvenir d'enfance reconstruit quarante ans après les faits
+- S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
 
 ## 15. Lacunes et prochaines vérifications
 

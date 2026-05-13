@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:01:00"
+generated_at: "2026-05-13T14:14:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ generated_at: "2026-05-13T14:01:00"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 53 |
-| Atomes critiques / majeurs | 10 |
+| Atomes | 54 |
+| Atomes critiques / majeurs | 11 |
 | Citations | 4 |
-| Événements chronologiques | 1 |
+| Événements chronologiques | 2 |
 | Personnes | 2 |
 | Chansons | 0 |
 | Sources mobilisées | 10 |
@@ -43,7 +43,7 @@ generated_at: "2026-05-13T14:01:00"
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 5 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 0 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -53,6 +53,8 @@ generated_at: "2026-05-13T14:01:00"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A014** — S75-A014 — Sumner, Lower Broughton et la géographie sociale du futur sans issue  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S76-A015** — S76-A015 — Rare Records : le disquaire comme matrice de sociabilité musicale  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_culturel` ; importance : `critique` ; preuve : `temoignages_croises`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -166,6 +168,7 @@ generated_at: "2026-05-13T14:01:00"
 
 ## 8. Chronologie rattachée
 
+- CHR-S76-1973-001 — La famille Curtis quitte Macclesfield pour New Moston, ce qui modifie les trajets, les sociabilités et le rapport de Curtis à Manchester.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 
 ## 9. Personnes et acteurs
@@ -332,6 +335,9 @@ generated_at: "2026-05-13T14:01:00"
 - S76-A004 — nuance → MYTH-003
 - S76-A004 — prolonge → S75-A057
 - S76-A004 — requiert → CONCEPT-004
+- S76-A015 — prolonge → MOTIF-006
+- S76-A015 — nuance → MYTH-003
+- S76-A015 — prepare → S76-A016
 
 ## 13. Distribution documentaire
 
@@ -364,6 +370,7 @@ generated_at: "2026-05-13T14:01:00"
 | biographie_collective | 1 |
 | temoignage | 1 |
 | contexte_biographique | 1 |
+| lieu_culturel | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
@@ -374,7 +381,7 @@ generated_at: "2026-05-13T14:01:00"
 |---|---|
 | non qualifiée | 43 |
 | majeure | 7 |
-| critique | 3 |
+| critique | 4 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -388,6 +395,7 @@ generated_at: "2026-05-13T14:01:00"
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 - S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
+- S76-A015 [faible] — atome fortement situé, peu spéculatif
 
 ## 15. Lacunes et prochaines vérifications
 

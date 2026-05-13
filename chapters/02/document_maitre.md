@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:01:00"
+generated_at: "2026-05-13T14:14:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 199 |
+| Atomes | 205 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 10 |
-| Événements chronologiques | 12 |
-| Personnes | 15 |
+| Citations | 16 |
+| Événements chronologiques | 15 |
+| Personnes | 19 |
 | Chansons | 6 |
 | Sources mobilisées | 11 |
 
@@ -44,7 +44,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 18 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 5 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 1 | 1 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 7 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -104,20 +104,20 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_retrospective`.
 - **S75-A035** — S75-A035 — Rushent / Genetic : offre généreuse, rejet mancunien et choix Factory  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `fait_interprete` ; importance : `critique` ; preuve : `reconstruction_critique`.
+- **S76-A011** — S76-A011 — Bowie, glam et expérimentation de soi à Macclesfield  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `memoire_familiale_et_temoignage_ami`.
+- **S76-A012** — S76-A012 — Ziggy Stardust au Hardrock : Bowie comme choc de scène avant le punk  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
+- **S76-A015** — S76-A015 — Rare Records : le disquaire comme matrice de sociabilité musicale  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_culturel` ; importance : `critique` ; preuve : `temoignages_croises`.
+- **S76-A020** — S76-A020 — Chadderton : vie conjugale ordinaire et rêve encore informel de rock star  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
 - **S74-A008** — S74-A008 — So It Goes comme dispositif médiatique de transition punk  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
-- **S74-A019** — S74-A019 — Buzzcocks, Pete Shelley et la désacralisation de la rock star pour Curtis  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `majeure` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A006** — S75-A006 — Stiff Kittens comme non-nom et mythe de formation surestimé  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `majeure` ; preuve : `plausible`.
 
 ## 6. Autres atomes utiles
 
@@ -293,10 +293,19 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q008** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q010** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q011** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q013** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S76-1972-002 — Ian Curtis assiste avec Deborah Woodruff à un concert de David Bowie au Hardrock de Manchester ; S76 présente cette soirée comme leur premier rendez-vous.
+- CHR-S76-1973-002 — Ian Curtis emmène Deborah Woodruff au concert de Lou Reed au Liverpool Empire, durant la tournée *Rock’n’Roll Animal*.
+- CHR-S76-1976-001 — Ian et Deborah Curtis s’installent dans une petite maison en terrasse à Chadderton, avec l’aide financière et matérielle de la famille Curtis.
 - CHR-S75-1976-002 — Second concert des Sex Pistols à Manchester, identifié par Ott comme un choc plus direct pour Ian Curtis que le premier concert du 4 juin 1976.
 - CHR-S75-1977-001 — Session de démos de Warsaw à Pennine Sound, utilisée par Ott pour documenter l'amateurisme technique et la valeur empirique des premières traces sonores.
 - CHR-S75-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.
@@ -326,6 +335,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - PERS-015 — Steve Brotherdale
 - PERS-003-S75 — Bernard Sumner
 - PERS-004-S75 — Stephen Morris
+- PERS-S76-010 — David Bowie
+- PERS-S76-011 — Mark Reeder
+- PERS-S76-013 — Clinton Heylin
+- PERS-S76-014 — Vini Reilly
 - PERS-S76-006 — Pete Johnson
 
 ## 10. Chansons rattachées
@@ -445,7 +458,11 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - synthétiseur (2)
 - répétition (2)
 - espace (2)
+- Bowie (2)
 - frustration (2)
+- Kevin Cummins (2)
+- domesticité (2)
+- Mark Reeder (2)
 - auto-suffisance (1)
 - déclencheur (1)
 - inflation mémorielle (1)
@@ -460,10 +477,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - archive sonore (1)
 - document impur (1)
 - amateurisme (1)
-- contrainte (1)
-- Pennine Sound (1)
-- économie de moyens (1)
-- apprentissage (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -557,7 +570,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | fait | 25 |
 | chronologie | 14 |
 | production | 12 |
-| scene_fondatrice | 10 |
+| scene_fondatrice | 11 |
 | concert | 9 |
 | relation | 7 |
 | analyse | 7 |
@@ -579,6 +592,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | bootleg | 2 |
 | lieu | 2 |
 | micro_chronologie | 2 |
+| contexte_biographique | 2 |
 | contexte_social | 2 |
 | temoignage_interpretatif | 1 |
 | chronologie_interne | 1 |
@@ -621,9 +635,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | non qualifié | 1 |
 | anecdote | 1 |
 | temoignage | 1 |
+| lecture_biographique | 1 |
+| lieu_culturel | 1 |
+| reseau_culturel | 1 |
+| scene_de_transition | 1 |
 | contexte_materiel | 1 |
 | anecdote_significative | 1 |
-| contexte_biographique | 1 |
 | contexte_musical | 1 |
 | concept | 1 |
 | portrait | 1 |
@@ -636,8 +653,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 155 |
-| critique | 28 |
-| majeure | 12 |
+| critique | 32 |
+| majeure | 14 |
 | moyenne | 2 |
 | structurante | 2 |
 
@@ -687,6 +704,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S74-A009 [moyen] — risque de surcharger symboliquement une anecdote devenue rétrospectivement célèbre par la présence de Morrissey
 - S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
 - S76-A008 [moyen] — souvenir d'enfance à valeur surtout narrative, non musicale
+- S76-A011 [moyen] — risque de faire du glam une cause linéaire de la présence scénique de Curtis
+- S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
+- S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études
+- S76-A015 [faible] — atome fortement situé, peu spéculatif
+- S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe
+- S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
 
 ## 15. Lacunes et prochaines vérifications
 
