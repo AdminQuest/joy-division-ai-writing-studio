@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T20:18:53"
+generated_at: "2026-05-13T20:39:29"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-13T20:18:53"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 173 |
+| Atomes | 175 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -35,7 +35,7 @@ generated_at: "2026-05-13T20:18:53"
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 21 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 22 | 3 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 24 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
@@ -45,6 +45,8 @@ generated_at: "2026-05-13T20:18:53"
 
 ## 5. Atomes critiques ou majeurs
 
+- **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
@@ -113,8 +115,6 @@ generated_at: "2026-05-13T20:18:53"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignages_croises`.
 - **S76-A025** — S76-A025 — L’audition d’Ashfield Valley : recrutement par compatibilité sociale  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignage_direct_de_Terry_Mason`.
-- **S76-A027** — S76-A027 — Iggy Pop à l’Apollo : modèle de physicalité scénique  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
 
 ## 6. Autres atomes utiles
 
@@ -204,6 +204,8 @@ generated_at: "2026-05-13T20:18:53"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-037** — S45-037 — La séparation conjugale devient concrète  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S45-A025** — S45-A025 — Retour à Macclesfield : Barton Street comme base domestique du groupe  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
@@ -276,8 +278,6 @@ generated_at: "2026-05-13T20:18:53"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A064** — S75-A064 — Goethe, Werther et le risque de romantiser Curtis  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_litteraire` ; importance : `majeure` ; preuve : `interpretation_litteraire`.
-- **S75-A071** — S75-A071 — « Dead Souls » : revenance, histoire et danger ésotérique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 7. Citations disponibles
 
@@ -473,6 +473,12 @@ generated_at: "2026-05-13T20:18:53"
 - Rob Gretton (2)
 - Tony Wilson (2)
 - avril 1980 (2)
+- domesticité productive (1)
+- lieu de préparation (1)
+- logistique conjugale (1)
+- atelier domestique (1)
+- matérialité de l’écriture (1)
+- retrait créatif (1)
 - ian curtis (1)
 - gutz (1)
 - formation du groupe (1)
@@ -491,12 +497,6 @@ generated_at: "2026-05-13T20:18:53"
 - technologie (1)
 - voix grave (1)
 - accent régional (1)
-- enregistrement (1)
-- transformation (1)
-- hypnose japonaise (1)
-- geste (1)
-- Paul Morley (1)
-- force (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -505,9 +505,9 @@ generated_at: "2026-05-13T20:18:53"
 - Deborah Curtis (9)
 - Ian Curtis (8)
 - épilepsie (8)
+- Barton Street (7)
 - Natalie Curtis (7)
 - Annik Honoré (6)
-- Barton Street (5)
 - Bowie (4)
 - domesticité (4)
 - Tony Wilson (4)
@@ -522,6 +522,8 @@ generated_at: "2026-05-13T20:18:53"
 - mariage (3)
 - Rob Gretton (3)
 - tournée américaine (3)
+- blue room (2)
+- écriture (2)
 - mort jeune (2)
 - Mick Middles (2)
 - responsabilité (2)
@@ -540,11 +542,15 @@ generated_at: "2026-05-13T20:18:53"
 - I Remember Nothing (2)
 - reconnaissance (2)
 - répétition (2)
-- indépendance (2)
-- télévision régionale (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A025 — prépare → S45-A030
+- S45-A025 — prolonge → CONCEPT-005
+- S45-A025 — nuance → MYTH-006
+- S45-A030 — prolonge → S45-A025
+- S45-A030 — prolonge → CONCEPT-005
+- S45-A030 — nuance → MYTH-002
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -619,12 +625,6 @@ generated_at: "2026-05-13T20:18:53"
 - S74-A030 — prolonge → S74-A018
 - S74-A030 — annonce → S74-A031
 - S74-A030 — complète → S74-A001
-- S74-A032 — prolonge → S74-A001
-- S74-A032 — complète → S74-A031
-- S74-A032 — annonce → S74-A033
-- S74-A035 — prolonge → S74-A023
-- S74-A035 — annonce → S74-A036
-- S74-A035 — nuance → MYTH-005
 
 ## 13. Distribution documentaire
 
@@ -664,6 +664,8 @@ generated_at: "2026-05-13T20:18:53"
 | contexte_intime | 2 |
 | scene_de_transition | 2 |
 | fait | 2 |
+| lieu | 1 |
+| lieu_creatif | 1 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
 | citation_contextualisee | 1 |
@@ -746,13 +748,16 @@ generated_at: "2026-05-13T20:18:53"
 
 | Importance | Nombre |
 |---|---|
-| critique | 75 |
+| critique | 76 |
 | non qualifiée | 64 |
 | majeure | 33 |
+| majeur | 1 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A025 [moyen] — Risque de sacraliser Barton Street comme sanctuaire ; conserver sa matérialité domestique et logistique.
+- S45-A030 [moyen] — Risque de transformer la pièce en sanctuaire mythique ; elle est d’abord un espace de travail et de séparation domestique.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
@@ -811,8 +816,6 @@ generated_at: "2026-05-13T20:18:53"
 - S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
 - S76-A005 [moyen] — souvenir d'enfance reconstruit quarante ans après les faits
 - S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
-- S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
-- S76-A008 [moyen] — souvenir d'enfance à valeur surtout narrative, non musicale
 
 ## 15. Lacunes et prochaines vérifications
 

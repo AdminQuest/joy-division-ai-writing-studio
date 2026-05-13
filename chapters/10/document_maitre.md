@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T20:18:53"
+generated_at: "2026-05-13T20:39:29"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 81 |
+| Atomes | 83 |
 | Atomes critiques / majeurs | 20 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -35,7 +35,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 3 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 12 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
@@ -120,6 +120,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive_vivante` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-A019** — S45-A019 — Le vote conservateur d’Ian Curtis comme contrepoint biographique fragile  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A026** — S45-A026 — Outburst raciste et veste « HATE » : provocation, préjugé et contradiction  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct et témoignage rapporté`.
+- **S45-A027** — S45-A027 — Le wasteland et la main au cou : scène domestique de danger et de silence  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
@@ -312,6 +316,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - réception posthume (2)
 - manchester (2)
 - mythification (2)
+- biographie non édifiante (1)
+- zone éthique instable (1)
+- contradiction de l’altérité (1)
+- archive affective (1)
+- violence non spectacularisée (1)
+- domesticité sombre (1)
 - complexité politique de Curtis (1)
 - anti-déterminisme sociologique (1)
 - biographie contre mythe social (1)
@@ -351,12 +361,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - démystification (1)
 - tentative de suicide (1)
 - hôpital (1)
-- famille (1)
-- culpabilité (1)
-- responsabilité (1)
-- séparation (1)
-- divorce (1)
-- rupture (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -365,6 +369,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Peter Saville (6)
 - Unknown Pleasures (3)
 - Kevin Cummins (3)
+- contradiction biographique (2)
 - pulsar (2)
 - Dave McCullough (2)
 - Stuff the Superstars (2)
@@ -373,7 +378,15 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - The Factory Sample (2)
 - Tony Wilson (2)
 - Martin Hannett (2)
-- contradiction biographique (1)
+- provocation (1)
+- préjugé (1)
+- HATE (1)
+- punk demi-adopté (1)
+- wasteland (1)
+- violence domestique (1)
+- silence (1)
+- danger nocturne (1)
+- témoin situé (1)
 - politique domestique (1)
 - conservatisme ordinaire (1)
 - contrepoint au récit social (1)
@@ -393,18 +406,15 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - dub (1)
 - FAST Product (1)
 - Unknown Pleasures sleeve (1)
-- CP 1919 (1)
-- icône (1)
-- noir et blanc (1)
-- Manchester sombre (1)
-- presse musicale (1)
-- économie de la photographie (1)
-- Curtis outsider (1)
-- image sérieuse (1)
-- sourire absent (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A026 — prolonge → MOTIF-009
+- S45-A026 — requiert → CONCEPT-004
+- S45-A026 — nuance → MYTH-002
+- S45-A027 — requiert → CONCEPT-004
+- S45-A027 — prolonge → MOTIF-010
+- S45-A027 — alerte → RISQUE-PSYCHOLOGISATION
 - S45-A019 — nuance → MYTH-003
 - S45-A019 — nuance → MYTH-011
 - S45-A019 — prolonge → CONCEPT-010
@@ -486,6 +496,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | objet_visuel | 3 |
 | analyse | 3 |
 | memoire | 3 |
+| tension_documentaire | 2 |
 | production | 2 |
 | evenement_biographique | 2 |
 | positionnement | 2 |
@@ -493,7 +504,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mémoire | 2 |
 | chronologie | 2 |
 | song | 2 |
-| tension_documentaire | 1 |
+| scene_sensible | 1 |
 | santé | 1 |
 | performance_scenique | 1 |
 | chanson_biographie | 1 |
@@ -533,11 +544,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 |---|---|
 | non qualifiée | 60 |
 | critique | 18 |
+| majeur | 3 |
 | majeure | 2 |
-| majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
+- S45-A027 [très élevé] — Risque de voyeurisme, de psychologisation ou de portrait criminel totalisant.
 - S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.
 - S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
 - S75-A038 [moyen] — chiffres de vente et formule conceptuelle doivent être recoupés avec sources Factory / discographiques

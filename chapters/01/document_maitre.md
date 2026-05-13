@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T20:18:53"
+generated_at: "2026-05-13T20:39:29"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ generated_at: "2026-05-13T20:18:53"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 60 |
-| Atomes critiques / majeurs | 16 |
+| Atomes | 61 |
+| Atomes critiques / majeurs | 17 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
@@ -35,7 +35,7 @@ generated_at: "2026-05-13T20:18:53"
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 7 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 8 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 1 | 0 |
@@ -49,6 +49,8 @@ generated_at: "2026-05-13T20:18:53"
 
 - **S45-A020** — S45-A020 — Ne pas confondre vote conservateur local et adhésion au thatchérisme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage issue d’un témoignage direct`.
+- **S45-A031** — S45-A031 — Manchester comme « nouvelle capitale » : scène d’auto-habilitation  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contexte_scene` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S75-A004** — S75-A004 — Manchester contre Londres : le punk comme possibilité, non comme modèle  
@@ -230,6 +232,9 @@ generated_at: "2026-05-13T20:18:53"
 - salford (2)
 - géographie biographique (2)
 - mémoire ouvrière (2)
+- auto-habilitation mancunienne (1)
+- scène comme écosystème (1)
+- capitale alternative (1)
 - complexité politique de Curtis (1)
 - anti-déterminisme sociologique (1)
 - biographie contre mythe social (1)
@@ -275,19 +280,20 @@ generated_at: "2026-05-13T20:18:53"
 - infrastructures locales (1)
 - socle documentaire (1)
 - registre des sources (1)
-- consolidation (1)
-- s20 migration (1)
-- source critique (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- Manchester (3)
 - Salford (3)
-- Manchester (2)
+- scène locale (2)
 - mémoire ouvrière (2)
 - Wythenshawe (2)
 - overspill estate (2)
+- anti-Londres (1)
+- anticipation (1)
+- auto-habilitation (1)
 - contradiction biographique (1)
 - politique domestique (1)
 - conservatisme ordinaire (1)
@@ -319,13 +325,12 @@ generated_at: "2026-05-13T20:18:53"
 - tour d’habitation (1)
 - communauté détruite (1)
 - enfance (1)
-- noirceur (1)
-- désindustrialisation (1)
-- ruine urbaine (1)
-- reconstruction (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A031 — prolonge → CONCEPT-011
+- S45-A031 — nuance → MYTH-003
+- S45-A031 — prolonge → S72-A023
 - S45-A019 — nuance → MYTH-003
 - S45-A019 — nuance → MYTH-011
 - S45-A019 — prolonge → CONCEPT-010
@@ -393,6 +398,7 @@ generated_at: "2026-05-13T20:18:53"
 | concept | 3 |
 | methode | 2 |
 | chronologie | 2 |
+| contexte_scene | 1 |
 | tension_documentaire | 1 |
 | prudence_methodologique | 1 |
 | infrastructure | 1 |
@@ -422,11 +428,12 @@ generated_at: "2026-05-13T20:18:53"
 |---|---|
 | non qualifiée | 43 |
 | majeure | 9 |
-| critique | 7 |
+| critique | 8 |
 | majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A031 [moyen] — Risque de reconstruire Manchester comme capitale évidente alors que la scène est encore précaire, locale et partiellement fantasmée.
 - S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.
 - S45-A020 [très élevé] — « Conservateur » peut être surtraduit en « thatchérien », alors que le passage ne l’établit pas.
 - S75-A004 [moyen] — risque de durcir excessivement l'opposition Londres/Manchester
