@@ -179,3 +179,272 @@ contradictions:
 notes: >
   Sert au concept de matérialité discographique et de contrainte productive.
 ```
+
+---
+
+## CHR-1978-005 — Stiff/Chiswick Challenge à Rafter's
+
+```yaml
+id: CHR-1978-005
+type_unite: chronology
+date: 1978-04-14
+precision_date: exact
+event: >
+  Performance de Joy Division au Stiff/Chiswick Challenge à Rafter's, observée par Tony Wilson et Rob Gretton.
+type:
+  - concert
+  - scene_fondatrice
+location:
+  - Rafter's
+  - Manchester
+people:
+  - Joy Division
+  - Tony Wilson
+  - Rob Gretton
+sources:
+  - S75
+related_atoms:
+  - S75-A023
+related_motifs:
+  - MOTIF-006
+chapters:
+  - Chapitre 2
+  - Chapitre 14
+certainty: strong
+contradictions:
+  - rôle exact de cette soirée dans la décision de Gretton et Wilson à recouper
+notes: >
+  Scène de capture institutionnelle : le groupe est repéré par ses futurs médiateurs.
+```
+
+---
+
+## CHR-1978-006 — Sessions RCA à Arrow Studios
+
+```yaml
+id: CHR-1978-006
+type_unite: chronology
+date: 1978-05-01/1978-05-05
+precision_date: range
+event: >
+  Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
+type:
+  - enregistrement
+  - demo
+  - production
+location:
+  - Arrow Studios
+  - Manchester
+people:
+  - Joy Division
+  - John Anderson
+  - Bob Auger
+  - Richard Searling
+  - Derek Brandwood
+sources:
+  - S75
+related_atoms:
+  - S75-A021
+  - S75-A024
+  - S75-A025
+related_concepts:
+  - CONCEPT-005
+related_motifs:
+  - MOTIF-004
+chapters:
+  - Chapitre 2
+  - Chapitre 3
+  - Chapitre 8
+certainty: strong
+contradictions:
+  - statut exact des bandes RCA selon éditions officielles et bootlegs
+notes: >
+  Événement central pour le lien entre échec industriel, archive bootleg et maturation sonore.
+```
+
+---
+
+## CHR-1978-007 — A Factory Sample à Cargo Studios
+
+```yaml
+id: CHR-1978-007
+type_unite: chronology
+date: 1978-10-11
+precision_date: exact
+event: >
+  Enregistrement de « Digital » et « Glass » pour *A Factory Sample* à Cargo Studios avec Martin Hannett.
+type:
+  - enregistrement
+  - factory
+  - production
+location:
+  - Cargo Studios
+  - Rochdale
+people:
+  - Joy Division
+  - Martin Hannett
+sources:
+  - S75
+related_atoms:
+  - S75-A029
+related_concepts:
+  - CONCEPT-006
+related_myths:
+  - MYTH-004
+chapters:
+  - Chapitre 3
+  - Chapitre 6
+certainty: strong
+contradictions:
+  - degré exact d'intervention de Hannett dans la formation du son à nuancer
+notes: >
+  Premier seuil studio avec Hannett, sans réduire le son à son seul génie.
+```
+
+---
+
+## CHR-1978-008 — Premier concert londonien au Hope & Anchor
+
+```yaml
+id: CHR-1978-008
+type_unite: chronology
+date: 1978-12-27
+precision_date: exact
+event: >
+  Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
+type:
+  - concert
+  - biographie
+  - sante
+location:
+  - Hope & Anchor
+  - Islington
+  - Londres
+people:
+  - Joy Division
+  - Ian Curtis
+  - Bernard Sumner
+sources:
+  - S75
+related_atoms:
+  - S75-A031
+related_myths:
+  - MYTH-002
+chapters:
+  - Chapitre 2
+  - Chapitre 12
+certainty: medium
+contradictions:
+  - détails médicaux à recouper avec Deborah Curtis et sources médicales biographiques
+notes: >
+  Anti-triomphe londonien ; à traiter sans téléologie morbide.
+```
+
+---
+
+## CHR-1979-001 — Première couverture NME avec Ian Curtis
+
+```yaml
+id: CHR-1979-001
+type_unite: chronology
+date: 1979-01-13
+precision_date: exact
+event: >
+  Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
+type:
+  - presse
+  - photographie
+  - reception
+location:
+  - Royaume-Uni
+people:
+  - Ian Curtis
+  - Kevin Cummins
+  - Paul Morley
+sources:
+  - S75
+related_atoms:
+  - S75-A032
+chapters:
+  - Chapitre 4
+  - Chapitre 5
+  - Chapitre 14
+certainty: medium
+contradictions:
+  - contexte exact de la commande et du rôle de Morley à consolider
+notes: >
+  Point d'entrée pour l'iconisation médiatique de Curtis.
+```
+
+---
+
+## CHR-1979-002 — Première Peel Session
+
+```yaml
+id: CHR-1979-002
+type_unite: chronology
+date: 1979-01-31
+precision_date: inferred_or_to_verify
+event: >
+  Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
+type:
+  - radio
+  - session
+  - reception
+location:
+  - BBC Radio One
+people:
+  - Joy Division
+  - John Peel
+  - Bob Sargeant
+  - Nick Gomm
+sources:
+  - S75
+related_atoms:
+  - S75-A033
+chapters:
+  - Chapitre 3
+  - Chapitre 6
+  - Chapitre 14
+certainty: medium
+contradictions:
+  - Ott donne un encadré qui doit être vérifié avec la discographie BBC officielle
+notes: >
+  Seuil de réception nationale ; date de diffusion distincte de la date d'enregistrement à vérifier.
+```
+
+---
+
+## CHR-1979-003 — Genetic Demos à Eden Studios
+
+```yaml
+id: CHR-1979-003
+type_unite: chronology
+date: 1979-03-04
+precision_date: exact
+event: >
+  Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
+type:
+  - demo
+  - production
+  - label
+location:
+  - Eden Studios
+  - Londres
+people:
+  - Joy Division
+  - Martin Rushent
+sources:
+  - S75
+related_atoms:
+  - S75-A035
+chapters:
+  - Chapitre 2
+  - Chapitre 3
+  - Chapitre 8
+certainty: strong
+contradictions:
+  - statut de publication ultérieure selon *Heart and Soul* et bootlegs à contrôler
+notes: >
+  Permet de comparer Factory, Genetic/Radar et la méfiance mancunienne envers Londres.
+```
