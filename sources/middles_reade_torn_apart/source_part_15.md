@@ -517,7 +517,7 @@ importance:
   niveau: critique
 risque_surinterpretation:
   niveau: tres_eleve
-  raison: *Closer* est le lieu majeur de la téléologie critique autour de Joy Division
+  raison: "*Closer* est le lieu majeur de la téléologie critique autour de Joy Division"
 motifs:
   - Closer
   - postérité
