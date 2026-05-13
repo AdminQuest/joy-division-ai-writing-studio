@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-13T15:47:04",
-  "status": "error",
+  "generated_at": "2026-05-13T15:50:43",
+  "status": "warning",
   "summary": {
     "records_total": 1685,
     "records_by_kind": {
@@ -17,8 +17,8 @@
       "concept": 8,
       "myth": 9
     },
-    "diagnostics_total": 9967,
-    "errors": 1,
+    "diagnostics_total": 9966,
+    "errors": 0,
     "warnings": 9966,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
@@ -60145,12 +60145,6 @@
       "file": "registers/quotes/s75_ott_quotes_part_04.md",
       "message": "Missing required field: statut_verification",
       "record_id": "S75-Q021"
-    },
-    {
-      "level": "error",
-      "file": "registers/concepts/s75_ott_concepts_part_02.md",
-      "message": "Duplicate id also found in registers/concepts/master_concepts.md",
-      "record_id": "CONCEPT-007"
     },
     {
       "level": "warning",
