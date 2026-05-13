@@ -4,10 +4,10 @@ Ce fichier complète le registre des concepts avec une entrée issue du chapitre
 
 ---
 
-## CONCEPT-007 — secret produit en masse
+## CONCEPT-S75-002 — secret produit en masse
 
 ```yaml
-id: CONCEPT-007
+id: CONCEPT-S75-002
 type_unite: concept
 nom: secret produit en masse
 nom_original: mass-produced secret
