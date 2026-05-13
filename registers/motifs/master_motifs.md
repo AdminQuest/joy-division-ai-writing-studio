@@ -106,3 +106,122 @@ risques:
   - psychologisation excessive
   - réduction biographique
 ```
+
+---
+
+# MOTIF-004 — culture bootleg
+
+```yaml
+id: MOTIF-004
+
+nom: culture bootleg
+
+definition: >
+  Motif documentaire désignant les enregistrements non officiels, semi-officiels
+  ou juridiquement ambigus qui conservent une mémoire sonore alternative du groupe.
+
+formes:
+  - CD non officiels
+  - bandes de démos
+  - captations live
+  - objets discographiques suspects
+  - circulation fanique
+
+chapitres:
+  - Chapitre 2
+  - Chapitre 8
+  - Chapitre 14
+
+concepts_associes:
+  - CONCEPT-005
+
+risques:
+  - confusion entre valeur documentaire et légitimité éditoriale
+  - fétichisation de l'objet rare
+  - faiblesse de la chaîne de preuve
+
+atomes_lies:
+  - S75-A008
+```
+
+---
+
+# MOTIF-005 — provocation
+
+```yaml
+id: MOTIF-005
+
+nom: provocation
+
+definition: >
+  Motif désignant les gestes esthétiques ou discursifs visant le choc,
+  le trouble ou l'offense, notamment dans l'imagerie de Warsaw et des débuts
+  de Joy Division.
+
+formes:
+  - imagerie nazie
+  - cris de scène
+  - références taboues
+  - shock art
+  - ambiguïté non maîtrisée
+
+chapitres:
+  - Chapitre 2
+  - Chapitre 5
+  - Chapitre 11
+
+concepts_associes:
+  - CONCEPT-004
+
+risques:
+  - apologie involontaire
+  - excuse romantique
+  - condamnation sans contextualisation
+  - simplification morale
+
+atomes_lies:
+  - S75-A013
+  - S75-A016
+  - S75-A017
+  - S75-A018
+```
+
+---
+
+# MOTIF-006 — seuil
+
+```yaml
+id: MOTIF-006
+
+nom: seuil
+
+definition: >
+  Motif désignant les moments de bascule où Warsaw cesse progressivement
+  d'être un groupe punk indistinct et laisse apparaître Joy Division comme forme propre.
+
+formes:
+  - changement de nom
+  - arrivée de Stephen Morris
+  - stabilisation rythmique
+  - premier morceau réellement distinctif
+  - passage du support défectueux au remastering
+
+chapitres:
+  - Chapitre 2
+  - Chapitre 3
+  - Chapitre 6
+
+concepts_associes:
+  - CONCEPT-006
+  - CONCEPT-005
+
+risques:
+  - téléologie
+  - recherche excessive du premier vrai moment
+  - effacement des continuités lentes
+
+atomes_lies:
+  - S75-A015
+  - S75-A017
+  - S75-A020
+```
