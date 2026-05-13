@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:59:23"
+generated_at: "2026-05-13T17:09:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 154 |
+| Atomes | 156 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 13 |
-| Événements chronologiques | 4 |
+| Citations | 14 |
+| Événements chronologiques | 5 |
 | Personnes | 5 |
 | Chansons | 10 |
 | Sources mobilisées | 12 |
@@ -45,7 +45,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 16 | 6 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 18 | 7 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -103,6 +103,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_reception_postérieure`.
 - **S76-A128** — S76-A128 — « Dead Souls » : histoire, possession et risque de surlecture démonologique  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_analyse_textuelle_a_recouper`.
+- **S76-A138** — S76-A138 — Plan K Bruxelles, 17 janvier 1980 : scène industrielle, première « The Eternal » et reprise de « Sister Ray »  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `concert_listing_et_reconstruction_S76`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -117,8 +119,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
-- **S75-A064** — S75-A064 — Goethe, Werther et le risque de romantiser Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_litteraire` ; importance : `majeure` ; preuve : `interpretation_litteraire`.
 
 ## 6. Autres atomes utiles
 
@@ -294,6 +294,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S76-Q129** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q130** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q140** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -301,6 +302,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 8. Chronologie rattachée
 
+- CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 - CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
 - CHR-S75-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.
 - CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
@@ -618,18 +620,20 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | scene_de_transition | 1 |
 | scene_reception | 1 |
 | contraste_biographique | 1 |
+| concert_europeen | 1 |
 | chanson_contexte | 1 |
 | fait_sensible | 1 |
 | portrait_sensible | 1 |
 | concept_transversal | 1 |
 | memoire | 1 |
+| live_set_bootleg_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 115 |
-| critique | 27 |
+| non qualifiée | 116 |
+| critique | 28 |
 | majeure | 12 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -673,6 +677,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A068 [moyen] — scène très suggestive ; ne pas en faire une théorie générale de Curtis comme stratège médiatique
 - S76-A071 [eleve] — risque de transformer tout écart biographique en signe avant-coureur ; conserver la prudence anti-téléologique
 - S76-A031 [eleve] — risque majeur de causalité médicale unique et de psychologisation
+- S76-A138 [moyen] — première live et reprise rare à vérifier précisément ; ne pas surcharger symboliquement
 
 ## 15. Lacunes et prochaines vérifications
 

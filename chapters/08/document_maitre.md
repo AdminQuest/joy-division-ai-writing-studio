@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:59:23"
+generated_at: "2026-05-13T17:09:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 80 |
-| Atomes critiques / majeurs | 25 |
-| Citations | 6 |
-| Événements chronologiques | 18 |
-| Personnes | 6 |
+| Atomes | 84 |
+| Atomes critiques / majeurs | 27 |
+| Citations | 8 |
+| Événements chronologiques | 20 |
+| Personnes | 7 |
 | Chansons | 4 |
 | Sources mobilisées | 6 |
 
@@ -39,7 +39,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 22 | 6 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 26 | 8 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -83,6 +83,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `reconstruction_S76_a_recouper_avec_sources_Sordide`.
 - **S76-A130** — S76-A130 — Paris, Les Bains-Douches, 18 décembre 1979 : réception française et archive future  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reception_S76`.
+- **S76-A135** — S76-A135 — Paradiso Amsterdam, 11 janvier 1980 : deux sets, archive exemplaire et scène intime  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_archive` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_memoire_Annik`.
+- **S76-A139** — S76-A139 — Effenaar Eindhoven, 18 janvier 1980 : tension, Minny Pops et future mémoire filmée  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_filme` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_archive_video`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
@@ -206,6 +210,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-035** — SONG-S76-035 — *Licht und Blindheit* comme objet Sordide  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `release_object` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-037** — SONG-S76-037 — Paradiso Amsterdam comme archive live  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-040** — SONG-S76-040 — Effenaar Eindhoven et *Here Are The Young Men*  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_video_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -214,6 +222,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q026** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q136** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q141** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q053** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -224,6 +234,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - CHR-S76-1977-003 — Premier concert de Warsaw à l’Electric Circus, en ouverture de Buzzcocks, Penetration et John Cooper Clarke ; l’affichage et certaines mémoires entretiennent une confusion avec Stiff Kittens et The Prefects.
 - CHR-S76-1977-005 — Warsaw enregistre cinq morceaux à Pennine Sound Studios, Oldham, avec Steve Brotherdale à la batterie.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
+- CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
+- CHR-S76-1980-006 — Joy Division joue à l’Effenaar d’Eindhoven avec Minny Pops. La performance est ensuite partiellement intégrée à la mémoire audiovisuelle du groupe, notamment par les images liées à *Here Are The Young Men*.
 - CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
 - CHR-S75-1977-001 — Session de démos de Warsaw à Pennine Sound, utilisée par Ott pour documenter l'amateurisme technique et la valeur empirique des premières traces sonores.
 - CHR-S75-1978-004 — Repressage / remastering 12 pouces de *An Ideal for Living*, lu par Ott comme correction partielle du mauvais rendu sonore initial du 7 pouces.
@@ -240,6 +252,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 ## 9. Personnes et acteurs
 
 - PERS-S75-017 — Derek Brandwood
+- PERS-S76-071 — Minny Pops
 - PERS-S76-016 — Terry Mason
 - PERS-S76-020 — Steve Brotherdale
 - PERS-S76-023 — Kevin Cummins
@@ -340,11 +353,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ### 12.1. Motifs dominants
 
-- bootleg (3)
+- bootleg (4)
+- Dead Souls (3)
 - Enigma (3)
 - An Ideal For Living (3)
 - Licht und Blindheit (2)
-- Dead Souls (2)
 - Sordide Sentimental (2)
 - Warsaw (2)
 - Movie Play Gold (2)
@@ -456,6 +469,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A034 — corrobore → S68-A006
 - S76-A034 — nuance → MYTH-001
 - S76-A034 — relie → DM-CH08
+- S76-A135 — prolonge → S76-A132
+- S76-A135 — relie → MOTIF-004
+- S76-A135 — nuance → MYTH-002
+- S76-A139 — prolonge → S76-A138
+- S76-A139 — relie → MOTIF-004
+- S76-A139 — relie → S76-A128
 
 ## 13. Distribution documentaire
 
@@ -469,10 +488,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | analyse | 5 |
 | archive | 5 |
 | chronologie | 3 |
+| live_set_bootleg_context | 3 |
 | discographie | 2 |
 | bootleg | 2 |
 | session_studio | 2 |
-| live_set_bootleg_context | 2 |
 | song_or_release | 2 |
 | videographie | 1 |
 | controverse | 1 |
@@ -483,15 +502,18 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | bifurcation_institutionnelle | 1 |
 | concert_europeen | 1 |
 | fait_contractuel | 1 |
+| concert_archive | 1 |
+| concert_filme | 1 |
 | release_or_session | 1 |
 | release_object | 1 |
+| live_video_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 55 |
-| critique | 20 |
+| non qualifiée | 57 |
+| critique | 22 |
 | majeure | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -521,6 +543,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A030 [moyen] — risque de transformer un concert hésitant en naissance glorieuse
 - S76-A032 [faible] — atome factuel mais à ne pas survaloriser esthétiquement
 - S76-A034 [moyen] — fort risque de transformer un concert chaotique en consécration téléologique
+- S76-A135 [moyen] — la richesse bootleg et la mémoire intime peuvent gonfler la signification vécue de l’événement
+- S76-A139 [moyen] — la captation postérieure peut reconfigurer le sens du concert
 
 ## 15. Lacunes et prochaines vérifications
 

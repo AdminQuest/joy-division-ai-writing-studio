@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:59:23"
+generated_at: "2026-05-13T17:09:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 568 |
+| Atomes | 580 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 71 |
-| Événements chronologiques | 39 |
-| Personnes | 52 |
+| Citations | 75 |
+| Événements chronologiques | 43 |
+| Personnes | 54 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 74 | 44 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 86 | 48 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -339,6 +339,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1979-026 — S76 clôt 1979 sur le dernier réveillon de Ian Curtis, en le présentant comme seuil rétrospectif avant la tournée européenne et la reprise de la relation avec Annik Honoré.
 - CHR-S76-1980-001 — À Amsterdam, pendant la tournée européenne de Joy Division, Annik Honoré rapporte que sa relation avec Ian Curtis reprend et devient assumée comme relation amoureuse durable dans sa mémoire.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
+- CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
+- CHR-S76-1980-004 — Joy Division joue au Basement de Cologne, dans un lieu souterrain à l’acoustique et à l’atmosphère marquantes. S76 en fait une étape allemande forte de la tournée européenne.
+- CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
+- CHR-S76-1980-006 — Joy Division joue à l’Effenaar d’Eindhoven avec Minny Pops. La performance est ensuite partiellement intégrée à la mémoire audiovisuelle du groupe, notamment par les images liées à *Here Are The Young Men*.
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
 - CHR-S76-1978-014 — Lors de la troisième soirée Factory, Rob Gretton et Tony Wilson invitent Mick Middles à couvrir Cabaret Voltaire et Durutti Column pour *Sounds*. La presse londonienne commence à lire Manchester, Sheffield et les villes du Nord comme un espace post-punk émergent.
@@ -364,9 +368,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1979-015 — Joy Division joue à l’Electric Ballroom de Camden avec Scritti Politti, Monochrome Set et A Certain Ratio, devant un public d’environ 1 200 personnes selon S76.
 - CHR-S76-1979-016 — Joy Division enregistre « Transmission » et « She’s Lost Control » pour BBC2 *Something Else*, programme diffusé le 15 septembre 1979.
 - CHR-S76-1979-017 — Joy Division joue au Futurama Festival à Leeds. S76 décrit une performance qui place le groupe au-dessus de la plupart des autres formations post-punk présentes, avec un set qui circulera ensuite en bootlegs.
-- CHR-S76-1979-018 — Après le concert au Nashville Rooms, le van de Joy Division est percuté par un camion sur l’autoroute ; l’équipement est projeté sur la route, mais personne n’est blessé.
-- CHR-S76-1979-019 — Annik Honoré voit Joy Division au Nashville Rooms, venue de Belgique après avoir été bouleversée par *Unknown Pleasures*. Elle demande ensuite une interview pour le fanzine *En Attendant*.
-- CHR-S76-1979-020 — Annik Honoré réalise une longue interview de Joy Division à Walthamstow Youth Club pour *En Attendant*. L’entretien aborde notamment films, amour, mariage, enfants, santé, mort et épilepsie.
 
 ## 9. Personnes et acteurs
 
@@ -393,6 +394,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-048 — Roger Eagle
 - PERS-S76-049 — Peter Saville
 - PERS-S76-050 — Tony Wilson
+- PERS-S76-070 — Annik Honoré
+- PERS-S76-071 — Minny Pops
 - PERS-S76-022 — Tony Wilson
 - PERS-S76-023 — Kevin Cummins
 - PERS-013 — Chris Ott
@@ -408,8 +411,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-062 — Dave McCullough
 - PERS-S76-063 — Annik Honoré
 - PERS-S76-064 — Dave Pils et Jasmine
-- PERS-S76-065 — Steve Harley
-- PERS-S76-001 — Lindsay Reade
 
 ## 10. Chansons rattachées
 
@@ -510,19 +511,22 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 ### 12.1. Motifs dominants
 
 - Rob Gretton (8)
+- Annik Honoré (7)
 - Tony Wilson (7)
 - Factory (6)
 - Unknown Pleasures (6)
-- Annik Honoré (5)
 - Gretton (5)
 - Peter Saville (5)
 - Ian Curtis (4)
+- épilepsie (4)
+- fatigue (4)
 - Kevin Cummins (4)
 - Rabid Records (4)
 - Bowie (3)
-- épilepsie (3)
 - presse musicale (3)
+- Plan K (3)
 - Buzzcocks tour (3)
+- Dead Souls (3)
 - transition (3)
 - Wilson (3)
 - contrat (3)
@@ -538,17 +542,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Mick Middles (2)
 - romantisme (2)
 - deification (2)
-- Plan K (2)
 - Futurama (2)
 - America (2)
 - Derby Hall (2)
 - Licht und Blindheit (2)
 - Atmosphere (2)
-- Dead Souls (2)
 - Sordide Sentimental (2)
 - Rainbow Theatre (2)
-- Ceremony (2)
-- New Order (2)
+- Sister Ray (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -661,6 +662,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | biographie | 5 |
 | controverse | 5 |
 | citation_repere | 5 |
+| live_set_bootleg_context | 5 |
 | management | 4 |
 | television | 4 |
 | iconographie | 4 |
@@ -672,6 +674,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | acteur_critique | 4 |
+| concert_europeen | 4 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
 | reception_posthume | 3 |
@@ -714,9 +717,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | idee_directrice | 2 |
 | reception_interne | 2 |
 | reception_scene | 2 |
+| lecture_chanson | 2 |
 | concept_management | 2 |
 | esthétique_visuelle | 2 |
-| live_set_bootleg_context | 2 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
 | objet_sonore_new_order | 1 |
@@ -885,12 +888,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | bascule_live | 1 |
 | concert_local | 1 |
 | concert_majeur | 1 |
-| lecture_chanson | 1 |
-| concert_europeen | 1 |
 | scene_intime | 1 |
 | scene_intime_europeenne | 1 |
 | scene_management | 1 |
 | scene_contractuelle | 1 |
+| bascule_tournee | 1 |
+| concert_archive | 1 |
+| concert_filme | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -916,14 +920,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | song_or_video | 1 |
 | song | 1 |
 | release_object | 1 |
+| song_session | 1 |
+| live_video_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 431 |
-| critique | 101 |
-| majeure | 32 |
+| non qualifiée | 436 |
+| critique | 107 |
+| majeure | 33 |
 | structurante | 2 |
 | moyenne | 2 |
 

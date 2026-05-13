@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:59:23"
+generated_at: "2026-05-13T17:09:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 236 |
+| Atomes | 241 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 43 |
-| Événements chronologiques | 29 |
-| Personnes | 34 |
+| Citations | 46 |
+| Événements chronologiques | 31 |
+| Personnes | 35 |
 | Chansons | 17 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 63 | 32 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 68 | 35 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -309,6 +309,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q074** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q140** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -320,9 +323,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q051** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q052** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q053** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q054** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -332,6 +332,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S75-1980-004 — Joy Division enregistre *Closer* à Britannia Row avec Martin Hannett, dans un contexte personnel très tendu mais sans conscience collective d'un testament.
 - CHR-S76-1979-023 — Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.
 - CHR-S76-1979-024 — Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.
+- CHR-S76-1980-002 — Joy Division enregistre aux Pennine Sound Studios une première version de « Love Will Tear Us Apart », avec « These Days » et « The Sound of Music ». La session précède la version canonique ultérieure et documente un état encore insatisfaisant de la chanson.
+- CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
 - CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
@@ -372,6 +374,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S76-048 — Roger Eagle
 - PERS-S76-049 — Peter Saville
 - PERS-S76-050 — Tony Wilson
+- PERS-S76-072 — Martin Hannett
 - PERS-S76-021 — Steve Morris
 - PERS-S76-042 — Jeremy Kerr
 - PERS-S76-043 — Lesley Gilbert
@@ -529,8 +532,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - contrôle (3)
 - Bernard Sumner (3)
 - Terry Mason (3)
+- Love Will Tear Us Apart (3)
 - radio (2)
 - Buzzcocks tour (2)
+- Plan K (2)
 - America (2)
 - Peel Session (2)
 - Genetic (2)
@@ -538,8 +543,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Disorder (2)
 - voix de Curtis (2)
 - Sumner (2)
-- Hook (2)
-- Kraftwerk (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -636,10 +639,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | index_chanson | 7 |
 | concert | 6 |
 | session | 6 |
+| session_studio | 6 |
 | biographie | 5 |
 | discographie | 5 |
 | scene_fondatrice | 5 |
-| session_studio | 5 |
 | fait_sensible | 5 |
 | analyse | 4 |
 | reception_critique | 4 |
@@ -651,6 +654,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | discographie_album | 3 |
 | evenement_live | 3 |
 | versions_chanson | 3 |
+| lecture_chanson | 3 |
 | release_or_session | 3 |
 | reception | 2 |
 | relation | 2 |
@@ -669,7 +673,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | micro_chronologie | 2 |
 | performance_live | 2 |
 | scene_repetition | 2 |
-| lecture_chanson | 2 |
 | concept_management | 2 |
 | chronologie_live | 2 |
 | analyse_morceau | 2 |
@@ -743,6 +746,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_interne | 1 |
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
+| concert_europeen | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
 | discographie_analysee | 1 |
@@ -759,13 +763,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tv_session | 1 |
 | album_reception_object | 1 |
 | song_or_release | 1 |
+| song_session | 1 |
+| live_set_bootleg_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 135 |
-| critique | 78 |
+| non qualifiée | 137 |
+| critique | 81 |
 | majeure | 23 |
 
 ## 14. Risques de surinterprétation et points de vigilance

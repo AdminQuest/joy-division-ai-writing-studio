@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:59:23"
+generated_at: "2026-05-13T17:09:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ generated_at: "2026-05-13T16:59:23"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 146 |
+| Atomes | 147 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 43 |
+| Citations | 44 |
 | Événements chronologiques | 32 |
 | Personnes | 25 |
 | Chansons | 13 |
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T16:59:23"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 46 | 31 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 47 | 32 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -308,6 +308,7 @@ generated_at: "2026-05-13T16:59:23"
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q101** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -320,7 +321,6 @@ generated_at: "2026-05-13T16:59:23"
 - **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q112** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q118** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q120** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -699,6 +699,7 @@ generated_at: "2026-05-13T16:59:23"
 | micro_scene_relationnelle | 1 |
 | scene_reception | 1 |
 | contraste_biographique | 1 |
+| lecture_chanson | 1 |
 | témoignage_externe | 1 |
 | fait_biographique | 1 |
 | tension | 1 |
@@ -713,7 +714,7 @@ generated_at: "2026-05-13T16:59:23"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| critique | 54 |
+| critique | 55 |
 | majeure | 31 |
 | structurante | 1 |
 

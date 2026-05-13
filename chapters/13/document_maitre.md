@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:59:23"
+generated_at: "2026-05-13T17:09:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 56 |
+| Atomes | 58 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 15 |
-| Événements chronologiques | 8 |
+| Citations | 16 |
+| Événements chronologiques | 9 |
 | Personnes | 16 |
 | Chansons | 2 |
 | Sources mobilisées | 6 |
@@ -39,7 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 19 | 15 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 21 | 16 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -71,6 +71,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
 - **S76-A095** — S76-A095 — Kevin Cummins : économie du noir et blanc et invention involontaire du monochrome Joy Division  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `iconographie` ; importance : `critique` ; preuve : `temoignage_Kevin_Cummins`.
+- **S76-A137** — S76-A137 — Cologne Basement, 15 janvier 1980 : triomphe dans une architecture souterraine  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reconstruction_S76`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -111,8 +113,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_lieu` ; importance : `majeure` ; preuve : `temoignage_Tony_Davidson`.
 - **S76-A099** — S76-A099 — Peel entend Joy Division comme romantisme russe et Europe centrale  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_critique` ; importance : `majeure` ; preuve : `citation_retrospective_John_Peel`.
-- **S76-A124** — S76-A124 — Apollo Manchester, octobre 1979 : retour local en position d’ascension  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_local` ; importance : `majeure` ; preuve : `reconstruction_S76_et_concert_listing`.
 
 ## 6. Autres atomes utiles
 
@@ -156,8 +156,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A043** — S72-A043 — The Fall : Manchester par irritation, répétition et anti-lyrisme  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S76-A124** — S76-A124 — Apollo Manchester, octobre 1979 : retour local en position d’ascension  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_local` ; importance : `majeure` ; preuve : `reconstruction_S76_et_concert_listing`.
 - **SONG-S76-023** — SONG-S76-023 — « Love Will Tear Us Apart » comme image T. J. Davidson’s  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_video` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-038** — SONG-S76-038 — Cologne Basement comme archive européenne  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -172,6 +176,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S76-Q062** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q020** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q139** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q099** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -181,6 +186,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
 - CHR-S76-1979-022 — Joy Division joue au Manchester Apollo dans le cadre de la tournée Buzzcocks, devant un public local plus large que celui des clubs et scènes underground des débuts.
+- CHR-S76-1980-004 — Joy Division joue au Basement de Cologne, dans un lieu souterrain à l’acoustique et à l’atmosphère marquantes. S76 en fait une étape allemande forte de la tournée européenne.
 - CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
 - CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
 - CHR-S76-1978-014 — Lors de la troisième soirée Factory, Rob Gretton et Tony Wilson invitent Mick Middles à couvrir Cabaret Voltaire et Durutti Column pour *Sounds*. La presse londonienne commence à lire Manchester, Sheffield et les villes du Nord comme un espace post-punk émergent.
@@ -464,20 +470,22 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | sociabilite_scene | 1 |
 | geographie_sociale | 1 |
 | portrait_social | 1 |
+| concert_europeen | 1 |
 | interpretation | 1 |
 | esthétique_visuelle | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
 | song_or_video | 1 |
+| live_set_bootleg_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 21 |
+| non qualifiée | 22 |
 | majeure | 21 |
-| critique | 14 |
+| critique | 15 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -516,6 +524,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A060 [faible] — portrait social utile ; éviter seulement l’anecdote décorative
 - S76-A067 [moyen] — éviter de transformer chaque lieu en lieu mythique ; son intérêt tient à sa fonction intermédiaire
 - S76-A021 [faible] — matériau contextuel solide, peu spéculatif
+- S76-A137 [moyen] — architecture et intensité invitent à une sursymbolisation gothique
 
 ## 15. Lacunes et prochaines vérifications
 

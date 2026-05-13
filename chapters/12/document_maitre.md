@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:59:23"
+generated_at: "2026-05-13T17:09:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 124 |
+| Atomes | 131 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 39 |
-| Événements chronologiques | 30 |
-| Personnes | 17 |
+| Citations | 42 |
+| Événements chronologiques | 32 |
+| Personnes | 19 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
 
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 40 | 25 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 47 | 28 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -308,6 +308,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q135** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q138** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q112** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -318,8 +321,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q124** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q019** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
-- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -338,6 +339,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S76-1979-026 — S76 clôt 1979 sur le dernier réveillon de Ian Curtis, en le présentant comme seuil rétrospectif avant la tournée européenne et la reprise de la relation avec Annik Honoré.
 - CHR-S76-1980-001 — À Amsterdam, pendant la tournée européenne de Joy Division, Annik Honoré rapporte que sa relation avec Ian Curtis reprend et devient assumée comme relation amoureuse durable dans sa mémoire.
 - CHR-S76-1977-002 — Ian et Deborah Curtis s’installent à Barton Street, Macclesfield, peu avant le premier concert de Warsaw.
+- CHR-S76-1980-002 — Joy Division enregistre aux Pennine Sound Studios une première version de « Love Will Tear Us Apart », avec « These Days » et « The Sound of Music ». La session précède la version canonique ultérieure et documente un état encore insatisfaisant de la chanson.
+- CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
 - CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
 - CHR-S76-1978-019 — Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.
 - CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
@@ -362,6 +365,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-053 — Mark Reeder
 - PERS-S76-054 — Alan Wise
 - PERS-S76-055 — Dr David Holmes
+- PERS-S76-070 — Annik Honoré
+- PERS-S76-072 — Martin Hannett
 - PERS-S76-067 — Annik Honoré
 - PERS-S76-069 — Martin Hannett
 - PERS-S76-009 — Deborah Woodruff / Deborah Curtis
@@ -470,10 +475,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
-- épilepsie (8)
+- épilepsie (9)
 - Ian Curtis (7)
+- Annik Honoré (7)
 - Deborah Curtis (5)
-- Annik Honoré (5)
+- fatigue (4)
 - Natalie Curtis (4)
 - She’s Lost Control (3)
 - Unknown Pleasures (3)
@@ -485,7 +491,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Macclesfield (2)
 - Hope & Anchor (2)
 - crise épileptique (2)
-- fatigue (2)
 - paroles (2)
 - paternité (2)
 - New Dawn Fades (2)
@@ -493,6 +498,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Martin Hannett (2)
 - Lindsay Reade (2)
 - Barton Street (2)
+- Belgique (2)
 - Debbie Curtis (2)
 - David Lewis Centre (2)
 - handicap (2)
@@ -500,16 +506,15 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Dead Souls (2)
 - Sordide Sentimental (2)
 - European tour (2)
+- Amsterdam (2)
+- Love Will Tear Us Apart (2)
+- version Pennine (2)
 - Bowie (1)
 - Jim Morrison (1)
 - mort jeune (1)
 - romantisme rock (1)
 - dead fly dance (1)
 - performance live (1)
-- corps scénique (1)
-- méprise critique (1)
-- Phenobarbital (1)
-- Dilantin (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -606,6 +611,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | controverse_biographique | 3 |
 | prudence_methodologique | 3 |
 | tension_biographique | 3 |
+| lecture_chanson | 3 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
 | santé | 2 |
@@ -619,7 +625,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | idee_directrice | 2 |
 | scene_medicale | 2 |
 | contexte_intime | 2 |
-| lecture_chanson | 2 |
+| session_studio | 2 |
 | song | 2 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
@@ -686,24 +692,28 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | temoignages_medicaux | 1 |
 | controverse_medicale | 1 |
 | bascule_live | 1 |
-| session_studio | 1 |
 | scene_intime | 1 |
 | scene_intime_europeenne | 1 |
 | micro_scene_relationnelle | 1 |
 | contraste_biographique | 1 |
 | scene_de_transition | 1 |
 | contexte_biographique | 1 |
+| bascule_tournee | 1 |
+| concert_archive | 1 |
+| concert_europeen | 1 |
 | memoire | 1 |
 | tv_session | 1 |
 | release_or_session | 1 |
+| song_session | 1 |
+| live_set_bootleg_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 68 |
-| critique | 44 |
-| majeure | 12 |
+| non qualifiée | 70 |
+| critique | 48 |
+| majeure | 13 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -763,6 +773,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A071 [eleve] — risque de transformer tout écart biographique en signe avant-coureur ; conserver la prudence anti-téléologique
 - S76-A028 [moyen] — risque de projeter sur Barton Street la fin de 1980 dès 1977
 - S76-A031 [eleve] — risque majeur de causalité médicale unique et de psychologisation
+- S76-A133 [eleve] — risque de téléologie biographique ; la tournée est un faisceau d’expansion, de fatigue et d’intime, non un destin
+- S76-A134 [moyen] — ne pas lire la version Pennine uniquement à partir de la version finale ; elle documente un état de recherche
+- S76-A135 [moyen] — la richesse bootleg et la mémoire intime peuvent gonfler la signification vécue de l’événement
+- S76-A136 [moyen] — dates européennes parfois confuses ; vérifier lieux, setlists et témoins
 
 ## 15. Lacunes et prochaines vérifications
 
