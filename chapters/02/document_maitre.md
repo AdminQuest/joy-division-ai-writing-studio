@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -24,10 +24,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 |---|---|
 | Atomes | 188 |
 | Atomes critiques / majeurs | 30 |
-| Citations | 4 |
-| Événements chronologiques | 2 |
-| Personnes | 3 |
-| Chansons | 0 |
+| Citations | 7 |
+| Événements chronologiques | 7 |
+| Personnes | 8 |
+| Chansons | 5 |
 | Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
@@ -43,7 +43,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 15 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 18 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 15 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 15 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -277,9 +277,17 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S41-Q002** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « X Factor for punks »
 - **S41-Q003** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « get rid of this Nazi artwork »
 - **S41-Q008** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "stabilisee"}` — « a turkey »
+- **S75-Q003** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q004** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-1976-002 — Second concert des Sex Pistols à Manchester, identifié par Ott comme un choc plus direct pour Ian Curtis que le premier concert du 4 juin 1976.
+- CHR-1977-001 — Session de démos de Warsaw à Pennine Sound, utilisée par Ott pour documenter l'amateurisme technique et la valeur empirique des premières traces sonores.
+- CHR-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.
+- CHR-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
+- CHR-1978-004 — Repressage / remastering 12 pouces de *An Ideal for Living*, lu par Ott comme correction partielle du mauvais rendu sonore initial du 7 pouces.
 - CHR-1976-001 — Concert des Sex Pistols au Lesser Free Trade Hall de Manchester.
 - CHR-1978-001 — Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.
 
@@ -288,10 +296,19 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - PERS-002 — Peter Hook
 - PERS-003 — Bernard Sumner
 - PERS-004 — Stephen Morris
+- PERS-013 — Chris Ott
+- PERS-014 — Paul Morley
+- PERS-015 — Steve Brotherdale
+- PERS-003-S75 — Bernard Sumner
+- PERS-004-S75 — Stephen Morris
 
 ## 10. Chansons rattachées
 
-- Aucune chanson rattachée.
+- SONG-S75-001 — No Love Lost
+- SONG-S75-002 — At a Later Date
+- SONG-S75-004 — Warsaw
+- SONG-S75-005 — Failures
+- SONG-S75-006 — Gutz
 
 ## 11. Concepts récurrents
 

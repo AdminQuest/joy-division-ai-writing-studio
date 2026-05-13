@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -24,7 +24,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|
 | Atomes | 68 |
 | Atomes critiques / majeurs | 4 |
-| Citations | 7 |
+| Citations | 8 |
 | Événements chronologiques | 2 |
 | Personnes | 2 |
 | Chansons | 1 |
@@ -40,7 +40,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -193,6 +193,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S47-Q010** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a unique partnership. »
 - **S47-Q011** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the death cult that has grown up around Ian Curtis. »
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
+- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 

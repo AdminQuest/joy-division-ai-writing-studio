@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -26,7 +26,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Atomes critiques / majeurs | 14 |
 | Citations | 0 |
 | Événements chronologiques | 0 |
-| Personnes | 0 |
+| Personnes | 1 |
 | Chansons | 0 |
 | Sources mobilisées | 5 |
 
@@ -124,7 +124,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 9. Personnes et acteurs
 
-- Aucune personne rattachée.
+- PERS-003-S75 — Bernard Sumner
 
 ## 10. Chansons rattachées
 

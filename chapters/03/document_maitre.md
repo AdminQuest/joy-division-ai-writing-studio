@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -24,10 +24,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 |---|---|
 | Atomes | 139 |
 | Atomes critiques / majeurs | 11 |
-| Citations | 7 |
+| Citations | 8 |
 | Événements chronologiques | 2 |
-| Personnes | 5 |
-| Chansons | 1 |
+| Personnes | 7 |
+| Chansons | 2 |
 | Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
@@ -43,7 +43,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -242,6 +242,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q008** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "stabilisee"}` — « a turkey »
+- **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -255,10 +256,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - PERS-004 — Stephen Morris
 - PERS-008 — Martin Hannett
 - PERS-012 — John Brierley
+- PERS-013 — Chris Ott
+- PERS-004-S75 — Stephen Morris
 
 ## 10. Chansons rattachées
 
 - Transmission
+- SONG-S75-001 — No Love Lost
 
 ## 11. Concepts récurrents
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -25,7 +25,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Atomes | 51 |
 | Atomes critiques / majeurs | 2 |
 | Citations | 0 |
-| Événements chronologiques | 0 |
+| Événements chronologiques | 2 |
 | Personnes | 0 |
 | Chansons | 0 |
 | Sources mobilisées | 5 |
@@ -154,7 +154,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 8. Chronologie rattachée
 
-- Aucun événement chronologique rattaché.
+- CHR-1977-001 — Session de démos de Warsaw à Pennine Sound, utilisée par Ott pour documenter l'amateurisme technique et la valeur empirique des premières traces sonores.
+- CHR-1978-004 — Repressage / remastering 12 pouces de *An Ideal for Living*, lu par Ott comme correction partielle du mauvais rendu sonore initial du 7 pouces.
 
 ## 9. Personnes et acteurs
 

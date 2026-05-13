@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -24,10 +24,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | Atomes | 464 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 18 |
+| Citations | 21 |
 | Événements chronologiques | 4 |
-| Personnes | 9 |
-| Chansons | 4 |
+| Personnes | 12 |
+| Chansons | 5 |
 | Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
@@ -44,7 +44,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 53 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 5 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 5 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -302,6 +302,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S41-Q003** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « get rid of this Nazi artwork »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q009** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_verifier", "pagination_papier": "a_completer", "pagination_pdf": "a_verifier", "traduction": "a_stabiliser"}` — « that was Joy Division becoming New Order »
+- **S75-Q001** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q003** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -321,6 +324,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-008 — Martin Hannett
 - PERS-009 — Peter Saville
 - PERS-010 — Annick Honoré
+- PERS-013 — Chris Ott
+- PERS-014 — Paul Morley
+- PERS-016 — Bedhead
 
 ## 10. Chansons rattachées
 
@@ -328,6 +334,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Atmosphere
 - Decades
 - Ceremony
+- SONG-S75-003 — Disorder
 
 ## 11. Concepts récurrents
 

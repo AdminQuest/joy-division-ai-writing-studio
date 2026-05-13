@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -25,9 +25,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Atomes | 133 |
 | Atomes critiques / majeurs | 20 |
 | Citations | 6 |
-| Événements chronologiques | 0 |
+| Événements chronologiques | 2 |
 | Personnes | 1 |
-| Chansons | 5 |
+| Chansons | 7 |
 | Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
@@ -263,7 +263,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 8. Chronologie rattachée
 
-- Aucun événement chronologique rattaché.
+- CHR-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.
+- CHR-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
 
 ## 9. Personnes et acteurs
 
@@ -276,6 +277,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Disorder
 - Love Will Tear Us Apart
 - Decades
+- SONG-S75-002 — At a Later Date
+- SONG-S75-006 — Gutz
 
 ## 11. Concepts récurrents
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -26,7 +26,7 @@ generated_at: "2026-05-13T10:22:39"
 | Atomes critiques / majeurs | 7 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
-| Personnes | 0 |
+| Personnes | 1 |
 | Chansons | 0 |
 | Sources mobilisées | 9 |
 
@@ -163,7 +163,7 @@ generated_at: "2026-05-13T10:22:39"
 
 ## 9. Personnes et acteurs
 
-- Aucune personne rattachée.
+- PERS-003-S75 — Bernard Sumner
 
 ## 10. Chansons rattachées
 

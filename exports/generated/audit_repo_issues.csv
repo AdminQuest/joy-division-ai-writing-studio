@@ -8469,3 +8469,18 @@ warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing requir
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/greig_strong/source.md,S69-A020,Invalid value for type_unite: synthese,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q001,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q001,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q001,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q002,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q002,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q002,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q003,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q003,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q003,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q004,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q004,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q004,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q005,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q005,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q005,Missing required field: statut_verification,Compléter le champ obligatoire.

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -25,7 +25,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Atomes | 189 |
 | Atomes critiques / majeurs | 21 |
 | Citations | 10 |
-| Événements chronologiques | 2 |
+| Événements chronologiques | 3 |
 | Personnes | 8 |
 | Chansons | 3 |
 | Sources mobilisées | 9 |
@@ -267,6 +267,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ## 8. Chronologie rattachée
 
+- CHR-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
 - CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
 

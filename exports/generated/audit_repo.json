@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-13T10:22:33",
+  "generated_at": "2026-05-13T11:01:43",
   "summary": {
-    "records_total": 1282,
+    "records_total": 1304,
     "records_by_kind": {
-      "quote": 86,
+      "quote": 91,
       "atom": 915,
-      "chronology": 165,
+      "chronology": 170,
       "metadata": 18,
       "source": 56,
-      "song": 8,
+      "song": 14,
       "quote_batch": 1,
       "rules": 1,
       "motif": 6,
-      "person": 12,
+      "person": 18,
       "concept": 6,
       "myth": 8
     },
-    "diagnostics_total": 8470,
+    "diagnostics_total": 8485,
     "errors": 0,
-    "warnings": 8470,
+    "warnings": 8485,
     "sources_declared_in_registre_json": 18,
     "sources_used_in_records": 11,
     "sources_exported": 11,
@@ -28,16 +28,16 @@
   },
   "records_by_kind": {
     "atom": 915,
-    "chronology": 165,
+    "chronology": 170,
     "concept": 6,
     "metadata": 18,
     "motif": 6,
     "myth": 8,
-    "person": 12,
-    "quote": 86,
+    "person": 18,
+    "quote": 91,
     "quote_batch": 1,
     "rules": 1,
-    "song": 8,
+    "song": 14,
     "source": 56
   },
   "records_by_source": {
@@ -105,26 +105,30 @@
     },
     "S75": {
       "atom": 20,
-      "metadata": 1
+      "metadata": 1,
+      "song": 6,
+      "quote": 5,
+      "person": 6,
+      "chronology": 5
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 106,
-    "Chapitre 10": 77,
-    "Chapitre 11": 158,
-    "Chapitre 12": 83,
-    "Chapitre 13": 41,
-    "Chapitre 14": 506,
-    "Chapitre 2": 210,
-    "Chapitre 3": 170,
-    "Chapitre 4": 92,
-    "Chapitre 5": 224,
+    "Chapitre 1": 107,
+    "Chapitre 10": 79,
+    "Chapitre 11": 162,
+    "Chapitre 12": 84,
+    "Chapitre 13": 42,
+    "Chapitre 14": 513,
+    "Chapitre 2": 228,
+    "Chapitre 3": 174,
+    "Chapitre 4": 95,
+    "Chapitre 5": 225,
     "Chapitre 6": 167,
-    "Chapitre 7": 82,
-    "Chapitre 8": 66,
+    "Chapitre 7": 84,
+    "Chapitre 8": 68,
     "Chapitre 9": 197,
     "Tous chapitres": 1,
-    "méthode générale": 1
+    "méthode générale": 3
   },
   "top_files_by_record_count": [
     [
@@ -250,7 +254,7 @@
   ],
   "issue_categories": {
     "invalid_controlled_value": 731,
-    "missing_required_field": 172,
+    "missing_required_field": 187,
     "schema_warning": 21,
     "v2_migration_debt": 7546
   },
@@ -372,8 +376,8 @@
       15
     ],
     [
-      "sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996_part5.md",
-      13
+      "registers/quotes/s75_ott_quotes.md",
+      15
     ]
   ],
   "blocking_errors": [],
@@ -640,11 +644,15 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 21,
+        "records": 43,
         "atoms": 20,
-        "quotes": 0,
-        "chronology": 0,
+        "quotes": 5,
+        "chronology": 5,
         "files": [
+          "registers/chronology/s75_ott_chronology.md",
+          "registers/people/s75_ott_people.md",
+          "registers/quotes/s75_ott_quotes.md",
+          "registers/songs/s75_ott_songs.md",
           "sources/ott_unknown_pleasures/README.md",
           "sources/ott_unknown_pleasures/source_part_01.md"
         ]
@@ -68411,6 +68419,126 @@
       "record_id": "S69-A020",
       "message": "Invalid value for type_unite: synthese",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q001",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q001",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q002",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q002",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q003",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q003",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q004",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q004",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q005",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q005",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "record_id": "S75-Q005",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
     }
   ]
 }

@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-05-13T10:22:26",
+  "generated_at": "2026-05-13T11:01:36",
   "status": "warning",
   "summary": {
-    "records_total": 1282,
+    "records_total": 1304,
     "records_by_kind": {
-      "quote": 86,
+      "quote": 91,
       "atom": 915,
-      "chronology": 165,
+      "chronology": 170,
       "metadata": 18,
       "source": 56,
-      "song": 8,
+      "song": 14,
       "quote_batch": 1,
       "rules": 1,
       "motif": 6,
-      "person": 12,
+      "person": 18,
       "concept": 6,
       "myth": 8
     },
-    "diagnostics_total": 8470,
+    "diagnostics_total": 8485,
     "errors": 0,
-    "warnings": 8470,
+    "warnings": 8485,
     "sources_declared_in_registre_json": 18,
     "sources_used_in_records": 11,
     "sources_exported": 11,
@@ -283,11 +283,15 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 21,
+        "records": 43,
         "atoms": 20,
-        "quotes": 0,
-        "chronology": 0,
+        "quotes": 5,
+        "chronology": 5,
         "files": [
+          "registers/chronology/s75_ott_chronology.md",
+          "registers/people/s75_ott_people.md",
+          "registers/quotes/s75_ott_quotes.md",
+          "registers/songs/s75_ott_songs.md",
           "sources/ott_unknown_pleasures/README.md",
           "sources/ott_unknown_pleasures/source_part_01.md"
         ]
@@ -51114,6 +51118,96 @@
       "file": "sources/greig_strong/source.md",
       "message": "Invalid value for type_unite: synthese",
       "record_id": "S69-A020"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S75-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S75-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S75-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S75-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S75-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S75-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S75-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S75-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S75-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S75-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S75-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S75-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S75-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S75-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s75_ott_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S75-Q005"
     }
   ]
 }

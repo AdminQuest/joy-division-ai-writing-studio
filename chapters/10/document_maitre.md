@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -26,8 +26,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Atomes critiques / majeurs | 1 |
 | Citations | 1 |
 | Événements chronologiques | 1 |
-| Personnes | 4 |
-| Chansons | 3 |
+| Personnes | 5 |
+| Chansons | 4 |
 | Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
@@ -170,12 +170,14 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-005 — Deborah Curtis
 - PERS-010 — Annick Honoré
 - PERS-011 — Natalie Curtis
+- PERS-016 — Bedhead
 
 ## 10. Chansons rattachées
 
 - Love Will Tear Us Apart
 - Atmosphere
 - Decades
+- SONG-S75-003 — Disorder
 
 ## 11. Concepts récurrents
 

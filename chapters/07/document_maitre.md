@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -26,8 +26,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Atomes critiques / majeurs | 12 |
 | Citations | 3 |
 | Événements chronologiques | 3 |
-| Personnes | 3 |
-| Chansons | 1 |
+| Personnes | 4 |
+| Chansons | 2 |
 | Sources mobilisées | 7 |
 
 ## 4. Sources mobilisées
@@ -195,10 +195,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - PERS-004 — Stephen Morris
 - PERS-008 — Martin Hannett
 - PERS-012 — John Brierley
+- PERS-016 — Bedhead
 
 ## 10. Chansons rattachées
 
 - She's Lost Control
+- SONG-S75-003 — Disorder
 
 ## 11. Concepts récurrents
 

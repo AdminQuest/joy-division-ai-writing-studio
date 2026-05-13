@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T10:22:39"
+generated_at: "2026-05-13T11:01:48"
 ```
 
 ## 1. Fonction du chapitre
@@ -24,10 +24,10 @@ generated_at: "2026-05-13T10:22:39"
 |---|---|
 | Atomes | 81 |
 | Atomes critiques / majeurs | 20 |
-| Citations | 5 |
+| Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
-| Chansons | 2 |
+| Chansons | 4 |
 | Sources mobilisées | 7 |
 
 ## 4. Sources mobilisées
@@ -40,7 +40,7 @@ generated_at: "2026-05-13T10:22:39"
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -217,6 +217,7 @@ generated_at: "2026-05-13T10:22:39"
 - **S45-Q002** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « voted Conservative »
 - **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
+- **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -234,6 +235,8 @@ generated_at: "2026-05-13T10:22:39"
 
 - She's Lost Control
 - Love Will Tear Us Apart
+- SONG-S75-001 — No Love Lost
+- SONG-S75-006 — Gutz
 
 ## 11. Concepts récurrents
 
