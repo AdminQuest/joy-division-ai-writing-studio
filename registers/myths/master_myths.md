@@ -222,3 +222,149 @@ chapitres:
 atomes_lies: []
 relations: []
 ```
+
+---
+
+# MYTH-006 — Le génie immédiat de Joy Division
+
+```yaml
+id: MYTH-006
+
+nom: Le génie immédiat de Joy Division
+
+statut:
+  type: mythe_esthetique
+  niveau_risque: moyen
+  utilite_narrative: forte
+  solidite_factuelle: faible
+
+noyau_factuel: >
+  Les premiers enregistrements contiennent déjà des indices de différenciation,
+  notamment dans certains choix rythmiques, textuels ou sonores.
+
+construction_mythique: >
+  La réception postérieure peut transformer ces indices en preuve d'une forme
+  déjà pleinement constituée dès les premières démos de Warsaw.
+
+risque_interpretatif:
+  - téléologie esthétique
+  - effacement de l'apprentissage
+  - effacement des échecs techniques
+  - héroïsation rétrospective des débuts
+
+usage_recommande: >
+  Montrer les seuils, les hésitations et les ratés qui précèdent la forme Joy Division,
+  au lieu de postuler un génie immédiatement constitué.
+
+chapitres:
+  - Chapitre 2
+  - Chapitre 3
+
+atomes_lies:
+  - S75-A009
+  - S75-A010
+  - S75-A012
+  - S75-A015
+
+relations:
+  - type: nuance
+    cible: CONCEPT-005
+  - type: nuance
+    cible: MOTIF-006
+```
+
+---
+
+# MYTH-007 — L’imagerie nazie comme fascination fasciste
+
+```yaml
+id: MYTH-007
+
+nom: L’imagerie nazie comme fascination fasciste
+
+statut:
+  type: mythe_controverse
+  niveau_risque: critique
+  utilite_narrative: forte
+  solidite_factuelle: partielle
+
+noyau_factuel: >
+  Warsaw et les débuts de Joy Division mobilisent des références à la Seconde Guerre mondiale,
+  au nazisme, à Rudolf Hess et à l'expression « Joy Division » elle-même.
+
+construction_mythique: >
+  La réception peut rabattre ces références soit sur une fascination fasciste simple,
+  soit à l'inverse sur une provocation innocente dépourvue d'enjeu politique ou moral.
+
+risque_interpretatif:
+  - condamnation sans contextualisation
+  - excuse romantique
+  - apologie involontaire
+  - confusion entre intention, image et réception
+  - effacement du caractère éthiquement litigieux des objets
+
+usage_recommande: >
+  Contextualiser les références sans les excuser : distinguer culture punk du choc,
+  stratégie de provocation, immaturité politique, réception différée et charge morale des images.
+
+chapitres:
+  - Chapitre 2
+  - Chapitre 5
+  - Chapitre 11
+
+atomes_lies:
+  - S75-A013
+  - S75-A016
+  - S75-A017
+  - S75-A018
+
+relations:
+  - type: prolonge
+    cible: MOTIF-005
+  - type: requiert
+    cible: CONCEPT-004
+```
+
+---
+
+# MYTH-008 — Stiff Kittens comme origine constituée
+
+```yaml
+id: MYTH-008
+
+nom: Stiff Kittens comme origine constituée
+
+statut:
+  type: micro_mythe_de_formation
+  niveau_risque: faible
+  utilite_narrative: moyenne
+  solidite_factuelle: faible
+
+noyau_factuel: >
+  Le nom Stiff Kittens circule autour des débuts du groupe, probablement comme
+  plaisanterie ou suggestion externe associée à Richard Boon et Pete Shelley.
+
+construction_mythique: >
+  La mémoire fanique et critique peut traiter ce nom comme une identité de groupe
+  plus constituée qu'elle ne semble l'avoir été.
+
+risque_interpretatif:
+  - survalorisation d'une anecdote
+  - confusion entre étiquette imposée et identité choisie
+  - rigidification d'une plaisanterie en fait historique
+
+usage_recommande: >
+  Utiliser Stiff Kittens comme indice de la lutte pour la nomination, non comme
+  véritable identité fondatrice.
+
+chapitres:
+  - Chapitre 2
+
+atomes_lies:
+  - S75-A006
+  - S75-A017
+
+relations:
+  - type: nuance
+    cible: MOTIF-006
+```
