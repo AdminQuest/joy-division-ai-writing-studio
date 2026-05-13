@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:23:12"
+generated_at: "2026-05-13T15:10:17"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 502 |
+| Atomes | 509 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 35 |
-| Événements chronologiques | 16 |
-| Personnes | 27 |
+| Citations | 39 |
+| Événements chronologiques | 17 |
+| Personnes | 30 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 8 | 8 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 15 | 12 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -314,6 +314,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q038** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q041** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q044** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_sensible` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -335,6 +339,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-1980-002 — Dernier concert officiel de Joy Division à Birmingham University.
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
 - CHR-1980-004 — Sortie posthume de l’album Closer.
+- CHR-S76-1978-003 — Joy Division participe au Stiff Test / Chiswick Challenge à Rafters ; The Negatives contribuent à retarder le passage du groupe, Bob Dickinson est frappé par son énergie négative, Rob Gretton décide de le manager, et Curtis interpelle violemment Tony Wilson après le set.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
 - CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
@@ -365,6 +370,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-012 — Kevin Cummins
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-004 — Carole Curtis
+- PERS-S76-027 — Rob Gretton
+- PERS-S76-030 — John The Postman
+- PERS-S76-031 — Steven Morrissey
 - PERS-S75-032 — Annik Honoré
 - PERS-S75-034 — Bob Krasnow
 - PERS-S75-036 — Jean-Pierre Turmel
@@ -475,6 +483,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - transition (3)
 - Wilson (3)
 - indépendance (3)
+- Rabid Records (3)
 - épilepsie (2)
 - Unknown Pleasures (2)
 - presse musicale (2)
@@ -504,10 +513,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - télévision régionale (2)
 - Factory Club (2)
 - silence (2)
+- DIY (2)
 - pochette (2)
-- Lindsay Reade (2)
-- Jim Morrison (1)
-- mort jeune (1)
+- Tosh Ryan (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -602,28 +610,28 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception | 28 |
 | non qualifié | 13 |
 | memoire | 12 |
-| discographie | 10 |
+| discographie | 11 |
 | reception_poll | 10 |
 | objet_discographique | 9 |
 | archive | 9 |
 | production | 8 |
 | contrepoint | 8 |
 | synthese | 8 |
+| scene_fondatrice | 8 |
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
 | fait | 7 |
 | reception_critique | 6 |
-| scene_fondatrice | 6 |
 | lecture | 6 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
+| controverse | 5 |
 | citation_repere | 5 |
 | management | 4 |
 | projet_avorte | 4 |
 | fait_interprete | 4 |
 | mythe | 4 |
-| controverse | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | acteur_critique | 4 |
@@ -804,6 +812,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | session_transition | 1 |
 | temoignage | 1 |
 | analyse_studio | 1 |
+| ecosysteme | 1 |
+| mythe_nomination | 1 |
+| economie_discographique | 1 |
 | cadrage_source | 1 |
 | controverse_historiographique | 1 |
 | lecture_culturelle | 1 |
@@ -831,7 +842,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 421 |
-| critique | 54 |
+| critique | 61 |
 | majeure | 23 |
 | structurante | 2 |
 | moyenne | 2 |

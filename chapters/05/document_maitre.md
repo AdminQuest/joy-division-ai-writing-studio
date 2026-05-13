@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:23:12"
+generated_at: "2026-05-13T15:10:17"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 196 |
-| Atomes critiques / majeurs | 28 |
-| Citations | 14 |
-| Événements chronologiques | 5 |
-| Personnes | 16 |
+| Atomes | 207 |
+| Atomes critiques / majeurs | 35 |
+| Citations | 26 |
+| Événements chronologiques | 9 |
+| Personnes | 22 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 4 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 14 | 16 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -89,20 +89,34 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_historiographique` ; importance : `critique` ; preuve : `memoire_familiale_et_temoignage_ami`.
 - **S76-A029** — S76-A029 — Stiff Kittens devient Warsaw : refus du punk mimétique et désir d’obscurité  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `mythe_nomination` ; importance : `critique` ; preuve : `temoignages_et_reconstruction`.
+- **S76-A035** — S76-A035 — Salford Technical College : violence de scène et première apparition probable de Hannett  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `evenement_corroborable_avec_incertitude_sur_Hannett`.
+- **S76-A036** — S76-A036 — Music Force, Rabid Records et la préhistoire de Factory  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `ecosysteme` ; importance : `critique` ; preuve : `synthese_biographique_et_temoignages`.
+- **S76-A039** — S76-A039 — Boxing Day 1977 : deuxième Pennine Sound et genèse d’*An Ideal For Living*  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `production` ; importance : `critique` ; preuve : `evenement_discographique_corroborable`.
+- **S76-A040** — S76-A040 — De Warsaw à Joy Division : nom, Warsaw Pakt et Ka-Tzetnik  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `mythe_nomination` ; importance : `critique` ; preuve : `temoignages_et_reconstruction_historique`.
+- **S76-A041** — S76-A041 — *An Ideal For Living* : Enigma, distribution incertaine et pochette Hitler Youth  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `discographie` ; importance : `critique` ; preuve : `evenement_discographique_corroborable_et_temoignage`.
+- **S76-A042** — S76-A042 — Pip’s, 25 janvier 1978 : première apparition Joy Division et division du public  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_multiples`.
+- **S76-A043** — S76-A043 — Début 1978 : crise de réputation, soupçon nazi et isolement local  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_et_contexte_historique`.
+- **S76-A044** — S76-A044 — Bowdon Vale et Stiff Test / Chiswick Challenge : concours, humiliation et sérieux de Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_croises`.
+- **S76-A045** — S76-A045 — Rafters : Bob Dickinson, énergie négative et conversion de Rob Gretton  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignages_directs`.
+- **S76-A046** — S76-A046 — Rabid refuse l’iconographie mais distribue *An Ideal For Living*  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `economie_discographique` ; importance : `critique` ; preuve : `temoignages_Lawrence_Beedle_et_reconstruction`.
+- **S76-A047** — S76-A047 — Curtis contre Tony Wilson : injure, frustration et accès à la télévision  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignages_croises_Wilson_Mason`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A038** — S74-A038 — Strawberry Studios : Unknown Pleasures comme investissement disproportionné  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A051** — S74-A051 — Gretton, Sordide Sentimentale et l’émotion managériale devant « Dead Souls » et « Atmosphere »  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_affectif` ; importance : `majeure` ; preuve : `temoignage_direct_auteur`.
-- **S75-A028** — S75-A028 — Granada TV et l’image industrielle comme mauvais miroir  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A032** — S75-A032 — Kevin Cummins et le contre-portrait de Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S76-A013** — S76-A013 — Cabaret, Berlin et la médiation glam du germanisme culturel  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_culturelle` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_temoin`.
 
 ## 6. Autres atomes utiles
 
@@ -281,6 +295,18 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
 - **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q033** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q034** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q035** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q037** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q040** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q041** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q044** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_sensible` — «  »
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
@@ -290,6 +316,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
 - CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
+- CHR-S76-1977-007 — Warsaw joue avec Slaughter & The Dogs et V2 au Salford Technical College ; le concert est marqué par des violences et constitue probablement la première apparition de Martin Hannett devant le groupe.
+- CHR-S76-1977-010 — Warsaw enregistre à Pennine Sound Studios les quatre titres qui formeront *An Ideal For Living* : « Warsaw », « No Love Lost », « Leaders Of Men » et « Failures ».
+- CHR-S76-1978-001 — Le groupe joue pour la première fois sous le nom Joy Division à Pip’s Disco, Manchester.
+- CHR-S76-1978-003 — Joy Division participe au Stiff Test / Chiswick Challenge à Rafters ; The Negatives contribuent à retarder le passage du groupe, Bob Dickinson est frappé par son énergie négative, Rob Gretton décide de le manager, et Curtis interpelle violemment Tony Wilson après le set.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 
 ## 9. Personnes et acteurs
@@ -309,6 +339,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S76-022 — Tony Wilson
 - PERS-S76-012 — Kevin Cummins
 - PERS-S76-004 — Carole Curtis
+- PERS-S76-024 — Martin Hannett
+- PERS-S76-025 — Tosh Ryan
+- PERS-S76-026 — Lawrence Beedle
+- PERS-S76-027 — Rob Gretton
+- PERS-S76-028 — Bob Dickinson
+- PERS-S76-029 — Mark Reeder
 - PERS-S75-036 — Jean-Pierre Turmel
 
 ## 10. Chansons rattachées
@@ -405,14 +441,24 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ### 12.1. Motifs dominants
 
+- Kevin Cummins (3)
 - studio (3)
+- Rabid Records (3)
+- An Ideal For Living (3)
+- Rafters (3)
 - provocation (2)
 - An Ideal for Living (2)
 - réception critique (2)
 - image industrielle (2)
-- Kevin Cummins (2)
 - rejet (2)
 - conflit (2)
+- DIY (2)
+- Martin Hannett (2)
+- Warsaw (2)
+- Tosh Ryan (2)
+- Paul Morley (2)
+- Enigma (2)
+- Rock Against Racism (2)
 - Bowie (2)
 - shock art (1)
 - Throbbing Gristle (1)
@@ -435,16 +481,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Unknown Pleasures sleeve (1)
 - Peter Saville (1)
 - CP 1919 (1)
-- pulsar (1)
-- icône (1)
-- major (1)
-- bruit (1)
-- mauvais son (1)
-- bifurcation (1)
-- northern soul (1)
-- impasse (1)
-- synthétiseur (1)
-- convention rock (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -520,14 +556,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A021 — complète → S74-A019
 - S74-A010 — nuance → MYTH-004
 - S74-A010 — illustre → S74-A011
-- S76-A006 — deconstruit → MYTH-006
-- S76-A006 — requiert → CONCEPT-004
-- S76-A006 — prépare → S76-A011
-- S76-A013 — nuance → MYTH-006
-- S76-A013 — prolonge → S76-A006
-- S76-A013 — requiert → CONCEPT-004
-- S76-A029 — nuance → MYTH-006
-- S76-A029 — prolonge → S76-A013
+- S76-A035 — prolonge → S76-A034
+- S76-A035 — prepare → S76-A036
+- S76-A035 — nuance → MYTH-003
+- S76-A036 — prolonge → S76-A035
+- S76-A036 — corrobore → S68-A010
+- S76-A036 — prepare → S76-A041
+- S76-A039 — prolonge → S76-A032
+- S76-A039 — prepare → S76-A041
 
 ## 13. Distribution documentaire
 
@@ -536,13 +572,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Type | Nombre |
 |---|---|
 | analyse_morceau | 10 |
+| discographie | 8 |
 | objet_discographique | 8 |
 | concept | 8 |
 | analyse | 7 |
-| discographie | 7 |
 | non qualifié | 6 |
 | fait | 6 |
-| production | 4 |
+| production | 5 |
+| scene_fondatrice | 4 |
+| concert | 4 |
 | concept_transversal | 4 |
 | television | 3 |
 | evenement | 3 |
@@ -555,12 +593,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception | 3 |
 | iconographie | 2 |
 | enregistrement | 2 |
-| scene_fondatrice | 2 |
 | objet_merchandising | 2 |
 | objet_factory | 2 |
 | contexte_scene | 2 |
 | industrie_musicale | 2 |
 | paratexte_discographique | 2 |
+| controverse | 2 |
 | economie_factory | 2 |
 | strategie_discographique | 2 |
 | lieu_studio | 2 |
@@ -568,6 +606,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | analyse_studio | 2 |
 | reception_interne | 2 |
 | performance_live | 2 |
+| mythe_nomination | 2 |
 | portrait | 2 |
 | decision_strategique | 2 |
 | transition | 2 |
@@ -595,9 +634,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | dynamique_collective | 1 |
 | sociologie_scene | 1 |
 | réception | 1 |
-| concert | 1 |
 | influence | 1 |
-| controverse | 1 |
 | archive | 1 |
 | archive_visuelle | 1 |
 | objet_visuel | 1 |
@@ -626,9 +663,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | temoignage_affectif | 1 |
 | reception_posthume | 1 |
 | biographie | 1 |
+| ecosysteme | 1 |
+| economie_discographique | 1 |
 | controverse_historiographique | 1 |
 | lecture_culturelle | 1 |
-| mythe_nomination | 1 |
 | contexte_historique | 1 |
 | contexte_materiel | 1 |
 | chronologie | 1 |
@@ -649,7 +687,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 168 |
-| critique | 21 |
+| critique | 32 |
 | majeure | 7 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -679,6 +717,17 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
 - S74-A021 [eleve] — risque de projeter rétrospectivement Joy Division sur un groupe encore instable et embryonnaire
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
+- S76-A035 [moyen] — la présence de Hannett est probable mais le lien causal avec la production ultérieure ne doit pas être forcé
+- S76-A036 [moyen] — la phrase de C. P. Lee sur la chaîne Music Force/Rabid/Factory/Haçienda doit être utilisée comme lecture historiographique, non comme causalité mécanique
+- S76-A039 [moyen] — ne pas surestimer le niveau artistique de la session ; S76 insiste sur le son pauvre et live
+- S76-A040 [tres_eleve] — risque de rabattre le nom sur une sympathie fasciste ou, inversement, de neutraliser la violence référentielle
+- S76-A041 [tres_eleve] — la pochette Hitler Youth doit être analysée dans sa violence symbolique sans conclure automatiquement à une idéologie fasciste
+- S76-A042 [moyen] — risque de transformer une soirée déprimante pour le groupe en triomphe rétrospectif
+- S76-A043 [tres_eleve] — dossier politiquement sensible ; distinguer rumeur, perception, iconographie et position idéologique
+- S76-A044 [moyen] — le conflit avec The Negatives doit être traité comme scène de tension culturelle, non comme simple anecdote
+- S76-A045 [moyen] — scène fortement canonisée ; conserver le contexte tardif et conflictuel
+- S76-A046 [eleve] — dossier sensible ; il faut distinguer décision esthétique, morale, commerciale et distribution
+- S76-A047 [moyen] — scène souvent mythifiée ; ne pas en faire une prophétie automatique de Factory
 - S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
 - S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
 - S76-A029 [eleve] — les noms envisagés, notamment Progrom/Gdansk, peuvent nourrir des lectures politiques rapides

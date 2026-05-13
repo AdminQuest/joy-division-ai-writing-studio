@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:23:12"
+generated_at: "2026-05-13T15:10:17"
 ```
 
 ## 1. Fonction du chapitre
@@ -24,9 +24,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 |---|---|
 | Atomes | 77 |
 | Atomes critiques / majeurs | 24 |
-| Citations | 5 |
+| Citations | 6 |
 | Événements chronologiques | 9 |
-| Personnes | 6 |
+| Personnes | 7 |
 | Chansons | 7 |
 | Sources mobilisées | 8 |
 
@@ -41,7 +41,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 12 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 2 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -209,6 +209,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
 - **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q038** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -230,6 +231,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - PERS-012 — John Brierley
 - PERS-016 — Bedhead
 - PERS-S76-010 — David Bowie
+- PERS-S76-030 — John The Postman
 - PERS-S75-035 — Alan Hempsall
 
 ## 10. Chansons rattachées

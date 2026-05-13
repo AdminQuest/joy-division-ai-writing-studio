@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:23:12"
+generated_at: "2026-05-13T15:10:17"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 41 |
-| Atomes critiques / majeurs | 21 |
+| Atomes | 43 |
+| Atomes critiques / majeurs | 23 |
 | Citations | 3 |
-| Événements chronologiques | 0 |
-| Personnes | 5 |
+| Événements chronologiques | 1 |
+| Personnes | 6 |
 | Chansons | 2 |
 | Sources mobilisées | 6 |
 
@@ -39,7 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 4 | 3 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 6 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -61,6 +61,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S76-A015** — S76-A015 — Rare Records : le disquaire comme matrice de sociabilité musicale  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_culturel` ; importance : `critique` ; preuve : `temoignages_croises`.
+- **S76-A042** — S76-A042 — Pip’s, 25 janvier 1978 : première apparition Joy Division et division du public  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_multiples`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -85,6 +87,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reseau_culturel` ; importance : `majeure` ; preuve : `temoignages_croises`.
 - **S76-A021** — S76-A021 — Salford Grammar, Lambretta et sociabilité pré-Joy Division  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_biographique_temoignage`.
+- **S76-A037** — S76-A037 — Octobre 1977 : Warsaw enchaîne les lieux mais reste périphérique  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `chronologie_scene` ; importance : `majeure` ; preuve : `chronologie_corroborable`.
 
 ## 6. Autres atomes utiles
 
@@ -137,7 +141,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 8. Chronologie rattachée
 
-- Aucun événement chronologique rattaché.
+- CHR-S76-1978-001 — Le groupe joue pour la première fois sous le nom Joy Division à Pip’s Disco, Manchester.
 
 ## 9. Personnes et acteurs
 
@@ -146,6 +150,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - PERS-003-S75 — Bernard Sumner
 - PERS-S76-011 — Mark Reeder
 - PERS-S76-014 — Vini Reilly
+- PERS-S76-031 — Steven Morrissey
 
 ## 10. Chansons rattachées
 
@@ -245,6 +250,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Kevin Cummins (2)
 - club (2)
 - Factory Club (2)
+- Pip’s (2)
+- Roxy Room (2)
 - Mark Reeder (2)
 - Dead Souls (1)
 - fantômes (1)
@@ -277,8 +284,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - digital delay (1)
 - batterie (1)
 - chambre imaginaire (1)
-- isolation sonore (1)
-- visualité du son (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -329,6 +334,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S74-A006 — illustre → CONCEPT-003
 - S74-A011 — nuance → MYTH-003
 - S74-A011 — complète → S74-A002
+- S76-A037 — prolonge → S76-A035
+- S76-A037 — nuance → MYTH-001
+- S76-A037 — prepare → S76-A038
+- S76-A042 — prolonge → S76-A040
+- S76-A042 — nuance → MYTH-001
+- S76-A042 — relie → S76-A021
 - S76-A004 — nuance → MYTH-003
 - S76-A004 — prolonge → S75-A057
 - S76-A004 — requiert → CONCEPT-004
@@ -368,6 +379,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | performance_live | 1 |
 | lieu_transition | 1 |
 | temoignage | 1 |
+| chronologie_scene | 1 |
+| concert | 1 |
 | lieu_culturel | 1 |
 | reseau_culturel | 1 |
 | interpretation | 1 |
@@ -381,8 +394,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 20 |
-| majeure | 12 |
-| critique | 9 |
+| majeure | 13 |
+| critique | 10 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -403,6 +416,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
 - S74-A006 [moyen] — risque de psychologiser Factory à partir de la seule trajectoire sociale de Wilson
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
+- S76-A037 [faible] — atome factuel à haute valeur de cadrage
+- S76-A042 [moyen] — risque de transformer une soirée déprimante pour le groupe en triomphe rétrospectif
 - S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
 - S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe

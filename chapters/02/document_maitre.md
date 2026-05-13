@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:23:12"
+generated_at: "2026-05-13T15:10:17"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 218 |
+| Atomes | 226 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 28 |
-| Événements chronologiques | 23 |
+| Citations | 30 |
+| Événements chronologiques | 30 |
 | Personnes | 27 |
 | Chansons | 6 |
 | Sources mobilisées | 11 |
@@ -44,7 +44,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 18 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 5 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 20 | 19 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 28 | 21 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -311,6 +311,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q030** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q032** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -337,6 +339,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - CHR-S75-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
 - CHR-1976-001 — Concert des Sex Pistols au Lesser Free Trade Hall de Manchester.
 - CHR-1978-001 — Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.
+- CHR-S76-1977-007 — Warsaw joue avec Slaughter & The Dogs et V2 au Salford Technical College ; le concert est marqué par des violences et constitue probablement la première apparition de Martin Hannett devant le groupe.
+- CHR-S76-1977-008 — Warsaw joue son premier concert en tête d’affiche à Manchester Polytechnic, avec un véritable système de sonorisation selon Terry Mason.
+- CHR-S76-1977-009 — Warsaw joue à Pipers, nom de soirée du Cyprus Tavern sur Princess Street, Manchester.
+- CHR-S76-1977-010 — Warsaw enregistre à Pennine Sound Studios les quatre titres qui formeront *An Ideal For Living* : « Warsaw », « No Love Lost », « Leaders Of Men » et « Failures ».
+- CHR-S76-1977-011 — Warsaw joue au Spinning Apple de Liverpool pour le réveillon, avec deux sets et quelques reprises, et reçoit £100.
+- CHR-S76-1978-001 — Le groupe joue pour la première fois sous le nom Joy Division à Pip’s Disco, Manchester.
+- CHR-S76-1978-002 — Joy Division joue à Bowdon Vale Youth Club, dans une période où les dates restent rares.
 - CHR-S76-1968-001 — Autour de douze ans, Ian Curtis organise Treacle Teapot, groupe d’enfance sans véritable équipement mais déjà orienté vers l’idée de scène.
 
 ## 9. Personnes et acteurs
@@ -465,15 +474,18 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ### 12.1. Motifs dominants
 
+- Warsaw (5)
 - Sex Pistols (4)
 - provocation (4)
 - Electric Circus (4)
 - Bowie (4)
 - bootleg (3)
-- Warsaw (3)
 - Gretton (3)
 - Salford (3)
+- Enigma (3)
+- Kevin Cummins (3)
 - domesticité (3)
+- Paul Morley (3)
 - Manchester (2)
 - Londres (2)
 - punk (2)
@@ -484,6 +496,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - stabilisation (2)
 - Throbbing Gristle (2)
 - Short Circuit (2)
+- Warsaw Pakt (2)
+- Joy Division (2)
 - House of Dolls (2)
 - An Ideal for Living (2)
 - réception critique (2)
@@ -493,18 +507,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - espace (2)
 - Iggy Pop (2)
 - frustration (2)
-- Kevin Cummins (2)
 - premier concert (2)
+- violence punk (2)
+- Pennine Sound Studios (2)
+- An Ideal For Living (2)
+- Pip’s (2)
+- Roxy Room (2)
 - Mark Reeder (2)
-- Vini Reilly (2)
-- Manchester punk (2)
-- Iain Gray (2)
-- Terry Mason (2)
-- auto-suffisance (1)
-- déclencheur (1)
-- inflation mémorielle (1)
-- identité (1)
-- plaisanterie (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -596,10 +605,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Type | Nombre |
 |---|---|
 | fait | 25 |
-| production | 15 |
+| production | 16 |
+| concert | 15 |
 | scene_fondatrice | 15 |
 | chronologie | 14 |
-| concert | 11 |
 | relation | 7 |
 | analyse | 7 |
 | biographie | 7 |
@@ -610,17 +619,18 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | session | 4 |
 | fait_interprete | 4 |
 | interpretation | 4 |
+| discographie | 3 |
 | evenement | 3 |
 | formation_groupe | 3 |
 | contexte | 3 |
 | contexte_social | 3 |
 | reception_presse | 2 |
-| discographie | 2 |
 | changement_nom | 2 |
 | reception | 2 |
 | bootleg | 2 |
 | lieu | 2 |
 | micro_chronologie | 2 |
+| mythe_nomination | 2 |
 | contexte_biographique | 2 |
 | scene_de_transition | 2 |
 | temoignage_interpretatif | 1 |
@@ -664,11 +674,11 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | non qualifié | 1 |
 | anecdote | 1 |
 | temoignage | 1 |
+| chronologie_scene | 1 |
 | lecture_biographique | 1 |
 | lieu_culturel | 1 |
 | reseau_culturel | 1 |
 | nœud_biographique | 1 |
-| mythe_nomination | 1 |
 | contexte_materiel | 1 |
 | anecdote_significative | 1 |
 | contexte_musical | 1 |
@@ -683,8 +693,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 155 |
-| critique | 43 |
-| majeure | 16 |
+| critique | 49 |
+| majeure | 18 |
 | moyenne | 2 |
 | structurante | 2 |
 
@@ -733,6 +743,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S74-A008 [moyen] — risque de transformer So It Goes en cause unique de la médiatisation punk mancunienne
 - S74-A009 [moyen] — risque de surcharger symboliquement une anecdote devenue rétrospectivement célèbre par la présence de Morrissey
 - S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
+- S76-A035 [moyen] — la présence de Hannett est probable mais le lien causal avec la production ultérieure ne doit pas être forcé
+- S76-A037 [faible] — atome factuel à haute valeur de cadrage
+- S76-A038 [faible] — scène prosaïque utile contre la mythologie
+- S76-A039 [moyen] — ne pas surestimer le niveau artistique de la session ; S76 insiste sur le son pauvre et live
+- S76-A040 [tres_eleve] — risque de rabattre le nom sur une sympathie fasciste ou, inversement, de neutraliser la violence référentielle
+- S76-A041 [tres_eleve] — la pochette Hitler Youth doit être analysée dans sa violence symbolique sans conclure automatiquement à une idéologie fasciste
+- S76-A042 [moyen] — risque de transformer une soirée déprimante pour le groupe en triomphe rétrospectif
+- S76-A044 [moyen] — le conflit avec The Negatives doit être traité comme scène de tension culturelle, non comme simple anecdote
 - S76-A008 [moyen] — souvenir d'enfance à valeur surtout narrative, non musicale
 - S76-A011 [moyen] — risque de faire du glam une cause linéaire de la présence scénique de Curtis
 - S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
@@ -742,14 +760,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
 - S76-A021 [faible] — matériau contextuel solide, peu spéculatif
 - S76-A022 [moyen] — risque de reconduire le mythe instantané « voir les Pistols = former Joy Division »
-- S76-A023 [moyen] — risque de faire de Curtis un punk typique alors que Carole nuance cette identité
-- S76-A024 [moyen] — Gray est important pour la généalogie mais ne doit pas être artificiellement centralisé
-- S76-A025 [faible] — scène forte mais clairement située comme souvenir de Mason
-- S76-A026 [faible] — matériau descriptif robuste
-- S76-A027 [moyen] — risque de causalité trop directe entre Iggy et la danse de Curtis
-- S76-A028 [moyen] — risque de projeter sur Barton Street la fin de 1980 dès 1977
-- S76-A029 [eleve] — les noms envisagés, notamment Progrom/Gdansk, peuvent nourrir des lectures politiques rapides
-- S76-A030 [moyen] — risque de transformer un concert hésitant en naissance glorieuse
 
 ## 15. Lacunes et prochaines vérifications
 

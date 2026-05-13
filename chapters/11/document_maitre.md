@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:23:12"
+generated_at: "2026-05-13T15:10:17"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 143 |
-| Atomes critiques / majeurs | 30 |
-| Citations | 8 |
+| Atomes | 145 |
+| Atomes critiques / majeurs | 32 |
+| Citations | 10 |
 | Événements chronologiques | 3 |
-| Personnes | 3 |
+| Personnes | 4 |
 | Chansons | 10 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 5 | 1 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -87,6 +87,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
 - **S76-A031** — S76-A031 — Assistant Disablement Resettlement Officer : travail, handicap et préfiguration de l’épilepsie  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
+- **S76-A040** — S76-A040 — De Warsaw à Joy Division : nom, Warsaw Pakt et Ka-Tzetnik  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `mythe_nomination` ; importance : `critique` ; preuve : `temoignages_et_reconstruction_historique`.
+- **S76-A043** — S76-A043 — Début 1978 : crise de réputation, soupçon nazi et isolement local  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_et_contexte_historique`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -281,6 +285,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
+- **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
@@ -294,6 +300,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - PERS-001 — Ian Curtis
 - PERS-S76-006 — Pete Johnson
+- PERS-S76-029 — Mark Reeder
 - PERS-S75-033 — William S. Burroughs
 
 ## 10. Chansons rattachées
@@ -400,6 +407,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - provocation (4)
 - réception critique (3)
 - Throbbing Gristle (2)
+- Warsaw Pakt (2)
+- Joy Division (2)
 - exclusion (2)
 - manager (2)
 - Goethe (1)
@@ -429,8 +438,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Short Circuit (1)
 - réception différée (1)
 - nom (1)
-- Warsaw Pakt (1)
-- Joy Division (1)
 - House of Dolls (1)
 - éthique (1)
 - An Ideal for Living (1)
@@ -508,17 +515,17 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A015 — complète → S41
 - S74-A017 — se_souvient → S45
 - S74-A017 — nuance → MYTH-002
+- S76-A040 — prolonge → S76-A029
+- S76-A040 — nuance → MYTH-006
+- S76-A040 — relie → S76-A039
+- S76-A040 — relie → SONG-NoLoveLost
+- S76-A043 — prolonge → S76-A041
+- S76-A043 — nuance → MYTH-006
+- S76-A043 — prepare → S76-A044
 - S76-A003 — prolonge → MOTIF-002
 - S76-A003 — nuance → MYTH-003
 - S76-A003 — requiert → CONCEPT-004
 - S76-A007 — prolonge → S76-A004
-- S76-A007 — nuance → MYTH-002
-- S76-A007 — requiert → CONCEPT-004
-- S76-A014 — prolonge → S76-A007
-- S76-A014 — nuance → MYTH-002
-- S76-A014 — prepare → S76-A020
-- S76-A020 — prolonge → S76-A014
-- S76-A020 — prepare → S76-A021
 
 ## 13. Distribution documentaire
 
@@ -529,7 +536,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | analyse | 32 |
 | analyse_morceau | 7 |
 | biographie | 6 |
-| controverse | 4 |
+| controverse | 5 |
 | reception | 3 |
 | interpretation | 3 |
 | interpretation_esthetique | 3 |
@@ -591,6 +598,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | reception_interne | 1 |
 | reception_posthume | 1 |
 | temoignage | 1 |
+| mythe_nomination | 1 |
 | contexte_social | 1 |
 | scene_de_transition | 1 |
 | chanson_contexte | 1 |
@@ -604,7 +612,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 113 |
-| critique | 19 |
+| critique | 21 |
 | majeure | 11 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -634,6 +642,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
 - S74-A015 [eleve] — risque de transformer une hypothèse mémorielle de Sumner en explication totale de Joy Division
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
+- S76-A040 [tres_eleve] — risque de rabattre le nom sur une sympathie fasciste ou, inversement, de neutraliser la violence référentielle
+- S76-A043 [tres_eleve] — dossier politiquement sensible ; distinguer rumeur, perception, iconographie et position idéologique
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 - S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
 - S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études

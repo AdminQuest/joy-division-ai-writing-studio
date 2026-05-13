@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:23:12"
+generated_at: "2026-05-13T15:10:17"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 175 |
+| Atomes | 178 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 13 |
+| Citations | 15 |
 | Événements chronologiques | 12 |
-| Personnes | 11 |
+| Personnes | 14 |
 | Chansons | 17 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 2 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 5 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -295,6 +295,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -323,6 +325,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S75-022 — Martin Rushent
 - PERS-S75-024 — Alan Erasmus
 - PERS-S76-021 — Steve Morris
+- PERS-S76-024 — Martin Hannett
+- PERS-S76-027 — Rob Gretton
+- PERS-S76-028 — Bob Dickinson
 - PERS-S75-034 — Bob Krasnow
 - PERS-S75-037 — Paul Morley
 
@@ -460,6 +465,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Still (2)
 - frustration (2)
 - reconnaissance (2)
+- Martin Hannett (2)
 - distance stéréophonique (1)
 - ventes (1)
 - pauvreté (1)
@@ -472,7 +478,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Bob Krasnow (1)
 - occasion manquée (1)
 - Licht und Blindheit (1)
-- Dead Souls (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -567,14 +572,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | non qualifié | 8 |
 | lecture_musicale | 7 |
 | index_chanson | 7 |
+| concert | 6 |
 | session | 6 |
-| concert | 5 |
 | biographie | 5 |
 | discographie | 5 |
+| scene_fondatrice | 5 |
 | fait_sensible | 5 |
 | analyse | 4 |
 | fait_interprete | 4 |
-| scene_fondatrice | 4 |
 | discographie_album | 3 |
 | evenement_live | 3 |
 | objet_discographique | 3 |
@@ -640,6 +645,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | temoignage_retrospectif | 1 |
 | temoignage_affectif | 1 |
 | reception_interne | 1 |
+| ecosysteme | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
 | discographie_analysee | 1 |
@@ -658,7 +664,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 122 |
-| critique | 39 |
+| critique | 42 |
 | majeure | 14 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -714,6 +720,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S74-A055 [moyen] — risque de faire de la mort de Curtis la cause unique de toutes les mutations ultérieures de Factory
 - S74-A001 [moyen] — risque de romantisation de l’échec économique Factory comme geste esthétique pur
 - S74-A005 [faible] — source proche du témoin, mais portrait fortement stylisé par Middles
+- S76-A035 [moyen] — la présence de Hannett est probable mais le lien causal avec la production ultérieure ne doit pas être forcé
+- S76-A036 [moyen] — la phrase de C. P. Lee sur la chaîne Music Force/Rabid/Factory/Haçienda doit être utilisée comme lecture historiographique, non comme causalité mécanique
+- S76-A045 [moyen] — scène fortement canonisée ; conserver le contexte tardif et conflictuel
 - S76-A026 [faible] — matériau descriptif robuste
 - S76-A033 [faible] — convergence forte des témoignages sur l’importance musicale de Morris
 
