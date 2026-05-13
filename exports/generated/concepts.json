@@ -428,6 +428,70 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-009",
+    "file": "registers/concepts/master_concepts.md",
+    "heading": "CONCEPT-009 — non-monocausalité médicale",
+    "data": {
+      "id": "CONCEPT-009",
+      "nom": "non-monocausalité médicale",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_methodologique",
+          "concept_biographique"
+        ],
+        "stabilite": "stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Principe imposant de traiter l'épilepsie, les crises, les traitements, la fatigue, le stress, la scène et les tensions intimes comme un faisceau de conditions et de perceptions, jamais comme une cause unique de l'œuvre, du comportement ou de la mort de Ian Curtis.\n",
+      "usage_repo": {
+        "fonction": [
+          "encadrer le chapitre sur l'épilepsie et la santé mentale",
+          "éviter la réduction médicale de l'œuvre",
+          "distinguer déclencheurs possibles, diagnostic, traitement, perception sociale et mythologie posthume"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "motifs_associes": [
+        "épilepsie",
+        "stress",
+        "stroboscopes",
+        "fatigue",
+        "traitement",
+        "honte médicale",
+        "perception sociale du handicap"
+      ],
+      "risques": [
+        "causalité unique maladie/suicide",
+        "romantisation du génie malade",
+        "accusation rétrospective de l'entourage",
+        "naturalisation de la souffrance comme source de l'art",
+        "effacement des conditions sociales, médicales et professionnelles"
+      ],
+      "atomes_lies": [
+        "S76-A089",
+        "S76-A090",
+        "S76-A091",
+        "S76-A092",
+        "S76-A093",
+        "S76-A094"
+      ],
+      "concepts_derives": [
+        "faisceau de déclencheurs",
+        "perception sociale de la maladie",
+        "honte médicale",
+        "seuil clinique"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-S75-002",
     "file": "registers/concepts/s75_ott_concepts_part_02.md",
     "heading": "CONCEPT-S75-002 — secret produit en masse",

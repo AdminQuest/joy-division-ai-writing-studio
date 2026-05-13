@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:03:07"
+generated_at: "2026-05-13T16:20:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ generated_at: "2026-05-13T16:03:07"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 129 |
+| Atomes | 136 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 33 |
-| Événements chronologiques | 25 |
-| Personnes | 21 |
+| Citations | 37 |
+| Événements chronologiques | 27 |
+| Personnes | 22 |
 | Chansons | 13 |
 | Sources mobilisées | 8 |
 
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T16:03:07"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 29 | 21 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 36 | 25 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -287,6 +287,10 @@ generated_at: "2026-05-13T16:03:07"
 - **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q089** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q091** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q092** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q093** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -332,6 +336,8 @@ generated_at: "2026-05-13T16:03:07"
 - CHR-S76-1977-001 — Ian et Deborah Curtis assistent au concert d’Iggy Pop à Manchester Apollo pendant la tournée *The Idiot*, avec David Bowie aux claviers.
 - CHR-S76-1977-002 — Ian et Deborah Curtis s’installent à Barton Street, Macclesfield, peu avant le premier concert de Warsaw.
 - CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
+- CHR-S76-1978-019 — Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.
+- CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
@@ -350,6 +356,7 @@ generated_at: "2026-05-13T16:03:07"
 - PERS-005 — Deborah Curtis
 - PERS-010 — Annick Honoré
 - PERS-011 — Natalie Curtis
+- PERS-S76-053 — Mark Reeder
 - PERS-S75-023 — Kevin Cummins
 - PERS-S76-041 — Ian Wood
 - PERS-S76-009 — Deborah Woodruff / Deborah Curtis
@@ -434,6 +441,7 @@ generated_at: "2026-05-13T16:03:07"
 - factory records (2)
 - indépendance (2)
 - mémoire située (2)
+- non-monocausalité médicale (2)
 - mémoire conjugale croisée (2)
 - anti-téléologie (2)
 - tension domesticité-scène (2)
@@ -464,20 +472,20 @@ generated_at: "2026-05-13T16:03:07"
 - geste (1)
 - Paul Morley (1)
 - force (1)
-- présence scénique (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
-- Ian Curtis (6)
-- épilepsie (5)
+- Ian Curtis (7)
+- épilepsie (6)
 - Bowie (4)
 - domesticité (4)
 - Deborah Curtis (3)
 - Macclesfield (3)
 - Wythenshawe (3)
 - Pete Johnson (3)
+- Mark Reeder (3)
 - Mick Middles (2)
 - deification (2)
 - histoire (2)
@@ -493,6 +501,10 @@ generated_at: "2026-05-13T16:03:07"
 - enfance (2)
 - King’s School (2)
 - classe sociale (2)
+- Debbie Curtis (2)
+- Natalie Curtis (2)
+- David Lewis Centre (2)
+- handicap (2)
 - Deborah Woodruff (2)
 - Iggy Pop (2)
 - mariage (2)
@@ -505,11 +517,6 @@ generated_at: "2026-05-13T16:03:07"
 - dead fly dance (1)
 - performance live (1)
 - corps scénique (1)
-- méprise critique (1)
-- Phenobarbital (1)
-- Dilantin (1)
-- lumières blanches (1)
-- Altrincham (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -622,6 +629,7 @@ generated_at: "2026-05-13T16:03:07"
 | mythe | 2 |
 | temoignage | 2 |
 | contexte_social | 2 |
+| tension_biographique | 2 |
 | contexte_intime | 2 |
 | scene_de_transition | 2 |
 | fait | 2 |
@@ -661,7 +669,12 @@ generated_at: "2026-05-13T16:03:07"
 | cadrage_source | 1 |
 | temoignage_biographique | 1 |
 | controverse_historiographique | 1 |
-| tension_biographique | 1 |
+| temoignage_lieu | 1 |
+| scene_medicale | 1 |
+| fait_medical | 1 |
+| prudence_medicale | 1 |
+| renversement_biographique | 1 |
+| temoignages_medicaux | 1 |
 | lecture_culturelle | 1 |
 | reseau_culturel | 1 |
 | micro_scene_relationnelle | 1 |
@@ -681,8 +694,8 @@ generated_at: "2026-05-13T16:03:07"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| critique | 39 |
-| majeure | 29 |
+| critique | 45 |
+| majeure | 30 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -738,15 +751,15 @@ generated_at: "2026-05-13T16:03:07"
 - S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire
 - S76-A010 [eleve] — risque de faire de l'incident un signe annonciateur de la mort ou de la maladie
 - S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
+- S76-A086 [moyen] — témoin unique et rétrospectif ; ne pas en faire portrait psychologique total
+- S76-A088 [eleve] — risque de lire grossesse et pression comme causes directes de la crise ultérieure
+- S76-A089 [eleve] — scène médicale fondatrice ; ne pas la lire comme point d’annonce fatal mais comme seuil clinique et social
+- S76-A090 [moyen] — toute médicalisation du récit doit rester proportionnée et historiographiquement prudente
+- S76-A091 [tres_eleve] — chaque hypothèse est séduisante mais insuffisante isolément ; risque maximal de psychologisation et de causalité unique
+- S76-A092 [eleve] — scène très puissante narrativement ; ne pas la transformer en causalité totale
+- S76-A093 [eleve] — risque d’accuser rétrospectivement l’entourage ou de faire de la maladie l’explication totale
 - S76-A011 [moyen] — risque de faire du glam une cause linéaire de la présence scénique de Curtis
 - S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
-- S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
-- S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études
-- S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe
-- S76-A017 [moyen] — risque d'opposer trop simplement mémoire familiale et mémoire de Deborah Curtis
-- S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
-- S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
-- S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
 
 ## 15. Lacunes et prochaines vérifications
 

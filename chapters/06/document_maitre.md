@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:03:07"
+generated_at: "2026-05-13T16:20:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 209 |
+| Atomes | 212 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 34 |
+| Citations | 35 |
 | Événements chronologiques | 22 |
 | Personnes | 29 |
 | Chansons | 17 |
@@ -43,7 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 36 | 23 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 39 | 24 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -296,6 +296,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q090** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q010** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -647,10 +648,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | lieu_studio | 2 |
 | micro_chronologie | 2 |
 | session_studio | 2 |
+| scene_repetition | 2 |
 | concept_management | 2 |
 | chronologie_live | 2 |
 | analyse_morceau | 2 |
 | song | 2 |
+| song_or_cover | 2 |
 | broadcast | 1 |
 | evolution_repertoire | 1 |
 | portrait_musicien | 1 |
@@ -727,15 +730,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | concept_transversal | 1 |
 | management | 1 |
 | song_or_release | 1 |
-| song_or_cover | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 126 |
-| critique | 62 |
-| majeure | 21 |
+| non qualifiée | 127 |
+| critique | 63 |
+| majeure | 22 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

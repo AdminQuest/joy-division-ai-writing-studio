@@ -42041,6 +42041,993 @@
       "source_year": "2006"
     }
   },
+  "S76-A083": {
+    "kind": "atom",
+    "id": "S76-A083",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A083 — Après Cargo : répétitions errantes et conflit Hook / Sumner sur la basse",
+    "data": {
+      "id": "S76-A083",
+      "type_unite": "scene_repetition",
+      "source_id": "S76",
+      "titre": "Après Cargo : répétitions errantes et conflit Hook / Sumner sur la basse",
+      "pages": {
+        "pdf": [
+          137,
+          138
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "Après les premières sessions Factory, S76 suit Joy Division dans une géographie de répétitions instable : pub de Macclesfield au propriétaire excentrique, Alexander / Little Alex, Salford Arms, puis T. J. Davidson’s. Le passage retient un accrochage entre Sumner et Hook autour de la contribution de la basse, signe que l’architecture sonore du groupe se construit encore dans la friction, les transports, les salles provisoires et l’agacement.\n",
+      "role_argumentatif": [
+        "montrer que la stabilisation sonore ne suit pas immédiatement Cargo",
+        "documenter les tensions instrumentales internes",
+        "relier répétitions, lieux pauvres et maturation de la basse"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Terry_Mason_et_reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_scene_memorielle"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "scène de conflit instrumentale à ne pas transformer en opposition structurelle Hook / Sumner"
+      },
+      "motifs": [
+        "répétitions",
+        "Peter Hook",
+        "Bernard Sumner",
+        "basse",
+        "Salford Arms",
+        "Alexander"
+      ],
+      "concepts_derives": [
+        "maturation par friction",
+        "géographie des répétitions"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A082",
+          "note": "La session Cargo ouvre un seuil mais n’achève pas la forme sonore."
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-006",
+          "note": "La ligne de basse et les tensions d’arrangement alimentent l’architecture sonore."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-006",
+          "note": "Le son ne surgit pas achevé ; il se dispute dans les salles de répétition."
+        }
+      ],
+      "couche_narrative": [
+        "repetition",
+        "son",
+        "groupe"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A084": {
+    "kind": "atom",
+    "id": "S76-A084",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A084 — T. J. Davidson’s : l’entrepôt industriel comme forge iconographique",
+    "data": {
+      "id": "S76-A084",
+      "type_unite": "lieu_iconographique",
+      "source_id": "S76",
+      "titre": "T. J. Davidson’s : l’entrepôt industriel comme forge iconographique",
+      "pages": {
+        "pdf": [
+          138,
+          139
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "S76 présente T. J. Davidson’s, Little Peter Street, comme le plus évocateur des espaces de répétition de Joy Division : entrepôt poussiéreux, rooms industriels, futur décor de la vidéo de « Love Will Tear Us Apart », lieu de photos monochromes de Kevin Cummins et carrefour pour Buzzcocks, Distractions, Frantic Elevators, Ludus et Joy Division. Le lieu transforme l’héritage industriel en matrice d’image, mais le texte rappelle que cette lecture romantique a pu être perdue sur les jeunes musiciens eux-mêmes.\n",
+      "role_argumentatif": [
+        "stabiliser T. J. Davidson’s comme lieu central de l’imaginaire Joy Division",
+        "relier répétition, vidéo, photographie et mémoire industrielle",
+        "éviter la fétichisation automatique de la ruine industrielle"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76_et_memoire_scene",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "le lieu est très mythifiable ; il faut distinguer fonction pratique et iconisation postérieure"
+      },
+      "motifs": [
+        "T. J. Davidson’s",
+        "Little Peter Street",
+        "Love Will Tear Us Apart video",
+        "Kevin Cummins",
+        "entrepôt industriel",
+        "monochrome"
+      ],
+      "concepts_derives": [
+        "forge iconographique",
+        "lieu industriel rétrospectif"
+      ],
+      "relations": [
+        {
+          "type": "relie",
+          "cible": "MOTIF-008",
+          "note": "Le lieu nourrit l’imaginaire monochrome Factory / Joy Division."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-003",
+          "note": "Manchester n’est pas une cause abstraite ; certains lieux deviennent images après coup."
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-003",
+          "note": "T. J. Davidson’s enrichit la géographie émotionnelle et iconographique du groupe."
+        }
+      ],
+      "couche_narrative": [
+        "geographie_scene",
+        "image",
+        "posterite"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A085": {
+    "kind": "atom",
+    "id": "S76-A085",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A085 — Piss cans et Carlsberg : l’anti-légende corporelle du gang",
+    "data": {
+      "id": "S76-A085",
+      "type_unite": "contre_image",
+      "source_id": "S76",
+      "titre": "Piss cans et Carlsberg : l’anti-légende corporelle du gang",
+      "pages": {
+        "pdf": [
+          138,
+          139
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "S76 juxtapose l’iconisation future de T. J. Davidson’s avec une mémoire beaucoup plus crue : canettes remplies d’urine dans la salle de répétition, blague des bouteilles de Carlsberg à Eric’s, Eddy d’Oz PA piégé par l’une d’elles. Le passage sert à casser la mythologie trop pure du monochrome industriel : derrière l’image canonique se trouve un gang jeune, sale, paresseux, drôle et brutalement prosaïque.\n",
+      "role_argumentatif": [
+        "contrebalancer l’esthétisation de Joy Division par des scènes corporelles et triviales",
+        "documenter la sociabilité masculine du groupe sans la romantiser",
+        "relier gang, lieux de répétition et anti-mythologie"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Terry_Mason",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_anecdote"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque de folklore masculin ; utile seulement comme contrepoint à l’iconisation"
+      },
+      "motifs": [
+        "gang",
+        "Carlsberg",
+        "Oz PA",
+        "Eric’s",
+        "répétitions",
+        "saleté"
+      ],
+      "concepts_derives": [
+        "anti-légende corporelle",
+        "trivialité du gang"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-007",
+          "note": "La logique de gang inclut aussi des pratiques corporelles triviales et agressives."
+        },
+        {
+          "type": "nuance",
+          "cible": "MOTIF-008",
+          "note": "Le monochrome canonique doit être contrebalancé par la matérialité sale des lieux."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Éviter nostalgie masculine et fétichisation de la brutalité."
+        }
+      ],
+      "couche_narrative": [
+        "sociabilite",
+        "contre_mythe"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A086": {
+    "kind": "atom",
+    "id": "S76-A086",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A086 — Tony Davidson voit Curtis : curiosité honnête, différence de rue et centralité silencieuse",
+    "data": {
+      "id": "S76-A086",
+      "type_unite": "temoignage_lieu",
+      "source_id": "S76",
+      "titre": "Tony Davidson voit Curtis : curiosité honnête, différence de rue et centralité silencieuse",
+      "pages": {
+        "pdf": [
+          139
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "Tony Davidson se souvient d’un Curtis plus curieux et plus bavard que les autres, fasciné par ce que Davidson faisait, mais sans flatterie opportuniste. Il le distingue aussi des membres du groupe venus de « the streets ». Curtis apparaît comme différent du gang, honnête, observateur, intrigué par les figures d’infrastructure.\n",
+      "role_argumentatif": [
+        "documenter Curtis comme observateur des médiateurs et infrastructures",
+        "nuancer l’image d’un chanteur uniquement intérieur ou absent",
+        "relier T. J. Davidson’s à une micro-sociologie de la scène"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Tony_Davidson",
+        "corroboration": "faible_a_moyenne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable_comme_temoin_unique"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "témoin unique et rétrospectif ; ne pas en faire portrait psychologique total"
+      },
+      "motifs": [
+        "Tony Davidson",
+        "Ian Curtis",
+        "curiosité",
+        "T. J. Davidson’s",
+        "infrastructures"
+      ],
+      "concepts_derives": [
+        "Curtis observateur",
+        "médiateurs de scène"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A068",
+          "note": "Comme face à Ian Wood, Curtis s’intéresse ici aux médiateurs et aux processus."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "note": "Curtis apparaît comme observateur social, non comme pur prophète intérieur."
+        },
+        {
+          "type": "relie",
+          "cible": "S76-A084",
+          "note": "Le lieu produit aussi une scène de perception de Curtis par ses gestionnaires."
+        }
+      ],
+      "couche_narrative": [
+        "biographique",
+        "scene_locale",
+        "reception"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A087": {
+    "kind": "atom",
+    "id": "S76-A087",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A087 — Répétition privée à T. J. Davidson’s : noirceur, embarras et son encore forcé",
+    "data": {
+      "id": "S76-A087",
+      "type_unite": "scene_repetition",
+      "source_id": "S76",
+      "titre": "Répétition privée à T. J. Davidson’s : noirceur, embarras et son encore forcé",
+      "pages": {
+        "pdf": [
+          139,
+          140
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "Mick Middles assiste à une répétition privée à T. J. Davidson’s. Il retient un son sombre, trop fort, proche de Siouxsie & The Banshees, des « dips and peaks » remarquables, un Curtis stock still and central, mais aussi un embarras évident entre les chansons. La scène documente un groupe intense mais pas encore assuré, plus impressionnant dans les fragments que dans la maîtrise continue.\n",
+      "role_argumentatif": [
+        "documenter un état intermédiaire du son live / répétition",
+        "nuancer l’idée d’un groupe déjà pleinement constitué après Cargo",
+        "relier présence centrale de Curtis et embarras collectif"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_direct_Mick_Middles",
+        "corroboration": "faible_a_moyenne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable_comme_memoire_directe"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "mémoire impressionniste ; utile pour qualifier une atmosphère, non pour fixer une vérité sonore exhaustive"
+      },
+      "motifs": [
+        "T. J. Davidson’s",
+        "répétition privée",
+        "Siouxsie & The Banshees",
+        "dark sound",
+        "embarrassment"
+      ],
+      "concepts_derives": [
+        "son de transition",
+        "maîtrise incomplète"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A083",
+          "note": "Les répétitions restent un lieu de maturation incertaine après Cargo."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-006",
+          "note": "Le groupe produit des moments extraordinaires, mais reste encore forcé et embarrassé."
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-006",
+          "note": "Les dips and peaks sont utiles pour comprendre l’architecture sonore en formation."
+        }
+      ],
+      "couche_narrative": [
+        "repetition",
+        "son",
+        "temoignage"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A088": {
+    "kind": "atom",
+    "id": "S76-A088",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A088 — Fin 1978 : grossesse de Debbie, montée du groupe et pression multidirectionnelle",
+    "data": {
+      "id": "S76-A088",
+      "type_unite": "tension_biographique",
+      "source_id": "S76",
+      "titre": "Fin 1978 : grossesse de Debbie, montée du groupe et pression multidirectionnelle",
+      "pages": {
+        "pdf": [
+          140
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "À la fin de 1978, S76 met en parallèle la grossesse visible de Debbie et la croissance du profil de Joy Division. Le groupe reste « under the surface » mais de plus en plus évident ; Curtis, lui, s’approche de la paternité tout en voyant son statut de rock singer se préciser. Le passage identifie une pression venant de plusieurs angles sans en faire encore un destin tragique.\n",
+      "role_argumentatif": [
+        "articuler ascension du groupe et imminence de la paternité",
+        "préparer les tensions de 1979 sans téléologie",
+        {
+          "maintenir la pluralité des pressions": "travail, groupe, famille, santé"
+        }
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_cadre_biographique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "risque de lire grossesse et pression comme causes directes de la crise ultérieure"
+      },
+      "motifs": [
+        "Debbie Curtis",
+        "grossesse",
+        "Natalie Curtis",
+        "montée du groupe",
+        "pression"
+      ],
+      "concepts_derives": [
+        "pression multidirectionnelle",
+        "paternité imminente"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A081",
+          "note": "La grossesse de Debbie devient de plus en plus visible pendant l’accélération Factory."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Ne pas transformer la paternité imminente en causalité tragique unique."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "note": "Le passage prépare un faisceau de contraintes, non une prophétie."
+        }
+      ],
+      "couche_narrative": [
+        "biographique",
+        "groupe",
+        "prudence_historiographique"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A089": {
+    "kind": "atom",
+    "id": "S76-A089",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A089 — Hope & Anchor, 27 décembre 1978 : premier Londres, anti-triomphe et crise majeure",
+    "data": {
+      "id": "S76-A089",
+      "type_unite": "scene_medicale",
+      "source_id": "S76",
+      "titre": "Hope & Anchor, 27 décembre 1978 : premier Londres, anti-triomphe et crise majeure",
+      "pages": {
+        "pdf": [
+          140,
+          141
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "Le 27 décembre 1978, Joy Division joue son premier concert londonien au Hope & Anchor d’Islington. Le lieu est sombre, le public faible, Sumner malade, le moral bas. Sur le trajet retour, une lutte pour un sac de couchage précède la première crise épileptique majeure reconnue de Curtis. Le groupe conduit Ian à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre pour son médecin.\n",
+      "role_argumentatif": [
+        "stabiliser la scène du premier grand épisode épileptique connu",
+        "relier déplacement, fatigue, maladie, promesse londonienne déçue et crise sans causalité unique",
+        "montrer que l’entrée dans la maladie publique commence sur un anti-triomphe"
+      ],
+      "niveau_preuve": {
+        "statut": "evenement_biographique_corroborable",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_dans_ses_grandes_lignes"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "scène médicale fondatrice ; ne pas la lire comme point d’annonce fatal mais comme seuil clinique et social"
+      },
+      "motifs": [
+        "Hope & Anchor",
+        "premier concert londonien",
+        "Luton hospital",
+        "Phenobarbitone",
+        "crise épileptique"
+      ],
+      "concepts_derives": [
+        "seuil clinique",
+        "anti-triomphe londonien"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A088",
+          "note": "Les pressions multiples convergent dans une scène de fatigue et de déplacement."
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-009",
+          "note": "La scène exige une lecture non monocausale de l’épilepsie."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-010",
+          "note": "L’épisode est central, mais ne doit pas devenir la cause unique du destin de Curtis."
+        }
+      ],
+      "couche_narrative": [
+        "medicale",
+        "live",
+        "biographique"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A090": {
+    "kind": "atom",
+    "id": "S76-A090",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A090 — Diagnostic du 23 janvier 1979 : de l’événement à la condition médicale",
+    "data": {
+      "id": "S76-A090",
+      "type_unite": "fait_medical",
+      "source_id": "S76",
+      "titre": "Diagnostic du 23 janvier 1979 : de l’événement à la condition médicale",
+      "pages": {
+        "pdf": [
+          141
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "S76 fixe le diagnostic clinique : Ian Curtis est diagnostiqué épileptique le 23 janvier 1979 après consultation d’un spécialiste à Macclesfield Hospital. Le texte donne ensuite une explication générale du mécanisme des crises : perturbation électrique du cerveau, perte ou modification de conscience, tendance aux crises répétées. Ce passage fait basculer le récit de l’accident isolé vers une condition durable.\n",
+      "role_argumentatif": [
+        "stabiliser une date médicale centrale",
+        "distinguer la première crise reconnue du diagnostic clinique",
+        "introduire une base explicative minimale sans médicaliser tout le récit"
+      ],
+      "niveau_preuve": {
+        "statut": "fait_biographique_et_explication_medicale_generale",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "toute médicalisation du récit doit rester proportionnée et historiographiquement prudente"
+      },
+      "motifs": [
+        "diagnostic",
+        "Macclesfield Hospital",
+        "epilepsy",
+        "seizure",
+        "brain signals"
+      ],
+      "concepts_derives": [
+        "condition médicale durable",
+        "seuil diagnostique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A089",
+          "note": "La crise du Hope & Anchor débouche un mois plus tard sur le diagnostic."
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-009",
+          "note": "Le diagnostic stabilise la maladie sans en faire une explication totale."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Prudence contre la médicalisation absolue du récit."
+        }
+      ],
+      "couche_narrative": [
+        "medicale",
+        "biographique"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A091": {
+    "kind": "atom",
+    "id": "S76-A091",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A091 — Hypothèses causales : absence d’origine évidente et danger de la monocausalité",
+    "data": {
+      "id": "S76-A091",
+      "type_unite": "prudence_medicale",
+      "source_id": "S76",
+      "titre": "Hypothèses causales : absence d’origine évidente et danger de la monocausalité",
+      "pages": {
+        "pdf": [
+          141,
+          143
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "S76 accumule plusieurs hypothèses sur l’origine de l’épilepsie : possible coup à la tête, stress du mariage, stroboscopes, drogues ou alcool, manque de sommeil, irrégularité des repas, pression familiale et scénique, stress créatif, selon Mark Reeder. Mais le texte rappelle aussi qu’environ 70 % des troubles convulsifs n’ont pas de cause connue. L’atome impose donc une règle : ne pas réduire Curtis à une cause médicale unique.\n",
+      "role_argumentatif": [
+        "fixer la non-monocausalité du dossier épilepsie",
+        "encadrer les témoignages familiaux et Reeder comme hypothèses, non diagnostics",
+        "empêcher la causalité simpliste entre maladie, œuvre et suicide"
+      ],
+      "niveau_preuve": {
+        "statut": "hypotheses_temoignages_et_rappel_medical_general",
+        "corroboration": "moyenne",
+        "confiance": "forte_pour_la_prudence; moyenne_pour_chaque_hypothese"
+      },
+      "stabilite": {
+        "statut": "stable_comme_principe_de_methode"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "chaque hypothèse est séduisante mais insuffisante isolément ; risque maximal de psychologisation et de causalité unique"
+      },
+      "motifs": [
+        "stress",
+        "stroboscopes",
+        "manque de sommeil",
+        "alcool",
+        "Mark Reeder",
+        "low seizure threshold"
+      ],
+      "concepts_derives": [
+        "non-monocausalité médicale",
+        "faisceau de déclencheurs"
+      ],
+      "relations": [
+        {
+          "type": "fonde",
+          "cible": "CONCEPT-009",
+          "note": "Atome central du concept de non-monocausalité médicale."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-010",
+          "note": "La maladie ne peut pas être transformée en explication unique."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Prudence historiographique maximale."
+        }
+      ],
+      "couche_narrative": [
+        "medicale",
+        "methodologique"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A092": {
+    "kind": "atom",
+    "id": "S76-A092",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A092 — David Lewis Centre : bascule du travailleur social vers le malade assisté",
+    "data": {
+      "id": "S76-A092",
+      "type_unite": "renversement_biographique",
+      "source_id": "S76",
+      "titre": "David Lewis Centre : bascule du travailleur social vers le malade assisté",
+      "pages": {
+        "pdf": [
+          144
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "S76 souligne l’ironie douloureuse du parcours de Curtis : avant son diagnostic, il travaille auprès des personnes handicapées et visite le David Lewis Centre, où il observe des cas sévères d’épilepsie. Après sa première crise majeure, il passe de l’autre côté de la relation d’aide. Les images de patients casqués ou protégés renforcent chez lui honte, embarras et désespoir face à sa propre condition.\n",
+      "role_argumentatif": [
+        "documenter le renversement existentiel produit par le diagnostic",
+        "relier travail social, expérience professionnelle et perception de la maladie",
+        "éviter d’expliquer l’œuvre par la maladie tout en montrant son impact subjectif"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76_et_temoin_Reeder",
+        "corroboration": "moyenne",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_lecture_biographique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "scène très puissante narrativement ; ne pas la transformer en causalité totale"
+      },
+      "motifs": [
+        "David Lewis Centre",
+        "handicap",
+        "épilepsie",
+        "honte",
+        "assistance"
+      ],
+      "concepts_derives": [
+        "renversement de position",
+        "honte médicale"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A031",
+          "note": "Le travail antérieur auprès des personnes handicapées prend un sens nouveau après le diagnostic."
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-009",
+          "note": "La maladie agit subjectivement sans devenir cause unique."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-010",
+          "note": "Le renversement est central mais ne résume pas Curtis."
+        }
+      ],
+      "couche_narrative": [
+        "medicale",
+        "biographique",
+        "travail_social"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A093": {
+    "kind": "atom",
+    "id": "S76-A093",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A093 — Reeder et Wise : perception sociale de l’épilepsie, handicap, honte et incompréhension du groupe",
+    "data": {
+      "id": "S76-A093",
+      "type_unite": "temoignages_medicaux",
+      "source_id": "S76",
+      "titre": "Reeder et Wise : perception sociale de l’épilepsie, handicap, honte et incompréhension du groupe",
+      "pages": {
+        "pdf": [
+          143,
+          145
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "Mark Reeder relie son propre vécu de crises au regard social porté sur l’épilepsie dans les années 1970 : être épileptique, selon lui, revient alors à être perçu comme mutant ou handicapé. Alan Wise, lui-même sujet à des attaques de petit mal, estime que l’entourage de Curtis comprend mal la maladie, ses effets dépressifs et l’impossibilité de récupérer en quelques minutes. Ces témoignages déplacent le problème de la maladie vers sa perception sociale et son insuffisante prise en charge.\n",
+      "role_argumentatif": [
+        "documenter la perception sociale de l’épilepsie dans les années 1970",
+        "montrer l’incompréhension de l’entourage sans jugement anachronique",
+        "relier maladie, scène, travail et représentation du handicap"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignages_Reeder_Wise_experience_personnelle",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_temoignages"
+      },
+      "stabilite": {
+        "statut": "stable_comme_couche_de_reception_sociale"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "risque d’accuser rétrospectivement l’entourage ou de faire de la maladie l’explication totale"
+      },
+      "motifs": [
+        "Mark Reeder",
+        "Alan Wise",
+        "petit mal",
+        "grand mal",
+        "handicap",
+        "working-class thing"
+      ],
+      "concepts_derives": [
+        "perception sociale de la maladie",
+        "incompréhension médicale de scène"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A091",
+          "note": "Après les causes possibles, les témoignages déplacent l’analyse vers la perception sociale."
+        },
+        {
+          "type": "fonde",
+          "cible": "MYTH-010",
+          "note": "Le mythe à éviter est celui de l’épilepsie comme explication totale ou comme simple anecdote scénique."
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-009",
+          "note": "La non-monocausalité inclut aussi les conditions sociales de la maladie."
+        }
+      ],
+      "couche_narrative": [
+        "medicale",
+        "reception_sociale",
+        "scene"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A094": {
+    "kind": "atom",
+    "id": "S76-A094",
+    "file": "sources/middles_reade_torn_apart/source_part_09.md",
+    "heading": "S76-A094 — David Holmes et l’ancienne croyance du « holy sickness » : génie, neurologie et risque de romantisation",
+    "data": {
+      "id": "S76-A094",
+      "type_unite": "controverse_medicale",
+      "source_id": "S76",
+      "titre": "David Holmes et l’ancienne croyance du « holy sickness » : génie, neurologie et risque de romantisation",
+      "pages": {
+        "pdf": [
+          145
+        ],
+        "imprimees": [
+          "chapitre 7"
+        ]
+      },
+      "resume": "S76 mobilise David Holmes, psychologue et musicien, qui évoque un lien possible entre problèmes neurologiques, haute activité cérébrale et performances intellectuelles ou artistiques. Le passage rappelle l’ancienne croyance qui associait l’épilepsie aux empereurs, aux saints et au « holy sickness ». Cet atome est historiographiquement dangereux : il peut ouvrir une romantisation du génie malade que le repo doit explicitement contrôler.\n",
+      "role_argumentatif": [
+        "isoler le risque de romantiser l’épilepsie comme source de génie",
+        "distinguer témoignage psychologique, croyance ancienne et analyse historique",
+        "préparer un cadrage critique du lien maladie / créativité"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_psychologique_et_croyance_historique",
+        "corroboration": "faible",
+        "confiance": "moyenne_comme_temoin; faible_comme_explication"
+      },
+      "stabilite": {
+        "statut": "fragile"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "risque de transformer la maladie en signe de génie ou de sainteté"
+      },
+      "motifs": [
+        "David Holmes",
+        "holy sickness",
+        "epilepsy and genius",
+        "neurological over-activity"
+      ],
+      "concepts_derives": [
+        "romantisation neurologique",
+        "génie malade"
+      ],
+      "relations": [
+        {
+          "type": "contredit",
+          "cible": "CONCEPT-009",
+          "note": "Le concept de non-monocausalité doit empêcher l’usage romantique de cette hypothèse."
+        },
+        {
+          "type": "alimente",
+          "cible": "MYTH-010",
+          "note": "Ce type d’explication peut nourrir une mythologie de Curtis comme génie malade."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Utilisation uniquement avec mise à distance explicite."
+        }
+      ],
+      "couche_narrative": [
+        "medicale",
+        "controverse",
+        "methodologique"
+      ],
+      "usage_livre": [
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
   "S76-A011": {
     "kind": "atom",
     "id": "S76-A011",
@@ -48652,9 +49639,9 @@
       "source_year": "2012"
     }
   },
-  "NO_ID::sources/hook/citations_exactes.md::1131": {
+  "NO_ID::sources/hook/citations_exactes.md::1143": {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1131",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1143",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -53247,9 +54234,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1277": {
+  "NO_ID::sources/suatoni/README.md::1289": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1277",
+    "id": "NO_ID::sources/suatoni/README.md::1289",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -53264,9 +54251,9 @@
       "source_short_title": "Alfredo Suatoni, Joy Division: Dal cuore della città / From the Centre of the City, 1990"
     }
   },
-  "NO_ID::sources/suatoni/README.md::1278": {
+  "NO_ID::sources/suatoni/README.md::1290": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1278",
+    "id": "NO_ID::sources/suatoni/README.md::1290",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -53302,9 +54289,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1279": {
+  "NO_ID::sources/suatoni/README.md::1291": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1279",
+    "id": "NO_ID::sources/suatoni/README.md::1291",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -54447,9 +55434,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1315": {
+  "NO_ID::sources/greig_strong/README.md::1327": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1315",
+    "id": "NO_ID::sources/greig_strong/README.md::1327",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -54464,9 +55451,9 @@
       "source_short_title": "Alastair Greig ; Catherine Strong, But We Remember When We Were Young, 2014"
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1316": {
+  "NO_ID::sources/greig_strong/README.md::1328": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1316",
+    "id": "NO_ID::sources/greig_strong/README.md::1328",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -54493,9 +55480,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1317": {
+  "NO_ID::sources/greig_strong/README.md::1329": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1317",
+    "id": "NO_ID::sources/greig_strong/README.md::1329",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -54801,9 +55788,9 @@
       "source_year": "2004"
     }
   },
-  "NO_ID::registers/songs/master_songs.md::1326": {
+  "NO_ID::registers/songs/master_songs.md::1338": {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1326",
+    "id": "NO_ID::registers/songs/master_songs.md::1338",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -55512,6 +56499,64 @@
       "verification": {
         "status": "a_recouper_discographie",
         "notes": "Vérifier crédits de session, date, mixage et versions publiées."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "SONG-S76-023": {
+    "kind": "atom",
+    "id": "SONG-S76-023",
+    "file": "registers/songs/s76_torn_apart_songs_part_09.md",
+    "heading": "SONG-S76-023 — « Love Will Tear Us Apart » comme image T. J. Davidson’s",
+    "data": {
+      "id": "SONG-S76-023",
+      "type_unite": "song_or_video",
+      "source_id": "S76",
+      "titre": "Love Will Tear Us Apart",
+      "usage_by_S76": "S76 mobilise la vidéo de « Love Will Tear Us Apart » comme élément de l’iconisation de T. J. Davidson’s, espace de répétition devenu décor visuel durable du groupe.\n",
+      "related_atoms": [
+        "S76-A084"
+      ],
+      "chapters": [
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "verification": {
+        "status": "a_recouper_video",
+        "notes": "Vérifier avec le registre vidéographique et les crédits du tournage."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "SONG-S76-024": {
+    "kind": "atom",
+    "id": "SONG-S76-024",
+    "file": "registers/songs/s76_torn_apart_songs_part_09.md",
+    "heading": "SONG-S76-024 — « Sister Ray » et les reprises violentes de répétition / live",
+    "data": {
+      "id": "SONG-S76-024",
+      "type_unite": "song_or_cover",
+      "source_id": "S76",
+      "titre": "Sister Ray",
+      "original_artist": "The Velvet Underground",
+      "usage_by_S76": "S76 rattache « Sister Ray » à la mémoire d’un Joy Division encore physique, chaotique et destructeur dans certaines prestations ou répétitions de transition.\n",
+      "related_atoms": [
+        "S76-A070",
+        "S76-A087"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "verification": {
+        "status": "a_recouper_gig_listing",
+        "notes": "À vérifier avec les listes de concerts et souvenirs croisés."
       },
       "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
@@ -57289,6 +58334,429 @@
       ],
       "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
       "source_year": "2004"
+    }
+  },
+  "S76-Q087": {
+    "kind": "quote",
+    "id": "S76-Q087",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q087 — T. J. Davidson’s comme image durable",
+    "data": {
+      "id": "S76-Q087",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "the enduring image of Joy Division",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          138
+        ]
+      },
+      "usage": [
+        "T. J. Davidson’s",
+        "image canonique",
+        "Love Will Tear Us Apart video"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A084"
+      ],
+      "risque": [
+        "formule rétrospective ; à relier au lieu sans fétichisation industrielle"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q088": {
+    "kind": "quote",
+    "id": "S76-Q088",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q088 — T. J. Davidson’s comme godsend",
+    "data": {
+      "id": "S76-Q088",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "it was simply a godsend",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          138
+        ]
+      },
+      "usage": [
+        "T. J. Davidson’s",
+        "répétitions",
+        "scène mancunienne"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S76-A084"
+      ],
+      "risque": [
+        "citation utile pour la fonction pratique du lieu ; ne pas surmythifier"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q089": {
+    "kind": "quote",
+    "id": "S76-Q089",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q089 — Tony Davidson sur Curtis",
+    "data": {
+      "id": "S76-Q089",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Tony Davidson",
+      "citation": "Ian was the most curious of the lot",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          139
+        ]
+      },
+      "usage": [
+        "Ian Curtis",
+        "Tony Davidson",
+        "curiosité"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S76-A086"
+      ],
+      "risque": [
+        "témoignage unique ; éviter le portrait psychologique total"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q090": {
+    "kind": "quote",
+    "id": "S76-Q090",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q090 — Middles sur la répétition privée",
+    "data": {
+      "id": "S76-Q090",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Mick Middles",
+      "citation": "Ian, stock still and central",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          139
+        ]
+      },
+      "usage": [
+        "répétition privée",
+        "présence scénique",
+        "T. J. Davidson’s"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "related_atoms": [
+        "S76-A087"
+      ],
+      "risque": [
+        "formule visuelle forte ; ne pas la faire glisser vers le prophétique"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q091": {
+    "kind": "quote",
+    "id": "S76-Q091",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q091 — Pression autour de Curtis fin 1978",
+    "data": {
+      "id": "S76-Q091",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "escalating pressure from several different angles",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          140
+        ]
+      },
+      "usage": [
+        "pression biographique",
+        "grossesse de Deborah",
+        "ascension du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A088"
+      ],
+      "risque": [
+        "citation à manier contre la causalité unique ; préciser le faisceau de contraintes"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q092": {
+    "kind": "quote",
+    "id": "S76-Q092",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q092 — Hope & Anchor : retour misérable",
+    "data": {
+      "id": "S76-Q092",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "The mood in the car on the return journey was miserable.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          140
+        ]
+      },
+      "usage": [
+        "Hope & Anchor",
+        "premier concert londonien",
+        "crise épileptique"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A089"
+      ],
+      "risque": [
+        "citation de contexte ; ne pas transformer l’humeur en cause médicale"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q093": {
+    "kind": "quote",
+    "id": "S76-Q093",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q093 — Doreen Curtis sur l’absence de crises d’enfance",
+    "data": {
+      "id": "S76-Q093",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Doreen Curtis",
+      "citation": "He definitely never had any fits when he was growing up.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          141
+        ]
+      },
+      "usage": [
+        "épilepsie",
+        "enfance",
+        "Doreen Curtis"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A090",
+        "S76-A091"
+      ],
+      "risque": [
+        "mémoire familiale ; à croiser avec Deborah Curtis, Reeder et données médicales générales"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q094": {
+    "kind": "quote",
+    "id": "S76-Q094",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q094 — Seuil convulsif bas",
+    "data": {
+      "id": "S76-Q094",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "low seizure threshold",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          142
+        ]
+      },
+      "usage": [
+        "épilepsie",
+        "non-monocausalité médicale"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A091"
+      ],
+      "related_concepts": [
+        "CONCEPT-009"
+      ],
+      "risque": [
+        "formulation médicale générale ; ne pas l’étendre sans contrôle médical"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q095": {
+    "kind": "quote",
+    "id": "S76-Q095",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q095 — Reeder sur la perception sociale de l’épilepsie",
+    "data": {
+      "id": "S76-Q095",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Mark Reeder",
+      "citation": "When you were epileptic in the Seventies you were a mutant.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          143
+        ]
+      },
+      "usage": [
+        "perception sociale de l’épilepsie",
+        "handicap",
+        "années 1970"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A093"
+      ],
+      "risque": [
+        "témoignage fort et situé ; ne pas généraliser sans précaution"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q096": {
+    "kind": "quote",
+    "id": "S76-Q096",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q096 — Alan Wise sur la récupération impossible",
+    "data": {
+      "id": "S76-Q096",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Alan Wise",
+      "citation": "epilepsy is a mood-changer",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          145
+        ]
+      },
+      "usage": [
+        "épilepsie",
+        "dépression post-crise",
+        "Alan Wise"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A093"
+      ],
+      "related_concepts": [
+        "CONCEPT-009"
+      ],
+      "risque": [
+        "témoignage d’expérience ; ne pas transformer en diagnostic médical suffisant"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q097": {
+    "kind": "quote",
+    "id": "S76-Q097",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
+    "heading": "S76-Q097 — Alan Wise : bravoure ou imprudence",
+    "data": {
+      "id": "S76-Q097",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Alan Wise",
+      "citation": "either very brave of him or very foolish",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          145
+        ]
+      },
+      "usage": [
+        "scène et maladie",
+        "continuer à jouer",
+        "prudence médicale"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A093",
+        "S76-A094"
+      ],
+      "risque": [
+        "jugement rétrospectif ; conserver l’alternative et ne pas trancher moralement"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
     }
   },
   "S75-Q010": {
@@ -63431,6 +64899,209 @@
       "notes": "Important pour décentrer le récit du seul génie Hannett."
     }
   },
+  "PERS-S76-051": {
+    "kind": "person",
+    "id": "PERS-S76-051",
+    "file": "registers/people/s76_torn_apart_people_part_09.md",
+    "heading": "PERS-S76-051 — Tony Davidson",
+    "data": {
+      "id": "PERS-S76-051",
+      "type_unite": "person",
+      "name": "Tony Davidson / T. J. Davidson",
+      "role": [
+        "propriétaire de T. J. Davidson’s",
+        "entrepreneur de répétition et label TJM Records"
+      ],
+      "associated_entities": [
+        "T. J. Davidson’s",
+        "Little Peter Street",
+        "TJM Records",
+        "The Boardwalk"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Tony Davidson apparaît comme gestionnaire d’un espace de répétition industriel devenu lieu iconographique majeur pour Joy Division. Son témoignage distingue Curtis des autres membres du groupe : plus curieux, plus bavard, moins issu des rues que Gretton ou Davidson, sans flatterie opportuniste.\n"
+      },
+      "related_atoms": [
+        "S76-A084",
+        "S76-A086"
+      ],
+      "related_quotes": [
+        "S76-Q089"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "témoin unique sur Curtis ; utile pour micro-sociologie de lieu, non pour portrait psychologique total"
+      ]
+    }
+  },
+  "PERS-S76-052": {
+    "kind": "person",
+    "id": "PERS-S76-052",
+    "file": "registers/people/s76_torn_apart_people_part_09.md",
+    "heading": "PERS-S76-052 — Oz PA / Eddy et Oz",
+    "data": {
+      "id": "PERS-S76-052",
+      "type_unite": "person_collective",
+      "name": "Oz PA / Eddy et Oz",
+      "role": [
+        "équipe de sonorisation liée aux concerts de Joy Division",
+        "acteurs techniques de tournée"
+      ],
+      "associated_entities": [
+        "Eric’s Liverpool",
+        "Oz PA",
+        "Joy Division live"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Oz PA apparaît à travers l’anecdote d’Eric’s du 15 juillet 1978 : première association importante avec Joy Division, future collaboration régulière, mais aussi entrée dans la sociabilité triviale du gang.\n"
+      },
+      "related_atoms": [
+        "S76-A085"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "rôle technique à compléter si d’autres sources documentent leur travail sonore"
+      ]
+    }
+  },
+  "PERS-S76-053": {
+    "kind": "person",
+    "id": "PERS-S76-053",
+    "file": "registers/people/s76_torn_apart_people_part_09.md",
+    "heading": "PERS-S76-053 — Mark Reeder",
+    "data": {
+      "id": "PERS-S76-053",
+      "type_unite": "person",
+      "name": "Mark Reeder",
+      "role": [
+        "ami de Ian Curtis",
+        "témoin de la perception sociale de l’épilepsie",
+        "témoin ayant lui-même connu des crises"
+      ],
+      "associated_entities": [
+        "Joy Division",
+        "Berlin",
+        "Factory circle"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Reeder intervient dans ce passage comme témoin expérientiel de l’épilepsie et de sa perception sociale. Il propose des hypothèses de stress autour de Curtis, tout en rappelant que la maladie est alors vécue comme honteuse et handicapante.\n"
+      },
+      "related_atoms": [
+        "S76-A091",
+        "S76-A092",
+        "S76-A093"
+      ],
+      "related_quotes": [
+        "S76-Q095"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "témoignage fort mais interprétatif ; ne pas transformer son hypothèse du stress en diagnostic"
+      ]
+    }
+  },
+  "PERS-S76-054": {
+    "kind": "person",
+    "id": "PERS-S76-054",
+    "file": "registers/people/s76_torn_apart_people_part_09.md",
+    "heading": "PERS-S76-054 — Alan Wise",
+    "data": {
+      "id": "PERS-S76-054",
+      "type_unite": "person",
+      "name": "Alan Wise",
+      "role": [
+        "promoteur / acteur Factory Club",
+        "témoin de l’épilepsie de Curtis",
+        "lui-même sujet à des attaques de petit mal selon S76"
+      ],
+      "associated_entities": [
+        "Russell Club",
+        "Factory Club",
+        "Joy Division live"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Wise apparaît comme l’un des rares proches de la scène à disposer d’une expérience personnelle de l’épilepsie. Il critique l’incompréhension de l’entourage et alerte Curtis sur les risques de monter sur scène après une crise.\n"
+      },
+      "related_atoms": [
+        "S76-A093"
+      ],
+      "related_quotes": [
+        "S76-Q096",
+        "S76-Q097"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "jugement rétrospectif ; utile pour la perception sociale de la maladie, non pour établir seul une faute de l’entourage"
+      ]
+    }
+  },
+  "PERS-S76-055": {
+    "kind": "person",
+    "id": "PERS-S76-055",
+    "file": "registers/people/s76_torn_apart_people_part_09.md",
+    "heading": "PERS-S76-055 — David Holmes",
+    "data": {
+      "id": "PERS-S76-055",
+      "type_unite": "person",
+      "name": "Dr David Holmes",
+      "role": [
+        "psychologue",
+        "musicien de la scène de l’époque",
+        "témoin interprétatif sur l’épilepsie et la performance"
+      ],
+      "associated_entities": [
+        "psychologie",
+        "scène musicale de Manchester"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Holmes propose une lecture reliant parfois neurologie, haute activité cérébrale et performance. Ce témoignage est méthodologiquement dangereux, car il peut nourrir la figure du génie malade. Il doit être utilisé comme symptôme d’une croyance interprétative, non comme explication médicale suffisante.\n"
+      },
+      "related_atoms": [
+        "S76-A094"
+      ],
+      "chapters": [
+        "Chapitre 12"
+      ],
+      "certainty": "low_to_medium",
+      "methodological_warnings": [
+        "fort risque de romantisation neurologique ; à encadrer explicitement"
+      ]
+    }
+  },
   "PERS-S75-017": {
     "kind": "person",
     "id": "PERS-S75-017",
@@ -66798,6 +68469,70 @@
       ]
     }
   },
+  "CONCEPT-009": {
+    "kind": "concept",
+    "id": "CONCEPT-009",
+    "file": "registers/concepts/master_concepts.md",
+    "heading": "CONCEPT-009 — non-monocausalité médicale",
+    "data": {
+      "id": "CONCEPT-009",
+      "nom": "non-monocausalité médicale",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_methodologique",
+          "concept_biographique"
+        ],
+        "stabilite": "stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Principe imposant de traiter l'épilepsie, les crises, les traitements, la fatigue, le stress, la scène et les tensions intimes comme un faisceau de conditions et de perceptions, jamais comme une cause unique de l'œuvre, du comportement ou de la mort de Ian Curtis.\n",
+      "usage_repo": {
+        "fonction": [
+          "encadrer le chapitre sur l'épilepsie et la santé mentale",
+          "éviter la réduction médicale de l'œuvre",
+          "distinguer déclencheurs possibles, diagnostic, traitement, perception sociale et mythologie posthume"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "motifs_associes": [
+        "épilepsie",
+        "stress",
+        "stroboscopes",
+        "fatigue",
+        "traitement",
+        "honte médicale",
+        "perception sociale du handicap"
+      ],
+      "risques": [
+        "causalité unique maladie/suicide",
+        "romantisation du génie malade",
+        "accusation rétrospective de l'entourage",
+        "naturalisation de la souffrance comme source de l'art",
+        "effacement des conditions sociales, médicales et professionnelles"
+      ],
+      "atomes_lies": [
+        "S76-A089",
+        "S76-A090",
+        "S76-A091",
+        "S76-A092",
+        "S76-A093",
+        "S76-A094"
+      ],
+      "concepts_derives": [
+        "faisceau de déclencheurs",
+        "perception sociale de la maladie",
+        "honte médicale",
+        "seuil clinique"
+      ]
+    }
+  },
   "CONCEPT-S75-002": {
     "kind": "concept",
     "id": "CONCEPT-S75-002",
@@ -67214,6 +68949,59 @@
         {
           "type": "nuance",
           "cible": "MYTH-005"
+        }
+      ]
+    }
+  },
+  "MYTH-010": {
+    "kind": "myth",
+    "id": "MYTH-010",
+    "file": "registers/myths/master_myths.md",
+    "heading": "MYTH-010 — L’épilepsie comme cause unique",
+    "data": {
+      "id": "MYTH-010",
+      "nom": "L’épilepsie comme cause unique",
+      "statut": {
+        "type": "mythe_medical",
+        "niveau_risque": "critique",
+        "utilite_narrative": "forte",
+        "solidite_factuelle": "faible"
+      },
+      "noyau_factuel": "L’épilepsie de Ian Curtis modifie profondément sa vie, ses conditions de scène, son rapport au corps, aux médicaments, à la fatigue et à la perception sociale du handicap.\n",
+      "construction_mythique": "La réception peut transformer la maladie en cause unique de l’œuvre, des textes, de l’état psychique ou du suicide de Curtis, au risque d’effacer le collectif, les conditions professionnelles, les tensions intimes, les traitements, l’épuisement et les médiations sociales.\n",
+      "risque_interpretatif": [
+        "causalité unique maladie/suicide",
+        "romantisation du génie malade",
+        "psychologisation médicale",
+        "effacement des autres contraintes biographiques",
+        "accusation rétrospective simpliste de l'entourage"
+      ],
+      "usage_recommande": "Présenter l’épilepsie comme condition majeure et contraignante, mais toujours dans un faisceau de facteurs : fatigue, traitements, travail, scène, couple, paternité, ambitions, tournée, soutien insuffisant et perception sociale de la maladie.\n",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S76-A089",
+        "S76-A090",
+        "S76-A091",
+        "S76-A092",
+        "S76-A093",
+        "S76-A094"
+      ],
+      "relations": [
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-009"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
         }
       ]
     }
@@ -68868,6 +70656,221 @@
         "vérifier la date et les crédits techniques dans discographies Factory et sessionographies"
       ],
       "notes": "Seuil majeur : première articulation Factory / Hannett / Joy Division / objet discographique."
+    }
+  },
+  "CHR-S76-1978-017": {
+    "kind": "chronology",
+    "id": "CHR-S76-1978-017",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_09.md",
+    "heading": "CHR-S76-1978-017 — Installation de Joy Division à T. J. Davidson’s",
+    "data": {
+      "id": "CHR-S76-1978-017",
+      "type_unite": "chronology",
+      "date": 1978,
+      "precision_date": "late_1978",
+      "event": "Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».\n",
+      "type": [
+        "rehearsal",
+        "lieu",
+        "iconographie"
+      ],
+      "location": [
+        "T. J. Davidson’s",
+        "Little Peter Street",
+        "Manchester"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Tony Davidson",
+        "Kevin Cummins"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A084",
+        "S76-A087"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 10",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "datation fine de l’arrivée à T. J. Davidson’s à recouper avec les listings et témoignages"
+      ],
+      "notes": "Lieu de pratique avant d’être lieu iconique ; éviter la fétichisation rétroactive."
+    }
+  },
+  "CHR-S76-1978-018": {
+    "kind": "chronology",
+    "id": "CHR-S76-1978-018",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_09.md",
+    "heading": "CHR-S76-1978-018 — Eric’s Liverpool et premier rider avec Oz PA",
+    "data": {
+      "id": "CHR-S76-1978-018",
+      "type_unite": "chronology",
+      "date": "1978-07-15",
+      "precision_date": "exact",
+      "event": "Joy Division joue à Eric’s, Liverpool. S76 présente ce concert comme la première fois où le groupe bénéficie d’un rider et du concours d’Oz PA, future équipe régulière de sonorisation.\n",
+      "type": [
+        "concert",
+        "Eric’s",
+        "PA"
+      ],
+      "location": [
+        "Eric’s",
+        "Liverpool"
+      ],
+      "people": [
+        "Joy Division",
+        "Roger Eagle",
+        "Oz PA",
+        "Terry Mason"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A085"
+      ],
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 5",
+        "Chapitre 13"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "vérifier gig listing et rôle précis d’Oz PA"
+      ],
+      "notes": "Entrée utile pour la sociabilité de tournée et l’anti-légende corporelle du groupe."
+    }
+  },
+  "CHR-S76-1978-019": {
+    "kind": "chronology",
+    "id": "CHR-S76-1978-019",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_09.md",
+    "heading": "CHR-S76-1978-019 — Premier concert londonien au Hope & Anchor et première crise majeure reconnue",
+    "data": {
+      "id": "CHR-S76-1978-019",
+      "type_unite": "chronology",
+      "date": "1978-12-27",
+      "precision_date": "exact",
+      "event": "Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.\n",
+      "type": [
+        "concert",
+        "medical",
+        "epilepsy",
+        "London_debut"
+      ],
+      "location": [
+        "Hope & Anchor",
+        "Islington",
+        "Luton hospital"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Stephen Morris"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A089"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "à croiser avec Deborah Curtis, Hook et sources médicales biographiques"
+      ],
+      "notes": "Seuil clinique central ; ne pas téléologiser."
+    }
+  },
+  "CHR-S76-1979-004": {
+    "kind": "chronology",
+    "id": "CHR-S76-1979-004",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_09.md",
+    "heading": "CHR-S76-1979-004 — Diagnostic clinique d’épilepsie à Macclesfield Hospital",
+    "data": {
+      "id": "CHR-S76-1979-004",
+      "type_unite": "chronology",
+      "date": "1979-01-23",
+      "precision_date": "exact",
+      "event": "Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.\n",
+      "type": [
+        "medical",
+        "diagnosis",
+        "epilepsy"
+      ],
+      "location": [
+        "Macclesfield Hospital"
+      ],
+      "people": [
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A090",
+        "S76-A091"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "traitements et détails médicaux à croiser avec S45 et sources médicales"
+      ],
+      "notes": "Distinguer diagnostic clinique, crise précédente et hypothèses causales."
+    }
+  },
+  "CHR-S76-1979-005": {
+    "kind": "chronology",
+    "id": "CHR-S76-1979-005",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_09.md",
+    "heading": "CHR-S76-1979-005 — Décision d’abandonner les stroboscopes",
+    "data": {
+      "id": "CHR-S76-1979-005",
+      "type_unite": "chronology",
+      "date": 1979,
+      "precision_date": "after_diagnosis",
+      "event": "Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.\n",
+      "type": [
+        "live",
+        "medical_precaution",
+        "lighting"
+      ],
+      "location": [
+        "Joy Division live context"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Joy Division"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A091",
+        "S76-A093"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "date précise de la décision à vérifier"
+      ],
+      "notes": "Mesure pratique importante ; à relier aux conditions de performance, non à un récit de destin."
     }
   },
   "CHR-S75-1976-002": {

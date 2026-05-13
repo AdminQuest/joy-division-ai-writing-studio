@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:03:07"
+generated_at: "2026-05-13T16:20:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 166 |
+| Atomes | 169 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 18 |
+| Citations | 19 |
 | Événements chronologiques | 10 |
 | Personnes | 15 |
 | Chansons | 18 |
@@ -44,7 +44,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 5 | 2 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 8 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -100,6 +100,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S76-A082** — S76-A082 — Cargo Studios, 11 octobre 1978 : « Digital », « Glass » et la rencontre naturelle avec Hannett  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_Lindsay_Reade_et_Savage`.
+- **S76-A087** — S76-A087 — Répétition privée à T. J. Davidson’s : noirceur, embarras et son encore forcé  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_repetition` ; importance : `critique` ; preuve : `temoignage_direct_Mick_Middles`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -116,8 +118,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
-- **S76-A070** — S76-A070 — Jeremy Kerr, « Sister Ray » et la violence performative : attraction par la destruction  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `performance_live` ; importance : `majeure` ; preuve : `temoignage_Jeremy_Kerr`.
 
 ## 6. Autres atomes utiles
 
@@ -295,6 +295,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q090** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q010** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -599,9 +600,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | citation_repere | 2 |
 | performance_live | 2 |
 | temoignage_direct_rapporte | 2 |
+| scene_repetition | 2 |
 | evenement | 2 |
 | concept_transversal | 2 |
 | song | 2 |
+| song_or_cover | 2 |
 | concert | 1 |
 | contrepoint | 1 |
 | archive_broadcast | 1 |
@@ -653,15 +656,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | influences | 1 |
 | transition_esthetique | 1 |
 | reception | 1 |
-| song_or_cover | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 131 |
-| critique | 26 |
-| majeure | 9 |
+| non qualifiée | 132 |
+| critique | 27 |
+| majeure | 10 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -699,6 +701,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S74-A054 [eleve] — risque d’opposer mécaniquement vérité domestique et mémoire du groupe sans reconnaître les angles morts de chaque témoin
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
 - S76-A082 [moyen] — éviter d’en faire déjà la forme achevée de *Unknown Pleasures* ; c’est un seuil, non un aboutissement
+- S76-A083 [moyen] — scène de conflit instrumentale à ne pas transformer en opposition structurelle Hook / Sumner
+- S76-A087 [moyen] — mémoire impressionniste ; utile pour qualifier une atmosphère, non pour fixer une vérité sonore exhaustive
 - S76-A070 [moyen] — scène spectaculaire facilement mythifiable ; traiter comme mémoire de témoin, pas comme norme scénique
 
 ## 15. Lacunes et prochaines vérifications

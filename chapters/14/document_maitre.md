@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:03:07"
+generated_at: "2026-05-13T16:20:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 526 |
+| Atomes | 530 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 50 |
-| Événements chronologiques | 21 |
-| Personnes | 38 |
+| Citations | 52 |
+| Événements chronologiques | 23 |
+| Personnes | 41 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 32 | 23 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 36 | 25 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -316,6 +316,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q095** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q009** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -323,8 +325,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q065** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q066** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q070** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -337,6 +337,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
 - CHR-S76-1978-014 — Lors de la troisième soirée Factory, Rob Gretton et Tony Wilson invitent Mick Middles à couvrir Cabaret Voltaire et Durutti Column pour *Sounds*. La presse londonienne commence à lire Manchester, Sheffield et les villes du Nord comme un espace post-punk émergent.
 - CHR-S76-1978-015 — Roger Eagle appelle Tony Wilson pour proposer la formation d’un label réunissant les talents émergents de Manchester et Liverpool. Le projet envisagé repose sur un disque de lancement partagé entre les deux villes, avant d’échouer sur un désaccord de format.
+- CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
+- CHR-S76-1979-005 — Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.
 - CHR-S75-1978-005 — Performance de Joy Division au Stiff/Chiswick Challenge à Rafter's, observée par Tony Wilson et Rob Gretton.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-S75-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
@@ -364,6 +366,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-008 — Martin Hannett
 - PERS-009 — Peter Saville
 - PERS-010 — Annick Honoré
+- PERS-S76-051 — Tony Davidson / T. J. Davidson
+- PERS-S76-053 — Mark Reeder
+- PERS-S76-054 — Alan Wise
 - PERS-S75-021 — John Peel
 - PERS-S75-023 — Kevin Cummins
 - PERS-S75-024 — Alan Erasmus
@@ -389,7 +394,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S75-032 — Annik Honoré
 - PERS-S75-034 — Bob Krasnow
 - PERS-S75-036 — Jean-Pierre Turmel
-- PERS-S75-037 — Paul Morley
 
 ## 10. Chansons rattachées
 
@@ -521,6 +525,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - NME (2)
 - Hannett (2)
 - fatigue (2)
+- Kevin Cummins (2)
 - dépossession (2)
 - Sumner (2)
 - Still (2)
@@ -528,7 +533,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - reconnaissance (2)
 - répétition (2)
 - club (2)
-- sampler (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -841,6 +845,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | dispositif_scene | 1 |
 | bifurcation_institutionnelle | 1 |
 | triade_institutionnelle | 1 |
+| lieu_iconographique | 1 |
+| contre_image | 1 |
+| temoignages_medicaux | 1 |
 | lecture_culturelle | 1 |
 | scene_management | 1 |
 | scene_contractuelle | 1 |
@@ -862,14 +869,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept_transversal | 1 |
 | marketing | 1 |
 | song_or_release | 1 |
+| song_or_video | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 422 |
-| critique | 75 |
-| majeure | 25 |
+| non qualifiée | 423 |
+| critique | 77 |
+| majeure | 26 |
 | structurante | 2 |
 | moyenne | 2 |
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:03:07"
+generated_at: "2026-05-13T16:20:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -25,7 +25,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Atomes | 228 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
-| Événements chronologiques | 31 |
+| Événements chronologiques | 32 |
 | Personnes | 27 |
 | Chansons | 6 |
 | Sources mobilisées | 11 |
@@ -330,6 +330,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - CHR-S76-1977-005 — Warsaw enregistre cinq morceaux à Pennine Sound Studios, Oldham, avec Steve Brotherdale à la batterie.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
 - CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
+- CHR-S76-1978-018 — Joy Division joue à Eric’s, Liverpool. S76 présente ce concert comme la première fois où le groupe bénéficie d’un rider et du concours d’Oz PA, future équipe régulière de sonorisation.
 - CHR-S75-1976-002 — Second concert des Sex Pistols à Manchester, identifié par Ott comme un choc plus direct pour Ian Curtis que le premier concert du 4 juin 1976.
 - CHR-S75-1977-001 — Session de démos de Warsaw à Pennine Sound, utilisée par Ott pour documenter l'amateurisme technique et la valeur empirique des premières traces sonores.
 - CHR-S75-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:03:07"
+generated_at: "2026-05-13T16:20:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 231 |
+| Atomes | 235 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 53 |
-| Événements chronologiques | 17 |
-| Personnes | 31 |
+| Citations | 54 |
+| Événements chronologiques | 19 |
+| Personnes | 33 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 38 | 43 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 42 | 44 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -293,6 +293,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
+- **S76-Q088** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q058** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q059** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q060** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -322,7 +323,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q040** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q041** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -331,6 +331,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
 - CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
+- CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
+- CHR-S76-1978-018 — Joy Division joue à Eric’s, Liverpool. S76 présente ce concert comme la première fois où le groupe bénéficie d’un rider et du concours d’Oz PA, future équipe régulière de sonorisation.
 - CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
@@ -357,6 +359,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-008 — Martin Hannett
 - PERS-009 — Peter Saville
 - PERS-012 — John Brierley
+- PERS-S76-051 — Tony Davidson / T. J. Davidson
+- PERS-S76-052 — Oz PA / Eddy et Oz
 - PERS-S75-023 — Kevin Cummins
 - PERS-S76-022 — Tony Wilson
 - PERS-S76-041 — Ian Wood
@@ -473,9 +477,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 ### 12.1. Motifs dominants
 
 - Rob Gretton (9)
+- Kevin Cummins (4)
 - Rabid Records (4)
 - An Ideal for Living (3)
-- Kevin Cummins (3)
 - répétition (3)
 - studio (3)
 - An Ideal For Living (3)
@@ -501,6 +505,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Rock Against Racism (2)
 - Stiff Test (2)
 - Tony Wilson (2)
+- T. J. Davidson’s (2)
+- gang (2)
+- Ian Curtis (2)
 - Bowie (2)
 - Manchester City (2)
 - Maine Road (2)
@@ -509,9 +516,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - postwar nihilism (1)
 - flyer (1)
 - imagerie nazie (1)
-- jeunesse (1)
-- Granada TV (1)
-- Shadowplay (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -643,6 +647,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | decision_strategique | 2 |
 | transition | 2 |
 | esthétique_visuelle | 2 |
+| song_or_cover | 2 |
 | session_enregistrement | 1 |
 | radio_broadcast | 1 |
 | vigilance_documentaire | 1 |
@@ -704,6 +709,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | diagnostic_discographique | 1 |
 | bascule_management | 1 |
 | genese_label | 1 |
+| lieu_iconographique | 1 |
+| contre_image | 1 |
+| temoignage_lieu | 1 |
 | lecture_culturelle | 1 |
 | scene_management | 1 |
 | micro_scene_relationnelle | 1 |
@@ -730,15 +738,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | transition_esthetique | 1 |
 | relation | 1 |
 | song_or_release | 1 |
-| song_or_cover | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 170 |
-| critique | 46 |
-| majeure | 15 |
+| non qualifiée | 171 |
+| critique | 47 |
+| majeure | 17 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -786,6 +793,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A054 [faible] — diagnostic industriel clair, sans surplomb téléologique nécessaire
 - S76-A055 [moyen] — ne pas transformer la simultanéité RCA/Gretton en causalité simple ; elle doit rester relation structurante à vérifier par S75 et Hook
 - S76-A073 [faible] — la généalogie locale est structurante et limite la téléologie Factory
+- S76-A084 [moyen] — le lieu est très mythifiable ; il faut distinguer fonction pratique et iconisation postérieure
+- S76-A085 [moyen] — risque de folklore masculin ; utile seulement comme contrepoint à l’iconisation
+- S76-A086 [moyen] — témoin unique et rétrospectif ; ne pas en faire portrait psychologique total
 - S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
 - S76-A056 [moyen] — scène fortement mémorielle et comique ; ne pas la transformer en acte fondateur trop téléologique
 - S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
@@ -799,9 +809,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A065 [faible] — fait contractuel assez circonscrit ; vérifier les montants dans Hook, Deborah Curtis ou sources RCA si disponibles
 - S76-A066 [faible] — articulation forte entre support, argent et stratégie ; à croiser avec discographies
 - S76-A067 [moyen] — éviter de transformer chaque lieu en lieu mythique ; son intérêt tient à sa fonction intermédiaire
-- S76-A068 [moyen] — scène très suggestive ; ne pas en faire une théorie générale de Curtis comme stratège médiatique
-- S76-A069 [faible] — tension documentaire utile ; elle nuance la téléologie du génie immédiat
-- S76-A070 [moyen] — scène spectaculaire facilement mythifiable ; traiter comme mémoire de témoin, pas comme norme scénique
 
 ## 15. Lacunes et prochaines vérifications
 

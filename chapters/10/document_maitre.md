@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:03:07"
+generated_at: "2026-05-13T16:20:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 64 |
-| Atomes critiques / majeurs | 9 |
-| Citations | 5 |
-| Événements chronologiques | 2 |
-| Personnes | 9 |
+| Atomes | 66 |
+| Atomes critiques / majeurs | 10 |
+| Citations | 6 |
+| Événements chronologiques | 3 |
+| Personnes | 10 |
 | Chansons | 6 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 8 | 3 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 10 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -63,6 +63,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `triade_institutionnelle` ; importance : `critique` ; preuve : `interpretation_S76`.
 - **S76-A082** — S76-A082 — Cargo Studios, 11 octobre 1978 : « Digital », « Glass » et la rencontre naturelle avec Hannett  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_Lindsay_Reade_et_Savage`.
+- **S76-A084** — S76-A084 — T. J. Davidson’s : l’entrepôt industriel comme forge iconographique  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
@@ -178,6 +180,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-022** — SONG-S76-022 — « Glass » comme seuil Factory / Hannett  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-023** — SONG-S76-023 — « Love Will Tear Us Apart » comme image T. J. Davidson’s  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_video` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -186,10 +190,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q082** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
+- CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
 
 ## 9. Personnes et acteurs
@@ -199,6 +205,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-005 — Deborah Curtis
 - PERS-010 — Annick Honoré
 - PERS-011 — Natalie Curtis
+- PERS-S76-051 — Tony Davidson / T. J. Davidson
 - PERS-S76-047 — Alan Wise
 - PERS-S76-049 — Peter Saville
 - PERS-S76-050 — Tony Wilson
@@ -302,6 +309,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 - Peter Saville (3)
 - Factory Records (2)
+- monochrome (2)
 - The Factory Sample (2)
 - Martin Hannett (2)
 - reprise (1)
@@ -323,7 +331,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - CP 1919 (1)
 - pulsar (1)
 - icône (1)
-- monochrome (1)
 - cultural kinship (1)
 - label et groupe (1)
 - Factory Club (1)
@@ -370,6 +377,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S76-A082 — relie → CONCEPT-006
 - S76-A082 — relie → CONCEPT-008
 - S76-A082 — relie → MOTIF-006
+- S76-A084 — relie → MOTIF-008
+- S76-A084 — nuance → MYTH-003
+- S76-A084 — relie → CONCEPT-003
 
 ## 13. Distribution documentaire
 
@@ -410,15 +420,17 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | dispositif_scene | 1 |
 | triade_institutionnelle | 1 |
 | session_studio | 1 |
+| lieu_iconographique | 1 |
 | fait_biographique | 1 |
 | song_or_release | 1 |
+| song_or_video | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 55 |
-| critique | 8 |
+| non qualifiée | 56 |
+| critique | 9 |
 | majeure | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -432,6 +444,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S76-A079 [moyen] — scène très séduisante et mythifiable ; à traiter comme anecdote fondatrice à vérifier, non comme causalité unique
 - S76-A080 [moyen] — risque d’effacer les acteurs moins canoniques ; l’atome doit rester un schéma, non une totalité explicative
 - S76-A082 [moyen] — éviter d’en faire déjà la forme achevée de *Unknown Pleasures* ; c’est un seuil, non un aboutissement
+- S76-A084 [moyen] — le lieu est très mythifiable ; il faut distinguer fonction pratique et iconisation postérieure
 
 ## 15. Lacunes et prochaines vérifications
 
