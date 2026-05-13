@@ -1,527 +1,65 @@
-const STOPWORDS = new Set([
-  'a','an','and','are','as','at','be','by','for','from','in','is','it','of','on','or','that','the','to','with',
-  'au','aux','ce','ces','dans','de','des','du','elle','en','et','il','la','le','les','pour','que','qui','sur','un','une',
-  'avec','comme','par','plus','son','sa','ses','leur','leurs','est','sont','être','etre','fait','faites'
-]);
-
+const STOPWORDS = new Set(['a','an','and','are','as','at','be','by','for','from','in','is','it','of','on','or','that','the','to','with','au','aux','ce','ces','dans','de','des','du','elle','en','et','il','la','le','les','pour','que','qui','sur','un','une','avec','comme','par','plus','son','sa','ses','leur','leurs','est','sont','être','etre','fait','faites']);
 const TOKEN_RE = /[\wÀ-ÿ']+/gu;
 const SOURCE_ID_ALIASES = {'S-BROLL-JOY-001':'S68','S20':'S72','S35':'S41','S37':'S45','S41-HIST':'S73'};
-const FALLBACK_SOURCE_LABELS = {
-  S01:'S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013',
-  S02:'S02 — Sueur, Villes du futur, futur des villes, 2011',
-  S03:'S03 — Demographia, England Largest Cities, s.d.',
-  S04:'S04 — Kidd, Manchester: A History, 2006',
-  S05:'S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015',
-  S06:'S06 — Carter, Youth, race and the inner-city estate, 2023',
-  S41:'S41 — Hook, Unknown Pleasures, 2012',
-  S45:'S45 — Curtis, Touching from a Distance, 1995',
-  S46:'S46 — Johnson, An Ideal for Living, 1984',
-  S47:'S47 — West, Joy Division, 1984',
-  S68:'S68 — Broll, Joy Division, 1988',
-  S69:'S69 — Greig & Strong, But We Remember When We Were Young, 2014',
-  S70:'S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990',
-  S71:'S71 — Flowers, Dreams Never End, 1995/2012',
-  S72:'S72 — Reynolds, Rip It Up and Start Again, 2005/2006',
-  S73:'S73 — Blue Orchids, entrée historique à consolider, s.d.',
-  S74:'S74 — Middles, From Joy Division to New Order, 1996'
-};
-
-let ALL_RECORDS = [];
-let SEARCH_INDEX = [];
-let SOURCES_INDEX = [];
-let SOURCE_LABELS = {};
-let LAST_RESULTS = [];
-let CURRENT_PAGE = 1;
-let RESULTS_PER_PAGE = 10;
-
-function $(id) {
-  return document.getElementById(id);
-}
-
-function showError(message, error = null) {
-  console.error(message, error || '');
-  const results = $('results');
-  const meta = $('results-meta');
-  if (meta) meta.textContent = 'Erreur de rendu';
-  if (results) {
-    results.innerHTML = `<div class="status-card"><strong>Erreur RAG 1</strong><br>${String(message)}${error ? `<br><code>${String(error.message || error)}</code>` : ''}</div>`;
-  }
-}
-
-window.addEventListener('error', event => {
-  showError('Erreur JavaScript dans le RAG Studio.', event.error || event.message);
-});
-
-window.addEventListener('unhandledrejection', event => {
-  showError('Promesse rejetée dans le RAG Studio.', event.reason);
-});
-
-function normalizeSourceId(id) {
-  return SOURCE_ID_ALIASES[id] || id;
-}
-
-function normalizeText(value) {
-  return String(value || '')
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase();
-}
-
-function flatten(value) {
-  if (value === null || value === undefined) return '';
-  if (typeof value === 'string') return value;
-  if (typeof value === 'number' || typeof value === 'boolean') return String(value);
-  if (Array.isArray(value)) return value.map(flatten).join(' ');
-  if (typeof value === 'object') return Object.entries(value).map(([k, v]) => `${k} ${flatten(v)}`).join(' ');
-  return String(value);
-}
-
-function tokenize(input) {
-  return (normalizeText(input).match(TOKEN_RE) || [])
-    .map(token => token.replace(/^'+|'+$/g, ''))
-    .filter(token => token.length > 2 && !STOPWORDS.has(token));
-}
-
-function unique(values) {
-  return [...new Set(values.filter(Boolean))];
-}
-
-function compactAuthor(author) {
-  return String(author || '')
-    .replace('Peter Hook', 'Hook')
-    .replace('Deborah Curtis', 'Curtis')
-    .replace('Mike West', 'West')
-    .replace('Marco Broll', 'Broll')
-    .replace('Mark Johnson', 'Johnson')
-    .slice(0, 40);
-}
-
-function compactTitle(title) {
-  return String(title || '')
-    .replace('Unknown Pleasures: Inside Joy Division', 'Unknown Pleasures')
-    .replace('Touching from a Distance: Ian Curtis and Joy Division', 'Touching from a Distance')
-    .replace('An Ideal for Living: An History of Joy Division', 'An Ideal for Living')
-    .slice(0, 70);
-}
-
-function makeSourceLabel(id, data = {}) {
-  const normalized = normalizeSourceId(id);
-  if (data.source_label) return data.source_label;
-  const author = compactAuthor(data.auteur || data.author);
-  const title = compactTitle(data.titre || data.title);
-  const year = data.annee || data.source_year || 's.d.';
-  const detail = [author, title, year].filter(Boolean).join(', ');
-  return detail ? `${normalized} — ${detail}` : (FALLBACK_SOURCE_LABELS[normalized] || normalized);
-}
-
-function buildSourceLabels(registry, records) {
-  const labels = {...FALLBACK_SOURCE_LABELS};
-  registry.forEach(entry => {
-    const id = normalizeSourceId(entry.id || entry.source_id);
-    if (!id) return;
-    labels[id] = makeSourceLabel(id, entry);
-    const aliases = Array.isArray(entry.legacy_id) ? entry.legacy_id : (entry.legacy_id ? [entry.legacy_id] : []);
-    aliases.forEach(alias => { labels[alias] = labels[id]; });
-  });
-  records.forEach(record => {
-    const data = record.data || {};
-    const ids = [];
-    if (data.source_id) ids.push(data.source_id);
-    if (Array.isArray(data.sources)) ids.push(...data.sources);
-    ids.forEach(raw => {
-      const id = normalizeSourceId(raw);
-      if (id && !labels[id]) labels[id] = makeSourceLabel(id, data);
-    });
-  });
-  return labels;
-}
-
-function sourceLabel(sourceId) {
-  const normalized = normalizeSourceId(sourceId);
-  return SOURCE_LABELS[normalized] || SOURCE_LABELS[sourceId] || normalized || '';
-}
-
-function stripMd(value) {
-  return String(value || '')
-    .trim()
-    .replace(/^«\s*/, '')
-    .replace(/\s*»$/, '')
-    .replace(/`/g, '')
-    .replace(/<br\s*\/?>/gi, ' | ');
-}
-
-function splitTableRow(line) {
-  return line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(stripMd);
-}
-
-function inferSourceId(id, sourceCell) {
-  const direct = String(id || '').match(/^(S\d{2})-Q\d+/);
-  if (direct) return normalizeSourceId(direct[1]);
-  const fromSource = String(sourceCell || '').match(/S\d{2}(?:-HIST)?/);
-  return fromSource ? normalizeSourceId(fromSource[0]) : '';
-}
-
-async function loadJson(path, fallback) {
-  try {
-    const response = await fetch(path, {cache: 'no-store'});
-    if (!response.ok) throw new Error(`${path} ${response.status}`);
-    return await response.json();
-  } catch (error) {
-    console.warn('Fallback', path, error);
-    return fallback || [];
-  }
-}
-
-async function loadText(path, fallback = '') {
-  try {
-    const response = await fetch(path, {cache: 'no-store'});
-    if (!response.ok) throw new Error(`${path} ${response.status}`);
-    return await response.text();
-  } catch (error) {
-    console.warn('Fallback', path, error);
-    return fallback;
-  }
-}
-
-function parseConsolidatedQuotesMarkdown(markdown) {
-  const rows = [];
-  const lines = String(markdown || '').split(/\r?\n/);
-  let mode = '';
-
-  for (const line of lines) {
-    if (line.startsWith('## 1.1.')) { mode = 'historical'; continue; }
-    if (line.startsWith('## 2.')) { mode = 'atomized'; continue; }
-    if (!line.trim().startsWith('|') || line.includes('---')) continue;
-
-    const cells = splitTableRow(line);
-    if (!cells.length || /^ID/.test(cells[0]) || /^id$/i.test(cells[0])) continue;
-
-    if (mode === 'historical' && cells.length >= 5) {
-      const [id, source, type, entry, status] = cells;
-      const sourceId = inferSourceId(id, source);
-      rows.push({kind: 'quote', id, file: 'registers/quotes/master_quotes.md', heading: 'citation historique consolidée', data: {id, source_id: sourceId, source_label: sourceLabel(sourceId), citation_originale: entry, type_citation: type, statut_consolidation: status, statut_verification: status, chapitres: ['Chapitre 1'], source_origin: ['registre historique', 'master_quotes.md']}});
-    } else if (mode === 'atomized' && cells.length >= 4) {
-      const [id, citation, status, usage] = cells;
-      const sourceId = inferSourceId(id, '');
-      rows.push({kind: 'quote', id, file: 'registers/quotes/master_quotes.md', heading: 'citation atomisée consolidée', data: {id, source_id: sourceId, source_label: sourceLabel(sourceId), citation_originale: citation, usage_recommande: usage, statut_consolidation: status, statut_verification: status, source_origin: ['atomisation', 'master_quotes.md']}});
-    }
-  }
-  return rows;
-}
-
-function mergeConsolidatedQuotes(records, consolidated) {
-  const existing = new Set(records.map(record => record.id));
-  return records.concat(consolidated.filter(record => !existing.has(record.id)));
-}
-
-function sourceIdsForRecord(record) {
-  const ids = [];
-  const data = record.data || {};
-  if (data.source_id) ids.push(normalizeSourceId(data.source_id));
-  if (Array.isArray(data.sources)) {
-    for (const source of data.sources) {
-      if (typeof source === 'string' && /^S(\d+|-[A-Z])/.test(source)) ids.push(normalizeSourceId(source));
-    }
-  }
-  return unique(ids);
-}
-
-function chaptersForRecord(record) {
-  const data = record.data || {};
-  return unique([...(Array.isArray(data.chapitres) ? data.chapitres : []), ...(Array.isArray(data.chapters) ? data.chapters : [])].map(String));
-}
-
-function recordTitle(record) {
-  const data = record.data || {};
-  return data.titre || data.event || data.name || data.full_name || data.song || data.citation_originale || record.heading || record.id || '(sans titre)';
-}
-
-function recordTextParts(record) {
-  const data = record.data || {};
-  return [record.id || '', record.kind || '', record.heading || '', record.file || '', recordTitle(record), data.source_label || '', sourceIdsForRecord(record).map(sourceLabel).join(' '), flatten(data)];
-}
-
-function buildSearchIndex(records) {
-  SEARCH_INDEX = records.map((record, order) => {
-    const rawText = recordTextParts(record).join('\n');
-    const normalizedText = normalizeText(rawText);
-    const tokens = tokenize(rawText);
-    const tokenCounts = new Map();
-    tokens.forEach(token => tokenCounts.set(token, (tokenCounts.get(token) || 0) + 1));
-    return {order, record, rawText, normalizedText, tokens, tokenCounts, sourceIds: sourceIdsForRecord(record), chapters: chaptersForRecord(record)};
-  });
-}
-
-function conciseRecord(record, scoreDetails = null) {
-  const data = record.data || {};
-  const sourceId = data.source_id ? normalizeSourceId(data.source_id) : data.source_id;
-  const sources = Array.isArray(data.sources) ? data.sources.map(normalizeSourceId) : data.sources;
-  const sourceTitles = Array.isArray(sources) ? sources.map(sourceLabel) : undefined;
-
-  return {
-    id: record.id,
-    kind: record.kind,
-    file: record.file,
-    heading: record.heading,
-    summary_fields: Object.fromEntries(Object.entries({
-      titre: data.titre || recordTitle(record),
-      source_id: sourceId,
-      source_label: data.source_label || sourceLabel(sourceId),
-      source_short_title: data.source_short_title,
-      sources,
-      source_titles: sourceTitles,
-      auteur: data.auteur,
-      pages_pdf: data.pages_pdf,
-      page_pdf: data.page_pdf,
-      type_unite: data.type_unite,
-      importance: data.importance,
-      niveau_preuve: data.niveau_preuve,
-      concepts: data.concepts,
-      motifs: data.motifs,
-      chapitres: data.chapitres || data.chapters,
-      citation_originale: data.citation_originale,
-      traduction_editoriale_fr: data.traduction_editoriale_fr,
-      usage_recommande: data.usage_recommande,
-      statut_consolidation: data.statut_consolidation,
-      song: data.song,
-      themes: data.themes,
-      name: data.name,
-      role: data.role,
-      date: data.date,
-      event: data.event,
-      certainty: data.certainty,
-      score_details: scoreDetails
-    }).filter(([, value]) => value !== undefined && value !== null && value !== ''))
-  };
-}
-
-function buildSourcesIndex() {
-  const grouped = new Map();
-  for (const record of ALL_RECORDS) {
-    for (const sourceId of sourceIdsForRecord(record)) {
-      if (!grouped.has(sourceId)) grouped.set(sourceId, {source_id: sourceId, source_label: sourceLabel(sourceId), records: [], counts: {atom: 0, quote: 0, chronology: 0, person: 0, song: 0, concept: 0, myth: 0, motif: 0, source: 0, metadata: 0}});
-      const entry = grouped.get(sourceId);
-      entry.records.push(record);
-      entry.counts[record.kind] = (entry.counts[record.kind] || 0) + 1;
-    }
-  }
-  SOURCES_INDEX = [...grouped.values()].sort((a, b) => a.source_id.localeCompare(b.source_id, undefined, {numeric: true}));
-}
-
-function renderSources() {
-  const container = $('sources-list');
-  const count = $('sources-count');
-  if (!container || !count) return;
-  container.innerHTML = '';
-  count.textContent = `${SOURCES_INDEX.length} source(s)`;
-  for (const source of SOURCES_INDEX) {
-    const wrapper = document.createElement('div');
-    wrapper.className = 'source-entry';
-    const button = document.createElement('button');
-    button.innerHTML = `<div class="source-title">${source.source_label}</div><div class="source-meta">${source.counts.atom || 0} atomes · ${source.counts.quote || 0} citations · ${source.counts.chronology || 0} chronologies · ${source.records.length} enregistrements</div>`;
-    button.addEventListener('click', () => openSource(source.source_id));
-    wrapper.appendChild(button);
-    container.appendChild(wrapper);
-  }
-}
-
-function clearResults() {
-  if ($('results')) $('results').innerHTML = '';
-  if ($('results-meta')) $('results-meta').textContent = '';
-  if ($('pagination')) $('pagination').innerHTML = '';
-}
-
-function addField(dl, key, value) {
-  if (!dl || value === undefined || value === null || value === '') return;
-  const dt = document.createElement('dt');
-  dt.textContent = key;
-  const dd = document.createElement('dd');
-  dd.textContent = typeof value === 'object' ? JSON.stringify(value, null, 2) : value;
-  dl.appendChild(dt);
-  dl.appendChild(dd);
-}
-
-function renderPagination(totalPages) {
-  const container = $('pagination');
-  if (!container) return;
-  container.innerHTML = '';
-  if (totalPages <= 1) return;
-
-  const makeButton = (label, page, disabled = false, active = false) => {
-    const button = document.createElement('button');
-    button.textContent = label;
-    button.disabled = disabled;
-    if (active) button.classList.add('active');
-    button.addEventListener('click', () => { CURRENT_PAGE = page; renderCurrentPage(); });
-    return button;
-  };
-
-  container.appendChild(makeButton('←', Math.max(1, CURRENT_PAGE - 1), CURRENT_PAGE === 1));
-  const start = Math.max(1, CURRENT_PAGE - 3);
-  const end = Math.min(totalPages, CURRENT_PAGE + 3);
-  for (let page = start; page <= end; page += 1) container.appendChild(makeButton(String(page), page, false, page === CURRENT_PAGE));
-  container.appendChild(makeButton('→', Math.min(totalPages, CURRENT_PAGE + 1), CURRENT_PAGE === totalPages));
-}
-
-function renderCurrentPage() {
-  try {
-    clearResults();
-    const results = $('results');
-    const meta = $('results-meta');
-    const template = $('result-template');
-    if (!results || !meta || !template) throw new Error('Élément HTML manquant : results, results-meta ou result-template.');
-
-    const total = LAST_RESULTS.length;
-    const totalPages = Math.ceil(total / RESULTS_PER_PAGE) || 1;
-    const start = (CURRENT_PAGE - 1) * RESULTS_PER_PAGE;
-    const pageResults = LAST_RESULTS.slice(start, start + RESULTS_PER_PAGE);
-    meta.textContent = `${total} résultat(s) · page ${CURRENT_PAGE}/${totalPages}`;
-
-    if (!pageResults.length) {
-      const empty = document.createElement('div');
-      empty.className = 'status-card';
-      empty.textContent = 'Aucun résultat.';
-      results.appendChild(empty);
-      return;
-    }
-
-    for (const item of pageResults) {
-      if (!item || !item.record) continue;
-      const node = template.content.cloneNode(true);
-      const kind = node.querySelector('.result-kind');
-      const score = node.querySelector('.result-score');
-      const title = node.querySelector('.result-title');
-      const file = node.querySelector('.result-file');
-      const fields = node.querySelector('.result-fields');
-      if (kind) kind.textContent = item.record.kind || '';
-      if (score) score.textContent = `score ${item.score}`;
-      if (title) title.textContent = item.record.id || item.record.summary_fields?.titre || '(sans id)';
-      if (file) file.textContent = item.record.file || '';
-      for (const [key, value] of Object.entries(item.record.summary_fields || {})) addField(fields, key, value);
-      results.appendChild(node);
-    }
-    renderPagination(totalPages);
-  } catch (error) {
-    showError('Erreur pendant le rendu des résultats.', error);
-  }
-}
-
-function renderResults(scored, perPage = 10) {
-  LAST_RESULTS = Array.isArray(scored) ? scored : [];
-  RESULTS_PER_PAGE = Number(perPage) || 10;
-  CURRENT_PAGE = 1;
-  renderCurrentPage();
-}
-
-function exactPhraseBonus(normalizedText, normalizedQuery) {
-  if (!normalizedQuery || normalizedQuery.length < 4) return 0;
-  return normalizedText.includes(normalizedQuery) ? 25 : 0;
-}
-
-function kindWeight(kind) {
-  return {atom: 1.25, quote: 1.2, chronology: 1.1, person: 1, song: 1, concept: 1.05, myth: 1.05, motif: 1.05}[kind] || 1;
-}
-
-function scoreIndexedRecord(indexed, terms, normalizedQuery) {
-  let score = exactPhraseBonus(indexed.normalizedText, normalizedQuery);
-  let matchedTerms = 0;
-  const details = [];
-  for (const term of terms) {
-    const count = indexed.tokenCounts.get(term) || 0;
-    const partial = count ? 0 : (indexed.normalizedText.includes(term) ? 1 : 0);
-    const termScore = (count * 6) + (partial * 2);
-    if (termScore > 0) {
-      matchedTerms += 1;
-      score += termScore;
-      details.push(`${term}:${count || 'partial'}`);
-    }
-  }
-  if (terms.length && matchedTerms === terms.length) score += 12;
-  if (indexed.record.id && normalizeText(indexed.record.id).includes(normalizedQuery)) score += 20;
-  return {score: Math.round(score * kindWeight(indexed.record.kind)), matchedTerms, details};
-}
-
-function scoreRecords(query, kind) {
-  const terms = unique(tokenize(query));
-  const normalizedQuery = normalizeText(query).trim();
-  if (!terms.length && normalizedQuery.length < 3) return [];
-
-  const results = [];
-  for (const indexed of SEARCH_INDEX) {
-    if (kind && indexed.record.kind !== kind) continue;
-    const scored = scoreIndexedRecord(indexed, terms, normalizedQuery);
-    if (scored.score > 0) results.push({score: scored.score, record: conciseRecord(indexed.record, scored.details.join(', ')), order: indexed.order});
-  }
-  return results.sort((a, b) => (b.score - a.score) || (a.order - b.order));
-}
-
-function openSource(sourceId) {
-  const source = SOURCES_INDEX.find(item => item.source_id === sourceId);
-  if (!source) return;
-  $('results-title').textContent = source.source_label;
-  renderResults(source.records.map((record, index) => ({score: 'source', record: conciseRecord(record), order: index})), $('top')?.value || 10);
-}
-
-async function performSearch(query, kind, top) {
-  try {
-    $('results-title').textContent = 'Résultats';
-    $('results').innerHTML = '<div class="status-card">Recherche en cours…</div>';
-    const scored = scoreRecords(query, kind);
-    renderResults(scored, top);
-  } catch (error) {
-    showError('Erreur pendant la recherche.', error);
-  }
-}
-
-async function loadCorpus() {
-  const card = $('status-card');
-  try {
-    const [records, registry, quotesMd] = await Promise.all([
-      loadJson('../../exports/generated/all_records.json', []),
-      loadJson('../../data/registre.json', []),
-      loadText('../../registers/quotes/master_quotes.md', '')
-    ]);
-    SOURCE_LABELS = buildSourceLabels(registry, records);
-    ALL_RECORDS = mergeConsolidatedQuotes(records, parseConsolidatedQuotesMarkdown(quotesMd));
-    buildSearchIndex(ALL_RECORDS);
-    buildSourcesIndex();
-    renderSources();
-    const counts = {};
-    for (const record of ALL_RECORDS) counts[record.kind || 'unknown'] = (counts[record.kind || 'unknown'] || 0) + 1;
-    const summary = Object.entries(counts).sort().map(([kind, count]) => `${kind}: ${count}`).join(' · ');
-    if (card) card.textContent = `RAG 1 lexical chargé · ${ALL_RECORDS.length} enregistrements · ${summary}`;
-  } catch (error) {
-    if (card) card.textContent = `Erreur : ${error.message}`;
-  }
-}
-
-function bindExamples() {
-  for (const button of document.querySelectorAll('.example-query')) {
-    button.addEventListener('click', () => {
-      const query = button.dataset.query;
-      $('query').value = query;
-      performSearch(query, '', $('top')?.value || 10);
-    });
-  }
-}
-
-function bindForm() {
-  const form = $('search-form');
-  if (!form) return;
-  form.addEventListener('submit', async event => {
-    event.preventDefault();
-    const query = $('query').value.trim();
-    const kind = $('kind').value;
-    const top = $('top').value;
-    if (!query) return;
-    await performSearch(query, kind, top);
-  });
-}
-
-window.scoreRecords = scoreRecords;
-window.renderResults = renderResults;
-window.performSearch = performSearch;
-
-loadCorpus();
-bindExamples();
-bindForm();
+const FALLBACK_SOURCE_LABELS = {S01:'S01 — Blakeley & Evans, The Regeneration of East Manchester, 2013',S02:'S02 — Sueur, Villes du futur, futur des villes, 2011',S03:'S03 — Demographia, England Largest Cities, s.d.',S04:'S04 — Kidd, Manchester: A History, 2006',S05:'S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015',S06:'S06 — Carter, Youth, race and the inner-city estate, 2023',S41:'S41 — Hook, Unknown Pleasures, 2012',S45:'S45 — Curtis, Touching from a Distance, 1995',S46:'S46 — Johnson, An Ideal for Living, 1984',S47:'S47 — West, Joy Division, 1984',S68:'S68 — Broll, Joy Division, 1988',S69:'S69 — Greig & Strong, But We Remember When We Were Young, 2014',S70:'S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990',S71:'S71 — Flowers, Dreams Never End, 1995/2012',S72:'S72 — Reynolds, Rip It Up and Start Again, 2005/2006',S73:'S73 — Blue Orchids, entrée historique à consolider, s.d.',S74:'S74 — Middles, From Joy Division to New Order, 1996'};
+let ALL_RECORDS=[], SEARCH_INDEX=[], SOURCES_INDEX=[], SOURCE_LABELS={}, LAST_RESULTS=[], CURRENT_PAGE=1, RESULTS_PER_PAGE=10;
+const $ = id => document.getElementById(id);
+function normalizeSourceId(id){return SOURCE_ID_ALIASES[id]||id||''}
+function normalizeText(value){return String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}
+function flatten(value){if(value==null)return ''; if(typeof value==='string')return value; if(typeof value==='number'||typeof value==='boolean')return String(value); if(Array.isArray(value))return value.map(flatten).join(' '); if(typeof value==='object')return Object.entries(value).map(([k,v])=>`${k} ${flatten(v)}`).join(' '); return String(value)}
+function tokenize(input){return (normalizeText(input).match(TOKEN_RE)||[]).map(t=>t.replace(/^'+|'+$/g,'')).filter(t=>t.length>2&&!STOPWORDS.has(t))}
+function unique(values){return [...new Set(values.filter(v=>v!==undefined&&v!==null&&String(v).trim()!==''))]}
+function asArray(value){return Array.isArray(value)?value:(value?[value]:[])}
+function valueAt(obj,path){let cur=obj; for(const p of path.split('.')){if(!cur||typeof cur!=='object'||!(p in cur))return ''; cur=cur[p]} return cur}
+function showError(message,error=null){console.error(message,error||''); const r=$('results'),m=$('results-meta'); if(m)m.textContent='Erreur de rendu'; if(r)r.innerHTML=`<div class="status-card"><strong>Erreur RAG 2</strong><br>${String(message)}${error?`<br><code>${String(error.message||error)}</code>`:''}</div>`}
+window.addEventListener('error',e=>showError('Erreur JavaScript dans le RAG Studio.',e.error||e.message));
+window.addEventListener('unhandledrejection',e=>showError('Promesse rejetée dans le RAG Studio.',e.reason));
+function compactAuthor(a){return String(a||'').replace('Peter Hook','Hook').replace('Deborah Curtis','Curtis').replace('Mike West','West').replace('Marco Broll','Broll').replace('Mark Johnson','Johnson').slice(0,40)}
+function compactTitle(t){return String(t||'').replace('Unknown Pleasures: Inside Joy Division','Unknown Pleasures').replace('Touching from a Distance: Ian Curtis and Joy Division','Touching from a Distance').replace('An Ideal for Living: An History of Joy Division','An Ideal for Living').slice(0,70)}
+function makeSourceLabel(id,data={}){const n=normalizeSourceId(id); if(data.source_label)return data.source_label; const detail=[compactAuthor(data.auteur||data.author),compactTitle(data.titre||data.title),data.annee||data.source_year||'s.d.'].filter(Boolean).join(', '); return detail?`${n} — ${detail}`:(FALLBACK_SOURCE_LABELS[n]||n)}
+function sourceLabel(id){const n=normalizeSourceId(id); return SOURCE_LABELS[n]||SOURCE_LABELS[id]||n||''}
+function buildSourceLabels(registry,records){const labels={...FALLBACK_SOURCE_LABELS}; registry.forEach(e=>{const id=normalizeSourceId(e.id||e.source_id); if(!id)return; labels[id]=makeSourceLabel(id,e); asArray(e.legacy_id).forEach(a=>labels[a]=labels[id])}); records.forEach(r=>{const d=r.data||{}; const ids=[]; if(d.source_id)ids.push(d.source_id); if(Array.isArray(d.sources))ids.push(...d.sources); ids.forEach(raw=>{const id=normalizeSourceId(raw); if(id&&!labels[id])labels[id]=makeSourceLabel(id,d)})}); return labels}
+async function loadJson(path,fallback=[]){try{const r=await fetch(path,{cache:'no-store'}); if(!r.ok)throw new Error(`${path} ${r.status}`); return await r.json()}catch(e){console.warn('Fallback',path,e); return fallback}}
+async function loadText(path,fallback=''){try{const r=await fetch(path,{cache:'no-store'}); if(!r.ok)throw new Error(`${path} ${r.status}`); return await r.text()}catch(e){console.warn('Fallback',path,e); return fallback}}
+function stripMd(v){return String(v||'').trim().replace(/^«\s*/,'').replace(/\s*»$/,'').replace(/`/g,'').replace(/<br\s*\/?>/gi,' | ')}
+function splitTableRow(line){return line.trim().replace(/^\|/,'').replace(/\|$/,'').split('|').map(stripMd)}
+function inferSourceId(id,sourceCell){const d=String(id||'').match(/^(S\d{2})-Q\d+/); if(d)return normalizeSourceId(d[1]); const s=String(sourceCell||'').match(/S\d{2}(?:-HIST)?/); return s?normalizeSourceId(s[0]):''}
+function parseConsolidatedQuotesMarkdown(md){const rows=[]; let mode=''; for(const line of String(md||'').split(/\r?\n/)){if(line.startsWith('## 1.1.')){mode='historical';continue} if(line.startsWith('## 2.')){mode='atomized';continue} if(!line.trim().startsWith('|')||line.includes('---'))continue; const c=splitTableRow(line); if(!c.length||/^ID/.test(c[0])||/^id$/i.test(c[0]))continue; if(mode==='historical'&&c.length>=5){const [id,source,type,entry,status]=c, sid=inferSourceId(id,source); rows.push({kind:'quote',id,file:'registers/quotes/master_quotes.md',heading:'citation historique consolidée',data:{id,source_id:sid,source_label:sourceLabel(sid),citation_originale:entry,type_citation:type,statut_consolidation:status,statut_verification:status,chapitres:['Chapitre 1'],source_origin:['registre historique','master_quotes.md']}})} else if(mode==='atomized'&&c.length>=4){const [id,citation,status,usage]=c, sid=inferSourceId(id,''); rows.push({kind:'quote',id,file:'registers/quotes/master_quotes.md',heading:'citation atomisée consolidée',data:{id,source_id:sid,source_label:sourceLabel(sid),citation_originale:citation,usage_recommande:usage,statut_consolidation:status,statut_verification:status,source_origin:['atomisation','master_quotes.md']}})}} return rows}
+function mergeConsolidatedQuotes(records, consolidated){const existing=new Set(records.map(r=>r.id)); return records.concat(consolidated.filter(r=>!existing.has(r.id)))}
+function sourceIdsForRecord(record){const ids=[]; const d=record.data||{}; if(d.source_id)ids.push(normalizeSourceId(d.source_id)); if(Array.isArray(d.sources))d.sources.forEach(s=>{if(typeof s==='string'&&/^S(\d+|-[A-Z])/.test(s))ids.push(normalizeSourceId(s))}); return unique(ids)}
+function chaptersForRecord(record){const d=record.data||{}; return unique([...asArray(d.chapitres),...asArray(d.chapters)].map(String))}
+function recordTitle(record){const d=record.data||{}; return d.titre||d.event||d.name||d.full_name||d.song||d.citation_originale||record.heading||record.id||'(sans titre)'}
+function importanceValue(record){const d=record.data||{}; return String(valueAt(d,'importance.niveau')||d.importance||'')}
+function proofValue(record){const d=record.data||{}; return String(valueAt(d,'niveau_preuve.statut')||d.fiabilite||d.certainty||'')}
+function typeValue(record){return String((record.data||{}).type_unite||'')}
+function conceptsForRecord(record){return asArray((record.data||{}).concepts).map(String)}
+function motifsForRecord(record){return asArray((record.data||{}).motifs).map(String)}
+function recordTextParts(record){const d=record.data||{}; return [record.id||'',record.kind||'',record.heading||'',record.file||'',recordTitle(record),d.source_label||'',sourceIdsForRecord(record).map(sourceLabel).join(' '),flatten(d)]}
+function buildSearchIndex(records){SEARCH_INDEX=records.map((record,order)=>{const rawText=recordTextParts(record).join('\n'), normalizedText=normalizeText(rawText), tokens=tokenize(rawText), tokenCounts=new Map(); tokens.forEach(t=>tokenCounts.set(t,(tokenCounts.get(t)||0)+1)); return {order,record,rawText,normalizedText,tokens,tokenCounts,sourceIds:sourceIdsForRecord(record),chapters:chaptersForRecord(record),type:typeValue(record),importance:importanceValue(record),proof:proofValue(record),concepts:conceptsForRecord(record),motifs:motifsForRecord(record)}})}
+function conciseRecord(record,scoreDetails=null){const d=record.data||{}, sid=d.source_id?normalizeSourceId(d.source_id):d.source_id, sources=Array.isArray(d.sources)?d.sources.map(normalizeSourceId):d.sources; return {id:record.id,kind:record.kind,file:record.file,heading:record.heading,summary_fields:Object.fromEntries(Object.entries({titre:d.titre||recordTitle(record),source_id:sid,source_label:d.source_label||sourceLabel(sid),source_short_title:d.source_short_title,sources,source_titles:Array.isArray(sources)?sources.map(sourceLabel):undefined,auteur:d.auteur,pages_pdf:d.pages_pdf,page_pdf:d.page_pdf,type_unite:d.type_unite,importance:d.importance,niveau_preuve:d.niveau_preuve,concepts:d.concepts,motifs:d.motifs,chapitres:d.chapitres||d.chapters,citation_originale:d.citation_originale,traduction_editoriale_fr:d.traduction_editoriale_fr,usage_recommande:d.usage_recommande,statut_consolidation:d.statut_consolidation,song:d.song,themes:d.themes,name:d.name,role:d.role,date:d.date,event:d.event,certainty:d.certainty,score_details:scoreDetails}).filter(([,v])=>v!==undefined&&v!==null&&v!==''))}}
+function buildSourcesIndex(){const grouped=new Map(); for(const record of ALL_RECORDS){for(const sid of sourceIdsForRecord(record)){if(!grouped.has(sid))grouped.set(sid,{source_id:sid,source_label:sourceLabel(sid),records:[],counts:{}}); const e=grouped.get(sid); e.records.push(record); e.counts[record.kind]=(e.counts[record.kind]||0)+1}} SOURCES_INDEX=[...grouped.values()].sort((a,b)=>a.source_id.localeCompare(b.source_id,undefined,{numeric:true}))}
+function optionLabel(value, max=78){const s=String(value||''); return s.length>max?s.slice(0,max)+'…':s}
+function fillSelect(id, values, labelFn=v=>v){const el=$(id); if(!el)return; const first=el.querySelector('option')?.cloneNode(true); el.innerHTML=''; if(first)el.appendChild(first); values.forEach(v=>{const opt=document.createElement('option'); opt.value=v; opt.textContent=labelFn(v); el.appendChild(opt)})}
+function buildFilterControls(){const chapters=unique(SEARCH_INDEX.flatMap(i=>i.chapters)).sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})); const sources=unique(SEARCH_INDEX.flatMap(i=>i.sourceIds)).sort((a,b)=>a.localeCompare(b,undefined,{numeric:true})); const types=unique(SEARCH_INDEX.map(i=>i.type)).sort(); const importances=unique(SEARCH_INDEX.map(i=>i.importance)).sort(); const proofs=unique(SEARCH_INDEX.map(i=>i.proof)).sort(); const concepts=unique(SEARCH_INDEX.flatMap(i=>i.concepts)).sort(); const motifs=unique(SEARCH_INDEX.flatMap(i=>i.motifs)).sort(); fillSelect('chapter-filter',chapters); fillSelect('source-filter',sources,s=>`${s} — ${sourceLabel(s).replace(/^S\d+\s+—\s+/, '')}`); fillSelect('type-filter',types); fillSelect('importance-filter',importances); fillSelect('proof-filter',proofs); fillSelect('concept-filter',concepts,optionLabel); fillSelect('motif-filter',motifs,optionLabel)}
+function currentFilters(){return {kind:$('kind')?.value||'',chapter:$('chapter-filter')?.value||'',source:$('source-filter')?.value||'',type:$('type-filter')?.value||'',importance:$('importance-filter')?.value||'',proof:$('proof-filter')?.value||'',concept:$('concept-filter')?.value||'',motif:$('motif-filter')?.value||''}}
+function indexedMatchesFilters(i,filters){if(filters.kind&&i.record.kind!==filters.kind)return false; if(filters.chapter&&!i.chapters.includes(filters.chapter))return false; if(filters.source&&!i.sourceIds.includes(filters.source))return false; if(filters.type&&i.type!==filters.type)return false; if(filters.importance&&i.importance!==filters.importance)return false; if(filters.proof&&i.proof!==filters.proof)return false; if(filters.concept&&!i.concepts.includes(filters.concept))return false; if(filters.motif&&!i.motifs.includes(filters.motif))return false; return true}
+function hasActiveFilters(f){return Object.values(f).some(Boolean)}
+function activeFilterLabel(f){const labels=[]; if(f.kind)labels.push(`type=${f.kind}`); if(f.chapter)labels.push(f.chapter); if(f.source)labels.push(`source=${f.source}`); if(f.type)labels.push(`type_unite=${f.type}`); if(f.importance)labels.push(`importance=${f.importance}`); if(f.proof)labels.push(`preuve=${f.proof}`); if(f.concept)labels.push(`concept=${f.concept}`); if(f.motif)labels.push(`motif=${f.motif}`); return labels.join(' · ')}
+function renderSources(){const container=$('sources-list'), count=$('sources-count'); if(!container||!count)return; container.innerHTML=''; count.textContent=`${SOURCES_INDEX.length} source(s)`; for(const s of SOURCES_INDEX){const w=document.createElement('div'); w.className='source-entry'; const b=document.createElement('button'); b.innerHTML=`<div class="source-title">${s.source_label}</div><div class="source-meta">${s.counts.atom||0} atomes · ${s.counts.quote||0} citations · ${s.counts.chronology||0} chronologies · ${s.records.length} enregistrements</div>`; b.addEventListener('click',()=>openSource(s.source_id)); w.appendChild(b); container.appendChild(w)}}
+function clearResults(){if($('results'))$('results').innerHTML=''; if($('results-meta'))$('results-meta').textContent=''; if($('pagination'))$('pagination').innerHTML=''}
+function addField(dl,key,value){if(!dl||value===undefined||value===null||value==='')return; const dt=document.createElement('dt'); dt.textContent=key; const dd=document.createElement('dd'); dd.textContent=typeof value==='object'?JSON.stringify(value,null,2):value; dl.appendChild(dt); dl.appendChild(dd)}
+function renderPagination(totalPages){const c=$('pagination'); if(!c)return; c.innerHTML=''; if(totalPages<=1)return; const make=(label,page,disabled=false,active=false)=>{const b=document.createElement('button'); b.textContent=label; b.disabled=disabled; if(active)b.classList.add('active'); b.addEventListener('click',()=>{CURRENT_PAGE=page; renderCurrentPage()}); return b}; c.appendChild(make('←',Math.max(1,CURRENT_PAGE-1),CURRENT_PAGE===1)); const start=Math.max(1,CURRENT_PAGE-3), end=Math.min(totalPages,CURRENT_PAGE+3); for(let p=start;p<=end;p++)c.appendChild(make(String(p),p,false,p===CURRENT_PAGE)); c.appendChild(make('→',Math.min(totalPages,CURRENT_PAGE+1),CURRENT_PAGE===totalPages))}
+function renderCurrentPage(){try{clearResults(); const results=$('results'), meta=$('results-meta'), template=$('result-template'); if(!results||!meta||!template)throw new Error('Élément HTML manquant.'); const total=LAST_RESULTS.length, totalPages=Math.ceil(total/RESULTS_PER_PAGE)||1, start=(CURRENT_PAGE-1)*RESULTS_PER_PAGE, pageResults=LAST_RESULTS.slice(start,start+RESULTS_PER_PAGE); meta.textContent=`${total} résultat(s) · page ${CURRENT_PAGE}/${totalPages}`; if(!pageResults.length){const empty=document.createElement('div'); empty.className='status-card'; empty.textContent='Aucun résultat.'; results.appendChild(empty); return} for(const item of pageResults){const node=template.content.cloneNode(true); node.querySelector('.result-kind').textContent=item.record.kind||''; node.querySelector('.result-score').textContent=`score ${item.score}`; node.querySelector('.result-title').textContent=item.record.id||item.record.summary_fields?.titre||'(sans id)'; node.querySelector('.result-file').textContent=item.record.file||''; const fields=node.querySelector('.result-fields'); for(const [k,v] of Object.entries(item.record.summary_fields||{}))addField(fields,k,v); results.appendChild(node)} renderPagination(totalPages)}catch(e){showError('Erreur pendant le rendu des résultats.',e)}}
+function renderResults(scored,perPage=10){LAST_RESULTS=Array.isArray(scored)?scored:[]; RESULTS_PER_PAGE=Number(perPage)||10; CURRENT_PAGE=1; renderCurrentPage()}
+function exactPhraseBonus(text,query){return query&&query.length>=4&&text.includes(query)?25:0}
+function kindWeight(kind){return {atom:1.25,quote:1.2,chronology:1.1,concept:1.05,myth:1.05,motif:1.05}[kind]||1}
+function scoreIndexedRecord(i,terms,query,filters){let score=exactPhraseBonus(i.normalizedText,query), matched=0; const details=[]; for(const term of terms){const count=i.tokenCounts.get(term)||0, partial=count?0:(i.normalizedText.includes(term)?1:0), termScore=count*6+partial*2; if(termScore>0){matched++; score+=termScore; details.push(`${term}:${count||'partial'}`)}} if(terms.length&&matched===terms.length)score+=12; if(i.record.id&&normalizeText(i.record.id).includes(query))score+=20; if(hasActiveFilters(filters))score+=5; return {score:Math.round(score*kindWeight(i.record.kind)), details}}
+function scoreRecords(query,filters){const terms=unique(tokenize(query)); const normalizedQuery=normalizeText(query).trim(); const filterOnly=!terms.length&&normalizedQuery.length<3&&hasActiveFilters(filters); if(!filterOnly&&!terms.length&&normalizedQuery.length<3)return []; const results=[]; for(const indexed of SEARCH_INDEX){if(!indexedMatchesFilters(indexed,filters))continue; const scored=filterOnly?{score:1,details:['filtre']} : scoreIndexedRecord(indexed,terms,normalizedQuery,filters); if(scored.score>0)results.push({score:scored.score,record:conciseRecord(indexed.record,scored.details.join(', ')),order:indexed.order})} return results.sort((a,b)=>(b.score-a.score)||(a.order-b.order))}
+function openSource(sourceId){$('source-filter').value=sourceId; $('results-title').textContent=sourceLabel(sourceId); const filters=currentFilters(); const scored=scoreRecords($('query')?.value||'',filters); renderResults(scored,$('top')?.value||10)}
+async function performSearch(){try{const query=$('query')?.value.trim()||'', filters=currentFilters(); $('results-title').textContent=activeFilterLabel(filters)||'Résultats'; $('results').innerHTML='<div class="status-card">Recherche en cours…</div>'; const scored=scoreRecords(query,filters); renderResults(scored,$('top')?.value||10)}catch(e){showError('Erreur pendant la recherche.',e)}}
+async function loadCorpus(){const card=$('status-card'); try{const [records,registry,quotesMd]=await Promise.all([loadJson('../../exports/generated/all_records.json',[]),loadJson('../../data/registre.json',[]),loadText('../../registers/quotes/master_quotes.md','')]); SOURCE_LABELS=buildSourceLabels(registry,records); ALL_RECORDS=mergeConsolidatedQuotes(records,parseConsolidatedQuotesMarkdown(quotesMd)); buildSearchIndex(ALL_RECORDS); buildSourcesIndex(); buildFilterControls(); renderSources(); const counts={}; for(const r of ALL_RECORDS)counts[r.kind||'unknown']=(counts[r.kind||'unknown']||0)+1; const summary=Object.entries(counts).sort().map(([k,c])=>`${k}: ${c}`).join(' · '); if(card)card.textContent=`RAG 2 chargé · ${ALL_RECORDS.length} enregistrements · ${summary}`}catch(e){if(card)card.textContent=`Erreur : ${e.message}`}}
+function resetFilters(){['kind','chapter-filter','source-filter','type-filter','importance-filter','proof-filter','concept-filter','motif-filter'].forEach(id=>{if($(id))$(id).value=''}); if($('query'))$('query').value=''; clearResults(); $('results-title').textContent='Résultats'}
+function bindExamples(){for(const b of document.querySelectorAll('.example-query'))b.addEventListener('click',()=>{$('query').value=b.dataset.query; performSearch()})}
+function bindForm(){const form=$('search-form'); if(form)form.addEventListener('submit',e=>{e.preventDefault(); performSearch()}); const reset=$('reset-filters'); if(reset)reset.addEventListener('click',resetFilters); ['kind','chapter-filter','source-filter','type-filter','importance-filter','proof-filter','concept-filter','motif-filter','top'].forEach(id=>{if($(id))$(id).addEventListener('change',()=>{if(($('query')?.value||'').trim()||hasActiveFilters(currentFilters()))performSearch()})})}
+window.scoreRecords=()=>scoreRecords($('query')?.value||'',currentFilters()); window.renderResults=renderResults; window.performSearch=performSearch;
+loadCorpus(); bindExamples(); bindForm();
