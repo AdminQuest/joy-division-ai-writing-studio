@@ -225,3 +225,48 @@ atomes_lies:
   - S75-A017
   - S75-A020
 ```
+
+---
+
+# MOTIF-007 — gang
+
+```yaml
+id: MOTIF-007
+
+nom: gang
+
+definition: >
+  Motif désignant la manière dont Joy Division se construit aussi comme petit collectif
+  masculin soudé, protecteur, parfois opaque, où la camaraderie, le pub, le football,
+  la loyauté et l'agressivité défensive tiennent lieu de structure sociale.
+
+formes:
+  - pub après répétition
+  - manager intégré au groupe
+  - humour défensif
+  - sociabilité footballistique
+  - solidarité contre les intermédiaires extérieurs
+  - rejet de la prétention
+
+chapitres:
+  - Chapitre 5
+  - Chapitre 6
+  - Chapitre 13
+  - Chapitre 14
+
+concepts_associes:
+  - CONCEPT-007
+  - CONCEPT-004
+
+risques:
+  - nostalgie masculine non critique
+  - romantisation de la brutalité
+  - effacement des tensions internes
+  - réduction de Deborah Curtis, Annik Honoré ou Lindsay Reade aux marges du collectif
+
+atomes_lies:
+  - S76-A058
+  - S76-A062
+  - S76-A063
+  - S76-A064
+```
