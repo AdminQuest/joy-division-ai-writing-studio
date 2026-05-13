@@ -45181,6 +45181,115 @@
       ]
     }
   },
+  "MOTIF-004": {
+    "kind": "motif",
+    "id": "MOTIF-004",
+    "file": "registers/motifs/master_motifs.md",
+    "heading": "MOTIF-004 — culture bootleg",
+    "data": {
+      "id": "MOTIF-004",
+      "nom": "culture bootleg",
+      "definition": "Motif documentaire désignant les enregistrements non officiels, semi-officiels ou juridiquement ambigus qui conservent une mémoire sonore alternative du groupe.\n",
+      "formes": [
+        "CD non officiels",
+        "bandes de démos",
+        "captations live",
+        "objets discographiques suspects",
+        "circulation fanique"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "concepts_associes": [
+        "CONCEPT-005"
+      ],
+      "risques": [
+        "confusion entre valeur documentaire et légitimité éditoriale",
+        "fétichisation de l'objet rare",
+        "faiblesse de la chaîne de preuve"
+      ],
+      "atomes_lies": [
+        "S75-A008"
+      ]
+    }
+  },
+  "MOTIF-005": {
+    "kind": "motif",
+    "id": "MOTIF-005",
+    "file": "registers/motifs/master_motifs.md",
+    "heading": "MOTIF-005 — provocation",
+    "data": {
+      "id": "MOTIF-005",
+      "nom": "provocation",
+      "definition": "Motif désignant les gestes esthétiques ou discursifs visant le choc, le trouble ou l'offense, notamment dans l'imagerie de Warsaw et des débuts de Joy Division.\n",
+      "formes": [
+        "imagerie nazie",
+        "cris de scène",
+        "références taboues",
+        "shock art",
+        "ambiguïté non maîtrisée"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 5",
+        "Chapitre 11"
+      ],
+      "concepts_associes": [
+        "CONCEPT-004"
+      ],
+      "risques": [
+        "apologie involontaire",
+        "excuse romantique",
+        "condamnation sans contextualisation",
+        "simplification morale"
+      ],
+      "atomes_lies": [
+        "S75-A013",
+        "S75-A016",
+        "S75-A017",
+        "S75-A018"
+      ]
+    }
+  },
+  "MOTIF-006": {
+    "kind": "motif",
+    "id": "MOTIF-006",
+    "file": "registers/motifs/master_motifs.md",
+    "heading": "MOTIF-006 — seuil",
+    "data": {
+      "id": "MOTIF-006",
+      "nom": "seuil",
+      "definition": "Motif désignant les moments de bascule où Warsaw cesse progressivement d'être un groupe punk indistinct et laisse apparaître Joy Division comme forme propre.\n",
+      "formes": [
+        "changement de nom",
+        "arrivée de Stephen Morris",
+        "stabilisation rythmique",
+        "premier morceau réellement distinctif",
+        "passage du support défectueux au remastering"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "concepts_associes": [
+        "CONCEPT-006",
+        "CONCEPT-005"
+      ],
+      "risques": [
+        "téléologie",
+        "recherche excessive du premier vrai moment",
+        "effacement des continuités lentes"
+      ],
+      "atomes_lies": [
+        "S75-A015",
+        "S75-A017",
+        "S75-A020"
+      ]
+    }
+  },
   "PERS-001": {
     "kind": "person",
     "id": "PERS-001",
@@ -46020,6 +46129,167 @@
       ]
     }
   },
+  "CONCEPT-004": {
+    "kind": "concept",
+    "id": "CONCEPT-004",
+    "file": "registers/concepts/master_concepts.md",
+    "heading": "CONCEPT-004 — prudence historiographique",
+    "data": {
+      "id": "CONCEPT-004",
+      "nom": "prudence historiographique",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_methodologique"
+        ],
+        "stabilite": "stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Principe méthodologique consistant à distinguer les faits établis, les témoignages, les reconstructions mémorielles, les mythes et les lectures critiques, afin d'éviter la téléologie, la psychologisation et la transformation de Joy Division en récit entièrement rétrospectif.\n",
+      "usage_repo": {
+        "fonction": [
+          "contrôle des dérives interprétatives",
+          "qualification du niveau de preuve",
+          "stabilisation des tensions documentaires"
+        ]
+      },
+      "chapitres": [
+        "méthode générale",
+        "Chapitre 2",
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "motifs_associes": [
+        "mystification",
+        "réception posthume",
+        "critique du mythe"
+      ],
+      "risques": [
+        "neutralisation excessive du récit",
+        "prudence transformée en indécision",
+        "affaiblissement de la force narrative"
+      ],
+      "atomes_lies": [
+        "S75-A002",
+        "S75-A003"
+      ],
+      "concepts_derives": [
+        "anti-mythographie",
+        "distance documentaire",
+        "contrôle de la téléologie"
+      ]
+    }
+  },
+  "CONCEPT-005": {
+    "kind": "concept",
+    "id": "CONCEPT-005",
+    "file": "registers/concepts/master_concepts.md",
+    "heading": "CONCEPT-005 — contrainte productive",
+    "data": {
+      "id": "CONCEPT-005",
+      "nom": "contrainte productive",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_analytique"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Concept désignant la manière dont les limites matérielles, techniques, économiques ou humaines ne font pas seulement obstacle à la forme artistique, mais contribuent à la révéler, la durcir ou la déplacer.\n",
+      "usage_repo": {
+        "fonction": [
+          "analyse des premières sessions",
+          "analyse des supports discographiques",
+          "analyse des conditions matérielles de production"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "motifs_associes": [
+        "amateurisme",
+        "pressage",
+        "économie de moyens",
+        "bootleg",
+        "seuil"
+      ],
+      "risques": [
+        "romantisation de l'incompétence",
+        "causalité trop mécanique entre pauvreté technique et invention formelle"
+      ],
+      "atomes_lies": [
+        "S75-A009",
+        "S75-A019"
+      ],
+      "concepts_derives": [
+        "forme depuis l'insuffisance",
+        "matérialité sonore",
+        "accident productif"
+      ]
+    }
+  },
+  "CONCEPT-006": {
+    "kind": "concept",
+    "id": "CONCEPT-006",
+    "file": "registers/concepts/master_concepts.md",
+    "heading": "CONCEPT-006 — architecture sonore",
+    "data": {
+      "id": "CONCEPT-006",
+      "nom": "architecture sonore",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_analytique"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Concept désignant l'organisation formelle du son Joy Division : lignes de basse, batterie métronomique, guitare spatialisée, voix distante, silences et tension entre vide, rythme et masse sonore.\n",
+      "usage_repo": {
+        "fonction": [
+          "analyse musicale",
+          "articulation live / studio",
+          "passage du punk au post-punk"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "motifs_associes": [
+        "seuil",
+        "précision",
+        "spatialisation",
+        "vide",
+        "répétition"
+      ],
+      "risques": [
+        "abstraction excessive",
+        "effacement de la matérialité des instruments",
+        "confusion entre son live et son studio"
+      ],
+      "atomes_lies": [
+        "S75-A015",
+        "S75-A020"
+      ],
+      "concepts_derives": [
+        "seuil esthétique",
+        "spatialisation rythmique",
+        "forme post-punk"
+      ]
+    }
+  },
   "MYTH-001": {
     "kind": "myth",
     "id": "MYTH-001",
@@ -46189,6 +46459,135 @@
       ],
       "atomes_lies": [],
       "relations": []
+    }
+  },
+  "MYTH-006": {
+    "kind": "myth",
+    "id": "MYTH-006",
+    "file": "registers/myths/master_myths.md",
+    "heading": "MYTH-006 — Le génie immédiat de Joy Division",
+    "data": {
+      "id": "MYTH-006",
+      "nom": "Le génie immédiat de Joy Division",
+      "statut": {
+        "type": "mythe_esthetique",
+        "niveau_risque": "moyen",
+        "utilite_narrative": "forte",
+        "solidite_factuelle": "faible"
+      },
+      "noyau_factuel": "Les premiers enregistrements contiennent déjà des indices de différenciation, notamment dans certains choix rythmiques, textuels ou sonores.\n",
+      "construction_mythique": "La réception postérieure peut transformer ces indices en preuve d'une forme déjà pleinement constituée dès les premières démos de Warsaw.\n",
+      "risque_interpretatif": [
+        "téléologie esthétique",
+        "effacement de l'apprentissage",
+        "effacement des échecs techniques",
+        "héroïsation rétrospective des débuts"
+      ],
+      "usage_recommande": "Montrer les seuils, les hésitations et les ratés qui précèdent la forme Joy Division, au lieu de postuler un génie immédiatement constitué.\n",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "atomes_lies": [
+        "S75-A009",
+        "S75-A010",
+        "S75-A012",
+        "S75-A015"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "CONCEPT-005"
+        },
+        {
+          "type": "nuance",
+          "cible": "MOTIF-006"
+        }
+      ]
+    }
+  },
+  "MYTH-007": {
+    "kind": "myth",
+    "id": "MYTH-007",
+    "file": "registers/myths/master_myths.md",
+    "heading": "MYTH-007 — L’imagerie nazie comme fascination fasciste",
+    "data": {
+      "id": "MYTH-007",
+      "nom": "L’imagerie nazie comme fascination fasciste",
+      "statut": {
+        "type": "mythe_controverse",
+        "niveau_risque": "critique",
+        "utilite_narrative": "forte",
+        "solidite_factuelle": "partielle"
+      },
+      "noyau_factuel": "Warsaw et les débuts de Joy Division mobilisent des références à la Seconde Guerre mondiale, au nazisme, à Rudolf Hess et à l'expression « Joy Division » elle-même.\n",
+      "construction_mythique": "La réception peut rabattre ces références soit sur une fascination fasciste simple, soit à l'inverse sur une provocation innocente dépourvue d'enjeu politique ou moral.\n",
+      "risque_interpretatif": [
+        "condamnation sans contextualisation",
+        "excuse romantique",
+        "apologie involontaire",
+        "confusion entre intention, image et réception",
+        "effacement du caractère éthiquement litigieux des objets"
+      ],
+      "usage_recommande": "Contextualiser les références sans les excuser : distinguer culture punk du choc, stratégie de provocation, immaturité politique, réception différée et charge morale des images.\n",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 5",
+        "Chapitre 11"
+      ],
+      "atomes_lies": [
+        "S75-A013",
+        "S75-A016",
+        "S75-A017",
+        "S75-A018"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-005"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        }
+      ]
+    }
+  },
+  "MYTH-008": {
+    "kind": "myth",
+    "id": "MYTH-008",
+    "file": "registers/myths/master_myths.md",
+    "heading": "MYTH-008 — Stiff Kittens comme origine constituée",
+    "data": {
+      "id": "MYTH-008",
+      "nom": "Stiff Kittens comme origine constituée",
+      "statut": {
+        "type": "micro_mythe_de_formation",
+        "niveau_risque": "faible",
+        "utilite_narrative": "moyenne",
+        "solidite_factuelle": "faible"
+      },
+      "noyau_factuel": "Le nom Stiff Kittens circule autour des débuts du groupe, probablement comme plaisanterie ou suggestion externe associée à Richard Boon et Pete Shelley.\n",
+      "construction_mythique": "La mémoire fanique et critique peut traiter ce nom comme une identité de groupe plus constituée qu'elle ne semble l'avoir été.\n",
+      "risque_interpretatif": [
+        "survalorisation d'une anecdote",
+        "confusion entre étiquette imposée et identité choisie",
+        "rigidification d'une plaisanterie en fait historique"
+      ],
+      "usage_recommande": "Utiliser Stiff Kittens comme indice de la lutte pour la nomination, non comme véritable identité fondatrice.\n",
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "atomes_lies": [
+        "S75-A006",
+        "S75-A017"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "MOTIF-006"
+        }
+      ]
     }
   },
   "CHR-1956-001": {

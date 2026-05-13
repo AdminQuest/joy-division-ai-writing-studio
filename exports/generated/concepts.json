@@ -144,5 +144,166 @@
         "spatialisation émotionnelle"
       ]
     }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-004",
+    "file": "registers/concepts/master_concepts.md",
+    "heading": "CONCEPT-004 — prudence historiographique",
+    "data": {
+      "id": "CONCEPT-004",
+      "nom": "prudence historiographique",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_methodologique"
+        ],
+        "stabilite": "stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Principe méthodologique consistant à distinguer les faits établis, les témoignages, les reconstructions mémorielles, les mythes et les lectures critiques, afin d'éviter la téléologie, la psychologisation et la transformation de Joy Division en récit entièrement rétrospectif.\n",
+      "usage_repo": {
+        "fonction": [
+          "contrôle des dérives interprétatives",
+          "qualification du niveau de preuve",
+          "stabilisation des tensions documentaires"
+        ]
+      },
+      "chapitres": [
+        "méthode générale",
+        "Chapitre 2",
+        "Chapitre 4",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "motifs_associes": [
+        "mystification",
+        "réception posthume",
+        "critique du mythe"
+      ],
+      "risques": [
+        "neutralisation excessive du récit",
+        "prudence transformée en indécision",
+        "affaiblissement de la force narrative"
+      ],
+      "atomes_lies": [
+        "S75-A002",
+        "S75-A003"
+      ],
+      "concepts_derives": [
+        "anti-mythographie",
+        "distance documentaire",
+        "contrôle de la téléologie"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-005",
+    "file": "registers/concepts/master_concepts.md",
+    "heading": "CONCEPT-005 — contrainte productive",
+    "data": {
+      "id": "CONCEPT-005",
+      "nom": "contrainte productive",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_analytique"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Concept désignant la manière dont les limites matérielles, techniques, économiques ou humaines ne font pas seulement obstacle à la forme artistique, mais contribuent à la révéler, la durcir ou la déplacer.\n",
+      "usage_repo": {
+        "fonction": [
+          "analyse des premières sessions",
+          "analyse des supports discographiques",
+          "analyse des conditions matérielles de production"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "motifs_associes": [
+        "amateurisme",
+        "pressage",
+        "économie de moyens",
+        "bootleg",
+        "seuil"
+      ],
+      "risques": [
+        "romantisation de l'incompétence",
+        "causalité trop mécanique entre pauvreté technique et invention formelle"
+      ],
+      "atomes_lies": [
+        "S75-A009",
+        "S75-A019"
+      ],
+      "concepts_derives": [
+        "forme depuis l'insuffisance",
+        "matérialité sonore",
+        "accident productif"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-006",
+    "file": "registers/concepts/master_concepts.md",
+    "heading": "CONCEPT-006 — architecture sonore",
+    "data": {
+      "id": "CONCEPT-006",
+      "nom": "architecture sonore",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_analytique"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Concept désignant l'organisation formelle du son Joy Division : lignes de basse, batterie métronomique, guitare spatialisée, voix distante, silences et tension entre vide, rythme et masse sonore.\n",
+      "usage_repo": {
+        "fonction": [
+          "analyse musicale",
+          "articulation live / studio",
+          "passage du punk au post-punk"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "motifs_associes": [
+        "seuil",
+        "précision",
+        "spatialisation",
+        "vide",
+        "répétition"
+      ],
+      "risques": [
+        "abstraction excessive",
+        "effacement de la matérialité des instruments",
+        "confusion entre son live et son studio"
+      ],
+      "atomes_lies": [
+        "S75-A015",
+        "S75-A020"
+      ],
+      "concepts_derives": [
+        "seuil esthétique",
+        "spatialisation rythmique",
+        "forme post-punk"
+      ]
+    }
   }
 ]

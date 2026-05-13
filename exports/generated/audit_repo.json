@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-13T10:02:11",
+  "generated_at": "2026-05-13T10:10:50",
   "summary": {
-    "records_total": 1273,
+    "records_total": 1282,
     "records_by_kind": {
       "quote": 86,
       "atom": 915,
@@ -11,10 +11,10 @@
       "song": 8,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 3,
+      "motif": 6,
       "person": 12,
-      "concept": 3,
-      "myth": 5
+      "concept": 6,
+      "myth": 8
     },
     "diagnostics_total": 8470,
     "errors": 0,
@@ -29,10 +29,10 @@
   "records_by_kind": {
     "atom": 915,
     "chronology": 165,
-    "concept": 3,
+    "concept": 6,
     "metadata": 18,
-    "motif": 3,
-    "myth": 5,
+    "motif": 6,
+    "myth": 8,
     "person": 12,
     "quote": 86,
     "quote_batch": 1,
@@ -111,19 +111,20 @@
   "records_by_chapter": {
     "Chapitre 1": 106,
     "Chapitre 10": 77,
-    "Chapitre 11": 155,
+    "Chapitre 11": 158,
     "Chapitre 12": 83,
     "Chapitre 13": 41,
-    "Chapitre 14": 504,
-    "Chapitre 2": 201,
-    "Chapitre 3": 166,
-    "Chapitre 4": 91,
-    "Chapitre 5": 222,
-    "Chapitre 6": 165,
+    "Chapitre 14": 506,
+    "Chapitre 2": 210,
+    "Chapitre 3": 170,
+    "Chapitre 4": 92,
+    "Chapitre 5": 224,
+    "Chapitre 6": 167,
     "Chapitre 7": 82,
-    "Chapitre 8": 64,
+    "Chapitre 8": 66,
     "Chapitre 9": 197,
-    "Tous chapitres": 1
+    "Tous chapitres": 1,
+    "méthode générale": 1
   },
   "top_files_by_record_count": [
     [
