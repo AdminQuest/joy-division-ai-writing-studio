@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:22:50"
+generated_at: "2026-05-13T18:00:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 593 |
+| Atomes | 600 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 76 |
-| Événements chronologiques | 47 |
-| Personnes | 57 |
+| Citations | 77 |
+| Événements chronologiques | 48 |
+| Personnes | 59 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 99 | 49 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 106 | 50 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -363,11 +363,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1980-010 — Joy Division joue au Warehouse de Preston avec Section 25. Le concert est marqué par des problèmes techniques, l’effondrement momentané de « The Eternal », la première apparition live de « Heart and Soul » et une frustration économique autour du cachet.
 - CHR-S76-1980-011 — Joy Division joue au Lyceum de Londres. Curtis subit une crise grand mal qui commence sur scène ; Terry Mason et Tony Wilson le retirent vers les escaliers du théâtre.
 - CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
+- CHR-S76-1980-019 — La pochette de *Closer* est élaborée autour d’une photographie de Bernard Pierre Wolff prise au cimetière de Staglieno, avec Martyn Atkins et Peter Saville. La signification funéraire de l’objet sera amplifiée après la mort de Curtis.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
 - CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
 - CHR-S75-1997-001 — Inclusion de la session complète de *Unknown Pleasures* dans l'anthologie *Heart and Soul*.
-- CHR-S76-1979-012 — Le lendemain de la naissance de Natalie, Joy Division joue à Acklam Hall, Londres, avec John Dowie en support. S76 souligne que les concerts londoniens sont considérés comme trop importants pour être annulés.
 
 ## 9. Personnes et acteurs
 
@@ -408,9 +408,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-067 — Annik Honoré
 - PERS-S76-068 — Buzzcocks
 - PERS-S76-012 — Kevin Cummins
+- PERS-S76-078 — Martyn Atkins
+- PERS-S76-079 — Bernard Pierre Wolff
 - PERS-S76-062 — Dave McCullough
-- PERS-S76-063 — Annik Honoré
-- PERS-S76-064 — Dave Pils et Jasmine
 
 ## 10. Chansons rattachées
 
@@ -510,16 +510,17 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
-- Annik Honoré (10)
+- Annik Honoré (11)
 - Tony Wilson (10)
 - Rob Gretton (8)
 - Factory (7)
+- fatigue (7)
 - Unknown Pleasures (6)
-- fatigue (6)
+- Peter Saville (6)
 - Gretton (5)
-- Peter Saville (5)
 - Ian Curtis (4)
 - épilepsie (4)
+- Closer (4)
 - Kevin Cummins (4)
 - Rabid Records (4)
 - Love Will Tear Us Apart (4)
@@ -529,9 +530,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Buzzcocks tour (3)
 - Dead Souls (3)
 - transition (3)
+- postérité (3)
 - Wilson (3)
 - contrat (3)
 - RCA (3)
+- Hannett (3)
 - John Peel (3)
 - indépendance (3)
 - manager (3)
@@ -547,9 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - deification (2)
 - Futurama (2)
 - America (2)
-- Derby Hall (2)
-- Licht und Blindheit (2)
-- Atmosphere (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -674,6 +674,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | acteur_critique | 4 |
+| lecture_chanson | 4 |
 | concert_europeen | 4 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
@@ -686,9 +687,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_biographique | 3 |
 | prudence_methodologique | 3 |
 | concept | 3 |
+| objet_visuel | 3 |
 | decision_strategique | 3 |
 | session_studio | 3 |
-| lecture_chanson | 3 |
 | interpretation | 3 |
 | song_session | 3 |
 | infrastructure | 2 |
@@ -708,7 +709,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | positionnement | 2 |
 | mémoire | 2 |
 | controverse_biographique | 2 |
-| objet_visuel | 2 |
 | outtakes | 2 |
 | reception_radio | 2 |
 | collection | 2 |
@@ -723,6 +723,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept_management | 2 |
 | esthétique_visuelle | 2 |
 | live_set_context | 2 |
+| album | 2 |
+| song | 2 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
 | objet_sonore_new_order | 1 |
@@ -883,6 +885,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_industrielle | 1 |
 | tension_technique | 1 |
 | bascule_management | 1 |
+| controverse_studio | 1 |
+| lecture_album | 1 |
 | lecture_institutionnelle | 1 |
 | genese_label | 1 |
 | scene_institutionnelle | 1 |
@@ -921,12 +925,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept_transversal | 1 |
 | marketing | 1 |
 | release_or_session | 1 |
-| album | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
+| release_design | 1 |
 | song_or_release | 1 |
 | song_or_video | 1 |
-| song | 1 |
 | release_object | 1 |
 | live_video_context | 1 |
 
@@ -934,8 +937,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 440 |
-| critique | 116 |
+| non qualifiée | 443 |
+| critique | 120 |
 | majeure | 33 |
 | structurante | 2 |
 | moyenne | 2 |

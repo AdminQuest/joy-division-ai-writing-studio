@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:22:50"
+generated_at: "2026-05-13T18:00:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 147 |
+| Atomes | 161 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 53 |
-| Événements chronologiques | 40 |
-| Personnes | 23 |
+| Citations | 58 |
+| Événements chronologiques | 44 |
+| Personnes | 26 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
 
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 63 | 39 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 77 | 44 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -356,14 +356,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
 - CHR-S76-1980-014 — Ian Curtis écrit à Annik Honoré une lettre détaillant sa peur de l’aggravation de l’épilepsie, les examens médicaux, la localisation dans le lobe temporal gauche, l’absence de cause évidente et le souvenir du David Lewis Centre.
 - CHR-S76-1980-015 — Pendant que Curtis s’apprête à partir enregistrer *Closer* à Londres, Deborah Curtis et ses parents trouvent un nouveau foyer pour Candy, le chien de Ian. L’épisode marque la matérialisation domestique de la crise conjugale.
+- CHR-S76-1980-016 — Joy Division et Martin Hannett commencent l’enregistrement de *Closer* à Britannia Row Studios, Islington, rompant avec l’habitude d’enregistrer dans ou autour de Manchester.
+- CHR-S76-1980-017 — Factory loue deux appartements à York Street, près de Baker Street, pour loger le groupe et Rob Gretton pendant les sessions londoniennes de *Closer*.
+- CHR-S76-1980-018 — Les sessions principales de *Closer* à Britannia Row s’achèvent vers la fin mars 1980. S76 souligne que le groupe doit immédiatement rester à Londres pour quatre concerts en trois jours au début d’avril.
+- CHR-S76-1980-019 — La pochette de *Closer* est élaborée autour d’une photographie de Bernard Pierre Wolff prise au cimetière de Staglieno, avec Martyn Atkins et Peter Saville. La signification funéraire de l’objet sera amplifiée après la mort de Curtis.
 - CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.
 - CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
 - CHR-S76-1979-011 — Natalie Curtis naît le lundi de Pâques. S76 met en tension la joie de Ian Curtis, la maternité de Deborah et la crainte que l’épilepsie empêche Ian de s’occuper physiquement de sa fille en sécurité.
 - CHR-S76-1979-012 — Le lendemain de la naissance de Natalie, Joy Division joue à Acklam Hall, Londres, avec John Dowie en support. S76 souligne que les concerts londoniens sont considérés comme trop importants pour être annulés.
-- CHR-S76-1979-013 — Ian Curtis subit à Barton Street plusieurs crises épileptiques consécutives. Deborah appelle une ambulance lorsqu’elle ne parvient plus à le réveiller.
-- CHR-S76-1979-016 — Joy Division enregistre « Transmission » et « She’s Lost Control » pour BBC2 *Something Else*, programme diffusé le 15 septembre 1979.
-- CHR-S76-1979-019 — Annik Honoré voit Joy Division au Nashville Rooms, venue de Belgique après avoir été bouleversée par *Unknown Pleasures*. Elle demande ensuite une interview pour le fanzine *En Attendant*.
-- CHR-S76-1979-020 — Annik Honoré réalise une longue interview de Joy Division à Walthamstow Youth Club pour *En Attendant*. L’entretien aborde notamment films, amour, mariage, enfants, santé, mort et épilepsie.
 
 ## 9. Personnes et acteurs
 
@@ -378,6 +378,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-067 — Annik Honoré
 - PERS-S76-069 — Martin Hannett
 - PERS-S76-009 — Deborah Woodruff / Deborah Curtis
+- PERS-S76-077 — Dave Pils
+- PERS-S76-078 — Martyn Atkins
+- PERS-S76-079 — Bernard Pierre Wolff
 - PERS-S76-061 — Natalie Curtis
 - PERS-S76-063 — Annik Honoré
 - PERS-S76-064 — Dave Pils et Jasmine
@@ -487,16 +490,17 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
-- Annik Honoré (10)
+- Annik Honoré (12)
+- fatigue (10)
 - épilepsie (9)
 - Deborah Curtis (8)
 - Ian Curtis (7)
-- fatigue (7)
+- Closer (6)
 - Natalie Curtis (6)
 - She’s Lost Control (4)
 - Tony Wilson (4)
 - Love Will Tear Us Apart (4)
-- Closer (3)
+- Britannia Row (3)
 - David Lewis Centre (3)
 - Unknown Pleasures (3)
 - Mark Reeder (3)
@@ -505,7 +509,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - domesticité (2)
 - responsabilité (2)
 - Derby Hall (2)
-- Britannia Row (2)
 - Macclesfield (2)
 - Hope & Anchor (2)
 - crise épileptique (2)
@@ -515,18 +518,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - I Remember Nothing (2)
 - Strawberry Studios (2)
 - Terry Mason (2)
+- synthétiseur (2)
 - Martin Hannett (2)
 - Lindsay Reade (2)
 - Barton Street (2)
 - Belgique (2)
+- York Street (2)
+- Rob Gretton (2)
+- procession (2)
+- postérité (2)
 - Debbie Curtis (2)
 - handicap (2)
 - Atmosphere (2)
-- Dead Souls (2)
-- Sordide Sentimental (2)
-- European tour (2)
-- Amsterdam (2)
-- version Pennine (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -617,9 +620,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Type | Nombre |
 |---|---|
+| lecture_chanson | 7 |
+| session_studio | 5 |
+| song | 5 |
 | non qualifié | 4 |
-| session_studio | 4 |
-| lecture_chanson | 4 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
@@ -639,10 +643,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | idee_directrice | 2 |
 | scene_medicale_live | 2 |
 | tension_domestique | 2 |
+| lecture_album | 2 |
 | scene_medicale | 2 |
 | contexte_intime | 2 |
 | live_set_context | 2 |
-| song | 2 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
 | performance_scenique | 1 |
@@ -701,12 +705,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_memorielle | 1 |
 | performance_live | 1 |
 | relation_studio | 1 |
-| lecture_album | 1 |
 | cadrage_source | 1 |
 | television | 1 |
 | controverse_memorielle | 1 |
 | scene_fondatrice_intime | 1 |
 | entretien_collectif | 1 |
+| scene_vie_studio | 1 |
+| lecture_chansons | 1 |
+| objet_visuel | 1 |
 | fait_medical | 1 |
 | prudence_medicale | 1 |
 | renversement_biographique | 1 |
@@ -724,6 +730,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | concert_europeen | 1 |
 | memoire | 1 |
 | tv_session | 1 |
+| album | 1 |
+| song_pair | 1 |
+| release_design | 1 |
 | release_or_session | 1 |
 | live_set_bootleg_context | 1 |
 
@@ -731,9 +740,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 74 |
-| critique | 58 |
-| majeure | 15 |
+| non qualifiée | 80 |
+| critique | 65 |
+| majeure | 16 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -784,19 +793,19 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A120 [tres_eleve] — risque de roman sentimental, jugement moral, effacement de Deborah ou blanchiment d’Ian
 - S76-A121 [moyen] — scène fondatrice intime mais d’abord culturelle et médiatique ; ne pas la sentimentaliser trop vite
 - S76-A122 [eleve] — Annik relit la scène depuis la suite ; conserver la joie du moment et ne pas la transformer en présage
+- S76-A154 [moyen] — risque de lire Londres comme déplacement symbolique vers la fin plutôt que comme choix pratique et professionnel
+- S76-A155 [eleve] — risque de réduire York Street à un décor de triangle sentimental
+- S76-A158 [eleve] — référence littéraire et violence sonore peuvent être surpsychologisées
+- S76-A159 [eleve] — titre immédiatement biographisable ; ne pas le transformer en journal intime direct
+- S76-A160 [tres_eleve] — risque majeur de lire ces titres comme annonçant consciemment la fin
+- S76-A161 [tres_eleve] — lecture explicitement postérieure ; très fort risque de faire de « Decades » un message final
+- S76-A162 [tres_eleve] — la pochette est l’un des objets les plus téléologisés de l’histoire du groupe
+- S76-A163 [tres_eleve] — *Closer* est le lieu majeur de la téléologie critique autour de Joy Division
 - S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
 - S76-A088 [eleve] — risque de lire grossesse et pression comme causes directes de la crise ultérieure
 - S76-A089 [eleve] — scène médicale fondatrice ; ne pas la lire comme point d’annonce fatal mais comme seuil clinique et social
 - S76-A090 [moyen] — toute médicalisation du récit doit rester proportionnée et historiographiquement prudente
 - S76-A091 [tres_eleve] — chaque hypothèse est séduisante mais insuffisante isolément ; risque maximal de psychologisation et de causalité unique
-- S76-A092 [eleve] — scène très puissante narrativement ; ne pas la transformer en causalité totale
-- S76-A093 [eleve] — risque d’accuser rétrospectivement l’entourage ou de faire de la maladie l’explication totale
-- S76-A094 [tres_eleve] — risque de transformer la maladie en signe de génie ou de sainteté
-- S76-A017 [moyen] — risque d'opposer trop simplement mémoire familiale et mémoire de Deborah Curtis
-- S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
-- S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
-- S76-A123 [moyen] — risque de transformer chaque date de tournée en marche vers la consécration ou la catastrophe
-- S76-A126 [moyen] — éviter de lire « Atmosphere » comme épitaphe déjà consciente ; la session reste un travail de création vivant
 
 ## 15. Lacunes et prochaines vérifications
 

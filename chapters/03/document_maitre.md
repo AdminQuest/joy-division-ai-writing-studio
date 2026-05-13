@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:22:50"
+generated_at: "2026-05-13T18:00:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 184 |
+| Atomes | 188 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 25 |
-| Événements chronologiques | 17 |
+| Citations | 27 |
+| Événements chronologiques | 18 |
 | Personnes | 19 |
 | Chansons | 18 |
 | Sources mobilisées | 11 |
@@ -44,7 +44,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 23 | 9 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 27 | 11 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -308,6 +308,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q158** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q163** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -328,6 +330,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
 - CHR-S76-1980-008 — Joy Division retourne à Strawberry Studios pour enregistrer une version 12 pouces de « She’s Lost Control », destinée au marché américain. Curtis écrit à Annik que la session se termine vers neuf heures du matin et qu’il a dû écrire un nouveau vers en studio.
 - CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
+- CHR-S76-1980-016 — Joy Division et Martin Hannett commencent l’enregistrement de *Closer* à Britannia Row Studios, Islington, rompant avec l’habitude d’enregistrer dans ou autour de Manchester.
 - CHR-S75-1979-004 — Sessions d'enregistrement de *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett.
 
 ## 9. Personnes et acteurs
@@ -460,13 +463,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ### 12.1. Motifs dominants
 
+- Hannett (6)
+- Martin Hannett (6)
 - Strawberry Studios (5)
-- Hannett (5)
-- Martin Hannett (5)
 - Transmission (3)
 - Atmosphere (3)
 - Unknown Pleasures (3)
 - domesticité (3)
+- Britannia Row (3)
 - radio (2)
 - Dead Souls (2)
 - Sordide Sentimental (2)
@@ -485,8 +489,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - caisse claire (2)
 - Hook (2)
 - Kraftwerk (2)
+- guitare (2)
+- fatigue (2)
 - Love Will Tear Us Apart (2)
 - Ice Age (2)
+- Peter Hook (2)
 - Cargo Studios (2)
 - distance stéréophonique (1)
 - Licht und Blindheit (1)
@@ -496,10 +503,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - amateurisme (1)
 - contrainte (1)
 - Pennine Sound (1)
-- économie de moyens (1)
-- boîte à rythmes (1)
-- stabilisation (1)
-- précision (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -590,11 +593,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Type | Nombre |
 |---|---|
-| production | 14 |
+| production | 15 |
 | lecture_musicale | 10 |
 | analyse | 9 |
 | fait | 9 |
-| session_studio | 7 |
+| session_studio | 8 |
 | concept | 5 |
 | analyse_morceau | 5 |
 | discographie | 4 |
@@ -624,6 +627,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | scene_repetition | 2 |
 | evenement | 2 |
 | concept_transversal | 2 |
+| album | 2 |
 | song | 2 |
 | song_or_cover | 2 |
 | concert | 1 |
@@ -670,20 +674,20 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | interpretation_critique | 1 |
 | biographie | 1 |
 | relation_studio | 1 |
+| controverse_studio | 1 |
 | transition | 1 |
 | conflit_esthetique | 1 |
 | portrait_technique | 1 |
 | influences | 1 |
 | transition_esthetique | 1 |
 | reception | 1 |
-| album | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 139 |
-| critique | 35 |
+| non qualifiée | 140 |
+| critique | 38 |
 | majeure | 10 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -727,6 +731,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S76-A101 [faible] — l’atome compare des choix de production précis et vérifiables
 - S76-A105 [moyen] — éviter de transformer Hannett en auteur unique ; le groupe fournit les matériaux et résiste aussi au résultat
 - S76-A106 [moyen] — intimité privée difficile à objectiver ; éviter l’héroïsation ou la psychologisation
+- S76-A154 [moyen] — risque de lire Londres comme déplacement symbolique vers la fin plutôt que comme choix pratique et professionnel
+- S76-A156 [moyen] — risque d’attribuer à Hannett seul la totalité du son de *Closer*
+- S76-A157 [moyen] — ne pas transformer la frustration de Hook en rejet global de l’album
 - S76-A082 [moyen] — éviter d’en faire déjà la forme achevée de *Unknown Pleasures* ; c’est un seuil, non un aboutissement
 - S76-A083 [moyen] — scène de conflit instrumentale à ne pas transformer en opposition structurelle Hook / Sumner
 - S76-A087 [moyen] — mémoire impressionniste ; utile pour qualifier une atmosphère, non pour fixer une vérité sonore exhaustive

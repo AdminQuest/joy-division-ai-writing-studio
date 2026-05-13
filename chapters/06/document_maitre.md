@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:22:50"
+generated_at: "2026-05-13T18:00:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 246 |
+| Atomes | 261 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 47 |
-| Événements chronologiques | 33 |
-| Personnes | 36 |
+| Citations | 53 |
+| Événements chronologiques | 36 |
+| Personnes | 37 |
 | Chansons | 17 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 73 | 36 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 88 | 42 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -354,6 +354,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S76-1978-004 — Au printemps 1978, les passages de Ian Curtis au bureau RCA de Piccadilly Plaza et les contacts avec Derek Brandwood font naître la possibilité d’un disque avec RCA/Grapevine.
 - CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
 - CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
+- CHR-S76-1980-016 — Joy Division et Martin Hannett commencent l’enregistrement de *Closer* à Britannia Row Studios, Islington, rompant avec l’habitude d’enregistrer dans ou autour de Manchester.
+- CHR-S76-1980-017 — Factory loue deux appartements à York Street, près de Baker Street, pour loger le groupe et Rob Gretton pendant les sessions londoniennes de *Closer*.
+- CHR-S76-1980-018 — Les sessions principales de *Closer* à Britannia Row s’achèvent vers la fin mars 1980. S76 souligne que le groupe doit immédiatement rester à Londres pour quatre concerts en trois jours au début d’avril.
 - CHR-S75-1979-004 — Sessions d'enregistrement de *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
@@ -383,6 +386,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S76-044 — John Anderson
 - PERS-S76-037 — Rob Gretton
 - PERS-S76-069 — Martin Hannett
+- PERS-S76-077 — Dave Pils
 - PERS-S76-032 — Derek Brandwood
 - PERS-S76-033 — Richard Searling
 - PERS-S76-034 — John Anderson
@@ -506,26 +510,29 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (9)
+- Rob Gretton (10)
+- Martin Hannett (9)
 - Unknown Pleasures (8)
-- Martin Hannett (8)
-- Hannett (6)
+- Hannett (7)
 - Factory (6)
 - Gretton (5)
 - Love Will Tear Us Apart (5)
 - Tony Wilson (5)
+- Peter Saville (5)
 - Transmission (4)
 - Strawberry Studios (4)
 - Atmosphere (4)
+- Closer (4)
+- Britannia Row (4)
+- synthétiseur (4)
 - RCA (4)
 - manager (4)
-- Peter Saville (4)
+- fatigue (4)
 - John Anderson (4)
 - Dead Souls (3)
 - Sordide Sentimental (3)
 - silence (3)
 - Wilson (3)
-- synthétiseur (3)
 - studio (3)
 - contrat (3)
 - Digital (3)
@@ -534,18 +541,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - indépendance (3)
 - She’s Lost Control (3)
 - contrôle (3)
+- The Eternal (3)
 - Bernard Sumner (3)
 - Terry Mason (3)
 - radio (2)
 - Buzzcocks tour (2)
 - Plan K (2)
 - America (2)
-- Britannia Row (2)
 - Peel Session (2)
 - Genetic (2)
-- caisse claire (2)
-- Disorder (2)
-- voix de Curtis (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -636,11 +640,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Type | Nombre |
 |---|---|
-| production | 9 |
+| production | 10 |
 | non qualifié | 8 |
+| session_studio | 8 |
 | lecture_musicale | 7 |
 | index_chanson | 7 |
-| session_studio | 7 |
+| lecture_chanson | 7 |
+| song | 7 |
 | concert | 6 |
 | session | 6 |
 | biographie | 5 |
@@ -652,8 +658,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | fait_interprete | 4 |
 | objet_discographique | 4 |
 | session_radio | 4 |
-| lecture_chanson | 4 |
-| song | 4 |
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
@@ -675,11 +679,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | lieu_studio | 2 |
 | micro_chronologie | 2 |
 | performance_live | 2 |
+| lecture_album | 2 |
+| objet_visuel | 2 |
 | scene_repetition | 2 |
 | concept_management | 2 |
 | chronologie_live | 2 |
 | analyse_morceau | 2 |
 | song_session | 2 |
+| album | 2 |
 | song_or_cover | 2 |
 | broadcast | 1 |
 | evolution_repertoire | 1 |
@@ -728,8 +735,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | decision_management | 1 |
 | relation_studio | 1 |
 | objet_album | 1 |
-| lecture_album | 1 |
-| objet_visuel | 1 |
 | scene_industrielle | 1 |
 | projet_discographique | 1 |
 | analyse_sonore | 1 |
@@ -737,6 +742,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | industrie_musicale | 1 |
 | diagnostic_discographique | 1 |
 | bascule_management | 1 |
+| scene_vie_studio | 1 |
+| controverse_studio | 1 |
+| lecture_chansons | 1 |
 | lecture_institutionnelle | 1 |
 | genese_label | 1 |
 | scene_institutionnelle | 1 |
@@ -765,9 +773,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | concept_transversal | 1 |
 | management | 1 |
 | live_set_context | 1 |
-| album | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
+| song_pair | 1 |
 | song_or_release | 1 |
 | live_set_bootleg_context | 1 |
 
@@ -775,9 +783,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 139 |
-| critique | 84 |
-| majeure | 23 |
+| non qualifiée | 144 |
+| critique | 93 |
+| majeure | 24 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

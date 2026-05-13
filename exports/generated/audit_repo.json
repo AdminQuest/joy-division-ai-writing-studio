@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-13T17:22:41",
+  "generated_at": "2026-05-13T17:59:41",
   "summary": {
-    "records_total": 1952,
+    "records_total": 1984,
     "records_by_kind": {
-      "quote": 262,
-      "atom": 1151,
-      "chronology": 279,
+      "quote": 271,
+      "atom": 1167,
+      "chronology": 283,
       "metadata": 18,
       "source": 56,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
       "motif": 8,
-      "person": 115,
+      "person": 118,
       "concept": 10,
       "myth": 10
     },
-    "diagnostics_total": 11327,
+    "diagnostics_total": 11533,
     "errors": 0,
-    "warnings": 11327,
+    "warnings": 11533,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -27,14 +27,14 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1151,
-    "chronology": 279,
+    "atom": 1167,
+    "chronology": 283,
     "concept": 10,
     "metadata": 18,
     "motif": 8,
     "myth": 10,
-    "person": 115,
-    "quote": 262,
+    "person": 118,
+    "quote": 271,
     "quote_batch": 1,
     "rules": 1,
     "song": 41,
@@ -112,24 +112,24 @@
       "chronology": 31
     },
     "S76": {
-      "atom": 181,
-      "quote": 155,
-      "person": 76,
-      "chronology": 83
+      "atom": 197,
+      "quote": 164,
+      "person": 79,
+      "chronology": 87
     }
   },
   "records_by_chapter": {
     "Chapitre 1": 113,
-    "Chapitre 10": 120,
-    "Chapitre 11": 183,
-    "Chapitre 12": 205,
-    "Chapitre 13": 89,
-    "Chapitre 14": 686,
+    "Chapitre 10": 125,
+    "Chapitre 11": 188,
+    "Chapitre 12": 223,
+    "Chapitre 13": 90,
+    "Chapitre 14": 693,
     "Chapitre 2": 298,
-    "Chapitre 3": 245,
-    "Chapitre 4": 207,
+    "Chapitre 3": 249,
+    "Chapitre 4": 208,
     "Chapitre 5": 353,
-    "Chapitre 6": 310,
+    "Chapitre 6": 325,
     "Chapitre 7": 101,
     "Chapitre 8": 113,
     "Chapitre 9": 199,
@@ -259,10 +259,10 @@
     ]
   ],
   "issue_categories": {
-    "invalid_controlled_value": 950,
-    "missing_required_field": 1934,
-    "schema_warning": 229,
-    "v2_migration_debt": 8214
+    "invalid_controlled_value": 965,
+    "missing_required_field": 2041,
+    "schema_warning": 239,
+    "v2_migration_debt": 8288
   },
   "top_files_by_issue_count": [
     [
@@ -389,10 +389,10 @@
   "blocking_errors": [],
   "unknown_yaml_blocks": [],
   "v2_migration": {
-    "atoms_total": 1151,
+    "atoms_total": 1167,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1090,
-    "v2_missing_field_warnings": 8214
+    "atoms_v2_incomplete": 1106,
+    "v2_missing_field_warnings": 8288
   },
   "source_registry": {
     "declared_but_unused": [
@@ -684,10 +684,10 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 495,
-        "atoms": 181,
-        "quotes": 155,
-        "chronology": 83,
+        "records": 527,
+        "atoms": 197,
+        "quotes": 164,
+        "chronology": 87,
         "files": [
           "registers/chronology/s76_torn_apart_chronology_part_01.md",
           "registers/chronology/s76_torn_apart_chronology_part_02.md",
@@ -703,6 +703,7 @@
           "registers/chronology/s76_torn_apart_chronology_part_12.md",
           "registers/chronology/s76_torn_apart_chronology_part_13.md",
           "registers/chronology/s76_torn_apart_chronology_part_14.md",
+          "registers/chronology/s76_torn_apart_chronology_part_15.md",
           "registers/people/s76_torn_apart_people_part_01.md",
           "registers/people/s76_torn_apart_people_part_02.md",
           "registers/people/s76_torn_apart_people_part_03.md",
@@ -717,6 +718,7 @@
           "registers/people/s76_torn_apart_people_part_12.md",
           "registers/people/s76_torn_apart_people_part_13.md",
           "registers/people/s76_torn_apart_people_part_14.md",
+          "registers/people/s76_torn_apart_people_part_15.md",
           "registers/quotes/s76_torn_apart_quotes_part_01.md",
           "registers/quotes/s76_torn_apart_quotes_part_02.md",
           "registers/quotes/s76_torn_apart_quotes_part_03.md",
@@ -731,6 +733,7 @@
           "registers/quotes/s76_torn_apart_quotes_part_12.md",
           "registers/quotes/s76_torn_apart_quotes_part_13.md",
           "registers/quotes/s76_torn_apart_quotes_part_14.md",
+          "registers/quotes/s76_torn_apart_quotes_part_15.md",
           "registers/songs/s76_torn_apart_songs_part_07.md",
           "registers/songs/s76_torn_apart_songs_part_08.md",
           "registers/songs/s76_torn_apart_songs_part_09.md",
@@ -739,6 +742,7 @@
           "registers/songs/s76_torn_apart_songs_part_12.md",
           "registers/songs/s76_torn_apart_songs_part_13.md",
           "registers/songs/s76_torn_apart_songs_part_14.md",
+          "registers/songs/s76_torn_apart_songs_part_15.md",
           "sources/middles_reade_torn_apart/source_part_01.md",
           "sources/middles_reade_torn_apart/source_part_02.md",
           "sources/middles_reade_torn_apart/source_part_03.md",
@@ -752,7 +756,8 @@
           "sources/middles_reade_torn_apart/source_part_11.md",
           "sources/middles_reade_torn_apart/source_part_12.md",
           "sources/middles_reade_torn_apart/source_part_13.md",
-          "sources/middles_reade_torn_apart/source_part_14.md"
+          "sources/middles_reade_torn_apart/source_part_14.md",
+          "sources/middles_reade_torn_apart/source_part_15.md"
         ]
       }
     ]
@@ -60033,6 +60038,718 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A154",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A154",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A154",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A154",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A154",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A154",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A154",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A154",
+      "message": "Invalid value for type_unite: session_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A154",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A155",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A155",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A155",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A155",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A155",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A155",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A155",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A155",
+      "message": "Invalid value for type_unite: scene_vie_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A155",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A156",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A156",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A156",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A156",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A156",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A156",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A156",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A156",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A157",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A157",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A157",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A157",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A157",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A157",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A157",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A157",
+      "message": "Invalid value for type_unite: controverse_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A157",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A158",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A158",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A158",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A158",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A158",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A158",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A158",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A158",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A158",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A159",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A159",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A159",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A159",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A159",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A159",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A159",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A159",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A159",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A160",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A160",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A160",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A160",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A160",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A160",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A160",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A160",
+      "message": "Invalid value for type_unite: lecture_chansons",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A160",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A161",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A161",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A161",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A161",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A161",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A161",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A161",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A161",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A161",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A162",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A162",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A162",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A162",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A162",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A162",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A162",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A162",
+      "message": "Invalid value for type_unite: objet_visuel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A162",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A163",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A163",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A163",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A163",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A163",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A163",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A163",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A163",
+      "message": "Invalid value for type_unite: lecture_album",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/middles_reade_torn_apart/source_part_15.md",
+      "record_id": "S76-A163",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/middles_reade_torn_apart/source_part_08.md",
       "record_id": "S76-A072",
       "message": "Missing required field: auteur",
@@ -84801,6 +85518,726 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-046",
+      "message": "Invalid value for type_unite: album",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-047",
+      "message": "Invalid value for type_unite: song",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-048",
+      "message": "Invalid value for type_unite: song",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-049",
+      "message": "Invalid value for type_unite: song_pair",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-050",
+      "message": "Invalid value for type_unite: song",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/songs/s76_torn_apart_songs_part_15.md",
+      "record_id": "SONG-S76-051",
+      "message": "Invalid value for type_unite: release_design",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/songs/s76_torn_apart_songs_part_08.md",
       "record_id": "SONG-S76-020",
       "message": "Missing required field: auteur",
@@ -91243,6 +92680,222 @@
       "category": "missing_required_field",
       "file": "registers/quotes/s76_torn_apart_quotes_part_05.md",
       "record_id": "S76-Q057",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q156",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q156",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q156",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q157",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q157",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q157",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q158",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q158",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q158",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q159",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q159",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q159",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q160",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q160",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q160",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q161",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q161",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q161",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q162",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q162",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q162",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q163",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q163",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q163",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q164",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q164",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_15.md",
+      "record_id": "S76-Q164",
       "message": "Missing required field: statut_verification",
       "suggested_action": "Compléter le champ obligatoire."
     },

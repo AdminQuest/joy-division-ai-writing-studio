@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:22:50"
+generated_at: "2026-05-13T18:00:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 157 |
+| Atomes | 165 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 14 |
+| Citations | 15 |
 | Événements chronologiques | 5 |
 | Personnes | 5 |
 | Chansons | 10 |
@@ -45,7 +45,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 19 | 7 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 27 | 8 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -107,18 +107,18 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `concert_listing_et_reconstruction_S76`.
 - **S76-A152** — S76-A152 — « Love Will Tear Us Apart » : douleur, universalisation et danger du monument posthume  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_reception_posthume`.
+- **S76-A158** — S76-A158 — « Atrocity Exhibition » : Ballard, percussion et ouverture anti-rock  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_analyse_a_recouper`.
+- **S76-A160** — S76-A160 — « Twenty Four Hours » et « The Eternal » : deux temporalités de l’épuisement  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chansons` ; importance : `critique` ; preuve : `lecture_critique_S76`.
+- **S76-A161** — S76-A161 — « Decades » : clôture, jeunes hommes et poids rétrospectif  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `temoignage_Annik_et_lecture_critique_S76`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S74-A051** — S74-A051 — Gretton, Sordide Sentimentale et l’émotion managériale devant « Dead Souls » et « Atmosphere »  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_affectif` ; importance : `majeure` ; preuve : `temoignage_direct_auteur`.
-- **S74-A055** — S74-A055 — Mort de Curtis : onde de choc sur Factory, Topping, Hannett et Sumner  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A010** — S75-A010 — « Gutz », domesticité et brutalité des premiers textes de Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -298,6 +298,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q162** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -432,6 +433,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - manager (2)
 - pression (2)
 - Terry Mason (2)
+- The Eternal (2)
+- procession (2)
+- fatigue (2)
 - Debbie Curtis (2)
 - Natalie Curtis (2)
 - Goethe (1)
@@ -453,9 +457,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - postwar nihilism (1)
 - flyer (1)
 - Hess (1)
-- Electric Circus (1)
-- Short Circuit (1)
-- réception différée (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -549,14 +550,15 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | analyse | 32 |
 | analyse_morceau | 7 |
 | biographie | 6 |
+| lecture_chanson | 6 |
 | controverse | 5 |
+| song | 5 |
 | reception | 3 |
 | interpretation | 3 |
 | interpretation_esthetique | 3 |
 | intertextualite | 3 |
 | reception_critique | 3 |
 | citation_repere | 3 |
-| lecture_chanson | 3 |
 | contexte_biographique | 3 |
 | contrepoint | 2 |
 | synthese | 2 |
@@ -571,7 +573,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | tension_biographique | 2 |
 | fait | 2 |
 | concept | 2 |
-| song | 2 |
 | santé | 1 |
 | chronologie | 1 |
 | reference_litteraire | 1 |
@@ -617,6 +618,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | mythe_nomination | 1 |
 | contexte_social | 1 |
 | portrait_relationnel | 1 |
+| lecture_chansons | 1 |
 | scene_de_transition | 1 |
 | scene_reception | 1 |
 | contraste_biographique | 1 |
@@ -626,15 +628,16 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | portrait_sensible | 1 |
 | concept_transversal | 1 |
 | memoire | 1 |
+| song_pair | 1 |
 | live_set_bootleg_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 116 |
-| critique | 29 |
-| majeure | 12 |
+| non qualifiée | 120 |
+| critique | 32 |
+| majeure | 13 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -669,6 +672,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 - S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
 - S76-A113 [moyen] — S76 valorise Curtis ; rester attentif aux effets de contraste avec les autres membres du groupe
+- S76-A158 [eleve] — référence littéraire et violence sonore peuvent être surpsychologisées
+- S76-A159 [eleve] — titre immédiatement biographisable ; ne pas le transformer en journal intime direct
+- S76-A160 [tres_eleve] — risque majeur de lire ces titres comme annonçant consciemment la fin
+- S76-A161 [tres_eleve] — lecture explicitement postérieure ; très fort risque de faire de « Decades » un message final
 - S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
 - S76-A088 [eleve] — risque de lire grossesse et pression comme causes directes de la crise ultérieure
 - S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études

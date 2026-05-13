@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:22:50"
+generated_at: "2026-05-13T18:00:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ generated_at: "2026-05-13T17:22:50"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 157 |
+| Atomes | 158 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 48 |
-| Événements chronologiques | 37 |
+| Événements chronologiques | 38 |
 | Personnes | 26 |
 | Chansons | 13 |
 | Sources mobilisées | 8 |
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T17:22:50"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 57 | 36 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 58 | 36 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -351,6 +351,7 @@ generated_at: "2026-05-13T17:22:50"
 - CHR-S76-1980-012 — Joy Division joue au Trinity Hall de Bristol. Curtis subit de nouveau une crise vers la fin du set. Annik Honoré conserve la setlist et note l’épisode.
 - CHR-S76-1980-014 — Ian Curtis écrit à Annik Honoré une lettre détaillant sa peur de l’aggravation de l’épilepsie, les examens médicaux, la localisation dans le lobe temporal gauche, l’absence de cause évidente et le souvenir du David Lewis Centre.
 - CHR-S76-1980-015 — Pendant que Curtis s’apprête à partir enregistrer *Closer* à Londres, Deborah Curtis et ses parents trouvent un nouveau foyer pour Candy, le chien de Ian. L’épisode marque la matérialisation domestique de la crise conjugale.
+- CHR-S76-1980-017 — Factory loue deux appartements à York Street, près de Baker Street, pour loger le groupe et Rob Gretton pendant les sessions londoniennes de *Closer*.
 - CHR-S76-1956-001 — Naissance de Ian Kevin Curtis à Basford House, Old Trafford, dans une famille ouvrière respectable.
 - CHR-S76-1960-001 — Naissance de Carole Curtis, sœur de Ian, avec laquelle S76 décrit une relation durablement proche.
 - CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
@@ -498,9 +499,9 @@ generated_at: "2026-05-13T17:22:50"
 - épilepsie (8)
 - Deborah Curtis (7)
 - Natalie Curtis (6)
+- Annik Honoré (5)
 - Bowie (4)
 - domesticité (4)
-- Annik Honoré (4)
 - Mark Reeder (4)
 - Macclesfield (3)
 - Wythenshawe (3)
@@ -702,6 +703,7 @@ generated_at: "2026-05-13T17:22:50"
 | portrait_relationnel | 1 |
 | controverse_memorielle | 1 |
 | entretien_collectif | 1 |
+| scene_vie_studio | 1 |
 | temoignage_lieu | 1 |
 | fait_medical | 1 |
 | prudence_medicale | 1 |
@@ -725,8 +727,8 @@ generated_at: "2026-05-13T17:22:50"
 
 | Importance | Nombre |
 |---|---|
+| critique | 63 |
 | non qualifiée | 62 |
-| critique | 62 |
 | majeure | 32 |
 | structurante | 1 |
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T17:22:50"
+generated_at: "2026-05-13T18:00:08"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 77 |
-| Atomes critiques / majeurs | 18 |
-| Citations | 16 |
-| Événements chronologiques | 6 |
-| Personnes | 14 |
+| Atomes | 79 |
+| Atomes critiques / majeurs | 19 |
+| Citations | 17 |
+| Événements chronologiques | 7 |
+| Personnes | 16 |
 | Chansons | 6 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 21 | 14 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 23 | 15 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -79,6 +79,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_reception` ; importance : `critique` ; preuve : `article_contemporain_Sounds_et_reconstruction_S76`.
 - **S76-A129** — S76-A129 — Sordide Sentimental : objet européen, anti-Factory et art total limité  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `reconstruction_S76_a_recouper_avec_sources_Sordide`.
+- **S76-A162** — S76-A162 — *Closer* comme objet funéraire non intentionnel : Staglieno, Saville, Atkins, Wolff  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_visuel` ; importance : `critique` ; preuve : `reconstruction_S76_design_et_reception`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S76-A114** — S76-A114 — Stuff the Superstars : succès scénique, critique de la gravité et réalité triviale  
@@ -204,6 +206,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `album_reception_object` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-035** — SONG-S76-035 — *Licht und Blindheit* comme objet Sordide  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `release_object` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-051** — SONG-S76-051 — Pochette de *Closer* / Staglieno  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `release_design` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -223,6 +227,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q115** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q119** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q164** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -231,6 +236,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
 - CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
 - CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
+- CHR-S76-1980-019 — La pochette de *Closer* est élaborée autour d’une photographie de Bernard Pierre Wolff prise au cimetière de Staglieno, avec Martyn Atkins et Peter Saville. La signification funéraire de l’objet sera amplifiée après la mort de Curtis.
 - CHR-S76-1979-014 — Dave McCullough interviewe Joy Division pour *Sounds* autour de *Unknown Pleasures* et de l’événement Stuff the Superstars au Mayflower Club, Gorton. L’entretien tourne au conflit autour de l’anti-image, de la presse, des noms absents et de l’imagerie nazie.
 
 ## 9. Personnes et acteurs
@@ -246,6 +252,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S76-050 — Tony Wilson
 - PERS-016 — Bedhead
 - PERS-S76-066 — Jean-Pierre Turmel
+- PERS-S76-078 — Martyn Atkins
+- PERS-S76-079 — Bernard Pierre Wolff
 - PERS-S76-062 — Dave McCullough
 - PERS-S76-056 — Kevin Cummins
 - PERS-S76-059 — Martin O’Neill
@@ -346,7 +354,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ### 12.1. Motifs dominants
 
-- Peter Saville (5)
+- Peter Saville (6)
 - Unknown Pleasures (3)
 - Kevin Cummins (3)
 - pulsar (2)
@@ -421,6 +429,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S76-A114 — prolonge → S76-A112
 - S76-A114 — nuance → MOTIF-008
 - S76-A114 — relie → MOTIF-007
+- S76-A162 — relie → CONCEPT-008
+- S76-A162 — requiert → CONCEPT-004
+- S76-A162 — nuance → MYTH-002
 - S76-A072 — prolonge → MYTH-005
 - S76-A072 — relie → CONCEPT-008
 - S76-A072 — relie → MOTIF-008
@@ -456,6 +467,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | concert | 3 |
 | relation | 3 |
 | objet_discographique | 3 |
+| objet_visuel | 3 |
 | analyse | 3 |
 | memoire | 3 |
 | production | 2 |
@@ -464,7 +476,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | fait_sensible | 2 |
 | mémoire | 2 |
 | chronologie | 2 |
-| objet_visuel | 2 |
 | song | 2 |
 | santé | 1 |
 | performance_scenique | 1 |
@@ -493,6 +504,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | fait_biographique | 1 |
 | album | 1 |
 | album_reception_object | 1 |
+| release_design | 1 |
 | song_or_release | 1 |
 | song_or_video | 1 |
 | release_object | 1 |
@@ -501,8 +513,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 59 |
-| critique | 16 |
+| non qualifiée | 60 |
+| critique | 17 |
 | majeure | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -518,6 +530,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S76-A111 [moyen] — la pochette est devenue si canonique qu’il faut conserver la friction initiale
 - S76-A112 [moyen] — McCullough est polémique ; il faut traiter son texte comme réception critique située, non comme verdict
 - S76-A114 [moyen] — l’opposition humour/noirceur peut devenir trop schématique
+- S76-A162 [tres_eleve] — la pochette est l’un des objets les plus téléologisés de l’histoire du groupe
 - S76-A072 [moyen] — formule très synthétique et rétrospective ; ne pas la projeter mécaniquement sur les acteurs de 1978
 - S76-A076 [faible] — scène institutionnelle bien circonscrite ; à vérifier seulement sur dates et détails économiques
 - S76-A079 [moyen] — scène très séduisante et mythifiable ; à traiter comme anecdote fondatrice à vérifier, non comme causalité unique
