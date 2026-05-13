@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:29:15"
+generated_at: "2026-05-13T15:47:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 46 |
-| Atomes critiques / majeurs | 26 |
+| Atomes | 47 |
+| Atomes critiques / majeurs | 27 |
 | Citations | 6 |
-| Événements chronologiques | 2 |
+| Événements chronologiques | 3 |
 | Personnes | 10 |
 | Chansons | 2 |
 | Sources mobilisées | 6 |
@@ -39,7 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 9 | 6 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 10 | 6 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -95,6 +95,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `sociabilite_scene` ; importance : `majeure` ; preuve : `temoignage_Peter_Hook`.
 - **S76-A060** — S76-A060 — Gretton : catholicisme scolaire, Manchester City et style terrace  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `portrait_social` ; importance : `majeure` ; preuve : `portrait_S76_et_memoire_locale`.
+- **S76-A067** — S76-A067 — Band On The Wall : lieu de transition, Musicians Collective et premier laboratoire public  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `majeure` ; preuve : `reconstruction_S76_et_memoire_scene`.
 
 ## 6. Autres atomes utiles
 
@@ -151,6 +153,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 ## 8. Chronologie rattachée
 
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
+- CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
 - CHR-S76-1978-001 — Le groupe joue pour la première fois sous le nom Joy Division à Pip’s Disco, Manchester.
 
 ## 9. Personnes et acteurs
@@ -261,6 +264,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Salford (4)
 - répétition (2)
 - image industrielle (2)
+- scène locale (2)
 - Kevin Cummins (2)
 - club (2)
 - Factory Club (2)
@@ -288,7 +292,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - industrial cityscapes (1)
 - cliché (1)
 - exclusion (1)
-- scène locale (1)
 - jalousie (1)
 - projection (1)
 - Band on the Wall (1)
@@ -372,6 +375,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A060 — prolonge → S76-A059
 - S76-A060 — nuance → CONCEPT-management_post_punk
 - S76-A060 — relie → S76-A058
+- S76-A067 — prolonge → S76-A058
+- S76-A067 — nuance → MYTH-003
+- S76-A067 — relie → CONCEPT-003
 - S76-A021 — nuance → MYTH-001
 - S76-A021 — prolonge → MOTIF-006
 - S76-A021 — relie → S41
@@ -409,6 +415,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | sociabilite_scene | 1 |
 | geographie_sociale | 1 |
 | portrait_social | 1 |
+| lieu_scene | 1 |
 | interpretation | 1 |
 | esthétique_visuelle | 1 |
 | fait | 1 |
@@ -420,7 +427,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 20 |
-| majeure | 15 |
+| majeure | 16 |
 | critique | 11 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -450,6 +457,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
 - S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
 - S76-A060 [faible] — portrait social utile ; éviter seulement l’anecdote décorative
+- S76-A067 [moyen] — éviter de transformer chaque lieu en lieu mythique ; son intérêt tient à sa fonction intermédiaire
 - S76-A021 [faible] — matériau contextuel solide, peu spéculatif
 
 ## 15. Lacunes et prochaines vérifications

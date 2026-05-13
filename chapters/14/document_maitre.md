@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:29:15"
+generated_at: "2026-05-13T15:47:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 514 |
+| Atomes | 517 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 41 |
-| Événements chronologiques | 17 |
-| Personnes | 32 |
+| Citations | 43 |
+| Événements chronologiques | 18 |
+| Personnes | 33 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 20 | 14 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 23 | 16 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -314,6 +314,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q065** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q066** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q070** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q038** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -323,8 +325,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q047** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -333,6 +333,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
+- CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S75-1978-005 — Performance de Joy Division au Stiff/Chiswick Challenge à Rafter's, observée par Tony Wilson et Rob Gretton.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-S75-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
@@ -368,6 +369,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-013 — Chris Ott
 - PERS-014 — Paul Morley
 - PERS-016 — Bedhead
+- PERS-S76-044 — John Anderson
 - PERS-S76-037 — Rob Gretton
 - PERS-S76-038 — Mike Pickering
 - PERS-S76-012 — Kevin Cummins
@@ -479,13 +481,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
+- Rob Gretton (6)
 - Factory (5)
 - Gretton (5)
-- Rob Gretton (4)
 - Ian Curtis (3)
 - Bowie (3)
 - transition (3)
 - Wilson (3)
+- contrat (3)
+- RCA (3)
 - indépendance (3)
 - manager (3)
 - Rabid Records (3)
@@ -503,8 +507,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - canonisation (2)
 - Sex Pistols (2)
 - NME (2)
-- contrat (2)
-- RCA (2)
 - Hannett (2)
 - fatigue (2)
 - dépossession (2)
@@ -623,9 +625,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_fondatrice | 8 |
 | methode | 7 |
 | sociologie | 7 |
+| reception_critique | 7 |
 | relation | 7 |
 | fait | 7 |
-| reception_critique | 6 |
 | lecture | 6 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
@@ -682,6 +684,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
 | reception_interne | 2 |
+| concept_management | 2 |
 | esthétique_visuelle | 2 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
@@ -825,7 +828,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | bascule_management | 1 |
 | lecture_culturelle | 1 |
 | scene_management | 1 |
-| concept_management | 1 |
+| scene_contractuelle | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -850,7 +853,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 421 |
-| critique | 66 |
+| critique | 69 |
 | majeure | 23 |
 | structurante | 2 |
 | moyenne | 2 |

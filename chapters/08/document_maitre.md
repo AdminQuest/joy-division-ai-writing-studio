@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:29:15"
+generated_at: "2026-05-13T15:47:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 66 |
-| Atomes critiques / majeurs | 17 |
-| Citations | 3 |
-| Événements chronologiques | 14 |
+| Atomes | 69 |
+| Atomes critiques / majeurs | 19 |
+| Citations | 4 |
+| Événements chronologiques | 15 |
 | Personnes | 5 |
 | Chansons | 4 |
 | Sources mobilisées | 6 |
@@ -39,7 +39,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 8 | 3 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 11 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -69,6 +69,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `economie_discographique` ; importance : `critique` ; preuve : `temoignages_Lawrence_Beedle_et_reconstruction`.
 - **S76-A050** — S76-A050 — Arrow Studios, 3-5 mai 1978 : collision entre soul professionnelle et post-punk froid  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `temoignage_Brandwood_et_reconstruction_discographique`.
+- **S76-A066** — S76-A066 — La réédition 12 pouces de *An Ideal for Living* : financement, Anonymous Records, sleeve échafaudage  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `temoignage_Terry_Mason_et_reconstruction_S76`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
@@ -77,6 +79,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S76-A051** — S76-A051 — La voix de Curtis à Arrow : adrift, dislodged, reedy  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `analyse_sonore` ; importance : `majeure` ; preuve : `description_critique_S76`.
+- **S76-A065** — S76-A065 — Racheter les bandes : 1 000 livres, puis 850, et le sentiment d’être « mugged »  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `fait_contractuel` ; importance : `majeure` ; preuve : `reconstruction_S76_contractuelle`.
 
 ## 6. Autres atomes utiles
 
@@ -178,9 +182,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A022** — S72-A022 — *A Factory Sample* : « Digital » et « Glass » comme seuil du son Joy Division  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
+- **SONG-S76-018** — SONG-S76-018 — *An Ideal for Living* comme ressource financière  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_release` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
+- **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q026** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q053** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -192,6 +199,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - CHR-S76-1977-003 — Premier concert de Warsaw à l’Electric Circus, en ouverture de Buzzcocks, Penetration et John Cooper Clarke ; l’affichage et certaines mémoires entretiennent une confusion avec Stiff Kittens et The Prefects.
 - CHR-S76-1977-005 — Warsaw enregistre cinq morceaux à Pennine Sound Studios, Oldham, avec Steve Brotherdale à la batterie.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
+- CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
 - CHR-S75-1977-001 — Session de démos de Warsaw à Pennine Sound, utilisée par Ott pour documenter l'amateurisme technique et la valeur empirique des premières traces sonores.
 - CHR-S75-1978-004 — Repressage / remastering 12 pouces de *An Ideal for Living*, lu par Ott comme correction partielle du mauvais rendu sonore initial du 7 pouces.
 - CHR-S75-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
@@ -310,6 +318,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Warsaw (2)
 - Movie Play Gold (2)
 - Heart and Soul (2)
+- An Ideal for Living (2)
 - Earcom 2 (2)
 - Still (2)
 - Pennine Sound Studios (2)
@@ -335,7 +344,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - illusion (1)
 - RCA demos (1)
 - archive négative (1)
-- An Ideal for Living (1)
 - 12 pouces (1)
 - échafaudage (1)
 - espace (1)
@@ -387,6 +395,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A051 — prolonge → S76-A050
 - S76-A051 — prepare → CONCEPT-spatialite_sonore
 - S76-A051 — nuance → MYTH-002
+- S76-A065 — prolonge → S76-A064
+- S76-A065 — relie → CONCEPT-005
+- S76-A065 — prepare → S76-A066
+- S76-A066 — prolonge → S76-A065
+- S76-A066 — relie → MOTIF-004
+- S76-A066 — relie → CONCEPT-005
 - S76-A030 — prolonge → S76-A029
 - S76-A030 — nuance → MYTH-001
 - S76-A030 — corrobore → S68-A006
@@ -405,9 +419,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 |---|---|
 | production | 32 |
 | concert | 6 |
+| objet_discographique | 6 |
 | analyse | 5 |
 | archive | 5 |
-| objet_discographique | 5 |
 | chronologie | 3 |
 | discographie | 2 |
 | bootleg | 2 |
@@ -417,14 +431,16 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | economie_discographique | 1 |
 | session_studio | 1 |
 | analyse_sonore | 1 |
+| fait_contractuel | 1 |
+| song_or_release | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 49 |
-| critique | 13 |
-| majeure | 4 |
+| non qualifiée | 50 |
+| critique | 14 |
+| majeure | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -442,6 +458,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A046 [eleve] — dossier sensible ; il faut distinguer décision esthétique, morale, commerciale et distribution
 - S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
 - S76-A051 [moyen] — description qualitative ; à croiser avec écoute des bandes RCA et sources Hook/Ott
+- S76-A065 [faible] — fait contractuel assez circonscrit ; vérifier les montants dans Hook, Deborah Curtis ou sources RCA si disponibles
+- S76-A066 [faible] — articulation forte entre support, argent et stratégie ; à croiser avec discographies
 - S76-A030 [moyen] — risque de transformer un concert hésitant en naissance glorieuse
 - S76-A032 [faible] — atome factuel mais à ne pas survaloriser esthétiquement
 - S76-A034 [moyen] — fort risque de transformer un concert chaotique en consécration téléologique

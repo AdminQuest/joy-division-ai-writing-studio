@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:29:15"
+generated_at: "2026-05-13T15:47:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 161 |
-| Atomes critiques / majeurs | 33 |
-| Citations | 16 |
+| Atomes | 163 |
+| Atomes critiques / majeurs | 34 |
+| Citations | 17 |
 | Événements chronologiques | 9 |
-| Personnes | 14 |
+| Personnes | 15 |
 | Chansons | 18 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 9 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -113,6 +114,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
+- **S76-A070** — S76-A070 — Jeremy Kerr, « Sister Ray » et la violence performative : attraction par la destruction  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `performance_live` ; importance : `majeure` ; preuve : `temoignage_Jeremy_Kerr`.
 
 ## 6. Autres atomes utiles
 
@@ -294,6 +297,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -324,6 +328,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - PERS-S75-025 — T.J. Davidson
 - PERS-013 — Chris Ott
 - PERS-004-S75 — Stephen Morris
+- PERS-S76-042 — Jeremy Kerr
 
 ## 10. Chansons rattachées
 
@@ -588,6 +593,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | temoignage | 2 |
 | lieu_studio | 2 |
 | citation_repere | 2 |
+| performance_live | 2 |
 | temoignage_direct_rapporte | 2 |
 | evenement | 2 |
 | concept_transversal | 2 |
@@ -631,7 +637,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | qualification_esthetique | 1 |
 | evolution_esthetique | 1 |
 | analyse_developpement | 1 |
-| performance_live | 1 |
 | evenement_crise | 1 |
 | temoignage_retrospectif | 1 |
 | interpretation_critique | 1 |
@@ -642,14 +647,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | influences | 1 |
 | transition_esthetique | 1 |
 | reception | 1 |
+| song_or_cover | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 128 |
+| non qualifiée | 129 |
 | critique | 25 |
-| majeure | 8 |
+| majeure | 9 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -686,6 +692,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S74-A053 [tres_eleve] — tout traitement de la mort de Curtis risque la téléologie tragique et la lecture sacrificielle
 - S74-A054 [eleve] — risque d’opposer mécaniquement vérité domestique et mémoire du groupe sans reconnaître les angles morts de chaque témoin
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
+- S76-A070 [moyen] — scène spectaculaire facilement mythifiable ; traiter comme mémoire de témoin, pas comme norme scénique
 
 ## 15. Lacunes et prochaines vérifications
 

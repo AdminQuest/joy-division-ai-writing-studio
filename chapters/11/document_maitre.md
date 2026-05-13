@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:29:15"
+generated_at: "2026-05-13T15:47:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 145 |
-| Atomes critiques / majeurs | 32 |
-| Citations | 10 |
-| Événements chronologiques | 3 |
-| Personnes | 4 |
+| Atomes | 147 |
+| Atomes critiques / majeurs | 34 |
+| Citations | 11 |
+| Événements chronologiques | 4 |
+| Personnes | 5 |
 | Chansons | 10 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 3 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 9 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -91,6 +91,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `mythe_nomination` ; importance : `critique` ; preuve : `temoignages_et_reconstruction_historique`.
 - **S76-A043** — S76-A043 — Début 1978 : crise de réputation, soupçon nazi et isolement local  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_et_contexte_historique`.
+- **S76-A068** — S76-A068 — Ian Wood et Curtis : sérieux documentaire contre mythe du chanteur instinctif  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_reception` ; importance : `critique` ; preuve : `temoignage_Ian_Wood_rapporté_par_S76`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -113,6 +115,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `memoire_familiale_rapportee`.
 - **S76-A014** — S76-A014 — New Moston, Civil Service et désenchantement scolaire  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `reconstruction_biographique`.
+- **S76-A071** — S76-A071 — Vacances 1978 : Mason et Hook contre la vie déjà adulte de Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contraste_biographique` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
 
 ## 6. Autres atomes utiles
 
@@ -285,6 +289,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
+- **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q036** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -292,6 +297,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 8. Chronologie rattachée
 
+- CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
 - CHR-S75-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.
 - CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
 - CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
@@ -299,6 +305,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 ## 9. Personnes et acteurs
 
 - PERS-001 — Ian Curtis
+- PERS-S76-041 — Ian Wood
 - PERS-S76-006 — Pete Johnson
 - PERS-S76-029 — Mark Reeder
 - PERS-S75-033 — William S. Burroughs
@@ -411,6 +418,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Joy Division (2)
 - exclusion (2)
 - manager (2)
+- Terry Mason (2)
 - Goethe (1)
 - Werther (1)
 - romantisme (1)
@@ -442,7 +450,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - éthique (1)
 - An Ideal for Living (1)
 - imagerie nazie (1)
-- jeunesse (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -601,6 +608,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | mythe_nomination | 1 |
 | contexte_social | 1 |
 | scene_de_transition | 1 |
+| scene_reception | 1 |
+| contraste_biographique | 1 |
 | chanson_contexte | 1 |
 | fait_sensible | 1 |
 | portrait_sensible | 1 |
@@ -612,8 +621,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 113 |
-| critique | 21 |
-| majeure | 11 |
+| critique | 22 |
+| majeure | 12 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -648,6 +657,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
 - S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études
 - S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
+- S76-A068 [moyen] — scène très suggestive ; ne pas en faire une théorie générale de Curtis comme stratège médiatique
+- S76-A071 [eleve] — risque de transformer tout écart biographique en signe avant-coureur ; conserver la prudence anti-téléologique
 - S76-A031 [eleve] — risque majeur de causalité médicale unique et de psychologisation
 
 ## 15. Lacunes et prochaines vérifications

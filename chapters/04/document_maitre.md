@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:29:15"
+generated_at: "2026-05-13T15:47:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ generated_at: "2026-05-13T15:29:15"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 126 |
+| Atomes | 128 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 29 |
-| Événements chronologiques | 24 |
-| Personnes | 20 |
+| Citations | 33 |
+| Événements chronologiques | 25 |
+| Personnes | 21 |
 | Chansons | 13 |
 | Sources mobilisées | 8 |
 
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T15:29:15"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 26 | 17 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 28 | 21 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -298,6 +298,10 @@ generated_at: "2026-05-13T15:29:15"
 - **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q061** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q072** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -327,6 +331,7 @@ generated_at: "2026-05-13T15:29:15"
 - CHR-S76-1976-002 — Ian et Deborah Curtis assistent au second concert des Sex Pistols au Lesser Free Trade Hall, en présence de Barney, Hooky, Terry Mason et d’autres futurs acteurs de la scène mancunienne.
 - CHR-S76-1977-001 — Ian et Deborah Curtis assistent au concert d’Iggy Pop à Manchester Apollo pendant la tournée *The Idiot*, avec David Bowie aux claviers.
 - CHR-S76-1977-002 — Ian et Deborah Curtis s’installent à Barton Street, Macclesfield, peu avant le premier concert de Warsaw.
+- CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
@@ -346,6 +351,7 @@ generated_at: "2026-05-13T15:29:15"
 - PERS-010 — Annick Honoré
 - PERS-011 — Natalie Curtis
 - PERS-S75-023 — Kevin Cummins
+- PERS-S76-041 — Ian Wood
 - PERS-S76-009 — Deborah Woodruff / Deborah Curtis
 - PERS-S76-010 — David Bowie
 - PERS-S76-015 — Kelvin Briggs
@@ -464,8 +470,8 @@ generated_at: "2026-05-13T15:29:15"
 
 ### 12.1. Motifs dominants
 
+- Ian Curtis (5)
 - épilepsie (5)
-- Ian Curtis (4)
 - Bowie (4)
 - domesticité (4)
 - Deborah Curtis (3)
@@ -489,6 +495,9 @@ generated_at: "2026-05-13T15:29:15"
 - classe sociale (2)
 - Deborah Woodruff (2)
 - Iggy Pop (2)
+- mariage (2)
+- Terry Mason (2)
+- Peter Hook (2)
 - Manchester punk (2)
 - Jim Morrison (1)
 - mort jeune (1)
@@ -501,9 +510,6 @@ generated_at: "2026-05-13T15:29:15"
 - Dilantin (1)
 - lumières blanches (1)
 - Altrincham (1)
-- presse musicale (1)
-- Jon Savage (1)
-- stage presence (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -658,6 +664,8 @@ generated_at: "2026-05-13T15:29:15"
 | lecture_culturelle | 1 |
 | reseau_culturel | 1 |
 | micro_scene_relationnelle | 1 |
+| scene_reception | 1 |
+| contraste_biographique | 1 |
 | témoignage_externe | 1 |
 | fait_biographique | 1 |
 | tension | 1 |
@@ -672,8 +680,8 @@ generated_at: "2026-05-13T15:29:15"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| critique | 37 |
-| majeure | 28 |
+| critique | 38 |
+| majeure | 29 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:29:15"
+generated_at: "2026-05-13T15:47:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 226 |
+| Atomes | 228 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 30 |
-| Événements chronologiques | 30 |
+| Citations | 31 |
+| Événements chronologiques | 31 |
 | Personnes | 27 |
 | Chansons | 6 |
 | Sources mobilisées | 11 |
@@ -44,7 +44,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 18 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 5 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 28 | 21 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 30 | 22 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -299,6 +299,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q013** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q016** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q017** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -328,6 +329,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - CHR-S76-1977-004 — Warsaw joue au Newcastle Town Hall annex avec Penetration et The Adverts, le jour du Silver Jubilee.
 - CHR-S76-1977-005 — Warsaw enregistre cinq morceaux à Pennine Sound Studios, Oldham, avec Steve Brotherdale à la batterie.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
+- CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
 - CHR-S75-1976-002 — Second concert des Sex Pistols à Manchester, identifié par Ott comme un choc plus direct pour Ian Curtis que le premier concert du 4 juin 1976.
 - CHR-S75-1977-001 — Session de démos de Warsaw à Pennine Sound, utilisée par Ott pour documenter l'amateurisme technique et la valeur empirique des premières traces sonores.
 - CHR-S75-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.
@@ -482,6 +484,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - bootleg (3)
 - Gretton (3)
 - Salford (3)
+- An Ideal for Living (3)
 - Enigma (3)
 - Kevin Cummins (3)
 - domesticité (3)
@@ -499,7 +502,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Warsaw Pakt (2)
 - Joy Division (2)
 - House of Dolls (2)
-- An Ideal for Living (2)
 - réception critique (2)
 - RCA (2)
 - synthétiseur (2)
@@ -611,8 +613,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | chronologie | 14 |
 | relation | 7 |
 | analyse | 7 |
+| objet_discographique | 7 |
 | biographie | 7 |
-| objet_discographique | 6 |
 | controverse | 6 |
 | lecture | 5 |
 | mythe | 4 |
@@ -687,13 +689,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | analyse_morceau | 1 |
 | influences | 1 |
 | sociologie | 1 |
+| song_or_release | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 155 |
-| critique | 49 |
+| non qualifiée | 156 |
+| critique | 50 |
 | majeure | 18 |
 | moyenne | 2 |
 | structurante | 2 |
@@ -758,8 +761,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
 - S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe
 - S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
+- S76-A066 [faible] — articulation forte entre support, argent et stratégie ; à croiser avec discographies
 - S76-A021 [faible] — matériau contextuel solide, peu spéculatif
-- S76-A022 [moyen] — risque de reconduire le mythe instantané « voir les Pistols = former Joy Division »
 
 ## 15. Lacunes et prochaines vérifications
 

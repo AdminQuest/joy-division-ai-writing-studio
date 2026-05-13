@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:29:15"
+generated_at: "2026-05-13T15:47:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ generated_at: "2026-05-13T15:29:15"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 56 |
-| Atomes critiques / majeurs | 13 |
+| Atomes | 57 |
+| Atomes critiques / majeurs | 14 |
 | Citations | 5 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
@@ -43,7 +43,7 @@ generated_at: "2026-05-13T15:29:15"
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 5 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 5 | 1 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 6 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -73,6 +73,8 @@ generated_at: "2026-05-13T15:29:15"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_contextuelle`.
 - **S76-A058** — S76-A058 — Le pub comme audition sociale : Gretton devient acceptable parce qu’il appartient au même monde  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `sociabilite_scene` ; importance : `majeure` ; preuve : `temoignage_Peter_Hook`.
+- **S76-A067** — S76-A067 — Band On The Wall : lieu de transition, Musicians Collective et premier laboratoire public  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `majeure` ; preuve : `reconstruction_S76_et_memoire_scene`.
 
 ## 6. Autres atomes utiles
 
@@ -217,6 +219,7 @@ generated_at: "2026-05-13T15:29:15"
 - bernard sumner (2)
 - urban malaise (2)
 - Stephen Morris (2)
+- scène d’apprentissage (2)
 - salford (2)
 - géographie biographique (2)
 - mémoire ouvrière (2)
@@ -268,7 +271,6 @@ generated_at: "2026-05-13T15:29:15"
 - pere ubu (1)
 - devo (1)
 - cleveland (1)
-- akron (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -351,6 +353,9 @@ generated_at: "2026-05-13T15:29:15"
 - S76-A059 — prolonge → S76-A058
 - S76-A059 — nuance → CONCEPT-scene_manchester
 - S76-A059 — relie → MOTIF-geographie_emotionnelle
+- S76-A067 — prolonge → S76-A058
+- S76-A067 — nuance → MYTH-003
+- S76-A067 — relie → CONCEPT-003
 
 ## 13. Distribution documentaire
 
@@ -368,6 +373,7 @@ generated_at: "2026-05-13T15:29:15"
 | concept | 3 |
 | methode | 2 |
 | chronologie | 2 |
+| lieu_scene | 2 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
 | citation_contextualisee | 1 |
@@ -378,7 +384,6 @@ generated_at: "2026-05-13T15:29:15"
 | environnement_social | 1 |
 | reception_critique | 1 |
 | lieu_biographique | 1 |
-| lieu_scene | 1 |
 | citation_repere | 1 |
 | biographie_collective | 1 |
 | temoignage | 1 |
@@ -395,7 +400,7 @@ generated_at: "2026-05-13T15:29:15"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 43 |
-| majeure | 8 |
+| majeure | 9 |
 | critique | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -413,6 +418,7 @@ generated_at: "2026-05-13T15:29:15"
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
 - S76-A058 [moyen] — scène ordinaire mais fortement signifiante ; ne pas en faire une théorie totale du management de Gretton
 - S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
+- S76-A067 [moyen] — éviter de transformer chaque lieu en lieu mythique ; son intérêt tient à sa fonction intermédiaire
 
 ## 15. Lacunes et prochaines vérifications
 

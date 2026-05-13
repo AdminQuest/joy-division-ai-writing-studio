@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:29:15"
+generated_at: "2026-05-13T15:47:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 219 |
+| Atomes | 230 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 43 |
-| Événements chronologiques | 14 |
-| Personnes | 27 |
+| Citations | 53 |
+| Événements chronologiques | 17 |
+| Personnes | 31 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 26 | 33 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 37 | 43 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -300,6 +300,16 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q062** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q065** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q066** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q067** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q068** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q069** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q070** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q072** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q074** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -313,21 +323,14 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q041** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q044** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_sensible` — «  »
-- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q046** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q047** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q048** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q049** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q050** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q054** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S76-1978-007 — Rob Gretton rencontre Bernard Sumner, apparemment par hasard dans une cabine téléphonique, et lui propose de manager Joy Division. Sumner accepte mais oublie d’en parler au reste du groupe, ce qui crée une scène d’incompréhension lors de l’arrivée de Gretton en répétition.
 - CHR-S76-1978-008 — Après l’arrivée confuse de Gretton à une répétition, le groupe et lui vont au pub. Les échanges ordinaires autour de Manchester City, de musique et de sociabilité masculine permettent d’amortir l’intrusion et d’amorcer son intégration.
+- CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
+- CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
+- CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
 - CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
@@ -356,6 +359,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-012 — John Brierley
 - PERS-S75-023 — Kevin Cummins
 - PERS-S76-022 — Tony Wilson
+- PERS-S76-041 — Ian Wood
+- PERS-S76-042 — Jeremy Kerr
+- PERS-S76-043 — Lesley Gilbert
+- PERS-S76-044 — John Anderson
 - PERS-S76-037 — Rob Gretton
 - PERS-S76-012 — Kevin Cummins
 - PERS-S76-032 — Derek Brandwood
@@ -465,15 +472,20 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (6)
+- Rob Gretton (9)
+- An Ideal for Living (3)
 - Kevin Cummins (3)
 - répétition (3)
 - studio (3)
 - Rabid Records (3)
 - An Ideal For Living (3)
+- Paul Morley (3)
+- Terry Mason (3)
 - Rafters (3)
+- RCA (3)
+- John Anderson (3)
+- Band On The Wall (3)
 - provocation (2)
-- An Ideal for Living (2)
 - réception critique (2)
 - image industrielle (2)
 - rejet (2)
@@ -485,13 +497,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Martin Hannett (2)
 - Warsaw (2)
 - Tosh Ryan (2)
-- Paul Morley (2)
 - Enigma (2)
 - Rock Against Racism (2)
-- Terry Mason (2)
 - Stiff Test (2)
-- RCA (2)
-- John Anderson (2)
 - Bowie (2)
 - Manchester City (2)
 - Maine Road (2)
@@ -504,7 +512,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Granada TV (1)
 - Shadowplay (1)
 - industrial cityscapes (1)
-- cliché (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -596,23 +603,24 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Type | Nombre |
 |---|---|
 | analyse_morceau | 10 |
+| objet_discographique | 9 |
 | discographie | 8 |
-| objet_discographique | 8 |
 | concept | 8 |
 | analyse | 7 |
 | non qualifié | 6 |
 | fait | 6 |
 | production | 5 |
 | scene_fondatrice | 4 |
+| reception_critique | 4 |
 | concert | 4 |
 | concept_transversal | 4 |
 | television | 3 |
 | evenement | 3 |
 | lieu | 3 |
 | industrie_musicale | 3 |
-| reception_critique | 3 |
 | acteur | 3 |
 | session | 3 |
+| performance_live | 3 |
 | interpretation | 3 |
 | contexte_technique | 3 |
 | reception | 3 |
@@ -629,8 +637,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | micro_chronologie | 2 |
 | analyse_studio | 2 |
 | reception_interne | 2 |
-| performance_live | 2 |
 | mythe_nomination | 2 |
+| concept_management | 2 |
 | portrait | 2 |
 | decision_strategique | 2 |
 | transition | 2 |
@@ -701,7 +709,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | sociabilite_scene | 1 |
 | geographie_sociale | 1 |
 | portrait_social | 1 |
-| concept_management | 1 |
+| tension_interne | 1 |
+| scene_contractuelle | 1 |
+| fait_contractuel | 1 |
+| lieu_scene | 1 |
+| scene_reception | 1 |
 | contexte_historique | 1 |
 | contexte_materiel | 1 |
 | chronologie | 1 |
@@ -716,14 +728,16 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | influences | 1 |
 | transition_esthetique | 1 |
 | relation | 1 |
+| song_or_release | 1 |
+| song_or_cover | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 168 |
-| critique | 40 |
-| majeure | 11 |
+| non qualifiée | 170 |
+| critique | 45 |
+| majeure | 15 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -777,6 +791,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
 - S76-A060 [faible] — portrait social utile ; éviter seulement l’anecdote décorative
 - S76-A061 [moyen] — risque de folklore ou de psychologie de surface ; utile seulement si relié au management concret
+- S76-A062 [moyen] — risque de romantiser le « gang » ; l’atome doit rester analytique, non nostalgique
+- S76-A063 [moyen] — Mason parle depuis une position d’évincé ; conserver la charge affective du témoignage
+- S76-A064 [moyen] — scène héroïsante pour Gretton ; conserver le caractère tactique et contingent de l’action
+- S76-A065 [faible] — fait contractuel assez circonscrit ; vérifier les montants dans Hook, Deborah Curtis ou sources RCA si disponibles
+- S76-A066 [faible] — articulation forte entre support, argent et stratégie ; à croiser avec discographies
+- S76-A067 [moyen] — éviter de transformer chaque lieu en lieu mythique ; son intérêt tient à sa fonction intermédiaire
+- S76-A068 [moyen] — scène très suggestive ; ne pas en faire une théorie générale de Curtis comme stratège médiatique
+- S76-A069 [faible] — tension documentaire utile ; elle nuance la téléologie du génie immédiat
+- S76-A070 [moyen] — scène spectaculaire facilement mythifiable ; traiter comme mémoire de témoin, pas comme norme scénique
 - S76-A029 [eleve] — les noms envisagés, notamment Progrom/Gdansk, peuvent nourrir des lectures politiques rapides
 
 ## 15. Lacunes et prochaines vérifications

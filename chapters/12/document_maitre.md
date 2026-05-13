@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T15:29:15"
+generated_at: "2026-05-13T15:47:19"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 94 |
-| Atomes critiques / majeurs | 30 |
-| Citations | 18 |
-| Événements chronologiques | 17 |
+| Atomes | 95 |
+| Atomes critiques / majeurs | 31 |
+| Citations | 19 |
+| Événements chronologiques | 18 |
 | Personnes | 8 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 10 | 4 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 11 | 5 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -105,6 +105,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `majeure` ; preuve : `memoire_familiale`.
 - **S76-A057** — S76-A057 — Curtis face à l’intrusion de Gretton : sensibilité, retrait, bord relationnel  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `micro_scene_relationnelle` ; importance : `majeure` ; preuve : `temoignage_Peter_Hook`.
+- **S76-A071** — S76-A071 — Vacances 1978 : Mason et Hook contre la vie déjà adulte de Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contraste_biographique` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
 
 ## 6. Autres atomes utiles
 
@@ -252,6 +254,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q014** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -272,6 +275,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S76-1974-001 — Ian Curtis et Deborah Woodruff se fiancent ; une fête est organisée au domicile familial de Deborah à Sutton, Macclesfield.
 - CHR-S76-1975-001 — Mariage de Ian Curtis et Deborah Woodruff à St Thomas’s Church, Henbury, près de Macclesfield.
 - CHR-S76-1977-002 — Ian et Deborah Curtis s’installent à Barton Street, Macclesfield, peu avant le premier concert de Warsaw.
+- CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
 - CHR-S75-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
@@ -385,8 +389,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
+- Ian Curtis (5)
 - épilepsie (5)
-- Ian Curtis (4)
 - Deborah Curtis (3)
 - Mick Middles (2)
 - domesticité (2)
@@ -394,6 +398,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - fatigue (2)
 - paroles (2)
 - Lindsay Reade (2)
+- mariage (2)
 - Bowie (1)
 - Jim Morrison (1)
 - mort jeune (1)
@@ -424,7 +429,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - crise (1)
 - Closer (1)
 - Britannia Row (1)
-- analog echo (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -583,6 +587,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | lecture | 1 |
 | cadrage_source | 1 |
 | micro_scene_relationnelle | 1 |
+| contraste_biographique | 1 |
 | scene_de_transition | 1 |
 | contexte_biographique | 1 |
 | memoire | 1 |
@@ -593,7 +598,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|
 | non qualifiée | 64 |
 | critique | 22 |
-| majeure | 8 |
+| majeure | 9 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -625,6 +630,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
 - S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
 - S76-A057 [eleve] — le passage invite à la psychologie ; il doit rester une observation située de Hook, non une conclusion sur Curtis
+- S76-A071 [eleve] — risque de transformer tout écart biographique en signe avant-coureur ; conserver la prudence anti-téléologique
 - S76-A028 [moyen] — risque de projeter sur Barton Street la fin de 1980 dès 1977
 - S76-A031 [eleve] — risque majeur de causalité médicale unique et de psychologisation
 
