@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:14:00"
+generated_at: "2026-05-13T14:23:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 58 |
-| Atomes critiques / majeurs | 9 |
-| Citations | 0 |
-| Événements chronologiques | 9 |
-| Personnes | 2 |
+| Atomes | 61 |
+| Atomes critiques / majeurs | 12 |
+| Citations | 2 |
+| Événements chronologiques | 12 |
+| Personnes | 5 |
 | Chansons | 4 |
-| Sources mobilisées | 5 |
+| Sources mobilisées | 6 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -54,6 +55,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A069** — S75-A069 — *Licht und Blindheit* : « Atmosphere » et « Dead Souls » comme seuil de l'éternel  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_discographie`.
+- **S76-A030** — S76-A030 — Premier concert : Electric Circus, 29 mai 1977, apparition incertaine de Warsaw  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `evenement_corroborable_temoignages_multiples`.
+- **S76-A032** — S76-A032 — Pennine Sound, 18 juillet 1977 : première archive sonore et futur bootleg  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `production` ; importance : `critique` ; preuve : `evenement_discographique_corroborable`.
+- **S76-A034** — S76-A034 — Dernier week-end de l’Electric Circus : mémoire de scène et anti-héroïsation  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `evenement_corroborable_memoire_plurielle`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
@@ -164,12 +171,16 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 7. Citations disponibles
 
-- Aucune citation rattachée.
+- **S76-Q026** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
+- CHR-S76-1977-003 — Premier concert de Warsaw à l’Electric Circus, en ouverture de Buzzcocks, Penetration et John Cooper Clarke ; l’affichage et certaines mémoires entretiennent une confusion avec Stiff Kittens et The Prefects.
+- CHR-S76-1977-005 — Warsaw enregistre cinq morceaux à Pennine Sound Studios, Oldham, avec Steve Brotherdale à la batterie.
+- CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
 - CHR-S75-1977-001 — Session de démos de Warsaw à Pennine Sound, utilisée par Ott pour documenter l'amateurisme technique et la valeur empirique des premières traces sonores.
 - CHR-S75-1978-004 — Repressage / remastering 12 pouces de *An Ideal for Living*, lu par Ott comme correction partielle du mauvais rendu sonore initial du 7 pouces.
 - CHR-S75-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
@@ -181,6 +192,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 ## 9. Personnes et acteurs
 
 - PERS-S75-017 — Derek Brandwood
+- PERS-S76-016 — Terry Mason
+- PERS-S76-020 — Steve Brotherdale
+- PERS-S76-023 — Kevin Cummins
 - PERS-S75-036 — Jean-Pierre Turmel
 
 ## 10. Chansons rattachées
@@ -277,17 +291,18 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ### 12.1. Motifs dominants
 
-- bootleg (2)
+- bootleg (3)
+- Warsaw (2)
 - Movie Play Gold (2)
 - Heart and Soul (2)
 - Earcom 2 (2)
 - Still (2)
+- Electric Circus (2)
 - Licht und Blindheit (1)
 - Atmosphere (1)
 - Dead Souls (1)
 - Sordide Sentimental (1)
 - eternal (1)
-- Warsaw (1)
 - archive sonore (1)
 - document impur (1)
 - EP (1)
@@ -316,7 +331,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - The Only Mistake (1)
 - Exercise One (1)
 - The Kill (1)
-- titre trouvé (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -345,6 +359,15 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S75-A054 — prolonge → MOTIF-004
 - S75-A054 — illustre → CONCEPT-005
 - S75-A054 — nuance → MYTH-006
+- S76-A030 — prolonge → S76-A029
+- S76-A030 — nuance → MYTH-001
+- S76-A030 — corrobore → S68-A006
+- S76-A032 — corrobore → S68-A005
+- S76-A032 — prolonge → S70-A012
+- S76-A032 — relie → DM-CH08
+- S76-A034 — corrobore → S68-A006
+- S76-A034 — nuance → MYTH-001
+- S76-A034 — relie → DM-CH08
 
 ## 13. Distribution documentaire
 
@@ -352,11 +375,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Type | Nombre |
 |---|---|
-| production | 30 |
+| production | 31 |
+| concert | 6 |
 | analyse | 5 |
 | archive | 5 |
 | objet_discographique | 5 |
-| concert | 4 |
 | chronologie | 3 |
 | bootleg | 2 |
 | discographie | 1 |
@@ -369,7 +392,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 49 |
-| critique | 6 |
+| critique | 9 |
 | majeure | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -383,6 +406,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S75-A050 [faible] — principal risque factuel : dates et supports à recouper avec discographies spécialisées
 - S75-A053 [moyen] — ne pas réécrire l'album idéal à partir des chutes ; elles documentent une constellation, pas un album alternatif certain
 - S75-A054 [moyen] — les titres de réserve ne doivent pas être mis au même rang que le disque publié sans préciser leur statut
+- S76-A030 [moyen] — risque de transformer un concert hésitant en naissance glorieuse
+- S76-A032 [faible] — atome factuel mais à ne pas survaloriser esthétiquement
+- S76-A034 [moyen] — fort risque de transformer un concert chaotique en consécration téléologique
 
 ## 15. Lacunes et prochaines vérifications
 

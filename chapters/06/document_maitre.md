@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:14:00"
+generated_at: "2026-05-13T14:23:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 173 |
+| Atomes | 175 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 11 |
+| Citations | 13 |
 | Événements chronologiques | 12 |
-| Personnes | 10 |
+| Personnes | 11 |
 | Chansons | 17 |
-| Sources mobilisées | 9 |
+| Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -292,6 +293,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -319,6 +322,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S75-021 — John Peel
 - PERS-S75-022 — Martin Rushent
 - PERS-S75-024 — Alan Erasmus
+- PERS-S76-021 — Steve Morris
 - PERS-S75-034 — Bob Krasnow
 - PERS-S75-037 — Paul Morley
 
@@ -559,8 +563,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Type | Nombre |
 |---|---|
+| production | 9 |
 | non qualifié | 8 |
-| production | 7 |
 | lecture_musicale | 7 |
 | index_chanson | 7 |
 | session | 6 |
@@ -654,7 +658,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 122 |
-| critique | 37 |
+| critique | 39 |
 | majeure | 14 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -710,6 +714,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S74-A055 [moyen] — risque de faire de la mort de Curtis la cause unique de toutes les mutations ultérieures de Factory
 - S74-A001 [moyen] — risque de romantisation de l’échec économique Factory comme geste esthétique pur
 - S74-A005 [faible] — source proche du témoin, mais portrait fortement stylisé par Middles
+- S76-A026 [faible] — matériau descriptif robuste
+- S76-A033 [faible] — convergence forte des témoignages sur l’importance musicale de Morris
 
 ## 15. Lacunes et prochaines vérifications
 

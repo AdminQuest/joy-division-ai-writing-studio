@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:14:00"
+generated_at: "2026-05-13T14:23:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 40 |
-| Atomes critiques / majeurs | 20 |
-| Citations | 2 |
+| Atomes | 41 |
+| Atomes critiques / majeurs | 21 |
+| Citations | 3 |
 | Événements chronologiques | 0 |
-| Personnes | 4 |
+| Personnes | 5 |
 | Chansons | 2 |
 | Sources mobilisées | 6 |
 
@@ -39,7 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 2 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 4 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -83,6 +83,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_contextuelle`.
 - **S76-A016** — S76-A016 — De Virgin à Reno’s : Reeder, Reilly et la cartographie musicale pré-Warsaw  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reseau_culturel` ; importance : `majeure` ; preuve : `temoignages_croises`.
+- **S76-A021** — S76-A021 — Salford Grammar, Lambretta et sociabilité pré-Joy Division  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_biographique_temoignage`.
 
 ## 6. Autres atomes utiles
 
@@ -131,6 +133,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - **S76-Q011** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q013** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q020** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -139,6 +142,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 ## 9. Personnes et acteurs
 
 - PERS-S75-025 — T.J. Davidson
+- PERS-S76-018 — Steve Burke / Steve Shy
 - PERS-003-S75 — Bernard Sumner
 - PERS-S76-011 — Mark Reeder
 - PERS-S76-014 — Vini Reilly
@@ -235,7 +239,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ### 12.1. Motifs dominants
 
-- Salford (3)
+- Salford (4)
 - répétition (2)
 - image industrielle (2)
 - Kevin Cummins (2)
@@ -334,6 +338,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A016 — prolonge → S76-A015
 - S76-A016 — nuance → MYTH-001
 - S76-A016 — prepare → S74-A017
+- S76-A021 — nuance → MYTH-001
+- S76-A021 — prolonge → MOTIF-006
+- S76-A021 — relie → S41
 
 ## 13. Distribution documentaire
 
@@ -348,6 +355,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | concept | 3 |
 | contexte | 2 |
 | contrepoint | 2 |
+| contexte_social | 2 |
 | evenement | 1 |
 | interpretation_culturelle | 1 |
 | strategie_management | 1 |
@@ -360,7 +368,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | performance_live | 1 |
 | lieu_transition | 1 |
 | temoignage | 1 |
-| contexte_social | 1 |
 | lieu_culturel | 1 |
 | reseau_culturel | 1 |
 | interpretation | 1 |
@@ -374,7 +381,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 20 |
-| majeure | 11 |
+| majeure | 12 |
 | critique | 9 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -399,6 +406,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
 - S76-A015 [faible] — atome fortement situé, peu spéculatif
 - S76-A016 [moyen] — risque de transformer chaque rencontre en causalité directe
+- S76-A021 [faible] — matériau contextuel solide, peu spéculatif
 
 ## 15. Lacunes et prochaines vérifications
 

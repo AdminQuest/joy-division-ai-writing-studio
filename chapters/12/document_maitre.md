@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:14:00"
+generated_at: "2026-05-13T14:23:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 91 |
-| Atomes critiques / majeurs | 27 |
+| Atomes | 93 |
+| Atomes critiques / majeurs | 29 |
 | Citations | 17 |
-| Événements chronologiques | 16 |
+| Événements chronologiques | 17 |
 | Personnes | 8 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 3 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 9 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -85,6 +85,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `temoignages_retrospectifs_sensibles`.
 - **S76-A019** — S76-A019 — Mariage de 1975 : amour, jeunesse et absence d’anormalité visible  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `critique` ; preuve : `memoire_familiale_et_reconstruction_biographique`.
+- **S76-A028** — S76-A028 — Barton Street : domesticité, commute et écriture de paroles  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
+- **S76-A031** — S76-A031 — Assistant Disablement Resettlement Officer : travail, handicap et préfiguration de l’épilepsie  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
@@ -264,6 +268,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
 - CHR-S76-1974-001 — Ian Curtis et Deborah Woodruff se fiancent ; une fête est organisée au domicile familial de Deborah à Sutton, Macclesfield.
 - CHR-S76-1975-001 — Mariage de Ian Curtis et Deborah Woodruff à St Thomas’s Church, Henbury, près de Macclesfield.
+- CHR-S76-1977-002 — Ian et Deborah Curtis s’installent à Barton Street, Macclesfield, peu avant le premier concert de Warsaw.
 - CHR-S75-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
@@ -377,10 +382,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
-- épilepsie (4)
+- épilepsie (5)
 - Ian Curtis (3)
 - Deborah Curtis (3)
 - Mick Middles (2)
+- domesticité (2)
 - Derby Hall (2)
 - fatigue (2)
 - paroles (2)
@@ -401,7 +407,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Jon Savage (1)
 - stage presence (1)
 - possession (1)
-- domesticité (1)
 - rock star self-absorption (1)
 - responsabilité (1)
 - masque (1)
@@ -498,6 +503,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A019 — nuance → S76-A018
 - S76-A019 — nuance → S45
 - S76-A019 — deconstruit → MYTH-002
+- S76-A028 — prolonge → S76-A020
+- S76-A028 — prepare → S76-A030
 
 ## 13. Distribution documentaire
 
@@ -572,6 +579,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_historique | 1 |
 | lecture | 1 |
 | cadrage_source | 1 |
+| scene_de_transition | 1 |
+| contexte_biographique | 1 |
 | memoire | 1 |
 
 ### 13.2. Importance documentaire
@@ -579,7 +588,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 64 |
-| critique | 20 |
+| critique | 22 |
 | majeure | 7 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -611,6 +620,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A017 [moyen] — risque d'opposer trop simplement mémoire familiale et mémoire de Deborah Curtis
 - S76-A018 [eleve] — risque majeur de lecture prophétique, téléologique et psychologisante
 - S76-A019 [moyen] — l'atome doit équilibrer amour, jeunesse et tensions sans conclure trop vite
+- S76-A028 [moyen] — risque de projeter sur Barton Street la fin de 1980 dès 1977
+- S76-A031 [eleve] — risque majeur de causalité médicale unique et de psychologisation
 
 ## 15. Lacunes et prochaines vérifications
 

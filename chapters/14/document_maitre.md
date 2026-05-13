@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:14:00"
+generated_at: "2026-05-13T14:23:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 501 |
+| Atomes | 502 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 34 |
-| Événements chronologiques | 15 |
-| Personnes | 25 |
+| Citations | 35 |
+| Événements chronologiques | 16 |
+| Personnes | 27 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 7 | 7 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 8 | 8 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -313,6 +313,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S76-Q009** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q012** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -326,6 +327,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
 - CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
+- CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
 - CHR-S75-1978-005 — Performance de Joy Division au Stiff/Chiswick Challenge à Rafter's, observée par Tony Wilson et Rob Gretton.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-S75-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
@@ -355,6 +357,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S75-021 — John Peel
 - PERS-S75-023 — Kevin Cummins
 - PERS-S75-024 — Alan Erasmus
+- PERS-S76-022 — Tony Wilson
+- PERS-S76-023 — Kevin Cummins
 - PERS-013 — Chris Ott
 - PERS-014 — Paul Morley
 - PERS-016 — Bedhead
@@ -630,6 +634,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | chronologie | 3 |
 | reception_live | 3 |
 | iconographie | 3 |
+| concert | 3 |
 | intertextualite | 3 |
 | chanson_transition | 3 |
 | design | 3 |
@@ -649,7 +654,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | chronologie_tournee | 2 |
 | changement_nom | 2 |
 | objet_merchandising | 2 |
-| concert | 2 |
 | dispositif_formel | 2 |
 | conclusion_methodologique | 2 |
 | paratexte_discographique | 2 |
@@ -827,7 +831,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 421 |
-| critique | 53 |
+| critique | 54 |
 | majeure | 23 |
 | structurante | 2 |
 | moyenne | 2 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:14:00"
+generated_at: "2026-05-13T14:23:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,9 +22,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 76 |
-| Atomes critiques / majeurs | 23 |
-| Citations | 4 |
+| Atomes | 77 |
+| Atomes critiques / majeurs | 24 |
+| Citations | 5 |
 | Événements chronologiques | 9 |
 | Personnes | 6 |
 | Chansons | 7 |
@@ -41,7 +41,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 12 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 1 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -86,6 +86,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S76-A005** — S76-A005 — Le jeune Curtis meneur discret : charisme sans domination  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_biographique` ; importance : `critique` ; preuve : `temoignage_retroactif`.
 - **S76-A012** — S76-A012 — Ziggy Stardust au Hardrock : Bowie comme choc de scène avant le punk  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
+- **S76-A027** — S76-A027 — Iggy Pop à l’Apollo : modèle de physicalité scénique  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
@@ -206,6 +208,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S45-Q004** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « cleaner and colder »
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
+- **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -438,6 +441,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S76-A012 — nuance → MYTH-001
 - S76-A012 — prolonge → S76-A011
 - S76-A012 — prepare → S76-A017
+- S76-A027 — prolonge → S76-A012
+- S76-A027 — nuance → MYTH-001
+- S76-A027 — prepare → S76-A031
 
 ## 13. Distribution documentaire
 
@@ -450,7 +456,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | production | 6 |
 | lecture_musicale | 4 |
 | reception | 4 |
-| scene_fondatrice | 3 |
+| scene_fondatrice | 4 |
 | controverse | 2 |
 | design | 2 |
 | analyse_studio | 2 |
@@ -483,7 +489,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 52 |
-| critique | 21 |
+| critique | 22 |
 | majeure | 2 |
 | moyenne | 1 |
 
@@ -513,6 +519,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A007 [moyen] — risque de téléologie biographique reliant trop directement les goûts adolescents à la politique esthétique de Factory
 - S76-A005 [moyen] — souvenir d'enfance reconstruit quarante ans après les faits
 - S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
+- S76-A027 [moyen] — risque de causalité trop directe entre Iggy et la danse de Curtis
 
 ## 15. Lacunes et prochaines vérifications
 

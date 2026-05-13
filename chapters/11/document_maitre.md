@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:14:00"
+generated_at: "2026-05-13T14:23:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 142 |
-| Atomes critiques / majeurs | 29 |
+| Atomes | 143 |
+| Atomes critiques / majeurs | 30 |
 | Citations | 8 |
 | Événements chronologiques | 3 |
 | Personnes | 3 |
@@ -45,7 +45,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 4 | 1 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 5 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -85,6 +85,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `critique` ; preuve : `temoignage_retroactif`.
 - **S76-A020** — S76-A020 — Chadderton : vie conjugale ordinaire et rêve encore informel de rock star  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
+- **S76-A031** — S76-A031 — Assistant Disablement Resettlement Officer : travail, handicap et préfiguration de l’épilepsie  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -534,6 +536,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | intertextualite | 3 |
 | reception_critique | 3 |
 | citation_repere | 3 |
+| contexte_biographique | 3 |
 | contrepoint | 2 |
 | synthese | 2 |
 | reception_presse | 2 |
@@ -544,7 +547,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | lecture_musicale | 2 |
 | lecture | 2 |
 | temoignage_direct_rapporte | 2 |
-| contexte_biographique | 2 |
 | fait | 2 |
 | concept | 2 |
 | santé | 1 |
@@ -602,7 +604,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 113 |
-| critique | 18 |
+| critique | 19 |
 | majeure | 11 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -636,6 +638,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
 - S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études
 - S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
+- S76-A031 [eleve] — risque majeur de causalité médicale unique et de psychologisation
 
 ## 15. Lacunes et prochaines vérifications
 

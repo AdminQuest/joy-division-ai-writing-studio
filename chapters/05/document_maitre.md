@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T14:14:00"
+generated_at: "2026-05-13T14:23:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 195 |
-| Atomes critiques / majeurs | 27 |
-| Citations | 12 |
+| Atomes | 196 |
+| Atomes critiques / majeurs | 28 |
+| Citations | 14 |
 | Événements chronologiques | 5 |
-| Personnes | 15 |
+| Personnes | 16 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 2 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 3 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -87,6 +87,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_visuel` ; importance : `critique` ; preuve : `fait_et_reconstruction_memorielle`.
 - **S76-A006** — S76-A006 — Chevalerie, histoire et correction du soupçon nazi  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_historiographique` ; importance : `critique` ; preuve : `memoire_familiale_et_temoignage_ami`.
+- **S76-A029** — S76-A029 — Stiff Kittens devient Warsaw : refus du punk mimétique et désir d’obscurité  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `mythe_nomination` ; importance : `critique` ; preuve : `temoignages_et_reconstruction`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A038** — S74-A038 — Strawberry Studios : Unknown Pleasures comme investissement disproportionné  
@@ -277,6 +279,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
+- **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
@@ -302,6 +306,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-009 — Peter Saville
 - PERS-012 — John Brierley
 - PERS-S75-023 — Kevin Cummins
+- PERS-S76-022 — Tony Wilson
 - PERS-S76-012 — Kevin Cummins
 - PERS-S76-004 — Carole Curtis
 - PERS-S75-036 — Jean-Pierre Turmel
@@ -408,6 +413,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Kevin Cummins (2)
 - rejet (2)
 - conflit (2)
+- Bowie (2)
 - shock art (1)
 - Throbbing Gristle (1)
 - postwar nihilism (1)
@@ -439,7 +445,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - impasse (1)
 - synthétiseur (1)
 - convention rock (1)
-- frustration (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -521,6 +526,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A013 — nuance → MYTH-006
 - S76-A013 — prolonge → S76-A006
 - S76-A013 — requiert → CONCEPT-004
+- S76-A029 — nuance → MYTH-006
+- S76-A029 — prolonge → S76-A013
 
 ## 13. Distribution documentaire
 
@@ -621,6 +628,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | biographie | 1 |
 | controverse_historiographique | 1 |
 | lecture_culturelle | 1 |
+| mythe_nomination | 1 |
 | contexte_historique | 1 |
 | contexte_materiel | 1 |
 | chronologie | 1 |
@@ -641,7 +649,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 168 |
-| critique | 20 |
+| critique | 21 |
 | majeure | 7 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -673,6 +681,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
 - S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
 - S76-A013 [eleve] — tout passage sur Berlin, Allemagne et Cabaret peut nourrir abusivement le soupçon nazi
+- S76-A029 [eleve] — les noms envisagés, notamment Progrom/Gdansk, peuvent nourrir des lectures politiques rapides
 
 ## 15. Lacunes et prochaines vérifications
 

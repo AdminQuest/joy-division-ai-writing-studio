@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-05-13T14:13:46",
+  "generated_at": "2026-05-13T14:22:57",
   "status": "warning",
   "summary": {
-    "records_total": 1514,
+    "records_total": 1557,
     "records_by_kind": {
-      "quote": 123,
-      "atom": 990,
-      "chronology": 209,
+      "quote": 136,
+      "atom": 1004,
+      "chronology": 217,
       "metadata": 18,
       "source": 56,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
       "motif": 6,
-      "person": 54,
+      "person": 62,
       "concept": 7,
       "myth": 8
     },
-    "diagnostics_total": 9305,
+    "diagnostics_total": 9465,
     "errors": 0,
-    "warnings": 9305,
+    "warnings": 9465,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -184,11 +184,12 @@
         "auteur": "Marco Broll",
         "titre": "Joy Division",
         "annee": "1988",
-        "records": 81,
+        "records": 83,
         "atoms": 39,
         "quotes": 3,
-        "chronology": 38,
+        "chronology": 40,
         "files": [
+          "registers/chronology/s76_torn_apart_chronology_part_03.md",
           "sources/marco_broll/README.md",
           "sources/marco_broll/citations_exactes.md",
           "sources/marco_broll/source.md"
@@ -316,19 +317,23 @@
         "auteur": "Mick Middles ; Lindsay Reade",
         "titre": "Torn Apart: The Life of Ian Curtis",
         "annee": "2006",
-        "records": 64,
-        "atoms": 20,
-        "quotes": 16,
-        "chronology": 13,
+        "records": 107,
+        "atoms": 34,
+        "quotes": 29,
+        "chronology": 21,
         "files": [
           "registers/chronology/s76_torn_apart_chronology_part_01.md",
           "registers/chronology/s76_torn_apart_chronology_part_02.md",
+          "registers/chronology/s76_torn_apart_chronology_part_03.md",
           "registers/people/s76_torn_apart_people_part_01.md",
           "registers/people/s76_torn_apart_people_part_02.md",
+          "registers/people/s76_torn_apart_people_part_03.md",
           "registers/quotes/s76_torn_apart_quotes_part_01.md",
           "registers/quotes/s76_torn_apart_quotes_part_02.md",
+          "registers/quotes/s76_torn_apart_quotes_part_03.md",
           "sources/middles_reade_torn_apart/source_part_01.md",
-          "sources/middles_reade_torn_apart/source_part_02.md"
+          "sources/middles_reade_torn_apart/source_part_02.md",
+          "sources/middles_reade_torn_apart/source_part_03.md"
         ]
       }
     ]
@@ -42024,6 +42029,732 @@
     },
     {
       "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Invalid value for type_unite: contexte_social",
+      "record_id": "S76-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S76-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S76-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Invalid value for type_unite: nœud_biographique",
+      "record_id": "S76-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S76-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S76-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Invalid value for type_unite: scene_de_transition",
+      "record_id": "S76-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Invalid value for type_unite: mythe_nomination",
+      "record_id": "S76-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Invalid value for type_unite: contexte_biographique",
+      "record_id": "S76-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S76-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S76-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S76-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: statut",
+      "record_id": "S76-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S76-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S76-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S76-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/middles_reade_torn_apart/source_part_03.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S76-A034"
+    },
+    {
+      "level": "warning",
       "file": "sources/hook/atomisation_02_transmission_1978.md",
       "message": "Missing required field: role_argumentatif",
       "record_id": "S41-040"
@@ -55941,6 +56672,240 @@
       "file": "registers/quotes/s76_torn_apart_quotes_part_02.md",
       "message": "Missing required field: statut_verification",
       "record_id": "S76-Q016"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q017"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q017"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q017"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q018"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q018"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q018"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q019"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q019"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q019"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q020"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q020"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q020"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q021"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q022"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q022"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q022"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q023"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q023"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q023"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q024"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q024"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q024"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q025"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q025"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q025"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q026"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q026"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q026"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q027"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q027"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q027"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q028"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q028"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q028"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S76-Q029"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S76-Q029"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s76_torn_apart_quotes_part_03.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S76-Q029"
     },
     {
       "level": "warning",
