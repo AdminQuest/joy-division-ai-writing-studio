@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 36 |
-| Atomes critiques / majeurs | 16 |
+| Atomes | 38 |
+| Atomes critiques / majeurs | 18 |
 | Citations | 0 |
 | Événements chronologiques | 0 |
 | Personnes | 2 |
-| Chansons | 1 |
-| Sources mobilisées | 5 |
+| Chansons | 2 |
+| Sources mobilisées | 6 |
 
 ## 4. Sources mobilisées
 
@@ -38,7 +38,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -74,6 +75,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A028** — S75-A028 — Granada TV et l’image industrielle comme mauvais miroir  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A071** — S75-A071 — « Dead Souls » : revenance, histoire et danger ésotérique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S76-A004** — S76-A004 — Macclesfield : respectabilité, pauvreté relative et enfance non misérabiliste  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_contextuelle`.
 
 ## 6. Autres atomes utiles
 
@@ -133,6 +138,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 10. Chansons rattachées
 
+- SONG-S75-028 — Dead Souls
 - SONG-S75-009 — Shadowplay
 
 ## 11. Concepts récurrents
@@ -195,6 +201,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - nord-ouest (1)
 - stratégie territoriale (1)
 - rue de Manchester (1)
+- spectralité (1)
+- prudence historiographique (1)
 - géographie sociale de Joy Division (1)
 - futur fermé (1)
 - mémoire ouvrière déplacée (1)
@@ -215,8 +223,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - russell club (1)
 - alan wise (1)
 - institution-lieu (1)
-- catalyseur post-punk (1)
-- géographie Factory (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -227,6 +233,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - image industrielle (2)
 - club (2)
 - Factory Club (2)
+- Dead Souls (1)
+- fantômes (1)
+- eternals (1)
+- réincarnation (1)
+- histoire (1)
 - Lower Broughton (1)
 - déplacement (1)
 - tour (1)
@@ -257,14 +268,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - isolation sonore (1)
 - visualité du son (1)
 - Granada (1)
-- Liverpool (1)
-- télévision régionale (1)
-- médiation empêchée (1)
-- intensité live (1)
-- proximité (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A071 — prolonge → MOTIF-001
+- S75-A071 — requiert → CONCEPT-004
+- S75-A071 — nuance → MYTH-002
 - S75-A014 — nuance → MYTH-curtis_centre_unique
 - S75-A014 — prolonge → CONCEPT-geographie_emotionnelle
 - S75-A027 — prolonge → CONCEPT-003
@@ -309,6 +318,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S74-A006 — illustre → CONCEPT-003
 - S74-A011 — nuance → MYTH-003
 - S74-A011 — complète → S74-A002
+- S76-A004 — nuance → MYTH-003
+- S76-A004 — prolonge → S75-A057
+- S76-A004 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -327,6 +339,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | interpretation_culturelle | 1 |
 | strategie_management | 1 |
 | concert_international | 1 |
+| lecture_textuelle | 1 |
 | archive | 1 |
 | lieu_institution | 1 |
 | analyse_studio | 1 |
@@ -334,6 +347,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | performance_live | 1 |
 | lieu_transition | 1 |
 | temoignage | 1 |
+| contexte_social | 1 |
 | interpretation | 1 |
 | esthétique_visuelle | 1 |
 | fait | 1 |
@@ -345,11 +359,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 20 |
+| majeure | 10 |
 | critique | 8 |
-| majeure | 8 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A071 [eleve] — risque de prendre les motifs de revenance comme croyance ou clé psychologique de Curtis
 - S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
 - S75-A027 [moyen] — risque de transformer le lieu en cathédrale mythique ; conserver sa fonction concrète de répétition
 - S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
@@ -366,6 +381,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
 - S74-A006 [moyen] — risque de psychologiser Factory à partir de la seule trajectoire sociale de Wilson
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
+- S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
 
 ## 15. Lacunes et prochaines vérifications
 

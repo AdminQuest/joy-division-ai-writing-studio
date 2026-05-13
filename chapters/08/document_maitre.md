@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 57 |
-| Atomes critiques / majeurs | 8 |
+| Atomes | 58 |
+| Atomes critiques / majeurs | 9 |
 | Citations | 0 |
-| Événements chronologiques | 7 |
-| Personnes | 1 |
+| Événements chronologiques | 9 |
+| Personnes | 2 |
 | Chansons | 4 |
 | Sources mobilisées | 5 |
 
@@ -38,7 +38,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 8 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -52,6 +52,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `chronology` ; importance : `critique` ; preuve : `donnees_discographiques`.
 - **S75-A053** — S75-A053 — « Autosuggestion » et « From Safety to Where...? » : les chutes qui déplacent l'album  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A069** — S75-A069 — *Licht und Blindheit* : « Atmosphere » et « Dead Souls » comme seuil de l'éternel  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_discographie`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
@@ -166,6 +168,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 8. Chronologie rattachée
 
+- CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
+- CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
 - CHR-1977-001 — Session de démos de Warsaw à Pennine Sound, utilisée par Ott pour documenter l'amateurisme technique et la valeur empirique des premières traces sonores.
 - CHR-1978-004 — Repressage / remastering 12 pouces de *An Ideal for Living*, lu par Ott comme correction partielle du mauvais rendu sonore initial du 7 pouces.
 - CHR-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
@@ -177,6 +181,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 ## 9. Personnes et acteurs
 
 - PERS-S75-017 — Derek Brandwood
+- PERS-S75-036 — Jean-Pierre Turmel
 
 ## 10. Chansons rattachées
 
@@ -191,12 +196,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - an ideal for living (5)
 - digital (5)
 - dead souls (5)
+- matérialité discographique (5)
 - a factory sample (4)
 - glass (4)
 - here are the young men (4)
 - martin hannett (4)
 - culture bootleg (4)
-- matérialité discographique (4)
 - warsaw (3)
 - john peel (3)
 - piccadilly radio (3)
@@ -225,6 +230,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - unknown pleasures (2)
 - granada tv (2)
 - novelty (2)
+- architecture sonore (2)
 - contrainte productive (2)
 - demo tape (1)
 - electric circus (1)
@@ -266,7 +272,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - hannett (1)
 - sessions terminales (1)
 - flexi (1)
-- distribution gratuite (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -277,6 +282,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Heart and Soul (2)
 - Earcom 2 (2)
 - Still (2)
+- Licht und Blindheit (1)
+- Atmosphere (1)
+- Dead Souls (1)
+- Sordide Sentimental (1)
+- eternal (1)
 - Warsaw (1)
 - archive sonore (1)
 - document impur (1)
@@ -310,6 +320,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A069 — prolonge → CONCEPT-006
+- S75-A069 — prolonge → MOTIF-001
+- S75-A069 — prolonge → S70-A021
 - S75-A008 — prolonge → MOTIF-bootleg
 - S75-A008 — corrobore → S68
 - S75-A019 — prolonge → S75-A018
@@ -342,8 +355,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | production | 30 |
 | analyse | 5 |
 | archive | 5 |
+| objet_discographique | 5 |
 | concert | 4 |
-| objet_discographique | 4 |
 | chronologie | 3 |
 | bootleg | 2 |
 | discographie | 1 |
@@ -356,11 +369,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 49 |
-| critique | 5 |
+| critique | 6 |
 | majeure | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
 - S75-A008 [moyen] — l'objet est utile mais son statut juridique, la filiation des bandes et la chaîne de copie restent incertains
 - S75-A019 [faible] — fait discographique relativement stable, mais les jugements sonores restent critiques
 - S75-A021 [moyen] — risque de transformer RCA en pure caricature industrielle alors que l'échec tient aussi à l'inexpérience du groupe

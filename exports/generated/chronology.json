@@ -3897,6 +3897,557 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S75-1979-008",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1979-008 — Crise majeure du 24 mai 1979",
+    "data": {
+      "id": "CHR-S75-1979-008",
+      "type_unite": "chronology",
+      "date": "1979-05-24",
+      "precision_date": "exact",
+      "event": "Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.\n",
+      "type": [
+        "sante",
+        "biographie",
+        "concert"
+      ],
+      "location": [
+        "Altrincham"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Deborah Curtis"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A059"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "détails médicaux à recouper avec Deborah Curtis et autres sources biographiques"
+      ],
+      "notes": "Point médical majeur à traiter sans téléologie."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1979-009",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1979-009 — Enregistrement et relance de « Transmission »",
+    "data": {
+      "id": "CHR-S75-1979-009",
+      "type_unite": "chronology",
+      "date": "1979-07",
+      "precision_date": "approximate",
+      "event": "Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.\n",
+      "type": [
+        "enregistrement",
+        "single",
+        "production"
+      ],
+      "location": [
+        "Central Sound Studios",
+        "Strawberry Studios"
+      ],
+      "people": [
+        "Joy Division",
+        "Martin Hannett"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A060"
+      ],
+      "related_concepts": [
+        "CONCEPT-006"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 7"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "date exacte à vérifier avec discographies et archives Factory"
+      ],
+      "notes": "Sommet de la rencontre Hannett/Joy Division selon Ott."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1979-010",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1979-010 — Performance BBC2 « Something Else »",
+    "data": {
+      "id": "CHR-S75-1979-010",
+      "type_unite": "chronology",
+      "date": "1979-09",
+      "precision_date": "approximate",
+      "event": "Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.\n",
+      "type": [
+        "television",
+        "performance",
+        "reception"
+      ],
+      "location": [
+        "BBC2"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Joy Division"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A058",
+        "S75-A062"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 7",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "date exacte de tournage/diffusion à vérifier"
+      ],
+      "notes": "Document audiovisuel sensible : distinguer performance et interprétation médicale rétrospective."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1979-011",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1979-011 — Plan K Bruxelles et rencontre / retrouvailles avec Annik Honoré",
+    "data": {
+      "id": "CHR-S75-1979-011",
+      "type_unite": "chronology",
+      "date": "1979-10-16",
+      "precision_date": "exact",
+      "event": "Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.\n",
+      "type": [
+        "concert",
+        "biographie",
+        "scene_europeenne"
+      ],
+      "location": [
+        "Plan K",
+        "Bruxelles"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Annik Honoré",
+        "Cabaret Voltaire",
+        "William S. Burroughs"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A065",
+        "S75-A066"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "Ott signale un débat sur une possible première rencontre à Londres fin août 1979"
+      ],
+      "notes": "Nœud biographique sensible à traiter sans romanesque causaliste."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1979-012",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1979-012 — Sessions *Licht und Blindheit* à Cargo Studios",
+    "data": {
+      "id": "CHR-S75-1979-012",
+      "type_unite": "chronology",
+      "date": "1979-10/1979-11",
+      "precision_date": "approximate_range",
+      "event": "Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.\n",
+      "type": [
+        "enregistrement",
+        "sordide_sentimental",
+        "production"
+      ],
+      "location": [
+        "Cargo Studios",
+        "Rochdale"
+      ],
+      "people": [
+        "Joy Division",
+        "Martin Hannett"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A069",
+        "S75-A070",
+        "S75-A071"
+      ],
+      "related_motifs": [
+        "MOTIF-001"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "date exacte à recouper avec discographies Sordide Sentimental"
+      ],
+      "notes": "Seuil majeur du son monumental et spectral de Joy Division."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1980-002",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1980-002 — Tournée européenne de janvier 1980",
+    "data": {
+      "id": "CHR-S75-1980-002",
+      "type_unite": "chronology",
+      "date": "1980-01",
+      "precision_date": "month",
+      "event": "Tournée européenne de Joy Division, durant laquelle Ott souligne l'aggravation des tensions affectives et médicales autour de Curtis.\n",
+      "type": [
+        "tournee",
+        "biographie",
+        "sante"
+      ],
+      "location": [
+        "Europe"
+      ],
+      "people": [
+        "Joy Division",
+        "Ian Curtis",
+        "Annik Honoré"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A065",
+        "S75-A068"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "détails des concerts et crises à recouper avec les chronologies de tournée"
+      ],
+      "notes": "À articuler avec la tentative de février 1980 sans téléologie."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1980-003",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1980-003 — Tentative de février 1980",
+    "data": {
+      "id": "CHR-S75-1980-003",
+      "type_unite": "chronology",
+      "date": "1980-02",
+      "precision_date": "approximate",
+      "event": "Au retour de la tournée européenne, Ott rapporte une tentative de suicide de Ian Curtis liée à l'alcool, au Livre des Révélations et à des coupures aux bras.\n",
+      "type": [
+        "sante",
+        "biographie",
+        "suicide_attempt"
+      ],
+      "location": [
+        "Royaume-Uni"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Stephen Morris"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A068"
+      ],
+      "chapters": [
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "détails à recouper avec Deborah Curtis, Morris et autres témoignages"
+      ],
+      "notes": "Sujet sensible : mention factuelle seulement, sans dramatisation."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1980-004",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1980-004 — Sessions *Closer* à Britannia Row",
+    "data": {
+      "id": "CHR-S75-1980-004",
+      "type_unite": "chronology",
+      "date": "1980-03",
+      "precision_date": "approximate",
+      "event": "Joy Division enregistre *Closer* à Britannia Row avec Martin Hannett, dans un contexte personnel très tendu mais sans conscience collective d'un testament.\n",
+      "type": [
+        "enregistrement",
+        "album",
+        "production"
+      ],
+      "location": [
+        "Britannia Row",
+        "Londres"
+      ],
+      "people": [
+        "Joy Division",
+        "Martin Hannett",
+        "Ian Curtis",
+        "Annik Honoré"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A072"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "calendrier précis des prises à vérifier avec sources studio et discographies"
+      ],
+      "notes": "Important pour contrer la lecture de *Closer* comme testament intentionnel immédiat."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1980-005",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1980-005 — Rainbow Theatre et crise avec stroboscopes",
+    "data": {
+      "id": "CHR-S75-1980-005",
+      "type_unite": "chronology",
+      "date": "1980-04-04",
+      "precision_date": "exact",
+      "event": "Concert au Rainbow Theatre de Londres ; les stroboscopes déclenchent une crise pendant le set selon Ott.\n",
+      "type": [
+        "concert",
+        "sante",
+        "performance"
+      ],
+      "location": [
+        "Rainbow Theatre",
+        "Londres"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Joy Division"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A073"
+      ],
+      "chapters": [
+        "Chapitre 7",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "détails de la crise à recouper avec témoignages du groupe"
+      ],
+      "notes": "À traiter comme événement médical et scénique, non comme symbole fatal."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1980-006",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1980-006 — Overdose du 7 avril 1980",
+    "data": {
+      "id": "CHR-S75-1980-006",
+      "type_unite": "chronology",
+      "date": "1980-04-07",
+      "precision_date": "exact",
+      "event": "Ian Curtis annonce à Deborah Curtis avoir pris une overdose de Phenobarbital ; hospitalisation, note de suicide et sortie rapide.\n",
+      "type": [
+        "sante",
+        "suicide_attempt",
+        "biographie"
+      ],
+      "location": [
+        "Royaume-Uni"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Deborah Curtis",
+        "Tony Wilson",
+        "Alan Erasmus",
+        "Lindsay Reade"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A068"
+      ],
+      "chapters": [
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "détails et rôle des tiers à recouper avec Deborah Curtis et sources Factory"
+      ],
+      "notes": "Séquence très sensible : sobriété rédactionnelle impérative."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1980-007",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1980-007 — Derby Hall, Bury",
+    "data": {
+      "id": "CHR-S75-1980-007",
+      "type_unite": "chronology",
+      "date": "1980-04-08",
+      "precision_date": "exact",
+      "event": "Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».\n",
+      "type": [
+        "concert",
+        "crise",
+        "performance"
+      ],
+      "location": [
+        "Derby Hall",
+        "Bury"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Alan Hempsall",
+        "Rob Gretton",
+        "Peter Hook"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A073",
+        "S75-A068"
+      ],
+      "chapters": [
+        "Chapitre 7",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "rôle exact de Wilson, Hempsall et public à recouper avec autres témoignages"
+      ],
+      "notes": "Point de rupture collectif à ne pas traiter comme simple anecdote spectaculaire."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1980-008",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1980-008 — Dernier concert à Birmingham University",
+    "data": {
+      "id": "CHR-S75-1980-008",
+      "type_unite": "chronology",
+      "date": "1980-05-02",
+      "precision_date": "exact",
+      "event": "Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.\n",
+      "type": [
+        "concert",
+        "archive",
+        "publication_posthume"
+      ],
+      "location": [
+        "Birmingham University"
+      ],
+      "people": [
+        "Joy Division",
+        "Martin Hannett"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A074"
+      ],
+      "chapters": [
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "vérifier détail des titres et conditions d'enregistrement avec *Still* et sources live"
+      ],
+      "notes": "Seul concert avec « Ceremony » selon Ott ; point de bascule Joy Division / New Order."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S75-1980-009",
+    "file": "registers/chronology/s75_ott_chronology_part_04.md",
+    "heading": "CHR-S75-1980-009 — Mort de Ian Curtis",
+    "data": {
+      "id": "CHR-S75-1980-009",
+      "type_unite": "chronology",
+      "date": "1980-05-18",
+      "precision_date": "exact",
+      "event": "Ian Curtis se suicide le 18 mai 1980.\n",
+      "type": [
+        "deces",
+        "biographie",
+        "sante_mentale"
+      ],
+      "location": [
+        "Macclesfield"
+      ],
+      "people": [
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S75"
+      ],
+      "related_atoms": [
+        "S75-A075"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "aucune sur la date ; prudence sur toute interprétation causale"
+      ],
+      "notes": "À traiter avec sobriété et sans romantisation."
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-1976-002",
     "file": "registers/chronology/s75_ott_chronology.md",
     "heading": "CHR-1976-002 — Second concert des Sex Pistols à Manchester",
@@ -4853,6 +5404,250 @@
         "réception initiale interne du disque"
       ],
       "notes": "L’album devient immédiatement un objet posthume et mémoriel."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S76-1956-001",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_01.md",
+    "heading": "CHR-S76-1956-001 — Naissance de Ian Kevin Curtis",
+    "data": {
+      "id": "CHR-S76-1956-001",
+      "type_unite": "chronology",
+      "date": "1956-07-15",
+      "precision_date": "exact",
+      "event": "Naissance de Ian Kevin Curtis à Basford House, Old Trafford, dans une famille ouvrière respectable.\n",
+      "type": [
+        "naissance",
+        "biographie"
+      ],
+      "location": [
+        "Basford House",
+        "Old Trafford"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Doreen Curtis",
+        "Kevin Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A003",
+        "S76-A004"
+      ],
+      "chapters": [
+        "Chapitre 4"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "aucune sur la date ; détails familiaux à croiser avec S45 si nécessaire"
+      ],
+      "notes": "Point de départ biographique, à traiter sans symbolique excessive de St Swithin’s Day."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S76-1960-001",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_01.md",
+    "heading": "CHR-S76-1960-001 — Naissance de Carole Curtis",
+    "data": {
+      "id": "CHR-S76-1960-001",
+      "type_unite": "chronology",
+      "date": 1960,
+      "precision_date": "year",
+      "event": "Naissance de Carole Curtis, sœur de Ian, avec laquelle S76 décrit une relation durablement proche.\n",
+      "type": [
+        "biographie",
+        "famille"
+      ],
+      "location": [
+        "Macclesfield"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Carole Curtis",
+        "Doreen Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A002",
+        "S76-A009"
+      ],
+      "chapters": [
+        "Chapitre 4"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "date exacte à vérifier si usage chronologique fin"
+      ],
+      "notes": "Utile pour la mémoire familiale et les témoignages de Carole."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S76-1966-001",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_01.md",
+    "heading": "CHR-S76-1966-001 — Entrée à King’s School",
+    "data": {
+      "id": "CHR-S76-1966-001",
+      "type_unite": "chronology",
+      "date": 1966,
+      "precision_date": "year",
+      "event": "Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.\n",
+      "type": [
+        "ecole",
+        "biographie",
+        "classe_sociale"
+      ],
+      "location": [
+        "King’s School",
+        "Macclesfield"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Pete Johnson"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A007"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 11"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "interprétation de la brutalité à présenter comme témoignage de Johnson"
+      ],
+      "notes": "Repère important pour la socialisation masculine et la perception de classe."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S76-1964-001",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_01.md",
+    "heading": "CHR-S76-1964-001 — « Curt-servative party » à l’école primaire",
+    "data": {
+      "id": "CHR-S76-1964-001",
+      "type_unite": "chronology",
+      "date": 1964,
+      "precision_date": "approximate",
+      "event": "Ian Curtis se présente dans une élection scolaire fictive avec le parti « Curt-servative », souvenir utilisé par Pete Johnson pour décrire son charisme non idéologique.\n",
+      "type": [
+        "enfance",
+        "ecole",
+        "temoignage"
+      ],
+      "location": [
+        "Macclesfield"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Pete Johnson"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A005"
+      ],
+      "chapters": [
+        "Chapitre 4"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "datation approximative par Pete Johnson"
+      ],
+      "notes": "Sert surtout à déconstruire les lectures politiques abusives."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S76-1968-001",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_01.md",
+    "heading": "CHR-S76-1968-001 — Treacle Teapot, premier groupe d’enfance",
+    "data": {
+      "id": "CHR-S76-1968-001",
+      "type_unite": "chronology",
+      "date": 1968,
+      "precision_date": "approximate",
+      "event": "Autour de douze ans, Ian Curtis organise Treacle Teapot, groupe d’enfance sans véritable équipement mais déjà orienté vers l’idée de scène.\n",
+      "type": [
+        "enfance",
+        "musique",
+        "groupe"
+      ],
+      "location": [
+        "Macclesfield"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Pete Johnson",
+        "Alan Firkin"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A008"
+      ],
+      "chapters": [
+        "Chapitre 2",
+        "Chapitre 4"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "datation approximative par l’âge indiqué"
+      ],
+      "notes": "Nœud narratif utile pour ne pas faire commencer l’ambition musicale au seul choc punk."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S76-1972-001",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_01.md",
+    "heading": "CHR-S76-1972-001 — Incident scolaire lié aux pilules et au fluide de nettoyage",
+    "data": {
+      "id": "CHR-S76-1972-001",
+      "type_unite": "chronology",
+      "date": 1972,
+      "precision_date": "approximate",
+      "event": "À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.\n",
+      "type": [
+        "adolescence",
+        "sante",
+        "ecole",
+        "incident_sensible"
+      ],
+      "location": [
+        "King’s School",
+        "Macclesfield"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Pete Johnson"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A010"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "low",
+      "contradictions": [
+        "date exacte et détails médicaux à recouper ; témoignage unique de Pete Johnson dans ce passage"
+      ],
+      "notes": "Sujet sensible : ne jamais présenter comme annonciateur de la mort ou de la maladie."
     }
   },
   {

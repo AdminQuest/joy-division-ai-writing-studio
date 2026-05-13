@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 135 |
-| Atomes critiques / majeurs | 22 |
-| Citations | 6 |
-| Événements chronologiques | 2 |
-| Personnes | 1 |
-| Chansons | 8 |
-| Sources mobilisées | 11 |
+| Atomes | 140 |
+| Atomes critiques / majeurs | 27 |
+| Citations | 8 |
+| Événements chronologiques | 3 |
+| Personnes | 3 |
+| Chansons | 10 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
@@ -44,7 +44,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 9 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 7 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 1 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -78,6 +79,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A070** — S75-A070 — « Atmosphere » : fin du pop, voix résignée et cathédrale sonore  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S76-A007** — S76-A007 — King’s School : classe, brutalité masculine et désajustement scolaire  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `critique` ; preuve : `temoignage_retroactif`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -92,6 +97,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
+- **S75-A064** — S75-A064 — Goethe, Werther et le risque de romantiser Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_litteraire` ; importance : `majeure` ; preuve : `interpretation_litteraire`.
+- **S75-A071** — S75-A071 — « Dead Souls » : revenance, histoire et danger ésotérique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S76-A003** — S76-A003 — Old Trafford, guerre familiale et mémoire populaire comme arrière-plan Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `memoire_familiale_rapportee`.
 
 ## 6. Autres atomes utiles
 
@@ -264,18 +275,25 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S47-Q002** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « their vision is deadly accurate. »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S47-Q009** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « enough to spit in the face of God. »
+- **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.
 - CHR-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
+- CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
 
 ## 9. Personnes et acteurs
 
 - PERS-001 — Ian Curtis
+- PERS-S76-006 — Pete Johnson
+- PERS-S75-033 — William S. Burroughs
 
 ## 10. Chansons rattachées
 
+- SONG-S75-027 — Atmosphere
+- SONG-S75-028 — Dead Souls
 - Transmission
 - She's Lost Control
 - Disorder
@@ -315,6 +333,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - The Noise (3)
 - unknown pleasures (3)
 - love will tear us apart (3)
+- prudence historiographique (3)
 - réception (3)
 - authenticité (3)
 - fragmentation (3)
@@ -365,8 +384,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - danse de curtis (2)
 - presse musicale (2)
 - transmission (2)
-- provocation post-punk (2)
-- esthétique du choc (2)
+- spectralité (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -378,6 +396,21 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Throbbing Gristle (2)
 - exclusion (2)
 - manager (2)
+- Goethe (1)
+- Werther (1)
+- romantisme (1)
+- suicide littéraire (1)
+- deification (1)
+- Atmosphere (1)
+- orgues (1)
+- silence (1)
+- cathédrale sonore (1)
+- mémoire rock (1)
+- Dead Souls (1)
+- fantômes (1)
+- eternals (1)
+- réincarnation (1)
+- histoire (1)
 - ressentiment (1)
 - misogynie (1)
 - pose dramatique (1)
@@ -397,24 +430,18 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - An Ideal for Living (1)
 - imagerie nazie (1)
 - jeunesse (1)
-- Transmission (1)
-- communication (1)
-- pop song (1)
-- post-punk (1)
-- électronique (1)
-- 1979 (1)
-- crise anglaise (1)
-- disco (1)
-- punk épuisé (1)
-- chômage (1)
-- Piccadilly Plaza (1)
-- bureau de promotion (1)
-- Bowie (1)
-- Iggy Pop (1)
-- échappée professionnelle (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A064 — requiert → CONCEPT-004
+- S75-A064 — nuance → MYTH-002
+- S75-A064 — prolonge → S75-A057
+- S75-A070 — prolonge → S75-A069
+- S75-A070 — prolonge → CONCEPT-006
+- S75-A070 — prolonge → MOTIF-001
+- S75-A071 — prolonge → MOTIF-001
+- S75-A071 — requiert → CONCEPT-004
+- S75-A071 — nuance → MYTH-002
 - S75-A010 — nuance → MYTH-curtis_poete_deja_accompli
 - S75-A010 — corrobore → S45
 - S75-A013 — prolonge → S75-A018
@@ -475,6 +502,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A015 — complète → S41
 - S74-A017 — se_souvient → S45
 - S74-A017 — nuance → MYTH-002
+- S76-A003 — prolonge → MOTIF-002
+- S76-A003 — nuance → MYTH-003
+- S76-A003 — requiert → CONCEPT-004
+- S76-A007 — prolonge → S76-A004
+- S76-A007 — nuance → MYTH-002
+- S76-A007 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -499,6 +532,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | domesticité | 2 |
 | citation_clef | 2 |
 | relation_conjugale | 2 |
+| lecture_musicale | 2 |
 | lecture | 2 |
 | temoignage_direct_rapporte | 2 |
 | fait | 2 |
@@ -527,8 +561,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | psychologie_sociale | 1 |
 | culture_domestique | 1 |
 | concert | 1 |
+| lecture_litteraire | 1 |
+| lecture_textuelle | 1 |
 | influence | 1 |
-| lecture_musicale | 1 |
 | contexte | 1 |
 | genealogie_culturelle | 1 |
 | acteur_critique | 1 |
@@ -544,6 +579,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | reception_interne | 1 |
 | reception_posthume | 1 |
 | temoignage | 1 |
+| contexte_biographique | 1 |
+| contexte_social | 1 |
 | chanson_contexte | 1 |
 | fait_sensible | 1 |
 | portrait_sensible | 1 |
@@ -555,11 +592,14 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 113 |
-| critique | 15 |
-| majeure | 7 |
+| critique | 17 |
+| majeure | 10 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
+- S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète
+- S75-A071 [eleve] — risque de prendre les motifs de revenance comme croyance ou clé psychologique de Curtis
 - S75-A010 [eleve] — risque de psychologiser Curtis à partir d'un texte primitif et d'une lecture secondaire
 - S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
 - S75-A016 [eleve] — risque d'assimiler toute référence WWII à une sympathie politique ; risque inverse d'excuser trop vite la provocation
@@ -582,6 +622,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
 - S74-A015 [eleve] — risque de transformer une hypothèse mémorielle de Sumner en explication totale de Joy Division
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
+- S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
+- S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
 
 ## 15. Lacunes et prochaines vérifications
 

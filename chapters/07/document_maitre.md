@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 68 |
-| Atomes critiques / majeurs | 15 |
-| Citations | 3 |
-| Événements chronologiques | 3 |
-| Personnes | 4 |
-| Chansons | 3 |
-| Sources mobilisées | 7 |
+| Atomes | 75 |
+| Atomes critiques / majeurs | 22 |
+| Citations | 4 |
+| Événements chronologiques | 9 |
+| Personnes | 5 |
+| Chansons | 7 |
+| Sources mobilisées | 8 |
 
 ## 4. Sources mobilisées
 
@@ -40,7 +40,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 12 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 10 | 0 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 1 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -70,6 +71,20 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A052** — S75-A052 — Électronique et bruit industriel : perception transformée mais source collective  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A058** — S75-A058 — La « dead fly dance » : présence scénique, crise et méprise esthétique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `performance` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_temoin_et_image`.
+- **S75-A060** — S75-A060 — « Transmission » comme accomplissement Hannett / Joy Division  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A062** — S75-A062 — Presse de 1979 : possession, attraction et méprise médicale  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `critique` ; preuve : `reception_contemporaine`.
+- **S75-A066** — S75-A066 — Buzzcocks tour, Plan K et bascule vers la reconnaissance nationale  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A073** — S75-A073 — Rainbow, Derby Hall et le dispositif impossible de substitution vocale  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_evenementielle`.
+- **S75-A074** — S75-A074 — « Ceremony », « In a Lonely Place » et les chansons-ponts vers New Order  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
+- **S76-A005** — S76-A005 — Le jeune Curtis meneur discret : charisme sans domination  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_biographique` ; importance : `critique` ; preuve : `temoignage_retroactif`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
@@ -189,9 +204,16 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S45-Q004** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « cleaner and colder »
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
+- **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
+- CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
+- CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
+- CHR-S75-1980-005 — Concert au Rainbow Theatre de Londres ; les stroboscopes déclenchent une crise pendant le set selon Ott.
+- CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
+- CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
 - CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
 - CHR-1980-004 — Sortie posthume de l’album Closer.
@@ -202,9 +224,14 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - PERS-008 — Martin Hannett
 - PERS-012 — John Brierley
 - PERS-016 — Bedhead
+- PERS-S75-035 — Alan Hempsall
 
 ## 10. Chansons rattachées
 
+- SONG-S75-026 — Transmission
+- SONG-S75-029 — Love Will Tear Us Apart
+- SONG-S75-031 — Ceremony
+- SONG-S75-032 — In a Lonely Place
 - She's Lost Control
 - SONG-S75-003 — Disorder
 - SONG-S75-012 — Transmission
@@ -215,6 +242,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - martin hannett (11)
 - unknown pleasures (7)
 - closer (5)
+- prudence historiographique (5)
 - dub (4)
 - espace sonore (4)
 - peter saville (4)
@@ -225,6 +253,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - basse (3)
 - Closer (3)
 - factory records (3)
+- architecture sonore (3)
 - studio (3)
 - son live (3)
 - Unknown Pleasures (3)
@@ -242,7 +271,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - Glass (2)
 - novelty (2)
 - glass (2)
-- architecture sonore (2)
+- réception corporelle (2)
+- producteur catalyseur (2)
 - répétition (2)
 - factory (2)
 - spatialisation sonore (2)
@@ -288,57 +318,72 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - tribalisme post-punk (1)
 - gang of four (1)
 - brecht (1)
-- godard (1)
-- alienation effects (1)
-- anti-romantisme (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- Transmission (2)
 - électronique (2)
 - objet disque (2)
+- dead fly dance (1)
+- performance live (1)
+- épilepsie (1)
+- corps scénique (1)
+- méprise critique (1)
+- Strawberry Studios (1)
+- Hannett (1)
+- radio (1)
+- distance stéréophonique (1)
+- presse musicale (1)
+- Jon Savage (1)
+- Mick Middles (1)
+- stage presence (1)
+- possession (1)
+- Buzzcocks tour (1)
+- Plan K (1)
+- Futurama (1)
+- reconnaissance nationale (1)
+- Apollo Manchester (1)
+- Rainbow Theatre (1)
+- Derby Hall (1)
+- Alan Hempsall (1)
+- Sister Ray (1)
+- riot (1)
+- Ceremony (1)
+- In a Lonely Place (1)
+- New Order (1)
+- absence (1)
+- transition (1)
 - reprise (1)
 - postérité (1)
 - austérité (1)
 - internalisation (1)
 - ombre portée (1)
-- Transmission (1)
 - communication (1)
 - pop song (1)
 - post-punk (1)
-- Shadowplay (1)
-- énergie rock (1)
-- guitare (1)
-- récit (1)
-- anti-morbidité (1)
-- Kraftwerk (1)
-- Roxy Music (1)
-- Brian Eno (1)
-- bruit industriel (1)
-- provocation (1)
-- imagerie fasciste (1)
-- naïveté (1)
-- réception critique (1)
-- Throbbing Gristle (1)
-- entrepôt (1)
-- répétition (1)
-- poussière (1)
-- image industrielle (1)
-- Kevin Cummins (1)
-- poster (1)
-- minimalisme (1)
-- Hulme Crescents (1)
-- design (1)
-- photographie (1)
-- sampler (1)
-- plastique (1)
-- impraticabilité (1)
-- décision esthétique (1)
-- Cargo (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A058 — requiert → CONCEPT-004
+- S75-A058 — nuance → MYTH-002
+- S75-A058 — prolonge → S75-A047
+- S75-A060 — prolonge → CONCEPT-006
+- S75-A060 — prolonge → S75-A034
+- S75-A060 — nuance → MYTH-004
+- S75-A062 — prolonge → S75-A058
+- S75-A062 — requiert → CONCEPT-004
+- S75-A062 — nuance → MYTH-002
+- S75-A066 — prolonge → S75-A033
+- S75-A066 — nuance → MYTH-003
+- S75-A066 — prépare → S75-A073
+- S75-A073 — prolonge → S75-A068
+- S75-A073 — requiert → CONCEPT-004
+- S75-A073 — nuance → MYTH-005
+- S75-A074 — prolonge → MOTIF-001
+- S75-A074 — requiert → CONCEPT-004
+- S75-A074 — nuance → MYTH-002
 - S75-A001 — prolonge → MOTIF-heritage
 - S75-A001 — nuance → MYTH-culte_sombre
 - S75-A034 — prolonge → CONCEPT-006
@@ -384,6 +429,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A020 — annonce → CONCEPT_HANNETT_SPATIALISATION
 - S74-A007 — prolonge → S74-A001
 - S74-A007 — nuance → MYTH-005
+- S76-A005 — nuance → MYTH-002
+- S76-A005 — prolonge → S76-A002
+- S76-A005 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -394,8 +442,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | analyse | 19 |
 | contrepoint | 6 |
 | production | 6 |
-| reception | 3 |
-| lecture_musicale | 3 |
+| lecture_musicale | 4 |
+| reception | 4 |
+| scene_fondatrice | 2 |
 | controverse | 2 |
 | design | 2 |
 | analyse_studio | 2 |
@@ -408,11 +457,14 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | synthese | 1 |
 | réception | 1 |
 | memoire | 1 |
+| performance | 1 |
+| lecture_discographique | 1 |
 | lieu | 1 |
 | institution | 1 |
 | session | 1 |
 | reception_posthume | 1 |
 | lecture | 1 |
+| temoignage_biographique | 1 |
 | discographie | 1 |
 | conflit_esthetique | 1 |
 | concept | 1 |
@@ -425,12 +477,18 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 52 |
-| critique | 13 |
+| critique | 20 |
 | majeure | 2 |
 | moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
+- S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
+- S75-A062 [eleve] — la presse contemporaine documente la réception, pas l'état intérieur de Curtis
+- S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
+- S75-A073 [eleve] — épisode spectaculaire, exposé au sensationnalisme ; le traiter comme symptôme d'une impasse collective
+- S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
 - S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
 - S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
 - S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
@@ -447,6 +505,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A060 [eleve] — risque symétrique de disculpation naïve ou d’accusation intentionnaliste
 - S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
 - S74-A007 [moyen] — risque de téléologie biographique reliant trop directement les goûts adolescents à la politique esthétique de Factory
+- S76-A005 [moyen] — souvenir d'enfance reconstruit quarante ans après les faits
 
 ## 15. Lacunes et prochaines vérifications
 

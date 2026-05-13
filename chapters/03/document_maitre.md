@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 158 |
-| Atomes critiques / majeurs | 30 |
-| Citations | 15 |
-| Événements chronologiques | 7 |
+| Atomes | 161 |
+| Atomes critiques / majeurs | 33 |
+| Citations | 16 |
+| Événements chronologiques | 9 |
 | Personnes | 14 |
-| Chansons | 16 |
+| Chansons | 18 |
 | Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
@@ -43,7 +43,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 22 | 8 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 9 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -91,6 +91,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S75-A052** — S75-A052 — Électronique et bruit industriel : perception transformée mais source collective  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A060** — S75-A060 — « Transmission » comme accomplissement Hannett / Joy Division  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A069** — S75-A069 — *Licht und Blindheit* : « Atmosphere » et « Dead Souls » comme seuil de l'éternel  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_discographie`.
+- **S75-A070** — S75-A070 — « Atmosphere » : fin du pop, voix résignée et cathédrale sonore  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -288,9 +294,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
+- CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
 - CHR-1978-007 — Enregistrement de « Digital » et « Glass » pour *A Factory Sample* à Cargo Studios avec Martin Hannett.
 - CHR-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
@@ -318,6 +327,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 10. Chansons rattachées
 
+- SONG-S75-026 — Transmission
+- SONG-S75-027 — Atmosphere
 - Transmission
 - SONG-S75-016 — Disorder
 - SONG-S75-017 — Day of the Lords
@@ -338,7 +349,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 ## 11. Concepts récurrents
 
 - Martin Hannett (19)
-- architecture sonore (13)
+- architecture sonore (16)
 - Unknown Pleasures (12)
 - post-punk (10)
 - Ian Curtis (10)
@@ -371,6 +382,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - batterie (4)
 - Dead Souls (4)
 - répétition (4)
+- producteur catalyseur (4)
 - Atmosphere (4)
 - piccadilly radio (3)
 - dub (3)
@@ -384,7 +396,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Factory (3)
 - An Ideal for Living (3)
 - domesticité (3)
-- producteur catalyseur (3)
+- spectralité (3)
 - prudence historiographique (3)
 - cinquième membre (3)
 - basse (3)
@@ -416,14 +428,19 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Love Will Tear Us Apart (2)
 - précision (2)
 - son (2)
-- technologie (2)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
-- Hannett (4)
+- Hannett (5)
 - domesticité (3)
+- Transmission (2)
+- Strawberry Studios (2)
+- radio (2)
+- Atmosphere (2)
+- silence (2)
+- cathédrale sonore (2)
 - apprentissage (2)
 - écoute (2)
 - Interzone (2)
@@ -433,12 +450,18 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - caisse claire (2)
 - Hook (2)
 - Kraftwerk (2)
+- distance stéréophonique (1)
+- Licht und Blindheit (1)
+- Dead Souls (1)
+- Sordide Sentimental (1)
+- eternal (1)
+- orgues (1)
+- mémoire rock (1)
 - amateurisme (1)
 - contrainte (1)
 - Pennine Sound (1)
 - économie de moyens (1)
 - boîte à rythmes (1)
-- silence (1)
 - stabilisation (1)
 - précision (1)
 - No Love Lost (1)
@@ -450,21 +473,18 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - studio professionnel (1)
 - échec (1)
 - industrie musicale (1)
-- illusion (1)
-- reprise imposée (1)
-- soul (1)
-- détournement (1)
-- synthétiseur (1)
-- polissage (1)
-- résistance (1)
-- son brut (1)
-- RCA demos (1)
-- bootleg (1)
-- archive négative (1)
-- Movie Play Gold (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A060 — prolonge → CONCEPT-006
+- S75-A060 — prolonge → S75-A034
+- S75-A060 — nuance → MYTH-004
+- S75-A069 — prolonge → CONCEPT-006
+- S75-A069 — prolonge → MOTIF-001
+- S75-A069 — prolonge → S70-A021
+- S75-A070 — prolonge → S75-A069
+- S75-A070 — prolonge → CONCEPT-006
+- S75-A070 — prolonge → MOTIF-001
 - S75-A009 — prolonge → S75-A008
 - S75-A009 — nuance → MYTH-genie_immediat
 - S75-A015 — prolonge → S75-A011
@@ -536,15 +556,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S74-A049 — nuance → MYTH-002
 - S74-A049 — complète → S74-A047
 - S74-A050 — complète → S74-A049
-- S74-A050 — nuance → MYTH-002
-- S74-A050 — prolonge → S45
-- S74-A052 — prolonge → S74-A048
-- S74-A052 — complète → S74-A050
-- S74-A052 — nuance → MYTH-002
-- S74-A053 — nuance → MYTH-002
-- S74-A053 — complète → S74-A052
-- S74-A053 — prolonge → S45
-- S74-A054 — prolonge → S45
 
 ## 13. Distribution documentaire
 
@@ -553,9 +564,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Type | Nombre |
 |---|---|
 | production | 14 |
+| lecture_musicale | 10 |
 | analyse | 9 |
 | fait | 9 |
-| lecture_musicale | 8 |
 | concept | 5 |
 | analyse_morceau | 5 |
 | discographie | 4 |
@@ -605,6 +616,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | culture_musicale | 1 |
 | culture_domestique | 1 |
 | management | 1 |
+| objet_discographique | 1 |
 | bootleg | 1 |
 | archive | 1 |
 | session_radio | 1 |
@@ -636,11 +648,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 128 |
-| critique | 22 |
+| critique | 25 |
 | majeure | 8 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
+- S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
+- S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète
 - S75-A009 [faible] — Ott signale lui-même qu'une critique trop sévère serait inutile, compte tenu de la fonction pratique de la session
 - S75-A015 [faible] — lecture cohérente avec la place reconnue de Morris, mais à articuler avec les autres membres
 - S75-A020 [moyen] — formule forte d'Ott ; à articuler avec d'autres seuils possibles comme « Digital » ou les sessions RCA

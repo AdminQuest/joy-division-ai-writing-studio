@@ -186,25 +186,47 @@
     "auteur": "Chris Ott",
     "titre": "Joy Division's Unknown Pleasures",
     "annee": "2004",
-    "records": 137,
-    "atoms": 56,
-    "quotes": 16,
-    "chronology": 18,
+    "records": 188,
+    "atoms": 75,
+    "quotes": 21,
+    "chronology": 31,
     "files": [
       "registers/chronology/s75_ott_chronology.md",
       "registers/chronology/s75_ott_chronology_part_03.md",
+      "registers/chronology/s75_ott_chronology_part_04.md",
       "registers/people/s75_ott_people.md",
       "registers/people/s75_ott_people_part_02.md",
       "registers/people/s75_ott_people_part_03.md",
+      "registers/people/s75_ott_people_part_04.md",
       "registers/quotes/s75_ott_quotes.md",
       "registers/quotes/s75_ott_quotes_part_03.md",
+      "registers/quotes/s75_ott_quotes_part_04.md",
       "registers/songs/s75_ott_songs.md",
       "registers/songs/s75_ott_songs_part_02.md",
       "registers/songs/s75_ott_songs_part_03.md",
+      "registers/songs/s75_ott_songs_part_04.md",
       "sources/ott_unknown_pleasures/README.md",
       "sources/ott_unknown_pleasures/source_part_01.md",
       "sources/ott_unknown_pleasures/source_part_02.md",
-      "sources/ott_unknown_pleasures/source_part_03.md"
+      "sources/ott_unknown_pleasures/source_part_03.md",
+      "sources/ott_unknown_pleasures/source_part_04.md"
+    ]
+  },
+  {
+    "source_id": "S76",
+    "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+    "auteur": "Mick Middles ; Lindsay Reade",
+    "titre": "Torn Apart: The Life of Ian Curtis",
+    "annee": "2006",
+    "records": 31,
+    "atoms": 10,
+    "quotes": 7,
+    "chronology": 6,
+    "files": [
+      "registers/chronology/s76_torn_apart_chronology_part_01.md",
+      "registers/people/s76_torn_apart_people_part_01.md",
+      "registers/quotes/s76_torn_apart_quotes_part_01.md",
+      "sources/middles_reade_torn_apart/source_part_01.md"
     ]
   }
 ]

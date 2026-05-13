@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-13T12:14:34"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 90 |
-| Atomes critiques / majeurs | 29 |
-| Citations | 9 |
-| Événements chronologiques | 4 |
-| Personnes | 6 |
-| Chansons | 10 |
-| Sources mobilisées | 7 |
+| Atomes | 110 |
+| Atomes critiques / majeurs | 35 |
+| Citations | 19 |
+| Événements chronologiques | 14 |
+| Personnes | 17 |
+| Chansons | 13 |
+| Sources mobilisées | 8 |
 
 ## 4. Sources mobilisées
 
@@ -40,7 +40,8 @@ generated_at: "2026-05-13T12:14:34"
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 13 | 4 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 10 | 7 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -68,6 +69,34 @@ generated_at: "2026-05-13T12:14:34"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_memoire`.
 - **S75-A047** — S75-A047 — « She’s Lost Control » : origine professionnelle, retour biographique et comparaison des versions  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A057** — S75-A057 — Curtis, Bowie et le fantasme romantique de mourir jeune  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A058** — S75-A058 — La « dead fly dance » : présence scénique, crise et méprise esthétique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `performance` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_temoin_et_image`.
+- **S75-A059** — S75-A059 — Médication, lumières blanches et crise du 24 mai 1979  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte_medical` ; importance : `critique` ; preuve : `reconstruction_medicale_critique`.
+- **S75-A062** — S75-A062 — Presse de 1979 : possession, attraction et méprise médicale  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `critique` ; preuve : `reception_contemporaine`.
+- **S75-A063** — S75-A063 — Vie domestique, responsabilité et rock star self-absorption  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `memoire_intime_et_reconstruction_critique`.
+- **S75-A065** — S75-A065 — Annik Honoré : liaison, idéal de fuite et nœud biographique sensible  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `reconstruction_memorielle_conflictuelle`.
+- **S75-A068** — S75-A068 — Février-avril 1980 : tentatives, aveuglements et point de non-retour  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `chronologie_sensible` ; importance : `critique` ; preuve : `reconstruction_memorielle_sensible`.
+- **S75-A075** — S75-A075 — Dernière lecture d'Ott : Ian Curtis a perdu, il ne faut pas le déifier  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `synthese_interpretative`.
+- **S76-A001** — S76-A001 — Middles et Reade : une biographie située, entre témoin de scène et mémoire Factory  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `cadrage_source` ; importance : `critique` ; preuve : `cadrage_source`.
+- **S76-A002** — S76-A002 — Le refus familial du récit uniquement tragique  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `temoignage_familial_rapporte`.
+- **S76-A005** — S76-A005 — Le jeune Curtis meneur discret : charisme sans domination  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_biographique` ; importance : `critique` ; preuve : `temoignage_retroactif`.
+- **S76-A006** — S76-A006 — Chevalerie, histoire et correction du soupçon nazi  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_historiographique` ; importance : `critique` ; preuve : `memoire_familiale_et_temoignage_ami`.
+- **S76-A007** — S76-A007 — King’s School : classe, brutalité masculine et désajustement scolaire  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `critique` ; preuve : `temoignage_retroactif`.
+- **S76-A009** — S76-A009 — Compartimentation amicale et pluralité des Ian Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `interpretation_temoignage`.
 - **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
@@ -86,22 +115,6 @@ generated_at: "2026-05-13T12:14:34"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `contexte_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A044** — S74-A044 — Factory scene : Distractions comme antithèse lumineuse de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_locale` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
-- **S75-A010** — S75-A010 — « Gutz », domesticité et brutalité des premiers textes de Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A012** — S75-A012 — Curtis dans la pièce bleue : ambition, naïveté et écriture de transition  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
-- **S75-A032** — S75-A032 — Kevin Cummins et le contre-portrait de Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A043** — S75-A043 — Curtis aime le disque : divergence interne dans la réception d'Hannett  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `majeure` ; preuve : `reconstruction_critique`.
-- **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -227,6 +240,34 @@ generated_at: "2026-05-13T12:14:34"
   Source : S68 — Broll, Joy Division, 1988 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S74-A013** — S74-A013 — Ed Banger And The Nosebleeds comme contre-mythe punk local  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `structurante` ; preuve : `plausible`.
+- **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
+- **S75-A010** — S75-A010 — « Gutz », domesticité et brutalité des premiers textes de Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A012** — S75-A012 — Curtis dans la pièce bleue : ambition, naïveté et écriture de transition  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
+- **S75-A032** — S75-A032 — Kevin Cummins et le contre-portrait de Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A043** — S75-A043 — Curtis aime le disque : divergence interne dans la réception d'Hannett  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `majeure` ; preuve : `reconstruction_critique`.
+- **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A064** — S75-A064 — Goethe, Werther et le risque de romantiser Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_litteraire` ; importance : `majeure` ; preuve : `interpretation_litteraire`.
+- **S75-A071** — S75-A071 — « Dead Souls » : revenance, histoire et danger ésotérique  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S76-A003** — S76-A003 — Old Trafford, guerre familiale et mémoire populaire comme arrière-plan Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `memoire_familiale_rapportee`.
+- **S76-A004** — S76-A004 — Macclesfield : respectabilité, pauvreté relative et enfance non misérabiliste  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_contextuelle`.
+- **S76-A008** — S76-A008 — Treacle Teapot : premier groupe imaginaire, initiative et désir de scène  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `majeure` ; preuve : `temoignage_retroactif`.
+- **S76-A010** — S76-A010 — Incident de drogues à King’s School : classe, sanction et fragilité adolescente  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `chronologie_sensible` ; importance : `majeure` ; preuve : `temoignage_retroactif_sensible`.
 
 ## 7. Citations disponibles
 
@@ -239,12 +280,32 @@ generated_at: "2026-05-13T12:14:34"
 - **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q019** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S75-1979-008 — Ian Curtis subit une crise majeure après un concert à Altrincham, peu après la naissance de sa fille et l'achèvement de *Unknown Pleasures*.
+- CHR-S75-1979-010 — Performance de « Transmission » pour BBC2 dans l'émission *Something Else*, où Ott repère des signes corporels de pré-crise.
+- CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
+- CHR-S75-1980-002 — Tournée européenne de Joy Division, durant laquelle Ott souligne l'aggravation des tensions affectives et médicales autour de Curtis.
 - CHR-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
+- CHR-S76-1956-001 — Naissance de Ian Kevin Curtis à Basford House, Old Trafford, dans une famille ouvrière respectable.
+- CHR-S76-1960-001 — Naissance de Carole Curtis, sœur de Ian, avec laquelle S76 décrit une relation durablement proche.
+- CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
+- CHR-S76-1964-001 — Ian Curtis se présente dans une élection scolaire fictive avec le parti « Curt-servative », souvenir utilisé par Pete Johnson pour décrire son charisme non idéologique.
+- CHR-S76-1968-001 — Autour de douze ans, Ian Curtis organise Treacle Teapot, groupe d’enfance sans véritable équipement mais déjà orienté vers l’idée de scène.
+- CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.
 - CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
 
 ## 9. Personnes et acteurs
@@ -255,9 +316,23 @@ generated_at: "2026-05-13T12:14:34"
 - PERS-010 — Annick Honoré
 - PERS-011 — Natalie Curtis
 - PERS-S75-023 — Kevin Cummins
+- PERS-S76-001 — Lindsay Reade
+- PERS-S76-002 — Doreen Curtis
+- PERS-S76-003 — Kevin Curtis
+- PERS-S76-004 — Carole Curtis
+- PERS-S76-005 — Barbara Lloyd / Aunt Barbara
+- PERS-S76-006 — Pete Johnson
+- PERS-S76-007 — Tony Nuttall
+- PERS-S76-008 — Paul Heapy
+- PERS-S75-032 — Annik Honoré
+- PERS-S75-033 — William S. Burroughs
+- PERS-S75-037 — Paul Morley
 
 ## 10. Chansons rattachées
 
+- SONG-S75-028 — Dead Souls
+- SONG-S75-030 — Passover
+- SONG-S75-033 — Twenty Four Hours
 - She's Lost Control
 - Love Will Tear Us Apart
 - SONG-S75-016 — Disorder
@@ -272,9 +347,9 @@ generated_at: "2026-05-13T12:14:34"
 ## 11. Concepts récurrents
 
 - Ian Curtis (37)
+- prudence historiographique (20)
 - epilepsie (10)
 - scène (6)
-- prudence historiographique (6)
 - factory (6)
 - danse (5)
 - épilepsie (5)
@@ -302,6 +377,7 @@ generated_at: "2026-05-13T12:14:34"
 - crises (2)
 - isolement (2)
 - famille (2)
+- double vie (2)
 - sommeil (2)
 - tournées (2)
 - silence (2)
@@ -309,10 +385,16 @@ generated_at: "2026-05-13T12:14:34"
 - Macclesfield (2)
 - Hope and Anchor (2)
 - crise (2)
+- anti-prophétisation (2)
+- réception corporelle (2)
+- réception intime (2)
+- anti-deification (2)
+- spectralité (2)
 - management (2)
 - joy division (2)
 - factory records (2)
 - indépendance (2)
+- mémoire située (2)
 - Rob Gretton (2)
 - Tony Wilson (2)
 - avril 1980 (2)
@@ -344,61 +426,84 @@ generated_at: "2026-05-13T12:14:34"
 - Bowdon Vale (1)
 - The Kill (1)
 - apprentissage (1)
-- accent (1)
-- studio (1)
-- transition vocale (1)
-- quotidien (1)
-- Temazepam (1)
-- phénobarbital (1)
-- comportement (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- épilepsie (4)
+- Ian Curtis (3)
 - Wythenshawe (3)
+- Pete Johnson (3)
+- Mick Middles (2)
+- Deborah Curtis (2)
+- domesticité (2)
+- deification (2)
+- histoire (2)
+- Macclesfield (2)
 - paroles (2)
-- épilepsie (2)
 - contrôle (2)
 - reconnaissance (2)
 - indépendance (2)
 - télévision régionale (2)
+- mémoire ouvrière (2)
 - violence sociale (2)
-- suicide (1)
-- canonisation (1)
-- réception posthume (1)
-- notoriété tardive (1)
-- domesticité (1)
-- ressentiment (1)
-- misogynie (1)
-- pose dramatique (1)
-- Curtis immature (1)
-- pièce bleue (1)
-- écriture (1)
-- ambition (1)
-- naïveté (1)
-- Macclesfield (1)
-- No Love Lost (1)
-- House of Dolls (1)
-- funk sec (1)
-- double-delay (1)
-- seuil (1)
-- Kevin Cummins (1)
-- NME (1)
-- portrait (1)
-- Curtis icône (1)
-- image médiatique (1)
-- Disorder (1)
-- basse de Hook (1)
-- voix de Curtis (1)
-- caisse claire (1)
-- catharsis (1)
-- Curtis (1)
-- Hannett (1)
-- Kraftwerk (1)
+- enfance (2)
+- King’s School (2)
+- classe sociale (2)
+- Bowie (1)
+- Jim Morrison (1)
+- mort jeune (1)
+- romantisme rock (1)
+- dead fly dance (1)
+- performance live (1)
+- corps scénique (1)
+- méprise critique (1)
+- Phenobarbital (1)
+- Dilantin (1)
+- lumières blanches (1)
+- Altrincham (1)
+- presse musicale (1)
+- Jon Savage (1)
+- stage presence (1)
+- possession (1)
+- rock star self-absorption (1)
+- responsabilité (1)
+- masque (1)
+- Goethe (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A057 — requiert → CONCEPT-004
+- S75-A057 — nuance → MYTH-002
+- S75-A057 — prolonge → S75-A044
+- S75-A058 — requiert → CONCEPT-004
+- S75-A058 — nuance → MYTH-002
+- S75-A058 — prolonge → S75-A047
+- S75-A059 — requiert → CONCEPT-004
+- S75-A059 — nuance → MYTH-002
+- S75-A059 — prolonge → S75-A031
+- S75-A062 — prolonge → S75-A058
+- S75-A062 — requiert → CONCEPT-004
+- S75-A062 — nuance → MYTH-002
+- S75-A063 — prolonge → S75-A045
+- S75-A063 — requiert → CONCEPT-004
+- S75-A063 — nuance → MYTH-002
+- S75-A064 — requiert → CONCEPT-004
+- S75-A064 — nuance → MYTH-002
+- S75-A064 — prolonge → S75-A057
+- S75-A065 — requiert → CONCEPT-004
+- S75-A065 — nuance → MYTH-002
+- S75-A065 — prolonge → S75-A063
+- S75-A068 — requiert → CONCEPT-004
+- S75-A068 — nuance → MYTH-002
+- S75-A068 — prépare → S75-A075
+- S75-A071 — prolonge → MOTIF-001
+- S75-A071 — requiert → CONCEPT-004
+- S75-A071 — nuance → MYTH-002
+- S75-A075 — prolonge → CONCEPT-004
+- S75-A075 — deconstruit → MYTH-002
+- S75-A075 — conclut → S75-A068
 - S75-A003 — nuance → MYTH-curtis_prophete_de_sa_mort
 - S75-A003 — prolonge → S45
 - S75-A010 — nuance → MYTH-curtis_poete_deja_accompli
@@ -449,36 +554,6 @@ generated_at: "2026-05-13T12:14:34"
 - S74-A035 — prolonge → S74-A023
 - S74-A035 — annonce → S74-A036
 - S74-A035 — nuance → MYTH-005
-- S74-A036 — prolonge → S74-A027
-- S74-A036 — complète → S74-A032
-- S74-A036 — nuance → MYTH-005
-- S74-A037 — prolonge → S74-A036
-- S74-A037 — complète → S74-A001
-- S74-A037 — nuance → MYTH-005
-- S74-A044 — complète → S74-A030
-- S74-A044 — nuance → MYTH-005
-- S74-A044 — contraste → S74-A042
-- S74-A046 — prolonge → S74-A008
-- S74-A046 — complète → S74-A030
-- S74-A046 — nuance → MYTH-005
-- S74-A001 — nuance → MYTH-005
-- S74-A001 — prolonge → CONCEPT-001
-- S74-A005 — nuance → MYTH-005
-- S74-A005 — illustre → S74-A001
-- S74-A006 — nuance → MYTH-005
-- S74-A006 — illustre → CONCEPT-003
-- S74-A008 — nuance → MYTH-001
-- S74-A008 — illustre → S74-A004
-- S74-A010 — nuance → MYTH-004
-- S74-A010 — illustre → S74-A011
-- S74-A011 — nuance → MYTH-003
-- S74-A011 — complète → S74-A002
-- S74-A012 — illustre → S74-A001
-- S74-A012 — prolonge → S74-A011
-- S74-A013 — nuance → MYTH-001
-- S74-A013 — prolonge → S74-A011
-- S74-A013 — illustre → S74-A012
-- S74-A013 — relie → S74-A005
 
 ## 13. Distribution documentaire
 
@@ -492,14 +567,21 @@ generated_at: "2026-05-13T12:14:34"
 | lecture | 4 |
 | lecture_musicale | 4 |
 | relation | 3 |
+| lecture_textuelle | 3 |
+| prudence_methodologique | 3 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
+| performance | 2 |
 | santé | 2 |
 | domesticité | 2 |
 | relation_conjugale | 2 |
+| lecture_biographique | 2 |
+| controverse_biographique | 2 |
+| chronologie_sensible | 2 |
 | mythe | 2 |
 | temoignage | 2 |
-| lecture_textuelle | 2 |
+| scene_fondatrice | 2 |
+| contexte_social | 2 |
 | fait | 2 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
@@ -507,7 +589,6 @@ generated_at: "2026-05-13T12:14:34"
 | reception_live | 1 |
 | theorie_performance | 1 |
 | reception_presse | 1 |
-| performance | 1 |
 | scene_detail | 1 |
 | interpretation_sonore | 1 |
 | famille | 1 |
@@ -520,12 +601,13 @@ generated_at: "2026-05-13T12:14:34"
 | cadre_narratif | 1 |
 | sociologie | 1 |
 | citation_clef | 1 |
+| contexte_medical | 1 |
+| reception | 1 |
+| lecture_litteraire | 1 |
 | archive_visuelle | 1 |
-| prudence_methodologique | 1 |
 | reception_comparative | 1 |
 | equipment_file | 1 |
 | citation_repere | 1 |
-| scene_fondatrice | 1 |
 | lieu_institution | 1 |
 | institution | 1 |
 | contexte_transition | 1 |
@@ -534,6 +616,10 @@ generated_at: "2026-05-13T12:14:34"
 | scene_locale | 1 |
 | mediation_culturelle | 1 |
 | fait_interprete | 1 |
+| cadrage_source | 1 |
+| contexte_biographique | 1 |
+| temoignage_biographique | 1 |
+| controverse_historiographique | 1 |
 | témoignage_externe | 1 |
 | fait_biographique | 1 |
 | tension | 1 |
@@ -548,12 +634,22 @@ generated_at: "2026-05-13T12:14:34"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| majeure | 17 |
-| critique | 12 |
+| critique | 26 |
+| majeure | 23 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
+- S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
+- S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
+- S75-A062 [eleve] — la presse contemporaine documente la réception, pas l'état intérieur de Curtis
+- S75-A063 [eleve] — matériau intime, conflictuel et rétrospectif ; exige contextualisation et recoupement
+- S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
+- S75-A065 [eleve] — matériau affectif conflictuel, fortement mythologisé, avec sources mémorielles divergentes
+- S75-A068 [eleve] — sujet suicidaire et mémoriel ; formulation sobre et non dramatisante impérative
+- S75-A071 [eleve] — risque de prendre les motifs de revenance comme croyance ou clé psychologique de Curtis
+- S75-A075 [faible] — l'atome vise précisément à réduire la surinterprétation et la déification
 - S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
 - S75-A010 [eleve] — risque de psychologiser Curtis à partir d'un texte primitif et d'une lecture secondaire
 - S75-A012 [moyen] — scène très suggestive, exposée au risque de psychologisation
@@ -584,6 +680,16 @@ generated_at: "2026-05-13T12:14:34"
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
 - S74-A012 [moyen] — risque de transformer Reilly en pur symbole de sophistication populaire
 - S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
+- S76-A001 [moyen] — proximité affective des auteurs et volonté réparatrice de la source
+- S76-A002 [faible] — l'atome réduit la téléologie morbide plutôt qu'il ne l'alimente
+- S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
+- S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
+- S76-A005 [moyen] — souvenir d'enfance reconstruit quarante ans après les faits
+- S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
+- S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
+- S76-A008 [moyen] — souvenir d'enfance à valeur surtout narrative, non musicale
+- S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire
+- S76-A010 [eleve] — risque de faire de l'incident un signe annonciateur de la mort ou de la maladie
 
 ## 15. Lacunes et prochaines vérifications
 

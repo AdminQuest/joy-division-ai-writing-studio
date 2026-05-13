@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 198 |
+| Atomes | 199 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 9 |
-| Événements chronologiques | 11 |
-| Personnes | 14 |
+| Citations | 10 |
+| Événements chronologiques | 12 |
+| Personnes | 15 |
 | Chansons | 6 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 18 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 5 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 1 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -292,6 +293,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q005** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -306,6 +308,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - CHR-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
 - CHR-1976-001 — Concert des Sex Pistols au Lesser Free Trade Hall de Manchester.
 - CHR-1978-001 — Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.
+- CHR-S76-1968-001 — Autour de douze ans, Ian Curtis organise Treacle Teapot, groupe d’enfance sans véritable équipement mais déjà orienté vers l’idée de scène.
 
 ## 9. Personnes et acteurs
 
@@ -323,6 +326,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - PERS-015 — Steve Brotherdale
 - PERS-003-S75 — Bernard Sumner
 - PERS-004-S75 — Stephen Morris
+- PERS-S76-006 — Pete Johnson
 
 ## 10. Chansons rattachées
 
@@ -553,8 +557,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | fait | 25 |
 | chronologie | 14 |
 | production | 12 |
+| scene_fondatrice | 10 |
 | concert | 9 |
-| scene_fondatrice | 9 |
 | relation | 7 |
 | analyse | 7 |
 | biographie | 7 |
@@ -633,7 +637,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 |---|---|
 | non qualifiée | 155 |
 | critique | 28 |
-| majeure | 11 |
+| majeure | 12 |
 | moyenne | 2 |
 | structurante | 2 |
 
@@ -682,6 +686,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S74-A008 [moyen] — risque de transformer So It Goes en cause unique de la médiatisation punk mancunienne
 - S74-A009 [moyen] — risque de surcharger symboliquement une anecdote devenue rétrospectivement célèbre par la présence de Morrissey
 - S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
+- S76-A008 [moyen] — souvenir d'enfance à valeur surtout narrative, non musicale
 
 ## 15. Lacunes et prochaines vérifications
 

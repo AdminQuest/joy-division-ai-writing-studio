@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-13T12:14:34"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 51 |
-| Atomes critiques / majeurs | 8 |
+| Atomes | 53 |
+| Atomes critiques / majeurs | 10 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
-| Personnes | 1 |
+| Personnes | 2 |
 | Chansons | 0 |
-| Sources mobilisées | 9 |
+| Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ generated_at: "2026-05-13T12:14:34"
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 5 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 2 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -62,6 +63,10 @@ generated_at: "2026-05-13T12:14:34"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
+- **S76-A003** — S76-A003 — Old Trafford, guerre familiale et mémoire populaire comme arrière-plan Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `memoire_familiale_rapportee`.
+- **S76-A004** — S76-A004 — Macclesfield : respectabilité, pauvreté relative et enfance non misérabiliste  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_contextuelle`.
 
 ## 6. Autres atomes utiles
 
@@ -166,6 +171,7 @@ generated_at: "2026-05-13T12:14:34"
 ## 9. Personnes et acteurs
 
 - PERS-003-S75 — Bernard Sumner
+- PERS-S76-003 — Kevin Curtis
 
 ## 10. Chansons rattachées
 
@@ -203,6 +209,7 @@ generated_at: "2026-05-13T12:14:34"
 - Stephen Morris (2)
 - salford (2)
 - géographie biographique (2)
+- mémoire ouvrière (2)
 - post-punk (1)
 - âge d’or (1)
 - présentisme (1)
@@ -252,7 +259,6 @@ generated_at: "2026-05-13T12:14:34"
 - devo (1)
 - cleveland (1)
 - akron (1)
-- industrial grotesque (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -260,6 +266,7 @@ generated_at: "2026-05-13T12:14:34"
 
 - Salford (3)
 - Manchester (2)
+- mémoire ouvrière (2)
 - Londres (1)
 - punk (1)
 - auto-suffisance (1)
@@ -286,7 +293,6 @@ generated_at: "2026-05-13T12:14:34"
 - ruine urbaine (1)
 - reconstruction (1)
 - spectralité urbaine (1)
-- mémoire ouvrière (1)
 - suburbia (1)
 - ascension sociale (1)
 - identité urbaine (1)
@@ -295,6 +301,9 @@ generated_at: "2026-05-13T12:14:34"
 - overspill estate (1)
 - violence sociale (1)
 - réseau local (1)
+- Old Trafford (1)
+- Stamford Street (1)
+- guerre familiale (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -317,6 +326,12 @@ generated_at: "2026-05-13T12:14:34"
 - S74-A006 — illustre → CONCEPT-003
 - S74-A011 — nuance → MYTH-003
 - S74-A011 — complète → S74-A002
+- S76-A003 — prolonge → MOTIF-002
+- S76-A003 — nuance → MYTH-003
+- S76-A003 — requiert → CONCEPT-004
+- S76-A004 — nuance → MYTH-003
+- S76-A004 — prolonge → S75-A057
+- S76-A004 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -330,10 +345,10 @@ generated_at: "2026-05-13T12:14:34"
 | biographie | 4 |
 | contrepoint | 3 |
 | lecture | 3 |
+| contexte_social | 3 |
 | concept | 3 |
 | methode | 2 |
 | chronologie | 2 |
-| contexte_social | 2 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
 | citation_contextualisee | 1 |
@@ -348,6 +363,7 @@ generated_at: "2026-05-13T12:14:34"
 | citation_repere | 1 |
 | biographie_collective | 1 |
 | temoignage | 1 |
+| contexte_biographique | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
@@ -357,7 +373,7 @@ generated_at: "2026-05-13T12:14:34"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 43 |
-| majeure | 5 |
+| majeure | 7 |
 | critique | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -370,6 +386,8 @@ generated_at: "2026-05-13T12:14:34"
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
 - S74-A006 [moyen] — risque de psychologiser Factory à partir de la seule trajectoire sociale de Wilson
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
+- S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
+- S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
 
 ## 15. Lacunes et prochaines vérifications
 

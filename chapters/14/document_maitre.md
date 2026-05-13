@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 480 |
+| Atomes | 498 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 25 |
-| Événements chronologiques | 11 |
-| Personnes | 18 |
-| Chansons | 5 |
-| Sources mobilisées | 11 |
+| Citations | 31 |
+| Événements chronologiques | 15 |
+| Personnes | 24 |
+| Chansons | 8 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
@@ -44,7 +44,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 53 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 21 | 7 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 4 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -309,9 +310,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S75-Q008** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q007** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q021** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
+- CHR-S75-1979-011 — Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire autour d'une lecture de William S. Burroughs ; Ott situe là la relation décisive avec Annik Honoré.
+- CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
+- CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
+- CHR-S75-1980-009 — Ian Curtis se suicide le 18 mai 1980.
 - CHR-1978-005 — Performance de Joy Division au Stiff/Chiswick Challenge à Rafter's, observée par Tony Wilson et Rob Gretton.
 - CHR-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
@@ -344,9 +355,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-013 — Chris Ott
 - PERS-014 — Paul Morley
 - PERS-016 — Bedhead
+- PERS-S76-001 — Lindsay Reade
+- PERS-S76-004 — Carole Curtis
+- PERS-S75-032 — Annik Honoré
+- PERS-S75-034 — Bob Krasnow
+- PERS-S75-036 — Jean-Pierre Turmel
+- PERS-S75-037 — Paul Morley
 
 ## 10. Chansons rattachées
 
+- SONG-S75-029 — Love Will Tear Us Apart
+- SONG-S75-031 — Ceremony
+- SONG-S75-032 — In a Lonely Place
 - Love Will Tear Us Apart
 - Atmosphere
 - Decades
@@ -365,6 +385,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Rob Gretton (16)
 - NME (15)
 - Love Will Tear Us Apart (15)
+- prudence historiographique (15)
 - new order (13)
 - factory records (13)
 - Atmosphere (13)
@@ -414,6 +435,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - imagerie nazie (5)
 - Digital (5)
 - love will tear us apart (5)
+- architecture sonore (5)
 - Peel Sessions (5)
 - Birmingham University (5)
 - culte (5)
@@ -433,17 +455,26 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - 1983 (4)
 - Paul Morley (4)
 - changement de nom (4)
-- Anonymous Records (4)
-- run-out groove (4)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- Factory (5)
 - Gretton (5)
+- Ian Curtis (3)
+- transition (3)
 - Wilson (3)
-- Factory (3)
 - indépendance (3)
+- épilepsie (2)
+- Unknown Pleasures (2)
+- presse musicale (2)
+- Mick Middles (2)
+- deification (2)
+- Plan K (2)
+- America (2)
+- Derby Hall (2)
+- Ceremony (2)
 - suicide (2)
 - canonisation (2)
 - Sex Pistols (2)
@@ -463,26 +494,57 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - contrôle (2)
 - télévision régionale (2)
 - Factory Club (2)
-- transition (2)
 - silence (2)
 - pochette (2)
-- reprise (1)
-- postérité (1)
-- austérité (1)
-- internalisation (1)
-- ombre portée (1)
-- mystification (1)
-- perspective (1)
-- journalisme marginal (1)
-- critique du mythe (1)
-- réception posthume (1)
-- notoriété tardive (1)
-- Free Trade Hall (1)
-- mythe fondateur (1)
-- inflation mémorielle (1)
+- Bowie (1)
+- Jim Morrison (1)
+- mort jeune (1)
+- romantisme rock (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S75-A057 — requiert → CONCEPT-004
+- S75-A057 — nuance → MYTH-002
+- S75-A057 — prolonge → S75-A044
+- S75-A058 — requiert → CONCEPT-004
+- S75-A058 — nuance → MYTH-002
+- S75-A058 — prolonge → S75-A047
+- S75-A061 — nuance → MYTH-005
+- S75-A061 — prolonge → S75-A036
+- S75-A061 — prolonge → S75-A038
+- S75-A062 — prolonge → S75-A058
+- S75-A062 — requiert → CONCEPT-004
+- S75-A062 — nuance → MYTH-002
+- S75-A064 — requiert → CONCEPT-004
+- S75-A064 — nuance → MYTH-002
+- S75-A064 — prolonge → S75-A057
+- S75-A065 — requiert → CONCEPT-004
+- S75-A065 — nuance → MYTH-002
+- S75-A065 — prolonge → S75-A063
+- S75-A066 — prolonge → S75-A033
+- S75-A066 — nuance → MYTH-003
+- S75-A066 — prépare → S75-A073
+- S75-A067 — nuance → MYTH-005
+- S75-A067 — prolonge → S75-A061
+- S75-A067 — prépare → S75-A074
+- S75-A068 — requiert → CONCEPT-004
+- S75-A068 — nuance → MYTH-002
+- S75-A068 — prépare → S75-A075
+- S75-A069 — prolonge → CONCEPT-006
+- S75-A069 — prolonge → MOTIF-001
+- S75-A069 — prolonge → S70-A021
+- S75-A072 — requiert → CONCEPT-004
+- S75-A072 — prolonge → CONCEPT-006
+- S75-A072 — nuance → MYTH-002
+- S75-A073 — prolonge → S75-A068
+- S75-A073 — requiert → CONCEPT-004
+- S75-A073 — nuance → MYTH-005
+- S75-A074 — prolonge → MOTIF-001
+- S75-A074 — requiert → CONCEPT-004
+- S75-A074 — nuance → MYTH-002
+- S75-A075 — prolonge → CONCEPT-004
+- S75-A075 — deconstruit → MYTH-002
+- S75-A075 — conclut → S75-A068
 - S75-A001 — prolonge → MOTIF-heritage
 - S75-A001 — nuance → MYTH-culte_sombre
 - S75-A002 — nuance → MYTH-joy_division_mystique
@@ -521,48 +583,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A036 — prolonge → CONCEPT-004
 - S75-A037 — nuance → MYTH-005
 - S75-A037 — prolonge → S75-A036
-- S75-A037 — prolonge → CONCEPT-004
-- S75-A038 — prolonge → MYTH-005
-- S75-A038 — prolonge → CONCEPT-007
-- S75-A038 — prolonge → S75-A036
-- S75-A042 — nuance → CONCEPT-006
-- S75-A042 — nuance → MYTH-004
-- S75-A042 — prolonge → S75-A039
-- S75-A044 — requiert → CONCEPT-004
-- S75-A044 — nuance → MYTH-002
-- S75-A044 — prolonge → S75-A041
-- S75-A050 — prolonge → MOTIF-004
-- S75-A050 — prolonge → CONCEPT-005
-- S75-A050 — prépare → S75-A053
-- S75-A054 — prolonge → MOTIF-004
-- S75-A054 — illustre → CONCEPT-005
-- S75-A054 — nuance → MYTH-006
-- S75-A055 — requiert → CONCEPT-004
-- S75-A055 — prolonge → MOTIF-006
-- S75-A055 — nuance → MYTH-006
-- S74-A024 — nuance → MYTH-002
-- S74-A024 — prolonge → S74-A017
-- S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
-- S74-A026 — nuance → MYTH-005
-- S74-A026 — prolonge → S74-A017
-- S74-A026 — annonce → S74-A030
-- S74-A027 — prolonge → S74-A005
-- S74-A027 — complète → S74-A026
-- S74-A027 — annonce → S74-A031
-- S74-A030 — prolonge → S74-A018
-- S74-A030 — annonce → S74-A031
-- S74-A030 — complète → S74-A001
-- S74-A031 — prolonge → S74-A007
-- S74-A031 — complète → S74-A030
-- S74-A031 — annonce → CONCEPT_FACTORY_VISUAL_IDENTITY
-- S74-A032 — prolonge → S74-A001
-- S74-A032 — complète → S74-A031
-- S74-A032 — annonce → S74-A033
-- S74-A034 — nuance → MYTH-004
-- S74-A034 — complète → S74-A033
-- S74-A034 — prolonge → S74-A010
-- S74-A035 — prolonge → S74-A023
-- S74-A035 — annonce → S74-A036
 
 ## 13. Distribution documentaire
 
@@ -571,29 +591,30 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Type | Nombre |
 |---|---|
 | analyse | 34 |
-| reception | 27 |
+| reception | 28 |
 | non qualifié | 13 |
 | memoire | 12 |
 | discographie | 10 |
 | reception_poll | 10 |
+| objet_discographique | 9 |
 | archive | 9 |
 | production | 8 |
 | contrepoint | 8 |
 | synthese | 8 |
-| objet_discographique | 8 |
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
 | fait | 7 |
 | reception_critique | 6 |
+| scene_fondatrice | 6 |
 | lecture | 6 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
 | citation_repere | 5 |
 | management | 4 |
 | projet_avorte | 4 |
+| fait_interprete | 4 |
 | mythe | 4 |
-| scene_fondatrice | 4 |
 | controverse | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
@@ -608,7 +629,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | intertextualite | 3 |
 | chanson_transition | 3 |
 | design | 3 |
-| fait_interprete | 3 |
+| prudence_methodologique | 3 |
 | session_radio | 3 |
 | concept | 3 |
 | decision_strategique | 3 |
@@ -630,6 +651,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | réception | 2 |
 | positionnement | 2 |
 | mémoire | 2 |
+| lecture_biographique | 2 |
 | outtakes | 2 |
 | reception_radio | 2 |
 | collection | 2 |
@@ -692,10 +714,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | archive_vivante | 1 |
 | videographie | 1 |
 | bibliographie | 1 |
+| performance | 1 |
+| lecture_litteraire | 1 |
+| controverse_biographique | 1 |
+| controverse_institutionnelle | 1 |
+| chronologie_sensible | 1 |
+| session | 1 |
+| lecture_discographique | 1 |
 | lecture_musicale | 1 |
 | archive_visuelle | 1 |
 | mythe_institutionnel | 1 |
-| prudence_methodologique | 1 |
 | chronology | 1 |
 | objet_visuel | 1 |
 | bootleg_culture | 1 |
@@ -768,6 +796,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | session_transition | 1 |
 | temoignage | 1 |
 | analyse_studio | 1 |
+| cadrage_source | 1 |
+| controverse_historiographique | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -792,13 +822,27 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 421 |
-| critique | 36 |
-| majeure | 19 |
+| critique | 51 |
+| majeure | 22 |
 | structurante | 2 |
 | moyenne | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
+- S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
+- S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
+- S75-A062 [eleve] — la presse contemporaine documente la réception, pas l'état intérieur de Curtis
+- S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
+- S75-A065 [eleve] — matériau affectif conflictuel, fortement mythologisé, avec sources mémorielles divergentes
+- S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
+- S75-A067 [moyen] — détails d'offre à recouper avec sources Factory, Warner et témoignages des acteurs
+- S75-A068 [eleve] — sujet suicidaire et mémoriel ; formulation sobre et non dramatisante impérative
+- S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
+- S75-A072 [eleve] — la tentation de lire *Closer* comme testament total est très forte ; Ott invite à réintroduire le présent des acteurs
+- S75-A073 [eleve] — épisode spectaculaire, exposé au sensationnalisme ; le traiter comme symptôme d'une impasse collective
+- S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
+- S75-A075 [faible] — l'atome vise précisément à réduire la surinterprétation et la déification
 - S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
 - S75-A002 [faible] — l'auteur formule explicitement son propre positionnement critique
 - S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
@@ -845,19 +889,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S74-A057 [moyen] — risque de transformer un lieu précis en symbole total d’un changement national
 - S74-A058 [moyen] — risque d’opposer trop simplement obscurité Joy Division et lumière New Order
 - S74-A059 [faible] — interprétation cohérente avec la trajectoire ultérieure du groupe
-- S74-A060 [eleve] — risque symétrique de disculpation naïve ou d’accusation intentionnaliste
-- S74-A061 [moyen] — risque de réduire Movement à un échec alors qu’il est aussi un laboratoire de transition
-- S74-A018 [moyen] — risque de substituer un mythe Electric Circus au mythe Lesser Free Trade Hall
-- S74-A019 [moyen] — risque de transformer une rencontre en causalité unique de l’entrée en scène de Curtis
-- S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
-- S74-A001 [moyen] — risque de romantisation de l’échec économique Factory comme geste esthétique pur
-- S74-A004 [eleve] — risque de transformer un événement déclencheur en origine absolue et nécessaire
-- S74-A005 [faible] — source proche du témoin, mais portrait fortement stylisé par Middles
-- S74-A007 [moyen] — risque de téléologie biographique reliant trop directement les goûts adolescents à la politique esthétique de Factory
-- S74-A008 [moyen] — risque de transformer So It Goes en cause unique de la médiatisation punk mancunienne
-- S74-A009 [moyen] — risque de surcharger symboliquement une anecdote devenue rétrospectivement célèbre par la présence de Morrissey
-- S74-A012 [moyen] — risque de transformer Reilly en pur symbole de sophistication populaire
-- S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
 
 ## 15. Lacunes et prochaines vérifications
 

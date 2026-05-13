@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 193 |
-| Atomes critiques / majeurs | 25 |
-| Citations | 10 |
+| Atomes | 194 |
+| Atomes critiques / majeurs | 26 |
+| Citations | 12 |
 | Événements chronologiques | 5 |
-| Personnes | 12 |
+| Personnes | 14 |
 | Chansons | 4 |
-| Sources mobilisées | 9 |
+| Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 1 | 2 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -84,6 +85,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A055** — S75-A055 — Pochette CP 1919 et incertitude d'origine : l'icône comme objet mal stabilisé  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_visuel` ; importance : `critique` ; preuve : `fait_et_reconstruction_memorielle`.
+- **S76-A006** — S76-A006 — Chevalerie, histoire et correction du soupçon nazi  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_historiographique` ; importance : `critique` ; preuve : `memoire_familiale_et_temoignage_ami`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A038** — S74-A038 — Strawberry Studios : Unknown Pleasures comme investissement disproportionné  
@@ -272,6 +275,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S41-Q005** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « the best recordings we had made so far »
 - **S41-Q006** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "stabilisee"}` — « Burnel for the sound, Simonon for the pose »
 - **S41-Q007** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "a_reverifier", "pagination_papier": "a_completer", "pagination_pdf": "a_reverifier", "traduction": "a_stabiliser"}` — « it didn't sound like us »
+- **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q004** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -295,6 +300,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-009 — Peter Saville
 - PERS-012 — John Brierley
 - PERS-S75-023 — Kevin Cummins
+- PERS-S76-004 — Carole Curtis
+- PERS-S75-036 — Jean-Pierre Turmel
 
 ## 10. Chansons rattachées
 
@@ -505,6 +512,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A021 — complète → S74-A019
 - S74-A010 — nuance → MYTH-004
 - S74-A010 — illustre → S74-A011
+- S76-A006 — deconstruit → MYTH-006
+- S76-A006 — requiert → CONCEPT-004
+- S76-A006 — prépare → S76-A011
 
 ## 13. Distribution documentaire
 
@@ -603,6 +613,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | temoignage_affectif | 1 |
 | reception_posthume | 1 |
 | biographie | 1 |
+| controverse_historiographique | 1 |
 | contexte_historique | 1 |
 | contexte_materiel | 1 |
 | chronologie | 1 |
@@ -623,7 +634,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 168 |
-| critique | 19 |
+| critique | 20 |
 | majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -653,6 +664,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
 - S74-A021 [eleve] — risque de projeter rétrospectivement Joy Division sur un groupe encore instable et embryonnaire
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
+- S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
 
 ## 15. Lacunes et prochaines vérifications
 

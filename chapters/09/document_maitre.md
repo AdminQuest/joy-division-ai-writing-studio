@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T12:14:34"
+generated_at: "2026-05-13T13:52:24"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-13T12:14:34"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 167 |
-| Atomes critiques / majeurs | 0 |
+| Atomes | 168 |
+| Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
-| Chansons | 1 |
-| Sources mobilisées | 9 |
+| Chansons | 3 |
+| Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
 
@@ -43,10 +43,12 @@ generated_at: "2026-05-13T12:14:34"
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 11 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 1 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
-- Aucun atome critique ou majeur n’est encore qualifié.
+- **S75-A074** — S75-A074 — « Ceremony », « In a Lonely Place » et les chansons-ponts vers New Order  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
 
 ## 6. Autres atomes utiles
 
@@ -230,6 +232,8 @@ generated_at: "2026-05-13T12:14:34"
 
 ## 10. Chansons rattachées
 
+- SONG-S75-031 — Ceremony
+- SONG-S75-032 — In a Lonely Place
 - Transmission
 
 ## 11. Concepts récurrents
@@ -319,11 +323,17 @@ generated_at: "2026-05-13T12:14:34"
 
 ### 12.1. Motifs dominants
 
-- Aucun motif rattaché.
+- Ceremony (1)
+- In a Lonely Place (1)
+- New Order (1)
+- absence (1)
+- transition (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
-- Aucune relation déclarée.
+- S75-A074 — prolonge → MOTIF-001
+- S75-A074 — requiert → CONCEPT-004
+- S75-A074 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -383,6 +393,7 @@ generated_at: "2026-05-13T12:14:34"
 | concert_international | 1 |
 | sociologie_scene | 1 |
 | réception_scene | 1 |
+| lecture_discographique | 1 |
 | live_strategy | 1 |
 | bootleg_culture | 1 |
 | tournee | 1 |
@@ -414,10 +425,11 @@ generated_at: "2026-05-13T12:14:34"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 167 |
+| critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
-- Aucun risque explicite n’est encore qualifié.
+- S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
 
 ## 15. Lacunes et prochaines vérifications
 
