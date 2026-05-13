@@ -270,3 +270,48 @@ atomes_lies:
   - S76-A063
   - S76-A064
 ```
+
+---
+
+# MOTIF-008 — monochrome Factory
+
+```yaml
+id: MOTIF-008
+
+nom: monochrome Factory
+
+definition: >
+  Motif visuel, critique et institutionnel désignant la montée d'une esthétique grise,
+  noire, blanche et industrielle autour de Factory, Joy Division, la photographie post-punk,
+  les manteaux de seconde main, les affiches et les objets graphiques.
+
+formes:
+  - mariage en monochrome
+  - gris post-punk
+  - overcoats de seconde main
+  - photographie noir et blanc
+  - affiches Saville
+  - objet Factory
+  - Hulme et architecture bétonnée
+
+chapitres:
+  - Chapitre 6
+  - Chapitre 10
+  - Chapitre 13
+  - Chapitre 14
+
+concepts_associes:
+  - CONCEPT-008
+  - CONCEPT-003
+
+risques:
+  - esthétisation excessive du déclin urbain
+  - confusion entre choix graphique, climat social et mythe rétrospectif
+  - réduction de Factory à une palette visuelle
+
+atomes_lies:
+  - S76-A072
+  - S76-A075
+  - S76-A077
+  - S76-A080
+```
