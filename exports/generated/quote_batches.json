@@ -1,0 +1,25 @@
+[
+  {
+    "kind": "quote_batch",
+    "id": "HIST-C1-IMPORT-001",
+    "file": "registers/quotes/master_quotes.md",
+    "heading": "1. Import des citations historiques",
+    "data": {
+      "id": "HIST-C1-IMPORT-001",
+      "lot": "citations_historiques_chapitre_1",
+      "source_file": "00_Citations.xlsx",
+      "source_origin": [
+        "registre historique",
+        "fichier de travail utilisateur"
+      ],
+      "sheet": "Chapitre 1 - Citations",
+      "range": "A1:L71",
+      "rows_imported": 70,
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut_consolidation": "imported_batch",
+      "arbitrage": "Les 70 lignes du fichier historique 00_Citations.xlsx sont importées comme lot de consolidation. Elles ne sont pas automatiquement supérieures aux citations atomisées. Les entrées marquées comme concepts, titres, paraphrases ou formulations analytiques doivent rester hors citation directe. Les identifiants historiques S20, S35 et S37 sont à lire comme legacy_id pointant respectivement vers S72, S41 et S45."
+    }
+  }
+]
