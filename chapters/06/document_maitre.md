@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:20:23"
+generated_at: "2026-05-13T18:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 261 |
+| Atomes | 264 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 53 |
-| Événements chronologiques | 36 |
+| Citations | 54 |
+| Événements chronologiques | 37 |
 | Personnes | 37 |
 | Chansons | 17 |
 | Sources mobilisées | 10 |
@@ -43,7 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 88 | 42 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 91 | 43 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -307,6 +307,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q068** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q069** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q074** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q176** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -322,7 +323,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -336,6 +336,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
+- CHR-S76-1980-027 — Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».
 - CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
 - CHR-S76-1978-014 — Lors de la troisième soirée Factory, Rob Gretton et Tony Wilson invitent Mick Middles à couvrir Cabaret Voltaire et Durutti Column pour *Sounds*. La presse londonienne commence à lire Manchester, Sheffield et les villes du Nord comme un espace post-punk émergent.
 - CHR-S76-1978-015 — Roger Eagle appelle Tony Wilson pour proposer la formation d’un label réunissant les talents émergents de Manchester et Liverpool. Le projet envisagé repose sur un disque de lancement partagé entre les deux villes, avant d’échouer sur un désaccord de format.
@@ -643,10 +644,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | production | 10 |
 | non qualifié | 8 |
 | session_studio | 8 |
+| song | 8 |
 | lecture_musicale | 7 |
 | index_chanson | 7 |
 | lecture_chanson | 7 |
-| song | 7 |
 | concert | 6 |
 | session | 6 |
 | biographie | 5 |
@@ -685,6 +686,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | concept_management | 2 |
 | chronologie_live | 2 |
 | analyse_morceau | 2 |
+| live_set_context | 2 |
 | song_session | 2 |
 | album | 2 |
 | song_or_cover | 2 |
@@ -759,6 +761,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_interne | 1 |
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
+| dernier_concert | 1 |
 | concert_europeen | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
@@ -772,7 +775,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | transition | 1 |
 | concept_transversal | 1 |
 | management | 1 |
-| live_set_context | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
 | song_pair | 1 |
@@ -783,8 +785,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 144 |
-| critique | 93 |
+| non qualifiée | 146 |
+| critique | 94 |
 | majeure | 24 |
 
 ## 14. Risques de surinterprétation et points de vigilance

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:20:23"
+generated_at: "2026-05-13T18:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 171 |
+| Atomes | 187 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 64 |
-| Événements chronologiques | 48 |
-| Personnes | 30 |
+| Citations | 77 |
+| Événements chronologiques | 56 |
+| Personnes | 35 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
 
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 87 | 50 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 103 | 63 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -314,13 +314,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q170** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q171** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q138** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q143** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q144** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q145** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q146** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q172** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q173** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q174** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q175** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q177** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q178** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q179** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -346,6 +346,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S76-1980-002 — Joy Division enregistre aux Pennine Sound Studios une première version de « Love Will Tear Us Apart », avec « These Days » et « The Sound of Music ». La session précède la version canonique ultérieure et documente un état encore insatisfaisant de la chanson.
 - CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
 - CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
+- CHR-S76-1980-026 — Ian Curtis descend à Londres pour une Factory night au Scala, où jouent notamment A Certain Ratio, The Durutti Column, Blurt et Section 25. Annik Honoré décrit cette nuit comme la dernière fois où elle voit Ian vivant.
+- CHR-S76-1980-027 — Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».
+- CHR-S76-1980-028 — Annik Honoré rapporte avoir appelé Ian Curtis trois fois depuis la Belgique ou dans le contexte de Plan K : mercredi soir, vendredi matin et samedi 17 mai à 21 h. Les conversations portent sur le divorce, l’Amérique, les vacances possibles et la difficulté de se revoir avant le départ.
+- CHR-S76-1980-029 — Selon Doreen Curtis, Ian reçoit une lettre d’avocat relative au divorce. Il part ensuite pour Macclesfield / Barton Street afin de régler des choses et dire au revoir à Natalie avant la tournée américaine.
+- CHR-S76-1980-030 — Ian Curtis passe sa dernière nuit à Barton Street. Deborah vient brièvement après son travail, la discussion sur l’avenir du couple ne conclut pas, et Ian reste seul avec le projet de regarder un film de Herzog.
+- CHR-S76-1980-031 — Deborah Curtis découvre le corps de Ian Curtis à Barton Street en fin de matinée. Le voisin Kevin Wood intervient, coupe la corde et appelle police et ambulance.
+- CHR-S76-1980-032 — Annik Honoré, de retour de Belgique vers l’Angleterre, apprend la mort de Ian Curtis par Kevin Curtis puis par Rob Gretton.
+- CHR-S76-1980-033 — Ian Curtis est crémé. Factory organise un wake séparé à Palatine Road, où est projeté *The Great Rock’n’Roll Swindle* ; Lindsay Reade retient la formule « No one is innocent » comme condensation du sentiment de culpabilité.
 - CHR-S76-1978-019 — Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.
 - CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
 - CHR-S76-1979-005 — Après l’association des crises de Curtis avec les concerts et les lumières de scène, le groupe décide d’abandonner les stroboscopes.
@@ -356,14 +364,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - CHR-S76-1980-008 — Joy Division retourne à Strawberry Studios pour enregistrer une version 12 pouces de « She’s Lost Control », destinée au marché américain. Curtis écrit à Annik que la session se termine vers neuf heures du matin et qu’il a dû écrire un nouveau vers en studio.
 - CHR-S76-1980-009 — Ian Curtis écrit à Annik Honoré après la session Strawberry. La lettre articule fatigue, amour, confusion domestique, impression de destination inconnue et dilemme entre foyer, obligations et relation amoureuse.
 - CHR-S76-1980-011 — Joy Division joue au Lyceum de Londres. Curtis subit une crise grand mal qui commence sur scène ; Terry Mason et Tony Wilson le retirent vers les escaliers du théâtre.
-- CHR-S76-1980-012 — Joy Division joue au Trinity Hall de Bristol. Curtis subit de nouveau une crise vers la fin du set. Annik Honoré conserve la setlist et note l’épisode.
-- CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
-- CHR-S76-1980-014 — Ian Curtis écrit à Annik Honoré une lettre détaillant sa peur de l’aggravation de l’épilepsie, les examens médicaux, la localisation dans le lobe temporal gauche, l’absence de cause évidente et le souvenir du David Lewis Centre.
-- CHR-S76-1980-015 — Pendant que Curtis s’apprête à partir enregistrer *Closer* à Londres, Deborah Curtis et ses parents trouvent un nouveau foyer pour Candy, le chien de Ian. L’épisode marque la matérialisation domestique de la crise conjugale.
-- CHR-S76-1980-016 — Joy Division et Martin Hannett commencent l’enregistrement de *Closer* à Britannia Row Studios, Islington, rompant avec l’habitude d’enregistrer dans ou autour de Manchester.
-- CHR-S76-1980-017 — Factory loue deux appartements à York Street, près de Baker Street, pour loger le groupe et Rob Gretton pendant les sessions londoniennes de *Closer*.
-- CHR-S76-1980-018 — Les sessions principales de *Closer* à Britannia Row s’achèvent vers la fin mars 1980. S76 souligne que le groupe doit immédiatement rester à Londres pour quatre concerts en trois jours au début d’avril.
-- CHR-S76-1980-019 — La pochette de *Closer* est élaborée autour d’une photographie de Bernard Pierre Wolff prise au cimetière de Staglieno, avec Martyn Atkins et Peter Saville. La signification funéraire de l’objet sera amplifiée après la mort de Curtis.
 
 ## 9. Personnes et acteurs
 
@@ -375,6 +375,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-055 — Dr David Holmes
 - PERS-S76-070 — Annik Honoré
 - PERS-S76-072 — Martin Hannett
+- PERS-S76-084 — Kevin Wood
+- PERS-S76-085 — Pam Wood
+- PERS-S76-086 — Genesis P-Orridge
+- PERS-S76-087 — Carole Curtis
+- PERS-S76-088 — Vini Reilly
 - PERS-S76-080 — Alan Hempsall
 - PERS-S76-081 — Simon Topping
 - PERS-S76-082 — Perry Boys
@@ -494,17 +499,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
-- Annik Honoré (12)
+- Annik Honoré (17)
 - fatigue (12)
+- Deborah Curtis (10)
 - épilepsie (9)
-- Deborah Curtis (8)
 - Ian Curtis (7)
 - Closer (7)
-- Natalie Curtis (6)
-- Tony Wilson (5)
+- Natalie Curtis (7)
+- Tony Wilson (6)
+- Barton Street (5)
+- Rob Gretton (5)
 - She’s Lost Control (4)
 - Love Will Tear Us Apart (4)
-- Rob Gretton (4)
 - Derby Hall (3)
 - Britannia Row (3)
 - crise épileptique (3)
@@ -513,9 +519,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Unknown Pleasures (3)
 - Mark Reeder (3)
 - mariage (3)
+- tournée américaine (3)
+- mort jeune (2)
+- Jon Savage (2)
 - Mick Middles (2)
 - domesticité (2)
 - responsabilité (2)
+- Plan K (2)
+- culpabilité (2)
 - Alan Hempsall (2)
 - Macclesfield (2)
 - Hope & Anchor (2)
@@ -524,16 +535,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - New Dawn Fades (2)
 - I Remember Nothing (2)
 - Strawberry Studios (2)
+- Carole Curtis (2)
 - synthétiseur (2)
 - Martin Hannett (2)
 - Lindsay Reade (2)
-- Barton Street (2)
-- médicaments (2)
-- Belgique (2)
-- York Street (2)
-- procession (2)
-- postérité (2)
-- Debbie Curtis (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -628,6 +633,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | session_studio | 5 |
 | song | 5 |
 | non qualifié | 4 |
+| live_set_context | 4 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
@@ -635,7 +641,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_medicale_live | 3 |
 | tension_biographique | 3 |
 | song_session | 3 |
-| live_set_context | 3 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
 | santé | 2 |
@@ -645,12 +650,15 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | biographie | 2 |
 | lecture_textuelle | 2 |
 | session_album | 2 |
+| dernier_concert | 2 |
 | reception_poll | 2 |
 | idee_directrice | 2 |
+| lettre_intime | 2 |
 | tension_domestique | 2 |
 | lecture_album | 2 |
 | scene_medicale | 2 |
 | contexte_intime | 2 |
+| scene_intime | 2 |
 | bascule_tournee | 2 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
@@ -684,7 +692,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_album | 1 |
 | concert_sequence | 1 |
 | concert_incident | 1 |
-| dernier_concert | 1 |
 | biographie_finale | 1 |
 | reception_deces | 1 |
 | reception_radio | 1 |
@@ -702,7 +709,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_historique | 1 |
 | lecture | 1 |
 | tension_synthese | 1 |
-| lettre_intime | 1 |
 | tournee_fatigue | 1 |
 | lettre_medicale | 1 |
 | controverse_intime_medicale | 1 |
@@ -724,7 +730,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | temoignages_medicaux | 1 |
 | controverse_medicale | 1 |
 | bascule_live | 1 |
-| scene_intime | 1 |
 | scene_intime_europeenne | 1 |
 | micro_scene_relationnelle | 1 |
 | concert_fatigue | 1 |
@@ -734,6 +739,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | hospitalisation | 1 |
 | synthese_interpretative | 1 |
 | contraste_biographique | 1 |
+| lettre_absente | 1 |
+| scene_telephonique | 1 |
+| scene_juridico_domestique | 1 |
+| alerte_memorielle | 1 |
+| derniere_nuit | 1 |
+| scene_deces | 1 |
+| scene_deuil | 1 |
+| memoire_endeuillée | 1 |
+| scene_deuil_mythographique | 1 |
+| scene_deuil_collectif | 1 |
 | scene_de_transition | 1 |
 | contexte_biographique | 1 |
 | concert_archive | 1 |
@@ -745,15 +760,17 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | release_design | 1 |
 | release_or_session | 1 |
 | live_sequence | 1 |
+| media_context | 1 |
+| film_context | 1 |
 | live_set_bootleg_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 82 |
-| critique | 72 |
-| majeure | 17 |
+| non qualifiée | 85 |
+| critique | 82 |
+| majeure | 20 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

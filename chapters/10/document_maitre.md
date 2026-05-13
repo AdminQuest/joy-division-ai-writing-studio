@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:20:23"
+generated_at: "2026-05-13T18:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 79 |
-| Atomes critiques / majeurs | 19 |
-| Citations | 17 |
+| Atomes | 80 |
+| Atomes critiques / majeurs | 20 |
+| Citations | 18 |
 | Événements chronologiques | 7 |
-| Personnes | 16 |
+| Personnes | 17 |
 | Chansons | 6 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 23 | 15 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 24 | 16 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -81,6 +81,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `reconstruction_S76_a_recouper_avec_sources_Sordide`.
 - **S76-A162** — S76-A162 — *Closer* comme objet funéraire non intentionnel : Staglieno, Saville, Atkins, Wolff  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_visuel` ; importance : `critique` ; preuve : `reconstruction_S76_design_et_reception`.
+- **S76-A187** — S76-A187 — Chapel of Rest : Annik, Wilson, Lindsay et la première fabrication du mythe  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_deuil_mythographique` ; importance : `critique` ; preuve : `temoignages_Lindsay_Annik_Morley_et_reconstruction_S76`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S76-A114** — S76-A114 — Stuff the Superstars : succès scénique, critique de la gravité et réalité triviale  
@@ -218,6 +220,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q131** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S76-Q185** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q098** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -250,6 +253,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S76-047 — Alan Wise
 - PERS-S76-049 — Peter Saville
 - PERS-S76-050 — Tony Wilson
+- PERS-S76-089 — Paul Morley
 - PERS-016 — Bedhead
 - PERS-S76-066 — Jean-Pierre Turmel
 - PERS-S76-078 — Martyn Atkins
@@ -363,6 +367,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Factory Records (2)
 - monochrome (2)
 - The Factory Sample (2)
+- Tony Wilson (2)
 - Martin Hannett (2)
 - reprise (1)
 - postérité (1)
@@ -393,7 +398,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Martin O’Neill (1)
 - photographie (1)
 - flock wallpaper (1)
-- Curtis dancing (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -454,6 +458,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S76-A129 — relie → CONCEPT-008
 - S76-A129 — relie → MOTIF-004
 - S76-A129 — nuance → MYTH-005
+- S76-A187 — relie → MYTH-002
+- S76-A187 — prolonge → S76-A185
+- S76-A187 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -501,6 +508,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | triade_institutionnelle | 1 |
 | session_studio | 1 |
 | lieu_iconographique | 1 |
+| scene_deuil_mythographique | 1 |
 | fait_biographique | 1 |
 | album | 1 |
 | album_reception_object | 1 |
@@ -514,7 +522,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| critique | 17 |
+| critique | 18 |
 | majeure | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -538,6 +546,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S76-A082 [moyen] — éviter d’en faire déjà la forme achevée de *Unknown Pleasures* ; c’est un seuil, non un aboutissement
 - S76-A084 [moyen] — le lieu est très mythifiable ; il faut distinguer fonction pratique et iconisation postérieure
 - S76-A129 [moyen] — l’objet est fortement fétichisable ; le traiter comme dispositif culturel, non comme relique
+- S76-A187 [eleve] — risque de procès contre Wilson ou Morley ; analyser la fonction de mise en récit
 
 ## 15. Lacunes et prochaines vérifications
 

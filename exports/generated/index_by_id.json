@@ -50843,6 +50843,1074 @@
       "source_year": "2006"
     }
   },
+  "S76-A175": {
+    "kind": "atom",
+    "id": "S76-A175",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A175 — Dernière lettre à Annik : futur rêvé, Amérique redoutée et demande de décision",
+    "data": {
+      "id": "S76-A175",
+      "type_unite": "lettre_intime",
+      "source_id": "S76",
+      "titre": "Dernière lettre à Annik : futur rêvé, Amérique redoutée et demande de décision",
+      "pages": {
+        "pdf": [
+          314
+        ]
+      },
+      "resume": "S76 reproduit un passage de lettre où Curtis demande à Annik de réfléchir pendant son absence à ce qu’elle veut faire pour l’avenir. L’Amérique apparaît comme séparation, épreuve professionnelle et suspension intime. Le texte combine amour, solitude, doute sur sa raison et affirmation d’un lien unique. L’usage doit rester strict : lettre d’un homme en crise, non prophétie de sa mort.\n",
+      "role_argumentatif": [
+        "documenter le dernier état intime de Curtis avant la tournée américaine prévue",
+        "relier amour, peur de l’éloignement, doute et décision future",
+        "empêcher la conversion de la lettre en testament"
+      ],
+      "niveau_preuve": {
+        "statut": "lettre_Ian_a_Annik_reproduite_par_S76",
+        "corroboration": "forte_comme_document; moyenne_comme_interpretation",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_document_intime"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "risque de lire chaque formule comme annonce de la mort ; maintenir l’état daté du document"
+      },
+      "motifs": [
+        "Annik Honoré",
+        "tournée américaine",
+        "solitude",
+        "avenir",
+        "doute de la raison"
+      ],
+      "concepts_derives": [
+        "futur suspendu",
+        "lettre non testamentaire"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A173"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ],
+      "couche_narrative": [
+        "lettre",
+        "intime",
+        "anti_teleologie"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A176": {
+    "kind": "atom",
+    "id": "S76-A176",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A176 — Scala, 25 avril 1980 : dernier adieu à Annik dans une nuit Factory",
+    "data": {
+      "id": "S76-A176",
+      "type_unite": "scene_intime",
+      "source_id": "S76",
+      "titre": "Scala, 25 avril 1980 : dernier adieu à Annik dans une nuit Factory",
+      "pages": {
+        "pdf": [
+          314,
+          315
+        ]
+      },
+      "resume": "S76 rapporte la lettre d’Annik à Carole décrivant la dernière nuit passée avec Curtis : Factory night au Scala, A Certain Ratio, Durutti Column, Blurt, Section 25, fatigue, départ à l’aube pour la gare, adieu précipité. La scène est bouleversante mais très dangereuse : elle est écrite après la mort et tend naturellement vers la scène d’adieu final.\n",
+      "role_argumentatif": [
+        "stabiliser le dernier moment documenté entre Annik et Curtis",
+        "replacer l’intime dans le contexte Factory et concert",
+        "éviter la sentimentalisation téléologique de la scène"
+      ],
+      "niveau_preuve": {
+        "statut": "lettre_Annik_a_Carole_et_reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_memoire_situee"
+      },
+      "stabilite": {
+        "statut": "stable_comme_memoire_intime"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "scène écrite comme dernier adieu ; risque maximal de roman sentimental et de présage"
+      },
+      "motifs": [
+        "Scala Cinema",
+        "Annik Honoré",
+        "A Certain Ratio",
+        "Durutti Column",
+        "Section 25",
+        "adieu"
+      ],
+      "concepts_derives": [
+        "scène d’adieu rétrospective",
+        "intime Factory"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A175"
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-008"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        }
+      ],
+      "couche_narrative": [
+        "intime",
+        "Factory",
+        "memoire"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A177": {
+    "kind": "atom",
+    "id": "S76-A177",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A177 — Birmingham, 2 mai 1980 : dernier concert et « Ceremony » sans titre",
+    "data": {
+      "id": "S76-A177",
+      "type_unite": "dernier_concert",
+      "source_id": "S76",
+      "titre": "Birmingham, 2 mai 1980 : dernier concert et « Ceremony » sans titre",
+      "pages": {
+        "pdf": [
+          315,
+          316
+        ]
+      },
+      "resume": "S76 décrit le concert de Birmingham University comme le dernier concert de Joy Division. Le set s’ouvre sur un morceau nouveau encore noté « NEW ONE », qui deviendra « Ceremony ». Le concert associe confiance créative, répertoire post-Closer et ignorance du caractère terminal de l’événement. Cette ignorance est méthodologiquement décisive : le dernier concert ne doit pas être écrit comme s’il savait qu’il était dernier.\n",
+      "role_argumentatif": [
+        "stabiliser le dernier concert de Joy Division",
+        "documenter « Ceremony » comme morceau post-Closer encore sans titre",
+        "empêcher la téléologie du « dernier set »"
+      ],
+      "niveau_preuve": {
+        "statut": "concert_corroborable_et_reconstruction_S76",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "l’événement est terminal seulement rétrospectivement ; le set doit rester un acte de création vivant"
+      },
+      "motifs": [
+        "Birmingham University",
+        "Ceremony",
+        "New One",
+        "dernier concert",
+        "Decades"
+      ],
+      "concepts_derives": [
+        "dernier concert non conscient",
+        "post-Closer vivant"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A174"
+        },
+        {
+          "type": "prepare",
+          "cible": "S76-A186"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "chanson",
+        "anti_teleologie"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A178": {
+    "kind": "atom",
+    "id": "S76-A178",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A178 — Birmingham : fatigue matérielle, soutien de Crawling Chaos et économie de tournée",
+    "data": {
+      "id": "S76-A178",
+      "type_unite": "contexte_live",
+      "source_id": "S76",
+      "titre": "Birmingham : fatigue matérielle, soutien de Crawling Chaos et économie de tournée",
+      "pages": {
+        "pdf": [
+          315,
+          316
+        ]
+      },
+      "resume": "S76 signale que le concert de Birmingham se déroule dans une économie matérielle de fin de tournée : problèmes de matériel, soutiens de groupes proches, circulation d’équipements, contraintes de route. La dernière apparition de Joy Division n’est pas seulement une scène symbolique ; elle relève aussi d’une logistique ordinaire de groupe encore fragile.\n",
+      "role_argumentatif": [
+        "désacraliser le dernier concert par ses conditions matérielles",
+        "relier fatigue, équipement et solidarité entre groupes",
+        "compléter l’analyse de Birmingham au-delà de « Ceremony »"
+      ],
+      "niveau_preuve": {
+        "statut": "reconstruction_S76_et_concert_listing",
+        "corroboration": "moyenne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable_comme_contexte"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible",
+        "raison": "contexte matériel utile pour contrer la sacralisation"
+      },
+      "motifs": [
+        "Birmingham",
+        "Crawling Chaos",
+        "équipement",
+        "route",
+        "dernier concert"
+      ],
+      "concepts_derives": [
+        "matérialité du dernier concert"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A177"
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-005"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "materiel",
+        "tournee"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A179": {
+    "kind": "atom",
+    "id": "S76-A179",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A179 — Égypte : lettre manquée d’Annik et temporalité décalée de l’amour",
+    "data": {
+      "id": "S76-A179",
+      "type_unite": "lettre_absente",
+      "source_id": "S76",
+      "titre": "Égypte : lettre manquée d’Annik et temporalité décalée de l’amour",
+      "pages": {
+        "pdf": [
+          315,
+          316
+        ]
+      },
+      "resume": "Pendant qu’Annik séjourne en Égypte, elle écrit à Curtis une lettre qu’il ne reçoit jamais. D’autres lettres adressées via Factory lui seront également retournées. L’atome permet de saisir une temporalité décalée : au moment où Annik écrit encore vers un futur possible, Curtis est déjà happé par les procédures de divorce, l’Amérique imminente et son retour à Barton Street.\n",
+      "role_argumentatif": [
+        "documenter les lettres non reçues comme motif de décalage temporel",
+        "montrer l’écart entre communication désirée et communication empêchée",
+        "éviter le pathos de la lettre perdue comme pur symbole fatal"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Annik_et_reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_memoire"
+      },
+      "stabilite": {
+        "statut": "stable_comme_motif_documentaire"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "la lettre non reçue est facilement fétichisable ; garder le fait documentaire"
+      },
+      "motifs": [
+        "Égypte",
+        "lettres non reçues",
+        "Annik Honoré",
+        "Factory office",
+        "communication empêchée"
+      ],
+      "concepts_derives": [
+        "temporalité décalée",
+        "lettre manquée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A175"
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ],
+      "couche_narrative": [
+        "lettre",
+        "intime",
+        "communication"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A180": {
+    "kind": "atom",
+    "id": "S76-A180",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A180 — Derniers appels : Annik, Plan K et impossibilité de mesurer la voix à distance",
+    "data": {
+      "id": "S76-A180",
+      "type_unite": "scene_telephonique",
+      "source_id": "S76",
+      "titre": "Derniers appels : Annik, Plan K et impossibilité de mesurer la voix à distance",
+      "pages": {
+        "pdf": [
+          320
+        ]
+      },
+      "resume": "S76 rapporte les appels d’Annik à Curtis les mercredi, vendredi et samedi 17 mai. Elle le croit défait, mélancolique, peu convaincu par l’idée de vacances futures, puis l’entend mal depuis Plan K, dans le bruit d’un concert. La scène est méthodologiquement importante : elle montre combien la mémoire téléphonique est affective, lacunaire et incertaine.\n",
+      "role_argumentatif": [
+        "stabiliser les derniers appels sans leur donner valeur de diagnostic",
+        "montrer l’impossibilité de savoir précisément comment Curtis va par téléphone",
+        "relier Belgique, Plan K, divorce, Amérique et dernier retour à Barton Street"
+      ],
+      "niveau_preuve": {
+        "statut": "lettre_Annik_a_Carole_et_reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_memoire; moyenne_comme_etat_clinique"
+      },
+      "stabilite": {
+        "statut": "stable_comme_memoire_telephonique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "risque de transformer une voix entendue au téléphone en preuve clinique ou présage"
+      },
+      "motifs": [
+        "Plan K",
+        "derniers appels",
+        "divorce",
+        "tournée américaine",
+        "Herzog"
+      ],
+      "concepts_derives": [
+        "voix distante incertaine",
+        "mémoire téléphonique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A179"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-009"
+        }
+      ],
+      "couche_narrative": [
+        "telephone",
+        "intime",
+        "anti_diagnostic"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A181": {
+    "kind": "atom",
+    "id": "S76-A181",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A181 — Lettre de divorce et départ vers Barton Street : seuil juridique et domestique",
+    "data": {
+      "id": "S76-A181",
+      "type_unite": "scene_juridico_domestique",
+      "source_id": "S76",
+      "titre": "Lettre de divorce et départ vers Barton Street : seuil juridique et domestique",
+      "pages": {
+        "pdf": [
+          321
+        ]
+      },
+      "resume": "Selon Doreen Curtis, Ian reçoit le samedi 17 mai une lettre d’avocat relative au divorce. Il part ensuite vers Macclesfield pour « régler les choses », dire au revoir à Natalie, récupérer des affaires et passer la nuit à Barton Street. L’atome fixe un seuil : le droit, le foyer, l’enfant et le départ américain se condensent dans la même journée.\n",
+      "role_argumentatif": [
+        "documenter le rôle de la lettre de divorce comme facteur de tension",
+        "relier juridique, domestique, paternité et départ américain",
+        "éviter d’en faire la cause unique du suicide"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Doreen_Curtis_et_reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_tension"
+      },
+      "stabilite": {
+        "statut": "stable_comme_episode_memoriel"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "risque de monocausalité juridique/conjugale ; maintenir le faisceau de contraintes"
+      },
+      "motifs": [
+        "lettre d’avocat",
+        "divorce",
+        "Barton Street",
+        "Natalie Curtis",
+        "Piccadilly Station"
+      ],
+      "concepts_derives": [
+        "seuil juridico-domestique",
+        "condensation finale"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A143"
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-009"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        }
+      ],
+      "couche_narrative": [
+        "juridique",
+        "domestique",
+        "biographique"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A182": {
+    "kind": "atom",
+    "id": "S76-A182",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A182 — Genesis P-Orridge : alerte, « Weeping » et limite du réseau d’alerte",
+    "data": {
+      "id": "S76-A182",
+      "type_unite": "alerte_memorielle",
+      "source_id": "S76",
+      "titre": "Genesis P-Orridge : alerte, « Weeping » et limite du réseau d’alerte",
+      "pages": {
+        "pdf": [
+          321,
+          322
+        ]
+      },
+      "resume": "Genesis P-Orridge rapporte avoir senti un danger imminent, avoir tenté de joindre des proches et avoir entendu Curtis chanter « Weeping » au téléphone. S76 inscrit ce témoignage dans l’échec du réseau d’alerte : Rob Gretton est indisponible, le groupe est sorti, les réactions minimisent la gravité. Le témoignage est fort, mais il reste rétrospectif et ne doit pas devenir preuve d’une certitude partageable.\n",
+      "role_argumentatif": [
+        "documenter une alerte extérieure autour de Curtis",
+        "montrer les limites du réseau relationnel avant le suicide",
+        "éviter la prophétisation de Genesis P-Orridge comme voyant du drame"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Genesis_P_Orridge",
+        "corroboration": "faible_a_moyenne",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "fragile_comme_reconstruction"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "risque de transformer une inquiétude rétrospective en savoir anticipé certain"
+      },
+      "motifs": [
+        "Genesis P-Orridge",
+        "Weeping",
+        "Jon Savage",
+        "Rob Gretton indisponible",
+        "alerte manquée"
+      ],
+      "concepts_derives": [
+        "réseau d’alerte défaillant",
+        "inquiétude rétrospective"
+      ],
+      "relations": [
+        {
+          "type": "relie",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-009"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ],
+      "couche_narrative": [
+        "alerte",
+        "telephone",
+        "memoire"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A183": {
+    "kind": "atom",
+    "id": "S76-A183",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A183 — Dernière nuit à Barton Street : Deborah, Stroszek et solitude domestique",
+    "data": {
+      "id": "S76-A183",
+      "type_unite": "derniere_nuit",
+      "source_id": "S76",
+      "titre": "Dernière nuit à Barton Street : Deborah, Stroszek et solitude domestique",
+      "pages": {
+        "pdf": [
+          322
+        ]
+      },
+      "resume": "S76 croise le récit de Deborah et celui des voisins Kevin et Pam Wood : Deborah passe brièvement à Barton Street après son travail, la discussion sur l’avenir ne débouche sur rien, puis Curtis reste seul. Il prévoit de regarder un film de Herzog. La dernière nuit doit être traitée comme une scène de solitude domestique documentée, non comme reconstitution romanesque exhaustive.\n",
+      "role_argumentatif": [
+        "stabiliser le cadre de la dernière nuit sans le dramatiser au-delà des sources",
+        "relier Deborah, Natalie absente, Herzog et Barton Street",
+        "distinguer faits, témoignages voisins et reconstruction postérieure"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Deborah_voisins_et_reconstruction_S76",
+        "corroboration": "forte_pour_presence; moyenne_pour_interpretation",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_dans_ses_grandes_lignes"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "risque de remplir les blancs de la dernière nuit ; maintenir les limites documentaires"
+      },
+      "motifs": [
+        "Barton Street",
+        "Deborah Curtis",
+        "Natalie absente",
+        "Herzog",
+        "Stroszek",
+        "solitude domestique"
+      ],
+      "concepts_derives": [
+        "dernière nuit non totalisable",
+        "solitude documentée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A181"
+        },
+        {
+          "type": "relie",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ],
+      "couche_narrative": [
+        "domestique",
+        "derniere_nuit",
+        "prudence"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A184": {
+    "kind": "atom",
+    "id": "S76-A184",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A184 — Découverte du corps : Kevin Wood, Deborah et matérialité traumatique",
+    "data": {
+      "id": "S76-A184",
+      "type_unite": "scene_deces",
+      "source_id": "S76",
+      "titre": "Découverte du corps : Kevin Wood, Deborah et matérialité traumatique",
+      "pages": {
+        "pdf": [
+          324,
+          325
+        ]
+      },
+      "resume": "S76 ouvre le chapitre 21 sur le récit de Kevin Wood : Deborah découvre le corps de Curtis, sort hystérique, Natalie reste dans la voiture, le voisin entre, voit les bouteilles, l’enveloppe et le corps suspendu à un vieux séchoir à linge. L’atome doit rester sobre : la scène est factuelle et traumatique ; elle ne doit pas être esthétisée.\n",
+      "role_argumentatif": [
+        "documenter la découverte du corps sans romanesque",
+        "préserver la matérialité domestique et traumatique de la scène",
+        "empêcher toute esthétisation morbide"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Kevin_Wood_et_reconstruction_S76",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable_comme_temoignage"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "scène extrêmement sensible ; ne pas la styliser ni l’utiliser comme image littéraire"
+      },
+      "motifs": [
+        "Kevin Wood",
+        "Deborah Curtis",
+        "Barton Street",
+        "Natalie dans la voiture",
+        "découverte du corps"
+      ],
+      "concepts_derives": [
+        "matérialité traumatique",
+        "anti-esthétisation du décès"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A183"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ],
+      "couche_narrative": [
+        "deces",
+        "domestique",
+        "trauma"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A185": {
+    "kind": "atom",
+    "id": "S76-A185",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A185 — Annik apprend la mort : traversée, appel à Kevin Curtis et rupture biographique",
+    "data": {
+      "id": "S76-A185",
+      "type_unite": "scene_deuil",
+      "source_id": "S76",
+      "titre": "Annik apprend la mort : traversée, appel à Kevin Curtis et rupture biographique",
+      "pages": {
+        "pdf": [
+          325,
+          326
+        ]
+      },
+      "resume": "Annik revient de Belgique vers Londres lorsqu’elle apprend la mort de Curtis par Kevin Curtis, puis par Rob Gretton. S76 insiste sur sa maladie durant la traversée, son pressentiment et l’effondrement perceptible de Kevin. Ces éléments appartiennent au registre du deuil et de la mémoire ; ils ne doivent pas devenir preuve d’une connexion prémonitoire.\n",
+      "role_argumentatif": [
+        "documenter le moment où Annik apprend la mort",
+        "distinguer pressentiment, deuil et fait établi",
+        "relier Annik, famille Curtis, Gretton et retour en Angleterre"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Annik_et_reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_memoire_de_deuil"
+      },
+      "stabilite": {
+        "statut": "stable_comme_scene_memorielle"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "risque de transformer le pressentiment en preuve surnaturelle"
+      },
+      "motifs": [
+        "Annik Honoré",
+        "Kevin Curtis",
+        "Rob Gretton",
+        "hovercraft",
+        "pressentiment"
+      ],
+      "concepts_derives": [
+        "mémoire du pressentiment",
+        "rupture biographique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A180"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ],
+      "couche_narrative": [
+        "deuil",
+        "memoire",
+        "Annik"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A186": {
+    "kind": "atom",
+    "id": "S76-A186",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A186 — Carole, Vini et les pressentiments : mémoire endeuillée et danger de rétrodiction",
+    "data": {
+      "id": "S76-A186",
+      "type_unite": "memoire_endeuillée",
+      "source_id": "S76",
+      "titre": "Carole, Vini et les pressentiments : mémoire endeuillée et danger de rétrodiction",
+      "pages": {
+        "pdf": [
+          325,
+          326
+        ]
+      },
+      "resume": "S76 rapporte que plusieurs proches disent ne pas avoir été totalement surpris : Carole se souvient avoir imaginé que Ian ne vivrait pas vieux ; Vini Reilly dit avoir attendu l’appel. Ces formulations sont historiographiquement dangereuses : elles appartiennent à la mémoire endeuillée, qui réorganise le passé depuis la connaissance de la mort.\n",
+      "role_argumentatif": [
+        "qualifier les pressentiments comme matériaux de mémoire et non preuves",
+        "analyser la rétrodiction autour de Curtis",
+        "renforcer la critique du mythe prophétique"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignages_retroactifs_Carole_Vini",
+        "corroboration": "faible_comme_prediction; forte_comme_memoire",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "fragile_comme_preuve; stable_comme_memoire"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "tres_eleve",
+        "raison": "risque maximal de prophétisation rétrospective"
+      },
+      "motifs": [
+        "Carole Curtis",
+        "Vini Reilly",
+        "pressentiment",
+        "rétrodiction",
+        "mort jeune"
+      ],
+      "concepts_derives": [
+        "rétrodiction endeuillée",
+        "mémoire prophétisante"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S76-A182"
+        }
+      ],
+      "couche_narrative": [
+        "memoire",
+        "mythe",
+        "deuil"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A187": {
+    "kind": "atom",
+    "id": "S76-A187",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A187 — Chapel of Rest : Annik, Wilson, Lindsay et la première fabrication du mythe",
+    "data": {
+      "id": "S76-A187",
+      "type_unite": "scene_deuil_mythographique",
+      "source_id": "S76",
+      "titre": "Chapel of Rest : Annik, Wilson, Lindsay et la première fabrication du mythe",
+      "pages": {
+        "pdf": [
+          326,
+          328
+        ]
+      },
+      "resume": "S76 décrit la visite d’Annik au Chapel of Rest, conduite par Tony Wilson et Lindsay Reade, puis les visites de Paul Morley et A Certain Ratio. Wilson dit à Morley qu’il écrira le livre sur Joy Division. L’atome repère un moment décisif : le deuil immédiat devient déjà mise en récit, archive, transmission et mythographie naissante.\n",
+      "role_argumentatif": [
+        "documenter le passage du deuil privé à la fabrication publique du récit Joy Division",
+        "situer Wilson et Morley dans la première mythographie posthume",
+        "éviter de condamner cette fabrication tout en la rendant visible"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignages_Lindsay_Annik_Morley_et_reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_tension_mythographique"
+      },
+      "stabilite": {
+        "statut": "stable_comme_noeud_interpretatif"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "risque de procès contre Wilson ou Morley ; analyser la fonction de mise en récit"
+      },
+      "motifs": [
+        "Chapel of Rest",
+        "Tony Wilson",
+        "Paul Morley",
+        "Annik Honoré",
+        "A Certain Ratio",
+        "mythe posthume"
+      ],
+      "concepts_derives": [
+        "mythographie immédiate",
+        "deuil comme archive"
+      ],
+      "relations": [
+        {
+          "type": "relie",
+          "cible": "MYTH-002"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S76-A185"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        }
+      ],
+      "couche_narrative": [
+        "deuil",
+        "reception",
+        "mythographie"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-A188": {
+    "kind": "atom",
+    "id": "S76-A188",
+    "file": "sources/middles_reade_torn_apart/source_part_17.md",
+    "heading": "S76-A188 — Wake Factory : « No one is innocent » et culpabilité collective sans tribunal",
+    "data": {
+      "id": "S76-A188",
+      "type_unite": "scene_deuil_collectif",
+      "source_id": "S76",
+      "titre": "Wake Factory : « No one is innocent » et culpabilité collective sans tribunal",
+      "pages": {
+        "pdf": [
+          328,
+          329
+        ]
+      },
+      "resume": "Après la crémation du 23 mai, Factory organise son propre wake à Palatine Road et projette *The Great Rock’n’Roll Swindle*. Lindsay Reade retient la phrase « No one is innocent » comme condensation du sentiment de culpabilité collectif. L’atome permet de traiter la culpabilité sans tribunal : le deuil produit une recherche de responsabilité, mais le livre doit analyser les mécanismes plutôt que désigner un coupable.\n",
+      "role_argumentatif": [
+        "documenter le wake Factory comme scène de deuil collectif",
+        "relier culpabilité, masculinité, Factory et mémoire immédiate",
+        "éviter la mise en accusation simpliste"
+      ],
+      "niveau_preuve": {
+        "statut": "temoignage_Lindsay_Reade_et_reconstruction_S76",
+        "corroboration": "moyenne",
+        "confiance": "forte_comme_memoire_de_deuil"
+      },
+      "stabilite": {
+        "statut": "stable_comme_noeud_symbolique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "la phrase invite au procès moral ; l’usage doit rester analytique"
+      },
+      "motifs": [
+        "Palatine Road",
+        "Factory wake",
+        "The Great Rock’n’Roll Swindle",
+        "No one is innocent",
+        "culpabilité"
+      ],
+      "concepts_derives": [
+        "culpabilité collective sans tribunal",
+        "deuil masculin couvert"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S76-A187"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-010"
+        }
+      ],
+      "couche_narrative": [
+        "deuil",
+        "Factory",
+        "culpabilite"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
   "S76-A021": {
     "kind": "atom",
     "id": "S76-A021",
@@ -55933,9 +57001,9 @@
       "source_year": "2012"
     }
   },
-  "NO_ID::sources/hook/citations_exactes.md::1223": {
+  "NO_ID::sources/hook/citations_exactes.md::1237": {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1223",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1237",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -60528,9 +61596,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1369": {
+  "NO_ID::sources/suatoni/README.md::1383": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1369",
+    "id": "NO_ID::sources/suatoni/README.md::1383",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -60545,9 +61613,9 @@
       "source_short_title": "Alfredo Suatoni, Joy Division: Dal cuore della città / From the Centre of the City, 1990"
     }
   },
-  "NO_ID::sources/suatoni/README.md::1370": {
+  "NO_ID::sources/suatoni/README.md::1384": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1370",
+    "id": "NO_ID::sources/suatoni/README.md::1384",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -60583,9 +61651,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1371": {
+  "NO_ID::sources/suatoni/README.md::1385": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1371",
+    "id": "NO_ID::sources/suatoni/README.md::1385",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -61728,9 +62796,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1407": {
+  "NO_ID::sources/greig_strong/README.md::1421": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1407",
+    "id": "NO_ID::sources/greig_strong/README.md::1421",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -61745,9 +62813,9 @@
       "source_short_title": "Alastair Greig ; Catherine Strong, But We Remember When We Were Young, 2014"
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1408": {
+  "NO_ID::sources/greig_strong/README.md::1422": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1408",
+    "id": "NO_ID::sources/greig_strong/README.md::1422",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -61774,9 +62842,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1409": {
+  "NO_ID::sources/greig_strong/README.md::1423": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1409",
+    "id": "NO_ID::sources/greig_strong/README.md::1423",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -62797,9 +63865,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/songs/master_songs.md::1435": {
+  "NO_ID::registers/songs/master_songs.md::1449": {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1435",
+    "id": "NO_ID::registers/songs/master_songs.md::1449",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -64539,6 +65607,157 @@
         "risque de psychologiser Curtis à partir d'un texte très précoce"
       ],
       "notes": "Utile pour éviter l'idéalisation rétrospective de toutes les paroles de Curtis."
+    }
+  },
+  "SONG-S76-055": {
+    "kind": "atom",
+    "id": "SONG-S76-055",
+    "file": "registers/songs/s76_torn_apart_songs_part_17.md",
+    "heading": "SONG-S76-055 — Birmingham University, dernier concert",
+    "data": {
+      "id": "SONG-S76-055",
+      "type_unite": "live_set_context",
+      "source_id": "S76",
+      "titre": "Birmingham University — 2 mai 1980",
+      "recording_date": "1980-05-02",
+      "location": [
+        "Birmingham University"
+      ],
+      "tracks_discussed_by_S76": [
+        "Ceremony",
+        "Shadowplay",
+        "New Dawn Fades",
+        "Twenty Four Hours",
+        "Transmission",
+        "Digital",
+        "Decades"
+      ],
+      "resume": "S76 présente Birmingham University comme le dernier concert de Joy Division. Le set s’ouvre sur « Ceremony », alors noté « NEW ONE », et se clôt sur « Decades ». L’entrée doit être utilisée comme dernier concert rétrospectif, non comme concert consciemment terminal.\n",
+      "related_atoms": [
+        "S76-A177",
+        "S76-A178"
+      ],
+      "related_quotes": [
+        "S76-Q176"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "verification": {
+        "status": "a_recouper_setlist_et_bootleg",
+        "notes": "Vérifier setlist complète, captation éventuelle, fac-similé de setlist et rôle de Crawling Chaos."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "SONG-S76-056": {
+    "kind": "atom",
+    "id": "SONG-S76-056",
+    "file": "registers/songs/s76_torn_apart_songs_part_17.md",
+    "heading": "SONG-S76-056 — « Ceremony » comme morceau post-*Closer* et non encore nommé",
+    "data": {
+      "id": "SONG-S76-056",
+      "type_unite": "song",
+      "source_id": "S76",
+      "titre": "Ceremony",
+      "release_context": [
+        "post-Closer live song",
+        "later New Order repertoire"
+      ],
+      "resume": "S76 signale que « Ceremony » ouvre le dernier concert de Joy Division sous la mention « NEW ONE ». L’entrée retient la chanson comme preuve d’une création encore active après *Closer*, avant sa reprise dans l’histoire de New Order.\n",
+      "related_atoms": [
+        "S76-A177"
+      ],
+      "related_quotes": [
+        "S76-Q176"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "verification": {
+        "status": "a_recouper_paroles_setlist_New_Order",
+        "notes": "Vérifier statut du titre, paroles disponibles, setlist et transition vers New Order."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "SONG-S76-057": {
+    "kind": "atom",
+    "id": "SONG-S76-057",
+    "file": "registers/songs/s76_torn_apart_songs_part_17.md",
+    "heading": "SONG-S76-057 — *The Great Rock’n’Roll Swindle* au wake Factory",
+    "data": {
+      "id": "SONG-S76-057",
+      "type_unite": "media_context",
+      "source_id": "S76",
+      "titre": "The Great Rock’n’Roll Swindle",
+      "screening_date": "1980-05-23",
+      "associated_event": [
+        "Factory wake for Ian Curtis"
+      ],
+      "location": [
+        "89 Palatine Road"
+      ],
+      "resume": "S76 indique que le wake Factory organisé après la crémation de Curtis est marqué par la projection de *The Great Rock’n’Roll Swindle*. La formule « No one is innocent » devient, pour Lindsay Reade, un point de cristallisation de la culpabilité collective.\n",
+      "related_atoms": [
+        "S76-A188"
+      ],
+      "related_quotes": [
+        "S76-Q186"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "verification": {
+        "status": "a_recouper_temoignages_Factory",
+        "notes": "Vérifier présence exacte des participants et statut du souvenir de Lindsay Reade."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "SONG-S76-058": {
+    "kind": "atom",
+    "id": "SONG-S76-058",
+    "file": "registers/songs/s76_torn_apart_songs_part_17.md",
+    "heading": "SONG-S76-058 — *Stroszek* dans la dernière nuit",
+    "data": {
+      "id": "SONG-S76-058",
+      "type_unite": "film_context",
+      "source_id": "S76",
+      "titre": "Stroszek",
+      "associated_event": [
+        "final night at Barton Street"
+      ],
+      "associated_people": [
+        "Werner Herzog",
+        "Ian Curtis"
+      ],
+      "resume": "S76 rattache la dernière nuit de Curtis à l’intention de regarder un film de Herzog, généralement identifié dans la mémoire du groupe comme *Stroszek*. L’entrée doit rester un contexte documentaire, non une clé explicative du suicide.\n",
+      "related_atoms": [
+        "S76-A183"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "verification": {
+        "status": "a_recouper_S45_et_sources_Curtis",
+        "notes": "Vérifier titre exact, horaire, support et rôle dans les récits concurrents."
+      },
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
     }
   },
   "SONG-S76-018": {
@@ -68437,6 +69656,577 @@
       ],
       "risque": [
         "ne pas faire de la phrase un indice tragique ; elle signale un écart biographique"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q172": {
+    "kind": "quote",
+    "id": "S76-Q172",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q172 — Lettre à Annik : décider l’avenir",
+    "data": {
+      "id": "S76-Q172",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Ian Curtis",
+      "citation": "we must decide exactly on what we want to do for the future",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          314
+        ]
+      },
+      "usage": [
+        "Annik Honoré",
+        "tournée américaine",
+        "avenir suspendu"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A175"
+      ],
+      "related_concepts": [
+        "CONCEPT-004"
+      ],
+      "risque": [
+        "citation intime très exposée ; ne pas la transformer en testament"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q173": {
+    "kind": "quote",
+    "id": "S76-Q173",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q173 — Lettre à Annik : doute et raison",
+    "data": {
+      "id": "S76-Q173",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Ian Curtis",
+      "citation": "These people who make me doubt my own reason & sanity",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          314
+        ]
+      },
+      "usage": [
+        "raison",
+        "solitude",
+        "Annik Honoré"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A175"
+      ],
+      "related_concepts": [
+        "CONCEPT-009"
+      ],
+      "risque": [
+        "ne pas psychologiser isolément ; replacer dans la lettre entière"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q174": {
+    "kind": "quote",
+    "id": "S76-Q174",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q174 — Annik au Scala",
+    "data": {
+      "id": "S76-Q174",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Annik Honoré",
+      "citation": "That is the very last time I saw him.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          314
+        ]
+      },
+      "usage": [
+        "Scala",
+        "dernier adieu",
+        "Annik Honoré"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A176"
+      ],
+      "risque": [
+        "phrase rétrospective ; ne pas la charger comme scène prédestinée"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q175": {
+    "kind": "quote",
+    "id": "S76-Q175",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q175 — Annik sur le départ à la gare",
+    "data": {
+      "id": "S76-Q175",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Annik Honoré",
+      "citation": "I saw his face for the last time alive.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          315
+        ]
+      },
+      "usage": [
+        "gare",
+        "Annik Honoré",
+        "mémoire du dernier visage"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A176"
+      ],
+      "risque": [
+        "citation à très forte charge pathétique ; employer seulement avec mise à distance"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q176": {
+    "kind": "quote",
+    "id": "S76-Q176",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q176 — Birmingham : « NEW ONE »",
+    "data": {
+      "id": "S76-Q176",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade",
+      "citation": "NEW ONE",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          315
+        ]
+      },
+      "usage": [
+        "Ceremony",
+        "dernier concert",
+        "setlist"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "related_atoms": [
+        "S76-A177"
+      ],
+      "risque": [
+        "vérifier sur setlist / fac-similé ; ne pas surinterpréter"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q177": {
+    "kind": "quote",
+    "id": "S76-Q177",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q177 — Annik : derniers appels",
+    "data": {
+      "id": "S76-Q177",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Annik Honoré",
+      "citation": "I rang him three times",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          320
+        ]
+      },
+      "usage": [
+        "derniers appels",
+        "Plan K",
+        "Annik Honoré"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A180"
+      ],
+      "risque": [
+        "mémoire téléphonique ; ne pas lui donner valeur de diagnostic"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q178": {
+    "kind": "quote",
+    "id": "S76-Q178",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q178 — Annik : Curtis défait au téléphone",
+    "data": {
+      "id": "S76-Q178",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Annik Honoré",
+      "citation": "He sounded defeated.",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          320
+        ]
+      },
+      "usage": [
+        "derniers appels",
+        "état de Curtis",
+        "prudence clinique"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A180"
+      ],
+      "related_concepts": [
+        "CONCEPT-004"
+      ],
+      "risque": [
+        "perception à distance ; ne pas convertir en fait clinique certain"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q179": {
+    "kind": "quote",
+    "id": "S76-Q179",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q179 — Doreen et la lettre de divorce",
+    "data": {
+      "id": "S76-Q179",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Doreen Curtis",
+      "citation": "There was a letter he got on the day he died",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          321
+        ]
+      },
+      "usage": [
+        "lettre d’avocat",
+        "divorce",
+        "Barton Street"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A181"
+      ],
+      "risque": [
+        "ne pas transformer la lettre de divorce en cause unique"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q180": {
+    "kind": "quote",
+    "id": "S76-Q180",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q180 — Genesis P-Orridge : refus de l’Amérique",
+    "data": {
+      "id": "S76-Q180",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Genesis P-Orridge",
+      "citation": "he would rather die than go on that tour",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          321
+        ]
+      },
+      "usage": [
+        "tournée américaine",
+        "alerte",
+        "Genesis P-Orridge"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A182"
+      ],
+      "risque": [
+        "témoignage rétrospectif très fort ; à croiser et contextualiser"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q181": {
+    "kind": "quote",
+    "id": "S76-Q181",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q181 — Deborah et Natalie absente",
+    "data": {
+      "id": "S76-Q181",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Middles & Reade d’après Deborah Curtis",
+      "citation": "she didn’t trust him",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          322
+        ]
+      },
+      "usage": [
+        "Deborah Curtis",
+        "Natalie Curtis",
+        "dernière nuit"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A183"
+      ],
+      "risque": [
+        "à croiser avec S45 ; ne pas moraliser Deborah"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q182": {
+    "kind": "quote",
+    "id": "S76-Q182",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q182 — Kevin Wood découvre le corps",
+    "data": {
+      "id": "S76-Q182",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Kevin Wood",
+      "citation": "he was there, unfortunately hung",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          324
+        ]
+      },
+      "usage": [
+        "découverte du corps",
+        "Barton Street",
+        "Kevin Wood"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A184"
+      ],
+      "risque": [
+        "scène traumatique ; éviter toute esthétisation"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q183": {
+    "kind": "quote",
+    "id": "S76-Q183",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q183 — Annik apprend la mort",
+    "data": {
+      "id": "S76-Q183",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Kevin Curtis rapporté par S76",
+      "citation": "Ian is dead",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          325
+        ]
+      },
+      "usage": [
+        "Annik Honoré",
+        "annonce de la mort",
+        "Kevin Curtis"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A185"
+      ],
+      "risque": [
+        "citation minimale, très brutale ; à utiliser avec sobriété"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q184": {
+    "kind": "quote",
+    "id": "S76-Q184",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q184 — Carole et le pressentiment de mort jeune",
+    "data": {
+      "id": "S76-Q184",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Carole Curtis",
+      "citation": "I never thought he’d see past 30",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          325
+        ]
+      },
+      "usage": [
+        "Carole Curtis",
+        "pressentiment",
+        "mémoire endeuillée"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "related_atoms": [
+        "S76-A186"
+      ],
+      "risque": [
+        "rétrodiction endeuillée ; ne pas prophétiser Curtis"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q185": {
+    "kind": "quote",
+    "id": "S76-Q185",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q185 — Wilson à Morley : le livre à écrire",
+    "data": {
+      "id": "S76-Q185",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Paul Morley rapportant Tony Wilson",
+      "citation": "You’re going to write the book on Joy Division",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          328
+        ]
+      },
+      "usage": [
+        "Tony Wilson",
+        "Paul Morley",
+        "mythographie posthume"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A187"
+      ],
+      "risque": [
+        "ne pas faire de Wilson un manipulateur unique ; analyser la mise en récit"
+      ],
+      "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
+      "source_year": "2006"
+    }
+  },
+  "S76-Q186": {
+    "kind": "quote",
+    "id": "S76-Q186",
+    "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
+    "heading": "S76-Q186 — Wake Factory : culpabilité",
+    "data": {
+      "id": "S76-Q186",
+      "type_unite": "quote",
+      "source_id": "S76",
+      "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
+      "auteur": "Lindsay Reade",
+      "citation": "Noone is innocent",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          329
+        ]
+      },
+      "usage": [
+        "wake Factory",
+        "culpabilité",
+        "Palatine Road"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S76-A188"
+      ],
+      "risque": [
+        "formule accusatoire ; usage analytique, non judiciaire"
       ],
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
@@ -76594,6 +78384,241 @@
       ]
     }
   },
+  "PERS-S76-084": {
+    "kind": "person",
+    "id": "PERS-S76-084",
+    "file": "registers/people/s76_torn_apart_people_part_17.md",
+    "heading": "PERS-S76-084 — Kevin Wood",
+    "data": {
+      "id": "PERS-S76-084",
+      "type_unite": "person",
+      "name": "Kevin Wood",
+      "role": [
+        "voisin de Barton Street",
+        "témoin de la découverte du corps de Ian Curtis"
+      ],
+      "associated_entities": [
+        "Barton Street",
+        "Deborah Curtis",
+        "Pam Wood"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Kevin Wood fournit un témoignage précis et traumatique sur la découverte du corps de Curtis par Deborah, son entrée dans la maison, la coupe de la corde et l’appel aux secours.\n"
+      },
+      "related_atoms": [
+        "S76-A184"
+      ],
+      "related_quotes": [
+        "S76-Q182"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "scène très sensible ; à traiter sobrement, sans esthétisation"
+      ]
+    }
+  },
+  "PERS-S76-085": {
+    "kind": "person",
+    "id": "PERS-S76-085",
+    "file": "registers/people/s76_torn_apart_people_part_17.md",
+    "heading": "PERS-S76-085 — Pam Wood",
+    "data": {
+      "id": "PERS-S76-085",
+      "type_unite": "person",
+      "name": "Pam Wood",
+      "role": [
+        "voisine de Barton Street",
+        "témoin périphérique de la découverte"
+      ],
+      "associated_entities": [
+        "Barton Street",
+        "Kevin Wood",
+        "Deborah Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Pam Wood apparaît comme témoin immédiat de la panique de Deborah à la sortie de Barton Street et comme présence domestique du voisinage dans la scène de découverte.\n"
+      },
+      "related_atoms": [
+        "S76-A184"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "rôle périphérique mais important pour la matérialité domestique de la scène"
+      ]
+    }
+  },
+  "PERS-S76-086": {
+    "kind": "person",
+    "id": "PERS-S76-086",
+    "file": "registers/people/s76_torn_apart_people_part_17.md",
+    "heading": "PERS-S76-086 — Genesis P-Orridge",
+    "data": {
+      "id": "PERS-S76-086",
+      "type_unite": "person",
+      "name": "Genesis P-Orridge",
+      "role": [
+        "artiste Throbbing Gristle",
+        "témoin d’alerte autour de l’état de Curtis"
+      ],
+      "associated_entities": [
+        "Throbbing Gristle",
+        "Weeping",
+        "Jon Savage"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Genesis P-Orridge rapporte une inquiétude aiguë avant la mort de Curtis, dit avoir tenté d’alerter des proches et évoque Curtis chantant « Weeping » au téléphone. Le témoignage est fort mais fragile comme preuve anticipatrice.\n"
+      },
+      "related_atoms": [
+        "S76-A182"
+      ],
+      "related_quotes": [
+        "S76-Q180"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "ne pas transformer son inquiétude en prophétie ou en certitude clinique"
+      ]
+    }
+  },
+  "PERS-S76-087": {
+    "kind": "person",
+    "id": "PERS-S76-087",
+    "file": "registers/people/s76_torn_apart_people_part_17.md",
+    "heading": "PERS-S76-087 — Carole Curtis",
+    "data": {
+      "id": "PERS-S76-087",
+      "type_unite": "person",
+      "name": "Carole Curtis",
+      "role": [
+        "sœur de Ian Curtis",
+        "mémoire familiale endeuillée"
+      ],
+      "associated_entities": [
+        "Curtis family",
+        "Torquay"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Carole apparaît dans cette séquence comme destinataire de la nouvelle de la mort et comme témoin rétrospectif d’un pressentiment familial autour de la mort jeune de Ian.\n"
+      },
+      "related_atoms": [
+        "S76-A186"
+      ],
+      "related_quotes": [
+        "S76-Q184"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "traiter les pressentiments comme mémoire de deuil, non comme preuve"
+      ]
+    }
+  },
+  "PERS-S76-088": {
+    "kind": "person",
+    "id": "PERS-S76-088",
+    "file": "registers/people/s76_torn_apart_people_part_17.md",
+    "heading": "PERS-S76-088 — Vini Reilly",
+    "data": {
+      "id": "PERS-S76-088",
+      "type_unite": "person",
+      "name": "Vini Reilly",
+      "role": [
+        "musicien Durutti Column",
+        "témoin rétrospectif de la mort de Curtis"
+      ],
+      "associated_entities": [
+        "The Durutti Column",
+        "Factory Records"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Vini Reilly est cité comme proche ou témoin de scène disant qu’il attendait l’appel annonçant la mort de Curtis. Cette formule relève de la mémoire endeuillée et ne doit pas être convertie en prescience.\n"
+      },
+      "related_atoms": [
+        "S76-A186"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "methodological_warnings": [
+        "formule rétrospective ; à intégrer dans la critique du mythe prophétique"
+      ]
+    }
+  },
+  "PERS-S76-089": {
+    "kind": "person",
+    "id": "PERS-S76-089",
+    "file": "registers/people/s76_torn_apart_people_part_17.md",
+    "heading": "PERS-S76-089 — Paul Morley",
+    "data": {
+      "id": "PERS-S76-089",
+      "type_unite": "person",
+      "name": "Paul Morley",
+      "role": [
+        "journaliste NME",
+        "acteur de la première mythographie posthume de Joy Division",
+        "auteur de *Nothing*"
+      ],
+      "associated_entities": [
+        "NME",
+        "Tony Wilson",
+        "Chapel of Rest",
+        "Nothing"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "portraits_by_source": {
+        "S76": "Morley apparaît à la fois comme témoin du deuil, visiteur du corps et futur scribe désigné par Wilson pour écrire l’histoire de Joy Division. S76 permet de saisir la naissance immédiate d’une mythographie posthume.\n"
+      },
+      "related_atoms": [
+        "S76-A187"
+      ],
+      "related_quotes": [
+        "S76-Q185"
+      ],
+      "chapters": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "methodological_warnings": [
+        "analyser sa place dans la mise en récit sans le réduire à un fabricant cynique du mythe"
+      ]
+    }
+  },
   "PERS-013": {
     "kind": "person",
     "id": "PERS-013",
@@ -82811,6 +84836,356 @@
         "datation précise à vérifier avec calendriers de concerts"
       ],
       "notes": "À manier avec prudence : contraste biographique, non signe tragique."
+    }
+  },
+  "CHR-S76-1980-026": {
+    "kind": "chronology",
+    "id": "CHR-S76-1980-026",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_17.md",
+    "heading": "CHR-S76-1980-026 — Dernière nuit Annik / Ian au Scala",
+    "data": {
+      "id": "CHR-S76-1980-026",
+      "type_unite": "chronology",
+      "date": "1980-04-25/1980-04-26",
+      "precision_date": "overnight",
+      "event": "Ian Curtis descend à Londres pour une Factory night au Scala, où jouent notamment A Certain Ratio, The Durutti Column, Blurt et Section 25. Annik Honoré décrit cette nuit comme la dernière fois où elle voit Ian vivant.\n",
+      "type": [
+        "Factory_night",
+        "intimate_scene",
+        "London"
+      ],
+      "location": [
+        "Scala Cinema",
+        "Tottenham Street",
+        "London"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Annik Honoré",
+        "A Certain Ratio",
+        "The Durutti Column",
+        "Section 25"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A176"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "vérifier affiche exacte et chronologie du séjour londonien"
+      ],
+      "notes": "Scène rétrospective de dernier adieu ; ne pas téléologiser."
+    }
+  },
+  "CHR-S76-1980-027": {
+    "kind": "chronology",
+    "id": "CHR-S76-1980-027",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_17.md",
+    "heading": "CHR-S76-1980-027 — Dernier concert de Joy Division à Birmingham University",
+    "data": {
+      "id": "CHR-S76-1980-027",
+      "type_unite": "chronology",
+      "date": "1980-05-02",
+      "precision_date": "exact",
+      "event": "Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».\n",
+      "type": [
+        "live",
+        "final_concert",
+        "Ceremony"
+      ],
+      "location": [
+        "Birmingham University"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A177",
+        "S76-A178"
+      ],
+      "chapters": [
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "vérifier setlist exacte et fac-similé"
+      ],
+      "notes": "Dernier concert rétrospectivement ; à écrire comme acte de création non conscient de sa finalité."
+    }
+  },
+  "CHR-S76-1980-028": {
+    "kind": "chronology",
+    "id": "CHR-S76-1980-028",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_17.md",
+    "heading": "CHR-S76-1980-028 — Appels téléphoniques Annik / Ian avant la mort",
+    "data": {
+      "id": "CHR-S76-1980-028",
+      "type_unite": "chronology",
+      "date": "1980-05-14/1980-05-17",
+      "precision_date": "date_range",
+      "event": "Annik Honoré rapporte avoir appelé Ian Curtis trois fois depuis la Belgique ou dans le contexte de Plan K : mercredi soir, vendredi matin et samedi 17 mai à 21 h. Les conversations portent sur le divorce, l’Amérique, les vacances possibles et la difficulté de se revoir avant le départ.\n",
+      "type": [
+        "phone_calls",
+        "Annik_Honore",
+        "final_days"
+      ],
+      "location": [
+        "Brussels",
+        "Plan K",
+        "Macclesfield / parental home"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Annik Honoré"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A180"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "à croiser avec S45, lettres et chronologie des appels"
+      ],
+      "notes": "Mémoire téléphonique lacunaire ; ne pas convertir en diagnostic."
+    }
+  },
+  "CHR-S76-1980-029": {
+    "kind": "chronology",
+    "id": "CHR-S76-1980-029",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_17.md",
+    "heading": "CHR-S76-1980-029 — Lettre de divorce reçue par Ian Curtis",
+    "data": {
+      "id": "CHR-S76-1980-029",
+      "type_unite": "chronology",
+      "date": "1980-05-17",
+      "precision_date": "exact",
+      "event": "Selon Doreen Curtis, Ian reçoit une lettre d’avocat relative au divorce. Il part ensuite pour Macclesfield / Barton Street afin de régler des choses et dire au revoir à Natalie avant la tournée américaine.\n",
+      "type": [
+        "legal",
+        "divorce",
+        "domestic"
+      ],
+      "location": [
+        "parental home",
+        "Barton Street"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Doreen Curtis",
+        "Deborah Curtis",
+        "Natalie Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A181"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "date et contenu exact de la lettre à recouper avec S45"
+      ],
+      "notes": "Facteur de tension, non cause unique."
+    }
+  },
+  "CHR-S76-1980-030": {
+    "kind": "chronology",
+    "id": "CHR-S76-1980-030",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_17.md",
+    "heading": "CHR-S76-1980-030 — Dernière nuit à Barton Street",
+    "data": {
+      "id": "CHR-S76-1980-030",
+      "type_unite": "chronology",
+      "date": "1980-05-17/1980-05-18",
+      "precision_date": "overnight",
+      "event": "Ian Curtis passe sa dernière nuit à Barton Street. Deborah vient brièvement après son travail, la discussion sur l’avenir du couple ne conclut pas, et Ian reste seul avec le projet de regarder un film de Herzog.\n",
+      "type": [
+        "final_night",
+        "domestic",
+        "Barton_Street"
+      ],
+      "location": [
+        "Barton Street",
+        "Macclesfield"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Deborah Curtis",
+        "Kevin Wood",
+        "Pam Wood"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A183"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "détails exacts à croiser avec S45"
+      ],
+      "notes": "Dernière nuit documentée ; ne pas combler les blancs."
+    }
+  },
+  "CHR-S76-1980-031": {
+    "kind": "chronology",
+    "id": "CHR-S76-1980-031",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_17.md",
+    "heading": "CHR-S76-1980-031 — Mort de Ian Curtis et découverte du corps",
+    "data": {
+      "id": "CHR-S76-1980-031",
+      "type_unite": "chronology",
+      "date": "1980-05-18",
+      "precision_date": "exact",
+      "event": "Deborah Curtis découvre le corps de Ian Curtis à Barton Street en fin de matinée. Le voisin Kevin Wood intervient, coupe la corde et appelle police et ambulance.\n",
+      "type": [
+        "death",
+        "discovery",
+        "domestic_trauma"
+      ],
+      "location": [
+        "Barton Street",
+        "Macclesfield"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Deborah Curtis",
+        "Kevin Wood",
+        "Pam Wood",
+        "Natalie Curtis"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A184"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "horaires précis à croiser avec actes et S45"
+      ],
+      "notes": "Scène à traiter avec sobriété et sans esthétisation."
+    }
+  },
+  "CHR-S76-1980-032": {
+    "kind": "chronology",
+    "id": "CHR-S76-1980-032",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_17.md",
+    "heading": "CHR-S76-1980-032 — Annik Honoré apprend la mort de Curtis",
+    "data": {
+      "id": "CHR-S76-1980-032",
+      "type_unite": "chronology",
+      "date": "1980-05-18",
+      "precision_date": "same_day",
+      "event": "Annik Honoré, de retour de Belgique vers l’Angleterre, apprend la mort de Ian Curtis par Kevin Curtis puis par Rob Gretton.\n",
+      "type": [
+        "death_notification",
+        "Annik_Honore",
+        "grief"
+      ],
+      "location": [
+        "England / Belgium crossing context"
+      ],
+      "people": [
+        "Annik Honoré",
+        "Kevin Curtis",
+        "Rob Gretton"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A185"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "medium",
+      "contradictions": [
+        "chronologie précise du retour à vérifier"
+      ],
+      "notes": "Mémoire de deuil ; pressentiment non probatoire."
+    }
+  },
+  "CHR-S76-1980-033": {
+    "kind": "chronology",
+    "id": "CHR-S76-1980-033",
+    "file": "registers/chronology/s76_torn_apart_chronology_part_17.md",
+    "heading": "CHR-S76-1980-033 — Crémation de Ian Curtis et wake Factory",
+    "data": {
+      "id": "CHR-S76-1980-033",
+      "type_unite": "chronology",
+      "date": "1980-05-23",
+      "precision_date": "exact",
+      "event": "Ian Curtis est crémé. Factory organise un wake séparé à Palatine Road, où est projeté *The Great Rock’n’Roll Swindle* ; Lindsay Reade retient la formule « No one is innocent » comme condensation du sentiment de culpabilité.\n",
+      "type": [
+        "funeral",
+        "Factory_wake",
+        "grief"
+      ],
+      "location": [
+        "Macclesfield / cremation context",
+        "89 Palatine Road",
+        "Didsbury"
+      ],
+      "people": [
+        "Ian Curtis",
+        "Lindsay Reade",
+        "Tony Wilson",
+        "Peter Hook",
+        "Factory circle"
+      ],
+      "sources": [
+        "S76"
+      ],
+      "related_atoms": [
+        "S76-A187",
+        "S76-A188"
+      ],
+      "chapters": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "certainty": "strong",
+      "contradictions": [
+        "détails précis de la cérémonie et des présences à recouper"
+      ],
+      "notes": "Scène de culpabilité collective à traiter sans tribunal rétrospectif."
     }
   },
   "CHR-S76-1978-013": {

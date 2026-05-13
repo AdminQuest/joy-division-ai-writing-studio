@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:20:23"
+generated_at: "2026-05-13T18:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 613 |
+| Atomes | 627 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 81 |
-| Événements chronologiques | 52 |
-| Personnes | 63 |
+| Citations | 83 |
+| Événements chronologiques | 57 |
+| Personnes | 67 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 119 | 54 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 133 | 56 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -348,6 +348,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 - CHR-S76-1980-006 — Joy Division joue à l’Effenaar d’Eindhoven avec Minny Pops. La performance est ensuite partiellement intégrée à la mémoire audiovisuelle du groupe, notamment par les images liées à *Here Are The Young Men*.
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
+- CHR-S76-1980-026 — Ian Curtis descend à Londres pour une Factory night au Scala, où jouent notamment A Certain Ratio, The Durutti Column, Blurt et Section 25. Annik Honoré décrit cette nuit comme la dernière fois où elle voit Ian vivant.
+- CHR-S76-1980-027 — Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».
+- CHR-S76-1980-030 — Ian Curtis passe sa dernière nuit à Barton Street. Deborah vient brièvement après son travail, la discussion sur l’avenir du couple ne conclut pas, et Ian reste seul avec le projet de regarder un film de Herzog.
+- CHR-S76-1980-032 — Annik Honoré, de retour de Belgique vers l’Angleterre, apprend la mort de Ian Curtis par Kevin Curtis puis par Rob Gretton.
+- CHR-S76-1980-033 — Ian Curtis est crémé. Factory organise un wake séparé à Palatine Road, où est projeté *The Great Rock’n’Roll Swindle* ; Lindsay Reade retient la formule « No one is innocent » comme condensation du sentiment de culpabilité.
 - CHR-S76-1978-013 — La première soirée Factory a lieu au Russell Club, avec Durutti Column et Jilted John. Tony Wilson et Alan Erasmus utilisent le vendredi soir du club comme espace d’expérimentation pour une scène post-punk mancunienne qui manque de lieu régulier.
 - CHR-S76-1978-014 — Lors de la troisième soirée Factory, Rob Gretton et Tony Wilson invitent Mick Middles à couvrir Cabaret Voltaire et Durutti Column pour *Sounds*. La presse londonienne commence à lire Manchester, Sheffield et les villes du Nord comme un espace post-punk émergent.
 - CHR-S76-1978-015 — Roger Eagle appelle Tony Wilson pour proposer la formation d’un label réunissant les talents émergents de Manchester et Liverpool. Le projet envisagé repose sur un disque de lancement partagé entre les deux villes, avant d’échouer sur un désaccord de format.
@@ -363,11 +368,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1979-006 — Joy Division enregistre sa première John Peel Session aux studios BBC de Maida Vale, avec Bob Sargeant et Nick Gomm. Les titres enregistrés sont « Exercise One », « Insight », « Transmission » et « She’s Lost Control ».
 - CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
 - CHR-S76-1978-003 — Joy Division participe au Stiff Test / Chiswick Challenge à Rafters ; The Negatives contribuent à retarder le passage du groupe, Bob Dickinson est frappé par son énergie négative, Rob Gretton décide de le manager, et Curtis interpelle violemment Tony Wilson après le set.
-- CHR-S76-1980-008 — Joy Division retourne à Strawberry Studios pour enregistrer une version 12 pouces de « She’s Lost Control », destinée au marché américain. Curtis écrit à Annik que la session se termine vers neuf heures du matin et qu’il a dû écrire un nouveau vers en studio.
-- CHR-S76-1980-010 — Joy Division joue au Warehouse de Preston avec Section 25. Le concert est marqué par des problèmes techniques, l’effondrement momentané de « The Eternal », la première apparition live de « Heart and Soul » et une frustration économique autour du cachet.
-- CHR-S76-1980-011 — Joy Division joue au Lyceum de Londres. Curtis subit une crise grand mal qui commence sur scène ; Terry Mason et Tony Wilson le retirent vers les escaliers du théâtre.
-- CHR-S76-1980-013 — Joy Division retravaille « Love Will Tear Us Apart » à Strawberry Studios. Curtis écrit que la chanson n’est pas terminée, et Tony Wilson lui apporte un double album de Frank Sinatra pour nourrir sa réflexion sur le phrasé vocal.
-- CHR-S76-1980-019 — La pochette de *Closer* est élaborée autour d’une photographie de Bernard Pierre Wolff prise au cimetière de Staglieno, avec Martyn Atkins et Peter Saville. La signification funéraire de l’objet sera amplifiée après la mort de Curtis.
 
 ## 9. Personnes et acteurs
 
@@ -398,6 +398,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-071 — Minny Pops
 - PERS-S76-022 — Tony Wilson
 - PERS-S76-023 — Kevin Cummins
+- PERS-S76-086 — Genesis P-Orridge
+- PERS-S76-087 — Carole Curtis
+- PERS-S76-088 — Vini Reilly
+- PERS-S76-089 — Paul Morley
 - PERS-013 — Chris Ott
 - PERS-014 — Paul Morley
 - PERS-016 — Bedhead
@@ -407,10 +411,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-082 — Perry Boys
 - PERS-S76-083 — Larry Cassidy
 - PERS-S76-037 — Rob Gretton
-- PERS-S76-038 — Mike Pickering
-- PERS-S76-066 — Jean-Pierre Turmel
-- PERS-S76-067 — Annik Honoré
-- PERS-S76-068 — Buzzcocks
 
 ## 10. Chansons rattachées
 
@@ -510,9 +510,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
-- Annik Honoré (11)
-- Tony Wilson (11)
-- Rob Gretton (10)
+- Annik Honoré (16)
+- Tony Wilson (12)
+- Rob Gretton (11)
 - fatigue (8)
 - Factory (7)
 - Unknown Pleasures (6)
@@ -525,7 +525,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Kevin Cummins (4)
 - Still (4)
 - Rabid Records (4)
+- Deborah Curtis (4)
 - Love Will Tear Us Apart (4)
+- A Certain Ratio (4)
 - Bowie (3)
 - presse musicale (3)
 - Plan K (3)
@@ -533,6 +535,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Derby Hall (3)
 - Dead Souls (3)
 - Alan Hempsall (3)
+- Ceremony (3)
 - transition (3)
 - postérité (3)
 - Wilson (3)
@@ -547,9 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - pochette (3)
 - Martin Hannett (3)
 - Terry Mason (3)
-- Strawberry Studios (3)
-- Deborah Curtis (3)
-- Moonlight Club (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -662,6 +662,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | biographie | 5 |
 | controverse | 5 |
 | citation_repere | 5 |
+| live_set_context | 5 |
 | live_set_bootleg_context | 5 |
 | management | 4 |
 | television | 4 |
@@ -676,7 +677,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | acteur_critique | 4 |
 | lecture_chanson | 4 |
 | concert_europeen | 4 |
-| live_set_context | 4 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
 | reception_posthume | 3 |
@@ -693,6 +693,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | session_studio | 3 |
 | interpretation | 3 |
 | song_session | 3 |
+| song | 3 |
 | infrastructure | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -711,6 +712,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | mémoire | 2 |
 | controverse_biographique | 2 |
 | outtakes | 2 |
+| dernier_concert | 2 |
 | reception_radio | 2 |
 | collection | 2 |
 | archive_inedite | 2 |
@@ -721,14 +723,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
 | reception_interne | 2 |
+| lettre_intime | 2 |
 | scene_medicale_live | 2 |
 | reception_scene | 2 |
+| scene_intime | 2 |
 | concept_management | 2 |
 | bascule_tournee | 2 |
 | concert_archive | 2 |
 | esthétique_visuelle | 2 |
 | album | 2 |
-| song | 2 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
 | objet_sonore_new_order | 1 |
@@ -796,7 +799,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | economie_musicale | 1 |
 | strategie_discographique | 1 |
 | objet_artistique | 1 |
-| dernier_concert | 1 |
 | reception_deces | 1 |
 | critique_mythologie | 1 |
 | fin_groupe | 1 |
@@ -863,7 +865,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | mythe_nomination | 1 |
 | economie_discographique | 1 |
 | tension_synthese | 1 |
-| lettre_intime | 1 |
 | concert_incident | 1 |
 | controverse_intime_medicale | 1 |
 | crise_professionnelle | 1 |
@@ -902,7 +903,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | bascule_live | 1 |
 | concert_local | 1 |
 | concert_majeur | 1 |
-| scene_intime | 1 |
 | scene_intime_europeenne | 1 |
 | scene_management | 1 |
 | lecture_reprise | 1 |
@@ -912,6 +912,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_suicide_attempt | 1 |
 | hospitalisation | 1 |
 | scene_contractuelle | 1 |
+| contexte_live | 1 |
+| lettre_absente | 1 |
+| alerte_memorielle | 1 |
+| derniere_nuit | 1 |
+| scene_deuil | 1 |
+| memoire_endeuillée | 1 |
+| scene_deuil_mythographique | 1 |
+| scene_deuil_collectif | 1 |
 | concert_filme | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
@@ -938,15 +946,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | song_or_video | 1 |
 | release_object | 1 |
 | live_sequence | 1 |
+| media_context | 1 |
 | live_video_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 446 |
-| critique | 128 |
-| majeure | 35 |
+| non qualifiée | 449 |
+| critique | 135 |
+| majeure | 39 |
 | structurante | 2 |
 | moyenne | 2 |
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:20:23"
+generated_at: "2026-05-13T18:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 273 |
+| Atomes | 276 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 67 |
-| Événements chronologiques | 39 |
+| Citations | 68 |
+| Événements chronologiques | 40 |
 | Personnes | 39 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 80 | 57 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 83 | 58 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -317,12 +317,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S76-Q074** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q176** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q024** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q029** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q136** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q139** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q141** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
-- **S76-Q031** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -344,6 +344,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
 - CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
 - CHR-S76-1978-011 — Joy Division joue au Band On The Wall, lieu important de la scène punk / Musicians Collective. Rob Gretton pousse des journalistes locaux à assister aux concerts. Paul Morley publie dans le NME du 3 juin 1978 une critique prudente mais positive, tandis que d’autres témoins, dont Steve Diggle, restent plus sceptiques.
+- CHR-S76-1980-027 — Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».
 - CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
 - CHR-S76-1978-018 — Joy Division joue à Eric’s, Liverpool. S76 présente ce concert comme la première fois où le groupe bénéficie d’un rider et du concours d’Oz PA, future équipe régulière de sonorisation.
 - CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
@@ -641,12 +642,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | fait | 6 |
 | production | 5 |
 | concert | 5 |
+| live_set_context | 5 |
 | live_set_bootleg_context | 5 |
 | scene_fondatrice | 4 |
 | reception_critique | 4 |
 | concert_europeen | 4 |
 | concept_transversal | 4 |
-| live_set_context | 4 |
 | television | 3 |
 | evenement | 3 |
 | lieu | 3 |
@@ -771,6 +772,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | fait_contractuel | 1 |
 | lieu_scene | 1 |
 | scene_reception | 1 |
+| dernier_concert | 1 |
+| contexte_live | 1 |
 | concert_filme | 1 |
 | contexte_historique | 1 |
 | contexte_materiel | 1 |
@@ -794,9 +797,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 182 |
-| critique | 66 |
-| majeure | 25 |
+| non qualifiée | 183 |
+| critique | 67 |
+| majeure | 26 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T18:20:23"
+generated_at: "2026-05-13T18:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ generated_at: "2026-05-13T18:20:23"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 166 |
+| Atomes | 173 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 51 |
-| Événements chronologiques | 40 |
-| Personnes | 28 |
+| Citations | 55 |
+| Événements chronologiques | 44 |
+| Personnes | 31 |
 | Chansons | 13 |
 | Sources mobilisées | 8 |
 
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T18:20:23"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 66 | 39 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 73 | 43 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -309,6 +309,10 @@ generated_at: "2026-05-13T18:20:23"
 - **S76-Q073** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q075** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q179** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q181** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q182** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q184** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q142** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -317,10 +321,6 @@ generated_at: "2026-05-13T18:20:23"
 - **S76-Q152** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q153** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q101** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -341,6 +341,10 @@ generated_at: "2026-05-13T18:20:23"
 - CHR-S76-1977-001 — Ian et Deborah Curtis assistent au concert d’Iggy Pop à Manchester Apollo pendant la tournée *The Idiot*, avec David Bowie aux claviers.
 - CHR-S76-1977-002 — Ian et Deborah Curtis s’installent à Barton Street, Macclesfield, peu avant le premier concert de Warsaw.
 - CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
+- CHR-S76-1980-028 — Annik Honoré rapporte avoir appelé Ian Curtis trois fois depuis la Belgique ou dans le contexte de Plan K : mercredi soir, vendredi matin et samedi 17 mai à 21 h. Les conversations portent sur le divorce, l’Amérique, les vacances possibles et la difficulté de se revoir avant le départ.
+- CHR-S76-1980-029 — Selon Doreen Curtis, Ian reçoit une lettre d’avocat relative au divorce. Il part ensuite pour Macclesfield / Barton Street afin de régler des choses et dire au revoir à Natalie avant la tournée américaine.
+- CHR-S76-1980-030 — Ian Curtis passe sa dernière nuit à Barton Street. Deborah vient brièvement après son travail, la discussion sur l’avenir du couple ne conclut pas, et Ian reste seul avec le projet de regarder un film de Herzog.
+- CHR-S76-1980-031 — Deborah Curtis découvre le corps de Ian Curtis à Barton Street en fin de matinée. Le voisin Kevin Wood intervient, coupe la corde et appelle police et ambulance.
 - CHR-S76-1978-019 — Joy Division joue son premier concert londonien au Hope & Anchor, Islington. Sur le trajet retour, Ian Curtis subit sa première crise épileptique majeure reconnue ; le groupe le conduit à l’hôpital de Luton, où il reçoit du Phenobarbitone et une lettre de renvoi vers son médecin.
 - CHR-S76-1979-004 — Ian Curtis est diagnostiqué épileptique après consultation d’un spécialiste à Macclesfield Hospital.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
@@ -360,10 +364,6 @@ generated_at: "2026-05-13T18:20:23"
 - CHR-S76-1964-001 — Ian Curtis se présente dans une élection scolaire fictive avec le parti « Curt-servative », souvenir utilisé par Pete Johnson pour décrire son charisme non idéologique.
 - CHR-S76-1968-001 — Autour de douze ans, Ian Curtis organise Treacle Teapot, groupe d’enfance sans véritable équipement mais déjà orienté vers l’idée de scène.
 - CHR-S76-1972-001 — À King’s School, Curtis et un autre garçon prennent des substances ; Curtis s’endort en retenue, subit un lavage d’estomac et est suspendu.
-- CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
-- CHR-S76-1979-011 — Natalie Curtis naît le lundi de Pâques. S76 met en tension la joie de Ian Curtis, la maternité de Deborah et la crainte que l’épilepsie empêche Ian de s’occuper physiquement de sa fille en sécurité.
-- CHR-S76-1979-012 — Le lendemain de la naissance de Natalie, Joy Division joue à Acklam Hall, Londres, avec John Dowie en support. S76 souligne que les concerts londoniens sont considérés comme trop importants pour être annulés.
-- CHR-S76-1979-013 — Ian Curtis subit à Barton Street plusieurs crises épileptiques consécutives. Deborah appelle une ambulance lorsqu’elle ne parvient plus à le réveiller.
 
 ## 9. Personnes et acteurs
 
@@ -374,6 +374,9 @@ generated_at: "2026-05-13T18:20:23"
 - PERS-011 — Natalie Curtis
 - PERS-S76-053 — Mark Reeder
 - PERS-S75-023 — Kevin Cummins
+- PERS-S76-084 — Kevin Wood
+- PERS-S76-085 — Pam Wood
+- PERS-S76-087 — Carole Curtis
 - PERS-S76-041 — Ian Wood
 - PERS-S76-080 — Alan Hempsall
 - PERS-S76-081 — Simon Topping
@@ -499,11 +502,12 @@ generated_at: "2026-05-13T18:20:23"
 
 ### 12.1. Motifs dominants
 
+- Deborah Curtis (9)
 - Ian Curtis (8)
 - épilepsie (8)
-- Deborah Curtis (7)
-- Natalie Curtis (6)
-- Annik Honoré (5)
+- Natalie Curtis (7)
+- Annik Honoré (6)
+- Barton Street (5)
 - Bowie (4)
 - domesticité (4)
 - Tony Wilson (4)
@@ -517,9 +521,12 @@ generated_at: "2026-05-13T18:20:23"
 - Pete Johnson (3)
 - mariage (3)
 - Rob Gretton (3)
+- tournée américaine (3)
+- mort jeune (2)
 - Mick Middles (2)
 - responsabilité (2)
 - deification (2)
+- Plan K (2)
 - Derby Hall (2)
 - histoire (2)
 - Kevin Cummins (2)
@@ -535,10 +542,6 @@ generated_at: "2026-05-13T18:20:23"
 - répétition (2)
 - indépendance (2)
 - télévision régionale (2)
-- mémoire ouvrière (2)
-- violence sociale (2)
-- Love Will Tear Us Apart (2)
-- Lindsay Reade (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -653,6 +656,7 @@ generated_at: "2026-05-13T18:20:23"
 | chronologie_sensible | 2 |
 | mythe | 2 |
 | temoignage | 2 |
+| lettre_intime | 2 |
 | lecture_chanson | 2 |
 | tension_domestique | 2 |
 | contexte_social | 2 |
@@ -694,7 +698,6 @@ generated_at: "2026-05-13T18:20:23"
 | mediation_culturelle | 1 |
 | fait_interprete | 1 |
 | tension_synthese | 1 |
-| lettre_intime | 1 |
 | lettre_medicale | 1 |
 | crise_professionnelle | 1 |
 | image_et_reception | 1 |
@@ -724,6 +727,11 @@ generated_at: "2026-05-13T18:20:23"
 | synthese_interpretative | 1 |
 | scene_reception | 1 |
 | contraste_biographique | 1 |
+| scene_telephonique | 1 |
+| scene_juridico_domestique | 1 |
+| derniere_nuit | 1 |
+| scene_deces | 1 |
+| memoire_endeuillée | 1 |
 | témoignage_externe | 1 |
 | fait_biographique | 1 |
 | tension | 1 |
@@ -732,13 +740,14 @@ generated_at: "2026-05-13T18:20:23"
 | reception_scene | 1 |
 | portrait_sensible | 1 |
 | concept_transversal | 1 |
+| film_context | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| critique | 69 |
-| non qualifiée | 63 |
+| critique | 75 |
+| non qualifiée | 64 |
 | majeure | 33 |
 | structurante | 1 |
 

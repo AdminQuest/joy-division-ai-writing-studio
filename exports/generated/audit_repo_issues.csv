@@ -8127,6 +8127,132 @@ warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_07.md,S76
 warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_07.md,S76-A071,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_07.md,S76-A071,Invalid value for type_unite: contraste_biographique,Aligner la valeur avec le schéma contrôlé.
 warning,schema_warning,sources/middles_reade_torn_apart/source_part_07.md,S76-A071,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A175,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A175,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A175,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A175,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A175,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A175,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A175,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A175,Invalid value for type_unite: lettre_intime,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A175,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A176,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A176,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A176,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A176,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A176,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A176,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A176,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A176,Invalid value for type_unite: scene_intime,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A176,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A177,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A177,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A177,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A177,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A177,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A177,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A177,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A177,Invalid value for type_unite: dernier_concert,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A177,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A178,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A178,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A178,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A178,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A178,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A178,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A178,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A178,Invalid value for type_unite: contexte_live,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A178,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A179,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A179,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A179,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A179,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A179,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A179,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A179,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A179,Invalid value for type_unite: lettre_absente,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A179,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A180,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A180,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A180,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A180,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A180,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A180,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A180,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A180,Invalid value for type_unite: scene_telephonique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A180,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A181,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A181,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A181,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A181,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A181,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A181,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A181,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A181,Invalid value for type_unite: scene_juridico_domestique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A181,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A182,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A182,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A182,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A182,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A182,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A182,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A182,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A182,Invalid value for type_unite: alerte_memorielle,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A182,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A183,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A183,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A183,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A183,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A183,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A183,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A183,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A183,Invalid value for type_unite: derniere_nuit,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A183,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A184,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A184,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A184,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A184,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A184,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A184,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A184,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A184,Invalid value for type_unite: scene_deces,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A184,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A185,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A185,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A185,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A185,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A185,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A185,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A185,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A185,Invalid value for type_unite: scene_deuil,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A185,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A186,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A186,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A186,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A186,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A186,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A186,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A186,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A186,Invalid value for type_unite: memoire_endeuillée,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A186,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A187,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A187,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A187,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A187,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A187,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A187,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A187,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A187,Invalid value for type_unite: scene_deuil_mythographique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A187,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A188,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A188,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A188,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A188,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/middles_reade_torn_apart/source_part_17.md,S76-A188,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A188,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/middles_reade_torn_apart/source_part_17.md,S76-A188,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/middles_reade_torn_apart/source_part_17.md,S76-A188,Invalid value for type_unite: scene_deuil_collectif,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/middles_reade_torn_apart/source_part_17.md,S76-A188,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,missing_required_field,sources/middles_reade_torn_apart/source_part_03.md,S76-A021,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/middles_reade_torn_apart/source_part_03.md,S76-A021,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/middles_reade_torn_apart/source_part_03.md,S76-A021,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -10997,6 +11123,66 @@ warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_16.md,SONG-S
 warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_16.md,SONG-S76-054,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_16.md,SONG-S76-054,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,registers/songs/s76_torn_apart_songs_part_16.md,SONG-S76-054,Invalid value for type_unite: live_sequence,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: importance,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-055,Invalid value for type_unite: live_set_context,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: importance,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-056,Invalid value for type_unite: song,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: importance,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-057,Invalid value for type_unite: media_context,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: role_argumentatif,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: niveau_preuve,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: stabilite,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: importance,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: risque_surinterpretation,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,registers/songs/s76_torn_apart_songs_part_17.md,SONG-S76-058,Invalid value for type_unite: film_context,Aligner la valeur avec le schéma contrôlé.
 warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_07.md,SONG-S76-018,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_07.md,SONG-S76-018,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,registers/songs/s76_torn_apart_songs_part_07.md,SONG-S76-018,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -11366,6 +11552,51 @@ warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_07.md
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_07.md,S76-Q077,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_07.md,S76-Q077,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_07.md,S76-Q077,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q172,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q172,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q172,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q173,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q173,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q173,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q174,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q174,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q174,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q175,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q175,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q175,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q176,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q176,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q176,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q177,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q177,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q177,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q178,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q178,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q178,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q179,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q179,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q179,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q180,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q180,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q180,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q181,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q181,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q181,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q182,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q182,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q182,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q183,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q183,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q183,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q184,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q184,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q184,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q185,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q185,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q185,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q186,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q186,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_17.md,S76-Q186,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_03.md,S76-Q017,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_03.md,S76-Q017,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_03.md,S76-Q017,Missing required field: statut_verification,Compléter le champ obligatoire.
