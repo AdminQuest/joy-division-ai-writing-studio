@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:46:56"
+generated_at: "2026-05-13T12:14:34"
 ```
 
 ## 1. Fonction du chapitre
@@ -24,7 +24,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 |---|---|
 | Atomes | 198 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 8 |
+| Citations | 9 |
 | Événements chronologiques | 11 |
 | Personnes | 14 |
 | Chansons | 6 |
@@ -43,7 +43,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 15 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 18 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 4 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 5 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -291,6 +291,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - **S75-Q004** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 

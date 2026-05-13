@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:46:56"
+generated_at: "2026-05-13T12:14:34"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 192 |
-| Atomes critiques / majeurs | 24 |
+| Atomes | 193 |
+| Atomes critiques / majeurs | 25 |
 | Citations | 10 |
-| Événements chronologiques | 4 |
-| Personnes | 9 |
+| Événements chronologiques | 5 |
+| Personnes | 12 |
 | Chansons | 4 |
 | Sources mobilisées | 9 |
 
@@ -42,7 +42,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 5 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -82,6 +82,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `influence` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A018** — S75-A018 — *An Ideal for Living* : provocation visuelle, jeunesse et impasse critique  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A055** — S75-A055 — Pochette CP 1919 et incertitude d'origine : l'icône comme objet mal stabilisé  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_visuel` ; importance : `critique` ; preuve : `fait_et_reconstruction_memorielle`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A038** — S74-A038 — Strawberry Studios : Unknown Pleasures comme investissement disproportionné  
@@ -277,9 +279,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
 - CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
+- CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 
 ## 9. Personnes et acteurs
 
+- PERS-S75-029 — Peter Saville
+- PERS-S75-030 — Rob Gretton
+- PERS-S75-031 — Marcel Proust
 - PERS-002 — Peter Hook
 - PERS-003 — Bernard Sumner
 - PERS-004 — Stephen Morris
@@ -410,6 +416,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - portrait (1)
 - Curtis icône (1)
 - image médiatique (1)
+- Unknown Pleasures sleeve (1)
+- Peter Saville (1)
+- CP 1919 (1)
+- pulsar (1)
+- icône (1)
 - major (1)
 - bruit (1)
 - mauvais son (1)
@@ -419,11 +430,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - synthétiseur (1)
 - convention rock (1)
 - frustration (1)
-- entrepôt (1)
-- répétition (1)
-- poussière (1)
-- Cargo (1)
-- Digital (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -440,6 +446,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S75-A030 — prolonge → CONCEPT-005
 - S75-A032 — nuance → MYTH-002
 - S75-A032 — prolonge → CONCEPT-004
+- S75-A055 — requiert → CONCEPT-004
+- S75-A055 — prolonge → MOTIF-006
+- S75-A055 — nuance → MYTH-006
 - S74-A023 — prolonge → S74-A022
 - S74-A023 — annonce → S74-A030
 - S74-A023 — nuance → MYTH-005
@@ -568,6 +577,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | controverse | 1 |
 | archive | 1 |
 | archive_visuelle | 1 |
+| objet_visuel | 1 |
 | reception_discographique | 1 |
 | reception_album | 1 |
 | economie_musicale | 1 |
@@ -613,7 +623,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 168 |
-| critique | 18 |
+| critique | 19 |
 | majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -623,6 +633,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
 - S75-A030 [moyen] — ne pas surestimer le 12 pouces comme rupture autonome ; il reste un seuil matériel
 - S75-A032 [moyen] — ne pas faire d'une photographie un tournant causal ; elle cristallise une image
+- S75-A055 [moyen] — l'image est devenue trop canonique ; il faut distinguer sa puissance symbolique et l'incertitude de sa genèse
 - S74-A023 [moyen] — risque de transformer RCA en simple repoussoir alors que Curtis reste attiré par cette voie
 - S74-A025 [moyen] — risque de juger la session seulement comme fiasco sans voir les tensions formatrices qu’elle révèle
 - S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique

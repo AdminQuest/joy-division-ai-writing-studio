@@ -4307,6 +4307,167 @@ warning,missing_required_field,sources/ott_unknown_pleasures/source_part_02.md,S
 warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_02.md,S75-A038,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_02.md,S75-A038,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,schema_warning,sources/ott_unknown_pleasures/source_part_02.md,S75-A038,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A039,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A039,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A039,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A039,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A039,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A039,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A039,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A039,Invalid value for type_unite: session,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A039,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A040,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A040,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A040,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A040,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A040,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A040,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A040,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A040,Invalid value for type_unite: lecture_musicale,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A040,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A041,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A041,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A041,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A041,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A041,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A041,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A041,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A041,Invalid value for type_unite: lecture_musicale,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A041,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A042,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A042,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A042,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A042,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A042,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A042,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A042,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A042,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A043,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A043,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A043,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A043,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A043,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A043,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A043,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A043,Invalid value for type_unite: temoignage,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A043,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Invalid value for type_unite: prudence_methodologique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A044,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Invalid value for type_unite: temoignage,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A045,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A046,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A046,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A046,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A046,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A046,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A046,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A046,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A046,Invalid value for type_unite: lecture_textuelle,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A046,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A047,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A047,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A047,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A047,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A047,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A047,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A047,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A047,Invalid value for type_unite: lecture_textuelle,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A047,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A048,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A048,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A048,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A048,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A048,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A048,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A048,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A048,Invalid value for type_unite: lecture_musicale,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A048,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A049,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A049,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A049,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A049,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A049,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A049,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A049,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A049,Invalid value for type_unite: lecture_musicale,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A049,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A050,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A050,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A050,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A050,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A050,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A050,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A050,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A050,Invalid value for type_unite: chronology,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A050,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A051,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A051,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A051,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A051,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A051,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A051,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A051,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A051,Invalid value for type_unite: temoignage,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A051,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A052,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A052,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A052,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A052,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A052,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A052,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A052,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A052,Invalid value for type_unite: lecture_musicale,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A052,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A053,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A053,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A053,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A053,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A053,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A053,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A053,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A053,Invalid value for type_unite: objet_discographique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A053,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A054,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A054,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A054,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A054,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A054,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A054,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A054,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A054,Invalid value for type_unite: objet_discographique,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A054,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A055,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A055,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A055,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A055,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A055,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A055,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A055,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A055,Invalid value for type_unite: objet_visuel,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A055,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A056,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A056,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A056,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A056,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/ott_unknown_pleasures/source_part_03.md,S75-A056,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A056,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/ott_unknown_pleasures/source_part_03.md,S75-A056,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/ott_unknown_pleasures/source_part_03.md,S75-A056,Invalid value for type_unite: contexte,Aligner la valeur avec le schéma contrôlé.
+warning,schema_warning,sources/ott_unknown_pleasures/source_part_03.md,S75-A056,Missing nested field: stabilite.risque_revision,Examiner le bloc et décider s’il relève d’une correction ou de la dette v2.
 warning,invalid_controlled_value,sources/mike_west_joy_division/chronology.md,CHR-S47-001,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
 warning,invalid_controlled_value,sources/mike_west_joy_division/chronology.md,CHR-S47-002,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
 warning,invalid_controlled_value,sources/mike_west_joy_division/chronology.md,CHR-S47-003,Invalid value for certainty: forte,Aligner la valeur avec le schéma contrôlé.
@@ -8627,6 +8788,26 @@ warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing requir
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/greig_strong/source.md,S69-A020,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/greig_strong/source.md,S69-A020,Invalid value for type_unite: synthese,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-016,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-016,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-017,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-017,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-018,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-018,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-019,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-019,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-020,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-020,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-021,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-021,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-022,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-022,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-023,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-023,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-024,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-024,Missing required field: sources,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-025,Missing required field: themes,Compléter le champ obligatoire.
+warning,missing_required_field,registers/songs/s75_ott_songs_part_03.md,SONG-S75-025,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/songs/s75_ott_songs_part_02.md,SONG-S75-007,Missing required field: themes,Compléter le champ obligatoire.
 warning,missing_required_field,registers/songs/s75_ott_songs_part_02.md,SONG-S75-007,Missing required field: sources,Compléter le champ obligatoire.
 warning,missing_required_field,registers/songs/s75_ott_songs_part_02.md,SONG-S75-008,Missing required field: themes,Compléter le champ obligatoire.
@@ -8672,5 +8853,26 @@ warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q008,Missi
 warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q009,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q009,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s75_ott_quotes.md,S75-Q009,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q010,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q010,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q010,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q011,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q011,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q011,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q012,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q012,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q012,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q013,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q013,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q013,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q014,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q014,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q014,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q015,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q015,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q015,Missing required field: statut_verification,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q016,Missing required field: citation_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q016,Missing required field: langue_originale,Compléter le champ obligatoire.
+warning,missing_required_field,registers/quotes/s75_ott_quotes_part_03.md,S75-Q016,Missing required field: statut_verification,Compléter le champ obligatoire.
 error,duplicate_id,registers/chronology/master_chronology.md,CHR-1979-001,Duplicate id also found in registers/chronology/s75_ott_chronology.md,Renommer ou fusionner l’identifiant en doublon.
 error,duplicate_id,registers/chronology/master_chronology.md,CHR-1979-002,Duplicate id also found in registers/chronology/s75_ott_chronology.md,Renommer ou fusionner l’identifiant en doublon.

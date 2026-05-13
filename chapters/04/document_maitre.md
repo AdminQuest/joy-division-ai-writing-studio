@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:46:56"
+generated_at: "2026-05-13T12:14:34"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ generated_at: "2026-05-13T11:46:56"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 82 |
-| Atomes critiques / majeurs | 21 |
-| Citations | 6 |
-| Événements chronologiques | 3 |
-| Personnes | 5 |
-| Chansons | 6 |
+| Atomes | 90 |
+| Atomes critiques / majeurs | 29 |
+| Citations | 9 |
+| Événements chronologiques | 4 |
+| Personnes | 6 |
+| Chansons | 10 |
 | Sources mobilisées | 7 |
 
 ## 4. Sources mobilisées
@@ -40,7 +40,7 @@ generated_at: "2026-05-13T11:46:56"
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 5 | 1 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 13 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -60,6 +60,14 @@ generated_at: "2026-05-13T11:46:56"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A020** — S75-A020 — « No Love Lost » comme début réel de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A041** — S75-A041 — « Disorder » comme manifeste sonore d'entrée  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A044** — S75-A044 — De la lecture des paroles à la téléologie : le piège Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A045** — S75-A045 — Deborah Curtis comme oreille littérale des textes  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_memoire`.
+- **S75-A047** — S75-A047 — « She’s Lost Control » : origine professionnelle, retour biographique et comparaison des versions  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A001** — S74-A001 — Factory comme entité esthétique contradictoire  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A005** — S74-A005 — Rob Gretton comme figure de contrôle silencieux  
@@ -86,6 +94,14 @@ generated_at: "2026-05-13T11:46:56"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
 - **S75-A032** — S75-A032 — Kevin Cummins et le contre-portrait de Curtis  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A043** — S75-A043 — Curtis aime le disque : divergence interne dans la réception d'Hannett  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `majeure` ; preuve : `reconstruction_critique`.
+- **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -220,15 +236,20 @@ generated_at: "2026-05-13T11:46:56"
 - **S45-Q003** — S45 — Curtis, Touching from a Distance, 1995 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « a one-off »
 - **S47-Q003** — S47 — West, Joy Division, 1984 — statut : `verifie_fragment` — « a loser caught in a world only partially understood. »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
+- CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
 
 ## 9. Personnes et acteurs
 
+- PERS-S75-028 — Natalie Curtis
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
 - PERS-010 — Annick Honoré
@@ -239,6 +260,10 @@ generated_at: "2026-05-13T11:46:56"
 
 - She's Lost Control
 - Love Will Tear Us Apart
+- SONG-S75-016 — Disorder
+- SONG-S75-017 — Day of the Lords
+- SONG-S75-019 — New Dawn Fades
+- SONG-S75-021 — I Remember Nothing
 - SONG-S75-001 — No Love Lost
 - SONG-S75-006 — Gutz
 - SONG-S75-013 — Exercise One
@@ -249,12 +274,14 @@ generated_at: "2026-05-13T11:46:56"
 - Ian Curtis (37)
 - epilepsie (10)
 - scène (6)
+- prudence historiographique (6)
 - factory (6)
 - danse (5)
 - épilepsie (5)
 - fatigue (5)
 - tony wilson (5)
 - voix (4)
+- architecture sonore (4)
 - rob gretton (4)
 - stroboscopes (3)
 - performance (3)
@@ -324,14 +351,15 @@ generated_at: "2026-05-13T11:46:56"
 - Temazepam (1)
 - phénobarbital (1)
 - comportement (1)
-- grossesse (1)
-- solitude (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
 - Wythenshawe (3)
+- paroles (2)
+- épilepsie (2)
+- contrôle (2)
 - reconnaissance (2)
 - indépendance (2)
 - télévision régionale (2)
@@ -360,17 +388,14 @@ generated_at: "2026-05-13T11:46:56"
 - portrait (1)
 - Curtis icône (1)
 - image médiatique (1)
-- frustration (1)
-- talent contest (1)
-- note injurieuse (1)
-- naissance Factory (1)
-- manager (1)
-- répétition (1)
-- maladresse (1)
-- Gretton (1)
-- club (1)
-- Hulme (1)
-- reggae (1)
+- Disorder (1)
+- basse de Hook (1)
+- voix de Curtis (1)
+- caisse claire (1)
+- catharsis (1)
+- Curtis (1)
+- Hannett (1)
+- Kraftwerk (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -385,6 +410,30 @@ generated_at: "2026-05-13T11:46:56"
 - S75-A020 — annonce → CONCEPT-architecture_sonore
 - S75-A032 — nuance → MYTH-002
 - S75-A032 — prolonge → CONCEPT-004
+- S75-A041 — illustre → CONCEPT-006
+- S75-A041 — requiert → CONCEPT-004
+- S75-A041 — nuance → MYTH-002
+- S75-A043 — nuance → MYTH-004
+- S75-A043 — prolonge → CONCEPT-006
+- S75-A043 — nuance → MYTH-002
+- S75-A044 — requiert → CONCEPT-004
+- S75-A044 — nuance → MYTH-002
+- S75-A044 — prolonge → S75-A041
+- S75-A045 — prolonge → CONCEPT-004
+- S75-A045 — nuance → MYTH-002
+- S75-A045 — prolonge → S45
+- S75-A046 — requiert → CONCEPT-004
+- S75-A046 — nuance → MYTH-002
+- S75-A046 — prolonge → MOTIF-003
+- S75-A047 — requiert → CONCEPT-004
+- S75-A047 — nuance → MYTH-002
+- S75-A047 — prolonge → CONCEPT-006
+- S75-A048 — illustre → CONCEPT-006
+- S75-A048 — nuance → MYTH-002
+- S75-A048 — nuance → MYTH-004
+- S75-A049 — prolonge → CONCEPT-006
+- S75-A049 — prolonge → MOTIF-001
+- S75-A049 — requiert → CONCEPT-004
 - S74-A026 — nuance → MYTH-005
 - S74-A026 — prolonge → S74-A017
 - S74-A026 — annonce → S74-A030
@@ -441,6 +490,7 @@ generated_at: "2026-05-13T11:46:56"
 | biographie | 6 |
 | interpretation | 5 |
 | lecture | 4 |
+| lecture_musicale | 4 |
 | relation | 3 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
@@ -448,6 +498,8 @@ generated_at: "2026-05-13T11:46:56"
 | domesticité | 2 |
 | relation_conjugale | 2 |
 | mythe | 2 |
+| temoignage | 2 |
+| lecture_textuelle | 2 |
 | fait | 2 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
@@ -468,8 +520,8 @@ generated_at: "2026-05-13T11:46:56"
 | cadre_narratif | 1 |
 | sociologie | 1 |
 | citation_clef | 1 |
-| lecture_musicale | 1 |
 | archive_visuelle | 1 |
+| prudence_methodologique | 1 |
 | reception_comparative | 1 |
 | equipment_file | 1 |
 | citation_repere | 1 |
@@ -496,8 +548,8 @@ generated_at: "2026-05-13T11:46:56"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| majeure | 13 |
-| critique | 8 |
+| majeure | 17 |
+| critique | 12 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -507,6 +559,14 @@ generated_at: "2026-05-13T11:46:56"
 - S75-A012 [moyen] — scène très suggestive, exposée au risque de psychologisation
 - S75-A020 [moyen] — formule forte d'Ott ; à articuler avec d'autres seuils possibles comme « Digital » ou les sessions RCA
 - S75-A032 [moyen] — ne pas faire d'une photographie un tournant causal ; elle cristallise une image
+- S75-A041 [moyen] — la lecture des paroles doit éviter de devenir prophétie rétrospective
+- S75-A043 [moyen] — le goût de Curtis ne doit pas effacer les tensions collectives ni être psychologisé
+- S75-A044 [eleve] — le passage appelle directement une lecture prophétique de Curtis, qu'il faut transformer en prudence explicite
+- S75-A045 [eleve] — l'écoute de Deborah est précieuse mais reste située, affective et rétrospective
+- S75-A046 [eleve] — les morceaux sont très exposés à une lecture de destin rétrospectif
+- S75-A047 [eleve] — risque majeur de réduire le morceau à l'épilepsie de Curtis ou à une anticipation de sa trajectoire
+- S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
+- S75-A049 [eleve] — les images domestiques et médicales de « I Remember Nothing » imposent une prudence forte
 - S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
 - S74-A027 [faible] — scène largement cohérente avec les autres récits internes, mais stylisée par Middles
 - S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique

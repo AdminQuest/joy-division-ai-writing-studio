@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:46:56"
+generated_at: "2026-05-13T12:14:34"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 66 |
-| Atomes critiques / majeurs | 13 |
+| Atomes | 68 |
+| Atomes critiques / majeurs | 15 |
 | Citations | 3 |
 | Événements chronologiques | 3 |
 | Personnes | 4 |
@@ -40,7 +40,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 12 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -68,8 +68,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A052** — S75-A052 — Électronique et bruit industriel : perception transformée mais source collective  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -238,6 +242,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - Glass (2)
 - novelty (2)
 - glass (2)
+- architecture sonore (2)
 - répétition (2)
 - factory (2)
 - spatialisation sonore (2)
@@ -286,12 +291,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - godard (1)
 - alienation effects (1)
 - anti-romantisme (1)
-- pere ubu (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- électronique (2)
 - objet disque (2)
 - reprise (1)
 - postérité (1)
@@ -302,7 +307,15 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - communication (1)
 - pop song (1)
 - post-punk (1)
-- électronique (1)
+- Shadowplay (1)
+- énergie rock (1)
+- guitare (1)
+- récit (1)
+- anti-morbidité (1)
+- Kraftwerk (1)
+- Roxy Music (1)
+- Brian Eno (1)
+- bruit industriel (1)
 - provocation (1)
 - imagerie fasciste (1)
 - naïveté (1)
@@ -323,15 +336,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - impraticabilité (1)
 - décision esthétique (1)
 - Cargo (1)
-- Digital (1)
-- Glass (1)
-- build-up (1)
-- producteur (1)
-- digital delay (1)
-- batterie (1)
-- chambre imaginaire (1)
-- isolation sonore (1)
-- visualité du son (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -339,6 +343,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S75-A001 — nuance → MYTH-culte_sombre
 - S75-A034 — prolonge → CONCEPT-006
 - S75-A034 — nuance → MYTH-joy_division_pure_obscurité
+- S75-A048 — illustre → CONCEPT-006
+- S75-A048 — nuance → MYTH-002
+- S75-A048 — nuance → MYTH-004
+- S75-A052 — nuance → MYTH-004
+- S75-A052 — prolonge → CONCEPT-006
+- S75-A052 — nuance → MYTH-003
 - S74-A024 — nuance → MYTH-002
 - S74-A024 — prolonge → S74-A017
 - S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
@@ -385,6 +395,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | contrepoint | 6 |
 | production | 6 |
 | reception | 3 |
+| lecture_musicale | 3 |
 | controverse | 2 |
 | design | 2 |
 | analyse_studio | 2 |
@@ -397,7 +408,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | synthese | 1 |
 | réception | 1 |
 | memoire | 1 |
-| lecture_musicale | 1 |
 | lieu | 1 |
 | institution | 1 |
 | session | 1 |
@@ -415,14 +425,16 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 52 |
-| critique | 12 |
-| majeure | 1 |
+| critique | 13 |
+| majeure | 2 |
 | moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
 - S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
+- S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
+- S75-A052 [moyen] — risque de minimiser Hannett en réaction au mythe inverse ; la force tient à l'articulation groupe/producteur
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
 - S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
 - S74-A031 [moyen] — risque de téléologie reliant trop directement le premier poster à l’ensemble de l’esthétique Factory ultérieure

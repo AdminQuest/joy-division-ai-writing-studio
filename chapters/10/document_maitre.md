@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:46:56"
+generated_at: "2026-05-13T12:14:34"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 54 |
-| Atomes critiques / majeurs | 2 |
+| Atomes | 56 |
+| Atomes critiques / majeurs | 4 |
 | Citations | 2 |
 | Événements chronologiques | 1 |
-| Personnes | 5 |
-| Chansons | 4 |
+| Personnes | 6 |
+| Chansons | 6 |
 | Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
@@ -42,12 +42,16 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 7 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 1 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
 
 ## 5. Atomes critiques ou majeurs
 
 - **S75-A038** — S75-A038 — *Unknown Pleasures* comme secret produit en masse  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_donnees_de_vente`.
+- **S75-A053** — S75-A053 — « Autosuggestion » et « From Safety to Where...? » : les chutes qui déplacent l'album  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A055** — S75-A055 — Pochette CP 1919 et incertitude d'origine : l'icône comme objet mal stabilisé  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_visuel` ; importance : `critique` ; preuve : `fait_et_reconstruction_memorielle`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
@@ -169,6 +173,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 9. Personnes et acteurs
 
+- PERS-S75-029 — Peter Saville
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
 - PERS-010 — Annick Honoré
@@ -180,6 +185,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Love Will Tear Us Apart
 - Atmosphere
 - Decades
+- SONG-S75-022 — Autosuggestion
+- SONG-S75-023 — From Safety to Where...?
 - SONG-S75-003 — Disorder
 
 ## 11. Concepts récurrents
@@ -279,6 +286,16 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - bouche-à-oreille (1)
 - image (1)
 - indépendance (1)
+- Autosuggestion (1)
+- From Safety to Where...? (1)
+- Earcom 2 (1)
+- dub (1)
+- FAST Product (1)
+- Unknown Pleasures sleeve (1)
+- Peter Saville (1)
+- CP 1919 (1)
+- pulsar (1)
+- icône (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -287,6 +304,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S75-A038 — prolonge → MYTH-005
 - S75-A038 — prolonge → CONCEPT-007
 - S75-A038 — prolonge → S75-A036
+- S75-A053 — prolonge → MOTIF-004
+- S75-A053 — prolonge → CONCEPT-006
+- S75-A053 — prépare → S75-A054
+- S75-A055 — requiert → CONCEPT-004
+- S75-A055 — prolonge → MOTIF-006
+- S75-A055 — nuance → MYTH-006
 
 ## 13. Distribution documentaire
 
@@ -319,6 +342,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
 | concept | 1 |
+| objet_discographique | 1 |
+| objet_visuel | 1 |
 | citation_repere | 1 |
 | fait_biographique | 1 |
 
@@ -327,13 +352,15 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 52 |
+| critique | 3 |
 | majeure | 1 |
-| critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
 - S75-A038 [moyen] — chiffres de vente et formule conceptuelle doivent être recoupés avec sources Factory / discographiques
+- S75-A053 [moyen] — ne pas réécrire l'album idéal à partir des chutes ; elles documentent une constellation, pas un album alternatif certain
+- S75-A055 [moyen] — l'image est devenue trop canonique ; il faut distinguer sa puissance symbolique et l'incertitude de sa genèse
 
 ## 15. Lacunes et prochaines vérifications
 

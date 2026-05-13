@@ -1,7 +1,7 @@
 [
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1199",
+    "id": "NO_ID::registers/songs/master_songs.md::1217",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -578,6 +578,362 @@
         "statut exact du morceau comme chanson Joy Division ou New Order"
       ],
       "notes": "« Ceremony » constitue l’un des principaux points de passage entre les deux groupes."
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-016",
+    "file": "registers/songs/s75_ott_songs_part_03.md",
+    "heading": "SONG-S75-016 — « Disorder »",
+    "data": {
+      "id": "SONG-S75-016",
+      "type_unite": "song",
+      "song": "Disorder",
+      "titre_fr": "« Disorder »",
+      "source_id": "S75",
+      "fonction_s75": "Ott lit « Disorder » comme ouverture-manifeste de *Unknown Pleasures*, portée par la caisse claire traitée, la basse de Hook et la tension cathartique.\n",
+      "usage": [
+        "ouverture album",
+        "architecture sonore",
+        "paroles de Curtis"
+      ],
+      "related_atoms": [
+        "S75-A041"
+      ],
+      "related_concepts": [
+        "CONCEPT-006",
+        "CONCEPT-004"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 4",
+        "Chapitre 6"
+      ],
+      "certainty": "strong",
+      "notes": "À utiliser comme entrée sonore dans l'analyse de l'album, sans surcharger les paroles d'une téléologie tragique.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-017",
+    "file": "registers/songs/s75_ott_songs_part_03.md",
+    "heading": "SONG-S75-017 — « Day of the Lords »",
+    "data": {
+      "id": "SONG-S75-017",
+      "type_unite": "song",
+      "song": "Day of the Lords",
+      "titre_fr": "« Day of the Lords »",
+      "source_id": "S75",
+      "fonction_s75": "Ott situe « Day of the Lords » dans la sortie du feu punk vers des tempos lents, atmosphériques et sévères.\n",
+      "usage": [
+        "lenteur",
+        "abandon du punk immédiat",
+        "gravité sonore"
+      ],
+      "related_atoms": [
+        "S75-A046"
+      ],
+      "related_concepts": [
+        "CONCEPT-006"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 4"
+      ],
+      "certainty": "medium",
+      "notes": "Entrée utile pour le déplacement punk/post-punk et la dramaturgie de la première face.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-018",
+    "file": "registers/songs/s75_ott_songs_part_03.md",
+    "heading": "SONG-S75-018 — « Candidate »",
+    "data": {
+      "id": "SONG-S75-018",
+      "type_unite": "song",
+      "song": "Candidate",
+      "titre_fr": "« Candidate »",
+      "source_id": "S75",
+      "fonction_s75": "Ott analyse « Candidate » comme un morceau très dénudé, construit sur basse répétitive, voix treblée et traitement exposé de la caisse claire.\n",
+      "usage": [
+        "dépouillement",
+        "voix traitée",
+        "production Hannett"
+      ],
+      "related_atoms": [
+        "S75-A049"
+      ],
+      "related_concepts": [
+        "CONCEPT-006"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "certainty": "medium",
+      "notes": "À relier à « I Remember Nothing » comme modèle de vide produit.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-019",
+    "file": "registers/songs/s75_ott_songs_part_03.md",
+    "heading": "SONG-S75-019 — « New Dawn Fades »",
+    "data": {
+      "id": "SONG-S75-019",
+      "type_unite": "song",
+      "song": "New Dawn Fades",
+      "titre_fr": "« New Dawn Fades »",
+      "source_id": "S75",
+      "fonction_s75": "Ott en fait l'un des lieux les plus lisibles du fatalisme textuel et vocal de Curtis, tout en appelant une forte prudence anti-prophétique.\n",
+      "usage": [
+        "fatalisme textuel",
+        "voix de Curtis",
+        "prudence historiographique"
+      ],
+      "related_atoms": [
+        "S75-A046",
+        "S75-A045"
+      ],
+      "related_concepts": [
+        "CONCEPT-004"
+      ],
+      "related_myths": [
+        "MYTH-002"
+      ],
+      "chapters": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "notes": "Ne jamais traiter comme annonce directe du suicide ; à lire comme texte, voix et situation biographique complexe.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-020",
+    "file": "registers/songs/s75_ott_songs_part_03.md",
+    "heading": "SONG-S75-020 — « Wilderness »",
+    "data": {
+      "id": "SONG-S75-020",
+      "type_unite": "song",
+      "song": "Wilderness",
+      "titre_fr": "« Wilderness »",
+      "source_id": "S75",
+      "fonction_s75": "Ott signale « Wilderness » comme exposition très nette du digital delay sur la caisse claire et comme précurseur partiel de « Dead Souls ».\n",
+      "usage": [
+        "delay",
+        "seconde face",
+        "expérimentation"
+      ],
+      "related_atoms": [
+        "S75-A049"
+      ],
+      "related_concepts": [
+        "CONCEPT-006"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "certainty": "medium",
+      "notes": "Intérêt surtout technique et comparatif.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-021",
+    "file": "registers/songs/s75_ott_songs_part_03.md",
+    "heading": "SONG-S75-021 — « I Remember Nothing »",
+    "data": {
+      "id": "SONG-S75-021",
+      "type_unite": "song",
+      "song": "I Remember Nothing",
+      "titre_fr": "« I Remember Nothing »",
+      "source_id": "S75",
+      "fonction_s75": "Ott traite le morceau comme finale de vide, bris de verre, accidents électroniques et voix isolée, avec de fortes implications domestiques et médicales.\n",
+      "usage": [
+        "finale album",
+        "vide sonore",
+        "prudence biographique"
+      ],
+      "related_atoms": [
+        "S75-A049",
+        "S75-A044"
+      ],
+      "related_concepts": [
+        "CONCEPT-006",
+        "CONCEPT-004"
+      ],
+      "related_myths": [
+        "MYTH-002"
+      ],
+      "chapters": [
+        "Chapitre 3",
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "certainty": "medium",
+      "notes": "À manier avec prudence : force textuelle et sonore, mais risque élevé de surinterprétation domestique.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-022",
+    "file": "registers/songs/s75_ott_songs_part_03.md",
+    "heading": "SONG-S75-022 — « Autosuggestion »",
+    "data": {
+      "id": "SONG-S75-022",
+      "type_unite": "song",
+      "song": "Autosuggestion",
+      "titre_fr": "« Autosuggestion »",
+      "source_id": "S75",
+      "fonction_s75": "Ott voit dans « Autosuggestion » la pièce la plus proche du dub chez Joy Division et une auto-exhortation contre la peur et le retrait.\n",
+      "usage": [
+        "Earcom 2",
+        "dub",
+        "chutes Unknown Pleasures"
+      ],
+      "related_atoms": [
+        "S75-A053",
+        "S75-A050"
+      ],
+      "related_motifs": [
+        "MOTIF-004"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 8",
+        "Chapitre 10"
+      ],
+      "certainty": "strong",
+      "notes": "Morceau hors album essentiel pour comprendre l'extension expérimentale des sessions.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-023",
+    "file": "registers/songs/s75_ott_songs_part_03.md",
+    "heading": "SONG-S75-023 — « From Safety to Where...? »",
+    "data": {
+      "id": "SONG-S75-023",
+      "type_unite": "song",
+      "song": "From Safety to Where...?",
+      "titre_fr": "« From Safety to Where...? »",
+      "source_id": "S75",
+      "fonction_s75": "Ott lit le titre comme pièce lumineuse, liquide, presque pré-New Order, mais centrée sur une paralysie existentielle explicite.\n",
+      "usage": [
+        "Earcom 2",
+        "pré-New Order",
+        "paralysie"
+      ],
+      "related_atoms": [
+        "S75-A053"
+      ],
+      "related_motifs": [
+        "MOTIF-004"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 8",
+        "Chapitre 10"
+      ],
+      "certainty": "strong",
+      "notes": "À relier aux continuités Joy Division / New Order avec prudence.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-024",
+    "file": "registers/songs/s75_ott_songs_part_03.md",
+    "heading": "SONG-S75-024 — « The Only Mistake »",
+    "data": {
+      "id": "SONG-S75-024",
+      "type_unite": "song",
+      "song": "The Only Mistake",
+      "titre_fr": "« The Only Mistake »",
+      "source_id": "S75",
+      "fonction_s75": "Ott considère « The Only Mistake » comme l'un des morceaux les plus sonores et austères du groupe, publié plus tard sur *Still*.\n",
+      "usage": [
+        "Still",
+        "austérité gothique",
+        "titre de réserve"
+      ],
+      "related_atoms": [
+        "S75-A054"
+      ],
+      "related_motifs": [
+        "MOTIF-004"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "certainty": "medium",
+      "notes": "Entrée utile pour la valeur des morceaux écartés des sessions d'avril 1979.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
+    }
+  },
+  {
+    "kind": "song",
+    "id": "SONG-S75-025",
+    "file": "registers/songs/s75_ott_songs_part_03.md",
+    "heading": "SONG-S75-025 — « Walked in Line »",
+    "data": {
+      "id": "SONG-S75-025",
+      "type_unite": "song",
+      "song": "Walked in Line",
+      "titre_fr": "« Walked in Line »",
+      "source_id": "S75",
+      "fonction_s75": "Ott signale « Walked in Line » comme titre de session publié sur *Still*, avec enjeu de remix et de version originale.\n",
+      "usage": [
+        "Still",
+        "version de session",
+        "corpus posthume"
+      ],
+      "related_atoms": [
+        "S75-A050",
+        "S75-A054"
+      ],
+      "related_motifs": [
+        "MOTIF-004"
+      ],
+      "chapters": [
+        "Chapitre 6",
+        "Chapitre 8"
+      ],
+      "certainty": "medium",
+      "notes": "Vérifier précisément les versions disponibles dans *Still* et *Heart and Soul*.",
+      "source_label": "S75 — Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_short_title": "Chris Ott, Joy Division's Unknown Pleasures, 2004",
+      "source_year": "2004"
     }
   },
   {

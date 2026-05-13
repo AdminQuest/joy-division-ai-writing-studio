@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:46:56"
+generated_at: "2026-05-13T12:14:34"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ generated_at: "2026-05-13T11:46:56"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 50 |
-| Atomes critiques / majeurs | 7 |
+| Atomes | 51 |
+| Atomes critiques / majeurs | 8 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 1 |
@@ -42,7 +42,7 @@ generated_at: "2026-05-13T11:46:56"
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 18 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 5 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 2 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -60,6 +60,8 @@ generated_at: "2026-05-13T11:46:56"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
+- **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
 
 ## 6. Autres atomes utiles
 
@@ -266,6 +268,11 @@ generated_at: "2026-05-13T11:46:56"
 - déplacement (1)
 - tour (1)
 - travail répétitif (1)
+- 1979 (1)
+- crise anglaise (1)
+- disco (1)
+- punk épuisé (1)
+- chômage (1)
 - Jamaïque (1)
 - retour (1)
 - clearance (1)
@@ -295,6 +302,9 @@ generated_at: "2026-05-13T11:46:56"
 - S75-A004 — prolonge → CONCEPT-geographie_emotionnelle
 - S75-A014 — nuance → MYTH-curtis_centre_unique
 - S75-A014 — prolonge → CONCEPT-geographie_emotionnelle
+- S75-A056 — nuance → MYTH-003
+- S75-A056 — prolonge → CONCEPT-002
+- S75-A056 — prolonge → CONCEPT-001
 - S74-A014 — complète → S74-A002
 - S74-A014 — prolonge → S41
 - S74-A015 — renforce → S74-A002
@@ -316,8 +326,8 @@ generated_at: "2026-05-13T11:46:56"
 |---|---|
 | sociologie | 6 |
 | analyse | 5 |
+| contexte | 4 |
 | biographie | 4 |
-| contexte | 3 |
 | contrepoint | 3 |
 | lecture | 3 |
 | concept | 3 |
@@ -347,13 +357,14 @@ generated_at: "2026-05-13T11:46:56"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 43 |
-| majeure | 4 |
+| majeure | 5 |
 | critique | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A004 [moyen] — risque de durcir excessivement l'opposition Londres/Manchester
 - S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
+- S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale
 - S74-A014 [moyen] — risque de surdéterminer l’esthétique du groupe par la seule biographie spatiale de Hook
 - S74-A015 [eleve] — risque de transformer une hypothèse mémorielle de Sumner en explication totale de Joy Division
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division

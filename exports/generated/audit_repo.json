@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-05-13T11:46:49",
+  "generated_at": "2026-05-13T12:14:28",
   "summary": {
-    "records_total": 1352,
+    "records_total": 1399,
     "records_by_kind": {
-      "quote": 95,
-      "atom": 933,
-      "chronology": 177,
+      "quote": 102,
+      "atom": 951,
+      "chronology": 183,
       "metadata": 18,
       "source": 56,
-      "song": 23,
+      "song": 33,
       "quote_batch": 1,
       "rules": 1,
       "motif": 6,
-      "person": 27,
+      "person": 33,
       "concept": 7,
       "myth": 8
     },
-    "diagnostics_total": 8675,
+    "diagnostics_total": 8877,
     "errors": 2,
-    "warnings": 8673,
+    "warnings": 8875,
     "sources_declared_in_registre_json": 18,
     "sources_used_in_records": 11,
     "sources_exported": 11,
@@ -27,17 +27,17 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 933,
-    "chronology": 177,
+    "atom": 951,
+    "chronology": 183,
     "concept": 7,
     "metadata": 18,
     "motif": 6,
     "myth": 8,
-    "person": 27,
-    "quote": 95,
+    "person": 33,
+    "quote": 102,
     "quote_batch": 1,
     "rules": 1,
-    "song": 23,
+    "song": 33,
     "source": 56
   },
   "records_by_source": {
@@ -104,28 +104,28 @@
       "atom": 61
     },
     "S75": {
-      "atom": 38,
+      "atom": 56,
       "metadata": 1,
-      "song": 15,
-      "quote": 9,
-      "person": 15,
-      "chronology": 12
+      "song": 25,
+      "quote": 16,
+      "person": 21,
+      "chronology": 18
     }
   },
   "records_by_chapter": {
     "Chapitre 1": 107,
-    "Chapitre 10": 81,
+    "Chapitre 10": 84,
     "Chapitre 11": 163,
-    "Chapitre 12": 86,
+    "Chapitre 12": 92,
     "Chapitre 13": 44,
-    "Chapitre 14": 523,
-    "Chapitre 2": 240,
-    "Chapitre 3": 194,
-    "Chapitre 4": 99,
-    "Chapitre 5": 228,
-    "Chapitre 6": 179,
+    "Chapitre 14": 531,
+    "Chapitre 2": 241,
+    "Chapitre 3": 207,
+    "Chapitre 4": 108,
+    "Chapitre 5": 232,
+    "Chapitre 6": 196,
     "Chapitre 7": 85,
-    "Chapitre 8": 71,
+    "Chapitre 8": 78,
     "Chapitre 9": 197,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -240,24 +240,24 @@
       18
     ],
     [
+      "sources/ott_unknown_pleasures/source_part_03.md",
+      18
+    ],
+    [
       "sources/deborah_curtis/atomisation_02_unknown_pleasures_domesticite_maladie.md",
       15
     ],
     [
       "sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md",
       15
-    ],
-    [
-      "sources/mike_west_joy_division/quotes.md",
-      15
     ]
   ],
   "issue_categories": {
     "duplicate_id": 2,
-    "invalid_controlled_value": 745,
-    "missing_required_field": 307,
-    "schema_warning": 39,
-    "v2_migration_debt": 7582
+    "invalid_controlled_value": 762,
+    "missing_required_field": 438,
+    "schema_warning": 57,
+    "v2_migration_debt": 7618
   },
   "top_files_by_issue_count": [
     [
@@ -353,6 +353,10 @@
       167
     ],
     [
+      "sources/ott_unknown_pleasures/source_part_03.md",
+      161
+    ],
+    [
       "sources/ott_unknown_pleasures/source_part_02.md",
       158
     ],
@@ -375,10 +379,6 @@
     [
       "registers/quotes/s75_ott_quotes.md",
       27
-    ],
-    [
-      "sources/mike_west_joy_division/chronology.md",
-      20
     ]
   ],
   "blocking_errors": [
@@ -401,10 +401,10 @@
   ],
   "unknown_yaml_blocks": [],
   "v2_migration": {
-    "atoms_total": 933,
+    "atoms_total": 951,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 872,
-    "v2_missing_field_warnings": 7582
+    "atoms_v2_incomplete": 890,
+    "v2_missing_field_warnings": 7618
   },
   "source_registry": {
     "declared_but_unused": [
@@ -662,20 +662,25 @@
         "auteur": "Chris Ott",
         "titre": "Joy Division's Unknown Pleasures",
         "annee": "2004",
-        "records": 90,
-        "atoms": 38,
-        "quotes": 9,
-        "chronology": 12,
+        "records": 137,
+        "atoms": 56,
+        "quotes": 16,
+        "chronology": 18,
         "files": [
           "registers/chronology/s75_ott_chronology.md",
+          "registers/chronology/s75_ott_chronology_part_03.md",
           "registers/people/s75_ott_people.md",
           "registers/people/s75_ott_people_part_02.md",
+          "registers/people/s75_ott_people_part_03.md",
           "registers/quotes/s75_ott_quotes.md",
+          "registers/quotes/s75_ott_quotes_part_03.md",
           "registers/songs/s75_ott_songs.md",
           "registers/songs/s75_ott_songs_part_02.md",
+          "registers/songs/s75_ott_songs_part_03.md",
           "sources/ott_unknown_pleasures/README.md",
           "sources/ott_unknown_pleasures/source_part_01.md",
-          "sources/ott_unknown_pleasures/source_part_02.md"
+          "sources/ott_unknown_pleasures/source_part_02.md",
+          "sources/ott_unknown_pleasures/source_part_03.md"
         ]
       }
     ]
@@ -35142,6 +35147,1294 @@
       "category": "schema_warning",
       "file": "sources/ott_unknown_pleasures/source_part_02.md",
       "record_id": "S75-A038",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A039",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A039",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A039",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A039",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A039",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A039",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A039",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A039",
+      "message": "Invalid value for type_unite: session",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A039",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A040",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A040",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A040",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A040",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A040",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A040",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A040",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A040",
+      "message": "Invalid value for type_unite: lecture_musicale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A040",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A041",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A041",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A041",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A041",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A041",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A041",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A041",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A041",
+      "message": "Invalid value for type_unite: lecture_musicale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A041",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A042",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A042",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A042",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A042",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A042",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A042",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A042",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A042",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A043",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A043",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A043",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A043",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A043",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A043",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A043",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A043",
+      "message": "Invalid value for type_unite: temoignage",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A043",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A044",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A044",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A044",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A044",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A044",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A044",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A044",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A044",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A044",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A045",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A045",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A045",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A045",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A045",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A045",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A045",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A045",
+      "message": "Invalid value for type_unite: temoignage",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A045",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A046",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A046",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A046",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A046",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A046",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A046",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A046",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A046",
+      "message": "Invalid value for type_unite: lecture_textuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A046",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A047",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A047",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A047",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A047",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A047",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A047",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A047",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A047",
+      "message": "Invalid value for type_unite: lecture_textuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A047",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A048",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A048",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A048",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A048",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A048",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A048",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A048",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A048",
+      "message": "Invalid value for type_unite: lecture_musicale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A048",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A049",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A049",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A049",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A049",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A049",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A049",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A049",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A049",
+      "message": "Invalid value for type_unite: lecture_musicale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A049",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A050",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A050",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A050",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A050",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A050",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A050",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A050",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A050",
+      "message": "Invalid value for type_unite: chronology",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A050",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A051",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A051",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A051",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A051",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A051",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A051",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A051",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A051",
+      "message": "Invalid value for type_unite: temoignage",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A051",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A052",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A052",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A052",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A052",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A052",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A052",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A052",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A052",
+      "message": "Invalid value for type_unite: lecture_musicale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A052",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A053",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A053",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A053",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A053",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A053",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A053",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A053",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A053",
+      "message": "Invalid value for type_unite: objet_discographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A053",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A054",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A054",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A054",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A054",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A054",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A054",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A054",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A054",
+      "message": "Invalid value for type_unite: objet_discographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A054",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A055",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A055",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A055",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A055",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A055",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A055",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A055",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A055",
+      "message": "Invalid value for type_unite: objet_visuel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A055",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A056",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A056",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A056",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A056",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A056",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A056",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A056",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A056",
+      "message": "Invalid value for type_unite: contexte",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/ott_unknown_pleasures/source_part_03.md",
+      "record_id": "S75-A056",
       "message": "Missing nested field: stabilite.risque_revision",
       "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
     },
@@ -69708,6 +71001,166 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-016",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-016",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-017",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-017",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-018",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-018",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-019",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-019",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-020",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-020",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-021",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-021",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-022",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-022",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-023",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-023",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-024",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-024",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-025",
+      "message": "Missing required field: themes",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s75_ott_songs_part_03.md",
+      "record_id": "SONG-S75-025",
+      "message": "Missing required field: sources",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/songs/s75_ott_songs_part_02.md",
       "record_id": "SONG-S75-007",
       "message": "Missing required field: themes",
@@ -70062,6 +71515,174 @@
       "category": "missing_required_field",
       "file": "registers/quotes/s75_ott_quotes.md",
       "record_id": "S75-Q009",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q010",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q010",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q010",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q011",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q011",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q011",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q012",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q012",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q012",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q013",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q013",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q013",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q014",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q014",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q014",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q015",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q015",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q015",
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q016",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q016",
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/quotes/s75_ott_quotes_part_03.md",
+      "record_id": "S75-Q016",
       "message": "Missing required field: statut_verification",
       "suggested_action": "Compléter le champ obligatoire."
     },

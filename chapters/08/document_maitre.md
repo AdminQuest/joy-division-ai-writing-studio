@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:46:56"
+generated_at: "2026-05-13T12:14:34"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 54 |
-| Atomes critiques / majeurs | 5 |
+| Atomes | 57 |
+| Atomes critiques / majeurs | 8 |
 | Citations | 0 |
-| Événements chronologiques | 4 |
+| Événements chronologiques | 7 |
 | Personnes | 1 |
-| Chansons | 0 |
+| Chansons | 4 |
 | Sources mobilisées | 5 |
 
 ## 4. Sources mobilisées
@@ -38,7 +38,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 5 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 8 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -48,10 +48,16 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `reconstruction_critique`.
 - **S75-A025** — S75-A025 — Les bandes RCA comme archive bootleg d'un désastre utile  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `bootleg` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A050** — S75-A050 — L'encadré des sessions : *Unknown Pleasures* comme archive de quinze titres  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `chronology` ; importance : `critique` ; preuve : `donnees_discographiques`.
+- **S75-A053** — S75-A053 — « Autosuggestion » et « From Safety to Where...? » : les chutes qui déplacent l'album  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A054** — S75-A054 — *Still* et les titres de réserve : austérité gothique, exercices et titres trouvés  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -164,6 +170,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - CHR-1978-004 — Repressage / remastering 12 pouces de *An Ideal for Living*, lu par Ott comme correction partielle du mauvais rendu sonore initial du 7 pouces.
 - CHR-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
 - CHR-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
+- CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
+- CHR-S75-1981-001 — Publication de « Exercise One », « The Kill », « The Only Mistake » et « Walked in Line » sur *Still*.
+- CHR-S75-1997-001 — Inclusion de la session complète de *Unknown Pleasures* dans l'anthologie *Heart and Soul*.
 
 ## 9. Personnes et acteurs
 
@@ -171,7 +180,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 10. Chansons rattachées
 
-- Aucune chanson rattachée.
+- SONG-S75-022 — Autosuggestion
+- SONG-S75-023 — From Safety to Where...?
+- SONG-S75-024 — The Only Mistake
+- SONG-S75-025 — Walked in Line
 
 ## 11. Concepts récurrents
 
@@ -183,6 +195,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - glass (4)
 - here are the young men (4)
 - martin hannett (4)
+- culture bootleg (4)
+- matérialité discographique (4)
 - warsaw (3)
 - john peel (3)
 - piccadilly radio (3)
@@ -253,8 +267,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - sessions terminales (1)
 - flexi (1)
 - distribution gratuite (1)
-- ajanta theatre (1)
-- derby (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -262,6 +274,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 - bootleg (2)
 - Movie Play Gold (2)
+- Heart and Soul (2)
+- Earcom 2 (2)
+- Still (2)
 - Warsaw (1)
 - archive sonore (1)
 - document impur (1)
@@ -277,12 +292,21 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - illusion (1)
 - RCA demos (1)
 - archive négative (1)
-- Heart and Soul (1)
 - An Ideal for Living (1)
 - 12 pouces (1)
 - échafaudage (1)
 - espace (1)
 - panning (1)
+- sessions Unknown Pleasures (1)
+- archive de session (1)
+- Autosuggestion (1)
+- From Safety to Where...? (1)
+- dub (1)
+- FAST Product (1)
+- The Only Mistake (1)
+- Exercise One (1)
+- The Kill (1)
+- titre trouvé (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -299,6 +323,15 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S75-A030 — prolonge → S75-A019
 - S75-A030 — prolonge → CONCEPT-006
 - S75-A030 — prolonge → CONCEPT-005
+- S75-A050 — prolonge → MOTIF-004
+- S75-A050 — prolonge → CONCEPT-005
+- S75-A050 — prépare → S75-A053
+- S75-A053 — prolonge → MOTIF-004
+- S75-A053 — prolonge → CONCEPT-006
+- S75-A053 — prépare → S75-A054
+- S75-A054 — prolonge → MOTIF-004
+- S75-A054 — illustre → CONCEPT-005
+- S75-A054 — nuance → MYTH-006
 
 ## 13. Distribution documentaire
 
@@ -310,20 +343,21 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | analyse | 5 |
 | archive | 5 |
 | concert | 4 |
+| objet_discographique | 4 |
 | chronologie | 3 |
 | bootleg | 2 |
-| objet_discographique | 2 |
 | discographie | 1 |
 | videographie | 1 |
 | controverse | 1 |
+| chronology | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 49 |
-| critique | 3 |
-| majeure | 2 |
+| critique | 5 |
+| majeure | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -332,6 +366,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S75-A021 [moyen] — risque de transformer RCA en pure caricature industrielle alors que l'échec tient aussi à l'inexpérience du groupe
 - S75-A025 [moyen] — les bandes survivantes doivent être distinguées des intentions et des versions officielles ultérieures
 - S75-A030 [moyen] — ne pas surestimer le 12 pouces comme rupture autonome ; il reste un seuil matériel
+- S75-A050 [faible] — principal risque factuel : dates et supports à recouper avec discographies spécialisées
+- S75-A053 [moyen] — ne pas réécrire l'album idéal à partir des chutes ; elles documentent une constellation, pas un album alternatif certain
+- S75-A054 [moyen] — les titres de réserve ne doivent pas être mis au même rang que le disque publié sans préciser leur statut
 
 ## 15. Lacunes et prochaines vérifications
 

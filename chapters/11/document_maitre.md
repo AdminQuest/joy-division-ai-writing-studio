@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:46:56"
+generated_at: "2026-05-13T12:14:34"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 134 |
-| Atomes critiques / majeurs | 21 |
+| Atomes | 135 |
+| Atomes critiques / majeurs | 22 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 1 |
@@ -44,7 +44,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 9 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 15 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 7 | 0 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -90,6 +90,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A010** — S75-A010 — « Gutz », domesticité et brutalité des premiers textes de Curtis  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
 
 ## 6. Autres atomes utiles
 
@@ -400,16 +402,16 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - pop song (1)
 - post-punk (1)
 - électronique (1)
+- 1979 (1)
+- crise anglaise (1)
+- disco (1)
+- punk épuisé (1)
+- chômage (1)
 - Piccadilly Plaza (1)
 - bureau de promotion (1)
 - Bowie (1)
 - Iggy Pop (1)
 - échappée professionnelle (1)
-- imagerie fasciste (1)
-- naïveté (1)
-- scène locale (1)
-- jalousie (1)
-- projection (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -427,6 +429,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S75-A018 — nuance → MYTH-fascination_fasciste
 - S75-A034 — prolonge → CONCEPT-006
 - S75-A034 — nuance → MYTH-joy_division_pure_obscurité
+- S75-A056 — nuance → MYTH-003
+- S75-A056 — prolonge → CONCEPT-002
+- S75-A056 — prolonge → CONCEPT-001
 - S74-A022 — nuance → MYTH-002
 - S74-A022 — prolonge → S74-A017
 - S74-A024 — nuance → MYTH-002
@@ -524,6 +529,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | concert | 1 |
 | influence | 1 |
 | lecture_musicale | 1 |
+| contexte | 1 |
 | genealogie_culturelle | 1 |
 | acteur_critique | 1 |
 | analyse_culturelle | 1 |
@@ -550,7 +556,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 |---|---|
 | non qualifiée | 113 |
 | critique | 15 |
-| majeure | 6 |
+| majeure | 7 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -560,6 +566,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S75-A017 [eleve] — tension entre correction factuelle sur Warsaw et condamnation éthique du nom Joy Division
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
 - S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
+- S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale
 - S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
 - S74-A028 [eleve] — risque de confirmer trop vite la légende du groupe maudit et isolé

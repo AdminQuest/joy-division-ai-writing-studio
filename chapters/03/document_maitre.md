@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:46:56"
+generated_at: "2026-05-13T12:14:34"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 148 |
-| Atomes critiques / majeurs | 20 |
-| Citations | 10 |
-| Événements chronologiques | 6 |
-| Personnes | 12 |
-| Chansons | 11 |
+| Atomes | 158 |
+| Atomes critiques / majeurs | 30 |
+| Citations | 15 |
+| Événements chronologiques | 7 |
+| Personnes | 14 |
+| Chansons | 16 |
 | Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
@@ -43,7 +43,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 12 | 3 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 22 | 8 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -79,6 +79,18 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session_radio` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A039** — S75-A039 — Strawberry Studios comme bascule du live vers l'objet studio  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
+- **S75-A040** — S75-A040 — Digital delay AMS et batterie de Morris : invention d'un espace impossible  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A041** — S75-A041 — « Disorder » comme manifeste sonore d'entrée  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A042** — S75-A042 — Le grief Sumner/Hook : *Unknown Pleasures* comme dépossession partielle  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S75-A051** — S75-A051 — Hannett enseigne l'écoute : producteur comme déplacement de perception  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
+- **S75-A052** — S75-A052 — Électronique et bruit industriel : perception transformée mais source collective  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -87,6 +99,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A028** — S75-A028 — Granada TV et l’image industrielle comme mauvais miroir  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A043** — S75-A043 — Curtis aime le disque : divergence interne dans la réception d'Hannett  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `majeure` ; preuve : `reconstruction_critique`.
+- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
 
 ## 6. Autres atomes utiles
 
@@ -263,6 +283,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S75-Q005** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q006** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q007** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q010** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q011** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q014** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -272,9 +297,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - CHR-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
 - CHR-1978-001 — Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
+- CHR-S75-1979-004 — Sessions d'enregistrement de *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett.
 
 ## 9. Personnes et acteurs
 
+- PERS-S75-026 — Stephen Morris
+- PERS-S75-027 — Vini Reilly
 - PERS-002 — Peter Hook
 - PERS-003 — Bernard Sumner
 - PERS-004 — Stephen Morris
@@ -291,6 +319,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 ## 10. Chansons rattachées
 
 - Transmission
+- SONG-S75-016 — Disorder
+- SONG-S75-017 — Day of the Lords
+- SONG-S75-018 — Candidate
+- SONG-S75-020 — Wilderness
+- SONG-S75-021 — I Remember Nothing
 - SONG-S75-001 — No Love Lost
 - SONG-S75-007 — Interzone
 - SONG-S75-008 — Ice Age
@@ -305,12 +338,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 ## 11. Concepts récurrents
 
 - Martin Hannett (19)
+- architecture sonore (13)
 - Unknown Pleasures (12)
 - post-punk (10)
 - Ian Curtis (10)
 - production (9)
 - Strawberry Studios (7)
 - Stephen Morris (7)
+- contrainte productive (7)
 - martin hannett (6)
 - Transmission (6)
 - A Factory Sample (6)
@@ -325,7 +360,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - NME (5)
 - studio (5)
 - synthétiseur (5)
-- contrainte productive (5)
 - a factory sample (4)
 - glass (4)
 - factory (4)
@@ -337,7 +371,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - batterie (4)
 - Dead Souls (4)
 - répétition (4)
-- architecture sonore (4)
 - Atmosphere (4)
 - piccadilly radio (3)
 - dub (3)
@@ -351,6 +384,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Factory (3)
 - An Ideal for Living (3)
 - domesticité (3)
+- producteur catalyseur (3)
+- prudence historiographique (3)
 - cinquième membre (3)
 - basse (3)
 - john peel (2)
@@ -382,21 +417,27 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - précision (2)
 - son (2)
 - technologie (2)
-- The Noise (2)
-- Still (2)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- Hannett (4)
 - domesticité (3)
+- apprentissage (2)
+- écoute (2)
+- Interzone (2)
+- studio (2)
+- Shadowplay (2)
+- électronique (2)
+- caisse claire (2)
+- Hook (2)
+- Kraftwerk (2)
 - amateurisme (1)
 - contrainte (1)
 - Pennine Sound (1)
 - économie de moyens (1)
-- apprentissage (1)
 - boîte à rythmes (1)
-- écoute (1)
 - silence (1)
 - stabilisation (1)
 - précision (1)
@@ -411,11 +452,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - industrie musicale (1)
 - illusion (1)
 - reprise imposée (1)
-- Interzone (1)
 - soul (1)
 - détournement (1)
 - synthétiseur (1)
-- studio (1)
 - polissage (1)
 - résistance (1)
 - son brut (1)
@@ -423,12 +462,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - bootleg (1)
 - archive négative (1)
 - Movie Play Gold (1)
-- Heart and Soul (1)
-- T.J. Davidson (1)
-- répétition (1)
-- isolement (1)
-- espace (1)
-- cathédrale sonore (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -464,6 +497,36 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A033 — prépare → S75-A036
 - S75-A034 — prolonge → CONCEPT-006
 - S75-A034 — nuance → MYTH-joy_division_pure_obscurité
+- S75-A039 — prolonge → CONCEPT-006
+- S75-A039 — prolonge → S75-A027
+- S75-A039 — prépare → S75-A050
+- S75-A040 — prolonge → CONCEPT-006
+- S75-A040 — prolonge → MOTIF-001
+- S75-A040 — nuance → MYTH-004
+- S75-A041 — illustre → CONCEPT-006
+- S75-A041 — requiert → CONCEPT-004
+- S75-A041 — nuance → MYTH-002
+- S75-A042 — nuance → CONCEPT-006
+- S75-A042 — nuance → MYTH-004
+- S75-A042 — prolonge → S75-A039
+- S75-A043 — nuance → MYTH-004
+- S75-A043 — prolonge → CONCEPT-006
+- S75-A043 — nuance → MYTH-002
+- S75-A048 — illustre → CONCEPT-006
+- S75-A048 — nuance → MYTH-002
+- S75-A048 — nuance → MYTH-004
+- S75-A049 — prolonge → CONCEPT-006
+- S75-A049 — prolonge → MOTIF-001
+- S75-A049 — requiert → CONCEPT-004
+- S75-A051 — nuance → MYTH-004
+- S75-A051 — illustre → CONCEPT-005
+- S75-A051 — prolonge → S75-A042
+- S75-A052 — nuance → MYTH-004
+- S75-A052 — prolonge → CONCEPT-006
+- S75-A052 — nuance → MYTH-003
+- S75-A056 — nuance → MYTH-003
+- S75-A056 — prolonge → CONCEPT-002
+- S75-A056 — prolonge → CONCEPT-001
 - S74-A022 — nuance → MYTH-002
 - S74-A022 — prolonge → S74-A017
 - S74-A048 — nuance → MYTH-002
@@ -482,10 +545,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S74-A053 — complète → S74-A052
 - S74-A053 — prolonge → S45
 - S74-A054 — prolonge → S45
-- S74-A054 — nuance → S74-A053
-- S74-A054 — contredit_partiellement → S74-A050
-- S74-A017 — se_souvient → S45
-- S74-A017 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -496,24 +555,26 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | production | 14 |
 | analyse | 9 |
 | fait | 9 |
+| lecture_musicale | 8 |
 | concept | 5 |
 | analyse_morceau | 5 |
 | discographie | 4 |
 | reception_critique | 4 |
+| session | 4 |
 | non qualifié | 4 |
 | reception_presse | 3 |
 | interpretation | 3 |
 | enregistrement | 3 |
 | interpretation_esthetique | 3 |
-| session | 3 |
-| lecture_musicale | 3 |
 | equipment_file | 3 |
 | contexte_technique | 3 |
 | session_enregistrement | 2 |
 | theorie_voix | 2 |
 | chronologie | 2 |
 | scene_fondatrice | 2 |
+| controverse | 2 |
 | lieu | 2 |
+| temoignage | 2 |
 | lieu_studio | 2 |
 | citation_repere | 2 |
 | temoignage_direct_rapporte | 2 |
@@ -544,10 +605,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | culture_musicale | 1 |
 | culture_domestique | 1 |
 | management | 1 |
-| controverse | 1 |
 | bootleg | 1 |
 | archive | 1 |
 | session_radio | 1 |
+| contexte | 1 |
 | reception_discographique | 1 |
 | reception_radio | 1 |
 | demythification | 1 |
@@ -575,8 +636,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 128 |
-| critique | 16 |
-| majeure | 4 |
+| critique | 22 |
+| majeure | 8 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -592,6 +653,16 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A029 [eleve] — risque classique d'héroïser Hannett comme génie solitaire du son Joy Division
 - S75-A033 [moyen] — ne pas confondre visibilité radio et reconnaissance installée
 - S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
+- S75-A039 [moyen] — ne pas présenter le studio comme origine absolue du son ; le matériau existe déjà dans les répétitions et le live
+- S75-A040 [moyen] — ne pas faire du digital delay l'explication unique du son ; il agit dans un système plus large de mixage, jeu et espace
+- S75-A041 [moyen] — la lecture des paroles doit éviter de devenir prophétie rétrospective
+- S75-A042 [moyen] — ne pas transformer la frustration des musiciens en disqualification de l'album ; elle éclaire sa genèse conflictuelle
+- S75-A043 [moyen] — le goût de Curtis ne doit pas effacer les tensions collectives ni être psychologisé
+- S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
+- S75-A049 [eleve] — les images domestiques et médicales de « I Remember Nothing » imposent une prudence forte
+- S75-A051 [moyen] — l'aveu de Hook ne doit pas effacer ses critiques simultanées du mixage
+- S75-A052 [moyen] — risque de minimiser Hannett en réaction au mythe inverse ; la force tient à l'articulation groupe/producteur
+- S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale
 - S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
 - S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
 - S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel

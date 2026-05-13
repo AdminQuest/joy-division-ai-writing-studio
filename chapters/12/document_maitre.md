@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T11:46:56"
+generated_at: "2026-05-13T12:14:34"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,12 +22,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 69 |
-| Atomes critiques / majeurs | 5 |
-| Citations | 8 |
-| Événements chronologiques | 3 |
-| Personnes | 2 |
-| Chansons | 2 |
+| Atomes | 74 |
+| Atomes critiques / majeurs | 10 |
+| Citations | 10 |
+| Événements chronologiques | 4 |
+| Personnes | 3 |
+| Chansons | 4 |
 | Sources mobilisées | 6 |
 
 ## 4. Sources mobilisées
@@ -40,7 +40,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
-| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 3 | 1 |
+| S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 8 | 3 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -48,12 +48,22 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A031** — S75-A031 — Londres, Hope & Anchor et crise épileptique : anti-triomphe de la sortie régionale  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_retrospective`.
+- **S75-A044** — S75-A044 — De la lecture des paroles à la téléologie : le piège Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S75-A045** — S75-A045 — Deborah Curtis comme oreille littérale des textes  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_memoire`.
+- **S75-A047** — S75-A047 — « She’s Lost Control » : origine professionnelle, retour biographique et comparaison des versions  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S75-A012** — S75-A012 — Curtis dans la pièce bleue : ambition, naïveté et écriture de transition  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
+- **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -196,21 +206,27 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S47-Q011** — S47 — West, Joy Division, 1984 — statut : `a_verifier` — « the death cult that has grown up around Ian Curtis. »
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
 - **S75-Q002** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q012** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
+- **S75-Q013** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-1978-008 — Premier concert londonien de Joy Division au Hope & Anchor, suivi d'une crise majeure de Ian Curtis sur le trajet retour.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
+- CHR-S75-1979-005 — Deborah Curtis donne naissance à Natalie tandis que Martin Hannett termine le mixage de *Unknown Pleasures*.
 
 ## 9. Personnes et acteurs
 
+- PERS-S75-028 — Natalie Curtis
 - PERS-001 — Ian Curtis
 - PERS-005 — Deborah Curtis
 
 ## 10. Chansons rattachées
 
 - She's Lost Control
+- SONG-S75-019 — New Dawn Fades
+- SONG-S75-021 — I Remember Nothing
 - SONG-S75-015 — She’s Lost Control
 
 ## 11. Concepts récurrents
@@ -219,6 +235,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Closer (9)
 - épilepsie (7)
 - film (4)
+- prudence historiographique (4)
 - Britannia Row (4)
 - Stroszek (3)
 - Werner Herzog (3)
@@ -294,12 +311,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - introspection (1)
 - danger esthétique (1)
 - Glass (1)
-- Mesh (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- fatigue (2)
+- paroles (2)
+- épilepsie (2)
 - suicide (1)
 - canonisation (1)
 - réception posthume (1)
@@ -312,18 +331,31 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Londres (1)
 - Hope & Anchor (1)
 - crise épileptique (1)
-- fatigue (1)
 - sortie régionale (1)
+- Ian Curtis (1)
+- paternité (1)
+- téléologie (1)
+- Deborah Curtis (1)
+- écoute intime (1)
+- vie domestique (1)
+- Touching from a Distance (1)
+- Insight (1)
+- New Dawn Fades (1)
+- fatalisme (1)
+- adolescence perdue (1)
+- She’s Lost Control (1)
+- Employment Exchange (1)
+- version studio (1)
+- contrôle (1)
+- Wilderness (1)
+- Interzone (1)
+- I Remember Nothing (1)
+- bris de verre (1)
+- vide (1)
 - désindustrialisation (1)
 - ruine urbaine (1)
 - reconstruction (1)
 - spectralité urbaine (1)
-- Manchester (1)
-- Wythenshawe (1)
-- conflit (1)
-- producteur local (1)
-- réseau pré-Factory (1)
-- violence comique (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -334,6 +366,21 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S75-A031 — nuance → MYTH-002
 - S75-A031 — prolonge → CONCEPT-004
 - S75-A031 — nuance → MYTH-003
+- S75-A044 — requiert → CONCEPT-004
+- S75-A044 — nuance → MYTH-002
+- S75-A044 — prolonge → S75-A041
+- S75-A045 — prolonge → CONCEPT-004
+- S75-A045 — nuance → MYTH-002
+- S75-A045 — prolonge → S45
+- S75-A046 — requiert → CONCEPT-004
+- S75-A046 — nuance → MYTH-002
+- S75-A046 — prolonge → MOTIF-003
+- S75-A047 — requiert → CONCEPT-004
+- S75-A047 — nuance → MYTH-002
+- S75-A047 — prolonge → CONCEPT-006
+- S75-A049 — prolonge → CONCEPT-006
+- S75-A049 — prolonge → MOTIF-001
+- S75-A049 — requiert → CONCEPT-004
 - S74-A002 — nuance → MYTH-003
 - S74-A002 — derive_de → CONCEPT-002
 - S74-A002 — prolonge → CONCEPT-003
@@ -353,6 +400,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | dispositif_formel | 2 |
 | santé | 2 |
 | biographie | 2 |
+| lecture_textuelle | 2 |
 | session_album | 2 |
 | reception_poll | 2 |
 | idee_directrice | 2 |
@@ -380,6 +428,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | citation_clef | 1 |
 | mythe | 1 |
 | scene_fondatrice | 1 |
+| prudence_methodologique | 1 |
+| temoignage | 1 |
+| lecture_musicale | 1 |
 | interpretation_album | 1 |
 | concert_sequence | 1 |
 | concert_incident | 1 |
@@ -407,14 +458,19 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 64 |
-| majeure | 3 |
-| critique | 2 |
+| critique | 5 |
+| majeure | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
 - S75-A012 [moyen] — scène très suggestive, exposée au risque de psychologisation
 - S75-A031 [eleve] — risque de téléologie morbide si la crise est lue comme signe fatal plutôt que comme événement médical et biographique
+- S75-A044 [eleve] — le passage appelle directement une lecture prophétique de Curtis, qu'il faut transformer en prudence explicite
+- S75-A045 [eleve] — l'écoute de Deborah est précieuse mais reste située, affective et rétrospective
+- S75-A046 [eleve] — les morceaux sont très exposés à une lecture de destin rétrospectif
+- S75-A047 [eleve] — risque majeur de réduire le morceau à l'épilepsie de Curtis ou à une anticipation de sa trajectoire
+- S75-A049 [eleve] — les images domestiques et médicales de « I Remember Nothing » imposent une prudence forte
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
 
