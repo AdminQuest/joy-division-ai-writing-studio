@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:20:54"
+generated_at: "2026-05-13T16:34:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 169 |
+| Atomes | 176 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 19 |
-| Événements chronologiques | 10 |
-| Personnes | 15 |
+| Citations | 22 |
+| Événements chronologiques | 13 |
+| Personnes | 16 |
 | Chansons | 18 |
 | Sources mobilisées | 11 |
 
@@ -44,7 +44,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 8 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 25 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 8 | 3 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 15 | 6 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -102,6 +102,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_Lindsay_Reade_et_Savage`.
 - **S76-A087** — S76-A087 — Répétition privée à T. J. Davidson’s : noirceur, embarras et son encore forcé  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_repetition` ; importance : `critique` ; preuve : `temoignage_direct_Mick_Middles`.
+- **S76-A098** — S76-A098 — Première Peel Session : Maida Vale comme réplique BBC de la spatialisation Hannett  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_radio` ; importance : `critique` ; preuve : `evenement_radiophonique_corroborable_et_interpretation_S76`.
+- **S76-A101** — S76-A101 — Genetic demos : Rushent éclaire Joy Division mais n’obtient pas l’intimité Hannett  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `session_corroborable_et_interpretation_S76`.
+- **S76-A105** — S76-A105 — Strawberry Studios : Hannett transforme un budget modeste en laboratoire sonore  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `temoignages_Morley_Hook_S76`.
+- **S76-A106** — S76-A106 — Hannett et Curtis : intimité vocale contre lecture collective du groupe  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `relation_studio` ; importance : `critique` ; preuve : `temoignages_Hook_Reade_et_interpretation_S76`.
 - **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
 - **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
@@ -110,14 +118,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A028** — S75-A028 — Granada TV et l’image industrielle comme mauvais miroir  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A043** — S75-A043 — Curtis aime le disque : divergence interne dans la réception d'Hannett  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `majeure` ; preuve : `reconstruction_critique`.
-- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
 
 ## 6. Autres atomes utiles
 
@@ -302,6 +302,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S75-Q015** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -315,6 +318,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - CHR-S75-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
 - CHR-1978-001 — Sessions RCA / Arrow destinées à produire un album potentiel pour le groupe.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
+- CHR-S76-1979-006 — Joy Division enregistre sa première John Peel Session aux studios BBC de Maida Vale, avec Bob Sargeant et Nick Gomm. Les titres enregistrés sont « Exercise One », « Insight », « Transmission » et « She’s Lost Control ».
+- CHR-S76-1979-007 — Joy Division enregistre cinq demos aux Eden Studios pour Genetic / Martin Rushent : « Insight », « Glass », « Transmission », « Ice Age » et « Digital ».
+- CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
 - CHR-S75-1979-004 — Sessions d'enregistrement de *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett.
 
 ## 9. Personnes et acteurs
@@ -334,6 +340,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - PERS-013 — Chris Ott
 - PERS-004-S75 — Stephen Morris
 - PERS-S76-042 — Jeremy Kerr
+- PERS-S76-058 — Martin Rushent
 
 ## 10. Chansons rattachées
 
@@ -444,9 +451,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 ### 12.1. Motifs dominants
 
 - Hannett (5)
+- Martin Hannett (4)
+- Transmission (3)
+- Strawberry Studios (3)
+- Unknown Pleasures (3)
 - domesticité (3)
-- Transmission (2)
-- Strawberry Studios (2)
 - radio (2)
 - Atmosphere (2)
 - silence (2)
@@ -458,6 +467,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Shadowplay (2)
 - Digital (2)
 - Glass (2)
+- Peel Session (2)
+- John Peel (2)
 - électronique (2)
 - caisse claire (2)
 - Hook (2)
@@ -479,10 +490,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - No Love Lost (1)
 - House of Dolls (1)
 - funk sec (1)
-- double-delay (1)
-- seuil (1)
-- RCA (1)
-- studio professionnel (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -588,6 +595,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | enregistrement | 3 |
 | interpretation_esthetique | 3 |
 | equipment_file | 3 |
+| session_studio | 3 |
 | contexte_technique | 3 |
 | session_enregistrement | 2 |
 | theorie_voix | 2 |
@@ -595,6 +603,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | scene_fondatrice | 2 |
 | controverse | 2 |
 | lieu | 2 |
+| session_radio | 2 |
 | temoignage | 2 |
 | lieu_studio | 2 |
 | citation_repere | 2 |
@@ -603,6 +612,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | scene_repetition | 2 |
 | evenement | 2 |
 | concept_transversal | 2 |
+| release_or_session | 2 |
 | song | 2 |
 | song_or_cover | 2 |
 | concert | 1 |
@@ -633,7 +643,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | objet_discographique | 1 |
 | bootleg | 1 |
 | archive | 1 |
-| session_radio | 1 |
 | contexte | 1 |
 | reception_discographique | 1 |
 | reception_radio | 1 |
@@ -649,20 +658,21 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | temoignage_retrospectif | 1 |
 | interpretation_critique | 1 |
 | biographie | 1 |
-| session_studio | 1 |
+| relation_studio | 1 |
 | transition | 1 |
 | conflit_esthetique | 1 |
 | portrait_technique | 1 |
 | influences | 1 |
 | transition_esthetique | 1 |
 | reception | 1 |
+| album | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 132 |
-| critique | 27 |
+| non qualifiée | 135 |
+| critique | 31 |
 | majeure | 10 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -700,6 +710,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S74-A053 [tres_eleve] — tout traitement de la mort de Curtis risque la téléologie tragique et la lecture sacrificielle
 - S74-A054 [eleve] — risque d’opposer mécaniquement vérité domestique et mémoire du groupe sans reconnaître les angles morts de chaque témoin
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
+- S76-A098 [faible] — événement stable, interprétation sonore à croiser avec écoute et sources BBC
+- S76-A101 [faible] — l’atome compare des choix de production précis et vérifiables
+- S76-A105 [moyen] — éviter de transformer Hannett en auteur unique ; le groupe fournit les matériaux et résiste aussi au résultat
+- S76-A106 [moyen] — intimité privée difficile à objectiver ; éviter l’héroïsation ou la psychologisation
 - S76-A082 [moyen] — éviter d’en faire déjà la forme achevée de *Unknown Pleasures* ; c’est un seuil, non un aboutissement
 - S76-A083 [moyen] — scène de conflit instrumentale à ne pas transformer en opposition structurelle Hook / Sumner
 - S76-A087 [moyen] — mémoire impressionniste ; utile pour qualifier une atmosphère, non pour fixer une vérité sonore exhaustive

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:20:54"
+generated_at: "2026-05-13T16:34:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 103 |
+| Atomes | 107 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 26 |
+| Citations | 27 |
 | Événements chronologiques | 21 |
-| Personnes | 11 |
+| Personnes | 12 |
 | Chansons | 6 |
 | Sources mobilisées | 7 |
 
@@ -41,7 +41,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 19 | 12 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 23 | 13 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -103,18 +103,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `renversement_biographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_Reeder`.
 - **S76-A093** — S76-A093 — Reeder et Wise : perception sociale de l’épilepsie, handicap, honte et incompréhension du groupe  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignages_medicaux` ; importance : `critique` ; preuve : `temoignages_Reeder_Wise_experience_personnelle`.
+- **S76-A104** — S76-A104 — Bowdon Vale : danse de Curtis, synthé inutilisé et préparation avant album  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `performance_live` ; importance : `critique` ; preuve : `temoignages_Martin_ONeill_Paul_Hanley_et_reconstruction_S76`.
+- **S76-A106** — S76-A106 — Hannett et Curtis : intimité vocale contre lecture collective du groupe  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `relation_studio` ; importance : `critique` ; preuve : `temoignages_Hook_Reade_et_interpretation_S76`.
+- **S76-A108** — S76-A108 — *Unknown Pleasures* morceau par morceau : Curtis comme force de transformation, mais non testament  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_album` ; importance : `critique` ; preuve : `lecture_critique_S76`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S75-A012** — S75-A012 — Curtis dans la pièce bleue : ambition, naïveté et écriture de transition  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
-- **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S76-A010** — S76-A010 — Incident de drogues à King’s School : classe, sanction et fragilité adolescente  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `chronologie_sensible` ; importance : `majeure` ; preuve : `temoignage_retroactif_sensible`.
 
 ## 6. Autres atomes utiles
 
@@ -246,6 +246,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S47 — West, Joy Division, 1984 ; type : `synthese_critique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S69-A011** — S69-A011 — Deborah Curtis : expulsion du passé plutôt que nostalgie  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S76-A010** — S76-A010 — Incident de drogues à King’s School : classe, sanction et fragilité adolescente  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `chronologie_sensible` ; importance : `majeure` ; preuve : `temoignage_retroactif_sensible`.
 - **S76-A017** — S76-A017 — Fiançailles de 1974 : jeunesse, famille et normalité conjugale  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `majeure` ; preuve : `memoire_familiale`.
 - **S76-A057** — S76-A057 — Curtis face à l’intrusion de Gretton : sensibilité, retrait, bord relationnel  
@@ -254,6 +260,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contraste_biographique` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
 - **S76-A094** — S76-A094 — David Holmes et l’ancienne croyance du « holy sickness » : génie, neurologie et risque de romantisation  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_medicale` ; importance : `majeure` ; preuve : `interpretation_psychologique_et_croyance_historique`.
+- **S76-A097** — S76-A097 — Carole, Wilson et le mot « communiquer » : médiumnité, différence et risque spirite  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_memorielle` ; importance : `majeure` ; preuve : `memoire_familiale_et_reconstruction_reade_wilson`.
 
 ## 7. Citations disponibles
 
@@ -278,6 +286,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - **S76-Q015** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q063** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q017** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S75-Q018** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
@@ -319,6 +328,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - PERS-S76-009 — Deborah Woodruff / Deborah Curtis
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-002 — Doreen Curtis
+- PERS-S76-060 — Paul Hanley
 - PERS-S75-032 — Annik Honoré
 - PERS-S75-035 — Alan Hempsall
 
@@ -418,7 +428,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
-- Ian Curtis (6)
+- Ian Curtis (7)
 - épilepsie (6)
 - Deborah Curtis (3)
 - Mick Middles (2)
@@ -429,6 +439,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - crise épileptique (2)
 - fatigue (2)
 - paroles (2)
+- New Dawn Fades (2)
+- She’s Lost Control (2)
+- I Remember Nothing (2)
+- Unknown Pleasures (2)
 - Lindsay Reade (2)
 - Debbie Curtis (2)
 - Natalie Curtis (2)
@@ -454,10 +468,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - possession (1)
 - rock star self-absorption (1)
 - responsabilité (1)
-- masque (1)
-- Annik Honoré (1)
-- Plan K (1)
-- liaison (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -518,6 +528,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S74-A002 — prolonge → CONCEPT-003
 - S74-A010 — nuance → MYTH-004
 - S74-A010 — illustre → S74-A011
+- S76-A097 — alimente → MYTH-002
+- S76-A097 — requiert → CONCEPT-004
+- S76-A097 — prolonge → S76-A096
+- S76-A104 — requiert → CONCEPT-009
+- S76-A104 — relie → S76-A103
+- S76-A104 — nuance → MYTH-002
+- S76-A106 — prolonge → S76-A105
+- S76-A106 — relie → CONCEPT-006
+- S76-A106 — nuance → MYTH-004
+- S76-A108 — requiert → CONCEPT-004
+- S76-A108 — nuance → MYTH-002
+- S76-A108 — relie → CONCEPT-009
 - S76-A001 — requiert → CONCEPT-004
 - S76-A001 — nuance → S45
 - S76-A001 — prolonge → S75-A075
@@ -529,18 +551,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A009 — prolonge → S76-A001
 - S76-A010 — requiert → CONCEPT-004
 - S76-A010 — prolonge → S76-A007
-- S76-A010 — nuance → MYTH-002
-- S76-A081 — prolonge → S76-A071
-- S76-A081 — vigilance → CONCEPT-004
-- S76-A081 — nuance → MYTH-002
-- S76-A088 — prolonge → S76-A081
-- S76-A088 — requiert → CONCEPT-004
-- S76-A088 — nuance → MYTH-002
-- S76-A089 — prolonge → S76-A088
-- S76-A089 — relie → CONCEPT-009
-- S76-A089 — nuance → MYTH-010
-- S76-A090 — prolonge → S76-A089
-- S76-A090 — relie → CONCEPT-009
 
 ## 13. Distribution documentaire
 
@@ -615,6 +625,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | synthese_critique | 1 |
 | interpretation_historique | 1 |
 | lecture | 1 |
+| scene_memorielle | 1 |
+| performance_live | 1 |
+| relation_studio | 1 |
+| lecture_album | 1 |
 | cadrage_source | 1 |
 | scene_medicale | 1 |
 | fait_medical | 1 |
@@ -633,8 +647,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 64 |
-| critique | 29 |
-| majeure | 10 |
+| critique | 32 |
+| majeure | 11 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -658,6 +672,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S75-A049 [eleve] — les images domestiques et médicales de « I Remember Nothing » imposent une prudence forte
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
+- S76-A097 [tres_eleve] — risque maximal de médiumnité, prophétisation et lecture surnaturelle de Curtis
+- S76-A104 [eleve] — risque de confondre danse, épilepsie et mythe du corps possédé ; ne pas médicaliser sans preuve
+- S76-A106 [moyen] — intimité privée difficile à objectiver ; éviter l’héroïsation ou la psychologisation
+- S76-A108 [tres_eleve] — risque majeur de lire chaque vers à partir du suicide ultérieur
 - S76-A001 [moyen] — proximité affective des auteurs et volonté réparatrice de la source
 - S76-A002 [faible] — l'atome réduit la téléologie morbide plutôt qu'il ne l'alimente
 - S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire

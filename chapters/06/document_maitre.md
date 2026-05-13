@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:20:54"
+generated_at: "2026-05-13T16:34:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 212 |
+| Atomes | 225 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 35 |
-| Événements chronologiques | 22 |
-| Personnes | 29 |
+| Citations | 41 |
+| Événements chronologiques | 26 |
+| Personnes | 32 |
 | Chansons | 17 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 21 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 30 | 8 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 39 | 24 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 52 | 30 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -310,6 +310,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q042** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q043** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q107** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q045** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q051** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q052** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -317,7 +323,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q054** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q055** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q057** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -336,6 +341,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-1980-001 — Concert du Derby Hall à Bury marqué par l’état critique de Ian Curtis.
 - CHR-1980-002 — Dernier concert officiel de Joy Division à Birmingham University.
 - CHR-1980-004 — Sortie posthume de l’album Closer.
+- CHR-S76-1979-006 — Joy Division enregistre sa première John Peel Session aux studios BBC de Maida Vale, avec Bob Sargeant et Nick Gomm. Les titres enregistrés sont « Exercise One », « Insight », « Transmission » et « She’s Lost Control ».
+- CHR-S76-1979-007 — Joy Division enregistre cinq demos aux Eden Studios pour Genetic / Martin Rushent : « Insight », « Glass », « Transmission », « Ice Age » et « Digital ».
+- CHR-S76-1979-008 — Joy Division joue deux concerts londoniens : retour au Hope & Anchor puis Marquee Club, Wardour Street, en support de The Cure.
+- CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
 - CHR-S76-1978-004 — Au printemps 1978, les passages de Ian Curtis au bureau RCA de Piccadilly Plaza et les contacts avec Derek Brandwood font naître la possibilité d’un disque avec RCA/Grapevine.
 - CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
 - CHR-S76-1978-006 — Après les sessions RCA, Derek Brandwood perçoit un changement chez Ian Curtis, tandis que Rob Gretton commence à proposer ses services de manager au groupe après l’avoir remarqué au Stiff Test / Chiswick Challenge.
@@ -370,6 +379,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-S76-034 — John Anderson
 - PERS-S76-035 — Bob Auger
 - PERS-S76-036 — Bernie Binnick
+- PERS-S76-057 — John Peel
+- PERS-S76-058 — Martin Rushent
+- PERS-S76-060 — Paul Hanley
 - PERS-S76-024 — Martin Hannett
 - PERS-S76-027 — Rob Gretton
 - PERS-S76-028 — Bob Dickinson
@@ -483,46 +495,46 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (7)
+- Rob Gretton (8)
+- Unknown Pleasures (7)
+- Martin Hannett (7)
 - Hannett (6)
-- Factory (5)
+- Factory (6)
 - Gretton (5)
 - RCA (4)
 - manager (4)
-- Martin Hannett (4)
+- Tony Wilson (4)
 - John Anderson (4)
-- Unknown Pleasures (3)
+- Transmission (3)
+- Strawberry Studios (3)
 - Wilson (3)
+- synthétiseur (3)
 - studio (3)
 - contrat (3)
 - Digital (3)
 - Glass (3)
+- John Peel (3)
 - indépendance (3)
 - contrôle (3)
+- Peter Saville (3)
 - Terry Mason (3)
-- Tony Wilson (3)
-- Transmission (2)
-- Strawberry Studios (2)
 - radio (2)
 - America (2)
 - Atmosphere (2)
 - silence (2)
-- synthétiseur (2)
+- Peel Session (2)
+- Genetic (2)
 - caisse claire (2)
+- Disorder (2)
 - voix de Curtis (2)
 - Sumner (2)
 - Hook (2)
 - Kraftwerk (2)
+- She’s Lost Control (2)
+- I Remember Nothing (2)
 - Earcom 2 (2)
 - Still (2)
 - northern soul (2)
-- frustration (2)
-- reconnaissance (2)
-- répétition (2)
-- sampler (2)
-- Rabid Records (2)
-- Arrow Studios (2)
-- RCA sessions (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -624,12 +636,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_fondatrice | 5 |
 | fait_sensible | 5 |
 | analyse | 4 |
+| reception_critique | 4 |
 | fait_interprete | 4 |
 | objet_discographique | 4 |
+| session_radio | 4 |
+| session_studio | 4 |
 | discographie_album | 3 |
-| reception_critique | 3 |
 | evenement_live | 3 |
-| session_radio | 3 |
 | versions_chanson | 3 |
 | reception | 2 |
 | relation | 2 |
@@ -647,11 +660,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | session_album | 2 |
 | lieu_studio | 2 |
 | micro_chronologie | 2 |
-| session_studio | 2 |
+| performance_live | 2 |
 | scene_repetition | 2 |
 | concept_management | 2 |
 | chronologie_live | 2 |
 | analyse_morceau | 2 |
+| release_or_session | 2 |
 | song | 2 |
 | song_or_cover | 2 |
 | broadcast | 1 |
@@ -696,6 +710,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | temoignage_affectif | 1 |
 | reception_interne | 1 |
 | ecosysteme | 1 |
+| bifurcation_industrielle | 1 |
+| decision_management | 1 |
+| relation_studio | 1 |
+| objet_album | 1 |
+| lecture_album | 1 |
 | scene_industrielle | 1 |
 | projet_discographique | 1 |
 | analyse_sonore | 1 |
@@ -716,7 +735,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_interne | 1 |
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
-| performance_live | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
 | discographie_analysee | 1 |
@@ -729,15 +747,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | transition | 1 |
 | concept_transversal | 1 |
 | management | 1 |
+| album | 1 |
 | song_or_release | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 127 |
-| critique | 63 |
-| majeure | 22 |
+| non qualifiée | 130 |
+| critique | 72 |
+| majeure | 23 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -795,12 +814,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S76-A035 [moyen] — la présence de Hannett est probable mais le lien causal avec la production ultérieure ne doit pas être forcé
 - S76-A036 [moyen] — la phrase de C. P. Lee sur la chaîne Music Force/Rabid/Factory/Haçienda doit être utilisée comme lecture historiographique, non comme causalité mécanique
 - S76-A045 [moyen] — scène fortement canonisée ; conserver le contexte tardif et conflictuel
-- S76-A048 [moyen] — ne pas projeter rétrospectivement l’éthique Factory sur un Curtis qui cherche encore une reconnaissance par la major
-- S76-A049 [moyen] — le projet ne doit pas être présenté comme vraie signature RCA ; S76 insiste sur le « almost »
-- S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
-- S76-A051 [moyen] — description qualitative ; à croiser avec écoute des bandes RCA et sources Hook/Ott
-- S76-A052 [moyen] — l’ironie New Order est forte mais ne doit pas écraser les contextes techniques distincts
-- S76-A053 [faible] — atome structurel ; utile pour comprendre la bascule managériale
+- S76-A098 [faible] — événement stable, interprétation sonore à croiser avec écoute et sources BBC
+- S76-A099 [moyen] — réception très suggestive ; ne pas transformer l’imaginaire européen en essence du groupe
+- S76-A100 [moyen] — éviter de transformer le choix Factory en geste purement moral ou purement économique
+- S76-A101 [faible] — l’atome compare des choix de production précis et vérifiables
+- S76-A102 [moyen] — le récit Wilson peut héroïser Gretton ; conserver l’économie concrète de la décision
+- S76-A104 [eleve] — risque de confondre danse, épilepsie et mythe du corps possédé ; ne pas médicaliser sans preuve
 
 ## 15. Lacunes et prochaines vérifications
 

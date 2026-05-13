@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:20:54"
+generated_at: "2026-05-13T16:34:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ generated_at: "2026-05-13T16:20:54"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 136 |
+| Atomes | 140 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 37 |
-| Événements chronologiques | 27 |
-| Personnes | 22 |
+| Citations | 40 |
+| Événements chronologiques | 29 |
+| Personnes | 24 |
 | Chansons | 13 |
 | Sources mobilisées | 8 |
 
@@ -41,7 +41,7 @@ generated_at: "2026-05-13T16:20:54"
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 17 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 23 | 7 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 36 | 25 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 40 | 28 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -308,6 +308,9 @@ generated_at: "2026-05-13T16:20:54"
 - **S76-Q077** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q018** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q023** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q101** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q106** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q001** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q003** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -341,6 +344,8 @@ generated_at: "2026-05-13T16:20:54"
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 - CHR-1978-002 — Premier fit clairement identifié de Ian Curtis après un concert au Hope and Anchor.
+- CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
+- CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
 - CHR-S76-1956-001 — Naissance de Ian Kevin Curtis à Basford House, Old Trafford, dans une famille ouvrière respectable.
 - CHR-S76-1960-001 — Naissance de Carole Curtis, sœur de Ian, avec laquelle S76 décrit une relation durablement proche.
 - CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
@@ -370,6 +375,8 @@ generated_at: "2026-05-13T16:20:54"
 - PERS-S76-006 — Pete Johnson
 - PERS-S76-007 — Tony Nuttall
 - PERS-S76-008 — Paul Heapy
+- PERS-S76-059 — Martin O’Neill
+- PERS-S76-060 — Paul Hanley
 - PERS-S75-032 — Annik Honoré
 - PERS-S75-033 — William S. Burroughs
 - PERS-S75-037 — Paul Morley
@@ -489,8 +496,14 @@ generated_at: "2026-05-13T16:20:54"
 - Mick Middles (2)
 - deification (2)
 - histoire (2)
+- Kevin Cummins (2)
+- Disorder (2)
 - paroles (2)
+- New Dawn Fades (2)
+- She’s Lost Control (2)
 - contrôle (2)
+- Shadowplay (2)
+- I Remember Nothing (2)
 - reconnaissance (2)
 - répétition (2)
 - indépendance (2)
@@ -511,12 +524,6 @@ generated_at: "2026-05-13T16:20:54"
 - Terry Mason (2)
 - Peter Hook (2)
 - Manchester punk (2)
-- Jim Morrison (1)
-- mort jeune (1)
-- romantisme rock (1)
-- dead fly dance (1)
-- performance live (1)
-- corps scénique (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -666,6 +673,10 @@ generated_at: "2026-05-13T16:20:54"
 | scene_locale | 1 |
 | mediation_culturelle | 1 |
 | fait_interprete | 1 |
+| image_et_reception | 1 |
+| scene_memorielle | 1 |
+| performance_live | 1 |
+| lecture_album | 1 |
 | cadrage_source | 1 |
 | temoignage_biographique | 1 |
 | controverse_historiographique | 1 |
@@ -694,8 +705,8 @@ generated_at: "2026-05-13T16:20:54"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 60 |
-| critique | 45 |
-| majeure | 30 |
+| critique | 48 |
+| majeure | 31 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -740,6 +751,10 @@ generated_at: "2026-05-13T16:20:54"
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
 - S74-A012 [moyen] — risque de transformer Reilly en pur symbole de sophistication populaire
 - S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
+- S76-A096 [moyen] — l’atome peut nourrir un mythe de l’outsider ; il doit au contraire en expliquer la fabrication
+- S76-A097 [tres_eleve] — risque maximal de médiumnité, prophétisation et lecture surnaturelle de Curtis
+- S76-A104 [eleve] — risque de confondre danse, épilepsie et mythe du corps possédé ; ne pas médicaliser sans preuve
+- S76-A108 [tres_eleve] — risque majeur de lire chaque vers à partir du suicide ultérieur
 - S76-A001 [moyen] — proximité affective des auteurs et volonté réparatrice de la source
 - S76-A002 [faible] — l'atome réduit la téléologie morbide plutôt qu'il ne l'alimente
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
@@ -756,10 +771,6 @@ generated_at: "2026-05-13T16:20:54"
 - S76-A089 [eleve] — scène médicale fondatrice ; ne pas la lire comme point d’annonce fatal mais comme seuil clinique et social
 - S76-A090 [moyen] — toute médicalisation du récit doit rester proportionnée et historiographiquement prudente
 - S76-A091 [tres_eleve] — chaque hypothèse est séduisante mais insuffisante isolément ; risque maximal de psychologisation et de causalité unique
-- S76-A092 [eleve] — scène très puissante narrativement ; ne pas la transformer en causalité totale
-- S76-A093 [eleve] — risque d’accuser rétrospectivement l’entourage ou de faire de la maladie l’explication totale
-- S76-A011 [moyen] — risque de faire du glam une cause linéaire de la présence scénique de Curtis
-- S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
 
 ## 15. Lacunes et prochaines vérifications
 

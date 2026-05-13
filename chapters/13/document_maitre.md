@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:20:54"
+generated_at: "2026-05-13T16:34:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 53 |
-| Atomes critiques / majeurs | 32 |
-| Citations | 12 |
+| Atomes | 55 |
+| Atomes critiques / majeurs | 34 |
+| Citations | 15 |
 | Événements chronologiques | 7 |
-| Personnes | 14 |
+| Personnes | 16 |
 | Chansons | 2 |
 | Sources mobilisées | 6 |
 
@@ -39,7 +39,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 16 | 12 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 18 | 15 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -69,6 +69,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
 - **S76-A084** — S76-A084 — T. J. Davidson’s : l’entrepôt industriel comme forge iconographique  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
+- **S76-A095** — S76-A095 — Kevin Cummins : économie du noir et blanc et invention involontaire du monochrome Joy Division  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `iconographie` ; importance : `critique` ; preuve : `temoignage_Kevin_Cummins`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -107,6 +109,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contre_image` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
 - **S76-A086** — S76-A086 — Tony Davidson voit Curtis : curiosité honnête, différence de rue et centralité silencieuse  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_lieu` ; importance : `majeure` ; preuve : `temoignage_Tony_Davidson`.
+- **S76-A099** — S76-A099 — Peel entend Joy Division comme romantisme russe et Europe centrale  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_critique` ; importance : `majeure` ; preuve : `citation_retrospective_John_Peel`.
 
 ## 6. Autres atomes utiles
 
@@ -166,6 +170,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - **S76-Q062** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q020** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q099** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q102** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q046** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
@@ -193,6 +200,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - PERS-S76-040 — Eddie Garrity / Ed Banger
 - PERS-S76-011 — Mark Reeder
 - PERS-S76-014 — Vini Reilly
+- PERS-S76-056 — Kevin Cummins
+- PERS-S76-057 — John Peel
 - PERS-S76-031 — Steven Morrissey
 
 ## 10. Chansons rattachées
@@ -288,7 +297,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 ### 12.1. Motifs dominants
 
 - Salford (4)
-- Kevin Cummins (3)
+- Kevin Cummins (4)
 - Factory Club (3)
 - répétition (2)
 - image industrielle (2)
@@ -383,6 +392,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A042 — prolonge → S76-A040
 - S76-A042 — nuance → MYTH-001
 - S76-A042 — relie → S76-A021
+- S76-A095 — prolonge → MOTIF-008
+- S76-A095 — nuance → S76-A084
+- S76-A095 — nuance → MYTH-003
+- S76-A099 — prolonge → S76-A098
+- S76-A099 — relie → CONCEPT-003
+- S76-A099 — nuance → MYTH-003
 - S76-A004 — nuance → MYTH-003
 - S76-A004 — prolonge → S75-A057
 - S76-A004 — requiert → CONCEPT-004
@@ -404,12 +419,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A015 — prolonge → MOTIF-006
 - S76-A015 — nuance → MYTH-003
 - S76-A015 — prepare → S76-A016
-- S76-A016 — prolonge → S76-A015
-- S76-A016 — nuance → MYTH-001
-- S76-A016 — prepare → S74-A017
-- S76-A058 — prolonge → S76-A056
-- S76-A058 — nuance → CONCEPT-management_post_punk
-- S76-A058 — prepare → S76-A059
 
 ## 13. Distribution documentaire
 
@@ -440,6 +449,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | temoignage | 1 |
 | chronologie_scene | 1 |
 | concert | 1 |
+| iconographie | 1 |
+| reception_critique | 1 |
 | reception_scene | 1 |
 | lieu_iconographique | 1 |
 | contre_image | 1 |
@@ -461,8 +472,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 21 |
-| majeure | 19 |
-| critique | 13 |
+| majeure | 20 |
+| critique | 14 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -485,6 +496,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
 - S76-A037 [faible] — atome factuel à haute valeur de cadrage
 - S76-A042 [moyen] — risque de transformer une soirée déprimante pour le groupe en triomphe rétrospectif
+- S76-A095 [faible] — le témoignage explicite les contraintes matérielles et limite l’esthétisation abstraite
+- S76-A099 [moyen] — réception très suggestive ; ne pas transformer l’imaginaire européen en essence du groupe
 - S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
 - S76-A075 [moyen] — éviter de faire du lieu une cause unique du son ; il agit comme intensificateur spatial
 - S76-A077 [moyen] — ne pas faire de cette soirée un basculement unique ; elle signale un processus de visibilité

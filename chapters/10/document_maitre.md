@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:20:54"
+generated_at: "2026-05-13T16:34:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 66 |
-| Atomes critiques / majeurs | 10 |
-| Citations | 6 |
-| Événements chronologiques | 3 |
-| Personnes | 10 |
+| Atomes | 71 |
+| Atomes critiques / majeurs | 14 |
+| Citations | 10 |
+| Événements chronologiques | 5 |
+| Personnes | 12 |
 | Chansons | 6 |
 | Sources mobilisées | 10 |
 
@@ -43,7 +43,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 10 | 4 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 15 | 8 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -65,6 +65,14 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_Lindsay_Reade_et_Savage`.
 - **S76-A084** — S76-A084 — T. J. Davidson’s : l’entrepôt industriel comme forge iconographique  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_iconographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_memoire_scene`.
+- **S76-A095** — S76-A095 — Kevin Cummins : économie du noir et blanc et invention involontaire du monochrome Joy Division  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `iconographie` ; importance : `critique` ; preuve : `temoignage_Kevin_Cummins`.
+- **S76-A096** — S76-A096 — Sourires effacés : la fabrication du Curtis outsider par sélection photographique  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `image_et_reception` ; importance : `critique` ; preuve : `temoignage_Kevin_Cummins_et_reconstruction_S76`.
+- **S76-A103** — S76-A103 — Bowdon Vale, 14 mars 1979 : iconisation photographique d’un concert périphérique  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_iconographie` ; importance : `critique` ; preuve : `temoignage_Martin_ONeill_et_reconstruction_S76`.
+- **S76-A107** — S76-A107 — *Unknown Pleasures* comme album biface : parcours vinyle, symétrie et objet Saville  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_album` ; importance : `critique` ; preuve : `interpretation_S76_Morley_et_analyse_objet`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
@@ -182,6 +190,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-023** — SONG-S76-023 — « Love Will Tear Us Apart » comme image T. J. Davidson’s  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_video` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-027** — SONG-S76-027 — *Unknown Pleasures* comme objet sonore-visuel  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `album` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -191,12 +201,18 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S76-Q083** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S75-Q009** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q087** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q098** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q100** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S76-Q111** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
 - CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
+- CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
+- CHR-S76-1979-010 — Joy Division enregistre *Unknown Pleasures* à Strawberry Studios, Stockport, avec Martin Hannett, pendant que Deborah Curtis approche du terme de sa grossesse.
 
 ## 9. Personnes et acteurs
 
@@ -210,6 +226,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - PERS-S76-049 — Peter Saville
 - PERS-S76-050 — Tony Wilson
 - PERS-016 — Bedhead
+- PERS-S76-056 — Kevin Cummins
+- PERS-S76-059 — Martin O’Neill
 
 ## 10. Chansons rattachées
 
@@ -307,7 +325,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ### 12.1. Motifs dominants
 
-- Peter Saville (3)
+- Peter Saville (4)
+- Kevin Cummins (3)
+- Unknown Pleasures (2)
 - Factory Records (2)
 - monochrome (2)
 - The Factory Sample (2)
@@ -317,7 +337,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - austérité (1)
 - internalisation (1)
 - ombre portée (1)
-- Unknown Pleasures (1)
 - secret produit en masse (1)
 - bouche-à-oreille (1)
 - image (1)
@@ -331,22 +350,21 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - CP 1919 (1)
 - pulsar (1)
 - icône (1)
-- cultural kinship (1)
-- label et groupe (1)
-- Factory Club (1)
-- Factory Clearance (1)
-- Don Tonay (1)
-- Alan Wise (1)
-- image graphique (1)
-- Abraxas (1)
-- LSD (1)
-- plastic sleeve (1)
-- packaging (1)
-- Tony Wilson (1)
-- vision (1)
-- Cargo Studios (1)
-- Digital (1)
-- Glass (1)
+- noir et blanc (1)
+- Manchester sombre (1)
+- presse musicale (1)
+- économie de la photographie (1)
+- Curtis outsider (1)
+- image sérieuse (1)
+- sourire absent (1)
+- photographie rock (1)
+- Bowdon Vale (1)
+- Martin O’Neill (1)
+- photographie (1)
+- flock wallpaper (1)
+- Curtis dancing (1)
+- vinyle (1)
+- Outside Inside (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -361,6 +379,18 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S75-A055 — requiert → CONCEPT-004
 - S75-A055 — prolonge → MOTIF-006
 - S75-A055 — nuance → MYTH-006
+- S76-A095 — prolonge → MOTIF-008
+- S76-A095 — nuance → S76-A084
+- S76-A095 — nuance → MYTH-003
+- S76-A096 — nuance → MYTH-002
+- S76-A096 — relie → CONCEPT-004
+- S76-A096 — prolonge → S76-A095
+- S76-A103 — prolonge → S76-A095
+- S76-A103 — relie → MOTIF-008
+- S76-A103 — nuance → MYTH-006
+- S76-A107 — prolonge → S76-A080
+- S76-A107 — relie → CONCEPT-008
+- S76-A107 — nuance → MYTH-006
 - S76-A072 — prolonge → MYTH-005
 - S76-A072 — relie → CONCEPT-008
 - S76-A072 — relie → MOTIF-008
@@ -416,12 +446,17 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | concept | 1 |
 | objet_visuel | 1 |
 | citation_repere | 1 |
+| iconographie | 1 |
+| image_et_reception | 1 |
+| concert_iconographie | 1 |
+| objet_album | 1 |
 | lecture_institutionnelle | 1 |
 | dispositif_scene | 1 |
 | triade_institutionnelle | 1 |
 | session_studio | 1 |
 | lieu_iconographique | 1 |
 | fait_biographique | 1 |
+| album | 1 |
 | song_or_release | 1 |
 | song_or_video | 1 |
 
@@ -429,8 +464,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 56 |
-| critique | 9 |
+| non qualifiée | 57 |
+| critique | 13 |
 | majeure | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -439,6 +474,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S75-A038 [moyen] — chiffres de vente et formule conceptuelle doivent être recoupés avec sources Factory / discographiques
 - S75-A053 [moyen] — ne pas réécrire l'album idéal à partir des chutes ; elles documentent une constellation, pas un album alternatif certain
 - S75-A055 [moyen] — l'image est devenue trop canonique ; il faut distinguer sa puissance symbolique et l'incertitude de sa genèse
+- S76-A095 [faible] — le témoignage explicite les contraintes matérielles et limite l’esthétisation abstraite
+- S76-A096 [moyen] — l’atome peut nourrir un mythe de l’outsider ; il doit au contraire en expliquer la fabrication
+- S76-A103 [moyen] — le caractère iconique peut faire croire à une importance scénique supérieure à celle documentée
+- S76-A107 [moyen] — lecture rétrospective de l’objet ; éviter de projeter toute la postérité sur l’intention initiale
 - S76-A072 [moyen] — formule très synthétique et rétrospective ; ne pas la projeter mécaniquement sur les acteurs de 1978
 - S76-A076 [faible] — scène institutionnelle bien circonscrite ; à vérifier seulement sur dates et détails économiques
 - S76-A079 [moyen] — scène très séduisante et mythifiable ; à traiter comme anecdote fondatrice à vérifier, non comme causalité unique

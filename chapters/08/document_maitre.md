@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:20:54"
+generated_at: "2026-05-13T16:34:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 72 |
-| Atomes critiques / majeurs | 21 |
+| Atomes | 74 |
+| Atomes critiques / majeurs | 22 |
 | Citations | 4 |
-| Événements chronologiques | 15 |
+| Événements chronologiques | 16 |
 | Personnes | 5 |
 | Chansons | 4 |
 | Sources mobilisées | 6 |
@@ -39,7 +39,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 9 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 14 | 4 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 16 | 4 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -75,6 +75,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `bifurcation_institutionnelle` ; importance : `critique` ; preuve : `reconstruction_S76_sur_Wilson_Eagle_Erasmus`.
 - **S76-A079** — S76-A079 — *The Factory Sample* : Wilson, acid, Abraxas thaïlandais et esthétique de l’objet  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `anecdote_Wilson_reconstruite_par_S76`.
+- **S76-A101** — S76-A101 — Genetic demos : Rushent éclaire Joy Division mais n’obtient pas l’intimité Hannett  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `session_corroborable_et_interpretation_S76`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
@@ -190,6 +192,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_release` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-020** — SONG-S76-020 — *The Factory Sample* comme objet-manifeste  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_release` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S76-026** — SONG-S76-026 — Genetic demos  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `release_or_session` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -210,6 +214,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - CHR-S75-1978-004 — Repressage / remastering 12 pouces de *An Ideal for Living*, lu par Ott comme correction partielle du mauvais rendu sonore initial du 7 pouces.
 - CHR-S75-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
 - CHR-S75-1979-003 — Enregistrement des Genetic Demos à Eden Studios avec Martin Rushent.
+- CHR-S76-1979-007 — Joy Division enregistre cinq demos aux Eden Studios pour Genetic / Martin Rushent : « Insight », « Glass », « Transmission », « Ice Age » et « Digital ».
 - CHR-S76-1977-010 — Warsaw enregistre à Pennine Sound Studios les quatre titres qui formeront *An Ideal For Living* : « Warsaw », « No Love Lost », « Leaders Of Men » et « Failures ».
 - CHR-S76-1978-005 — Joy Division enregistre aux Arrow Studios dans le cadre du projet RCA/Grapevine, sous l’orbite de John Anderson, Richard Searling, Bob Auger et Derek Brandwood. La session vise initialement une logique soul autour de « Keep On Keepin’ On », puis s’étend à un album destiné à servir de démo.
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
@@ -395,6 +400,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A046 — prolonge → S76-A045
 - S76-A046 — corrobore → S76-A036
 - S76-A046 — nuance → MYTH-006
+- S76-A101 — nuance → MYTH-004
+- S76-A101 — relie → CONCEPT-006
+- S76-A101 — prolonge → S76-A100
 - S76-A050 — prolonge → S76-A049
 - S76-A050 — nuance → S75-A0XX
 - S76-A050 — prepare → S76-A051
@@ -437,22 +445,23 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | chronologie | 3 |
 | discographie | 2 |
 | bootleg | 2 |
+| session_studio | 2 |
 | song_or_release | 2 |
 | videographie | 1 |
 | controverse | 1 |
 | chronology | 1 |
 | economie_discographique | 1 |
-| session_studio | 1 |
 | analyse_sonore | 1 |
 | bifurcation_institutionnelle | 1 |
 | fait_contractuel | 1 |
+| release_or_session | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 51 |
-| critique | 16 |
+| non qualifiée | 52 |
+| critique | 17 |
 | majeure | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -469,6 +478,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A039 [moyen] — ne pas surestimer le niveau artistique de la session ; S76 insiste sur le son pauvre et live
 - S76-A041 [tres_eleve] — la pochette Hitler Youth doit être analysée dans sa violence symbolique sans conclure automatiquement à une idéologie fasciste
 - S76-A046 [eleve] — dossier sensible ; il faut distinguer décision esthétique, morale, commerciale et distribution
+- S76-A101 [faible] — l’atome compare des choix de production précis et vérifiables
 - S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
 - S76-A051 [moyen] — description qualitative ; à croiser avec écoute des bandes RCA et sources Hook/Ott
 - S76-A078 [moyen] — scène fortement narrative ; à croiser avec sources Factory et témoignages Wilson/Erasmus

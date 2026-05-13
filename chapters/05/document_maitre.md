@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:20:54"
+generated_at: "2026-05-13T16:34:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,10 +22,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 235 |
+| Atomes | 238 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 54 |
-| Événements chronologiques | 19 |
+| Citations | 56 |
+| Événements chronologiques | 21 |
 | Personnes | 33 |
 | Chansons | 4 |
 | Sources mobilisées | 10 |
@@ -43,7 +43,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 19 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 6 | 0 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 42 | 44 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 45 | 46 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -337,6 +337,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
 - CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
+- CHR-S76-1979-008 — Joy Division joue deux concerts londoniens : retour au Hope & Anchor puis Marquee Club, Wardour Street, en support de The Cure.
+- CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
 - CHR-S76-1977-007 — Warsaw joue avec Slaughter & The Dogs et V2 au Salford Technical College ; le concert est marqué par des violences et constitue probablement la première apparition de Martin Hannett devant le groupe.
 - CHR-S76-1977-010 — Warsaw enregistre à Pennine Sound Studios les quatre titres qui formeront *An Ideal For Living* : « Warsaw », « No Love Lost », « Leaders Of Men » et « Failures ».
 - CHR-S76-1978-001 — Le groupe joue pour la première fois sous le nom Joy Division à Pip’s Disco, Manchester.
@@ -476,7 +478,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (9)
+- Rob Gretton (10)
 - Kevin Cummins (4)
 - Rabid Records (4)
 - An Ideal for Living (3)
@@ -486,6 +488,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Paul Morley (3)
 - Terry Mason (3)
 - Rafters (3)
+- Tony Wilson (3)
 - RCA (3)
 - John Anderson (3)
 - Band On The Wall (3)
@@ -504,7 +507,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Enigma (2)
 - Rock Against Racism (2)
 - Stiff Test (2)
-- Tony Wilson (2)
+- Warner Bros (2)
 - T. J. Davidson’s (2)
 - gang (2)
 - Ian Curtis (2)
@@ -515,7 +518,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Throbbing Gristle (1)
 - postwar nihilism (1)
 - flyer (1)
-- imagerie nazie (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -702,6 +704,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | biographie | 1 |
 | ecosysteme | 1 |
 | economie_discographique | 1 |
+| bifurcation_industrielle | 1 |
+| decision_management | 1 |
+| concert_iconographie | 1 |
 | controverse_historiographique | 1 |
 | scene_industrielle | 1 |
 | projet_discographique | 1 |
@@ -744,7 +749,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 171 |
-| critique | 47 |
+| critique | 50 |
 | majeure | 17 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -785,6 +790,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A045 [moyen] — scène fortement canonisée ; conserver le contexte tardif et conflictuel
 - S76-A046 [eleve] — dossier sensible ; il faut distinguer décision esthétique, morale, commerciale et distribution
 - S76-A047 [moyen] — scène souvent mythifiée ; ne pas en faire une prophétie automatique de Factory
+- S76-A100 [moyen] — éviter de transformer le choix Factory en geste purement moral ou purement économique
+- S76-A102 [moyen] — le récit Wilson peut héroïser Gretton ; conserver l’économie concrète de la décision
+- S76-A103 [moyen] — le caractère iconique peut faire croire à une importance scénique supérieure à celle documentée
 - S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
 - S76-A048 [moyen] — ne pas projeter rétrospectivement l’éthique Factory sur un Curtis qui cherche encore une reconnaissance par la major
 - S76-A049 [moyen] — le projet ne doit pas être présenté comme vraie signature RCA ; S76 insiste sur le « almost »
@@ -806,9 +814,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A062 [moyen] — risque de romantiser le « gang » ; l’atome doit rester analytique, non nostalgique
 - S76-A063 [moyen] — Mason parle depuis une position d’évincé ; conserver la charge affective du témoignage
 - S76-A064 [moyen] — scène héroïsante pour Gretton ; conserver le caractère tactique et contingent de l’action
-- S76-A065 [faible] — fait contractuel assez circonscrit ; vérifier les montants dans Hook, Deborah Curtis ou sources RCA si disponibles
-- S76-A066 [faible] — articulation forte entre support, argent et stratégie ; à croiser avec discographies
-- S76-A067 [moyen] — éviter de transformer chaque lieu en lieu mythique ; son intérêt tient à sa fonction intermédiaire
 
 ## 15. Lacunes et prochaines vérifications
 

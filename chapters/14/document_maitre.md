@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T16:20:54"
+generated_at: "2026-05-13T16:34:10"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,11 +22,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 530 |
+| Atomes | 542 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 52 |
-| Événements chronologiques | 23 |
-| Personnes | 41 |
+| Citations | 58 |
+| Événements chronologiques | 25 |
+| Personnes | 45 |
 | Chansons | 8 |
 | Sources mobilisées | 12 |
 
@@ -45,7 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 38 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 35 | 9 |
-| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 36 | 25 |
+| S76 | S76 — Middles & Reade, Torn Apart, 2006 | 48 | 31 |
 
 ## 5. Atomes critiques ou majeurs
 
@@ -346,6 +346,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-1980-002 — Dernier concert officiel de Joy Division à Birmingham University.
 - CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
 - CHR-1980-004 — Sortie posthume de l’album Closer.
+- CHR-S76-1979-006 — Joy Division enregistre sa première John Peel Session aux studios BBC de Maida Vale, avec Bob Sargeant et Nick Gomm. Les titres enregistrés sont « Exercise One », « Insight », « Transmission » et « She’s Lost Control ».
+- CHR-S76-1979-009 — Joy Division joue à Bowdon Vale Youth Club. Le concert devient surtout mémorable par les photographies de Martin O’Neill, dont l’image de Curtis tête dans les bras, sur fond de papier peint vif.
 - CHR-S76-1978-003 — Joy Division participe au Stiff Test / Chiswick Challenge à Rafters ; The Negatives contribuent à retarder le passage du groupe, Bob Dickinson est frappé par son énergie négative, Rob Gretton décide de le manager, et Curtis interpelle violemment Tony Wilson après le set.
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 - CHR-S75-1979-007 — Publication de « Autosuggestion » et « From Safety to Where...? » sur *Earcom 2: Contradiction* chez FAST Product.
@@ -388,12 +390,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-012 — Kevin Cummins
 - PERS-S76-001 — Lindsay Reade
 - PERS-S76-004 — Carole Curtis
+- PERS-S76-056 — Kevin Cummins
+- PERS-S76-057 — John Peel
+- PERS-S76-058 — Martin Rushent
+- PERS-S76-059 — Martin O’Neill
 - PERS-S76-027 — Rob Gretton
 - PERS-S76-030 — John The Postman
-- PERS-S76-031 — Steven Morrissey
-- PERS-S75-032 — Annik Honoré
-- PERS-S75-034 — Bob Krasnow
-- PERS-S75-036 — Jean-Pierre Turmel
 
 ## 10. Chansons rattachées
 
@@ -493,25 +495,30 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (6)
-- Factory (5)
+- Rob Gretton (7)
+- Tony Wilson (7)
+- Factory (6)
 - Gretton (5)
-- Tony Wilson (5)
+- Unknown Pleasures (4)
+- Kevin Cummins (4)
+- Peter Saville (4)
 - Rabid Records (4)
 - Ian Curtis (3)
 - Bowie (3)
+- presse musicale (3)
 - transition (3)
 - Wilson (3)
 - contrat (3)
 - RCA (3)
+- John Peel (3)
 - indépendance (3)
-- Peter Saville (3)
 - manager (3)
 - Factory Club (3)
+- pochette (3)
+- Martin Hannett (3)
 - épilepsie (2)
-- Unknown Pleasures (2)
-- presse musicale (2)
 - Mick Middles (2)
+- romantisme (2)
 - deification (2)
 - Plan K (2)
 - America (2)
@@ -525,14 +532,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - NME (2)
 - Hannett (2)
 - fatigue (2)
-- Kevin Cummins (2)
+- Peel Session (2)
+- Genetic (2)
 - dépossession (2)
-- Sumner (2)
-- Still (2)
-- réception critique (2)
-- reconnaissance (2)
-- répétition (2)
-- club (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -634,10 +636,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | production | 8 |
 | contrepoint | 8 |
 | synthese | 8 |
+| reception_critique | 8 |
 | scene_fondatrice | 8 |
 | methode | 7 |
 | sociologie | 7 |
-| reception_critique | 7 |
 | relation | 7 |
 | fait | 7 |
 | lecture | 6 |
@@ -646,9 +648,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | controverse | 5 |
 | citation_repere | 5 |
 | management | 4 |
+| iconographie | 4 |
 | projet_avorte | 4 |
 | fait_interprete | 4 |
 | mythe | 4 |
+| session_radio | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | acteur_critique | 4 |
@@ -658,14 +662,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_posthume | 3 |
 | chronologie | 3 |
 | reception_live | 3 |
-| iconographie | 3 |
 | concert | 3 |
 | intertextualite | 3 |
 | chanson_transition | 3 |
 | design | 3 |
 | lecture_biographique | 3 |
 | prudence_methodologique | 3 |
-| session_radio | 3 |
 | concept | 3 |
 | decision_strategique | 3 |
 | interpretation | 3 |
@@ -834,6 +836,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | ecosysteme | 1 |
 | mythe_nomination | 1 |
 | economie_discographique | 1 |
+| image_et_reception | 1 |
+| scene_memorielle | 1 |
+| bifurcation_industrielle | 1 |
+| decision_management | 1 |
+| concert_iconographie | 1 |
+| session_studio | 1 |
+| objet_album | 1 |
 | cadrage_source | 1 |
 | controverse_historiographique | 1 |
 | scene_industrielle | 1 |
@@ -868,6 +877,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
 | marketing | 1 |
+| release_or_session | 1 |
+| album | 1 |
 | song_or_release | 1 |
 | song_or_video | 1 |
 
@@ -875,9 +886,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 423 |
-| critique | 77 |
-| majeure | 26 |
+| non qualifiée | 425 |
+| critique | 85 |
+| majeure | 28 |
 | structurante | 2 |
 | moyenne | 2 |
 
