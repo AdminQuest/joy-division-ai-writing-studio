@@ -6,10 +6,10 @@ Statut : entrées chronologiques ciblées, non exhaustives, issues de l'atomisat
 
 ---
 
-## CHR-1976-002 — Second concert des Sex Pistols à Manchester
+## CHR-S75-1976-002 — Second concert des Sex Pistols à Manchester
 
 ```yaml
-id: CHR-1976-002
+id: CHR-S75-1976-002
 type_unite: chronology
 date: 1976-07-20
 precision_date: exact
@@ -39,10 +39,10 @@ notes: >
 
 ---
 
-## CHR-1977-001 — Session Warsaw à Pennine Sound
+## CHR-S75-1977-001 — Session Warsaw à Pennine Sound
 
 ```yaml
-id: CHR-1977-001
+id: CHR-S75-1977-001
 type_unite: chronology
 date: 1977-07-18
 precision_date: exact
@@ -74,10 +74,10 @@ notes: >
 
 ---
 
-## CHR-1977-002 — Electric Circus / « At a Later Date »
+## CHR-S75-1977-002 — Electric Circus / « At a Later Date »
 
 ```yaml
-id: CHR-1977-002
+id: CHR-S75-1977-002
 type_unite: chronology
 date: 1977-10
 precision_date: approximate
@@ -112,10 +112,10 @@ notes: >
 
 ---
 
-## CHR-1978-003 — Sortie de *An Ideal for Living*
+## CHR-S75-1978-003 — Sortie de *An Ideal for Living*
 
 ```yaml
-id: CHR-1978-003
+id: CHR-S75-1978-003
 type_unite: chronology
 date: 1978-06
 precision_date: approximate
@@ -149,10 +149,10 @@ notes: >
 
 ---
 
-## CHR-1978-004 — Repressage 12 pouces de *An Ideal for Living*
+## CHR-S75-1978-004 — Repressage 12 pouces de *An Ideal for Living*
 
 ```yaml
-id: CHR-1978-004
+id: CHR-S75-1978-004
 type_unite: chronology
 date: 1978-10
 precision_date: approximate
@@ -182,10 +182,10 @@ notes: >
 
 ---
 
-## CHR-1978-005 — Stiff/Chiswick Challenge à Rafter's
+## CHR-S75-1978-005 — Stiff/Chiswick Challenge à Rafter's
 
 ```yaml
-id: CHR-1978-005
+id: CHR-S75-1978-005
 type_unite: chronology
 date: 1978-04-14
 precision_date: exact
@@ -219,10 +219,10 @@ notes: >
 
 ---
 
-## CHR-1978-006 — Sessions RCA à Arrow Studios
+## CHR-S75-1978-006 — Sessions RCA à Arrow Studios
 
 ```yaml
-id: CHR-1978-006
+id: CHR-S75-1978-006
 type_unite: chronology
 date: 1978-05-01/1978-05-05
 precision_date: range
@@ -264,10 +264,10 @@ notes: >
 
 ---
 
-## CHR-1978-007 — A Factory Sample à Cargo Studios
+## CHR-S75-1978-007 — A Factory Sample à Cargo Studios
 
 ```yaml
-id: CHR-1978-007
+id: CHR-S75-1978-007
 type_unite: chronology
 date: 1978-10-11
 precision_date: exact
@@ -303,10 +303,10 @@ notes: >
 
 ---
 
-## CHR-1978-008 — Premier concert londonien au Hope & Anchor
+## CHR-S75-1978-008 — Premier concert londonien au Hope & Anchor
 
 ```yaml
-id: CHR-1978-008
+id: CHR-S75-1978-008
 type_unite: chronology
 date: 1978-12-27
 precision_date: exact
@@ -342,10 +342,10 @@ notes: >
 
 ---
 
-## CHR-1979-001 — Première couverture NME avec Ian Curtis
+## CHR-S75-1979-001 — Première couverture NME avec Ian Curtis
 
 ```yaml
-id: CHR-1979-001
+id: CHR-S75-1979-001
 type_unite: chronology
 date: 1979-01-13
 precision_date: exact
@@ -378,10 +378,10 @@ notes: >
 
 ---
 
-## CHR-1979-002 — Première Peel Session
+## CHR-S75-1979-002 — Première Peel Session
 
 ```yaml
-id: CHR-1979-002
+id: CHR-S75-1979-002
 type_unite: chronology
 date: 1979-01-31
 precision_date: inferred_or_to_verify
@@ -415,10 +415,10 @@ notes: >
 
 ---
 
-## CHR-1979-003 — Genetic Demos à Eden Studios
+## CHR-S75-1979-003 — Genetic Demos à Eden Studios
 
 ```yaml
-id: CHR-1979-003
+id: CHR-S75-1979-003
 type_unite: chronology
 date: 1979-03-04
 precision_date: exact
