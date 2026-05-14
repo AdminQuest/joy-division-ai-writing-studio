@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-14T11:58:36",
+  "generated_at": "2026-05-14T12:23:49",
   "summary": {
-    "records_total": 2511,
+    "records_total": 2540,
     "records_by_kind": {
-      "atom": 1368,
+      "atom": 1377,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
       "song": 41,
-      "unknown": 14,
-      "template": 62,
+      "unknown": 17,
+      "template": 70,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 58,
+      "motif": 63,
       "person": 157,
-      "concept": 40,
+      "concept": 44,
       "myth": 11
     },
-    "diagnostics_total": 14135,
+    "diagnostics_total": 14222,
     "errors": 0,
-    "warnings": 14135,
+    "warnings": 14222,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1368,
+    "atom": 1377,
     "chronology": 331,
-    "concept": 40,
+    "concept": 44,
     "metadata": 18,
-    "motif": 58,
+    "motif": 63,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,15 +41,15 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 62,
-    "unknown": 14
+    "template": 70,
+    "unknown": 17
   },
   "records_by_source": {
     "S41": {
-      "atom": 173,
+      "atom": 182,
       "quote": 9,
       "song": 7,
-      "unknown": 2,
+      "unknown": 5,
       "person": 9,
       "chronology": 9
     },
@@ -127,15 +127,15 @@
   "records_by_chapter": {
     "Chapitre 1": 121,
     "Chapitre 10": 183,
-    "Chapitre 11": 192,
+    "Chapitre 11": 195,
     "Chapitre 12": 314,
-    "Chapitre 13": 93,
-    "Chapitre 14": 755,
-    "Chapitre 2": 321,
+    "Chapitre 13": 97,
+    "Chapitre 14": 756,
+    "Chapitre 2": 334,
     "Chapitre 3": 265,
     "Chapitre 4": 234,
     "Chapitre 5": 381,
-    "Chapitre 6": 374,
+    "Chapitre 6": 380,
     "Chapitre 7": 101,
     "Chapitre 8": 131,
     "Chapitre 9": 199,
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1137,
-    "missing_required_field": 3515,
+    "invalid_controlled_value": 1144,
+    "missing_required_field": 3560,
     "schema_warning": 399,
-    "unknown_yaml_block": 14,
-    "v2_migration_debt": 8935
+    "unknown_yaml_block": 17,
+    "v2_migration_debt": 8967
   },
   "top_files_by_issue_count": [
     [
@@ -416,6 +416,30 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "MEDIA-S41-MELODY-MAKER-PISTOLS-APRIL-1976",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "FILM-S41-THATLL-BE-THE-DAY",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "ARTIST-S41-SEX-PISTOLS-AS-CLASS-PERMISSION",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md",
       "record_id": "FILM-S45-ERASERHEAD-ABSENCE",
       "message": "Unable to infer documentary kind",
@@ -511,10 +535,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1368,
+    "atoms_total": 1377,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1307,
-    "v2_missing_field_warnings": 8935
+    "atoms_v2_incomplete": 1316,
+    "v2_missing_field_warnings": 8967
   },
   "source_registry": {
     "declared_but_unused": [
@@ -591,14 +615,15 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 209,
-        "atoms": 173,
+        "records": 221,
+        "atoms": 182,
         "quotes": 9,
         "chronology": 9,
         "files": [
           "registers/chronology/master_chronology.md",
           "registers/people/master_people.md",
           "registers/songs/master_songs.md",
+          "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
@@ -607,6 +632,7 @@
           "sources/hook/atomisation_06_consolidation_finale.md",
           "sources/hook/citations_exactes.md",
           "sources/hook/source.md",
+          "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
           "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md"
         ]
       },
@@ -19495,6 +19521,454 @@
       "file": "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
       "record_id": "S41-A006",
       "message": "Invalid value for type_unite: synthese_tension",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A007",
+      "message": "Invalid value for type_unite: scene_origine_sociale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A008",
+      "message": "Invalid value for type_unite: scene_biographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A009",
+      "message": "Invalid value for type_unite: rencontre_fondatrice",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A010",
+      "message": "Invalid value for type_unite: motif_social",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A011",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A011",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A011",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A011",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A011",
+      "message": "Invalid value for type_unite: contrepoint_lieu",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A012",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A012",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A012",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A012",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A012",
+      "message": "Invalid value for type_unite: scene_ecoute",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A013",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A013",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A013",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A013",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "S41-A013",
+      "message": "Invalid value for type_unite: scene_revelation",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -101320,6 +101794,254 @@
       "record_id": "SONG-S76-022",
       "message": "Invalid value for type_unite: song",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "MEDIA-S41-MELODY-MAKER-PISTOLS-APRIL-1976",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "FILM-S41-THATLL-BE-THE-DAY",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+      "record_id": "ARTIST-S41-SEX-PISTOLS-AS-CLASS-PERMISSION",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

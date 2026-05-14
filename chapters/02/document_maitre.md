@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T11:58:40"
+generated_at: "2026-05-14T12:23:52"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 270 |
+| Atomes | 278 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 32 |
@@ -34,7 +34,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 47 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 55 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 23 | 0 |
@@ -48,6 +48,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ## 5. Atomes critiques ou majeurs
 
+- **S41-A007** — S41-A007 — Salford avant couleur : enfance industrielle, violence familiale et mémoire visuelle  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_origine_sociale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S41-A009** — S41-A009 — Salford Grammar : rencontre Hook/Sumner et reproduction des sociabilités dures  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A012** — S41-A012 — « Sebastian » de Cockney Rebel : révélation pop longue et rituel d’écoute  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_ecoute` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S41-A013** — S41-A013 — Melody Maker à Newquay : les Sex Pistols comme possibilité de classe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_revelation` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S45-A022** — S45-A022 — Le second Lesser Free Trade Hall comme confirmation, non origine absolue  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A028** — S45-A028 — Recrutement de Curtis : « If we liked someone, they were in »  
@@ -110,14 +118,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A011** — S75-A011 — Brotherdale, Gretton et la stabilisation négative du groupe  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_retrospective`.
-- **S75-A013** — S75-A013 — Throbbing Gristle, shock art et postwar nihilism dans l'imaginaire de Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `influence` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A014** — S75-A014 — Sumner, Lower Broughton et la géographie sociale du futur sans issue  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A015** — S75-A015 — Stephen Morris comme catalyseur formel : le batteur qui permet d'entendre  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A016** — S75-A016 — Electric Circus, « At a Later Date » et l'ambiguïté Hess  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -215,6 +215,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-120** — S41-120 — « Interzone » : héritage Stooges et Velvet Underground  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `influences` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-A008** — S41-A008 — Jamaïque en couleur : mobilité sociale, fracture coloniale et retour perdant à Salford  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_biographique` ; importance : `majeur` ; preuve : `témoignage autobiographique direct`.
+- **S41-A010** — S41-A010 — Le vol comme économie d’apprentissage : classe, transgression et futur backstage  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `motif_social` ; importance : `majeur` ; preuve : `témoignage direct avec interprétation rétrospective`.
 - **S45-006** — S45-006 — Deborah Curtis construit un Ian pré-punk  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `cadre_narratif` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-007** — S45-007 — Rare Records comme point de bascule culturel  
@@ -277,10 +281,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-036** — S46-036 — Rupture avec RCA et durcissement de Gretton  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `industrie_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-067** — S46-067 — Le sous-titre comme programme historique total  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `paratexte` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-069** — S46-069 — La jeunesse mancunienne et le modèle Sex Pistols  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `contexte_punk` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -478,13 +478,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 ### 12.1. Motifs dominants
 
 - An Ideal for Living (6)
+- Sex Pistols (6)
 - Warsaw (6)
 - Electric Circus (5)
-- Sex Pistols (5)
 - Rafters (4)
 - scène locale (4)
 - RCA (4)
 - Paul Morley (4)
+- Salford (4)
 - provocation (4)
 - Bowie (4)
 - Tony Wilson (3)
@@ -502,7 +503,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - stabilisation (3)
 - bootleg (3)
 - Gretton (3)
-- Salford (3)
 - Enigma (3)
 - Kevin Cummins (3)
 - domesticité (3)
@@ -612,7 +612,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | production | 16 |
 | concert | 15 |
 | chronologie | 14 |
-| non qualifié | 12 |
+| non qualifié | 14 |
 | objet_discographique | 9 |
 | session | 7 |
 | controverse | 7 |
@@ -651,6 +651,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte_scene | 1 |
 | reception_critique | 1 |
 | fait_structurant | 1 |
+| scene_origine_sociale | 1 |
+| scene_biographique | 1 |
+| rencontre_fondatrice | 1 |
+| motif_social | 1 |
+| scene_ecoute | 1 |
+| scene_revelation | 1 |
 | temoignage_interpretatif | 1 |
 | chronologie_interne | 1 |
 | discographie_avortee | 1 |
@@ -709,10 +715,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 167 |
-| critique | 68 |
+| non qualifiée | 169 |
+| critique | 72 |
 | majeure | 18 |
-| majeur | 13 |
+| majeur | 15 |
 | moyenne | 2 |
 | structurante | 2 |
 
@@ -749,6 +755,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S45-A032 [moyen] — La citation de Morley doit être vérifiée dans la source presse originale avant usage verbatim définitif.
 - S45-A033 [moyen] — Risque de traiter l’anecdote comme pure farce ; elle renseigne sur la logique de compatibilité interne du groupe.
 - S45-A034 [faible] — L’interprétation correspond à la fonction objective de Morris dans la stabilisation du groupe, même si la métaphore familiale reste celle de Deborah.
+- S41-A007 [moyen] — Risque de faire de Salford une cause esthétique directe ; il faut parler de matrice, non de déterminisme.
+- S41-A008 [moyen] — Risque de transformer la Jamaïque en origine musicale directe ; Hook l’évoque surtout comme contraste biographique.
+- S41-A009 [moyen] — Risque de naturaliser la violence de classe ; il faut la traiter comme sociabilité située, pas comme essence.
+- S41-A010 [moyen] — Risque de romantiser ou d’essentialiser la délinquance de classe.
+- S41-A012 [moyen] — Risque d’en faire une influence formelle directe ; Hook parle surtout de gateway.
+- S41-A013 [faible à moyen] — Le risque principal est de réduire le punk à la seule classe, alors que l’image, le bruit et la violence comptent aussi.
 - S75-A004 [moyen] — risque de durcir excessivement l'opposition Londres/Manchester
 - S75-A005 [moyen] — le mythe est documenté mais souvent simplifié en scène primitive unique
 - S75-A006 [moyen] — l'anecdote Stiff Kittens repose sur souvenirs et plaisanteries devenues sérieuses par accumulation fanique
@@ -772,12 +784,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S75-A026 [faible] — le rôle protecteur de Gretton est fortement cohérent avec plusieurs récits, mais certains détails contractuels doivent rester vérifiables
 - S75-A027 [moyen] — risque de transformer le lieu en cathédrale mythique ; conserver sa fonction concrète de répétition
 - S75-A030 [moyen] — ne pas surestimer le 12 pouces comme rupture autonome ; il reste un seuil matériel
-- S75-A031 [eleve] — risque de téléologie morbide si la crise est lue comme signe fatal plutôt que comme événement médical et biographique
-- S75-A035 [moyen] — éviter l'opposition simpliste entre industrie mauvaise et Factory pure
-- S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
-- S74-A023 [moyen] — risque de transformer RCA en simple repoussoir alors que Curtis reste attiré par cette voie
-- S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
-- S74-A025 [moyen] — risque de juger la session seulement comme fiasco sans voir les tensions formatrices qu’elle révèle
 
 ## 15. Lacunes et prochaines vérifications
 

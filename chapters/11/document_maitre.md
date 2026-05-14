@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T11:58:40"
+generated_at: "2026-05-14T12:23:52"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 171 |
+| Atomes | 174 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 5 |
@@ -34,7 +34,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 18 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 21 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
@@ -51,6 +51,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - **S41-A001** — S41-A001 — Le nom Joy Division : House of Dolls, provocation punk et défense salfordienne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif de Peter Hook`.
+- **S41-A012** — S41-A012 — « Sebastian » de Cockney Rebel : révélation pop longue et rituel d’écoute  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_ecoute` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
 - **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
@@ -117,8 +119,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_reception_posthume`.
 - **S76-A158** — S76-A158 — « Atrocity Exhibition » : Ballard, percussion et ouverture anti-rock  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_analyse_a_recouper`.
-- **S76-A160** — S76-A160 — « Twenty Four Hours » et « The Eternal » : deux temporalités de l’épuisement  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chansons` ; importance : `critique` ; preuve : `lecture_critique_S76`.
 
 ## 6. Autres atomes utiles
 
@@ -479,6 +479,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S41-A001 — prolonge → MYTH-007
 - S41-A001 — prolonge → CONCEPT-025
 - S41-A001 — prolonge → S45-A100
+- S41-A012 — alimente → REGISTRE-INFLUENCES-MUSICALES
+- S41-A012 — prépare → S41-A013
 - S75-A064 — requiert → CONCEPT-004
 - S75-A064 — nuance → MYTH-002
 - S75-A064 — prolonge → S75-A057
@@ -538,8 +540,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A054 — nuance → S74-A053
 - S74-A054 — contredit_partiellement → S74-A050
 - S74-A055 — prolonge → S74-A053
-- S74-A055 — complète → S74-A056
-- S74-A055 — nuance → MYTH-006
 
 ## 13. Distribution documentaire
 
@@ -560,6 +560,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | intertextualite | 3 |
 | reception_critique | 3 |
 | citation_repere | 3 |
+| non qualifié | 3 |
 | contexte_biographique | 3 |
 | contrepoint | 2 |
 | synthese | 2 |
@@ -577,6 +578,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | registre_influences | 1 |
 | scene_soin_amateur | 1 |
 | santé | 1 |
+| scene_ecoute | 1 |
 | chronologie | 1 |
 | reference_litteraire | 1 |
 | interpretation_lyrique | 1 |
@@ -608,7 +610,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | acteur_critique | 1 |
 | analyse_culturelle | 1 |
 | evolution_esthetique | 1 |
-| non qualifié | 1 |
 | scene_fondatrice | 1 |
 | performance_live | 1 |
 | evenement_crise | 1 |
@@ -638,8 +639,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 120 |
-| critique | 36 |
+| non qualifiée | 122 |
+| critique | 37 |
 | majeure | 13 |
 | majeur | 2 |
 
@@ -651,6 +652,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
 - S45-A140 [élevé] — Risque de spiritualiser ou de pathologiser ces épisodes ; ils sont surtout des indices de soin amateur.
 - S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
+- S41-A012 [moyen] — Risque d’en faire une influence formelle directe ; Hook parle surtout de gateway.
 - S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
 - S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète
 - S75-A071 [eleve] — risque de prendre les motifs de revenance comme croyance ou clé psychologique de Curtis

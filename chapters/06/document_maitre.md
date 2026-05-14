@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T11:58:40"
+generated_at: "2026-05-14T12:23:52"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 315 |
+| Atomes | 318 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 35 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 38 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -51,6 +51,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_sociale_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A006** — S41-A006 — Premier concert Joy Division : naissance publique dans l’échec  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `synthese_tension` ; importance : `critique` ; preuve : `témoignage direct rétrospectif fortement stylisé`.
+- **S41-A013** — S41-A013 — Melody Maker à Newquay : les Sex Pistols comme possibilité de classe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_revelation` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S45-A048** — S45-A048 — Manchester Musicians’ Collective : expérimentation sans obligation d’audience  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `citation de Curtis rapportée par Deborah`.
 - **S45-A049** — S45-A049 — Piccadilly Plaza / RCA : bureau discret et promesse industrielle  
@@ -115,8 +117,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -180,6 +180,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_organisationnelle` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A004** — S41-A004 — Hondo II et corde qui saute : anti-mythe technique du premier concert  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct de Peter Hook`.
+- **S41-A010** — S41-A010 — Le vol comme économie d’apprentissage : classe, transgression et futur backstage  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `motif_social` ; importance : `majeur` ; preuve : `témoignage direct avec interprétation rétrospective`.
+- **S41-A011** — S41-A011 — Lesser Free Trade Hall avant les Pistols : anti-prélude ivre et désacralisation du lieu  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contrepoint_lieu` ; importance : `majeur` ; preuve : `témoignage autobiographique direct`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
@@ -276,10 +280,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S47 — West, Joy Division, 1984 ; type : `strategie_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S47-061** — S47-061 — Session Cargo d’octobre 1979 : « Ice Age », « Dead Souls », « Atmosphere »  
   Source : S47 — West, Joy Division, 1984 ; type : `session_enregistrement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-062** — S47-062 — « Ice Age » devait alimenter le projet Futurama  
-  Source : S47 — West, Joy Division, 1984 ; type : `projet_avorte` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-064** — S47-064 — Seconde Peel Session : versions définitives de nouveaux titres  
-  Source : S47 — West, Joy Division, 1984 ; type : `session_radio` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -725,6 +725,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_organisationnelle | 1 |
 | scene_sociale_live | 1 |
 | synthese_tension | 1 |
+| motif_social | 1 |
+| contrepoint_lieu | 1 |
+| scene_revelation | 1 |
 | broadcast | 1 |
 | evolution_repertoire | 1 |
 | portrait_musicien | 1 |
@@ -819,9 +822,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 153 |
-| critique | 126 |
+| critique | 127 |
 | majeure | 24 |
-| majeur | 12 |
+| majeur | 14 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -869,6 +872,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S41-A004 [faible] — L’atome sert surtout de contre-mythe technique ; ne pas le surcharger.
 - S41-A005 [moyen] — Risque de transformer la bagarre en folklore comique ; elle éclaire aussi classe, appartenance et honte.
 - S41-A006 [moyen] — Risque d’en faire une préfiguration téléologique de toute la trajectoire ; le passage doit rester anti-téléologique.
+- S41-A010 [moyen] — Risque de romantiser ou d’essentialiser la délinquance de classe.
+- S41-A011 [faible] — Usage surtout contre-mythique ; ne pas surcharger.
+- S41-A013 [faible à moyen] — Le risque principal est de réduire le punk à la seule classe, alors que l’image, le bruit et la violence comptent aussi.
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
 - S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
@@ -882,9 +888,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S75-A026 [faible] — le rôle protecteur de Gretton est fortement cohérent avec plusieurs récits, mais certains détails contractuels doivent rester vérifiables
 - S75-A029 [eleve] — risque classique d'héroïser Hannett comme génie solitaire du son Joy Division
 - S75-A033 [moyen] — ne pas confondre visibilité radio et reconnaissance installée
-- S75-A035 [moyen] — éviter l'opposition simpliste entre industrie mauvaise et Factory pure
-- S75-A036 [eleve] — risque d'adhérer trop facilement à la légende Factory ou de la dissoudre entièrement
-- S75-A037 [moyen] — le portrait d'Erasmus doit être recoupé avec des sources Factory spécifiques
 
 ## 15. Lacunes et prochaines vérifications
 

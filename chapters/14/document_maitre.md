@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T11:58:40"
+generated_at: "2026-05-14T12:23:52"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 650 |
+| Atomes | 651 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 43 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 44 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -202,6 +202,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-156** — S41-156 — Bootlegs et incertitudes d’origine documentaire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `note_documentaire` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-A011** — S41-A011 — Lesser Free Trade Hall avant les Pistols : anti-prélude ivre et désacralisation du lieu  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contrepoint_lieu` ; importance : `majeur` ; preuve : `témoignage autobiographique direct`.
 - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
@@ -280,8 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-048** — S46-048 — *Unknown Pleasures* : run-out grooves et paroles d’« Atrocity Exhibition »  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `paratexte_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-049** — S46-049 — Saville : design contre décoration  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `design` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -610,6 +610,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A006 — prolonge → S45-A067
 - S41-A006 — nuance → MYTH-002
 - S41-A006 — prépare → CHAPITRE-6-PROFESSIONNALISATION-LIVE
+- S41-A011 — prépare → S41-A016
+- S41-A011 — nuance → MYTH-LESSER-FREE-TRADE-HALL
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -631,8 +633,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A066 — prolonge → S75-A033
 - S75-A066 — nuance → MYTH-003
 - S75-A066 — prépare → S75-A073
-- S75-A067 — nuance → MYTH-005
-- S75-A067 — prolonge → S75-A061
 
 ## 13. Distribution documentaire
 
@@ -746,6 +746,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_finale | 1 |
 | scene_sociale_live | 1 |
 | synthese_tension | 1 |
+| contrepoint_lieu | 1 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
 | objet_sonore_new_order | 1 |
@@ -970,7 +971,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | non qualifiée | 451 |
 | critique | 150 |
 | majeure | 39 |
-| majeur | 6 |
+| majeur | 7 |
 | structurante | 2 |
 | moyenne | 2 |
 
@@ -997,6 +998,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
 - S41-A005 [moyen] — Risque de transformer la bagarre en folklore comique ; elle éclaire aussi classe, appartenance et honte.
 - S41-A006 [moyen] — Risque d’en faire une préfiguration téléologique de toute la trajectoire ; le passage doit rester anti-téléologique.
+- S41-A011 [faible] — Usage surtout contre-mythique ; ne pas surcharger.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
@@ -1035,7 +1037,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
 - S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
 - S74-A027 [faible] — scène largement cohérente avec les autres récits internes, mais stylisée par Middles
-- S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique
 
 ## 15. Lacunes et prochaines vérifications
 

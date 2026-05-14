@@ -16161,6 +16161,498 @@
       "source_year": "2012"
     }
   },
+  "S41-A007": {
+    "kind": "atom",
+    "id": "S41-A007",
+    "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41-A007 — Salford avant couleur : enfance industrielle, violence familiale et mémoire visuelle",
+    "data": {
+      "id": "S41-A007",
+      "type_unite": "scene_origine_sociale",
+      "titre": "Salford avant couleur : enfance industrielle, violence familiale et mémoire visuelle",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "17-18",
+        "papier": "à verrouiller"
+      },
+      "citation": "dark and smoggy and brown, the colour of a wet cardboard box",
+      "resume": "Hook reconstruit son enfance à Salford comme un monde sombre, brun, smoggy, structuré par la famille ouvrière, le divorce de ses parents, la violence masculine ordinaire, les logements modestes et la rue comme terrain de jeu. La référence à *Control* lui permet de lier mémoire personnelle, image cinématographique et texture matérielle du Nord industriel.\n",
+      "role_argumentatif": [
+        "Fonder la géographie émotionnelle de Hook : Salford n’est pas décor, mais matrice sensorielle, sociale et affective."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage autobiographique direct",
+        "corroboration": "forte sur le cadre social général ; perception visuelle subjective",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme mémoire d’origine",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de faire de Salford une cause esthétique directe ; il faut parler de matrice, non de déterminisme."
+      },
+      "motifs": [
+        "Salford",
+        "enfance ouvrière",
+        "smog",
+        "Control",
+        "violence domestique"
+      ],
+      "concepts_derives": [
+        "mémoire visuelle industrielle",
+        "Salford comme matrice sensorielle"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-042"
+        },
+        {
+          "type": "alimente",
+          "cible": "REGISTRE-GEOGRAPHIE-EMOTIONNELLE"
+        }
+      ],
+      "couche_narrative": [
+        "origine sociale",
+        "géographie émotionnelle",
+        "mémoire ouvrière"
+      ],
+      "usage_livre": [
+        "Chapitre 2",
+        "Chapitre 13"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A008": {
+    "kind": "atom",
+    "id": "S41-A008",
+    "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41-A008 — Jamaïque en couleur : mobilité sociale, fracture coloniale et retour perdant à Salford",
+    "data": {
+      "id": "S41-A008",
+      "type_unite": "scene_biographique",
+      "titre": "Jamaïque en couleur : mobilité sociale, fracture coloniale et retour perdant à Salford",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "19-23",
+        "papier": "à verrouiller"
+      },
+      "citation": "Well in Jamaica it was definitely in colour.",
+      "resume": "Hook raconte le départ familial en Jamaïque en 1962, le contraste entre maison avec marbre, toilettes intérieures, personnel et climat tropical, puis la violence domestique entre sa mère et Bill, les tensions raciales et sociales à Kingston, le retour forcé à Salford en 1966 et la perte des économies. La Jamaïque devient une parenthèse de couleur, de confort et d’instabilité, aussitôt annulée par le retour au logement ouvrier.\n",
+      "role_argumentatif": [
+        "Complexifier le récit salfordien : Hook n’est pas seulement enfant du Nord industriel, il connaît une expérience de déplacement colonial et de déclassement retour."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage autobiographique direct",
+        "corroboration": "moyenne ; contexte historique à croiser si usage étendu",
+        "confiance": "élevée pour la mémoire familiale"
+      },
+      "stabilite": {
+        "statut": "stable comme séquence autobiographique",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de transformer la Jamaïque en origine musicale directe ; Hook l’évoque surtout comme contraste biographique."
+      },
+      "motifs": [
+        "Jamaïque",
+        "couleur",
+        "retour à Salford",
+        "déclassement",
+        "violence familiale"
+      ],
+      "concepts_derives": [
+        "parenthèse coloniale",
+        "couleur contre smog",
+        "déclassement retour"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S41-A007"
+        },
+        {
+          "type": "nuance",
+          "cible": "REGISTRE-MEMOIRE-OUVRIERE"
+        }
+      ],
+      "couche_narrative": [
+        "origine sociale",
+        "mobilité",
+        "mémoire"
+      ],
+      "usage_livre": [
+        "Chapitre 2",
+        "Chapitre 13"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A009": {
+    "kind": "atom",
+    "id": "S41-A009",
+    "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41-A009 — Salford Grammar : rencontre Hook/Sumner et reproduction des sociabilités dures",
+    "data": {
+      "id": "S41-A009",
+      "type_unite": "rencontre_fondatrice",
+      "titre": "Salford Grammar : rencontre Hook/Sumner et reproduction des sociabilités dures",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "23-27",
+        "papier": "à verrouiller"
+      },
+      "citation": "that was the first time we had any kind of contact",
+      "resume": "Hook situe sa rencontre avec Bernard Dickin, futur Sumner, au Salford Grammar School. Leur amitié se forme tardivement autour de la culture skinhead, de la dureté scolaire, du vol, des bagarres, du rang dans la cour et d’un humour nordiste violent. La relation fondatrice de Joy Division naît donc dans un espace de discipline scolaire, de mobilité sociale partielle et de sociabilités agressives.\n",
+      "role_argumentatif": [
+        "Définir le socle Hook/Sumner comme alliance sociale et affective antérieure à tout projet musical."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "forte sur la rencontre scolaire ; détails de sociabilité à croiser avec Sumner",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme scène fondatrice",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de naturaliser la violence de classe ; il faut la traiter comme sociabilité située, pas comme essence."
+      },
+      "motifs": [
+        "Salford Grammar",
+        "Barney Dickin",
+        "skinheads",
+        "vol",
+        "dureté scolaire"
+      ],
+      "concepts_derives": [
+        "alliance sociale pré-musicale",
+        "sociabilité dure"
+      ],
+      "relations": [
+        {
+          "type": "prépare",
+          "cible": "S41-A020"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-041"
+        }
+      ],
+      "couche_narrative": [
+        "origine sociale",
+        "groupe"
+      ],
+      "usage_livre": [
+        "Chapitre 2"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A010": {
+    "kind": "atom",
+    "id": "S41-A010",
+    "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41-A010 — Le vol comme économie d’apprentissage : classe, transgression et futur backstage",
+    "data": {
+      "id": "S41-A010",
+      "type_unite": "motif_social",
+      "titre": "Le vol comme économie d’apprentissage : classe, transgression et futur backstage",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "24-26",
+        "papier": "à verrouiller"
+      },
+      "citation": "You never had anything so you took it.",
+      "resume": "Hook décrit les vols adolescents, les passages à tabac policiers et les petits trafics à l’école, puis établit un lien explicite avec les pratiques de Joy Division et New Order en backstage. Le vol n’est pas présenté comme programme politique, mais comme réflexe de classe, transgression pratique et prolongement de l’apprentissage salfordien.\n",
+      "role_argumentatif": [
+        "Relier mémoire ouvrière, comportement de tournée et décalage entre image arty de Joy Division et pratiques scally."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct avec interprétation rétrospective",
+        "corroboration": "moyenne ; à croiser avec autres mémoires pour les pratiques backstage",
+        "confiance": "élevée pour le point de vue de Hook"
+      },
+      "stabilite": {
+        "statut": "stable comme auto-interprétation",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de romantiser ou d’essentialiser la délinquance de classe."
+      },
+      "motifs": [
+        "vol",
+        "police",
+        "scally",
+        "backstage",
+        "classe ouvrière"
+      ],
+      "concepts_derives": [
+        "économie de prise",
+        "image arty contre pratiques scally"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S41-A005"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-JOY-DIVISION-ARTY-PURITY"
+        }
+      ],
+      "couche_narrative": [
+        "classe",
+        "tournée",
+        "mémoire"
+      ],
+      "usage_livre": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A011": {
+    "kind": "atom",
+    "id": "S41-A011",
+    "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41-A011 — Lesser Free Trade Hall avant les Pistols : anti-prélude ivre et désacralisation du lieu",
+    "data": {
+      "id": "S41-A011",
+      "type_unite": "contrepoint_lieu",
+      "titre": "Lesser Free Trade Hall avant les Pistols : anti-prélude ivre et désacralisation du lieu",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "28-30",
+        "papier": "à verrouiller"
+      },
+      "citation": "So that was my first experience of the Lesser Free Trade Hall.",
+      "resume": "Avant la légende du concert des Sex Pistols, Hook raconte sa première expérience du Lesser Free Trade Hall comme scène d’ivresse lors d’une fête de travail : effondrement dans les escaliers, vomi, Lord Mayor enjambant la flaque et retour humiliant à Ordsall. Le lieu mythique est ainsi désacralisé par une mémoire triviale antérieure.\n",
+      "role_argumentatif": [
+        "Préparer une lecture anti-légendaire du Lesser Free Trade Hall : le lieu devient mythique après coup, mais Hook y inscrit d’abord une expérience comique et ouvrière."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage autobiographique direct",
+        "corroboration": "faible nécessaire ; scène privée",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme anecdote mémoire",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible",
+        "raison": "Usage surtout contre-mythique ; ne pas surcharger."
+      },
+      "motifs": [
+        "Lesser Free Trade Hall",
+        "ivresse",
+        "Town Hall",
+        "anti-mythe de lieu"
+      ],
+      "concepts_derives": [
+        "désacralisation du lieu mythique",
+        "prélude trivial"
+      ],
+      "relations": [
+        {
+          "type": "prépare",
+          "cible": "S41-A016"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-LESSER-FREE-TRADE-HALL"
+        }
+      ],
+      "couche_narrative": [
+        "lieu",
+        "mémoire"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A012": {
+    "kind": "atom",
+    "id": "S41-A012",
+    "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41-A012 — « Sebastian » de Cockney Rebel : révélation pop longue et rituel d’écoute",
+    "data": {
+      "id": "S41-A012",
+      "type_unite": "scene_ecoute",
+      "titre": "« Sebastian » de Cockney Rebel : révélation pop longue et rituel d’écoute",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "37-39",
+        "papier": "à verrouiller"
+      },
+      "citation": "They became my gateway to music.",
+      "resume": "Hook situe à Rhyl, en 1973, son entrée véritable dans la musique par « Sebastian » de Cockney Rebel, entendu sur Radio Luxembourg. La longueur du morceau, son développement orchestral, l’obligation de retourner le single et le rituel d’écoute ouvrent chez lui une compréhension nouvelle de Bowie, Roxy et Ian Dury. Cockney Rebel devient une passerelle vers la culture pop comme monde habitable.\n",
+      "role_argumentatif": [
+        "Montrer que la formation musicale de Hook ne vient pas directement du punk : elle passe par la pop dramatique, longue, rituelle et radiophonique."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage autobiographique direct",
+        "corroboration": "forte sur les références ; expérience subjective",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme scène d’écoute",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque d’en faire une influence formelle directe ; Hook parle surtout de gateway."
+      },
+      "motifs": [
+        "Sebastian",
+        "Cockney Rebel",
+        "Radio Luxembourg",
+        "Rhyl",
+        "rituel du single"
+      ],
+      "concepts_derives": [
+        "gateway pop",
+        "écoute rituelle",
+        "longue forme populaire"
+      ],
+      "relations": [
+        {
+          "type": "alimente",
+          "cible": "REGISTRE-INFLUENCES-MUSICALES"
+        },
+        {
+          "type": "prépare",
+          "cible": "S41-A013"
+        }
+      ],
+      "couche_narrative": [
+        "influences",
+        "écoute"
+      ],
+      "usage_livre": [
+        "Chapitre 2",
+        "Chapitre 11"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A013": {
+    "kind": "atom",
+    "id": "S41-A013",
+    "file": "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41-A013 — Melody Maker à Newquay : les Sex Pistols comme possibilité de classe",
+    "data": {
+      "id": "S41-A013",
+      "type_unite": "scene_revelation",
+      "titre": "Melody Maker à Newquay : les Sex Pistols comme possibilité de classe",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "39-40",
+        "papier": "à verrouiller"
+      },
+      "citation": "they looked like working-class tossers too",
+      "resume": "Hook raconte sa lecture d’un article du *Melody Maker* sur les Sex Pistols dans une voiture à Newquay en avril 1976. Contrairement aux figures quasi divines de Led Zeppelin ou Deep Purple, les Pistols lui semblent humains, accessibles, reliés à James Dean, à la rébellion adolescente et à la grisaille britannique. L’identification ne porte pas d’abord sur la virtuosité, mais sur la possibilité sociale de faire de la musique.\n",
+      "role_argumentatif": [
+        "Définir la révélation punk comme reconnaissance de classe : non pas admirer des dieux, mais voir des semblables qui rendent l’action possible."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage autobiographique direct",
+        "corroboration": "forte sur le contexte ; mémoire subjective",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme scène fondatrice",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible à moyen",
+        "raison": "Le risque principal est de réduire le punk à la seule classe, alors que l’image, le bruit et la violence comptent aussi."
+      },
+      "motifs": [
+        "Melody Maker",
+        "Sex Pistols",
+        "Newquay",
+        "working-class tossers",
+        "James Dean"
+      ],
+      "concepts_derives": [
+        "possibilité de classe",
+        "punk comme permission",
+        "anti-virtuosité accessible"
+      ],
+      "relations": [
+        {
+          "type": "prépare",
+          "cible": "S41-A016"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S41-A010"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-SEX-PISTOLS-LFTH-ORIGIN"
+        }
+      ],
+      "couche_narrative": [
+        "punk",
+        "classe",
+        "révélation"
+      ],
+      "usage_livre": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
   "S46-121": {
     "kind": "atom",
     "id": "S46-121",
@@ -27342,9 +27834,9 @@
       ]
     }
   },
-  "NO_ID::sources/flowers/README.md::670": {
+  "NO_ID::sources/flowers/README.md::677": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::670",
+    "id": "NO_ID::sources/flowers/README.md::677",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -27359,9 +27851,9 @@
       "source_short_title": "Claude Flowers, New Order + Joy Division: Dreams Never End, 1995/2012"
     }
   },
-  "NO_ID::sources/flowers/README.md::671": {
+  "NO_ID::sources/flowers/README.md::678": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::671",
+    "id": "NO_ID::sources/flowers/README.md::678",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -27419,9 +27911,9 @@
       ]
     }
   },
-  "NO_ID::sources/flowers/README.md::672": {
+  "NO_ID::sources/flowers/README.md::679": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::672",
+    "id": "NO_ID::sources/flowers/README.md::679",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -27440,9 +27932,9 @@
       ]
     }
   },
-  "NO_ID::sources/flowers/README.md::673": {
+  "NO_ID::sources/flowers/README.md::680": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::673",
+    "id": "NO_ID::sources/flowers/README.md::680",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -32157,9 +32649,9 @@
       "source_year": "2004"
     }
   },
-  "NO_ID::sources/ott_unknown_pleasures/README.md::755": {
+  "NO_ID::sources/ott_unknown_pleasures/README.md::762": {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::755",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::762",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -67458,9 +67950,9 @@
       "source_year": "2012"
     }
   },
-  "NO_ID::sources/hook/citations_exactes.md::1378": {
+  "NO_ID::sources/hook/citations_exactes.md::1385": {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1378",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1385",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -72053,9 +72545,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1524": {
+  "NO_ID::sources/suatoni/README.md::1531": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1524",
+    "id": "NO_ID::sources/suatoni/README.md::1531",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -72070,9 +72562,9 @@
       "source_short_title": "Alfredo Suatoni, Joy Division: Dal cuore della città / From the Centre of the City, 1990"
     }
   },
-  "NO_ID::sources/suatoni/README.md::1525": {
+  "NO_ID::sources/suatoni/README.md::1532": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1525",
+    "id": "NO_ID::sources/suatoni/README.md::1532",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -72108,9 +72600,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1526": {
+  "NO_ID::sources/suatoni/README.md::1533": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1526",
+    "id": "NO_ID::sources/suatoni/README.md::1533",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -73253,9 +73745,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1562": {
+  "NO_ID::sources/greig_strong/README.md::1569": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1562",
+    "id": "NO_ID::sources/greig_strong/README.md::1569",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -73270,9 +73762,9 @@
       "source_short_title": "Alastair Greig ; Catherine Strong, But We Remember When We Were Young, 2014"
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1563": {
+  "NO_ID::sources/greig_strong/README.md::1570": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1563",
+    "id": "NO_ID::sources/greig_strong/README.md::1570",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -73299,9 +73791,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1564": {
+  "NO_ID::sources/greig_strong/README.md::1571": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1564",
+    "id": "NO_ID::sources/greig_strong/README.md::1571",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -74471,9 +74963,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/songs/master_songs.md::1596": {
+  "NO_ID::registers/songs/master_songs.md::1603": {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1596",
+    "id": "NO_ID::registers/songs/master_songs.md::1603",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -75436,6 +75928,128 @@
       "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
+    }
+  },
+  "SONG-S41-SEBASTIAN-COCKNEY-REBEL": {
+    "kind": "atom",
+    "id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+    "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41 — Chansons, films et sources médiatiques — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
+    "data": {
+      "id": "SONG-S41-SEBASTIAN-COCKNEY-REBEL",
+      "source_id": "S41",
+      "titre": "Sebastian",
+      "artiste": "Cockney Rebel",
+      "nature": "chanson / révélation d’écoute",
+      "usage": "Morceau entendu par Hook à Rhyl sur Radio Luxembourg en 1973 ; il devient sa porte d’entrée vers une compréhension active de la musique populaire et ouvre vers Bowie, Roxy et Ian Dury.\n",
+      "atomes_lies": [
+        "S41-A012"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 11"
+      ],
+      "prudence": "Ne pas en faire une influence formelle unique ; Hook parle surtout d’un seuil personnel d’écoute.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL": {
+    "kind": "atom",
+    "id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+    "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41 — Chansons, films et sources médiatiques — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
+    "data": {
+      "id": "SONG-S41-HUMAN-MENAGERIE-COCKNEY-REBEL",
+      "source_id": "S41",
+      "titre": "The Human Menagerie",
+      "artiste": "Cockney Rebel",
+      "nature": "album / gateway musical",
+      "usage": "Premier album de Cockney Rebel acheté par Hook après « Sebastian » ; associé à son entrée durable dans la culture pop.\n",
+      "atomes_lies": [
+        "S41-A012"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 11"
+      ],
+      "prudence": "Usage biographique, non analyse musicale exhaustive.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "MEDIA-S41-MELODY-MAKER-PISTOLS-APRIL-1976": {
+    "kind": "unknown",
+    "id": "MEDIA-S41-MELODY-MAKER-PISTOLS-APRIL-1976",
+    "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41 — Chansons, films et sources médiatiques — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
+    "data": {
+      "id": "MEDIA-S41-MELODY-MAKER-PISTOLS-APRIL-1976",
+      "source_id": "S41",
+      "titre": "Melody Maker — article Sex Pistols Nashville Rooms",
+      "nature": "source presse / révélation punk",
+      "usage": "Article lu par Hook à Newquay en avril 1976 ; il y découvre les Sex Pistols comme figures accessibles, humaines et ouvrières, par contraste avec Led Zeppelin ou Deep Purple.\n",
+      "atomes_lies": [
+        "S41-A013"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "prudence": "À croiser avec l’article original du Melody Maker si citation ou datation précise est mobilisée.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "FILM-S41-THATLL-BE-THE-DAY": {
+    "kind": "unknown",
+    "id": "FILM-S41-THATLL-BE-THE-DAY",
+    "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41 — Chansons, films et sources médiatiques — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
+    "data": {
+      "id": "FILM-S41-THATLL-BE-THE-DAY",
+      "source_id": "S41",
+      "titre": "That’ll Be the Day",
+      "realisation": "Claude Whatham",
+      "nature": "film / fantasme de sortie professionnelle",
+      "usage": "Film avec David Essex et Ringo Starr qui pousse Hook et ses amis à quitter leur emploi pour Butlin’s ; matrice d’un imaginaire de vie musicale avant l’épiphanie punk.\n",
+      "atomes_lies": [
+        "S41-A012"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "prudence": "Ne pas confondre le fantasme rock du film avec la possibilité punk plus tardive.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "ARTIST-S41-SEX-PISTOLS-AS-CLASS-PERMISSION": {
+    "kind": "unknown",
+    "id": "ARTIST-S41-SEX-PISTOLS-AS-CLASS-PERMISSION",
+    "file": "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41 — Chansons, films et sources médiatiques — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
+    "data": {
+      "id": "ARTIST-S41-SEX-PISTOLS-AS-CLASS-PERMISSION",
+      "source_id": "S41",
+      "titre": "Sex Pistols",
+      "nature": "groupe / permission de classe",
+      "usage": "Les Sex Pistols deviennent pour Hook le signe que la musique peut être faite par des semblables sociaux, non par des virtuoses éloignés.\n",
+      "atomes_lies": [
+        "S41-A013"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "prudence": "Distinguer l’article de presse de la révélation live ultérieure au Lesser Free Trade Hall.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
     }
   },
   "SONG-S45-CLOSER-BRITANNIA-ROW-THRESHOLD": {
@@ -78931,9 +79545,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::1716": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::1728": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::1716",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::1728",
     "file": "registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Citations candidates — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -79235,9 +79849,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1717": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1729": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1717",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1729",
     "file": "registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Citations candidates — tournée européenne, Annik, foyer et seuil Closer",
     "data": {
@@ -81128,9 +81742,9 @@
       "source_year": "1995"
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1762": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1774": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1762",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1774",
     "file": "registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md",
     "heading": "S45 — Citations candidates — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -83731,9 +84345,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1827": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1839": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1827",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1839",
     "file": "registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Citations candidates — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -84991,6 +85605,114 @@
       "source_year": "2006"
     }
   },
+  "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::1868": {
+    "kind": "template",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::1868",
+    "file": "registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41 — Citations candidates — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
+    "data": {
+      "quotes": [
+        {
+          "id": "S41-Q007",
+          "source_id": "S41",
+          "passage": "dark and smoggy and brown, the colour of a wet cardboard box",
+          "traduction_de_travail": "sombre, enfumé et brun, de la couleur d’une boîte en carton mouillée",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "17",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A007"
+          ]
+        },
+        {
+          "id": "S41-Q008",
+          "source_id": "S41",
+          "passage": "Well in Jamaica it was definitely in colour.",
+          "traduction_de_travail": "Eh bien, en Jamaïque, c’était vraiment en couleur.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "21",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A008"
+          ]
+        },
+        {
+          "id": "S41-Q009",
+          "source_id": "S41",
+          "passage": "that was the first time we had any kind of contact",
+          "traduction_de_travail": "ce fut la première fois que nous avons eu une forme quelconque de contact",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "24",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A009"
+          ]
+        },
+        {
+          "id": "S41-Q010",
+          "source_id": "S41",
+          "passage": "You never had anything so you took it.",
+          "traduction_de_travail": "On n’avait jamais rien, alors on le prenait.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "26",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A010"
+          ]
+        },
+        {
+          "id": "S41-Q011",
+          "source_id": "S41",
+          "passage": "So that was my first experience of the Lesser Free Trade Hall.",
+          "traduction_de_travail": "Voilà donc ma première expérience du Lesser Free Trade Hall.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "30",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A011"
+          ]
+        },
+        {
+          "id": "S41-Q012",
+          "source_id": "S41",
+          "passage": "They became my gateway to music.",
+          "traduction_de_travail": "Ils devinrent ma porte d’entrée vers la musique.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "38",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A012"
+          ]
+        },
+        {
+          "id": "S41-Q013",
+          "source_id": "S41",
+          "passage": "they looked like working-class tossers too",
+          "traduction_de_travail": "ils avaient l’air, eux aussi, de petits cons de la classe ouvrière",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "39",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A013"
+          ]
+        }
+      ]
+    }
+  },
   "S76-Q098": {
     "kind": "quote",
     "id": "S76-Q098",
@@ -85525,9 +86247,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::1870": {
+  "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::1883": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::1870",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::1883",
     "file": "registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Citations candidates — Pips et premier concert Joy Division",
     "data": {
@@ -90275,9 +90997,9 @@
       "source_year": "s.d."
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2013": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2026": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2013",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2026",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -90432,9 +91154,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2014": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2027": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2014",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2027",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -90674,9 +91396,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2015": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2028": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2015",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2028",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -90740,9 +91462,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2016": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2029": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2016",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2029",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -90894,9 +91616,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2017": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2030": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2017",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2030",
     "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -90953,9 +91675,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2018": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2031": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2018",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2031",
     "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -91081,9 +91803,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2019": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2032": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2019",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2032",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -91231,9 +91953,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2020": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2033": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2020",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2033",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -91460,9 +92182,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2021": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2034": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2021",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2034",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -91554,9 +92276,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2022": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2035": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2022",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2035",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -91724,9 +92446,220 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2023": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2036": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2023",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2036",
+    "file": "registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "Relations stabilisées",
+    "data": {
+      "relations": [
+        {
+          "id": "REL-S41-A007-CONCEPT-044",
+          "source": "S41-A007",
+          "type": "prolonge",
+          "cible": "CONCEPT-044",
+          "justification": "Hook construit Salford comme texture visuelle et affective de l’enfance : brun, smog, logement ouvrier et violence familiale.\n"
+        },
+        {
+          "id": "REL-S41-A008-CONCEPT-045",
+          "source": "S41-A008",
+          "type": "prolonge",
+          "cible": "CONCEPT-045",
+          "justification": "La Jamaïque constitue une mobilité ouvrière contrariée : confort, couleur, instabilité puis retour perdant à Salford.\n"
+        },
+        {
+          "id": "REL-S41-A009-ORIGINE-HOOK-SUMNER",
+          "source": "S41-A009",
+          "type": "prépare",
+          "cible": "RELATION-HOOK-SUMNER",
+          "justification": "La rencontre scolaire précède la formation musicale et installe une alliance sociale antérieure au punk.\n"
+        },
+        {
+          "id": "REL-S41-A010-CONCEPT-044",
+          "source": "S41-A010",
+          "type": "prolonge",
+          "cible": "CONCEPT-044",
+          "justification": "Le vol et la scally attitude prolongent Salford comme matrice pratique, pas seulement décorative.\n"
+        },
+        {
+          "id": "REL-S41-A011-CONCEPT-047",
+          "source": "S41-A011",
+          "type": "prolonge",
+          "cible": "CONCEPT-047",
+          "justification": "Le Lesser Free Trade Hall est désacralisé par une mémoire antérieure d’ivresse ouvrière.\n"
+        },
+        {
+          "id": "REL-S41-A012-REGISTRE-INFLUENCES-MUSICALES",
+          "source": "S41-A012",
+          "type": "alimente",
+          "cible": "REGISTRE-INFLUENCES-MUSICALES",
+          "justification": "Cockney Rebel et « Sebastian » apparaissent comme gateway musical avant la rupture punk.\n"
+        },
+        {
+          "id": "REL-S41-A013-CONCEPT-046",
+          "source": "S41-A013",
+          "type": "prolonge",
+          "cible": "CONCEPT-046",
+          "justification": "Les Sex Pistols rendent la musique praticable parce qu’ils paraissent socialement semblables à Hook."
+        }
+      ]
+    }
+  },
+  "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2037": {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2037",
+    "file": "registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "Entrées RAG candidates",
+    "data": {
+      "rag_index": [
+        {
+          "id": "RAG-S41-A007",
+          "source_id": "S41",
+          "atom_id": "S41-A007",
+          "title": "Salford brun et smoggy",
+          "chapters": [
+            "Chapitre 2",
+            "Chapitre 13"
+          ],
+          "tags": [
+            "salford",
+            "childhood",
+            "smog",
+            "working-class",
+            "control"
+          ],
+          "query_boost": [
+            "dark and smoggy and brown wet cardboard box",
+            "Peter Hook Salford childhood Control black and white"
+          ],
+          "use_for": [
+            "géographie émotionnelle",
+            "mémoire ouvrière",
+            "origine sociale de Hook"
+          ],
+          "avoid_for": [
+            "déterminisme sonore direct"
+          ]
+        },
+        {
+          "id": "RAG-S41-A008",
+          "source_id": "S41",
+          "atom_id": "S41-A008",
+          "title": "Jamaïque en couleur et retour perdant à Salford",
+          "chapters": [
+            "Chapitre 2",
+            "Chapitre 13"
+          ],
+          "tags": [
+            "jamaica",
+            "salford",
+            "colour",
+            "return",
+            "mobility"
+          ],
+          "query_boost": [
+            "Well in Jamaica it was definitely in colour",
+            "Peter Hook Jamaica Salford return 1966"
+          ],
+          "use_for": [
+            "contraste biographique",
+            "mobilité ouvrière contrariée"
+          ],
+          "avoid_for": [
+            "influence musicale directe non prouvée"
+          ]
+        },
+        {
+          "id": "RAG-S41-A010",
+          "source_id": "S41",
+          "atom_id": "S41-A010",
+          "title": "Vol, classe et scally attitude",
+          "chapters": [
+            "Chapitre 2",
+            "Chapitre 6"
+          ],
+          "tags": [
+            "theft",
+            "salford",
+            "scally",
+            "working-class",
+            "backstage"
+          ],
+          "query_boost": [
+            "You never had anything so you took it",
+            "Joy Division arty intellectual image working class thieves"
+          ],
+          "use_for": [
+            "décalage image arty / pratiques de classe",
+            "sociologie du groupe"
+          ],
+          "avoid_for": [
+            "romantisation de la délinquance"
+          ]
+        },
+        {
+          "id": "RAG-S41-A012",
+          "source_id": "S41",
+          "atom_id": "S41-A012",
+          "title": "Sebastian comme gateway musical",
+          "chapters": [
+            "Chapitre 2",
+            "Chapitre 11"
+          ],
+          "tags": [
+            "cockney-rebel",
+            "sebastian",
+            "radio-luxembourg",
+            "steve-harley",
+            "pop"
+          ],
+          "query_boost": [
+            "They became my gateway to music",
+            "Sebastian Cockney Rebel Peter Hook Radio Luxembourg Rhyl"
+          ],
+          "use_for": [
+            "influences musicales pré-punk",
+            "rituel d’écoute"
+          ],
+          "avoid_for": [
+            "influence formelle unique"
+          ]
+        },
+        {
+          "id": "RAG-S41-A013",
+          "source_id": "S41",
+          "atom_id": "S41-A013",
+          "title": "Sex Pistols comme permission de classe",
+          "chapters": [
+            "Chapitre 2",
+            "Chapitre 6"
+          ],
+          "tags": [
+            "sex-pistols",
+            "melody-maker",
+            "newquay",
+            "working-class",
+            "punk"
+          ],
+          "query_boost": [
+            "they looked like working-class tossers too",
+            "I have got to see this lot",
+            "Sex Pistols possibility working class Peter Hook"
+          ],
+          "use_for": [
+            "révélation punk",
+            "classe et permission d’agir"
+          ],
+          "avoid_for": [
+            "réduction du punk à la seule classe"
+          ]
+        }
+      ]
+    }
+  },
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2038": {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2038",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -91832,9 +92765,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2024": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2039": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2024",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2039",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -92040,9 +92973,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2025": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2040": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2025",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2040",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -92162,9 +93095,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2026": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2041": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2026",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2041",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -92296,9 +93229,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2027": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2042": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2027",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2042",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -92317,9 +93250,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2028": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2043": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2028",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2043",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -92397,9 +93330,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2029": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2044": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2029",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2044",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -92574,9 +93507,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2030": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2045": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2030",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2045",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -92696,9 +93629,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2031": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2046": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2031",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2046",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -92862,9 +93795,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2032": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2047": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2032",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2047",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -92921,9 +93854,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2033": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2048": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2033",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2048",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -92970,9 +93903,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2034": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2049": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2034",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2049",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -93526,6 +94459,111 @@
       ],
       "atomes_lies": [
         "S45-A060"
+      ]
+    }
+  },
+  "MOTIF-059": {
+    "kind": "motif",
+    "id": "MOTIF-059",
+    "file": "registers/motifs/s41_hook_motifs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "MOTIF-059 — Salford brun et smoggy",
+    "data": {
+      "id": "MOTIF-059",
+      "nom": "Salford brun et smoggy",
+      "definition": "Motif désignant la mémoire visuelle de Hook : Salford comme monde brun, sombre, humide, industriel, comparable à une boîte de carton mouillée.\n",
+      "atomes_lies": [
+        "S41-A007"
+      ],
+      "concepts_associes": [
+        "CONCEPT-044"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 13"
+      ]
+    }
+  },
+  "MOTIF-060": {
+    "kind": "motif",
+    "id": "MOTIF-060",
+    "file": "registers/motifs/s41_hook_motifs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "MOTIF-060 — Jamaïque en couleur",
+    "data": {
+      "id": "MOTIF-060",
+      "nom": "Jamaïque en couleur",
+      "definition": "Motif de contraste biographique : Jamaïque comme parenthèse de couleur, chaleur, mobilité sociale et instabilité domestique, opposée au retour dans le Salford ouvrier.\n",
+      "atomes_lies": [
+        "S41-A008"
+      ],
+      "concepts_associes": [
+        "CONCEPT-045"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 13"
+      ]
+    }
+  },
+  "MOTIF-061": {
+    "kind": "motif",
+    "id": "MOTIF-061",
+    "file": "registers/motifs/s41_hook_motifs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "MOTIF-061 — vol et scally attitude",
+    "data": {
+      "id": "MOTIF-061",
+      "nom": "vol et scally attitude",
+      "definition": "Motif désignant la continuité que Hook établit entre petits vols adolescents, culture de manque, pratiques backstage et décalage avec l’image arty de Joy Division.\n",
+      "atomes_lies": [
+        "S41-A010"
+      ],
+      "concepts_associes": [
+        "CONCEPT-044"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ]
+    }
+  },
+  "MOTIF-062": {
+    "kind": "motif",
+    "id": "MOTIF-062",
+    "file": "registers/motifs/s41_hook_motifs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "MOTIF-062 — gateway pop",
+    "data": {
+      "id": "MOTIF-062",
+      "nom": "gateway pop",
+      "definition": "Motif désignant les morceaux ou artistes qui ouvrent à Hook une compréhension incarnée de la musique populaire avant le punk : Cockney Rebel, « Sebastian », Bowie, Roxy, Ian Dury.\n",
+      "atomes_lies": [
+        "S41-A012"
+      ],
+      "concepts_associes": [
+        "REGISTRE-INFLUENCES-MUSICALES"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 11"
+      ]
+    }
+  },
+  "MOTIF-063": {
+    "kind": "motif",
+    "id": "MOTIF-063",
+    "file": "registers/motifs/s41_hook_motifs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "MOTIF-063 — Pistols comme semblables",
+    "data": {
+      "id": "MOTIF-063",
+      "nom": "Pistols comme semblables",
+      "definition": "Motif désignant la reconnaissance sociale décisive : les Sex Pistols apparaissent à Hook non comme des dieux du rock, mais comme des working-class tossers capables d’autoriser d’autres working-class tossers à faire de la musique.\n",
+      "atomes_lies": [
+        "S41-A013"
+      ],
+      "concepts_associes": [
+        "CONCEPT-046"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6"
       ]
     }
   },
@@ -95749,9 +96787,9 @@
       ]
     }
   },
-  "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::2116": {
+  "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::2136": {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::2116",
+    "id": "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::2136",
     "file": "registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Personnes — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -95866,9 +96904,9 @@
       ]
     }
   },
-  "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2117": {
+  "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2137": {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2117",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2137",
     "file": "registers/people/s45_curtis_people_1979_buzzcocks_tour.md",
     "heading": "S45 — Personnes — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -97738,9 +98776,9 @@
       ]
     }
   },
-  "NO_ID::registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md::2162": {
+  "NO_ID::registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md::2182": {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md::2162",
+    "id": "NO_ID::registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md::2182",
     "file": "registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Personnes — Pips et premier concert Joy Division",
     "data": {
@@ -97972,9 +99010,9 @@
       ]
     }
   },
-  "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2167": {
+  "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2187": {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2167",
+    "id": "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2187",
     "file": "registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Personnes — tournée européenne, Annik, foyer et seuil Closer",
     "data": {
@@ -99735,6 +100773,92 @@
       ]
     }
   },
+  "NO_ID::registers/people/s41_hook_people_1956_1976_salford_jamaica_music_pistols_epiphany.md::2229": {
+    "kind": "template",
+    "id": "NO_ID::registers/people/s41_hook_people_1956_1976_salford_jamaica_music_pistols_epiphany.md::2229",
+    "file": "registers/people/s41_hook_people_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41 — Personnes — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
+    "data": {
+      "people": [
+        {
+          "id": "PERS-S41-PETER-HOOK-ORIGINS",
+          "personne": "Peter Hook",
+          "source_id": "S41",
+          "role": "Narrateur autobiographique : enfance à Salford, Jamaïque, retour, premières écoutes et reconnaissance punk.",
+          "statut": "témoin direct / sujet autobiographique",
+          "atomes_lies": [
+            "S41-A007",
+            "S41-A008",
+            "S41-A010",
+            "S41-A012",
+            "S41-A013"
+          ],
+          "usage": [
+            "Chapitre 2",
+            "Chapitre 6",
+            "Chapitre 13"
+          ],
+          "prudence": "Mémoire directe, souvent stylisée et comique ; distinguer fait, perception et auto-interprétation."
+        },
+        {
+          "id": "PERS-S41-BERNARD-SUMNER-SALFORD-GRAMMAR",
+          "personne": "Bernard Sumner",
+          "source_id": "S41",
+          "role": "Rencontré par Hook au Salford Grammar School ; futur partenaire fondateur de Warsaw/Joy Division/New Order.",
+          "statut": "acteur fondateur / ami d’école",
+          "atomes_lies": [
+            "S41-A009"
+          ],
+          "usage": [
+            "Chapitre 2",
+            "Chapitre 6"
+          ]
+        },
+        {
+          "id": "PERS-S41-IRENE-HOOK",
+          "personne": "Irene Acton / Irene Hook",
+          "source_id": "S41",
+          "role": "Mère de Peter Hook ; figure de volonté, de mémoire familiale, de déplacement Jamaïque/Salford et de morale ouvrière.",
+          "statut": "figure familiale structurante",
+          "atomes_lies": [
+            "S41-A007",
+            "S41-A008",
+            "S41-A010"
+          ],
+          "usage": [
+            "Chapitre 2"
+          ]
+        },
+        {
+          "id": "PERS-S41-BILL-HOOK",
+          "personne": "Ernest William Hook",
+          "source_id": "S41",
+          "role": "Beau-père de Hook, ouvrier verrier, conducteur de la mobilité jamaïcaine puis figure de déclassement et de violence familiale.",
+          "statut": "figure familiale / travail verrier",
+          "atomes_lies": [
+            "S41-A008"
+          ],
+          "usage": [
+            "Chapitre 2"
+          ]
+        },
+        {
+          "id": "PERS-S41-STEVE-HARLEY-SEBASTIAN",
+          "personne": "Steve Harley",
+          "source_id": "S41",
+          "role": "Chanteur de Cockney Rebel ; associé par Hook à la révélation musicale provoquée par « Sebastian ».",
+          "statut": "influence musicale déclarée",
+          "atomes_lies": [
+            "S41-A012"
+          ],
+          "usage": [
+            "Chapitre 2",
+            "Chapitre 11"
+          ]
+        }
+      ]
+    }
+  },
   "PERS-S76-073": {
     "kind": "person",
     "id": "PERS-S76-073",
@@ -100550,9 +101674,9 @@
       "source_year": "1995"
     }
   },
-  "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2234": {
+  "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2255": {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2234",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2255",
     "file": "registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Personnes — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -102563,6 +103687,158 @@
       ]
     }
   },
+  "CONCEPT-044": {
+    "kind": "concept",
+    "id": "CONCEPT-044",
+    "file": "registers/concepts/s41_hook_concepts_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "CONCEPT-044 — Salford comme matrice sensorielle",
+    "data": {
+      "id": "CONCEPT-044",
+      "nom": "Salford comme matrice sensorielle",
+      "statut": {
+        "type": [
+          "concept_geographie_emotionnelle",
+          "concept_memoire_ouvriere"
+        ],
+        "stabilite": "stable"
+      },
+      "definition": "Concept désignant la manière dont Hook reconstruit Salford comme environnement total : couleur brune, smog, logement ouvrier, violence familiale, rue comme terrain de jeu, police, redeveloppement et sociabilités de classe. Salford n’explique pas mécaniquement le son de Joy Division, mais fournit une texture de mémoire et d’attitude.\n",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 13"
+      ],
+      "atomes_lies": [
+        "S41-A007",
+        "S41-A009",
+        "S41-A010"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-042"
+        },
+        {
+          "type": "alimente",
+          "cible": "REGISTRE-GEOGRAPHIE-EMOTIONNELLE"
+        }
+      ],
+      "risques": [
+        "déterminisme géographique",
+        "romantisation de la pauvreté",
+        "effacement de l’humour hookien"
+      ]
+    }
+  },
+  "CONCEPT-045": {
+    "kind": "concept",
+    "id": "CONCEPT-045",
+    "file": "registers/concepts/s41_hook_concepts_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "CONCEPT-045 — mobilité ouvrière contrariée",
+    "data": {
+      "id": "CONCEPT-045",
+      "nom": "mobilité ouvrière contrariée",
+      "statut": {
+        "type": [
+          "concept_social",
+          "concept_biographique"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Concept désignant les expériences de déplacement et de retour qui donnent à la trajectoire de Hook une forme non linéaire : Jamaïque comme parenthèse de couleur, de confort et d’instabilité, puis retour à Salford avec perte des économies, déclassement matériel et réinscription dans le logement ouvrier.\n",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 13"
+      ],
+      "atomes_lies": [
+        "S41-A008"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-044"
+        }
+      ],
+      "risques": [
+        "transformer la Jamaïque en influence musicale directe",
+        "ignorer le contexte colonial et racial du récit"
+      ]
+    }
+  },
+  "CONCEPT-046": {
+    "kind": "concept",
+    "id": "CONCEPT-046",
+    "file": "registers/concepts/s41_hook_concepts_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "CONCEPT-046 — punk comme permission de classe",
+    "data": {
+      "id": "CONCEPT-046",
+      "nom": "punk comme permission de classe",
+      "statut": {
+        "type": [
+          "concept_punk",
+          "concept_classe",
+          "concept_processus_creatif"
+        ],
+        "stabilite": "stable"
+      },
+      "definition": "Concept désignant la révélation selon laquelle la musique devient praticable lorsque Hook voit les Sex Pistols comme des semblables sociaux plutôt que comme des virtuoses inaccessibles. Le punk n’est pas d’abord compétence musicale ; il est autorisation à agir.\n",
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S41-A013"
+      ],
+      "relations": [
+        {
+          "type": "prépare",
+          "cible": "S41-A016"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-041"
+        }
+      ],
+      "risques": [
+        "réduire le punk à la classe seule",
+        "effacer la dimension sonore, visuelle et médiatique"
+      ]
+    }
+  },
+  "CONCEPT-047": {
+    "kind": "concept",
+    "id": "CONCEPT-047",
+    "file": "registers/concepts/s41_hook_concepts_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "CONCEPT-047 — désacralisation des lieux mythiques",
+    "data": {
+      "id": "CONCEPT-047",
+      "nom": "désacralisation des lieux mythiques",
+      "statut": {
+        "type": [
+          "concept_memoire",
+          "concept_lieu"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Concept désignant la manière dont Hook ramène les lieux canoniques de l’histoire punk, notamment le Lesser Free Trade Hall, à des expériences triviales, corporelles et comiques antérieures à leur canonisation.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S41-A011"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "MYTH-LESSER-FREE-TRADE-HALL"
+        }
+      ],
+      "risques": [
+        "remplacer le mythe par un contre-mythe purement comique",
+        "minimiser le rôle réellement structurant du lieu"
+      ]
+    }
+  },
   "CONCEPT-001": {
     "kind": "concept",
     "id": "CONCEPT-001",
@@ -103462,9 +104738,9 @@
       ]
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2296": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2321": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2296",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2321",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -103484,9 +104760,9 @@
       "usage_recommande": "Utiliser ces atomes pour écrire un récit d’apprentissage, non une légende de révélation instantanée."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2297": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2322": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2297",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2322",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -103502,9 +104778,9 @@
       "usage_recommande": "Contextualiser sans excuser. Distinguer intention, effet visuel, réception, immaturité politique et charge morale."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2298": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2323": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2298",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2323",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -103520,9 +104796,9 @@
       "usage_recommande": "Éviter la vision de Factory comme anti-business naturel ; montrer l’apprentissage par contraste."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2299": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2324": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2299",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2324",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -103536,9 +104812,9 @@
       "usage_recommande": "Employer ce passage pour socialiser et historiciser la maladie, non pour renforcer une téléologie morbide."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2300": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2325": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2300",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2325",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -103555,9 +104831,9 @@
       "usage_recommande": "Utiliser ces atomes pour maintenir le coût humain du mythe sans psychologiser ou spiritualiser chaque geste de Curtis."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2301": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2326": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2301",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2326",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -103575,9 +104851,9 @@
       "usage_recommande": "Traiter la santé comme faisceau instable : épilepsie, médicaments, sommeil, tournée, alcool, conflit conjugal, studio."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2302": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2327": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2302",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2327",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -103590,9 +104866,9 @@
       "usage_recommande": "Maintenir l’écart entre perception d’Annik, crise intime et statut poétique des paroles."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2303": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2328": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2303",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2328",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Closer comme pur objet de studio",
     "data": {
@@ -104012,9 +105288,9 @@
       ]
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2314": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2339": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2314",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2339",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-003 — Manchester comme matrice unique",
     "data": {
@@ -104029,9 +105305,9 @@
       "usage_recommande": "Utiliser ces atomes pour écrire Manchester comme dispositif relationnel et médiatique, non comme matrice mécanique du son."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2315": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2340": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2315",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2340",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -104047,9 +105323,9 @@
       "usage_recommande": "Présenter Factory comme configuration émergente dans un champ concurrentiel, pas comme pure extériorité anti-business."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2316": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2341": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2316",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2341",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -104064,9 +105340,9 @@
       "usage_recommande": "Inscrire le son Joy Division dans une série de frictions et de corrections."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2317": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2342": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2317",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2342",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -104079,9 +105355,9 @@
       "usage_recommande": "Croiser la critique contemporaine négative avec les lectures plus favorables de Paul Morley pour éviter un récit univoque."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2318": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2343": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2318",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2343",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-009 — Rob Gretton comme manager sauveur",
     "data": {
@@ -104095,9 +105371,9 @@
       "usage_recommande": "Présenter Gretton comme manager de proximité et médiateur, non comme sauveur providentiel ni simple obstacle conjugal."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2319": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2344": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2319",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2344",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -104116,9 +105392,9 @@
       "usage_recommande": "Écrire la fin comme faisceau de signes ambigus, non comme trajectoire entièrement lisible."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2320": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2345": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2320",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2345",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -104137,9 +105413,9 @@
       "usage_recommande": "Maintenir l’analyse en faisceau : maladie, médicaments, sommeil, tournée, entourage, management, couple."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2321": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2346": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2321",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2346",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-STROSZEK-CAUSE — Stroszek comme cause explicative du suicide",
     "data": {
@@ -104152,9 +105428,9 @@
       "usage_recommande": "Employer Stroszek comme motif de dernier week-end, non comme clé interprétative totale."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2322": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2347": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2322",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2347",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU / objet canonique isolé",
     "data": {
@@ -104167,9 +105443,55 @@
       "usage_recommande": "Relier objets canoniques et conditions de production sans réduire l’un à l’autre."
     }
   },
-  "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2323": {
+  "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2348": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2323",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2348",
+    "file": "registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "Complément MYTH-LESSER-FREE-TRADE-HALL — Lieu sacré de la naissance punk mancunienne",
+    "data": {
+      "mythe_id": "MYTH-LESSER-FREE-TRADE-HALL",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A011"
+      ],
+      "apport": "Hook désacralise le Lesser Free Trade Hall en rappelant une première expérience triviale et ivre du lieu, avant le concert canonique des Sex Pistols. Le lieu devient mythique par relecture, non par essence.\n",
+      "usage_recommande": "Employer ce passage pour maintenir l’écart entre lieu vécu, lieu raconté et lieu canonisé."
+    }
+  },
+  "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2349": {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2349",
+    "file": "registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "Complément MYTH-SEX-PISTOLS-LFTH-ORIGIN — Le concert comme origine unique",
+    "data": {
+      "mythe_id": "MYTH-SEX-PISTOLS-LFTH-ORIGIN",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A012",
+        "S41-A013"
+      ],
+      "apport": "Avant le concert du Lesser Free Trade Hall, Hook connaît déjà une formation d’écoute par Cockney Rebel, Bowie, Roxy, Top of the Pops et Melody Maker. Le punk agit comme permission sociale, mais il n’arrive pas dans un vide culturel.\n",
+      "usage_recommande": "Présenter le concert des Pistols comme catalyseur, non comme origine absolue."
+    }
+  },
+  "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2350": {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2350",
+    "file": "registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "Complément MYTH-JOY-DIVISION-ARTY-PURITY — Joy Division comme groupe d’art pur",
+    "data": {
+      "mythe_id": "MYTH-JOY-DIVISION-ARTY-PURITY",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A010"
+      ],
+      "apport": "Hook rappelle la continuité entre culture salfordienne du vol, pratiques backstage et image arty-intellectuelle du groupe. L’image postérieure de Joy Division ne doit pas effacer la scally attitude de ses membres.\n",
+      "usage_recommande": "Utiliser ce passage pour complexifier le contraste entre austérité esthétique et pratiques sociales ordinaires."
+    }
+  },
+  "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2351": {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2351",
     "file": "registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md",
     "heading": "Complément MYTH-007 — La controverse nazie",
     "data": {
@@ -104182,9 +105504,9 @@
       "usage_recommande": "Articuler S41 avec S45 : ne pas choisir entre innocence punk et accusation politique ; traiter l’écart entre intention, naïveté, provocation et réception."
     }
   },
-  "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2324": {
+  "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2352": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2324",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2352",
     "file": "registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md",
     "heading": "Complément MYTH-002 — Curtis comme figure tragique déjà constituée",
     "data": {
@@ -104199,9 +105521,9 @@
       "usage_recommande": "Employer ce passage comme antidote à la téléologie : Joy Division commence aussi dans le ratage, la farce, le matériel défectueux et la violence ordinaire."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2325": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2353": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2325",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2353",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -104218,9 +105540,9 @@
       "usage_recommande": "Employer ces atomes pour déplacer la figure torturée vers une analyse des coûts domestiques, de la réception et des médiations."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2326": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2354": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2326",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2354",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -104240,9 +105562,9 @@
       "usage_recommande": "Toujours articuler maladie, médicaments, contexte de performance, care conjugal et temporalité médiatique."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2327": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2355": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2327",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2355",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -104256,9 +105578,9 @@
       "usage_recommande": "Lire les paroles comme poétique d’assemblage et non comme journal intime direct."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2328": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2356": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2328",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2356",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-CURTIS-AUTEUR-TOTAL — Curtis comme auteur total de Joy Division",
     "data": {
@@ -104272,9 +105594,9 @@
       "usage_recommande": "Maintenir la tension entre rôle central de Curtis et production collective."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2329": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2357": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2329",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2357",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -104288,9 +105610,9 @@
       "usage_recommande": "Éviter le double écueil : effacer Hannett ou lui attribuer seul la totalité du son."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2330": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2358": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2330",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2358",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-009 — Gretton comme manager sauveur",
     "data": {
@@ -104940,9 +106262,9 @@
       "notes": "À traiter avec sobriété et sans romantisation."
     }
   },
-  "NO_ID::registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md::2346": {
+  "NO_ID::registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md::2374": {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md::2346",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md::2374",
     "file": "registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Chronologie candidate — Pips et premier concert Joy Division",
     "data": {
@@ -105532,9 +106854,9 @@
       "notes": "Repère de la tension entre domesticité, travail et ambition musicale."
     }
   },
-  "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2360": {
+  "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2388": {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2360",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2388",
     "file": "registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Chronologie candidate — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -106300,9 +107622,9 @@
       "notes": "Scène essentielle pour articuler mémoire live, archive et canonisation rétrospective."
     }
   },
-  "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2376": {
+  "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2404": {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2376",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2404",
     "file": "registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md",
     "heading": "S45 — Chronologie candidate — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -107890,9 +109212,9 @@
       "source_year": "1995"
     }
   },
-  "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2419": {
+  "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2447": {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2419",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2447",
     "file": "registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Chronologie candidate — tournée européenne, Annik, foyer et seuil *Closer*",
     "data": {
@@ -108050,9 +109372,100 @@
       "prudence": "Ne pas assimiler automatiquement cette scène à l’élection générale de 1979 ni à un vote personnel pour Margaret Thatcher sans source complémentaire."
     }
   },
-  "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::2421": {
+  "NO_ID::registers/chronology/s41_hook_chronology_1956_1976_salford_jamaica_music_pistols_epiphany.md::2449": {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::2421",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1956_1976_salford_jamaica_music_pistols_epiphany.md::2449",
+    "file": "registers/chronology/s41_hook_chronology_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+    "heading": "S41 — Chronologie candidate — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
+    "data": {
+      "chronology": [
+        {
+          "id": "CHR-S41-1956-HOOK-BIRTH-SALFORD",
+          "source_id": "S41",
+          "date": "1956-02-13",
+          "evenement": "Naissance de Peter Hook à Hope Hospital, Salford.\n",
+          "atomes_lies": [
+            "S41-A007"
+          ],
+          "chapitres": [
+            "Chapitre 2"
+          ],
+          "statut": "événement autobiographique établi"
+        },
+        {
+          "id": "CHR-S41-1962-1966-JAMAICA",
+          "source_id": "S41",
+          "date": "1962/1966",
+          "evenement": "La famille de Hook vit en Jamaïque à la suite du travail de Bill Hook dans une verrerie, avant un retour à Salford à l’été 1966.\n",
+          "atomes_lies": [
+            "S41-A008"
+          ],
+          "chapitres": [
+            "Chapitre 2",
+            "Chapitre 13"
+          ],
+          "statut": "séquence autobiographique"
+        },
+        {
+          "id": "CHR-S41-1966-RETURN-SALFORD",
+          "source_id": "S41",
+          "date": "1966",
+          "evenement": "Retour de Hook à Salford après la Jamaïque, dans un logement ouvrier avec toilettes extérieures et un beau-père redevenu sans emploi stable dans la verrerie.\n",
+          "atomes_lies": [
+            "S41-A008"
+          ],
+          "chapitres": [
+            "Chapitre 2"
+          ],
+          "statut": "événement familial rapporté"
+        },
+        {
+          "id": "CHR-S41-1967-SALFORD-GRAMMAR-MEETS-SUMNER",
+          "source_id": "S41",
+          "date": "1967",
+          "evenement": "Hook entre à Salford Grammar School et y rencontre Bernard Dickin, futur Bernard Sumner.\n",
+          "atomes_lies": [
+            "S41-A009"
+          ],
+          "chapitres": [
+            "Chapitre 2"
+          ],
+          "statut": "datation approximative selon première année de grammar school"
+        },
+        {
+          "id": "CHR-S41-1973-RHYL-SEBASTIAN",
+          "source_id": "S41",
+          "date": "1973",
+          "evenement": "À Rhyl, Hook entend « Sebastian » de Cockney Rebel sur Radio Luxembourg ; il le décrit comme sa porte d’entrée vers la musique.\n",
+          "atomes_lies": [
+            "S41-A012"
+          ],
+          "chapitres": [
+            "Chapitre 2",
+            "Chapitre 11"
+          ],
+          "statut": "scène d’écoute autobiographique"
+        },
+        {
+          "id": "CHR-S41-1976-04-MELODY-MAKER-PISTOLS",
+          "source_id": "S41",
+          "date": "1976-04",
+          "evenement": "À Newquay, Hook lit dans le Melody Maker un article sur les Sex Pistols et y voit une possibilité de classe : des musiciens qu’il peut imaginer imiter.\n",
+          "atomes_lies": [
+            "S41-A013"
+          ],
+          "chapitres": [
+            "Chapitre 2",
+            "Chapitre 6"
+          ],
+          "statut": "scène de révélation autobiographique"
+        }
+      ]
+    }
+  },
+  "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::2450": {
+    "kind": "template",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::2450",
     "file": "registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Chronologie candidate — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
