@@ -91,7 +91,7 @@ usage_livre: [Chapitre 10, Chapitre 12, Chapitre 14]
 ```yaml
 id: S41-A134
 type_unite: demythification
- titre: "Ian non sacralisé : frontman, désir, people-pleaser et vie de groupe"
+titre: "Ian non sacralisé : frontman, désir, people-pleaser et vie de groupe"
 source_id: S41
 pages:
   pdf: "182-184"
