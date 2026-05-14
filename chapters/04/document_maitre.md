@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T19:00:42"
+generated_at: "2026-05-14T20:17:42"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-14T19:00:42"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 195 |
+| Atomes | 200 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-14T19:00:42"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 34 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 39 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -59,6 +59,12 @@ generated_at: "2026-05-14T19:00:42"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A110** — S41-A110 — La voix avant les paroles : Hook n’entend d’abord qu’un cri signifiant  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_vocale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A124** — S41-A124 — Piccadilly Radio : « Chance », « Atrocity Exhibition » et organ Woolworths  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
+- **S41-A126** — S41-A126 — « Transmission » : single choisi par puissance live et non logique album  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -109,12 +115,6 @@ generated_at: "2026-05-14T19:00:42"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `reconstruction_memorielle_conflictuelle`.
 - **S75-A068** — S75-A068 — Février-avril 1980 : tentatives, aveuglements et point de non-retour  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `chronologie_sensible` ; importance : `critique` ; preuve : `reconstruction_memorielle_sensible`.
-- **S75-A075** — S75-A075 — Dernière lecture d'Ott : Ian Curtis a perdu, il ne faut pas le déifier  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `synthese_interpretative`.
-- **S76-A001** — S76-A001 — Middles et Reade : une biographie située, entre témoin de scène et mémoire Factory  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `cadrage_source` ; importance : `critique` ; preuve : `cadrage_source`.
-- **S76-A002** — S76-A002 — Le refus familial du récit uniquement tragique  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `temoignage_familial_rapporte`.
 
 ## 6. Autres atomes utiles
 
@@ -518,6 +518,8 @@ generated_at: "2026-05-14T19:00:42"
 - Shadowplay (3)
 - No Love Lost (3)
 - Iggy Pop (3)
+- Transmission (3)
+- Disorder (3)
 - Macclesfield (3)
 - fatigue (3)
 - Wythenshawe (3)
@@ -531,6 +533,7 @@ generated_at: "2026-05-14T19:00:42"
 - écriture (2)
 - T. J. Davidson’s (2)
 - Kraftwerk (2)
+- Digital (2)
 - Unknown Pleasures (2)
 - House of Dolls (2)
 - Throbbing Gristle (2)
@@ -539,9 +542,6 @@ generated_at: "2026-05-14T19:00:42"
 - Mick Middles (2)
 - responsabilité (2)
 - deification (2)
-- Plan K (2)
-- Derby Hall (2)
-- histoire (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -582,6 +582,12 @@ generated_at: "2026-05-14T19:00:42"
 - S41-A068 — prépare → S41-A069
 - S41-A073 — prolonge → CONCEPT-056
 - S41-A073 — prolonge → S41-A068
+- S41-A124 — prépare → S41-SORDIDE-SENTIMENTALE
+- S41-A124 — prolonge → CONCEPT-097
+- S41-A126 — prolonge → S41-A073
+- S41-A126 — prolonge → CONCEPT-076
+- S41-A127 — prolonge → CONCEPT-093
+- S41-A127 — prépare → LOVE-WILL-TEAR-US-APART
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -619,12 +625,6 @@ generated_at: "2026-05-14T19:00:42"
 - S75-A012 — nuance → S75-A010
 - S75-A012 — prépare → CONCEPT-poesie_de_l_alienation
 - S75-A020 — prolonge → S75-A015
-- S75-A020 — nuance → S75-A019
-- S75-A020 — annonce → CONCEPT-architecture_sonore
-- S75-A032 — nuance → MYTH-002
-- S75-A032 — prolonge → CONCEPT-004
-- S75-A041 — illustre → CONCEPT-006
-- S75-A041 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -632,8 +632,8 @@ generated_at: "2026-05-14T19:00:42"
 
 | Type | Nombre |
 |---|---|
+| non qualifié | 10 |
 | fait_sensible | 9 |
-| non qualifié | 8 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
 | interpretation | 5 |
@@ -649,6 +649,7 @@ generated_at: "2026-05-14T19:00:42"
 | contexte_biographique | 3 |
 | tension_biographique | 3 |
 | live_set_context | 3 |
+| session_studio | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | performance | 2 |
@@ -672,10 +673,11 @@ generated_at: "2026-05-14T19:00:42"
 | lieu | 1 |
 | lieu_creatif | 1 |
 | interpretation_vocale | 1 |
-| session_studio | 1 |
 | paroles_source | 1 |
 | tension_industrie | 1 |
 | scene_creative_live | 1 |
+| session_radio | 1 |
+| chanson_single | 1 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
 | citation_contextualisee | 1 |
@@ -758,8 +760,8 @@ generated_at: "2026-05-14T19:00:42"
 
 | Importance | Nombre |
 |---|---|
-| critique | 88 |
-| non qualifiée | 72 |
+| critique | 91 |
+| non qualifiée | 74 |
 | majeure | 33 |
 | majeur | 1 |
 | structurante | 1 |
@@ -780,6 +782,9 @@ generated_at: "2026-05-14T19:00:42"
 - S41-A023 [élevé] — Risque de mythifier Curtis comme âme pure ; Hook écrit rétrospectivement après le mythe.
 - S41-A068 [moyen] — Ne pas réduire Interzone à une reprise détournée ; la transformation est précisément l’objet.
 - S41-A073 [moyen] — Risque de canoniser rétrospectivement le morceau ; Hook insiste sur l’impossibilité de savoir à l’écriture.
+- S41-A124 [moyen] — Ne pas confondre version radio, version live et version Sordide Sentimental.
+- S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
+- S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
@@ -823,9 +828,6 @@ generated_at: "2026-05-14T19:00:42"
 - S76-A141 [eleve] — risque de téléologie du succès fatal ; maintenir la pluralité des contraintes
 - S76-A143 [tres_eleve] — risque de réduire la crise à un triangle amoureux ou à une faute individuelle
 - S76-A146 [tres_eleve] — scène spectaculaire et médicale ; très fort risque de causalité simpliste ou de théâtralisation morbide
-- S76-A147 [tres_eleve] — les formulations de Curtis sont très fortes ; ne pas les transformer en annonce du suicide
-- S76-A148 [tres_eleve] — lettre très explicite ; risque de médicalisation totale du récit
-- S76-A150 [tres_eleve] — formulation extrêmement forte ; risque de l’utiliser comme preuve d’une issue déjà décidée
 
 ## 15. Lacunes et prochaines vérifications
 

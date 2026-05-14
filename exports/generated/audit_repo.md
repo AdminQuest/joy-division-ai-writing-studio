@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-14T19:00:39`
+Généré le : `2026-05-14T20:17:40`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 68 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1428 atome(s) incomplet(s) sur 1489.
+Le repo est techniquement exploitable, mais 75 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1450 atome(s) incomplet(s) sur 1511.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 2906
+- Enregistrements : 2972
 - Erreurs : 0
-- Avertissements : 15247
+- Avertissements : 15448
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1428 atome(s) incomplet(s) sur 1489.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1489 |
+| atom | 1511 |
 | chronology | 331 |
-| concept | 94 |
+| concept | 101 |
 | metadata | 18 |
-| motif | 139 |
+| motif | 157 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1428 atome(s) incomplet(s) sur 1489.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 147 |
-| unknown | 68 |
+| template | 159 |
+| unknown | 75 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1243 |
-| missing_required_field | 4120 |
+| invalid_controlled_value | 1262 |
+| missing_required_field | 4230 |
 | schema_warning | 399 |
-| unknown_yaml_block | 68 |
-| v2_migration_debt | 9282 |
+| unknown_yaml_block | 75 |
+| v2_migration_debt | 9347 |
 
 ## 5. Erreurs bloquantes
 
@@ -77,6 +77,13 @@ Aucune.
 - `registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md` [PROCESS-S41-CURTIS-CONDUCTOR-TJ] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md` [DEAL-S41-FACTORY-GENETIC-CHOICE] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md` [ARCHIVE-S41-EDEN-TAPES-RESURFACE] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [ALBUM-S41-UNKNOWN-PLEASURES-STRAWBERRY-1979] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [FILM-S41-BOWDON-VALE-WHITEHEAD-1979] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [VISUAL-S41-UP-SAVILLE-ANTI-IMAGE] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [MATERIAL-S41-UP-10000-COPIES-PALATINE] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [RADIO-S41-PICCADILLY-CHANCE-ATROCITY] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [TV-S41-WHATS-ON-SHES-LOST-CONTROL] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [LIVE-S41-YMCA-TOTTENHAM-COURT-ROAD] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md` [MEDIA-S41-MELODY-MAKER-PISTOLS-APRIL-1976] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md` [FILM-S41-THATLL-BE-THE-DAY] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md` [ARTIST-S41-SEX-PISTOLS-AS-CLASS-PERMISSION] : Unable to infer documentary kind
@@ -87,14 +94,7 @@ Aucune.
 - `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [LIVE-S45-BIRMINGHAM-HIGH-HALL-FINAL-GIG] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [OBJ-S45-SORDIDE-SENTIMENTALE-1106] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [FILM-S45-STROSZEK-DEADLINE] : Unable to infer documentary kind
-- `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [OBJ-S45-LAST-PHOTOGRAPH-NATALIE] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md` [INST-S41-M24J-FACTORY-PRELABEL] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md` [LIVE-S41-TL3-ERIC-RICH-KIDS-1978-07-15] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md` [LIVE-S41-TL3-SUICIDE-RUSSELL-CLUB-1978-07-28] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md` [LIVE-S41-TL3-BRADFORD-ROYAL-STANDARD-NF] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md` [TV-S41-TL3-GRANADA-SHADOWPLAY-WORLD-IN-ACTION] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md` [LIVE-S41-TL3-KELLYS-ROCK-AGAINST-RACISM] : Unable to infer documentary kind
-- … 28 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 35 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -113,10 +113,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1489
+- Atomes : 1511
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1428
-- Avertissements de champs v2 manquants : 9282
+- Atomes v2 incomplets : 1450
+- Avertissements de champs v2 manquants : 9347
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

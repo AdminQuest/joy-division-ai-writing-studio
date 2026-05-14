@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-14T19:00:39",
+  "generated_at": "2026-05-14T20:17:40",
   "summary": {
-    "records_total": 2906,
+    "records_total": 2972,
     "records_by_kind": {
-      "atom": 1489,
+      "atom": 1511,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 68,
+      "unknown": 75,
       "song": 41,
-      "template": 147,
+      "template": 159,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 139,
+      "motif": 157,
       "person": 157,
-      "concept": 94,
+      "concept": 101,
       "myth": 11
     },
-    "diagnostics_total": 15247,
+    "diagnostics_total": 15448,
     "errors": 0,
-    "warnings": 15247,
+    "warnings": 15448,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1489,
+    "atom": 1511,
     "chronology": 331,
-    "concept": 94,
+    "concept": 101,
     "metadata": 18,
-    "motif": 139,
+    "motif": 157,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,14 +41,14 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 147,
-    "unknown": 68
+    "template": 159,
+    "unknown": 75
   },
   "records_by_source": {
     "S41": {
-      "atom": 294,
+      "atom": 316,
       "quote": 9,
-      "unknown": 56,
+      "unknown": 63,
       "song": 7,
       "person": 9,
       "chronology": 9
@@ -126,18 +126,18 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 121,
-    "Chapitre 10": 198,
+    "Chapitre 10": 201,
     "Chapitre 11": 208,
-    "Chapitre 12": 329,
+    "Chapitre 12": 333,
     "Chapitre 13": 105,
-    "Chapitre 14": 818,
+    "Chapitre 14": 835,
     "Chapitre 2": 345,
-    "Chapitre 3": 316,
-    "Chapitre 4": 249,
-    "Chapitre 5": 412,
-    "Chapitre 6": 499,
+    "Chapitre 3": 331,
+    "Chapitre 4": 256,
+    "Chapitre 5": 417,
+    "Chapitre 6": 507,
     "Chapitre 7": 101,
-    "Chapitre 8": 188,
+    "Chapitre 8": 209,
     "Chapitre 9": 199,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1243,
-    "missing_required_field": 4120,
+    "invalid_controlled_value": 1262,
+    "missing_required_field": 4230,
     "schema_warning": 399,
-    "unknown_yaml_block": 68,
-    "v2_migration_debt": 9282
+    "unknown_yaml_block": 75,
+    "v2_migration_debt": 9347
   },
   "top_files_by_issue_count": [
     [
@@ -578,6 +578,62 @@
       "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
       "record_id": "ARCHIVE-S41-EDEN-TAPES-RESURFACE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "ALBUM-S41-UNKNOWN-PLEASURES-STRAWBERRY-1979",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "FILM-S41-BOWDON-VALE-WHITEHEAD-1979",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "VISUAL-S41-UP-SAVILLE-ANTI-IMAGE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "MATERIAL-S41-UP-10000-COPIES-PALATINE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "RADIO-S41-PICCADILLY-CHANCE-ATROCITY",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "TV-S41-WHATS-ON-SHES-LOST-CONTROL",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "LIVE-S41-YMCA-TOTTENHAM-COURT-ROAD",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -943,10 +999,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1489,
+    "atoms_total": 1511,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1428,
-    "v2_missing_field_warnings": 9282
+    "atoms_v2_incomplete": 1450,
+    "v2_missing_field_warnings": 9347
   },
   "source_registry": {
     "declared_but_unused": [
@@ -1023,8 +1079,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 384,
-        "atoms": 294,
+        "records": 413,
+        "atoms": 316,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -1040,6 +1096,7 @@
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+          "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
@@ -1057,6 +1114,7 @@
           "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
           "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+          "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
           "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md"
         ]
       },
@@ -24425,6 +24483,1222 @@
       "file": "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md",
       "record_id": "S41-A078",
       "message": "Invalid value for type_unite: influence_instrumentale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A113",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A113",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A113",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A113",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A113",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A113",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A113",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A113",
+      "message": "Invalid value for type_unite: decision_industrielle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A114",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A114",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A114",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A114",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A114",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A114",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A114",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A114",
+      "message": "Invalid value for type_unite: scene_live_pre_album",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A115",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A115",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A115",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A115",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A115",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A115",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A115",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A115",
+      "message": "Invalid value for type_unite: economie_materielle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A116",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A116",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A116",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A116",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A116",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A116",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A116",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A116",
+      "message": "Invalid value for type_unite: lieu_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A117",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A117",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A117",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A117",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A117",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A117",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A117",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A117",
+      "message": "Invalid value for type_unite: session_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A118",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A118",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A118",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A118",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A118",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A118",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A118",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A118",
+      "message": "Invalid value for type_unite: interpretation_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A119",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A119",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A119",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A119",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A119",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A119",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A119",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A119",
+      "message": "Invalid value for type_unite: tension_esthetique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A120",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A120",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A120",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A120",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A120",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A120",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A120",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A120",
+      "message": "Invalid value for type_unite: esthétique_visuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A121",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A121",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A121",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A121",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A121",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A121",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A121",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A121",
+      "message": "Invalid value for type_unite: strategie_medias",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A122",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A122",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A122",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A122",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A122",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A122",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A122",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A122",
+      "message": "Invalid value for type_unite: economie_discographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A123",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A123",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A123",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A123",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A123",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A123",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A123",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A123",
+      "message": "Invalid value for type_unite: reception_discographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A124",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A124",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A124",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A124",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A124",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A124",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A124",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A124",
+      "message": "Invalid value for type_unite: session_radio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A125",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A125",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A125",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A125",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A125",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A125",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A125",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A125",
+      "message": "Invalid value for type_unite: tension_domestique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A126",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A126",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A126",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A126",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A126",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A126",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A126",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A126",
+      "message": "Invalid value for type_unite: chanson_single",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A127",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A127",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A127",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A127",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A127",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A127",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A127",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A127",
+      "message": "Invalid value for type_unite: session_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A128",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A128",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A128",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A128",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A128",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A128",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A128",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A128",
+      "message": "Invalid value for type_unite: strategie_medias",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A129",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A129",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A129",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A129",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A129",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A129",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A129",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A129",
+      "message": "Invalid value for type_unite: objet_audiovisuel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A130",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A130",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A130",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A130",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A130",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A130",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A130",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A130",
+      "message": "Invalid value for type_unite: scene_lieu",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A131",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A131",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A131",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A131",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A131",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A131",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A131",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "S41-A131",
+      "message": "Invalid value for type_unite: scene_reseau",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -109840,6 +111114,398 @@
       "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
       "record_id": "ARCHIVE-S41-EDEN-TAPES-RESURFACE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "ALBUM-S41-UNKNOWN-PLEASURES-STRAWBERRY-1979",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "FILM-S41-BOWDON-VALE-WHITEHEAD-1979",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "VISUAL-S41-UP-SAVILLE-ANTI-IMAGE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "MATERIAL-S41-UP-10000-COPIES-PALATINE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "RADIO-S41-PICCADILLY-CHANCE-ATROCITY",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "TV-S41-WHATS-ON-SHES-LOST-CONTROL",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "record_id": "LIVE-S41-YMCA-TOTTENHAM-COURT-ROAD",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

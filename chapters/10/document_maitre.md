@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T19:00:42"
+generated_at: "2026-05-14T20:17:42"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 158 |
+| Atomes | 160 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -34,7 +34,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 11 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 13 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
@@ -61,6 +61,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec reconstruction de pensée de Curtis`.
 - **S41-A109** — S41-A109 — Curtis conducteur : arrangement oral, mémoire collective et trou laissé à New Order  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A125** — S41-A125 — Natalie Curtis et politique no-girlfriends : famille exclue, groupe accéléré  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec contradiction signalée avec S45`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A052** — S45-A052 — Joy Division pariahs : Sue Barlow et Deborah comme faux public  
@@ -115,8 +117,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_tournee` ; importance : `critique` ; preuve : `témoignage direct + souvenir rapporté de Tony Wilson`.
 - **S45-A121** — S45-A121 — Pernod, Bible et Revelation : crise alcoolisée, scène religieuse et récit divergent  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Morris`.
-- **S45-A123** — S45-A123 — Party chez Claire : charme social et aveu brutal de désamour  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
 
 ## 6. Autres atomes utiles
 
@@ -127,6 +127,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S41-147** — S41-147 — 13 juin 1980 : inquest à Macclesfield  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-A104** — S41-A104 — Logistique du van : Hook porteur, roadies non payés et division matérielle du travail  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A115** — S41-A115 — Van Walthamstow : hélicoptère, conflit de frais et économie matérielle du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S45-026** — S45-026 — Deborah Curtis refuse la mythologie romantique du génie détruit  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `positionnement` ; importance : `non qualifiée` ; preuve : `forte`.
@@ -184,6 +186,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A117** — S45-A117 — Factory New Year’s Eve 1979 : image froide, violence et promesse de réussite sociale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sociale` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A123** — S45-A123 — Party chez Claire : charme social et aveu brutal de désamour  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A124** — S45-A124 — Franck Essner à Barton Street : charade familiale et regard transnational  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `majeur` ; preuve : `témoignage direct + propos de Franck rapportés`.
 - **S45-A125** — S45-A125 — Top Shop et tournée américaine : crédit domestique, vêtements de scène et Annik financée  
@@ -276,10 +280,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A023** — S70-A023 — Vidéo promotionnelle « Love Will Tear Us Apart »  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A024** — S70-A024 — Derniers concerts et Birmingham  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A025** — S70-A025 — Mort de Curtis et rejet des légendes  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -437,11 +437,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - silence (4)
 - Unknown Pleasures (4)
 - Tony Wilson (4)
+- van (3)
 - Candy (3)
 - Annik (3)
 - Factory (3)
+- Deborah Curtis (3)
 - Kevin Cummins (3)
-- van (2)
 - Lesley Gilbert (2)
 - confidentialité (2)
 - Barton Street (2)
@@ -458,7 +459,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Morris Traveller (2)
 - An Ideal for Living (2)
 - indépendance (2)
-- Deborah Curtis (2)
 - Sue Barlow (2)
 - compagnes (2)
 - contradiction biographique (2)
@@ -563,8 +563,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | scene_domestique | 6 |
 | biographie | 6 |
 | reception | 6 |
+| tension_domestique | 5 |
 | non qualifié | 5 |
-| tension_domestique | 4 |
 | scene_sensible | 4 |
 | objet_discographique | 4 |
 | archive | 4 |
@@ -586,6 +586,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | reception_precoce | 2 |
 | scene_management | 2 |
 | production | 2 |
+| economie_materielle | 2 |
 | evenement_biographique | 2 |
 | positionnement | 2 |
 | fait_sensible | 2 |
@@ -615,7 +616,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | tension_psychiatrique | 1 |
 | scene_domestique_finale | 1 |
 | santé | 1 |
-| economie_materielle | 1 |
 | processus_creatif | 1 |
 | evenement_discographique | 1 |
 | interpretation_groupe | 1 |
@@ -657,9 +657,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 68 |
+| critique | 69 |
 | non qualifiée | 65 |
-| majeur | 23 |
+| majeur | 24 |
 | majeure | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance

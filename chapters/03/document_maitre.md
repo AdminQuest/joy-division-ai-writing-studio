@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T19:00:42"
+generated_at: "2026-05-14T20:17:42"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 238 |
+| Atomes | 247 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -34,7 +34,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 73 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 82 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
@@ -92,6 +92,20 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A112** — S41-A112 — Eden Studios : Martin Rushent, démos alternatives et préférence rétrospective pour Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée à croiser`.
+- **S41-A114** — S41-A114 — Bowdon Vale : Joy Division presque achevé avant l’album  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_pre_album` ; importance : `critique` ; preuve : `témoignage direct + archive filmique`.
+- **S41-A116** — S41-A116 — Strawberry Studios : luxe technique, enthousiasme et absence d’éléphant  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + lieu documenté`.
+- **S41-A117** — S41-A117 — Seize titres enregistrés : sélection album, hors-album et architecture de *Unknown Pleasures*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + sessionographie à croiser`.
+- **S41-A118** — S41-A118 — Hannett comme environnement : peur, énigme et théâtre du producteur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A119** — S41-A119 — Son live perdu : le désarroi Hook/Sumner devant *Unknown Pleasures*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_esthetique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A124** — S41-A124 — Piccadilly Radio : « Chance », « Atrocity Exhibition » et organ Woolworths  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
+- **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
 - **S45-A050** — S45-A050 — Arrow / RCA : désir de studio, absence de discussion et naïveté industrielle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A051** — S45-A051 — Arrow Studios : chant soul imposé, synthétiseur accepté, métamorphose inachevée  
@@ -104,20 +118,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignages directs rapportés de Morris et Sumner`.
 - **S45-A078** — S45-A078 — *Unknown Pleasures* : Hannett comme catalyseur de coordination sonore  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
-- **S74-A048** — S74-A048 — Rainbow Theatre : la crise d’épilepsie comme effondrement scénique public  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A049** — S74-A049 — Derby Hall : erreur collective, expérimentation Factory et émeute  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `evenement_crise` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A050** — S74-A050 — Gretton reconnaît rétrospectivement l’aveuglement face à l’aggravation de Curtis  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_retrospectif` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A052** — S74-A052 — Vini Reilly comme témoin de l’impasse psychique de Curtis  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_direct_rapporte` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A053** — S74-A053 — Suicide de Curtis : mort privée contre mythe rock’n’roll  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `interpretation_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A054** — S74-A054 — Deborah Curtis contre la version simplifiée de la tragédie conjugale  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_direct_rapporte` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 
 ## 6. Autres atomes utiles
 
@@ -203,6 +203,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `culture_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S45-010** — S45-010 — Le couple écoute reggae et soul dans l’espace domestique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `culture_domestique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
 - **S46-007** — S46-007 — La première démo Warsaw du 18 juillet 1977  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-011** — S46-011 — RCA, Arrow Studios et l’album avorté  
@@ -279,8 +281,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_rythmique` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-178** — S46-178 — Désaccord volontaire et effet de trouble  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_sonore` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-180** — S46-180 — Paul Morley, NME 1978 : Curtis comme force vocale  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -463,19 +463,20 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ### 12.1. Motifs dominants
 
+- Martin Hannett (9)
 - Hannett (8)
-- Martin Hannett (8)
+- Unknown Pleasures (7)
+- Strawberry Studios (7)
 - Digital (6)
-- Strawberry Studios (6)
+- Transmission (6)
 - Glass (5)
-- Transmission (5)
 - Britannia Row (4)
 - RCA (4)
 - Shadowplay (4)
 - Interzone (4)
-- Unknown Pleasures (4)
 - Velvet Underground (4)
 - Stephen Morris (4)
+- Atmosphere (4)
 - Peter Hook (3)
 - Arrow Studios (3)
 - A Factory Sample (3)
@@ -484,25 +485,24 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Ian Curtis (3)
 - Ice Age (3)
 - Cargo Studios (3)
-- Atmosphere (3)
 - domesticité (3)
 - basse (2)
 - Bernard Sumner (2)
 - Closer (2)
 - synthétiseur (2)
+- Novelty (2)
 - Martin Rushent (2)
 - Eden Studios (2)
 - No Love Lost (2)
 - An Ideal for Living (2)
 - Steve Brotherdale (2)
 - Pennine Sound (2)
+- She’s Lost Control (2)
+- Still (2)
+- space (2)
 - radio (2)
 - Dead Souls (2)
 - Sordide Sentimental (2)
-- silence (2)
-- cathédrale sonore (2)
-- apprentissage (2)
-- écoute (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -574,18 +574,18 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A073 — prolonge → S41-A068
 - S41-A078 — prolonge → CONCEPT-063
 - S41-A078 — prolonge → CONCEPT-049
-- S41-A081 — prolonge → CONCEPT-073
-- S41-A081 — prépare → CONCEPT-HANNETT-STUDIO
-- S41-A082 — prolonge → CONCEPT-056
-- S41-A082 — prolonge → CONCEPT-073
-- S41-A082 — prépare → UNKNOWN-PLEASURES-SESSIONS
-- S41-A083 — prolonge → S41-A079
-- S41-A083 — prolonge → CONCEPT-072
-- S41-A083 — prépare → UNKNOWN-PLEASURES-SESSIONS
-- S41-A004 — prolonge → CONCEPT-006
-- S41-A004 — prolonge → S45-A058
-- S75-A060 — prolonge → CONCEPT-006
-- S75-A060 — prolonge → S75-A034
+- S41-A114 — prolonge → S41-A108
+- S41-A114 — prépare → S41-A117
+- S41-A116 — prolonge → S41-A113
+- S41-A116 — prépare → S41-A117
+- S41-A117 — prolonge → CONCEPT-084
+- S41-A117 — prépare → REGISTRE-DISCOGRAPHIE
+- S41-A118 — prolonge → CONCEPT-077
+- S41-A118 — nuance → MYTH-HANNETT-GENIE-ABSOLU
+- S41-A119 — prolonge → CONCEPT-097
+- S41-A119 — prolonge → S41-A118
+- S41-A124 — prépare → S41-SORDIDE-SENTIMENTALE
+- S41-A124 — prolonge → CONCEPT-097
 
 ## 13. Distribution documentaire
 
@@ -593,9 +593,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 21 |
+| non qualifié | 23 |
 | production | 15 |
-| session_studio | 13 |
+| session_studio | 15 |
 | lecture_musicale | 10 |
 | analyse | 9 |
 | fait | 9 |
@@ -603,9 +603,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | session | 7 |
 | concept | 5 |
 | analyse_morceau | 5 |
+| lieu_studio | 4 |
 | discographie | 4 |
 | reception_critique | 4 |
-| lieu_studio | 3 |
+| interpretation_studio | 3 |
+| session_radio | 3 |
 | reception_presse | 3 |
 | interpretation | 3 |
 | enregistrement | 3 |
@@ -616,14 +618,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | release_or_session | 3 |
 | objet_discographique | 2 |
 | economie_materielle | 2 |
-| interpretation_studio | 2 |
 | session_enregistrement | 2 |
 | theorie_voix | 2 |
 | chronologie | 2 |
 | scene_fondatrice | 2 |
 | controverse | 2 |
 | lieu | 2 |
-| session_radio | 2 |
 | temoignage | 2 |
 | citation_repere | 2 |
 | performance_live | 2 |
@@ -648,6 +648,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | tension_industrie | 1 |
 | scene_creative_live | 1 |
 | influence_instrumentale | 1 |
+| scene_live_pre_album | 1 |
+| tension_esthetique | 1 |
 | archive_broadcast | 1 |
 | radio_broadcast | 1 |
 | vigilance_documentaire | 1 |
@@ -701,8 +703,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 157 |
-| critique | 67 |
+| non qualifiée | 159 |
+| critique | 74 |
 | majeure | 11 |
 | majeur | 3 |
 
@@ -736,6 +738,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A069 [élevé] — Ne pas attribuer à Hook seul les détails précis Strawberry/RCA ; il parle ici d’Arrow Studios et de John Anderson.
 - S41-A073 [moyen] — Risque de canoniser rétrospectivement le morceau ; Hook insiste sur l’impossibilité de savoir à l’écriture.
 - S41-A078 [faible à moyen] — Ne pas réduire le style à deux influences ; elles complètent les contraintes matérielles déjà atomisées.
+- S41-A114 [moyen] — Ne pas opposer artificiellement son live achevé et son studio transformé : le passage prépare leur tension.
+- S41-A116 [moyen] — Ne pas effacer les tensions techniques avec Hannett ; elles apparaissent dans les atomes suivants.
+- S41-A117 [faible] — Atome de structuration discographique ; il appelle surtout le croisement.
+- S41-A118 [moyen] — Risque de mythologiser Hannett en sorcier ; maintenir l’infrastructure studio et les ingénieurs.
+- S41-A119 [moyen] — Ne pas transformer le rejet initial en condamnation durable ; Hook relit ensuite la portée du disque.
+- S41-A124 [moyen] — Ne pas confondre version radio, version live et version Sordide Sentimental.
+- S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
 - S41-A081 [moyen] — Ne pas réduire Cargo à un décor ; ne pas non plus attribuer tout le son à la seule accumulation d’effets.
 - S41-A082 [moyen] — Risque de faire de l’ignorance du groupe une qualité pure ; elle est aussi une perte de contrôle.
 - S41-A083 [moyen] — Ne pas lire cette réussite à travers les conflits ultérieurs seuls ; elle est aussi moment d’accord.
@@ -761,13 +770,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A042 [moyen] — ne pas transformer la frustration des musiciens en disqualification de l'album ; elle éclaire sa genèse conflictuelle
 - S75-A043 [moyen] — le goût de Curtis ne doit pas effacer les tensions collectives ni être psychologisé
 - S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
-- S75-A049 [eleve] — les images domestiques et médicales de « I Remember Nothing » imposent une prudence forte
-- S75-A051 [moyen] — l'aveu de Hook ne doit pas effacer ses critiques simultanées du mixage
-- S75-A052 [moyen] — risque de minimiser Hannett en réaction au mythe inverse ; la force tient à l'articulation groupe/producteur
-- S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale
-- S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
-- S74-A048 [eleve] — risque de transformer une crise médicale en moment esthétique ou sacrificiel
-- S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel
 
 ## 15. Lacunes et prochaines vérifications
 

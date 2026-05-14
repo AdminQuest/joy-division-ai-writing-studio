@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T19:00:42"
+generated_at: "2026-05-14T20:17:42"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 139 |
+| Atomes | 152 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
@@ -34,7 +34,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 36 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -93,28 +93,28 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct + éléments contractuels rapportés`.
 - **S41-A112** — S41-A112 — Eden Studios : Martin Rushent, démos alternatives et préférence rétrospective pour Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée à croiser`.
+- **S41-A113** — S41-A113 — Factory choisi : deal sans avance, liberté, pression du grand disque  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_industrielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A116** — S41-A116 — Strawberry Studios : luxe technique, enthousiasme et absence d’éléphant  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + lieu documenté`.
+- **S41-A117** — S41-A117 — Seize titres enregistrés : sélection album, hors-album et architecture de *Unknown Pleasures*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + sessionographie à croiser`.
+- **S41-A118** — S41-A118 — Hannett comme environnement : peur, énigme et théâtre du producteur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A119** — S41-A119 — Son live perdu : le désarroi Hook/Sumner devant *Unknown Pleasures*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_esthetique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A120** — S41-A120 — Anti-image : Saville, anonymat, grisaille et refus du rock portraituré  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet visuel documenté`.
+- **S41-A123** — S41-A123 — Sortie de *Unknown Pleasures* : acclamation critique, ventes lentes et profit Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_discographique` ; importance : `critique` ; preuve : `synthèse rétrospective + presse à retrouver`.
+- **S41-A124** — S41-A124 — Piccadilly Radio : « Chance », « Atrocity Exhibition » et organ Woolworths  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
+- **S41-A126** — S41-A126 — « Transmission » : single choisi par puissance live et non logique album  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A041** — S45-A041 — Pennine Sound et projet in-house : premier disque comme bricolage total  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A050** — S45-A050 — Arrow / RCA : désir de studio, absence de discussion et naïveté industrielle  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A077** — S45-A077 — RCA abandonné : rachat des bandes, bootlegs et libération éditoriale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait contractuel rapporté`.
-- **S45-A078** — S45-A078 — *Unknown Pleasures* : Hannett comme catalyseur de coordination sonore  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A086** — S45-A086 — Factory comme liberté : anti-major, artwork et refus de dilution  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `position_esthetique` ; importance : `critique` ; preuve : `citation d’entretien rapportée par S45`.
-- **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
-- **S45-A090** — S45-A090 — *Unknown Pleasures* publié : objet Factory, faces « Inside/Outside » et rejet domestique initial  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
-- **S45-A151** — S45-A151 — Dernier rendez-vous d’épilepsie : signes favorables et dons d’objets  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_medicale_sensible` ; importance : `critique` ; preuve : `témoignage direct + fait médical rapporté`.
 
 ## 6. Autres atomes utiles
 
@@ -128,8 +128,30 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct + notice documentaire`.
 - **S41-A094** — S41-A094 — M24J : Factory avant Joy Division, management project et origine institutionnelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
+- **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A041** — S45-A041 — Pennine Sound et projet in-house : premier disque comme bricolage total  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A050** — S45-A050 — Arrow / RCA : désir de studio, absence de discussion et naïveté industrielle  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A077** — S45-A077 — RCA abandonné : rachat des bandes, bootlegs et libération éditoriale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait contractuel rapporté`.
+- **S45-A078** — S45-A078 — *Unknown Pleasures* : Hannett comme catalyseur de coordination sonore  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A086** — S45-A086 — Factory comme liberté : anti-major, artwork et refus de dilution  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `position_esthetique` ; importance : `critique` ; preuve : `citation d’entretien rapportée par S45`.
 - **S45-A088** — S45-A088 — Petites économies : cigarettes, nettoyage et sandpaper sleeves  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
+- **S45-A090** — S45-A090 — *Unknown Pleasures* publié : objet Factory, faces « Inside/Outside » et rejet domestique initial  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
+- **S45-A151** — S45-A151 — Dernier rendez-vous d’épilepsie : signes favorables et dons d’objets  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_medicale_sensible` ; importance : `critique` ; preuve : `témoignage direct + fait médical rapporté`.
 - **S68-A005** — S-BROLL-A005 — Démo du 18 juillet 1977 aux Pennine Studios  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S68-A006** — S-BROLL-A006 — Electric Circus, 2 novembre 1977, et *Short Circuit*  
@@ -256,28 +278,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `production` ; importance : `critique` ; preuve : `evenement_discographique_corroborable`.
 - **S76-A041** — S76-A041 — *An Ideal For Living* : Enigma, distribution incertaine et pochette Hitler Youth  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `discographie` ; importance : `critique` ; preuve : `evenement_discographique_corroborable_et_temoignage`.
-- **S76-A046** — S76-A046 — Rabid refuse l’iconographie mais distribue *An Ideal For Living*  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `economie_discographique` ; importance : `critique` ; preuve : `temoignages_Lawrence_Beedle_et_reconstruction`.
-- **S76-A050** — S76-A050 — Arrow Studios, 3-5 mai 1978 : collision entre soul professionnelle et post-punk froid  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `temoignage_Brandwood_et_reconstruction_discographique`.
-- **S76-A051** — S76-A051 — La voix de Curtis à Arrow : adrift, dislodged, reedy  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `analyse_sonore` ; importance : `majeure` ; preuve : `description_critique_S76`.
-- **S76-A065** — S76-A065 — Racheter les bandes : 1 000 livres, puis 850, et le sentiment d’être « mugged »  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `fait_contractuel` ; importance : `majeure` ; preuve : `reconstruction_S76_contractuelle`.
-- **S76-A066** — S76-A066 — La réédition 12 pouces de *An Ideal for Living* : financement, Anonymous Records, sleeve échafaudage  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `temoignage_Terry_Mason_et_reconstruction_S76`.
-- **S76-A078** — S76-A078 — Roger Eagle et le sampler avorté : Liverpool-Manchester contre Manchester seul  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `bifurcation_institutionnelle` ; importance : `critique` ; preuve : `reconstruction_S76_sur_Wilson_Eagle_Erasmus`.
-- **S76-A079** — S76-A079 — *The Factory Sample* : Wilson, acid, Abraxas thaïlandais et esthétique de l’objet  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `anecdote_Wilson_reconstruite_par_S76`.
-- **S76-A101** — S76-A101 — Genetic demos : Rushent éclaire Joy Division mais n’obtient pas l’intimité Hannett  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `session_corroborable_et_interpretation_S76`.
-- **S76-A118** — S76-A118 — Futurama, 8 septembre 1979 : Joy Division dépasse le post-punk par intensité  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `festival` ; importance : `critique` ; preuve : `temoignages_Terry_Mason_Jeremy_Kerr_et_reconstruction_S76`.
-- **S76-A129** — S76-A129 — Sordide Sentimental : objet européen, anti-Factory et art total limité  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `reconstruction_S76_a_recouper_avec_sources_Sordide`.
-- **S76-A130** — S76-A130 — Paris, Les Bains-Douches, 18 décembre 1979 : réception française et archive future  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reception_S76`.
 
 ## 7. Citations disponibles
 
@@ -422,45 +422,45 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 ### 12.1. Motifs dominants
 
 - An Ideal for Living (7)
+- Unknown Pleasures (6)
+- Martin Hannett (6)
+- Factory (5)
 - Electric Circus (5)
 - Short Circuit (5)
 - RCA (5)
 - Arrow Studios (5)
-- Martin Hannett (5)
-- Factory (4)
+- Still (5)
+- Earcom 2 (4)
 - Pennine Sound (4)
 - Rob Gretton (4)
+- Transmission (4)
+- Digital (4)
 - A Factory Sample (4)
 - bootleg (4)
-- Still (4)
-- Earcom 2 (3)
 - Rudolf Hess (3)
 - bootlegs (3)
-- Digital (3)
+- Genetic (3)
 - Paul Morley (3)
 - Warsaw (3)
 - Tony Wilson (3)
+- Peter Saville (3)
 - Dead Souls (3)
 - Enigma (3)
 - An Ideal For Living (3)
-- Unknown Pleasures (2)
 - DIY (2)
+- Strawberry Studios (2)
 - John Peel (2)
-- Genetic (2)
 - Martin Rushent (2)
 - Eden Studios (2)
 - Glass (2)
-- Transmission (2)
 - Ice Age (2)
+- NME (2)
+- distribution (2)
 - Alan Erasmus (2)
 - The Kill (2)
 - Steve Brotherdale (2)
 - Slaughter & the Dogs (2)
 - Panik (2)
-- Rainy City Records (2)
-- At a Later Date (2)
-- John Anderson (2)
-- remastering (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -552,20 +552,22 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Type | Nombre |
 |---|---|
 | production | 32 |
+| non qualifié | 13 |
 | objet_discographique | 12 |
-| non qualifié | 11 |
-| session_studio | 8 |
+| session_studio | 10 |
 | concert | 6 |
 | analyse | 5 |
 | archive | 5 |
+| economie_discographique | 4 |
 | session | 3 |
 | evenement_discographique | 3 |
-| economie_discographique | 3 |
 | chronologie | 3 |
 | live_set_bootleg_context | 3 |
 | economie_materielle | 2 |
 | tension_industrie | 2 |
 | chronologie_discographique | 2 |
+| lieu_studio | 2 |
+| interpretation_studio | 2 |
 | discographie | 2 |
 | bootleg | 2 |
 | concert_archive | 2 |
@@ -583,8 +585,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | chronologie_factory | 1 |
 | intervention_management | 1 |
 | scene_factory | 1 |
-| lieu_studio | 1 |
-| interpretation_studio | 1 |
+| decision_industrielle | 1 |
+| tension_esthetique | 1 |
+| esthétique_visuelle | 1 |
+| reception_discographique | 1 |
+| session_radio | 1 |
+| chanson_single | 1 |
 | chronologie_reseau | 1 |
 | seuil_chronologique | 1 |
 | videographie | 1 |
@@ -606,9 +612,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 69 |
-| critique | 58 |
-| majeur | 6 |
+| non qualifiée | 71 |
+| critique | 68 |
+| majeur | 7 |
 | majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -646,6 +652,17 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A069 [élevé] — Ne pas attribuer à Hook seul les détails précis Strawberry/RCA ; il parle ici d’Arrow Studios et de John Anderson.
 - S41-A071 [faible à moyen] — Ne pas transformer Gretton en sauveur total ; il règle des problèmes très concrets.
 - S41-A074 [moyen] — Ne pas téléologiser Factory Records ; le passage décrit encore un club night expérimental.
+- S41-A113 [élevé] — Risque d’idéaliser Factory en oubliant le coût salarial et sanitaire du refus d’avance.
+- S41-A116 [moyen] — Ne pas effacer les tensions techniques avec Hannett ; elles apparaissent dans les atomes suivants.
+- S41-A117 [faible] — Atome de structuration discographique ; il appelle surtout le croisement.
+- S41-A118 [moyen] — Risque de mythologiser Hannett en sorcier ; maintenir l’infrastructure studio et les ingénieurs.
+- S41-A119 [moyen] — Ne pas transformer le rejet initial en condamnation durable ; Hook relit ensuite la portée du disque.
+- S41-A120 [moyen] — Ne pas faire de l’anti-image une stratégie totalement consciente ; Hook décrit aussi du froid, de la gêne et du désintérêt.
+- S41-A122 [faible] — Atome matériel ; son intérêt est de désacraliser sans nier l’importance de l’objet.
+- S41-A123 [moyen] — Les chiffres de ventes/profit doivent être croisés avant usage quantitatif ferme.
+- S41-A124 [moyen] — Ne pas confondre version radio, version live et version Sordide Sentimental.
+- S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
+- S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
 - S41-A079 [moyen] — Risque de juger 1978 avec une rationalité commerciale postérieure ; Hook signale lui-même la relecture après expérience.
 - S41-A081 [moyen] — Ne pas réduire Cargo à un décor ; ne pas non plus attribuer tout le son à la seule accumulation d’effets.
 - S41-A082 [moyen] — Risque de faire de l’ignorance du groupe une qualité pure ; elle est aussi une perte de contrôle.
@@ -662,17 +679,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S75-A030 [moyen] — ne pas surestimer le 12 pouces comme rupture autonome ; il reste un seuil matériel
 - S75-A050 [faible] — principal risque factuel : dates et supports à recouper avec discographies spécialisées
 - S75-A053 [moyen] — ne pas réécrire l'album idéal à partir des chutes ; elles documentent une constellation, pas un album alternatif certain
-- S75-A054 [moyen] — les titres de réserve ne doivent pas être mis au même rang que le disque publié sans préciser leur statut
-- S76-A039 [moyen] — ne pas surestimer le niveau artistique de la session ; S76 insiste sur le son pauvre et live
-- S76-A041 [tres_eleve] — la pochette Hitler Youth doit être analysée dans sa violence symbolique sans conclure automatiquement à une idéologie fasciste
-- S76-A046 [eleve] — dossier sensible ; il faut distinguer décision esthétique, morale, commerciale et distribution
-- S76-A101 [faible] — l’atome compare des choix de production précis et vérifiables
-- S76-A118 [moyen] — scène de triomphe facilement canonisable ; garder le contexte festivalier difficile et l’ambivalence médicale
-- S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
-- S76-A051 [moyen] — description qualitative ; à croiser avec écoute des bandes RCA et sources Hook/Ott
-- S76-A078 [moyen] — scène fortement narrative ; à croiser avec sources Factory et témoignages Wilson/Erasmus
-- S76-A079 [moyen] — scène très séduisante et mythifiable ; à traiter comme anecdote fondatrice à vérifier, non comme causalité unique
-- S76-A129 [moyen] — l’objet est fortement fétichisable ; le traiter comme dispositif culturel, non comme relique
 
 ## 15. Lacunes et prochaines vérifications
 

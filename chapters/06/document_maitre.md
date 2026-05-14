@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T19:00:42"
+generated_at: "2026-05-14T20:17:42"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 388 |
+| Atomes | 394 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 108 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 114 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -258,6 +258,18 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A111** — S41-A111 — Factory vs Genetic : liberté mancunienne contre avance londonienne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct + éléments contractuels rapportés`.
+- **S41-A114** — S41-A114 — Bowdon Vale : Joy Division presque achevé avant l’album  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_pre_album` ; importance : `critique` ; preuve : `témoignage direct + archive filmique`.
+- **S41-A115** — S41-A115 — Van Walthamstow : hélicoptère, conflit de frais et économie matérielle du groupe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A121** — S41-A121 — Silence aux journalistes : Gretton interdit Hook/Sumner et fabrique malgré lui la mystique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `strategie_medias` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A128** — S41-A128 — Interviews hostiles et pauvreté maintenue : succès sans glamour  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `strategie_medias` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A130** — S41-A130 — T. J. Davidson’s après le succès : farces, flight cases et retour de Tony Davidson  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_lieu` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A131** — S41-A131 — Hook et Les Pattinson : bassistes chauffeurs, fraternité logistique et scène Liverpool-Londres  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
@@ -268,18 +280,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-036** — S45-036 — Ian Curtis hésite face à la tournée américaine  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S45-042** — S45-042 — Le manuscrit de « Love Will Tear Us Apart » devient relique  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-A039** — S45-A039 — Granada comme obsession médiatique : Curtis pousse Sumner vers la télévision  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_mediatique` ; importance : `majeur` ; preuve : `témoignage direct + témoignage rapporté de Sumner`.
-- **S45-A048** — S45-A048 — Manchester Musicians’ Collective : expérimentation sans obligation d’audience  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `citation de Curtis rapportée par Deborah`.
-- **S45-A049** — S45-A049 — Piccadilly Plaza / RCA : bureau discret et promesse industrielle  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_industrielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A053** — S45-A053 — Stiff/Chiswick Challenge : le concours comme théâtre de l’ambition provinciale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_scene_locale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A054** — S45-A054 — Curtis force l’accès à Tony Wilson par l’invective  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -511,7 +511,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (21)
+- Rob Gretton (23)
 - Factory (13)
 - Tony Wilson (13)
 - Martin Hannett (12)
@@ -521,6 +521,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Transmission (7)
 - Digital (6)
 - Terry Mason (6)
+- John Peel (6)
 - Electric Circus (6)
 - Ian Curtis (6)
 - Peter Saville (6)
@@ -528,11 +529,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Strawberry Studios (5)
 - RCA (5)
 - fatigue (5)
-- John Peel (5)
 - manager (5)
 - Gretton (5)
 - Love Will Tear Us Apart (5)
 - Buzzcocks tour (4)
+- van (4)
 - Peter Hook (4)
 - télévision (4)
 - Shadowplay (4)
@@ -540,17 +541,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Band on the Wall (4)
 - Buzzcocks (4)
 - Glass (4)
+- T. J. Davidson’s (4)
 - Kraftwerk (4)
 - Stephen Morris (4)
 - Warsaw (4)
+- She’s Lost Control (4)
 - Atmosphere (4)
 - Closer (4)
 - Britannia Row (4)
 - synthétiseur (4)
 - John Anderson (4)
-- van (3)
-- Granada (3)
-- Rainbow Theatre (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -652,20 +652,20 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | lecture_chanson | 7 |
 | concert | 6 |
 | session | 6 |
+| economie_materielle | 5 |
 | objet_discographique | 5 |
 | scene_management | 5 |
 | biographie | 5 |
 | discographie | 5 |
 | fait_sensible | 5 |
 | processus_creatif | 4 |
-| economie_materielle | 4 |
 | analyse | 4 |
+| scene_reseau | 4 |
 | reception_critique | 4 |
 | fait_interprete | 4 |
 | session_radio | 4 |
 | tension_management | 3 |
 | scene_live | 3 |
-| scene_reseau | 3 |
 | scene_collective | 3 |
 | scene_live_violence | 3 |
 | television | 3 |
@@ -686,6 +686,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | personne_reseau | 2 |
 | scene_revelation | 2 |
 | chronologie_structurante | 2 |
+| strategie_medias | 2 |
 | session_enregistrement | 2 |
 | analyse_musicale | 2 |
 | interpretation_album | 2 |
@@ -753,6 +754,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_creative_live | 1 |
 | scene_factory | 1 |
 | objet_audiovisuel | 1 |
+| scene_live_pre_album | 1 |
+| scene_lieu | 1 |
 | evenement_discographique | 1 |
 | tension_sociale | 1 |
 | scene_live_comparative | 1 |
@@ -860,9 +863,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 174 |
+| critique | 177 |
 | non qualifiée | 154 |
-| majeur | 36 |
+| majeur | 39 |
 | majeure | 24 |
 
 ## 14. Risques de surinterprétation et points de vigilance

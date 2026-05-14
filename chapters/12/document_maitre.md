@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T19:00:42"
+generated_at: "2026-05-14T20:17:42"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 249 |
+| Atomes | 251 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -34,7 +34,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 10 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 12 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -63,6 +63,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_vocale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A111** — S41-A111 — Factory vs Genetic : liberté mancunienne contre avance londonienne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct + éléments contractuels rapportés`.
+- **S41-A113** — S41-A113 — Factory choisi : deal sans avance, liberté, pression du grand disque  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_industrielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A125** — S41-A125 — Natalie Curtis et politique no-girlfriends : famille exclue, groupe accéléré  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec contradiction signalée avec S45`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A036** — S45-A036 — Le cours sur l’épilepsie : savoir préalable et ironie tragique  
@@ -111,10 +115,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Morris`.
 - **S45-A129** — S45-A129 — Pseudo-crises possibles : manipulation, maladie et prudence probatoire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `interprétation de Deborah + désaccord rapporté des membres du groupe`.
-- **S45-A131** — S45-A131 — Natalie au coucher : paternité désirée et restriction auto-imposée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sante` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
 
 ## 6. Autres atomes utiles
 
@@ -148,6 +148,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A122** — S45-A122 — Arrêt annoncé des concerts : pacificateur domestique et calendrier impossible  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_professionnelle` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A131** — S45-A131 — Natalie au coucher : paternité désirée et restriction auto-imposée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sante` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
 - **S45-A133** — S45-A133 — Moonlight / Rainbow : le calendrier détruit la routine médicale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_live_sante` ; importance : `critique` ; preuve : `témoignage direct de Deborah + témoignage rétrospectif de Sumner`.
 - **S45-A134** — S45-A134 — Crise sur scène : maladie devenue spectacle et capital mythique  
@@ -274,10 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S47 — West, Joy Division, 1984 ; type : `lieu_terminal` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S47-173** — S47-173 — John Peel : médiateur du public fervent  
   Source : S47 — West, Joy Division, 1984 ; type : `acteur_media` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-178** — S47-178 — Neil Norman : la dimension quasi prométhéenne de Joy Division  
-  Source : S47 — West, Joy Division, 1984 ; type : `acteur_critique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S47-184** — S47-184 — Chronologie condensée 1980  
-  Source : S47 — West, Joy Division, 1984 ; type : `micro_chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -501,24 +501,24 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 - Annik Honoré (20)
 - fatigue (13)
+- Deborah Curtis (11)
 - épilepsie (10)
-- Deborah Curtis (10)
 - Closer (9)
 - Rob Gretton (8)
 - Tony Wilson (8)
 - Ian Curtis (8)
-- Natalie Curtis (7)
+- Natalie Curtis (8)
 - Lindsay Reade (5)
 - Love Will Tear Us Apart (5)
 - Unknown Pleasures (5)
 - Terry Mason (5)
 - Barton Street (5)
+- Factory (4)
 - tournée américaine (4)
 - Britannia Row (4)
 - handicap (4)
 - Phenobarbitone (4)
 - She’s Lost Control (4)
-- Factory (3)
 - Peter Hook (3)
 - Candy (3)
 - domesticité (3)
@@ -631,9 +631,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 |---|---|
 | non qualifié | 8 |
 | lecture_chanson | 7 |
+| tension_domestique | 5 |
 | session_studio | 5 |
 | song | 5 |
-| tension_domestique | 4 |
 | live_set_context | 4 |
 | scene_domestique | 3 |
 | tension_medicale | 3 |
@@ -701,6 +701,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_industrie | 1 |
 | performance_sensible | 1 |
 | interpretation_retrospective | 1 |
+| decision_industrielle | 1 |
 | chronologie_medicale | 1 |
 | scene_live | 1 |
 | coincidence_culturelle | 1 |
@@ -809,7 +810,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 132 |
+| critique | 134 |
 | non qualifiée | 89 |
 | majeure | 20 |
 | majeur | 8 |
@@ -871,11 +872,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S41-A111 [élevé] — Risque de transformer le choix Factory en pure noblesse artistique ; Hook rappelle le coût sanitaire et financier du refus d’avance.
 - S41-A033 [élevé] — Risque de projeter l’épilepsie ou le mythe suicidaire sur une scène d’alcool, colère et performance.
 - S41-A024 [très élevé] — Risque de psychologisation rétrospective et de réduction de Curtis à une pathologie de l’adaptation.
+- S41-A113 [élevé] — Risque d’idéaliser Factory en oubliant le coût salarial et sanitaire du refus d’avance.
+- S41-A125 [très élevé] — Risque de psychologisation et de jugement familial ; Hook signale lui-même son incertitude.
 - S41-A091 [très élevé] — Risque de relire toute la performance antérieure à travers l’épilepsie ; garder le seuil médical.
 - S41-A092 [moyen] — Le diagnostic ne doit pas transformer rétrospectivement tous les gestes antérieurs en symptômes.
 - S41-A002 [élevé] — Risque de transformer l’intro Kraftwerk en stratégie esthétique pleinement consciente ; Hook laisse plusieurs hypothèses ouvertes.
-- S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
-- S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 
 ## 15. Lacunes et prochaines vérifications
 

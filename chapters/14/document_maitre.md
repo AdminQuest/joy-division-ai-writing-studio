@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T19:00:42"
+generated_at: "2026-05-14T20:17:42"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 682 |
+| Atomes | 693 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 75 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 86 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -99,6 +99,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `review rapportée + chronologie`.
 - **S41-A107** — S41-A107 — John Peel Session : validation radiophonique et prestige supérieur au chart placing  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_radio` ; importance : `critique` ; preuve : `témoignage direct + fait radiophonique établi`.
+- **S41-A114** — S41-A114 — Bowdon Vale : Joy Division presque achevé avant l’album  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_pre_album` ; importance : `critique` ; preuve : `témoignage direct + archive filmique`.
+- **S41-A120** — S41-A120 — Anti-image : Saville, anonymat, grisaille et refus du rock portraituré  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet visuel documenté`.
+- **S41-A121** — S41-A121 — Silence aux journalistes : Gretton interdit Hook/Sumner et fabrique malgré lui la mystique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `strategie_medias` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A123** — S41-A123 — Sortie de *Unknown Pleasures* : acclamation critique, ventes lentes et profit Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_discographique` ; importance : `critique` ; preuve : `synthèse rétrospective + presse à retrouver`.
+- **S41-A126** — S41-A126 — « Transmission » : single choisi par puissance live et non logique album  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A128** — S41-A128 — Interviews hostiles et pauvreté maintenue : succès sans glamour  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `strategie_medias` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
 - **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
@@ -107,18 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `strategie_mediatique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A104** — S45-A104 — Futurama ’79 : consécration nordiste et correction d’une mémoire secondaire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct indirect ; correction mémorielle de Deborah`.
-- **S45-A106** — S45-A106 — Mountford Hall : Joy Division déborde son statut de support band  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct indirect + citation critique rapportée`.
-- **S45-A107** — S45-A107 — Leeds University : Curtis star malgré le collectif  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_starification` ; importance : `critique` ; preuve : `citation critique rapportée + interprétation de Deborah`.
-- **S45-A114** — S45-A114 — Rainbow et Guildford : farces de tournée, sabotage sonore et domination contrariée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct rapporté + citation critique`.
-- **S45-A116** — S45-A116 — Franck Essner : « Transmission » et amorce d’un fandom transnational  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `critique` ; preuve : `témoignage direct de Deborah + entretien/retour de Franck Essner probable`.
-- **S45-A134** — S45-A134 — Crise sur scène : maladie devenue spectacle et capital mythique  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + témoignages Wilson/Mason rapportés`.
-- **S45-A144** — S45-A144 — Vidéo « Love Will Tear Us Apart » : marionnette du music-business  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
 
 ## 6. Autres atomes utiles
 
@@ -220,6 +220,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `majeur` ; preuve : `témoignage direct inséré dans la timeline`.
 - **S41-A102** — S41-A102 — Check Inn / New Electric Circus / Salford Tech : ancrage territorial et réception mancunienne montante  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live_locale` ; importance : `majeur` ; preuve : `chronologie + review rapportée`.
+- **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A129** — S41-A129 — What’s On : grève Granada, « She’s Lost Control » et performance sous contrainte  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `majeur` ; preuve : `témoignage direct + archive audiovisuelle à vérifier`.
+- **S41-A130** — S41-A130 — T. J. Davidson’s après le succès : farces, flight cases et retour de Tony Davidson  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_lieu` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A131** — S41-A131 — Hook et Les Pattinson : bassistes chauffeurs, fraternité logistique et scène Liverpool-Londres  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
@@ -246,10 +254,22 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A093** — S45-A093 — McCullough / Sounds : refus des réponses droites et publicité paradoxale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_presse` ; importance : `majeur` ; preuve : `témoignage direct + réception presse rapportée`.
+- **S45-A106** — S45-A106 — Mountford Hall : Joy Division déborde son statut de support band  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct indirect + citation critique rapportée`.
+- **S45-A107** — S45-A107 — Leeds University : Curtis star malgré le collectif  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_starification` ; importance : `critique` ; preuve : `citation critique rapportée + interprétation de Deborah`.
+- **S45-A114** — S45-A114 — Rainbow et Guildford : farces de tournée, sabotage sonore et domination contrariée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct rapporté + citation critique`.
+- **S45-A116** — S45-A116 — Franck Essner : « Transmission » et amorce d’un fandom transnational  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `critique` ; preuve : `témoignage direct de Deborah + entretien/retour de Franck Essner probable`.
 - **S45-A124** — S45-A124 — Franck Essner à Barton Street : charade familiale et regard transnational  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `majeur` ; preuve : `témoignage direct + propos de Franck rapportés`.
 - **S45-A126** — S45-A126 — New Osbourne Club : beauté retrouvée, loge cachée et performance affaiblie  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_domestique` ; importance : `majeur` ; preuve : `témoignage direct + critique rapportée`.
+- **S45-A134** — S45-A134 — Crise sur scène : maladie devenue spectacle et capital mythique  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + témoignages Wilson/Mason rapportés`.
+- **S45-A144** — S45-A144 — Vidéo « Love Will Tear Us Apart » : marionnette du music-business  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
 - **S45-A150** — S45-A150 — Dernier concert et minder : gestion de tournée contre hospitalisation  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management_sante` ; importance : `critique` ; preuve : `témoignage direct indirect + reconstruction rétrospective de Deborah`.
 - **S45-A152** — S45-A152 — Dernière photographie : fleurs, blue room et visage hanté  
@@ -262,26 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `contexte_documentaire` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-003** — S46-003 — Paul Morley et la mémoire instable de Warsaw  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `temoignage_interpretatif` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-008** — S46-008 — Le passage de Warsaw à Joy Division  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-013** — S46-013 — Les badges Joy Division et Better Badges  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-014** — S46-014 — Factory I, Russell Club, 9 juin 1978  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-015** — S46-015 — *An Ideal for Living* 7 pouces : autoproduction et mauvais pressage  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-016** — S46-016 — *An Ideal for Living* 12 pouces : Anonymous Records et messages de run-out  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-017** — S46-017 — *A Factory Sample* et Cargo Studios  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-018** — S46-018 — Bowdon Vale, provocation publique et accusations de nazisme  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-021** — S46-021 — Réception NME à Eric’s : Joy Division comme « Important Band »  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-022** — S46-022 — Pochette d’*Unknown Pleasures* et source scientifique du motif  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-023** — S46-023 — *Transmission* comme single de relance et attraction des majors  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_strategie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -512,14 +512,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 - Tony Wilson (17)
 - Annik Honoré (16)
-- Rob Gretton (12)
-- Peter Saville (8)
+- Rob Gretton (14)
+- Peter Saville (9)
 - fatigue (8)
 - Ian Curtis (7)
+- Unknown Pleasures (7)
 - Factory (7)
 - Electric Circus (6)
-- Unknown Pleasures (6)
 - Love Will Tear Us Apart (5)
+- John Peel (5)
 - Durutti Column (5)
 - Kevin Cummins (5)
 - Closer (5)
@@ -527,10 +528,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Buzzcocks tour (4)
 - Mick Middles (4)
 - Buzzcocks (4)
+- Transmission (4)
 - Sounds (4)
 - Strawberry Studios (4)
-- John Peel (4)
+- NME (4)
 - Factory Club (4)
+- She’s Lost Control (4)
 - épilepsie (4)
 - Sister Ray (4)
 - Still (4)
@@ -538,18 +541,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Deborah Curtis (4)
 - A Certain Ratio (4)
 - Rainbow Theatre (3)
-- Transmission (3)
 - Dave McCullough (3)
-- NME (3)
+- interviews (3)
 - Peel Session (3)
+- T. J. Davidson’s (3)
 - Sex Pistols (3)
 - Alan Erasmus (3)
 - Vini Reilly (3)
 - Shadowplay (3)
 - Rock Against Racism (3)
-- Hope & Anchor (3)
-- Rafters (3)
-- Paul Morley (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -642,7 +642,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | analyse | 34 |
 | reception | 28 |
-| non qualifié | 15 |
+| non qualifié | 16 |
 | memoire | 12 |
 | reception_live | 11 |
 | discographie | 11 |
@@ -665,7 +665,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | citation_repere | 5 |
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
+| objet_audiovisuel | 4 |
 | management | 4 |
+| economie_discographique | 4 |
+| scene_reseau | 4 |
 | television | 4 |
 | iconographie | 4 |
 | concert | 4 |
@@ -679,11 +682,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_chanson | 4 |
 | concert_europeen | 4 |
 | reception_presse | 3 |
-| objet_audiovisuel | 3 |
 | reception_radio | 3 |
-| economie_discographique | 3 |
-| scene_reseau | 3 |
 | scene_collective | 3 |
+| esthétique_visuelle | 3 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
 | reception_posthume | 3 |
@@ -703,6 +704,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
 | infrastructure | 2 |
+| strategie_medias | 2 |
 | archive_live | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -737,7 +739,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept_management | 2 |
 | bascule_tournee | 2 |
 | concert_archive | 2 |
-| esthétique_visuelle | 2 |
 | album | 2 |
 | reception_starification | 1 |
 | scene_live_domestique | 1 |
@@ -757,6 +758,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | chronologie_live_locale | 1 |
 | tension_reception | 1 |
 | scene_factory | 1 |
+| scene_live_pre_album | 1 |
+| reception_discographique | 1 |
+| chanson_single | 1 |
+| scene_lieu | 1 |
 | scene_live_violence | 1 |
 | scene_live_comparative | 1 |
 | scene_live_echec | 1 |
@@ -984,10 +989,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 451 |
-| critique | 173 |
+| non qualifiée | 452 |
+| critique | 179 |
 | majeure | 39 |
-| majeur | 15 |
+| majeur | 19 |
 | structurante | 2 |
 | moyenne | 2 |
 
@@ -1034,6 +1039,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A074 [moyen] — Ne pas téléologiser Factory Records ; le passage décrit encore un club night expérimental.
 - S41-A075 [faible] — Atome de réseau ; son intérêt tient à l’ambivalence entraide / ennui / opportunisme.
 - S41-A077 [moyen] — Ne pas faire de la télévision une consécration nationale ; c’est une fenêtre locale pré-enregistrée.
+- S41-A114 [moyen] — Ne pas opposer artificiellement son live achevé et son studio transformé : le passage prépare leur tension.
+- S41-A120 [moyen] — Ne pas faire de l’anti-image une stratégie totalement consciente ; Hook décrit aussi du froid, de la gêne et du désintérêt.
+- S41-A121 [moyen] — Ne pas attribuer à Gretton une stratégie mystique entièrement consciente.
+- S41-A122 [faible] — Atome matériel ; son intérêt est de désacraliser sans nier l’importance de l’objet.
+- S41-A123 [moyen] — Les chiffres de ventes/profit doivent être croisés avant usage quantitatif ferme.
+- S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
+- S41-A128 [moyen] — Ne pas confondre posture spontanée, discipline Gretton et construction rétrospective de la mystique.
+- S41-A129 [faible à moyen] — Ne pas présenter la télévision comme simple validation ; le passage montre surtout contrainte et bricolage.
+- S41-A130 [moyen] — Ne pas folkloriser la brutalité des farces ; l’intérêt est le contraste succès / continuité.
+- S41-A131 [faible] — Atome logistique et relationnel, à ne pas surcharger.
 - S41-A080 [moyen] — Ne pas faire de Wilson/Curtis une pure alliance d’intellectuels ; Hook écrit depuis la mythologie Factory constituée.
 - S41-A084 [moyen] — Ne pas fétichiser l’objet Factory en oubliant le travail manuel et le retard logistique.
 - S41-A087 [moyen] — Ne pas folkloriser la violence du crachat ; elle affecte les corps et la durée du concert.
@@ -1043,16 +1058,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A058 [moyen] — Ne pas donner trop de poids à une review anonyme ; l’intérêt tient au contraste entre trace hostile et mémoire absente.
 - S41-A061 [moyen] — Risque de confondre cassette personnelle, bootleg ultérieur et document public stabilisé.
 - S41-A062 [faible] — Atome de consolidation ; l’analyse de la provocation Rudolf Hess reste dans les atomes antérieurs.
-- S41-A005 [moyen] — Risque de transformer la bagarre en folklore comique ; elle éclaire aussi classe, appartenance et honte.
-- S41-A006 [moyen] — Risque d’en faire une préfiguration téléologique de toute la trajectoire ; le passage doit rester anti-téléologique.
-- S41-A011 [faible] — Usage surtout contre-mythique ; ne pas surcharger.
-- S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
-- S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
-- S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
-- S75-A062 [eleve] — la presse contemporaine documente la réception, pas l'état intérieur de Curtis
-- S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
-- S75-A065 [eleve] — matériau affectif conflictuel, fortement mythologisé, avec sources mémorielles divergentes
-- S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-14T19:00:30",
+  "generated_at": "2026-05-14T20:17:30",
   "status": "warning",
   "summary": {
-    "records_total": 2906,
+    "records_total": 2972,
     "records_by_kind": {
-      "atom": 1489,
+      "atom": 1511,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 68,
+      "unknown": 75,
       "song": 41,
-      "template": 147,
+      "template": 159,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 139,
+      "motif": 157,
       "person": 157,
-      "concept": 94,
+      "concept": 101,
       "myth": 11
     },
-    "diagnostics_total": 15247,
+    "diagnostics_total": 15448,
     "errors": 0,
-    "warnings": 15247,
+    "warnings": 15448,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 384,
-        "atoms": 294,
+        "records": 413,
+        "atoms": 316,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -121,6 +121,7 @@
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+          "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
@@ -138,6 +139,7 @@
           "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
           "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+          "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
           "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md"
         ]
       },
@@ -17745,6 +17747,918 @@
       "file": "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md",
       "message": "Invalid value for type_unite: influence_instrumentale",
       "record_id": "S41-A078"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: decision_industrielle",
+      "record_id": "S41-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: scene_live_pre_album",
+      "record_id": "S41-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: economie_materielle",
+      "record_id": "S41-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: lieu_studio",
+      "record_id": "S41-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: session_studio",
+      "record_id": "S41-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: interpretation_studio",
+      "record_id": "S41-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A119"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A119"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A119"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A119"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A119"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A119"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A119"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: tension_esthetique",
+      "record_id": "S41-A119"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A120"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A120"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A120"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A120"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A120"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A120"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A120"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: esthétique_visuelle",
+      "record_id": "S41-A120"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A121"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A121"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A121"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A121"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A121"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A121"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A121"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: strategie_medias",
+      "record_id": "S41-A121"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A122"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A122"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A122"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A122"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A122"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A122"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A122"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: economie_discographique",
+      "record_id": "S41-A122"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A123"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A123"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A123"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A123"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A123"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A123"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A123"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: reception_discographique",
+      "record_id": "S41-A123"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A124"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A124"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A124"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A124"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A124"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A124"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A124"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: session_radio",
+      "record_id": "S41-A124"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A125"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A125"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A125"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A125"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A125"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A125"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A125"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: tension_domestique",
+      "record_id": "S41-A125"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A126"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A126"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A126"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A126"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A126"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A126"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A126"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: chanson_single",
+      "record_id": "S41-A126"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A127"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A127"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A127"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A127"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A127"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A127"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A127"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: session_studio",
+      "record_id": "S41-A127"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A128"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A128"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A128"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A128"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A128"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A128"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A128"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: strategie_medias",
+      "record_id": "S41-A128"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A129"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A129"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A129"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A129"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A129"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A129"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A129"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: objet_audiovisuel",
+      "record_id": "S41-A129"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A130"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A130"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A130"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A130"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A130"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A130"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A130"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: scene_lieu",
+      "record_id": "S41-A130"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A131"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A131"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A131"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A131"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A131"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A131"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A131"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Invalid value for type_unite: scene_reseau",
+      "record_id": "S41-A131"
     },
     {
       "level": "warning",
@@ -81807,6 +82721,300 @@
       "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
       "message": "Unable to infer documentary kind",
       "record_id": "ARCHIVE-S41-EDEN-TAPES-RESURFACE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S41-UNKNOWN-PLEASURES-STRAWBERRY-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "FILM-S41-BOWDON-VALE-WHITEHEAD-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: importance",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SESSION-S41-STRAWBERRY-UP-SIXTEEN-TRACKS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "VISUAL-S41-UP-SAVILLE-ANTI-IMAGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MATERIAL-S41-UP-10000-COPIES-PALATINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "RADIO-S41-PICCADILLY-CHANCE-ATROCITY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-TRANSMISSION-CENTRAL-SOUND"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-SOMETHING-MUST-BREAK-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "TV-S41-WHATS-ON-SHES-LOST-CONTROL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-YMCA-TOTTENHAM-COURT-ROAD"
     },
     {
       "level": "warning",
