@@ -159,7 +159,7 @@ prudence: >
 ```yaml
 id: SONG-S41-PEACHES-5-MINUTES-BURNEL-HOOK
 source_id: S41
-titre: "Peaches" / "5 Minutes"
+titre: "\"Peaches\" / \"5 Minutes\""
 artiste: The Stranglers
 nature: influences bassistiques déclarées
 usage: >
