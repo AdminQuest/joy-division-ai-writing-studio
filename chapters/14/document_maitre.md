@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T12:23:52"
+generated_at: "2026-05-14T13:21:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 651 |
+| Atomes | 654 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 44 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 47 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -53,6 +53,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_sociale_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A006** — S41-A006 — Premier concert Joy Division : naissance publique dans l’échec  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `synthese_tension` ; importance : `critique` ; preuve : `témoignage direct rétrospectif fortement stylisé`.
+- **S41-A014** — S41-A014 — Lesser Free Trade Hall : le concert comme conversion sensorielle et sociale  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_revelation` ; importance : `critique` ; preuve : `témoignage direct rétrospectif de Peter Hook`.
+- **S41-A018** — S41-A018 — Deuxième concert Pistols : scène mancunienne, violence et infrastructure punk  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + synthèse de scène`.
+- **S41-A019** — S41-A019 — Curtis avec « Hate » : apparition d’un semblable, non d’une icône  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
 - **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
@@ -113,12 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_single` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A047** — S74-A047 — Factory Club comme véritable foyer scénique de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A053** — S74-A053 — Suicide de Curtis : mort privée contre mythe rock’n’roll  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `interpretation_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A056** — S74-A056 — Closer et Love Will Tear Us Apart : beauté posthume, design funéraire et campagne américaine absurde  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A060** — S74-A060 — New Order : controverse nominale, mémoire fasciste et stratégie du silence  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -518,12 +518,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Unknown Pleasures (6)
 - Peter Saville (6)
 - Love Will Tear Us Apart (5)
+- Ian Curtis (5)
 - Closer (5)
 - Gretton (5)
 - Buzzcocks tour (4)
 - Mick Middles (4)
 - Strawberry Studios (4)
-- Ian Curtis (4)
 - épilepsie (4)
 - Sister Ray (4)
 - Kevin Cummins (4)
@@ -536,6 +536,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Dave McCullough (3)
 - Sounds (3)
 - NME (3)
+- Sex Pistols (3)
+- Electric Circus (3)
 - Bowie (3)
 - presse musicale (3)
 - Plan K (3)
@@ -548,8 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Wilson (3)
 - contrat (3)
 - RCA (3)
-- Hannett (3)
-- John Peel (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -605,6 +605,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A153 — prolonge → S45-A151
 - S45-A153 — nuance → MYTH-002
 - S45-A153 — prépare → CHAPITRE-13-MY-TIMING
+- S41-A014 — prolonge → CONCEPT-046
+- S41-A014 — nuance → MYTH-SEX-PISTOLS-LFTH-ORIGIN
+- S41-A014 — prolonge → S41-A013
+- S41-A018 — prolonge → S41-A014
+- S41-A018 — nuance → MYTH-SEX-PISTOLS-LFTH-ORIGIN
+- S41-A019 — nuance → MYTH-002
+- S41-A019 — prolonge → CONCEPT-046
 - S41-A005 — prolonge → MOTIF-025
 - S41-A005 — nuance → MYTH-002
 - S41-A006 — prolonge → S45-A067
@@ -626,13 +633,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A062 — nuance → MYTH-002
 - S75-A064 — requiert → CONCEPT-004
 - S75-A064 — nuance → MYTH-002
-- S75-A064 — prolonge → S75-A057
-- S75-A065 — requiert → CONCEPT-004
-- S75-A065 — nuance → MYTH-002
-- S75-A065 — prolonge → S75-A063
-- S75-A066 — prolonge → S75-A033
-- S75-A066 — nuance → MYTH-003
-- S75-A066 — prépare → S75-A073
 
 ## 13. Distribution documentaire
 
@@ -744,6 +744,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_management_sante | 1 |
 | scene_domestique_finale | 1 |
 | tension_finale | 1 |
+| scene_revelation | 1 |
+| scene_collective | 1 |
+| rencontre_fondatrice | 1 |
 | scene_sociale_live | 1 |
 | synthese_tension | 1 |
 | contrepoint_lieu | 1 |
@@ -969,7 +972,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 451 |
-| critique | 150 |
+| critique | 153 |
 | majeure | 39 |
 | majeur | 7 |
 | structurante | 2 |
@@ -996,6 +999,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
 - S45-A152 [moyen] — Risque de fétichiser la dernière photographie ; elle doit rester un document affectif et domestique.
 - S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
+- S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
+- S41-A018 [moyen] — Risque de faire du second concert un seul point d’origine ; Hook lui-même distribue l’importance entre plusieurs moments.
+- S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
 - S41-A005 [moyen] — Risque de transformer la bagarre en folklore comique ; elle éclaire aussi classe, appartenance et honte.
 - S41-A006 [moyen] — Risque d’en faire une préfiguration téléologique de toute la trajectoire ; le passage doit rester anti-téléologique.
 - S41-A011 [faible] — Usage surtout contre-mythique ; ne pas surcharger.
@@ -1034,9 +1040,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A050 [faible] — principal risque factuel : dates et supports à recouper avec discographies spécialisées
 - S75-A054 [moyen] — les titres de réserve ne doivent pas être mis au même rang que le disque publié sans préciser leur statut
 - S75-A055 [moyen] — l'image est devenue trop canonique ; il faut distinguer sa puissance symbolique et l'incertitude de sa genèse
-- S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
-- S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
-- S74-A027 [faible] — scène largement cohérente avec les autres récits internes, mais stylisée par Middles
 
 ## 15. Lacunes et prochaines vérifications
 

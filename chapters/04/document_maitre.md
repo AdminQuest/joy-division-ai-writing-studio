@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T12:23:52"
+generated_at: "2026-05-14T13:21:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-14T12:23:52"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 182 |
+| Atomes | 183 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-14T12:23:52"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 21 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 22 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -45,6 +45,8 @@ generated_at: "2026-05-14T12:23:52"
 
 ## 5. Atomes critiques ou majeurs
 
+- **S41-A023** — S41-A023 — Premières répétitions : lieux instables, WEM PA et paroles concurrentes  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -113,8 +115,6 @@ generated_at: "2026-05-14T12:23:52"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `memoire_familiale_et_temoignage_ami`.
 - **S76-A012** — S76-A012 — Ziggy Stardust au Hardrock : Bowie comme choc de scène avant le punk  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
-- **S76-A018** — S76-A018 — Doutes prénuptiaux et tentation de prophétiser Curtis  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `temoignages_retrospectifs_sensibles`.
 
 ## 6. Autres atomes utiles
 
@@ -566,6 +566,8 @@ generated_at: "2026-05-14T12:23:52"
 - S45-A030 — prolonge → S45-A025
 - S45-A030 — prolonge → CONCEPT-005
 - S45-A030 — nuance → MYTH-002
+- S41-A023 — prolonge → CONCEPT-020
+- S41-A023 — prolonge → S45-A075
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -623,8 +625,6 @@ generated_at: "2026-05-14T12:23:52"
 - S75-A046 — nuance → MYTH-002
 - S75-A046 — prolonge → MOTIF-003
 - S75-A047 — requiert → CONCEPT-004
-- S75-A047 — nuance → MYTH-002
-- S75-A047 — prolonge → CONCEPT-006
 
 ## 13. Distribution documentaire
 
@@ -638,6 +638,7 @@ generated_at: "2026-05-14T12:23:52"
 | interpretation | 5 |
 | lecture | 4 |
 | lecture_musicale | 4 |
+| processus_creatif | 3 |
 | relation | 3 |
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
@@ -647,7 +648,6 @@ generated_at: "2026-05-14T12:23:52"
 | contexte_biographique | 3 |
 | tension_biographique | 3 |
 | live_set_context | 3 |
-| processus_creatif | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | performance | 2 |
@@ -753,7 +753,7 @@ generated_at: "2026-05-14T12:23:52"
 
 | Importance | Nombre |
 |---|---|
-| critique | 81 |
+| critique | 82 |
 | non qualifiée | 66 |
 | majeure | 33 |
 | majeur | 1 |
@@ -768,6 +768,7 @@ generated_at: "2026-05-14T12:23:52"
 - S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
 - S45-A025 [moyen] — Risque de sacraliser Barton Street comme sanctuaire ; conserver sa matérialité domestique et logistique.
 - S45-A030 [moyen] — Risque de transformer la pièce en sanctuaire mythique ; elle est d’abord un espace de travail et de séparation domestique.
+- S41-A023 [élevé] — Risque de mythifier Curtis comme âme pure ; Hook écrit rétrospectivement après le mythe.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
@@ -820,7 +821,6 @@ generated_at: "2026-05-14T12:23:52"
 - S76-A097 [tres_eleve] — risque maximal de médiumnité, prophétisation et lecture surnaturelle de Curtis
 - S76-A104 [eleve] — risque de confondre danse, épilepsie et mythe du corps possédé ; ne pas médicaliser sans preuve
 - S76-A108 [tres_eleve] — risque majeur de lire chaque vers à partir du suicide ultérieur
-- S76-A001 [moyen] — proximité affective des auteurs et volonté réparatrice de la source
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T12:23:52"
+generated_at: "2026-05-14T13:21:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 240 |
+| Atomes | 241 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -34,7 +34,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 1 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 2 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -45,6 +45,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ## 5. Atomes critiques ou majeurs
 
+- **S41-A024** — S41-A024 — Curtis miroir : trois personas et coût de l’adaptation  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `critique` ; preuve : `interprétation rétrospective de témoin direct`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A036** — S45-A036 — Le cours sur l’épilepsie : savoir préalable et ironie tragique  
@@ -113,8 +115,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_crise` ; importance : `critique` ; preuve : `témoignage direct indirect + témoignage Morris/Wilson rapporté`.
 - **S45-A141** — S45-A141 — Factory du 11 avril : retour impossible et humiliation publique de Deborah  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A144** — S45-A144 — Vidéo « Love Will Tear Us Apart » : marionnette du music-business  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
 
 ## 6. Autres atomes utiles
 
@@ -152,6 +152,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_soin_amateur` ; importance : `majeur` ; preuve : `témoignage direct indirect + souvenirs rapportés`.
 - **S45-A142** — S45-A142 — Natalie un an : anniversaire sans père et dépression de la maison Wilson  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct + propos de Lindsay rapportés`.
+- **S45-A144** — S45-A144 — Vidéo « Love Will Tear Us Apart » : marionnette du music-business  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
 - **S45-A145** — S45-A145 — Parkside manqué : ambition accomplie et désir de sortie du groupe  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_psychiatrique` ; importance : `critique` ; preuve : `témoignage direct de Deborah ; propos de Steve Morris rapporté`.
 - **S45-A148** — S45-A148 — Chez Bernard et Sue : dépression, dépendance et cerveau endommagé  
@@ -276,8 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 
 ## 7. Citations disponibles
 
@@ -695,6 +695,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_management_sante | 1 |
 | scene_medicale_sensible | 1 |
 | tension_finale | 1 |
+| interpretation_retrospective | 1 |
 | scene_live | 1 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
@@ -802,7 +803,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 123 |
+| critique | 124 |
 | non qualifiée | 89 |
 | majeure | 20 |
 | majeur | 8 |
@@ -857,6 +858,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
 - S45-A151 [très élevé] — Risque de lire chaque don d’objet comme signe suicidaire certain.
 - S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
+- S41-A024 [très élevé] — Risque de psychologisation rétrospective et de réduction de Curtis à une pathologie de l’adaptation.
 - S41-A002 [élevé] — Risque de transformer l’intro Kraftwerk en stratégie esthétique pleinement consciente ; Hook laisse plusieurs hypothèses ouvertes.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
@@ -868,7 +870,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S75-A072 [eleve] — la tentation de lire *Closer* comme testament total est très forte ; Ott invite à réintroduire le présent des acteurs
 - S75-A073 [eleve] — épisode spectaculaire, exposé au sensationnalisme ; le traiter comme symptôme d'une impasse collective
 - S75-A075 [faible] — l'atome vise précisément à réduire la surinterprétation et la déification
-- S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T12:23:52"
+generated_at: "2026-05-14T13:21:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 292 |
+| Atomes | 293 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -34,7 +34,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 64 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 65 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
@@ -238,6 +238,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition_esthetique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-153** — S41-153 — 2 septembre 1980 : « Atmosphere » / « She’s Lost Control » en 12 pouces  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-A017** — S41-A017 — Punk look : Oxfam, Scout shop et leper treatment  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `construction_esthetique` ; importance : `majeur` ; preuve : `témoignage direct autobiographique`.
 - **S41-C02** — S41-C02 — La basse comme instrument principal de Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S41-C03** — S41-C03 — Martin Hannett comme reconstructeur sonore  
@@ -278,8 +280,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-034** — S46-034 — Mauvaise qualité sonore du 7 pouces  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-035** — S46-035 — La pochette de *An Ideal for Living* comme foyer de polémique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie_polemique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -577,6 +577,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A144 — prolonge → CONCEPT-036
 - S45-A144 — prolonge → S45-A132
 - S45-A144 — prépare → CHAPITRE-14-LOVE-WILL-TEAR-US-APART-POSTERITY
+- S41-A017 — prolonge → CONCEPT-046
+- S41-A017 — prolonge → MOTIF-063
 - S41-A001 — prolonge → MYTH-007
 - S41-A001 — prolonge → CONCEPT-025
 - S41-A001 — prolonge → S45-A100
@@ -624,8 +626,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A041 — complète → S74-A040
 - S74-A041 — annonce → S74-A042
 - S74-A042 — prolonge → S74-A041
-- S74-A042 — complète → S74-A036
-- S74-A042 — nuance → MYTH-006
 
 ## 13. Distribution documentaire
 
@@ -685,6 +685,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | strategie_mediatique | 1 |
 | seuil_identitaire | 1 |
 | objet_audiovisuel | 1 |
+| construction_esthetique | 1 |
 | session_enregistrement | 1 |
 | radio_broadcast | 1 |
 | vigilance_documentaire | 1 |
@@ -805,6 +806,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | non qualifiée | 189 |
 | critique | 77 |
 | majeure | 26 |
+| majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -817,6 +819,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S45-A144 [moyen] — Risque de réduire la vidéo à exploitation ; elle est aussi objet audiovisuel majeur.
+- S41-A017 [moyen] — Ne pas réduire le punk à l’apparence ; mais ici l’apparence est déjà action sociale.
 - S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
 - S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
@@ -867,7 +870,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A119 [faible] — incident concret ; éviter seulement d’en faire symbole tragique
 - S76-A048 [moyen] — ne pas projeter rétrospectivement l’éthique Factory sur un Curtis qui cherche encore une reconnaissance par la major
 - S76-A049 [moyen] — le projet ne doit pas être présenté comme vraie signature RCA ; S76 insiste sur le « almost »
-- S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
 
 ## 15. Lacunes et prochaines vérifications
 

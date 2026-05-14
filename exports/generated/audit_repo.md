@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-14T12:23:49`
+Généré le : `2026-05-14T13:21:56`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 17 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1316 atome(s) incomplet(s) sur 1377.
+Le repo est techniquement exploitable, mais 24 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1327 atome(s) incomplet(s) sur 1388.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 2540
+- Enregistrements : 2580
 - Erreurs : 0
-- Avertissements : 14222
+- Avertissements : 14317
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1316 atome(s) incomplet(s) sur 1377.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1377 |
+| atom | 1388 |
 | chronology | 331 |
-| concept | 44 |
+| concept | 49 |
 | metadata | 18 |
-| motif | 63 |
+| motif | 71 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1316 atome(s) incomplet(s) sur 1377.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 70 |
-| unknown | 17 |
+| template | 79 |
+| unknown | 24 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1144 |
-| missing_required_field | 3560 |
+| invalid_controlled_value | 1155 |
+| missing_required_field | 3615 |
 | schema_warning | 399 |
-| unknown_yaml_block | 17 |
-| v2_migration_debt | 8967 |
+| unknown_yaml_block | 24 |
+| v2_migration_debt | 8989 |
 
 ## 5. Erreurs bloquantes
 
@@ -71,6 +71,13 @@ Aucune.
 - `registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md` [LIVE-S45-APOLLO-MANCHESTER-1979] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md` [LIVE-S45-RAINBOW-THEATRE-1979] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md` [LIVE-S45-FACTORY-NYE-SECTION-25] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [LIVE-S41-LESSER-FREE-TRADE-HALL-1976-06-04] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [INST-S41-GIBSON-EB0-COPY-FIRST-BASS] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [BOOK-S41-PALMER-HUGHES-BASS-GUITAR] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [LIVE-S41-LESSER-FREE-TRADE-HALL-1976-07-20] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [LIVE-S41-ELECTRIC-CIRCUS-PISTOLS-1976-12-09] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [BAND-S41-STIFF-KITTENS-SOUNDS-1976] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [INST-S41-WEM-PA-DISTORTION-TERRY] : Unable to infer documentary kind
 
 ## 7. Registre des sources
 
@@ -89,10 +96,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1377
+- Atomes : 1388
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1316
-- Avertissements de champs v2 manquants : 8967
+- Atomes v2 incomplets : 1327
+- Avertissements de champs v2 manquants : 8989
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

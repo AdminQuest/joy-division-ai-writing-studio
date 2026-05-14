@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T12:23:52"
+generated_at: "2026-05-14T13:21:58"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 278 |
+| Atomes | 282 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 32 |
@@ -34,7 +34,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 55 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 59 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 23 | 0 |
@@ -56,6 +56,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_ecoute` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S41-A013** — S41-A013 — Melody Maker à Newquay : les Sex Pistols comme possibilité de classe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_revelation` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S41-A014** — S41-A014 — Lesser Free Trade Hall : le concert comme conversion sensorielle et sociale  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_revelation` ; importance : `critique` ; preuve : `témoignage direct rétrospectif de Peter Hook`.
+- **S41-A015** — S41-A015 — Acheter une basse : hasard instrumental, Mazel et naissance de Hooky bassiste  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_materielle` ; importance : `critique` ; preuve : `témoignage direct autobiographique`.
+- **S41-A019** — S41-A019 — Curtis avec « Hate » : apparition d’un semblable, non d’une icône  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A020** — S41-A020 — Recruter Curtis : règles punk, manque de chanteur et hasard de convergence  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_recrutement` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec reconnaissance de variantes mémorielles`.
 - **S45-A022** — S45-A022 — Le second Lesser Free Trade Hall comme confirmation, non origine absolue  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A028** — S45-A028 — Recrutement de Curtis : « If we liked someone, they were in »  
@@ -110,14 +118,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A004** — S75-A004 — Manchester contre Londres : le punk comme possibilité, non comme modèle  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A005** — S75-A005 — Free Trade Hall : mythe fondateur, inflation mémorielle et second choc de juillet  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A008** — S75-A008 — Les démos Warsaw comme document bootleg empiriquement précieux  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `bootleg` ; importance : `critique` ; preuve : `plausible`.
-- **S75-A009** — S75-A009 — Pennine Sound 1977 : l'incompétence technique comme trace de mutation  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A011** — S75-A011 — Brotherdale, Gretton et la stabilisation négative du groupe  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_retrospective`.
 
 ## 6. Autres atomes utiles
 
@@ -477,10 +477,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ### 12.1. Motifs dominants
 
+- Sex Pistols (7)
+- Electric Circus (6)
 - An Ideal for Living (6)
-- Sex Pistols (6)
 - Warsaw (6)
-- Electric Circus (5)
 - Rafters (4)
 - scène locale (4)
 - RCA (4)
@@ -496,6 +496,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Joy Division (3)
 - Warsaw Pakt (3)
 - synthétiseur (3)
+- Lesser Free Trade Hall (3)
 - Iggy Pop (3)
 - Barton Street (3)
 - Iain Gray (3)
@@ -516,7 +517,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Piccadilly Plaza (2)
 - Martin Hannett (2)
 - Interzone (2)
-- Lesser Free Trade Hall (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -633,6 +633,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte_social | 3 |
 | infrastructure_scene | 2 |
 | temoignage | 2 |
+| scene_revelation | 2 |
+| rencontre_fondatrice | 2 |
 | reception_presse | 2 |
 | changement_nom | 2 |
 | reception | 2 |
@@ -651,12 +653,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte_scene | 1 |
 | reception_critique | 1 |
 | fait_structurant | 1 |
+| scene_materielle | 1 |
+| scene_recrutement | 1 |
 | scene_origine_sociale | 1 |
 | scene_biographique | 1 |
-| rencontre_fondatrice | 1 |
 | motif_social | 1 |
 | scene_ecoute | 1 |
-| scene_revelation | 1 |
 | temoignage_interpretatif | 1 |
 | chronologie_interne | 1 |
 | discographie_avortee | 1 |
@@ -716,7 +718,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 169 |
-| critique | 72 |
+| critique | 76 |
 | majeure | 18 |
 | majeur | 15 |
 | moyenne | 2 |
@@ -755,6 +757,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S45-A032 [moyen] — La citation de Morley doit être vérifiée dans la source presse originale avant usage verbatim définitif.
 - S45-A033 [moyen] — Risque de traiter l’anecdote comme pure farce ; elle renseigne sur la logique de compatibilité interne du groupe.
 - S45-A034 [faible] — L’interprétation correspond à la fonction objective de Morris dans la stabilisation du groupe, même si la métaphore familiale reste celle de Deborah.
+- S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
+- S41-A015 [faible] — Risque limité ; l’atome corrige surtout les mythes de maîtrise précoce.
+- S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
+- S41-A020 [moyen] — Risque de stabiliser une version unique alors que Hook signale deux écoles de pensée.
 - S41-A007 [moyen] — Risque de faire de Salford une cause esthétique directe ; il faut parler de matrice, non de déterminisme.
 - S41-A008 [moyen] — Risque de transformer la Jamaïque en origine musicale directe ; Hook l’évoque surtout comme contraste biographique.
 - S41-A009 [moyen] — Risque de naturaliser la violence de classe ; il faut la traiter comme sociabilité située, pas comme essence.
@@ -780,10 +786,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S75-A022 [moyen] — la généalogie d'« Interzone » doit être maniée comme lecture de session, non comme origine exclusive du morceau
 - S75-A023 [moyen] — le caractère fondateur de la scène peut être surdramatisé ; l'intérêt est dans la bifurcation Wilson/Gretton
 - S75-A024 [moyen] — ne pas opposer naïvement organique et électronique ; le problème est l'usage imposé du son
-- S75-A025 [moyen] — les bandes survivantes doivent être distinguées des intentions et des versions officielles ultérieures
-- S75-A026 [faible] — le rôle protecteur de Gretton est fortement cohérent avec plusieurs récits, mais certains détails contractuels doivent rester vérifiables
-- S75-A027 [moyen] — risque de transformer le lieu en cathédrale mythique ; conserver sa fonction concrète de répétition
-- S75-A030 [moyen] — ne pas surestimer le 12 pouces comme rupture autonome ; il reste un seuil matériel
 
 ## 15. Lacunes et prochaines vérifications
 
