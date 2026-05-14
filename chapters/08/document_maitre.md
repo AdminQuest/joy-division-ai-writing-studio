@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T09:16:00"
+generated_at: "2026-05-14T09:55:16"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 102 |
+| Atomes | 103 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
@@ -34,7 +34,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 15 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
@@ -64,6 +64,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
+- **S45-A151** — S45-A151 — Dernier rendez-vous d’épilepsie : signes favorables et dons d’objets  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_medicale_sensible` ; importance : `critique` ; preuve : `témoignage direct + fait médical rapporté`.
 - **S75-A008** — S75-A008 — Les démos Warsaw comme document bootleg empiriquement précieux  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `bootleg` ; importance : `critique` ; preuve : `plausible`.
 - **S75-A021** — S75-A021 — RCA comme désastre industriel et illusion majeure  
@@ -112,8 +114,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_archive` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reception_S76`.
 - **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
-- **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -217,6 +217,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A022** — S72-A022 — *A Factory Sample* : « Digital » et « Glass » comme seuil du son Joy Division  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A054** — S75-A054 — *Still* et les titres de réserve : austérité gothique, exercices et titres trouvés  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S76-A051** — S76-A051 — La voix de Curtis à Arrow : adrift, dislodged, reedy  
@@ -380,15 +382,15 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - catalyseur sonore (1)
 - coordination d’atmosphère (1)
 - studio comme traduction (1)
+- fausse stabilisation (1)
+- don ambigu (1)
+- signe testamentaire incertain (1)
 - demo tape (1)
 - electric circus (1)
 - short circuit (1)
 - virgin (1)
 - live recording (1)
 - qualité sonore (1)
-- studio (1)
-- anti-récit (1)
-- rca (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -471,6 +473,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S45-A078 — prolonge → CONCEPT-006
 - S45-A078 — prolonge → S45-A066
 - S45-A078 — nuance → MYTH-HANNETT-GENIE-ABSOLU
+- S45-A151 — prolonge → CONCEPT-035
+- S45-A151 — prolonge → REGISTRE-OBJETS-DISCOGRAPHIQUES
+- S45-A151 — prépare → S45-A152
 - S75-A069 — prolonge → CONCEPT-006
 - S75-A069 — prolonge → MOTIF-001
 - S75-A069 — prolonge → S70-A021
@@ -514,9 +519,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A050 — prolonge → S76-A049
 - S76-A050 — nuance → S75-A0XX
 - S76-A050 — prepare → S76-A051
-- S76-A051 — prolonge → S76-A050
-- S76-A051 — prepare → CONCEPT-spatialite_sonore
-- S76-A051 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -542,6 +544,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | position_esthetique | 1 |
 | economie_materielle | 1 |
 | tension_economique | 1 |
+| scene_medicale_sensible | 1 |
 | videographie | 1 |
 | controverse | 1 |
 | chronology | 1 |
@@ -563,7 +566,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 62 |
-| critique | 33 |
+| critique | 34 |
 | majeure | 6 |
 | majeur | 1 |
 
@@ -580,6 +583,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S45-A050 [moyen] — Ne pas caricaturer RCA comme seul méchant industriel ; la naïveté du groupe est aussi documentée.
 - S45-A077 [moyen] — Risque de présenter l’origine cassette des bootlegs comme fait définitif sans expertise des sources sonores.
 - S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
+- S45-A151 [très élevé] — Risque de lire chaque don d’objet comme signe suicidaire certain.
 - S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
 - S75-A008 [moyen] — l'objet est utile mais son statut juridique, la filiation des bandes et la chaîne de copie restent incertains
 - S75-A019 [faible] — fait discographique relativement stable, mais les jugements sonores restent critiques

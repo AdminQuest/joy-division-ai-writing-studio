@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T09:16:00"
+generated_at: "2026-05-14T09:55:16"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 303 |
+| Atomes | 308 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -35,7 +35,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 44 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
@@ -97,6 +97,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `critique` ; preuve : `témoignage direct de Deborah + entretien/retour de Franck Essner probable`.
 - **S45-A125** — S45-A125 — Top Shop et tournée américaine : crédit domestique, vêtements de scène et Annik financée  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A133** — S45-A133 — Moonlight / Rainbow : le calendrier détruit la routine médicale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_live_sante` ; importance : `critique` ; preuve : `témoignage direct de Deborah + témoignage rétrospectif de Sumner`.
+- **S45-A137** — S45-A137 — Wilson/Reade/Erasmus : commandement amateur et effacement de la preuve  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
+- **S45-A139** — S45-A139 — Derby Hall Bury : jouer malgré l’absence du chanteur et fabriquer l’émeute  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_crise` ; importance : `critique` ; preuve : `témoignage direct indirect + témoignage Morris/Wilson rapporté`.
+- **S45-A145** — S45-A145 — Parkside manqué : ambition accomplie et désir de sortie du groupe  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_psychiatrique` ; importance : `critique` ; preuve : `témoignage direct de Deborah ; propos de Steve Morris rapporté`.
+- **S45-A150** — S45-A150 — Dernier concert et minder : gestion de tournée contre hospitalisation  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management_sante` ; importance : `critique` ; preuve : `témoignage direct indirect + reconstruction rétrospective de Deborah`.
 - **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
@@ -107,16 +117,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_institution` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `institution` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A033** — S74-A033 — Cargo Studios : Digital et Glass comme seuil Hannett/Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A036** — S74-A036 — Gretton et le pari économique de rester chez Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `decision_strategique` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A037** — S74-A037 — Freedom to fuck off : clause de liberté et ethos Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `principe_institutionnel` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A040** — S74-A040 — Hannett contre le groupe : conflit de contrôle et mixage sans témoins  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `conflit_studio` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 
 ## 6. Autres atomes utiles
 
@@ -511,13 +511,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (14)
+- Rob Gretton (15)
 - Factory (10)
 - Martin Hannett (10)
+- Unknown Pleasures (9)
+- Tony Wilson (8)
 - Hannett (8)
-- Unknown Pleasures (8)
-- Tony Wilson (7)
-- Transmission (5)
+- Transmission (6)
 - Strawberry Studios (5)
 - RCA (5)
 - Gretton (5)
@@ -539,6 +539,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Russell Club (3)
 - Rafters (3)
 - Granada (3)
+- Rainbow Theatre (3)
 - reconnaissance (3)
 - Dead Souls (3)
 - Sordide Sentimental (3)
@@ -550,7 +551,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - indépendance (3)
 - She’s Lost Control (3)
 - contrôle (3)
-- The Eternal (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -669,6 +669,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | infrastructure_scene | 2 |
 | economie_domestique | 2 |
 | tension_management | 2 |
+| scene_management | 2 |
 | reception | 2 |
 | relation | 2 |
 | session_enregistrement | 2 |
@@ -716,6 +717,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_mediatique | 1 |
 | infrastructure_industrielle | 1 |
 | tension_chronologique | 1 |
+| tension_live_sante | 1 |
+| evenement_live_crise | 1 |
+| tension_psychiatrique | 1 |
+| tension_management_sante | 1 |
 | broadcast | 1 |
 | evolution_repertoire | 1 |
 | portrait_musicien | 1 |
@@ -783,7 +788,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | triade_institutionnelle | 1 |
 | tension_biographique | 1 |
 | concert_majeur | 1 |
-| scene_management | 1 |
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
 | dernier_concert | 1 |
@@ -811,7 +815,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 119 |
+| critique | 124 |
 | majeure | 24 |
 | majeur | 9 |
 
@@ -851,6 +855,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S45-A049 [moyen] — Risque de traiter RCA comme simple accident externe, alors que le passage montre un nœud local et relationnel.
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S45-A070 [moyen] — Risque de faire de la maladie le prix naturel du succès ; il faut garder la simultanéité sans causalité automatique.
+- S45-A133 [moyen] — Risque de faire du calendrier la cause unique ; il est un facteur du faisceau.
+- S45-A137 [élevé] — Risque d’accuser Wilson d’effacement volontaire ; Deborah formule plusieurs hypothèses.
+- S45-A139 [moyen] — Risque de réduire la responsabilité à Gretton seul ; la décision est prise dans l’urgence et l’économie du concert.
+- S45-A145 [très élevé] — Risque de présenter ce propos comme vérité définitive du désir de Curtis ; il est prononcé dans un contexte de crise.
+- S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
 - S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
@@ -872,11 +881,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S75-A040 [moyen] — ne pas faire du digital delay l'explication unique du son ; il agit dans un système plus large de mixage, jeu et espace
 - S75-A041 [moyen] — la lecture des paroles doit éviter de devenir prophétie rétrospective
 - S75-A042 [moyen] — ne pas transformer la frustration des musiciens en disqualification de l'album ; elle éclaire sa genèse conflictuelle
-- S75-A043 [moyen] — le goût de Curtis ne doit pas effacer les tensions collectives ni être psychologisé
-- S75-A047 [eleve] — risque majeur de réduire le morceau à l'épilepsie de Curtis ou à une anticipation de sa trajectoire
-- S75-A049 [eleve] — les images domestiques et médicales de « I Remember Nothing » imposent une prudence forte
-- S75-A050 [faible] — principal risque factuel : dates et supports à recouper avec discographies spécialisées
-- S75-A051 [moyen] — l'aveu de Hook ne doit pas effacer ses critiques simultanées du mixage
 
 ## 15. Lacunes et prochaines vérifications
 

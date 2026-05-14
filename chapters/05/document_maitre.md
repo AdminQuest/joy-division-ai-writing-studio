@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T09:16:00"
+generated_at: "2026-05-14T09:55:16"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 289 |
+| Atomes | 291 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -35,7 +35,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 63 | 4 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 17 | 1 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
@@ -63,6 +63,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `strategie_mediatique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A100** — S45-A100 — Guerre, nazisme et style : entre mémoire d’enfance, uniformes et malaise conjugal  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Sumner + interprétation de Deborah`.
+- **S45-A144** — S45-A144 — Vidéo « Love Will Tear Us Apart » : marionnette du music-business  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A021** — S74-A021 — Warsaw au premier concert : désespoir, confusion et identité non stabilisée  
@@ -115,8 +117,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `mythe_nomination` ; importance : `critique` ; preuve : `temoignages_et_reconstruction_historique`.
 - **S76-A041** — S76-A041 — *An Ideal For Living* : Enigma, distribution incertaine et pochette Hitler Youth  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `discographie` ; importance : `critique` ; preuve : `evenement_discographique_corroborable_et_temoignage`.
-- **S76-A042** — S76-A042 — Pip’s, 25 janvier 1978 : première apparition Joy Division et division du public  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_multiples`.
 
 ## 6. Autres atomes utiles
 
@@ -529,6 +529,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Warsaw Pakt (2)
 - Digital (2)
 - Glass (2)
+- Love Will Tear Us Apart (2)
 - provocation (2)
 - réception critique (2)
 - image industrielle (2)
@@ -542,7 +543,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Warsaw (2)
 - Tosh Ryan (2)
 - Enigma (2)
-- Rock Against Racism (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -574,6 +574,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A066 — prolonge → S45-A009
 - S45-A066 — prolonge → CONCEPT-006
 - S45-A066 — prolonge → CONCEPT-015
+- S45-A144 — prolonge → CONCEPT-036
+- S45-A144 — prolonge → S45-A132
+- S45-A144 — prépare → CHAPITRE-14-LOVE-WILL-TEAR-US-APART-POSTERITY
 - S75-A013 — prolonge → S75-A018
 - S75-A013 — nuance → MYTH-nazi_imagery_simple_fascination
 - S75-A018 — prolonge → S75-A016
@@ -623,9 +626,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A045 — prolonge → S74-A042
 - S74-A045 — complète → S74-A036
 - S74-A045 — nuance → MYTH-006
-- S74-A047 — prolonge → S74-A030
-- S74-A047 — complète → S74-A045
-- S74-A047 — nuance → MYTH-006
 
 ## 13. Distribution documentaire
 
@@ -634,7 +634,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Type | Nombre |
 |---|---|
 | objet_discographique | 12 |
-| non qualifié | 11 |
+| non qualifié | 12 |
 | analyse_morceau | 10 |
 | discographie | 8 |
 | concept | 8 |
@@ -684,6 +684,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | strategie_mediatique | 1 |
 | tension_documentaire | 1 |
 | seuil_identitaire | 1 |
+| objet_audiovisuel | 1 |
 | session_enregistrement | 1 |
 | radio_broadcast | 1 |
 | vigilance_documentaire | 1 |
@@ -801,8 +802,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 188 |
-| critique | 75 |
+| non qualifiée | 189 |
+| critique | 76 |
 | majeure | 26 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -815,6 +816,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
+- S45-A144 [moyen] — Risque de réduire la vidéo à exploitation ; elle est aussi objet audiovisuel majeur.
 - S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
 - S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
@@ -866,7 +868,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A049 [moyen] — le projet ne doit pas être présenté comme vraie signature RCA ; S76 insiste sur le « almost »
 - S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
 - S76-A053 [faible] — atome structurel ; utile pour comprendre la bascule managériale
-- S76-A054 [faible] — diagnostic industriel clair, sans surplomb téléologique nécessaire
 
 ## 15. Lacunes et prochaines vérifications
 

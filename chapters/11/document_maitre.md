@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T09:16:00"
+generated_at: "2026-05-14T09:55:16"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 169 |
+| Atomes | 170 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 5 |
@@ -35,7 +35,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 15 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
@@ -180,6 +180,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S45-A026** — S45-A026 — Outburst raciste et veste « HATE » : provocation, préjugé et contradiction  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct et témoignage rapporté`.
+- **S45-A140** — S45-A140 — Yeats et hypnose : substituts culturels au soin professionnel  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_soin_amateur` ; importance : `majeur` ; preuve : `témoignage direct indirect + souvenirs rapportés`.
 - **S46-008** — S46-008 — Le passage de Warsaw à Joy Division  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-021** — S46-021 — Réception NME à Eric’s : Joy Division comme « Important Band »  
@@ -279,8 +281,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S70-A010** — S70-A010 — Origine du nom Joy Division et *House of Dolls*  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A022** — S70-A022 — Crises, Moonlight Club et Rainbow Theatre  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A025** — S70-A025 — Mort de Curtis et rejet des légendes  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
@@ -473,6 +473,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A026 — prolonge → MOTIF-009
 - S45-A026 — requiert → CONCEPT-004
 - S45-A026 — nuance → MYTH-002
+- S45-A140 — prolonge → CONCEPT-035
+- S45-A140 — prolonge → CONCEPT-030
+- S45-A140 — nuance → MYTH-002
 - S75-A064 — requiert → CONCEPT-004
 - S75-A064 — nuance → MYTH-002
 - S75-A064 — prolonge → S75-A057
@@ -537,9 +540,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A056 — prolonge → S74-A055
 - S74-A056 — nuance → MYTH-006
 - S74-A056 — complète → S74-A043
-- S74-A015 — renforce → S74-A002
-- S74-A015 — nuance → MYTH-003
-- S74-A015 — complète → S41
 
 ## 13. Distribution documentaire
 
@@ -575,6 +575,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | fait | 2 |
 | concept | 2 |
 | registre_influences | 1 |
+| scene_soin_amateur | 1 |
 | santé | 1 |
 | chronologie | 1 |
 | reference_litteraire | 1 |
@@ -640,7 +641,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | non qualifiée | 120 |
 | critique | 35 |
 | majeure | 13 |
-| majeur | 1 |
+| majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -648,6 +649,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A100 [très élevé] — Risque double : excuser l’imagerie par le style ou conclure à une fascination politique démontrée.
 - S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
+- S45-A140 [élevé] — Risque de spiritualiser ou de pathologiser ces épisodes ; ils sont surtout des indices de soin amateur.
 - S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
 - S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète
 - S75-A071 [eleve] — risque de prendre les motifs de revenance comme croyance ou clé psychologique de Curtis

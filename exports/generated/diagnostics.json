@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-14T09:15:40",
+  "generated_at": "2026-05-14T09:55:03",
   "status": "warning",
   "summary": {
-    "records_total": 2438,
+    "records_total": 2487,
     "records_by_kind": {
-      "atom": 1338,
+      "atom": 1360,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
       "song": 41,
-      "unknown": 6,
-      "template": 46,
+      "unknown": 12,
+      "template": 55,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 46,
+      "motif": 54,
       "person": 157,
-      "concept": 33,
+      "concept": 37,
       "myth": 11
     },
-    "diagnostics_total": 13827,
+    "diagnostics_total": 14057,
     "errors": 0,
-    "warnings": 13827,
+    "warnings": 14057,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -127,8 +127,8 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 328,
-        "atoms": 183,
+        "records": 356,
+        "atoms": 205,
         "quotes": 56,
         "chronology": 41,
         "files": [
@@ -156,6 +156,7 @@
           "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
           "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
           "registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md",
+          "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
           "sources/curtis_touching_from_a_distance/source_part_1976_1977_formation.md",
           "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
           "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
@@ -164,6 +165,7 @@
           "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
           "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
           "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+          "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
           "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
           "sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md",
           "sources/deborah_curtis/atomisation_02_unknown_pleasures_domesticite_maladie.md",
@@ -7271,6 +7273,1266 @@
       "file": "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
       "message": "Missing nested field: stabilite.risque_revision",
       "record_id": "S45-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: tension_live_sante",
+      "record_id": "S45-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: performance_sante",
+      "record_id": "S45-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: tension_relationnelle",
+      "record_id": "S45-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: evenement_critique",
+      "record_id": "S45-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: scene_management",
+      "record_id": "S45-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: tension_domestique",
+      "record_id": "S45-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: evenement_live_crise",
+      "record_id": "S45-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: scene_soin_amateur",
+      "record_id": "S45-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: scene_live_domestique",
+      "record_id": "S45-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: scene_domestique",
+      "record_id": "S45-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A143"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A143"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A143"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A143"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A143"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A143"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A143"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A143"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: scene_domestique",
+      "record_id": "S45-A143"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A143"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A144"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A144"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A144"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A144"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A144"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A144"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A144"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A144"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: objet_audiovisuel",
+      "record_id": "S45-A144"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A144"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A145"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A145"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A145"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A145"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A145"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A145"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A145"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A145"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: tension_psychiatrique",
+      "record_id": "S45-A145"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A145"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A146"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A146"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A146"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A146"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A146"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A146"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A146"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A146"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: scene_conjugale",
+      "record_id": "S45-A146"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A146"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A147"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A147"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A147"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A147"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A147"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A147"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A147"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A147"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: contrepoint_domestique",
+      "record_id": "S45-A147"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A147"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A148"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A148"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A148"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A148"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A148"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A148"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A148"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A148"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: tension_sante",
+      "record_id": "S45-A148"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A148"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A149"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A149"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A149"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A149"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A149"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A149"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A149"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A149"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: tension_psychiatrique",
+      "record_id": "S45-A149"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A149"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A150"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A150"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A150"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A150"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A150"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A150"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A150"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A150"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: tension_management_sante",
+      "record_id": "S45-A150"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A150"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A151"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A151"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A151"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A151"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A151"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A151"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A151"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A151"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: scene_medicale_sensible",
+      "record_id": "S45-A151"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A151"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A152"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A152"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A152"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A152"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A152"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A152"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A152"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A152"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: scene_domestique_finale",
+      "record_id": "S45-A152"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A152"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Invalid value for type_unite: tension_finale",
+      "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A153"
     },
     {
       "level": "warning",
@@ -74267,6 +75529,126 @@
       "file": "registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md",
       "message": "Unable to infer documentary kind",
       "record_id": "LIVE-S45-NEW-OSBOURNE-CITY-FUN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S45-MOONLIGHT-RAINBOW-APRIL-1980"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S45-DERBY-HALL-BURY-1980"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-LOVE-WILL-TEAR-US-APART-VIDEO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S45-BIRMINGHAM-HIGH-HALL-FINAL-GIG"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "OBJ-S45-SORDIDE-SENTIMENTALE-1106"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "FILM-S45-STROSZEK-DEADLINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "OBJ-S45-LAST-PHOTOGRAPH-NATALIE"
     },
     {
       "level": "warning",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T09:16:00"
+generated_at: "2026-05-14T09:55:16"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 642 |
+| Atomes | 648 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -35,7 +35,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 41 | 3 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 23 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
@@ -65,6 +65,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct rapporté + citation critique`.
 - **S45-A116** — S45-A116 — Franck Essner : « Transmission » et amorce d’un fandom transnational  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `critique` ; preuve : `témoignage direct de Deborah + entretien/retour de Franck Essner probable`.
+- **S45-A134** — S45-A134 — Crise sur scène : maladie devenue spectacle et capital mythique  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + témoignages Wilson/Mason rapportés`.
+- **S45-A144** — S45-A144 — Vidéo « Love Will Tear Us Apart » : marionnette du music-business  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
+- **S45-A150** — S45-A150 — Dernier concert et minder : gestion de tournée contre hospitalisation  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management_sante` ; importance : `critique` ; preuve : `témoignage direct indirect + reconstruction rétrospective de Deborah`.
+- **S45-A152** — S45-A152 — Dernière photographie : fleurs, blue room et visage hanté  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_finale` ; importance : `critique` ; preuve : `témoignage direct + photographie existante mentionnée`.
+- **S45-A153** — S45-A153 — Stroszek et deadline américaine : charade finale devant le groupe  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_finale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + témoignages rapportés Hook/Gretton/Sumner/Morris`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
@@ -109,16 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session_transition` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S75-A002** — S75-A002 — Ott contre la littérature mystificatrice sur Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `critique` ; preuve : `declaration_programmatique_de_l_auteur`.
-- **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A005** — S75-A005 — Free Trade Hall : mythe fondateur, inflation mémorielle et second choc de juillet  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A023** — S75-A023 — Stiff/Chiswick Challenge : performance de crise et capture par Wilson / Gretton  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_critique`.
-- **S75-A026** — S75-A026 — Gretton comme défenseur contractuel et traducteur stratégique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `fait_interprete` ; importance : `critique` ; preuve : `reconstruction_critique`.
-- **S75-A029** — S75-A029 — Hannett sur *A Factory Sample* : catalyseur, pas auteur unique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -517,6 +517,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Factory (7)
 - Unknown Pleasures (6)
 - Peter Saville (6)
+- Love Will Tear Us Apart (5)
 - Closer (5)
 - Gretton (5)
 - Buzzcocks tour (4)
@@ -529,7 +530,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Still (4)
 - Rabid Records (4)
 - Deborah Curtis (4)
-- Love Will Tear Us Apart (4)
 - A Certain Ratio (4)
 - Rainbow Theatre (3)
 - Transmission (3)
@@ -590,6 +590,21 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A064 — prépare → S45-A065
 - S45-A067 — prolonge → S45-A064
 - S45-A067 — prépare → MYTH-002
+- S45-A134 — prolonge → S45-A074
+- S45-A134 — prolonge → CONCEPT-027
+- S45-A134 — nuance → MYTH-002
+- S45-A144 — prolonge → CONCEPT-036
+- S45-A144 — prolonge → S45-A132
+- S45-A144 — prépare → CHAPITRE-14-LOVE-WILL-TEAR-US-APART-POSTERITY
+- S45-A150 — prolonge → CONCEPT-026
+- S45-A150 — prolonge → CONCEPT-030
+- S45-A150 — prépare → S45-A151
+- S45-A152 — prolonge → S45-A131
+- S45-A152 — prolonge → CONCEPT-021
+- S45-A152 — prépare → CHAPITRE-13-MY-TIMING
+- S45-A153 — prolonge → S45-A151
+- S45-A153 — nuance → MYTH-002
+- S45-A153 — prépare → CHAPITRE-13-MY-TIMING
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -618,21 +633,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A068 — nuance → MYTH-002
 - S75-A068 — prépare → S75-A075
 - S75-A069 — prolonge → CONCEPT-006
-- S75-A069 — prolonge → MOTIF-001
-- S75-A069 — prolonge → S70-A021
-- S75-A072 — requiert → CONCEPT-004
-- S75-A072 — prolonge → CONCEPT-006
-- S75-A072 — nuance → MYTH-002
-- S75-A073 — prolonge → S75-A068
-- S75-A073 — requiert → CONCEPT-004
-- S75-A073 — nuance → MYTH-005
-- S75-A074 — prolonge → MOTIF-001
-- S75-A074 — requiert → CONCEPT-004
-- S75-A074 — nuance → MYTH-002
-- S75-A075 — prolonge → CONCEPT-004
-- S75-A075 — deconstruit → MYTH-002
-- S75-A075 — conclut → S75-A068
-- S75-A001 — prolonge → MOTIF-heritage
 
 ## 13. Distribution documentaire
 
@@ -642,7 +642,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | analyse | 34 |
 | reception | 28 |
-| non qualifié | 14 |
+| non qualifié | 15 |
 | memoire | 12 |
 | discographie | 11 |
 | objet_discographique | 11 |
@@ -739,6 +739,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_publique | 1 |
 | strategie_mediatique | 1 |
 | contrepoint_mythique | 1 |
+| performance_sante | 1 |
+| objet_audiovisuel | 1 |
+| tension_management_sante | 1 |
+| scene_domestique_finale | 1 |
+| tension_finale | 1 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
 | objet_sonore_new_order | 1 |
@@ -960,8 +965,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 450 |
-| critique | 143 |
+| non qualifiée | 451 |
+| critique | 148 |
 | majeure | 39 |
 | majeur | 6 |
 | structurante | 2 |
@@ -983,6 +988,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A062 [moyen] — Risque de remplacer le mythe noir par un mythe de camaraderie innocente.
 - S45-A064 [moyen] — Risque de réduire les fans féminines à une menace conjugale ; elles sont aussi premières formes du public dédié.
 - S45-A067 [moyen] — Risque de généraliser un fan à toute la réception ; il s’agit d’un signe faible mais structurant.
+- S45-A134 [élevé] — Risque d’accuser le public ou le groupe de manière univoque ; l’atome doit conserver la complexité.
+- S45-A144 [moyen] — Risque de réduire la vidéo à exploitation ; elle est aussi objet audiovisuel majeur.
+- S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
+- S45-A152 [moyen] — Risque de fétichiser la dernière photographie ; elle doit rester un document affectif et domestique.
+- S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
@@ -1024,11 +1034,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique
 - S74-A031 [moyen] — risque de téléologie reliant trop directement le premier poster à l’ensemble de l’esthétique Factory ultérieure
 - S74-A032 [moyen] — risque de romantiser l’impraticabilité financière comme vertu en soi
-- S74-A034 [eleve] — risque de basculer soit dans l’hagiographie, soit dans la démolition anecdotique
-- S74-A035 [moyen] — risque de reconstruire a posteriori un moment de flottement comme stratégie consciente
-- S74-A036 [moyen] — risque de faire de Gretton un stratège totalement lucide alors que le choix reste empirique et risqué
-- S74-A037 [moyen] — risque de mythifier une clause informelle comme pure vertu sans examiner ses effets économiques
-- S74-A040 [eleve] — risque de basculer dans une lecture uniquement conflictuelle en oubliant le résultat artistique
 
 ## 15. Lacunes et prochaines vérifications
 
