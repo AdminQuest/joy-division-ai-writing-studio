@@ -1,6 +1,515 @@
 [
   {
     "kind": "atom",
+    "id": "S45-A102",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+    "heading": "S45-A102 — Fin août 1979 : quitter le day job comme seuil professionnel et médical",
+    "data": {
+      "id": "S45-A102",
+      "type_unite": "seuil_professionnel",
+      "titre": "Fin août 1979 : quitter le day job comme seuil professionnel et médical",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "95",
+        "papier": "à verrouiller"
+      },
+      "citation": "give up the day job",
+      "resume": "Deborah Curtis présente la fin août 1979 comme un moment de bascule : Joy Division obtient la place de support band sur la tournée Buzzcocks et Ian Curtis peut quitter son emploi salarié. La diminution des crises en septembre est interprétée par Deborah comme un effet possible de ce changement de rythme, même si le groupe doit désormais surveiller discrètement les signes annonciateurs d’une crise.\n",
+      "role_argumentatif": "Atome pivot sur la professionnalisation : quitter le travail salarié semble libérer Curtis, mais transforme la maladie en problème collectif de tournée.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "forte pour la tournée Buzzcocks ; moyenne pour l’effet sur les crises",
+        "confiance": "élevée pour la séquence générale ; prudence sur causalité médicale"
+      },
+      "stabilite": {
+        "statut": "stable comme seuil narratif ; causalité médicale instable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de conclure que la fin du travail salarié améliore mécaniquement l’état de Curtis. La source suggère une corrélation vécue, non une preuve clinique.\n"
+      },
+      "motifs": [
+        "Buzzcocks tour",
+        "day job",
+        "professionnalisation",
+        "surveillance du groupe",
+        "crises de septembre"
+      ],
+      "concepts_derives": [
+        "seuil professionnel",
+        "maladie collectivisée",
+        "tournée comme soin pratique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-019",
+          "note": "La non-monocausalité médicale inclut rythme de travail, sommeil et tournée."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-016",
+          "note": "Management et groupe prennent en charge la vulnérabilité de Curtis."
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "professionnalisation",
+        "tournée"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A103",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+    "heading": "S45-A103 — Lead Singer Syndrome : paresse logistique et privilège scénique",
+    "data": {
+      "id": "S45-A103",
+      "type_unite": "tension_interne",
+      "titre": "Lead Singer Syndrome : paresse logistique et privilège scénique",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "95-96",
+        "papier": "à verrouiller"
+      },
+      "citation": "LSS (Lead Singer Syndrome)",
+      "resume": "Deborah rapporte que, lorsque le succès commence à approcher, Ian Curtis développe ce que le groupe appelle le Lead Singer Syndrome : disparaître au moment de décharger le van, avec Bernard Sumner comme complice occasionnel. Peter Hook oppose alors réalisme matériel et attitude artistique, dans une formule où l’écart entre créativité et irresponsabilité devient mince.\n",
+      "role_argumentatif": "Démythifier la professionnalisation : l’ascension du groupe ne produit pas seulement intensité et sérieux, mais aussi division du travail, ressentiments et privilèges du chanteur.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif + témoignage rapporté de Hook",
+        "corroboration": "moyenne à forte ; à croiser avec Hook",
+        "confiance": "élevée comme dynamique de groupe"
+      },
+      "stabilite": {
+        "statut": "stable comme motif mémoriel"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de réduire Curtis à la paresse ou de traiter l’anecdote comme simple farce ; elle documente aussi l’économie matérielle de la tournée.\n"
+      },
+      "motifs": [
+        "Lead Singer Syndrome",
+        "van",
+        "flight cases",
+        "travail matériel",
+        "Hook réalisme"
+      ],
+      "concepts_derives": [
+        "privilège scénique",
+        "division matérielle du travail",
+        "artiste contre roadie"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-023",
+          "note": "Après le travail féminin effacé, la tournée redistribue aussi le travail matériel entre hommes."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-CURTIS-AUTEUR-TOTAL",
+          "note": "La centralité de Curtis a aussi des effets pratiques et conflictuels."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A087",
+          "note": "L’immaturité pratique de Curtis se poursuit dans la tournée."
+        }
+      ],
+      "couche_narrative": [
+        "tournée",
+        "groupe",
+        "économie matérielle"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A104",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+    "heading": "S45-A104 — Futurama ’79 : consécration nordiste et correction d’une mémoire secondaire",
+    "data": {
+      "id": "S45-A104",
+      "type_unite": "reception_live",
+      "titre": "Futurama ’79 : consécration nordiste et correction d’une mémoire secondaire",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "96",
+        "papier": "à verrouiller"
+      },
+      "citation": "the real stars of the night",
+      "resume": "Deborah évoque Futurama ’79 à la Queen’s Hall de Leeds comme une date de consécration : Joy Division est désigné par Ian Penman comme le vrai groupe de la soirée malgré la concurrence d’OMD et Cabaret Voltaire. Elle corrige aussi Mark Johnson, qui parle d’une rare présence des wives and girlfriends : Deborah précise que ni elle, ni Sue, ni Iris ne sont là.\n",
+      "role_argumentatif": "Atome double : consécration live dans le Nord et vigilance historiographique sur les souvenirs secondaires relatifs à la présence des femmes.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct indirect ; correction mémorielle de Deborah",
+        "corroboration": "forte pour l’événement ; citation Penman et Johnson à vérifier",
+        "confiance": "élevée pour la correction personnelle de Deborah ; moyenne pour les citations rapportées"
+      },
+      "stabilite": {
+        "statut": "stable comme nœud live ; citations à verrouiller"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de faire de Futurama une consécration définitive ou de négliger la correction apportée par Deborah sur les femmes absentes.\n"
+      },
+      "motifs": [
+        "Futurama 79",
+        "Queen’s Hall Leeds",
+        "Ian Penman",
+        "Mark Johnson",
+        "wives and girlfriends"
+      ],
+      "concepts_derives": [
+        "consécration live nordiste",
+        "correction historiographique située",
+        "absence féminine documentée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-023",
+          "note": "La correction de Deborah renforce le motif du travail féminin effacé et de l’absence aux concerts."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Croiser Penman et Johnson avant usage citationnel définitif."
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "réception",
+        "genre"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A105",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+    "heading": "S45-A105 — Dernière Factory : crise avant scène et passage à un nouveau chapitre",
+    "data": {
+      "id": "S45-A105",
+      "type_unite": "evenement_live_sante",
+      "titre": "Dernière Factory : crise avant scène et passage à un nouveau chapitre",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "96",
+        "papier": "à verrouiller"
+      },
+      "citation": "It had been ‘our place’ for sixteen months",
+      "resume": "À l’approche de l’automne 1979, Joy Division joue une dernière fois au Factory avant la fermeture indéfinie du Russell Club. Deborah décrit ce lieu comme « notre endroit » depuis seize mois. Le soir est marqué par un début de crise de Ian avant scène, sa récupération, puis une altercation entre Peter Hook et un spectateur qui le fait quitter la scène.\n",
+      "role_argumentatif": "Atome de transition : la fin du Factory comme port d’attache coïncide avec le passage vers la tournée nationale et avec la fragilité scénique de Curtis.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "forte avec gig lists ; détails de l’incident à croiser",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme événement de seuil"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de symboliser excessivement la fermeture du lieu ; la scène doit rester aussi matérielle, médicale et chaotique.\n"
+      },
+      "motifs": [
+        "Factory",
+        "Russell Club",
+        "crise avant scène",
+        "Peter Hook",
+        "fracas public"
+      ],
+      "concepts_derives": [
+        "lieu-port d’attache",
+        "scène sous vulnérabilité",
+        "transition Factory/tournée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A081",
+          "note": "Le Russell Club est déjà lu depuis Deborah comme lieu Factory et foyer symbolique."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-019",
+          "note": "La maladie intervient dans l’avant-scène."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A106",
+          "note": "Prépare la tournée Buzzcocks comme chapitre suivant."
+        }
+      ],
+      "couche_narrative": [
+        "Factory",
+        "santé",
+        "live"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A106",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+    "heading": "S45-A106 — Mountford Hall : Joy Division déborde son statut de support band",
+    "data": {
+      "id": "S45-A106",
+      "type_unite": "reception_live",
+      "titre": "Mountford Hall : Joy Division déborde son statut de support band",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "96-97",
+        "papier": "à verrouiller"
+      },
+      "citation": "music to surrender to",
+      "resume": "Mountford Hall, Liverpool, ouvre la tournée Buzzcocks. Deborah présente cette date comme le moment où Joy Division souffle littéralement les Buzzcocks hors de la scène. Penny Riley écrit que la musique lave l’auditeur et exige l’abandon personnel ; les Buzzcocks semblent déjà relégués au rôle de tête d’affiche dépassée.\n",
+      "role_argumentatif": "Atome de bascule live : Joy Division cesse d’être seulement un groupe culte et devient un support capable de menacer symboliquement le groupe principal.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct indirect + citation critique rapportée",
+        "corroboration": "forte si recension de Penny Riley vérifiée",
+        "confiance": "élevée comme séquence ; citation à vérifier"
+      },
+      "stabilite": {
+        "statut": "stable comme nœud de tournée"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de transformer une rave review en preuve générale de domination sur toute la tournée ; Deborah parle d’un schéma qui se dessine, pas d’un verdict définitif.\n"
+      },
+      "motifs": [
+        "Mountford Hall",
+        "Buzzcocks tour",
+        "Penny Riley",
+        "support band",
+        "surrender"
+      ],
+      "concepts_derives": [
+        "support act conquérant",
+        "renversement de hiérarchie live",
+        "réception immersive"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A102",
+          "note": "La tournée devient le vrai seuil professionnel."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A107",
+          "note": "La starification de Curtis se renforce dans la suite de la tournée."
+        }
+      ],
+      "couche_narrative": [
+        "tournée",
+        "réception"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A107",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+    "heading": "S45-A107 — Leeds University : Curtis star malgré le collectif",
+    "data": {
+      "id": "S45-A107",
+      "type_unite": "reception_starification",
+      "titre": "Leeds University : Curtis star malgré le collectif",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "97",
+        "papier": "à verrouiller"
+      },
+      "citation": "Ian ‘symbolizes Joy Division’",
+      "resume": "À Leeds University, Des Moines écrit que Ian symbolise Joy Division. Deborah en tire une conclusion critique : qu’ils le veuillent ou non, Ian devient la star du spectacle, car son orchestration corporelle capte la direction du regard. La dynamique menace le collectif, même si la musique reste celle d’un groupe.\n",
+      "role_argumentatif": "Atome majeur sur la starification : la centralité corporelle de Curtis transforme la réception du groupe et crée une tension avec l’identité collective.\n",
+      "niveau_preuve": {
+        "statut": "citation critique rapportée + interprétation de Deborah",
+        "corroboration": "citation Des Moines à vérifier ; forte cohérence avec réception presse",
+        "confiance": "élevée comme tension de réception"
+      },
+      "stabilite": {
+        "statut": "stable comme motif ; citation à vérifier"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de reprendre sans nuance la presse qui réduit Joy Division à Curtis ; l’atome sert précisément à montrer cette tension.\n"
+      },
+      "motifs": [
+        "Leeds University",
+        "Des Moines",
+        "Curtis star",
+        "corps orchestré",
+        "regard du public"
+      ],
+      "concepts_derives": [
+        "starification corporelle",
+        "symbole malgré collectif",
+        "corps comme aimant de réception"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A098",
+          "note": "La résistance à Ian Curtis and Joy Division se heurte à la réception live."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-CURTIS-AUTEUR-TOTAL",
+          "note": "Curtis symbolise sans absorber entièrement le groupe."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A085",
+          "note": "La réception du corps scénique devient centralité symbolique."
+        }
+      ],
+      "couche_narrative": [
+        "réception",
+        "performance",
+        "collectif"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A108",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+    "heading": "S45-A108 — Rituels téléphoniques : langage conjugal comme assurance obsessionnelle",
+    "data": {
+      "id": "S45-A108",
+      "type_unite": "scene_domestique",
+      "titre": "Rituels téléphoniques : langage conjugal comme assurance obsessionnelle",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "97",
+        "papier": "à verrouiller"
+      },
+      "citation": "obsessive insurance against anything going wrong between us",
+      "resume": "Deborah décrit les catchphrases que Ian impose dans le couple, notamment le rituel téléphonique où « goodbye » doit être suivi d’un échange de « I love you » dans un ordre exact. Toute déviation recommence le processus. Le langage conjugal devient une procédure de sécurisation compulsive.\n",
+      "role_argumentatif": "Atome intime à forte valeur documentaire : il montre que le besoin de contrôle et de répétition ne concerne pas seulement la scène ou le groupe, mais aussi la relation conjugale.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "faible nécessaire ; scène privée",
+        "confiance": "élevée pour la perception de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme souvenir domestique"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de diagnostic psychologique rétrospectif ; il faut parler de rituel, pas de pathologie démontrée.\n"
+      },
+      "motifs": [
+        "catchphrases",
+        "téléphone",
+        "I love you",
+        "rituel conjugal",
+        "assurance obsessionnelle"
+      ],
+      "concepts_derives": [
+        "langue comme contrôle affectif",
+        "procédure conjugale",
+        "sécurisation répétitive"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-018",
+          "note": "La politique affective du groupe a son envers domestique dans des rituels de contrôle."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A092",
+          "note": "La communication conjugale est ritualisée mais ne permet pas une parole réelle sur la crise."
+        },
+        {
+          "type": "alerte",
+          "cible": "RISQUE-PSYCHOLOGISATION",
+          "note": "Ne pas convertir ce rituel en diagnostic clinique."
+        }
+      ],
+      "couche_narrative": [
+        "domesticité",
+        "intime",
+        "langage"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S45-A053",
     "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "S45-A053 — Stiff/Chiswick Challenge : le concours comme théâtre de l’ambition provinciale",
@@ -8766,7 +9275,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::164",
+    "id": "NO_ID::sources/marco_broll/README.md::171",
     "file": "sources/marco_broll/README.md",
     "heading": "S68 — Broll, « Joy Division », s.d.",
     "data": {
@@ -8786,7 +9295,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::165",
+    "id": "NO_ID::sources/marco_broll/README.md::172",
     "file": "sources/marco_broll/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -8826,7 +9335,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::166",
+    "id": "NO_ID::sources/marco_broll/README.md::173",
     "file": "sources/marco_broll/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -11814,7 +12323,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::253",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::260",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "S72 — Reynolds, *Rip It Up and Start Again*, 2005/2006",
     "data": {
@@ -11831,7 +12340,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::254",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::261",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Couverture documentaire consolidée",
     "data": {
@@ -11886,7 +12395,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::255",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::262",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -11907,7 +12416,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::256",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::263",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -23093,7 +23602,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::612",
+    "id": "NO_ID::sources/flowers/README.md::619",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -23110,7 +23619,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::613",
+    "id": "NO_ID::sources/flowers/README.md::620",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -23170,7 +23679,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::614",
+    "id": "NO_ID::sources/flowers/README.md::621",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -23191,7 +23700,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::615",
+    "id": "NO_ID::sources/flowers/README.md::622",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -27908,7 +28417,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::697",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::704",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -63209,7 +63718,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1320",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1327",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -67795,7 +68304,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1466",
+    "id": "NO_ID::sources/suatoni/README.md::1473",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -67812,7 +68321,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1467",
+    "id": "NO_ID::sources/suatoni/README.md::1474",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -67850,7 +68359,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1468",
+    "id": "NO_ID::sources/suatoni/README.md::1475",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -68987,7 +69496,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1504",
+    "id": "NO_ID::sources/greig_strong/README.md::1511",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -69004,7 +69513,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1505",
+    "id": "NO_ID::sources/greig_strong/README.md::1512",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -69033,7 +69542,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1506",
+    "id": "NO_ID::sources/greig_strong/README.md::1513",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -70205,7 +70714,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1538",
+    "id": "NO_ID::registers/songs/master_songs.md::1545",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -75836,6 +76345,163 @@
       "source_label": "S45 — Curtis, Touching from a Distance, 1995",
       "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
       "source_year": "1995"
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1688",
+    "file": "registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md",
+    "heading": "S45 — Citations candidates — tournée Buzzcocks, Futurama, Mountford Hall",
+    "data": {
+      "quotes": [
+        {
+          "id": "S45-Q057",
+          "source_id": "S45",
+          "passage": "give up the day job",
+          "traduction_de_travail": "quitter le travail salarié",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "95",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 6",
+            "seuil professionnel"
+          ],
+          "atomes_lies": [
+            "S45-A102"
+          ]
+        },
+        {
+          "id": "S45-Q058",
+          "source_id": "S45",
+          "passage": "LSS (Lead Singer Syndrome)",
+          "traduction_de_travail": "LSS, syndrome du chanteur principal",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "95",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 6",
+            "division matérielle du travail"
+          ],
+          "atomes_lies": [
+            "S45-A103"
+          ]
+        },
+        {
+          "id": "S45-Q059",
+          "source_id": "S45",
+          "passage": "the real stars of the night",
+          "traduction_de_travail": "les vraies stars de la soirée",
+          "statut": {
+            "original": "citation_rapportee_par_S45",
+            "source_presse": "Ian_Penman_a_verifier",
+            "pagination_pdf": "96",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 14",
+            "Futurama"
+          ],
+          "atomes_lies": [
+            "S45-A104"
+          ]
+        },
+        {
+          "id": "S45-Q060",
+          "source_id": "S45",
+          "passage": "It had been ‘our place’ for sixteen months",
+          "traduction_de_travail": "C’était notre endroit depuis seize mois",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "96",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 6",
+            "Factory comme port d’attache"
+          ],
+          "atomes_lies": [
+            "S45-A105"
+          ]
+        },
+        {
+          "id": "S45-Q061",
+          "source_id": "S45",
+          "passage": "music to surrender to",
+          "traduction_de_travail": "une musique à laquelle s’abandonner",
+          "statut": {
+            "original": "citation_rapportee_par_S45",
+            "source_presse": "Penny_Riley_a_verifier",
+            "pagination_pdf": "96-97",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 14",
+            "réception immersive"
+          ],
+          "atomes_lies": [
+            "S45-A106"
+          ]
+        },
+        {
+          "id": "S45-Q062",
+          "source_id": "S45",
+          "passage": "Ian ‘symbolizes Joy Division’",
+          "traduction_de_travail": "Ian « symbolise Joy Division »",
+          "statut": {
+            "original": "citation_rapportee_par_S45",
+            "source_presse": "Des_Moines_a_verifier",
+            "pagination_pdf": "97",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 6",
+            "starification de Curtis"
+          ],
+          "atomes_lies": [
+            "S45-A107"
+          ]
+        },
+        {
+          "id": "S45-Q063",
+          "source_id": "S45",
+          "passage": "obsessive insurance against anything going wrong between us",
+          "traduction_de_travail": "une assurance obsessionnelle contre tout ce qui pourrait mal tourner entre nous",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "97",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 10",
+            "rituel conjugal"
+          ],
+          "atomes_lies": [
+            "S45-A108"
+          ]
+        },
+        {
+          "id": "S45-Q064",
+          "source_id": "S45",
+          "passage": "Any deviation and Ian would begin the whole process again",
+          "traduction_de_travail": "Toute déviation, et Ian recommençait tout le processus",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "97",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 12",
+            "langage, contrôle, psychologisation à éviter"
+          ],
+          "atomes_lies": [
+            "S45-A108"
+          ]
+        }
+      ]
     }
   },
   {
@@ -84728,7 +85394,227 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1929",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::1937",
+    "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
+    "heading": "Relations stabilisées",
+    "data": {
+      "relations": [
+        {
+          "id": "REL-S45-A102-CONCEPT-019",
+          "source": "S45-A102",
+          "type": "prolonge",
+          "cible": "CONCEPT-019",
+          "justification": "Le passage confirme que l’état de Curtis dépend d’un faisceau : sommeil, travail, tournée, surveillance du groupe, traitement et fatigue.\n"
+        },
+        {
+          "id": "REL-S45-A103-CONCEPT-023",
+          "source": "S45-A103",
+          "type": "nuance",
+          "cible": "CONCEPT-023",
+          "justification": "Après le travail féminin effacé, la tournée révèle aussi une division matérielle du travail entre les membres masculins.\n"
+        },
+        {
+          "id": "REL-S45-A104-CONCEPT-023",
+          "source": "S45-A104",
+          "type": "prolonge",
+          "cible": "CONCEPT-023",
+          "justification": "Deborah corrige une mémoire secondaire qui attribue à tort une présence des épouses et compagnes à Futurama.\n"
+        },
+        {
+          "id": "REL-S45-A105-CONCEPT-019",
+          "source": "S45-A105",
+          "type": "prolonge",
+          "cible": "CONCEPT-019",
+          "justification": "La crise avant scène montre que la maladie n’est pas seulement domestique : elle intervient dans la logistique live.\n"
+        },
+        {
+          "id": "REL-S45-A106-S45-A102",
+          "source": "S45-A106",
+          "type": "prolonge",
+          "cible": "S45-A102",
+          "justification": "Mountford Hall donne sa première forme spectaculaire au seuil professionnel ouvert par la tournée Buzzcocks.\n"
+        },
+        {
+          "id": "REL-S45-A107-S45-A098",
+          "source": "S45-A107",
+          "type": "prolonge",
+          "cible": "S45-A098",
+          "justification": "La réception live contredit l’effort de résistance à la formule « Ian Curtis and Joy Division ».\n"
+        },
+        {
+          "id": "REL-S45-A108-CONCEPT-018",
+          "source": "S45-A108",
+          "type": "prolonge",
+          "cible": "CONCEPT-018",
+          "justification": "La politique affective du groupe trouve son envers domestique dans des rituels de langage et de sécurisation.\n"
+        },
+        {
+          "id": "REL-S45-A108-RISQUE-PSYCHOLOGISATION",
+          "source": "S45-A108",
+          "type": "alerte",
+          "cible": "RISQUE-PSYCHOLOGISATION",
+          "justification": "Le rituel téléphonique doit être décrit comme scène conjugale, non comme diagnostic."
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::1938",
+    "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
+    "heading": "Entrées RAG candidates",
+    "data": {
+      "rag_index": [
+        {
+          "id": "RAG-S45-A102",
+          "source_id": "S45",
+          "atom_id": "S45-A102",
+          "title": "Buzzcocks tour : quitter le day job et collectiviser la maladie",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 12"
+          ],
+          "tags": [
+            "buzzcocks-tour",
+            "day-job",
+            "epilepsy",
+            "professionalisation",
+            "group-care"
+          ],
+          "query_boost": [
+            "give up the day job",
+            "Buzzcocks tour Ian Curtis day job",
+            "Joy Division September 1979 epilepsy fewer attacks"
+          ],
+          "use_for": [
+            "professionnalisation de Joy Division",
+            "maladie collectivisée",
+            "articulation travail / tournée / santé"
+          ],
+          "avoid_for": [
+            "causalité médicale directe"
+          ]
+        },
+        {
+          "id": "RAG-S45-A104",
+          "source_id": "S45",
+          "atom_id": "S45-A104",
+          "title": "Futurama ’79 : consécration live et correction de mémoire",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "futurama",
+            "leeds",
+            "ian-penman",
+            "mark-johnson",
+            "wives-girlfriends"
+          ],
+          "query_boost": [
+            "Futurama 79 real stars of the night",
+            "Mark Johnson wives girlfriends Joy Division Futurama"
+          ],
+          "use_for": [
+            "réception live",
+            "correction historiographique",
+            "absence des compagnes"
+          ],
+          "avoid_for": [
+            "citation non vérifiée sans source originale"
+          ]
+        },
+        {
+          "id": "RAG-S45-A106",
+          "source_id": "S45",
+          "atom_id": "S45-A106",
+          "title": "Mountford Hall : Joy Division déborde le rôle de support band",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "mountford-hall",
+            "buzzcocks",
+            "penny-riley",
+            "live-reception",
+            "support-band"
+          ],
+          "query_boost": [
+            "music to surrender to",
+            "Mountford Hall Joy Division Buzzcocks Penny Riley"
+          ],
+          "use_for": [
+            "renversement hiérarchique live",
+            "support act conquérant"
+          ],
+          "avoid_for": [
+            "généralisation à toute la tournée sans recoupement"
+          ]
+        },
+        {
+          "id": "RAG-S45-A107",
+          "source_id": "S45",
+          "atom_id": "S45-A107",
+          "title": "Curtis star malgré le collectif",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "ian-curtis",
+            "starification",
+            "body",
+            "live-performance",
+            "reception"
+          ],
+          "query_boost": [
+            "Ian symbolizes Joy Division",
+            "Des Moines Ian Curtis symbolizes Joy Division"
+          ],
+          "use_for": [
+            "starification corporelle",
+            "tension Curtis / collectif"
+          ],
+          "avoid_for": [
+            "réduction de Joy Division à Curtis"
+          ]
+        },
+        {
+          "id": "RAG-S45-A108",
+          "source_id": "S45",
+          "atom_id": "S45-A108",
+          "title": "Rituels téléphoniques et langage conjugal",
+          "chapters": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "tags": [
+            "deborah-curtis",
+            "telephone",
+            "ritual",
+            "intimacy",
+            "psychologisation-risk"
+          ],
+          "query_boost": [
+            "obsessive insurance against anything going wrong between us",
+            "Any deviation and Ian would begin the whole process again"
+          ],
+          "use_for": [
+            "intimité conjugale",
+            "langage ritualisé",
+            "contrôle affectif"
+          ],
+          "avoid_for": [
+            "diagnostic psychologique rétrospectif"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1939",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -84878,7 +85764,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1930",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1940",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -85107,7 +85993,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1931",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1941",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -85201,7 +86087,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1932",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1942",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -85371,7 +86257,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1933",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1943",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -85493,7 +86379,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1934",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1944",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -85627,7 +86513,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1935",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1945",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -85648,7 +86534,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1936",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1946",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -85770,7 +86656,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1937",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1947",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -85936,7 +86822,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1938",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1948",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -85995,7 +86881,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1939",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1949",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -86044,7 +86930,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1940",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1950",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -86448,6 +87334,92 @@
       ],
       "atomes_lies": [
         "S45-A060"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-029",
+    "file": "registers/motifs/s45_curtis_motifs_1979_buzzcocks_tour.md",
+    "heading": "MOTIF-029 — maladie collectivisée en tournée",
+    "data": {
+      "id": "MOTIF-029",
+      "nom": "maladie collectivisée en tournée",
+      "definition": "Motif désignant la prise en charge collective et silencieuse de l’épilepsie de Curtis dans le cadre de la tournée : surveillance des signes, aide après les crises, hôpitaux éventuels, adaptation pratique.\n",
+      "atomes_lies": [
+        "S45-A102",
+        "S45-A105"
+      ],
+      "concepts_associes": [
+        "CONCEPT-019",
+        "CONCEPT-026"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-030",
+    "file": "registers/motifs/s45_curtis_motifs_1979_buzzcocks_tour.md",
+    "heading": "MOTIF-030 — support act conquérant",
+    "data": {
+      "id": "MOTIF-030",
+      "nom": "support act conquérant",
+      "definition": "Motif désignant les moments où Joy Division, pourtant placé en première partie, déborde son statut et menace symboliquement la tête d’affiche.\n",
+      "atomes_lies": [
+        "S45-A106"
+      ],
+      "concepts_associes": [
+        "CONCEPT-027"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-031",
+    "file": "registers/motifs/s45_curtis_motifs_1979_buzzcocks_tour.md",
+    "heading": "MOTIF-031 — Curtis aimant du regard",
+    "data": {
+      "id": "MOTIF-031",
+      "nom": "Curtis aimant du regard",
+      "definition": "Motif désignant la manière dont le corps scénique de Curtis attire et organise la perception critique et publique, au risque de masquer la dynamique collective du groupe.\n",
+      "atomes_lies": [
+        "S45-A107"
+      ],
+      "concepts_associes": [
+        "CONCEPT-027"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-032",
+    "file": "registers/motifs/s45_curtis_motifs_1979_buzzcocks_tour.md",
+    "heading": "MOTIF-032 — rituel téléphonique",
+    "data": {
+      "id": "MOTIF-032",
+      "nom": "rituel téléphonique",
+      "definition": "Motif domestique décrivant les formules téléphoniques répétitives entre Ian et Deborah, utilisées comme assurance affective contre la rupture ou le désordre.\n",
+      "atomes_lies": [
+        "S45-A108"
+      ],
+      "concepts_associes": [
+        "CONCEPT-028"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
       ]
     }
   },
@@ -88167,6 +89139,73 @@
       "certainty": "low_to_medium",
       "methodological_warnings": [
         "fort risque de romantisation neurologique ; à encadrer explicitement"
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2006",
+    "file": "registers/people/s45_curtis_people_1979_buzzcocks_tour.md",
+    "heading": "S45 — Personnes — tournée Buzzcocks, Futurama, Mountford Hall",
+    "data": {
+      "people": [
+        {
+          "id": "PERS-S45-IAN-PENMAN-FUTURAMA",
+          "personne": "Ian Penman",
+          "source_id": "S45",
+          "role": "Critique mentionné par Deborah Curtis pour Futurama ’79.",
+          "statut": "réception critique rapportée",
+          "atomes_lies": [
+            "S45-A104"
+          ],
+          "usage": [
+            "Chapitre 14"
+          ],
+          "prudence": "Vérifier la source critique originale avant citation définitive."
+        },
+        {
+          "id": "PERS-S45-MARK-JOHNSON-FUTURAMA-CORRECTION",
+          "personne": "Mark Johnson",
+          "source_id": "S45",
+          "role": "Auteur secondaire corrigé par Deborah sur la présence supposée des wives and girlfriends à Futurama.",
+          "statut": "mémoire secondaire corrigée",
+          "atomes_lies": [
+            "S45-A104"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ]
+        },
+        {
+          "id": "PERS-S45-PENNY-RILEY-MOUNTFORD",
+          "personne": "Penny Riley",
+          "source_id": "S45",
+          "role": "Critique de Mountford Hall citée par Deborah Curtis.",
+          "statut": "réception critique rapportée",
+          "atomes_lies": [
+            "S45-A106"
+          ],
+          "usage": [
+            "Chapitre 14"
+          ],
+          "prudence": "Vérifier la recension originale avant citation définitive."
+        },
+        {
+          "id": "PERS-S45-DES-MOINES-LEEDS",
+          "personne": "Des Moines",
+          "source_id": "S45",
+          "role": "Critique qui formule Ian Curtis comme symbole de Joy Division.",
+          "statut": "réception critique rapportée",
+          "atomes_lies": [
+            "S45-A107"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "prudence": "Ne pas reprendre la starification comme fait neutre ; elle est l’objet de l’analyse."
+        }
       ]
     }
   },
@@ -94592,6 +95631,129 @@
     }
   },
   {
+    "kind": "concept",
+    "id": "CONCEPT-026",
+    "file": "registers/concepts/s45_curtis_concepts_1979_buzzcocks_tour.md",
+    "heading": "CONCEPT-026 — professionnalisation sous surveillance médicale",
+    "data": {
+      "id": "CONCEPT-026",
+      "nom": "professionnalisation sous surveillance médicale",
+      "statut": {
+        "type": [
+          "concept_analytique",
+          "concept_sante",
+          "concept_tournee"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Moment où Joy Division devient un groupe de tournée, tandis que la maladie de Curtis devient un objet de surveillance collective, pratique et silencieuse. Le groupe s’organise autour de la vulnérabilité de Curtis sans nécessairement la rendre visible.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A102",
+        "S45-A105"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-019"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-016"
+        }
+      ],
+      "risques": [
+        "causalité médicale simplificatrice",
+        "héroïsation du care par le groupe",
+        "effacement de la fatigue de tournée"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-027",
+    "file": "registers/concepts/s45_curtis_concepts_1979_buzzcocks_tour.md",
+    "heading": "CONCEPT-027 — starification corporelle",
+    "data": {
+      "id": "CONCEPT-027",
+      "nom": "starification corporelle",
+      "statut": {
+        "type": [
+          "concept_reception",
+          "concept_performance"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Processus par lequel la réception live concentre le regard sur le corps de Curtis, son orchestration scénique et sa vulnérabilité, au risque de réduire Joy Division à son chanteur alors que le groupe cherche à préserver une identité collective.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S45-A106",
+        "S45-A107"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A085"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-CURTIS-AUTEUR-TOTAL"
+        }
+      ],
+      "risques": [
+        "réduction du groupe à Curtis",
+        "esthétisation du corps malade",
+        "oubli de l’architecture collective"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-028",
+    "file": "registers/concepts/s45_curtis_concepts_1979_buzzcocks_tour.md",
+    "heading": "CONCEPT-028 — langage conjugal ritualisé",
+    "data": {
+      "id": "CONCEPT-028",
+      "nom": "langage conjugal ritualisé",
+      "statut": {
+        "type": [
+          "concept_domesticite",
+          "concept_langage"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Ensemble de formules répétitives imposées dans la relation Ian/Deborah, utilisées comme sécurisation affective et contrôle de la continuité du couple. Ce langage ne doit pas être converti en diagnostic psychologique.\n",
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A108"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-018"
+        },
+        {
+          "type": "alerte",
+          "cible": "RISQUE-PSYCHOLOGISATION"
+        }
+      ],
+      "risques": [
+        "psychologisation rétrospective",
+        "pathologisation du langage conjugal",
+        "lecture téléologique de la crise intime"
+      ]
+    }
+  },
+  {
     "kind": "myth",
     "id": "MYTH-011",
     "file": "registers/myths/s45_curtis_myths_vote_conservateur.md",
@@ -94641,7 +95803,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2149",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2167",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -94663,7 +95825,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2150",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2168",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -94681,7 +95843,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2151",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2169",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -94699,7 +95861,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2152",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2170",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -95122,7 +96284,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2163",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2181",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-003 — Manchester comme matrice unique",
     "data": {
@@ -95139,7 +96301,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2164",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2182",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -95157,7 +96319,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2165",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2183",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -95174,7 +96336,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2166",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2184",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -95189,7 +96351,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2167",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2185",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-009 — Rob Gretton comme manager sauveur",
     "data": {
@@ -95205,7 +96367,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2168",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2186",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -95224,7 +96386,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2169",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2187",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -95246,7 +96408,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2170",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2188",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -95262,7 +96424,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2171",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2189",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-CURTIS-AUTEUR-TOTAL — Curtis comme auteur total de Joy Division",
     "data": {
@@ -95278,7 +96440,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2172",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2190",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -95294,7 +96456,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2173",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2191",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-009 — Gretton comme manager sauveur",
     "data": {
@@ -97150,6 +98312,86 @@
         }
       ],
       "notes": "Scène essentielle pour articuler mémoire live, archive et canonisation rétrospective."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2235",
+    "file": "registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md",
+    "heading": "S45 — Chronologie candidate — tournée Buzzcocks, Futurama, Mountford Hall",
+    "data": {
+      "chronology": [
+        {
+          "id": "CHR-S45-1979-08-BUZZCOCKS-TOUR-DAY-JOB",
+          "source_id": "S45",
+          "date": "1979-08",
+          "evenement": "Joy Division obtient la place de support band sur la tournée Buzzcocks ; Ian Curtis quitte son emploi salarié.\n",
+          "atomes_lies": [
+            "S45-A102"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 12"
+          ],
+          "statut": "datation mensuelle à préciser"
+        },
+        {
+          "id": "CHR-S45-1979-09-FUTURAMA",
+          "source_id": "S45",
+          "date": "1979-09",
+          "evenement": "Joy Division joue à Futurama ’79, Queen’s Hall, Leeds. Deborah corrige la mémoire secondaire sur la présence supposée des wives and girlfriends.\n",
+          "atomes_lies": [
+            "S45-A104"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "statut": "événement établi ; citations presse à vérifier"
+        },
+        {
+          "id": "CHR-S45-1979-LAST-FACTORY",
+          "source_id": "S45",
+          "date": "1979",
+          "evenement": "Dernier concert au Factory/Russell Club avant fermeture indéfinie ; Curtis connaît un début de crise avant scène.\n",
+          "atomes_lies": [
+            "S45-A105"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 12"
+          ],
+          "statut": "date précise à verrouiller"
+        },
+        {
+          "id": "CHR-S45-1979-MOUNTFORD-HALL-BUZZCOCKS",
+          "source_id": "S45",
+          "date": "1979",
+          "evenement": "Mountford Hall, Liverpool : première date de la tournée Buzzcocks ; Joy Division reçoit une critique enthousiaste.\n",
+          "atomes_lies": [
+            "S45-A106"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "statut": "date précise à vérifier dans gig lists"
+        },
+        {
+          "id": "CHR-S45-1979-LEEDS-UNIVERSITY-STARIFICATION",
+          "source_id": "S45",
+          "date": "1979",
+          "evenement": "À Leeds University, la presse lit Ian Curtis comme symbole de Joy Division.\n",
+          "atomes_lies": [
+            "S45-A107"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "statut": "citation Des Moines à vérifier"
+        }
+      ]
     }
   },
   {

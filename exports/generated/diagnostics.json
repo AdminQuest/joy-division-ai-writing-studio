@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-14T04:58:32",
+  "generated_at": "2026-05-14T05:32:09",
   "status": "warning",
   "summary": {
-    "records_total": 2349,
+    "records_total": 2368,
     "records_by_kind": {
-      "atom": 1303,
+      "atom": 1310,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
       "song": 41,
+      "template": 32,
       "quote_batch": 1,
       "rules": 1,
-      "template": 27,
-      "motif": 28,
+      "motif": 32,
       "person": 157,
-      "concept": 22,
+      "concept": 25,
       "myth": 11
     },
-    "diagnostics_total": 13455,
+    "diagnostics_total": 13525,
     "errors": 0,
-    "warnings": 13455,
+    "warnings": 13525,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -126,8 +126,8 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 287,
-        "atoms": 148,
+        "records": 294,
+        "atoms": 155,
         "quotes": 56,
         "chronology": 41,
         "files": [
@@ -157,6 +157,7 @@
           "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
           "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
           "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+          "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
           "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
           "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
           "sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md",
@@ -432,6 +433,426 @@
     ]
   },
   "issues": [
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Invalid value for type_unite: seuil_professionnel",
+      "record_id": "S45-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Invalid value for type_unite: tension_interne",
+      "record_id": "S45-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Invalid value for type_unite: reception_live",
+      "record_id": "S45-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Invalid value for type_unite: evenement_live_sante",
+      "record_id": "S45-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Invalid value for type_unite: reception_live",
+      "record_id": "S45-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Invalid value for type_unite: reception_starification",
+      "record_id": "S45-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Invalid value for type_unite: scene_domestique",
+      "record_id": "S45-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A108"
+    },
     {
       "level": "warning",
       "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",

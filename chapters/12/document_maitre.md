@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T04:58:54"
+generated_at: "2026-05-14T05:32:25"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 208 |
+| Atomes | 211 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -35,7 +35,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 0 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 30 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 33 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
@@ -77,6 +77,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct situé`.
 - **S45-A101** — S45-A101 — Dernier recours manqué : Aunty Nell et l’impossibilité de rendre la crise visible  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sensible` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A102** — S45-A102 — Fin août 1979 : quitter le day job comme seuil professionnel et médical  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_professionnel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A105** — S45-A105 — Dernière Factory : crise avant scène et passage à un nouveau chapitre  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_sante` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A031** — S75-A031 — Londres, Hope & Anchor et crise épileptique : anti-triomphe de la sortie régionale  
@@ -111,10 +115,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `cadrage_source` ; importance : `critique` ; preuve : `cadrage_source`.
 - **S76-A002** — S76-A002 — Le refus familial du récit uniquement tragique  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `temoignage_familial_rapporte`.
-- **S76-A009** — S76-A009 — Compartimentation amicale et pluralité des Ian Curtis  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `interpretation_temoignage`.
-- **S76-A018** — S76-A018 — Doutes prénuptiaux et tentation de prophétiser Curtis  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `temoignages_retrospectifs_sensibles`.
 
 ## 6. Autres atomes utiles
 
@@ -142,6 +142,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A084** — S45-A084 — Juin 1979 : intervalle idyllique, South Park et répit trompeur  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A108** — S45-A108 — Rituels téléphoniques : langage conjugal comme assurance obsessionnelle  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-029** — S46-029 — Paul Morley, Wozencroft et la lecture occulto-filmique  
@@ -262,22 +264,20 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S76-A009** — S76-A009 — Compartimentation amicale et pluralité des Ian Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `interpretation_temoignage`.
 - **S76-A010** — S76-A010 — Incident de drogues à King’s School : classe, sanction et fragilité adolescente  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `chronologie_sensible` ; importance : `majeure` ; preuve : `temoignage_retroactif_sensible`.
 - **S76-A017** — S76-A017 — Fiançailles de 1974 : jeunesse, famille et normalité conjugale  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `majeure` ; preuve : `memoire_familiale`.
+- **S76-A018** — S76-A018 — Doutes prénuptiaux et tentation de prophétiser Curtis  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `temoignages_retrospectifs_sensibles`.
 - **S76-A019** — S76-A019 — Mariage de 1975 : amour, jeunesse et absence d’anormalité visible  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `critique` ; preuve : `memoire_familiale_et_reconstruction_biographique`.
 - **S76-A028** — S76-A028 — Barton Street : domesticité, commute et écriture de paroles  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
 - **S76-A031** — S76-A031 — Assistant Disablement Resettlement Officer : travail, handicap et préfiguration de l’épilepsie  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
-- **S76-A057** — S76-A057 — Curtis face à l’intrusion de Gretton : sensibilité, retrait, bord relationnel  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `micro_scene_relationnelle` ; importance : `majeure` ; preuve : `temoignage_Peter_Hook`.
-- **S76-A071** — S76-A071 — Vacances 1978 : Mason et Hook contre la vie déjà adulte de Curtis  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contraste_biographique` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
-- **S76-A081** — S76-A081 — Curtis en marge des rouages Factory : domesticité, grossesse de Debbie et leadership créatif  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `temoignage_Terry_Mason_et_reconstruction_S76`.
 
 ## 7. Citations disponibles
 
@@ -482,18 +482,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - mémoire située (2)
 - mémoire conjugale croisée (2)
 - anti-téléologie (2)
+- seuil professionnel (1)
+- maladie collectivisée (1)
+- tournée comme soin pratique (1)
+- lieu-port d’attache (1)
+- scène sous vulnérabilité (1)
+- transition Factory/tournée (1)
+- langue comme contrôle affectif (1)
+- procédure conjugale (1)
+- sécurisation répétitive (1)
 - contrepoint domestique (1)
 - anti-mythe ordinaire (1)
 - Curtis affectif (1)
-- urgence domestique (1)
-- savoir médical après coup (1)
-- foyer comme poste de crise (1)
-- répit domestique (1)
-- anti-téléologie du quotidien (1)
-- esthétisation critique du symptôme (1)
-- corps épileptiforme (1)
-- réception extatique (1)
-- herméneutique conjugale (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -512,6 +512,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - handicap (4)
 - She’s Lost Control (4)
 - Love Will Tear Us Apart (4)
+- Peter Hook (3)
 - Candy (3)
 - domesticité (3)
 - Mick Middles (3)
@@ -529,6 +530,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Mark Reeder (3)
 - mariage (3)
 - tournée américaine (3)
+- Factory (2)
 - chien (2)
 - grand mal (2)
 - GP (2)
@@ -537,11 +539,17 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Employment Exchange (2)
 - maladie (2)
 - diagnostic (2)
-- suicide (2)
-- crise (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A102 — prolonge → CONCEPT-019
+- S45-A102 — prolonge → CONCEPT-016
+- S45-A105 — prolonge → S45-A081
+- S45-A105 — prolonge → CONCEPT-019
+- S45-A105 — prépare → S45-A106
+- S45-A108 — prolonge → CONCEPT-018
+- S45-A108 — prolonge → S45-A092
+- S45-A108 — alerte → RISQUE-PSYCHOLOGISATION
 - S45-A060 — prolonge → CONCEPT-012
 - S45-A060 — nuance → MYTH-002
 - S45-A060 — prolonge → MOTIF-012
@@ -614,14 +622,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S75-A063 — prolonge → S75-A045
 - S75-A063 — requiert → CONCEPT-004
 - S75-A063 — nuance → MYTH-002
-- S75-A065 — requiert → CONCEPT-004
-- S75-A065 — nuance → MYTH-002
-- S75-A065 — prolonge → S75-A063
-- S75-A068 — requiert → CONCEPT-004
-- S75-A068 — nuance → MYTH-002
-- S75-A068 — prépare → S75-A075
-- S75-A072 — requiert → CONCEPT-004
-- S75-A072 — prolonge → CONCEPT-006
 
 ## 13. Distribution documentaire
 
@@ -641,6 +641,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_medicale_live | 3 |
 | tension_biographique | 3 |
 | song_session | 3 |
+| scene_domestique | 2 |
 | contrepoint_domestique | 2 |
 | tension_medicale | 2 |
 | tension_documentaire | 2 |
@@ -665,6 +666,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | contexte_intime | 2 |
 | scene_intime | 2 |
 | bascule_tournee | 2 |
+| seuil_professionnel | 1 |
+| evenement_live_sante | 1 |
 | evenement_medical | 1 |
 | reception_critique | 1 |
 | reception_domestique | 1 |
@@ -675,7 +678,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_chronologique | 1 |
 | scene_domestique_medicale | 1 |
 | performance_sante | 1 |
-| scene_domestique | 1 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
 | performance_scenique | 1 |
@@ -782,13 +784,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 98 |
+| critique | 100 |
 | non qualifiée | 87 |
 | majeure | 20 |
-| majeur | 3 |
+| majeur | 4 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A102 [élevé] — Risque de conclure que la fin du travail salarié améliore mécaniquement l’état de Curtis. La source suggère une corrélation vécue, non une preuve clinique.
+- S45-A105 [moyen] — Risque de symboliser excessivement la fermeture du lieu ; la scène doit rester aussi matérielle, médicale et chaotique.
+- S45-A108 [élevé] — Risque de diagnostic psychologique rétrospectif ; il faut parler de rituel, pas de pathologie démontrée.
 - S45-A060 [faible] — Risque limité, sauf si l’on transforme la scène en preuve morale générale de douceur.
 - S45-A083 [moyen] — Risque de projeter une connaissance médicale ultérieure sur l’expérience immédiate de Deborah.
 - S45-A084 [faible] — Risque limité ; l’atome sert surtout à éviter une trajectoire fataliste.
@@ -846,9 +851,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A108 [tres_eleve] — risque majeur de lire chaque vers à partir du suicide ultérieur
 - S76-A001 [moyen] — proximité affective des auteurs et volonté réparatrice de la source
 - S76-A002 [faible] — l'atome réduit la téléologie morbide plutôt qu'il ne l'alimente
-- S76-A009 [faible] — l'atome sert à pluraliser plutôt qu'à réduire
-- S76-A010 [eleve] — risque de faire de l'incident un signe annonciateur de la mort ou de la maladie
-- S76-A109 [eleve] — risque de lire la naissance comme déclencheur tragique ; elle doit rester un élément du faisceau de contraintes
 
 ## 15. Lacunes et prochaines vérifications
 

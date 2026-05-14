@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T04:58:54"
+generated_at: "2026-05-14T05:32:25"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 113 |
+| Atomes | 115 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -35,7 +35,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 3 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 44 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
@@ -174,6 +174,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A097** — S45-A097 — Leigh Festival : anti-festival Factory/Zoo, police et inertie de Curtis  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_sociale` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A103** — S45-A103 — Lead Singer Syndrome : paresse logistique et privilège scénique  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_interne` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif + témoignage rapporté de Hook`.
+- **S45-A108** — S45-A108 — Rituels téléphoniques : langage conjugal comme assurance obsessionnelle  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
@@ -378,6 +382,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - réception posthume (2)
 - manchester (2)
 - mythification (2)
+- privilège scénique (1)
+- division matérielle du travail (1)
+- artiste contre roadie (1)
+- langue comme contrôle affectif (1)
+- procédure conjugale (1)
+- sécurisation répétitive (1)
 - management-confession (1)
 - médiation protectrice (1)
 - dépossession informationnelle (1)
@@ -415,12 +425,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - anti-festival (1)
 - scène indépendante sous police (1)
 - amateurisme organisationnel (1)
-- crise invisible (1)
-- relais de care manqué (1)
-- solitude conjugale (1)
-- savoir administratif du handicap (1)
-- non-monocausalité médicale (1)
-- précompréhension sociale de l’épilepsie (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -453,22 +457,28 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - The Factory Sample (2)
 - Tony Wilson (2)
 - Martin Hannett (2)
+- Lead Singer Syndrome (1)
+- van (1)
+- flight cases (1)
+- travail matériel (1)
+- Hook réalisme (1)
+- catchphrases (1)
+- téléphone (1)
+- I love you (1)
+- rituel conjugal (1)
+- assurance obsessionnelle (1)
 - Lesley Gilbert (1)
 - gardien (1)
 - parent de substitution (1)
-- dépossession conjugale (1)
-- Candy Says (1)
-- chien (1)
-- domesticité (1)
-- tendresse (1)
-- vol (1)
-- Russell Club (1)
-- Hulme (1)
-- première sortie (1)
-- mari et bébé (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A103 — prolonge → CONCEPT-023
+- S45-A103 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
+- S45-A103 — prolonge → S45-A087
+- S45-A108 — prolonge → CONCEPT-018
+- S45-A108 — prolonge → S45-A092
+- S45-A108 — alerte → RISQUE-PSYCHOLOGISATION
 - S45-A057 — prolonge → CONCEPT-007
 - S45-A057 — nuance → MYTH-009
 - S45-A057 — prolonge → S45-A001
@@ -543,12 +553,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S45-A073 — prolonge → S45-A071
 - S45-A073 — prolonge → CONCEPT-012
 - S45-A073 — nuance → MYTH-002
-- S45-A079 — prolonge → S45-A061
-- S45-A079 — prolonge → CONCEPT-013
-- S45-A079 — prolonge → MOTIF-019
-- S45-A080 — prolonge → S45-A073
-- S45-A080 — prolonge → CONCEPT-012
-- S45-A080 — prolonge → S45-A079
 
 ## 13. Distribution documentaire
 
@@ -566,6 +570,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | objet_visuel | 3 |
 | analyse | 3 |
 | memoire | 3 |
+| scene_domestique | 2 |
 | contrepoint_domestique | 2 |
 | tension_medicale | 2 |
 | tension_genre | 2 |
@@ -580,6 +585,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | chronologie | 2 |
 | non qualifié | 2 |
 | song | 2 |
+| tension_interne | 1 |
 | relation_management | 1 |
 | scene_domestique_live | 1 |
 | tension_domestique | 1 |
@@ -594,7 +600,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | tension_relationnelle | 1 |
 | contrepoint_mythique | 1 |
 | scene_domestique_medicale | 1 |
-| scene_domestique | 1 |
 | santé | 1 |
 | performance_scenique | 1 |
 | chanson_biographie | 1 |
@@ -634,11 +639,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 |---|---|
 | non qualifiée | 62 |
 | critique | 36 |
-| majeur | 13 |
+| majeur | 15 |
 | majeure | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A103 [moyen] — Risque de réduire Curtis à la paresse ou de traiter l’anecdote comme simple farce ; elle documente aussi l’économie matérielle de la tournée.
+- S45-A108 [élevé] — Risque de diagnostic psychologique rétrospectif ; il faut parler de rituel, pas de pathologie démontrée.
 - S45-A057 [élevé] — Risque de psychologiser Gretton en père de substitution ou d’opposer brutalement manager et épouse ; la source décrit une perception conjugale.
 - S45-A060 [faible] — Risque limité, sauf si l’on transforme la scène en preuve morale générale de douceur.
 - S45-A081 [moyen] — Risque de lire cette sortie comme pure scène heureuse alors qu’elle fonctionne déjà comme seuil d’illusion.
