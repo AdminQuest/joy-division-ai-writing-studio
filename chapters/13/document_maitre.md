@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T16:04:01"
+generated_at: "2026-05-14T16:42:16"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 62 |
+| Atomes | 63 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 19 |
 | Événements chronologiques | 9 |
@@ -34,7 +34,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 12 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 13 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
@@ -132,6 +132,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-A008** — S41-A008 — Jamaïque en couleur : mobilité sociale, fracture coloniale et retour perdant à Salford  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_biographique` ; importance : `majeur` ; preuve : `témoignage autobiographique direct`.
+- **S41-A085** — S41-A085 — Van bleu et Yorkshire Ripper : tournée punk comme soupçon policier  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_sociale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C01** — S41-C01 — Manchester comme matrice émotionnelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S46-028** — S46-028 — Plan K : William Burroughs et la rue de Manchester  
@@ -281,6 +283,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - lieu-matrice (1)
 - esthétique du froid matériel (1)
 - pratique collective située (1)
+- géographie policière des gigs (1)
+- tournée comme indice suspect (1)
 - lieu-piège mémoriel (1)
 - archive affective involontaire (1)
 - mémoire visuelle industrielle (1)
@@ -309,8 +313,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - band on the wall (1)
 - manchester musicians collective (1)
 - scène locale (1)
-- aloofness partagée (1)
-- scène périphérique (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -336,6 +338,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Manchester City (2)
 - famous photographs (1)
 - froid (1)
+- blue Transit (1)
+- Yorkshire Ripper (1)
+- red-light districts (1)
+- Leeds (1)
+- Stephen Morris arrested (1)
 - Swan pub (1)
 - Eccles New Road (1)
 - salle de répétition (1)
@@ -351,17 +358,14 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Dead Souls (1)
 - fantômes (1)
 - eternals (1)
-- réincarnation (1)
-- histoire (1)
-- Lower Broughton (1)
-- déplacement (1)
-- tour (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
 - S41-A053 — prolonge → S41-A052
 - S41-A053 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
 - S41-A053 — prolonge → S45-A144
+- S41-A085 — prolonge → S41-A072
+- S41-A085 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
 - S41-A057 — prolonge → CONCEPT-064
 - S41-A057 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
 - S41-A007 — prolonge → CONCEPT-042
@@ -437,8 +441,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A077 — relie → MOTIF-008
 - S76-A077 — nuance → MYTH-003
 - S76-A084 — relie → MOTIF-008
-- S76-A084 — nuance → MYTH-003
-- S76-A084 — relie → CONCEPT-003
 
 ## 13. Distribution documentaire
 
@@ -456,6 +458,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | contexte_social | 2 |
 | lieu_scene | 2 |
 | lieu_structurant | 1 |
+| tension_sociale | 1 |
 | lieu_memoire | 1 |
 | scene_origine_sociale | 1 |
 | scene_biographique | 1 |
@@ -501,11 +504,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | non qualifiée | 22 |
 | majeure | 21 |
 | critique | 18 |
-| majeur | 1 |
+| majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S41-A053 [moyen] — Ne pas transformer le lieu en cause esthétique directe ; il agit comme environnement de répétition et de mémoire.
+- S41-A085 [moyen] — Ne pas transformer l’anecdote en analyse policière générale ; elle éclaire surtout la géographie des gigs.
 - S41-A057 [moyen] — Risque de projeter la charge posthume sur l’usage initial du lieu ; il faut distinguer répétition 1976-1977 et retour mémoriel ultérieur.
 - S41-A007 [moyen] — Risque de faire de Salford une cause esthétique directe ; il faut parler de matrice, non de déterminisme.
 - S41-A008 [moyen] — Risque de transformer la Jamaïque en origine musicale directe ; Hook l’évoque surtout comme contraste biographique.

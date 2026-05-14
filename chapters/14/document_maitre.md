@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T16:04:01"
+generated_at: "2026-05-14T16:42:16"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 669 |
+| Atomes | 674 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 62 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 67 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -85,6 +85,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_factory` ; importance : `critique` ; preuve : `synthèse Hook + appareil factuel`.
 - **S41-A077** — S41-A077 — Granada Reports / « Shadowplay » : télévision locale, Salford mal attribué et image naissante  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + archive télévisuelle existante`.
+- **S41-A087** — S41-A087 — Brunel : crachats, basse comme arme et fin anticipée du set  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S41-A090** — S41-A090 — Hope & Anchor : premier Londres comme cave froide, déficit et désillusion  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_echec` ; importance : `critique` ; preuve : `témoignage direct + review rapportée`.
 - **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
 - **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
@@ -115,10 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -208,6 +208,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_nominale` ; importance : `majeur` ; preuve : `témoignage rétrospectif de Hook`.
 - **S41-A075** — S41-A075 — Musicians’ Collective : entraide officielle et arrière-goût de salle de classe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage Hook + citation Kevin Eden rapportée`.
+- **S41-A080** — S41-A080 — Wilson et Curtis : aura télévisuelle, conversation intellectuelle et loyauté Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A084** — S41-A084 — Assembler Factory Sample : travail manuel, Saville retardataire et Wilson en père Noël punk  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct + notice documentaire`.
+- **S41-A088** — S41-A088 — Pete Shelley sous la pluie de crachats : norme punk et limite corporelle  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_comparative` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
@@ -276,12 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-035** — S46-035 — La pochette de *An Ideal for Living* comme foyer de polémique  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie_polemique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-037** — S46-037 — Le 12 pouces *An Ideal for Living* et la réparation sonore  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-038** — S46-038 — Messages gravés dans les sillons de sortie  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `paratexte_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-040** — S46-040 — Bowdon Vale et les provocations anti-nazies du public  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -510,21 +510,22 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
+- Tony Wilson (16)
 - Annik Honoré (16)
-- Tony Wilson (15)
 - Rob Gretton (12)
+- Peter Saville (8)
 - fatigue (8)
-- Peter Saville (7)
+- Ian Curtis (7)
 - Factory (7)
+- Electric Circus (6)
 - Unknown Pleasures (6)
 - Love Will Tear Us Apart (5)
-- Electric Circus (5)
-- Ian Curtis (5)
 - Kevin Cummins (5)
 - Closer (5)
 - Gretton (5)
 - Buzzcocks tour (4)
 - Mick Middles (4)
+- Buzzcocks (4)
 - Strawberry Studios (4)
 - Factory Club (4)
 - épilepsie (4)
@@ -534,7 +535,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Deborah Curtis (4)
 - A Certain Ratio (4)
 - Rainbow Theatre (3)
-- Buzzcocks (3)
 - Transmission (3)
 - Dave McCullough (3)
 - Sounds (3)
@@ -679,6 +679,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_chanson | 4 |
 | concert_europeen | 4 |
 | reception_presse | 3 |
+| economie_discographique | 3 |
+| scene_reseau | 3 |
 | scene_collective | 3 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
@@ -700,8 +702,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_precoce | 2 |
 | objet_audiovisuel | 2 |
 | infrastructure | 2 |
-| economie_discographique | 2 |
-| scene_reseau | 2 |
 | archive_live | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -754,6 +754,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | rencontre_fondatrice | 1 |
 | tension_reception | 1 |
 | scene_factory | 1 |
+| scene_live_violence | 1 |
+| scene_live_comparative | 1 |
+| scene_live_echec | 1 |
 | lieu_memoire | 1 |
 | chronologie_discographique | 1 |
 | scene_sociale_live | 1 |
@@ -979,9 +982,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 451 |
-| critique | 166 |
+| critique | 168 |
 | majeure | 39 |
-| majeur | 9 |
+| majeur | 12 |
 | structurante | 2 |
 | moyenne | 2 |
 
@@ -1020,6 +1023,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A074 [moyen] — Ne pas téléologiser Factory Records ; le passage décrit encore un club night expérimental.
 - S41-A075 [faible] — Atome de réseau ; son intérêt tient à l’ambivalence entraide / ennui / opportunisme.
 - S41-A077 [moyen] — Ne pas faire de la télévision une consécration nationale ; c’est une fenêtre locale pré-enregistrée.
+- S41-A080 [moyen] — Ne pas faire de Wilson/Curtis une pure alliance d’intellectuels ; Hook écrit depuis la mythologie Factory constituée.
+- S41-A084 [moyen] — Ne pas fétichiser l’objet Factory en oubliant le travail manuel et le retard logistique.
+- S41-A087 [moyen] — Ne pas folkloriser la violence du crachat ; elle affecte les corps et la durée du concert.
+- S41-A088 [moyen] — Risque de naturaliser le crachat comme folklore punk ; l’atome doit conserver la répulsion de Hook.
+- S41-A090 [faible à moyen] — Ne pas surcharger l’échec ; il prépare surtout le diagnostic médical du retour.
 - S41-A057 [moyen] — Risque de projeter la charge posthume sur l’usage initial du lieu ; il faut distinguer répétition 1976-1977 et retour mémoriel ultérieur.
 - S41-A058 [moyen] — Ne pas donner trop de poids à une review anonyme ; l’intérêt tient au contraste entre trace hostile et mémoire absente.
 - S41-A061 [moyen] — Risque de confondre cassette personnelle, bootleg ultérieur et document public stabilisé.
@@ -1042,11 +1050,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
 - S75-A075 [faible] — l'atome vise précisément à réduire la surinterprétation et la déification
 - S75-A001 [moyen] — risque de généraliser la réception Bedhead à l'ensemble de la postérité de Joy Division
-- S75-A002 [faible] — l'auteur formule explicitement son propre positionnement critique
-- S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
-- S75-A005 [moyen] — le mythe est documenté mais souvent simplifié en scène primitive unique
-- S75-A007 [faible] — la citation critique doit être utilisée comme indice, non comme preuve d'une grandeur déjà accomplie
-- S75-A023 [moyen] — le caractère fondateur de la scène peut être surdramatisé ; l'intérêt est dans la bifurcation Wilson/Gretton
 
 ## 15. Lacunes et prochaines vérifications
 

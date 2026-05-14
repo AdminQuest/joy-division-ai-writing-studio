@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-14T16:03:58`
+Généré le : `2026-05-14T16:42:15`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 49 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1389 atome(s) incomplet(s) sur 1450.
+Le repo est techniquement exploitable, mais 55 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1404 atome(s) incomplet(s) sur 1465.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 2766
+- Enregistrements : 2813
 - Erreurs : 0
-- Avertissements : 14886
+- Avertissements : 15018
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1389 atome(s) incomplet(s) sur 1450.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1450 |
+| atom | 1465 |
 | chronology | 331 |
-| concept | 72 |
+| concept | 78 |
 | metadata | 18 |
-| motif | 110 |
+| motif | 120 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1389 atome(s) incomplet(s) sur 1450.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 116 |
-| unknown | 49 |
+| template | 126 |
+| unknown | 55 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1209 |
-| missing_required_field | 3925 |
+| invalid_controlled_value | 1223 |
+| missing_required_field | 4000 |
 | schema_warning | 399 |
-| unknown_yaml_block | 49 |
-| v2_migration_debt | 9169 |
+| unknown_yaml_block | 55 |
+| v2_migration_debt | 9206 |
 
 ## 5. Erreurs bloquantes
 
@@ -54,6 +54,12 @@ Aucune.
 
 ## 6. Blocs YAML non classés
 
+- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [DISC-S41-A-FACTORY-SAMPLE-DIGITAL-GLASS] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [LIVE-S41-REZILLOS-UNDERTONES-TOUR-1978] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [LIVE-S41-BRUNEL-SPITTING-1978] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [LIVE-S41-BRISTOL-LOCARNO-EJECTION] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [LIVE-S41-HOPE-ANCHOR-FIRST-LONDON] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [MED-S41-LUTON-DUNSTABLE-FIRST-FIT] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [DISC-S41-AN-IDEAL-FOR-LIVING-EP] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [BAND-S41-WARSAW-PAKT-NEEDLE-TIME] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET] : Unable to infer documentary kind
@@ -88,13 +94,7 @@ Aucune.
 - `registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md` [DISC-S41-SHORT-CIRCUIT-FEATURING-JOY-DIVISION] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md` [DISC-S41-PANIK-IT-WONT-SELL-RAINY-CITY] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md` [LIVE-S41-SWINGING-APPLE-LAST-WARSAW-TL2] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-ELECTRIC-CIRCUS-1977-05-29] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-RAFTERS-HEARTBREAKERS-1977-05-31] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-NEWCASTLE-GUILD-HALL-1977-06-06] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-SQUAT-STUFF-THE-JUBILEE-1977] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-RAFTERS-FAST-BREEDER-1977-06-30] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-ERICS-LIVERPOOL-1977-08-27] : Unable to infer documentary kind
-- … 9 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 15 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -113,10 +113,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1450
+- Atomes : 1465
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1389
-- Avertissements de champs v2 manquants : 9169
+- Atomes v2 incomplets : 1404
+- Avertissements de champs v2 manquants : 9206
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

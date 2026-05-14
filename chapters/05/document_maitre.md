@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T16:04:01"
+generated_at: "2026-05-14T16:42:16"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 305 |
+| Atomes | 306 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -34,7 +34,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 77 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 78 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
@@ -242,6 +242,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `construction_esthetique` ; importance : `majeur` ; preuve : `témoignage direct autobiographique`.
 - **S41-A049** — S41-A049 — Joy Division protégé et marchandisé : nom traumatique, vibrateurs, bootlegs et T-shirts  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_nominale` ; importance : `majeur` ; preuve : `témoignage rétrospectif de Hook`.
+- **S41-A084** — S41-A084 — Assembler Factory Sample : travail manuel, Saville retardataire et Wilson en père Noël punk  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct + notice documentaire`.
 - **S41-C02** — S41-C02 — La basse comme instrument principal de Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S41-C03** — S41-C03 — Martin Hannett comme reconstructeur sonore  
@@ -278,8 +280,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_strategie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-032** — S46-032 — Factory Club comme vrai point de naissance artistique  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_temoin` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-033** — S46-033 — Autoédition du 7 pouces *An Ideal for Living*  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -534,6 +534,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Short Circuit (2)
 - imagerie nazie (2)
 - Joy Division (2)
+- A Factory Sample (2)
 - Digital (2)
 - Glass (2)
 - Love Will Tear Us Apart (2)
@@ -542,7 +543,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Throbbing Gristle (2)
 - Stiff Kittens (2)
 - Warszawa (2)
-- Richard Boon (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -602,6 +602,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A077 — prolonge → CONCEPT-061
 - S41-A078 — prolonge → CONCEPT-063
 - S41-A078 — prolonge → CONCEPT-049
+- S41-A084 — prolonge → CONCEPT-073
+- S41-A084 — prolonge → CONCEPT-061
 - S41-A064 — consolide → S41-A042
 - S41-A064 — consolide → S41-A055
 - S41-A064 — prépare → S41-A001
@@ -624,8 +626,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S75-A055 — requiert → CONCEPT-004
 - S75-A055 — prolonge → MOTIF-006
 - S75-A055 — nuance → MYTH-006
-- S74-A023 — prolonge → S74-A022
-- S74-A023 — annonce → S74-A030
 
 ## 13. Distribution documentaire
 
@@ -662,6 +662,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception | 3 |
 | objet_audiovisuel | 2 |
 | construction_esthetique | 2 |
+| economie_discographique | 2 |
 | iconographie | 2 |
 | enregistrement | 2 |
 | objet_merchandising | 2 |
@@ -746,7 +747,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception_posthume | 1 |
 | biographie | 1 |
 | ecosysteme | 1 |
-| economie_discographique | 1 |
 | tournee_fatigue | 1 |
 | concert_incident | 1 |
 | bifurcation_industrielle | 1 |
@@ -813,7 +813,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | non qualifiée | 191 |
 | critique | 86 |
 | majeure | 26 |
-| majeur | 2 |
+| majeur | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -836,6 +836,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A071 [faible à moyen] — Ne pas transformer Gretton en sauveur total ; il règle des problèmes très concrets.
 - S41-A077 [moyen] — Ne pas faire de la télévision une consécration nationale ; c’est une fenêtre locale pré-enregistrée.
 - S41-A078 [faible à moyen] — Ne pas réduire le style à deux influences ; elles complètent les contraintes matérielles déjà atomisées.
+- S41-A084 [moyen] — Ne pas fétichiser l’objet Factory en oubliant le travail manuel et le retard logistique.
 - S41-A064 [faible] — Atome de verrouillage chronologique ; éviter de répéter l’analyse sonore des pages 85-98.
 - S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
 - S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
@@ -876,7 +877,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A047 [moyen] — scène souvent mythifiée ; ne pas en faire une prophétie automatique de Factory
 - S76-A144 [faible] — fait logistique concret ; ne pas le sursymboliser
 - S76-A145 [moyen] — anecdote très pittoresque ; ne pas folkloriser la précarité ou la colère de Curtis
-- S76-A100 [moyen] — éviter de transformer le choix Factory en geste purement moral ou purement économique
 
 ## 15. Lacunes et prochaines vérifications
 
