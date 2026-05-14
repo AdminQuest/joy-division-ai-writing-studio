@@ -15735,6 +15735,432 @@
       ]
     }
   },
+  "S41-A001": {
+    "kind": "atom",
+    "id": "S41-A001",
+    "file": "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
+    "heading": "S41-A001 — Le nom Joy Division : House of Dolls, provocation punk et défense salfordienne",
+    "data": {
+      "id": "S41-A001",
+      "type_unite": "tension_documentaire",
+      "titre": "Le nom Joy Division : House of Dolls, provocation punk et défense salfordienne",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "12-13",
+        "papier": "à verrouiller"
+      },
+      "citation": "No. We’re not fucking Nazis. We’re from Salford.",
+      "resume": "Hook attribue à Ian Curtis la proposition du nom Joy Division, tiré de *House of Dolls* de Ka-Tzetnik 135633, que Curtis aurait fait lire aux autres membres. Il insiste sur la dimension d’identification aux opprimées plutôt qu’aux oppresseurs, tout en reconnaissant que le nom expose durablement le groupe à l’accusation de nazisme.\n",
+      "role_argumentatif": [
+        "Fonder le traitement historiographique du nom Joy Division comme combinaison de provocation punk, lecture littéraire, naïveté politique et défense identitaire salfordienne."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif de Peter Hook",
+        "corroboration": "forte sur la source *House of Dolls* ; interprétation politique à croiser avec S45, Sumner et presse",
+        "confiance": "élevée pour l’attribution générale ; moyenne pour la rationalisation rétrospective"
+      },
+      "stabilite": {
+        "statut": "stable comme mémoire de Hook",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée."
+      },
+      "motifs": [
+        "House of Dolls",
+        "nom Joy Division",
+        "accusation nazie",
+        "Salford",
+        "provocation punk"
+      ],
+      "concepts_derives": [
+        "contextualisation sans excuse",
+        "défense identitaire salfordienne",
+        "provocation nominale"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MYTH-007"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-025"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A100"
+        }
+      ],
+      "couche_narrative": [
+        "nom",
+        "controverse",
+        "mémoire"
+      ],
+      "usage_livre": [
+        "Chapitre 5",
+        "Chapitre 11"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A002": {
+    "kind": "atom",
+    "id": "S41-A002",
+    "file": "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
+    "heading": "S41-A002 — Trans-Europe Express à Pips : Curtis entre rituel d’entrée et désordre pré-scénique",
+    "data": {
+      "id": "S41-A002",
+      "type_unite": "scene_live",
+      "titre": "Trans-Europe Express à Pips : Curtis entre rituel d’entrée et désordre pré-scénique",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "13-14",
+        "papier": "à verrouiller"
+      },
+      "citation": "He loved that record.",
+      "resume": "Avant le concert de Pips, Curtis fait passer *Trans-Europe Express* de Kraftwerk sur la sono, vraisemblablement comme musique d’introduction. Hook le décrit sur la piste, bougeant avec la musique et donnant des coups dans du verre brisé, jusqu’à son expulsion par le bouncer. La scène montre un Curtis déjà soucieux de dramaturgie, mais incapable de séparer geste scénique, alcool possible et désordre concret.\n",
+      "role_argumentatif": [
+        "Inscrire Kraftwerk et le rituel d’entrée dans une scène de formation scénique encore rudimentaire, instable et dangereuse."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne ; à croiser avec gig lists, S45 et souvenirs de membres",
+        "confiance": "élevée comme mémoire de Hook"
+      },
+      "stabilite": {
+        "statut": "stable comme scène racontée ; intention de Curtis incertaine",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de transformer l’intro Kraftwerk en stratégie esthétique pleinement consciente ; Hook laisse plusieurs hypothèses ouvertes."
+      },
+      "motifs": [
+        "Trans-Europe Express",
+        "Kraftwerk",
+        "Pips",
+        "verre brisé",
+        "bouncer"
+      ],
+      "concepts_derives": [
+        "rituel pré-scénique instable",
+        "dramaturgie accidentelle"
+      ],
+      "relations": [
+        {
+          "type": "prépare",
+          "cible": "CONCEPT-027"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A074"
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "performance"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A003": {
+    "kind": "atom",
+    "id": "S41-A003",
+    "file": "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
+    "heading": "S41-A003 — Ian expulsé puis réintégré : le chanteur comme problème logistique",
+    "data": {
+      "id": "S41-A003",
+      "type_unite": "scene_organisationnelle",
+      "titre": "Ian expulsé puis réintégré : le chanteur comme problème logistique",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "14",
+        "papier": "à verrouiller"
+      },
+      "citation": "that wanker’s our singer",
+      "resume": "Le bouncer expulse Curtis pour avoir frappé du verre brisé ; les trois autres membres doivent supplier pour le faire rentrer, au motif que ce perturbateur est leur chanteur. La scène expose d’emblée une tension durable : Curtis est indispensable à la performance, mais il est aussi un facteur de désordre avant même le début du concert.\n",
+      "role_argumentatif": [
+        "Montrer que la centralité de Curtis apparaît dès le premier concert comme problème d’organisation, pas seulement comme charisme."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne",
+        "confiance": "élevée comme scène mémoire"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas projeter toute la trajectoire médicale ou mythique sur une scène de désordre punk initial."
+      },
+      "motifs": [
+        "chanteur indispensable",
+        "bouncer",
+        "désordre pré-concert",
+        "Pips"
+      ],
+      "concepts_derives": [
+        "centralité logistique du chanteur",
+        "frontman comme risque organisationnel"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-027"
+        },
+        {
+          "type": "prépare",
+          "cible": "CONCEPT-039"
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "organisation"
+      ],
+      "usage_livre": [
+        "Chapitre 6"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A004": {
+    "kind": "atom",
+    "id": "S41-A004",
+    "file": "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
+    "heading": "S41-A004 — Hondo II et corde qui saute : anti-mythe technique du premier concert",
+    "data": {
+      "id": "S41-A004",
+      "type_unite": "economie_materielle",
+      "titre": "Hondo II et corde qui saute : anti-mythe technique du premier concert",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "13-15",
+        "papier": "à verrouiller"
+      },
+      "citation": "Boing.",
+      "resume": "Hook arrive au premier concert Joy Division avec une basse neuve Hondo II Rickenbacker copy, achetée le jour même. Au premier accord, la corde saute hors du sillet ; il doit la maintenir avec les doigts pour continuer à jouer. Le récit démythifie la naissance du groupe : le premier moment public est aussi panne de matériel, bricolage et gêne.\n",
+      "role_argumentatif": [
+        "Contrebalancer la mythologie de Joy Division par la matérialité pauvre et défectueuse de ses débuts."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct de Peter Hook",
+        "corroboration": "moyenne ; détail matériel difficile à croiser",
+        "confiance": "élevée comme souvenir personnel"
+      },
+      "stabilite": {
+        "statut": "stable comme anecdote structurante",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible",
+        "raison": "L’atome sert surtout de contre-mythe technique ; ne pas le surcharger."
+      },
+      "motifs": [
+        "Hondo II",
+        "basse défectueuse",
+        "boing",
+        "bricolage",
+        "premier concert"
+      ],
+      "concepts_derives": [
+        "anti-mythe technique",
+        "pauvreté matérielle"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-006"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A058"
+        }
+      ],
+      "couche_narrative": [
+        "son",
+        "matériel",
+        "live"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A005": {
+    "kind": "atom",
+    "id": "S41-A005",
+    "file": "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
+    "heading": "S41-A005 — Les mates de Salford : public intime, violence ordinaire et honte du groupe",
+    "data": {
+      "id": "S41-A005",
+      "type_unite": "scene_sociale_live",
+      "titre": "Les mates de Salford : public intime, violence ordinaire et honte du groupe",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "13-15",
+        "papier": "à verrouiller"
+      },
+      "citation": "Flat as fuck but the band played on.",
+      "resume": "Hook invite ses amis de Salford, qui constituent la majorité du public. Ils commencent à s’interpeller, se battre entre eux, puis avec d’autres jeunes. Hook tente de jouer tout en protégeant ses amis depuis la scène. La scène transforme le premier concert Joy Division en mélange de fierté sociale, honte interne et violence de proximité.\n",
+      "role_argumentatif": [
+        "Documenter la présence persistante du monde social de Salford dans la première scène Joy Division, avant la stabilisation du mythe post-punk."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne ; à croiser avec gig lists et souvenirs des autres membres",
+        "confiance": "élevée comme perception de Hook"
+      },
+      "stabilite": {
+        "statut": "stable comme scène de mémoire",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de transformer la bagarre en folklore comique ; elle éclaire aussi classe, appartenance et honte."
+      },
+      "motifs": [
+        "Salford mates",
+        "Flemish Weaver",
+        "bagarre",
+        "Pips",
+        "public intime"
+      ],
+      "concepts_derives": [
+        "public d’origine",
+        "violence de proximité",
+        "honte sociale interne"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-025"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ],
+      "couche_narrative": [
+        "classe",
+        "live",
+        "réception"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "S41-A006": {
+    "kind": "atom",
+    "id": "S41-A006",
+    "file": "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
+    "heading": "S41-A006 — Premier concert Joy Division : naissance publique dans l’échec",
+    "data": {
+      "id": "S41-A006",
+      "type_unite": "synthese_tension",
+      "titre": "Premier concert Joy Division : naissance publique dans l’échec",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "12-15",
+        "papier": "à verrouiller"
+      },
+      "citation": "Our first gig as Joy Division and we didn’t play another one for almost two months",
+      "resume": "Hook conclut que le premier concert sous le nom Joy Division est terrible : chanteur expulsé, basse défaillante, public minuscule, amis en bagarre, salle vidée, groupe humilié. Ce ratage devient paradoxalement scène fondatrice, parce qu’il condense la provocation du nom, la violence sociale, l’anti-professionnalisme et la gravité future encore absente.\n",
+      "role_argumentatif": [
+        "Faire du premier concert un anti-mythe de naissance : Joy Division ne surgit pas dans la maîtrise mais dans le chaos."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif fortement stylisé",
+        "corroboration": "forte sur l’existence du concert ; moyenne sur les détails",
+        "confiance": "élevée comme scène de mémoire"
+      },
+      "stabilite": {
+        "statut": "stable comme récit hookien ; détails à croiser",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque d’en faire une préfiguration téléologique de toute la trajectoire ; le passage doit rester anti-téléologique."
+      },
+      "motifs": [
+        "premier concert Joy Division",
+        "Pips Discotheque",
+        "échec fondateur",
+        "bagarre",
+        "chaos"
+      ],
+      "concepts_derives": [
+        "naissance par le ratage",
+        "anti-mythe fondateur"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A067"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        },
+        {
+          "type": "prépare",
+          "cible": "CHAPITRE-6-PROFESSIONNALISATION-LIVE"
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "mythe",
+        "origine"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
   "S46-121": {
     "kind": "atom",
     "id": "S46-121",
@@ -26916,9 +27342,9 @@
       ]
     }
   },
-  "NO_ID::sources/flowers/README.md::664": {
+  "NO_ID::sources/flowers/README.md::670": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::664",
+    "id": "NO_ID::sources/flowers/README.md::670",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -26933,9 +27359,9 @@
       "source_short_title": "Claude Flowers, New Order + Joy Division: Dreams Never End, 1995/2012"
     }
   },
-  "NO_ID::sources/flowers/README.md::665": {
+  "NO_ID::sources/flowers/README.md::671": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::665",
+    "id": "NO_ID::sources/flowers/README.md::671",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -26993,9 +27419,9 @@
       ]
     }
   },
-  "NO_ID::sources/flowers/README.md::666": {
+  "NO_ID::sources/flowers/README.md::672": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::666",
+    "id": "NO_ID::sources/flowers/README.md::672",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -27014,9 +27440,9 @@
       ]
     }
   },
-  "NO_ID::sources/flowers/README.md::667": {
+  "NO_ID::sources/flowers/README.md::673": {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::667",
+    "id": "NO_ID::sources/flowers/README.md::673",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -31731,9 +32157,9 @@
       "source_year": "2004"
     }
   },
-  "NO_ID::sources/ott_unknown_pleasures/README.md::749": {
+  "NO_ID::sources/ott_unknown_pleasures/README.md::755": {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::749",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::755",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -67032,9 +67458,9 @@
       "source_year": "2012"
     }
   },
-  "NO_ID::sources/hook/citations_exactes.md::1372": {
+  "NO_ID::sources/hook/citations_exactes.md::1378": {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1372",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1378",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -71627,9 +72053,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1518": {
+  "NO_ID::sources/suatoni/README.md::1524": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1518",
+    "id": "NO_ID::sources/suatoni/README.md::1524",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -71644,9 +72070,9 @@
       "source_short_title": "Alfredo Suatoni, Joy Division: Dal cuore della città / From the Centre of the City, 1990"
     }
   },
-  "NO_ID::sources/suatoni/README.md::1519": {
+  "NO_ID::sources/suatoni/README.md::1525": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1519",
+    "id": "NO_ID::sources/suatoni/README.md::1525",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -71682,9 +72108,9 @@
       ]
     }
   },
-  "NO_ID::sources/suatoni/README.md::1520": {
+  "NO_ID::sources/suatoni/README.md::1526": {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1520",
+    "id": "NO_ID::sources/suatoni/README.md::1526",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -72827,9 +73253,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1556": {
+  "NO_ID::sources/greig_strong/README.md::1562": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1556",
+    "id": "NO_ID::sources/greig_strong/README.md::1562",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -72844,9 +73270,9 @@
       "source_short_title": "Alastair Greig ; Catherine Strong, But We Remember When We Were Young, 2014"
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1557": {
+  "NO_ID::sources/greig_strong/README.md::1563": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1557",
+    "id": "NO_ID::sources/greig_strong/README.md::1563",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -72873,9 +73299,9 @@
       ]
     }
   },
-  "NO_ID::sources/greig_strong/README.md::1558": {
+  "NO_ID::sources/greig_strong/README.md::1564": {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1558",
+    "id": "NO_ID::sources/greig_strong/README.md::1564",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -74045,9 +74471,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/songs/master_songs.md::1590": {
+  "NO_ID::registers/songs/master_songs.md::1596": {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1590",
+    "id": "NO_ID::registers/songs/master_songs.md::1596",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -74770,6 +75196,110 @@
       "source_label": "S45 — Curtis, Touching from a Distance, 1995",
       "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
       "source_year": "1995"
+    }
+  },
+  "SONG-S41-TRANS-EUROPE-EXPRESS-PIPS": {
+    "kind": "atom",
+    "id": "SONG-S41-TRANS-EUROPE-EXPRESS-PIPS",
+    "file": "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
+    "heading": "S41 — Chansons, objets et lieux — Pips et premier concert Joy Division",
+    "data": {
+      "id": "SONG-S41-TRANS-EUROPE-EXPRESS-PIPS",
+      "source_id": "S41",
+      "titre": "Trans-Europe Express",
+      "artiste": "Kraftwerk",
+      "nature": "morceau d’introduction / rituel pré-scénique",
+      "usage": "Morceau aimé de Curtis et joué sur la sono avant le premier concert Joy Division à Pips. Il fonctionne comme entrée scénique possible, immédiatement brouillée par le désordre du verre brisé et l’expulsion du chanteur.\n",
+      "atomes_lies": [
+        "S41-A002"
+      ],
+      "chapitres": [
+        "Chapitre 6"
+      ],
+      "prudence": "Ne pas transformer ce choix en programme esthétique complet ; Hook lui-même demeure prudent sur l’intention exacte de Curtis.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "SONG-S41-EXERCISE-ONE-PIPS": {
+    "kind": "atom",
+    "id": "SONG-S41-EXERCISE-ONE-PIPS",
+    "file": "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
+    "heading": "S41 — Chansons, objets et lieux — Pips et premier concert Joy Division",
+    "data": {
+      "id": "SONG-S41-EXERCISE-ONE-PIPS",
+      "source_id": "S41",
+      "titre": "Exercise One",
+      "artiste": "Joy Division",
+      "nature": "premier morceau annoncé au concert de Pips",
+      "usage": "Premier morceau lancé après la déclaration de Curtis « We’re Joy Division » ; immédiatement perturbé par la corde de basse de Hook qui saute.\n",
+      "atomes_lies": [
+        "S41-A004",
+        "S41-A006"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "prudence": "La scène est surtout technique et mémorielle ; ne pas en faire un commentaire musical sur le morceau.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "BOOK-S41-HOUSE-OF-DOLLS-NAME": {
+    "kind": "unknown",
+    "id": "BOOK-S41-HOUSE-OF-DOLLS-NAME",
+    "file": "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
+    "heading": "S41 — Chansons, objets et lieux — Pips et premier concert Joy Division",
+    "data": {
+      "id": "BOOK-S41-HOUSE-OF-DOLLS-NAME",
+      "source_id": "S41",
+      "titre": "House of Dolls",
+      "auteur": "Ka-Tzetnik 135633",
+      "nature": "source du nom Joy Division",
+      "usage": "Ouvrage d’où Curtis tire le nom Joy Division selon Hook. À relier aux débats sur le nom du groupe, *No Love Lost* et la controverse nazie.\n",
+      "atomes_lies": [
+        "S41-A001"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 11"
+      ],
+      "prudence": "Distinguer lecture, emprunt nominal, provocation punk et réception éthique.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  "LIVE-S41-PIPS-FIRST-JOY-DIVISION-GIG": {
+    "kind": "unknown",
+    "id": "LIVE-S41-PIPS-FIRST-JOY-DIVISION-GIG",
+    "file": "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
+    "heading": "S41 — Chansons, objets et lieux — Pips et premier concert Joy Division",
+    "data": {
+      "id": "LIVE-S41-PIPS-FIRST-JOY-DIVISION-GIG",
+      "source_id": "S41",
+      "titre": "Pips Discotheque, Manchester, January 1978",
+      "nature": "premier concert officiel sous le nom Joy Division",
+      "usage": "Scène fondatrice mais anti-héroïque : nom annoncé, intro Kraftwerk, chanteur expulsé, basse défaillante, bagarre salfordienne et salle vidée.\n",
+      "atomes_lies": [
+        "S41-A001",
+        "S41-A002",
+        "S41-A003",
+        "S41-A004",
+        "S41-A005",
+        "S41-A006"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "prudence": "Croiser avec S45 et gig lists ; conserver la dimension stylisée du récit de Hook.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
     }
   },
   "SONG-S76-020": {
@@ -78401,9 +78931,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::1706": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::1716": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::1706",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::1716",
     "file": "registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Citations candidates — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -78705,9 +79235,9 @@
       ]
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1707": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1717": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1707",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1717",
     "file": "registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Citations candidates — tournée européenne, Annik, foyer et seuil Closer",
     "data": {
@@ -80598,9 +81128,9 @@
       "source_year": "1995"
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1752": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1762": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1752",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1762",
     "file": "registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md",
     "heading": "S45 — Citations candidates — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -83201,9 +83731,9 @@
       "source_year": "2006"
     }
   },
-  "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1817": {
+  "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1827": {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1817",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1827",
     "file": "registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Citations candidates — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -84993,6 +85523,100 @@
       ],
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
+    }
+  },
+  "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::1870": {
+    "kind": "template",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::1870",
+    "file": "registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md",
+    "heading": "S41 — Citations candidates — Pips et premier concert Joy Division",
+    "data": {
+      "quotes": [
+        {
+          "id": "S41-Q001",
+          "source_id": "S41",
+          "passage": "No. We’re not fucking Nazis. We’re from Salford.",
+          "traduction_de_travail": "Non. Nous ne sommes pas des putains de nazis. Nous venons de Salford.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "13",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A001"
+          ]
+        },
+        {
+          "id": "S41-Q002",
+          "source_id": "S41",
+          "passage": "He loved that record.",
+          "traduction_de_travail": "Il adorait ce disque.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "13",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A002"
+          ]
+        },
+        {
+          "id": "S41-Q003",
+          "source_id": "S41",
+          "passage": "Yeah, but that wanker’s our singer",
+          "traduction_de_travail": "Oui, mais ce branleur est notre chanteur",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "14",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A003"
+          ]
+        },
+        {
+          "id": "S41-Q004",
+          "source_id": "S41",
+          "passage": "Boing.",
+          "traduction_de_travail": "Boing.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "14-15",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A004"
+          ]
+        },
+        {
+          "id": "S41-Q005",
+          "source_id": "S41",
+          "passage": "Flat as fuck but the band played on.",
+          "traduction_de_travail": "Faux à mourir, mais le groupe continua à jouer.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "15",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A005"
+          ]
+        },
+        {
+          "id": "S41-Q006",
+          "source_id": "S41",
+          "passage": "Our first gig as Joy Division and we didn’t play another one for almost two months",
+          "traduction_de_travail": "Notre premier concert comme Joy Division, et nous n’en avons pas rejoué pendant presque deux mois.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "15",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A006"
+          ]
+        }
+      ]
     }
   },
   "S76-Q001": {
@@ -89651,9 +90275,9 @@
       "source_year": "s.d."
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2002": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2013": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2002",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2013",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -89808,9 +90432,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2003": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2014": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2003",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2014",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -90050,9 +90674,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2004": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2015": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2004",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2015",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -90116,9 +90740,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2005": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2016": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2005",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2016",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -90270,9 +90894,196 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2006": {
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2017": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2006",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2017",
+    "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
+    "heading": "Relations stabilisées",
+    "data": {
+      "relations": [
+        {
+          "id": "REL-S41-A001-MYTH-007",
+          "source": "S41-A001",
+          "type": "nuance",
+          "cible": "MYTH-007",
+          "justification": "Hook confirme l’origine *House of Dolls* du nom, mais reformule la controverse en défense salfordienne et punk plutôt qu’en idéologie.\n"
+        },
+        {
+          "id": "REL-S41-A001-CONCEPT-025",
+          "source": "S41-A001",
+          "type": "prolonge",
+          "cible": "CONCEPT-025",
+          "justification": "Le passage impose une contextualisation sans excuse : comprendre la provocation sans neutraliser sa charge éthique.\n"
+        },
+        {
+          "id": "REL-S41-A002-CONCEPT-043",
+          "source": "S41-A002",
+          "type": "prolonge",
+          "cible": "CONCEPT-043",
+          "justification": "Curtis prépare une entrée scénique mais devient immédiatement un problème pratique pour le concert.\n"
+        },
+        {
+          "id": "REL-S41-A003-CONCEPT-043",
+          "source": "S41-A003",
+          "type": "prolonge",
+          "cible": "CONCEPT-043",
+          "justification": "Le chanteur indispensable doit être récupéré auprès du bouncer pour que le concert puisse commencer.\n"
+        },
+        {
+          "id": "REL-S41-A004-CONCEPT-041",
+          "source": "S41-A004",
+          "type": "prolonge",
+          "cible": "CONCEPT-041",
+          "justification": "La panne de basse contredit toute vision d’une naissance maîtrisée du groupe.\n"
+        },
+        {
+          "id": "REL-S41-A005-CONCEPT-041",
+          "source": "S41-A005",
+          "type": "prolonge",
+          "cible": "CONCEPT-041",
+          "justification": "La bagarre du public intime rend l’origine scénique socialement chaotique.\n"
+        },
+        {
+          "id": "REL-S41-A006-MYTH-002",
+          "source": "S41-A006",
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "justification": "Le premier concert officiel Joy Division relève du ratage matériel et social avant toute aura tragique."
+        }
+      ]
+    }
+  },
+  "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2018": {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2018",
+    "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
+    "heading": "Entrées RAG candidates",
+    "data": {
+      "rag_index": [
+        {
+          "id": "RAG-S41-A001",
+          "source_id": "S41",
+          "atom_id": "S41-A001",
+          "title": "Le nom Joy Division : House of Dolls et défense salfordienne",
+          "chapters": [
+            "Chapitre 5",
+            "Chapitre 11"
+          ],
+          "tags": [
+            "joy-division-name",
+            "house-of-dolls",
+            "nazism-controversy",
+            "salford",
+            "peter-hook"
+          ],
+          "query_boost": [
+            "No. We’re not fucking Nazis. We’re from Salford.",
+            "House of Dolls Joy Division Peter Hook",
+            "Joy Division name oppressed not oppressors"
+          ],
+          "use_for": [
+            "controverse du nom",
+            "contextualisation sans excuse",
+            "défense rétrospective de Hook"
+          ],
+          "avoid_for": [
+            "excuse sociale totale",
+            "preuve d’innocence politique complète"
+          ]
+        },
+        {
+          "id": "RAG-S41-A002",
+          "source_id": "S41",
+          "atom_id": "S41-A002",
+          "title": "Trans-Europe Express à Pips",
+          "chapters": [
+            "Chapitre 6"
+          ],
+          "tags": [
+            "pips",
+            "kraftwerk",
+            "trans-europe-express",
+            "ian-curtis",
+            "intro-music"
+          ],
+          "query_boost": [
+            "Trans-Europe Express Pips Ian Curtis",
+            "He loved that record",
+            "kicking broken glass Trans-Europe Express"
+          ],
+          "use_for": [
+            "rituel d’entrée scénique",
+            "Kraftwerk et Joy Division",
+            "désordre pré-scénique"
+          ],
+          "avoid_for": [
+            "programme esthétique entièrement conscient"
+          ]
+        },
+        {
+          "id": "RAG-S41-A004",
+          "source_id": "S41",
+          "atom_id": "S41-A004",
+          "title": "Hondo II et basse défaillante",
+          "chapters": [
+            "Chapitre 3",
+            "Chapitre 6"
+          ],
+          "tags": [
+            "peter-hook",
+            "bass",
+            "hondo-ii",
+            "pips",
+            "technical-failure"
+          ],
+          "query_boost": [
+            "Boing Hondo II Rickenbacker Copy",
+            "string flipped off the guitar Pips"
+          ],
+          "use_for": [
+            "anti-mythe technique",
+            "débuts matériels de Hook"
+          ],
+          "avoid_for": [
+            "analyse sonore générale du style Hook"
+          ]
+        },
+        {
+          "id": "RAG-S41-A006",
+          "source_id": "S41",
+          "atom_id": "S41-A006",
+          "title": "Premier concert Joy Division comme anti-mythe fondateur",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "first-gig",
+            "pips",
+            "joy-division",
+            "fight",
+            "origin-myth"
+          ],
+          "query_boost": [
+            "Our first gig as Joy Division",
+            "didn’t play another one for almost two months",
+            "first gig Joy Division ended in a fight"
+          ],
+          "use_for": [
+            "naissance publique du groupe",
+            "anti-mythe fondateur",
+            "chaos live"
+          ],
+          "avoid_for": [
+            "téléologie tragique"
+          ]
+        }
+      ]
+    }
+  },
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2019": {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2019",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -90420,9 +91231,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2007": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2020": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2007",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2020",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -90649,9 +91460,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2008": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2021": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2008",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2021",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -90743,9 +91554,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2009": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2022": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2009",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2022",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -90913,9 +91724,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2010": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2023": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2010",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2023",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -91021,9 +91832,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2011": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2024": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2011",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2024",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -91229,9 +92040,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2012": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2025": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2012",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2025",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -91351,9 +92162,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2013": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2026": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2013",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2026",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -91485,9 +92296,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2014": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2027": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2014",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2027",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -91506,9 +92317,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2015": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2028": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2015",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2028",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -91586,9 +92397,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2016": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2029": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2016",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2029",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -91763,9 +92574,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2017": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2030": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2017",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2030",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -91885,9 +92696,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2018": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2031": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2018",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2031",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -92051,9 +92862,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2019": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2032": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2019",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2032",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -92110,9 +92921,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2020": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2033": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2020",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2033",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -92159,9 +92970,9 @@
       ]
     }
   },
-  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2021": {
+  "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2034": {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2021",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2034",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -92950,6 +93761,91 @@
         "Chapitre 8",
         "Chapitre 10",
         "Chapitre 12"
+      ]
+    }
+  },
+  "MOTIF-055": {
+    "kind": "motif",
+    "id": "MOTIF-055",
+    "file": "registers/motifs/s41_hook_motifs_1978_pips_first_joy_division_gig.md",
+    "heading": "MOTIF-055 — nom qui accuse",
+    "data": {
+      "id": "MOTIF-055",
+      "nom": "nom qui accuse",
+      "definition": "Motif désignant le nom Joy Division comme signe immédiatement producteur de soupçon : référence à *House of Dolls*, provocation punk, accusation durable de nazisme et nécessité répétée de défense.\n",
+      "atomes_lies": [
+        "S41-A001"
+      ],
+      "concepts_associes": [
+        "CONCEPT-025",
+        "CONCEPT-042"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 11"
+      ]
+    }
+  },
+  "MOTIF-056": {
+    "kind": "motif",
+    "id": "MOTIF-056",
+    "file": "registers/motifs/s41_hook_motifs_1978_pips_first_joy_division_gig.md",
+    "heading": "MOTIF-056 — entrée Kraftwerk",
+    "data": {
+      "id": "MOTIF-056",
+      "nom": "entrée Kraftwerk",
+      "definition": "Motif désignant l’usage de *Trans-Europe Express* comme musique d’introduction ou rituel d’entrée, immédiatement contaminé par le désordre du verre brisé et l’expulsion de Curtis.\n",
+      "atomes_lies": [
+        "S41-A002"
+      ],
+      "concepts_associes": [
+        "CONCEPT-043"
+      ],
+      "chapitres": [
+        "Chapitre 6"
+      ]
+    }
+  },
+  "MOTIF-057": {
+    "kind": "motif",
+    "id": "MOTIF-057",
+    "file": "registers/motifs/s41_hook_motifs_1978_pips_first_joy_division_gig.md",
+    "heading": "MOTIF-057 — basse défaillante",
+    "data": {
+      "id": "MOTIF-057",
+      "nom": "basse défaillante",
+      "definition": "Motif technique de débuts : instrument neuf, corde qui saute, bricolage immédiat et obligation de jouer malgré la panne.\n",
+      "atomes_lies": [
+        "S41-A004"
+      ],
+      "concepts_associes": [
+        "CONCEPT-041"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ]
+    }
+  },
+  "MOTIF-058": {
+    "kind": "motif",
+    "id": "MOTIF-058",
+    "file": "registers/motifs/s41_hook_motifs_1978_pips_first_joy_division_gig.md",
+    "heading": "MOTIF-058 — bagarre salfordienne devant scène",
+    "data": {
+      "id": "MOTIF-058",
+      "nom": "bagarre salfordienne devant scène",
+      "definition": "Motif live désignant l’irruption des amis de Salford de Hook comme public d’origine, à la fois soutien, embarras et violence sociale devant la scène.\n",
+      "atomes_lies": [
+        "S41-A005",
+        "S41-A006"
+      ],
+      "concepts_associes": [
+        "CONCEPT-041"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
       ]
     }
   },
@@ -94853,9 +95749,9 @@
       ]
     }
   },
-  "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::2099": {
+  "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::2116": {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::2099",
+    "id": "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::2116",
     "file": "registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Personnes — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -94970,9 +95866,9 @@
       ]
     }
   },
-  "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2100": {
+  "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2117": {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2100",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2117",
     "file": "registers/people/s45_curtis_people_1979_buzzcocks_tour.md",
     "heading": "S45 — Personnes — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -96842,6 +97738,77 @@
       ]
     }
   },
+  "NO_ID::registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md::2162": {
+    "kind": "template",
+    "id": "NO_ID::registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md::2162",
+    "file": "registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md",
+    "heading": "S41 — Personnes — Pips et premier concert Joy Division",
+    "data": {
+      "people": [
+        {
+          "id": "PERS-S41-PETER-HOOK-PIPS",
+          "personne": "Peter Hook",
+          "source_id": "S41",
+          "role": "Bassist and narrator of the Pips first Joy Division gig; brings Salford friends, struggles with new Hondo II bass and narrates the scene as anti-myth.",
+          "statut": "témoin direct / acteur",
+          "atomes_lies": [
+            "S41-A004",
+            "S41-A005",
+            "S41-A006"
+          ],
+          "usage": [
+            "Chapitre 3",
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "prudence": "Mémoire directe mais fortement scénarisée par le style oral de Hook."
+        },
+        {
+          "id": "PERS-S41-IAN-CURTIS-PIPS",
+          "personne": "Ian Curtis",
+          "source_id": "S41",
+          "role": "Chanteur expulsé puis réintégré avant le premier concert sous le nom Joy Division ; suggère le nom du groupe à partir de House of Dolls.",
+          "statut": "acteur principal / frontman",
+          "atomes_lies": [
+            "S41-A001",
+            "S41-A002",
+            "S41-A003"
+          ],
+          "usage": [
+            "Chapitre 5",
+            "Chapitre 6",
+            "Chapitre 12"
+          ]
+        },
+        {
+          "id": "PERS-S41-ALEX-PARKER-PIPS",
+          "personne": "Alex Parker",
+          "source_id": "S41",
+          "role": "Ami de Salford de Peter Hook ; impliqué avec son frère Ian dans la bagarre devant la scène.",
+          "statut": "public intime / témoin périphérique",
+          "atomes_lies": [
+            "S41-A005"
+          ],
+          "usage": [
+            "Chapitre 6"
+          ]
+        },
+        {
+          "id": "PERS-S41-IAN-PARKER-PIPS",
+          "personne": "Ian Parker",
+          "source_id": "S41",
+          "role": "Frère d’Alex Parker ; impliqué dans la bagarre au premier concert Joy Division à Pips.",
+          "statut": "public intime / témoin périphérique",
+          "atomes_lies": [
+            "S41-A005"
+          ],
+          "usage": [
+            "Chapitre 6"
+          ]
+        }
+      ]
+    }
+  },
   "PERS-S76-080": {
     "kind": "person",
     "id": "PERS-S76-080",
@@ -97005,9 +97972,9 @@
       ]
     }
   },
-  "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2149": {
+  "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2167": {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2149",
+    "id": "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2167",
     "file": "registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Personnes — tournée européenne, Annik, foyer et seuil Closer",
     "data": {
@@ -99583,9 +100550,9 @@
       "source_year": "1995"
     }
   },
-  "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2216": {
+  "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2234": {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2216",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2234",
     "file": "registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Personnes — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -100894,6 +101861,131 @@
           "type": "nuance",
           "cible": "MYTH-006"
         }
+      ]
+    }
+  },
+  "CONCEPT-041": {
+    "kind": "concept",
+    "id": "CONCEPT-041",
+    "file": "registers/concepts/s41_hook_concepts_1978_pips_first_joy_division_gig.md",
+    "heading": "CONCEPT-041 — anti-mythe fondateur live",
+    "data": {
+      "id": "CONCEPT-041",
+      "nom": "anti-mythe fondateur live",
+      "statut": {
+        "type": [
+          "concept_live",
+          "concept_memoire",
+          "concept_origine"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Concept désignant les scènes d’origine qui défont la solennité rétrospective du mythe Joy Division : premier concert raté, son défaillant, public minuscule, bagarre, maladresse technique et absence de maîtrise. L’origine n’est pas héroïque ; elle est chaotique et matérielle.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S41-A004",
+        "S41-A005",
+        "S41-A006"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-037"
+        }
+      ],
+      "risques": [
+        "transformer le chaos en prophétie",
+        "folkloriser la violence",
+        "effacer le travail progressif du groupe"
+      ]
+    }
+  },
+  "CONCEPT-042": {
+    "kind": "concept",
+    "id": "CONCEPT-042",
+    "file": "registers/concepts/s41_hook_concepts_1978_pips_first_joy_division_gig.md",
+    "heading": "CONCEPT-042 — défense salfordienne contre l’accusation nazie",
+    "data": {
+      "id": "CONCEPT-042",
+      "nom": "défense salfordienne contre l’accusation nazie",
+      "statut": {
+        "type": [
+          "concept_controverse",
+          "concept_classe",
+          "concept_memoire"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Forme de justification rétrospective par laquelle Hook répond à l’accusation de nazisme non par une doctrine politique, mais par une identité sociale et géographique : Salford, classe ouvrière, punk, provocation et absence d’idéologie structurée.\n",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 11"
+      ],
+      "atomes_lies": [
+        "S41-A001"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-025"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-007"
+        }
+      ],
+      "risques": [
+        "excuser par l’origine sociale",
+        "conclure à l’innocence politique sans examiner l’effet des signes",
+        "négliger la réception éthique du nom"
+      ]
+    }
+  },
+  "CONCEPT-043": {
+    "kind": "concept",
+    "id": "CONCEPT-043",
+    "file": "registers/concepts/s41_hook_concepts_1978_pips_first_joy_division_gig.md",
+    "heading": "CONCEPT-043 — frontman comme risque organisationnel",
+    "data": {
+      "id": "CONCEPT-043",
+      "nom": "frontman comme risque organisationnel",
+      "statut": {
+        "type": [
+          "concept_live",
+          "concept_management",
+          "concept_performance"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Concept désignant la tension par laquelle Curtis est indispensable à la performance tout en constituant un facteur de désordre pratique : expulsion avant scène, gestes pré-scéniques dangereux, focalisation du regard et nécessité de négocier sa réintégration.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S41-A002",
+        "S41-A003"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-027"
+        },
+        {
+          "type": "prépare",
+          "cible": "CONCEPT-039"
+        }
+      ],
+      "risques": [
+        "lire rétroactivement la maladie dans toute scène de désordre",
+        "réduire Curtis à un problème de gestion"
       ]
     }
   },
@@ -102370,9 +103462,9 @@
       ]
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2275": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2296": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2275",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2296",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -102392,9 +103484,9 @@
       "usage_recommande": "Utiliser ces atomes pour écrire un récit d’apprentissage, non une légende de révélation instantanée."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2276": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2297": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2276",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2297",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -102410,9 +103502,9 @@
       "usage_recommande": "Contextualiser sans excuser. Distinguer intention, effet visuel, réception, immaturité politique et charge morale."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2277": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2298": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2277",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2298",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -102428,9 +103520,9 @@
       "usage_recommande": "Éviter la vision de Factory comme anti-business naturel ; montrer l’apprentissage par contraste."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2278": {
+  "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2299": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2278",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2299",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -102444,9 +103536,9 @@
       "usage_recommande": "Employer ce passage pour socialiser et historiciser la maladie, non pour renforcer une téléologie morbide."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2279": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2300": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2279",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2300",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -102463,9 +103555,9 @@
       "usage_recommande": "Utiliser ces atomes pour maintenir le coût humain du mythe sans psychologiser ou spiritualiser chaque geste de Curtis."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2280": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2301": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2280",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2301",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -102483,9 +103575,9 @@
       "usage_recommande": "Traiter la santé comme faisceau instable : épilepsie, médicaments, sommeil, tournée, alcool, conflit conjugal, studio."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2281": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2302": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2281",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2302",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -102498,9 +103590,9 @@
       "usage_recommande": "Maintenir l’écart entre perception d’Annik, crise intime et statut poétique des paroles."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2282": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2303": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2282",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2303",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Closer comme pur objet de studio",
     "data": {
@@ -102920,9 +104012,9 @@
       ]
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2293": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2314": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2293",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2314",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-003 — Manchester comme matrice unique",
     "data": {
@@ -102937,9 +104029,9 @@
       "usage_recommande": "Utiliser ces atomes pour écrire Manchester comme dispositif relationnel et médiatique, non comme matrice mécanique du son."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2294": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2315": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2294",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2315",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -102955,9 +104047,9 @@
       "usage_recommande": "Présenter Factory comme configuration émergente dans un champ concurrentiel, pas comme pure extériorité anti-business."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2295": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2316": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2295",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2316",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -102972,9 +104064,9 @@
       "usage_recommande": "Inscrire le son Joy Division dans une série de frictions et de corrections."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2296": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2317": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2296",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2317",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -102987,9 +104079,9 @@
       "usage_recommande": "Croiser la critique contemporaine négative avec les lectures plus favorables de Paul Morley pour éviter un récit univoque."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2297": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2318": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2297",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2318",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-009 — Rob Gretton comme manager sauveur",
     "data": {
@@ -103003,9 +104095,9 @@
       "usage_recommande": "Présenter Gretton comme manager de proximité et médiateur, non comme sauveur providentiel ni simple obstacle conjugal."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2298": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2319": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2298",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2319",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -103024,9 +104116,9 @@
       "usage_recommande": "Écrire la fin comme faisceau de signes ambigus, non comme trajectoire entièrement lisible."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2299": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2320": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2299",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2320",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -103045,9 +104137,9 @@
       "usage_recommande": "Maintenir l’analyse en faisceau : maladie, médicaments, sommeil, tournée, entourage, management, couple."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2300": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2321": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2300",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2321",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-STROSZEK-CAUSE — Stroszek comme cause explicative du suicide",
     "data": {
@@ -103060,9 +104152,9 @@
       "usage_recommande": "Employer Stroszek comme motif de dernier week-end, non comme clé interprétative totale."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2301": {
+  "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2322": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2301",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2322",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU / objet canonique isolé",
     "data": {
@@ -103075,9 +104167,41 @@
       "usage_recommande": "Relier objets canoniques et conditions de production sans réduire l’un à l’autre."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2302": {
+  "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2323": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2302",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2323",
+    "file": "registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md",
+    "heading": "Complément MYTH-007 — La controverse nazie",
+    "data": {
+      "mythe_id": "MYTH-007",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A001"
+      ],
+      "apport": "Hook confirme la référence à House of Dolls et propose une défense rétrospective : Joy Division se serait identifié aux opprimées, non aux oppresseurs. Cette défense est historiographiquement utile mais ne suffit pas à neutraliser la réception éthique du nom.\n",
+      "usage_recommande": "Articuler S41 avec S45 : ne pas choisir entre innocence punk et accusation politique ; traiter l’écart entre intention, naïveté, provocation et réception."
+    }
+  },
+  "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2324": {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2324",
+    "file": "registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md",
+    "heading": "Complément MYTH-002 — Curtis comme figure tragique déjà constituée",
+    "data": {
+      "mythe_id": "MYTH-002",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A002",
+        "S41-A003",
+        "S41-A006"
+      ],
+      "apport": "Le prologue de Hook montre un Curtis encore pris dans le désordre punk, l’alcool possible, les gestes idiots, l’expulsion par un bouncer et le chaos d’un premier concert. Le mythe tragique n’est pas encore stabilisé.\n",
+      "usage_recommande": "Employer ce passage comme antidote à la téléologie : Joy Division commence aussi dans le ratage, la farce, le matériel défectueux et la violence ordinaire."
+    }
+  },
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2325": {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2325",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -103094,9 +104218,9 @@
       "usage_recommande": "Employer ces atomes pour déplacer la figure torturée vers une analyse des coûts domestiques, de la réception et des médiations."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2303": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2326": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2303",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2326",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -103116,9 +104240,9 @@
       "usage_recommande": "Toujours articuler maladie, médicaments, contexte de performance, care conjugal et temporalité médiatique."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2304": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2327": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2304",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2327",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -103132,9 +104256,9 @@
       "usage_recommande": "Lire les paroles comme poétique d’assemblage et non comme journal intime direct."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2305": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2328": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2305",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2328",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-CURTIS-AUTEUR-TOTAL — Curtis comme auteur total de Joy Division",
     "data": {
@@ -103148,9 +104272,9 @@
       "usage_recommande": "Maintenir la tension entre rôle central de Curtis et production collective."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2306": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2329": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2306",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2329",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -103164,9 +104288,9 @@
       "usage_recommande": "Éviter le double écueil : effacer Hannett ou lui attribuer seul la totalité du son."
     }
   },
-  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2307": {
+  "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2330": {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2307",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2330",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-009 — Gretton comme manager sauveur",
     "data": {
@@ -103816,6 +104940,36 @@
       "notes": "À traiter avec sobriété et sans romantisation."
     }
   },
+  "NO_ID::registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md::2346": {
+    "kind": "template",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md::2346",
+    "file": "registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md",
+    "heading": "S41 — Chronologie candidate — Pips et premier concert Joy Division",
+    "data": {
+      "chronology": [
+        {
+          "id": "CHR-S41-1978-01-PIPS-FIRST-JOY-DIVISION-GIG",
+          "source_id": "S41",
+          "date": "1978-01",
+          "evenement": "Premier concert officiel sous le nom Joy Division à Pips Discotheque, Manchester, bien que la date ait encore été annoncée sous le nom Warsaw. Le concert est marqué par l’expulsion puis la réintégration de Curtis, la panne de basse de Hook et une bagarre devant la scène.\n",
+          "atomes_lies": [
+            "S41-A001",
+            "S41-A002",
+            "S41-A003",
+            "S41-A004",
+            "S41-A005",
+            "S41-A006"
+          ],
+          "chapitres": [
+            "Chapitre 5",
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "statut": "événement établi ; détails à croiser avec gig lists et S45"
+        }
+      ]
+    }
+  },
   "CHR-S76-1980-020": {
     "kind": "chronology",
     "id": "CHR-S76-1980-020",
@@ -104378,9 +105532,9 @@
       "notes": "Repère de la tension entre domesticité, travail et ambition musicale."
     }
   },
-  "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2336": {
+  "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2360": {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2336",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2360",
     "file": "registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Chronologie candidate — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -105146,9 +106300,9 @@
       "notes": "Scène essentielle pour articuler mémoire live, archive et canonisation rétrospective."
     }
   },
-  "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2352": {
+  "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2376": {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2352",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2376",
     "file": "registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md",
     "heading": "S45 — Chronologie candidate — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -106736,9 +107890,9 @@
       "source_year": "1995"
     }
   },
-  "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2395": {
+  "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2419": {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2395",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2419",
     "file": "registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Chronologie candidate — tournée européenne, Annik, foyer et seuil *Closer*",
     "data": {
@@ -106896,9 +108050,9 @@
       "prudence": "Ne pas assimiler automatiquement cette scène à l’élection générale de 1979 ni à un vote personnel pour Margaret Thatcher sans source complémentaire."
     }
   },
-  "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::2397": {
+  "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::2421": {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::2397",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::2421",
     "file": "registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Chronologie candidate — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {

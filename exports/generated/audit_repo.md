@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-14T11:21:21`
+Généré le : `2026-05-14T11:58:36`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 12 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1299 atome(s) incomplet(s) sur 1360.
+Le repo est techniquement exploitable, mais 14 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1307 atome(s) incomplet(s) sur 1368.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 2487
+- Enregistrements : 2511
 - Erreurs : 0
-- Avertissements : 14057
+- Avertissements : 14135
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1299 atome(s) incomplet(s) sur 1360.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1360 |
+| atom | 1368 |
 | chronology | 331 |
-| concept | 37 |
+| concept | 40 |
 | metadata | 18 |
-| motif | 54 |
+| motif | 58 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1299 atome(s) incomplet(s) sur 1360.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 55 |
-| unknown | 12 |
+| template | 62 |
+| unknown | 14 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1131 |
-| missing_required_field | 3475 |
+| invalid_controlled_value | 1137 |
+| missing_required_field | 3515 |
 | schema_warning | 399 |
-| unknown_yaml_block | 12 |
-| v2_migration_debt | 8905 |
+| unknown_yaml_block | 14 |
+| v2_migration_debt | 8935 |
 
 ## 5. Erreurs bloquantes
 
@@ -54,6 +54,8 @@ Aucune.
 
 ## 6. Blocs YAML non classés
 
+- `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [BOOK-S41-HOUSE-OF-DOLLS-NAME] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [LIVE-S41-PIPS-FIRST-JOY-DIVISION-GIG] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md` [FILM-S45-ERASERHEAD-ABSENCE] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md` [LIVE-S45-NEW-OSBOURNE-CITY-FUN] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [LIVE-S45-MOONLIGHT-RAINBOW-APRIL-1980] : Unable to infer documentary kind
@@ -84,10 +86,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1360
+- Atomes : 1368
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1299
-- Avertissements de champs v2 manquants : 8905
+- Atomes v2 incomplets : 1307
+- Avertissements de champs v2 manquants : 8935
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

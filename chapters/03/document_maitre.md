@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T11:21:26"
+generated_at: "2026-05-14T11:58:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 201 |
+| Atomes | 203 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -34,7 +34,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 36 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 38 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
@@ -189,6 +189,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-129** — S41-129 — Le groupe s’éloigne définitivement du punk  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition_esthetique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-A004** — S41-A004 — Hondo II et corde qui saute : anti-mythe technique du premier concert  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct de Peter Hook`.
 - **S41-C02** — S41-C02 — La basse comme instrument principal de Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S41-C05** — S41-C05 — Joy Division comme tension entre live et studio  
@@ -279,8 +281,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S47 — West, Joy Division, 1984 ; type : `qualification_esthetique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S47-010** — S47-010 — Warsaw passe du punk à une esthétique répétitive et sombre  
   Source : S47 — West, Joy Division, 1984 ; type : `evolution_esthetique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-011** — S47-011 — L’isolement de 1977 accélère la maturation du groupe  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse_developpement` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -527,6 +527,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S45-A078 — prolonge → CONCEPT-006
 - S45-A078 — prolonge → S45-A066
 - S45-A078 — nuance → MYTH-HANNETT-GENIE-ABSOLU
+- S41-A004 — prolonge → CONCEPT-006
+- S41-A004 — prolonge → S45-A058
 - S75-A060 — prolonge → CONCEPT-006
 - S75-A060 — prolonge → S75-A034
 - S75-A060 — nuance → MYTH-004
@@ -584,8 +586,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A043 — prolonge → CONCEPT-006
 - S75-A043 — nuance → MYTH-002
 - S75-A048 — illustre → CONCEPT-006
-- S75-A048 — nuance → MYTH-002
-- S75-A048 — nuance → MYTH-004
 
 ## 13. Distribution documentaire
 
@@ -595,8 +595,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 |---|---|
 | production | 15 |
 | lecture_musicale | 10 |
+| non qualifié | 10 |
 | analyse | 9 |
-| non qualifié | 9 |
 | fait | 9 |
 | session_studio | 8 |
 | session | 7 |
@@ -635,6 +635,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | session_domestique | 1 |
 | concert | 1 |
 | contrepoint | 1 |
+| economie_materielle | 1 |
 | archive_broadcast | 1 |
 | radio_broadcast | 1 |
 | vigilance_documentaire | 1 |
@@ -689,9 +690,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 145 |
+| non qualifiée | 146 |
 | critique | 45 |
 | majeure | 11 |
+| majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -702,6 +704,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
 - S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
+- S41-A004 [faible] — L’atome sert surtout de contre-mythe technique ; ne pas le surcharger.
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
 - S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète

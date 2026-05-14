@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T11:21:26"
+generated_at: "2026-05-14T11:58:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,19 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 239 |
+| Atomes | 240 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
 | Personnes | 35 |
 | Chansons | 6 |
-| Sources mobilisées | 7 |
+| Sources mobilisées | 8 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 0 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 1 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -118,6 +118,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ## 6. Autres atomes utiles
 
+- **S41-A002** — S41-A002 — Trans-Europe Express à Pips : Curtis entre rituel d’entrée et désordre pré-scénique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
@@ -276,8 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A010** — S74-A010 — Hannett avant Factory : Wythenshawe, Slaughter And The Dogs et conflit avec Wilson  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 7. Citations disponibles
 
@@ -695,6 +695,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_management_sante | 1 |
 | scene_medicale_sensible | 1 |
 | tension_finale | 1 |
+| scene_live | 1 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
 | performance_scenique | 1 |
@@ -804,7 +805,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | critique | 123 |
 | non qualifiée | 89 |
 | majeure | 20 |
-| majeur | 7 |
+| majeur | 8 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -856,6 +857,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
 - S45-A151 [très élevé] — Risque de lire chaque don d’objet comme signe suicidaire certain.
 - S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
+- S41-A002 [élevé] — Risque de transformer l’intro Kraftwerk en stratégie esthétique pleinement consciente ; Hook laisse plusieurs hypothèses ouvertes.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
@@ -867,7 +869,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S75-A073 [eleve] — épisode spectaculaire, exposé au sensationnalisme ; le traiter comme symptôme d'une impasse collective
 - S75-A075 [faible] — l'atome vise précisément à réduire la surinterprétation et la déification
 - S75-A003 [eleve] — risque constant de relire la trajectoire de Curtis comme destin entièrement préfiguré
-- S75-A012 [moyen] — scène très suggestive, exposée au risque de psychologisation
 
 ## 15. Lacunes et prochaines vérifications
 

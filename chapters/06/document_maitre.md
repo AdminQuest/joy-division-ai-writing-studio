@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T11:21:26"
+generated_at: "2026-05-14T11:58:40"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 308 |
+| Atomes | 315 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 35 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -47,6 +47,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 5. Atomes critiques ou majeurs
 
+- **S41-A005** — S41-A005 — Les mates de Salford : public intime, violence ordinaire et honte du groupe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_sociale_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A006** — S41-A006 — Premier concert Joy Division : naissance publique dans l’échec  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `synthese_tension` ; importance : `critique` ; preuve : `témoignage direct rétrospectif fortement stylisé`.
 - **S45-A048** — S45-A048 — Manchester Musicians’ Collective : expérimentation sans obligation d’audience  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `citation de Curtis rapportée par Deborah`.
 - **S45-A049** — S45-A049 — Piccadilly Plaza / RCA : bureau discret et promesse industrielle  
@@ -113,10 +117,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_institution` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -174,6 +174,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-156** — S41-156 — Bootlegs et incertitudes d’origine documentaire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `note_documentaire` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-A002** — S41-A002 — Trans-Europe Express à Pips : Curtis entre rituel d’entrée et désordre pré-scénique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A003** — S41-A003 — Ian expulsé puis réintégré : le chanteur comme problème logistique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_organisationnelle` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A004** — S41-A004 — Hondo II et corde qui saute : anti-mythe technique du premier concert  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct de Peter Hook`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
@@ -274,12 +280,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S47 — West, Joy Division, 1984 ; type : `projet_avorte` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S47-064** — S47-064 — Seconde Peel Session : versions définitives de nouveaux titres  
   Source : S47 — West, Joy Division, 1984 ; type : `session_radio` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-066** — S47-066 — *Closer* est enregistré à Britannia Row  
-  Source : S47 — West, Joy Division, 1984 ; type : `session_album` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-067** — S47-067 — Les sessions de *Closer* durent treize jours et treize nuits  
-  Source : S47 — West, Joy Division, 1984 ; type : `session_album` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-068** — S47-068 — *Closer* est une réussite artistique malgré le contexte humain délétère  
-  Source : S47 — West, Joy Division, 1984 ; type : `interpretation_album` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -541,6 +541,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Granada (3)
 - Rainbow Theatre (3)
 - reconnaissance (3)
+- Kraftwerk (3)
+- Pips (3)
 - Dead Souls (3)
 - Sordide Sentimental (3)
 - silence (3)
@@ -549,8 +551,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - contrat (3)
 - John Peel (3)
 - indépendance (3)
-- She’s Lost Control (3)
-- contrôle (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -641,7 +641,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 13 |
+| non qualifié | 15 |
 | production | 10 |
 | session_studio | 8 |
 | song | 8 |
@@ -669,6 +669,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | infrastructure_scene | 2 |
 | economie_domestique | 2 |
 | tension_management | 2 |
+| economie_materielle | 2 |
 | scene_management | 2 |
 | reception | 2 |
 | relation | 2 |
@@ -708,7 +709,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_sociale | 1 |
 | scene_domestique_live | 1 |
 | position_esthetique | 1 |
-| economie_materielle | 1 |
 | tension_economique | 1 |
 | reception_presse | 1 |
 | tension_genre | 1 |
@@ -721,6 +721,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | evenement_live_crise | 1 |
 | tension_psychiatrique | 1 |
 | tension_management_sante | 1 |
+| scene_live | 1 |
+| scene_organisationnelle | 1 |
+| scene_sociale_live | 1 |
+| synthese_tension | 1 |
 | broadcast | 1 |
 | evolution_repertoire | 1 |
 | portrait_musicien | 1 |
@@ -814,10 +818,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 151 |
-| critique | 124 |
+| non qualifiée | 153 |
+| critique | 126 |
 | majeure | 24 |
-| majeur | 9 |
+| majeur | 12 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -860,6 +864,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S45-A139 [moyen] — Risque de réduire la responsabilité à Gretton seul ; la décision est prise dans l’urgence et l’économie du concert.
 - S45-A145 [très élevé] — Risque de présenter ce propos comme vérité définitive du désir de Curtis ; il est prononcé dans un contexte de crise.
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
+- S41-A002 [élevé] — Risque de transformer l’intro Kraftwerk en stratégie esthétique pleinement consciente ; Hook laisse plusieurs hypothèses ouvertes.
+- S41-A003 [moyen] — Ne pas projeter toute la trajectoire médicale ou mythique sur une scène de désordre punk initial.
+- S41-A004 [faible] — L’atome sert surtout de contre-mythe technique ; ne pas le surcharger.
+- S41-A005 [moyen] — Risque de transformer la bagarre en folklore comique ; elle éclaire aussi classe, appartenance et honte.
+- S41-A006 [moyen] — Risque d’en faire une préfiguration téléologique de toute la trajectoire ; le passage doit rester anti-téléologique.
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
 - S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
@@ -876,11 +885,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S75-A035 [moyen] — éviter l'opposition simpliste entre industrie mauvaise et Factory pure
 - S75-A036 [eleve] — risque d'adhérer trop facilement à la légende Factory ou de la dissoudre entièrement
 - S75-A037 [moyen] — le portrait d'Erasmus doit être recoupé avec des sources Factory spécifiques
-- S75-A038 [moyen] — chiffres de vente et formule conceptuelle doivent être recoupés avec sources Factory / discographiques
-- S75-A039 [moyen] — ne pas présenter le studio comme origine absolue du son ; le matériau existe déjà dans les répétitions et le live
-- S75-A040 [moyen] — ne pas faire du digital delay l'explication unique du son ; il agit dans un système plus large de mixage, jeu et espace
-- S75-A041 [moyen] — la lecture des paroles doit éviter de devenir prophétie rétrospective
-- S75-A042 [moyen] — ne pas transformer la frustration des musiciens en disqualification de l'album ; elle éclaire sa genèse conflictuelle
 
 ## 15. Lacunes et prochaines vérifications
 
