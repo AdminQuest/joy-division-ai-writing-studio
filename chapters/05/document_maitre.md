@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T21:51:28"
+generated_at: "2026-05-14T04:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 284 |
+| Atomes | 286 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -35,7 +35,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 63 | 4 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 12 | 1 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
@@ -55,6 +55,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_identitaire` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A056** — S45-A056 — « Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mediation_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + archive télévisuelle vérifiable`.
+- **S45-A066** — S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A021** — S74-A021 — Warsaw au premier concert : désespoir, confusion et identité non stabilisée  
@@ -115,8 +117,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_croises`.
 - **S76-A045** — S76-A045 — Rafters : Bob Dickinson, énergie négative et conversion de Rob Gretton  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignages_directs`.
-- **S76-A046** — S76-A046 — Rabid refuse l’iconographie mais distribue *An Ideal For Living*  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `economie_discographique` ; importance : `critique` ; preuve : `temoignages_Lawrence_Beedle_et_reconstruction`.
 
 ## 6. Autres atomes utiles
 
@@ -527,6 +527,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Hitler Youth (2)
 - Joy Division (2)
 - Warsaw Pakt (2)
+- Digital (2)
+- Glass (2)
 - provocation (2)
 - réception critique (2)
 - image industrielle (2)
@@ -541,8 +543,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Tosh Ryan (2)
 - Enigma (2)
 - Rock Against Racism (2)
-- Stiff Test (2)
-- The Eternal (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -562,6 +562,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A044 — prolonge → MOTIF-006
 - S45-A044 — nuance → MYTH-006
 - S45-A044 — requiert → CONCEPT-004
+- S45-A066 — prolonge → S45-A009
+- S45-A066 — prolonge → CONCEPT-006
+- S45-A066 — prolonge → CONCEPT-015
 - S75-A013 — prolonge → S75-A018
 - S75-A013 — nuance → MYTH-nazi_imagery_simple_fascination
 - S75-A018 — prolonge → S75-A016
@@ -623,9 +626,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A051 — prolonge → S74-A050
 - S74-A051 — annonce → S74-A052
 - S74-A051 — nuance → MYTH-002
-- S74-A056 — prolonge → S74-A055
-- S74-A056 — nuance → MYTH-006
-- S74-A056 — complète → S74-A043
 
 ## 13. Distribution documentaire
 
@@ -633,8 +633,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Type | Nombre |
 |---|---|
-| objet_discographique | 10 |
-| non qualifié | 10 |
+| objet_discographique | 11 |
+| non qualifié | 11 |
 | analyse_morceau | 10 |
 | discographie | 8 |
 | concept | 8 |
@@ -799,8 +799,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 187 |
-| critique | 71 |
+| non qualifiée | 188 |
+| critique | 72 |
 | majeure | 26 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -809,6 +809,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A037 [moyen] — Risque de surestimer la valeur musicale du morceau ou de réduire l’objet à la seule provocation Hess.
 - S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
+- S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
 - S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
@@ -864,7 +865,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A055 [moyen] — ne pas transformer la simultanéité RCA/Gretton en causalité simple ; elle doit rester relation structurante à vérifier par S75 et Hook
 - S76-A073 [faible] — la généalogie locale est structurante et limite la téléologie Factory
 - S76-A084 [moyen] — le lieu est très mythifiable ; il faut distinguer fonction pratique et iconisation postérieure
-- S76-A085 [moyen] — risque de folklore masculin ; utile seulement comme contrepoint à l’iconisation
 
 ## 15. Lacunes et prochaines vérifications
 

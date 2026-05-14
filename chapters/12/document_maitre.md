@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T21:51:28"
+generated_at: "2026-05-14T04:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 191 |
+| Atomes | 201 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -35,7 +35,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 0 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 13 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 23 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
@@ -49,6 +49,22 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A036** — S45-A036 — Le cours sur l’épilepsie : savoir préalable et ironie tragique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A068** — S45-A068 — Hope and Anchor : déception londonienne et première crise reconnue  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_critique` ; importance : `critique` ; preuve : `témoignage direct indirect + récit des membres du groupe`.
+- **S45-A069** — S45-A069 — Diagnostic différé : incrédulité domestique, GP passif et attente médicale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A070** — S45-A070 — Janvier 1979 : couverture NME, Peel session et accommodation de la maladie  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_chronologique` ; importance : `critique` ; preuve : `témoignage direct + faits médiatiques établis`.
+- **S45-A071** — S45-A071 — 23 janvier 1979 : médicaments, effets secondaires et mot « EPILEPTIC »  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_medical` ; importance : `critique` ; preuve : `témoignage direct avec détails médicaux rapportés`.
+- **S45-A072** — S45-A072 — Médicaments et humeur : Sumner formule l’hypothèse dangereuse des comprimés  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage rapporté, interprétation rétrospective de Sumner`.
+- **S45-A073** — S45-A073 — Attendre la crise : rituel nocturne, absence seizure et care conjugal  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A074** — S45-A074 — Danse et crise : imitation, indistinction et réception corporelle  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
+- **S45-A080** — S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A031** — S75-A031 — Londres, Hope & Anchor et crise épileptique : anti-triomphe de la sortie régionale  
@@ -99,22 +115,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `reconstruction_S76`.
 - **S76-A089** — S76-A089 — Hope & Anchor, 27 décembre 1978 : premier Londres, anti-triomphe et crise majeure  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_medicale` ; importance : `critique` ; preuve : `evenement_biographique_corroborable`.
-- **S76-A090** — S76-A090 — Diagnostic du 23 janvier 1979 : de l’événement à la condition médicale  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `fait_medical` ; importance : `critique` ; preuve : `fait_biographique_et_explication_medicale_generale`.
-- **S76-A091** — S76-A091 — Hypothèses causales : absence d’origine évidente et danger de la monocausalité  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `prudence_medicale` ; importance : `critique` ; preuve : `hypotheses_temoignages_et_rappel_medical_general`.
-- **S76-A092** — S76-A092 — David Lewis Centre : bascule du travailleur social vers le malade assisté  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `renversement_biographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_Reeder`.
-- **S76-A093** — S76-A093 — Reeder et Wise : perception sociale de l’épilepsie, handicap, honte et incompréhension du groupe  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignages_medicaux` ; importance : `critique` ; preuve : `temoignages_Reeder_Wise_experience_personnelle`.
-- **S76-A104** — S76-A104 — Bowdon Vale : danse de Curtis, synthé inutilisé et préparation avant album  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `performance_live` ; importance : `critique` ; preuve : `temoignages_Martin_ONeill_Paul_Hanley_et_reconstruction_S76`.
-- **S76-A106** — S76-A106 — Hannett et Curtis : intimité vocale contre lecture collective du groupe  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `relation_studio` ; importance : `critique` ; preuve : `temoignages_Hook_Reade_et_interpretation_S76`.
-- **S76-A108** — S76-A108 — *Unknown Pleasures* morceau par morceau : Curtis comme force de transformation, mais non testament  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_album` ; importance : `critique` ; preuve : `lecture_critique_S76`.
-- **S76-A109** — S76-A109 — 16 avril 1979 : naissance de Natalie et paternité empêchée par la maladie  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `fait_biographique_corroborable_et_interpretation_S76`.
 
 ## 6. Autres atomes utiles
 
@@ -268,16 +268,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `micro_scene_relationnelle` ; importance : `majeure` ; preuve : `temoignage_Peter_Hook`.
 - **S76-A071** — S76-A071 — Vacances 1978 : Mason et Hook contre la vie déjà adulte de Curtis  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contraste_biographique` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
+- **S76-A090** — S76-A090 — Diagnostic du 23 janvier 1979 : de l’événement à la condition médicale  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `fait_medical` ; importance : `critique` ; preuve : `fait_biographique_et_explication_medicale_generale`.
+- **S76-A091** — S76-A091 — Hypothèses causales : absence d’origine évidente et danger de la monocausalité  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `prudence_medicale` ; importance : `critique` ; preuve : `hypotheses_temoignages_et_rappel_medical_general`.
+- **S76-A092** — S76-A092 — David Lewis Centre : bascule du travailleur social vers le malade assisté  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `renversement_biographique` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_Reeder`.
+- **S76-A093** — S76-A093 — Reeder et Wise : perception sociale de l’épilepsie, handicap, honte et incompréhension du groupe  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignages_medicaux` ; importance : `critique` ; preuve : `temoignages_Reeder_Wise_experience_personnelle`.
 - **S76-A094** — S76-A094 — David Holmes et l’ancienne croyance du « holy sickness » : génie, neurologie et risque de romantisation  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_medicale` ; importance : `majeure` ; preuve : `interpretation_psychologique_et_croyance_historique`.
-- **S76-A097** — S76-A097 — Carole, Wilson et le mot « communiquer » : médiumnité, différence et risque spirite  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_memorielle` ; importance : `majeure` ; preuve : `memoire_familiale_et_reconstruction_reade_wilson`.
-- **S76-A110** — S76-A110 — 24 mai 1979 : crise grave à Barton Street et changement de personnalité perçu par Deborah  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_medicale` ; importance : `critique` ; preuve : `temoignage_Deborah_Curtis_et_reconstruction_S76`.
-- **S76-A115** — S76-A115 — Curtis « public property » : Deborah face à la capture publique du chanteur  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_domestique` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoignage_Deborah`.
-- **S76-A117** — S76-A117 — *Something Else*, 1er septembre 1979 : télévision, fatigue et dilution technique  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `television` ; importance : `critique` ; preuve : `evenement_televisuel_corroborable_et_interpretation_S76`.
 
 ## 7. Citations disponibles
 
@@ -421,6 +421,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - non-monocausalité médicale (4)
 - film (4)
 - Britannia Row (4)
+- réception corporelle (3)
 - Stroszek (3)
 - Werner Herzog (3)
 - New Order (3)
@@ -433,6 +434,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - réception (3)
 - fatigue (3)
 - mythe (3)
+- corps exposé (2)
+- paternité empêchée (2)
 - epilepsie (2)
 - 4 avril 1980 (2)
 - stroboscopes (2)
@@ -452,7 +455,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Bernard Sumner (2)
 - crise (2)
 - anti-prophétisation (2)
-- réception corporelle (2)
 - réception intime (2)
 - anti-deification (2)
 - architecture sonore (2)
@@ -488,12 +490,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - savoir préalable de la maladie (1)
 - ironie biographique (1)
 - débordement scénique (1)
-- corps exposé (1)
 - performance dangereuse (1)
-- Australie (1)
-- montage théorique (1)
-- varispeed (1)
-- death drive (1)
+- rupture médicale (1)
+- anti-salut londonien (1)
+- maladie comme reconfiguration (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -514,6 +514,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Love Will Tear Us Apart (4)
 - domesticité (3)
 - Macclesfield (3)
+- Phenobarbitone (3)
 - Derby Hall (3)
 - Britannia Row (3)
 - crise épileptique (3)
@@ -527,18 +528,17 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - chien (2)
 - travail social (2)
 - Employment Exchange (2)
+- maladie (2)
+- diagnostic (2)
+- suicide (2)
+- crise (2)
+- Paul Morley (2)
+- corps scénique (2)
 - mort jeune (2)
 - Jon Savage (2)
 - Mick Middles (2)
 - responsabilité (2)
 - Plan K (2)
-- culpabilité (2)
-- Alan Hempsall (2)
-- Hope & Anchor (2)
-- paroles (2)
-- paternité (2)
-- New Dawn Fades (2)
-- I Remember Nothing (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -554,6 +554,30 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S45-A038 — prolonge → S45-A027
 - S45-A038 — nuance → MYTH-002
 - S45-A038 — requiert → CONCEPT-004
+- S45-A068 — prolonge → S45-A010
+- S45-A068 — requiert → CONCEPT-009
+- S45-A068 — nuance → MYTH-002
+- S45-A069 — prolonge → S45-A068
+- S45-A069 — prolonge → CONCEPT-009
+- S45-A069 — prolonge → CONCEPT-012
+- S45-A070 — prolonge → S45-A068
+- S45-A070 — prépare → S45-A071
+- S45-A070 — prolonge → CONCEPT-016
+- S45-A071 — prolonge → S45-A069
+- S45-A071 — requiert → CONCEPT-009
+- S45-A071 — prépare → S45-A072
+- S45-A072 — alerte → RISQUE-CAUSALITE-MEDICALE
+- S45-A072 — prolonge → S45-A071
+- S45-A072 — requiert → CONCEPT-009
+- S45-A073 — prolonge → S45-A071
+- S45-A073 — prolonge → CONCEPT-012
+- S45-A073 — nuance → MYTH-002
+- S45-A074 — prolonge → S45-A002
+- S45-A074 — requiert → CONCEPT-009
+- S45-A074 — nuance → MYTH-002
+- S45-A080 — prolonge → S45-A073
+- S45-A080 — prolonge → CONCEPT-012
+- S45-A080 — prolonge → S45-A079
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -598,30 +622,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S75-A045 — nuance → MYTH-002
 - S75-A045 — prolonge → S45
 - S75-A046 — requiert → CONCEPT-004
-- S75-A046 — nuance → MYTH-002
-- S75-A046 — prolonge → MOTIF-003
-- S75-A047 — requiert → CONCEPT-004
-- S75-A047 — nuance → MYTH-002
-- S75-A047 — prolonge → CONCEPT-006
-- S75-A049 — prolonge → CONCEPT-006
-- S75-A049 — prolonge → MOTIF-001
-- S75-A049 — requiert → CONCEPT-004
-- S74-A002 — nuance → MYTH-003
-- S74-A002 — derive_de → CONCEPT-002
-- S74-A002 — prolonge → CONCEPT-003
-- S74-A010 — nuance → MYTH-004
-- S74-A010 — illustre → S74-A011
-- S76-A141 — prolonge → S76-A123
-- S76-A141 — relie → CONCEPT-009
-- S76-A141 — requiert → CONCEPT-004
-- S76-A142 — prolonge → S76-A090
-- S76-A142 — relie → CONCEPT-009
-- S76-A142 — relie → S76-A105
-- S76-A143 — prolonge → S76-A120
-- S76-A143 — prolonge → S76-A115
-- S76-A143 — requiert → CONCEPT-004
-- S76-A144 — prolonge → S76-A141
-- S76-A144 — relie → CONCEPT-009
 
 ## 13. Distribution documentaire
 
@@ -630,9 +630,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Type | Nombre |
 |---|---|
 | lecture_chanson | 7 |
+| non qualifié | 6 |
 | session_studio | 5 |
 | song | 5 |
-| non qualifié | 4 |
 | live_set_context | 4 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
@@ -641,7 +641,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_medicale_live | 3 |
 | tension_biographique | 3 |
 | song_session | 3 |
+| tension_documentaire | 2 |
 | performance_live | 2 |
+| fait_medical | 2 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
 | santé | 2 |
@@ -663,7 +665,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | bascule_tournee | 2 |
 | contrepoint_domestique | 1 |
 | fait_structurant | 1 |
-| tension_documentaire | 1 |
+| evenement_critique | 1 |
+| tension_medicale | 1 |
+| tension_chronologique | 1 |
+| scene_domestique_medicale | 1 |
+| performance_sante | 1 |
+| scene_domestique | 1 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
 | performance_scenique | 1 |
@@ -727,7 +734,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_vie_studio | 1 |
 | lecture_chansons | 1 |
 | objet_visuel | 1 |
-| fait_medical | 1 |
 | prudence_medicale | 1 |
 | renversement_biographique | 1 |
 | temoignages_medicaux | 1 |
@@ -771,8 +777,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 85 |
-| critique | 84 |
+| critique | 92 |
+| non qualifiée | 87 |
 | majeure | 20 |
 | majeur | 2 |
 
@@ -782,6 +788,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S45-A035 [moyen] — Risque de surcharger téléologiquement ce poste comme annonce de sa propre épilepsie ; il faut le traiter comme fait professionnel et contexte de savoir.
 - S45-A036 [élevé] — Risque de téléologie médicale : le cours ne prédit pas la maladie ; il produit seulement un savoir préalable.
 - S45-A038 [élevé] — Risque de lire rétrospectivement cette violence scénique comme symptôme médical ou préfiguration morbide.
+- S45-A068 [élevé] — Risque de faire de la crise une causalité totale ou une scène prophétique.
+- S45-A069 [moyen] — Risque d’accuser rétrospectivement sans tenir compte des pratiques médicales et du contexte de 1978-1979.
+- S45-A070 [moyen] — Risque de faire de la maladie le prix naturel du succès ; il faut garder la simultanéité sans causalité automatique.
+- S45-A071 [élevé] — Risque de surattribuer les comportements ultérieurs aux médicaments ou, inversement, d’écarter les effets secondaires.
+- S45-A072 [très élevé] — Risque majeur de causalité médicamenteuse simplificatrice.
+- S45-A073 [élevé] — Risque de fétichisation morbide ou de réduction de la scène à une image littéraire.
+- S45-A074 [très élevé] — Risque de médicaliser entièrement la performance ou de l’esthétiser contre la réalité des crises.
+- S45-A080 [élevé] — Risque de moraliser l’incapacité paternelle ou de la réduire à la maladie. La scène combine peur réelle, charge domestique et immaturité relationnelle.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
@@ -830,14 +844,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A121 [moyen] — scène fondatrice intime mais d’abord culturelle et médiatique ; ne pas la sentimentaliser trop vite
 - S76-A122 [eleve] — Annik relit la scène depuis la suite ; conserver la joie du moment et ne pas la transformer en présage
 - S76-A154 [moyen] — risque de lire Londres comme déplacement symbolique vers la fin plutôt que comme choix pratique et professionnel
-- S76-A155 [eleve] — risque de réduire York Street à un décor de triangle sentimental
-- S76-A158 [eleve] — référence littéraire et violence sonore peuvent être surpsychologisées
-- S76-A159 [eleve] — titre immédiatement biographisable ; ne pas le transformer en journal intime direct
-- S76-A160 [tres_eleve] — risque majeur de lire ces titres comme annonçant consciemment la fin
-- S76-A161 [tres_eleve] — lecture explicitement postérieure ; très fort risque de faire de « Decades » un message final
-- S76-A162 [tres_eleve] — la pochette est l’un des objets les plus téléologisés de l’histoire du groupe
-- S76-A163 [tres_eleve] — *Closer* est le lieu majeur de la téléologie critique autour de Joy Division
-- S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
 
 ## 15. Lacunes et prochaines vérifications
 

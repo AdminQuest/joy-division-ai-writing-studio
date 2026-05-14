@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T21:51:28"
+generated_at: "2026-05-14T04:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-13T21:51:28"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 175 |
+| Atomes | 179 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -35,7 +35,7 @@ generated_at: "2026-05-13T21:51:28"
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 21 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 24 | 3 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 28 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
@@ -47,6 +47,10 @@ generated_at: "2026-05-13T21:51:28"
 
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct + citation d’entretien rapportée`.
+- **S45-A076** — S45-A076 — Curtis catalyseur : direction vocale, mélodies et cohésion collective  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignages directs rapportés de Morris et Sumner`.
 - **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
@@ -111,10 +115,6 @@ generated_at: "2026-05-13T21:51:28"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
 - **S76-A022** — S76-A022 — Lesser Free Trade Hall : déclencheur, non origine absolue  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `evenement_corroborable_et_temoignages`.
-- **S76-A023** — S76-A023 — Electric Circus, 9 décembre 1976 : Curtis entre dans la communauté punk  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignages_croises`.
-- **S76-A025** — S76-A025 — L’audition d’Ashfield Valley : recrutement par compatibilité sociale  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignage_direct_de_Terry_Mason`.
 
 ## 6. Autres atomes utiles
 
@@ -473,6 +473,12 @@ generated_at: "2026-05-13T21:51:28"
 - Rob Gretton (2)
 - Tony Wilson (2)
 - avril 1980 (2)
+- anti-confessionnalisme (1)
+- poétique d’assemblage (1)
+- multidimensionnalité (1)
+- auteur-catalyseur (1)
+- collectif orienté (1)
+- mélodie vocale comme cohésion (1)
 - domesticité productive (1)
 - lieu de préparation (1)
 - logistique conjugale (1)
@@ -491,12 +497,6 @@ generated_at: "2026-05-13T21:51:28"
 - rêverie (1)
 - monde intérieur (1)
 - classe ouvrière (1)
-- premier concert (1)
-- information (1)
-- musique (1)
-- technologie (1)
-- voix grave (1)
-- accent régional (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -545,6 +545,12 @@ generated_at: "2026-05-13T21:51:28"
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A075 — prolonge → S45-A011
+- S45-A075 — nuance → MYTH-LYRICS-AS-DIARY
+- S45-A075 — prolonge → CHAPITRE-4-ECRITURE-CURTIS
+- S45-A076 — prolonge → S45-A075
+- S45-A076 — prolonge → CONCEPT-006
+- S45-A076 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
 - S45-A025 — prépare → S45-A030
 - S45-A025 — prolonge → CONCEPT-005
 - S45-A025 — nuance → MYTH-006
@@ -619,12 +625,6 @@ generated_at: "2026-05-13T21:51:28"
 - S74-A026 — nuance → MYTH-005
 - S74-A026 — prolonge → S74-A017
 - S74-A026 — annonce → S74-A030
-- S74-A027 — prolonge → S74-A005
-- S74-A027 — complète → S74-A026
-- S74-A027 — annonce → S74-A031
-- S74-A030 — prolonge → S74-A018
-- S74-A030 — annonce → S74-A031
-- S74-A030 — complète → S74-A001
 
 ## 13. Distribution documentaire
 
@@ -647,6 +647,7 @@ generated_at: "2026-05-13T21:51:28"
 | contexte_biographique | 3 |
 | tension_biographique | 3 |
 | live_set_context | 3 |
+| processus_creatif | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | performance | 2 |
@@ -664,6 +665,7 @@ generated_at: "2026-05-13T21:51:28"
 | contexte_intime | 2 |
 | scene_de_transition | 2 |
 | fait | 2 |
+| non qualifié | 2 |
 | lieu | 1 |
 | lieu_creatif | 1 |
 | iconographie_photographe | 1 |
@@ -748,14 +750,16 @@ generated_at: "2026-05-13T21:51:28"
 
 | Importance | Nombre |
 |---|---|
-| critique | 76 |
-| non qualifiée | 64 |
+| critique | 78 |
+| non qualifiée | 66 |
 | majeure | 33 |
 | majeur | 1 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A075 [élevé] — Risque de lire chaque chanson comme journal intime ou comme message suicidaire.
+- S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
 - S45-A025 [moyen] — Risque de sacraliser Barton Street comme sanctuaire ; conserver sa matérialité domestique et logistique.
 - S45-A030 [moyen] — Risque de transformer la pièce en sanctuaire mythique ; elle est d’abord un espace de travail et de séparation domestique.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
@@ -814,8 +818,6 @@ generated_at: "2026-05-13T21:51:28"
 - S76-A002 [faible] — l'atome réduit la téléologie morbide plutôt qu'il ne l'alimente
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 - S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
-- S76-A005 [moyen] — souvenir d'enfance reconstruit quarante ans après les faits
-- S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
 
 ## 15. Lacunes et prochaines vérifications
 

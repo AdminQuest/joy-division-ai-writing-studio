@@ -1971,6 +1971,1470 @@
   },
   {
     "kind": "atom",
+    "id": "S45-A061",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A061 — Grossesse de Deborah : bonheur privé incompatible avec la politique affective du groupe",
+    "data": {
+      "id": "S45-A061",
+      "type_unite": "tension_relationnelle",
+      "titre": "Grossesse de Deborah : bonheur privé incompatible avec la politique affective du groupe",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "72",
+        "papier": "à verrouiller"
+      },
+      "citation": "they kept their relationships at arm’s length and so did not share any happiness",
+      "resume": "Deborah raconte le début de sa grossesse et la gêne de Ian à l’annoncer au groupe. Peter Hook résume rétrospectivement une règle implicite de Joy Division : tenir les relations à distance et ne pas partager le bonheur. Le passage oppose le foyer, la naissance à venir et l’économie émotionnelle fermée du groupe.\n",
+      "role_argumentatif": "Atome structurant pour le chapitre 10 : la formation du groupe impose une norme affective masculine qui rend le bonheur conjugal presque déplacé.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + témoignage rapporté de Hook",
+        "corroboration": "moyenne ; à croiser avec Hook, Sumner, Morris",
+        "confiance": "élevée pour la scène domestique ; moyenne pour la règle générale du groupe"
+      },
+      "stabilite": {
+        "statut": "stable comme perception de Deborah ; à nuancer comme règle collective"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de transformer une observation de Hook en doctrine consciente du groupe.\n"
+      },
+      "motifs": [
+        "grossesse",
+        "relations à distance",
+        "bonheur non partagé",
+        "politique affective masculine",
+        "compagnes"
+      ],
+      "concepts_derives": [
+        "politique affective du groupe",
+        "bonheur incompatible",
+        "masculinité fermée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-019",
+          "note": "La mise à distance des femmes prépare la dépossession domestique."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-016",
+          "note": "Le management et le groupe redessinent les circuits d’intimité."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A070",
+          "note": "Prépare la mise à l’écart plus nette des femmes autour d’Unknown Pleasures."
+        }
+      ],
+      "couche_narrative": [
+        "intime",
+        "genre",
+        "groupe"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A062",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A062 — Humour privé du groupe : contre-mythe du groupe sombre",
+    "data": {
+      "id": "S45-A062",
+      "type_unite": "contrepoint_mythique",
+      "titre": "Humour privé du groupe : contre-mythe du groupe sombre",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "72-73",
+        "papier": "à verrouiller"
+      },
+      "citation": "We used to have a right laugh.",
+      "resume": "Bernard Sumner, cité par Deborah, insiste sur l’humour constant de l’expérience Joy Division. Deborah nuance : cet humour reste privé et nuit aux autres relations. L’atome est précieux car il contredit le cliché d’un groupe intrinsèquement lourd, tout en montrant que cette légèreté a un coût relationnel.\n",
+      "role_argumentatif": "Désamorcer la mythologie du groupe entièrement sombre sans basculer vers une contre-légende comique.\n",
+      "niveau_preuve": {
+        "statut": "témoignage rapporté + interprétation de Deborah",
+        "corroboration": "forte avec Sumner, Morris et Hook",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme contrepoint mémoriel"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de remplacer le mythe noir par un mythe de camaraderie innocente.\n"
+      },
+      "motifs": [
+        "humour privé",
+        "groupe sombre",
+        "camaraderie",
+        "relations périphériques"
+      ],
+      "concepts_derives": [
+        "contre-mythe lumineux",
+        "humour excluant",
+        "intimité de groupe"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "note": "Le groupe n’est pas seulement une machine de noirceur."
+        },
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-019",
+          "note": "L’intimité de groupe produit aussi de l’exclusion."
+        }
+      ],
+      "couche_narrative": [
+        "mythe",
+        "groupe"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A063",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A063 — Les « girlies » : Deborah et Sue comme témoins féminins de la réalisation du rêve",
+    "data": {
+      "id": "S45-A063",
+      "type_unite": "fait_social",
+      "titre": "Les « girlies » : Deborah et Sue comme témoins féminins de la réalisation du rêve",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "73",
+        "papier": "à verrouiller"
+      },
+      "citation": "Being the original ‘girlies’, we had seen Joy Division develop",
+      "resume": "Deborah se présente avec Sue Barlow comme l’une des « original girlies » qui ont vu Joy Division passer d’une idée de collégiens à la réalisation d’un rêve. La formule est ambivalente : elle donne une place documentaire aux compagnes tout en signalant la manière dont elles sont minorées par le vocabulaire du milieu.\n",
+      "role_argumentatif": "Rendre visibles les témoins féminins sans leur attribuer une fonction musicale directe. Elles sont archives vivantes de la formation du groupe.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct situé",
+        "corroboration": "moyenne",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible",
+        "raison": "Risque surtout inverse : laisser la formule les réduire à une présence décorative.\n"
+      },
+      "motifs": [
+        "girlies",
+        "Sue Barlow",
+        "compagnes",
+        "témoins féminins",
+        "rêve réalisé"
+      ],
+      "concepts_derives": [
+        "archive féminine de la formation",
+        "vocabulaire minorant"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-013",
+          "note": "Les compagnes participent à l’infrastructure historique du groupe."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A052",
+          "note": "Prolonge le faux public et le soutien féminin des débuts."
+        }
+      ],
+      "couche_narrative": [
+        "genre",
+        "mémoire"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A064",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A064 — Les « Goshes » : premières fans et reconfiguration des couples",
+    "data": {
+      "id": "S45-A064",
+      "type_unite": "reception_precoce",
+      "titre": "Les « Goshes » : premières fans et reconfiguration des couples",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "73-74",
+        "papier": "à verrouiller"
+      },
+      "citation": "possibly the first real Joy Division fans",
+      "resume": "Deborah décrit l’arrivée d’un petit groupe de fans féminines, surnommées « the Goshes », qui achètent des verres au groupe et gravitent autour de lui. Leur présence coïncide avec les recompositions sentimentales, notamment la relation entre Stephen Morris et Gillian Gilbert. Le fandom naissant reconfigure les équilibres domestiques.\n",
+      "role_argumentatif": "Montrer que la réception de Joy Division n’est pas seulement critique ou discographique : elle passe aussi par des corps présents, des fans, des partenaires et des tensions conjugales.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "moyenne ; à croiser avec Morris / Gilbert si nécessaire",
+        "confiance": "élevée pour la perception de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme scène de réception précoce"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de réduire les fans féminines à une menace conjugale ; elles sont aussi premières formes du public dédié.\n"
+      },
+      "motifs": [
+        "Goshes",
+        "premières fans",
+        "Gillian Gilbert",
+        "Stephen Morris",
+        "recomposition conjugale"
+      ],
+      "concepts_derives": [
+        "fandom précoce",
+        "réception incarnée",
+        "public féminin"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-017",
+          "note": "Après le faux public, un vrai noyau de fans apparaît."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A065",
+          "note": "Prépare l’épisode Stephanie et les tensions autour des compagnes."
+        }
+      ],
+      "couche_narrative": [
+        "réception",
+        "genre"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A065",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A065 — Stephanie : crise fabriquée, filtrage des compagnes et violence relationnelle indirecte",
+    "data": {
+      "id": "S45-A065",
+      "type_unite": "scene_sensible",
+      "titre": "Stephanie : crise fabriquée, filtrage des compagnes et violence relationnelle indirecte",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "74",
+        "papier": "à verrouiller"
+      },
+      "citation": "I convinced myself that I had betrayed Stephanie",
+      "resume": "Deborah rapporte un épisode trouble : Ian affirme que Stephanie menace de se suicider avec des lames de rasoir, demande à Deborah d’appeler son père, puis refuse ensuite de discuter. Stephanie paraît ne pas comprendre pourquoi son père arrive. Deborah soupçonne une forme de mise à l’épreuve de la compagne de Stephen Morris.\n",
+      "role_argumentatif": "Atome sensible sur le contrôle relationnel et les frontières du groupe. Il révèle l’intrication entre couple, groupe, femmes proches et pouvoir discret de Curtis.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif, scène privée difficilement corroborable",
+        "corroboration": "faible ; commentaire Morris partiel et ambigu",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable comme perception de Deborah ; instable comme intention de Curtis"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque de conclure à une manipulation certaine ; Deborah elle-même formule une hypothèse, non une preuve.\n"
+      },
+      "motifs": [
+        "Stephanie",
+        "filtrage des compagnes",
+        "suicide allégué",
+        "trahison",
+        "contrôle relationnel"
+      ],
+      "concepts_derives": [
+        "violence relationnelle indirecte",
+        "vetting des compagnes",
+        "pouvoir périphérique de Curtis"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A061",
+          "note": "Le groupe et ses couples sont soumis à une politique affective implicite."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Ne pas transformer l’hypothèse de Deborah en certitude."
+        },
+        {
+          "type": "alerte",
+          "cible": "RISQUE-PSYCHOLOGISATION",
+          "note": "Éviter la causalité psychologique totalisante."
+        }
+      ],
+      "couche_narrative": [
+        "intime",
+        "genre",
+        "méthode"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A066",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise",
+    "data": {
+      "id": "S45-A066",
+      "type_unite": "objet_discographique",
+      "titre": "A Factory Sample : Wilson finance, Hannett refroidit, Saville formalise",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "74-75",
+        "papier": "à verrouiller"
+      },
+      "citation": "a much cleaner and colder sound",
+      "resume": "Deborah présente *A Factory Sample* comme un seuil Factory : Tony Wilson finance, Martin Hannett produit « Digital » et « Glass », Peter Saville choisit la simplicité argent/noir, Joy Division laisse presque vide son rectangle d’information. Hannett donne au groupe un son plus propre et plus froid que sur *An Ideal for Living*.\n",
+      "role_argumentatif": "Atome pivot sur l’entrée dans le système Factory : son, graphisme, économie du label et minimalisme informatif se cristallisent avant *Unknown Pleasures*.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + fait discographique établi",
+        "corroboration": "forte avec discographies, Saville, Hannett, Factory",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.\n"
+      },
+      "motifs": [
+        "A Factory Sample",
+        "Digital",
+        "Glass",
+        "Hannett",
+        "Saville",
+        "argent noir",
+        "silence informatif"
+      ],
+      "concepts_derives": [
+        "proto-système Factory",
+        "froid sonore",
+        "minimalisme graphique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A009",
+          "note": "Consolide l’atome déjà ouvert sur A Factory Sample."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-006",
+          "note": "Hannett participe à la définition du son froid."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-015",
+          "note": "La médiation visuelle se déplace vers l’objet Factory."
+        }
+      ],
+      "couche_narrative": [
+        "Factory",
+        "studio",
+        "esthétique visuelle"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A067",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A067 — Check Inn : autographes, demigod et canonisation précoce",
+    "data": {
+      "id": "S45-A067",
+      "type_unite": "reception_precoce",
+      "titre": "Check Inn : autographes, demigod et canonisation précoce",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "75",
+        "papier": "à verrouiller"
+      },
+      "citation": "appropriate to a demigod rather than an up-and-coming young singer",
+      "resume": "Deborah décrit le concert du Check Inn à Altrincham en novembre 1978 et la déférence d’un jeune fan, Dean, demandant un autographe à Ian comme à un demi-dieu. Elle ressent l’accélération de la popularité du groupe comme surréelle : les prédictions de Ian commencent à devenir vraies.\n",
+      "role_argumentatif": "Documenter la canonisation avant la grande notoriété : le mythe Curtis se forme déjà dans de petites scènes et des micro-gestes de fandom.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "faible nécessaire ; à croiser avec gig lists",
+        "confiance": "élevée pour la scène vécue"
+      },
+      "stabilite": {
+        "statut": "stable comme perception de Deborah"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de généraliser un fan à toute la réception ; il s’agit d’un signe faible mais structurant.\n"
+      },
+      "motifs": [
+        "Check Inn",
+        "autographe",
+        "demi-dieu",
+        "fandom",
+        "accélération"
+      ],
+      "concepts_derives": [
+        "canonisation micro-locale",
+        "fandom dévotionnel"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A064",
+          "note": "Du noyau de fans féminines au fan dévotionnel."
+        },
+        {
+          "type": "prépare",
+          "cible": "MYTH-002",
+          "note": "Le mythe Curtis commence dans de petites scènes de réception."
+        }
+      ],
+      "couche_narrative": [
+        "réception",
+        "mythe"
+      ],
+      "usage_livre": [
+        "Chapitre 14",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A068",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A068 — Hope and Anchor : déception londonienne et première crise reconnue",
+    "data": {
+      "id": "S45-A068",
+      "type_unite": "evenement_critique",
+      "titre": "Hope and Anchor : déception londonienne et première crise reconnue",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "75-76",
+        "papier": "à verrouiller"
+      },
+      "citation": "I’ve had some kind of fit",
+      "resume": "Le 27 décembre 1978, après le premier concert londonien au Hope and Anchor, jugé décevant, Ian Curtis subit dans la voiture son premier épisode reconnu comme crise épileptique. Steve Morris l’emmène au Luton and Dunstable Hospital, puis le ramène à Deborah avec une lettre pour le médecin et du Phenobarbitone.\n",
+      "role_argumentatif": "Atome pivot : le succès rêvé vers Londres se retourne en rupture médicale. La maladie entre dans le récit non comme symbole, mais comme événement brutal qui reconfigure le foyer et le groupe.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct indirect + récit des membres du groupe",
+        "corroboration": "forte avec autres mémoires ; détails médicaux à prudence",
+        "confiance": "élevée pour la séquence générale"
+      },
+      "stabilite": {
+        "statut": "stable comme événement"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de faire de la crise une causalité totale ou une scène prophétique.\n"
+      },
+      "motifs": [
+        "Hope and Anchor",
+        "première crise",
+        "Luton and Dunstable Hospital",
+        "Phenobarbitone",
+        "Londres décevant"
+      ],
+      "concepts_derives": [
+        "rupture médicale",
+        "anti-salut londonien",
+        "maladie comme reconfiguration"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A010",
+          "note": "Précise l’atome déjà créé sur la première crise reconnue."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-009",
+          "note": "Éviter toute monocausalité médicale."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "note": "La maladie est événement, pas signe romantique."
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "performance",
+        "tournée"
+      ],
+      "usage_livre": [
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A069",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A069 — Diagnostic différé : incrédulité domestique, GP passif et attente médicale",
+    "data": {
+      "id": "S45-A069",
+      "type_unite": "tension_medicale",
+      "titre": "Diagnostic différé : incrédulité domestique, GP passif et attente médicale",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "76-77",
+        "papier": "à verrouiller"
+      },
+      "citation": "I thought someone must have made a mistake or perhaps he had faked it",
+      "resume": "Deborah raconte son incrédulité face à la crise, la stupeur des parents de Ian, la passivité du GP, la multiplication rapide des crises, la tenue d’un registre domestique et l’attente d’un spécialiste. Le foyer devient lieu d’observation médicale sans être véritablement accompagné.\n",
+      "role_argumentatif": "Documenter l’épuisement probatoire et affectif du foyer : la maladie est surveillée avant d’être comprise, et Deborah devient observatrice contrainte.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "moyenne ; à croiser avec dossiers médicaux si disponibles",
+        "confiance": "élevée pour l’expérience domestique"
+      },
+      "stabilite": {
+        "statut": "stable comme perception ; prudence sur détails médicaux"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque d’accuser rétrospectivement sans tenir compte des pratiques médicales et du contexte de 1978-1979.\n"
+      },
+      "motifs": [
+        "GP",
+        "diagnostic différé",
+        "registre des crises",
+        "incrédulité",
+        "foyer observatoire"
+      ],
+      "concepts_derives": [
+        "foyer comme observatoire médical",
+        "attente thérapeutique",
+        "solitude du care"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A068",
+          "note": "La crise ouvre une phase d’attente médicale."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-009",
+          "note": "La maladie se déploie dans les dispositifs médicaux et domestiques."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-012",
+          "note": "La domesticité devient care médical."
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "domesticité"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A070",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A070 — Janvier 1979 : couverture NME, Peel session et accommodation de la maladie",
+    "data": {
+      "id": "S45-A070",
+      "type_unite": "tension_chronologique",
+      "titre": "Janvier 1979 : couverture NME, Peel session et accommodation de la maladie",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "77",
+        "papier": "à verrouiller"
+      },
+      "citation": "Ian’s illness was something we would have to learn to accommodate",
+      "resume": "En janvier 1979, Ian Curtis apparaît en couverture du NME, Joy Division enregistre sa première Peel session, et le foyer comprend simultanément que la maladie de Ian doit être intégrée à la vie quotidienne. Deborah souligne le contraste entre l’arrivée publique du groupe et l’accommodation privée de l’épilepsie.\n",
+      "role_argumentatif": "Atome de simultanéité : arrivée médiatique et rupture médicale se superposent, empêchant de séparer ascension artistique et fragilisation domestique.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + faits médiatiques établis",
+        "corroboration": "forte",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de faire de la maladie le prix naturel du succès ; il faut garder la simultanéité sans causalité automatique.\n"
+      },
+      "motifs": [
+        "NME",
+        "John Peel session",
+        "arrivée publique",
+        "accommodation",
+        "maladie"
+      ],
+      "concepts_derives": [
+        "simultanéité ascension/maladie",
+        "double temporalité publique/domestique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A068",
+          "note": "La crise médicale est suivie par une ascension médiatique immédiate."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A071",
+          "note": "Prépare la stabilisation clinique et médicamenteuse."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-016",
+          "note": "La gestion de carrière et de maladie commence à se superposer."
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "réception",
+        "médias"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 6"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A071",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A071 — 23 janvier 1979 : médicaments, effets secondaires et mot « EPILEPTIC »",
+    "data": {
+      "id": "S45-A071",
+      "type_unite": "fait_medical",
+      "titre": "23 janvier 1979 : médicaments, effets secondaires et mot « EPILEPTIC »",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "77-78",
+        "papier": "à verrouiller"
+      },
+      "citation": "Ian was now EPILEPTIC",
+      "resume": "Le 23 janvier 1979, Ian voit un spécialiste à Macclesfield District and General Hospital. Phenytoin Sodium et Phenobarbitone sont prescrits, avec des effets secondaires possibles : confusion, drowsiness, dizziness, clumsiness. Deborah décrit le diagnostic comme un point de non-retour : Ian est désormais « EPILEPTIC ».\n",
+      "role_argumentatif": "Atome fondamental de stabilisation médicale et symbolique : le diagnostic nomme la maladie, mais introduit aussi un régime de traitement, d’effets secondaires, d’identité et de retrait.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct avec détails médicaux rapportés",
+        "corroboration": "forte si dossiers médicaux consultables ; à croiser avec biographies",
+        "confiance": "élevée pour la séquence ; prudence sur pharmacologie détaillée"
+      },
+      "stabilite": {
+        "statut": "stable comme événement médical rapporté"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de surattribuer les comportements ultérieurs aux médicaments ou, inversement, d’écarter les effets secondaires.\n"
+      },
+      "motifs": [
+        "diagnostic",
+        "Phenytoin Sodium",
+        "Phenobarbitone",
+        "effets secondaires",
+        "identité épileptique"
+      ],
+      "concepts_derives": [
+        "nomination médicale",
+        "médicament comme contrainte",
+        "identité diagnostique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A069",
+          "note": "L’attente médicale débouche sur un diagnostic et une médication."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-009",
+          "note": "Traiter médicaments, maladie et environnement comme faisceau."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A072",
+          "note": "Prépare le retrait et la lecture des effets secondaires."
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "médecine"
+      ],
+      "usage_livre": [
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A072",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A072 — Médicaments et humeur : Sumner formule l’hypothèse dangereuse des comprimés",
+    "data": {
+      "id": "S45-A072",
+      "type_unite": "tension_documentaire",
+      "titre": "Médicaments et humeur : Sumner formule l’hypothèse dangereuse des comprimés",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "78",
+        "papier": "à verrouiller"
+      },
+      "citation": "I really do think it was the tablets that killed him.",
+      "resume": "Deborah rapporte que Bernard Sumner observe une intensification des sautes d’humeur après la médication. Sumner formule une conviction forte : ce seraient les comprimés qui auraient tué Ian. Cette hypothèse est historiographiquement importante mais probatoirement fragile.\n",
+      "role_argumentatif": "Atome de tension documentaire : intégrer l’hypothèse médicamenteuse sans en faire une causalité démontrée.\n",
+      "niveau_preuve": {
+        "statut": "témoignage rapporté, interprétation rétrospective de Sumner",
+        "corroboration": "faible à moyenne ; nécessite croisement médical et chronologique",
+        "confiance": "élevée comme perception de Sumner ; faible comme causalité médicale"
+      },
+      "stabilite": {
+        "statut": "instable comme explication ; stable comme témoignage"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque majeur de causalité médicamenteuse simplificatrice.\n"
+      },
+      "motifs": [
+        "comprimés",
+        "Sumner",
+        "humeur",
+        "causalité médicale",
+        "suicide"
+      ],
+      "concepts_derives": [
+        "hypothèse médicamenteuse",
+        "causalité fragile",
+        "faisceau de vulnérabilité"
+      ],
+      "relations": [
+        {
+          "type": "alerte",
+          "cible": "RISQUE-CAUSALITE-MEDICALE",
+          "note": "Ne pas transformer la conviction de Sumner en preuve."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A071",
+          "note": "Les effets secondaires deviennent enjeu interprétatif."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-009",
+          "note": "Inscrire l’hypothèse dans une non-monocausalité médicale."
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "mémoire"
+      ],
+      "usage_livre": [
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A073",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A073 — Attendre la crise : rituel nocturne, absence seizure et care conjugal",
+    "data": {
+      "id": "S45-A073",
+      "type_unite": "scene_domestique_medicale",
+      "titre": "Attendre la crise : rituel nocturne, absence seizure et care conjugal",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "78-79",
+        "papier": "à verrouiller"
+      },
+      "citation": "it became a ritual for him to sit there and wait for an attack",
+      "resume": "Deborah décrit le rituel nocturne après les concerts : Ian attend une crise avant de dormir, par peur de mourir dans son sommeil. Elle surveille les absences, la cigarette Marlboro suspendue aux lèvres, le rythme respiratoire au lit. La performance live se prolonge en veille médicale domestique.\n",
+      "role_argumentatif": "Atome central sur le coût domestique de la maladie : Deborah devient veilleuse, soignante et témoin d’un corps qui ne se repose plus.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "forte comme expérience domestique ; détails médicaux à prudence",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de fétichisation morbide ou de réduction de la scène à une image littéraire.\n"
+      },
+      "motifs": [
+        "rituel nocturne",
+        "absence seizure",
+        "Marlboro",
+        "respiration",
+        "peur de mourir en dormant",
+        "care conjugal"
+      ],
+      "concepts_derives": [
+        "veille conjugale",
+        "extension domestique de la scène",
+        "corps à surveiller"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A071",
+          "note": "Après le diagnostic, la maladie s’organise en rituels domestiques."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-012",
+          "note": "La domesticité productive devient domesticité médicale."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "note": "Le corps torturé est aussi un corps surveillé par autrui."
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "domesticité",
+        "care"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A074",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A074 — Danse et crise : imitation, indistinction et réception corporelle",
+    "data": {
+      "id": "S45-A074",
+      "type_unite": "performance_sante",
+      "titre": "Danse et crise : imitation, indistinction et réception corporelle",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "79-80",
+        "papier": "à verrouiller"
+      },
+      "citation": "a distressing parody of his offstage seizures",
+      "resume": "Deborah écrit que la danse de Ian devient une parodie troublante de ses crises hors scène, avec bras qui moulinent et jambes saccadées. Paul Morley décrit une intensité au bord de la peur. Le passage pose une question difficile : imitation volontaire, continuité gestuelle ancienne, ou lecture rétrospective par la maladie.\n",
+      "role_argumentatif": "Atome critique sur le rapport performance / santé : il faut maintenir l’indécidable plutôt que de réduire la danse à un symptôme ou à une pure stratégie scénique.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + réception critique rapportée",
+        "corroboration": "forte avec vidéos, Morley, Savage ; interprétation à prudence",
+        "confiance": "élevée pour les perceptions ; faible pour l’intention"
+      },
+      "stabilite": {
+        "statut": "stable comme tension interprétative"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque de médicaliser entièrement la performance ou de l’esthétiser contre la réalité des crises.\n"
+      },
+      "motifs": [
+        "danse",
+        "crise",
+        "parody",
+        "Paul Morley",
+        "peur",
+        "corps scénique"
+      ],
+      "concepts_derives": [
+        "indistinction performance/symptôme",
+        "réception corporelle",
+        "corps exposé"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A002",
+          "note": "Rejoint la question du coût humain de la performance."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-009",
+          "note": "Ne pas réduire la danse au médical."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "note": "Le mythe du corps possédé doit être encadré."
+        }
+      ],
+      "couche_narrative": [
+        "performance",
+        "santé"
+      ],
+      "usage_livre": [
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A075",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message",
+    "data": {
+      "id": "S45-A075",
+      "type_unite": "processus_creatif",
+      "titre": "Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "80",
+        "papier": "à verrouiller"
+      },
+      "citation": "We haven’t got a message really; the lyrics are open to interpretation.",
+      "resume": "Deborah insiste sur le fait que Curtis transporte des carnets et papiers dans un sac plastique, écrit frénétiquement, écoute la musique souvent arrangée par Bernard, puis choisit des paroles adaptées. Dans Printed Noises, Ian affirme que les textes n’ont pas vraiment de message et restent ouverts, multidimensionnels.\n",
+      "role_argumentatif": "Atome majeur contre la lecture confessionnelle : les textes relèvent d’un matériau mobile, ajusté à la musique et ouvert à l’interprétation.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + citation d’entretien rapportée",
+        "corroboration": "forte avec Morris, Sumner, Hook ; citation Printed Noises à vérifier",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme processus général ; citation à vérifier"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de lire chaque chanson comme journal intime ou comme message suicidaire.\n"
+      },
+      "motifs": [
+        "carnets",
+        "plastic bag",
+        "paroles ouvertes",
+        "Printed Noises",
+        "anti-message"
+      ],
+      "concepts_derives": [
+        "anti-confessionnalisme",
+        "poétique d’assemblage",
+        "multidimensionnalité"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A011",
+          "note": "Renforce l’atome sur les paroles comme matériau mobile."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-LYRICS-AS-DIARY",
+          "note": "Les textes ne doivent pas être lus comme journal transparent."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CHAPITRE-4-ECRITURE-CURTIS",
+          "note": "Atome central pour la poétique de Curtis."
+        }
+      ],
+      "couche_narrative": [
+        "écriture",
+        "processus créatif"
+      ],
+      "usage_livre": [
+        "Chapitre 4"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A076",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A076 — Curtis catalyseur : direction vocale, mélodies et cohésion collective",
+    "data": {
+      "id": "S45-A076",
+      "type_unite": "processus_creatif",
+      "titre": "Curtis catalyseur : direction vocale, mélodies et cohésion collective",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "80-81",
+        "papier": "à verrouiller"
+      },
+      "citation": "He was a catalyst for the rest of us.",
+      "resume": "Stephen Morris et Bernard Sumner décrivent Curtis comme facilitateur du processus créatif : il a des mots disponibles, propose des lignes vocales, oriente les idées, indique les fragments de guitare, basse ou batterie qui fonctionnent, puis ajoute les paroles. Sumner insiste sur les mélodies vocales et sur la manière étrange de Curtis à la guitare.\n",
+      "role_argumentatif": "Atome crucial pour une analyse équilibrée de la création : Curtis n’est ni seul auteur total, ni simple chanteur. Il catalyse, oriente et assemble une matière collective.\n",
+      "niveau_preuve": {
+        "statut": "témoignages directs rapportés de Morris et Sumner",
+        "corroboration": "forte avec mémoires du groupe",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.\n"
+      },
+      "motifs": [
+        "catalyseur",
+        "vocal melodies",
+        "big box of lyrics",
+        "composition collective",
+        "direction"
+      ],
+      "concepts_derives": [
+        "auteur-catalyseur",
+        "collectif orienté",
+        "mélodie vocale comme cohésion"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A075",
+          "note": "Les paroles mobiles s’articulent à la direction collective."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-006",
+          "note": "La structure sonore se construit avec Curtis comme catalyseur."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-CURTIS-AUTEUR-TOTAL",
+          "note": "Curtis catalyse sans absorber le collectif."
+        }
+      ],
+      "couche_narrative": [
+        "processus créatif",
+        "groupe"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 4"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A077",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A077 — RCA abandonné : rachat des bandes, bootlegs et libération éditoriale",
+    "data": {
+      "id": "S45-A077",
+      "type_unite": "objet_discographique",
+      "titre": "RCA abandonné : rachat des bandes, bootlegs et libération éditoriale",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "81-82",
+        "papier": "à verrouiller"
+      },
+      "citation": "The master tapes were handed over in return for £1,500",
+      "resume": "Deborah décrit la liquidation du projet RCA : Rob Gretton propose un remix, Richard Searling perd le contrôle du projet, les bandes masters sont remises contre 1 500 £, le contrat d’édition n’a jamais été signé, ce qui laisse le groupe libre de réenregistrer. Deborah ajoute que les bootlegs ultérieurs semblent venir d’une cassette, non du master original.\n",
+      "role_argumentatif": "Atome central pour l’histoire discographique et les bootlegs : l’échec RCA devient libération contractuelle et source d’objets pirates.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + fait contractuel rapporté",
+        "corroboration": "forte à croiser avec Searling, Hook, Ott, archives contractuelles",
+        "confiance": "élevée pour la séquence générale ; moyenne pour l’origine des bootlegs"
+      },
+      "stabilite": {
+        "statut": "stable comme nœud discographique ; origine des bootlegs à vérifier"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de présenter l’origine cassette des bootlegs comme fait définitif sans expertise des sources sonores.\n"
+      },
+      "motifs": [
+        "RCA",
+        "master tapes",
+        "£1,500",
+        "publishing contract",
+        "bootlegs"
+      ],
+      "concepts_derives": [
+        "libération éditoriale",
+        "anti-récit RCA",
+        "source pirate"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-014",
+          "note": "RCA devient anti-récit complet : échec, rachat, liberté."
+        },
+        {
+          "type": "alimente",
+          "cible": "REGISTRE-BOOTLEGS",
+          "note": "À indexer pour origine des bootlegs RCA."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A078",
+          "note": "Prépare Unknown Pleasures comme sortie du blocage RCA."
+        }
+      ],
+      "couche_narrative": [
+        "discographie",
+        "industrie",
+        "bootlegs"
+      ],
+      "usage_livre": [
+        "Chapitre 8",
+        "Chapitre bootlegs"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A078",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A078 — *Unknown Pleasures* : Hannett comme catalyseur de coordination sonore",
+    "data": {
+      "id": "S45-A078",
+      "type_unite": "session",
+      "titre": "Unknown Pleasures : Hannett comme catalyseur de coordination sonore",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "82-83",
+        "papier": "à verrouiller"
+      },
+      "citation": "the catalyst Joy Division badly needed",
+      "resume": "Deborah décrit l’enregistrement d’*Unknown Pleasures* en avril 1979 à Strawberry Studios, financé par Tony Wilson, et l’enthousiasme de Ian pour Hannett : sampling de verre brisé, claquements de mains, atmosphères inhabituelles, batterie devenue partie intégrante du son. Hannett traduit leurs pensées et besoins en œuvre coordonnée.\n",
+      "role_argumentatif": "Atome majeur pour le chapitre studio : Hannett n’impose pas seulement des effets ; il coordonne une forme sonore que le groupe ne sait pas encore produire seul.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + fait discographique établi",
+        "corroboration": "forte avec Hook, Morris, Sumner, Reade, Hannett studies",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque d’effacer l’apport du groupe au profit du producteur ou inversement.\n"
+      },
+      "motifs": [
+        "Unknown Pleasures",
+        "Strawberry Studios",
+        "Hannett",
+        "glass-smashing",
+        "hand-clapping",
+        "drums"
+      ],
+      "concepts_derives": [
+        "catalyseur sonore",
+        "coordination d’atmosphère",
+        "studio comme traduction"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-006",
+          "note": "Hannett stabilise l’architecture sonore."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A066",
+          "note": "A Factory Sample préparait ce travail du froid sonore."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-HANNETT-GENIE-ABSOLU",
+          "note": "Hannett traduit des besoins du groupe autant qu’il impose un style."
+        }
+      ],
+      "couche_narrative": [
+        "studio",
+        "Hannett",
+        "Unknown Pleasures"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A079",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A079 — Femmes bannies et male bonding : coût genré de la réussite",
+    "data": {
+      "id": "S45-A079",
+      "type_unite": "tension_genre",
+      "titre": "Femmes bannies et male bonding : coût genré de la réussite",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "83",
+        "papier": "à verrouiller"
+      },
+      "citation": "the wives and girlfriends had gradually been banished",
+      "resume": "Deborah constate que les épouses et compagnes sont progressivement bannies des concerts hors du périmètre local, tandis qu’un male bonding curieux se forme. Le passage lie la professionnalisation du groupe à une exclusion genrée, au moment où *Unknown Pleasures* se construit.\n",
+      "role_argumentatif": "Atome critique pour le chapitre 10 : la réussite musicale produit une clôture masculine qui marginalise les femmes ayant pourtant soutenu la phase initiale.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct situé",
+        "corroboration": "forte avec scènes précédentes de Deborah ; à croiser avec Hook/Morris",
+        "confiance": "élevée pour la perception ; moyenne pour intentionnalité collective"
+      },
+      "stabilite": {
+        "statut": "stable comme motif de source"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque d’attribuer l’exclusion à une politique formalisée unique ; Deborah évoque une évolution graduelle.\n"
+      },
+      "motifs": [
+        "wives and girlfriends",
+        "male bonding",
+        "bannissement",
+        "professionnalisation",
+        "Factory"
+      ],
+      "concepts_derives": [
+        "coût genré de la professionnalisation",
+        "clôture masculine",
+        "travail féminin effacé"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A061",
+          "note": "La distance affective devient exclusion pratique."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-013",
+          "note": "Après l’économie domestique du disque, les femmes sont marginalisées."
+        },
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-019",
+          "note": "Le management protecteur accompagne la clôture masculine."
+        }
+      ],
+      "couche_narrative": [
+        "genre",
+        "Factory",
+        "domesticité"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A080",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète",
+    "data": {
+      "id": "S45-A080",
+      "type_unite": "scene_domestique",
+      "titre": "Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "83-84",
+        "papier": "à verrouiller"
+      },
+      "citation": "I can’t imagine there being another person here with us.",
+      "resume": "Deborah raconte la veille de l’accouchement, avec Ian devant un documentaire sur Nuremberg, puis la naissance de Natalie. Ian passe de l’appréhension à l’enchantement, mais sa peur des crises l’empêche ensuite de tenir seule sa fille. Deborah doit prendre en charge le bébé et Ian, tandis qu’il exige la continuité des soins domestiques.\n",
+      "role_argumentatif": "Atome majeur sur le foyer : la paternité ne résout pas la crise, elle la reconfigure. Le père émerveillé reste empêché par la maladie, et Deborah entre dans une double charge de care.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "forte comme expérience domestique ; détails médicaux à prudence",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de moraliser l’incapacité paternelle ou de la réduire à la maladie. La scène combine peur réelle, charge domestique et immaturité relationnelle.\n"
+      },
+      "motifs": [
+        "Natalie",
+        "naissance",
+        "Nuremberg",
+        "père inquiet",
+        "double care",
+        "aura pré-crise"
+      ],
+      "concepts_derives": [
+        "paternité empêchée",
+        "double charge domestique",
+        "maladie et soin du nourrisson"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A073",
+          "note": "La surveillance des crises se combine au soin du bébé."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-012",
+          "note": "La domesticité devient double care."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A079",
+          "note": "La marginalisation des femmes s’ajoute à la charge domestique."
+        }
+      ],
+      "couche_narrative": [
+        "domesticité",
+        "paternité",
+        "santé"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S45-A021",
     "file": "sources/curtis_touching_from_a_distance/source_part_1976_1977_formation.md",
     "heading": "S45-A021 — « Rusty » : l’annonce solitaire avant la rencontre du groupe",
@@ -5718,7 +7182,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::123",
+    "id": "NO_ID::sources/marco_broll/README.md::143",
     "file": "sources/marco_broll/README.md",
     "heading": "S68 — Broll, « Joy Division », s.d.",
     "data": {
@@ -5738,7 +7202,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::124",
+    "id": "NO_ID::sources/marco_broll/README.md::144",
     "file": "sources/marco_broll/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -5778,7 +7242,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::125",
+    "id": "NO_ID::sources/marco_broll/README.md::145",
     "file": "sources/marco_broll/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -8766,7 +10230,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::212",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::232",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "S72 — Reynolds, *Rip It Up and Start Again*, 2005/2006",
     "data": {
@@ -8783,7 +10247,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::213",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::233",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Couverture documentaire consolidée",
     "data": {
@@ -8838,7 +10302,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::214",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::234",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -8859,7 +10323,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::215",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::235",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -20045,7 +21509,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::571",
+    "id": "NO_ID::sources/flowers/README.md::591",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -20062,7 +21526,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::572",
+    "id": "NO_ID::sources/flowers/README.md::592",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -20122,7 +21586,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::573",
+    "id": "NO_ID::sources/flowers/README.md::593",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -20143,7 +21607,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::574",
+    "id": "NO_ID::sources/flowers/README.md::594",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -24860,7 +26324,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::656",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::676",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -60161,7 +61625,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1279",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1299",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -64747,7 +66211,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1425",
+    "id": "NO_ID::sources/suatoni/README.md::1445",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -64764,7 +66228,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1426",
+    "id": "NO_ID::sources/suatoni/README.md::1446",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -64802,7 +66266,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1427",
+    "id": "NO_ID::sources/suatoni/README.md::1447",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -65939,7 +67403,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1463",
+    "id": "NO_ID::sources/greig_strong/README.md::1483",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -65956,7 +67420,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1464",
+    "id": "NO_ID::sources/greig_strong/README.md::1484",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -65985,7 +67449,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1465",
+    "id": "NO_ID::sources/greig_strong/README.md::1485",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -66481,6 +67945,155 @@
       "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S45-A-FACTORY-SAMPLE-DIGITAL-GLASS",
+    "file": "registers/songs/s45_curtis_songs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chansons, sessions et objets — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "SONG-S45-A-FACTORY-SAMPLE-DIGITAL-GLASS",
+      "source_id": "S45",
+      "titre": "A Factory Sample / « Digital » / « Glass »",
+      "artiste": "Joy Division",
+      "nature": "double EP Factory / production Hannett",
+      "usage": "Seuil Factory : Wilson finance, Hannett produit, Saville formalise, Joy Division laisse presque vide son espace d’information. Son plus propre et plus froid que sur *An Ideal for Living*.\n",
+      "atomes_lies": [
+        "S45-A066"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "prudence": "À traiter comme seuil, non comme système Factory déjà complètement constitué.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S45-HOPE-AND-ANCHOR-1978",
+    "file": "registers/songs/s45_curtis_songs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chansons, sessions et objets — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "SONG-S45-HOPE-AND-ANCHOR-1978",
+      "source_id": "S45",
+      "titre": "Hope and Anchor, London debut",
+      "artiste": "Joy Division",
+      "nature": "concert / événement critique",
+      "usage": "Premier concert londonien décevant, suivi sur le trajet retour de la première crise épileptique reconnue de Ian Curtis.\n",
+      "atomes_lies": [
+        "S45-A068"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "prudence": "Ne pas faire de la déception londonienne une cause médicale ; conserver la succession d’événements sans causalité forcée.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S45-UNKNOWN-PLEASURES-STRAWBERRY",
+    "file": "registers/songs/s45_curtis_songs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chansons, sessions et objets — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "SONG-S45-UNKNOWN-PLEASURES-STRAWBERRY",
+      "source_id": "S45",
+      "titre": "Unknown Pleasures",
+      "artiste": "Joy Division",
+      "nature": "album / session Strawberry Studios",
+      "usage": "Enregistrement d’avril 1979 financé par Tony Wilson ; Hannett agit comme catalyseur sonore, notamment par les atmosphères, la batterie et les sons inhabituels.\n",
+      "atomes_lies": [
+        "S45-A078"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "prudence": "Ne pas attribuer le son uniquement à Hannett ; articuler production, groupe et besoins sonores.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S45-PRINTED-NOISES-LYRICS",
+    "file": "registers/songs/s45_curtis_songs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chansons, sessions et objets — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "SONG-S45-PRINTED-NOISES-LYRICS",
+      "source_id": "S45",
+      "titre": "Printed Noises interview / lyrics open to interpretation",
+      "artiste": "Ian Curtis / Joy Division",
+      "nature": "entretien fanzine / poétique",
+      "usage": "Citation sur l’absence de message univoque et l’ouverture interprétative des paroles.\n",
+      "atomes_lies": [
+        "S45-A075"
+      ],
+      "chapitres": [
+        "Chapitre 4"
+      ],
+      "prudence": "Citation à vérifier dans *Printed Noises* avant emploi définitif.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S45-PERFECT-DAY-INTERPRETATION",
+    "file": "registers/songs/s45_curtis_songs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chansons, sessions et objets — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "SONG-S45-PERFECT-DAY-INTERPRETATION",
+      "source_id": "S45",
+      "titre": "Perfect Day",
+      "artiste": "Lou Reed",
+      "nature": "référence interprétative",
+      "usage": "Exemple de l’habitude de Curtis de lire dans les paroles des autres ; Deborah rapporte leur désaccord sur la dernière ligne de la chanson.\n",
+      "atomes_lies": [
+        "S45-A075"
+      ],
+      "chapitres": [
+        "Chapitre 4"
+      ],
+      "prudence": "Référence à l’herméneutique de Curtis, non influence directe unique sur Joy Division.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S45-CANDY-SAYS-CONTINUITY",
+    "file": "registers/songs/s45_curtis_songs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chansons, sessions et objets — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "SONG-S45-CANDY-SAYS-CONTINUITY",
+      "source_id": "S45",
+      "titre": "Candy Says",
+      "artiste": "The Velvet Underground",
+      "nature": "référence domestique / continuité",
+      "usage": "Déjà mobilisée pour nommer la chienne Candy ; dans ce passage, la référence est prolongée par la présence de Candy dans les scènes de maladie et de foyer.\n",
+      "atomes_lies": [
+        "S45-A073",
+        "S45-A080"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "prudence": "Référence affective et domestique, non preuve d’influence musicale directe.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
     }
   },
   {
@@ -67008,7 +68621,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1491",
+    "id": "NO_ID::registers/songs/master_songs.md::1517",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -78639,6 +80252,617 @@
   },
   {
     "kind": "quote",
+    "id": "S45-Q037",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q037",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "they kept their relationships at arm’s length and so did not share any happiness",
+      "traduction_de_travail": "ils tenaient leurs relations à distance et ne partageaient donc aucun bonheur",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_72",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte rapportée",
+      "usage": [
+        "Chapitre 10",
+        "politique affective du groupe"
+      ],
+      "remarque": "Propos de Peter Hook rapporté par Deborah Curtis ; à croiser avec Hook.\n",
+      "atomes_lies": [
+        "S45-A061"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q038",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q038",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "We used to have a right laugh.",
+      "traduction_de_travail": "On se marrait vraiment bien.",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_73",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte rapportée",
+      "usage": [
+        "Chapitre 10",
+        "contre-mythe du groupe sombre"
+      ],
+      "remarque": "Propos de Bernard Sumner rapporté par Deborah Curtis.\n",
+      "atomes_lies": [
+        "S45-A062"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q039",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q039",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "Being the original ‘girlies’, we had seen Joy Division develop",
+      "traduction_de_travail": "Étant les « girlies » d’origine, nous avions vu Joy Division se développer",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_73",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 10",
+        "témoins féminins de la formation"
+      ],
+      "atomes_lies": [
+        "S45-A063"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q040",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q040",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "possibly the first real Joy Division fans",
+      "traduction_de_travail": "peut-être les premières véritables fans de Joy Division",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_73",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 10",
+        "Chapitre 14",
+        "fandom précoce"
+      ],
+      "atomes_lies": [
+        "S45-A064"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q041",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q041",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "I convinced myself that I had betrayed Stephanie",
+      "traduction_de_travail": "je me suis convaincue que j’avais trahi Stephanie",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_74",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 10",
+        "scène sensible Stephanie"
+      ],
+      "remarque": "À manier avec prudence : Deborah formule une perception de trahison et non une preuve complète d’intention de Curtis.\n",
+      "atomes_lies": [
+        "S45-A065"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q042",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q042",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "a much cleaner and colder sound",
+      "traduction_de_travail": "un son beaucoup plus propre et plus froid",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_75",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "A Factory Sample"
+      ],
+      "atomes_lies": [
+        "S45-A066"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q043",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q043",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "appropriate to a demigod rather than an up-and-coming young singer",
+      "traduction_de_travail": "digne d’un demi-dieu plutôt que d’un jeune chanteur en devenir",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_75",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 14",
+        "fandom dévotionnel précoce"
+      ],
+      "atomes_lies": [
+        "S45-A067"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q044",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q044",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "I’ve had some kind of fit",
+      "traduction_de_travail": "J’ai eu une sorte de crise",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_76",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 12",
+        "première crise reconnue"
+      ],
+      "atomes_lies": [
+        "S45-A068"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q045",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q045",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "I thought someone must have made a mistake or perhaps he had faked it",
+      "traduction_de_travail": "je pensais que quelqu’un avait dû se tromper ou peut-être qu’il l’avait simulée",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_76",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 12",
+        "incrédulité domestique"
+      ],
+      "atomes_lies": [
+        "S45-A069"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q046",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q046",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "Ian’s illness was something we would have to learn to accommodate",
+      "traduction_de_travail": "la maladie de Ian était quelque chose que nous devrions apprendre à intégrer",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_77",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 12",
+        "double temporalité succès/maladie"
+      ],
+      "atomes_lies": [
+        "S45-A070"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q047",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q047",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "Ian was now EPILEPTIC",
+      "traduction_de_travail": "Ian était désormais ÉPILEPTIQUE",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_78",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 12",
+        "nomination médicale"
+      ],
+      "atomes_lies": [
+        "S45-A071"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q048",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q048",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "I really do think it was the tablets that killed him.",
+      "traduction_de_travail": "Je pense vraiment que ce sont les comprimés qui l’ont tué.",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_78",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte rapportée",
+      "usage": [
+        "Chapitre 12",
+        "hypothèse médicamenteuse"
+      ],
+      "remarque": "Propos de Bernard Sumner rapporté par Deborah Curtis. À présenter comme témoignage rétrospectif, non comme preuve médicale.\n",
+      "atomes_lies": [
+        "S45-A072"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q049",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q049",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "it became a ritual for him to sit there and wait for an attack",
+      "traduction_de_travail": "cela devint pour lui un rituel de rester assis là à attendre une crise",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_78",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 12",
+        "care conjugal"
+      ],
+      "atomes_lies": [
+        "S45-A073"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q050",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q050",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "a distressing parody of his offstage seizures",
+      "traduction_de_travail": "une parodie pénible de ses crises hors scène",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_79",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 12",
+        "danse et crise"
+      ],
+      "atomes_lies": [
+        "S45-A074"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q051",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q051",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "We haven’t got a message really; the lyrics are open to interpretation.",
+      "traduction_de_travail": "Nous n’avons pas vraiment de message ; les paroles sont ouvertes à l’interprétation.",
+      "statut": {
+        "original": "citation_rapportee_par_S45",
+        "source_presse": "Printed_Noises_a_verifier",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_80",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation entretien rapportée",
+      "usage": [
+        "Chapitre 4",
+        "anti-confessionnalisme"
+      ],
+      "remarque": "Citation à vérifier dans Printed Noises avant emploi définitif.\n",
+      "atomes_lies": [
+        "S45-A075"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q052",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q052",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "He was a catalyst for the rest of us.",
+      "traduction_de_travail": "Il était un catalyseur pour nous autres.",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_81",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte rapportée",
+      "usage": [
+        "Chapitre 3",
+        "Chapitre 4",
+        "Curtis catalyseur"
+      ],
+      "atomes_lies": [
+        "S45-A076"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q053",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q053",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "The master tapes were handed over in return for £1,500",
+      "traduction_de_travail": "Les bandes masters furent remises en échange de 1 500 livres.",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_82",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 8",
+        "RCA",
+        "bootlegs"
+      ],
+      "atomes_lies": [
+        "S45-A077"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q054",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q054",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "the catalyst Joy Division badly needed",
+      "traduction_de_travail": "le catalyseur dont Joy Division avait cruellement besoin",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_83",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Hannett"
+      ],
+      "atomes_lies": [
+        "S45-A078"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q055",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q055",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "the wives and girlfriends had gradually been banished",
+      "traduction_de_travail": "les épouses et compagnes avaient progressivement été bannies",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_83",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 10",
+        "coût genré de la professionnalisation"
+      ],
+      "atomes_lies": [
+        "S45-A079"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S45-Q056",
+    "file": "registers/quotes/s45_curtis_quotes_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Citations candidates — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "S45-Q056",
+      "source_id": "S45",
+      "source_complete": "CURTIS, Deborah, Touching from a Distance: Ian Curtis and Joy Division, Londres, Faber & Faber, 1995.",
+      "passage": "I can’t imagine there being another person here with us.",
+      "traduction_de_travail": "Je n’arrive pas à imaginer qu’il y ait une autre personne ici avec nous.",
+      "statut": {
+        "original": "verifie_sur_ocr",
+        "pagination_papier": "a_completer",
+        "pagination_pdf": "verifiee_page_83",
+        "traduction": "a_stabiliser"
+      },
+      "type": "citation courte",
+      "usage": [
+        "Chapitre 10",
+        "naissance de Natalie"
+      ],
+      "atomes_lies": [
+        "S45-A080"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
     "id": "S45-Q006",
     "file": "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
     "heading": "S45 — Citations candidates — vote conservateur rapporté",
@@ -80920,7 +83144,386 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1862",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1908",
+    "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "Relations stabilisées",
+    "data": {
+      "relations": [
+        {
+          "id": "REL-S45-A061-CONCEPT-018",
+          "source": "S45-A061",
+          "type": "prolonge",
+          "cible": "CONCEPT-018",
+          "justification": "La grossesse de Deborah révèle la politique affective implicite du groupe : relations tenues à distance et bonheur peu partageable.\n"
+        },
+        {
+          "id": "REL-S45-A062-MYTH-002",
+          "source": "S45-A062",
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "justification": "Le témoignage de Sumner sur l’humour du groupe empêche de figer Joy Division dans une noirceur totale.\n"
+        },
+        {
+          "id": "REL-S45-A063-CONCEPT-018",
+          "source": "S45-A063",
+          "type": "prolonge",
+          "cible": "CONCEPT-018",
+          "justification": "Les « original girlies » donnent à voir une archive féminine minorée de la formation du groupe.\n"
+        },
+        {
+          "id": "REL-S45-A064-MOTIF-025",
+          "source": "S45-A064",
+          "type": "prolonge",
+          "cible": "MOTIF-025",
+          "justification": "Les « Goshes » constituent un noyau précoce de fandom incarné et genré.\n"
+        },
+        {
+          "id": "REL-S45-A065-CONCEPT-004",
+          "source": "S45-A065",
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "justification": "L’épisode Stephanie est une scène privée sensible, dont l’intention ne peut pas être établie avec certitude.\n"
+        },
+        {
+          "id": "REL-S45-A066-S45-A009",
+          "source": "S45-A066",
+          "type": "prolonge",
+          "cible": "S45-A009",
+          "justification": "L’atome consolide le seuil *A Factory Sample* déjà identifié : Hannett, Saville, Wilson et silence informatif.\n"
+        },
+        {
+          "id": "REL-S45-A067-MYTH-002",
+          "source": "S45-A067",
+          "type": "prépare",
+          "cible": "MYTH-002",
+          "justification": "La demande d’autographe au Check Inn montre une canonisation micro-locale de Curtis avant la grande postérité.\n"
+        },
+        {
+          "id": "REL-S45-A068-S45-A010",
+          "source": "S45-A068",
+          "type": "prolonge",
+          "cible": "S45-A010",
+          "justification": "L’atome précise la première crise reconnue après le Hope and Anchor et son inscription hospitalière.\n"
+        },
+        {
+          "id": "REL-S45-A069-CONCEPT-019",
+          "source": "S45-A069",
+          "type": "prolonge",
+          "cible": "CONCEPT-019",
+          "justification": "Le diagnostic différé montre que l’épilepsie est aussi une affaire de foyer, d’attente médicale et d’observation domestique.\n"
+        },
+        {
+          "id": "REL-S45-A070-MOTIF-026",
+          "source": "S45-A070",
+          "type": "prolonge",
+          "cible": "MOTIF-026",
+          "justification": "Couverture NME, Peel session et accommodation de la maladie forment une double temporalité publique et domestique.\n"
+        },
+        {
+          "id": "REL-S45-A071-CONCEPT-019",
+          "source": "S45-A071",
+          "type": "requiert",
+          "cible": "CONCEPT-019",
+          "justification": "Diagnostic et traitements doivent être intégrés comme faisceau, non comme causalité unique.\n"
+        },
+        {
+          "id": "REL-S45-A072-RISQUE-CAUSALITE-MEDICALE",
+          "source": "S45-A072",
+          "type": "alerte",
+          "cible": "RISQUE-CAUSALITE-MEDICALE",
+          "justification": "La conviction de Sumner sur les comprimés est un témoignage fort, mais ne constitue pas une preuve médicale.\n"
+        },
+        {
+          "id": "REL-S45-A073-CONCEPT-021",
+          "source": "S45-A073",
+          "type": "prolonge",
+          "cible": "CONCEPT-021",
+          "justification": "Le rituel d’attente des crises installe Deborah dans une veille conjugale qui prépare la double charge domestique.\n"
+        },
+        {
+          "id": "REL-S45-A074-CONCEPT-019",
+          "source": "S45-A074",
+          "type": "requiert",
+          "cible": "CONCEPT-019",
+          "justification": "La danse de Curtis doit rester dans l’indécidable entre performance, symptôme, continuité gestuelle et réception rétrospective.\n"
+        },
+        {
+          "id": "REL-S45-A075-S45-A011",
+          "source": "S45-A075",
+          "type": "prolonge",
+          "cible": "S45-A011",
+          "justification": "Les carnets, papiers, sac plastique et citation Printed Noises renforcent la lecture des paroles comme matériau mobile.\n"
+        },
+        {
+          "id": "REL-S45-A076-CONCEPT-020",
+          "source": "S45-A076",
+          "type": "prolonge",
+          "cible": "CONCEPT-020",
+          "justification": "Morris et Sumner définissent Curtis comme catalyseur, non auteur total ni simple chanteur.\n"
+        },
+        {
+          "id": "REL-S45-A077-CONCEPT-014",
+          "source": "S45-A077",
+          "type": "prolonge",
+          "cible": "CONCEPT-014",
+          "justification": "L’abandon RCA devient libération éditoriale, rachat des masters et source potentielle de bootlegs.\n"
+        },
+        {
+          "id": "REL-S45-A078-CONCEPT-006",
+          "source": "S45-A078",
+          "type": "prolonge",
+          "cible": "CONCEPT-006",
+          "justification": "Hannett coordonne atmosphères, batterie et sons inhabituels pour stabiliser *Unknown Pleasures*.\n"
+        },
+        {
+          "id": "REL-S45-A079-CONCEPT-018",
+          "source": "S45-A079",
+          "type": "prolonge",
+          "cible": "CONCEPT-018",
+          "justification": "Le bannissement progressif des wives and girlfriends matérialise la politique affective et genrée du groupe.\n"
+        },
+        {
+          "id": "REL-S45-A080-CONCEPT-021",
+          "source": "S45-A080",
+          "type": "prolonge",
+          "cible": "CONCEPT-021",
+          "justification": "La naissance de Natalie transforme la maladie de Curtis en double charge de care pour Deborah."
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1909",
+    "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "Entrées RAG candidates",
+    "data": {
+      "rag_index": [
+        {
+          "id": "RAG-S45-A066",
+          "source_id": "S45",
+          "atom_id": "S45-A066",
+          "title": "A Factory Sample comme seuil Factory",
+          "chapters": [
+            "Chapitre 3",
+            "Chapitre 5",
+            "Chapitre 6"
+          ],
+          "tags": [
+            "a-factory-sample",
+            "martin-hannett",
+            "peter-saville",
+            "digital",
+            "glass",
+            "factory",
+            "cold-sound"
+          ],
+          "query_boost": [
+            "A Factory Sample much cleaner and colder sound",
+            "Digital Glass Martin Hannett Peter Saville Deborah Curtis",
+            "Joy Division left almost blank Factory Sample"
+          ],
+          "use_for": [
+            "analyser le proto-système Factory",
+            "relier son froid et minimalisme graphique",
+            "préparer Unknown Pleasures"
+          ],
+          "avoid_for": [
+            "Factory déjà système clos"
+          ]
+        },
+        {
+          "id": "RAG-S45-A068",
+          "source_id": "S45",
+          "atom_id": "S45-A068",
+          "title": "Hope and Anchor et première crise reconnue",
+          "chapters": [
+            "Chapitre 12"
+          ],
+          "tags": [
+            "hope-and-anchor",
+            "epilepsy",
+            "first-fit",
+            "luton-and-dunstable",
+            "phenobarbitone",
+            "health"
+          ],
+          "query_boost": [
+            "Hope and Anchor first recognizable epileptic fit",
+            "I've had some kind of fit Deborah Curtis",
+            "Luton and Dunstable Hospital Ian Curtis"
+          ],
+          "use_for": [
+            "dater la rupture médicale",
+            "articuler tournée, fatigue et maladie",
+            "éviter la téléologie morbide"
+          ],
+          "avoid_for": [
+            "cause unique de la mort",
+            "scène prophétique"
+          ]
+        },
+        {
+          "id": "RAG-S45-A071",
+          "source_id": "S45",
+          "atom_id": "S45-A071",
+          "title": "Diagnostic du 23 janvier 1979 et traitements",
+          "chapters": [
+            "Chapitre 12"
+          ],
+          "tags": [
+            "epilepsy",
+            "phenytoin-sodium",
+            "phenobarbitone",
+            "diagnosis",
+            "macclesfield-hospital",
+            "side-effects"
+          ],
+          "query_boost": [
+            "Ian was now EPILEPTIC",
+            "Phenytoin Sodium Phenobarbitone Ian Curtis",
+            "23 January 1979 Macclesfield District and General Hospital"
+          ],
+          "use_for": [
+            "traiter la nomination médicale",
+            "cadrer les effets secondaires possibles",
+            "distinguer médicament et causalité"
+          ],
+          "avoid_for": [
+            "preuve médicale définitive"
+          ]
+        },
+        {
+          "id": "RAG-S45-A075",
+          "source_id": "S45",
+          "atom_id": "S45-A075",
+          "title": "Paroles ouvertes, carnets et sac plastique",
+          "chapters": [
+            "Chapitre 4"
+          ],
+          "tags": [
+            "lyrics",
+            "notebooks",
+            "plastic-bag",
+            "printed-noises",
+            "anti-confessional",
+            "songwriting"
+          ],
+          "query_boost": [
+            "We haven't got a message really lyrics are open to interpretation",
+            "Ian carried a plastic bag notebooks lyrics",
+            "Printed Noises Joy Division lyrics multidimensional"
+          ],
+          "use_for": [
+            "contrer lecture journal intime",
+            "expliquer paroles comme matériau mobile",
+            "articuler écriture et musique collective"
+          ],
+          "avoid_for": [
+            "paroles comme suicide note",
+            "intention transparente"
+          ]
+        },
+        {
+          "id": "RAG-S45-A077",
+          "source_id": "S45",
+          "atom_id": "S45-A077",
+          "title": "Abandon RCA, masters et bootlegs",
+          "chapters": [
+            "Chapitre 8",
+            "Chapitre bootlegs"
+          ],
+          "tags": [
+            "rca",
+            "master-tapes",
+            "bootlegs",
+            "richard-searling",
+            "rob-gretton",
+            "publishing"
+          ],
+          "query_boost": [
+            "master tapes were handed over in return for £1,500",
+            "RCA bootlegs cassette copy not original master Deborah Curtis",
+            "Joy Division publishing contract never signed RCA"
+          ],
+          "use_for": [
+            "documenter l’anti-récit RCA",
+            "alimenter le registre bootlegs",
+            "expliquer liberté éditoriale"
+          ],
+          "avoid_for": [
+            "origine définitive des bootlegs sans vérification sonore"
+          ]
+        },
+        {
+          "id": "RAG-S45-A078",
+          "source_id": "S45",
+          "atom_id": "S45-A078",
+          "title": "Unknown Pleasures et Hannett catalyseur sonore",
+          "chapters": [
+            "Chapitre 3",
+            "Chapitre 8"
+          ],
+          "tags": [
+            "unknown-pleasures",
+            "martin-hannett",
+            "strawberry-studios",
+            "drums",
+            "glass-smashing",
+            "hand-clapping",
+            "factory"
+          ],
+          "query_boost": [
+            "the catalyst Joy Division badly needed",
+            "Unknown Pleasures Strawberry Studios glass-smashing hand-clapping",
+            "Hannett drums integral part of the music Deborah Curtis"
+          ],
+          "use_for": [
+            "analyser Hannett comme catalyseur",
+            "articuler studio et atmosphère",
+            "préparer lecture d’Unknown Pleasures"
+          ],
+          "avoid_for": [
+            "Hannett seul auteur du son"
+          ]
+        },
+        {
+          "id": "RAG-S45-A080",
+          "source_id": "S45",
+          "atom_id": "S45-A080",
+          "title": "Naissance de Natalie et double care domestique",
+          "chapters": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "tags": [
+            "natalie-curtis",
+            "birth",
+            "fatherhood",
+            "epilepsy",
+            "domestic-care",
+            "deborah-curtis"
+          ],
+          "query_boost": [
+            "I can't imagine there being another person here with us",
+            "Natalie birth Ian Curtis afraid fit dropped baby",
+            "Deborah look after both Ian and Natalie single-handedly"
+          ],
+          "use_for": [
+            "analyser paternité empêchée",
+            "documenter double charge domestique",
+            "relier maladie et foyer"
+          ],
+          "avoid_for": [
+            "moralisation de l’incapacité paternelle"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1910",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -81014,7 +83617,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1863",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1911",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -81184,7 +83787,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1864",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1912",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -81306,7 +83909,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1865",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1913",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -81440,7 +84043,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1866",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1914",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -81461,7 +84064,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1867",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1915",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -81583,7 +84186,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1868",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1916",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -81749,7 +84352,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1869",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1917",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -81808,7 +84411,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1870",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1918",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -81857,7 +84460,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1871",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1919",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -81871,6 +84474,219 @@
         "Ian Curtis est thatchérien.",
         "Joy Division exprime politiquement le conservatisme de Curtis.",
         "Le vote de Curtis contredit le rôle du contexte social mancunien."
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-023",
+    "file": "registers/motifs/s45_curtis_motifs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "MOTIF-023 — compagnes marginalisées",
+    "data": {
+      "id": "MOTIF-023",
+      "nom": "compagnes marginalisées",
+      "definition": "Motif désignant la mise à distance progressive des épouses et compagnes du groupe, malgré leur rôle dans l’infrastructure initiale : grossesse tue ou gênante, bonheur non partagé, statut de « girlies », exclusion des concerts, male bonding.\n",
+      "formes": [
+        "Deborah Curtis enceinte",
+        "Sue Barlow",
+        "original girlies",
+        "wives and girlfriends banished",
+        "male bonding"
+      ],
+      "chapitres": [
+        "Chapitre 10"
+      ],
+      "concepts_associes": [
+        "CONCEPT-018",
+        "CONCEPT-013"
+      ],
+      "risques": [
+        "généralisation abusive à tous les membres",
+        "réduction du groupe à sa politique genrée",
+        "victimisation univoque de Deborah"
+      ],
+      "atomes_lies": [
+        "S45-A061",
+        "S45-A063",
+        "S45-A079"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-024",
+    "file": "registers/motifs/s45_curtis_motifs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "MOTIF-024 — humour excluant",
+    "data": {
+      "id": "MOTIF-024",
+      "nom": "humour excluant",
+      "definition": "Motif désignant l’humour privé de Joy Division : il contredit le mythe du groupe entièrement sombre, mais contribue aussi à fermer le groupe sur lui-même et à exclure les relations périphériques.\n",
+      "formes": [
+        "right laugh",
+        "humour privé",
+        "jokes internes",
+        "relations périphériques dégradées"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "concepts_associes": [
+        "CONCEPT-018"
+      ],
+      "risques": [
+        "contre-mythe joyeux",
+        "effacement des textes et de la souffrance",
+        "anecdote comique isolée"
+      ],
+      "atomes_lies": [
+        "S45-A062"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-025",
+    "file": "registers/motifs/s45_curtis_motifs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "MOTIF-025 — fandom dévotionnel précoce",
+    "data": {
+      "id": "MOTIF-025",
+      "nom": "fandom dévotionnel précoce",
+      "definition": "Motif désignant les premières formes de réception personnalisée de Curtis et de Joy Division : fans féminines proches du groupe, demandes d’autographes, attitude quasi religieuse face à un chanteur encore émergent.\n",
+      "formes": [
+        "Goshes",
+        "Dean au Check Inn",
+        "autographe",
+        "demigod",
+        "popularité surréelle"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "concepts_associes": [
+        "réception incarnée",
+        "canonisation micro-locale"
+      ],
+      "risques": [
+        "surinterpréter un fan isolé",
+        "réduire les fans féminines à des menaces conjugales",
+        "anticiper trop fortement la postérité"
+      ],
+      "atomes_lies": [
+        "S45-A064",
+        "S45-A067"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-026",
+    "file": "registers/motifs/s45_curtis_motifs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "MOTIF-026 — maladie comme double temporalité",
+    "data": {
+      "id": "MOTIF-026",
+      "nom": "maladie comme double temporalité",
+      "definition": "Motif désignant la simultanéité entre ascension publique de Joy Division et installation domestique de la maladie : couverture NME, Peel session, diagnostic, médicaments, attentes nocturnes, grossesse et naissance.\n",
+      "formes": [
+        "Hope and Anchor",
+        "NME cover",
+        "Peel session",
+        "diagnostic",
+        "Phenobarbitone",
+        "Phenytoin Sodium",
+        "veille nocturne"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 10"
+      ],
+      "concepts_associes": [
+        "CONCEPT-019",
+        "CONCEPT-021"
+      ],
+      "risques": [
+        "causalité succès/maladie",
+        "dramatisation téléologique",
+        "fétichisation du corps souffrant"
+      ],
+      "atomes_lies": [
+        "S45-A068",
+        "S45-A069",
+        "S45-A070",
+        "S45-A071",
+        "S45-A073"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-027",
+    "file": "registers/motifs/s45_curtis_motifs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "MOTIF-027 — paroles comme matériau mobile",
+    "data": {
+      "id": "MOTIF-027",
+      "nom": "paroles comme matériau mobile",
+      "definition": "Motif désignant la manière dont Curtis transporte des carnets et fragments, écrit par poussées, écoute la musique du groupe, puis choisit ou ajuste des textes à la forme collective.\n",
+      "formes": [
+        "plastic bag",
+        "notebooks",
+        "paper",
+        "big box with lyrics",
+        "open to interpretation",
+        "vocal melodies"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 4"
+      ],
+      "concepts_associes": [
+        "CONCEPT-020",
+        "anti-confessionnalisme"
+      ],
+      "risques": [
+        "journal intime transparent",
+        "message suicidaire direct",
+        "effacement du collectif"
+      ],
+      "atomes_lies": [
+        "S45-A075",
+        "S45-A076"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-028",
+    "file": "registers/motifs/s45_curtis_motifs_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "MOTIF-028 — Hannett catalyseur sonore",
+    "data": {
+      "id": "MOTIF-028",
+      "nom": "Hannett catalyseur sonore",
+      "definition": "Motif désignant le rôle de Martin Hannett comme traducteur et coordinateur des besoins sonores du groupe : atmosphères, sampling, batterie, cohésion d’un matériau encore difficile à stabiliser.\n",
+      "formes": [
+        "Strawberry Studios",
+        "glass-smashing",
+        "hand-clapping",
+        "drums",
+        "unusual sounds",
+        "co-ordinated work of art"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "concepts_associes": [
+        "CONCEPT-006"
+      ],
+      "risques": [
+        "mythe Hannett génie absolu",
+        "effacement du groupe",
+        "producteur comme seul auteur du son"
+      ],
+      "atomes_lies": [
+        "S45-A066",
+        "S45-A078"
       ]
     }
   },
@@ -88597,6 +91413,202 @@
     }
   },
   {
+    "kind": "person",
+    "id": "PERS-S45-SUE-BARLOW-GIRLIES",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-SUE-BARLOW-GIRLIES",
+      "personne": "Sue Barlow",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A061",
+        "S45-A063"
+      ],
+      "contenu": "Compagne puis épouse de Bernard Sumner ; associée par Deborah Curtis aux « original girlies » qui ont vu Joy Division se former et se professionnaliser.\n",
+      "statut": "témoin féminin de la formation",
+      "usage": [
+        "Chapitre 10"
+      ],
+      "prudence": "Ne pas réduire Sue Barlow à une figure décorative ; elle est un témoin de la formation du groupe et de ses sociabilités périphériques.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-GILLIAN-GILBERT-GOSHES",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-GILLIAN-GILBERT-GOSHES",
+      "personne": "Gillian Gilbert",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A064"
+      ],
+      "contenu": "Présentée dans S45 comme l’une des fans proches du groupe, associée au noyau des « Goshes », puis comme nouvelle compagne de Stephen Morris.\n",
+      "statut": "fan précoce / compagne / future membre de New Order",
+      "usage": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "prudence": "Dans ce passage, son rôle est celui d’une présence de réception et de recomposition relationnelle, non encore celui de musicienne.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-STEPHANIE-MORRIS",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-STEPHANIE-MORRIS",
+      "personne": "Stephanie",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A064",
+        "S45-A065"
+      ],
+      "contenu": "Compagne de Stephen Morris avant sa séparation ; figure d’un épisode trouble rapporté par Deborah, où Ian affirme qu’elle menace de se suicider et demande à Deborah d’appeler son père.\n",
+      "statut": "personne périphérique / scène sensible",
+      "usage": [
+        "Chapitre 10"
+      ],
+      "prudence": "Scène privée difficilement corroborable ; ne pas conclure à une manipulation certaine de Curtis.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-DEAN-CHECK-INN",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-DEAN-CHECK-INN",
+      "personne": "Dean",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A067"
+      ],
+      "contenu": "Jeune fan rencontré au Check Inn, Altrincham, dont la demande d’autographe à Ian Curtis est décrite par Deborah comme adressée à un demi-dieu plutôt qu’à un chanteur émergent.\n",
+      "statut": "fan précoce",
+      "usage": [
+        "Chapitre 14"
+      ],
+      "prudence": "Indice micro-local de canonisation ; ne pas généraliser à toute la réception.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-ERNEST-BEARD-EPILEPSY",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-ERNEST-BEARD-EPILEPSY",
+      "personne": "Ernest Beard",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A069",
+        "S45-A070"
+      ],
+      "contenu": "Supérieur de Ian Curtis à l’Employment Exchange ; accompagne Ian chez le médecin après une crise et observe l’articulation entre son travail, ses tournées et son état de santé.\n",
+      "statut": "témoin professionnel et médical périphérique",
+      "usage": [
+        "Chapitre 12"
+      ],
+      "prudence": "Témoin du travail et de l’apparence fonctionnelle de Curtis, non expert médical de son cas.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-BERNARD-SUMNER-TABLETS",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-BERNARD-SUMNER-TABLETS",
+      "personne": "Bernard Sumner",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A062",
+        "S45-A072",
+        "S45-A076"
+      ],
+      "contenu": "Témoin du versant humoristique du groupe, de la méthode créative de Curtis et de l’hypothèse rétrospective selon laquelle les médicaments auraient joué un rôle décisif dans sa mort.\n",
+      "statut": "membre du groupe / témoin direct / interprète rétrospectif",
+      "usage": [
+        "Chapitre 3",
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "prudence": "Distinguer témoignage de processus créatif, perception affective et causalité médicale non démontrée.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES",
+      "personne": "Martin Hannett",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A066",
+        "S45-A078"
+      ],
+      "contenu": "Producteur de « Digital » et « Glass » sur *A Factory Sample*, puis producteur d’*Unknown Pleasures* à Strawberry Studios ; décrit par Deborah comme le catalyseur sonore dont Joy Division avait besoin.\n",
+      "statut": "producteur / catalyseur sonore",
+      "usage": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 8"
+      ],
+      "prudence": "Ne pas le transformer en seul auteur du son ; son rôle est décisif mais coordonne une matière collective.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-NATALIE-CURTIS-BIRTH",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-NATALIE-CURTIS-BIRTH",
+      "personne": "Natalie Curtis",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A080"
+      ],
+      "contenu": "Fille de Ian et Deborah Curtis, née en avril 1979 ; sa naissance reconfigure le foyer, la charge domestique et la capacité de Ian à assumer la paternité dans le contexte de l’épilepsie.\n",
+      "statut": "enfant / foyer",
+      "usage": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "prudence": "Traiter la naissance comme fait domestique structurant, non comme instrument narratif mélodramatique.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
     "kind": "concept",
     "id": "CONCEPT-010",
     "file": "registers/concepts/s45_curtis_concepts_vote_conservateur.md",
@@ -89006,6 +92018,289 @@
         {
           "type": "nuance",
           "cible": "MYTH-005"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-018",
+    "file": "registers/concepts/s45_curtis_concepts_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "CONCEPT-018 — politique affective du groupe",
+    "data": {
+      "id": "CONCEPT-018",
+      "nom": "politique affective du groupe",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_analytique",
+          "concept_genre"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Concept désignant l’ensemble des normes implicites par lesquelles Joy Division tient les relations conjugales, le bonheur privé, la grossesse, les compagnes et les affects domestiques à distance du fonctionnement interne du groupe. Cette politique n’est pas nécessairement formulée comme règle, mais elle produit des effets pratiques : silence, gêne, exclusion, male bonding et dépossession des compagnes.\n",
+      "usage_repo": {
+        "fonction": [
+          "analyser la place de Deborah Curtis et Sue Barlow",
+          "comprendre l’exclusion progressive des femmes",
+          "articuler réussite musicale et coût domestique"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "motifs_associes": [
+        "grossesse",
+        "relations à distance",
+        "girlies",
+        "Goshes",
+        "wives and girlfriends",
+        "male bonding"
+      ],
+      "risques": [
+        "transformer une norme implicite en règle formalisée",
+        "réduire le groupe à son sexisme pratique",
+        "effacer les nuances entre membres du groupe"
+      ],
+      "atomes_lies": [
+        "S45-A061",
+        "S45-A063",
+        "S45-A064",
+        "S45-A079"
+      ],
+      "concepts_derives": [
+        "bonheur incompatible",
+        "clôture masculine",
+        "coût genré de la professionnalisation"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-013"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-016"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-009"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-019",
+    "file": "registers/concepts/s45_curtis_concepts_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "CONCEPT-019 — non-monocausalité médicale",
+    "data": {
+      "id": "CONCEPT-019",
+      "nom": "non-monocausalité médicale",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_methodologique",
+          "concept_sante"
+        ],
+        "stabilite": "stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Principe méthodologique selon lequel l’épilepsie, les médicaments, la fatigue, les performances, le travail, les déplacements, la grossesse de Deborah, les rapports de groupe et la réception publique doivent être traités comme un faisceau de contraintes et de vulnérabilités, et non comme une cause unique de l’œuvre, de la performance ou de la mort de Curtis.\n",
+      "usage_repo": {
+        "fonction": [
+          "empêcher les causalités médicales simplificatrices",
+          "intégrer les effets secondaires sans les absolutiser",
+          "articuler santé, scène et domesticité"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 10"
+      ],
+      "motifs_associes": [
+        "Hope and Anchor",
+        "Phenobarbitone",
+        "Phenytoin Sodium",
+        "absence seizure",
+        "danse et crise",
+        "médicaments"
+      ],
+      "risques": [
+        "causalité médicamenteuse totale",
+        "romantisation de l’épilepsie",
+        "effacement de la souffrance domestique"
+      ],
+      "atomes_lies": [
+        "S45-A068",
+        "S45-A069",
+        "S45-A070",
+        "S45-A071",
+        "S45-A072",
+        "S45-A073",
+        "S45-A074"
+      ],
+      "concepts_derives": [
+        "faisceau de vulnérabilité",
+        "identité diagnostique",
+        "veille conjugale"
+      ],
+      "relations": [
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-010"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-020",
+    "file": "registers/concepts/s45_curtis_concepts_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "CONCEPT-020 — auteur-catalyseur",
+    "data": {
+      "id": "CONCEPT-020",
+      "nom": "auteur-catalyseur",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_analytique",
+          "concept_processus_creatif"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Concept désignant le rôle de Curtis dans le processus créatif : il n’est ni auteur total isolé, ni simple chanteur, mais catalyseur qui dispose de textes, propose des mélodies vocales, oriente certaines lignes instrumentales, assemble et donne cohésion à une matière produite collectivement.\n",
+      "usage_repo": {
+        "fonction": [
+          "éviter le mythe Curtis auteur total",
+          "éviter l’effacement de son rôle créatif",
+          "articuler textes, voix, mélodies et composition collective"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 4"
+      ],
+      "motifs_associes": [
+        "plastic bag",
+        "notebooks",
+        "big box of lyrics",
+        "vocal melodies",
+        "catalyseur",
+        "paroles ouvertes"
+      ],
+      "risques": [
+        "recentrage hagiographique sur Curtis",
+        "dissolution de Curtis dans le collectif",
+        "lecture confessionnelle des paroles"
+      ],
+      "atomes_lies": [
+        "S45-A075",
+        "S45-A076"
+      ],
+      "concepts_derives": [
+        "poétique d’assemblage",
+        "collectif orienté",
+        "anti-confessionnalisme"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-006"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-CURTIS-AUTEUR-TOTAL"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-LYRICS-AS-DIARY"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-021",
+    "file": "registers/concepts/s45_curtis_concepts_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "CONCEPT-021 — double care domestique",
+    "data": {
+      "id": "CONCEPT-021",
+      "nom": "double care domestique",
+      "origine": {
+        "auteur": "méthode interne du repo"
+      },
+      "statut": {
+        "type": [
+          "concept_analytique",
+          "concept_domesticite"
+        ],
+        "stabilite": "assez_stable",
+        "niveau_consensus": "interne"
+      },
+      "definition": "Concept désignant la situation dans laquelle Deborah Curtis doit simultanément veiller sur Ian malade et prendre soin du nourrisson Natalie, tout en maintenant l’économie domestique attendue. Le foyer devient alors espace de soins redoublés, de fatigue et d’invisibilisation.\n",
+      "usage_repo": {
+        "fonction": [
+          "analyser la charge domestique après la naissance de Natalie",
+          "relier épilepsie, paternité et travail invisible",
+          "éviter la réduction de Deborah à témoin passif"
+        ]
+      },
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "motifs_associes": [
+        "Natalie",
+        "peur de tenir le bébé",
+        "rituel nocturne",
+        "repas attendu",
+        "baby care",
+        "care médical"
+      ],
+      "risques": [
+        "moraliser l’incapacité paternelle",
+        "réduire la scène à l’épilepsie",
+        "pathologiser tout le foyer"
+      ],
+      "atomes_lies": [
+        "S45-A073",
+        "S45-A080"
+      ],
+      "concepts_derives": [
+        "paternité empêchée",
+        "domesticité médicale",
+        "charge invisible"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-012"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-019"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-018"
         }
       ]
     }
@@ -89762,7 +93057,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2062",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2128",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -89784,7 +93079,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2063",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2129",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -89802,7 +93097,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2064",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2130",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -89820,7 +93115,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2065",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2131",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -90243,7 +93538,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2076",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2142",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-003 — Manchester comme matrice unique",
     "data": {
@@ -90260,7 +93555,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2077",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2143",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -90278,7 +93573,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2078",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2144",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -90295,7 +93590,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2079",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2145",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -90310,7 +93605,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2080",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2146",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-009 — Rob Gretton comme manager sauveur",
     "data": {
@@ -90322,6 +93617,111 @@
       ],
       "apport": "Deborah Curtis permet de nuancer Gretton : il devient protecteur, gardien et médiateur confidentiel, mais cette protection produit aussi une dépossession informationnelle du côté du foyer.\n",
       "usage_recommande": "Présenter Gretton comme manager de proximité et médiateur, non comme sauveur providentiel ni simple obstacle conjugal."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2147",
+    "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
+    "data": {
+      "mythe_id": "MYTH-002",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A062",
+        "S45-A067",
+        "S45-A073",
+        "S45-A074",
+        "S45-A080"
+      ],
+      "apport": "S45 complique la figure du poète maudit : l’humour privé du groupe, le fandom dévotionnel naissant, la veille conjugale des crises et la paternité empêchée montrent que le mythe Curtis se construit dans un réseau de scènes hétérogènes, pas seulement dans la noirceur des chansons.\n",
+      "usage_recommande": "Employer ces atomes pour déplacer la figure torturée vers une analyse des coûts domestiques, de la réception et des médiations."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2148",
+    "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
+    "data": {
+      "mythe_id": "MYTH-010",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A068",
+        "S45-A069",
+        "S45-A070",
+        "S45-A071",
+        "S45-A072",
+        "S45-A073",
+        "S45-A074",
+        "S45-A080"
+      ],
+      "apport": "Le passage montre l’épilepsie comme faisceau de contraintes : diagnostic différé, médicaments, effets secondaires possibles, fatigue, crainte nocturne, travail, grossesse, paternité, scène et réception. Il interdit toute causalité unique.\n",
+      "usage_recommande": "Toujours articuler maladie, médicaments, contexte de performance, care conjugal et temporalité médiatique."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2149",
+    "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
+    "data": {
+      "mythe_id": "MYTH-LYRICS-AS-DIARY",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A075",
+        "S45-A076"
+      ],
+      "apport": "Deborah Curtis, Steve Morris et Bernard Sumner décrivent les textes comme des matériaux disponibles, transportés, choisis et ajustés à une musique collective. L’entretien Printed Noises renforce l’idée d’une ouverture interprétative.\n",
+      "usage_recommande": "Lire les paroles comme poétique d’assemblage et non comme journal intime direct."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2150",
+    "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "Complément MYTH-CURTIS-AUTEUR-TOTAL — Curtis comme auteur total de Joy Division",
+    "data": {
+      "mythe_id": "MYTH-CURTIS-AUTEUR-TOTAL",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A075",
+        "S45-A076"
+      ],
+      "apport": "Curtis apparaît comme catalyseur : il écrit, oriente, propose des mélodies vocales et assemble, mais la musique est produite collectivement et souvent arrangée par Bernard Sumner avec les autres membres.\n",
+      "usage_recommande": "Maintenir la tension entre rôle central de Curtis et production collective."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2151",
+    "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
+    "data": {
+      "mythe_id": "MYTH-HANNETT-GENIE-ABSOLU",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A066",
+        "S45-A078"
+      ],
+      "apport": "Deborah Curtis décrit Hannett comme catalyseur et traducteur des pensées et besoins du groupe. Son rôle est décisif, mais il coordonne une matière collective déjà chargée.\n",
+      "usage_recommande": "Éviter le double écueil : effacer Hannett ou lui attribuer seul la totalité du son."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2152",
+    "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "Complément MYTH-009 — Gretton comme manager sauveur",
+    "data": {
+      "mythe_id": "MYTH-009",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A061",
+        "S45-A079"
+      ],
+      "apport": "La professionnalisation et le management protecteur s’accompagnent d’une mise à distance des compagnes et d’un male bonding qui a un coût domestique.\n",
+      "usage_recommande": "Traiter la protection managériale avec ses effets de dépossession."
     }
   },
   {
@@ -95945,6 +99345,258 @@
         "vérifier chronologie précise du choix de l’image et rôles Atkins / Saville"
       ],
       "notes": "Objet visuel hautement téléologisé ; à traiter comme funéraire rétroactif."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-10-28-SUMNER-BARLOW-WEDDING",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1978-10-28-SUMNER-BARLOW-WEDDING",
+      "source_id": "S45",
+      "date": "1978-10-28",
+      "evenement": "Ian et Deborah Curtis sont témoins du mariage de Bernard Sumner et Sue Barlow. Deborah se décrit avec Sue comme l’une des « original girlies » ayant vu Joy Division se développer.\n",
+      "chapitre_usage": [
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A063"
+      ],
+      "statut": "événement daté par S45",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-FACTORY-SAMPLE",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1978-FACTORY-SAMPLE",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Tony Wilson finance *A Factory Sample* ; Martin Hannett produit « Digital » et « Glass » ; Peter Saville choisit une esthétique argent/noir.\n",
+      "chapitre_usage": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S45-A066"
+      ],
+      "statut": "datation à préciser selon discographie Factory",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-11-CHECK-INN-ALTRINCHAM",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1978-11-CHECK-INN-ALTRINCHAM",
+      "source_id": "S45",
+      "date": "1978-11",
+      "evenement": "Deborah assiste au concert du Check Inn à Altrincham et observe une forme de fandom dévotionnel autour de Ian Curtis.\n",
+      "chapitre_usage": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S45-A067"
+      ],
+      "statut": "datation mensuelle donnée par S45",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
+      "source_id": "S45",
+      "date": "1978-12-27",
+      "evenement": "Après le concert londonien décevant au Hope and Anchor, Ian Curtis connaît sa première crise reconnue et est conduit au Luton and Dunstable Hospital.\n",
+      "chapitre_usage": [
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A068",
+        "S45-A069"
+      ],
+      "statut": "événement établi par S45 ; à croiser avec autres mémoires",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-01-13-NME-COVER",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-01-13-NME-COVER",
+      "source_id": "S45",
+      "date": "1979-01-13",
+      "evenement": "Ian Curtis apparaît en couverture du NME avec son long manteau vert et une cigarette, grâce à la persistance de Paul Morley.\n",
+      "chapitre_usage": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S45-A070"
+      ],
+      "statut": "événement médiatique établi",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-01-PEEL-SESSION-1",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-01-PEEL-SESSION-1",
+      "source_id": "S45",
+      "date": "1979-01",
+      "evenement": "Joy Division enregistre sa première John Peel session à la fin de janvier 1979, au moment où le foyer Curtis doit apprendre à composer avec la maladie.\n",
+      "chapitre_usage": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A070"
+      ],
+      "statut": "datation à préciser selon discographie BBC",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-01-23-SPECIALIST-EPILEPSY",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-01-23-SPECIALIST-EPILEPSY",
+      "source_id": "S45",
+      "date": "1979-01-23",
+      "evenement": "Ian Curtis voit un spécialiste au Macclesfield District and General Hospital ; Phenytoin Sodium et Phenobarbitone sont prescrits.\n",
+      "chapitre_usage": [
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A071",
+        "S45-A072"
+      ],
+      "statut": "événement médical rapporté par S45",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-01-03-13-GRAND-MAL-ATTACKS",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-01-03-13-GRAND-MAL-ATTACKS",
+      "source_id": "S45",
+      "date": "1979-01-24/1979-03-13",
+      "evenement": "Ian Curtis connaît plusieurs crises grand mal entre le 24 janvier et le 13 mars 1979 ; les traitements sont progressivement ajustés.\n",
+      "chapitre_usage": [
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A071",
+        "S45-A073"
+      ],
+      "statut": "période donnée par S45 ; détails médicaux à prudence",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-01-RCA-MASTERS-TRANSFER",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-01-RCA-MASTERS-TRANSFER",
+      "source_id": "S45",
+      "date": "1979-01",
+      "evenement": "Les bandes masters du projet RCA / Arrow sont remises contre 1 500 livres ; le contrat d’édition non signé laisse Joy Division libre de réenregistrer.\n",
+      "chapitre_usage": [
+        "Chapitre 8"
+      ],
+      "atomes_lies": [
+        "S45-A077"
+      ],
+      "statut": "événement contractuel rapporté ; à croiser avec Searling et archives",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-04-UNKNOWN-PLEASURES-STRAWBERRY",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-04-UNKNOWN-PLEASURES-STRAWBERRY",
+      "source_id": "S45",
+      "date": "1979-04",
+      "evenement": "*Unknown Pleasures* est enregistré à Strawberry Studios, Stockport, avec Martin Hannett ; Tony Wilson finance l’enregistrement et le premier pressage.\n",
+      "chapitre_usage": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "atomes_lies": [
+        "S45-A078"
+      ],
+      "statut": "événement discographique établi",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-04-16-NATALIE-BIRTH",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-04-16-NATALIE-BIRTH",
+      "source_id": "S45",
+      "date": "1979-04-16",
+      "evenement": "La naissance de Natalie est induite le 16 avril 1979, mais le travail commence la veille au soir ; Ian passe de l’appréhension à l’émerveillement, puis demeure empêché par la peur des crises.\n",
+      "chapitre_usage": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A080"
+      ],
+      "statut": "événement domestique établi par S45",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
     }
   },
   {

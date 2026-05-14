@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T21:51:28"
+generated_at: "2026-05-14T04:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 627 |
+| Atomes | 630 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -35,7 +35,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 41 | 3 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 8 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
@@ -220,6 +220,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `positionnement` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-044** — S45-044 — Deborah Curtis devient malgré elle gardienne d’archive  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive_vivante` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S45-A062** — S45-A062 — Humour privé du groupe : contre-mythe du groupe sombre  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_mythique` ; importance : `majeur` ; preuve : `témoignage rapporté + interprétation de Deborah`.
+- **S45-A064** — S45-A064 — Les « Goshes » : premières fans et reconfiguration des couples  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A067** — S45-A067 — Check Inn : autographes, demigod et canonisation précoce  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S46-001** — S46-001 — Le livre comme histoire « éclectique » et non définitive  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `methode` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-002** — S46-002 — Bootlegs et culture de circulation parallèle  
@@ -276,12 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_theorique` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-055** — S46-055 — « Transmission » et l’intérêt des majors américaines  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `industrie_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-056** — S46-056 — Les Bains-Douches comme entrée française du mythe live  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_broadcast` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-057** — S46-057 — Paradiso : deux sets pour un même prix  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_exceptionnel` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-058** — S46-058 — Plan K : Burroughs, Bruxelles et la rue de Manchester  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_international` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -553,6 +553,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A062 — nuance → MYTH-002
+- S45-A062 — prolonge → MOTIF-019
+- S45-A064 — prolonge → MOTIF-017
+- S45-A064 — prépare → S45-A065
+- S45-A067 — prolonge → S45-A064
+- S45-A067 — prépare → MYTH-002
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -627,12 +633,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A033 — prépare → S75-A036
 - S75-A035 — nuance → MYTH-005
 - S75-A035 — prolonge → S75-A026
-- S75-A035 — prépare → S75-A036
-- S75-A036 — nuance → MYTH-005
-- S75-A036 — prolonge → S75-A035
-- S75-A036 — prolonge → CONCEPT-004
-- S75-A037 — nuance → MYTH-005
-- S75-A037 — prolonge → S75-A036
 
 ## 13. Distribution documentaire
 
@@ -694,6 +694,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | interpretation | 3 |
 | song_session | 3 |
 | song | 3 |
+| reception_precoce | 2 |
 | infrastructure | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -732,6 +733,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert_archive | 2 |
 | esthétique_visuelle | 2 |
 | album | 2 |
+| contrepoint_mythique | 1 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
 | objet_sonore_new_order | 1 |
@@ -956,11 +958,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | non qualifiée | 449 |
 | critique | 135 |
 | majeure | 39 |
+| majeur | 3 |
 | structurante | 2 |
 | moyenne | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A062 [moyen] — Risque de remplacer le mythe noir par un mythe de camaraderie innocente.
+- S45-A064 [moyen] — Risque de réduire les fans féminines à une menace conjugale ; elles sont aussi premières formes du public dédié.
+- S45-A067 [moyen] — Risque de généraliser un fan à toute la réception ; il s’agit d’un signe faible mais structurant.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
@@ -1018,9 +1024,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S74-A053 [tres_eleve] — tout traitement de la mort de Curtis risque la téléologie tragique et la lecture sacrificielle
 - S74-A055 [moyen] — risque de faire de la mort de Curtis la cause unique de toutes les mutations ultérieures de Factory
 - S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
-- S74-A057 [moyen] — risque de transformer un lieu précis en symbole total d’un changement national
-- S74-A058 [moyen] — risque d’opposer trop simplement obscurité Joy Division et lumière New Order
-- S74-A059 [faible] — interprétation cohérente avec la trajectoire ultérieure du groupe
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-13T21:51:28"
+generated_at: "2026-05-14T04:44:55"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 277 |
+| Atomes | 280 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -35,7 +35,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 18 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 21 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
@@ -63,6 +63,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A059** — S45-A059 — Band on the Wall : laboratoire chaotique, répétition publique et réception divergente  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
+- **S45-A066** — S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A070** — S45-A070 — Janvier 1979 : couverture NME, Peel session et accommodation de la maladie  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_chronologique` ; importance : `critique` ; preuve : `témoignage direct + faits médiatiques établis`.
 - **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
@@ -113,10 +117,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A040** — S75-A040 — Digital delay AMS et batterie de Morris : invention d'un espace impossible  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A041** — S75-A041 — « Disorder » comme manifeste sonore d'entrée  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A042** — S75-A042 — Le grief Sumner/Hook : *Unknown Pleasures* comme dépossession partielle  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 
 ## 6. Autres atomes utiles
 
@@ -513,9 +513,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 - Rob Gretton (12)
 - Martin Hannett (10)
+- Hannett (8)
 - Unknown Pleasures (8)
 - Tony Wilson (7)
-- Hannett (7)
 - Factory (6)
 - RCA (5)
 - Gretton (5)
@@ -523,6 +523,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Peter Saville (5)
 - télévision (4)
 - Bernard Sumner (4)
+- Digital (4)
+- Glass (4)
 - Transmission (4)
 - Strawberry Studios (4)
 - Atmosphere (4)
@@ -542,8 +544,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Wilson (3)
 - studio (3)
 - contrat (3)
-- Digital (3)
-- Glass (3)
 - John Peel (3)
 - indépendance (3)
 - She’s Lost Control (3)
@@ -586,6 +586,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S45-A049 — prépare → S45-A050
 - S45-A049 — prolonge → S75-A021
 - S45-A049 — prolonge → CONCEPT-011
+- S45-A066 — prolonge → S45-A009
+- S45-A066 — prolonge → CONCEPT-006
+- S45-A066 — prolonge → CONCEPT-015
+- S45-A070 — prolonge → S45-A068
+- S45-A070 — prépare → S45-A071
+- S45-A070 — prolonge → CONCEPT-016
 - S75-A060 — prolonge → CONCEPT-006
 - S75-A060 — prolonge → S75-A034
 - S75-A060 — nuance → MYTH-004
@@ -628,12 +634,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S75-A035 — prolonge → S75-A026
 - S75-A035 — prépare → S75-A036
 - S75-A036 — nuance → MYTH-005
-- S75-A036 — prolonge → S75-A035
-- S75-A036 — prolonge → CONCEPT-004
-- S75-A037 — nuance → MYTH-005
-- S75-A037 — prolonge → S75-A036
-- S75-A037 — prolonge → CONCEPT-004
-- S75-A038 — prolonge → MYTH-005
 
 ## 13. Distribution documentaire
 
@@ -641,7 +641,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 11 |
+| non qualifié | 12 |
 | production | 10 |
 | session_studio | 8 |
 | song | 8 |
@@ -651,13 +651,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | lecture_chanson | 7 |
 | concert | 6 |
 | session | 6 |
+| objet_discographique | 5 |
 | biographie | 5 |
 | discographie | 5 |
 | fait_sensible | 5 |
 | analyse | 4 |
 | reception_critique | 4 |
 | fait_interprete | 4 |
-| objet_discographique | 4 |
 | session_radio | 4 |
 | television | 3 |
 | discographie_album | 3 |
@@ -697,6 +697,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | processus_creatif | 1 |
 | tension_mediatique | 1 |
 | infrastructure_industrielle | 1 |
+| tension_chronologique | 1 |
 | broadcast | 1 |
 | evolution_repertoire | 1 |
 | portrait_musicien | 1 |
@@ -792,8 +793,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 149 |
-| critique | 102 |
+| non qualifiée | 150 |
+| critique | 104 |
 | majeure | 24 |
 | majeur | 2 |
 
@@ -809,6 +810,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S45-A039 [moyen] — Ne pas transformer l’obsession Granada en stratégie professionnelle aboutie ; elle reste bricolée, impatiente, parfois irréaliste.
 - S45-A048 [moyen] — Risque de romantiser le Collective ; il faut conserver sa dimension pratique et parfois chaotique.
 - S45-A049 [moyen] — Risque de traiter RCA comme simple accident externe, alors que le passage montre un nœud local et relationnel.
+- S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
+- S45-A070 [moyen] — Risque de faire de la maladie le prix naturel du succès ; il faut garder la simultanéité sans causalité automatique.
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
 - S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
@@ -857,8 +860,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel
 - S74-A050 [eleve] — risque de moraliser rétrospectivement une situation médicale et organisationnelle mal comprise à l’époque
 - S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
-- S74-A055 [moyen] — risque de faire de la mort de Curtis la cause unique de toutes les mutations ultérieures de Factory
-- S74-A001 [moyen] — risque de romantisation de l’échec économique Factory comme geste esthétique pur
 
 ## 15. Lacunes et prochaines vérifications
 
