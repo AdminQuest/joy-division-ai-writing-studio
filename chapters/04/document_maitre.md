@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T14:37:46"
+generated_at: "2026-05-14T15:11:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-14T14:37:46"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 186 |
+| Atomes | 187 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-14T14:37:46"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 25 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 26 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -638,6 +638,7 @@ generated_at: "2026-05-14T14:37:46"
 | interpretation | 5 |
 | lecture | 4 |
 | lecture_musicale | 4 |
+| non qualifié | 4 |
 | processus_creatif | 3 |
 | relation | 3 |
 | lecture_biographique | 3 |
@@ -648,7 +649,6 @@ generated_at: "2026-05-14T14:37:46"
 | contexte_biographique | 3 |
 | tension_biographique | 3 |
 | live_set_context | 3 |
-| non qualifié | 3 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | performance | 2 |
@@ -756,7 +756,7 @@ generated_at: "2026-05-14T14:37:46"
 | Importance | Nombre |
 |---|---|
 | critique | 84 |
-| non qualifiée | 67 |
+| non qualifiée | 68 |
 | majeure | 33 |
 | majeur | 1 |
 | structurante | 1 |

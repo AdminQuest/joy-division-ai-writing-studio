@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T14:37:46"
+generated_at: "2026-05-14T15:11:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 282 |
+| Atomes | 283 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 32 |
@@ -34,7 +34,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 59 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 23 | 0 |
@@ -64,6 +64,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A020** — S41-A020 — Recruter Curtis : règles punk, manque de chanteur et hasard de convergence  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_recrutement` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec reconnaissance de variantes mémorielles`.
+- **S41-A056** — S41-A056 — Timeline Two comme colonne vertébrale documentaire 1976-1977  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale établie par Hook et son appareil documentaire`.
 - **S45-A022** — S45-A022 — Le second Lesser Free Trade Hall comme confirmation, non origine absolue  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A028** — S45-A028 — Recrutement de Curtis : « If we liked someone, they were in »  
@@ -116,8 +118,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A004** — S75-A004 — Manchester contre Londres : le punk comme possibilité, non comme modèle  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -478,11 +478,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 ### 12.1. Motifs dominants
 
 - Sex Pistols (7)
+- Warsaw (7)
 - Electric Circus (6)
 - An Ideal for Living (6)
-- Warsaw (6)
 - Rafters (4)
 - scène locale (4)
+- Joy Division (4)
 - RCA (4)
 - Paul Morley (4)
 - Salford (4)
@@ -493,7 +494,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - Band on the Wall (3)
 - Short Circuit (3)
 - Deborah Curtis (3)
-- Joy Division (3)
 - Warsaw Pakt (3)
 - synthétiseur (3)
 - Lesser Free Trade Hall (3)
@@ -655,6 +655,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | fait_structurant | 1 |
 | scene_materielle | 1 |
 | scene_recrutement | 1 |
+| chronologie_structurante | 1 |
 | scene_origine_sociale | 1 |
 | scene_biographique | 1 |
 | motif_social | 1 |
@@ -718,7 +719,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 169 |
-| critique | 76 |
+| critique | 77 |
 | majeure | 18 |
 | majeur | 15 |
 | moyenne | 2 |
@@ -761,6 +762,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S41-A015 [faible] — Risque limité ; l’atome corrige surtout les mythes de maîtrise précoce.
 - S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
 - S41-A020 [moyen] — Risque de stabiliser une version unique alors que Hook signale deux écoles de pensée.
+- S41-A056 [faible] — La timeline doit servir de cadre, non de récit causal autonome.
 - S41-A007 [moyen] — Risque de faire de Salford une cause esthétique directe ; il faut parler de matrice, non de déterminisme.
 - S41-A008 [moyen] — Risque de transformer la Jamaïque en origine musicale directe ; Hook l’évoque surtout comme contraste biographique.
 - S41-A009 [moyen] — Risque de naturaliser la violence de classe ; il faut la traiter comme sociabilité située, pas comme essence.
@@ -785,7 +787,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - S75-A021 [moyen] — risque de transformer RCA en pure caricature industrielle alors que l'échec tient aussi à l'inexpérience du groupe
 - S75-A022 [moyen] — la généalogie d'« Interzone » doit être maniée comme lecture de session, non comme origine exclusive du morceau
 - S75-A023 [moyen] — le caractère fondateur de la scène peut être surdramatisé ; l'intérêt est dans la bifurcation Wilson/Gretton
-- S75-A024 [moyen] — ne pas opposer naïvement organique et électronique ; le problème est l'usage imposé du son
 
 ## 15. Lacunes et prochaines vérifications
 

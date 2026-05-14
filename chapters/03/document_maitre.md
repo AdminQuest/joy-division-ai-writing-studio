@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T14:37:46"
+generated_at: "2026-05-14T15:11:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 216 |
+| Atomes | 217 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -34,7 +34,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 51 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 52 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
@@ -594,7 +594,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Type | Nombre |
 |---|---|
 | production | 15 |
-| non qualifié | 11 |
+| non qualifié | 12 |
 | session_studio | 10 |
 | lecture_musicale | 10 |
 | analyse | 9 |
@@ -696,7 +696,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 147 |
+| non qualifiée | 148 |
 | critique | 55 |
 | majeure | 11 |
 | majeur | 3 |

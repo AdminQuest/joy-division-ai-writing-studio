@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-14T14:37:42",
+  "generated_at": "2026-05-14T15:11:35",
   "summary": {
-    "records_total": 2680,
+    "records_total": 2715,
     "records_by_kind": {
-      "atom": 1422,
+      "atom": 1432,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 38,
+      "unknown": 44,
       "song": 41,
-      "template": 98,
+      "template": 106,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 92,
+      "motif": 99,
       "person": 157,
-      "concept": 61,
+      "concept": 65,
       "myth": 11
     },
-    "diagnostics_total": 14621,
+    "diagnostics_total": 14713,
     "errors": 0,
-    "warnings": 14621,
+    "warnings": 14713,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1422,
+    "atom": 1432,
     "chronology": 331,
-    "concept": 61,
+    "concept": 65,
     "metadata": 18,
-    "motif": 92,
+    "motif": 99,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,14 +41,14 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 98,
-    "unknown": 38
+    "template": 106,
+    "unknown": 44
   },
   "records_by_source": {
     "S41": {
-      "atom": 227,
+      "atom": 237,
       "quote": 9,
-      "unknown": 26,
+      "unknown": 32,
       "song": 7,
       "person": 9,
       "chronology": 9
@@ -129,17 +129,17 @@
     "Chapitre 10": 188,
     "Chapitre 11": 202,
     "Chapitre 12": 318,
-    "Chapitre 13": 100,
-    "Chapitre 14": 774,
-    "Chapitre 2": 343,
-    "Chapitre 3": 284,
-    "Chapitre 4": 235,
-    "Chapitre 5": 393,
-    "Chapitre 6": 425,
+    "Chapitre 13": 103,
+    "Chapitre 14": 783,
+    "Chapitre 2": 345,
+    "Chapitre 3": 285,
+    "Chapitre 4": 236,
+    "Chapitre 5": 397,
+    "Chapitre 6": 437,
     "Chapitre 7": 101,
-    "Chapitre 8": 145,
+    "Chapitre 8": 150,
     "Chapitre 9": 199,
-    "Chapitre bootlegs": 5,
+    "Chapitre bootlegs": 7,
     "Tous chapitres": 1,
     "méthode générale": 3
   },
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1186,
-    "missing_required_field": 3785,
+    "invalid_controlled_value": 1195,
+    "missing_required_field": 3835,
     "schema_warning": 399,
-    "unknown_yaml_block": 38,
-    "v2_migration_debt": 9078
+    "unknown_yaml_block": 44,
+    "v2_migration_debt": 9105
   },
   "top_files_by_issue_count": [
     [
@@ -584,6 +584,54 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "PLACE-S41-SWAN-PUB-ECCLES-NEW-ROAD",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "LIVE-S41-STOCKS-WALKDEN-TALENT-CONTEST",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "LIVE-S41-MIDDLESBROUGH-TAPE-1977-09-14",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "DISC-S41-SHORT-CIRCUIT-FEATURING-JOY-DIVISION",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "DISC-S41-PANIK-IT-WONT-SELL-RAINY-CITY",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "LIVE-S41-SWINGING-APPLE-LAST-WARSAW-TL2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
       "record_id": "LIVE-S41-ELECTRIC-CIRCUS-1977-05-29",
       "message": "Unable to infer documentary kind",
@@ -703,10 +751,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1422,
+    "atoms_total": 1432,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1361,
-    "v2_missing_field_warnings": 9078
+    "atoms_v2_incomplete": 1371,
+    "v2_missing_field_warnings": 9105
   },
   "source_registry": {
     "declared_but_unused": [
@@ -783,8 +831,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 287,
-        "atoms": 227,
+        "records": 303,
+        "atoms": 237,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -792,6 +840,7 @@
           "registers/people/master_people.md",
           "registers/songs/master_songs.md",
           "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+          "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
           "registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md",
           "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
           "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
@@ -804,6 +853,7 @@
           "sources/hook/citations_exactes.md",
           "sources/hook/source.md",
           "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+          "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
           "sources/hook_unknown_pleasures/source_part_1976_lesser_free_trade_hall_bass_ian_joining.md",
           "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
           "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
@@ -21999,6 +22049,582 @@
       "file": "sources/hook_unknown_pleasures/source_part_1976_lesser_free_trade_hall_bass_ian_joining.md",
       "record_id": "S41-A024",
       "message": "Invalid value for type_unite: interpretation_retrospective",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A056",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A056",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A056",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A056",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A056",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A056",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A056",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A056",
+      "message": "Invalid value for type_unite: chronologie_structurante",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A057",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A057",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A057",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A057",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A057",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A057",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A057",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A057",
+      "message": "Invalid value for type_unite: lieu_memoire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A058",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A058",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A058",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A058",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A058",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A058",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A058",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A058",
+      "message": "Invalid value for type_unite: reception_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A059",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A059",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A059",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A059",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A059",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A059",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A059",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A059",
+      "message": "Invalid value for type_unite: chronologie_scene",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A060",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A060",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A060",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A060",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A060",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A060",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A060",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A060",
+      "message": "Invalid value for type_unite: scene_live_anecdotique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A061",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A061",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A061",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A061",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A061",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A061",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A061",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A061",
+      "message": "Invalid value for type_unite: archive_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A062",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A062",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A062",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A062",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A062",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A062",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A062",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A062",
+      "message": "Invalid value for type_unite: chronologie_discographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A063",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A063",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A063",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A063",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A063",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A063",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A063",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A063",
+      "message": "Invalid value for type_unite: chronologie_reseau",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A064",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A064",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A064",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A064",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A064",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A064",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A064",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "S41-A064",
+      "message": "Invalid value for type_unite: seuil_chronologique",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -107392,6 +108018,166 @@
       "record_id": "SONG-S45-CANDY-SAYS-CANDY",
       "message": "Missing required field: concepts_derives",
       "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "PLACE-S41-SWAN-PUB-ECCLES-NEW-ROAD",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "LIVE-S41-STOCKS-WALKDEN-TALENT-CONTEST",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "LIVE-S41-MIDDLESBROUGH-TAPE-1977-09-14",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "DISC-S41-SHORT-CIRCUIT-FEATURING-JOY-DIVISION",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "DISC-S41-PANIK-IT-WONT-SELL-RAINY-CITY",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "LIVE-S41-SWINGING-APPLE-LAST-WARSAW-TL2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

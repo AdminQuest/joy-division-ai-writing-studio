@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T14:37:46"
+generated_at: "2026-05-14T15:11:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 660 |
+| Atomes | 664 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 53 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 57 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -69,6 +69,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `critique` ; preuve : `témoignage direct + phénomène discographique vérifiable`.
 - **S41-A053** — S41-A053 — T. J. Davidson’s : lieu-matrice du son, du froid et de l’image Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
+- **S41-A057** — S41-A057 — Swan pub : lieu de répétition et retour traumatique par la mémoire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_memoire` ; importance : `critique` ; preuve : `témoignage rétrospectif direct`.
+- **S41-A058** — S41-A058 — Premier concert Warsaw : première review hostile et mémoire blanche de Hook  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique réimprimée + témoignage Hook`.
+- **S41-A061** — S41-A061 — Middlesbrough : première archive live et naissance du collectionneur Hook  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_live` ; importance : `critique` ; preuve : `témoignage direct + set list de timeline`.
+- **S41-A062** — S41-A062 — Short Circuit dans la timeline : événement discographique réduit à une entrée froide  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale + événement discographique établi`.
 - **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
 - **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
@@ -111,14 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `design` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `institution` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A034** — S74-A034 — Hannett comme génie erratique : vision sonore et échecs répétés  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `portrait_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A036** — S74-A036 — Gretton et le pari économique de rester chez Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `decision_strategique` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A037** — S74-A037 — Freedom to fuck off : clause de liberté et ethos Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `principe_institutionnel` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A040** — S74-A040 — Hannett contre le groupe : conflit de contrôle et mixage sans témoins  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `conflit_studio` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 
 ## 6. Autres atomes utiles
 
@@ -511,13 +511,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 ### 12.1. Motifs dominants
 
 - Annik Honoré (16)
+- Tony Wilson (13)
 - Rob Gretton (12)
-- Tony Wilson (12)
 - fatigue (8)
 - Factory (7)
 - Unknown Pleasures (6)
 - Peter Saville (6)
 - Love Will Tear Us Apart (5)
+- Electric Circus (5)
 - Ian Curtis (5)
 - Closer (5)
 - Gretton (5)
@@ -538,7 +539,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Sounds (3)
 - NME (3)
 - Sex Pistols (3)
-- Electric Circus (3)
 - Bowie (3)
 - presse musicale (3)
 - Plan K (3)
@@ -626,13 +626,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A018 — nuance → MYTH-SEX-PISTOLS-LFTH-ORIGIN
 - S41-A019 — nuance → MYTH-002
 - S41-A019 — prolonge → CONCEPT-046
-- S41-A005 — prolonge → MOTIF-025
-- S41-A005 — nuance → MYTH-002
-- S41-A006 — prolonge → S45-A067
-- S41-A006 — nuance → MYTH-002
-- S41-A006 — prépare → CHAPITRE-6-PROFESSIONNALISATION-LIVE
-- S41-A011 — prépare → S41-A016
-- S41-A011 — nuance → MYTH-LESSER-FREE-TRADE-HALL
+- S41-A057 — prolonge → CONCEPT-064
+- S41-A057 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
+- S41-A058 — prolonge → S41-A027
+- S41-A058 — alimente → REGISTRE-PRESSE
+- S41-A061 — prolonge → S41-A039
+- S41-A061 — alimente → REGISTRE-BOOTLEGS
+- S41-A062 — consolide → S41-A040
 
 ## 13. Distribution documentaire
 
@@ -649,11 +649,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_poll | 10 |
 | reception_critique | 9 |
 | archive | 9 |
+| reception_live | 8 |
 | production | 8 |
 | contrepoint | 8 |
 | synthese | 8 |
 | scene_fondatrice | 8 |
-| reception_live | 7 |
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
@@ -700,6 +700,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | infrastructure | 2 |
 | economie_discographique | 2 |
 | scene_collective | 2 |
+| archive_live | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
 | design_discographique | 2 |
@@ -751,6 +752,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_reseau | 1 |
 | scene_revelation | 1 |
 | rencontre_fondatrice | 1 |
+| lieu_memoire | 1 |
+| chronologie_discographique | 1 |
 | scene_sociale_live | 1 |
 | synthese_tension | 1 |
 | contrepoint_lieu | 1 |
@@ -843,7 +846,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | conclusion_critique | 1 |
 | objet_rare | 1 |
 | strategie_distribution | 1 |
-| archive_live | 1 |
 | archive_video | 1 |
 | video | 1 |
 | reception_chanson | 1 |
@@ -975,7 +977,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 451 |
-| critique | 158 |
+| critique | 162 |
 | majeure | 39 |
 | majeur | 8 |
 | structurante | 2 |
@@ -1011,6 +1013,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
 - S41-A018 [moyen] — Risque de faire du second concert un seul point d’origine ; Hook lui-même distribue l’importance entre plusieurs moments.
 - S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
+- S41-A057 [moyen] — Risque de projeter la charge posthume sur l’usage initial du lieu ; il faut distinguer répétition 1976-1977 et retour mémoriel ultérieur.
+- S41-A058 [moyen] — Ne pas donner trop de poids à une review anonyme ; l’intérêt tient au contraste entre trace hostile et mémoire absente.
+- S41-A061 [moyen] — Risque de confondre cassette personnelle, bootleg ultérieur et document public stabilisé.
+- S41-A062 [faible] — Atome de consolidation ; l’analyse de la provocation Rudolf Hess reste dans les atomes antérieurs.
 - S41-A005 [moyen] — Risque de transformer la bagarre en folklore comique ; elle éclaire aussi classe, appartenance et honte.
 - S41-A006 [moyen] — Risque d’en faire une préfiguration téléologique de toute la trajectoire ; le passage doit rester anti-téléologique.
 - S41-A011 [faible] — Usage surtout contre-mythique ; ne pas surcharger.
@@ -1039,10 +1045,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A029 [eleve] — risque classique d'héroïser Hannett comme génie solitaire du son Joy Division
 - S75-A031 [eleve] — risque de téléologie morbide si la crise est lue comme signe fatal plutôt que comme événement médical et biographique
 - S75-A032 [moyen] — ne pas faire d'une photographie un tournant causal ; elle cristallise une image
-- S75-A033 [moyen] — ne pas confondre visibilité radio et reconnaissance installée
-- S75-A035 [moyen] — éviter l'opposition simpliste entre industrie mauvaise et Factory pure
-- S75-A036 [eleve] — risque d'adhérer trop facilement à la légende Factory ou de la dissoudre entièrement
-- S75-A037 [moyen] — le portrait d'Erasmus doit être recoupé avec des sources Factory spécifiques
 
 ## 15. Lacunes et prochaines vérifications
 

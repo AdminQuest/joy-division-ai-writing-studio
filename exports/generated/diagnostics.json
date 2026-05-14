@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-14T14:37:34",
+  "generated_at": "2026-05-14T15:11:26",
   "status": "warning",
   "summary": {
-    "records_total": 2680,
+    "records_total": 2715,
     "records_by_kind": {
-      "atom": 1422,
+      "atom": 1432,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 38,
+      "unknown": 44,
       "song": 41,
-      "template": 98,
+      "template": 106,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 92,
+      "motif": 99,
       "person": 157,
-      "concept": 61,
+      "concept": 65,
       "myth": 11
     },
-    "diagnostics_total": 14621,
+    "diagnostics_total": 14713,
     "errors": 0,
-    "warnings": 14621,
+    "warnings": 14713,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 287,
-        "atoms": 227,
+        "records": 303,
+        "atoms": 237,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -113,6 +113,7 @@
           "registers/people/master_people.md",
           "registers/songs/master_songs.md",
           "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+          "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
           "registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md",
           "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
           "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
@@ -125,6 +126,7 @@
           "sources/hook/citations_exactes.md",
           "sources/hook/source.md",
           "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
+          "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
           "sources/hook_unknown_pleasures/source_part_1976_lesser_free_trade_hall_bass_ian_joining.md",
           "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
           "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
@@ -16103,6 +16105,438 @@
       "file": "sources/hook_unknown_pleasures/source_part_1976_lesser_free_trade_hall_bass_ian_joining.md",
       "message": "Invalid value for type_unite: interpretation_retrospective",
       "record_id": "S41-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Invalid value for type_unite: chronologie_structurante",
+      "record_id": "S41-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Invalid value for type_unite: lieu_memoire",
+      "record_id": "S41-A057"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Invalid value for type_unite: reception_live",
+      "record_id": "S41-A058"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Invalid value for type_unite: chronologie_scene",
+      "record_id": "S41-A059"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Invalid value for type_unite: scene_live_anecdotique",
+      "record_id": "S41-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Invalid value for type_unite: archive_live",
+      "record_id": "S41-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A062"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A062"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A062"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A062"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A062"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A062"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A062"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Invalid value for type_unite: chronologie_discographique",
+      "record_id": "S41-A062"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A063"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A063"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A063"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A063"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A063"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A063"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A063"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Invalid value for type_unite: chronologie_reseau",
+      "record_id": "S41-A063"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A064"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A064"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A064"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A064"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A064"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A064"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A064"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Invalid value for type_unite: seuil_chronologique",
+      "record_id": "S41-A064"
     },
     {
       "level": "warning",
@@ -80147,6 +80581,126 @@
       "file": "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
       "message": "Missing required field: concepts_derives",
       "record_id": "SONG-S45-CANDY-SAYS-CANDY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PLACE-S41-SWAN-PUB-ECCLES-NEW-ROAD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-STOCKS-WALKDEN-TALENT-CONTEST"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-MIDDLESBROUGH-TAPE-1977-09-14"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "DISC-S41-SHORT-CIRCUIT-FEATURING-JOY-DIVISION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "DISC-S41-PANIK-IT-WONT-SELL-RAINY-CITY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: statut",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: importance",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SESSION-S41-AN-IDEAL-FOR-LIVING-TL2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-SWINGING-APPLE-LAST-WARSAW-TL2"
     },
     {
       "level": "warning",

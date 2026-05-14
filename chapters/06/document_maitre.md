@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T14:37:46"
+generated_at: "2026-05-14T15:11:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 346 |
+| Atomes | 353 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 66 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 73 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -91,6 +91,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A052** — S41-A052 — Celestion qui fart : basse haute, Ian arrangeur et naissance du son Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_sonore` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A056** — S41-A056 — Timeline Two comme colonne vertébrale documentaire 1976-1977  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale établie par Hook et son appareil documentaire`.
+- **S41-A058** — S41-A058 — Premier concert Warsaw : première review hostile et mémoire blanche de Hook  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique réimprimée + témoignage Hook`.
+- **S41-A061** — S41-A061 — Middlesbrough : première archive live et naissance du collectionneur Hook  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_live` ; importance : `critique` ; preuve : `témoignage direct + set list de timeline`.
+- **S41-A064** — S41-A064 — Sessions An Ideal et Swinging Apple : clôture Warsaw avant Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `seuil_chronologique` ; importance : `critique` ; preuve : `chronologie éditoriale + session / concert documentés`.
 - **S45-A048** — S45-A048 — Manchester Musicians’ Collective : expérimentation sans obligation d’audience  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `citation de Curtis rapportée par Deborah`.
 - **S45-A049** — S45-A049 — Piccadilly Plaza / RCA : bureau discret et promesse industrielle  
@@ -109,14 +117,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
 - **S45-A066** — S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A070** — S45-A070 — Janvier 1979 : couverture NME, Peel session et accommodation de la maladie  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_chronologique` ; importance : `critique` ; preuve : `témoignage direct + faits médiatiques établis`.
-- **S45-A081** — S45-A081 — Russell Club / Factory : première sortie maternelle et illusion d’équilibre  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_live` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A086** — S45-A086 — Factory comme liberté : anti-major, artwork et refus de dilution  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `position_esthetique` ; importance : `critique` ; preuve : `citation d’entretien rapportée par S45`.
-- **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
 
 ## 6. Autres atomes utiles
 
@@ -202,6 +202,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct ; gig absent des listings selon Hook`.
 - **S41-A055** — S41-A055 — Swinging Apple : fin 1977, bière, danse et attente d’un événement majeur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `seuil_chronologique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S41-A059** — S41-A059 — Squat, Time’s Up et Windscale : scène pauvre comme réseau récurrent  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_scene` ; importance : `majeur` ; preuve : `chronologie + témoignage direct`.
+- **S41-A060** — S41-A060 — Stocks Walkden : talent contest, Deep Purple et inadéquation punk  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_anecdotique` ; importance : `majeur` ; preuve : `témoignage rétrospectif inséré dans la timeline`.
+- **S41-A063** — S41-A063 — It Won’t Sell et Rainy City : Gretton pré-manager comme producteur d’infrastructure fragile  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_reseau` ; importance : `majeur` ; preuve : `entrée chronologique discographique`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
@@ -218,10 +224,18 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_mediatique` ; importance : `majeur` ; preuve : `témoignage direct + témoignage rapporté de Sumner`.
 - **S45-A053** — S45-A053 — Stiff/Chiswick Challenge : le concours comme théâtre de l’ambition provinciale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_scene_locale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A070** — S45-A070 — Janvier 1979 : couverture NME, Peel session et accommodation de la maladie  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_chronologique` ; importance : `critique` ; preuve : `témoignage direct + faits médiatiques établis`.
+- **S45-A081** — S45-A081 — Russell Club / Factory : première sortie maternelle et illusion d’équilibre  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_live` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A086** — S45-A086 — Factory comme liberté : anti-major, artwork et refus de dilution  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `position_esthetique` ; importance : `critique` ; preuve : `citation d’entretien rapportée par S45`.
 - **S45-A087** — S45-A087 — Gretton père-figure : dispute, argent et infantilisation du musicien  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A088** — S45-A088 — Petites économies : cigarettes, nettoyage et sandpaper sleeves  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
 - **S45-A093** — S45-A093 — McCullough / Sounds : refus des réponses droites et publicité paradoxale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_presse` ; importance : `majeur` ; preuve : `témoignage direct + réception presse rapportée`.
 - **S45-A095** — S45-A095 — Eric’s Liverpool : « no women policy », image et travail féminin effacé  
@@ -266,20 +280,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_psychiatrique` ; importance : `critique` ; preuve : `témoignage direct de Deborah ; propos de Steve Morris rapporté`.
 - **S45-A150** — S45-A150 — Dernier concert et minder : gestion de tournée contre hospitalisation  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management_sante` ; importance : `critique` ; preuve : `témoignage direct indirect + reconstruction rétrospective de Deborah`.
-- **S46-024** — S46-024 — Le second Peel Session  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `broadcast` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-095** — S46-095 — « Something Must Break » : unique performance publique possible  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_live` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-099** — S46-099 — *Unknown Pleasures* : tracklist et architecture d’album  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_album` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-102** — S46-102 — « The Kill » comme noyau ancien du répertoire  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evolution_repertoire` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-103** — S46-103 — « At a Later Date » et le son punk brut de Warsaw  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `analyse_musicale` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-104** — S46-104 — Steve Morris et la précision mécanique du rythme  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `portrait_musicien` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-106** — S46-106 — « No Love Lost » et l’insertion de Ka-Tzetnik  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reference_litteraire` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -511,16 +511,17 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (17)
+- Rob Gretton (18)
 - Martin Hannett (12)
 - Factory (10)
+- Tony Wilson (9)
 - Unknown Pleasures (9)
-- Tony Wilson (8)
 - Hannett (8)
 - Rafters (6)
 - Transmission (6)
 - Strawberry Studios (5)
 - RCA (5)
+- Electric Circus (5)
 - Terry Mason (5)
 - Gretton (5)
 - Love Will Tear Us Apart (5)
@@ -531,7 +532,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Bernard Sumner (4)
 - Digital (4)
 - Glass (4)
-- Electric Circus (4)
+- Warsaw (4)
 - Atmosphere (4)
 - Closer (4)
 - Britannia Row (4)
@@ -546,11 +547,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - reconnaissance (3)
 - Alan Erasmus (3)
 - Stephen Morris (3)
-- Warsaw (3)
+- Stiff Kittens (3)
 - Slaughter & the Dogs (3)
 - Ian Curtis (3)
 - Kraftwerk (3)
-- Pips (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -651,11 +651,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | lecture_chanson | 7 |
 | concert | 6 |
 | session | 6 |
+| reception_live | 5 |
 | objet_discographique | 5 |
 | biographie | 5 |
 | discographie | 5 |
 | fait_sensible | 5 |
-| reception_live | 4 |
 | analyse | 4 |
 | reception_critique | 4 |
 | fait_interprete | 4 |
@@ -675,6 +675,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | economie_materielle | 2 |
 | reception | 2 |
 | relation | 2 |
+| seuil_chronologique | 2 |
 | construction_esthetique | 2 |
 | scene_collective | 2 |
 | personne_reseau | 2 |
@@ -729,7 +730,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_management_sante | 1 |
 | transition_nominale | 1 |
 | processus_sonore | 1 |
-| seuil_chronologique | 1 |
 | scene_reseau | 1 |
 | scene_live_desillusion | 1 |
 | economie_tournee | 1 |
@@ -740,6 +740,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | interpretation_groupe | 1 |
 | rencontre_fondatrice | 1 |
 | scene_recrutement | 1 |
+| chronologie_structurante | 1 |
+| chronologie_scene | 1 |
+| scene_live_anecdotique | 1 |
+| archive_live | 1 |
+| chronologie_reseau | 1 |
 | scene_organisationnelle | 1 |
 | scene_sociale_live | 1 |
 | synthese_tension | 1 |
@@ -839,9 +844,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 153 |
-| critique | 146 |
+| critique | 150 |
+| majeur | 26 |
 | majeure | 24 |
-| majeur | 23 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
