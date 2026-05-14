@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T15:11:37"
+generated_at: "2026-05-14T16:04:01"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 118 |
+| Atomes | 124 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
@@ -34,7 +34,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 21 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -65,6 +65,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale + événement discographique établi`.
 - **S41-A064** — S41-A064 — Sessions An Ideal et Swinging Apple : clôture Warsaw avant Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `seuil_chronologique` ; importance : `critique` ; preuve : `chronologie éditoriale + session / concert documentés`.
+- **S41-A068** — S41-A068 — RCA / Swan : promesse commerciale et transformation de N. F. Porter en « Interzone »  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A069** — S41-A069 — Arrow Studios : album RCA comme anti-Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif ; détails de session à croiser`.
+- **S41-A071** — S41-A071 — Gretton corrige les erreurs : remastering, artwork, distribution et bandes Arrow  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `intervention_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A074** — S41-A074 — Factory au Russell Club : entrée de Joy Division dans l’orbite Wilson/Saville/Erasmus  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_factory` ; importance : `critique` ; preuve : `synthèse Hook + appareil factuel`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
@@ -107,14 +115,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `evenement_corroborable_memoire_plurielle`.
 - **S76-A039** — S76-A039 — Boxing Day 1977 : deuxième Pennine Sound et genèse d’*An Ideal For Living*  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `production` ; importance : `critique` ; preuve : `evenement_discographique_corroborable`.
-- **S76-A041** — S76-A041 — *An Ideal For Living* : Enigma, distribution incertaine et pochette Hitler Youth  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `discographie` ; importance : `critique` ; preuve : `evenement_discographique_corroborable_et_temoignage`.
-- **S76-A046** — S76-A046 — Rabid refuse l’iconographie mais distribue *An Ideal For Living*  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `economie_discographique` ; importance : `critique` ; preuve : `temoignages_Lawrence_Beedle_et_reconstruction`.
-- **S76-A050** — S76-A050 — Arrow Studios, 3-5 mai 1978 : collision entre soul professionnelle et post-punk froid  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `temoignage_Brandwood_et_reconstruction_discographique`.
-- **S76-A066** — S76-A066 — La réédition 12 pouces de *An Ideal for Living* : financement, Anonymous Records, sleeve échafaudage  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `temoignage_Terry_Mason_et_reconstruction_S76`.
 
 ## 6. Autres atomes utiles
 
@@ -230,10 +230,18 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A054** — S75-A054 — *Still* et les titres de réserve : austérité gothique, exercices et titres trouvés  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S76-A041** — S76-A041 — *An Ideal For Living* : Enigma, distribution incertaine et pochette Hitler Youth  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `discographie` ; importance : `critique` ; preuve : `evenement_discographique_corroborable_et_temoignage`.
+- **S76-A046** — S76-A046 — Rabid refuse l’iconographie mais distribue *An Ideal For Living*  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `economie_discographique` ; importance : `critique` ; preuve : `temoignages_Lawrence_Beedle_et_reconstruction`.
+- **S76-A050** — S76-A050 — Arrow Studios, 3-5 mai 1978 : collision entre soul professionnelle et post-punk froid  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `temoignage_Brandwood_et_reconstruction_discographique`.
 - **S76-A051** — S76-A051 — La voix de Curtis à Arrow : adrift, dislodged, reedy  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `analyse_sonore` ; importance : `majeure` ; preuve : `description_critique_S76`.
 - **S76-A065** — S76-A065 — Racheter les bandes : 1 000 livres, puis 850, et le sentiment d’être « mugged »  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `fait_contractuel` ; importance : `majeure` ; preuve : `reconstruction_S76_contractuelle`.
+- **S76-A066** — S76-A066 — La réédition 12 pouces de *An Ideal for Living* : financement, Anonymous Records, sleeve échafaudage  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `temoignage_Terry_Mason_et_reconstruction_S76`.
 - **S76-A078** — S76-A078 — Roger Eagle et le sampler avorté : Liverpool-Manchester contre Manchester seul  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `bifurcation_institutionnelle` ; importance : `critique` ; preuve : `reconstruction_S76_sur_Wilson_Eagle_Erasmus`.
 - **S76-A079** — S76-A079 — *The Factory Sample* : Wilson, acid, Abraxas thaïlandais et esthétique de l’objet  
@@ -256,7 +264,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_reprise` ; importance : `majeure` ; preuve : `live_archive_et_interpretation_S76`.
 - **SESSION-S41-AN-IDEAL-FOR-LIVING-TL2** — S41 — Chansons, concerts, lieux et objets — Timeline Two, de Warsaw à Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SESSION-S41-RCA-ARROW-STUDIOS-1978** — S41 — Chansons, sessions, lieux et objets — Stiff/Chiswick, RCA, Gretton, Factory, Granada  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18** — S41 — Chansons, lieux, objets et sessions — Warsaw, premiers concerts, Hannett/Erasmus, démos  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S41-INTERZONE-NF-PORTER** — S41 — Chansons, sessions, lieux et objets — Stiff/Chiswick, RCA, Gretton, Factory, Granada  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S45-AN-IDEAL-FOR-LIVING** — S45 — Chansons et objets discographiques — *An Ideal for Living*, travail social, RCA  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
@@ -266,18 +278,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S45-UNKNOWN-PLEASURES-STRAWBERRY** — S45 — Chansons, sessions et objets — Factory, épilepsie, paroles, Natalie  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **SONG-S76-018** — SONG-S76-018 — *An Ideal for Living* comme ressource financière  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_release` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **SONG-S76-020** — SONG-S76-020 — *The Factory Sample* comme objet-manifeste  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_release` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **SONG-S76-026** — SONG-S76-026 — Genetic demos  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `release_or_session` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **SONG-S76-029** — SONG-S76-029 — Futurama 1979 comme set bootleg majeur  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **SONG-S76-034** — SONG-S76-034 — Les Bains-Douches comme archive live  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **SONG-S76-035** — SONG-S76-035 — *Licht und Blindheit* comme objet Sordide  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `release_object` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -423,14 +423,15 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 - An Ideal for Living (6)
 - Electric Circus (5)
+- RCA (5)
 - Short Circuit (4)
 - Pennine Sound (4)
+- Arrow Studios (4)
 - bootleg (4)
 - Still (4)
 - Earcom 2 (3)
 - Rudolf Hess (3)
-- RCA (3)
-- Arrow Studios (3)
+- bootlegs (3)
 - Paul Morley (3)
 - Warsaw (3)
 - Martin Hannett (3)
@@ -440,13 +441,15 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - An Ideal For Living (3)
 - Unknown Pleasures (2)
 - DIY (2)
-- bootlegs (2)
 - The Kill (2)
 - Steve Brotherdale (2)
 - Slaughter & the Dogs (2)
 - Panik (2)
 - Rainy City Records (2)
 - At a Later Date (2)
+- John Anderson (2)
+- remastering (2)
+- Tosh Ryan (2)
 - Licht und Blindheit (2)
 - Sordide Sentimental (2)
 - Movie Play Gold (2)
@@ -458,9 +461,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Sister Ray (2)
 - Closer (1)
 - Britannia Row (1)
-- wives and girlfriends (1)
-- 20 livres (1)
-- Annik (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -524,6 +524,16 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A040 — alimente → REGISTRE-DISCOGRAPHIE
 - S41-A041 — prolonge → CONCEPT-050
 - S41-A041 — prépare → CONCEPT-HANNETT-STUDIO
+- S41-A068 — prolonge → CONCEPT-058
+- S41-A068 — prépare → S41-A069
+- S41-A069 — prolonge → CONCEPT-058
+- S41-A069 — prolonge → REGISTRE-BOOTLEGS
+- S41-A069 — prépare → S41-A071
+- S41-A071 — prolonge → CONCEPT-059
+- S41-A071 — prolonge → CONCEPT-060
+- S41-A071 — prolonge → CONCEPT-062
+- S41-A074 — prolonge → CONCEPT-055
+- S41-A074 — prépare → FACTORY-RECORDS-LABEL
 - S41-A062 — consolide → S41-A040
 - S41-A062 — alimente → REGISTRE-DISCOGRAPHIE
 - S41-A063 — consolide → S41-A036
@@ -534,16 +544,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S75-A069 — prolonge → CONCEPT-006
 - S75-A069 — prolonge → MOTIF-001
 - S75-A069 — prolonge → S70-A021
-- S75-A008 — prolonge → MOTIF-bootleg
-- S75-A008 — corrobore → S68
-- S75-A019 — prolonge → S75-A018
-- S75-A019 — illustre → CONCEPT-contrainte_produit_la_forme
-- S75-A021 — prolonge → CONCEPT-005
-- S75-A021 — prépare → S75-A026
-- S75-A021 — nuance → MYTH-006
-- S75-A025 — prolonge → MOTIF-004
-- S75-A025 — illustre → CONCEPT-005
-- S75-A025 — prolonge → S75-A008
 
 ## 13. Distribution documentaire
 
@@ -553,11 +553,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 |---|---|
 | production | 32 |
 | objet_discographique | 12 |
+| non qualifié | 8 |
 | concert | 6 |
-| non qualifié | 6 |
+| session_studio | 6 |
 | analyse | 5 |
 | archive | 5 |
-| session_studio | 5 |
 | session | 3 |
 | chronologie | 3 |
 | live_set_bootleg_context | 3 |
@@ -575,6 +575,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | scene_conflit | 1 |
 | personne_reseau | 1 |
 | scene_live_violence | 1 |
+| tension_industrie | 1 |
+| intervention_management | 1 |
+| scene_factory | 1 |
 | chronologie_discographique | 1 |
 | chronologie_reseau | 1 |
 | seuil_chronologique | 1 |
@@ -597,8 +600,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 64 |
-| critique | 44 |
+| non qualifiée | 66 |
+| critique | 48 |
 | majeure | 6 |
 | majeur | 4 |
 
@@ -626,6 +629,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A036 [faible à moyen] — Ne pas téléologiser Gretton comme manager prédestiné.
 - S41-A040 [moyen] — Ne pas isoler Rudolf Hess de la logique plus large de maladresse provocatrice et de piège industriel.
 - S41-A041 [moyen] — Ne pas transformer la violence en simple folklore ; elle structure les appartenances locales.
+- S41-A068 [moyen] — Ne pas réduire Interzone à une reprise détournée ; la transformation est précisément l’objet.
+- S41-A069 [élevé] — Ne pas attribuer à Hook seul les détails précis Strawberry/RCA ; il parle ici d’Arrow Studios et de John Anderson.
+- S41-A071 [faible à moyen] — Ne pas transformer Gretton en sauveur total ; il règle des problèmes très concrets.
+- S41-A074 [moyen] — Ne pas téléologiser Factory Records ; le passage décrit encore un club night expérimental.
 - S41-A062 [faible] — Atome de consolidation ; l’analyse de la provocation Rudolf Hess reste dans les atomes antérieurs.
 - S41-A063 [faible] — Ne pas téléologiser Gretton ; l’entrée montre surtout une infrastructure fragile.
 - S41-A064 [faible] — Atome de verrouillage chronologique ; éviter de répéter l’analyse sonore des pages 85-98.

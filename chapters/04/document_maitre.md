@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T15:11:37"
+generated_at: "2026-05-14T16:04:01"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-14T15:11:37"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 187 |
+| Atomes | 191 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-14T15:11:37"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 26 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 30 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -51,6 +51,10 @@ generated_at: "2026-05-14T15:11:37"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée`.
 - **S41-A045** — S41-A045 — « No Love Lost » et *House of Dolls* : canon lyrique et risque téléologique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `paroles_source` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + source littéraire identifiée`.
+- **S41-A068** — S41-A068 — RCA / Swan : promesse commerciale et transformation de N. F. Porter en « Interzone »  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A073** — S41-A073 — « Transmission » au Mayflower : morceau qui arrête le travail autour de lui  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_creative_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -111,10 +115,6 @@ generated_at: "2026-05-14T15:11:37"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_biographique` ; importance : `critique` ; preuve : `temoignage_retroactif`.
 - **S76-A006** — S76-A006 — Chevalerie, histoire et correction du soupçon nazi  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_historiographique` ; importance : `critique` ; preuve : `memoire_familiale_et_temoignage_ami`.
-- **S76-A007** — S76-A007 — King’s School : classe, brutalité masculine et désajustement scolaire  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `critique` ; preuve : `temoignage_retroactif`.
-- **S76-A009** — S76-A009 — Compartimentation amicale et pluralité des Ian Curtis  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `interpretation_temoignage`.
 
 ## 6. Autres atomes utiles
 
@@ -530,6 +530,7 @@ generated_at: "2026-05-14T15:11:37"
 - écriture (2)
 - House of Dolls (2)
 - Throbbing Gristle (2)
+- Interzone (2)
 - mort jeune (2)
 - Mick Middles (2)
 - responsabilité (2)
@@ -541,7 +542,6 @@ generated_at: "2026-05-14T15:11:37"
 - Disorder (2)
 - paternité (2)
 - She’s Lost Control (2)
-- contrôle (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -574,6 +574,10 @@ generated_at: "2026-05-14T15:11:37"
 - S41-A045 — alerte → MYTH-LYRICS-AS-DIARY
 - S41-A023 — prolonge → CONCEPT-020
 - S41-A023 — prolonge → S45-A075
+- S41-A068 — prolonge → CONCEPT-058
+- S41-A068 — prépare → S41-A069
+- S41-A073 — prolonge → CONCEPT-056
+- S41-A073 — prolonge → S41-A068
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -621,10 +625,6 @@ generated_at: "2026-05-14T15:11:37"
 - S75-A043 — nuance → MYTH-004
 - S75-A043 — prolonge → CONCEPT-006
 - S75-A043 — nuance → MYTH-002
-- S75-A044 — requiert → CONCEPT-004
-- S75-A044 — nuance → MYTH-002
-- S75-A044 — prolonge → S75-A041
-- S75-A045 — prolonge → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -635,10 +635,10 @@ generated_at: "2026-05-14T15:11:37"
 | fait_sensible | 9 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
+| non qualifié | 6 |
 | interpretation | 5 |
 | lecture | 4 |
 | lecture_musicale | 4 |
-| non qualifié | 4 |
 | processus_creatif | 3 |
 | relation | 3 |
 | lecture_biographique | 3 |
@@ -673,6 +673,8 @@ generated_at: "2026-05-14T15:11:37"
 | lieu_creatif | 1 |
 | session_studio | 1 |
 | paroles_source | 1 |
+| tension_industrie | 1 |
+| scene_creative_live | 1 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
 | citation_contextualisee | 1 |
@@ -755,8 +757,8 @@ generated_at: "2026-05-14T15:11:37"
 
 | Importance | Nombre |
 |---|---|
-| critique | 84 |
-| non qualifiée | 68 |
+| critique | 86 |
+| non qualifiée | 70 |
 | majeure | 33 |
 | majeur | 1 |
 | structurante | 1 |
@@ -773,6 +775,8 @@ generated_at: "2026-05-14T15:11:37"
 - S41-A044 [moyen] — Risque de reprendre sans distance l’héroïsation de Curtis comme auteur sans faute après l’EP.
 - S41-A045 [élevé] — Risque de traiter les paroles comme journal intime ou comme idéologie transparente.
 - S41-A023 [élevé] — Risque de mythifier Curtis comme âme pure ; Hook écrit rétrospectivement après le mythe.
+- S41-A068 [moyen] — Ne pas réduire Interzone à une reprise détournée ; la transformation est précisément l’objet.
+- S41-A073 [moyen] — Risque de canoniser rétrospectivement le morceau ; Hook insiste sur l’impossibilité de savoir à l’écriture.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
@@ -821,8 +825,6 @@ generated_at: "2026-05-14T15:11:37"
 - S76-A150 [tres_eleve] — formulation extrêmement forte ; risque de l’utiliser comme preuve d’une issue déjà décidée
 - S76-A152 [tres_eleve] — chanson la plus mythifiable du corpus ; risque d’absorber toute la biographie de Curtis
 - S76-A153 [eleve] — risque de moraliser Deborah ou de sentimentaliser l’animal comme pur symbole tragique
-- S76-A096 [moyen] — l’atome peut nourrir un mythe de l’outsider ; il doit au contraire en expliquer la fabrication
-- S76-A097 [tres_eleve] — risque maximal de médiumnité, prophétisation et lecture surnaturelle de Curtis
 
 ## 15. Lacunes et prochaines vérifications
 

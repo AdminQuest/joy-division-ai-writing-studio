@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T15:11:37"
+generated_at: "2026-05-14T16:04:01"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 664 |
+| Atomes | 669 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 57 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 62 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -77,6 +77,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_live` ; importance : `critique` ; preuve : `témoignage direct + set list de timeline`.
 - **S41-A062** — S41-A062 — Short Circuit dans la timeline : événement discographique réduit à une entrée froide  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale + événement discographique établi`.
+- **S41-A066** — S41-A066 — Stiff/Chiswick : X Factor punk, concurrence locale et violence de sérieux  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
+- **S41-A067** — S41-A067 — Curtis contre Wilson : colère télévisuelle et reconnaissance différée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_reception` ; importance : `critique` ; preuve : `témoignage Hook + propos Wilson rapportés + S45 à croiser`.
+- **S41-A074** — S41-A074 — Factory au Russell Club : entrée de Joy Division dans l’orbite Wilson/Saville/Erasmus  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_factory` ; importance : `critique` ; preuve : `synthèse Hook + appareil factuel`.
+- **S41-A077** — S41-A077 — Granada Reports / « Shadowplay » : télévision locale, Salford mal attribué et image naissante  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + archive télévisuelle existante`.
 - **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
 - **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
@@ -111,14 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A030** — S74-A030 — Russell Club / Factory : un lieu imparfait comme matrice institutionnelle  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_institution` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A031** — S74-A031 — Peter Saville et l’apparition immédiate d’une grammaire graphique Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `design` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A032** — S74-A032 — Factory Records naît d’un format, d’un objet et d’un refus du pragmatisme  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `institution` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -206,6 +206,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contrepoint_lieu` ; importance : `majeur` ; preuve : `témoignage autobiographique direct`.
 - **S41-A049** — S41-A049 — Joy Division protégé et marchandisé : nom traumatique, vibrateurs, bootlegs et T-shirts  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_nominale` ; importance : `majeur` ; preuve : `témoignage rétrospectif de Hook`.
+- **S41-A075** — S41-A075 — Musicians’ Collective : entraide officielle et arrière-goût de salle de classe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage Hook + citation Kevin Eden rapportée`.
 - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
@@ -279,8 +281,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - **S46-038** — S46-038 — Messages gravés dans les sillons de sortie  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `paratexte_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-040** — S46-040 — Bowdon Vale et les provocations anti-nazies du public  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-046** — S46-046 — Factory Tour : limites de la reconnaissance londonienne  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
@@ -511,23 +511,24 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 ### 12.1. Motifs dominants
 
 - Annik Honoré (16)
-- Tony Wilson (13)
+- Tony Wilson (15)
 - Rob Gretton (12)
 - fatigue (8)
+- Peter Saville (7)
 - Factory (7)
 - Unknown Pleasures (6)
-- Peter Saville (6)
 - Love Will Tear Us Apart (5)
 - Electric Circus (5)
 - Ian Curtis (5)
+- Kevin Cummins (5)
 - Closer (5)
 - Gretton (5)
 - Buzzcocks tour (4)
 - Mick Middles (4)
 - Strawberry Studios (4)
+- Factory Club (4)
 - épilepsie (4)
 - Sister Ray (4)
-- Kevin Cummins (4)
 - Still (4)
 - Rabid Records (4)
 - Deborah Curtis (4)
@@ -539,6 +540,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Sounds (3)
 - NME (3)
 - Sex Pistols (3)
+- Rafters (3)
+- Paul Morley (3)
 - Bowie (3)
 - presse musicale (3)
 - Plan K (3)
@@ -547,9 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Alan Hempsall (3)
 - Ceremony (3)
 - transition (3)
-- postérité (3)
-- Wilson (3)
-- contrat (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -626,13 +626,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A018 — nuance → MYTH-SEX-PISTOLS-LFTH-ORIGIN
 - S41-A019 — nuance → MYTH-002
 - S41-A019 — prolonge → CONCEPT-046
-- S41-A057 — prolonge → CONCEPT-064
-- S41-A057 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
-- S41-A058 — prolonge → S41-A027
-- S41-A058 — alimente → REGISTRE-PRESSE
-- S41-A061 — prolonge → S41-A039
-- S41-A061 — alimente → REGISTRE-BOOTLEGS
-- S41-A062 — consolide → S41-A040
+- S41-A066 — prolonge → CONCEPT-050
+- S41-A066 — prépare → S41-A070
+- S41-A066 — prépare → S41-A074
+- S41-A067 — prolonge → CONCEPT-055
+- S41-A067 — nuance → MYTH-WILSON-INSTANT-RECOGNITION
+- S41-A074 — prolonge → CONCEPT-055
+- S41-A074 — prépare → FACTORY-RECORDS-LABEL
 
 ## 13. Distribution documentaire
 
@@ -679,6 +679,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_chanson | 4 |
 | concert_europeen | 4 |
 | reception_presse | 3 |
+| scene_collective | 3 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
 | reception_posthume | 3 |
@@ -697,9 +698,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | song | 3 |
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
+| objet_audiovisuel | 2 |
 | infrastructure | 2 |
 | economie_discographique | 2 |
-| scene_collective | 2 |
+| scene_reseau | 2 |
 | archive_live | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -743,15 +745,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | strategie_mediatique | 1 |
 | contrepoint_mythique | 1 |
 | performance_sante | 1 |
-| objet_audiovisuel | 1 |
 | tension_management_sante | 1 |
 | scene_domestique_finale | 1 |
 | tension_finale | 1 |
 | reception_nominale | 1 |
 | lieu_structurant | 1 |
-| scene_reseau | 1 |
 | scene_revelation | 1 |
 | rencontre_fondatrice | 1 |
+| tension_reception | 1 |
+| scene_factory | 1 |
 | lieu_memoire | 1 |
 | chronologie_discographique | 1 |
 | scene_sociale_live | 1 |
@@ -977,9 +979,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 451 |
-| critique | 162 |
+| critique | 166 |
 | majeure | 39 |
-| majeur | 8 |
+| majeur | 9 |
 | structurante | 2 |
 | moyenne | 2 |
 
@@ -1013,6 +1015,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
 - S41-A018 [moyen] — Risque de faire du second concert un seul point d’origine ; Hook lui-même distribue l’importance entre plusieurs moments.
 - S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
+- S41-A066 [moyen] — Ne pas transformer la soirée en audition providentielle unique ; elle cristallise un basculement déjà préparé.
+- S41-A067 [moyen] — Risque de trop accorder à la formule Wilson ; Hook la nuance explicitement.
+- S41-A074 [moyen] — Ne pas téléologiser Factory Records ; le passage décrit encore un club night expérimental.
+- S41-A075 [faible] — Atome de réseau ; son intérêt tient à l’ambivalence entraide / ennui / opportunisme.
+- S41-A077 [moyen] — Ne pas faire de la télévision une consécration nationale ; c’est une fenêtre locale pré-enregistrée.
 - S41-A057 [moyen] — Risque de projeter la charge posthume sur l’usage initial du lieu ; il faut distinguer répétition 1976-1977 et retour mémoriel ultérieur.
 - S41-A058 [moyen] — Ne pas donner trop de poids à une review anonyme ; l’intérêt tient au contraste entre trace hostile et mémoire absente.
 - S41-A061 [moyen] — Risque de confondre cassette personnelle, bootleg ultérieur et document public stabilisé.
@@ -1040,11 +1047,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A005 [moyen] — le mythe est documenté mais souvent simplifié en scène primitive unique
 - S75-A007 [faible] — la citation critique doit être utilisée comme indice, non comme preuve d'une grandeur déjà accomplie
 - S75-A023 [moyen] — le caractère fondateur de la scène peut être surdramatisé ; l'intérêt est dans la bifurcation Wilson/Gretton
-- S75-A026 [faible] — le rôle protecteur de Gretton est fortement cohérent avec plusieurs récits, mais certains détails contractuels doivent rester vérifiables
-- S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
-- S75-A029 [eleve] — risque classique d'héroïser Hannett comme génie solitaire du son Joy Division
-- S75-A031 [eleve] — risque de téléologie morbide si la crise est lue comme signe fatal plutôt que comme événement médical et biographique
-- S75-A032 [moyen] — ne pas faire d'une photographie un tournant causal ; elle cristallise une image
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T15:11:37"
+generated_at: "2026-05-14T16:04:01"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 353 |
+| Atomes | 364 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 73 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 84 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -99,24 +99,24 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_live` ; importance : `critique` ; preuve : `témoignage direct + set list de timeline`.
 - **S41-A064** — S41-A064 — Sessions An Ideal et Swinging Apple : clôture Warsaw avant Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `seuil_chronologique` ; importance : `critique` ; preuve : `chronologie éditoriale + session / concert documentés`.
+- **S41-A066** — S41-A066 — Stiff/Chiswick : X Factor punk, concurrence locale et violence de sérieux  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
+- **S41-A067** — S41-A067 — Curtis contre Wilson : colère télévisuelle et reconnaissance différée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_reception` ; importance : `critique` ; preuve : `témoignage Hook + propos Wilson rapportés + S45 à croiser`.
+- **S41-A070** — S41-A070 — Arrivée de Rob Gretton : manager comme soulagement organisationnel  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A073** — S41-A073 — « Transmission » au Mayflower : morceau qui arrête le travail autour de lui  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_creative_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A074** — S41-A074 — Factory au Russell Club : entrée de Joy Division dans l’orbite Wilson/Saville/Erasmus  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_factory` ; importance : `critique` ; preuve : `synthèse Hook + appareil factuel`.
+- **S41-A076** — S41-A076 — Band on the Wall : Gretton dépense, Ian calcule, le groupe sonne  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec reconstruction de pensée de Curtis`.
+- **S41-A077** — S41-A077 — Granada Reports / « Shadowplay » : télévision locale, Salford mal attribué et image naissante  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + archive télévisuelle existante`.
 - **S45-A048** — S45-A048 — Manchester Musicians’ Collective : expérimentation sans obligation d’audience  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `citation de Curtis rapportée par Deborah`.
 - **S45-A049** — S45-A049 — Piccadilly Plaza / RCA : bureau discret et promesse industrielle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_industrielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A054** — S45-A054 — Curtis force l’accès à Tony Wilson par l’invective  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A055** — S45-A055 — Rob Gretton voit Joy Division au moment de leur détermination maximale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A056** — S45-A056 — « Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mediation_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + archive télévisuelle vérifiable`.
-- **S45-A057** — S45-A057 — Gretton comme gardien, parent de substitution et médiateur confidentiel  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif situé`.
-- **S45-A058** — S45-A058 — L’incident du second guitariste : la basse de Hook avance par conflit  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A059** — S45-A059 — Band on the Wall : laboratoire chaotique, répétition publique et réception divergente  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
-- **S45-A066** — S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 
 ## 6. Autres atomes utiles
 
@@ -208,6 +208,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_anecdotique` ; importance : `majeur` ; preuve : `témoignage rétrospectif inséré dans la timeline`.
 - **S41-A063** — S41-A063 — It Won’t Sell et Rainy City : Gretton pré-manager comme producteur d’infrastructure fragile  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_reseau` ; importance : `majeur` ; preuve : `entrée chronologique discographique`.
+- **S41-A065** — S41-A065 — Deux mois sans concert : Hook manager et humiliation du booking  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A072** — S41-A072 — Transit bleu pétrole : autonomie matérielle et économie des gigs  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct autobiographique`.
+- **S41-A075** — S41-A075 — Musicians’ Collective : entraide officielle et arrière-goût de salle de classe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage Hook + citation Kevin Eden rapportée`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
@@ -224,6 +230,20 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_mediatique` ; importance : `majeur` ; preuve : `témoignage direct + témoignage rapporté de Sumner`.
 - **S45-A053** — S45-A053 — Stiff/Chiswick Challenge : le concours comme théâtre de l’ambition provinciale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_scene_locale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A054** — S45-A054 — Curtis force l’accès à Tony Wilson par l’invective  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A055** — S45-A055 — Rob Gretton voit Joy Division au moment de leur détermination maximale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A056** — S45-A056 — « Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mediation_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + archive télévisuelle vérifiable`.
+- **S45-A057** — S45-A057 — Gretton comme gardien, parent de substitution et médiateur confidentiel  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif situé`.
+- **S45-A058** — S45-A058 — L’incident du second guitariste : la basse de Hook avance par conflit  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A059** — S45-A059 — Band on the Wall : laboratoire chaotique, répétition publique et réception divergente  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
+- **S45-A066** — S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A070** — S45-A070 — Janvier 1979 : couverture NME, Peel session et accommodation de la maladie  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_chronologique` ; importance : `critique` ; preuve : `témoignage direct + faits médiatiques établis`.
 - **S45-A081** — S45-A081 — Russell Club / Factory : première sortie maternelle et illusion d’équilibre  
@@ -260,26 +280,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A113** — S45-A113 — Fin 1979 : salaire de groupe, Silklands et économie domestique d’épuisement  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A114** — S45-A114 — Rainbow et Guildford : farces de tournée, sabotage sonore et domination contrariée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct rapporté + citation critique`.
-- **S45-A116** — S45-A116 — Franck Essner : « Transmission » et amorce d’un fandom transnational  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `critique` ; preuve : `témoignage direct de Deborah + entretien/retour de Franck Essner probable`.
-- **S45-A117** — S45-A117 — Factory New Year’s Eve 1979 : image froide, violence et promesse de réussite sociale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sociale` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A122** — S45-A122 — Arrêt annoncé des concerts : pacificateur domestique et calendrier impossible  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_professionnelle` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A125** — S45-A125 — Top Shop et tournée américaine : crédit domestique, vêtements de scène et Annik financée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A133** — S45-A133 — Moonlight / Rainbow : le calendrier détruit la routine médicale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_live_sante` ; importance : `critique` ; preuve : `témoignage direct de Deborah + témoignage rétrospectif de Sumner`.
-- **S45-A137** — S45-A137 — Wilson/Reade/Erasmus : commandement amateur et effacement de la preuve  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
-- **S45-A139** — S45-A139 — Derby Hall Bury : jouer malgré l’absence du chanteur et fabriquer l’émeute  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_crise` ; importance : `critique` ; preuve : `témoignage direct indirect + témoignage Morris/Wilson rapporté`.
-- **S45-A145** — S45-A145 — Parkside manqué : ambition accomplie et désir de sortie du groupe  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_psychiatrique` ; importance : `critique` ; preuve : `témoignage direct de Deborah ; propos de Steve Morris rapporté`.
-- **S45-A150** — S45-A150 — Dernier concert et minder : gestion de tournée contre hospitalisation  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management_sante` ; importance : `critique` ; preuve : `témoignage direct indirect + reconstruction rétrospective de Deborah`.
 
 ## 7. Citations disponibles
 
@@ -511,25 +511,28 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (18)
+- Rob Gretton (20)
 - Martin Hannett (12)
+- Tony Wilson (11)
 - Factory (10)
-- Tony Wilson (9)
 - Unknown Pleasures (9)
+- Rafters (8)
 - Hannett (8)
-- Rafters (6)
-- Transmission (6)
+- Transmission (7)
+- Peter Saville (6)
 - Strawberry Studios (5)
 - RCA (5)
 - Electric Circus (5)
 - Terry Mason (5)
+- manager (5)
 - Gretton (5)
 - Love Will Tear Us Apart (5)
-- Peter Saville (5)
 - Buzzcocks tour (4)
+- Russell Club (4)
 - Peter Hook (4)
 - télévision (4)
 - Bernard Sumner (4)
+- Band on the Wall (4)
 - Digital (4)
 - Glass (4)
 - Warsaw (4)
@@ -537,11 +540,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Closer (4)
 - Britannia Row (4)
 - synthétiseur (4)
-- manager (4)
 - fatigue (4)
 - John Anderson (4)
-- Russell Club (3)
 - Granada (3)
+- Shadowplay (3)
 - Rainbow Theatre (3)
 - Buzzcocks (3)
 - reconnaissance (3)
@@ -549,8 +551,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Stephen Morris (3)
 - Stiff Kittens (3)
 - Slaughter & the Dogs (3)
-- Ian Curtis (3)
-- Kraftwerk (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -641,7 +641,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 15 |
+| non qualifié | 16 |
 | production | 10 |
 | session_studio | 8 |
 | song | 8 |
@@ -653,6 +653,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | session | 6 |
 | reception_live | 5 |
 | objet_discographique | 5 |
+| scene_management | 5 |
 | biographie | 5 |
 | discographie | 5 |
 | fait_sensible | 5 |
@@ -661,8 +662,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | fait_interprete | 4 |
 | session_radio | 4 |
 | processus_creatif | 3 |
-| scene_management | 3 |
+| tension_management | 3 |
+| economie_materielle | 3 |
 | scene_live | 3 |
+| scene_collective | 3 |
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
@@ -671,13 +674,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_interne | 2 |
 | infrastructure_scene | 2 |
 | economie_domestique | 2 |
-| tension_management | 2 |
-| economie_materielle | 2 |
 | reception | 2 |
 | relation | 2 |
 | seuil_chronologique | 2 |
+| scene_reseau | 2 |
 | construction_esthetique | 2 |
-| scene_collective | 2 |
 | personne_reseau | 2 |
 | scene_live_violence | 2 |
 | scene_revelation | 2 |
@@ -730,7 +731,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_management_sante | 1 |
 | transition_nominale | 1 |
 | processus_sonore | 1 |
-| scene_reseau | 1 |
 | scene_live_desillusion | 1 |
 | economie_tournee | 1 |
 | personnel_groupe | 1 |
@@ -740,6 +740,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | interpretation_groupe | 1 |
 | rencontre_fondatrice | 1 |
 | scene_recrutement | 1 |
+| tension_reception | 1 |
+| scene_creative_live | 1 |
+| scene_factory | 1 |
+| objet_audiovisuel | 1 |
 | chronologie_structurante | 1 |
 | chronologie_scene | 1 |
 | scene_live_anecdotique | 1 |
@@ -843,9 +847,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 153 |
-| critique | 150 |
-| majeur | 26 |
+| critique | 157 |
+| non qualifiée | 154 |
+| majeur | 29 |
 | majeure | 24 |
 
 ## 14. Risques de surinterprétation et points de vigilance

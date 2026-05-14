@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-14T15:11:35`
+Généré le : `2026-05-14T16:03:58`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 44 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1371 atome(s) incomplet(s) sur 1432.
+Le repo est techniquement exploitable, mais 49 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1389 atome(s) incomplet(s) sur 1450.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 2715
+- Enregistrements : 2766
 - Erreurs : 0
-- Avertissements : 14713
+- Avertissements : 14886
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1371 atome(s) incomplet(s) sur 1432.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1432 |
+| atom | 1450 |
 | chronology | 331 |
-| concept | 65 |
+| concept | 72 |
 | metadata | 18 |
-| motif | 99 |
+| motif | 110 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1371 atome(s) incomplet(s) sur 1432.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 106 |
-| unknown | 44 |
+| template | 116 |
+| unknown | 49 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1195 |
-| missing_required_field | 3835 |
+| invalid_controlled_value | 1209 |
+| missing_required_field | 3925 |
 | schema_warning | 399 |
-| unknown_yaml_block | 44 |
-| v2_migration_debt | 9105 |
+| unknown_yaml_block | 49 |
+| v2_migration_debt | 9169 |
 
 ## 5. Erreurs bloquantes
 
@@ -60,6 +60,11 @@ Aucune.
 - `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [INST-S41-CELESTION-18-HIGH-BASS] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [LIVE-S41-OLDHAM-TOWER-CLUB-NO-AUDIENCE] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [LIVE-S41-SWINGING-APPLE-1977-12-31] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [LIVE-S41-STIFF-CHISWICK-RAFTERS-1978-04-14] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [DISC-S41-AN-IDEAL-12-INCH-GRETTON] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [LIVE-S41-FIRST-FACTORY-RUSSELL-CLUB-1978-06-09] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [LIVE-S41-BAND-ON-THE-WALL-1978] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [TV-S41-GRANADA-REPORTS-SHADOWPLAY-1978-09-20] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [BOOK-S41-HOUSE-OF-DOLLS-NAME] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [LIVE-S41-PIPS-FIRST-JOY-DIVISION-GIG] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md` [MEDIA-S41-MELODY-MAKER-PISTOLS-APRIL-1976] : Unable to infer documentary kind
@@ -89,12 +94,7 @@ Aucune.
 - `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-SQUAT-STUFF-THE-JUBILEE-1977] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-RAFTERS-FAST-BREEDER-1977-06-30] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-ERICS-LIVERPOOL-1977-08-27] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-MIDDLESBROUGH-1977-09-14] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [DISC-S41-SHORT-CIRCUIT-ELECTRIC-CIRCUS] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [LIVE-S41-LESSER-FREE-TRADE-HALL-1976-06-04] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [INST-S41-GIBSON-EB0-COPY-FIRST-BASS] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [BOOK-S41-PALMER-HUGHES-BASS-GUITAR] : Unable to infer documentary kind
-- … 4 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 9 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -113,10 +113,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1432
+- Atomes : 1450
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1371
-- Avertissements de champs v2 manquants : 9105
+- Atomes v2 incomplets : 1389
+- Avertissements de champs v2 manquants : 9169
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

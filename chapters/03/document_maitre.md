@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T15:11:37"
+generated_at: "2026-05-14T16:04:01"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 217 |
+| Atomes | 225 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -34,7 +34,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 52 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
@@ -68,6 +68,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_sonore` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A053** — S41-A053 — T. J. Davidson’s : lieu-matrice du son, du froid et de l’image Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
+- **S41-A068** — S41-A068 — RCA / Swan : promesse commerciale et transformation de N. F. Porter en « Interzone »  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A069** — S41-A069 — Arrow Studios : album RCA comme anti-Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif ; détails de session à croiser`.
+- **S41-A073** — S41-A073 — « Transmission » au Mayflower : morceau qui arrête le travail autour de lui  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_creative_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A078** — S41-A078 — Burnel et Simonon : basse haute sonore, basse basse visuelle  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `influence_instrumentale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A050** — S45-A050 — Arrow / RCA : désir de studio, absence de discussion et naïveté industrielle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A051** — S45-A051 — Arrow Studios : chant soul imposé, synthétiseur accepté, métamorphose inachevée  
@@ -109,14 +117,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S75-A027** — S75-A027 — T.J. Davidson : lieu de répétition et cathédrale matérielle de la maturation  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A029** — S75-A029 — Hannett sur *A Factory Sample* : catalyseur, pas auteur unique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A033** — S75-A033 — Première Peel Session : sortie sonore du régionalisme  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session_radio` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A039** — S75-A039 — Strawberry Studios comme bascule du live vers l'objet studio  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A040** — S75-A040 — Digital delay AMS et batterie de Morris : invention d'un espace impossible  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
@@ -467,21 +467,22 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Strawberry Studios (6)
 - Martin Hannett (6)
 - Britannia Row (4)
+- RCA (4)
+- Interzone (4)
 - Unknown Pleasures (4)
+- Transmission (4)
 - Peter Hook (3)
 - Shadowplay (3)
-- Interzone (3)
 - Digital (3)
 - Glass (3)
 - Stephen Morris (3)
 - Velvet Underground (3)
-- Transmission (3)
 - Atmosphere (3)
 - domesticité (3)
 - basse (2)
 - Bernard Sumner (2)
 - Closer (2)
-- RCA (2)
+- Arrow Studios (2)
 - synthétiseur (2)
 - No Love Lost (2)
 - T. J. Davidson’s (2)
@@ -502,7 +503,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Hook (2)
 - Kraftwerk (2)
 - guitare (2)
-- fatigue (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -554,6 +554,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A022 — prépare → S45-A150
 - S41-A023 — prolonge → CONCEPT-020
 - S41-A023 — prolonge → S45-A075
+- S41-A068 — prolonge → CONCEPT-058
+- S41-A068 — prépare → S41-A069
+- S41-A069 — prolonge → CONCEPT-058
+- S41-A069 — prolonge → REGISTRE-BOOTLEGS
+- S41-A069 — prépare → S41-A071
+- S41-A073 — prolonge → CONCEPT-056
+- S41-A073 — prolonge → S41-A068
+- S41-A078 — prolonge → CONCEPT-063
+- S41-A078 — prolonge → CONCEPT-049
 - S41-A004 — prolonge → CONCEPT-006
 - S41-A004 — prolonge → S45-A058
 - S75-A060 — prolonge → CONCEPT-006
@@ -577,15 +586,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A021 — nuance → MYTH-006
 - S75-A022 — illustre → CONCEPT-005
 - S75-A022 — prépare → S75-A024
-- S75-A024 — illustre → CONCEPT-006
-- S75-A024 — illustre → CONCEPT-005
-- S75-A024 — prépare → S75-A029
-- S75-A025 — prolonge → MOTIF-004
-- S75-A025 — illustre → CONCEPT-005
-- S75-A025 — prolonge → S75-A008
-- S75-A027 — prolonge → CONCEPT-003
-- S75-A027 — prolonge → CONCEPT-006
-- S75-A027 — prolonge → MOTIF-003
 
 ## 13. Distribution documentaire
 
@@ -593,9 +593,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Type | Nombre |
 |---|---|
+| non qualifié | 16 |
 | production | 15 |
-| non qualifié | 12 |
-| session_studio | 10 |
+| session_studio | 11 |
 | lecture_musicale | 10 |
 | analyse | 9 |
 | fait | 9 |
@@ -642,6 +642,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | recrutement_musical | 1 |
 | scene_materielle | 1 |
 | personne_reseau | 1 |
+| tension_industrie | 1 |
+| scene_creative_live | 1 |
+| influence_instrumentale | 1 |
 | archive_broadcast | 1 |
 | radio_broadcast | 1 |
 | vigilance_documentaire | 1 |
@@ -696,8 +699,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 148 |
-| critique | 55 |
+| non qualifiée | 152 |
+| critique | 59 |
 | majeure | 11 |
 | majeur | 3 |
 
@@ -722,6 +725,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A016 [moyen] — Risque de faire d’une explication rétrospective une cause technique exclusive du son Hook.
 - S41-A022 [moyen] — Ne pas transformer Terry en cinquième membre artistique ; son rôle est infrastructurel et relationnel.
 - S41-A023 [élevé] — Risque de mythifier Curtis comme âme pure ; Hook écrit rétrospectivement après le mythe.
+- S41-A068 [moyen] — Ne pas réduire Interzone à une reprise détournée ; la transformation est précisément l’objet.
+- S41-A069 [élevé] — Ne pas attribuer à Hook seul les détails précis Strawberry/RCA ; il parle ici d’Arrow Studios et de John Anderson.
+- S41-A073 [moyen] — Risque de canoniser rétrospectivement le morceau ; Hook insiste sur l’impossibilité de savoir à l’écriture.
+- S41-A078 [faible à moyen] — Ne pas réduire le style à deux influences ; elles complètent les contraintes matérielles déjà atomisées.
 - S41-A004 [faible] — L’atome sert surtout de contre-mythe technique ; ne pas le surcharger.
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
@@ -759,10 +766,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S76-A142 [moyen] — ne pas lire la fatigue comme signe isolé ; elle s’inscrit dans un régime général d’épuisement
 - S76-A151 [moyen] — scène très séduisante ; ne pas exagérer le rôle de Wilson au détriment de Curtis, Hannett et du groupe
 - S76-A098 [faible] — événement stable, interprétation sonore à croiser avec écoute et sources BBC
-- S76-A101 [faible] — l’atome compare des choix de production précis et vérifiables
-- S76-A105 [moyen] — éviter de transformer Hannett en auteur unique ; le groupe fournit les matériaux et résiste aussi au résultat
-- S76-A106 [moyen] — intimité privée difficile à objectiver ; éviter l’héroïsation ou la psychologisation
-- S76-A154 [moyen] — risque de lire Londres comme déplacement symbolique vers la fin plutôt que comme choix pratique et professionnel
 
 ## 15. Lacunes et prochaines vérifications
 
