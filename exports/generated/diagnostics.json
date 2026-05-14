@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-14T04:44:36",
+  "generated_at": "2026-05-14T04:58:32",
   "status": "warning",
   "summary": {
-    "records_total": 2328,
+    "records_total": 2349,
     "records_by_kind": {
-      "atom": 1282,
+      "atom": 1303,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
@@ -18,9 +18,9 @@
       "concept": 22,
       "myth": 11
     },
-    "diagnostics_total": 13245,
+    "diagnostics_total": 13455,
     "errors": 0,
-    "warnings": 13245,
+    "warnings": 13455,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -126,8 +126,8 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 266,
-        "atoms": 127,
+        "records": 287,
+        "atoms": 148,
         "quotes": 56,
         "chronology": 41,
         "files": [
@@ -157,6 +157,7 @@
           "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
           "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
           "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+          "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
           "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
           "sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md",
           "sources/deborah_curtis/atomisation_02_unknown_pleasures_domesticite_maladie.md",
@@ -910,6 +911,1266 @@
       "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
       "message": "Missing nested field: stabilite.risque_revision",
       "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A081"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A081"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A081"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A081"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A081"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A081"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A081"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A081"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: scene_domestique_live",
+      "record_id": "S45-A081"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A081"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A082"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A082"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A082"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A082"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A082"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A082"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A082"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A082"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: tension_domestique",
+      "record_id": "S45-A082"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A082"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A083"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A083"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A083"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A083"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A083"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A083"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A083"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A083"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: evenement_medical",
+      "record_id": "S45-A083"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A083"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A084"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A084"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A084"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A084"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A084"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A084"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A084"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A084"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: contrepoint_domestique",
+      "record_id": "S45-A084"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A084"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A085"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A085"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A085"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A085"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A085"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A085"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A085"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A085"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: reception_critique",
+      "record_id": "S45-A085"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A085"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A086"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A086"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A086"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A086"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A086"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A086"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A086"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A086"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: position_esthetique",
+      "record_id": "S45-A086"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A086"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A087"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A087"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A087"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A087"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A087"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A087"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A087"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A087"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: tension_management",
+      "record_id": "S45-A087"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A087"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A088"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A088"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A088"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A088"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A088"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A088"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A088"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A088"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: economie_materielle",
+      "record_id": "S45-A088"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A088"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A089"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A089"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A089"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A089"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A089"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A089"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A089"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A089"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: tension_economique",
+      "record_id": "S45-A089"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A089"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A090"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A090"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A090"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A090"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A090"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A090"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A090"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A090"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: objet_discographique",
+      "record_id": "S45-A090"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A090"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A091"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A091"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A091"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A091"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A091"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A091"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A091"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A091"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: reception_domestique",
+      "record_id": "S45-A091"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A091"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: tension_medicale",
+      "record_id": "S45-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: reception_presse",
+      "record_id": "S45-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: reception_publique",
+      "record_id": "S45-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: tension_genre",
+      "record_id": "S45-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: tension_sante",
+      "record_id": "S45-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: scene_live_sociale",
+      "record_id": "S45-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: strategie_mediatique",
+      "record_id": "S45-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: registre_influences",
+      "record_id": "S45-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "record_id": "S45-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Invalid value for type_unite: scene_domestique_sensible",
+      "record_id": "S45-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A101"
     },
     {
       "level": "warning",

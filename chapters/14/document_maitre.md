@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T04:44:55"
+generated_at: "2026-05-14T04:58:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 630 |
+| Atomes | 634 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -35,7 +35,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 41 | 3 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 15 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
@@ -49,6 +49,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ## 5. Atomes critiques ou majeurs
 
+- **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
+- **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_publique` ; importance : `critique` ; preuve : `témoignage direct + faits live/presse établissables`.
+- **S45-A098** — S45-A098 — Le nom Joy Division : silence stratégique et résistance à l’« Ian Curtis and Joy Division »  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `strategie_mediatique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
@@ -113,12 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe_institutionnel` ; importance : `critique` ; preuve : `mythe_institutionnel_avec_noyau_factuel`.
 - **S75-A038** — S75-A038 — *Unknown Pleasures* comme secret produit en masse  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_donnees_de_vente`.
-- **S75-A042** — S75-A042 — Le grief Sumner/Hook : *Unknown Pleasures* comme dépossession partielle  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S75-A044** — S75-A044 — De la lecture des paroles à la téléologie : le piège Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A050** — S75-A050 — L'encadré des sessions : *Unknown Pleasures* comme archive de quinze titres  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `chronology` ; importance : `critique` ; preuve : `donnees_discographiques`.
 
 ## 6. Autres atomes utiles
 
@@ -226,6 +226,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A067** — S45-A067 — Check Inn : autographes, demigod et canonisation précoce  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A093** — S45-A093 — McCullough / Sounds : refus des réponses droites et publicité paradoxale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_presse` ; importance : `majeur` ; preuve : `témoignage direct + réception presse rapportée`.
 - **S46-001** — S46-001 — Le livre comme histoire « éclectique » et non définitive  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `methode` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-002** — S46-002 — Bootlegs et culture de circulation parallèle  
@@ -280,8 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-054** — S46-054 — Joy Division, transe et techniques de suggestion  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_theorique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-055** — S46-055 — « Transmission » et l’intérêt des majors américaines  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `industrie_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -511,14 +511,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 ### 12.1. Motifs dominants
 
 - Annik Honoré (16)
+- Rob Gretton (12)
 - Tony Wilson (12)
-- Rob Gretton (11)
 - fatigue (8)
 - Factory (7)
 - Unknown Pleasures (6)
 - Peter Saville (6)
 - Closer (5)
 - Gretton (5)
+- Strawberry Studios (4)
 - Ian Curtis (4)
 - épilepsie (4)
 - Sister Ray (4)
@@ -528,6 +529,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Deborah Curtis (4)
 - Love Will Tear Us Apart (4)
 - A Certain Ratio (4)
+- Mick Middles (3)
+- Dave McCullough (3)
+- Sounds (3)
+- NME (3)
 - Bowie (3)
 - presse musicale (3)
 - Plan K (3)
@@ -545,14 +550,21 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - John Peel (3)
 - indépendance (3)
 - manager (3)
-- Factory Club (3)
-- silence (3)
-- pochette (3)
-- Martin Hannett (3)
-- Terry Mason (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A085 — prolonge → S45-A074
+- S45-A085 — prolonge → CONCEPT-019
+- S45-A085 — prolonge → S45-A002
+- S45-A093 — prolonge → S45-A086
+- S45-A093 — prépare → S45-A097
+- S45-A093 — nuance → MYTH-JOY-DIVISION-SILENCE-ABSOLU
+- S45-A094 — prolonge → S45-A067
+- S45-A094 — prolonge → CONCEPT-016
+- S45-A094 — prolonge → CONCEPT-018
+- S45-A098 — prolonge → S45-A044
+- S45-A098 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
+- S45-A098 — prolonge → S45-A093
 - S45-A062 — nuance → MYTH-002
 - S45-A062 — prolonge → MOTIF-019
 - S45-A064 — prolonge → MOTIF-017
@@ -621,18 +633,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A028 — prolonge → MOTIF-002
 - S75-A028 — prépare → S75-A029
 - S75-A029 — prolonge → CONCEPT-006
-- S75-A029 — nuance → MYTH-004
-- S75-A029 — prolonge → S75-A024
-- S75-A031 — nuance → MYTH-002
-- S75-A031 — prolonge → CONCEPT-004
-- S75-A031 — nuance → MYTH-003
-- S75-A032 — nuance → MYTH-002
-- S75-A032 — prolonge → CONCEPT-004
-- S75-A033 — prolonge → CONCEPT-006
-- S75-A033 — nuance → MYTH-003
-- S75-A033 — prépare → S75-A036
-- S75-A035 — nuance → MYTH-005
-- S75-A035 — prolonge → S75-A026
 
 ## 13. Distribution documentaire
 
@@ -647,11 +647,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | discographie | 11 |
 | objet_discographique | 11 |
 | reception_poll | 10 |
+| reception_critique | 9 |
 | archive | 9 |
 | production | 8 |
 | contrepoint | 8 |
 | synthese | 8 |
-| reception_critique | 8 |
 | scene_fondatrice | 8 |
 | methode | 7 |
 | sociologie | 7 |
@@ -677,6 +677,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | acteur_critique | 4 |
 | lecture_chanson | 4 |
 | concert_europeen | 4 |
+| reception_presse | 3 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
 | reception_posthume | 3 |
@@ -701,7 +702,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | design_discographique | 2 |
 | reception_commerciale | 2 |
 | evenement | 2 |
-| reception_presse | 2 |
 | chronologie_tournee | 2 |
 | changement_nom | 2 |
 | objet_merchandising | 2 |
@@ -733,6 +733,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert_archive | 2 |
 | esthétique_visuelle | 2 |
 | album | 2 |
+| reception_publique | 1 |
+| strategie_mediatique | 1 |
 | contrepoint_mythique | 1 |
 | archive_broadcast | 1 |
 | television_new_order | 1 |
@@ -956,14 +958,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 449 |
-| critique | 135 |
+| critique | 138 |
 | majeure | 39 |
-| majeur | 3 |
+| majeur | 4 |
 | structurante | 2 |
 | moyenne | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A085 [élevé] — Risque de surmédicaliser la critique ou d’ignorer l’écart entre réception esthétique et réalité médicale.
+- S45-A093 [moyen] — Risque de prendre l’opacité comme stratégie entièrement maîtrisée ou comme absence réelle d’intelligence.
+- S45-A094 [moyen] — Risque de confondre célébrité réelle et perception conjugale d’être dépossédée ; les deux doivent être distinguées.
+- S45-A098 [moyen] — Risque de lire le silence comme pure stratégie ou comme absence de pensée ; il fonctionne aussi comme protection du collectif.
 - S45-A062 [moyen] — Risque de remplacer le mythe noir par un mythe de camaraderie innocente.
 - S45-A064 [moyen] — Risque de réduire les fans féminines à une menace conjugale ; elles sont aussi premières formes du public dédié.
 - S45-A067 [moyen] — Risque de généraliser un fan à toute la réception ; il s’agit d’un signe faible mais structurant.
@@ -1020,10 +1026,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S74-A045 [moyen] — risque de lire l’échec commercial comme incompréhension pure du public sans examiner la promotion déficiente
 - S74-A046 [moyen] — risque de romantiser Factory comme seul espace authentique contre une télévision nécessairement morte
 - S74-A047 [moyen] — risque de transformer le Factory Club en lieu mythique unique au détriment des autres scènes importantes
-- S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
-- S74-A053 [tres_eleve] — tout traitement de la mort de Curtis risque la téléologie tragique et la lecture sacrificielle
-- S74-A055 [moyen] — risque de faire de la mort de Curtis la cause unique de toutes les mutations ultérieures de Factory
-- S74-A056 [eleve] — risque de lire Closer uniquement comme testament suicidaire alors que l’œuvre précède la mort
 
 ## 15. Lacunes et prochaines vérifications
 

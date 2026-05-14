@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T04:44:55"
+generated_at: "2026-05-14T04:58:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-14T04:44:55"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 179 |
+| Atomes | 182 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -35,7 +35,7 @@ generated_at: "2026-05-14T04:44:55"
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 21 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 28 | 3 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
@@ -51,6 +51,12 @@ generated_at: "2026-05-14T04:44:55"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct + citation d’entretien rapportée`.
 - **S45-A076** — S45-A076 — Curtis catalyseur : direction vocale, mélodies et cohésion collective  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignages directs rapportés de Morris et Sumner`.
+- **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
+- **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `registre_influences` ; importance : `critique` ; preuve : `témoignage direct de Deborah sur les lectures à domicile`.
 - **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A027** — S74-A027 — Rob Gretton entre en scène comme manager après An Ideal for Living  
@@ -109,12 +115,6 @@ generated_at: "2026-05-14T04:44:55"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
 - **S76-A018** — S76-A018 — Doutes prénuptiaux et tentation de prophétiser Curtis  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `temoignages_retrospectifs_sensibles`.
-- **S76-A019** — S76-A019 — Mariage de 1975 : amour, jeunesse et absence d’anormalité visible  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `critique` ; preuve : `memoire_familiale_et_reconstruction_biographique`.
-- **S76-A020** — S76-A020 — Chadderton : vie conjugale ordinaire et rêve encore informel de rock star  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
-- **S76-A022** — S76-A022 — Lesser Free Trade Hall : déclencheur, non origine absolue  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `evenement_corroborable_et_temoignages`.
 
 ## 6. Autres atomes utiles
 
@@ -473,6 +473,15 @@ generated_at: "2026-05-14T04:44:55"
 - Rob Gretton (2)
 - Tony Wilson (2)
 - avril 1980 (2)
+- auteur collectif négocié (1)
+- économie du crédit (1)
+- dépossession conjugale économique (1)
+- herméneutique conjugale (1)
+- angoisse interprétative (1)
+- non-confirmation des paroles (1)
+- bibliothèque de souffrance (1)
+- influence attestée/plausible/projetée (1)
+- archive domestique des lectures (1)
 - anti-confessionnalisme (1)
 - poétique d’assemblage (1)
 - multidimensionnalité (1)
@@ -488,15 +497,6 @@ generated_at: "2026-05-14T04:44:55"
 - ian curtis (1)
 - gutz (1)
 - formation du groupe (1)
-- Paul Slattery (1)
-- Dave McCullough (1)
-- photographie (1)
-- 1979 (1)
-- 4 avril 1980 (1)
-- travail industriel (1)
-- rêverie (1)
-- monde intérieur (1)
-- classe ouvrière (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -512,6 +512,8 @@ generated_at: "2026-05-14T04:44:55"
 - domesticité (4)
 - Tony Wilson (4)
 - Mark Reeder (4)
+- New Dawn Fades (3)
+- paroles (3)
 - Macclesfield (3)
 - fatigue (3)
 - Wythenshawe (3)
@@ -533,9 +535,7 @@ generated_at: "2026-05-14T04:44:55"
 - histoire (2)
 - Kevin Cummins (2)
 - Disorder (2)
-- paroles (2)
 - paternité (2)
-- New Dawn Fades (2)
 - She’s Lost Control (2)
 - contrôle (2)
 - Shadowplay (2)
@@ -545,6 +545,15 @@ generated_at: "2026-05-14T04:44:55"
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A089 — prolonge → CONCEPT-020
+- S45-A089 — prolonge → CONCEPT-016
+- S45-A089 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
+- S45-A091 — prolonge → S45-A075
+- S45-A091 — nuance → MYTH-LYRICS-AS-DIARY
+- S45-A091 — prolonge → S45-A012
+- S45-A099 — alimente → REGISTRE-INFLUENCES-LITTERAIRES
+- S45-A099 — prolonge → S45-A018
+- S45-A099 — alerte → RISQUE-INFLUENCE-FALLACY
 - S45-A075 — prolonge → S45-A011
 - S45-A075 — nuance → MYTH-LYRICS-AS-DIARY
 - S45-A075 — prolonge → CHAPITRE-4-ECRITURE-CURTIS
@@ -616,15 +625,6 @@ generated_at: "2026-05-14T04:44:55"
 - S75-A047 — requiert → CONCEPT-004
 - S75-A047 — nuance → MYTH-002
 - S75-A047 — prolonge → CONCEPT-006
-- S75-A048 — illustre → CONCEPT-006
-- S75-A048 — nuance → MYTH-002
-- S75-A048 — nuance → MYTH-004
-- S75-A049 — prolonge → CONCEPT-006
-- S75-A049 — prolonge → MOTIF-001
-- S75-A049 — requiert → CONCEPT-004
-- S74-A026 — nuance → MYTH-005
-- S74-A026 — prolonge → S74-A017
-- S74-A026 — annonce → S74-A030
 
 ## 13. Distribution documentaire
 
@@ -666,6 +666,9 @@ generated_at: "2026-05-14T04:44:55"
 | scene_de_transition | 2 |
 | fait | 2 |
 | non qualifié | 2 |
+| tension_economique | 1 |
+| reception_domestique | 1 |
+| registre_influences | 1 |
 | lieu | 1 |
 | lieu_creatif | 1 |
 | iconographie_photographe | 1 |
@@ -750,7 +753,7 @@ generated_at: "2026-05-14T04:44:55"
 
 | Importance | Nombre |
 |---|---|
-| critique | 78 |
+| critique | 81 |
 | non qualifiée | 66 |
 | majeure | 33 |
 | majeur | 1 |
@@ -758,6 +761,9 @@ generated_at: "2026-05-14T04:44:55"
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A089 [moyen] — Risque de prendre la perception de Deborah comme mesure objective du crédit d’auteur ; le partage collectif doit être analysé comme compromis.
+- S45-A091 [très élevé] — Risque de lire « New Dawn Fades » comme aveu suicidaire direct ; la scène montre précisément l’absence de confirmation.
+- S45-A099 [très élevé] — Risque d’influence fallacy : faire dériver les chansons directement d’auteurs cités.
 - S45-A075 [élevé] — Risque de lire chaque chanson comme journal intime ou comme message suicidaire.
 - S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
 - S45-A025 [moyen] — Risque de sacraliser Barton Street comme sanctuaire ; conserver sa matérialité domestique et logistique.
@@ -815,9 +821,6 @@ generated_at: "2026-05-14T04:44:55"
 - S76-A104 [eleve] — risque de confondre danse, épilepsie et mythe du corps possédé ; ne pas médicaliser sans preuve
 - S76-A108 [tres_eleve] — risque majeur de lire chaque vers à partir du suicide ultérieur
 - S76-A001 [moyen] — proximité affective des auteurs et volonté réparatrice de la source
-- S76-A002 [faible] — l'atome réduit la téléologie morbide plutôt qu'il ne l'alimente
-- S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
-- S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
 
 ## 15. Lacunes et prochaines vérifications
 

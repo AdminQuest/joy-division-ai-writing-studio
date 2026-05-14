@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T04:44:55"
+generated_at: "2026-05-14T04:58:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 280 |
+| Atomes | 289 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -35,7 +35,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 21 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 30 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
@@ -67,6 +67,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A070** — S45-A070 — Janvier 1979 : couverture NME, Peel session et accommodation de la maladie  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_chronologique` ; importance : `critique` ; preuve : `témoignage direct + faits médiatiques établis`.
+- **S45-A081** — S45-A081 — Russell Club / Factory : première sortie maternelle et illusion d’équilibre  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_live` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A086** — S45-A086 — Factory comme liberté : anti-major, artwork et refus de dilution  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `position_esthetique` ; importance : `critique` ; preuve : `citation d’entretien rapportée par S45`.
+- **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
+- **S45-A095** — S45-A095 — Eric’s Liverpool : « no women policy », image et travail féminin effacé  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
+- **S45-A098** — S45-A098 — Le nom Joy Division : silence stratégique et résistance à l’« Ian Curtis and Joy Division »  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `strategie_mediatique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
@@ -107,16 +117,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A033** — S75-A033 — Première Peel Session : sortie sonore du régionalisme  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session_radio` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A035** — S75-A035 — Rushent / Genetic : offre généreuse, rejet mancunien et choix Factory  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `fait_interprete` ; importance : `critique` ; preuve : `reconstruction_critique`.
-- **S75-A036** — S75-A036 — Le pacte Factory : sang, napkins et contrat symbolique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe_institutionnel` ; importance : `critique` ; preuve : `mythe_institutionnel_avec_noyau_factuel`.
-- **S75-A038** — S75-A038 — *Unknown Pleasures* comme secret produit en masse  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_donnees_de_vente`.
-- **S75-A039** — S75-A039 — Strawberry Studios comme bascule du live vers l'objet studio  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A040** — S75-A040 — Digital delay AMS et batterie de Morris : invention d'un espace impossible  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -190,6 +190,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_mediatique` ; importance : `majeur` ; preuve : `témoignage direct + témoignage rapporté de Sumner`.
 - **S45-A053** — S45-A053 — Stiff/Chiswick Challenge : le concours comme théâtre de l’ambition provinciale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_scene_locale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A087** — S45-A087 — Gretton père-figure : dispute, argent et infantilisation du musicien  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A088** — S45-A088 — Petites économies : cigarettes, nettoyage et sandpaper sleeves  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A093** — S45-A093 — McCullough / Sounds : refus des réponses droites et publicité paradoxale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_presse` ; importance : `majeur` ; preuve : `témoignage direct + réception presse rapportée`.
+- **S45-A097** — S45-A097 — Leigh Festival : anti-festival Factory/Zoo, police et inertie de Curtis  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_sociale` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S46-024** — S46-024 — Le second Peel Session  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `broadcast` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-095** — S46-095 — « Something Must Break » : unique performance publique possible  
@@ -272,14 +280,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S47 — West, Joy Division, 1984 ; type : `discographie_album` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S47-091** — S47-091 — « Sister Ray » est l’unique reprise enregistrée par Joy Division  
   Source : S47 — West, Joy Division, 1984 ; type : `reprise` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-100** — S47-100 — Les versions Peel diffèrent fortement des versions officielles  
-  Source : S47 — West, Joy Division, 1984 ; type : `archive_radio` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-101** — S47-101 — L’index des chansons fonctionne comme cartographie du corpus  
-  Source : S47 — West, Joy Division, 1984 ; type : `index_chansons` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-119** — S47-119 — « Transmission/Novelty » : premier single conventionnel  
-  Source : S47 — West, Joy Division, 1984 ; type : `single` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-132** — S47-132 — Trois titres Joy Division finis restent inédits selon West  
-  Source : S47 — West, Joy Division, 1984 ; type : `archive_inedite` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -511,12 +511,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (12)
+- Rob Gretton (13)
 - Martin Hannett (10)
+- Factory (9)
 - Hannett (8)
 - Unknown Pleasures (8)
 - Tony Wilson (7)
-- Factory (6)
+- Strawberry Studios (5)
 - RCA (5)
 - Gretton (5)
 - Love Will Tear Us Apart (5)
@@ -526,7 +527,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Digital (4)
 - Glass (4)
 - Transmission (4)
-- Strawberry Studios (4)
 - Atmosphere (4)
 - Closer (4)
 - Britannia Row (4)
@@ -577,6 +577,33 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S45-A059 — prolonge → MOTIF-013
 - S45-A059 — requiert → MYTH-007
 - S45-A059 — nuance → MYTH-006
+- S45-A081 — prolonge → S45-A080
+- S45-A081 — prolonge → CONCEPT-021
+- S45-A081 — prépare → S45-A082
+- S45-A086 — prolonge → MYTH-005
+- S45-A086 — prolonge → CONCEPT-015
+- S45-A086 — prépare → S45-A090
+- S45-A087 — prolonge → CONCEPT-016
+- S45-A087 — nuance → MYTH-009
+- S45-A087 — prépare → S45-A088
+- S45-A088 — prolonge → MYTH-005
+- S45-A088 — prolonge → CONCEPT-013
+- S45-A088 — prolonge → S45-A087
+- S45-A089 — prolonge → CONCEPT-020
+- S45-A089 — prolonge → CONCEPT-016
+- S45-A089 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
+- S45-A093 — prolonge → S45-A086
+- S45-A093 — prépare → S45-A097
+- S45-A093 — nuance → MYTH-JOY-DIVISION-SILENCE-ABSOLU
+- S45-A095 — prolonge → S45-A079
+- S45-A095 — prolonge → CONCEPT-018
+- S45-A095 — prolonge → CONCEPT-013
+- S45-A097 — prolonge → MYTH-005
+- S45-A097 — prolonge → S45-A095
+- S45-A097 — prolonge → CONCEPT-018
+- S45-A098 — prolonge → S45-A044
+- S45-A098 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
+- S45-A098 — prolonge → S45-A093
 - S45-A039 — prépare → S45-A049
 - S45-A039 — prolonge → CONCEPT-011
 - S45-A039 — nuance → MYTH-006
@@ -607,33 +634,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S75-A069 — prolonge → CONCEPT-006
 - S75-A069 — prolonge → MOTIF-001
 - S75-A069 — prolonge → S70-A021
-- S75-A070 — prolonge → S75-A069
-- S75-A070 — prolonge → CONCEPT-006
-- S75-A070 — prolonge → MOTIF-001
-- S75-A072 — requiert → CONCEPT-004
-- S75-A072 — prolonge → CONCEPT-006
-- S75-A072 — nuance → MYTH-002
-- S75-A011 — prolonge → S75-A009
-- S75-A011 — annonce → CONCEPT-gretton_management
-- S75-A023 — prolonge → MOTIF-006
-- S75-A023 — prépare → S75-A026
-- S75-A023 — prépare → S75-A030
-- S75-A024 — illustre → CONCEPT-006
-- S75-A024 — illustre → CONCEPT-005
-- S75-A024 — prépare → S75-A029
-- S75-A026 — prolonge → S75-A021
-- S75-A026 — prépare → S75-A034
-- S75-A026 — nuance → MYTH-005
-- S75-A029 — prolonge → CONCEPT-006
-- S75-A029 — nuance → MYTH-004
-- S75-A029 — prolonge → S75-A024
-- S75-A033 — prolonge → CONCEPT-006
-- S75-A033 — nuance → MYTH-003
-- S75-A033 — prépare → S75-A036
-- S75-A035 — nuance → MYTH-005
-- S75-A035 — prolonge → S75-A026
-- S75-A035 — prépare → S75-A036
-- S75-A036 — nuance → MYTH-005
 
 ## 13. Distribution documentaire
 
@@ -695,6 +695,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | mediation_visuelle | 1 |
 | relation_management | 1 |
 | processus_creatif | 1 |
+| scene_domestique_live | 1 |
+| position_esthetique | 1 |
+| tension_management | 1 |
+| economie_materielle | 1 |
+| tension_economique | 1 |
+| reception_presse | 1 |
+| tension_genre | 1 |
+| scene_live_sociale | 1 |
+| strategie_mediatique | 1 |
 | tension_mediatique | 1 |
 | infrastructure_industrielle | 1 |
 | tension_chronologique | 1 |
@@ -794,9 +803,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 150 |
-| critique | 104 |
+| critique | 109 |
 | majeure | 24 |
-| majeur | 2 |
+| majeur | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -807,6 +816,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S45-A057 [élevé] — Risque de psychologiser Gretton en père de substitution ou d’opposer brutalement manager et épouse ; la source décrit une perception conjugale.
 - S45-A058 [moyen] — Risque d’attribuer toute la centralité de la basse à cet incident unique ; il faut le traiter comme catalyseur possible, non cause totale.
 - S45-A059 [moyen] — Risque de faire de Morley le seul bon lecteur et de Middles le mauvais ; les deux captent des dimensions concurrentes du même moment.
+- S45-A081 [moyen] — Risque de lire cette sortie comme pure scène heureuse alors qu’elle fonctionne déjà comme seuil d’illusion.
+- S45-A086 [moyen] — Risque de faire de Factory une pure utopie anti-business ; l’argent et les prêts restent au centre de la réflexion.
+- S45-A087 [moyen] — Risque de réduire Ian à l’immaturité ou Gretton au père symbolique ; les tensions sont aussi celles d’une professionnalisation rapide.
+- S45-A088 [faible] — Risque limité ; veiller seulement à ne pas fétichiser le détail Factory.
+- S45-A089 [moyen] — Risque de prendre la perception de Deborah comme mesure objective du crédit d’auteur ; le partage collectif doit être analysé comme compromis.
+- S45-A093 [moyen] — Risque de prendre l’opacité comme stratégie entièrement maîtrisée ou comme absence réelle d’intelligence.
+- S45-A095 [moyen] — Risque de l’attribuer uniquement à Rob Gretton alors que Deborah note la responsabilité collective possible du groupe.
+- S45-A097 [moyen] — Risque de faire du festival un simple échec comique ; il révèle aussi la police, la gestion de l’espace public et l’écart domestique.
+- S45-A098 [moyen] — Risque de lire le silence comme pure stratégie ou comme absence de pensée ; il fonctionne aussi comme protection du collectif.
 - S45-A039 [moyen] — Ne pas transformer l’obsession Granada en stratégie professionnelle aboutie ; elle reste bricolée, impatiente, parfois irréaliste.
 - S45-A048 [moyen] — Risque de romantiser le Collective ; il faut conserver sa dimension pratique et parfois chaotique.
 - S45-A049 [moyen] — Risque de traiter RCA comme simple accident externe, alors que le passage montre un nœud local et relationnel.
@@ -851,15 +869,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S74-A033 [eleve] — risque de surestimer ou de sous-estimer Hannett au détriment du travail collectif
 - S74-A035 [moyen] — risque de reconstruire a posteriori un moment de flottement comme stratégie consciente
 - S74-A036 [moyen] — risque de faire de Gretton un stratège totalement lucide alors que le choix reste empirique et risqué
-- S74-A037 [moyen] — risque de mythifier une clause informelle comme pure vertu sans examiner ses effets économiques
-- S74-A038 [faible] — le risque financier est historiquement pertinent et cohérent avec le modèle Factory
-- S74-A040 [eleve] — risque de basculer dans une lecture uniquement conflictuelle en oubliant le résultat artistique
-- S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
-- S74-A044 [moyen] — risque de survaloriser les Distractions uniquement comme faire-valoir de Joy Division
-- S74-A045 [moyen] — risque de lire l’échec commercial comme incompréhension pure du public sans examiner la promotion déficiente
-- S74-A049 [eleve] — risque de faire de l’émeute une légende héroïque alors qu’elle est aussi un symptôme d’échec organisationnel
-- S74-A050 [eleve] — risque de moraliser rétrospectivement une situation médicale et organisationnelle mal comprise à l’époque
-- S74-A051 [moyen] — risque de projeter sur ces titres une conscience prémonitoire de la mort imminente
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T04:44:55"
+generated_at: "2026-05-14T04:58:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 286 |
+| Atomes | 289 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -35,7 +35,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 63 | 4 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 1 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 17 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
@@ -57,6 +57,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mediation_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + archive télévisuelle vérifiable`.
 - **S45-A066** — S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A090** — S45-A090 — *Unknown Pleasures* publié : objet Factory, faces « Inside/Outside » et rejet domestique initial  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A098** — S45-A098 — Le nom Joy Division : silence stratégique et résistance à l’« Ian Curtis and Joy Division »  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `strategie_mediatique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A100** — S45-A100 — Guerre, nazisme et style : entre mémoire d’enfance, uniformes et malaise conjugal  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Sumner + interprétation de Deborah`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A021** — S74-A021 — Warsaw au premier concert : désespoir, confusion et identité non stabilisée  
@@ -111,12 +117,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `discographie` ; importance : `critique` ; preuve : `evenement_discographique_corroborable_et_temoignage`.
 - **S76-A042** — S76-A042 — Pip’s, 25 janvier 1978 : première apparition Joy Division et division du public  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_multiples`.
-- **S76-A043** — S76-A043 — Début 1978 : crise de réputation, soupçon nazi et isolement local  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_et_contexte_historique`.
-- **S76-A044** — S76-A044 — Bowdon Vale et Stiff Test / Chiswick Challenge : concours, humiliation et sérieux de Curtis  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `temoignages_croises`.
-- **S76-A045** — S76-A045 — Rafters : Bob Dickinson, énergie négative et conversion de Rob Gretton  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `temoignages_directs`.
 
 ## 6. Autres atomes utiles
 
@@ -550,6 +550,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A056 — prolonge → MOTIF-008
 - S45-A056 — prépare → CHAPITRE-5-IMAGE-FACTORY
 - S45-A056 — prolonge → SONG-S45-SHADOWPLAY-RCA
+- S45-A090 — prolonge → S45-A078
+- S45-A090 — prolonge → CHAPITRE-5-IMAGE-FACTORY
+- S45-A090 — prépare → S45-A091
+- S45-A098 — prolonge → S45-A044
+- S45-A098 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
+- S45-A098 — prolonge → S45-A093
+- S45-A100 — prolonge → MYTH-007
+- S45-A100 — prolonge → S45-A042
+- S45-A100 — requiert → CONCEPT-004
 - S45-A037 — prolonge → MOTIF-004
 - S45-A037 — prolonge → MOTIF-005
 - S45-A037 — nuance → MYTH-006
@@ -617,15 +626,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A047 — prolonge → S74-A030
 - S74-A047 — complète → S74-A045
 - S74-A047 — nuance → MYTH-006
-- S74-A048 — nuance → MYTH-002
-- S74-A048 — prolonge → S74-A047
-- S74-A048 — annonce → S74-A049
-- S74-A049 — prolonge → S74-A048
-- S74-A049 — nuance → MYTH-002
-- S74-A049 — complète → S74-A047
-- S74-A051 — prolonge → S74-A050
-- S74-A051 — annonce → S74-A052
-- S74-A051 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -633,7 +633,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Type | Nombre |
 |---|---|
-| objet_discographique | 11 |
+| objet_discographique | 12 |
 | non qualifié | 11 |
 | analyse_morceau | 10 |
 | discographie | 8 |
@@ -681,6 +681,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | esthétique_visuelle | 2 |
 | song_or_cover | 2 |
 | mediation_visuelle | 1 |
+| strategie_mediatique | 1 |
+| tension_documentaire | 1 |
 | seuil_identitaire | 1 |
 | session_enregistrement | 1 |
 | radio_broadcast | 1 |
@@ -800,12 +802,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 188 |
-| critique | 72 |
+| critique | 75 |
 | majeure | 26 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S45-A056 [moyen] — Risque de prendre le montage télévisuel comme essence du groupe ; il s’agit d’une médiation qui fixe la lecture urbaine.
+- S45-A090 [moyen] — Risque de surcharger le rejet initial de Deborah ; il est affectif, domestique et herméneutique.
+- S45-A098 [moyen] — Risque de lire le silence comme pure stratégie ou comme absence de pensée ; il fonctionne aussi comme protection du collectif.
+- S45-A100 [très élevé] — Risque double : excuser l’imagerie par le style ou conclure à une fascination politique démontrée.
 - S45-A037 [moyen] — Risque de surestimer la valeur musicale du morceau ou de réduire l’objet à la seule provocation Hess.
 - S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
@@ -862,9 +867,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A050 [moyen] — la lecture de l’échec comme matrice nécessaire de *Unknown Pleasures* doit rester une hypothèse structurante, non une causalité automatique
 - S76-A053 [faible] — atome structurel ; utile pour comprendre la bascule managériale
 - S76-A054 [faible] — diagnostic industriel clair, sans surplomb téléologique nécessaire
-- S76-A055 [moyen] — ne pas transformer la simultanéité RCA/Gretton en causalité simple ; elle doit rester relation structurante à vérifier par S75 et Hook
-- S76-A073 [faible] — la généalogie locale est structurante et limite la téléologie Factory
-- S76-A084 [moyen] — le lieu est très mythifiable ; il faut distinguer fonction pratique et iconisation postérieure
 
 ## 15. Lacunes et prochaines vérifications
 

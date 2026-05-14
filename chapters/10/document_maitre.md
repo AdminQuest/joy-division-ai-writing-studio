@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T04:44:55"
+generated_at: "2026-05-14T04:58:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 101 |
-| Atomes critiques / majeurs | 29 |
+| Atomes | 113 |
+| Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
@@ -35,7 +35,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 3 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 32 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 44 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
@@ -65,6 +65,24 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
 - **S45-A080** — S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A081** — S45-A081 — Russell Club / Factory : première sortie maternelle et illusion d’équilibre  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_live` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A082** — S45-A082 — Natalie d’abord : maternité contre centralité de Ian  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A090** — S45-A090 — *Unknown Pleasures* publié : objet Factory, faces « Inside/Outside » et rejet domestique initial  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A092** — S45-A092 — Médecine muette : spécialiste, GP et savoir refusé au foyer  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_publique` ; importance : `critique` ; preuve : `témoignage direct + faits live/presse établissables`.
+- **S45-A095** — S45-A095 — Eric’s Liverpool : « no women policy », image et travail féminin effacé  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
+- **S45-A096** — S45-A096 — Drogues, médicaments et silence de dressing room  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct situé`.
+- **S45-A101** — S45-A101 — Dernier recours manqué : Aunty Nell et l’impossibilité de rendre la crise visible  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sensible` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S75-A038** — S75-A038 — *Unknown Pleasures* comme secret produit en masse  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_donnees_de_vente`.
 - **S75-A053** — S75-A053 — « Autosuggestion » et « From Safety to Where...? » : les chutes qui déplacent l'album  
@@ -99,12 +117,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `reconstruction_S76_a_recouper_avec_sources_Sordide`.
 - **S76-A162** — S76-A162 — *Closer* comme objet funéraire non intentionnel : Staglieno, Saville, Atkins, Wolff  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_visuel` ; importance : `critique` ; preuve : `reconstruction_S76_design_et_reception`.
-- **S76-A187** — S76-A187 — Chapel of Rest : Annik, Wilson, Lindsay et la première fabrication du mythe  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_deuil_mythographique` ; importance : `critique` ; preuve : `temoignages_Lindsay_Annik_Morley_et_reconstruction_S76`.
-- **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S76-A114** — S76-A114 — Stuff the Superstars : succès scénique, critique de la gravité et réalité triviale  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `performance_reception` ; importance : `majeure` ; preuve : `critique_contemporaine_et_reconstruction_S76`.
 
 ## 6. Autres atomes utiles
 
@@ -156,6 +168,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A067** — S45-A067 — Check Inn : autographes, demigod et canonisation précoce  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A084** — S45-A084 — Juin 1979 : intervalle idyllique, South Park et répit trompeur  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A087** — S45-A087 — Gretton père-figure : dispute, argent et infantilisation du musicien  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A097** — S45-A097 — Leigh Festival : anti-festival Factory/Zoo, police et inertie de Curtis  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_sociale` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
@@ -232,6 +250,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S71-A035** — S71-A035 — Les débuts de New Order : Western Works, Beach Club et choix du nom  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S76-A114** — S76-A114 — Stuff the Superstars : succès scénique, critique de la gravité et réalité triviale  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `performance_reception` ; importance : `majeure` ; preuve : `critique_contemporaine_et_reconstruction_S76`.
+- **S76-A187** — S76-A187 — Chapel of Rest : Annik, Wilson, Lindsay et la première fabrication du mythe  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_deuil_mythographique` ; importance : `critique` ; preuve : `temoignages_Lindsay_Annik_Morley_et_reconstruction_S76`.
 - **SONG-S45-CANDY-SAYS-CANDY** — S45 — Chansons, vidéos et objets — Wilson, Gretton, Band on the Wall  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S45-CANDY-SAYS-CONTINUITY** — S45 — Chansons, sessions et objets — Factory, épilepsie, paroles, Natalie  
@@ -325,6 +349,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - new order (4)
 - suicide (4)
 - mémoire (3)
+- travail féminin effacé (2)
 - biographie contre mythe social (2)
 - fatigue (2)
 - birmingham (2)
@@ -359,53 +384,62 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - contrepoint domestique (1)
 - anti-mythe ordinaire (1)
 - Curtis affectif (1)
+- illusion d’équilibre domestique (1)
+- Factory vu depuis le foyer (1)
+- maternité spectatrice (1)
+- maternité décentrante (1)
+- centralité conjugale contestée (1)
+- charge domestique genrée (1)
+- répit domestique (1)
+- anti-téléologie du quotidien (1)
+- paternalisme managérial (1)
+- infantilisation pratique (1)
+- professionnalisation conflictuelle (1)
+- objet canonique vu du foyer (1)
+- réception conjugale de l’album (1)
+- design comme distance (1)
+- herméneutique conjugale (1)
+- angoisse interprétative (1)
+- non-confirmation des paroles (1)
+- ignorance imposée au foyer (1)
+- care non outillé (1)
+- médecine muette (1)
+- dépossession publique (1)
+- célébrité comme confiscation (1)
+- Curtis objet public (1)
+- image masculine du groupe (1)
+- exclusion après usage (1)
+- secret de loge (1)
+- santé sous dissimulation (1)
+- risque pharmacologique non établi (1)
+- anti-festival (1)
+- scène indépendante sous police (1)
+- amateurisme organisationnel (1)
+- crise invisible (1)
+- relais de care manqué (1)
+- solitude conjugale (1)
 - savoir administratif du handicap (1)
 - non-monocausalité médicale (1)
 - précompréhension sociale de l’épilepsie (1)
-- rupture politique intime (1)
-- autonomie logistique (1)
-- cartographie conjugale des gigs (1)
-- public fabriqué (1)
-- outsiderisme de scène (1)
-- classe et scène post-punk (1)
-- politique affective du groupe (1)
-- bonheur incompatible (1)
-- masculinité fermée (1)
-- contre-mythe lumineux (1)
-- humour excluant (1)
-- intimité de groupe (1)
-- archive féminine de la formation (1)
-- vocabulaire minorant (1)
-- fandom précoce (1)
-- réception incarnée (1)
-- public féminin (1)
-- violence relationnelle indirecte (1)
-- vetting des compagnes (1)
-- pouvoir périphérique de Curtis (1)
-- canonisation micro-locale (1)
-- fandom dévotionnel (1)
-- foyer comme observatoire médical (1)
-- attente thérapeutique (1)
-- solitude du care (1)
-- veille conjugale (1)
-- extension domestique de la scène (1)
-- corps à surveiller (1)
-- coût genré de la professionnalisation (1)
-- clôture masculine (1)
-- travail féminin effacé (1)
-- paternité empêchée (1)
-- double charge domestique (1)
-- maladie et soin du nourrisson (1)
-- biographie non édifiante (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
 - Peter Saville (6)
-- Unknown Pleasures (3)
+- Rob Gretton (4)
+- Unknown Pleasures (4)
+- Factory (3)
+- silence (3)
 - Kevin Cummins (3)
-- Rob Gretton (2)
+- confidentialité (2)
+- Candy (2)
+- maternité (2)
+- Natalie (2)
+- Earcom 2 (2)
+- GP (2)
+- image (2)
+- Morris Traveller (2)
 - indépendance (2)
 - Deborah Curtis (2)
 - Sue Barlow (2)
@@ -422,26 +456,16 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Lesley Gilbert (1)
 - gardien (1)
 - parent de substitution (1)
-- confidentialité (1)
 - dépossession conjugale (1)
-- Candy (1)
 - Candy Says (1)
 - chien (1)
 - domesticité (1)
 - tendresse (1)
 - vol (1)
-- travail social (1)
-- handicap (1)
-- Employment Exchange (1)
-- Ernest Beard (1)
-- Macclesfield (1)
-- Tony Nuttall (1)
-- rupture amicale (1)
-- politique (1)
-- An Ideal for Living (1)
-- image controversée (1)
-- Morris Traveller (1)
-- concerts (1)
+- Russell Club (1)
+- Hulme (1)
+- première sortie (1)
+- mari et bébé (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -451,6 +475,42 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S45-A060 — prolonge → CONCEPT-012
 - S45-A060 — nuance → MYTH-002
 - S45-A060 — prolonge → MOTIF-012
+- S45-A081 — prolonge → S45-A080
+- S45-A081 — prolonge → CONCEPT-021
+- S45-A081 — prépare → S45-A082
+- S45-A082 — prolonge → CONCEPT-021
+- S45-A082 — prolonge → CONCEPT-018
+- S45-A082 — prépare → S45-A094
+- S45-A084 — nuance → MYTH-002
+- S45-A084 — prolonge → S45-A060
+- S45-A084 — nuance → CONCEPT-019
+- S45-A087 — prolonge → CONCEPT-016
+- S45-A087 — nuance → MYTH-009
+- S45-A087 — prépare → S45-A088
+- S45-A090 — prolonge → S45-A078
+- S45-A090 — prolonge → CHAPITRE-5-IMAGE-FACTORY
+- S45-A090 — prépare → S45-A091
+- S45-A091 — prolonge → S45-A075
+- S45-A091 — nuance → MYTH-LYRICS-AS-DIARY
+- S45-A091 — prolonge → S45-A012
+- S45-A092 — prolonge → S45-A069
+- S45-A092 — prolonge → CONCEPT-021
+- S45-A092 — requiert → CONCEPT-019
+- S45-A094 — prolonge → S45-A067
+- S45-A094 — prolonge → CONCEPT-016
+- S45-A094 — prolonge → CONCEPT-018
+- S45-A095 — prolonge → S45-A079
+- S45-A095 — prolonge → CONCEPT-018
+- S45-A095 — prolonge → CONCEPT-013
+- S45-A096 — prolonge → CONCEPT-019
+- S45-A096 — prolonge → CONCEPT-018
+- S45-A096 — alerte → RISQUE-CAUSALITE-MEDICALE
+- S45-A097 — prolonge → MYTH-005
+- S45-A097 — prolonge → S45-A095
+- S45-A097 — prolonge → CONCEPT-018
+- S45-A101 — prolonge → S45-A092
+- S45-A101 — prolonge → CONCEPT-021
+- S45-A101 — nuance → MYTH-002
 - S45-A035 — prolonge → CONCEPT-009
 - S45-A035 — prépare → S45-A036
 - S45-A035 — requiert → CONCEPT-004
@@ -489,42 +549,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - S45-A080 — prolonge → S45-A073
 - S45-A080 — prolonge → CONCEPT-012
 - S45-A080 — prolonge → S45-A079
-- S45-A026 — prolonge → MOTIF-009
-- S45-A026 — requiert → CONCEPT-004
-- S45-A026 — nuance → MYTH-002
-- S45-A027 — requiert → CONCEPT-004
-- S45-A027 — prolonge → MOTIF-010
-- S45-A027 — alerte → RISQUE-PSYCHOLOGISATION
-- S45-A019 — nuance → MYTH-003
-- S45-A019 — nuance → MYTH-011
-- S45-A019 — prolonge → CONCEPT-010
-- S45-A019 — requiert → CONCEPT-004
-- S45-A019 — alerte → RISQUE-SURTRADUCTION-POLITIQUE
-- S75-A001 — prolonge → MOTIF-heritage
-- S75-A001 — nuance → MYTH-culte_sombre
-- S75-A038 — prolonge → MYTH-005
-- S75-A038 — prolonge → CONCEPT-007
-- S75-A038 — prolonge → S75-A036
-- S75-A053 — prolonge → MOTIF-004
-- S75-A053 — prolonge → CONCEPT-006
-- S75-A053 — prépare → S75-A054
-- S75-A055 — requiert → CONCEPT-004
-- S75-A055 — prolonge → MOTIF-006
-- S75-A055 — nuance → MYTH-006
-- S76-A095 — prolonge → MOTIF-008
-- S76-A095 — nuance → S76-A084
-- S76-A095 — nuance → MYTH-003
-- S76-A096 — nuance → MYTH-002
-- S76-A096 — relie → CONCEPT-004
-- S76-A096 — prolonge → S76-A095
-- S76-A103 — prolonge → S76-A095
-- S76-A103 — relie → MOTIF-008
-- S76-A103 — nuance → MYTH-006
-- S76-A107 — prolonge → S76-A080
-- S76-A107 — relie → CONCEPT-008
-- S76-A107 — nuance → MYTH-006
-- S76-A111 — prolonge → S76-A107
-- S76-A111 — relie → MOTIF-008
 
 ## 13. Distribution documentaire
 
@@ -534,14 +558,17 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 |---|---|
 | biographie | 6 |
 | reception | 6 |
+| objet_discographique | 4 |
 | archive | 4 |
 | tension_documentaire | 3 |
 | concert | 3 |
 | relation | 3 |
-| objet_discographique | 3 |
 | objet_visuel | 3 |
 | analyse | 3 |
 | memoire | 3 |
+| contrepoint_domestique | 2 |
+| tension_medicale | 2 |
+| tension_genre | 2 |
 | fait_social | 2 |
 | reception_precoce | 2 |
 | scene_sensible | 2 |
@@ -554,14 +581,19 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | non qualifié | 2 |
 | song | 2 |
 | relation_management | 1 |
-| contrepoint_domestique | 1 |
+| scene_domestique_live | 1 |
+| tension_domestique | 1 |
+| tension_management | 1 |
+| reception_domestique | 1 |
+| reception_publique | 1 |
+| tension_sante | 1 |
+| scene_live_sociale | 1 |
+| scene_domestique_sensible | 1 |
 | fait_structurant | 1 |
 | sociologie_scene | 1 |
 | tension_relationnelle | 1 |
 | contrepoint_mythique | 1 |
-| tension_medicale | 1 |
 | scene_domestique_medicale | 1 |
-| tension_genre | 1 |
 | scene_domestique | 1 |
 | santé | 1 |
 | performance_scenique | 1 |
@@ -601,14 +633,26 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 62 |
-| critique | 27 |
-| majeur | 10 |
+| critique | 36 |
+| majeur | 13 |
 | majeure | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S45-A057 [élevé] — Risque de psychologiser Gretton en père de substitution ou d’opposer brutalement manager et épouse ; la source décrit une perception conjugale.
 - S45-A060 [faible] — Risque limité, sauf si l’on transforme la scène en preuve morale générale de douceur.
+- S45-A081 [moyen] — Risque de lire cette sortie comme pure scène heureuse alors qu’elle fonctionne déjà comme seuil d’illusion.
+- S45-A082 [moyen] — Risque de moraliser Ian ou de réduire le conflit à l’épilepsie ; la scène associe genre, maternité, dépendance et maladie.
+- S45-A084 [faible] — Risque limité ; l’atome sert surtout à éviter une trajectoire fataliste.
+- S45-A087 [moyen] — Risque de réduire Ian à l’immaturité ou Gretton au père symbolique ; les tensions sont aussi celles d’une professionnalisation rapide.
+- S45-A090 [moyen] — Risque de surcharger le rejet initial de Deborah ; il est affectif, domestique et herméneutique.
+- S45-A091 [très élevé] — Risque de lire « New Dawn Fades » comme aveu suicidaire direct ; la scène montre précisément l’absence de confirmation.
+- S45-A092 [moyen] — Risque de transformer l’échec de communication médicale en accusation simpliste ; le contexte légal et médical doit être encadré.
+- S45-A094 [moyen] — Risque de confondre célébrité réelle et perception conjugale d’être dépossédée ; les deux doivent être distinguées.
+- S45-A095 [moyen] — Risque de l’attribuer uniquement à Rob Gretton alors que Deborah note la responsabilité collective possible du groupe.
+- S45-A096 [élevé] — Risque de conclure à des causalités pharmacologiques sans preuve, ou de moraliser les drogues comme explication totale.
+- S45-A097 [moyen] — Risque de faire du festival un simple échec comique ; il révèle aussi la police, la gestion de l’espace public et l’écart domestique.
+- S45-A101 [moyen] — Risque de dramatiser Aunty Nell comme secours qui aurait sauvé Ian ; l’atome signale surtout l’impossibilité de parler.
 - S45-A035 [moyen] — Risque de surcharger téléologiquement ce poste comme annonce de sa propre épilepsie ; il faut le traiter comme fait professionnel et contexte de savoir.
 - S45-A046 [élevé] — Risque de durcir gauche/droite en doctrine politique explicite ou d’en faire une clé de lecture de l’œuvre.
 - S45-A047 [faible] — Risque limité ; éviter seulement de surcharger la voiture comme symbole politique global.

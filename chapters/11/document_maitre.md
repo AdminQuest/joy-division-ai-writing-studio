@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T04:44:55"
+generated_at: "2026-05-14T04:58:54"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 167 |
+| Atomes | 169 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 5 |
@@ -35,7 +35,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 0 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 13 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 15 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 3 | 0 |
@@ -51,6 +51,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
+- **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `registre_influences` ; importance : `critique` ; preuve : `témoignage direct de Deborah sur les lectures à domicile`.
+- **S45-A100** — S45-A100 — Guerre, nazisme et style : entre mémoire d’enfance, uniformes et malaise conjugal  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Sumner + interprétation de Deborah`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
@@ -115,10 +119,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chansons` ; importance : `critique` ; preuve : `lecture_critique_S76`.
 - **S76-A161** — S76-A161 — « Decades » : clôture, jeunes hommes et poids rétrospectif  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `temoignage_Annik_et_lecture_critique_S76`.
-- **S74-A017** — S74-A017 — Ian Curtis avant Warsaw : Macclesfield, domesticité et obsession scénique  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_retrospective`.
-- **S74-A022** — S74-A022 — RCA Piccadilly Plaza comme fantasme d’accès à l’industrie musicale  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `majeure` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -421,6 +421,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - domesticité (5)
 - réception critique (3)
 - Ian Curtis (3)
+- John Heartfield (2)
 - An Ideal for Living (2)
 - imagerie nazie (2)
 - Atmosphere (2)
@@ -440,26 +441,31 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - fatigue (2)
 - Debbie Curtis (2)
 - Natalie Curtis (2)
+- Dostoyevsky (1)
+- Nietzsche (1)
+- Sartre (1)
+- Hesse (1)
+- Ballard (1)
+- souffrance (1)
+- guerre (1)
+- nazisme (1)
+- uniformes (1)
+- abris antiaériens (1)
+- mémoire juive (1)
 - Hitler Youth (1)
 - umlauts (1)
 - controverse politique (1)
 - préjugé (1)
 - HATE (1)
-- contradiction biographique (1)
-- punk demi-adopté (1)
-- Goethe (1)
-- Werther (1)
-- romantisme (1)
-- suicide littéraire (1)
-- deification (1)
-- orgues (1)
-- cathédrale sonore (1)
-- mémoire rock (1)
-- fantômes (1)
-- eternals (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A099 — alimente → REGISTRE-INFLUENCES-LITTERAIRES
+- S45-A099 — prolonge → S45-A018
+- S45-A099 — alerte → RISQUE-INFLUENCE-FALLACY
+- S45-A100 — prolonge → MYTH-007
+- S45-A100 — prolonge → S45-A042
+- S45-A100 — requiert → CONCEPT-004
 - S45-A042 — prolonge → MYTH-007
 - S45-A042 — prolonge → MOTIF-005
 - S45-A042 — nuance → MYTH-006
@@ -534,12 +540,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A015 — renforce → S74-A002
 - S74-A015 — nuance → MYTH-003
 - S74-A015 — complète → S41
-- S74-A017 — se_souvient → S45
-- S74-A017 — nuance → MYTH-002
-- S76-A040 — prolonge → S76-A029
-- S76-A040 — nuance → MYTH-006
-- S76-A040 — relie → S76-A039
-- S76-A040 — relie → SONG-NoLoveLost
 
 ## 13. Distribution documentaire
 
@@ -560,6 +560,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | reception_critique | 3 |
 | citation_repere | 3 |
 | contexte_biographique | 3 |
+| tension_documentaire | 2 |
 | contrepoint | 2 |
 | synthese | 2 |
 | reception_presse | 2 |
@@ -573,7 +574,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | tension_biographique | 2 |
 | fait | 2 |
 | concept | 2 |
-| tension_documentaire | 1 |
+| registre_influences | 1 |
 | santé | 1 |
 | chronologie | 1 |
 | reference_litteraire | 1 |
@@ -637,12 +638,14 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 120 |
-| critique | 33 |
+| critique | 35 |
 | majeure | 13 |
 | majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A099 [très élevé] — Risque d’influence fallacy : faire dériver les chansons directement d’auteurs cités.
+- S45-A100 [très élevé] — Risque double : excuser l’imagerie par le style ou conclure à une fascination politique démontrée.
 - S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
 - S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
