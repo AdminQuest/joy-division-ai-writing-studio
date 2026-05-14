@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T14:08:18"
+generated_at: "2026-05-14T14:37:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 211 |
+| Atomes | 216 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -34,7 +34,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 46 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 51 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
@@ -58,6 +58,16 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée`.
 - **S41-A037** — S41-A037 — Stephen Morris : révélation rythmique et texture jazz-punk  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `recrutement_musical` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A044** — S41-A044 — Session *An Ideal for Living* : basse fausse, Curtis auteur total et prise live  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée`.
+- **S41-A046** — S41-A046 — Pressage raté : quatre titres, sillons trop serrés et son muffled  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
+- **S41-A051** — S41-A051 — Morris créatif et conflit Curtis/Sumner : mur Iggy contre espace Velvet  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A052** — S41-A052 — Celestion qui fart : basse haute, Ian arrangeur et naissance du son Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_sonore` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A053** — S41-A053 — T. J. Davidson’s : lieu-matrice du son, du froid et de l’image Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
 - **S45-A050** — S45-A050 — Arrow / RCA : désir de studio, absence de discussion et naïveté industrielle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A051** — S45-A051 — Arrow Studios : chant soul imposé, synthétiseur accepté, métamorphose inachevée  
@@ -107,16 +117,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S75-A039** — S75-A039 — Strawberry Studios comme bascule du live vers l'objet studio  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A040** — S75-A040 — Digital delay AMS et batterie de Morris : invention d'un espace impossible  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A041** — S75-A041 — « Disorder » comme manifeste sonore d'entrée  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A042** — S75-A042 — Le grief Sumner/Hook : *Unknown Pleasures* comme dépossession partielle  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S75-A051** — S75-A051 — Hannett enseigne l'écoute : producteur comme déplacement de perception  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S75-A052** — S75-A052 — Électronique et bruit industriel : perception transformée mais source collective  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A060** — S75-A060 — « Transmission » comme accomplissement Hannett / Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
@@ -473,6 +473,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Interzone (3)
 - Digital (3)
 - Glass (3)
+- Stephen Morris (3)
+- Velvet Underground (3)
 - Transmission (3)
 - Atmosphere (3)
 - domesticité (3)
@@ -481,9 +483,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Closer (2)
 - RCA (2)
 - synthétiseur (2)
+- No Love Lost (2)
+- T. J. Davidson’s (2)
 - Steve Brotherdale (2)
 - Pennine Sound (2)
-- Stephen Morris (2)
 - radio (2)
 - Dead Souls (2)
 - Sordide Sentimental (2)
@@ -500,9 +503,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Kraftwerk (2)
 - guitare (2)
 - fatigue (2)
-- Love Will Tear Us Apart (2)
-- Ice Age (2)
-- Cargo Studios (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -527,6 +527,19 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S45-A078 — prolonge → CONCEPT-006
 - S45-A078 — prolonge → S45-A066
 - S45-A078 — nuance → MYTH-HANNETT-GENIE-ABSOLU
+- S41-A044 — prolonge → CONCEPT-020
+- S41-A044 — prolonge → S41-A023
+- S41-A044 — prépare → S41-A045
+- S41-A046 — prolonge → CONCEPT-054
+- S41-A046 — alimente → REGISTRE-DISCOGRAPHIE
+- S41-A051 — prolonge → CONCEPT-056
+- S41-A051 — prolonge → CONCEPT-057
+- S41-A052 — prolonge → CONCEPT-049
+- S41-A052 — prolonge → CONCEPT-056
+- S41-A052 — prépare → S41-A053
+- S41-A053 — prolonge → S41-A052
+- S41-A053 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
+- S41-A053 — prolonge → S45-A144
 - S41-A031 — prépare → S41-A040
 - S41-A031 — prolonge → CONCEPT-050
 - S41-A034 — prépare → UNKNOWN-PLEASURES-SESSIONS
@@ -573,19 +586,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A027 — prolonge → CONCEPT-003
 - S75-A027 — prolonge → CONCEPT-006
 - S75-A027 — prolonge → MOTIF-003
-- S75-A028 — nuance → MYTH-003
-- S75-A028 — prolonge → MOTIF-002
-- S75-A028 — prépare → S75-A029
-- S75-A029 — prolonge → CONCEPT-006
-- S75-A029 — nuance → MYTH-004
-- S75-A029 — prolonge → S75-A024
-- S75-A033 — prolonge → CONCEPT-006
-- S75-A033 — nuance → MYTH-003
-- S75-A033 — prépare → S75-A036
-- S75-A034 — prolonge → CONCEPT-006
-- S75-A034 — nuance → MYTH-joy_division_pure_obscurité
-- S75-A039 — prolonge → CONCEPT-006
-- S75-A039 — prolonge → S75-A027
 
 ## 13. Distribution documentaire
 
@@ -595,14 +595,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 |---|---|
 | production | 15 |
 | non qualifié | 11 |
+| session_studio | 10 |
 | lecture_musicale | 10 |
 | analyse | 9 |
-| session_studio | 9 |
 | fait | 9 |
 | session | 7 |
+| processus_creatif | 5 |
 | concept | 5 |
 | analyse_morceau | 5 |
-| processus_creatif | 4 |
 | discographie | 4 |
 | reception_critique | 4 |
 | reception_presse | 3 |
@@ -614,6 +614,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | song_session | 3 |
 | release_or_session | 3 |
 | objet_discographique | 2 |
+| economie_materielle | 2 |
 | session_enregistrement | 2 |
 | theorie_voix | 2 |
 | chronologie | 2 |
@@ -635,11 +636,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | session_domestique | 1 |
 | concert | 1 |
 | contrepoint | 1 |
+| processus_sonore | 1 |
+| lieu_structurant | 1 |
 | personnel_groupe | 1 |
 | recrutement_musical | 1 |
 | scene_materielle | 1 |
 | personne_reseau | 1 |
-| economie_materielle | 1 |
 | archive_broadcast | 1 |
 | radio_broadcast | 1 |
 | vigilance_documentaire | 1 |
@@ -695,7 +697,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 147 |
-| critique | 50 |
+| critique | 55 |
 | majeure | 11 |
 | majeur | 3 |
 
@@ -708,6 +710,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
 - S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
+- S41-A044 [moyen] — Risque de reprendre sans distance l’héroïsation de Curtis comme auteur sans faute après l’EP.
+- S41-A046 [faible] — L’atome relève d’une cause technique claire ; prudence seulement sur la répartition des responsabilités.
+- S41-A051 [moyen] — Ne pas figer Curtis et Sumner dans deux esthétiques pures ; Hook simplifie rétrospectivement.
+- S41-A052 [élevé] — Risque de faire de cet épisode la cause unique du son Joy Division ; il faut l’inscrire dans un faisceau matériel et collectif.
+- S41-A053 [moyen] — Ne pas transformer le lieu en cause esthétique directe ; il agit comme environnement de répétition et de mémoire.
 - S41-A031 [moyen] — Ne pas écrire Tabac/Brotherdale comme simples ratés ; ils éclairent l’évolution du groupe.
 - S41-A034 [moyen] — Ne pas chercher tout Joy Division dans la démo ; Hook isole seulement des indices.
 - S41-A037 [faible à moyen] — Ne pas isoler Morris comme cause unique du son ; il stabilise une dynamique collective.
@@ -756,11 +763,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S76-A105 [moyen] — éviter de transformer Hannett en auteur unique ; le groupe fournit les matériaux et résiste aussi au résultat
 - S76-A106 [moyen] — intimité privée difficile à objectiver ; éviter l’héroïsation ou la psychologisation
 - S76-A154 [moyen] — risque de lire Londres comme déplacement symbolique vers la fin plutôt que comme choix pratique et professionnel
-- S76-A156 [moyen] — risque d’attribuer à Hannett seul la totalité du son de *Closer*
-- S76-A157 [moyen] — ne pas transformer la frustration de Hook en rejet global de l’album
-- S76-A082 [moyen] — éviter d’en faire déjà la forme achevée de *Unknown Pleasures* ; c’est un seuil, non un aboutissement
-- S76-A083 [moyen] — scène de conflit instrumentale à ne pas transformer en opposition structurelle Hook / Sumner
-- S76-A087 [moyen] — mémoire impressionniste ; utile pour qualifier une atmosphère, non pour fixer une vérité sonore exhaustive
 
 ## 15. Lacunes et prochaines vérifications
 

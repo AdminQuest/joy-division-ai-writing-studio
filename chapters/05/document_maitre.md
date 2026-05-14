@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T14:08:18"
+generated_at: "2026-05-14T14:37:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 295 |
+| Atomes | 301 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -34,7 +34,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 67 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 73 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
@@ -53,6 +53,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `construction_esthetique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A040** — S41-A040 — Electric Circus / Short Circuit : chaos, Rudolf Hess et premier piège publishing  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_discographique` ; importance : `critique` ; preuve : `témoignage direct + événement discographique documenté`.
+- **S41-A045** — S41-A045 — « No Love Lost » et *House of Dolls* : canon lyrique et risque téléologique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `paroles_source` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + source littéraire identifiée`.
+- **S41-A048** — S41-A048 — Warsaw Pakt : collision nominale et nécessité de devenir Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition_nominale` ; importance : `critique` ; preuve : `témoignage direct + contexte presse à vérifier`.
+- **S41-A050** — S41-A050 — Controverse nazie : accumulation de signes, défense naïve et contretemps politique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage rétrospectif + contexte critique rapporté`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
@@ -111,12 +117,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_visuel` ; importance : `critique` ; preuve : `fait_et_reconstruction_memorielle`.
 - **S76-A006** — S76-A006 — Chevalerie, histoire et correction du soupçon nazi  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_historiographique` ; importance : `critique` ; preuve : `memoire_familiale_et_temoignage_ami`.
-- **S76-A029** — S76-A029 — Stiff Kittens devient Warsaw : refus du punk mimétique et désir d’obscurité  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `mythe_nomination` ; importance : `critique` ; preuve : `temoignages_et_reconstruction`.
-- **S76-A035** — S76-A035 — Salford Technical College : violence de scène et première apparition probable de Hannett  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `evenement_corroborable_avec_incertitude_sur_Hannett`.
-- **S76-A036** — S76-A036 — Music Force, Rabid Records et la préhistoire de Factory  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `ecosysteme` ; importance : `critique` ; preuve : `synthese_biographique_et_temoignages`.
 
 ## 6. Autres atomes utiles
 
@@ -240,6 +240,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-A017** — S41-A017 — Punk look : Oxfam, Scout shop et leper treatment  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `construction_esthetique` ; importance : `majeur` ; preuve : `témoignage direct autobiographique`.
+- **S41-A049** — S41-A049 — Joy Division protégé et marchandisé : nom traumatique, vibrateurs, bootlegs et T-shirts  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_nominale` ; importance : `majeur` ; preuve : `témoignage rétrospectif de Hook`.
 - **S41-C02** — S41-C02 — La basse comme instrument principal de Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S41-C03** — S41-C03 — Martin Hannett comme reconstructeur sonore  
@@ -278,8 +280,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_temoin` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-033** — S46-033 — Autoédition du 7 pouces *An Ideal for Living*  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-034** — S46-034 — Mauvaise qualité sonore du 7 pouces  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -505,11 +505,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 - Rob Gretton (11)
 - fatigue (6)
-- An Ideal for Living (4)
+- An Ideal for Living (5)
+- Rabid Records (5)
 - Kevin Cummins (4)
-- Rabid Records (4)
 - Terry Mason (4)
 - Sister Ray (4)
+- Rudolf Hess (3)
+- Hitler Youth (3)
+- Warsaw Pakt (3)
+- Rock Against Racism (3)
 - Warsaw (3)
 - répétition (3)
 - studio (3)
@@ -527,22 +531,18 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - nom Joy Division (2)
 - Electric Circus (2)
 - Short Circuit (2)
-- Rudolf Hess (2)
 - imagerie nazie (2)
-- Hitler Youth (2)
 - Joy Division (2)
-- Warsaw Pakt (2)
 - Digital (2)
 - Glass (2)
 - Love Will Tear Us Apart (2)
+- House of Dolls (2)
+- Iggy Pop (2)
+- Throbbing Gristle (2)
 - Stiff Kittens (2)
 - Warszawa (2)
 - Richard Boon (2)
 - provocation (2)
-- réception critique (2)
-- image industrielle (2)
-- rejet (2)
-- northern soul (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -577,6 +577,16 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A144 — prolonge → CONCEPT-036
 - S45-A144 — prolonge → S45-A132
 - S45-A144 — prépare → CHAPITRE-14-LOVE-WILL-TEAR-US-APART-POSTERITY
+- S41-A045 — prolonge → S41-A001
+- S41-A045 — prolonge → CONCEPT-025
+- S41-A045 — alerte → MYTH-LYRICS-AS-DIARY
+- S41-A048 — prolonge → S41-A026
+- S41-A048 — prépare → S41-A049
+- S41-A049 — prolonge → S41-A001
+- S41-A049 — prolonge → REGISTRE-BOOTLEGS
+- S41-A050 — prolonge → CONCEPT-025
+- S41-A050 — prolonge → MYTH-007
+- S41-A050 — prolonge → S41-A040
 - S41-A026 — prolonge → S41-A001
 - S41-A026 — prépare → S41-A042
 - S41-A040 — prolonge → CONCEPT-025
@@ -616,16 +626,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A033 — prolonge → S74-A020
 - S74-A033 — complète → S74-A032
 - S74-A034 — nuance → MYTH-004
-- S74-A034 — complète → S74-A033
-- S74-A034 — prolonge → S74-A010
-- S74-A038 — prolonge → S74-A036
-- S74-A038 — annonce → S74-A039
-- S74-A038 — complète → S74-A033
-- S74-A039 — prolonge → S74-A020
-- S74-A039 — complète → S74-A033
-- S74-A039 — nuance → MYTH-004
-- S74-A040 — nuance → MYTH-004
-- S74-A040 — complète → S74-A039
 
 ## 13. Distribution documentaire
 
@@ -633,8 +633,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Type | Nombre |
 |---|---|
+| non qualifié | 14 |
 | objet_discographique | 12 |
-| non qualifié | 12 |
 | analyse_morceau | 10 |
 | discographie | 8 |
 | concept | 8 |
@@ -648,6 +648,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception_critique | 4 |
 | concert_europeen | 4 |
 | concept_transversal | 4 |
+| tension_documentaire | 3 |
 | controverse | 3 |
 | television | 3 |
 | evenement | 3 |
@@ -659,7 +660,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | interpretation | 3 |
 | contexte_technique | 3 |
 | reception | 3 |
-| tension_documentaire | 2 |
 | construction_esthetique | 2 |
 | iconographie | 2 |
 | enregistrement | 2 |
@@ -686,6 +686,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | strategie_mediatique | 1 |
 | seuil_identitaire | 1 |
 | objet_audiovisuel | 1 |
+| paroles_source | 1 |
+| transition_nominale | 1 |
+| reception_nominale | 1 |
 | evenement_discographique | 1 |
 | session_enregistrement | 1 |
 | radio_broadcast | 1 |
@@ -804,10 +807,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 189 |
-| critique | 79 |
+| non qualifiée | 191 |
+| critique | 82 |
 | majeure | 26 |
-| majeur | 1 |
+| majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -820,6 +823,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S45-A144 [moyen] — Risque de réduire la vidéo à exploitation ; elle est aussi objet audiovisuel majeur.
+- S41-A045 [élevé] — Risque de traiter les paroles comme journal intime ou comme idéologie transparente.
+- S41-A048 [faible à moyen] — Ne pas réduire Joy Division à une nécessité administrative ; le choix porte aussi une charge symbolique.
+- S41-A049 [moyen] — Risque d’éparpiller l’analyse ; l’intérêt est le rapport entre nom, marque, bootleg et refus du merchandising.
+- S41-A050 [très élevé] — Risque d’excuser ou d’accuser trop vite ; l’atome impose la distinction intention / effet / contexte politique.
 - S41-A026 [moyen] — Risque de surinterpréter Warsaw comme programme esthétique pleinement formé ; Hook insiste aussi sur la facilité et le contexte.
 - S41-A040 [moyen] — Ne pas isoler Rudolf Hess de la logique plus large de maladresse provocatrice et de piège industriel.
 - S41-A017 [moyen] — Ne pas réduire le punk à l’apparence ; mais ici l’apparence est déjà action sociale.
@@ -867,10 +874,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A103 [moyen] — le caractère iconique peut faire croire à une importance scénique supérieure à celle documentée
 - S76-A006 [moyen] — témoignages familiaux défensifs ; utiles mais à croiser avec les objets visuels ultérieurs
 - S76-A112 [moyen] — McCullough est polémique ; il faut traiter son texte comme réception critique située, non comme verdict
-- S76-A114 [moyen] — l’opposition humour/noirceur peut devenir trop schématique
-- S76-A116 [moyen] — scène fortement ascendante ; ne pas la transformer en triomphe continu sans les contrepoints médicaux et domestiques
-- S76-A118 [moyen] — scène de triomphe facilement canonisable ; garder le contexte festivalier difficile et l’ambivalence médicale
-- S76-A119 [faible] — incident concret ; éviter seulement d’en faire symbole tragique
 
 ## 15. Lacunes et prochaines vérifications
 

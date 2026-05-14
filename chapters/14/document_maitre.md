@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T14:08:18"
+generated_at: "2026-05-14T14:37:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 657 |
+| Atomes | 660 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 50 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 53 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -65,6 +65,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct + chronologie de scène`.
 - **S41-A039** — S41-A039 — Eric’s et Middlesbrough : sortie de Manchester, rider et public hostile productif  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct + événements live documentés`.
+- **S41-A047** — S41-A047 — Vendre le mauvais disque : honte, sleeve nazie et bootleg futur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `critique` ; preuve : `témoignage direct + phénomène discographique vérifiable`.
+- **S41-A053** — S41-A053 — T. J. Davidson’s : lieu-matrice du son, du froid et de l’image Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
 - **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
 - **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
@@ -115,10 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `principe_institutionnel` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A040** — S74-A040 — Hannett contre le groupe : conflit de contrôle et mixage sans témoins  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `conflit_studio` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A041** — S74-A041 — Unknown Pleasures : rejet initial du son par le groupe  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A042** — S74-A042 — Unknown Pleasures : beauté contenue, menace retenue et profit inattendu  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -204,6 +204,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `note_documentaire` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-A011** — S41-A011 — Lesser Free Trade Hall avant les Pistols : anti-prélude ivre et désacralisation du lieu  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contrepoint_lieu` ; importance : `majeur` ; preuve : `témoignage autobiographique direct`.
+- **S41-A049** — S41-A049 — Joy Division protégé et marchandisé : nom traumatique, vibrateurs, bootlegs et T-shirts  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_nominale` ; importance : `majeur` ; preuve : `témoignage rétrospectif de Hook`.
 - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
@@ -280,8 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-046** — S46-046 — Factory Tour : limites de la reconnaissance londonienne  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-048** — S46-048 — *Unknown Pleasures* : run-out grooves et paroles d’« Atrocity Exhibition »  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `paratexte_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -605,6 +605,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A153 — prolonge → S45-A151
 - S45-A153 — nuance → MYTH-002
 - S45-A153 — prépare → CHAPITRE-13-MY-TIMING
+- S41-A047 — prolonge → S41-A046
+- S41-A047 — prolonge → S41-A040
+- S41-A047 — alimente → REGISTRE-BOOTLEGS
+- S41-A049 — prolonge → S41-A001
+- S41-A049 — prolonge → REGISTRE-BOOTLEGS
+- S41-A053 — prolonge → S41-A052
+- S41-A053 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
+- S41-A053 — prolonge → S45-A144
 - S41-A025 — prolonge → CONCEPT-050
 - S41-A025 — prépare → S41-A026
 - S41-A030 — prolonge → CONCEPT-050
@@ -625,14 +633,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A006 — prépare → CHAPITRE-6-PROFESSIONNALISATION-LIVE
 - S41-A011 — prépare → S41-A016
 - S41-A011 — nuance → MYTH-LESSER-FREE-TRADE-HALL
-- S75-A057 — requiert → CONCEPT-004
-- S75-A057 — nuance → MYTH-002
-- S75-A057 — prolonge → S75-A044
-- S75-A058 — requiert → CONCEPT-004
-- S75-A058 — nuance → MYTH-002
-- S75-A058 — prolonge → S75-A047
-- S75-A061 — nuance → MYTH-005
-- S75-A061 — prolonge → S75-A036
 
 ## 13. Distribution documentaire
 
@@ -698,6 +698,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
 | infrastructure | 2 |
+| economie_discographique | 2 |
 | scene_collective | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -745,6 +746,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_management_sante | 1 |
 | scene_domestique_finale | 1 |
 | tension_finale | 1 |
+| reception_nominale | 1 |
+| lieu_structurant | 1 |
 | scene_reseau | 1 |
 | scene_revelation | 1 |
 | rencontre_fondatrice | 1 |
@@ -882,7 +885,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse_studio | 1 |
 | ecosysteme | 1 |
 | mythe_nomination | 1 |
-| economie_discographique | 1 |
 | tension_synthese | 1 |
 | concert_incident | 1 |
 | controverse_intime_medicale | 1 |
@@ -973,9 +975,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 451 |
-| critique | 156 |
+| critique | 158 |
 | majeure | 39 |
-| majeur | 7 |
+| majeur | 8 |
 | structurante | 2 |
 | moyenne | 2 |
 
@@ -1000,6 +1002,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
 - S45-A152 [moyen] — Risque de fétichiser la dernière photographie ; elle doit rester un document affectif et domestique.
 - S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
+- S41-A047 [moyen] — Risque de fétichiser l’objet rare en oubliant sa réception initiale honteuse.
+- S41-A049 [moyen] — Risque d’éparpiller l’analyse ; l’intérêt est le rapport entre nom, marque, bootleg et refus du merchandising.
+- S41-A053 [moyen] — Ne pas transformer le lieu en cause esthétique directe ; il agit comme environnement de répétition et de mémoire.
 - S41-A025 [faible à moyen] — Ne pas idéaliser toute la scène mancunienne à partir de la générosité des Buzzcocks.
 - S41-A030 [moyen] — Ne pas idéaliser l’appartenance ; le même écosystème est traversé de rivalités.
 - S41-A039 [moyen] — Ne pas faire de l’hostilité une essence du groupe ; elle est un mode de performance parmi d’autres.
@@ -1038,9 +1043,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A035 [moyen] — éviter l'opposition simpliste entre industrie mauvaise et Factory pure
 - S75-A036 [eleve] — risque d'adhérer trop facilement à la légende Factory ou de la dissoudre entièrement
 - S75-A037 [moyen] — le portrait d'Erasmus doit être recoupé avec des sources Factory spécifiques
-- S75-A038 [moyen] — chiffres de vente et formule conceptuelle doivent être recoupés avec sources Factory / discographiques
-- S75-A042 [moyen] — ne pas transformer la frustration des musiciens en disqualification de l'album ; elle éclaire sa genèse conflictuelle
-- S75-A044 [eleve] — le passage appelle directement une lecture prophétique de Curtis, qu'il faut transformer en prudence explicite
 
 ## 15. Lacunes et prochaines vérifications
 

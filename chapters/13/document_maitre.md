@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T14:08:18"
+generated_at: "2026-05-14T14:37:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 60 |
+| Atomes | 61 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 19 |
 | Événements chronologiques | 9 |
@@ -34,7 +34,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 10 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 11 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
@@ -45,6 +45,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - **S41-A007** — S41-A007 — Salford avant couleur : enfance industrielle, violence familiale et mémoire visuelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_origine_sociale` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
+- **S41-A053** — S41-A053 — T. J. Davidson’s : lieu-matrice du son, du froid et de l’image Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
@@ -111,8 +113,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_scene` ; importance : `majeure` ; preuve : `temoignage_Mick_Middles_et_reconstruction_S76`.
 - **S76-A085** — S76-A085 — Piss cans et Carlsberg : l’anti-légende corporelle du gang  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contre_image` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
-- **S76-A086** — S76-A086 — Tony Davidson voit Curtis : curiosité honnête, différence de rue et centralité silencieuse  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_lieu` ; importance : `majeure` ; preuve : `temoignage_Tony_Davidson`.
 
 ## 6. Autres atomes utiles
 
@@ -158,6 +158,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A043** — S72-A043 — The Fall : Manchester par irritation, répétition et anti-lyrisme  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S76-A086** — S76-A086 — Tony Davidson voit Curtis : curiosité honnête, différence de rue et centralité silencieuse  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_lieu` ; importance : `majeure` ; preuve : `temoignage_Tony_Davidson`.
 - **S76-A099** — S76-A099 — Peel entend Joy Division comme romantisme russe et Europe centrale  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_critique` ; importance : `majeure` ; preuve : `citation_retrospective_John_Peel`.
 - **S76-A124** — S76-A124 — Apollo Manchester, octobre 1979 : retour local en position d’ascension  
@@ -274,6 +276,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - the fall (1)
 - mark e smith (1)
 - anti-lyrisme (1)
+- lieu-matrice (1)
+- esthétique du froid matériel (1)
+- pratique collective située (1)
 - mémoire visuelle industrielle (1)
 - Salford comme matrice sensorielle (1)
 - parenthèse coloniale (1)
@@ -304,9 +309,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - scène périphérique (1)
 - isolement construit (1)
 - little peter street (1)
-- tj davidson (1)
-- esthétique industrielle (1)
-- matrice visuelle (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -314,7 +316,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - Salford (5)
 - Kevin Cummins (4)
+- T. J. Davidson’s (3)
 - Factory Club (3)
+- Little Peter Street (2)
+- Love Will Tear Us Apart video (2)
 - Jamaïque (2)
 - couleur (2)
 - répétition (2)
@@ -325,9 +330,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - overspill estate (2)
 - Pip’s (2)
 - Roxy Room (2)
-- T. J. Davidson’s (2)
 - Mark Reeder (2)
 - Manchester City (2)
+- famous photographs (1)
+- froid (1)
 - enfance ouvrière (1)
 - smog (1)
 - Control (1)
@@ -348,13 +354,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - isolement (1)
 - espace (1)
 - cathédrale sonore (1)
-- Granada TV (1)
-- Shadowplay (1)
-- industrial cityscapes (1)
-- cliché (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S41-A053 — prolonge → S41-A052
+- S41-A053 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
+- S41-A053 — prolonge → S45-A144
 - S41-A007 — prolonge → CONCEPT-042
 - S41-A007 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
 - S41-A008 — prolonge → S41-A007
@@ -432,9 +437,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A084 — relie → CONCEPT-003
 - S76-A085 — prolonge → MOTIF-007
 - S76-A085 — nuance → MOTIF-008
-- S76-A085 — requiert → CONCEPT-004
-- S76-A086 — prolonge → S76-A068
-- S76-A086 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -451,6 +453,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | contrepoint | 2 |
 | contexte_social | 2 |
 | lieu_scene | 2 |
+| lieu_structurant | 1 |
 | scene_origine_sociale | 1 |
 | scene_biographique | 1 |
 | evenement | 1 |
@@ -494,11 +497,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 |---|---|
 | non qualifiée | 22 |
 | majeure | 21 |
-| critique | 16 |
+| critique | 17 |
 | majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S41-A053 [moyen] — Ne pas transformer le lieu en cause esthétique directe ; il agit comme environnement de répétition et de mémoire.
 - S41-A007 [moyen] — Risque de faire de Salford une cause esthétique directe ; il faut parler de matrice, non de déterminisme.
 - S41-A008 [moyen] — Risque de transformer la Jamaïque en origine musicale directe ; Hook l’évoque surtout comme contraste biographique.
 - S75-A071 [eleve] — risque de prendre les motifs de revenance comme croyance ou clé psychologique de Curtis

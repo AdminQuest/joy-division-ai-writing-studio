@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-14T14:08:16`
+Généré le : `2026-05-14T14:37:42`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 32 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1345 atome(s) incomplet(s) sur 1406.
+Le repo est techniquement exploitable, mais 38 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1361 atome(s) incomplet(s) sur 1422.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 2633
+- Enregistrements : 2680
 - Erreurs : 0
-- Avertissements : 14475
+- Avertissements : 14621
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1345 atome(s) incomplet(s) sur 1406.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1406 |
+| atom | 1422 |
 | chronology | 331 |
-| concept | 55 |
+| concept | 61 |
 | metadata | 18 |
-| motif | 83 |
+| motif | 92 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1345 atome(s) incomplet(s) sur 1406.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 88 |
-| unknown | 32 |
+| template | 98 |
+| unknown | 38 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1172 |
-| missing_required_field | 3705 |
+| invalid_controlled_value | 1186 |
+| missing_required_field | 3785 |
 | schema_warning | 399 |
-| unknown_yaml_block | 32 |
-| v2_migration_debt | 9032 |
+| unknown_yaml_block | 38 |
+| v2_migration_debt | 9078 |
 
 ## 5. Erreurs bloquantes
 
@@ -54,6 +54,12 @@ Aucune.
 
 ## 6. Blocs YAML non classés
 
+- `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [DISC-S41-AN-IDEAL-FOR-LIVING-EP] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [BAND-S41-WARSAW-PAKT-NEEDLE-TIME] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [INST-S41-CELESTION-18-HIGH-BASS] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [LIVE-S41-OLDHAM-TOWER-CLUB-NO-AUDIENCE] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [LIVE-S41-SWINGING-APPLE-1977-12-31] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [BOOK-S41-HOUSE-OF-DOLLS-NAME] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [LIVE-S41-PIPS-FIRST-JOY-DIVISION-GIG] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md` [MEDIA-S41-MELODY-MAKER-PISTOLS-APRIL-1976] : Unable to infer documentary kind
@@ -104,10 +110,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1406
+- Atomes : 1422
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1345
-- Avertissements de champs v2 manquants : 9032
+- Atomes v2 incomplets : 1361
+- Avertissements de champs v2 manquants : 9078
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-14T14:08:16",
+  "generated_at": "2026-05-14T14:37:42",
   "summary": {
-    "records_total": 2633,
+    "records_total": 2680,
     "records_by_kind": {
-      "atom": 1406,
+      "atom": 1422,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
+      "unknown": 38,
       "song": 41,
-      "unknown": 32,
-      "template": 88,
+      "template": 98,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 83,
+      "motif": 92,
       "person": 157,
-      "concept": 55,
+      "concept": 61,
       "myth": 11
     },
-    "diagnostics_total": 14475,
+    "diagnostics_total": 14621,
     "errors": 0,
-    "warnings": 14475,
+    "warnings": 14621,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1406,
+    "atom": 1422,
     "chronology": 331,
-    "concept": 55,
+    "concept": 61,
     "metadata": 18,
-    "motif": 83,
+    "motif": 92,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,15 +41,15 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 88,
-    "unknown": 32
+    "template": 98,
+    "unknown": 38
   },
   "records_by_source": {
     "S41": {
-      "atom": 211,
+      "atom": 227,
       "quote": 9,
+      "unknown": 26,
       "song": 7,
-      "unknown": 20,
       "person": 9,
       "chronology": 9
     },
@@ -126,20 +126,20 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 121,
-    "Chapitre 10": 186,
-    "Chapitre 11": 198,
+    "Chapitre 10": 188,
+    "Chapitre 11": 202,
     "Chapitre 12": 318,
-    "Chapitre 13": 97,
-    "Chapitre 14": 769,
+    "Chapitre 13": 100,
+    "Chapitre 14": 774,
     "Chapitre 2": 343,
-    "Chapitre 3": 275,
-    "Chapitre 4": 234,
-    "Chapitre 5": 385,
-    "Chapitre 6": 416,
+    "Chapitre 3": 284,
+    "Chapitre 4": 235,
+    "Chapitre 5": 393,
+    "Chapitre 6": 425,
     "Chapitre 7": 101,
-    "Chapitre 8": 139,
+    "Chapitre 8": 145,
     "Chapitre 9": 199,
-    "Chapitre bootlegs": 4,
+    "Chapitre bootlegs": 5,
     "Tous chapitres": 1,
     "méthode générale": 3
   },
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1172,
-    "missing_required_field": 3705,
+    "invalid_controlled_value": 1186,
+    "missing_required_field": 3785,
     "schema_warning": 399,
-    "unknown_yaml_block": 32,
-    "v2_migration_debt": 9032
+    "unknown_yaml_block": 38,
+    "v2_migration_debt": 9078
   },
   "top_files_by_issue_count": [
     [
@@ -397,6 +397,54 @@
   ],
   "blocking_errors": [],
   "unknown_yaml_blocks": [
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "DISC-S41-AN-IDEAL-FOR-LIVING-EP",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "BAND-S41-WARSAW-PAKT-NEEDLE-TIME",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "INST-S41-CELESTION-18-HIGH-BASS",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "LIVE-S41-OLDHAM-TOWER-CLUB-NO-AUDIENCE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "LIVE-S41-SWINGING-APPLE-1977-12-31",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
@@ -655,10 +703,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1406,
+    "atoms_total": 1422,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1345,
-    "v2_missing_field_warnings": 9032
+    "atoms_v2_incomplete": 1361,
+    "v2_missing_field_warnings": 9078
   },
   "source_registry": {
     "declared_but_unused": [
@@ -735,8 +783,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 265,
-        "atoms": 211,
+        "records": 287,
+        "atoms": 227,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -745,6 +793,7 @@
           "registers/songs/master_songs.md",
           "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
           "registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md",
+          "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
           "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "sources/hook/atomisation_02_transmission_1978.md",
@@ -756,6 +805,7 @@
           "sources/hook/source.md",
           "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
           "sources/hook_unknown_pleasures/source_part_1976_lesser_free_trade_hall_bass_ian_joining.md",
+          "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
           "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
           "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md"
         ]
@@ -19261,6 +19311,902 @@
       "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
       "record_id": "S72-A061",
       "message": "Invalid value for type_unite: synthese",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A042",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A042",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A042",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A042",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A042",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A042",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A042",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A042",
+      "message": "Invalid value for type_unite: evenement_discographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A043",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A043",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A043",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A043",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A043",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A043",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A043",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A043",
+      "message": "Invalid value for type_unite: session_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A044",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A044",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A044",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A044",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A044",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A044",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A044",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A044",
+      "message": "Invalid value for type_unite: session_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A045",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A045",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A045",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A045",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A045",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A045",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A045",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A045",
+      "message": "Invalid value for type_unite: paroles_source",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A046",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A046",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A046",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A046",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A046",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A046",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A046",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A046",
+      "message": "Invalid value for type_unite: economie_materielle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A047",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A047",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A047",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A047",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A047",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A047",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A047",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A047",
+      "message": "Invalid value for type_unite: economie_discographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A048",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A048",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A048",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A048",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A048",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A048",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A048",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A048",
+      "message": "Invalid value for type_unite: transition_nominale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A049",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A049",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A049",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A049",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A049",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A049",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A049",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A049",
+      "message": "Invalid value for type_unite: reception_nominale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A050",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A050",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A050",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A050",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A050",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A050",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A050",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A050",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A051",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A051",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A051",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A051",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A051",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A051",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A051",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A051",
+      "message": "Invalid value for type_unite: processus_creatif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A052",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A052",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A052",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A052",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A052",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A052",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A052",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A052",
+      "message": "Invalid value for type_unite: processus_sonore",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A053",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A053",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A053",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A053",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A053",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A053",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A053",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A053",
+      "message": "Invalid value for type_unite: lieu_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A054",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A054",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A054",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A054",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A054",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A054",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A054",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A054",
+      "message": "Invalid value for type_unite: scene_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A055",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A055",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A055",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A055",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A055",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A055",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A055",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "S41-A055",
+      "message": "Invalid value for type_unite: seuil_chronologique",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -100558,6 +101504,278 @@
       "record_id": "SONG-S76-027",
       "message": "Invalid value for type_unite: album",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "DISC-S41-AN-IDEAL-FOR-LIVING-EP",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-NO-LOVE-LOST-HOUSE-OF-DOLLS",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "SONG-S41-WARSAW-AN-IDEAL-RUDOLF-HESS",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "BAND-S41-WARSAW-PAKT-NEEDLE-TIME",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "INST-S41-CELESTION-18-HIGH-BASS",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "LIVE-S41-OLDHAM-TOWER-CLUB-NO-AUDIENCE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
+      "record_id": "LIVE-S41-SWINGING-APPLE-1977-12-31",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

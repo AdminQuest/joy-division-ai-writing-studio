@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T14:08:18"
+generated_at: "2026-05-14T14:37:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 341 |
+| Atomes | 346 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 61 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 66 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -85,6 +85,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_groupe` ; importance : `critique` ; preuve : `interprétation rétrospective de Hook`.
 - **S41-A039** — S41-A039 — Eric’s et Middlesbrough : sortie de Manchester, rider et public hostile productif  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct + événements live documentés`.
+- **S41-A048** — S41-A048 — Warsaw Pakt : collision nominale et nécessité de devenir Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition_nominale` ; importance : `critique` ; preuve : `témoignage direct + contexte presse à vérifier`.
+- **S41-A051** — S41-A051 — Morris créatif et conflit Curtis/Sumner : mur Iggy contre espace Velvet  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A052** — S41-A052 — Celestion qui fart : basse haute, Ian arrangeur et naissance du son Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_sonore` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A048** — S45-A048 — Manchester Musicians’ Collective : expérimentation sans obligation d’audience  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `citation de Curtis rapportée par Deborah`.
 - **S45-A049** — S45-A049 — Piccadilly Plaza / RCA : bureau discret et promesse industrielle  
@@ -111,12 +117,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `position_esthetique` ; importance : `critique` ; preuve : `citation d’entretien rapportée par S45`.
 - **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
-- **S45-A095** — S45-A095 — Eric’s Liverpool : « no women policy », image et travail féminin effacé  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
-- **S45-A098** — S45-A098 — Le nom Joy Division : silence stratégique et résistance à l’« Ian Curtis and Joy Division »  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `strategie_mediatique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A102** — S45-A102 — Fin août 1979 : quitter le day job comme seuil professionnel et médical  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_professionnel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -198,6 +198,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
+- **S41-A054** — S41-A054 — Oldham Tower Club : jouer devant personne comme éthique durable  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct ; gig absent des listings selon Hook`.
+- **S41-A055** — S41-A055 — Swinging Apple : fin 1977, bière, danse et attente d’un événement majeur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `seuil_chronologique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
@@ -220,8 +224,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A093** — S45-A093 — McCullough / Sounds : refus des réponses droites et publicité paradoxale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_presse` ; importance : `majeur` ; preuve : `témoignage direct + réception presse rapportée`.
+- **S45-A095** — S45-A095 — Eric’s Liverpool : « no women policy », image et travail féminin effacé  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
 - **S45-A097** — S45-A097 — Leigh Festival : anti-festival Factory/Zoo, police et inertie de Curtis  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_sociale` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A098** — S45-A098 — Le nom Joy Division : silence stratégique et résistance à l’« Ian Curtis and Joy Division »  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `strategie_mediatique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A102** — S45-A102 — Fin août 1979 : quitter le day job comme seuil professionnel et médical  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_professionnel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A103** — S45-A103 — Lead Singer Syndrome : paresse logistique et privilège scénique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_interne` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif + témoignage rapporté de Hook`.
 - **S45-A104** — S45-A104 — Futurama ’79 : consécration nordiste et correction d’une mémoire secondaire  
@@ -270,16 +280,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `portrait_musicien` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-106** — S46-106 — « No Love Lost » et l’insertion de Ka-Tzetnik  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reference_litteraire` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-110** — S46-110 — Peter Hook et la montée mélodique de la basse  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `analyse_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-112** — S46-112 — « She’s Lost Control » comme miroir biographique indirect  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_biographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-113** — S46-113 — « Insight » et l’obsession de l’intériorité  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_lyrique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-114** — S46-114 — « I Remember Nothing » et la dissolution finale  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_album` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-122** — S46-122 — *Licht und Blindheit* comme objet européen singulier  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -545,12 +545,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Buzzcocks (3)
 - reconnaissance (3)
 - Alan Erasmus (3)
+- Stephen Morris (3)
 - Warsaw (3)
 - Slaughter & the Dogs (3)
 - Ian Curtis (3)
 - Kraftwerk (3)
 - Pips (3)
-- Dead Souls (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -660,14 +660,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | reception_critique | 4 |
 | fait_interprete | 4 |
 | session_radio | 4 |
+| processus_creatif | 3 |
 | scene_management | 3 |
+| scene_live | 3 |
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
 | versions_chanson | 3 |
 | release_or_session | 3 |
 | tension_interne | 2 |
-| processus_creatif | 2 |
 | infrastructure_scene | 2 |
 | economie_domestique | 2 |
 | tension_management | 2 |
@@ -675,7 +676,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | reception | 2 |
 | relation | 2 |
 | construction_esthetique | 2 |
-| scene_live | 2 |
 | scene_collective | 2 |
 | personne_reseau | 2 |
 | scene_live_violence | 2 |
@@ -727,6 +727,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | evenement_live_crise | 1 |
 | tension_psychiatrique | 1 |
 | tension_management_sante | 1 |
+| transition_nominale | 1 |
+| processus_sonore | 1 |
+| seuil_chronologique | 1 |
 | scene_reseau | 1 |
 | scene_live_desillusion | 1 |
 | economie_tournee | 1 |
@@ -836,9 +839,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 153 |
-| critique | 143 |
+| critique | 146 |
 | majeure | 24 |
-| majeur | 21 |
+| majeur | 23 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -881,6 +884,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S45-A139 [moyen] — Risque de réduire la responsabilité à Gretton seul ; la décision est prise dans l’urgence et l’économie du concert.
 - S45-A145 [très élevé] — Risque de présenter ce propos comme vérité définitive du désir de Curtis ; il est prononcé dans un contexte de crise.
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
+- S41-A048 [faible à moyen] — Ne pas réduire Joy Division à une nécessité administrative ; le choix porte aussi une charge symbolique.
+- S41-A051 [moyen] — Ne pas figer Curtis et Sumner dans deux esthétiques pures ; Hook simplifie rétrospectivement.
+- S41-A052 [élevé] — Risque de faire de cet épisode la cause unique du son Joy Division ; il faut l’inscrire dans un faisceau matériel et collectif.
+- S41-A054 [faible] — Atome essentiellement éthique et scénique ; ne pas surcharger historiographiquement.
+- S41-A055 [moyen] — Risque de téléologiser l’attente de 1978 ; Hook écrit depuis la connaissance de la suite.
 - S41-A025 [faible à moyen] — Ne pas idéaliser toute la scène mancunienne à partir de la générosité des Buzzcocks.
 - S41-A026 [moyen] — Risque de surinterpréter Warsaw comme programme esthétique pleinement formé ; Hook insiste aussi sur la facilité et le contexte.
 - S41-A027 [moyen] — Risque de romantiser l’incompétence ; elle est productive mais aussi limitante.
@@ -897,11 +905,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S41-A039 [moyen] — Ne pas faire de l’hostilité une essence du groupe ; elle est un mode de performance parmi d’autres.
 - S41-A041 [moyen] — Ne pas transformer la violence en simple folklore ; elle structure les appartenances locales.
 - S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
-- S41-A017 [moyen] — Ne pas réduire le punk à l’apparence ; mais ici l’apparence est déjà action sociale.
-- S41-A018 [moyen] — Risque de faire du second concert un seul point d’origine ; Hook lui-même distribue l’importance entre plusieurs moments.
-- S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
-- S41-A020 [moyen] — Risque de stabiliser une version unique alors que Hook signale deux écoles de pensée.
-- S41-A021 [moyen] — Risque de linéariser la sortie du punk ; la scène est une relecture ultérieure.
 
 ## 15. Lacunes et prochaines vérifications
 
