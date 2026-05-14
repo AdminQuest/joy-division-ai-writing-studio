@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T13:21:58"
+generated_at: "2026-05-14T14:08:18"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 103 |
+| Atomes | 109 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
 | Personnes | 7 |
 | Chansons | 4 |
-| Sources mobilisées | 7 |
+| Sources mobilisées | 8 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 6 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -44,6 +45,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 5. Atomes critiques ou majeurs
 
+- **S41-A032** — S41-A032 — Rafters / Fast Breeder : Hannett, Erasmus et la scène comme guerre de rang  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_conflit` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A034** — S41-A034 — Warsaw demo : Pennine Sound et futur audible dans *The Kill*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session documentée`.
+- **S41-A036** — S41-A036 — Rob Gretton avant Rob : scène Panik, Slaughter et faveur involontaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `personne_reseau` ; importance : `critique` ; preuve : `synthèse biographique + mémoire de Hook`.
+- **S41-A040** — S41-A040 — Electric Circus / Short Circuit : chaos, Rudolf Hess et premier piège publishing  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_discographique` ; importance : `critique` ; preuve : `témoignage direct + événement discographique documenté`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
@@ -106,17 +115,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `objet_discographique` ; importance : `critique` ; preuve : `reconstruction_S76_a_recouper_avec_sources_Sordide`.
 - **S76-A130** — S76-A130 — Paris, Les Bains-Douches, 18 décembre 1979 : réception française et archive future  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reception_S76`.
-- **S76-A135** — S76-A135 — Paradiso Amsterdam, 11 janvier 1980 : deux sets, archive exemplaire et scène intime  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_archive` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_memoire_Annik`.
-- **S76-A139** — S76-A139 — Effenaar Eindhoven, 18 janvier 1980 : tension, Minny Pops et future mémoire filmée  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_filme` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_archive_video`.
-- **S76-A165** — S76-A165 — Moonlight Club, 2-4 avril 1980 : club intime, archive de Still et fatigue visible  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_archive` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reception_S76`.
-- **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
+- **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S45-A088** — S45-A088 — Petites économies : cigarettes, nettoyage et sandpaper sleeves  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S68-A005** — S-BROLL-A005 — Démo du 18 juillet 1977 aux Pennine Studios  
@@ -217,6 +220,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A022** — S72-A022 — *A Factory Sample* : « Digital » et « Glass » comme seuil du son Joy Division  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S75-A019** — S75-A019 — *An Ideal for Living* : financement, pressage raté et remastering comme réparation  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A054** — S75-A054 — *Still* et les titres de réserve : austérité gothique, exercices et titres trouvés  
@@ -225,8 +230,16 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `analyse_sonore` ; importance : `majeure` ; preuve : `description_critique_S76`.
 - **S76-A065** — S76-A065 — Racheter les bandes : 1 000 livres, puis 850, et le sentiment d’être « mugged »  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `fait_contractuel` ; importance : `majeure` ; preuve : `reconstruction_S76_contractuelle`.
+- **S76-A135** — S76-A135 — Paradiso Amsterdam, 11 janvier 1980 : deux sets, archive exemplaire et scène intime  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_archive` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_memoire_Annik`.
+- **S76-A139** — S76-A139 — Effenaar Eindhoven, 18 janvier 1980 : tension, Minny Pops et future mémoire filmée  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_filme` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_archive_video`.
+- **S76-A165** — S76-A165 — Moonlight Club, 2-4 avril 1980 : club intime, archive de Still et fatigue visible  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_archive` ; importance : `critique` ; preuve : `evenement_live_corroborable_et_reception_S76`.
 - **S76-A166** — S76-A166 — « Sister Ray » au Moonlight : reprise terminale ou mémoire d’apprentissage persistante  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_reprise` ; importance : `majeure` ; preuve : `live_archive_et_interpretation_S76`.
+- **SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18** — S41 — Chansons, lieux, objets et sessions — Warsaw, premiers concerts, Hannett/Erasmus, démos  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S45-AN-IDEAL-FOR-LIVING** — S45 — Chansons et objets discographiques — *An Ideal for Living*, travail social, RCA  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S45-CLOSER-BRITANNIA-ROW-THRESHOLD** — S45 — Chansons, albums, films et sessions — tournée européenne, Annik, seuil *Closer*  
@@ -396,20 +409,26 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ### 12.1. Motifs dominants
 
+- Electric Circus (4)
 - bootleg (4)
 - Still (4)
 - Earcom 2 (3)
-- Electric Circus (3)
+- Short Circuit (3)
+- Rudolf Hess (3)
 - An Ideal for Living (3)
 - RCA (3)
 - Arrow Studios (3)
+- Martin Hannett (3)
 - Dead Souls (3)
 - Enigma (3)
 - An Ideal For Living (3)
 - Unknown Pleasures (2)
-- Short Circuit (2)
-- Rudolf Hess (2)
+- Pennine Sound (2)
 - bootlegs (2)
+- The Kill (2)
+- Steve Brotherdale (2)
+- Rob Gretton (2)
+- Slaughter & the Dogs (2)
 - Licht und Blindheit (2)
 - Sordide Sentimental (2)
 - Warsaw (2)
@@ -430,12 +449,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Factory (1)
 - liberté (1)
 - artwork (1)
-- promotion (1)
-- avances (1)
-- dilution (1)
-- cigarettes (1)
-- nettoyage (1)
-- Return of the Durutti Column (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -476,6 +489,17 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S45-A151 — prolonge → CONCEPT-035
 - S45-A151 — prolonge → REGISTRE-OBJETS-DISCOGRAPHIQUES
 - S45-A151 — prépare → S45-A152
+- S41-A032 — prépare → CONCEPT-HANNETT-STUDIO
+- S41-A032 — prépare → CONCEPT-FACTORY-CARE-AMATEUR
+- S41-A034 — prépare → UNKNOWN-PLEASURES-SESSIONS
+- S41-A034 — prolonge → CONCEPT-049
+- S41-A036 — prépare → CONCEPT-030
+- S41-A036 — prépare → FACTORY-NETWORK
+- S41-A040 — prolonge → CONCEPT-025
+- S41-A040 — prolonge → MYTH-007
+- S41-A040 — alimente → REGISTRE-DISCOGRAPHIE
+- S41-A041 — prolonge → CONCEPT-050
+- S41-A041 — prépare → CONCEPT-HANNETT-STUDIO
 - S75-A069 — prolonge → CONCEPT-006
 - S75-A069 — prolonge → MOTIF-001
 - S75-A069 — prolonge → S70-A021
@@ -508,17 +532,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A041 — corrobore → S76-A036
 - S76-A041 — nuance → MYTH-006
 - S76-A046 — prolonge → S76-A045
-- S76-A046 — corrobore → S76-A036
-- S76-A046 — nuance → MYTH-006
-- S76-A101 — nuance → MYTH-004
-- S76-A101 — relie → CONCEPT-006
-- S76-A101 — prolonge → S76-A100
-- S76-A118 — prolonge → S76-A116
-- S76-A118 — relie → MOTIF-004
-- S76-A118 — nuance → CONCEPT-009
-- S76-A050 — prolonge → S76-A049
-- S76-A050 — nuance → S75-A0XX
-- S76-A050 — prepare → S76-A051
 
 ## 13. Distribution documentaire
 
@@ -531,13 +544,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | concert | 6 |
 | analyse | 5 |
 | archive | 5 |
-| non qualifié | 4 |
+| non qualifié | 5 |
 | session | 3 |
+| session_studio | 3 |
 | chronologie | 3 |
 | live_set_bootleg_context | 3 |
 | discographie | 2 |
 | bootleg | 2 |
-| session_studio | 2 |
 | concert_archive | 2 |
 | song_or_release | 2 |
 | session_domestique | 1 |
@@ -545,6 +558,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | economie_materielle | 1 |
 | tension_economique | 1 |
 | scene_medicale_sensible | 1 |
+| scene_conflit | 1 |
+| personne_reseau | 1 |
+| evenement_discographique | 1 |
+| scene_live_violence | 1 |
 | videographie | 1 |
 | controverse | 1 |
 | chronology | 1 |
@@ -565,10 +582,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 62 |
-| critique | 34 |
+| non qualifiée | 63 |
+| critique | 38 |
 | majeure | 6 |
-| majeur | 1 |
+| majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -584,6 +601,11 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S45-A077 [moyen] — Risque de présenter l’origine cassette des bootlegs comme fait définitif sans expertise des sources sonores.
 - S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
 - S45-A151 [très élevé] — Risque de lire chaque don d’objet comme signe suicidaire certain.
+- S41-A032 [moyen] — Ne pas transformer cette rencontre en scène de destin Factory ; elle est d’abord conflictuelle et banale.
+- S41-A034 [moyen] — Ne pas chercher tout Joy Division dans la démo ; Hook isole seulement des indices.
+- S41-A036 [faible à moyen] — Ne pas téléologiser Gretton comme manager prédestiné.
+- S41-A040 [moyen] — Ne pas isoler Rudolf Hess de la logique plus large de maladresse provocatrice et de piège industriel.
+- S41-A041 [moyen] — Ne pas transformer la violence en simple folklore ; elle structure les appartenances locales.
 - S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
 - S75-A008 [moyen] — l'objet est utile mais son statut juridique, la filiation des bandes et la chaîne de copie restent incertains
 - S75-A019 [faible] — fait discographique relativement stable, mais les jugements sonores restent critiques

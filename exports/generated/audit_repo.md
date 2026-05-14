@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-14T13:21:56`
+Généré le : `2026-05-14T14:08:16`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 24 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1327 atome(s) incomplet(s) sur 1388.
+Le repo est techniquement exploitable, mais 32 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1345 atome(s) incomplet(s) sur 1406.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 2580
+- Enregistrements : 2633
 - Erreurs : 0
-- Avertissements : 14317
+- Avertissements : 14475
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1327 atome(s) incomplet(s) sur 1388.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1388 |
+| atom | 1406 |
 | chronology | 331 |
-| concept | 49 |
+| concept | 55 |
 | metadata | 18 |
-| motif | 71 |
+| motif | 83 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1327 atome(s) incomplet(s) sur 1388.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 79 |
-| unknown | 24 |
+| template | 88 |
+| unknown | 32 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1155 |
-| missing_required_field | 3615 |
+| invalid_controlled_value | 1172 |
+| missing_required_field | 3705 |
 | schema_warning | 399 |
-| unknown_yaml_block | 24 |
-| v2_migration_debt | 8989 |
+| unknown_yaml_block | 32 |
+| v2_migration_debt | 9032 |
 
 ## 5. Erreurs bloquantes
 
@@ -71,6 +71,14 @@ Aucune.
 - `registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md` [LIVE-S45-APOLLO-MANCHESTER-1979] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md` [LIVE-S45-RAINBOW-THEATRE-1979] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md` [LIVE-S45-FACTORY-NYE-SECTION-25] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-ELECTRIC-CIRCUS-1977-05-29] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-RAFTERS-HEARTBREAKERS-1977-05-31] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-NEWCASTLE-GUILD-HALL-1977-06-06] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-SQUAT-STUFF-THE-JUBILEE-1977] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-RAFTERS-FAST-BREEDER-1977-06-30] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-ERICS-LIVERPOOL-1977-08-27] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [LIVE-S41-MIDDLESBROUGH-1977-09-14] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md` [DISC-S41-SHORT-CIRCUIT-ELECTRIC-CIRCUS] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [LIVE-S41-LESSER-FREE-TRADE-HALL-1976-06-04] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [INST-S41-GIBSON-EB0-COPY-FIRST-BASS] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md` [BOOK-S41-PALMER-HUGHES-BASS-GUITAR] : Unable to infer documentary kind
@@ -96,10 +104,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1388
+- Atomes : 1406
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1327
-- Avertissements de champs v2 manquants : 8989
+- Atomes v2 incomplets : 1345
+- Avertissements de champs v2 manquants : 9032
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

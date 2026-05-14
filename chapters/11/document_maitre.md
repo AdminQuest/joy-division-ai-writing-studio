@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T13:21:58"
+generated_at: "2026-05-14T14:08:18"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 175 |
+| Atomes | 177 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 5 |
@@ -34,7 +34,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 22 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 24 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
@@ -55,6 +55,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_ecoute` ; importance : `critique` ; preuve : `témoignage autobiographique direct`.
 - **S41-A021** — S41-A021 — Dernier concert Pistols : violence de masse et fin de l’innocence punk  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A040** — S41-A040 — Electric Circus / Short Circuit : chaos, Rudolf Hess et premier piège publishing  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_discographique` ; importance : `critique` ; preuve : `témoignage direct + événement discographique documenté`.
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
 - **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
@@ -117,8 +119,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_analyse_textuelle_a_recouper`.
 - **S76-A138** — S76-A138 — Plan K Bruxelles, 17 janvier 1980 : scène industrielle, première « The Eternal » et reprise de « Sister Ray »  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert_europeen` ; importance : `critique` ; preuve : `concert_listing_et_reconstruction_S76`.
-- **S76-A152** — S76-A152 — « Love Will Tear Us Apart » : douleur, universalisation et danger du monument posthume  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `lecture_critique_S76_et_reception_posthume`.
 
 ## 6. Autres atomes utiles
 
@@ -154,6 +154,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait_sensible` ; importance : `non qualifiée` ; preuve : `fragile`.
 - **S41-133** — S41-133 — La musique devient plus froide à mesure que la situation devient plus chaude  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-A028** — S41-A028 — Heartbreakers à Rafters : désillusion punk devant l’héroïne et l’inertie  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_desillusion` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-003** — S45-003 — « There was more to living than working nine to five »  
@@ -280,8 +282,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A010** — S70-A010 — Origine du nom Joy Division et *House of Dolls*  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A022** — S70-A022 — Crises, Moonlight Club et Rainbow Theatre  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -419,12 +419,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - provocation (5)
 - domesticité (5)
+- Electric Circus (3)
 - réception critique (3)
 - Ian Curtis (3)
 - John Heartfield (2)
 - An Ideal for Living (2)
 - imagerie nazie (2)
-- Electric Circus (2)
+- Short Circuit (2)
 - House of Dolls (2)
 - Atmosphere (2)
 - silence (2)
@@ -456,7 +457,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - mémoire juive (1)
 - Hitler Youth (1)
 - umlauts (1)
-- controverse politique (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -476,6 +476,11 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A140 — prolonge → CONCEPT-035
 - S45-A140 — prolonge → CONCEPT-030
 - S45-A140 — nuance → MYTH-002
+- S41-A028 — nuance → CONCEPT-048
+- S41-A028 — prolonge → S41-A021
+- S41-A040 — prolonge → CONCEPT-025
+- S41-A040 — prolonge → MYTH-007
+- S41-A040 — alimente → REGISTRE-DISCOGRAPHIE
 - S41-A021 — prolonge → CONCEPT-041
 - S41-A021 — prépare → S41-A026
 - S41-A001 — prolonge → MYTH-007
@@ -535,11 +540,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A052 — prolonge → S74-A048
 - S74-A052 — complète → S74-A050
 - S74-A052 — nuance → MYTH-002
-- S74-A053 — nuance → MYTH-002
-- S74-A053 — complète → S74-A052
-- S74-A053 — prolonge → S45
-- S74-A054 — prolonge → S45
-- S74-A054 — nuance → S74-A053
 
 ## 13. Distribution documentaire
 
@@ -578,6 +578,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | registre_influences | 1 |
 | scene_soin_amateur | 1 |
 | santé | 1 |
+| scene_live_desillusion | 1 |
+| evenement_discographique | 1 |
 | scene_live_violence | 1 |
 | scene_ecoute | 1 |
 | chronologie | 1 |
@@ -641,9 +643,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 122 |
-| critique | 38 |
+| critique | 39 |
 | majeure | 13 |
-| majeur | 2 |
+| majeur | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -652,6 +654,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
 - S45-A140 [élevé] — Risque de spiritualiser ou de pathologiser ces épisodes ; ils sont surtout des indices de soin amateur.
+- S41-A028 [moyen] — Ne pas généraliser la scène à tout le punk américain ; c’est une expérience située.
+- S41-A040 [moyen] — Ne pas isoler Rudolf Hess de la logique plus large de maladresse provocatrice et de piège industriel.
 - S41-A021 [moyen] — Risque de linéariser la sortie du punk ; la scène est une relecture ultérieure.
 - S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
 - S41-A012 [moyen] — Risque d’en faire une influence formelle directe ; Hook parle surtout de gateway.

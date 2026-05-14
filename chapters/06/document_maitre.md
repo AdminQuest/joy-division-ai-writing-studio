@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T13:21:58"
+generated_at: "2026-05-14T14:08:18"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 326 |
+| Atomes | 341 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 46 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 61 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -65,6 +65,26 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A023** — S41-A023 — Premières répétitions : lieux instables, WEM PA et paroles concurrentes  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A025** — S41-A025 — Buzzcocks comme école pratique : inclusion, conseil et première scène  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A026** — S41-A026 — De Stiff Kittens à Warsaw : austérité nominale, Low et premier malentendu graphique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `construction_esthetique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A027** — S41-A027 — Premier concert Warsaw : ignorance technique et foi anti-careeriste  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `critique` ; preuve : `témoignage direct + chronologie établie`.
+- **S41-A030** — S41-A030 — Squat et Stuff the Jubilee : appartenir à la deuxième vague punk mancunienne  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct + chronologie de scène`.
+- **S41-A032** — S41-A032 — Rafters / Fast Breeder : Hannett, Erasmus et la scène comme guerre de rang  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_conflit` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A033** — S41-A033 — Curtis à Rafters : Iggy, alcool et première violence scénique inquiétante  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `performance_sensible` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A036** — S41-A036 — Rob Gretton avant Rob : scène Panik, Slaughter et faveur involontaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `personne_reseau` ; importance : `critique` ; preuve : `synthèse biographique + mémoire de Hook`.
+- **S41-A037** — S41-A037 — Stephen Morris : révélation rythmique et texture jazz-punk  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `recrutement_musical` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A038** — S41-A038 — Trois îles musicales : alliances internes et Ian comme colle du groupe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_groupe` ; importance : `critique` ; preuve : `interprétation rétrospective de Hook`.
+- **S41-A039** — S41-A039 — Eric’s et Middlesbrough : sortie de Manchester, rider et public hostile productif  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct + événements live documentés`.
 - **S45-A048** — S45-A048 — Manchester Musicians’ Collective : expérimentation sans obligation d’audience  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `citation de Curtis rapportée par Deborah`.
 - **S45-A049** — S45-A049 — Piccadilly Plaza / RCA : bureau discret et promesse industrielle  
@@ -97,26 +117,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `strategie_mediatique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A102** — S45-A102 — Fin août 1979 : quitter le day job comme seuil professionnel et médical  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_professionnel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A104** — S45-A104 — Futurama ’79 : consécration nordiste et correction d’une mémoire secondaire  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct indirect ; correction mémorielle de Deborah`.
-- **S45-A105** — S45-A105 — Dernière Factory : crise avant scène et passage à un nouveau chapitre  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_sante` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A106** — S45-A106 — Mountford Hall : Joy Division déborde son statut de support band  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct indirect + citation critique rapportée`.
-- **S45-A107** — S45-A107 — Leeds University : Curtis star malgré le collectif  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_starification` ; importance : `critique` ; preuve : `citation critique rapportée + interprétation de Deborah`.
-- **S45-A111** — S45-A111 — Rob Gretton arbitre le couple : médiation managériale du privé  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A113** — S45-A113 — Fin 1979 : salaire de groupe, Silklands et économie domestique d’épuisement  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A114** — S45-A114 — Rainbow et Guildford : farces de tournée, sabotage sonore et domination contrariée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct rapporté + citation critique`.
-- **S45-A116** — S45-A116 — Franck Essner : « Transmission » et amorce d’un fandom transnational  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `critique` ; preuve : `témoignage direct de Deborah + entretien/retour de Franck Essner probable`.
-- **S45-A125** — S45-A125 — Top Shop et tournée américaine : crédit domestique, vêtements de scène et Annik financée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A133** — S45-A133 — Moonlight / Rainbow : le calendrier détruit la routine médicale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_live_sante` ; importance : `critique` ; preuve : `témoignage direct de Deborah + témoignage rétrospectif de Sumner`.
 
 ## 6. Autres atomes utiles
 
@@ -188,6 +188,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `construction_esthetique` ; importance : `majeur` ; preuve : `témoignage direct autobiographique`.
 - **S41-A022** — S41-A022 — Terry Mason : membre périphérique, distortion accidentelle et mémoire du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `personne_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A028** — S41-A028 — Heartbreakers à Rafters : désillusion punk devant l’héroïne et l’inertie  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_desillusion` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A029** — S41-A029 — Newcastle et sleeping bag : micro-sociologie du groupe en tournée pauvre  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_tournee` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S41-A031** — S41-A031 — Tony Tabac puis Steve Brotherdale : batteurs transitoires et adéquation de phase  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `personnel_groupe` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A035** — S41-A035 — Terry et les cassettes : management amateur, Coronation Street et ratage promotionnel  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
@@ -214,10 +224,30 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_sociale` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A103** — S45-A103 — Lead Singer Syndrome : paresse logistique et privilège scénique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_interne` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif + témoignage rapporté de Hook`.
+- **S45-A104** — S45-A104 — Futurama ’79 : consécration nordiste et correction d’une mémoire secondaire  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct indirect ; correction mémorielle de Deborah`.
+- **S45-A105** — S45-A105 — Dernière Factory : crise avant scène et passage à un nouveau chapitre  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_sante` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A106** — S45-A106 — Mountford Hall : Joy Division déborde son statut de support band  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct indirect + citation critique rapportée`.
+- **S45-A107** — S45-A107 — Leeds University : Curtis star malgré le collectif  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_starification` ; importance : `critique` ; preuve : `citation critique rapportée + interprétation de Deborah`.
+- **S45-A111** — S45-A111 — Rob Gretton arbitre le couple : médiation managériale du privé  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A113** — S45-A113 — Fin 1979 : salaire de groupe, Silklands et économie domestique d’épuisement  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A114** — S45-A114 — Rainbow et Guildford : farces de tournée, sabotage sonore et domination contrariée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct rapporté + citation critique`.
+- **S45-A116** — S45-A116 — Franck Essner : « Transmission » et amorce d’un fandom transnational  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `critique` ; preuve : `témoignage direct de Deborah + entretien/retour de Franck Essner probable`.
 - **S45-A117** — S45-A117 — Factory New Year’s Eve 1979 : image froide, violence et promesse de réussite sociale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sociale` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A122** — S45-A122 — Arrêt annoncé des concerts : pacificateur domestique et calendrier impossible  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_professionnelle` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A125** — S45-A125 — Top Shop et tournée américaine : crédit domestique, vêtements de scène et Annik financée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A133** — S45-A133 — Moonlight / Rainbow : le calendrier détruit la routine médicale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_live_sante` ; importance : `critique` ; preuve : `témoignage direct de Deborah + témoignage rétrospectif de Sumner`.
 - **S45-A137** — S45-A137 — Wilson/Reade/Erasmus : commandement amateur et effacement de la preuve  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
 - **S45-A139** — S45-A139 — Derby Hall Bury : jouer malgré l’absence du chanteur et fabriquer l’émeute  
@@ -250,36 +280,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_album` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-122** — S46-122 — *Licht und Blindheit* comme objet européen singulier  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-124** — S46-124 — « Transmission » Session à Central Sound  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `session_enregistrement` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-127** — S46-127 — *What’s On*, Granada TV, 20 juillet 1979  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `television` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-128** — S46-128 — *Something Else*, BBC-2, 15 septembre 1979  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `television` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-165** — S46-165 — « Disorder » comme seuil de l’ouvrage  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_seuil` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-173** — S46-173 — « Dead Souls » sur *Still* et le jugement de Robert Palmer  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-185** — S46-185 — « Isolation » comme symptôme d’une inversion avancée  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_chanson` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-188** — S46-188 — « From Safety to Where…? » comme seuil final  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_seuil` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-012** — S47-012 — « At A Later Date » comme premier enregistrement officiel  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-019** — S47-019 — Le John Peel Session de janvier 1979 marque une rupture  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-020** — S47-020 — « Unknown Pleasures » est enregistré en quatre jours et demi  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-021** — S47-021 — « Transmission » est volontairement exclu de l’album  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-024** — S47-024 — « Atmosphere » et « Dead Souls » sont presque sabotés commercialement  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-030** — S47-030 — « Closer » représente un commencement interrompu  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-038** — S47-038 — Les Peel Sessions sont considérées comme essentielles  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-039** — S47-039 — « The Drawback » reste inédit  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -496,6 +496,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - birmingham (2)
 - ceremony (2)
 - decades (2)
+- stabilisation rythmique (2)
 - Manchester (2)
 - Colony (2)
 - The Kill (2)
@@ -505,21 +506,22 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - froideur (2)
 - Derby Hall (2)
 - Bury (2)
-- crise (2)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (15)
+- Rob Gretton (17)
+- Martin Hannett (12)
 - Factory (10)
-- Martin Hannett (10)
 - Unknown Pleasures (9)
 - Tony Wilson (8)
 - Hannett (8)
+- Rafters (6)
 - Transmission (6)
 - Strawberry Studios (5)
 - RCA (5)
+- Terry Mason (5)
 - Gretton (5)
 - Love Will Tear Us Apart (5)
 - Peter Saville (5)
@@ -529,7 +531,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Bernard Sumner (4)
 - Digital (4)
 - Glass (4)
-- Terry Mason (4)
+- Electric Circus (4)
 - Atmosphere (4)
 - Closer (4)
 - Britannia Row (4)
@@ -538,19 +540,17 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - fatigue (4)
 - John Anderson (4)
 - Russell Club (3)
-- Rafters (3)
 - Granada (3)
 - Rainbow Theatre (3)
+- Buzzcocks (3)
 - reconnaissance (3)
-- Electric Circus (3)
+- Alan Erasmus (3)
+- Warsaw (3)
+- Slaughter & the Dogs (3)
 - Ian Curtis (3)
 - Kraftwerk (3)
 - Pips (3)
 - Dead Souls (3)
-- Sordide Sentimental (3)
-- silence (3)
-- Wilson (3)
-- studio (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -655,11 +655,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | biographie | 5 |
 | discographie | 5 |
 | fait_sensible | 5 |
+| reception_live | 4 |
 | analyse | 4 |
 | reception_critique | 4 |
 | fait_interprete | 4 |
 | session_radio | 4 |
-| reception_live | 3 |
+| scene_management | 3 |
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
@@ -671,9 +672,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | economie_domestique | 2 |
 | tension_management | 2 |
 | economie_materielle | 2 |
-| scene_management | 2 |
 | reception | 2 |
 | relation | 2 |
+| construction_esthetique | 2 |
+| scene_live | 2 |
+| scene_collective | 2 |
+| personne_reseau | 2 |
+| scene_live_violence | 2 |
 | scene_revelation | 2 |
 | session_enregistrement | 2 |
 | analyse_musicale | 2 |
@@ -722,13 +727,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | evenement_live_crise | 1 |
 | tension_psychiatrique | 1 |
 | tension_management_sante | 1 |
-| construction_esthetique | 1 |
-| scene_collective | 1 |
+| scene_reseau | 1 |
+| scene_live_desillusion | 1 |
+| economie_tournee | 1 |
+| personnel_groupe | 1 |
+| scene_conflit | 1 |
+| performance_sensible | 1 |
+| recrutement_musical | 1 |
+| interpretation_groupe | 1 |
 | rencontre_fondatrice | 1 |
 | scene_recrutement | 1 |
-| scene_live_violence | 1 |
-| personne_reseau | 1 |
-| scene_live | 1 |
 | scene_organisationnelle | 1 |
 | scene_sociale_live | 1 |
 | synthese_tension | 1 |
@@ -828,9 +836,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 153 |
-| critique | 133 |
+| critique | 143 |
 | majeure | 24 |
-| majeur | 16 |
+| majeur | 21 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -873,27 +881,27 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S45-A139 [moyen] — Risque de réduire la responsabilité à Gretton seul ; la décision est prise dans l’urgence et l’économie du concert.
 - S45-A145 [très élevé] — Risque de présenter ce propos comme vérité définitive du désir de Curtis ; il est prononcé dans un contexte de crise.
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
+- S41-A025 [faible à moyen] — Ne pas idéaliser toute la scène mancunienne à partir de la générosité des Buzzcocks.
+- S41-A026 [moyen] — Risque de surinterpréter Warsaw comme programme esthétique pleinement formé ; Hook insiste aussi sur la facilité et le contexte.
+- S41-A027 [moyen] — Risque de romantiser l’incompétence ; elle est productive mais aussi limitante.
+- S41-A028 [moyen] — Ne pas généraliser la scène à tout le punk américain ; c’est une expérience située.
+- S41-A029 [faible à moyen] — Ne pas réduire Sumner à l’égoïsme ; la scène est aussi comique et logistique.
+- S41-A030 [moyen] — Ne pas idéaliser l’appartenance ; le même écosystème est traversé de rivalités.
+- S41-A031 [moyen] — Ne pas écrire Tabac/Brotherdale comme simples ratés ; ils éclairent l’évolution du groupe.
+- S41-A032 [moyen] — Ne pas transformer cette rencontre en scène de destin Factory ; elle est d’abord conflictuelle et banale.
+- S41-A033 [élevé] — Risque de projeter l’épilepsie ou le mythe suicidaire sur une scène d’alcool, colère et performance.
+- S41-A035 [faible] — Atome de logistique comique ; ne pas surcharger.
+- S41-A036 [faible à moyen] — Ne pas téléologiser Gretton comme manager prédestiné.
+- S41-A037 [faible à moyen] — Ne pas isoler Morris comme cause unique du son ; il stabilise une dynamique collective.
+- S41-A038 [élevé] — Risque de projeter les conflits New Order sur Joy Division ; Hook écrit depuis l’après.
+- S41-A039 [moyen] — Ne pas faire de l’hostilité une essence du groupe ; elle est un mode de performance parmi d’autres.
+- S41-A041 [moyen] — Ne pas transformer la violence en simple folklore ; elle structure les appartenances locales.
 - S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
 - S41-A017 [moyen] — Ne pas réduire le punk à l’apparence ; mais ici l’apparence est déjà action sociale.
 - S41-A018 [moyen] — Risque de faire du second concert un seul point d’origine ; Hook lui-même distribue l’importance entre plusieurs moments.
 - S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
 - S41-A020 [moyen] — Risque de stabiliser une version unique alors que Hook signale deux écoles de pensée.
 - S41-A021 [moyen] — Risque de linéariser la sortie du punk ; la scène est une relecture ultérieure.
-- S41-A022 [moyen] — Ne pas transformer Terry en cinquième membre artistique ; son rôle est infrastructurel et relationnel.
-- S41-A023 [élevé] — Risque de mythifier Curtis comme âme pure ; Hook écrit rétrospectivement après le mythe.
-- S41-A002 [élevé] — Risque de transformer l’intro Kraftwerk en stratégie esthétique pleinement consciente ; Hook laisse plusieurs hypothèses ouvertes.
-- S41-A003 [moyen] — Ne pas projeter toute la trajectoire médicale ou mythique sur une scène de désordre punk initial.
-- S41-A004 [faible] — L’atome sert surtout de contre-mythe technique ; ne pas le surcharger.
-- S41-A005 [moyen] — Risque de transformer la bagarre en folklore comique ; elle éclaire aussi classe, appartenance et honte.
-- S41-A006 [moyen] — Risque d’en faire une préfiguration téléologique de toute la trajectoire ; le passage doit rester anti-téléologique.
-- S41-A010 [moyen] — Risque de romantiser ou d’essentialiser la délinquance de classe.
-- S41-A011 [faible] — Usage surtout contre-mythique ; ne pas surcharger.
-- S41-A013 [faible à moyen] — Le risque principal est de réduire le punk à la seule classe, alors que l’image, le bruit et la violence comptent aussi.
-- S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
-- S75-A061 [moyen] — chiffres de ventes et profits à recouper avec sources Factory et discographiques
-- S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
-- S75-A067 [moyen] — détails d'offre à recouper avec sources Factory, Warner et témoignages des acteurs
-- S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
 
 ## 15. Lacunes et prochaines vérifications
 

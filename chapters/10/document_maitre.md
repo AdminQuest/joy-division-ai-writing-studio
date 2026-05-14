@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T13:21:58"
+generated_at: "2026-05-14T14:08:18"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 151 |
+| Atomes | 152 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -34,7 +34,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 4 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 5 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
@@ -49,6 +49,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 - **S41-A024** — S41-A024 — Curtis miroir : trois personas et coût de l’adaptation  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `critique` ; preuve : `interprétation rétrospective de témoin direct`.
+- **S41-A038** — S41-A038 — Trois îles musicales : alliances internes et Ian comme colle du groupe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_groupe` ; importance : `critique` ; preuve : `interprétation rétrospective de Hook`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A052** — S45-A052 — Joy Division pariahs : Sue Barlow et Deborah comme faux public  
@@ -115,8 +117,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `interprétation de Deborah + désaccord rapporté des membres du groupe`.
 - **S45-A130** — S45-A130 — Bague, red bill et Candy : effondrement de l’économie domestique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A131** — S45-A131 — Natalie au coucher : paternité désirée et restriction auto-imposée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sante` ; importance : `critique` ; preuve : `témoignage direct`.
 
 ## 6. Autres atomes utiles
 
@@ -186,6 +186,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `majeur` ; preuve : `témoignage direct + propos de Franck rapportés`.
 - **S45-A126** — S45-A126 — New Osbourne Club : beauté retrouvée, loge cachée et performance affaiblie  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_domestique` ; importance : `majeur` ; preuve : `témoignage direct + critique rapportée`.
+- **S45-A131** — S45-A131 — Natalie au coucher : paternité désirée et restriction auto-imposée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sante` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
 - **S45-A135** — S45-A135 — Annik au Moonlight : rebuff intime après crise publique  
@@ -278,8 +280,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S71-A031** — S71-A031 — Rainbow, Moonlight Club et dégradation de la santé de Curtis  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A032** — S71-A032 — Tournée américaine, « Ceremony », « In a Lonely Place » et vidéo de « Love Will Tear Us Apart »  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -615,6 +615,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | tension_psychiatrique | 1 |
 | scene_domestique_finale | 1 |
 | santé | 1 |
+| interpretation_groupe | 1 |
 | interpretation_retrospective | 1 |
 | performance_scenique | 1 |
 | chanson_biographie | 1 |
@@ -653,7 +654,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 65 |
-| critique | 62 |
+| critique | 63 |
 | majeur | 22 |
 | majeure | 2 |
 

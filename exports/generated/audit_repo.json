@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-14T13:21:56",
+  "generated_at": "2026-05-14T14:08:16",
   "summary": {
-    "records_total": 2580,
+    "records_total": 2633,
     "records_by_kind": {
-      "atom": 1388,
+      "atom": 1406,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
       "song": 41,
-      "unknown": 24,
-      "template": 79,
+      "unknown": 32,
+      "template": 88,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 71,
+      "motif": 83,
       "person": 157,
-      "concept": 49,
+      "concept": 55,
       "myth": 11
     },
-    "diagnostics_total": 14317,
+    "diagnostics_total": 14475,
     "errors": 0,
-    "warnings": 14317,
+    "warnings": 14475,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1388,
+    "atom": 1406,
     "chronology": 331,
-    "concept": 49,
+    "concept": 55,
     "metadata": 18,
-    "motif": 71,
+    "motif": 83,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,15 +41,15 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 79,
-    "unknown": 24
+    "template": 88,
+    "unknown": 32
   },
   "records_by_source": {
     "S41": {
-      "atom": 193,
+      "atom": 211,
       "quote": 9,
       "song": 7,
-      "unknown": 12,
+      "unknown": 20,
       "person": 9,
       "chronology": 9
     },
@@ -126,20 +126,20 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 121,
-    "Chapitre 10": 185,
-    "Chapitre 11": 195,
-    "Chapitre 12": 316,
+    "Chapitre 10": 186,
+    "Chapitre 11": 198,
+    "Chapitre 12": 318,
     "Chapitre 13": 97,
-    "Chapitre 14": 764,
+    "Chapitre 14": 769,
     "Chapitre 2": 343,
-    "Chapitre 3": 271,
+    "Chapitre 3": 275,
     "Chapitre 4": 234,
-    "Chapitre 5": 382,
-    "Chapitre 6": 393,
+    "Chapitre 5": 385,
+    "Chapitre 6": 416,
     "Chapitre 7": 101,
-    "Chapitre 8": 131,
+    "Chapitre 8": 139,
     "Chapitre 9": 199,
-    "Chapitre bootlegs": 3,
+    "Chapitre bootlegs": 4,
     "Tous chapitres": 1,
     "méthode générale": 3
   },
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1155,
-    "missing_required_field": 3615,
+    "invalid_controlled_value": 1172,
+    "missing_required_field": 3705,
     "schema_warning": 399,
-    "unknown_yaml_block": 24,
-    "v2_migration_debt": 8989
+    "unknown_yaml_block": 32,
+    "v2_migration_debt": 9032
   },
   "top_files_by_issue_count": [
     [
@@ -536,6 +536,70 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-ELECTRIC-CIRCUS-1977-05-29",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-RAFTERS-HEARTBREAKERS-1977-05-31",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-NEWCASTLE-GUILD-HALL-1977-06-06",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-SQUAT-STUFF-THE-JUBILEE-1977",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-RAFTERS-FAST-BREEDER-1977-06-30",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-ERICS-LIVERPOOL-1977-08-27",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-MIDDLESBROUGH-1977-09-14",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "DISC-S41-SHORT-CIRCUIT-ELECTRIC-CIRCUS",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md",
       "record_id": "LIVE-S41-LESSER-FREE-TRADE-HALL-1976-06-04",
       "message": "Unable to infer documentary kind",
@@ -591,10 +655,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1388,
+    "atoms_total": 1406,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1327,
-    "v2_missing_field_warnings": 8989
+    "atoms_v2_incomplete": 1345,
+    "v2_missing_field_warnings": 9032
   },
   "source_registry": {
     "declared_but_unused": [
@@ -671,8 +735,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 239,
-        "atoms": 193,
+        "records": 265,
+        "atoms": 211,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -681,6 +745,7 @@
           "registers/songs/master_songs.md",
           "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
           "registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md",
+          "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
@@ -691,6 +756,7 @@
           "sources/hook/source.md",
           "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
           "sources/hook_unknown_pleasures/source_part_1976_lesser_free_trade_hall_bass_ian_joining.md",
+          "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
           "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md"
         ]
       },
@@ -19195,6 +19261,1094 @@
       "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
       "record_id": "S72-A061",
       "message": "Invalid value for type_unite: synthese",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A025",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A025",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A025",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A025",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A025",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A025",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A025",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A025",
+      "message": "Invalid value for type_unite: scene_reseau",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A026",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A026",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A026",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A026",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A026",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A026",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A026",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A026",
+      "message": "Invalid value for type_unite: construction_esthetique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A027",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A027",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A027",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A027",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A027",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A027",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A027",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A027",
+      "message": "Invalid value for type_unite: scene_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A028",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A028",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A028",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A028",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A028",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A028",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A028",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A028",
+      "message": "Invalid value for type_unite: scene_live_desillusion",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A029",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A029",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A029",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A029",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A029",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A029",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A029",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A029",
+      "message": "Invalid value for type_unite: economie_tournee",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A030",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A030",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A030",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A030",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A030",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A030",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A030",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A030",
+      "message": "Invalid value for type_unite: scene_collective",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A031",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A031",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A031",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A031",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A031",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A031",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A031",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A031",
+      "message": "Invalid value for type_unite: personnel_groupe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A032",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A032",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A032",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A032",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A032",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A032",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A032",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A032",
+      "message": "Invalid value for type_unite: scene_conflit",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A033",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A033",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A033",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A033",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A033",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A033",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A033",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A033",
+      "message": "Invalid value for type_unite: performance_sensible",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A034",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A034",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A034",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A034",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A034",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A034",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A034",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A034",
+      "message": "Invalid value for type_unite: session_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A035",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A035",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A035",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A035",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A035",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A035",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A035",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A035",
+      "message": "Invalid value for type_unite: scene_management",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A036",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A036",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A036",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A036",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A036",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A036",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A036",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A036",
+      "message": "Invalid value for type_unite: personne_reseau",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A037",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A037",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A037",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A037",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A037",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A037",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A037",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A037",
+      "message": "Invalid value for type_unite: recrutement_musical",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A038",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A038",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A038",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A038",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A038",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A038",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A038",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A038",
+      "message": "Invalid value for type_unite: interpretation_groupe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A039",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A039",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A039",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A039",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A039",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A039",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A039",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A039",
+      "message": "Invalid value for type_unite: reception_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A040",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A040",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A040",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A040",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A040",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A040",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A040",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A040",
+      "message": "Invalid value for type_unite: evenement_discographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A041",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A041",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A041",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A041",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A041",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A041",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A041",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "S41-A041",
+      "message": "Invalid value for type_unite: scene_live_violence",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -106308,6 +107462,182 @@
       "record_id": "SONG-S76-058",
       "message": "Invalid value for type_unite: film_context",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-ELECTRIC-CIRCUS-1977-05-29",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-RAFTERS-HEARTBREAKERS-1977-05-31",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-NEWCASTLE-GUILD-HALL-1977-06-06",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-SQUAT-STUFF-THE-JUBILEE-1977",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-RAFTERS-FAST-BREEDER-1977-06-30",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-ERICS-LIVERPOOL-1977-08-27",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "LIVE-S41-MIDDLESBROUGH-1977-09-14",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "record_id": "DISC-S41-SHORT-CIRCUIT-ELECTRIC-CIRCUS",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T13:21:58"
+generated_at: "2026-05-14T14:08:18"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 654 |
+| Atomes | 657 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 47 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 50 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -59,6 +59,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + synthèse de scène`.
 - **S41-A019** — S41-A019 — Curtis avec « Hate » : apparition d’un semblable, non d’une icône  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `rencontre_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A025** — S41-A025 — Buzzcocks comme école pratique : inclusion, conseil et première scène  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A030** — S41-A030 — Squat et Stuff the Jubilee : appartenir à la deuxième vague punk mancunienne  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct + chronologie de scène`.
+- **S41-A039** — S41-A039 — Eric’s et Middlesbrough : sortie de Manchester, rider et public hostile productif  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct + événements live documentés`.
 - **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
 - **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
@@ -113,12 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A042** — S74-A042 — Unknown Pleasures : beauté contenue, menace retenue et profit inattendu  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A043** — S74-A043 — La pochette d’Unknown Pleasures comme choc visuel non maîtrisé par le groupe  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `design` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A045** — S74-A045 — Transmission : promesse de percée et échec commercial immédiat  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_single` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A047** — S74-A047 — Factory Club comme véritable foyer scénique de Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 
 ## 6. Autres atomes utiles
 
@@ -532,6 +532,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Deborah Curtis (4)
 - A Certain Ratio (4)
 - Rainbow Theatre (3)
+- Buzzcocks (3)
 - Transmission (3)
 - Dave McCullough (3)
 - Sounds (3)
@@ -549,7 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - postérité (3)
 - Wilson (3)
 - contrat (3)
-- RCA (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -605,6 +605,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A153 — prolonge → S45-A151
 - S45-A153 — nuance → MYTH-002
 - S45-A153 — prépare → CHAPITRE-13-MY-TIMING
+- S41-A025 — prolonge → CONCEPT-050
+- S41-A025 — prépare → S41-A026
+- S41-A030 — prolonge → CONCEPT-050
+- S41-A030 — prépare → S41-A036
+- S41-A039 — prolonge → S41-A037
+- S41-A039 — prépare → S41-A041
 - S41-A014 — prolonge → CONCEPT-046
 - S41-A014 — nuance → MYTH-SEX-PISTOLS-LFTH-ORIGIN
 - S41-A014 — prolonge → S41-A013
@@ -627,12 +633,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A058 — prolonge → S75-A047
 - S75-A061 — nuance → MYTH-005
 - S75-A061 — prolonge → S75-A036
-- S75-A061 — prolonge → S75-A038
-- S75-A062 — prolonge → S75-A058
-- S75-A062 — requiert → CONCEPT-004
-- S75-A062 — nuance → MYTH-002
-- S75-A064 — requiert → CONCEPT-004
-- S75-A064 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -653,11 +653,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | contrepoint | 8 |
 | synthese | 8 |
 | scene_fondatrice | 8 |
+| reception_live | 7 |
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
 | fait | 7 |
-| reception_live | 6 |
 | lecture | 6 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
@@ -698,6 +698,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
 | infrastructure | 2 |
+| scene_collective | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
 | design_discographique | 2 |
@@ -744,8 +745,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_management_sante | 1 |
 | scene_domestique_finale | 1 |
 | tension_finale | 1 |
+| scene_reseau | 1 |
 | scene_revelation | 1 |
-| scene_collective | 1 |
 | rencontre_fondatrice | 1 |
 | scene_sociale_live | 1 |
 | synthese_tension | 1 |
@@ -972,7 +973,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 451 |
-| critique | 153 |
+| critique | 156 |
 | majeure | 39 |
 | majeur | 7 |
 | structurante | 2 |
@@ -999,6 +1000,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
 - S45-A152 [moyen] — Risque de fétichiser la dernière photographie ; elle doit rester un document affectif et domestique.
 - S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
+- S41-A025 [faible à moyen] — Ne pas idéaliser toute la scène mancunienne à partir de la générosité des Buzzcocks.
+- S41-A030 [moyen] — Ne pas idéaliser l’appartenance ; le même écosystème est traversé de rivalités.
+- S41-A039 [moyen] — Ne pas faire de l’hostilité une essence du groupe ; elle est un mode de performance parmi d’autres.
 - S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
 - S41-A018 [moyen] — Risque de faire du second concert un seul point d’origine ; Hook lui-même distribue l’importance entre plusieurs moments.
 - S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
@@ -1037,9 +1041,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A038 [moyen] — chiffres de vente et formule conceptuelle doivent être recoupés avec sources Factory / discographiques
 - S75-A042 [moyen] — ne pas transformer la frustration des musiciens en disqualification de l'album ; elle éclaire sa genèse conflictuelle
 - S75-A044 [eleve] — le passage appelle directement une lecture prophétique de Curtis, qu'il faut transformer en prudence explicite
-- S75-A050 [faible] — principal risque factuel : dates et supports à recouper avec discographies spécialisées
-- S75-A054 [moyen] — les titres de réserve ne doivent pas être mis au même rang que le disque publié sans préciser leur statut
-- S75-A055 [moyen] — l'image est devenue trop canonique ; il faut distinguer sa puissance symbolique et l'incertitude de sa genèse
 
 ## 15. Lacunes et prochaines vérifications
 

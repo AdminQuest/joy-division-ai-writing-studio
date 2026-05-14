@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-14T13:21:48",
+  "generated_at": "2026-05-14T14:08:08",
   "status": "warning",
   "summary": {
-    "records_total": 2580,
+    "records_total": 2633,
     "records_by_kind": {
-      "atom": 1388,
+      "atom": 1406,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
       "song": 41,
-      "unknown": 24,
-      "template": 79,
+      "unknown": 32,
+      "template": 88,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 71,
+      "motif": 83,
       "person": 157,
-      "concept": 49,
+      "concept": 55,
       "myth": 11
     },
-    "diagnostics_total": 14317,
+    "diagnostics_total": 14475,
     "errors": 0,
-    "warnings": 14317,
+    "warnings": 14475,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 239,
-        "atoms": 193,
+        "records": 265,
+        "atoms": 211,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -114,6 +114,7 @@
           "registers/songs/master_songs.md",
           "registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md",
           "registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md",
+          "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
@@ -124,6 +125,7 @@
           "sources/hook/source.md",
           "sources/hook_unknown_pleasures/source_part_1956_1976_salford_jamaica_music_pistols_epiphany.md",
           "sources/hook_unknown_pleasures/source_part_1976_lesser_free_trade_hall_bass_ian_joining.md",
+          "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
           "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md"
         ]
       },
@@ -14083,6 +14085,822 @@
       "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
       "message": "Invalid value for type_unite: synthese",
       "record_id": "S72-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: scene_reseau",
+      "record_id": "S41-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: construction_esthetique",
+      "record_id": "S41-A026"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: scene_live",
+      "record_id": "S41-A027"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: scene_live_desillusion",
+      "record_id": "S41-A028"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: economie_tournee",
+      "record_id": "S41-A029"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: scene_collective",
+      "record_id": "S41-A030"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: personnel_groupe",
+      "record_id": "S41-A031"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: scene_conflit",
+      "record_id": "S41-A032"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: performance_sensible",
+      "record_id": "S41-A033"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: session_studio",
+      "record_id": "S41-A034"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: scene_management",
+      "record_id": "S41-A035"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: personne_reseau",
+      "record_id": "S41-A036"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: recrutement_musical",
+      "record_id": "S41-A037"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: interpretation_groupe",
+      "record_id": "S41-A038"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: reception_live",
+      "record_id": "S41-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: evenement_discographique",
+      "record_id": "S41-A040"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Invalid value for type_unite: scene_live_violence",
+      "record_id": "S41-A041"
     },
     {
       "level": "warning",
@@ -79417,6 +80235,138 @@
       "file": "registers/songs/s76_torn_apart_songs_part_17.md",
       "message": "Invalid value for type_unite: film_context",
       "record_id": "SONG-S76-058"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-ELECTRIC-CIRCUS-1977-05-29"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-RAFTERS-HEARTBREAKERS-1977-05-31"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-NEWCASTLE-GUILD-HALL-1977-06-06"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-SQUAT-STUFF-THE-JUBILEE-1977"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-RAFTERS-FAST-BREEDER-1977-06-30"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: statut",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: importance",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SESSION-S41-WARSAW-DEMO-PENNINE-1977-07-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-ERICS-LIVERPOOL-1977-08-27"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-MIDDLESBROUGH-1977-09-14"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "DISC-S41-SHORT-CIRCUIT-ELECTRIC-CIRCUS"
     },
     {
       "level": "warning",
