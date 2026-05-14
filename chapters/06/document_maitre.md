@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T18:07:12"
+generated_at: "2026-05-14T19:00:42"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 382 |
+| Atomes | 388 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 102 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 108 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -246,6 +246,18 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live_locale` ; importance : `majeur` ; preuve : `chronologie + review rapportée`.
 - **S41-A103** — S41-A103 — Hope & Anchor dans la timeline : anti-consécration londonienne confirmée par review  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `review rapportée + chronologie`.
+- **S41-A104** — S41-A104 — Logistique du van : Hook porteur, roadies non payés et division matérielle du travail  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A105** — S41-A105 — Fatigue sans épilepsie : accélération collective et déni de la maladie  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A106** — S41-A106 — Rob Gretton à plein temps : téléphone, opportunités et emballement du calendrier  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A107** — S41-A107 — John Peel Session : validation radiophonique et prestige supérieur au chart placing  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_radio` ; importance : `critique` ; preuve : `témoignage direct + fait radiophonique établi`.
+- **S41-A108** — S41-A108 — T. J. Davidson’s : productivité collective et transformation des influences en idiome Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A111** — S41-A111 — Factory vs Genetic : liberté mancunienne contre avance londonienne  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct + éléments contractuels rapportés`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
@@ -268,18 +280,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_scene_locale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A054** — S45-A054 — Curtis force l’accès à Tony Wilson par l’invective  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A055** — S45-A055 — Rob Gretton voit Joy Division au moment de leur détermination maximale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A056** — S45-A056 — « Shadowplay » sur Granada : la ville monochrome comme dispositif télévisuel  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mediation_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + archive télévisuelle vérifiable`.
-- **S45-A057** — S45-A057 — Gretton comme gardien, parent de substitution et médiateur confidentiel  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation_management` ; importance : `critique` ; preuve : `témoignage direct rétrospectif situé`.
-- **S45-A058** — S45-A058 — L’incident du second guitariste : la basse de Hook avance par conflit  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A059** — S45-A059 — Band on the Wall : laboratoire chaotique, répétition publique et réception divergente  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `infrastructure_scene` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
-- **S45-A066** — S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 
 ## 7. Citations disponibles
 
@@ -511,46 +511,46 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (20)
+- Rob Gretton (21)
+- Factory (13)
 - Tony Wilson (13)
-- Factory (12)
 - Martin Hannett (12)
 - Unknown Pleasures (9)
 - Rafters (8)
 - Hannett (8)
 - Transmission (7)
+- Digital (6)
+- Terry Mason (6)
 - Electric Circus (6)
 - Ian Curtis (6)
 - Peter Saville (6)
 - Russell Club (5)
 - Strawberry Studios (5)
 - RCA (5)
-- Digital (5)
-- Terry Mason (5)
+- fatigue (5)
+- John Peel (5)
 - manager (5)
 - Gretton (5)
 - Love Will Tear Us Apart (5)
 - Buzzcocks tour (4)
 - Peter Hook (4)
 - télévision (4)
+- Shadowplay (4)
 - Bernard Sumner (4)
 - Band on the Wall (4)
 - Buzzcocks (4)
 - Glass (4)
+- Kraftwerk (4)
 - Stephen Morris (4)
 - Warsaw (4)
 - Atmosphere (4)
 - Closer (4)
 - Britannia Row (4)
 - synthétiseur (4)
-- fatigue (4)
 - John Anderson (4)
+- van (3)
 - Granada (3)
-- Shadowplay (3)
 - Rainbow Theatre (3)
-- Sounds (3)
-- reconnaissance (3)
-- Alan Erasmus (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -657,13 +657,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | biographie | 5 |
 | discographie | 5 |
 | fait_sensible | 5 |
+| processus_creatif | 4 |
+| economie_materielle | 4 |
 | analyse | 4 |
 | reception_critique | 4 |
 | fait_interprete | 4 |
 | session_radio | 4 |
-| processus_creatif | 3 |
 | tension_management | 3 |
-| economie_materielle | 3 |
 | scene_live | 3 |
 | scene_reseau | 3 |
 | scene_collective | 3 |
@@ -678,6 +678,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | economie_domestique | 2 |
 | reception | 2 |
 | relation | 2 |
+| management | 2 |
+| reception_radio | 2 |
 | seuil_chronologique | 2 |
 | construction_esthetique | 2 |
 | economie_tournee | 2 |
@@ -731,6 +733,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | evenement_live_crise | 1 |
 | tension_psychiatrique | 1 |
 | tension_management_sante | 1 |
+| tension_sante | 1 |
+| tension_industrie | 1 |
 | transition_nominale | 1 |
 | processus_sonore | 1 |
 | scene_live_desillusion | 1 |
@@ -780,7 +784,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | lecture_textuelle | 1 |
 | chronology | 1 |
 | contexte | 1 |
-| reception_radio | 1 |
 | strategie_discographique | 1 |
 | projet_avorte | 1 |
 | discographie_single | 1 |
@@ -847,7 +850,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | portrait_sensible | 1 |
 | transition | 1 |
 | concept_transversal | 1 |
-| management | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
 | song_pair | 1 |
@@ -858,9 +860,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 169 |
+| critique | 174 |
 | non qualifiée | 154 |
-| majeur | 35 |
+| majeur | 36 |
 | majeure | 24 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -904,6 +906,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S45-A139 [moyen] — Risque de réduire la responsabilité à Gretton seul ; la décision est prise dans l’urgence et l’économie du concert.
 - S45-A145 [très élevé] — Risque de présenter ce propos comme vérité définitive du désir de Curtis ; il est prononcé dans un contexte de crise.
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
+- S41-A104 [faible] — Atome matériel ; éviter d’en faire une explication globale des tensions du groupe.
+- S41-A105 [élevé] — Risque de juger rétrospectivement le groupe avec une conscience médicale et morale postérieure.
+- S41-A106 [moyen] — Ne pas réduire Gretton à l’accélération dangereuse ; il apporte aussi l’infrastructure indispensable.
+- S41-A107 [faible à moyen] — Ne pas convertir le prestige Peel en succès de masse ; c’est une validation de réseau.
+- S41-A108 [moyen] — Ne pas réduire « Digital » à Kraftwerk ni « Shadowplay » au Velvet Underground ; Hook insiste justement sur la transformation.
+- S41-A111 [élevé] — Risque de transformer le choix Factory en pure noblesse artistique ; Hook rappelle le coût sanitaire et financier du refus d’avance.
 - S41-A048 [faible à moyen] — Ne pas réduire Joy Division à une nécessité administrative ; le choix porte aussi une charge symbolique.
 - S41-A051 [moyen] — Ne pas figer Curtis et Sumner dans deux esthétiques pures ; Hook simplifie rétrospectivement.
 - S41-A052 [élevé] — Risque de faire de cet épisode la cause unique du son Joy Division ; il faut l’inscrire dans un faisceau matériel et collectif.
@@ -919,12 +927,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - S41-A032 [moyen] — Ne pas transformer cette rencontre en scène de destin Factory ; elle est d’abord conflictuelle et banale.
 - S41-A033 [élevé] — Risque de projeter l’épilepsie ou le mythe suicidaire sur une scène d’alcool, colère et performance.
 - S41-A035 [faible] — Atome de logistique comique ; ne pas surcharger.
-- S41-A036 [faible à moyen] — Ne pas téléologiser Gretton comme manager prédestiné.
-- S41-A037 [faible à moyen] — Ne pas isoler Morris comme cause unique du son ; il stabilise une dynamique collective.
-- S41-A038 [élevé] — Risque de projeter les conflits New Order sur Joy Division ; Hook écrit depuis l’après.
-- S41-A039 [moyen] — Ne pas faire de l’hostilité une essence du groupe ; elle est un mode de performance parmi d’autres.
-- S41-A041 [moyen] — Ne pas transformer la violence en simple folklore ; elle structure les appartenances locales.
-- S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
 
 ## 15. Lacunes et prochaines vérifications
 

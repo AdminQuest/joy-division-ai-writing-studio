@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T18:07:12"
+generated_at: "2026-05-14T19:00:42"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-14T18:07:12"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 191 |
+| Atomes | 195 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-14T18:07:12"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 30 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 34 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -55,6 +55,10 @@ generated_at: "2026-05-14T18:07:12"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_industrie` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A073** — S41-A073 — « Transmission » au Mayflower : morceau qui arrête le travail autour de lui  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_creative_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A108** — S41-A108 — T. J. Davidson’s : productivité collective et transformation des influences en idiome Joy Division  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A110** — S41-A110 — La voix avant les paroles : Hook n’entend d’abord qu’un cri signifiant  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_vocale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -111,10 +115,6 @@ generated_at: "2026-05-14T18:07:12"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `cadrage_source` ; importance : `critique` ; preuve : `cadrage_source`.
 - **S76-A002** — S76-A002 — Le refus familial du récit uniquement tragique  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `temoignage_familial_rapporte`.
-- **S76-A005** — S76-A005 — Le jeune Curtis meneur discret : charisme sans domination  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_biographique` ; importance : `critique` ; preuve : `temoignage_retroactif`.
-- **S76-A006** — S76-A006 — Chevalerie, histoire et correction du soupçon nazi  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_historiographique` ; importance : `critique` ; preuve : `memoire_familiale_et_temoignage_ami`.
 
 ## 6. Autres atomes utiles
 
@@ -508,12 +508,14 @@ generated_at: "2026-05-14T18:07:12"
 - Barton Street (7)
 - Natalie Curtis (7)
 - Annik Honoré (6)
+- Closer (4)
 - Bowie (4)
 - domesticité (4)
 - Tony Wilson (4)
 - Mark Reeder (4)
 - New Dawn Fades (3)
 - paroles (3)
+- Shadowplay (3)
 - No Love Lost (3)
 - Iggy Pop (3)
 - Macclesfield (3)
@@ -521,13 +523,15 @@ generated_at: "2026-05-14T18:07:12"
 - Wythenshawe (3)
 - Terry Mason (3)
 - David Lewis Centre (3)
-- Closer (3)
 - Pete Johnson (3)
 - mariage (3)
 - Rob Gretton (3)
 - tournée américaine (3)
 - blue room (2)
 - écriture (2)
+- T. J. Davidson’s (2)
+- Kraftwerk (2)
+- Unknown Pleasures (2)
 - House of Dolls (2)
 - Throbbing Gristle (2)
 - Interzone (2)
@@ -538,10 +542,6 @@ generated_at: "2026-05-14T18:07:12"
 - Plan K (2)
 - Derby Hall (2)
 - histoire (2)
-- Kevin Cummins (2)
-- Disorder (2)
-- paternité (2)
-- She’s Lost Control (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -566,6 +566,10 @@ generated_at: "2026-05-14T18:07:12"
 - S45-A030 — prolonge → S45-A025
 - S45-A030 — prolonge → CONCEPT-005
 - S45-A030 — nuance → MYTH-002
+- S41-A108 — prolonge → CONCEPT-064
+- S41-A108 — prolonge → CONCEPT-085
+- S41-A110 — nuance → MYTH-LYRICS-AS-DIARY
+- S41-A110 — prolonge → CONCEPT-077
 - S41-A044 — prolonge → CONCEPT-020
 - S41-A044 — prolonge → S41-A023
 - S41-A044 — prépare → S41-A045
@@ -621,10 +625,6 @@ generated_at: "2026-05-14T18:07:12"
 - S75-A032 — prolonge → CONCEPT-004
 - S75-A041 — illustre → CONCEPT-006
 - S75-A041 — requiert → CONCEPT-004
-- S75-A041 — nuance → MYTH-002
-- S75-A043 — nuance → MYTH-004
-- S75-A043 — prolonge → CONCEPT-006
-- S75-A043 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -633,13 +633,13 @@ generated_at: "2026-05-14T18:07:12"
 | Type | Nombre |
 |---|---|
 | fait_sensible | 9 |
+| non qualifié | 8 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
-| non qualifié | 6 |
 | interpretation | 5 |
+| processus_creatif | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
-| processus_creatif | 3 |
 | relation | 3 |
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
@@ -671,6 +671,7 @@ generated_at: "2026-05-14T18:07:12"
 | registre_influences | 1 |
 | lieu | 1 |
 | lieu_creatif | 1 |
+| interpretation_vocale | 1 |
 | session_studio | 1 |
 | paroles_source | 1 |
 | tension_industrie | 1 |
@@ -757,8 +758,8 @@ generated_at: "2026-05-14T18:07:12"
 
 | Importance | Nombre |
 |---|---|
-| critique | 86 |
-| non qualifiée | 70 |
+| critique | 88 |
+| non qualifiée | 72 |
 | majeure | 33 |
 | majeur | 1 |
 | structurante | 1 |
@@ -772,6 +773,8 @@ generated_at: "2026-05-14T18:07:12"
 - S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
 - S45-A025 [moyen] — Risque de sacraliser Barton Street comme sanctuaire ; conserver sa matérialité domestique et logistique.
 - S45-A030 [moyen] — Risque de transformer la pièce en sanctuaire mythique ; elle est d’abord un espace de travail et de séparation domestique.
+- S41-A108 [moyen] — Ne pas réduire « Digital » à Kraftwerk ni « Shadowplay » au Velvet Underground ; Hook insiste justement sur la transformation.
+- S41-A110 [moyen] — Ne pas opposer artificiellement voix et texte ; le passage montre une chronologie de l’écoute.
 - S41-A044 [moyen] — Risque de reprendre sans distance l’héroïsation de Curtis comme auteur sans faute après l’EP.
 - S41-A045 [élevé] — Risque de traiter les paroles comme journal intime ou comme idéologie transparente.
 - S41-A023 [élevé] — Risque de mythifier Curtis comme âme pure ; Hook écrit rétrospectivement après le mythe.
@@ -823,8 +826,6 @@ generated_at: "2026-05-14T18:07:12"
 - S76-A147 [tres_eleve] — les formulations de Curtis sont très fortes ; ne pas les transformer en annonce du suicide
 - S76-A148 [tres_eleve] — lettre très explicite ; risque de médicalisation totale du récit
 - S76-A150 [tres_eleve] — formulation extrêmement forte ; risque de l’utiliser comme preuve d’une issue déjà décidée
-- S76-A152 [tres_eleve] — chanson la plus mythifiable du corpus ; risque d’absorber toute la biographie de Curtis
-- S76-A153 [eleve] — risque de moraliser Deborah ou de sentimentaliser l’animal comme pur symbole tragique
 
 ## 15. Lacunes et prochaines vérifications
 

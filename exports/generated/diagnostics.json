@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-14T18:07:00",
+  "generated_at": "2026-05-14T19:00:30",
   "status": "warning",
   "summary": {
-    "records_total": 2861,
+    "records_total": 2906,
     "records_by_kind": {
-      "atom": 1477,
+      "atom": 1489,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 64,
+      "unknown": 68,
       "song": 41,
-      "template": 136,
+      "template": 147,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 129,
+      "motif": 139,
       "person": 157,
-      "concept": 86,
+      "concept": 94,
       "myth": 11
     },
-    "diagnostics_total": 15129,
+    "diagnostics_total": 15247,
     "errors": 0,
-    "warnings": 15129,
+    "warnings": 15247,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 368,
-        "atoms": 282,
+        "records": 384,
+        "atoms": 294,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -121,6 +121,7 @@
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+          "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
           "sources/hook/atomisation_04_unknown_pleasures_track_by_track.md",
@@ -136,7 +137,8 @@
           "sources/hook_unknown_pleasures/source_part_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
           "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
           "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md",
-          "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md"
+          "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+          "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md"
         ]
       },
       {
@@ -14095,6 +14097,438 @@
       "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
       "message": "Invalid value for type_unite: synthese",
       "record_id": "S72-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Invalid value for type_unite: economie_materielle",
+      "record_id": "S41-A104"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Invalid value for type_unite: tension_sante",
+      "record_id": "S41-A105"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Invalid value for type_unite: management",
+      "record_id": "S41-A106"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Invalid value for type_unite: reception_radio",
+      "record_id": "S41-A107"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Invalid value for type_unite: processus_creatif",
+      "record_id": "S41-A108"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Invalid value for type_unite: processus_creatif",
+      "record_id": "S41-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Invalid value for type_unite: interpretation_vocale",
+      "record_id": "S41-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Invalid value for type_unite: tension_industrie",
+      "record_id": "S41-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Invalid value for type_unite: session_studio",
+      "record_id": "S41-A112"
     },
     {
       "level": "warning",
@@ -81097,6 +81531,282 @@
       "file": "registers/songs/s76_torn_apart_songs_part_08.md",
       "message": "Invalid value for type_unite: song",
       "record_id": "SONG-S76-022"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "RADIO-S41-PEEL-SESSION-OFFER-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-DIGITAL-KRAFTWERK-METABOLISED"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-SHADOWPLAY-OCEAN-VELVET"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PROCESS-S41-CURTIS-CONDUCTOR-TJ"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "DEAL-S41-FACTORY-GENETIC-CHOICE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: statut",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: importance",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SESSION-S41-EDEN-STUDIOS-RUSHENT-GENETIC"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ARCHIVE-S41-EDEN-TAPES-RESURFACE"
     },
     {
       "level": "warning",

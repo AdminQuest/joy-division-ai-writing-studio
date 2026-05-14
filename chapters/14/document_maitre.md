@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T18:07:12"
+generated_at: "2026-05-14T19:00:42"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 681 |
+| Atomes | 682 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 74 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 75 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -97,6 +97,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `citations témoins externes rapportées par Hook`.
 - **S41-A103** — S41-A103 — Hope & Anchor dans la timeline : anti-consécration londonienne confirmée par review  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `review rapportée + chronologie`.
+- **S41-A107** — S41-A107 — John Peel Session : validation radiophonique et prestige supérieur au chart placing  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_radio` ; importance : `critique` ; preuve : `témoignage direct + fait radiophonique établi`.
 - **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
 - **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
@@ -117,8 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + témoignages Wilson/Mason rapportés`.
 - **S45-A144** — S45-A144 — Vidéo « Love Will Tear Us Apart » : marionnette du music-business  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
-- **S45-A150** — S45-A150 — Dernier concert et minder : gestion de tournée contre hospitalisation  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management_sante` ; importance : `critique` ; preuve : `témoignage direct indirect + reconstruction rétrospective de Deborah`.
 
 ## 6. Autres atomes utiles
 
@@ -250,6 +250,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `majeur` ; preuve : `témoignage direct + propos de Franck rapportés`.
 - **S45-A126** — S45-A126 — New Osbourne Club : beauté retrouvée, loge cachée et performance affaiblie  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_domestique` ; importance : `majeur` ; preuve : `témoignage direct + critique rapportée`.
+- **S45-A150** — S45-A150 — Dernier concert et minder : gestion de tournée contre hospitalisation  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management_sante` ; importance : `critique` ; preuve : `témoignage direct indirect + reconstruction rétrospective de Deborah`.
 - **S45-A152** — S45-A152 — Dernière photographie : fleurs, blue room et visage hanté  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_finale` ; importance : `critique` ; preuve : `témoignage direct + photographie existante mentionnée`.
 - **S45-A153** — S45-A153 — Stroszek et deadline américaine : charade finale devant le groupe  
@@ -280,8 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-023** — S46-023 — *Transmission* comme single de relance et attraction des majors  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_strategie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-025** — S46-025 — Europe 1979-1980 et Les Bains-Douches  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie_tournee` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -529,6 +529,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Buzzcocks (4)
 - Sounds (4)
 - Strawberry Studios (4)
+- John Peel (4)
 - Factory Club (4)
 - épilepsie (4)
 - Sister Ray (4)
@@ -540,6 +541,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Transmission (3)
 - Dave McCullough (3)
 - NME (3)
+- Peel Session (3)
 - Sex Pistols (3)
 - Alan Erasmus (3)
 - Vini Reilly (3)
@@ -548,8 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Hope & Anchor (3)
 - Rafters (3)
 - Paul Morley (3)
-- Bowie (3)
-- presse musicale (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -605,6 +605,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A153 — prolonge → S45-A151
 - S45-A153 — nuance → MYTH-002
 - S45-A153 — prépare → CHAPITRE-13-MY-TIMING
+- S41-A107 — prolonge → S41-A079
+- S41-A107 — prolonge → CONCEPT-075
 - S41-A047 — prolonge → S41-A046
 - S41-A047 — prolonge → S41-A040
 - S41-A047 — alimente → REGISTRE-BOOTLEGS
@@ -631,8 +633,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A096 — prolonge → CONCEPT-050
 - S41-A096 — prolonge → CONCEPT-073
 - S41-A099 — prolonge → S41-A077
-- S41-A099 — prépare → CONCEPT-037
-- S41-A100 — nuance → S41-A050
 
 ## 13. Distribution documentaire
 
@@ -680,6 +680,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert_europeen | 4 |
 | reception_presse | 3 |
 | objet_audiovisuel | 3 |
+| reception_radio | 3 |
 | economie_discographique | 3 |
 | scene_reseau | 3 |
 | scene_collective | 3 |
@@ -720,7 +721,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | controverse_biographique | 2 |
 | outtakes | 2 |
 | dernier_concert | 2 |
-| reception_radio | 2 |
 | collection | 2 |
 | archive_inedite | 2 |
 | versions_chanson | 2 |
@@ -985,7 +985,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 451 |
-| critique | 172 |
+| critique | 173 |
 | majeure | 39 |
 | majeur | 15 |
 | structurante | 2 |
@@ -1012,6 +1012,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
 - S45-A152 [moyen] — Risque de fétichiser la dernière photographie ; elle doit rester un document affectif et domestique.
 - S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
+- S41-A107 [faible à moyen] — Ne pas convertir le prestige Peel en succès de masse ; c’est une validation de réseau.
 - S41-A047 [moyen] — Risque de fétichiser l’objet rare en oubliant sa réception initiale honteuse.
 - S41-A049 [moyen] — Risque d’éparpiller l’analyse ; l’intérêt est le rapport entre nom, marque, bootleg et refus du merchandising.
 - S41-A053 [moyen] — Ne pas transformer le lieu en cause esthétique directe ; il agit comme environnement de répétition et de mémoire.
@@ -1052,7 +1053,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
 - S75-A065 [eleve] — matériau affectif conflictuel, fortement mythologisé, avec sources mémorielles divergentes
 - S75-A066 [moyen] — ne pas présenter la reconnaissance comme cause directe de l'effondrement ; elle intensifie un faisceau de contraintes
-- S75-A067 [moyen] — détails d'offre à recouper avec sources Factory, Warner et témoignages des acteurs
 
 ## 15. Lacunes et prochaines vérifications
 
