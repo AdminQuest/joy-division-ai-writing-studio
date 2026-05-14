@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T05:50:53"
+generated_at: "2026-05-14T09:16:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 199 |
+| Atomes | 201 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -35,7 +35,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 36 | 4 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 12 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
 | S68 | S68 — Broll, Joy Division, 1988 | 8 | 0 |
@@ -60,6 +60,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignages directs rapportés de Morris et Sumner`.
 - **S45-A078** — S45-A078 — *Unknown Pleasures* : Hannett comme catalyseur de coordination sonore  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
 - **S74-A048** — S74-A048 — Rainbow Theatre : la crise d’épilepsie comme effondrement scénique public  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A049** — S74-A049 — Derby Hall : erreur collective, expérimentation Factory et émeute  
@@ -116,8 +118,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_repetition` ; importance : `critique` ; preuve : `temoignage_direct_Mick_Middles`.
 - **S76-A098** — S76-A098 — Première Peel Session : Maida Vale comme réplique BBC de la spatialisation Hannett  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_radio` ; importance : `critique` ; preuve : `evenement_radiophonique_corroborable_et_interpretation_S76`.
-- **S76-A101** — S76-A101 — Genetic demos : Rushent éclaire Joy Division mais n’obtient pas l’intimité Hannett  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `session_studio` ; importance : `critique` ; preuve : `session_corroborable_et_interpretation_S76`.
 
 ## 6. Autres atomes utiles
 
@@ -466,6 +466,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Hannett (8)
 - Strawberry Studios (6)
 - Martin Hannett (6)
+- Britannia Row (4)
 - Unknown Pleasures (4)
 - Peter Hook (3)
 - Shadowplay (3)
@@ -475,9 +476,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Transmission (3)
 - Atmosphere (3)
 - domesticité (3)
-- Britannia Row (3)
 - basse (2)
 - Bernard Sumner (2)
+- Closer (2)
 - RCA (2)
 - synthétiseur (2)
 - radio (2)
@@ -502,13 +503,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Sister Ray (2)
 - Velvet Underground (2)
 - conflit interne (1)
-- second guitariste (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
 - S45-A058 — prolonge → CONCEPT-006
 - S45-A058 — prolonge → CONCEPT-005
 - S45-A058 — nuance → MYTH-006
+- S45-A132 — prolonge → S45-A125
+- S45-A132 — prolonge → CONCEPT-023
+- S45-A132 — prépare → CHAPITRE-11-THIS-IS-MY-CRISIS
 - S45-A050 — prolonge → S75-A021
 - S45-A050 — prolonge → CONCEPT-005
 - S45-A050 — prépare → S45-A051
@@ -583,9 +586,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A048 — illustre → CONCEPT-006
 - S75-A048 — nuance → MYTH-002
 - S75-A048 — nuance → MYTH-004
-- S75-A049 — prolonge → CONCEPT-006
-- S75-A049 — prolonge → MOTIF-001
-- S75-A049 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -596,8 +596,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | production | 15 |
 | lecture_musicale | 10 |
 | analyse | 9 |
+| non qualifié | 9 |
 | fait | 9 |
-| non qualifié | 8 |
 | session_studio | 8 |
 | session | 7 |
 | concept | 5 |
@@ -632,6 +632,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | album | 2 |
 | song | 2 |
 | song_or_cover | 2 |
+| session_domestique | 1 |
 | concert | 1 |
 | contrepoint | 1 |
 | archive_broadcast | 1 |
@@ -688,13 +689,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 144 |
-| critique | 44 |
+| non qualifiée | 145 |
+| critique | 45 |
 | majeure | 11 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S45-A058 [moyen] — Risque d’attribuer toute la centralité de la basse à cet incident unique ; il faut le traiter comme catalyseur possible, non cause totale.
+- S45-A132 [élevé] — Risque de réduire *Closer* à la crise Annik/Deborah ; le passage éclaire un contexte de création, non une causalité esthétique totale.
 - S45-A050 [moyen] — Ne pas caricaturer RCA comme seul méchant industriel ; la naïveté du groupe est aussi documentée.
 - S45-A051 [moyen] — Ne pas opposer mécaniquement âme industrielle et pureté Joy Division ; le problème est l’inadéquation entre commande, production et état du groupe.
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.

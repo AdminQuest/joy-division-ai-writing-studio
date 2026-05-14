@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T05:50:53"
+generated_at: "2026-05-14T09:16:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 100 |
+| Atomes | 102 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
@@ -34,7 +34,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 13 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 15 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 13 | 0 |
@@ -62,6 +62,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
 - **S45-A090** — S45-A090 — *Unknown Pleasures* publié : objet Factory, faces « Inside/Outside » et rejet domestique initial  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
+- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
 - **S75-A008** — S75-A008 — Les démos Warsaw comme document bootleg empiriquement précieux  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `bootleg` ; importance : `critique` ; preuve : `plausible`.
 - **S75-A021** — S75-A021 — RCA comme désastre industriel et illusion majeure  
@@ -112,8 +114,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A054** — S75-A054 — *Still* et les titres de réserve : austérité gothique, exercices et titres trouvés  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -217,6 +217,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A022** — S72-A022 — *A Factory Sample* : « Digital » et « Glass » comme seuil du son Joy Division  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S75-A054** — S75-A054 — *Still* et les titres de réserve : austérité gothique, exercices et titres trouvés  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S76-A051** — S76-A051 — La voix de Curtis à Arrow : adrift, dislodged, reedy  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `analyse_sonore` ; importance : `majeure` ; preuve : `description_critique_S76`.
 - **S76-A065** — S76-A065 — Racheter les bandes : 1 000 livres, puis 850, et le sentiment d’être « mugged »  
@@ -224,6 +226,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - **S76-A166** — S76-A166 — « Sister Ray » au Moonlight : reprise terminale ou mémoire d’apprentissage persistante  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_reprise` ; importance : `majeure` ; preuve : `live_archive_et_interpretation_S76`.
 - **SONG-S45-AN-IDEAL-FOR-LIVING** — S45 — Chansons et objets discographiques — *An Ideal for Living*, travail social, RCA  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **SONG-S45-CLOSER-BRITANNIA-ROW-THRESHOLD** — S45 — Chansons, albums, films et sessions — tournée européenne, Annik, seuil *Closer*  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S45-SHORT-CIRCUIT** — S45 — Chansons et objets discographiques — *An Ideal for Living*, travail social, RCA  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
@@ -346,6 +350,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - novelty (2)
 - architecture sonore (2)
 - contrainte productive (2)
+- invitation symbolique / exclusion pratique (1)
+- studio comme dissociation domestique (1)
+- œuvre capitale sous crise intime (1)
 - indépendance comme contrôle de forme (1)
 - anti-major pragmatique (1)
 - liberté esthétique négociée (1)
@@ -382,9 +389,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - studio (1)
 - anti-récit (1)
 - rca (1)
-- contrat (1)
-- indépendance (1)
-- labels indépendants (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -415,6 +419,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Europe (2)
 - Moonlight Club (2)
 - Sister Ray (2)
+- Closer (1)
+- Britannia Row (1)
+- wives and girlfriends (1)
+- 20 livres (1)
+- Annik (1)
+- flats (1)
 - Factory (1)
 - liberté (1)
 - artwork (1)
@@ -424,15 +434,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - cigarettes (1)
 - nettoyage (1)
 - Return of the Durutti Column (1)
-- sandpaper sleeves (1)
-- travail manuel (1)
-- publishing (1)
-- royalties (1)
-- crédit collectif (1)
-- outsider (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S45-A132 — prolonge → S45-A125
+- S45-A132 — prolonge → CONCEPT-023
+- S45-A132 — prépare → CHAPITRE-11-THIS-IS-MY-CRISIS
 - S45-A086 — prolonge → MYTH-005
 - S45-A086 — prolonge → CONCEPT-015
 - S45-A086 — prépare → S45-A090
@@ -510,9 +517,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S76-A051 — prolonge → S76-A050
 - S76-A051 — prepare → CONCEPT-spatialite_sonore
 - S76-A051 — nuance → MYTH-002
-- S76-A078 — prolonge → S76-A073
-- S76-A078 — nuance → MYTH-005
-- S76-A078 — relie → CONCEPT-005
 
 ## 13. Distribution documentaire
 
@@ -525,15 +529,16 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | concert | 6 |
 | analyse | 5 |
 | archive | 5 |
+| non qualifié | 4 |
 | session | 3 |
 | chronologie | 3 |
 | live_set_bootleg_context | 3 |
-| non qualifié | 3 |
 | discographie | 2 |
 | bootleg | 2 |
 | session_studio | 2 |
 | concert_archive | 2 |
 | song_or_release | 2 |
+| session_domestique | 1 |
 | position_esthetique | 1 |
 | economie_materielle | 1 |
 | tension_economique | 1 |
@@ -557,13 +562,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 61 |
-| critique | 32 |
+| non qualifiée | 62 |
+| critique | 33 |
 | majeure | 6 |
 | majeur | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S45-A132 [élevé] — Risque de réduire *Closer* à la crise Annik/Deborah ; le passage éclaire un contexte de création, non une causalité esthétique totale.
 - S45-A086 [moyen] — Risque de faire de Factory une pure utopie anti-business ; l’argent et les prêts restent au centre de la réflexion.
 - S45-A088 [faible] — Risque limité ; veiller seulement à ne pas fétichiser le détail Factory.
 - S45-A089 [moyen] — Risque de prendre la perception de Deborah comme mesure objective du crédit d’auteur ; le partage collectif doit être analysé comme compromis.

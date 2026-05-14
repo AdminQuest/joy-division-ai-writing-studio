@@ -1122,6 +1122,1048 @@
   },
   {
     "kind": "atom",
+    "id": "S45-A119",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A119 — Barton Street à vendre : séparation matérielle avant séparation dite",
+    "data": {
+      "id": "S45-A119",
+      "type_unite": "tension_domestique",
+      "titre": "Barton Street à vendre : séparation matérielle avant séparation dite",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "103",
+        "papier": "à verrouiller"
+      },
+      "citation": "he wasn’t intending to move into the flat with me",
+      "resume": "Au moment du départ pour la tournée européenne de janvier 1980, Ian suggère de vendre la maison de Barton Street et de déménager dans un appartement. Deborah comprend rétrospectivement qu’il envisage déjà la liquidation matérielle du foyer et sa propre sortie du couple, tandis que la référence attribuée à Hooky selon laquelle Deborah et Natalie n’auraient aucun droit à rester dans la maison révèle que le groupe paraît plus informé qu’elle de la crise conjugale.\n",
+      "role_argumentatif": "Atome de seuil : la rupture conjugale se formule d’abord comme hypothèse immobilière et partage de l’equity, non comme aveu sentimental.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "faible à moyenne ; à croiser avec Hook si possible",
+        "confiance": "élevée pour la perception de Deborah ; prudence sur la parole attribuée à Hook"
+      },
+      "stabilite": {
+        "statut": "stable comme scène domestique ; attribution à Hook à vérifier"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de lire toute la scène comme plan juridique conscient ; Deborah reconstruit après coup une intention qu’elle ne percevait pas alors.\n"
+      },
+      "motifs": [
+        "Barton Street",
+        "vente de la maison",
+        "equity",
+        "Hooky",
+        "départ en tournée"
+      ],
+      "concepts_derives": [
+        "séparation matérielle",
+        "dépossession immobilière",
+        "rupture non dite"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A118",
+          "note": "Le mariage terminé devient maintenant projet matériel de séparation."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-029",
+          "note": "La vérité conjugale demeure différée et lue après coup."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "La parole attribuée à Hook doit être croisée."
+        }
+      ],
+      "couche_narrative": [
+        "domesticité",
+        "économie",
+        "intime"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A120",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A120 — Tournée européenne : départ sans adieu et Annik comme exception à la no women policy",
+    "data": {
+      "id": "S45-A120",
+      "type_unite": "tension_tournee",
+      "titre": "Tournée européenne : départ sans adieu et Annik comme exception à la no women policy",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "103-104",
+        "papier": "à verrouiller"
+      },
+      "citation": "Unknown to me he was setting the scene for taking Annik on tour with him.",
+      "resume": "Ian quitte Barton Street sans dire au revoir à Deborah et Natalie, ne téléphone pas et n’envoie aucune carte pendant la tournée européenne. Deborah comprend ensuite que cette froideur prépare la présence d’Annik sur la tournée. Le principe d’exclusion des épouses et compagnes s’effondre : Annik n’est pas comptée comme telle et devient une présence acceptée dans le dispositif de tournée.\n",
+      "role_argumentatif": "Atome central sur la contradiction genrée de la tournée : les femmes légitimes sont exclues au nom de la concentration du groupe, tandis que la maîtresse accompagne Ian.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + souvenir rapporté de Tony Wilson",
+        "corroboration": "forte sur la tournée ; moyenne sur les motivations et perceptions",
+        "confiance": "élevée pour le vécu de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme tension documentaire"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de réduire la tournée à Annik ; le passage documente aussi fatigue, sommeil, transport et santé.\n"
+      },
+      "motifs": [
+        "tournée européenne",
+        "Annik Honoré",
+        "no women policy",
+        "absence de carte",
+        "hovercraft"
+      ],
+      "concepts_derives": [
+        "exception de maîtresse",
+        "politique genrée contradictoire",
+        "tournée comme écran"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A095",
+          "note": "La no women policy est contredite par la présence d’Annik."
+        },
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-033",
+          "note": "La maîtresse invisible devient présence de tournée."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-018",
+          "note": "La politique affective du groupe devient explicitement asymétrique."
+        }
+      ],
+      "couche_narrative": [
+        "tournée",
+        "genre",
+        "intime"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A121",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A121 — Pernod, Bible et Revelation : crise alcoolisée, scène religieuse et récit divergent",
+    "data": {
+      "id": "S45-A121",
+      "type_unite": "scene_sensible",
+      "titre": "Pernod, Bible et Revelation : crise alcoolisée, scène religieuse et récit divergent",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "104-105",
+        "papier": "à verrouiller"
+      },
+      "citation": "The Bible was still open.",
+      "resume": "À son retour de tournée, Ian est retrouvé ivre dans la blue room après avoir bu du Pernod. Deborah découvre une Bible ouverte et un couteau ; le chapitre deux de l’Apocalypse est lacéré, avec les mots sur Jezebel encore lisibles. Elle interprète d’abord la scène comme jalousie envers elle, tandis que Steve Morris y voit une histoire d’ivresse et d’automutilation ensuite romancée comme expérience religieuse.\n",
+      "role_argumentatif": "Atome de tension documentaire : la même scène produit trois lectures concurrentes — jalousie conjugale, crise religieuse, ivresse avec scarification.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + témoignage rapporté de Morris",
+        "corroboration": "moyenne ; scène privée difficilement vérifiable",
+        "confiance": "élevée pour la scène matérielle ; faible pour l’intention de Curtis"
+      },
+      "stabilite": {
+        "statut": "stable comme scène ; interprétation instable"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque de transformer l’épisode en prophétie religieuse ou en signe suicidaire univoque.\n"
+      },
+      "motifs": [
+        "Pernod",
+        "Bible",
+        "Revelation",
+        "Jezebel",
+        "couteau",
+        "scarification"
+      ],
+      "concepts_derives": [
+        "scène à lectures concurrentes",
+        "herméneutique domestique erronée",
+        "religiosité mise en récit"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-029",
+          "note": "Deborah interprète encore les signes à partir de sa place conjugale."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-019",
+          "note": "Alcool, fatigue, maladie et mise en récit doivent rester en faisceau."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Éviter toute lecture prophétique ou pathologisante univoque."
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "intime",
+        "religion"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A122",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A122 — Arrêt annoncé des concerts : pacificateur domestique et calendrier impossible",
+    "data": {
+      "id": "S45-A122",
+      "type_unite": "tension_professionnelle",
+      "titre": "Arrêt annoncé des concerts : pacificateur domestique et calendrier impossible",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "105",
+        "papier": "à verrouiller"
+      },
+      "citation": "a mere pacifier, designed to calm Ian down",
+      "resume": "Ian annonce que Joy Division va arrêter les concerts pendant douze mois. Deborah ne croit pas à cette décision : elle la lit comme un pacificateur destiné à calmer Ian, vite contredit par l’annonce d’une tournée américaine et de concerts britanniques préparatoires.\n",
+      "role_argumentatif": "Atome utile pour comprendre l’impossibilité structurelle du repos : la décision raisonnable existe comme discours, mais la dynamique de carrière l’annule immédiatement.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "forte avec calendrier 1980 ; à croiser avec gig lists",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque d’attribuer cyniquement la poursuite des concerts à un seul acteur ; elle relève d’un dispositif collectif et d’un calendrier déjà lancé.\n"
+      },
+      "motifs": [
+        "arrêt des concerts",
+        "tournée américaine",
+        "pacifier",
+        "repos impossible"
+      ],
+      "concepts_derives": [
+        "repos déclaré/repos annulé",
+        "inertie professionnelle"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-026",
+          "note": "La professionnalisation sous surveillance médicale n’arrive pas à produire du repos."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A136",
+          "note": "Prépare les tensions de la tournée américaine à venir."
+        }
+      ],
+      "couche_narrative": [
+        "tournée",
+        "santé",
+        "management"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A123",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A123 — Party chez Claire : charme social et aveu brutal de désamour",
+    "data": {
+      "id": "S45-A123",
+      "type_unite": "scene_domestique",
+      "titre": "Party chez Claire : charme social et aveu brutal de désamour",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "105-106",
+        "papier": "à verrouiller"
+      },
+      "citation": "I don’t think I do",
+      "resume": "Deborah tente de ramener Ian vers elle en l’emmenant à une soirée chez Claire, collègue de Silklands. Ian se montre charmant avec des amis ordinaires, puis, au retour, reprend une conversation en affirmant qu’il ne verrait pas d’inconvénient à ce qu’elle couche avec un autre homme. Lorsqu’elle lui demande s’il ne l’aime plus, il répond qu’il ne pense pas l’aimer encore.\n",
+      "role_argumentatif": "Atome pivot : l’effondrement conjugal cesse d’être seulement interprété par signes et devient parole explicite, mais sous une forme sèche et presque administrative.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "faible nécessaire ; scène privée",
+        "confiance": "élevée pour la perception de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme scène de source"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de figer Ian dans cette phrase ; elle doit être reliée au contexte d’Annik, de maladie, de fatigue et de séparation.\n"
+      },
+      "motifs": [
+        "Claire",
+        "Silklands",
+        "désamour",
+        "liberté imposée",
+        "Brown Street"
+      ],
+      "concepts_derives": [
+        "liberté comme abandon",
+        "parole sèche de rupture",
+        "couple vidé"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A115",
+          "note": "Le couple déserté reçoit ici une formulation directe."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-029",
+          "note": "La vérité conjugale devient enfin partiellement dite."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A127",
+          "note": "Prépare la découverte du nom d’Annik."
+        }
+      ],
+      "couche_narrative": [
+        "intime",
+        "domesticité"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A124",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A124 — Franck Essner à Barton Street : charade familiale et regard transnational",
+    "data": {
+      "id": "S45-A124",
+      "type_unite": "reception_transnationale",
+      "titre": "Franck Essner à Barton Street : charade familiale et regard transnational",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "106",
+        "papier": "à verrouiller"
+      },
+      "citation": "an elaborate charade as a poor but happy family unit",
+      "resume": "La venue de Franck Essner à Barton Street suspend provisoirement la crise conjugale. Ian et Deborah jouent la famille pauvre mais heureuse, Ian se montre plus tendre avec Natalie, accepte d’être photographié avec elle à Macclesfield Forest, tandis que Franck interprète Ian comme un être fait d’un matériau différent, de passage parmi les autres.\n",
+      "role_argumentatif": "Atome double : il documente la réception transnationale intime de Curtis et montre comment la famille peut encore être mise en scène devant un témoin extérieur.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + propos de Franck rapportés",
+        "corroboration": "moyenne ; à croiser avec Essner et photographies",
+        "confiance": "élevée pour le récit de Deborah ; moyenne pour la portée interprétative"
+      },
+      "stabilite": {
+        "statut": "stable comme scène de mémoire"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de transformer la formule de Franck en essentialisation mystique de Curtis.\n"
+      },
+      "motifs": [
+        "Franck Essner",
+        "Barton Street",
+        "Macclesfield Forest",
+        "charade familiale",
+        "Natalie"
+      ],
+      "concepts_derives": [
+        "famille performée",
+        "témoin transnational intime",
+        "Curtis être de passage"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A116",
+          "note": "Franck passe du fandom transnational à l’intimité du foyer."
+        },
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-038",
+          "note": "Le fandom devient hospitalité domestique."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-002",
+          "note": "La formule de Franck nourrit le mythe mais doit être encadrée."
+        }
+      ],
+      "couche_narrative": [
+        "réception",
+        "domesticité",
+        "Europe"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A125",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A125 — Top Shop et tournée américaine : crédit domestique, vêtements de scène et Annik financée",
+    "data": {
+      "id": "S45-A125",
+      "type_unite": "economie_domestique",
+      "titre": "Top Shop et tournée américaine : crédit domestique, vêtements de scène et Annik financée",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "106-107",
+        "papier": "à verrouiller"
+      },
+      "citation": "Annik’s expenses on the European tour had been incorporated into Joy Division’s",
+      "resume": "Ian prépare la tournée américaine et persuade Deborah d’ouvrir une carte Top Shop qui sert aussi à lui acheter une veste. Deborah souhaite l’accompagner aux États-Unis, mais on lui affirme que le groupe ne peut pas se le permettre. Elle apprend ensuite que les dépenses d’Annik pendant la tournée européenne ont été intégrées dans les comptes de Joy Division.\n",
+      "role_argumentatif": "Atome essentiel sur l’injustice matérielle : l’épouse finance et reste à l’écart, tandis que la maîtresse est absorbée dans l’économie de tournée.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne ; à croiser avec comptes de tournée si disponibles",
+        "confiance": "élevée pour la perception ; prudence sur comptabilité exacte"
+      },
+      "stabilite": {
+        "statut": "stable comme grief documenté par Deborah"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de réduire l’économie de tournée au scandale Annik ; le passage éclaire surtout l’asymétrie matérielle.\n"
+      },
+      "motifs": [
+        "Top Shop",
+        "store card",
+        "tournée américaine",
+        "veste",
+        "dépenses d’Annik"
+      ],
+      "concepts_derives": [
+        "crédit domestique transféré",
+        "économie asymétrique de tournée",
+        "épouse exclue / maîtresse financée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-031",
+          "note": "Le foyer continue à financer indirectement la carrière."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A120",
+          "note": "La présence d’Annik a aussi un coût économique invisible."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-023",
+          "note": "La femme légitime reste utile économiquement mais exclue symboliquement."
+        }
+      ],
+      "couche_narrative": [
+        "économie",
+        "tournée",
+        "genre"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A126",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A126 — New Osbourne Club : beauté retrouvée, loge cachée et performance affaiblie",
+    "data": {
+      "id": "S45-A126",
+      "type_unite": "scene_live_domestique",
+      "titre": "New Osbourne Club : beauté retrouvée, loge cachée et performance affaiblie",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "107",
+        "papier": "à verrouiller"
+      },
+      "citation": "the rest of the entourage’s reluctance to tell me where the dressing room was mystified me",
+      "resume": "Lors du concert de soutien à *City Fun* au New Osbourne Club, Deborah peut venir car le concert est local. Elle conduit Ian mais ne le voit presque pas ; l’entourage reste réticent à lui indiquer la loge, tandis que Sue remarque son apparence retrouvée. Mick Middles juge la performance affaiblie, privée d’arrogance, d’urgence, d’engagement et de sentiment.\n",
+      "role_argumentatif": "Atome sur le décalage entre reprise de soi de Deborah, dissimulation collective et fragilisation live du groupe.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + critique rapportée",
+        "corroboration": "moyenne ; critique Middles à vérifier",
+        "confiance": "élevée pour la scène ; moyenne pour citation critique"
+      },
+      "stabilite": {
+        "statut": "stable comme tension ; citation à vérifier"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque d’attribuer la performance affaiblie uniquement à la crise conjugale ; le groupe subit aussi fatigue, pression et santé.\n"
+      },
+      "motifs": [
+        "New Osbourne Club",
+        "City Fun",
+        "dressing room cachée",
+        "Sue Sumner",
+        "Mick Middles"
+      ],
+      "concepts_derives": [
+        "dissimulation collective locale",
+        "épouse qui refleurit",
+        "performance sous tension"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A110",
+          "note": "La loge reste un espace de vérité cachée."
+        },
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-034",
+          "note": "Backstage devient théâtre d’exclusion."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-029",
+          "note": "Deborah n’a pas encore découvert Annik, mais le cercle sait."
+        }
+      ],
+      "couche_narrative": [
+        "live",
+        "domesticité",
+        "genre"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A127",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A127 — Découverte de l’adresse d’Annik : enquête domestique et vérité matérielle",
+    "data": {
+      "id": "S45-A127",
+      "type_unite": "scene_documentaire",
+      "titre": "Découverte de l’adresse d’Annik : enquête domestique et vérité matérielle",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "107-108",
+        "papier": "à verrouiller"
+      },
+      "citation": "I found the name Annik Honoré and her address in Delvino Road, London.",
+      "resume": "Après des critiques contradictoires de concerts londoniens et la conviction qu’autre chose que la maladie explique la transformation de Ian, Deborah fouille les poches, papiers et carnets de la maison. Dans un sac de cahiers rejetés, elle trouve le nom et l’adresse d’Annik Honoré à Londres.\n",
+      "role_argumentatif": "Atome de preuve matérielle : la vérité conjugale cesse d’être intuitive ou comportementale et prend la forme d’un nom écrit et d’une adresse.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "moyenne ; existence d’Annik établie par sources croisées",
+        "confiance": "élevée pour la scène rapportée"
+      },
+      "stabilite": {
+        "statut": "stable comme scène de découverte"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible à moyen",
+        "raison": "Risque limité sur la découverte ; prudence sur ce qu’elle prouve exactement quant à la relation.\n"
+      },
+      "motifs": [
+        "Annik Honoré",
+        "Delvino Road",
+        "notebooks",
+        "enquête domestique",
+        "preuve écrite"
+      ],
+      "concepts_derives": [
+        "vérité par archive domestique",
+        "nom comme preuve",
+        "foyer devenu enquête"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-029",
+          "note": "La vérité différée devient preuve matérielle."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A109",
+          "note": "La périphrase ‘tour arranger’ reçoit un nom propre et une adresse."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A128",
+          "note": "Prépare la confrontation directe."
+        }
+      ],
+      "couche_narrative": [
+        "domesticité",
+        "preuve",
+        "intime"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A128",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A128 — Confrontation Annik : rire, Low brisé et promesse de rupture",
+    "data": {
+      "id": "S45-A128",
+      "type_unite": "scene_conjugale",
+      "titre": "Confrontation Annik : rire, Low brisé et promesse de rupture",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "108",
+        "papier": "à verrouiller"
+      },
+      "citation": "It’s Annik Honoré isn’t it?",
+      "resume": "Deborah confronte Ian en essayant d’abord d’écarter l’évidence par l’hypothèse d’un amour homosexuel. Le rire silencieux rétablit brièvement une complicité. Lorsqu’elle nomme Annik, Ian acquiesce. Deborah casse *Low* de David Bowie puis frappe Ian ; il ne réagit pas. Il demande du temps pour rompre avec Annik, et Deborah accepte, soulagée par l’absence de déclaration d’amour pour elle.\n",
+      "role_argumentatif": "Atome central de vérité conjugale : la révélation ne débouche pas sur une décision claire mais sur une suspension, une promesse et une attente.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "moyenne ; scène privée",
+        "confiance": "élevée pour la perception de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme scène de mémoire"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de dramatiser *Low* comme symbole total ; l’acte signale surtout la rupture entre l’univers Bowie fondateur et la crise intime.\n"
+      },
+      "motifs": [
+        "Annik Honoré",
+        "Low",
+        "rire silencieux",
+        "promesse de rupture",
+        "violence conjugale"
+      ],
+      "concepts_derives": [
+        "révélation suspendue",
+        "complicité brève dans la rupture",
+        "objet musical brisé"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A127",
+          "note": "La preuve écrite devient aveu."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-029",
+          "note": "La vérité arrive mais reste sans résolution."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Ne pas réduire la scène à la violence ou au symbole Bowie."
+        }
+      ],
+      "couche_narrative": [
+        "intime",
+        "musique",
+        "violence"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A129",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A129 — Pseudo-crises possibles : manipulation, maladie et prudence probatoire",
+    "data": {
+      "id": "S45-A129",
+      "type_unite": "tension_medicale",
+      "titre": "Pseudo-crises possibles : manipulation, maladie et prudence probatoire",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "108",
+        "papier": "à verrouiller"
+      },
+      "citation": "Pseudo-seizures can be feigned either consciously or subconsciously",
+      "resume": "Après la confrontation, Deborah rapporte que Ian ne semble pas rompre avec Annik. Lorsqu’elle le défie, il regarde par la fenêtre puis une crise est induite ; Deborah tente de le rattraper. Elle introduit la notion de pseudo-crises, conscientes ou inconscientes, tout en signalant que les membres du groupe nient que Ian ait jamais simulé ce symptôme.\n",
+      "role_argumentatif": "Atome de prudence maximale : il faut tenir ensemble maladie réelle, possibilité de crise psychogène, perception de manipulation et contradiction des témoins du groupe.\n",
+      "niveau_preuve": {
+        "statut": "interprétation de Deborah + désaccord rapporté des membres du groupe",
+        "corroboration": "faible pour la simulation ; forte pour la tension interprétative",
+        "confiance": "moyenne comme tension ; faible comme fait médical"
+      },
+      "stabilite": {
+        "statut": "instable comme explication ; stable comme problème documentaire"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque de conclure à une manipulation médicale sans preuve ; l’atome doit rester une tension documentaire.\n"
+      },
+      "motifs": [
+        "pseudo-seizures",
+        "manipulation",
+        "fenêtre",
+        "chute",
+        "crise induite"
+      ],
+      "concepts_derives": [
+        "symptôme contesté",
+        "maladie/manipulation indécidable",
+        "prudence probatoire médicale"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-019",
+          "note": "La non-monocausalité médicale inclut l’indécidable des symptômes."
+        },
+        {
+          "type": "alerte",
+          "cible": "RISQUE-CAUSALITE-MEDICALE",
+          "note": "Ne pas diagnostiquer une simulation."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Distinguer perception de Deborah et désaccord des autres témoins."
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "intime",
+        "méthode"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A130",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A130 — Bague, red bill et Candy : effondrement de l’économie domestique",
+    "data": {
+      "id": "S45-A130",
+      "type_unite": "economie_domestique",
+      "titre": "Bague, red bill et Candy : effondrement de l’économie domestique",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "109-110",
+        "papier": "à verrouiller"
+      },
+      "citation": "the red electricity bill came there was no money to pay for it",
+      "resume": "Deborah retire son alliance avant de partir travailler, mais la remet sous le regard de Doreen. Les dettes s’accumulent, le red electricity bill ne peut être payé, Ian reçoit des vêtements de scène de Gretton tandis que Deborah tient des listes de dépenses. Candy devient un coût impossible : mal nourrie, perdant ses poils, elle est envoyée dans une ferme de Rochdale par les parents de Deborah.\n",
+      "role_argumentatif": "Atome majeur sur l’envers matériel de la crise : la rupture sentimentale se manifeste par factures, animaux, alliances, vêtements de scène et comptabilité domestique humiliée.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "faible nécessaire ; scène domestique",
+        "confiance": "élevée pour la perception de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme faisceau domestique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "faible à moyen",
+        "raison": "Risque de réduire le passage à une plainte financière ; il documente une infrastructure matérielle de l’effondrement.\n"
+      },
+      "motifs": [
+        "wedding ring",
+        "red electricity bill",
+        "Candy",
+        "vêtements de scène",
+        "housekeeping bills",
+        "Rochdale farm"
+      ],
+      "concepts_derives": [
+        "effondrement domestique matériel",
+        "alliance comme signe social",
+        "animal sacrifié par l’économie"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-031",
+          "note": "Le coût de la professionnalisation atteint les dépenses vitales du foyer."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A060",
+          "note": "Candy, contrepoint domestique, disparaît avec l’effondrement matériel."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-021",
+          "note": "Le care inclut désormais l’impossibilité matérielle de nourrir le foyer."
+        }
+      ],
+      "couche_narrative": [
+        "économie",
+        "domesticité",
+        "care"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A131",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A131 — Natalie au coucher : paternité désirée et restriction auto-imposée",
+    "data": {
+      "id": "S45-A131",
+      "type_unite": "scene_domestique_sante",
+      "titre": "Natalie au coucher : paternité désirée et restriction auto-imposée",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "110",
+        "papier": "à verrouiller"
+      },
+      "citation": "Ian’s self-imposed restrictions were beginning to affect us all.",
+      "resume": "Natalie réclame Ian au moment du coucher. Il refuse d’abord de la monter, Deborah insiste, et l’enfant s’apaise immédiatement lorsqu’il la couche. Mais le visage angoissé de Ian fait craindre à Deborah qu’il ait étouffé Natalie ; elle court vérifier. La peur de la crise et les restrictions que Ian s’impose affectent désormais le père, la mère et l’enfant.\n",
+      "role_argumentatif": "Atome de double care et paternité empêchée : Natalie désire son père, mais la maladie et la peur transforment le geste parental élémentaire en scène d’angoisse.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "faible nécessaire ; scène privée",
+        "confiance": "élevée pour la perception de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme scène domestique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de moraliser le refus paternel ; la scène combine peur réelle, maladie, culpabilité et épuisement.\n"
+      },
+      "motifs": [
+        "Natalie",
+        "coucher",
+        "paternité empêchée",
+        "peur d’étouffement",
+        "restriction auto-imposée"
+      ],
+      "concepts_derives": [
+        "paternité sous surveillance",
+        "care triangulaire",
+        "enfant affecté par la maladie"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A080",
+          "note": "La paternité empêchée se prolonge lorsque Natalie grandit."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-021",
+          "note": "La double charge devient care triangulaire."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-019",
+          "note": "La maladie affecte la relation parentale, non seulement la scène."
+        }
+      ],
+      "couche_narrative": [
+        "domesticité",
+        "santé",
+        "paternité"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A132",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée",
+    "data": {
+      "id": "S45-A132",
+      "type_unite": "session_domestique",
+      "titre": "Closer à Britannia Row : invitation formelle, exclusion pratique et Annik installée",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "110-112",
+        "papier": "à verrouiller"
+      },
+      "citation": "Annik managed to remain concealed for the first day",
+      "resume": "*Closer* est enregistré à Britannia Row en mars 1980. Rob Gretton envoie 20 livres aux wives and girlfriends pour se rendre à Londres, mais Deborah, non informée des appartements réservés, utilise l’argent pour payer l’électricité. Les autres femmes arrivent à Euston, sont mal récupérées, et découvrent ensuite qu’Annik dispose d’un appartement avec Ian. Pendant l’enregistrement, Ian paraît en transe, et Deborah reste à Macclesfield, seule avec Natalie.\n",
+      "role_argumentatif": "Atome capital : l’œuvre majeure s’enregistre dans une dissociation entre invitation symbolique des femmes et exclusion pratique de Deborah, tandis qu’Annik occupe l’espace conjugal déplacé.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct + faits de session établis",
+        "corroboration": "forte pour Britannia Row ; moyenne pour détails logistiques",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme nœud biographique et discographique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de réduire *Closer* à la crise Annik/Deborah ; le passage éclaire un contexte de création, non une causalité esthétique totale.\n"
+      },
+      "motifs": [
+        "Closer",
+        "Britannia Row",
+        "wives and girlfriends",
+        "20 livres",
+        "Annik",
+        "flats"
+      ],
+      "concepts_derives": [
+        "invitation symbolique / exclusion pratique",
+        "studio comme dissociation domestique",
+        "œuvre capitale sous crise intime"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A125",
+          "note": "L’économie asymétrique se répète : Deborah exclue, Annik hébergée."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-023",
+          "note": "Les femmes sont invitées formellement mais traitées comme périphériques."
+        },
+        {
+          "type": "prépare",
+          "cible": "CHAPITRE-11-THIS-IS-MY-CRISIS",
+          "note": "Ouvre la séquence des concerts d’avril 1980 et de la crise terminale."
+        }
+      ],
+      "couche_narrative": [
+        "studio",
+        "domesticité",
+        "Closer"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S45-A109",
     "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45-A109 — Annik nommée par périphrase : maîtresse invisible et récit domestique falsifié",
@@ -10025,7 +11067,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::181",
+    "id": "NO_ID::sources/marco_broll/README.md::195",
     "file": "sources/marco_broll/README.md",
     "heading": "S68 — Broll, « Joy Division », s.d.",
     "data": {
@@ -10045,7 +11087,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::182",
+    "id": "NO_ID::sources/marco_broll/README.md::196",
     "file": "sources/marco_broll/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -10085,7 +11127,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::183",
+    "id": "NO_ID::sources/marco_broll/README.md::197",
     "file": "sources/marco_broll/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -13073,7 +14115,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::270",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::284",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "S72 — Reynolds, *Rip It Up and Start Again*, 2005/2006",
     "data": {
@@ -13090,7 +14132,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::271",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::285",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Couverture documentaire consolidée",
     "data": {
@@ -13145,7 +14187,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::272",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::286",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -13166,7 +14208,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::273",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::287",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -24352,7 +25394,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::629",
+    "id": "NO_ID::sources/flowers/README.md::643",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -24369,7 +25411,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::630",
+    "id": "NO_ID::sources/flowers/README.md::644",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -24429,7 +25471,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::631",
+    "id": "NO_ID::sources/flowers/README.md::645",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -24450,7 +25492,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::632",
+    "id": "NO_ID::sources/flowers/README.md::646",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -29167,7 +30209,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::714",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::728",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -64468,7 +65510,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1337",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1351",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -69054,7 +70096,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1483",
+    "id": "NO_ID::sources/suatoni/README.md::1497",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -69071,7 +70113,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1484",
+    "id": "NO_ID::sources/suatoni/README.md::1498",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -69109,7 +70151,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1485",
+    "id": "NO_ID::sources/suatoni/README.md::1499",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -70246,7 +71288,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1521",
+    "id": "NO_ID::sources/greig_strong/README.md::1535",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -70263,7 +71305,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1522",
+    "id": "NO_ID::sources/greig_strong/README.md::1536",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -70292,7 +71334,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1523",
+    "id": "NO_ID::sources/greig_strong/README.md::1537",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -71464,7 +72506,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1555",
+    "id": "NO_ID::registers/songs/master_songs.md::1569",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -72323,6 +73365,130 @@
       "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S45-CLOSER-BRITANNIA-ROW-THRESHOLD",
+    "file": "registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45 — Chansons, albums, films et sessions — tournée européenne, Annik, seuil *Closer*",
+    "data": {
+      "id": "SONG-S45-CLOSER-BRITANNIA-ROW-THRESHOLD",
+      "source_id": "S45",
+      "titre": "Closer",
+      "artiste": "Joy Division",
+      "nature": "album / sessions Britannia Row",
+      "usage": "Enregistrement de mars 1980 à Britannia Row, dans un contexte de dissociation domestique : Deborah reste à Macclesfield, Annik est présente, Ian écrit et enregistre dans un état de transe.\n",
+      "atomes_lies": [
+        "S45-A132"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "prudence": "Ne pas réduire la valeur esthétique de Closer à la crise conjugale ; traiter le contexte comme faisceau, non comme cause unique.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S45-DURUTTI-COLUMN-RETURN-CLOSER-WAITING",
+    "file": "registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45 — Chansons, albums, films et sessions — tournée européenne, Annik, seuil *Closer*",
+    "data": {
+      "id": "SONG-S45-DURUTTI-COLUMN-RETURN-CLOSER-WAITING",
+      "source_id": "S45",
+      "titre": "The Return of the Durutti Column",
+      "artiste": "The Durutti Column",
+      "nature": "album Factory / écoute domestique",
+      "usage": "Deborah écoute l’album à Macclesfield pendant les sessions de Closer ; la musique accompagne l’attente, l’absence de Ian et l’illusion d’une possible réconciliation.\n",
+      "atomes_lies": [
+        "S45-A132"
+      ],
+      "chapitres": [
+        "Chapitre 10"
+      ],
+      "prudence": "Usage domestique et émotionnel, non analyse musicale de l’album.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S45-LOW-BROKEN-ANNIK-CONFRONTATION",
+    "file": "registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45 — Chansons, albums, films et sessions — tournée européenne, Annik, seuil *Closer*",
+    "data": {
+      "id": "SONG-S45-LOW-BROKEN-ANNIK-CONFRONTATION",
+      "source_id": "S45",
+      "titre": "Low",
+      "artiste": "David Bowie",
+      "nature": "album / objet domestique brisé",
+      "usage": "Deborah brise l’album après l’aveu de la relation avec Annik. L’objet Bowie, fondateur dans l’imaginaire de Curtis, devient matériau de crise intime.\n",
+      "atomes_lies": [
+        "S45-A128"
+      ],
+      "chapitres": [
+        "Chapitre 10"
+      ],
+      "prudence": "Ne pas faire de Low un symbole total ; l’acte signale surtout la violence émotionnelle de la scène.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "FILM-S45-ERASERHEAD-ABSENCE",
+    "file": "registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45 — Chansons, albums, films et sessions — tournée européenne, Annik, seuil *Closer*",
+    "data": {
+      "id": "FILM-S45-ERASERHEAD-ABSENCE",
+      "source_id": "S45",
+      "titre": "Eraserhead",
+      "realisation": "David Lynch",
+      "nature": "film / sortie sans Deborah",
+      "usage": "Ian annonce aller voir Eraserhead sans Deborah ; sa disparition nocturne est ensuite relue comme signe de la relation avec Annik, mais d’abord comprise par Deborah à travers la peur médicale.\n",
+      "atomes_lies": [
+        "S45-A112"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "prudence": "Ne pas inférer une influence esthétique de Lynch sur Joy Division à partir de cette scène.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "LIVE-S45-NEW-OSBOURNE-CITY-FUN",
+    "file": "registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45 — Chansons, albums, films et sessions — tournée européenne, Annik, seuil *Closer*",
+    "data": {
+      "id": "LIVE-S45-NEW-OSBOURNE-CITY-FUN",
+      "source_id": "S45",
+      "titre": "New Osbourne Club / City Fun benefit",
+      "nature": "concert local / scène de dissimulation",
+      "usage": "Concert local où Deborah conduit Ian, ne le voit presque pas et se heurte à l’opacité de l’entourage sur la loge, alors que l’affaire Annik n’est pas encore découverte.\n",
+      "atomes_lies": [
+        "S45-A126"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "prudence": "Vérifier date et recension de Mick Middles dans les gig lists et presse.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
     }
   },
   {
@@ -75520,6 +76686,198 @@
     }
   },
   {
+    "kind": "template",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1678",
+    "file": "registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45 — Citations candidates — tournée européenne, Annik, foyer et seuil Closer",
+    "data": {
+      "quotes": [
+        {
+          "id": "S45-Q075",
+          "source_id": "S45",
+          "passage": "he wasn’t intending to move into the flat with me",
+          "traduction_de_travail": "il n’avait pas l’intention d’emménager dans l’appartement avec moi",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "103",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A119"
+          ]
+        },
+        {
+          "id": "S45-Q076",
+          "source_id": "S45",
+          "passage": "Unknown to me he was setting the scene for taking Annik on tour with him.",
+          "traduction_de_travail": "À mon insu, il préparait le terrain pour emmener Annik en tournée avec lui.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "103",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A120"
+          ]
+        },
+        {
+          "id": "S45-Q077",
+          "source_id": "S45",
+          "passage": "The Bible was still open.",
+          "traduction_de_travail": "La Bible était encore ouverte.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "104",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A121"
+          ]
+        },
+        {
+          "id": "S45-Q078",
+          "source_id": "S45",
+          "passage": "a mere pacifier, designed to calm Ian down",
+          "traduction_de_travail": "un simple calmant, destiné à apaiser Ian",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "105",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A122"
+          ]
+        },
+        {
+          "id": "S45-Q079",
+          "source_id": "S45",
+          "passage": "I don’t think I do",
+          "traduction_de_travail": "Je ne crois pas",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "105",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A123"
+          ]
+        },
+        {
+          "id": "S45-Q080",
+          "source_id": "S45",
+          "passage": "an elaborate charade as a poor but happy family unit",
+          "traduction_de_travail": "une charade élaborée de famille pauvre mais heureuse",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "106",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A124"
+          ]
+        },
+        {
+          "id": "S45-Q081",
+          "source_id": "S45",
+          "passage": "Annik’s expenses on the European tour had been incorporated into Joy Division’s",
+          "traduction_de_travail": "les dépenses d’Annik pendant la tournée européenne avaient été intégrées à celles de Joy Division",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "106",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A125"
+          ]
+        },
+        {
+          "id": "S45-Q082",
+          "source_id": "S45",
+          "passage": "I found the name Annik Honoré and her address in Delvino Road, London.",
+          "traduction_de_travail": "je trouvai le nom Annik Honoré et son adresse à Delvino Road, Londres",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "108",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A127"
+          ]
+        },
+        {
+          "id": "S45-Q083",
+          "source_id": "S45",
+          "passage": "It’s Annik Honoré isn’t it?",
+          "traduction_de_travail": "C’est Annik Honoré, n’est-ce pas ?",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "108",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A128"
+          ]
+        },
+        {
+          "id": "S45-Q084",
+          "source_id": "S45",
+          "passage": "Pseudo-seizures can be feigned either consciously or subconsciously",
+          "traduction_de_travail": "Les pseudo-crises peuvent être simulées consciemment ou inconsciemment",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "108",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A129"
+          ]
+        },
+        {
+          "id": "S45-Q085",
+          "source_id": "S45",
+          "passage": "the red electricity bill came there was no money to pay for it",
+          "traduction_de_travail": "la facture rouge d’électricité arriva et il n’y avait pas d’argent pour la payer",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "109",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A130"
+          ]
+        },
+        {
+          "id": "S45-Q086",
+          "source_id": "S45",
+          "passage": "Ian’s self-imposed restrictions were beginning to affect us all.",
+          "traduction_de_travail": "Les restrictions que Ian s’imposait commençaient à nous affecter tous.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "110",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A131"
+          ]
+        },
+        {
+          "id": "S45-Q087",
+          "source_id": "S45",
+          "passage": "Annik managed to remain concealed for the first day",
+          "traduction_de_travail": "Annik parvint à rester cachée le premier jour",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "111",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S45-A132"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "kind": "quote",
     "id": "S76-Q087",
     "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
@@ -77222,7 +78580,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1703",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1723",
     "file": "registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md",
     "heading": "S45 — Citations candidates — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -79825,7 +81183,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1768",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1788",
     "file": "registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Citations candidates — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -86461,7 +87819,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::1953",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::1973",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -86527,7 +87885,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::1954",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::1974",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -86681,7 +88039,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1955",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1975",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -86831,7 +88189,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1956",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1976",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -87060,7 +88418,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1957",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1977",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -87154,7 +88512,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1958",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1978",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -87324,7 +88682,323 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1959",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::1979",
+    "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
+    "heading": "Relations stabilisées",
+    "data": {
+      "relations": [
+        {
+          "id": "REL-S45-A119-CONCEPT-033",
+          "source": "S45-A119",
+          "type": "prolonge",
+          "cible": "CONCEPT-033",
+          "justification": "La séparation conjugale se formule d’abord en projet immobilier et en possible partage d’equity.\n"
+        },
+        {
+          "id": "REL-S45-A120-CONCEPT-034",
+          "source": "S45-A120",
+          "type": "prolonge",
+          "cible": "CONCEPT-034",
+          "justification": "La présence d’Annik sur la tournée européenne contredit la règle d’exclusion des wives and girlfriends.\n"
+        },
+        {
+          "id": "REL-S45-A121-CONCEPT-035",
+          "source": "S45-A121",
+          "type": "prolonge",
+          "cible": "CONCEPT-035",
+          "justification": "L’épisode Pernod / Bible / Revelation produit des lectures concurrentes sans intention stabilisable.\n"
+        },
+        {
+          "id": "REL-S45-A122-CONCEPT-026",
+          "source": "S45-A122",
+          "type": "prolonge",
+          "cible": "CONCEPT-026",
+          "justification": "La professionnalisation sous surveillance médicale échoue à produire un vrai repos ; le calendrier reprend la main.\n"
+        },
+        {
+          "id": "REL-S45-A123-CONCEPT-029",
+          "source": "S45-A123",
+          "type": "prolonge",
+          "cible": "CONCEPT-029",
+          "justification": "Le désamour devient parole explicite, mais sans résolution de la crise conjugale.\n"
+        },
+        {
+          "id": "REL-S45-A124-MOTIF-038",
+          "source": "S45-A124",
+          "type": "prolonge",
+          "cible": "MOTIF-038",
+          "justification": "Franck Essner passe du fandom transnational à l’intimité de Barton Street.\n"
+        },
+        {
+          "id": "REL-S45-A125-CONCEPT-034",
+          "source": "S45-A125",
+          "type": "prolonge",
+          "cible": "CONCEPT-034",
+          "justification": "La contradiction genrée devient économique : Deborah finance à crédit tandis que les frais d’Annik sont intégrés à la tournée.\n"
+        },
+        {
+          "id": "REL-S45-A126-MOTIF-034",
+          "source": "S45-A126",
+          "type": "prolonge",
+          "cible": "MOTIF-034",
+          "justification": "Le New Osbourne Club prolonge la loge comme espace de vérité cachée et d’exclusion de Deborah.\n"
+        },
+        {
+          "id": "REL-S45-A127-CONCEPT-029",
+          "source": "S45-A127",
+          "type": "prolonge",
+          "cible": "CONCEPT-029",
+          "justification": "La vérité conjugale différée devient preuve matérielle : nom et adresse d’Annik.\n"
+        },
+        {
+          "id": "REL-S45-A128-S45-A127",
+          "source": "S45-A128",
+          "type": "prolonge",
+          "cible": "S45-A127",
+          "justification": "La preuve écrite devient confrontation et aveu.\n"
+        },
+        {
+          "id": "REL-S45-A129-CONCEPT-035",
+          "source": "S45-A129",
+          "type": "prolonge",
+          "cible": "CONCEPT-035",
+          "justification": "Les pseudo-crises possibles doivent rester un symptôme indécidable, non un diagnostic de simulation.\n"
+        },
+        {
+          "id": "REL-S45-A130-CONCEPT-033",
+          "source": "S45-A130",
+          "type": "prolonge",
+          "cible": "CONCEPT-033",
+          "justification": "Facture d’électricité, alliance, Candy et vêtements de scène matérialisent la séparation non dite.\n"
+        },
+        {
+          "id": "REL-S45-A131-CONCEPT-021",
+          "source": "S45-A131",
+          "type": "prolonge",
+          "cible": "CONCEPT-021",
+          "justification": "La paternité empêchée transforme le double care en care triangulaire autour de Natalie.\n"
+        },
+        {
+          "id": "REL-S45-A132-CONCEPT-036",
+          "source": "S45-A132",
+          "type": "prolonge",
+          "cible": "CONCEPT-036",
+          "justification": "Les sessions de Closer deviennent un studio de dissociation domestique : Deborah exclue, Annik présente, femmes périphériques."
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::1980",
+    "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
+    "heading": "Entrées RAG candidates",
+    "data": {
+      "rag_index": [
+        {
+          "id": "RAG-S45-A119",
+          "source_id": "S45",
+          "atom_id": "S45-A119",
+          "title": "Barton Street à vendre : séparation matérielle avant séparation dite",
+          "chapters": [
+            "Chapitre 10"
+          ],
+          "tags": [
+            "barton-street",
+            "house-sale",
+            "equity",
+            "separation",
+            "deborah-curtis"
+          ],
+          "query_boost": [
+            "he wasn’t intending to move into the flat with me",
+            "Barton Street sell the house equity Deborah Curtis"
+          ],
+          "use_for": [
+            "séparation matérielle",
+            "rupture conjugale non dite"
+          ],
+          "avoid_for": [
+            "preuve juridique d’un plan conscient"
+          ]
+        },
+        {
+          "id": "RAG-S45-A120",
+          "source_id": "S45",
+          "atom_id": "S45-A120",
+          "title": "Tournée européenne : Annik comme exception à la no women policy",
+          "chapters": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "tags": [
+            "european-tour",
+            "annik-honore",
+            "no-women-policy",
+            "deborah-curtis",
+            "touring"
+          ],
+          "query_boost": [
+            "setting the scene for taking Annik on tour",
+            "Annik European tour Joy Division wives girlfriends"
+          ],
+          "use_for": [
+            "contradiction genrée de tournée",
+            "crise conjugale et tournée"
+          ],
+          "avoid_for": [
+            "causalité romantique unique"
+          ]
+        },
+        {
+          "id": "RAG-S45-A121",
+          "source_id": "S45",
+          "atom_id": "S45-A121",
+          "title": "Pernod, Bible et Revelation : scène à lectures concurrentes",
+          "chapters": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "tags": [
+            "bible",
+            "revelation",
+            "jezebel",
+            "pernod",
+            "self-harm",
+            "stephen-morris"
+          ],
+          "query_boost": [
+            "The Bible was still open",
+            "Jezebel Revelation Ian Curtis Pernod"
+          ],
+          "use_for": [
+            "scènes sensibles et herméneutique domestique",
+            "prudence sur intention suicidaire ou religieuse"
+          ],
+          "avoid_for": [
+            "prophétie religieuse",
+            "signe suicidaire univoque"
+          ]
+        },
+        {
+          "id": "RAG-S45-A127",
+          "source_id": "S45",
+          "atom_id": "S45-A127",
+          "title": "Découverte de l’adresse d’Annik",
+          "chapters": [
+            "Chapitre 10"
+          ],
+          "tags": [
+            "annik-honore",
+            "delvino-road",
+            "notebooks",
+            "domestic-evidence",
+            "deborah-curtis"
+          ],
+          "query_boost": [
+            "I found the name Annik Honoré and her address",
+            "Delvino Road London Annik Honore"
+          ],
+          "use_for": [
+            "preuve domestique de l’infidélité",
+            "vérité conjugale différée"
+          ],
+          "avoid_for": [
+            "extension non sourcée de la relation"
+          ]
+        },
+        {
+          "id": "RAG-S45-A129",
+          "source_id": "S45",
+          "atom_id": "S45-A129",
+          "title": "Pseudo-crises possibles : symptôme indécidable",
+          "chapters": [
+            "Chapitre 12",
+            "Chapitre 10"
+          ],
+          "tags": [
+            "pseudo-seizures",
+            "epilepsy",
+            "medical-caution",
+            "deborah-curtis",
+            "manipulation"
+          ],
+          "query_boost": [
+            "Pseudo-seizures can be feigned either consciously or subconsciously",
+            "Ian Curtis pseudo seizures Deborah Curtis"
+          ],
+          "use_for": [
+            "prudence médicale et probatoire",
+            "non-monocausalité"
+          ],
+          "avoid_for": [
+            "diagnostic de simulation"
+          ]
+        },
+        {
+          "id": "RAG-S45-A130",
+          "source_id": "S45",
+          "atom_id": "S45-A130",
+          "title": "Red electricity bill, alliance et départ de Candy",
+          "chapters": [
+            "Chapitre 10"
+          ],
+          "tags": [
+            "red-electricity-bill",
+            "candy",
+            "wedding-ring",
+            "domestic-economy",
+            "deborah-curtis"
+          ],
+          "query_boost": [
+            "red electricity bill came there was no money to pay for it",
+            "Candy farm Rochdale Deborah Curtis"
+          ],
+          "use_for": [
+            "effondrement matériel du foyer",
+            "professionnalisation financée par le foyer"
+          ],
+          "avoid_for": [
+            "plainte financière isolée"
+          ]
+        },
+        {
+          "id": "RAG-S45-A132",
+          "source_id": "S45",
+          "atom_id": "S45-A132",
+          "title": "Closer à Britannia Row : invitation formelle, exclusion pratique",
+          "chapters": [
+            "Chapitre 3",
+            "Chapitre 8",
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "tags": [
+            "closer",
+            "britannia-row",
+            "annik-honore",
+            "wives-girlfriends",
+            "studio",
+            "deborah-curtis"
+          ],
+          "query_boost": [
+            "Annik managed to remain concealed for the first day",
+            "Closer Britannia Row £20 wives girlfriends"
+          ],
+          "use_for": [
+            "studio comme dissociation domestique",
+            "contexte de Closer"
+          ],
+          "avoid_for": [
+            "causalité esthétique totale de la crise intime"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1981",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -87446,7 +89120,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1960",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1982",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -87580,7 +89254,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1961",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1983",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -87601,7 +89275,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::1962",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::1984",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -87681,7 +89355,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::1963",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::1985",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -87858,7 +89532,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1964",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1986",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -87980,7 +89654,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1965",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1987",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -88146,7 +89820,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1966",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1988",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -88205,7 +89879,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1967",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1989",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -88254,7 +89928,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1968",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1990",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -88892,6 +90566,155 @@
         "CONCEPT-028"
       ],
       "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-040",
+    "file": "registers/motifs/s45_curtis_motifs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "MOTIF-040 — départ sans adieu",
+    "data": {
+      "id": "MOTIF-040",
+      "nom": "départ sans adieu",
+      "definition": "Motif désignant le départ en tournée où Ian Curtis quitte Deborah et Natalie sans adieu, sans téléphone ni carte postale, préparant la présence d’Annik et la rupture de fait.\n",
+      "atomes_lies": [
+        "S45-A120"
+      ],
+      "concepts_associes": [
+        "CONCEPT-029",
+        "CONCEPT-034"
+      ],
+      "chapitres": [
+        "Chapitre 10"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-041",
+    "file": "registers/motifs/s45_curtis_motifs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "MOTIF-041 — Bible lacérée",
+    "data": {
+      "id": "MOTIF-041",
+      "nom": "Bible lacérée",
+      "definition": "Motif sensible associant alcool, couteau, Apocalypse, Jezebel et lectures concurrentes d’une scène de retour de tournée : jalousie conjugale, récit religieux ou ivresse auto-destructrice.\n",
+      "atomes_lies": [
+        "S45-A121"
+      ],
+      "concepts_associes": [
+        "CONCEPT-035",
+        "CONCEPT-029"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-042",
+    "file": "registers/motifs/s45_curtis_motifs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "MOTIF-042 — liberté comme abandon",
+    "data": {
+      "id": "MOTIF-042",
+      "nom": "liberté comme abandon",
+      "definition": "Motif désignant le moment où Ian présente à Deborah une liberté sexuelle ou affective qui se révèle moins émancipation que retrait de l’amour et abandon du cadre conjugal.\n",
+      "atomes_lies": [
+        "S45-A123"
+      ],
+      "concepts_associes": [
+        "CONCEPT-029"
+      ],
+      "chapitres": [
+        "Chapitre 10"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-043",
+    "file": "registers/motifs/s45_curtis_motifs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "MOTIF-043 — foyer performé devant témoin",
+    "data": {
+      "id": "MOTIF-043",
+      "nom": "foyer performé devant témoin",
+      "definition": "Motif désignant les moments où Ian et Deborah jouent encore la famille pauvre mais heureuse devant un tiers, notamment Franck Essner, alors que la crise conjugale est déjà ouverte.\n",
+      "atomes_lies": [
+        "S45-A124"
+      ],
+      "concepts_associes": [
+        "MOTIF-038"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-044",
+    "file": "registers/motifs/s45_curtis_motifs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "MOTIF-044 — preuve domestique d’Annik",
+    "data": {
+      "id": "MOTIF-044",
+      "nom": "preuve domestique d’Annik",
+      "definition": "Motif désignant le passage d’une intuition ou d’un malaise à une preuve matérielle : nom et adresse d’Annik Honoré trouvés dans des carnets au sein de la maison.\n",
+      "atomes_lies": [
+        "S45-A127",
+        "S45-A128"
+      ],
+      "concepts_associes": [
+        "CONCEPT-029"
+      ],
+      "chapitres": [
+        "Chapitre 10"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-045",
+    "file": "registers/motifs/s45_curtis_motifs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "MOTIF-045 — Candy sacrifiée",
+    "data": {
+      "id": "MOTIF-045",
+      "nom": "Candy sacrifiée",
+      "definition": "Motif désignant le départ de Candy vers une ferme de Rochdale comme indice matériel de l’effondrement économique et domestique du foyer Curtis.\n",
+      "atomes_lies": [
+        "S45-A130"
+      ],
+      "concepts_associes": [
+        "CONCEPT-031",
+        "CONCEPT-021"
+      ],
+      "chapitres": [
+        "Chapitre 10"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-046",
+    "file": "registers/motifs/s45_curtis_motifs_1980_european_tour_annik_closer_threshold.md",
+    "heading": "MOTIF-046 — *Closer* sous dissociation",
+    "data": {
+      "id": "MOTIF-046",
+      "nom": "Closer sous dissociation",
+      "definition": "Motif désignant l’enregistrement de *Closer* comme œuvre capitale produite pendant une dissociation domestique : Deborah reste hors du studio, Annik est présente, les compagnes sont déplacées et Ian écrit dans un état de transe.\n",
+      "atomes_lies": [
+        "S45-A132"
+      ],
+      "concepts_associes": [
+        "CONCEPT-036"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8",
         "Chapitre 10",
         "Chapitre 12"
       ]
@@ -90618,7 +92441,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2031",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2060",
     "file": "registers/people/s45_curtis_people_1979_buzzcocks_tour.md",
     "heading": "S45 — Personnes — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -92648,6 +94471,105 @@
       "certainty": "medium",
       "methodological_warnings": [
         "à préciser selon citations exactes ; rôle de témoin, non d’explication"
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2109",
+    "file": "registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45 — Personnes — tournée européenne, Annik, foyer et seuil Closer",
+    "data": {
+      "people": [
+        {
+          "id": "PERS-S45-ANNIK-HONORE-EUROPE-CLOSER",
+          "personne": "Annik Honoré",
+          "source_id": "S45",
+          "role": "Présente sur la tournée européenne puis autour des sessions de Closer ; figure centrale de la rupture conjugale selon Deborah.",
+          "statut": "figure relationnelle centrale",
+          "atomes_lies": [
+            "S45-A120",
+            "S45-A125",
+            "S45-A127",
+            "S45-A128",
+            "S45-A132"
+          ],
+          "usage": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "prudence": "Ne pas faire d’Annik une cause unique de la crise."
+        },
+        {
+          "id": "PERS-S45-FRANCK-ESSNER-BARTON-STREET",
+          "personne": "Franck Essner",
+          "source_id": "S45",
+          "role": "Fan et témoin transnational accueilli à Barton Street ; photographie Ian avec Natalie et formule une lecture quasi métaphysique de Curtis.",
+          "statut": "fan transnational / témoin intime",
+          "atomes_lies": [
+            "S45-A124"
+          ],
+          "usage": [
+            "Chapitre 10",
+            "Chapitre 14"
+          ],
+          "prudence": "Éviter l’essentialisation mystique de Curtis à partir de sa formule."
+        },
+        {
+          "id": "PERS-S45-CLAIRE-SILKLANDS",
+          "personne": "Claire",
+          "source_id": "S45",
+          "role": "Collègue de Deborah au Silklands ; sa fête déclenche une scène d’aveu brutal de désamour au retour.",
+          "statut": "figure périphérique domestique",
+          "atomes_lies": [
+            "S45-A123"
+          ],
+          "usage": [
+            "Chapitre 10"
+          ]
+        },
+        {
+          "id": "PERS-S45-JEFF-SILKLANDS",
+          "personne": "Jeff",
+          "source_id": "S45",
+          "role": "Client de Silklands et connaissance de Kim Gilbert ; devient un interlocuteur amical pour Deborah après la découverte de la liaison d’Ian.",
+          "statut": "figure périphérique de soutien",
+          "atomes_lies": [
+            "S45-A130"
+          ],
+          "usage": [
+            "Chapitre 10"
+          ]
+        },
+        {
+          "id": "PERS-S45-MICK-MIDDLES-NEW-OSBOURNE",
+          "personne": "Mick Middles",
+          "source_id": "S45",
+          "role": "Critique de Sounds notant au New Osbourne Club une perte temporaire d’arrogance, d’urgence et d’engagement.",
+          "statut": "réception critique rapportée",
+          "atomes_lies": [
+            "S45-A126"
+          ],
+          "usage": [
+            "Chapitre 14",
+            "Chapitre 10"
+          ],
+          "prudence": "Vérifier la recension originale avant emploi définitif."
+        },
+        {
+          "id": "PERS-S45-ROB-GRETTON-CLOSER-20-POUNDS",
+          "personne": "Rob Gretton",
+          "source_id": "S45",
+          "role": "Manager qui envoie 20 livres aux wives and girlfriends pour rejoindre Londres pendant les sessions de Closer ; geste qui ne permet pas à Deborah de venir.",
+          "statut": "manager / médiateur logistique",
+          "atomes_lies": [
+            "S45-A132"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ]
+        }
       ]
     }
   },
@@ -95132,7 +97054,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2146",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2176",
     "file": "registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Personnes — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -95814,6 +97736,186 @@
       "source_label": "S45 — Curtis, Touching from a Distance, 1995",
       "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
       "source_year": "1995"
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-033",
+    "file": "registers/concepts/s45_curtis_concepts_1980_european_tour_annik_closer_threshold.md",
+    "heading": "CONCEPT-033 — séparation matérielle non dite",
+    "data": {
+      "id": "CONCEPT-033",
+      "nom": "séparation matérielle non dite",
+      "statut": {
+        "type": [
+          "concept_domesticite",
+          "concept_economique",
+          "concept_intime"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Processus par lequel la séparation conjugale se formule d’abord à travers les objets matériels du foyer — maison, equity, factures, vêtements, animal domestique, carte de crédit, appartement de studio — avant d’être pleinement dite comme rupture affective.\n",
+      "chapitres": [
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A119",
+        "S45-A125",
+        "S45-A130"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-029"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-031"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-021"
+        }
+      ],
+      "risques": [
+        "téléologie conjugale",
+        "réduction de la crise à une liquidation économique"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-034",
+    "file": "registers/concepts/s45_curtis_concepts_1980_european_tour_annik_closer_threshold.md",
+    "heading": "CONCEPT-034 — contradiction genrée de tournée",
+    "data": {
+      "id": "CONCEPT-034",
+      "nom": "contradiction genrée de tournée",
+      "statut": {
+        "type": [
+          "concept_genre",
+          "concept_tournee"
+        ],
+        "stabilite": "stable"
+      },
+      "definition": "Contradiction par laquelle les épouses et compagnes sont exclues au nom de la concentration du groupe, tandis qu’Annik Honoré accompagne Ian Curtis sur la tournée européenne et voit ses frais absorbés dans l’économie du groupe.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A120",
+        "S45-A125",
+        "S45-A132"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-018"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-023"
+        },
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-033"
+        }
+      ],
+      "risques": [
+        "réduire la politique de tournée à Annik seule",
+        "effacer fatigue, maladie et organisation concrète de tournée"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-035",
+    "file": "registers/concepts/s45_curtis_concepts_1980_european_tour_annik_closer_threshold.md",
+    "heading": "CONCEPT-035 — symptôme indécidable",
+    "data": {
+      "id": "CONCEPT-035",
+      "nom": "symptôme indécidable",
+      "statut": {
+        "type": [
+          "concept_sante",
+          "concept_methodologique"
+        ],
+        "stabilite": "instable_par_definition"
+      },
+      "definition": "Catégorie méthodologique pour les épisodes où Deborah Curtis perçoit une possible manipulation ou pseudo-crise, tandis que la maladie épileptique reste réelle et que les autres témoins refusent l’idée d’une simulation. L’objet n’est pas de trancher médicalement, mais de conserver l’indécidable.\n",
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A121",
+        "S45-A129"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-019"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        },
+        {
+          "type": "alerte",
+          "cible": "RISQUE-CAUSALITE-MEDICALE"
+        }
+      ],
+      "risques": [
+        "diagnostic rétrospectif",
+        "accusation de simulation sans preuve",
+        "effacement de la maladie réelle"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-036",
+    "file": "registers/concepts/s45_curtis_concepts_1980_european_tour_annik_closer_threshold.md",
+    "heading": "CONCEPT-036 — studio comme dissociation domestique",
+    "data": {
+      "id": "CONCEPT-036",
+      "nom": "studio comme dissociation domestique",
+      "statut": {
+        "type": [
+          "concept_studio",
+          "concept_domesticite"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Concept désignant le moment où l’enregistrement d’une œuvre capitale se déroule en parallèle d’une dissociation du foyer : Deborah reste à Macclesfield, l’argent envoyé sert à payer une facture, les autres compagnes se déplacent mal informées, et Annik occupe l’espace intime déplacé autour de Ian.\n",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A132"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-034"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-023"
+        },
+        {
+          "type": "prépare",
+          "cible": "CHAPITRE-11-THIS-IS-MY-CRISIS"
+        }
+      ],
+      "risques": [
+        "réduire *Closer* à la crise intime",
+        "causalité esthétique trop directe"
+      ]
     }
   },
   {
@@ -97559,7 +99661,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2197",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2231",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -97581,7 +99683,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2198",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2232",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -97599,7 +99701,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2199",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2233",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -97617,7 +99719,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2200",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2234",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -97629,6 +99731,75 @@
       ],
       "apport": "Curtis connaît l’épilepsie et le handicap par son travail avant son diagnostic. Cette antériorité produit une ironie tragique, mais pas une causalité.\n",
       "usage_recommande": "Employer ce passage pour socialiser et historiciser la maladie, non pour renforcer une téléologie morbide."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2235",
+    "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
+    "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
+    "data": {
+      "mythe_id": "MYTH-002",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A121",
+        "S45-A123",
+        "S45-A124",
+        "S45-A131",
+        "S45-A132"
+      ],
+      "apport": "Le passage déplace la figure du poète maudit vers des scènes matérielles et domestiques : Bible lacérée, aveu de désamour, famille performée devant Franck Essner, paternité empêchée, enregistrement de Closer dans une dissociation du foyer. Le mythe ne doit pas absorber le coût quotidien.\n",
+      "usage_recommande": "Utiliser ces atomes pour maintenir le coût humain du mythe sans psychologiser ou spiritualiser chaque geste de Curtis."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2236",
+    "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
+    "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
+    "data": {
+      "mythe_id": "MYTH-010",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A120",
+        "S45-A121",
+        "S45-A122",
+        "S45-A129",
+        "S45-A131",
+        "S45-A132"
+      ],
+      "apport": "La maladie reste centrale, mais elle se mêle à la fatigue de tournée, à l’alcool, au secret de la liaison, à la logistique du studio, aux pseudo-crises possibles et au blocage paternel. Le passage interdit toute monocausalité.\n",
+      "usage_recommande": "Traiter la santé comme faisceau instable : épilepsie, médicaments, sommeil, tournée, alcool, conflit conjugal, studio."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2237",
+    "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
+    "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
+    "data": {
+      "mythe_id": "MYTH-LYRICS-AS-DIARY",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A132"
+      ],
+      "apport": "Le passage indique qu’Annik entend les paroles de Closer avant la mort de Curtis et croit que Ian en pense réellement le contenu, mais cet indice ne suffit pas à convertir l’album en journal intime transparent.\n",
+      "usage_recommande": "Maintenir l’écart entre perception d’Annik, crise intime et statut poétique des paroles."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2238",
+    "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
+    "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Closer comme pur objet de studio",
+    "data": {
+      "mythe_id": "MYTH-HANNETT-GENIE-ABSOLU",
+      "complement_source": "S45",
+      "atomes_qui_nuancent": [
+        "S45-A132"
+      ],
+      "apport": "S45 rappelle que Closer n’est pas seulement un objet de production sonore : son enregistrement s’inscrit dans une crise domestique, logistique et affective. Cette dimension ne remplace pas l’analyse de production, mais l’encadre.\n",
+      "usage_recommande": "Articuler le studio, la situation domestique et la crise sans faire dériver mécaniquement le son de la biographie."
     }
   },
   {
@@ -98040,7 +100211,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2211",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2249",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-003 — Manchester comme matrice unique",
     "data": {
@@ -98057,7 +100228,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2212",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2250",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -98075,7 +100246,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2213",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2251",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -98092,7 +100263,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2214",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2252",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -98107,7 +100278,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2215",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2253",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-009 — Rob Gretton comme manager sauveur",
     "data": {
@@ -98123,7 +100294,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2216",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2254",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -98142,7 +100313,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2217",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2255",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -98164,7 +100335,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2218",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2256",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -98180,7 +100351,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2219",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2257",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-CURTIS-AUTEUR-TOTAL — Curtis comme auteur total de Joy Division",
     "data": {
@@ -98196,7 +100367,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2220",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2258",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -98212,7 +100383,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2221",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2259",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-009 — Gretton comme manager sauveur",
     "data": {
@@ -99426,7 +101597,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2250",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2288",
     "file": "registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Chronologie candidate — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -100194,7 +102365,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2266",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2304",
     "file": "registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md",
     "heading": "S45 — Chronologie candidate — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -101780,6 +103951,144 @@
       "source_label": "S45 — Curtis, Touching from a Distance, 1995",
       "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
       "source_year": "1995"
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2347",
+    "file": "registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md",
+    "heading": "S45 — Chronologie candidate — tournée européenne, Annik, foyer et seuil *Closer*",
+    "data": {
+      "chronology": [
+        {
+          "id": "CHR-S45-1980-01-EUROPEAN-TOUR-DEPART",
+          "source_id": "S45",
+          "date": "1980-01",
+          "evenement": "Joy Division part en tournée européenne ; Ian quitte Barton Street sans dire adieu à Deborah et Natalie, et Annik Honoré accompagne la tournée.\n",
+          "atomes_lies": [
+            "S45-A119",
+            "S45-A120"
+          ],
+          "chapitres": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "statut": "période établie par S45 ; dates de tournée à croiser avec gig list"
+        },
+        {
+          "id": "CHR-S45-1980-01-RETURN-PERNOD-BIBLE",
+          "source_id": "S45",
+          "date": "1980-01",
+          "evenement": "Au retour de la tournée européenne, Deborah retrouve Ian ivre dans la blue room, avec une Bible ouverte, un couteau et le passage de Jezebel lacéré.\n",
+          "atomes_lies": [
+            "S45-A121"
+          ],
+          "chapitres": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "statut": "scène domestique rapportée par S45"
+        },
+        {
+          "id": "CHR-S45-1980-01-CONCERTS-STOPPED-AMERICA-ANNOUNCED",
+          "source_id": "S45",
+          "date": "1980-01/1980-02",
+          "evenement": "Ian annonce un arrêt des concerts pendant douze mois, vite contredit par l’annonce d’une tournée américaine et de concerts britanniques préparatoires.\n",
+          "atomes_lies": [
+            "S45-A122"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 12"
+          ],
+          "statut": "à croiser avec calendrier des concerts 1980"
+        },
+        {
+          "id": "CHR-S45-1980-02-FRANCK-ESSNER-BARTON-STREET",
+          "source_id": "S45",
+          "date": "1980-02",
+          "evenement": "Franck Essner séjourne auprès de Ian et Deborah à Barton Street ; la famille se met en scène comme unité pauvre mais heureuse.\n",
+          "atomes_lies": [
+            "S45-A124"
+          ],
+          "chapitres": [
+            "Chapitre 10",
+            "Chapitre 14"
+          ],
+          "statut": "datation mensuelle donnée par S45"
+        },
+        {
+          "id": "CHR-S45-1980-02-TOP-SHOP-AMERICAN-TOUR",
+          "source_id": "S45",
+          "date": "1980-02/1980-03",
+          "evenement": "Ian prépare la tournée américaine ; Deborah ouvre une carte Top Shop qui finance aussi une veste de scène pour Ian.\n",
+          "atomes_lies": [
+            "S45-A125"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ],
+          "statut": "période approximative"
+        },
+        {
+          "id": "CHR-S45-1980-02-NEW-OSBOURNE-CITY-FUN",
+          "source_id": "S45",
+          "date": "1980-02",
+          "evenement": "Joy Division joue au New Osbourne Club pour un bénéfice *City Fun* ; Deborah est présente mais l’accès à la loge reste opaque.\n",
+          "atomes_lies": [
+            "S45-A126"
+          ],
+          "chapitres": [
+            "Chapitre 10",
+            "Chapitre 14"
+          ],
+          "statut": "date précise à vérifier dans gig list"
+        },
+        {
+          "id": "CHR-S45-1980-02-ANNIK-ADDRESS-FOUND",
+          "source_id": "S45",
+          "date": "1980-02/1980-03",
+          "evenement": "Deborah découvre dans des carnets le nom et l’adresse londonienne d’Annik Honoré, puis confronte Ian.\n",
+          "atomes_lies": [
+            "S45-A127",
+            "S45-A128"
+          ],
+          "chapitres": [
+            "Chapitre 10"
+          ],
+          "statut": "scène domestique ; datation approximative"
+        },
+        {
+          "id": "CHR-S45-1980-03-CANDY-ROCHDALE-FARM",
+          "source_id": "S45",
+          "date": "1980-03",
+          "evenement": "Candy est confiée à une ferme de Rochdale, faute de moyens et de disponibilité pour la nourrir et la promener correctement.\n",
+          "atomes_lies": [
+            "S45-A130"
+          ],
+          "chapitres": [
+            "Chapitre 10"
+          ],
+          "statut": "période à préciser"
+        },
+        {
+          "id": "CHR-S45-1980-03-CLOSER-BRITANNIA-ROW",
+          "source_id": "S45",
+          "date": "1980-03",
+          "evenement": "*Closer* est enregistré à Britannia Row Studios, Londres. Rob Gretton envoie 20 livres aux femmes pour le trajet, mais Deborah utilise l’argent pour payer la facture d’électricité.\n",
+          "atomes_lies": [
+            "S45-A132"
+          ],
+          "chapitres": [
+            "Chapitre 3",
+            "Chapitre 8",
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "statut": "événement discographique établi ; détails domestiques rapportés par S45"
+        }
+      ]
     }
   },
   {

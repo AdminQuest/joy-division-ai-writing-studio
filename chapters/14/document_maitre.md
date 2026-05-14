@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T05:50:53"
+generated_at: "2026-05-14T09:16:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 640 |
+| Atomes | 642 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -35,7 +35,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 41 | 3 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 21 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 23 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
@@ -228,6 +228,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A093** — S45-A093 — McCullough / Sounds : refus des réponses droites et publicité paradoxale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_presse` ; importance : `majeur` ; preuve : `témoignage direct + réception presse rapportée`.
+- **S45-A124** — S45-A124 — Franck Essner à Barton Street : charade familiale et regard transnational  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `majeur` ; preuve : `témoignage direct + propos de Franck rapportés`.
+- **S45-A126** — S45-A126 — New Osbourne Club : beauté retrouvée, loge cachée et performance affaiblie  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_domestique` ; importance : `majeur` ; preuve : `témoignage direct + critique rapportée`.
 - **S46-001** — S46-001 — Le livre comme histoire « éclectique » et non définitive  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `methode` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-002** — S46-002 — Bootlegs et culture de circulation parallèle  
@@ -278,10 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `paratexte_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-049** — S46-049 — Saville : design contre décoration  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `design` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-050** — S46-050 — Bernard Sumner et l’image scientifique du pulsar  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `iconographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-054** — S46-054 — Joy Division, transe et techniques de suggestion  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_theorique` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -520,6 +520,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Closer (5)
 - Gretton (5)
 - Buzzcocks tour (4)
+- Mick Middles (4)
 - Strawberry Studios (4)
 - Ian Curtis (4)
 - épilepsie (4)
@@ -532,7 +533,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - A Certain Ratio (4)
 - Rainbow Theatre (3)
 - Transmission (3)
-- Mick Middles (3)
 - Dave McCullough (3)
 - Sounds (3)
 - NME (3)
@@ -560,6 +560,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A107 — prolonge → S45-A098
 - S45-A107 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
 - S45-A107 — prolonge → S45-A085
+- S45-A124 — prolonge → S45-A116
+- S45-A124 — prolonge → MOTIF-038
+- S45-A124 — nuance → MYTH-002
+- S45-A126 — prolonge → S45-A110
+- S45-A126 — prolonge → MOTIF-034
+- S45-A126 — prolonge → CONCEPT-029
 - S45-A114 — prolonge → S45-A106
 - S45-A114 — prolonge → MOTIF-030
 - S45-A114 — alerte → RISQUE-SURINTERPRETATION-TECHNIQUE
@@ -627,12 +633,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A075 — deconstruit → MYTH-002
 - S75-A075 — conclut → S75-A068
 - S75-A001 — prolonge → MOTIF-heritage
-- S75-A001 — nuance → MYTH-culte_sombre
-- S75-A002 — nuance → MYTH-joy_division_mystique
-- S75-A002 — prolonge → CONCEPT-prudence_historiographique
-- S75-A003 — nuance → MYTH-curtis_prophete_de_sa_mort
-- S75-A003 — prolonge → S45
-- S75-A005 — nuance → MYTH-lesser_free_trade_hall_origine_absolue
 
 ## 13. Distribution documentaire
 
@@ -695,6 +695,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | interpretation | 3 |
 | song_session | 3 |
 | song | 3 |
+| reception_transnationale | 2 |
 | reception_precoce | 2 |
 | infrastructure | 2 |
 | methodologie_source | 2 |
@@ -734,7 +735,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | esthétique_visuelle | 2 |
 | album | 2 |
 | reception_starification | 1 |
-| reception_transnationale | 1 |
+| scene_live_domestique | 1 |
 | reception_publique | 1 |
 | strategie_mediatique | 1 |
 | contrepoint_mythique | 1 |
@@ -962,7 +963,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | non qualifiée | 450 |
 | critique | 143 |
 | majeure | 39 |
-| majeur | 4 |
+| majeur | 6 |
 | structurante | 2 |
 | moyenne | 2 |
 
@@ -971,6 +972,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A104 [moyen] — Risque de faire de Futurama une consécration définitive ou de négliger la correction apportée par Deborah sur les femmes absentes.
 - S45-A106 [moyen] — Risque de transformer une rave review en preuve générale de domination sur toute la tournée ; Deborah parle d’un schéma qui se dessine, pas d’un verdict définitif.
 - S45-A107 [élevé] — Risque de reprendre sans nuance la presse qui réduit Joy Division à Curtis ; l’atome sert précisément à montrer cette tension.
+- S45-A124 [moyen] — Risque de transformer la formule de Franck en essentialisation mystique de Curtis.
+- S45-A126 [moyen] — Risque d’attribuer la performance affaiblie uniquement à la crise conjugale ; le groupe subit aussi fatigue, pression et santé.
 - S45-A114 [moyen] — Risque de transformer le mauvais son en complot certain ; la citation est un jugement critique, non une preuve technique autonome.
 - S45-A116 [moyen] — Risque de surévaluer la scène française à partir d’un fan ; l’atome vaut comme signe d’émergence, non comme mesure exhaustive.
 - S45-A085 [élevé] — Risque de surmédicaliser la critique ou d’ignorer l’écart entre réception esthétique et réalité médicale.
@@ -1026,8 +1029,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S74-A036 [moyen] — risque de faire de Gretton un stratège totalement lucide alors que le choix reste empirique et risqué
 - S74-A037 [moyen] — risque de mythifier une clause informelle comme pure vertu sans examiner ses effets économiques
 - S74-A040 [eleve] — risque de basculer dans une lecture uniquement conflictuelle en oubliant le résultat artistique
-- S74-A041 [moyen] — risque de survaloriser le rejet initial au détriment de l’évolution ultérieure de la perception du groupe
-- S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
 
 ## 15. Lacunes et prochaines vérifications
 

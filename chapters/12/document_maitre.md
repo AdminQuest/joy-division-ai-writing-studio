@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T05:50:53"
+generated_at: "2026-05-14T09:16:00"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 214 |
+| Atomes | 221 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -35,7 +35,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 0 | 1 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 36 | 2 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 43 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
@@ -87,6 +87,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A118** — S45-A118 — « Our marriage was over » : dépossession narrative de Deborah  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `synthese_tension` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A120** — S45-A120 — Tournée européenne : départ sans adieu et Annik comme exception à la no women policy  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_tournee` ; importance : `critique` ; preuve : `témoignage direct + souvenir rapporté de Tony Wilson`.
+- **S45-A121** — S45-A121 — Pernod, Bible et Revelation : crise alcoolisée, scène religieuse et récit divergent  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Morris`.
+- **S45-A129** — S45-A129 — Pseudo-crises possibles : manipulation, maladie et prudence probatoire  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `interprétation de Deborah + désaccord rapporté des membres du groupe`.
+- **S45-A131** — S45-A131 — Natalie au coucher : paternité désirée et restriction auto-imposée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sante` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
 - **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A031** — S75-A031 — Londres, Hope & Anchor et crise épileptique : anti-triomphe de la sortie régionale  
@@ -105,16 +115,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte_medical` ; importance : `critique` ; preuve : `reconstruction_medicale_critique`.
 - **S75-A062** — S75-A062 — Presse de 1979 : possession, attraction et méprise médicale  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `critique` ; preuve : `reception_contemporaine`.
-- **S75-A063** — S75-A063 — Vie domestique, responsabilité et rock star self-absorption  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `memoire_intime_et_reconstruction_critique`.
-- **S75-A065** — S75-A065 — Annik Honoré : liaison, idéal de fuite et nœud biographique sensible  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `reconstruction_memorielle_conflictuelle`.
-- **S75-A068** — S75-A068 — Février-avril 1980 : tentatives, aveuglements et point de non-retour  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `chronologie_sensible` ; importance : `critique` ; preuve : `reconstruction_memorielle_sensible`.
-- **S75-A072** — S75-A072 — *Closer* à Britannia Row : retrait analogique et album non pensé comme testament  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_session`.
-- **S75-A073** — S75-A073 — Rainbow, Derby Hall et le dispositif impossible de substitution vocale  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_evenementielle`.
 
 ## 6. Autres atomes utiles
 
@@ -144,6 +144,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A108** — S45-A108 — Rituels téléphoniques : langage conjugal comme assurance obsessionnelle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A122** — S45-A122 — Arrêt annoncé des concerts : pacificateur domestique et calendrier impossible  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_professionnelle` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-029** — S46-029 — Paul Morley, Wozencroft et la lecture occulto-filmique  
@@ -264,20 +266,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A063** — S75-A063 — Vie domestique, responsabilité et rock star self-absorption  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `memoire_intime_et_reconstruction_critique`.
+- **S75-A065** — S75-A065 — Annik Honoré : liaison, idéal de fuite et nœud biographique sensible  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `reconstruction_memorielle_conflictuelle`.
+- **S75-A068** — S75-A068 — Février-avril 1980 : tentatives, aveuglements et point de non-retour  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `chronologie_sensible` ; importance : `critique` ; preuve : `reconstruction_memorielle_sensible`.
+- **S75-A072** — S75-A072 — *Closer* à Britannia Row : retrait analogique et album non pensé comme testament  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_session`.
+- **S75-A073** — S75-A073 — Rainbow, Derby Hall et le dispositif impossible de substitution vocale  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_evenementielle`.
 - **S75-A075** — S75-A075 — Dernière lecture d'Ott : Ian Curtis a perdu, il ne faut pas le déifier  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `synthese_interpretative`.
-- **S76-A001** — S76-A001 — Middles et Reade : une biographie située, entre témoin de scène et mémoire Factory  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `cadrage_source` ; importance : `critique` ; preuve : `cadrage_source`.
-- **S76-A002** — S76-A002 — Le refus familial du récit uniquement tragique  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `temoignage_familial_rapporte`.
-- **S76-A009** — S76-A009 — Compartimentation amicale et pluralité des Ian Curtis  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `interpretation_temoignage`.
-- **S76-A010** — S76-A010 — Incident de drogues à King’s School : classe, sanction et fragilité adolescente  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `chronologie_sensible` ; importance : `majeure` ; preuve : `temoignage_retroactif_sensible`.
-- **S76-A017** — S76-A017 — Fiançailles de 1974 : jeunesse, famille et normalité conjugale  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_intime` ; importance : `majeure` ; preuve : `memoire_familiale`.
-- **S76-A018** — S76-A018 — Doutes prénuptiaux et tentation de prophétiser Curtis  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `temoignages_retrospectifs_sensibles`.
 
 ## 7. Citations disponibles
 
@@ -499,16 +499,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
-- Annik Honoré (18)
+- Annik Honoré (19)
 - fatigue (12)
 - épilepsie (10)
 - Deborah Curtis (10)
+- Closer (8)
 - Ian Curtis (7)
-- Closer (7)
 - Natalie Curtis (7)
 - Tony Wilson (6)
 - Barton Street (5)
 - Rob Gretton (5)
+- tournée américaine (4)
+- Britannia Row (4)
 - handicap (4)
 - She’s Lost Control (4)
 - Love Will Tear Us Apart (4)
@@ -522,23 +524,21 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Macclesfield (3)
 - Phenobarbitone (3)
 - Derby Hall (3)
-- Britannia Row (3)
 - crise épileptique (3)
 - Terry Mason (3)
 - David Lewis Centre (3)
 - Unknown Pleasures (3)
 - Mark Reeder (3)
 - mariage (3)
-- tournée américaine (3)
 - Factory (2)
 - chien (2)
+- tournée européenne (2)
+- hovercraft (2)
+- Natalie (2)
 - grand mal (2)
 - GP (2)
 - drogues (2)
 - travail social (2)
-- Employment Exchange (2)
-- maladie (2)
-- diagnostic (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -553,6 +553,23 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S45-A060 — prolonge → CONCEPT-012
 - S45-A060 — nuance → MYTH-002
 - S45-A060 — prolonge → MOTIF-012
+- S45-A120 — prolonge → S45-A095
+- S45-A120 — prolonge → MOTIF-033
+- S45-A120 — prolonge → CONCEPT-018
+- S45-A121 — prolonge → CONCEPT-029
+- S45-A121 — prolonge → CONCEPT-019
+- S45-A121 — requiert → CONCEPT-004
+- S45-A122 — prolonge → CONCEPT-026
+- S45-A122 — prépare → S45-A136
+- S45-A129 — prolonge → CONCEPT-019
+- S45-A129 — alerte → RISQUE-CAUSALITE-MEDICALE
+- S45-A129 — requiert → CONCEPT-004
+- S45-A131 — prolonge → S45-A080
+- S45-A131 — prolonge → CONCEPT-021
+- S45-A131 — prolonge → CONCEPT-019
+- S45-A132 — prolonge → S45-A125
+- S45-A132 — prolonge → CONCEPT-023
+- S45-A132 — prépare → CHAPITRE-11-THIS-IS-MY-CRISIS
 - S45-A109 — prolonge → S45-A013
 - S45-A109 — prolonge → CONCEPT-018
 - S45-A109 — requiert → CONCEPT-004
@@ -605,23 +622,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S45-A071 — requiert → CONCEPT-009
 - S45-A071 — prépare → S45-A072
 - S45-A072 — alerte → RISQUE-CAUSALITE-MEDICALE
-- S45-A072 — prolonge → S45-A071
-- S45-A072 — requiert → CONCEPT-009
-- S45-A073 — prolonge → S45-A071
-- S45-A073 — prolonge → CONCEPT-012
-- S45-A073 — nuance → MYTH-002
-- S45-A074 — prolonge → S45-A002
-- S45-A074 — requiert → CONCEPT-009
-- S45-A074 — nuance → MYTH-002
-- S45-A080 — prolonge → S45-A073
-- S45-A080 — prolonge → CONCEPT-012
-- S45-A080 — prolonge → S45-A079
-- S75-A057 — requiert → CONCEPT-004
-- S75-A057 — nuance → MYTH-002
-- S75-A057 — prolonge → S75-A044
-- S75-A058 — requiert → CONCEPT-004
-- S75-A058 — nuance → MYTH-002
-- S75-A058 — prolonge → S75-A047
 
 ## 13. Distribution documentaire
 
@@ -629,11 +629,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Type | Nombre |
 |---|---|
+| non qualifié | 7 |
 | lecture_chanson | 7 |
-| non qualifié | 6 |
 | session_studio | 5 |
 | song | 5 |
 | live_set_context | 4 |
+| tension_medicale | 3 |
 | tension_domestique | 3 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
@@ -644,7 +645,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | song_session | 3 |
 | scene_domestique | 2 |
 | contrepoint_domestique | 2 |
-| tension_medicale | 2 |
 | tension_documentaire | 2 |
 | performance_live | 2 |
 | fait_medical | 2 |
@@ -668,6 +668,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | bascule_tournee | 2 |
 | seuil_professionnel | 1 |
 | evenement_live_sante | 1 |
+| tension_tournee | 1 |
+| scene_sensible | 1 |
+| tension_professionnelle | 1 |
+| scene_domestique_sante | 1 |
+| session_domestique | 1 |
 | tension_relationnelle | 1 |
 | synthese_tension | 1 |
 | evenement_medical | 1 |
@@ -786,10 +791,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 103 |
-| non qualifiée | 87 |
+| critique | 108 |
+| non qualifiée | 88 |
 | majeure | 20 |
-| majeur | 4 |
+| majeur | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -797,6 +802,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S45-A105 [moyen] — Risque de symboliser excessivement la fermeture du lieu ; la scène doit rester aussi matérielle, médicale et chaotique.
 - S45-A108 [élevé] — Risque de diagnostic psychologique rétrospectif ; il faut parler de rituel, pas de pathologie démontrée.
 - S45-A060 [faible] — Risque limité, sauf si l’on transforme la scène en preuve morale générale de douceur.
+- S45-A120 [moyen] — Risque de réduire la tournée à Annik ; le passage documente aussi fatigue, sommeil, transport et santé.
+- S45-A121 [très élevé] — Risque de transformer l’épisode en prophétie religieuse ou en signe suicidaire univoque.
+- S45-A122 [moyen] — Risque d’attribuer cyniquement la poursuite des concerts à un seul acteur ; elle relève d’un dispositif collectif et d’un calendrier déjà lancé.
+- S45-A129 [très élevé] — Risque de conclure à une manipulation médicale sans preuve ; l’atome doit rester une tension documentaire.
+- S45-A131 [élevé] — Risque de moraliser le refus paternel ; la scène combine peur réelle, maladie, culpabilité et épuisement.
+- S45-A132 [élevé] — Risque de réduire *Closer* à la crise Annik/Deborah ; le passage éclaire un contexte de création, non une causalité esthétique totale.
 - S45-A109 [élevé] — Risque de réduire la crise conjugale à Annik seule ; la relation agit dans un faisceau de maladie, tournée, succès, distance et secret.
 - S45-A112 [élevé] — Risque de transformer tous les signes en indices évidents a posteriori ; Deborah souligne elle-même le caractère rétrospectif de la lecture.
 - S45-A118 [élevé] — Risque de transformer cette conclusion en vérité totale du groupe ; c’est une vérité située, mais essentielle.
@@ -847,12 +858,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S76-A148 [tres_eleve] — lettre très explicite ; risque de médicalisation totale du récit
 - S76-A149 [tres_eleve] — risque de défense unilatérale d’Annik ou de disqualification de Deborah
 - S76-A150 [tres_eleve] — formulation extrêmement forte ; risque de l’utiliser comme preuve d’une issue déjà décidée
-- S76-A151 [moyen] — scène très séduisante ; ne pas exagérer le rôle de Wilson au détriment de Curtis, Hannett et du groupe
-- S76-A152 [tres_eleve] — chanson la plus mythifiable du corpus ; risque d’absorber toute la biographie de Curtis
-- S76-A153 [eleve] — risque de moraliser Deborah ou de sentimentaliser l’animal comme pur symbole tragique
-- S76-A097 [tres_eleve] — risque maximal de médiumnité, prophétisation et lecture surnaturelle de Curtis
-- S76-A104 [eleve] — risque de confondre danse, épilepsie et mythe du corps possédé ; ne pas médicaliser sans preuve
-- S76-A106 [moyen] — intimité privée difficile à objectiver ; éviter l’héroïsation ou la psychologisation
 
 ## 15. Lacunes et prochaines vérifications
 
