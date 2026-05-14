@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-14T16:42:06",
+  "generated_at": "2026-05-14T18:07:00",
   "status": "warning",
   "summary": {
-    "records_total": 2813,
+    "records_total": 2861,
     "records_by_kind": {
-      "atom": 1465,
+      "atom": 1477,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 55,
+      "unknown": 64,
       "song": 41,
-      "template": 126,
+      "template": 136,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 120,
+      "motif": 129,
       "person": 157,
-      "concept": 78,
+      "concept": 86,
       "myth": 11
     },
-    "diagnostics_total": 15018,
+    "diagnostics_total": 15129,
     "errors": 0,
-    "warnings": 15018,
+    "warnings": 15129,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 347,
-        "atoms": 270,
+        "records": 368,
+        "atoms": 282,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -120,6 +120,7 @@
           "registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
+          "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
           "sources/hook/atomisation_04_unknown_pleasures_track_by_track.md",
@@ -134,7 +135,8 @@
           "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
           "sources/hook_unknown_pleasures/source_part_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
           "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
-          "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md"
+          "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md",
+          "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md"
         ]
       },
       {
@@ -16109,6 +16111,534 @@
       "file": "sources/hook_unknown_pleasures/source_part_1976_lesser_free_trade_hall_bass_ian_joining.md",
       "message": "Invalid value for type_unite: interpretation_retrospective",
       "record_id": "S41-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: chronologie_structurante",
+      "record_id": "S41-A093"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: chronologie_factory",
+      "record_id": "S41-A094"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: chronologie_discographique",
+      "record_id": "S41-A095"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: reception_live",
+      "record_id": "S41-A096"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: influence_live",
+      "record_id": "S41-A097"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: tension_politique_live",
+      "record_id": "S41-A098"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: objet_audiovisuel",
+      "record_id": "S41-A099"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: scene_politique_factory",
+      "record_id": "S41-A100"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: reception_live",
+      "record_id": "S41-A101"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: chronologie_live_locale",
+      "record_id": "S41-A102"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A103"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Invalid value for type_unite: reception_live",
+      "record_id": "S41-A103"
     },
     {
       "level": "warning",
@@ -81137,6 +81667,144 @@
       "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
       "message": "Unable to infer documentary kind",
       "record_id": "OBJ-S45-LAST-PHOTOGRAPH-NATALIE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "INST-S41-M24J-FACTORY-PRELABEL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: statut",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: importance",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-TL3-ERIC-RICH-KIDS-1978-07-15"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-TL3-SUICIDE-RUSSELL-CLUB-1978-07-28"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-TL3-BRADFORD-ROYAL-STANDARD-NF"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "TV-S41-TL3-GRANADA-SHADOWPLAY-WORLD-IN-ACTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-TL3-KELLYS-ROCK-AGAINST-RACISM"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-TL3-FACTORY-CABARET-VOLTAIRE-FAC3"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-TL3-CHECK-INN-ALTRINCHAM-RECORD-MIRROR"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-TL3-HOPE-ANCHOR-SOUNDS-REVIEW"
     },
     {
       "level": "warning",

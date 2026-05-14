@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T16:42:16"
+generated_at: "2026-05-14T18:07:12"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 306 |
+| Atomes | 309 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -34,7 +34,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 78 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 81 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
@@ -67,6 +67,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + archive télévisuelle existante`.
 - **S41-A078** — S41-A078 — Burnel et Simonon : basse haute sonore, basse basse visuelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `influence_instrumentale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A098** — S41-A098 — Bradford Royal Standard : public National Front et survie par mimétisme ambigu  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_politique_live` ; importance : `critique` ; preuve : `témoignage Hook inséré dans la timeline`.
+- **S41-A099** — S41-A099 — Granada Reports : montage World in Action et naissance du geste scénique de Curtis  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage Hook sur archive audiovisuelle`.
+- **S41-A100** — S41-A100 — Rock Against Racism et Cabaret Voltaire : correction politique et montée Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_politique_factory` ; importance : `critique` ; preuve : `chronologie éditoriale + citation Hook`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
@@ -111,12 +117,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_single` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A047** — S74-A047 — Factory Club comme véritable foyer scénique de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A048** — S74-A048 — Rainbow Theatre : la crise d’épilepsie comme effondrement scénique public  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `performance_live` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A049** — S74-A049 — Derby Hall : erreur collective, expérimentation Factory et émeute  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `evenement_crise` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A056** — S74-A056 — Closer et Love Will Tear Us Apart : beauté posthume, design funéraire et campagne américaine absurde  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -507,15 +507,15 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - An Ideal for Living (6)
 - fatigue (6)
 - Rabid Records (5)
+- Shadowplay (4)
+- Rock Against Racism (4)
 - Tony Wilson (4)
 - Kevin Cummins (4)
 - Terry Mason (4)
 - Sister Ray (4)
-- Shadowplay (3)
 - Rudolf Hess (3)
 - Hitler Youth (3)
 - Warsaw Pakt (3)
-- Rock Against Racism (3)
 - Warsaw (3)
 - Tosh Ryan (3)
 - répétition (3)
@@ -528,6 +528,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - John Anderson (3)
 - Moonlight Club (3)
 - Band On The Wall (3)
+- World in Action (2)
 - monochrome (2)
 - nom Joy Division (2)
 - Electric Circus (2)
@@ -542,7 +543,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Iggy Pop (2)
 - Throbbing Gristle (2)
 - Stiff Kittens (2)
-- Warszawa (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -594,6 +594,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A040 — alimente → REGISTRE-DISCOGRAPHIE
 - S41-A017 — prolonge → CONCEPT-046
 - S41-A017 — prolonge → MOTIF-063
+- S41-A098 — prolonge → CONCEPT-062
+- S41-A098 — prolonge → MYTH-007
+- S41-A099 — prolonge → S41-A077
+- S41-A099 — prépare → CONCEPT-037
+- S41-A100 — nuance → S41-A050
+- S41-A100 — prolonge → CONCEPT-073
+- S41-A100 — prolonge → CONCEPT-062
 - S41-A071 — prolonge → CONCEPT-059
 - S41-A071 — prolonge → CONCEPT-060
 - S41-A071 — prolonge → CONCEPT-062
@@ -619,13 +626,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S75-A028 — prolonge → MOTIF-002
 - S75-A028 — prépare → S75-A029
 - S75-A030 — prolonge → S75-A019
-- S75-A030 — prolonge → CONCEPT-006
-- S75-A030 — prolonge → CONCEPT-005
-- S75-A032 — nuance → MYTH-002
-- S75-A032 — prolonge → CONCEPT-004
-- S75-A055 — requiert → CONCEPT-004
-- S75-A055 — prolonge → MOTIF-006
-- S75-A055 — nuance → MYTH-006
 
 ## 13. Distribution documentaire
 
@@ -650,6 +650,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | concept_transversal | 4 |
 | tension_documentaire | 3 |
 | controverse | 3 |
+| objet_audiovisuel | 3 |
 | television | 3 |
 | evenement | 3 |
 | lieu | 3 |
@@ -660,7 +661,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | interpretation | 3 |
 | contexte_technique | 3 |
 | reception | 3 |
-| objet_audiovisuel | 2 |
 | construction_esthetique | 2 |
 | economie_discographique | 2 |
 | iconographie | 2 |
@@ -691,6 +691,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | transition_nominale | 1 |
 | reception_nominale | 1 |
 | evenement_discographique | 1 |
+| tension_politique_live | 1 |
+| scene_politique_factory | 1 |
 | intervention_management | 1 |
 | influence_instrumentale | 1 |
 | seuil_chronologique | 1 |
@@ -811,7 +813,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 191 |
-| critique | 86 |
+| critique | 89 |
 | majeure | 26 |
 | majeur | 3 |
 
@@ -833,6 +835,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A026 [moyen] — Risque de surinterpréter Warsaw comme programme esthétique pleinement formé ; Hook insiste aussi sur la facilité et le contexte.
 - S41-A040 [moyen] — Ne pas isoler Rudolf Hess de la logique plus large de maladresse provocatrice et de piège industriel.
 - S41-A017 [moyen] — Ne pas réduire le punk à l’apparence ; mais ici l’apparence est déjà action sociale.
+- S41-A098 [très élevé] — La formule doit être lue comme mémoire de danger et ironie politique.
+- S41-A099 [élevé] — Hook reste spéculatif sur la danse de Curtis.
+- S41-A100 [moyen] — RAR est un élément de nuance, non une absolution totale.
 - S41-A071 [faible à moyen] — Ne pas transformer Gretton en sauveur total ; il règle des problèmes très concrets.
 - S41-A077 [moyen] — Ne pas faire de la télévision une consécration nationale ; c’est une fenêtre locale pré-enregistrée.
 - S41-A078 [faible à moyen] — Ne pas réduire le style à deux influences ; elles complètent les contraintes matérielles déjà atomisées.
@@ -874,9 +879,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A044 [moyen] — le conflit avec The Negatives doit être traité comme scène de tension culturelle, non comme simple anecdote
 - S76-A045 [moyen] — scène fortement canonisée ; conserver le contexte tardif et conflictuel
 - S76-A046 [eleve] — dossier sensible ; il faut distinguer décision esthétique, morale, commerciale et distribution
-- S76-A047 [moyen] — scène souvent mythifiée ; ne pas en faire une prophétie automatique de Factory
-- S76-A144 [faible] — fait logistique concret ; ne pas le sursymboliser
-- S76-A145 [moyen] — anecdote très pittoresque ; ne pas folkloriser la précarité ou la colère de Curtis
 
 ## 15. Lacunes et prochaines vérifications
 

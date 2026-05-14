@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-14T16:42:15",
+  "generated_at": "2026-05-14T18:07:09",
   "summary": {
-    "records_total": 2813,
+    "records_total": 2861,
     "records_by_kind": {
-      "atom": 1465,
+      "atom": 1477,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 55,
+      "unknown": 64,
       "song": 41,
-      "template": 126,
+      "template": 136,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 120,
+      "motif": 129,
       "person": 157,
-      "concept": 78,
+      "concept": 86,
       "myth": 11
     },
-    "diagnostics_total": 15018,
+    "diagnostics_total": 15129,
     "errors": 0,
-    "warnings": 15018,
+    "warnings": 15129,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1465,
+    "atom": 1477,
     "chronology": 331,
-    "concept": 78,
+    "concept": 86,
     "metadata": 18,
-    "motif": 120,
+    "motif": 129,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,14 +41,14 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 126,
-    "unknown": 55
+    "template": 136,
+    "unknown": 64
   },
   "records_by_source": {
     "S41": {
-      "atom": 270,
+      "atom": 282,
       "quote": 9,
-      "unknown": 43,
+      "unknown": 52,
       "song": 7,
       "person": 9,
       "chronology": 9
@@ -127,17 +127,17 @@
   "records_by_chapter": {
     "Chapitre 1": 121,
     "Chapitre 10": 194,
-    "Chapitre 11": 202,
+    "Chapitre 11": 208,
     "Chapitre 12": 322,
     "Chapitre 13": 105,
-    "Chapitre 14": 803,
+    "Chapitre 14": 815,
     "Chapitre 2": 345,
-    "Chapitre 3": 299,
+    "Chapitre 3": 305,
     "Chapitre 4": 241,
-    "Chapitre 5": 403,
-    "Chapitre 6": 472,
+    "Chapitre 5": 412,
+    "Chapitre 6": 490,
     "Chapitre 7": 101,
-    "Chapitre 8": 167,
+    "Chapitre 8": 176,
     "Chapitre 9": 199,
     "Chapitre bootlegs": 7,
     "Tous chapitres": 1,
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1223,
-    "missing_required_field": 4000,
+    "invalid_controlled_value": 1234,
+    "missing_required_field": 4060,
     "schema_warning": 399,
-    "unknown_yaml_block": 55,
-    "v2_migration_debt": 9206
+    "unknown_yaml_block": 64,
+    "v2_migration_debt": 9237
   },
   "top_files_by_issue_count": [
     [
@@ -640,6 +640,78 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "INST-S41-M24J-FACTORY-PRELABEL",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-ERIC-RICH-KIDS-1978-07-15",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-SUICIDE-RUSSELL-CLUB-1978-07-28",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-BRADFORD-ROYAL-STANDARD-NF",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "TV-S41-TL3-GRANADA-SHADOWPLAY-WORLD-IN-ACTION",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-KELLYS-ROCK-AGAINST-RACISM",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-FACTORY-CABARET-VOLTAIRE-FAC3",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-CHECK-INN-ALTRINCHAM-RECORD-MIRROR",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-HOPE-ANCHOR-SOUNDS-REVIEW",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
       "record_id": "FILM-S45-ERASERHEAD-DISPARITION",
       "message": "Unable to infer documentary kind",
@@ -839,10 +911,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1465,
+    "atoms_total": 1477,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1404,
-    "v2_missing_field_warnings": 9206
+    "atoms_v2_incomplete": 1416,
+    "v2_missing_field_warnings": 9237
   },
   "source_registry": {
     "declared_but_unused": [
@@ -919,8 +991,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 347,
-        "atoms": 270,
+        "records": 368,
+        "atoms": 282,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -935,6 +1007,7 @@
           "registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
+          "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
           "sources/hook/atomisation_04_unknown_pleasures_track_by_track.md",
@@ -949,7 +1022,8 @@
           "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
           "sources/hook_unknown_pleasures/source_part_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
           "sources/hook_unknown_pleasures/source_part_1978_pips_first_joy_division_gig.md",
-          "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md"
+          "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md",
+          "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md"
         ]
       },
       {
@@ -22141,6 +22215,710 @@
       "file": "sources/hook_unknown_pleasures/source_part_1976_lesser_free_trade_hall_bass_ian_joining.md",
       "record_id": "S41-A024",
       "message": "Invalid value for type_unite: interpretation_retrospective",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A093",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A093",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A093",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A093",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A093",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A093",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A093",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A093",
+      "message": "Invalid value for type_unite: chronologie_structurante",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A094",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A094",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A094",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A094",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A094",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A094",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A094",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A094",
+      "message": "Invalid value for type_unite: chronologie_factory",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A095",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A095",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A095",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A095",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A095",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A095",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A095",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A095",
+      "message": "Invalid value for type_unite: chronologie_discographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A096",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A096",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A096",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A096",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A096",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A096",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A096",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A096",
+      "message": "Invalid value for type_unite: reception_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A097",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A097",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A097",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A097",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A097",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A097",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A097",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A097",
+      "message": "Invalid value for type_unite: influence_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A098",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A098",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A098",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A098",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A098",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A098",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A098",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A098",
+      "message": "Invalid value for type_unite: tension_politique_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A099",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A099",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A099",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A099",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A099",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A099",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A099",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A099",
+      "message": "Invalid value for type_unite: objet_audiovisuel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A100",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A100",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A100",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A100",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A100",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A100",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A100",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A100",
+      "message": "Invalid value for type_unite: scene_politique_factory",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A101",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A101",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A101",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A101",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A101",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A101",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A101",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A101",
+      "message": "Invalid value for type_unite: reception_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A102",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A102",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A102",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A102",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A102",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A102",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A102",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A102",
+      "message": "Invalid value for type_unite: chronologie_live_locale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A103",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A103",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A103",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A103",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A103",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A103",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A103",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "S41-A103",
+      "message": "Invalid value for type_unite: reception_live",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -108844,6 +109622,190 @@
       "category": "unknown_yaml_block",
       "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
       "record_id": "OBJ-S45-LAST-PHOTOGRAPH-NATALIE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "INST-S41-M24J-FACTORY-PRELABEL",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "SESSION-S41-TL3-ARROW-STUDIOS-1978-05-03-04",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-ERIC-RICH-KIDS-1978-07-15",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-SUICIDE-RUSSELL-CLUB-1978-07-28",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-BRADFORD-ROYAL-STANDARD-NF",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "TV-S41-TL3-GRANADA-SHADOWPLAY-WORLD-IN-ACTION",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-KELLYS-ROCK-AGAINST-RACISM",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-FACTORY-CABARET-VOLTAIRE-FAC3",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-CHECK-INN-ALTRINCHAM-RECORD-MIRROR",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+      "record_id": "LIVE-S41-TL3-HOPE-ANCHOR-SOUNDS-REVIEW",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
