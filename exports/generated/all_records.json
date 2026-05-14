@@ -1122,6 +1122,756 @@
   },
   {
     "kind": "atom",
+    "id": "S45-A109",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45-A109 — Annik nommée par périphrase : maîtresse invisible et récit domestique falsifié",
+    "data": {
+      "id": "S45-A109",
+      "type_unite": "tension_relationnelle",
+      "titre": "Annik nommée par périphrase : maîtresse invisible et récit domestique falsifié",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "98",
+        "papier": "à verrouiller"
+      },
+      "citation": "a chubby Belgian girl who was a ‘tour arranger’",
+      "resume": "Deborah Curtis rapporte que Ian lui parle d’une jeune Belge présentée comme « tour arranger », figure qu’il dit protéger des traits cruels de Rob Gretton. Le récit est déjà une falsification domestique : Annik Honoré est rendue visible par périphrase, mais non identifiée comme relation amoureuse. La version de Steve Morris contredit partiellement la description de Ian.\n",
+      "role_argumentatif": "Atome de seuil sur Annik : l’affaire n’entre pas d’abord dans le récit comme passion assumée, mais comme information déformée, contrôlée et rendue acceptable pour Deborah.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct de Deborah + correction rétrospective par Morris",
+        "corroboration": "moyenne ; à croiser avec Morris, Honoré, Reade, Wilson",
+        "confiance": "élevée pour la perception de Deborah ; moyenne pour les détails sur Annik"
+      },
+      "stabilite": {
+        "statut": "stable comme scène de dissimulation ; détails à recouper"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de réduire la crise conjugale à Annik seule ; la relation agit dans un faisceau de maladie, tournée, succès, distance et secret.\n"
+      },
+      "motifs": [
+        "Annik Honoré",
+        "tour arranger",
+        "maîtresse invisible",
+        "récit domestique falsifié",
+        "protection affichée"
+      ],
+      "concepts_derives": [
+        "dissimulation par périphrase",
+        "relation parallèle sous couverture professionnelle",
+        "vérité conjugale différée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A013",
+          "note": "Annik devient point de cristallisation sans constituer cause unique."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-018",
+          "note": "La politique affective du groupe et de la tournée autorise l’opacité."
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004",
+          "note": "Distinguer perception de Deborah, correction de Morris et vérité relationnelle."
+        }
+      ],
+      "couche_narrative": [
+        "intime",
+        "tournée",
+        "mémoire"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A110",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45-A110 — Apollo Manchester : Deborah face à Annik sans le savoir",
+    "data": {
+      "id": "S45-A110",
+      "type_unite": "scene_sensible",
+      "titre": "Apollo Manchester : Deborah face à Annik sans le savoir",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "98",
+        "papier": "à verrouiller"
+      },
+      "citation": "totally unaware of my husband’s mistress",
+      "resume": "Deborah raconte son arrivée dans la loge de l’Apollo, le pied bandé après une chute avec une bouilloire, vêtue d’habits achetés par sa mère, tandis qu’Annik l’observe de l’autre côté de la pièce. Ian l’extrait rapidement de la loge. La scène matérialise une humiliation dont Deborah ne comprend pas encore les codes.\n",
+      "role_argumentatif": "Atome central de mise en scène de la dépossession conjugale : la femme légitime, blessée et domestique, se trouve exposée à la maîtresse et immédiatement déplacée hors du cercle.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne ; à croiser avec présence d’Annik à l’Apollo",
+        "confiance": "élevée pour la scène vécue ; moyenne pour tous les regards attribués"
+      },
+      "stabilite": {
+        "statut": "stable comme mémoire de Deborah"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de théâtraliser la scène en pur triangle sentimental ; elle renseigne aussi sur loge, image, corps féminin blessé, maternité et exclusion.\n"
+      },
+      "motifs": [
+        "Apollo Manchester",
+        "Annik",
+        "loge",
+        "pied bandé",
+        "humiliation différée"
+      ],
+      "concepts_derives": [
+        "dépossession scénique de l’épouse",
+        "corps domestique déplacé",
+        "loge comme théâtre de vérité cachée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A095",
+          "note": "La no women policy se prolonge en exclusion individualisée de Deborah."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A109",
+          "note": "La périphrase devient présence physique non comprise."
+        },
+        {
+          "type": "alerte",
+          "cible": "RISQUE-CAUSALITE-ROMANTIQUE",
+          "note": "Ne pas réduire la crise à cette seule scène."
+        }
+      ],
+      "couche_narrative": [
+        "intime",
+        "live",
+        "genre"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A111",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45-A111 — Rob Gretton arbitre le couple : médiation managériale du privé",
+    "data": {
+      "id": "S45-A111",
+      "type_unite": "tension_management",
+      "titre": "Rob Gretton arbitre le couple : médiation managériale du privé",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "98",
+        "papier": "à verrouiller"
+      },
+      "citation": "Rob eventually persuaded Ian to go home with me",
+      "resume": "Après le second concert de l’Apollo, Deborah boit avec Lesley Gilbert, téléphone à la salle, comprend que Ian ne veut pas rentrer avec elle, puis Rob Gretton intervient pour l’éloigner de la fête et d’Annik. Rob paie un taxi jusqu’à Macclesfield, tandis que le couple garde le silence devant les parents baby-sitters de Deborah.\n",
+      "role_argumentatif": "Atome de management intime : Gretton ne gère plus seulement les concerts, mais arbitre matériellement une crise conjugale qui menace la stabilité immédiate de Curtis.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "moyenne ; à croiser avec Gretton/Lesley indirectement",
+        "confiance": "élevée pour la perception de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme scène de source"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque d’opposer mécaniquement manager et épouse ; Gretton agit ici comme médiateur pragmatique, non seulement comme écran.\n"
+      },
+      "motifs": [
+        "Rob Gretton",
+        "Lesley Gilbert",
+        "taxi",
+        "Apollo",
+        "arbitrage conjugal"
+      ],
+      "concepts_derives": [
+        "management du privé",
+        "crise conjugale administrée",
+        "retour forcé au foyer"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-016",
+          "note": "Le management-confession devient gestion concrète de crise conjugale."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A057",
+          "note": "Gretton comme gardien agit aussi dans le foyer."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A118",
+          "note": "Prépare la dépossession informationnelle finale de Deborah."
+        }
+      ],
+      "couche_narrative": [
+        "management",
+        "intime",
+        "tournée"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A112",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45-A112 — Disparitions et fausses pistes : Eraserhead, cricket et peur policière",
+    "data": {
+      "id": "S45-A112",
+      "type_unite": "tension_domestique",
+      "titre": "Disparitions et fausses pistes : Eraserhead, cricket et peur policière",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "99",
+        "papier": "à verrouiller"
+      },
+      "citation": "The signs are so obvious now that I’m embarrassed at my stupidity.",
+      "resume": "Deborah relit les signes qu’elle n’a pas compris : match de cricket introuvable, Ian repassant lui-même son pantalon, sortie à *Eraserhead* sans elle, disparition nocturne, appels aux parents, au groupe, aux hôpitaux et à la police. La peur de Deborah reste alors structurée par l’épilepsie : elle craint qu’il ait été arrêté ivre alors qu’il aurait eu une crise.\n",
+      "role_argumentatif": "Atome de reconstruction rétrospective : le passage montre comment l’adultère est d’abord interprété à travers le prisme de la maladie et du risque policier.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "faible pour les détails ; forte comme structure de perception",
+        "confiance": "élevée pour l’expérience de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme reconstruction de source ; faits ponctuels à prudence"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de transformer tous les signes en indices évidents a posteriori ; Deborah souligne elle-même le caractère rétrospectif de la lecture.\n"
+      },
+      "motifs": [
+        "Eraserhead",
+        "disparition",
+        "police",
+        "hôpitaux",
+        "signes rétrospectifs"
+      ],
+      "concepts_derives": [
+        "herméneutique après coup",
+        "maladie comme fausse piste",
+        "adultère sous masque médical"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-022",
+          "note": "Le foyer interprète les signes sous contrainte et sans accès à la vérité."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-019",
+          "note": "La peur médicale masque d’autres causes de rupture."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A118",
+          "note": "Prépare le constat final d’un mariage déjà terminé."
+        }
+      ],
+      "couche_narrative": [
+        "domesticité",
+        "santé",
+        "mémoire"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A113",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45-A113 — Fin 1979 : salaire de groupe, Silklands et économie domestique d’épuisement",
+    "data": {
+      "id": "S45-A113",
+      "type_unite": "economie_domestique",
+      "titre": "Fin 1979 : salaire de groupe, Silklands et économie domestique d’épuisement",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "99-100",
+        "papier": "à verrouiller"
+      },
+      "citation": "the downward spiral of our financial situation had reached the bottom",
+      "resume": "Deborah décrit l’effondrement financier après l’abandon des deux salaires : Ian reçoit une paye hebdomadaire de groupe, avec un supplément de 15 livres négocié contre remboursement futur. Deborah travaille le soir au Silklands pendant que ses parents gardent Natalie, rentre tard, veille à ce que Ian soit sauf au lit, et voit son argent partir en cigarettes.\n",
+      "role_argumentatif": "Atome majeur sur l’envers matériel de la professionnalisation : la carrière musicale devient possible au prix d’un transfert massif de charge financière, parentale et nocturne vers Deborah et ses parents.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "moyenne ; à croiser avec comptes de groupe si disponibles",
+        "confiance": "élevée pour la situation domestique"
+      },
+      "stabilite": {
+        "statut": "stable comme scène socio-économique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de réduire le passage à un grief conjugal ; il documente aussi l’économie concrète du passage au professionnalisme.\n"
+      },
+      "motifs": [
+        "Silklands",
+        "weekly wage",
+        "15 livres",
+        "cigarettes",
+        "baby-sitting parental",
+        "épuisement"
+      ],
+      "concepts_derives": [
+        "professionnalisation financée par le foyer",
+        "double journée de Deborah",
+        "économie domestique d’épuisement"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-021",
+          "note": "Le double care devient aussi double travail."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-023",
+          "note": "Le travail féminin effacé se prolonge en travail salarié compensatoire."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A102",
+          "note": "Quitter le day job a un coût domestique direct."
+        }
+      ],
+      "couche_narrative": [
+        "économie",
+        "domesticité",
+        "professionnalisation"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A114",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45-A114 — Rainbow et Guildford : farces de tournée, sabotage sonore et domination contrariée",
+    "data": {
+      "id": "S45-A114",
+      "type_unite": "reception_live",
+      "titre": "Rainbow et Guildford : farces de tournée, sabotage sonore et domination contrariée",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "100",
+        "papier": "à verrouiller"
+      },
+      "citation": "the spirit of resistance was there",
+      "resume": "Deborah rapporte les farces de fin de tournée : maggots sur les consoles, bus couvert de mousse à raser, souris relâchées, œufs lancés, excréments à Guildford. Elle cite aussi Chris Bohn sur le Rainbow Theatre : les Buzzcocks auraient offert un mauvais son à leurs invités, mais Joy Division aurait tout de même gagné son public contre la technologie.\n",
+      "role_argumentatif": "Atome sur la tournée comme champ de rivalité : Joy Division passe de support band à menace, mais dans une atmosphère de farce, sabotage, technique défavorable et concurrence.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rapporté + citation critique",
+        "corroboration": "forte à croiser avec Bohn, gig lists, mémoires",
+        "confiance": "élevée pour la scène générale ; moyenne pour le détail critique"
+      },
+      "stabilite": {
+        "statut": "stable comme nœud de tournée ; citation Bohn à vérifier"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de transformer le mauvais son en complot certain ; la citation est un jugement critique, non une preuve technique autonome.\n"
+      },
+      "motifs": [
+        "Rainbow Theatre",
+        "Guildford",
+        "Buzzcocks",
+        "farces de tournée",
+        "sabotage sonore",
+        "Chris Bohn"
+      ],
+      "concepts_derives": [
+        "rivalité de tournée",
+        "résistance sonore contrariée",
+        "support band menaçant"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A106",
+          "note": "Le schéma Mountford Hall se confirme dans la suite de la tournée."
+        },
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-030",
+          "note": "Le support act conquérant rencontre la résistance de la tête d’affiche."
+        },
+        {
+          "type": "alerte",
+          "cible": "RISQUE-SURINTERPRETATION-TECHNIQUE",
+          "note": "Ne pas convertir un jugement de presse en preuve de sabotage intentionnel."
+        }
+      ],
+      "couche_narrative": [
+        "tournée",
+        "réception",
+        "live"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A115",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45-A115 — 13 décembre 1979 : restaurant chinois et couple déserté",
+    "data": {
+      "id": "S45-A115",
+      "type_unite": "scene_domestique",
+      "titre": "13 décembre 1979 : restaurant chinois et couple déserté",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "100-101",
+        "papier": "à verrouiller"
+      },
+      "citation": "what a lonely couple we were",
+      "resume": "Le 13 décembre 1979, les parents de Deborah offrent au couple un repas d’anniversaire dans un petit restaurant chinois froid de Wilmslow. Ian reste silencieux, mange lentement, semble ailleurs. Deborah se sent exclue de ses amis, honteuse à ses yeux, et tente de provoquer une parole qui ne vient pas.\n",
+      "role_argumentatif": "Atome de condensation domestique : le couple n’est plus conflictuel au sens spectaculaire, mais déserté, muet, socialement coupé.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "faible nécessaire ; scène privée",
+        "confiance": "élevée pour la perception de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme mémoire domestique"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque d’en faire une scène symbolique totale ; elle reste un indice sensible d’un état conjugal.\n"
+      },
+      "motifs": [
+        "restaurant chinois",
+        "Wilmslow",
+        "anniversaire",
+        "silence",
+        "couple solitaire"
+      ],
+      "concepts_derives": [
+        "couple déserté",
+        "silence conjugal",
+        "honte imaginée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S45-A092",
+          "note": "La parole conjugale demeure impossible."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A108",
+          "note": "Les rituels de langage ne débouchent pas sur un échange réel."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A118",
+          "note": "Prépare le constat final du mariage déjà terminé."
+        }
+      ],
+      "couche_narrative": [
+        "domesticité",
+        "intime"
+      ],
+      "usage_livre": [
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A116",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45-A116 — Franck Essner : « Transmission » et amorce d’un fandom transnational",
+    "data": {
+      "id": "S45-A116",
+      "type_unite": "reception_transnationale",
+      "titre": "Franck Essner : Transmission et amorce d’un fandom transnational",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "101",
+        "papier": "à verrouiller"
+      },
+      "citation": "the band that wrote the song they loved so much",
+      "resume": "À Paris, en décembre 1979, Franck Essner assiste au concert après avoir entendu « Transmission » à la radio. Avec ses amis, il projette un fanzine comme moyen d’entrer en contact avec Joy Division. Il obtient une interview par Rob Gretton, dîne près de Ian, et devient son ami.\n",
+      "role_argumentatif": "Atome sur l’internationalisation de la réception : Joy Division attire désormais des fans européens actifs, organisés autour de fanzines et d’une chanson qui circule à la radio.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct de Deborah + entretien/retour de Franck Essner probable",
+        "corroboration": "moyenne à forte ; à croiser avec Essner et archives françaises",
+        "confiance": "élevée pour le nœud de réception"
+      },
+      "stabilite": {
+        "statut": "stable comme scène de mémoire"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de surévaluer la scène française à partir d’un fan ; l’atome vaut comme signe d’émergence, non comme mesure exhaustive.\n"
+      },
+      "motifs": [
+        "Franck Essner",
+        "Paris",
+        "Transmission",
+        "fanzine",
+        "réception européenne"
+      ],
+      "concepts_derives": [
+        "fandom transnational",
+        "chanson comme vecteur de contact",
+        "fanzine diplomatique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-025",
+          "note": "Le fandom dévotionnel devient transnational."
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A106",
+          "note": "La tournée étend la réception au-delà du Nord anglais."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A120",
+          "note": "Prépare l’importance ultérieure de Franck et d’Annik dans le récit."
+        }
+      ],
+      "couche_narrative": [
+        "réception",
+        "Europe",
+        "fanzines"
+      ],
+      "usage_livre": [
+        "Chapitre 14",
+        "Chapitre 6"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A117",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45-A117 — Factory New Year’s Eve 1979 : image froide, violence et promesse de réussite sociale",
+    "data": {
+      "id": "S45-A117",
+      "type_unite": "scene_sociale",
+      "titre": "Factory New Year’s Eve 1979 : image froide, violence et promesse de réussite sociale",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "101-102",
+        "papier": "à verrouiller"
+      },
+      "citation": "most people were too busy jealously guarding their image",
+      "resume": "La fête Factory du Nouvel An 1979 se déroule à Oldham Street devant un petit public privé. Section 25 joue, Ian veut intervenir face à un perturbateur, regarde Deborah avant de frapper, puis finit au sol, blessé. La fête est marquée par le contrôle de l’image, la froideur affective, une rumeur de violence contre une fille, et la remarque de Tony Wilson à Prestbury : l’année suivante, Ian pourrait vivre dans ce monde prospère.\n",
+      "role_argumentatif": "Atome de scène sociale Factory : l’ascension s’accompagne d’une froideur de pose, d’une violence masculine et d’une promesse de mobilité sociale qui reste spectrale.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct",
+        "corroboration": "moyenne ; à croiser avec Wilson, Johnson, archives Factory",
+        "confiance": "élevée pour la perception de Deborah"
+      },
+      "stabilite": {
+        "statut": "stable comme scène sociale"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Risque de surcharger l’anecdote Prestbury comme prophétie sociale ; elle signale surtout l’imaginaire d’ascension.\n"
+      },
+      "motifs": [
+        "Factory New Year",
+        "Oldham Street",
+        "Section 25",
+        "violence",
+        "image guarded",
+        "Prestbury"
+      ],
+      "concepts_derives": [
+        "Factory comme théâtre social froid",
+        "réussite sociale promise",
+        "image comme discipline"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MYTH-005",
+          "note": "Factory n’est pas seulement liberté : c’est aussi image, hiérarchie et pose."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-024",
+          "note": "Le contrôle d’image déborde les interviews."
+        },
+        {
+          "type": "prépare",
+          "cible": "S45-A118",
+          "note": "La froideur sociale accompagne la rupture conjugale finale du chapitre."
+        }
+      ],
+      "couche_narrative": [
+        "Factory",
+        "sociabilité",
+        "violence"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S45-A118",
+    "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45-A118 — « Our marriage was over » : dépossession narrative de Deborah",
+    "data": {
+      "id": "S45-A118",
+      "type_unite": "synthese_tension",
+      "titre": "« Our marriage was over » : dépossession narrative de Deborah",
+      "source_id": "S45",
+      "pages": {
+        "pdf": "102",
+        "papier": "à verrouiller"
+      },
+      "citation": "Our marriage was over and he hadn’t told me.",
+      "resume": "Deborah conclut le chapitre en comprenant que son mariage est terminé sans qu’Ian le lui ait dit. La littérature de l’Epilepsy Association ne l’a pas préparée au comportement de Ian, le groupe reçoit un récit défavorable de Deborah, et sa seule communication avec les autres passe par Ian. La rupture est donc déjà connue ailleurs avant d’être reconnue par l’épouse.\n",
+      "role_argumentatif": "Atome de synthèse critique : il condense la dépossession conjugale, médicale et informationnelle de Deborah à la fin de 1979.\n",
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "forte comme position de Deborah ; à croiser pour les récits donnés au groupe",
+        "confiance": "élevée pour la perception ; moyenne pour la perception des membres du groupe"
+      },
+      "stabilite": {
+        "statut": "stable comme point de vue de source"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de transformer cette conclusion en vérité totale du groupe ; c’est une vérité située, mais essentielle.\n"
+      },
+      "motifs": [
+        "mariage terminé",
+        "récit défavorable",
+        "groupe comme filtre",
+        "Epilepsy Association",
+        "dépossession narrative"
+      ],
+      "concepts_derives": [
+        "rupture sue par les autres",
+        "épouse hors circuit",
+        "vérité conjugale différée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-016",
+          "note": "Les circuits d’information passent désormais par groupe et management."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-021",
+          "note": "La double charge de Deborah devient solitude narrative."
+        },
+        {
+          "type": "prépare",
+          "cible": "CHAPITRE-10-I-KNOW-MY-LIFE-IS-GETTING-HARDER",
+          "note": "Ouvre le chapitre suivant sur la crise explicite."
+        }
+      ],
+      "couche_narrative": [
+        "intime",
+        "méthode",
+        "santé"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S45-A081",
     "file": "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
     "heading": "S45-A081 — Russell Club / Factory : première sortie maternelle et illusion d’équilibre",
@@ -9275,7 +10025,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::171",
+    "id": "NO_ID::sources/marco_broll/README.md::181",
     "file": "sources/marco_broll/README.md",
     "heading": "S68 — Broll, « Joy Division », s.d.",
     "data": {
@@ -9295,7 +10045,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::172",
+    "id": "NO_ID::sources/marco_broll/README.md::182",
     "file": "sources/marco_broll/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -9335,7 +10085,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::173",
+    "id": "NO_ID::sources/marco_broll/README.md::183",
     "file": "sources/marco_broll/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -12323,7 +13073,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::260",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::270",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "S72 — Reynolds, *Rip It Up and Start Again*, 2005/2006",
     "data": {
@@ -12340,7 +13090,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::261",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::271",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Couverture documentaire consolidée",
     "data": {
@@ -12395,7 +13145,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::262",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::272",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -12416,7 +13166,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::263",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::273",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -23602,7 +24352,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::619",
+    "id": "NO_ID::sources/flowers/README.md::629",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -23619,7 +24369,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::620",
+    "id": "NO_ID::sources/flowers/README.md::630",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -23679,7 +24429,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::621",
+    "id": "NO_ID::sources/flowers/README.md::631",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -23700,7 +24450,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::622",
+    "id": "NO_ID::sources/flowers/README.md::632",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -28417,7 +29167,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::704",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::714",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -63718,7 +64468,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1327",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1337",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -68304,7 +69054,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1473",
+    "id": "NO_ID::sources/suatoni/README.md::1483",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -68321,7 +69071,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1474",
+    "id": "NO_ID::sources/suatoni/README.md::1484",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -68359,7 +69109,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1475",
+    "id": "NO_ID::sources/suatoni/README.md::1485",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -69496,7 +70246,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1511",
+    "id": "NO_ID::sources/greig_strong/README.md::1521",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -69513,7 +70263,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1512",
+    "id": "NO_ID::sources/greig_strong/README.md::1522",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -69542,7 +70292,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1513",
+    "id": "NO_ID::sources/greig_strong/README.md::1523",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -70714,7 +71464,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1545",
+    "id": "NO_ID::registers/songs/master_songs.md::1555",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -71631,6 +72381,129 @@
       "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER",
+    "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45 — Chansons, films et concerts — Annik, Apollo, Rainbow, effondrement conjugal",
+    "data": {
+      "id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER",
+      "source_id": "S45",
+      "titre": "Transmission",
+      "artiste": "Joy Division",
+      "nature": "chanson / vecteur radiophonique transnational",
+      "usage": "Déclencheur de l’intérêt de Franck Essner et de ses amis en France ; la chanson circule par la radio et devient point d’entrée dans une relation de fandom actif.\n",
+      "atomes_lies": [
+        "S45-A116"
+      ],
+      "chapitres": [
+        "Chapitre 14",
+        "Chapitre 6"
+      ],
+      "prudence": "Ne pas généraliser toute la réception française à partir de ce seul témoignage.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "FILM-S45-ERASERHEAD-DISPARITION",
+    "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45 — Chansons, films et concerts — Annik, Apollo, Rainbow, effondrement conjugal",
+    "data": {
+      "id": "FILM-S45-ERASERHEAD-DISPARITION",
+      "source_id": "S45",
+      "titre": "Eraserhead",
+      "realisation": "David Lynch",
+      "nature": "film / fausse piste domestique",
+      "usage": "Sortie annoncée par Ian sans Deborah ; sa disparition après cette sortie devient pour Deborah un signe rétrospectif de l’infidélité et un motif de panique liée à l’épilepsie.\n",
+      "atomes_lies": [
+        "S45-A112"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "prudence": "Usage biographique seulement ; ne pas inférer une influence esthétique de Lynch sur Joy Division à partir de ce passage.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "LIVE-S45-APOLLO-MANCHESTER-1979",
+    "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45 — Chansons, films et concerts — Annik, Apollo, Rainbow, effondrement conjugal",
+    "data": {
+      "id": "LIVE-S45-APOLLO-MANCHESTER-1979",
+      "source_id": "S45",
+      "titre": "Apollo Manchester, octobre 1979",
+      "nature": "concerts / tournée Buzzcocks",
+      "usage": "Scène de confrontation indirecte entre Deborah et Annik ; loge, exclusion et arbitrage par Rob Gretton.\n",
+      "atomes_lies": [
+        "S45-A110",
+        "S45-A111"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 6"
+      ],
+      "prudence": "À croiser avec gig lists et témoignages de tournée.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "LIVE-S45-RAINBOW-THEATRE-1979",
+    "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45 — Chansons, films et concerts — Annik, Apollo, Rainbow, effondrement conjugal",
+    "data": {
+      "id": "LIVE-S45-RAINBOW-THEATRE-1979",
+      "source_id": "S45",
+      "titre": "Rainbow Theatre, novembre 1979",
+      "nature": "concerts / fin de tournée Buzzcocks",
+      "usage": "Scène de rivalité de tournée : farces, critique de Chris Bohn, question du son défavorable et résistance scénique de Joy Division.\n",
+      "atomes_lies": [
+        "S45-A114"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "prudence": "Vérifier la critique originale de Chris Bohn avant citation définitive.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "LIVE-S45-FACTORY-NYE-SECTION-25",
+    "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45 — Chansons, films et concerts — Annik, Apollo, Rainbow, effondrement conjugal",
+    "data": {
+      "id": "LIVE-S45-FACTORY-NYE-SECTION-25",
+      "source_id": "S45",
+      "titre": "Factory New Year’s Eve 1979 / Section 25",
+      "nature": "soirée Factory / scène sociale",
+      "usage": "Soirée privée Factory : Section 25 joue, Ian intervient violemment, Tony Wilson formule une promesse implicite de réussite sociale.\n",
+      "atomes_lies": [
+        "S45-A117"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "prudence": "Scène sociale et mémorielle ; ne pas en faire un tournant artistique autonome.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
     }
   },
   {
@@ -76349,7 +77222,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1688",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1703",
     "file": "registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md",
     "heading": "S45 — Citations candidates — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -78948,6 +79821,200 @@
       ],
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::1768",
+    "file": "registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45 — Citations candidates — Annik, Apollo, Rainbow, effondrement conjugal",
+    "data": {
+      "quotes": [
+        {
+          "id": "S45-Q065",
+          "source_id": "S45",
+          "passage": "a chubby Belgian girl who was a ‘tour arranger’",
+          "traduction_de_travail": "une jeune Belge rondelette qui était ‘organisatrice de tournée’",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "98",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 10",
+            "Annik Honoré comme vérité différée"
+          ],
+          "atomes_lies": [
+            "S45-A109"
+          ]
+        },
+        {
+          "id": "S45-Q066",
+          "source_id": "S45",
+          "passage": "totally unaware of my husband’s mistress",
+          "traduction_de_travail": "totalement inconsciente de la présence de la maîtresse de mon mari",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "98",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 10",
+            "Apollo et dépossession conjugale"
+          ],
+          "atomes_lies": [
+            "S45-A110"
+          ]
+        },
+        {
+          "id": "S45-Q067",
+          "source_id": "S45",
+          "passage": "Rob eventually persuaded Ian to go home with me",
+          "traduction_de_travail": "Rob finit par persuader Ian de rentrer avec moi",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "98",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 10",
+            "management du privé"
+          ],
+          "atomes_lies": [
+            "S45-A111"
+          ]
+        },
+        {
+          "id": "S45-Q068",
+          "source_id": "S45",
+          "passage": "The signs are so obvious now that I’m embarrassed at my stupidity.",
+          "traduction_de_travail": "Les signes sont maintenant si évidents que je suis embarrassée de ma stupidité.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "99",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 10",
+            "herméneutique après coup"
+          ],
+          "atomes_lies": [
+            "S45-A112"
+          ]
+        },
+        {
+          "id": "S45-Q069",
+          "source_id": "S45",
+          "passage": "the downward spiral of our financial situation had reached the bottom",
+          "traduction_de_travail": "la spirale descendante de notre situation financière avait atteint le fond",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "99",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 10",
+            "économie domestique"
+          ],
+          "atomes_lies": [
+            "S45-A113"
+          ]
+        },
+        {
+          "id": "S45-Q070",
+          "source_id": "S45",
+          "passage": "the spirit of resistance was there",
+          "traduction_de_travail": "l’esprit de résistance était là",
+          "statut": {
+            "original": "citation_rapportee_par_S45",
+            "source_presse": "Chris_Bohn_a_verifier",
+            "pagination_pdf": "100",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 14",
+            "Rainbow Theatre"
+          ],
+          "atomes_lies": [
+            "S45-A114"
+          ]
+        },
+        {
+          "id": "S45-Q071",
+          "source_id": "S45",
+          "passage": "what a lonely couple we were",
+          "traduction_de_travail": "quel couple solitaire nous étions",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "100",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 10",
+            "couple déserté"
+          ],
+          "atomes_lies": [
+            "S45-A115"
+          ]
+        },
+        {
+          "id": "S45-Q072",
+          "source_id": "S45",
+          "passage": "the band that wrote the song they loved so much",
+          "traduction_de_travail": "le groupe qui avait écrit la chanson qu’ils aimaient tant",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "101",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 14",
+            "fandom transnational"
+          ],
+          "atomes_lies": [
+            "S45-A116"
+          ]
+        },
+        {
+          "id": "S45-Q073",
+          "source_id": "S45",
+          "passage": "most people were too busy jealously guarding their image",
+          "traduction_de_travail": "la plupart étaient trop occupés à garder jalousement leur image",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "101",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 6",
+            "Factory comme théâtre social froid"
+          ],
+          "atomes_lies": [
+            "S45-A117"
+          ]
+        },
+        {
+          "id": "S45-Q074",
+          "source_id": "S45",
+          "passage": "Our marriage was over and he hadn’t told me.",
+          "traduction_de_travail": "Notre mariage était terminé et il ne me l’avait pas dit.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "102",
+            "pagination_papier": "a_completer"
+          },
+          "usage": [
+            "Chapitre 10",
+            "synthèse de rupture"
+          ],
+          "atomes_lies": [
+            "S45-A118"
+          ]
+        }
+      ]
     }
   },
   {
@@ -85394,7 +86461,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::1937",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::1953",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -85460,7 +86527,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::1938",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::1954",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -85614,7 +86681,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1939",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1955",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -85764,7 +86831,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1940",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::1956",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -85993,7 +87060,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1941",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1957",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -86087,7 +87154,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1942",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::1958",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -86257,7 +87324,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1943",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1959",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -86379,7 +87446,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1944",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1960",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -86513,7 +87580,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1945",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::1961",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -86534,7 +87601,264 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1946",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::1962",
+    "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "Relations stabilisées",
+    "data": {
+      "relations": [
+        {
+          "id": "REL-S45-A109-S45-A013",
+          "source": "S45-A109",
+          "type": "prolonge",
+          "cible": "S45-A013",
+          "justification": "Annik Honoré reparaît comme figure relationnelle centrale, mais d’abord sous une forme dissimulée et domesticable.\n"
+        },
+        {
+          "id": "REL-S45-A110-S45-A095",
+          "source": "S45-A110",
+          "type": "prolonge",
+          "cible": "S45-A095",
+          "justification": "La no women policy se concrétise à l’Apollo par l’évacuation de Deborah de la loge où Annik est présente.\n"
+        },
+        {
+          "id": "REL-S45-A111-CONCEPT-030",
+          "source": "S45-A111",
+          "type": "prolonge",
+          "cible": "CONCEPT-030",
+          "justification": "Rob Gretton intervient dans une crise conjugale afin de maintenir une stabilité minimale autour de Curtis.\n"
+        },
+        {
+          "id": "REL-S45-A112-CONCEPT-029",
+          "source": "S45-A112",
+          "type": "prolonge",
+          "cible": "CONCEPT-029",
+          "justification": "Les signes sont relus après coup ; sur le moment, la maladie et la peur policière masquent la relation parallèle.\n"
+        },
+        {
+          "id": "REL-S45-A113-CONCEPT-031",
+          "source": "S45-A113",
+          "type": "prolonge",
+          "cible": "CONCEPT-031",
+          "justification": "La professionnalisation musicale se finance par le travail de nuit de Deborah et le soutien de ses parents.\n"
+        },
+        {
+          "id": "REL-S45-A114-CONCEPT-032",
+          "source": "S45-A114",
+          "type": "prolonge",
+          "cible": "CONCEPT-032",
+          "justification": "Les farces de tournée et la critique du Rainbow montrent que la relation Joy Division / Buzzcocks devient concurrentielle.\n"
+        },
+        {
+          "id": "REL-S45-A115-S45-A108",
+          "source": "S45-A115",
+          "type": "prolonge",
+          "cible": "S45-A108",
+          "justification": "Les rituels de langage ne suffisent plus à produire une parole réelle entre Ian et Deborah.\n"
+        },
+        {
+          "id": "REL-S45-A116-MOTIF-025",
+          "source": "S45-A116",
+          "type": "prolonge",
+          "cible": "MOTIF-025",
+          "justification": "Le fandom dévotionnel se transforme en relation transnationale active par radio, fanzine et rencontre.\n"
+        },
+        {
+          "id": "REL-S45-A117-MYTH-005",
+          "source": "S45-A117",
+          "type": "nuance",
+          "cible": "MYTH-005",
+          "justification": "Factory n’est pas seulement anti-business ; c’est aussi un théâtre social froid, image, violence et promesse de mobilité.\n"
+        },
+        {
+          "id": "REL-S45-A118-CONCEPT-029",
+          "source": "S45-A118",
+          "type": "prolonge",
+          "cible": "CONCEPT-029",
+          "justification": "La vérité conjugale est connue indirectement par le groupe avant d’être dite à Deborah."
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::1963",
+    "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "Entrées RAG candidates",
+    "data": {
+      "rag_index": [
+        {
+          "id": "RAG-S45-A109",
+          "source_id": "S45",
+          "atom_id": "S45-A109",
+          "title": "Annik nommée par périphrase",
+          "chapters": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "tags": [
+            "annik-honore",
+            "deborah-curtis",
+            "infidelity",
+            "tour",
+            "domestic-truth"
+          ],
+          "query_boost": [
+            "chubby Belgian girl tour arranger",
+            "Annik Honoré tour arranger Deborah Curtis"
+          ],
+          "use_for": [
+            "vérité conjugale différée",
+            "Annik comme figure dissimulée"
+          ],
+          "avoid_for": [
+            "causalité romantique unique"
+          ]
+        },
+        {
+          "id": "RAG-S45-A110",
+          "source_id": "S45",
+          "atom_id": "S45-A110",
+          "title": "Apollo Manchester : Deborah face à Annik sans le savoir",
+          "chapters": [
+            "Chapitre 10"
+          ],
+          "tags": [
+            "apollo-manchester",
+            "annik-honore",
+            "dressing-room",
+            "deborah-curtis",
+            "humiliation"
+          ],
+          "query_boost": [
+            "totally unaware of my husband's mistress",
+            "Apollo dressing room Annik Deborah Curtis"
+          ],
+          "use_for": [
+            "scène de dépossession conjugale",
+            "no women policy concrète"
+          ],
+          "avoid_for": [
+            "triangle sentimental totalisant"
+          ]
+        },
+        {
+          "id": "RAG-S45-A113",
+          "source_id": "S45",
+          "atom_id": "S45-A113",
+          "title": "Silklands et économie domestique d’épuisement",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ],
+          "tags": [
+            "silklands",
+            "finances",
+            "domestic-economy",
+            "deborah-curtis",
+            "cigarettes"
+          ],
+          "query_boost": [
+            "downward spiral of our financial situation",
+            "Silklands bar staff Deborah Curtis"
+          ],
+          "use_for": [
+            "coût domestique de la professionnalisation",
+            "double travail de Deborah"
+          ],
+          "avoid_for": [
+            "grief conjugal isolé"
+          ]
+        },
+        {
+          "id": "RAG-S45-A114",
+          "source_id": "S45",
+          "atom_id": "S45-A114",
+          "title": "Rainbow et Guildford : rivalité de tournée",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "rainbow-theatre",
+            "guildford",
+            "buzzcocks-tour",
+            "chris-bohn",
+            "sound"
+          ],
+          "query_boost": [
+            "the spirit of resistance was there",
+            "Rainbow Theatre Buzzcocks Joy Division lousy sound"
+          ],
+          "use_for": [
+            "rivalité Joy Division / Buzzcocks",
+            "support band menaçant"
+          ],
+          "avoid_for": [
+            "preuve technique de sabotage sans recoupement"
+          ]
+        },
+        {
+          "id": "RAG-S45-A116",
+          "source_id": "S45",
+          "atom_id": "S45-A116",
+          "title": "Franck Essner et fandom transnational",
+          "chapters": [
+            "Chapitre 14",
+            "Chapitre 6"
+          ],
+          "tags": [
+            "franck-essner",
+            "transmission",
+            "paris",
+            "fanzine",
+            "fandom"
+          ],
+          "query_boost": [
+            "Franck Essner Transmission fanzine",
+            "the band that wrote the song they loved so much"
+          ],
+          "use_for": [
+            "internationalisation du fandom",
+            "rôle de Transmission comme vecteur"
+          ],
+          "avoid_for": [
+            "généralisation à toute la réception française"
+          ]
+        },
+        {
+          "id": "RAG-S45-A118",
+          "source_id": "S45",
+          "atom_id": "S45-A118",
+          "title": "Our marriage was over and he hadn’t told me",
+          "chapters": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "tags": [
+            "marriage-collapse",
+            "deborah-curtis",
+            "epilepsy-association",
+            "band-filter",
+            "narrative-dispossession"
+          ],
+          "query_boost": [
+            "Our marriage was over and he hadn't told me",
+            "Deborah Curtis marriage over Joy Division band blamed me"
+          ],
+          "use_for": [
+            "dépossession narrative de Deborah",
+            "conclusion du chapitre These Days"
+          ],
+          "avoid_for": [
+            "vérité totale du groupe sans croisement"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1964",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -86656,7 +87980,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1947",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::1965",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -86822,7 +88146,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1948",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1966",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -86881,7 +88205,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1949",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1967",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -86930,7 +88254,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1950",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::1968",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -87157,6 +88481,156 @@
       "atomes_lies": [
         "S45-A066",
         "S45-A078"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-033",
+    "file": "registers/motifs/s45_curtis_motifs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "MOTIF-033 — maîtresse invisible",
+    "data": {
+      "id": "MOTIF-033",
+      "nom": "maîtresse invisible",
+      "definition": "Motif désignant l’entrée d’Annik Honoré dans le récit domestique par détour : périphrase, faux statut professionnel, présence visible mais non comprise, silence et médiation du groupe.\n",
+      "atomes_lies": [
+        "S45-A109",
+        "S45-A110"
+      ],
+      "concepts_associes": [
+        "CONCEPT-029"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-034",
+    "file": "registers/motifs/s45_curtis_motifs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "MOTIF-034 — loge comme théâtre de dépossession",
+    "data": {
+      "id": "MOTIF-034",
+      "nom": "loge comme théâtre de dépossession",
+      "definition": "Motif désignant les espaces backstage où la place de Deborah Curtis devient incertaine, observée, déplacée ou refusée, tandis que la vérité de la relation Ian/Annik reste cachée.\n",
+      "atomes_lies": [
+        "S45-A110",
+        "S45-A111"
+      ],
+      "concepts_associes": [
+        "CONCEPT-018",
+        "CONCEPT-030"
+      ],
+      "chapitres": [
+        "Chapitre 10"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-035",
+    "file": "registers/motifs/s45_curtis_motifs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "MOTIF-035 — économie domestique d’épuisement",
+    "data": {
+      "id": "MOTIF-035",
+      "nom": "économie domestique d’épuisement",
+      "definition": "Motif désignant la fatigue matérielle produite par la professionnalisation : travail de nuit de Deborah, garde par les parents, argent rare, cigarettes de Ian, veille médicale et soin de Natalie.\n",
+      "atomes_lies": [
+        "S45-A113"
+      ],
+      "concepts_associes": [
+        "CONCEPT-031",
+        "CONCEPT-021"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-036",
+    "file": "registers/motifs/s45_curtis_motifs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "MOTIF-036 — rivalité et farces de tournée",
+    "data": {
+      "id": "MOTIF-036",
+      "nom": "rivalité et farces de tournée",
+      "definition": "Motif désignant les rites agressifs, burlesques et matériels de la tournée Buzzcocks : farces, excréments, maggots, mousse, souris, œufs, hiérarchie sonore et rivalité entre support band et tête d’affiche.\n",
+      "atomes_lies": [
+        "S45-A114"
+      ],
+      "concepts_associes": [
+        "CONCEPT-032"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-037",
+    "file": "registers/motifs/s45_curtis_motifs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "MOTIF-037 — couple déserté",
+    "data": {
+      "id": "MOTIF-037",
+      "nom": "couple déserté",
+      "definition": "Motif désignant les scènes où le couple Ian/Deborah ne se dispute plus vraiment mais se vide : silence, repas froid, absence de parole, sentiment de honte et impossibilité de rejoindre les amis du groupe.\n",
+      "atomes_lies": [
+        "S45-A115",
+        "S45-A118"
+      ],
+      "concepts_associes": [
+        "CONCEPT-029"
+      ],
+      "chapitres": [
+        "Chapitre 10"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-038",
+    "file": "registers/motifs/s45_curtis_motifs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "MOTIF-038 — fandom transnational émergent",
+    "data": {
+      "id": "MOTIF-038",
+      "nom": "fandom transnational émergent",
+      "definition": "Motif désignant l’apparition de fans européens actifs, organisés autour de la radio, des fanzines, des interviews et de relations personnelles avec le groupe.\n",
+      "atomes_lies": [
+        "S45-A116"
+      ],
+      "concepts_associes": [
+        "MOTIF-025"
+      ],
+      "chapitres": [
+        "Chapitre 14",
+        "Chapitre 6"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-039",
+    "file": "registers/motifs/s45_curtis_motifs_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "MOTIF-039 — Factory comme théâtre social froid",
+    "data": {
+      "id": "MOTIF-039",
+      "nom": "Factory comme théâtre social froid",
+      "definition": "Motif désignant les scènes Factory où la sociabilité se structure autour de l’image, de la retenue affective, de la violence masculine et de promesses de mobilité sociale.\n",
+      "atomes_lies": [
+        "S45-A117"
+      ],
+      "concepts_associes": [
+        "CONCEPT-024"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10"
       ]
     }
   },
@@ -89144,7 +90618,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2006",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2031",
     "file": "registers/people/s45_curtis_people_1979_buzzcocks_tour.md",
     "heading": "S45 — Personnes — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -93657,6 +95131,117 @@
     }
   },
   {
+    "kind": "template",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2146",
+    "file": "registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45 — Personnes — Annik, Apollo, Rainbow, effondrement conjugal",
+    "data": {
+      "people": [
+        {
+          "id": "PERS-S45-ANNIK-HONORE-INVISIBLE",
+          "personne": "Annik Honoré",
+          "source_id": "S45",
+          "role": "Jeune Belge d’abord présentée par Ian comme ‘tour arranger’, puis identifiée par Deborah comme maîtresse.",
+          "statut": "figure relationnelle centrale, à forte prudence documentaire",
+          "atomes_lies": [
+            "S45-A109",
+            "S45-A110"
+          ],
+          "usage": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "prudence": "Ne pas réduire la crise de Curtis ou du mariage à Annik seule."
+        },
+        {
+          "id": "PERS-S45-ROB-GRETTON-ARBITRAGE-APOLLO",
+          "personne": "Rob Gretton",
+          "source_id": "S45",
+          "role": "Manager intervenant pour ramener Ian vers Deborah après la fête de l’Apollo et payer le taxi vers Macclesfield.",
+          "statut": "manager / médiateur du privé",
+          "atomes_lies": [
+            "S45-A111"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ],
+          "prudence": "Gretton agit comme médiateur pragmatique, non comme simple adversaire de Deborah."
+        },
+        {
+          "id": "PERS-S45-LESLEY-GILBERT-APOLLO",
+          "personne": "Lesley Gilbert",
+          "source_id": "S45",
+          "role": "Présente auprès de Deborah entre les deux concerts de l’Apollo ; participe indirectement à la scène d’arbitrage domestique.",
+          "statut": "témoin périphérique",
+          "atomes_lies": [
+            "S45-A111"
+          ],
+          "usage": [
+            "Chapitre 10"
+          ]
+        },
+        {
+          "id": "PERS-S45-FRANCK-ESSNER-PARIS",
+          "personne": "Franck Essner",
+          "source_id": "S45",
+          "role": "Fan français ayant découvert ‘Transmission’ à la radio ; organise un contact par fanzine, rencontre Joy Division à Paris et devient proche de Ian.",
+          "statut": "fan transnational / futur témoin",
+          "atomes_lies": [
+            "S45-A116"
+          ],
+          "usage": [
+            "Chapitre 14",
+            "Chapitre 10"
+          ],
+          "prudence": "À croiser avec ses propres souvenirs et archives françaises."
+        },
+        {
+          "id": "PERS-S45-CHRIS-BOHN-RAINBOW",
+          "personne": "Chris Bohn",
+          "source_id": "S45",
+          "role": "Critique cité par Deborah à propos du Rainbow Theatre et de la mauvaise qualité sonore réservée à Joy Division.",
+          "statut": "réception critique rapportée",
+          "atomes_lies": [
+            "S45-A114"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "prudence": "Vérifier l’article original avant citation définitive."
+        },
+        {
+          "id": "PERS-S45-DONALD-JOHNSON-FACTORY-NYE",
+          "personne": "Donald Johnson",
+          "source_id": "S45",
+          "role": "Batteur de A Certain Ratio, associé au trajet de retour après la fête Factory du Nouvel An 1979.",
+          "statut": "acteur périphérique Factory",
+          "atomes_lies": [
+            "S45-A117"
+          ],
+          "usage": [
+            "Chapitre 6"
+          ]
+        },
+        {
+          "id": "PERS-S45-TONY-WILSON-PRESTBURY",
+          "personne": "Tony Wilson",
+          "source_id": "S45",
+          "role": "Présent au retour de la fête Factory ; évoque à Prestbury la possibilité d’une réussite sociale future de Ian.",
+          "statut": "médiateur Factory / observateur social",
+          "atomes_lies": [
+            "S45-A117"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "kind": "person",
     "id": "PERS-S75-032",
     "file": "registers/people/s75_ott_people_part_04.md",
@@ -95566,6 +97151,177 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-029",
+    "file": "registers/concepts/s45_curtis_concepts_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "CONCEPT-029 — vérité conjugale différée",
+    "data": {
+      "id": "CONCEPT-029",
+      "nom": "vérité conjugale différée",
+      "statut": {
+        "type": [
+          "concept_analytique",
+          "concept_domesticite",
+          "concept_memoire"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Processus par lequel Deborah Curtis ne comprend qu’après coup les signes de l’infidélité, de la rupture et de son exclusion du cercle Joy Division. Les indices existent, mais ils sont lus d’abord à travers la maladie, la tournée, l’économie domestique et la peur d’un accident.\n",
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A109",
+        "S45-A112",
+        "S45-A118"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-022"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-019"
+        },
+        {
+          "type": "requiert",
+          "cible": "CONCEPT-004"
+        }
+      ],
+      "risques": [
+        "téléologie conjugale",
+        "réduction de la crise à Annik",
+        "disqualification du témoignage de Deborah comme simple jalousie"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-030",
+    "file": "registers/concepts/s45_curtis_concepts_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "CONCEPT-030 — management du privé",
+    "data": {
+      "id": "CONCEPT-030",
+      "nom": "management du privé",
+      "statut": {
+        "type": [
+          "concept_management",
+          "concept_intime"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Extension des fonctions de management au traitement pratique des crises privées : Rob Gretton intervient pour maintenir la logistique du groupe, arbitrer les retours, éloigner Ian d’une situation risquée ou contenir une crise conjugale.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A111",
+        "S45-A118"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-016"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-009"
+        }
+      ],
+      "risques": [
+        "opposer mécaniquement manager et épouse",
+        "héroïser Gretton comme sauveur",
+        "effacer la violence de la dépossession informationnelle"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-031",
+    "file": "registers/concepts/s45_curtis_concepts_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "CONCEPT-031 — professionnalisation financée par le foyer",
+    "data": {
+      "id": "CONCEPT-031",
+      "nom": "professionnalisation financée par le foyer",
+      "statut": {
+        "type": [
+          "concept_economique",
+          "concept_domesticite",
+          "concept_professionnalisation"
+        ],
+        "stabilite": "stable"
+      },
+      "definition": "Situation dans laquelle le passage au professionnalisme musical transfère une part du risque économique vers le foyer : perte des salaires, paye irrégulière ou insuffisante, travail compensatoire de Deborah, garde assurée par ses parents, dépenses de cigarettes et dépendance matérielle.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A113"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-013"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-021"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-023"
+        }
+      ],
+      "risques": [
+        "réduire la professionnalisation à une réussite artistique",
+        "oublier les coûts domestiques et parentaux"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-032",
+    "file": "registers/concepts/s45_curtis_concepts_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "CONCEPT-032 — rivalité de tournée",
+    "data": {
+      "id": "CONCEPT-032",
+      "nom": "rivalité de tournée",
+      "statut": {
+        "type": [
+          "concept_live",
+          "concept_reception"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Dynamique par laquelle Joy Division, en première partie des Buzzcocks, gagne une puissance scénique susceptible de menacer la tête d’affiche, tout en étant soumis aux contraintes techniques, à la hiérarchie d’affiche et aux rites violents ou burlesques de fin de tournée.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S45-A114"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MOTIF-030"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S45-A106"
+        }
+      ],
+      "risques": [
+        "surinterpréter un jugement de presse en preuve technique",
+        "héroïser Joy Division contre Buzzcocks"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-S75-002",
     "file": "registers/concepts/s75_ott_concepts_part_02.md",
     "heading": "CONCEPT-S75-002 — secret produit en masse",
@@ -95803,7 +97559,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2167",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2197",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -95825,7 +97581,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2168",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2198",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -95843,7 +97599,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2169",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2199",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -95861,7 +97617,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2170",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2200",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -96284,7 +98040,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2181",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2211",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-003 — Manchester comme matrice unique",
     "data": {
@@ -96301,7 +98057,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2182",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2212",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -96319,7 +98075,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2183",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2213",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -96336,7 +98092,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2184",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2214",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -96351,7 +98107,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2185",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2215",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-009 — Rob Gretton comme manager sauveur",
     "data": {
@@ -96367,7 +98123,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2186",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2216",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -96386,7 +98142,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2187",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2217",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -96408,7 +98164,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2188",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2218",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -96424,7 +98180,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2189",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2219",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-CURTIS-AUTEUR-TOTAL — Curtis comme auteur total de Joy Division",
     "data": {
@@ -96440,7 +98196,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2190",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2220",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -96456,7 +98212,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2191",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2221",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-009 — Gretton comme manager sauveur",
     "data": {
@@ -97669,6 +99425,128 @@
     }
   },
   {
+    "kind": "template",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2250",
+    "file": "registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md",
+    "heading": "S45 — Chronologie candidate — Annik, Apollo, Rainbow, effondrement conjugal",
+    "data": {
+      "chronology": [
+        {
+          "id": "CHR-S45-1979-10-APOLLO-ANNIK-DEBORAH",
+          "source_id": "S45",
+          "date": "1979-10",
+          "evenement": "Lors des concerts de l’Apollo de Manchester, Deborah se trouve en loge face à Annik Honoré sans comprendre encore la nature de sa relation avec Ian.\n",
+          "atomes_lies": [
+            "S45-A109",
+            "S45-A110",
+            "S45-A111"
+          ],
+          "chapitres": [
+            "Chapitre 10"
+          ],
+          "statut": "datation à croiser avec gig list Apollo"
+        },
+        {
+          "id": "CHR-S45-1979-11-DISPARITION-ERASERHEAD",
+          "source_id": "S45",
+          "date": "1979-11",
+          "evenement": "Ian sort voir Eraserhead sans Deborah, ne rentre pas, puis revient le lendemain en colère que son absence ait été signalée.\n",
+          "atomes_lies": [
+            "S45-A112"
+          ],
+          "chapitres": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "statut": "scène domestique, datation approximative"
+        },
+        {
+          "id": "CHR-S45-1979-LATE-SILKLANDS-FINANCES",
+          "source_id": "S45",
+          "date": "1979-11/1979-12",
+          "evenement": "Deborah commence à travailler le soir au Silklands pour compenser la fragilité financière du foyer après l’abandon des salaires.\n",
+          "atomes_lies": [
+            "S45-A113"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ],
+          "statut": "période à préciser"
+        },
+        {
+          "id": "CHR-S45-1979-11-RAINBOW-GUILDFORD-TOUR-END",
+          "source_id": "S45",
+          "date": "1979-11",
+          "evenement": "Fin de tournée Buzzcocks : farces de tournée, Rainbow Theatre, Guildford, critique de Chris Bohn sur les conditions sonores de Joy Division.\n",
+          "atomes_lies": [
+            "S45-A114"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "statut": "détails à croiser avec presse et gig lists"
+        },
+        {
+          "id": "CHR-S45-1979-12-13-BIRTHDAY-WILMSLOW",
+          "source_id": "S45",
+          "date": "1979-12-13",
+          "evenement": "Deborah et Ian célèbrent l’anniversaire de Deborah dans un petit restaurant chinois de Wilmslow ; la scène condense le silence conjugal.\n",
+          "atomes_lies": [
+            "S45-A115"
+          ],
+          "chapitres": [
+            "Chapitre 10"
+          ],
+          "statut": "daté par S45"
+        },
+        {
+          "id": "CHR-S45-1979-12-PARIS-FRANCK-ESSNER",
+          "source_id": "S45",
+          "date": "1979-12",
+          "evenement": "À Paris, Franck Essner rencontre Joy Division après avoir découvert Transmission à la radio et projeté un fanzine.\n",
+          "atomes_lies": [
+            "S45-A116"
+          ],
+          "chapitres": [
+            "Chapitre 14",
+            "Chapitre 6"
+          ],
+          "statut": "événement à croiser avec Essner et archives françaises"
+        },
+        {
+          "id": "CHR-S45-1979-12-31-FACTORY-NEW-YEAR",
+          "source_id": "S45",
+          "date": "1979-12-31",
+          "evenement": "Fête Factory du Nouvel An 1979 à Oldham Street : Section 25 joue, Ian intervient violemment, Tony Wilson évoque la réussite sociale future.\n",
+          "atomes_lies": [
+            "S45-A117"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ],
+          "statut": "daté par S45"
+        },
+        {
+          "id": "CHR-S45-1979-END-MARRIAGE-OVER",
+          "source_id": "S45",
+          "date": "1979-12",
+          "evenement": "Deborah conclut que son mariage est terminé sans qu’Ian le lui ait dit, après avoir compris son isolement vis-à-vis du groupe et la dégradation du récit conjugal.\n",
+          "atomes_lies": [
+            "S45-A118"
+          ],
+          "chapitres": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "statut": "conclusion rétrospective de Deborah"
+        }
+      ]
+    }
+  },
+  {
     "kind": "chronology",
     "id": "CHR-S76-1979-021",
     "file": "registers/chronology/s76_torn_apart_chronology_part_12.md",
@@ -98316,7 +100194,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2235",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2266",
     "file": "registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md",
     "heading": "S45 — Chronologie candidate — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {

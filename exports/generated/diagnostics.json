@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-05-14T05:32:09",
+  "generated_at": "2026-05-14T05:50:33",
   "status": "warning",
   "summary": {
-    "records_total": 2368,
+    "records_total": 2399,
     "records_by_kind": {
-      "atom": 1310,
+      "atom": 1321,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
       "song": 41,
-      "template": 32,
+      "unknown": 4,
+      "template": 37,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 32,
+      "motif": 39,
       "person": 157,
-      "concept": 25,
+      "concept": 29,
       "myth": 11
     },
-    "diagnostics_total": 13525,
+    "diagnostics_total": 13643,
     "errors": 0,
-    "warnings": 13525,
+    "warnings": 13643,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -126,8 +127,8 @@
         "auteur": "Deborah Curtis",
         "titre": "Touching from a Distance: Ian Curtis and Joy Division",
         "annee": "1995",
-        "records": 294,
-        "atoms": 155,
+        "records": 309,
+        "atoms": 166,
         "quotes": 56,
         "chronology": 41,
         "files": [
@@ -153,10 +154,12 @@
           "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
           "registers/songs/s45_curtis_songs_1978_1979_factory_epilepsy_lyrics_natalie.md",
           "registers/songs/s45_curtis_songs_1978_wilson_gretton_band_on_the_wall.md",
+          "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
           "sources/curtis_touching_from_a_distance/source_part_1976_1977_formation.md",
           "sources/curtis_touching_from_a_distance/source_part_1977_1978_an_ideal_rca.md",
           "sources/curtis_touching_from_a_distance/source_part_1978_1979_factory_epilepsy_lyrics_natalie.md",
           "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
+          "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
           "sources/curtis_touching_from_a_distance/source_part_1979_buzzcocks_tour_futurama_mountford.md",
           "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
           "sources/curtis_touching_from_a_distance/source_part_vote_conservateur.md",
@@ -1332,6 +1335,606 @@
       "file": "sources/curtis_touching_from_a_distance/source_part_1978_wilson_gretton_band_on_the_wall.md",
       "message": "Missing nested field: stabilite.risque_revision",
       "record_id": "S45-A060"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Invalid value for type_unite: tension_relationnelle",
+      "record_id": "S45-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A109"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Invalid value for type_unite: scene_sensible",
+      "record_id": "S45-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A110"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Invalid value for type_unite: tension_management",
+      "record_id": "S45-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A111"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Invalid value for type_unite: tension_domestique",
+      "record_id": "S45-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A112"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Invalid value for type_unite: economie_domestique",
+      "record_id": "S45-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A113"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Invalid value for type_unite: reception_live",
+      "record_id": "S45-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A114"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Invalid value for type_unite: scene_domestique",
+      "record_id": "S45-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A115"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Invalid value for type_unite: reception_transnationale",
+      "record_id": "S45-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A116"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Invalid value for type_unite: scene_sociale",
+      "record_id": "S45-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A117"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S45-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S45-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S45-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "S45-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S45-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S45-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S45-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Field must be a list: role_argumentatif",
+      "record_id": "S45-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Invalid value for type_unite: synthese_tension",
+      "record_id": "S45-A118"
+    },
+    {
+      "level": "warning",
+      "file": "sources/curtis_touching_from_a_distance/source_part_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S45-A118"
     },
     {
       "level": "warning",
@@ -72738,6 +73341,114 @@
       "file": "registers/songs/s76_torn_apart_songs_part_09.md",
       "message": "Invalid value for type_unite: song_or_cover",
       "record_id": "SONG-S76-024"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S45-TRANSMISSION-FRANCK-ESSNER"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "FILM-S45-ERASERHEAD-DISPARITION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S45-APOLLO-MANCHESTER-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S45-RAINBOW-THEATRE-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S45-FACTORY-NYE-SECTION-25"
     },
     {
       "level": "warning",

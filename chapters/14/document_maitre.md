@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T05:32:25"
+generated_at: "2026-05-14T05:50:53"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 637 |
+| Atomes | 640 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -35,7 +35,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 41 | 3 |
-| S45 | S45 — Curtis, Touching from a Distance, 1995 | 18 | 0 |
+| S45 | S45 — Curtis, Touching from a Distance, 1995 | 21 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
@@ -61,6 +61,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct indirect + citation critique rapportée`.
 - **S45-A107** — S45-A107 — Leeds University : Curtis star malgré le collectif  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_starification` ; importance : `critique` ; preuve : `citation critique rapportée + interprétation de Deborah`.
+- **S45-A114** — S45-A114 — Rainbow et Guildford : farces de tournée, sabotage sonore et domination contrariée  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct rapporté + citation critique`.
+- **S45-A116** — S45-A116 — Franck Essner : « Transmission » et amorce d’un fandom transnational  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `critique` ; preuve : `témoignage direct de Deborah + entretien/retour de Franck Essner probable`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
@@ -115,10 +119,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `fait_interprete` ; importance : `critique` ; preuve : `reconstruction_critique`.
 - **S75-A029** — S75-A029 — Hannett sur *A Factory Sample* : catalyseur, pas auteur unique  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A031** — S75-A031 — Londres, Hope & Anchor et crise épileptique : anti-triomphe de la sortie régionale  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_retrospective`.
-- **S75-A033** — S75-A033 — Première Peel Session : sortie sonore du régionalisme  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `session_radio` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -530,6 +530,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Deborah Curtis (4)
 - Love Will Tear Us Apart (4)
 - A Certain Ratio (4)
+- Rainbow Theatre (3)
+- Transmission (3)
 - Mick Middles (3)
 - Dave McCullough (3)
 - Sounds (3)
@@ -548,8 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - RCA (3)
 - Hannett (3)
 - John Peel (3)
-- indépendance (3)
-- manager (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -560,6 +560,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A107 — prolonge → S45-A098
 - S45-A107 — nuance → MYTH-CURTIS-AUTEUR-TOTAL
 - S45-A107 — prolonge → S45-A085
+- S45-A114 — prolonge → S45-A106
+- S45-A114 — prolonge → MOTIF-030
+- S45-A114 — alerte → RISQUE-SURINTERPRETATION-TECHNIQUE
+- S45-A116 — prolonge → MOTIF-025
+- S45-A116 — prolonge → S45-A106
+- S45-A116 — prépare → S45-A120
 - S45-A085 — prolonge → S45-A074
 - S45-A085 — prolonge → CONCEPT-019
 - S45-A085 — prolonge → S45-A002
@@ -627,12 +633,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S75-A003 — nuance → MYTH-curtis_prophete_de_sa_mort
 - S75-A003 — prolonge → S45
 - S75-A005 — nuance → MYTH-lesser_free_trade_hall_origine_absolue
-- S75-A005 — corrobore → S74-A004
-- S75-A007 — prolonge → S75-A006
-- S75-A007 — nuance → MYTH-reconnaissance_immediate
-- S75-A023 — prolonge → MOTIF-006
-- S75-A023 — prépare → S75-A026
-- S75-A023 — prépare → S75-A030
 
 ## 13. Distribution documentaire
 
@@ -642,7 +642,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | analyse | 34 |
 | reception | 28 |
-| non qualifié | 13 |
+| non qualifié | 14 |
 | memoire | 12 |
 | discographie | 11 |
 | objet_discographique | 11 |
@@ -657,8 +657,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | sociologie | 7 |
 | relation | 7 |
 | fait | 7 |
+| reception_live | 6 |
 | lecture | 6 |
-| reception_live | 5 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
 | controverse | 5 |
@@ -734,6 +734,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | esthétique_visuelle | 2 |
 | album | 2 |
 | reception_starification | 1 |
+| reception_transnationale | 1 |
 | reception_publique | 1 |
 | strategie_mediatique | 1 |
 | contrepoint_mythique | 1 |
@@ -958,8 +959,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 449 |
-| critique | 141 |
+| non qualifiée | 450 |
+| critique | 143 |
 | majeure | 39 |
 | majeur | 4 |
 | structurante | 2 |
@@ -970,6 +971,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A104 [moyen] — Risque de faire de Futurama une consécration définitive ou de négliger la correction apportée par Deborah sur les femmes absentes.
 - S45-A106 [moyen] — Risque de transformer une rave review en preuve générale de domination sur toute la tournée ; Deborah parle d’un schéma qui se dessine, pas d’un verdict définitif.
 - S45-A107 [élevé] — Risque de reprendre sans nuance la presse qui réduit Joy Division à Curtis ; l’atome sert précisément à montrer cette tension.
+- S45-A114 [moyen] — Risque de transformer le mauvais son en complot certain ; la citation est un jugement critique, non une preuve technique autonome.
+- S45-A116 [moyen] — Risque de surévaluer la scène française à partir d’un fan ; l’atome vaut comme signe d’émergence, non comme mesure exhaustive.
 - S45-A085 [élevé] — Risque de surmédicaliser la critique ou d’ignorer l’écart entre réception esthétique et réalité médicale.
 - S45-A093 [moyen] — Risque de prendre l’opacité comme stratégie entièrement maîtrisée ou comme absence réelle d’intelligence.
 - S45-A094 [moyen] — Risque de confondre célébrité réelle et perception conjugale d’être dépossédée ; les deux doivent être distinguées.
@@ -1025,8 +1028,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S74-A040 [eleve] — risque de basculer dans une lecture uniquement conflictuelle en oubliant le résultat artistique
 - S74-A041 [moyen] — risque de survaloriser le rejet initial au détriment de l’évolution ultérieure de la perception du groupe
 - S74-A042 [moyen] — risque de poétiser excessivement le résultat en négligeant les données matérielles de diffusion
-- S74-A043 [moyen] — risque de mythifier l’ignorance de Sumner comme preuve d’une œuvre purement accidentelle
-- S74-A044 [moyen] — risque de survaloriser les Distractions uniquement comme faire-valoir de Joy Division
 
 ## 15. Lacunes et prochaines vérifications
 
