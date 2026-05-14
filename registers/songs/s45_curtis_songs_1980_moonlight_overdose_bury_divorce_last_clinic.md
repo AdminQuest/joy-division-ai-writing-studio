@@ -83,7 +83,7 @@ prudence: >
 ```yaml
 id: OBJ-S45-SORDIDE-SENTIMENTALE-1106
 source_id: S45
-titre: "Atmosphere" / "Dead Souls" Sordide Sentimentale n°1106
+titre: "\"Atmosphere\" / \"Dead Souls\" — Sordide Sentimentale n°1106"
 nature: single / objet donné
 usage: >
   Exemplaire proposé par Curtis à Terry Mason après le dernier rendez-vous à l’epilepsy clinic ; objet ambigu entre générosité ordinaire et possible geste testamentaire.
