@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T17:09:57"
+generated_at: "2026-05-15T18:06:04"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 173 |
+| Atomes | 175 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -34,7 +34,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 26 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
@@ -89,6 +89,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique_live` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments S45 à croiser`.
 - **S41-A200** — S41-A200 — Derby et showdown familial : dernière bascule avant la rupture judiciaire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `crise_domestique_juridique` ; importance : `critique` ; preuve : `synthèse Hook + S45 / témoignages à croiser`.
+- **S41-A201** — S41-A201 — Pause après Bury : repos nécessaire et risque de retour au foyer  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `critique` ; preuve : `interprétation rétrospective de Hook`.
+- **S41-A202** — S41-A202 — Amérique : excitation collective et contradiction Genesis  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + contradiction mémorielle`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A052** — S45-A052 — Joy Division pariahs : Sue Barlow et Deborah comme faux public  
@@ -113,10 +117,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A090** — S45-A090 — *Unknown Pleasures* publié : objet Factory, faces « Inside/Outside » et rejet domestique initial  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A092** — S45-A092 — Médecine muette : spécialiste, GP et savoir refusé au foyer  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -176,6 +176,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A087** — S45-A087 — Gretton père-figure : dispute, argent et infantilisation du musicien  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A092** — S45-A092 — Médecine muette : spécialiste, GP et savoir refusé au foyer  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_publique` ; importance : `critique` ; preuve : `témoignage direct + faits live/presse établissables`.
 - **S45-A095** — S45-A095 — Eric’s Liverpool : « no women policy », image et travail féminin effacé  
@@ -276,10 +280,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S68-A026** — S-BROLL-A026 — Apollo Theatre, Manchester, et *Here Are the Young Men*  
   Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A031** — S-BROLL-A031 — Sessions de mars 1980 : *Closer* et « Love Will Tear Us Apart »  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A036** — S-BROLL-A036 — Avril 1980 : santé de Ian Curtis et dates annulées  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `santé` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -567,13 +567,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | non qualifié | 5 |
 | scene_sensible | 4 |
 | objet_discographique | 4 |
+| tension_documentaire | 4 |
 | archive | 4 |
 | contrepoint_domestique | 3 |
 | economie_domestique | 3 |
 | tension_medicale | 3 |
 | tension_relationnelle | 3 |
 | tension_management | 3 |
-| tension_documentaire | 3 |
 | concert | 3 |
 | relation | 3 |
 | objet_visuel | 3 |
@@ -588,6 +588,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | scene_management | 2 |
 | production | 2 |
 | economie_materielle | 2 |
+| interpretation_retrospective | 2 |
 | evenement_biographique | 2 |
 | positionnement | 2 |
 | fait_sensible | 2 |
@@ -619,7 +620,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | processus_creatif | 1 |
 | evenement_discographique | 1 |
 | interpretation_groupe | 1 |
-| interpretation_retrospective | 1 |
 | tension_domestique_live | 1 |
 | crise_domestique_juridique | 1 |
 | intervention_management | 1 |
@@ -667,7 +667,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 82 |
+| critique | 84 |
 | non qualifiée | 65 |
 | majeur | 24 |
 | majeure | 2 |

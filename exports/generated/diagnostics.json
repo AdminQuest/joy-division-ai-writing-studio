@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-15T17:09:44",
+  "generated_at": "2026-05-15T18:05:49",
   "status": "warning",
   "summary": {
-    "records_total": 3283,
+    "records_total": 3332,
     "records_by_kind": {
-      "atom": 1592,
+      "atom": 1603,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 113,
+      "unknown": 118,
       "song": 41,
-      "template": 231,
+      "template": 243,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 229,
+      "motif": 241,
       "person": 157,
-      "concept": 149,
+      "concept": 158,
       "myth": 11
     },
-    "diagnostics_total": 16206,
+    "diagnostics_total": 16305,
     "errors": 0,
-    "warnings": 16206,
+    "warnings": 16305,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 532,
-        "atoms": 397,
+        "records": 548,
+        "atoms": 408,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -128,6 +128,7 @@
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
           "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+          "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
           "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
@@ -152,6 +153,7 @@
           "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
           "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
           "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+          "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
           "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md"
         ]
       },
@@ -17087,6 +17089,486 @@
       "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
       "message": "Invalid value for type_unite: crise_domestique_juridique",
       "record_id": "S41-A200"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A201"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A201"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A201"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A201"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A201"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A201"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A201"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Invalid value for type_unite: interpretation_retrospective",
+      "record_id": "S41-A201"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A202"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A202"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A202"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A202"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A202"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A202"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A202"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "record_id": "S41-A202"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A203"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A203"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A203"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A203"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A203"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A203"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A203"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Invalid value for type_unite: objet_audiovisuel",
+      "record_id": "S41-A203"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A204"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A204"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A204"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A204"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A204"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A204"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A204"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Invalid value for type_unite: dernier_concert",
+      "record_id": "S41-A204"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A205"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A205"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A205"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A205"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A205"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A205"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A205"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Invalid value for type_unite: scene_memoire",
+      "record_id": "S41-A205"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A206"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A206"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A206"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A206"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A206"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A206"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A206"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Invalid value for type_unite: evenement_sensible",
+      "record_id": "S41-A206"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A207"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A207"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A207"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A207"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A207"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A207"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A207"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Invalid value for type_unite: scene_deuil",
+      "record_id": "S41-A207"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A208"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A208"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A208"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A208"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A208"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A208"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A208"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Invalid value for type_unite: scene_funeraire",
+      "record_id": "S41-A208"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A209"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A209"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A209"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A209"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A209"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A209"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A209"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Invalid value for type_unite: transition_posthume",
+      "record_id": "S41-A209"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A210"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A210"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A210"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A210"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A210"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A210"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A210"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Invalid value for type_unite: culpabilite_memorielle",
+      "record_id": "S41-A210"
     },
     {
       "level": "warning",
@@ -86975,6 +87457,120 @@
       "file": "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
       "message": "Unable to infer documentary kind",
       "record_id": "LIVE-S41-YMCA-TOTTENHAM-COURT-ROAD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "VIDEO-S41-LWTUA-TJ-DAVIDSONS-1980"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-BIRMINGHAM-HIGH-HALL-LAST-GIG-1980-05-02"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-ORIGIN"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "OBJECT-S41-CURTIS-MAC-SCARF-CHARITY-SHOP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "FILM-S41-STROSZEK-LAST-NIGHT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S41-THE-IDIOT-LAST-NIGHT"
     },
     {
       "level": "warning",

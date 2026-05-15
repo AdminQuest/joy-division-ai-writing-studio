@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T17:09:57"
+generated_at: "2026-05-15T18:06:04"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 420 |
+| Atomes | 421 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 140 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 141 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -520,9 +520,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Rafters (8)
 - Hannett (8)
 - Buzzcocks tour (7)
+- Digital (7)
 - John Peel (7)
 - Rainbow Theatre (6)
-- Digital (6)
 - Terry Mason (6)
 - Electric Circus (6)
 - Ian Curtis (6)
@@ -689,6 +689,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | personne_reseau | 2 |
 | scene_revelation | 2 |
 | economie_materielle_live | 2 |
+| dernier_concert | 2 |
 | strategie_medias | 2 |
 | evenement_medical | 2 |
 | session_enregistrement | 2 |
@@ -858,7 +859,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | concert_majeur | 1 |
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
-| dernier_concert | 1 |
 | concert_europeen | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
@@ -881,7 +881,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 194 |
+| critique | 195 |
 | non qualifiée | 154 |
 | majeur | 47 |
 | majeure | 24 |

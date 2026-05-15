@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T17:09:57"
+generated_at: "2026-05-15T18:06:04"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 725 |
+| Atomes | 734 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 118 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 127 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -278,10 +278,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `violence_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A198** — S41-A198 — Tony et Lindsay Wilson : refuge après Bury et temporalité de récupération  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_refuge` ; importance : `majeur` ; preuve : `synthèse Hook + chronologie biographique`.
-- **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-A202** — S41-A202 — Amérique : excitation collective et contradiction Genesis  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + contradiction mémorielle`.
+- **S41-A203** — S41-A203 — Vidéo « Love Will Tear Us Apart » : anti-mime, live impossible et erreur devenue canon  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet audiovisuel vérifiable`.
 
 ## 7. Citations disponibles
 
@@ -524,6 +524,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Electric Circus (6)
 - Kevin Cummins (6)
 - Love Will Tear Us Apart (5)
+- Still (5)
 - Durutti Column (5)
 - She’s Lost Control (5)
 - Sordide Sentimental (5)
@@ -537,6 +538,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - NME (4)
 - Control (4)
 - Moonlight Club (4)
+- America (4)
 - Factory Club (4)
 - Hannett (4)
 - Plan K (4)
@@ -544,12 +546,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Dead Souls (4)
 - épilepsie (4)
 - Sister Ray (4)
-- Still (4)
 - Rabid Records (4)
 - Deborah Curtis (4)
 - A Certain Ratio (4)
 - Paris (3)
-- Dave McCullough (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -642,7 +642,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | analyse | 34 |
 | reception | 28 |
-| non qualifié | 19 |
+| non qualifié | 20 |
 | reception_live | 12 |
 | objet_discographique | 12 |
 | memoire | 12 |
@@ -659,6 +659,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | relation | 7 |
 | fait | 7 |
 | lecture | 6 |
+| objet_audiovisuel | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
@@ -666,7 +667,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | citation_repere | 5 |
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
-| objet_audiovisuel | 4 |
 | management | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
@@ -684,6 +684,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_presse | 3 |
 | reception_radio | 3 |
 | scene_collective | 3 |
+| dernier_concert | 3 |
 | esthétique_visuelle | 3 |
 | evenement_medical_live | 3 |
 | archive_visuelle | 3 |
@@ -706,6 +707,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
 | infrastructure | 2 |
+| scene_deuil | 2 |
 | strategie_medias | 2 |
 | chanson_single | 2 |
 | demythification | 2 |
@@ -726,7 +728,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | mémoire | 2 |
 | controverse_biographique | 2 |
 | outtakes | 2 |
-| dernier_concert | 2 |
 | collection | 2 |
 | archive_inedite | 2 |
 | versions_chanson | 2 |
@@ -760,6 +761,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_industrielle | 1 |
 | violence_live | 1 |
 | scene_refuge | 1 |
+| tension_documentaire | 1 |
+| scene_memoire | 1 |
+| scene_funeraire | 1 |
+| transition_posthume | 1 |
+| culpabilite_memorielle | 1 |
 | chronologie_factory | 1 |
 | scene_politique_factory | 1 |
 | chronologie_live_locale | 1 |
@@ -972,7 +978,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lettre_absente | 1 |
 | alerte_memorielle | 1 |
 | derniere_nuit | 1 |
-| scene_deuil | 1 |
 | memoire_endeuillée | 1 |
 | scene_deuil_mythographique | 1 |
 | scene_deuil_collectif | 1 |
@@ -1009,8 +1014,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 455 |
-| critique | 203 |
+| non qualifiée | 456 |
+| critique | 211 |
 | majeure | 39 |
 | majeur | 24 |
 | structurante | 2 |
@@ -1050,6 +1055,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A191 [moyen] — Ne pas faire de Polydor une trajectoire manquée centrale ; le passage sert surtout à mesurer l’aura live.
 - S41-A195 [moyen] — Ne pas attribuer tout le riot à Rob ; le public, l’absence de Curtis et la tension de soirée comptent aussi.
 - S41-A198 [moyen] — Ne pas exagérer l’efficacité protectrice du refuge : les crises relationnelles se poursuivent.
+- S41-A202 [très élevé] — Ne pas décider à la place des sources si Curtis voulait ou non partir ; maintenir les versions concurrentes.
+- S41-A203 [moyen] — Ne pas faire de l’erreur un programme esthétique totalement conscient ; elle devient canon après coup.
+- S41-A204 [moyen] — Ne pas utiliser le dernier concert comme scène prophétique ; il reste aussi un bon concert selon Hook.
+- S41-A205 [très élevé] — Risque de relire l’euphorie comme masque évident ; Hook maintient l’incertitude.
+- S41-A207 [moyen] — Ne pas interpréter l’absence de cris comme absence d’affect ; Hook parle de sidération.
+- S41-A208 [élevé] — Ne pas faire de Rob un prophète froid ; la phrase s’inscrit dans une scène de sidération.
+- S41-A209 [moyen] — Ne pas présenter cette reprise comme froideur ; elle relève de la survie et du travail.
+- S41-A210 [très élevé] — Ne pas convertir la culpabilité en aveu causal ; elle relève de l’après-coup.
 - S41-A094 [faible] — Risque limité ; l’atome sert à éviter la téléologie Factory Records.
 - S41-A096 [faible à moyen] — Ne pas transformer les anecdotes en jugement global sur les groupes.
 - S41-A099 [élevé] — Hook reste spéculatif sur la danse de Curtis.
@@ -1070,14 +1083,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
 - S41-A128 [moyen] — Ne pas confondre posture spontanée, discipline Gretton et construction rétrospective de la mystique.
 - S41-A129 [faible à moyen] — Ne pas présenter la télévision comme simple validation ; le passage montre surtout contrainte et bricolage.
-- S41-A130 [moyen] — Ne pas folkloriser la brutalité des farces ; l’intérêt est le contraste succès / continuité.
-- S41-A131 [faible] — Atome logistique et relationnel, à ne pas surcharger.
-- S41-A180 [moyen] — Ne pas romantiser la pauvreté ; Hook note aussi qu’il aurait aimé tester la théorie inverse.
-- S41-A184 [très élevé] — Risque de psychologiser Curtis ; l’atome doit rester méthodologique et relationnel.
-- S41-A188 [moyen] — Ne pas transformer U2 en héritiers directs de Joy Division ; l’atome montre admiration et bifurcation, non filiation totale.
-- S41-A189 [très élevé] — Risque majeur de téléologie funéraire ; Hook dit lui-même que personne ne sait.
-- S41-A133 [très élevé] — Risque de psychologisation de Curtis et d’Annik ; Hook signale explicitement la fragilité de sa mémoire.
-- S41-A134 [très élevé] — Risque de corriger un mythe par un autre mythe viriliste ; maintenir la pluralité des points de vue.
 
 ## 15. Lacunes et prochaines vérifications
 

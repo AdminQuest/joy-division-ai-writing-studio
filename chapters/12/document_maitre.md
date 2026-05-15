@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T17:09:57"
+generated_at: "2026-05-15T18:06:04"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 294 |
+| Atomes | 302 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -34,7 +34,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 55 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 63 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -148,6 +148,22 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique_live` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments S45 à croiser`.
 - **S41-A200** — S41-A200 — Derby et showdown familial : dernière bascule avant la rupture judiciaire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `crise_domestique_juridique` ; importance : `critique` ; preuve : `synthèse Hook + S45 / témoignages à croiser`.
+- **S41-A201** — S41-A201 — Pause après Bury : repos nécessaire et risque de retour au foyer  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `critique` ; preuve : `interprétation rétrospective de Hook`.
+- **S41-A202** — S41-A202 — Amérique : excitation collective et contradiction Genesis  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + contradiction mémorielle`.
+- **S41-A204** — S41-A204 — Birmingham / High Hall : dernier concert, *Still* et vigilance permanente  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `dernier_concert` ; importance : `critique` ; preuve : `témoignage direct + archive live publiée`.
+- **S41-A205** — S41-A205 — Dernier trajet : Moston / Failsworth, euphorie américaine et impossibilité du signe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_memoire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A206** — S41-A206 — Nuit du suicide : Stroszek, The Idiot, lettre et absence de cause unique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_sensible` ; importance : `critique` ; preuve : `synthèse rétrospective à partir de récits et enquête`.
+- **S41-A207** — S41-A207 — Appel de la police : sidération, dissociation et deuil sans gestes  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_deuil` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A208** — S41-A208 — Funérailles : refus du corps, pub, Rob prophétise la postérité  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_funeraire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A210** — S41-A210 — Inquest, culpabilité et objets perdus : mac, écharpe, absence de goodbye  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `culpabilite_memorielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec culpabilité`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
@@ -262,22 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_medicale_sensible` ; importance : `critique` ; preuve : `témoignage direct + fait médical rapporté`.
 - **S45-A153** — S45-A153 — Stroszek et deadline américaine : charade finale devant le groupe  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_finale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + témoignages rapportés Hook/Gretton/Sumner/Morris`.
-- **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-029** — S46-029 — Paul Morley, Wozencroft et la lecture occulto-filmique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-054** — S46-054 — Joy Division, transe et techniques de suggestion  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_theorique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-061** — S46-061 — Rainbow Theatre : crise et malentendu spectaculaire  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-111** — S46-111 — Curtis et la danse comme perte de contrôle  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `performance_scenique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-112** — S46-112 — « She’s Lost Control » comme miroir biographique indirect  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_biographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-117** — S46-117 — Le public prend parfois les crises pour une performance  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `perception_scene` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-118** — S46-118 — Le studio comme lieu de contrôle impossible  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_studio` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -511,6 +511,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Annik (7)
 - Love Will Tear Us Apart (7)
 - Unknown Pleasures (6)
+- Barton Street (6)
 - Buzzcocks tour (5)
 - Factory (5)
 - Lindsay Reade (5)
@@ -518,7 +519,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - American tour (5)
 - epilepsy (5)
 - She’s Lost Control (5)
-- Barton Street (5)
 - Candy (4)
 - tournée américaine (4)
 - Britannia Row (4)
@@ -640,6 +640,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_medicale | 3 |
 | evenement_medical | 3 |
 | tension_sante | 3 |
+| tension_documentaire | 3 |
+| dernier_concert | 3 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
@@ -649,13 +651,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | song_session | 3 |
 | contrepoint_domestique | 2 |
 | tension_relationnelle | 2 |
-| tension_documentaire | 2 |
 | performance_live | 2 |
 | evenement_critique | 2 |
 | fait_medical | 2 |
 | performance_sante | 2 |
 | tension_psychiatrique | 2 |
 | tension_management_sante | 2 |
+| interpretation_retrospective | 2 |
+| scene_deuil | 2 |
 | processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
@@ -666,7 +669,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | biographie | 2 |
 | lecture_textuelle | 2 |
 | session_album | 2 |
-| dernier_concert | 2 |
 | reception_poll | 2 |
 | idee_directrice | 2 |
 | lettre_intime | 2 |
@@ -702,7 +704,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_vocale | 1 |
 | tension_industrie | 1 |
 | performance_sensible | 1 |
-| interpretation_retrospective | 1 |
 | contexte_tournee | 1 |
 | violence_live | 1 |
 | scene_violence_materielle | 1 |
@@ -710,6 +711,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_refuge | 1 |
 | tension_domestique_live | 1 |
 | crise_domestique_juridique | 1 |
+| scene_memoire | 1 |
+| evenement_sensible | 1 |
+| scene_funeraire | 1 |
+| culpabilite_memorielle | 1 |
 | decision_industrielle | 1 |
 | contexte_biographique_medical | 1 |
 | tension_identitaire | 1 |
@@ -817,7 +822,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | alerte_memorielle | 1 |
 | derniere_nuit | 1 |
 | scene_deces | 1 |
-| scene_deuil | 1 |
 | memoire_endeuillée | 1 |
 | scene_deuil_mythographique | 1 |
 | scene_deuil_collectif | 1 |
@@ -840,7 +844,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 168 |
+| critique | 176 |
 | non qualifiée | 94 |
 | majeure | 20 |
 | majeur | 12 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T17:09:57"
+generated_at: "2026-05-15T18:06:04"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 191 |
+| Atomes | 192 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
@@ -34,7 +34,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 88 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 89 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -188,6 +188,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + chronologie live`.
 - **S41-A191** — S41-A191 — Moonlight Club : Factory comme vitrine et Polydor comme regard industriel  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_industrielle` ; importance : `majeur` ; preuve : `témoignage direct + citation rapportée`.
+- **S41-A203** — S41-A203 — Vidéo « Love Will Tear Us Apart » : anti-mime, live impossible et erreur devenue canon  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet audiovisuel vérifiable`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
@@ -276,8 +278,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A023** — S70-A023 — Vidéo promotionnelle « Love Will Tear Us Apart »  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A027** — S70-A027 — *Still*, *Substance* et la gestion Factory de l’héritage  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -536,14 +536,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A190 — prolonge → CONCEPT-138
 - S41-A191 — prolonge → CONCEPT-139
 - S41-A191 — prolonge → S41-A180
+- S41-A203 — prolonge → CONCEPT-116
+- S41-A203 — prolonge → CONCEPT-146
 - S41-A093 — prolonge → CONCEPT-065
 - S41-A093 — consolide → S41-A065
 - S41-A093 — consolide → S41-A092
 - S41-A094 — prolonge → CONCEPT-073
 - S41-A094 — consolide → S41-A074
 - S41-A095 — consolide → S41-A069
-- S41-A095 — consolide → S41-A071
-- S41-A095 — consolide → S41-A079
 
 ## 13. Distribution documentaire
 
@@ -587,6 +587,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | scene_live_violence | 1 |
 | contexte_tournee | 1 |
 | reception_industrielle | 1 |
+| objet_audiovisuel | 1 |
 | chronologie_factory | 1 |
 | intervention_management | 1 |
 | scene_factory | 1 |
@@ -629,7 +630,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 90 |
+| critique | 91 |
 | non qualifiée | 80 |
 | majeur | 15 |
 | majeure | 6 |
@@ -664,6 +665,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A041 [moyen] — Ne pas transformer la violence en simple folklore ; elle structure les appartenances locales.
 - S41-A190 [élevé] — Ne pas réduire chaque décision à l’argent ; le prestige, l’inertie et l’excitation de l’Amérique comptent aussi.
 - S41-A191 [moyen] — Ne pas faire de Polydor une trajectoire manquée centrale ; le passage sert surtout à mesurer l’aura live.
+- S41-A203 [moyen] — Ne pas faire de l’erreur un programme esthétique totalement conscient ; elle devient canon après coup.
 - S41-A093 [faible] — La timeline cadre les scènes déjà atomisées sans constituer une causalité.
 - S41-A094 [faible] — Risque limité ; l’atome sert à éviter la téléologie Factory Records.
 - S41-A095 [faible] — Atome de verrouillage documentaire.
@@ -695,7 +697,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A081 [moyen] — Ne pas réduire Cargo à un décor ; ne pas non plus attribuer tout le son à la seule accumulation d’effets.
 - S41-A082 [moyen] — Risque de faire de l’ignorance du groupe une qualité pure ; elle est aussi une perte de contrôle.
 - S41-A083 [moyen] — Ne pas lire cette réussite à travers les conflits ultérieurs seuls ; elle est aussi moment d’accord.
-- S41-A084 [moyen] — Ne pas fétichiser l’objet Factory en oubliant le travail manuel et le retard logistique.
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-15T17:09:55`
+Généré le : `2026-05-15T18:06:01`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 113 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1531 atome(s) incomplet(s) sur 1592.
+Le repo est techniquement exploitable, mais 118 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1542 atome(s) incomplet(s) sur 1603.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 3283
+- Enregistrements : 3332
 - Erreurs : 0
-- Avertissements : 16206
+- Avertissements : 16305
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1531 atome(s) incomplet(s) sur 1592.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1592 |
+| atom | 1603 |
 | chronology | 331 |
-| concept | 149 |
+| concept | 158 |
 | metadata | 18 |
-| motif | 229 |
+| motif | 241 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1531 atome(s) incomplet(s) sur 1592.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 231 |
-| unknown | 113 |
+| template | 243 |
+| unknown | 118 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1331 |
-| missing_required_field | 4635 |
+| invalid_controlled_value | 1341 |
+| missing_required_field | 4690 |
 | schema_warning | 399 |
-| unknown_yaml_block | 113 |
-| v2_migration_debt | 9593 |
+| unknown_yaml_block | 118 |
+| v2_migration_debt | 9622 |
 
 ## 5. Erreurs bloquantes
 
@@ -94,7 +94,7 @@ Aucune.
 - `registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md` [VISUAL-S41-CLOSER-STAGLIENO-SAVILLE-WOLFF] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md` [NETWORK-S41-U2-11-OCLOCK-TICK-TOCK-HANNETT] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [BOOK-S41-HOUSE-OF-DOLLS-NAME] : Unable to infer documentary kind
-- … 73 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 78 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -113,10 +113,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1592
+- Atomes : 1603
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1531
-- Avertissements de champs v2 manquants : 9593
+- Atomes v2 incomplets : 1542
+- Avertissements de champs v2 manquants : 9622
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
