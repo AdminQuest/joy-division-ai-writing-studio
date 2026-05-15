@@ -10,7 +10,7 @@
   <header class="hero">
     <div class="hero-inner">
       <h1>Registre des concepts</h1>
-      <p class="subtitle">Vue dynamique calculée depuis <code>exports/generated/atoms.json</code>.</p>
+      <p class="subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés et les atomes.</p>
       <p class="back"><a href="../../">← Retour au portail</a></p>
     </div>
   </header>
@@ -36,7 +36,7 @@
         </div>
 
         <div class="field">
-          <label for="type-filter">Type d’atome</label>
+          <label for="type-filter">Type documentaire</label>
           <select id="type-filter"><option value="">Tous</option></select>
         </div>
       </div>
@@ -47,7 +47,7 @@
       </div>
 
       <p class="note">
-        Ce registre agrège automatiquement les concepts déclarés dans les atomes. Il révèle les nœuds thématiques du corpus : chansons, personnes, lieux, notions critiques, objets discographiques, périodes et problèmes méthodologiques.
+        Ce registre lit directement les fichiers <code>registers/concepts/*.md</code>, <code>registers/myths/*.md</code>, <code>registers/motifs/*.md</code> et les concepts déclarés dans les atomes.
       </p>
     </section>
 
@@ -60,6 +60,7 @@
     </section>
   </main>
 
+  <script src="../lib/dynamic-registers.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
