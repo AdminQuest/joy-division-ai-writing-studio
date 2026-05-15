@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-15T15:05:26",
+  "generated_at": "2026-05-15T16:13:29",
   "status": "warning",
   "summary": {
-    "records_total": 3187,
+    "records_total": 3237,
     "records_by_kind": {
-      "atom": 1568,
+      "atom": 1581,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 102,
+      "unknown": 106,
       "song": 41,
-      "template": 208,
+      "template": 220,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 206,
+      "motif": 218,
       "person": 157,
-      "concept": 134,
+      "concept": 143,
       "myth": 11
     },
-    "diagnostics_total": 15991,
+    "diagnostics_total": 16111,
     "errors": 0,
-    "warnings": 15991,
+    "warnings": 16111,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 497,
-        "atoms": 373,
+        "records": 514,
+        "atoms": 386,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -127,6 +127,7 @@
           "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+          "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
           "sources/hook/atomisation_04_unknown_pleasures_track_by_track.md",
@@ -148,7 +149,8 @@
           "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
           "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
-          "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md"
+          "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+          "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md"
         ]
       },
       {
@@ -18667,6 +18669,534 @@
       "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
       "message": "Invalid value for type_unite: scene_reseau",
       "record_id": "S41-A131"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A179"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A179"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A179"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A179"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A179"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A179"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A179"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: contexte_biographique_medical",
+      "record_id": "S41-A179"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A180"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A180"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A180"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A180"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A180"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A180"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A180"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: economie_groupe",
+      "record_id": "S41-A180"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A181"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A181"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A181"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A181"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A181"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A181"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A181"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: session_studio",
+      "record_id": "S41-A181"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A182"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A182"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A182"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A182"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A182"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A182"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A182"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: lieu_studio",
+      "record_id": "S41-A182"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A183"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A183"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A183"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A183"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A183"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A183"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A183"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: technique_studio",
+      "record_id": "S41-A183"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A184"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A184"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A184"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A184"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A184"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A184"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A184"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: tension_identitaire",
+      "record_id": "S41-A184"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A185"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A185"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A185"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A185"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A185"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A185"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A185"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: tension_domestique",
+      "record_id": "S41-A185"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A186"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A186"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A186"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A186"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A186"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A186"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A186"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: tension_interne",
+      "record_id": "S41-A186"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A187"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A187"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A187"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A187"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A187"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A187"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A187"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: evenement_medical_studio",
+      "record_id": "S41-A187"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A188"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A188"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A188"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A188"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A188"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A188"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A188"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: scene_reseau_postpunk",
+      "record_id": "S41-A188"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A189"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A189"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A189"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A189"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A189"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A189"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A189"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Invalid value for type_unite: esthetique_visuelle",
+      "record_id": "S41-A189"
     },
     {
       "level": "warning",
@@ -84199,6 +84729,198 @@
       "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
       "message": "Unable to infer documentary kind",
       "record_id": "LIVE-S41-WE-CARRIED-ON-FITS-STAGE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: importance",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S41-CLOSER-BRITANNIA-ROW-SESSIONS"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: auteur",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: statut",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: importance",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: motifs",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "TECH-S41-HANNETT-AURATONES-ARP-GATES"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "VISUAL-S41-CLOSER-STAGLIENO-SAVILLE-WOLFF"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "NETWORK-S41-U2-11-OCLOCK-TICK-TOCK-HANNETT"
     },
     {
       "level": "warning",

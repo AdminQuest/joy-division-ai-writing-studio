@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T15:05:39"
+generated_at: "2026-05-15T16:13:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 167 |
+| Atomes | 171 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -34,7 +34,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 20 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 24 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
@@ -77,6 +77,14 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_affective_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A175** — S41-A175 — Antwerp brothel : lit, morale, Annik et violence verbale de Rob  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_morale_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A179** — S41-A179 — Avant *Closer* : Amérique prévue, affaire Annik, Candy et barbituriques  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_biographique_medical` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments issus de lettres / S45 à croiser`.
+- **S41-A184** — S41-A184 — Ian / Annik / Genesis : qui connaît le « vrai Ian » ?  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_identitaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + interprétation`.
+- **S41-A185** — S41-A185 — Compagnes à Londres : Annik visible, autres femmes exclues du processus  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A186** — S41-A186 — Japes contre Ian et Annik : jalousie, cruauté et perte du camarade  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_interne` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec culpabilité`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A052** — S45-A052 — Joy Division pariahs : Sue Barlow et Deborah comme faux public  
@@ -109,14 +117,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_publique` ; importance : `critique` ; preuve : `témoignage direct + faits live/presse établissables`.
 - **S45-A095** — S45-A095 — Eric’s Liverpool : « no women policy », image et travail féminin effacé  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
-- **S45-A096** — S45-A096 — Drogues, médicaments et silence de dressing room  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct situé`.
-- **S45-A101** — S45-A101 — Dernier recours manqué : Aunty Nell et l’impossibilité de rendre la crise visible  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sensible` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A109** — S45-A109 — Annik nommée par périphrase : maîtresse invisible et récit domestique falsifié  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_relationnelle` ; importance : `critique` ; preuve : `témoignage direct de Deborah + correction rétrospective par Morris`.
-- **S45-A110** — S45-A110 — Apollo Manchester : Deborah face à Annik sans le savoir  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -176,12 +176,20 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A087** — S45-A087 — Gretton père-figure : dispute, argent et infantilisation du musicien  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A096** — S45-A096 — Drogues, médicaments et silence de dressing room  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct situé`.
 - **S45-A097** — S45-A097 — Leigh Festival : anti-festival Factory/Zoo, police et inertie de Curtis  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_sociale` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A101** — S45-A101 — Dernier recours manqué : Aunty Nell et l’impossibilité de rendre la crise visible  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sensible` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A103** — S45-A103 — Lead Singer Syndrome : paresse logistique et privilège scénique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_interne` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif + témoignage rapporté de Hook`.
 - **S45-A108** — S45-A108 — Rituels téléphoniques : langage conjugal comme assurance obsessionnelle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A109** — S45-A109 — Annik nommée par périphrase : maîtresse invisible et récit domestique falsifié  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_relationnelle` ; importance : `critique` ; preuve : `témoignage direct de Deborah + correction rétrospective par Morris`.
+- **S45-A110** — S45-A110 — Apollo Manchester : Deborah face à Annik sans le savoir  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A111** — S45-A111 — Rob Gretton arbitre le couple : médiation managériale du privé  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A112** — S45-A112 — Disparitions et fausses pistes : Eraserhead, cricket et peur policière  
@@ -272,14 +280,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S68-A038** — S-BROLL-A038 — Tournée américaine prévue et mort de Ian Curtis  
   Source : S68 — Broll, Joy Division, 1988 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A039** — S-BROLL-A039 — Après Joy Division : New Order et *Still*  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S69-A003** — S69-A003 — Authenticité, Manchester, mort de Curtis  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S69-A004** — S69-A004 — Les premiers livres laissent peu de place à l’intimité  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `reception` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S69-A009** — S69-A009 — Les témoins produisent l’histoire populaire de Joy Division  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -432,15 +432,16 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 - Rob Gretton (9)
 - Annik Honoré (8)
+- Annik (7)
 - Peter Saville (6)
 - Natalie (5)
-- Annik (4)
+- Candy (4)
 - silence (4)
 - Unknown Pleasures (4)
 - Deborah Curtis (4)
 - Tony Wilson (4)
+- Debbie (4)
 - van (3)
-- Candy (3)
 - Factory (3)
 - Kevin Cummins (3)
 - Lesley Gilbert (2)
@@ -469,7 +470,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - people pleaser (2)
 - married man (2)
 - one of the lads (2)
-- T. J. Davidson’s (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -560,8 +560,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Type | Nombre |
 |---|---|
+| tension_domestique | 7 |
 | scene_domestique | 6 |
-| tension_domestique | 6 |
 | biographie | 6 |
 | reception | 6 |
 | non qualifié | 5 |
@@ -579,6 +579,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | objet_visuel | 3 |
 | analyse | 3 |
 | memoire | 3 |
+| tension_interne | 2 |
 | scene_live_domestique | 2 |
 | scene_conjugale | 2 |
 | tension_genre | 2 |
@@ -593,7 +594,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mémoire | 2 |
 | chronologie | 2 |
 | song | 2 |
-| tension_interne | 1 |
 | relation_management | 1 |
 | tension_tournee | 1 |
 | reception_transnationale | 1 |
@@ -621,6 +621,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | interpretation_groupe | 1 |
 | interpretation_retrospective | 1 |
 | intervention_management | 1 |
+| contexte_biographique_medical | 1 |
+| tension_identitaire | 1 |
 | evenement_logistique | 1 |
 | rencontre_biographique | 1 |
 | demythification | 1 |
@@ -663,7 +665,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 76 |
+| critique | 80 |
 | non qualifiée | 65 |
 | majeur | 24 |
 | majeure | 2 |

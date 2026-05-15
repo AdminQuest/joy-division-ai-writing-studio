@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-15T15:05:36`
+Généré le : `2026-05-15T16:13:39`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 102 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1507 atome(s) incomplet(s) sur 1568.
+Le repo est techniquement exploitable, mais 106 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1520 atome(s) incomplet(s) sur 1581.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 3187
+- Enregistrements : 3237
 - Erreurs : 0
-- Avertissements : 15991
+- Avertissements : 16111
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1507 atome(s) incomplet(s) sur 1568.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1568 |
+| atom | 1581 |
 | chronology | 331 |
-| concept | 134 |
+| concept | 143 |
 | metadata | 18 |
-| motif | 206 |
+| motif | 218 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1507 atome(s) incomplet(s) sur 1568.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 208 |
-| unknown | 102 |
+| template | 220 |
+| unknown | 106 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1309 |
-| missing_required_field | 4515 |
+| invalid_controlled_value | 1320 |
+| missing_required_field | 4580 |
 | schema_warning | 399 |
-| unknown_yaml_block | 102 |
-| v2_migration_debt | 9531 |
+| unknown_yaml_block | 106 |
+| v2_migration_debt | 9571 |
 
 ## 5. Erreurs bloquantes
 
@@ -89,12 +89,12 @@ Aucune.
 - `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [EVENT-S41-FACTORY-OFFICE-PARTY-1979-12-31] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [TOUR-S41-EUROPEAN-TOUR-JAN-1980-ANNIK] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [LIVE-S41-WE-CARRIED-ON-FITS-STAGE] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md` [ALBUM-S41-CLOSER-BRITANNIA-ROW-SESSIONS] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md` [TECH-S41-HANNETT-AURATONES-ARP-GATES] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md` [VISUAL-S41-CLOSER-STAGLIENO-SAVILLE-WOLFF] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md` [NETWORK-S41-U2-11-OCLOCK-TICK-TOCK-HANNETT] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [BOOK-S41-HOUSE-OF-DOLLS-NAME] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [LIVE-S41-PIPS-FIRST-JOY-DIVISION-GIG] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md` [RADIO-S41-PEEL-SESSION-OFFER-1979] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md` [PROCESS-S41-CURTIS-CONDUCTOR-TJ] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md` [DEAL-S41-FACTORY-GENETIC-CHOICE] : Unable to infer documentary kind
-- … 62 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 66 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -113,10 +113,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1568
+- Atomes : 1581
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1507
-- Avertissements de champs v2 manquants : 9531
+- Atomes v2 incomplets : 1520
+- Avertissements de champs v2 manquants : 9571
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

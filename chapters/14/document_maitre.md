@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T15:05:39"
+generated_at: "2026-05-15T16:13:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 718 |
+| Atomes | 722 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 115 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -264,6 +264,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live_archive` ; importance : `critique` ; preuve : `chronologie live + setlist publiée`.
 - **S41-A172** — S41-A172 — Factory office party : beer economy et préhistoire de la Haçienda  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_factory` ; importance : `majeur` ; preuve : `anecdote Hook rétrospective`.
+- **S41-A180** — S41-A180 — Pauvreté maintenue : *Unknown Pleasures* reconnu, mais pas de star-system  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_groupe` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A184** — S41-A184 — Ian / Annik / Genesis : qui connaît le « vrai Ian » ?  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_identitaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + interprétation`.
+- **S41-A188** — S41-A188 — U2 à Britannia Row : prétendants humides, Hannett et bifurcation des carrières  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau_postpunk` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A189** — S41-A189 — Saville, Staglieno et *Closer* : image funéraire choisie avant la mort  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthetique_visuelle` ; importance : `critique` ; preuve : `témoignage direct + objet visuel documenté`.
 - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
@@ -274,14 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-040** — S45-040 — Factory transforme rapidement Joy Division en archive  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire_collective` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S45-041** — S45-041 — Deborah Curtis se sent progressivement dépossédée du récit public  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-042** — S45-042 — Le manuscrit de « Love Will Tear Us Apart » devient relique  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-043** — S45-043 — Deborah Curtis écrit contre le mythe romantique posthume  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `positionnement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-044** — S45-044 — Deborah Curtis devient malgré elle gardienne d’archive  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive_vivante` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -510,16 +510,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
+- Tony Wilson (18)
 - Annik Honoré (18)
-- Tony Wilson (17)
-- Rob Gretton (15)
+- Rob Gretton (16)
+- Peter Saville (10)
 - Buzzcocks tour (9)
-- Peter Saville (9)
 - Ian Curtis (8)
+- Unknown Pleasures (8)
 - Factory (8)
 - fatigue (8)
 - Transmission (7)
-- Unknown Pleasures (7)
 - John Peel (6)
 - Electric Circus (6)
 - Kevin Cummins (6)
@@ -537,6 +537,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - NME (4)
 - Control (4)
 - Factory Club (4)
+- Hannett (4)
 - Plan K (4)
 - Licht und Blindheit (4)
 - Dead Souls (4)
@@ -549,7 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Paris (3)
 - Dave McCullough (3)
 - YMCA (3)
-- interviews (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -765,6 +765,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_live_pre_album | 1 |
 | reception_discographique | 1 |
 | scene_lieu | 1 |
+| economie_groupe | 1 |
+| tension_identitaire | 1 |
+| scene_reseau_postpunk | 1 |
+| esthetique_visuelle | 1 |
 | rencontre_biographique | 1 |
 | economie_tournee | 1 |
 | scene_tournee_excès | 1 |
@@ -1003,9 +1007,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 455 |
-| critique | 199 |
+| critique | 202 |
 | majeure | 39 |
-| majeur | 21 |
+| majeur | 22 |
 | structurante | 2 |
 | moyenne | 2 |
 
@@ -1062,15 +1066,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A129 [faible à moyen] — Ne pas présenter la télévision comme simple validation ; le passage montre surtout contrainte et bricolage.
 - S41-A130 [moyen] — Ne pas folkloriser la brutalité des farces ; l’intérêt est le contraste succès / continuité.
 - S41-A131 [faible] — Atome logistique et relationnel, à ne pas surcharger.
+- S41-A180 [moyen] — Ne pas romantiser la pauvreté ; Hook note aussi qu’il aurait aimé tester la théorie inverse.
+- S41-A184 [très élevé] — Risque de psychologiser Curtis ; l’atome doit rester méthodologique et relationnel.
+- S41-A188 [moyen] — Ne pas transformer U2 en héritiers directs de Joy Division ; l’atome montre admiration et bifurcation, non filiation totale.
+- S41-A189 [très élevé] — Risque majeur de téléologie funéraire ; Hook dit lui-même que personne ne sait.
 - S41-A133 [très élevé] — Risque de psychologisation de Curtis et d’Annik ; Hook signale explicitement la fragilité de sa mémoire.
 - S41-A134 [très élevé] — Risque de corriger un mythe par un autre mythe viriliste ; maintenir la pluralité des points de vue.
 - S41-A136 [très élevé] — Risque de romantiser les crises comme style ; le passage impose au contraire la contrainte médicale.
 - S41-A138 [moyen] — Ne pas prendre le récit de supériorité scénique comme mesure objective sans reviews.
 - S41-A139 [moyen] — Ne pas folkloriser l’excès ; le passage révèle un environnement peu protecteur.
-- S41-A141 [moyen] — Ne pas réduire Plan K à la potacherie ; maintenir la coexistence avant-garde / pauvreté / désordre.
-- S41-A142 [élevé] — Risque de lire le morceau uniquement comme death march ; Hook lui-même parle depuis l’après-coup.
-- S41-A080 [moyen] — Ne pas faire de Wilson/Curtis une pure alliance d’intellectuels ; Hook écrit depuis la mythologie Factory constituée.
-- S41-A084 [moyen] — Ne pas fétichiser l’objet Factory en oubliant le travail manuel et le retard logistique.
 
 ## 15. Lacunes et prochaines vérifications
 

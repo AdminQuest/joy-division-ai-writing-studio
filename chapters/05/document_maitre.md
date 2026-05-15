@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T15:05:39"
+generated_at: "2026-05-15T16:13:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 314 |
+| Atomes | 315 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -34,7 +34,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 86 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 87 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
@@ -81,6 +81,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `mediation_audiovisuelle` ; importance : `critique` ; preuve : `chronologie audiovisuelle et live`.
 - **S41-A168** — S41-A168 — Anton Corbijn : photographie rapide, icône durable et retour critique par Control  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_visuelle` ; importance : `critique` ; preuve : `témoignage direct + archive photographique vérifiable`.
+- **S41-A189** — S41-A189 — Saville, Staglieno et *Closer* : image funéraire choisie avant la mort  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthetique_visuelle` ; importance : `critique` ; preuve : `témoignage direct + objet visuel documenté`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
@@ -115,8 +117,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `portrait_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A039** — S74-A039 — Hannett, digital delay et invention d’espaces imaginaires  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A040** — S74-A040 — Hannett contre le groupe : conflit de contrôle et mixage sans témoins  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `conflit_studio` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 
 ## 6. Autres atomes utiles
 
@@ -511,6 +511,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Shadowplay (4)
 - Rock Against Racism (4)
 - Tony Wilson (4)
+- Peter Saville (4)
 - Terry Mason (4)
 - Sister Ray (4)
 - Rudolf Hess (3)
@@ -518,7 +519,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Warsaw Pakt (3)
 - Warsaw (3)
 - Tosh Ryan (3)
-- Peter Saville (3)
 - répétition (3)
 - studio (3)
 - An Ideal For Living (3)
@@ -613,6 +613,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A120 — prolonge → CONCEPT-073
 - S41-A129 — prolonge → S41-A077
 - S41-A129 — prolonge → CONCEPT-087
+- S41-A189 — prolonge → CONCEPT-130
+- S41-A189 — nuance → MYTH-CLOSER-FUNERAL-PROPHECY
 - S41-A084 — prolonge → CONCEPT-073
 - S41-A084 — prolonge → CONCEPT-061
 - S41-A157 — prolonge → CONCEPT-101
@@ -624,8 +626,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A064 — prépare → S41-A001
 - S41-A168 — prolonge → CONCEPT-127
 - S41-A168 — prolonge → CONCEPT-123
-- S41-A001 — prolonge → MYTH-007
-- S41-A001 — prolonge → CONCEPT-025
 
 ## 13. Distribution documentaire
 
@@ -696,6 +696,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | scene_politique_factory | 1 |
 | intervention_management | 1 |
 | influence_instrumentale | 1 |
+| esthetique_visuelle | 1 |
 | mediation_audiovisuelle | 1 |
 | seuil_chronologique | 1 |
 | session_enregistrement | 1 |
@@ -814,7 +815,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 191 |
-| critique | 93 |
+| critique | 94 |
 | majeure | 26 |
 | majeur | 4 |
 
@@ -844,6 +845,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A078 [faible à moyen] — Ne pas réduire le style à deux influences ; elles complètent les contraintes matérielles déjà atomisées.
 - S41-A120 [moyen] — Ne pas faire de l’anti-image une stratégie totalement consciente ; Hook décrit aussi du froid, de la gêne et du désintérêt.
 - S41-A129 [faible à moyen] — Ne pas présenter la télévision comme simple validation ; le passage montre surtout contrainte et bricolage.
+- S41-A189 [très élevé] — Risque majeur de téléologie funéraire ; Hook dit lui-même que personne ne sait.
 - S41-A084 [moyen] — Ne pas fétichiser l’objet Factory en oubliant le travail manuel et le retard logistique.
 - S41-A157 [moyen] — Ne pas absolutiser la contrainte matérielle : l’œil de Cummins reste décisif.
 - S41-A164 [moyen] — Ne pas confondre visibilité accrue et maîtrise complète de l’image.
@@ -879,7 +881,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A036 [moyen] — la phrase de C. P. Lee sur la chaîne Music Force/Rabid/Factory/Haçienda doit être utilisée comme lecture historiographique, non comme causalité mécanique
 - S76-A039 [moyen] — ne pas surestimer le niveau artistique de la session ; S76 insiste sur le son pauvre et live
 - S76-A040 [tres_eleve] — risque de rabattre le nom sur une sympathie fasciste ou, inversement, de neutraliser la violence référentielle
-- S76-A041 [tres_eleve] — la pochette Hitler Youth doit être analysée dans sa violence symbolique sans conclure automatiquement à une idéologie fasciste
 
 ## 15. Lacunes et prochaines vérifications
 

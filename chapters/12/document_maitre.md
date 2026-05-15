@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T15:05:39"
+generated_at: "2026-05-15T16:13:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 279 |
+| Atomes | 285 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -34,7 +34,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 40 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 46 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -111,10 +111,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A178** — S41-A178 — « We carried on » : automutilation, crises et vulnérabilité publique de Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_medicale_morale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A036** — S45-A036 — Le cours sur l’épilepsie : savoir préalable et ironie tragique  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A179** — S41-A179 — Avant *Closer* : Amérique prévue, affaire Annik, Candy et barbituriques  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_biographique_medical` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments issus de lettres / S45 à croiser`.
+- **S41-A184** — S41-A184 — Ian / Annik / Genesis : qui connaît le « vrai Ian » ?  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_identitaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + interprétation`.
 
 ## 6. Autres atomes utiles
 
@@ -122,6 +122,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A177** — S41-A177 — Killing Joke, cab démonté et précarité technique avant la crise médicale  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A185** — S41-A185 — Compagnes à Londres : Annik visible, autres femmes exclues du processus  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A186** — S41-A186 — Japes contre Ian et Annik : jalousie, cruauté et perte du camarade  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_interne` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec culpabilité`.
+- **S41-A187** — S41-A187 — Crise aux toilettes de Britannia Row : gash, reprise du travail et titre possible du livre  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A189** — S41-A189 — Saville, Staglieno et *Closer* : image funéraire choisie avant la mort  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthetique_visuelle` ; importance : `critique` ; preuve : `témoignage direct + objet visuel documenté`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
@@ -140,6 +148,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-039** — S45-039 — Le suicide détruit immédiatement la temporalité ordinaire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `trauma` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A036** — S45-A036 — Le cours sur l’épilepsie : savoir préalable et ironie tragique  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A038** — S45-A038 — Rafters : la scène comme débordement corporel et inquiétude conjugale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_live` ; importance : `majeur` ; preuve : `témoignage direct rapporté par Hook dans S45`.
 - **S45-A060** — S45-A060 — Candy : contrepoint domestique au récit d’intensification  
@@ -266,18 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_speculative` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-177** — S46-177 — Transe et répétition lente  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_rythmique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-178** — S46-178 — Désaccord volontaire et effet de trouble  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_sonore` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-179** — S46-179 — Danse de Curtis et japonisme hypnotique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_performance` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-181** — S46-181 — « Death Rattle : The Atrocity Exhibition » : bascule dans le réel  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `dispositif_formel` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-183** — S46-183 — Curtis, suicide et visualisation de la réalité  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_posthume` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-185** — S46-185 — « Isolation » comme symptôme d’une inversion avancée  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_chanson` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-186** — S46-186 — Dion Fortune et la psychisation de l’héritage Joy Division  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite_occultiste` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -509,24 +509,24 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Natalie Curtis (9)
 - Tony Wilson (8)
 - Love Will Tear Us Apart (7)
+- Annik (6)
 - Unknown Pleasures (6)
 - Buzzcocks tour (5)
 - Factory (5)
 - Lindsay Reade (5)
 - Terry Mason (5)
+- epilepsy (5)
 - She’s Lost Control (5)
 - Barton Street (5)
+- Candy (4)
 - tournée américaine (4)
 - Britannia Row (4)
 - handicap (4)
 - Phenobarbitone (4)
-- epilepsy (4)
 - Atmosphere (4)
 - Sordide Sentimental (4)
 - Peter Hook (3)
-- Candy (3)
 - domesticité (3)
-- Annik (3)
 - Mick Middles (3)
 - New Dawn Fades (3)
 - paroles (3)
@@ -536,9 +536,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - honte (3)
 - Transmission (3)
 - American tour (3)
+- Debbie (3)
+- fit (3)
 - Leeds (3)
-- Strawberry Studios (3)
-- Bournemouth (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -630,8 +630,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Type | Nombre |
 |---|---|
 | non qualifié | 13 |
+| tension_domestique | 7 |
 | lecture_chanson | 7 |
-| tension_domestique | 6 |
 | session_studio | 5 |
 | song | 5 |
 | live_set_context | 4 |
@@ -704,6 +704,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | performance_sensible | 1 |
 | interpretation_retrospective | 1 |
 | decision_industrielle | 1 |
+| contexte_biographique_medical | 1 |
+| tension_identitaire | 1 |
+| tension_interne | 1 |
+| evenement_medical_studio | 1 |
+| esthetique_visuelle | 1 |
 | rencontre_biographique | 1 |
 | demythification | 1 |
 | tension_morale | 1 |
@@ -828,7 +833,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 156 |
+| critique | 162 |
 | non qualifiée | 94 |
 | majeure | 20 |
 | majeur | 9 |
@@ -892,9 +897,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S41-A024 [très élevé] — Risque de psychologisation rétrospective et de réduction de Curtis à une pathologie de l’adaptation.
 - S41-A113 [élevé] — Risque d’idéaliser Factory en oubliant le coût salarial et sanitaire du refus d’avance.
 - S41-A125 [très élevé] — Risque de psychologisation et de jugement familial ; Hook signale lui-même son incertitude.
-- S41-A133 [très élevé] — Risque de psychologisation de Curtis et d’Annik ; Hook signale explicitement la fragilité de sa mémoire.
-- S41-A134 [très élevé] — Risque de corriger un mythe par un autre mythe viriliste ; maintenir la pluralité des points de vue.
-- S41-A135 [très élevé] — Risque de jugement moral et de psychologisation ; Hook parle depuis une culpabilité rétrospective.
+- S41-A179 [très élevé] — Risque de téléologie morbide : ce contexte prépare l’album sans en faire une preuve anticipée du suicide.
+- S41-A184 [très élevé] — Risque de psychologiser Curtis ; l’atome doit rester méthodologique et relationnel.
+- S41-A185 [élevé] — Ne pas réduire les femmes à leur fonction de conflit ; maintenir les dimensions économiques et spatiales.
 
 ## 15. Lacunes et prochaines vérifications
 

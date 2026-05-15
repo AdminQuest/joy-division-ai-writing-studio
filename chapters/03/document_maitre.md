@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T15:05:39"
+generated_at: "2026-05-15T16:13:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 264 |
+| Atomes | 267 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -34,7 +34,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 99 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 102 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
@@ -205,6 +205,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceaux` ; importance : `majeur` ; preuve : `témoignage direct + analyse rétrospective`.
 - **S41-A154** — S41-A154 — « Interzone » : chant Hook, générosité Curtis et survivance RCA  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
+- **S41-A182** — S41-A182 — Britannia Row : studio vaisseau, silence nocturne et son de *Closer*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
+- **S41-A183** — S41-A183 — Auratones, ARP, gates : Hannett comme école technique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `technique_studio` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
 - **S41-C02** — S41-C02 — La basse comme instrument principal de Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S41-C05** — S41-C05 — Joy Division comme tension entre live et studio  
@@ -277,10 +281,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_studio` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-121** — S46-121 — *Earcom 2: Contradiction* comme publication intermédiaire  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-123** — S46-123 — Piccadilly Radio Session comme archive non officielle  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `archive_broadcast` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-124** — S46-124 — « Transmission » Session à Central Sound  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `session_enregistrement` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -469,15 +469,16 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Strawberry Studios (8)
 - Digital (6)
 - Transmission (6)
+- Britannia Row (5)
 - RCA (5)
 - Shadowplay (5)
 - Interzone (5)
 - Glass (5)
 - Atmosphere (5)
-- Britannia Row (4)
 - Velvet Underground (4)
 - Stephen Morris (4)
 - Peter Hook (3)
+- Closer (3)
 - Arrow Studios (3)
 - A Factory Sample (3)
 - T. J. Davidson’s (3)
@@ -489,7 +490,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - domesticité (3)
 - basse (2)
 - Bernard Sumner (2)
-- Closer (2)
 - synthétiseur (2)
 - Novelty (2)
 - Martin Rushent (2)
@@ -593,7 +593,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 29 |
+| non qualifié | 30 |
 | production | 15 |
 | session_studio | 15 |
 | analyse_morceau | 10 |
@@ -602,8 +602,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | fait | 9 |
 | processus_creatif | 7 |
 | session | 7 |
+| lieu_studio | 5 |
 | concept | 5 |
-| lieu_studio | 4 |
 | session_radio | 4 |
 | discographie | 4 |
 | reception_critique | 4 |
@@ -650,6 +650,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | influence_instrumentale | 1 |
 | scene_live_pre_album | 1 |
 | tension_esthetique | 1 |
+| technique_studio | 1 |
 | chronologie_structurante | 1 |
 | analyse_session | 1 |
 | analyse_morceau_materiel | 1 |
@@ -707,8 +708,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 165 |
-| critique | 80 |
+| non qualifiée | 166 |
+| critique | 82 |
 | majeure | 11 |
 | majeur | 8 |
 
@@ -749,6 +750,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A119 [moyen] — Ne pas transformer le rejet initial en condamnation durable ; Hook relit ensuite la portée du disque.
 - S41-A124 [moyen] — Ne pas confondre version radio, version live et version Sordide Sentimental.
 - S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
+- S41-A182 [moyen] — Ne pas transformer le studio en cause unique du son ; Hannett, groupe et compositions restent déterminants.
+- S41-A183 [moyen] — Ne pas accepter chaque détail technique comme certitude d’ingénierie ; croiser avec Caffery / Johnson si possible.
 - S41-A081 [moyen] — Ne pas réduire Cargo à un décor ; ne pas non plus attribuer tout le son à la seule accumulation d’effets.
 - S41-A082 [moyen] — Risque de faire de l’ignorance du groupe une qualité pure ; elle est aussi une perte de contrôle.
 - S41-A083 [moyen] — Ne pas lire cette réussite à travers les conflits ultérieurs seuls ; elle est aussi moment d’accord.
@@ -772,8 +775,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A020 [moyen] — formule forte d'Ott ; à articuler avec d'autres seuils possibles comme « Digital » ou les sessions RCA
 - S75-A021 [moyen] — risque de transformer RCA en pure caricature industrielle alors que l'échec tient aussi à l'inexpérience du groupe
 - S75-A022 [moyen] — la généalogie d'« Interzone » doit être maniée comme lecture de session, non comme origine exclusive du morceau
-- S75-A024 [moyen] — ne pas opposer naïvement organique et électronique ; le problème est l'usage imposé du son
-- S75-A025 [moyen] — les bandes survivantes doivent être distinguées des intentions et des versions officielles ultérieures
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T15:05:39"
+generated_at: "2026-05-15T16:13:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 63 |
+| Atomes | 65 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 19 |
 | Événements chronologiques | 9 |
@@ -34,7 +34,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 13 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
@@ -49,6 +49,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_structurant` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
 - **S41-A057** — S41-A057 — Swan pub : lieu de répétition et retour traumatique par la mémoire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_memoire` ; importance : `critique` ; preuve : `témoignage rétrospectif direct`.
+- **S41-A182** — S41-A182 — Britannia Row : studio vaisseau, silence nocturne et son de *Closer*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
@@ -111,8 +113,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `portrait_social` ; importance : `majeure` ; preuve : `portrait_S76_et_memoire_locale`.
 - **S76-A067** — S76-A067 — Band On The Wall : lieu de transition, Musicians Collective et premier laboratoire public  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `majeure` ; preuve : `reconstruction_S76_et_memoire_scene`.
-- **S76-A077** — S76-A077 — Troisième Factory night : le regard de Londres se déplace vers le Nord  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_scene` ; importance : `majeure` ; preuve : `temoignage_Mick_Middles_et_reconstruction_S76`.
 
 ## 6. Autres atomes utiles
 
@@ -160,6 +160,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A043** — S72-A043 — The Fall : Manchester par irritation, répétition et anti-lyrisme  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S76-A077** — S76-A077 — Troisième Factory night : le regard de Londres se déplace vers le Nord  
+  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `reception_scene` ; importance : `majeure` ; preuve : `temoignage_Mick_Middles_et_reconstruction_S76`.
 - **S76-A085** — S76-A085 — Piss cans et Carlsberg : l’anti-légende corporelle du gang  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contre_image` ; importance : `majeure` ; preuve : `temoignage_Terry_Mason`.
 - **S76-A086** — S76-A086 — Tony Davidson voit Curtis : curiosité honnête, différence de rue et centralité silencieuse  
@@ -172,6 +174,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `song_or_video` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **SONG-S76-038** — SONG-S76-038 — Cologne Basement comme archive européenne  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `live_set_bootleg_context` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD** — S41 — Chansons, album, sessions et objets — *Closer*, Britannia Row, mix de « Love Will Tear Us Apart », Annik, Saville  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -283,6 +287,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - lieu-matrice (1)
 - esthétique du froid matériel (1)
 - pratique collective située (1)
+- studio comme espace clos (1)
+- spatialité sonore de Closer (1)
 - géographie policière des gigs (1)
 - tournée comme indice suspect (1)
 - lieu-piège mémoriel (1)
@@ -311,8 +317,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - architecture sonore (1)
 - critique de l'iconographie industrielle (1)
 - band on the wall (1)
-- manchester musicians collective (1)
-- scène locale (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -338,6 +342,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Manchester City (2)
 - famous photographs (1)
 - froid (1)
+- Britannia Row (1)
+- Pink Floyd (1)
+- Star Wars (1)
+- airless (1)
+- night work (1)
+- Closer (1)
 - blue Transit (1)
 - Yorkshire Ripper (1)
 - red-light districts (1)
@@ -352,18 +362,14 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - smog (1)
 - Control (1)
 - violence domestique (1)
-- retour à Salford (1)
-- déclassement (1)
-- violence familiale (1)
-- Dead Souls (1)
-- fantômes (1)
-- eternals (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
 - S41-A053 — prolonge → S41-A052
 - S41-A053 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
 - S41-A053 — prolonge → S45-A144
+- S41-A182 — prolonge → CONCEPT-121
+- S41-A182 — prépare → CLOSER-TRACK-BY-TRACK
 - S41-A085 — prolonge → S41-A072
 - S41-A085 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
 - S41-A057 — prolonge → CONCEPT-064
@@ -439,8 +445,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A075 — relie → MOTIF-008
 - S76-A077 — prolonge → S76-A076
 - S76-A077 — relie → MOTIF-008
-- S76-A077 — nuance → MYTH-003
-- S76-A084 — relie → MOTIF-008
 
 ## 13. Distribution documentaire
 
@@ -458,6 +462,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | contexte_social | 2 |
 | lieu_scene | 2 |
 | lieu_structurant | 1 |
+| lieu_studio | 1 |
 | tension_sociale | 1 |
 | lieu_memoire | 1 |
 | scene_origine_sociale | 1 |
@@ -494,6 +499,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
+| non qualifié | 1 |
 | song_or_video | 1 |
 | live_set_bootleg_context | 1 |
 
@@ -501,14 +507,15 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 22 |
+| non qualifiée | 23 |
 | majeure | 21 |
-| critique | 18 |
+| critique | 19 |
 | majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S41-A053 [moyen] — Ne pas transformer le lieu en cause esthétique directe ; il agit comme environnement de répétition et de mémoire.
+- S41-A182 [moyen] — Ne pas transformer le studio en cause unique du son ; Hannett, groupe et compositions restent déterminants.
 - S41-A085 [moyen] — Ne pas transformer l’anecdote en analyse policière générale ; elle éclaire surtout la géographie des gigs.
 - S41-A057 [moyen] — Risque de projeter la charge posthume sur l’usage initial du lieu ; il faut distinguer répétition 1976-1977 et retour mémoriel ultérieur.
 - S41-A007 [moyen] — Risque de faire de Salford une cause esthétique directe ; il faut parler de matrice, non de déterminisme.

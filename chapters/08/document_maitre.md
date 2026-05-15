@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T15:05:39"
+generated_at: "2026-05-15T16:13:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 179 |
+| Atomes | 189 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
@@ -34,7 +34,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 76 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 86 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -168,6 +168,22 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live_archive` ; importance : `critique` ; preuve : `chronologie live + setlist publiée`.
 - **S41-A172** — S41-A172 — Factory office party : beer economy et préhistoire de la Haçienda  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_factory` ; importance : `majeur` ; preuve : `anecdote Hook rétrospective`.
+- **S41-A179** — S41-A179 — Avant *Closer* : Amérique prévue, affaire Annik, Candy et barbituriques  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_biographique_medical` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments issus de lettres / S45 à croiser`.
+- **S41-A180** — S41-A180 — Pauvreté maintenue : *Unknown Pleasures* reconnu, mais pas de star-system  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_groupe` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A181** — S41-A181 — Mix de « Love Will Tear Us Apart » : Hannett exclut les musiciens  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A182** — S41-A182 — Britannia Row : studio vaisseau, silence nocturne et son de *Closer*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
+- **S41-A183** — S41-A183 — Auratones, ARP, gates : Hannett comme école technique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `technique_studio` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
+- **S41-A187** — S41-A187 — Crise aux toilettes de Britannia Row : gash, reprise du travail et titre possible du livre  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A188** — S41-A188 — U2 à Britannia Row : prétendants humides, Hannett et bifurcation des carrières  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau_postpunk` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A189** — S41-A189 — Saville, Staglieno et *Closer* : image funéraire choisie avant la mort  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthetique_visuelle` ; importance : `critique` ; preuve : `témoignage direct + objet visuel documenté`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
@@ -262,22 +278,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S71-A010** — S71-A010 — Pennine Sound Studios et la première démo  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A015** — S71-A015 — RCA Album : enregistrement rapide, contrat défavorable et retrait  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A017** — S71-A017 — *An Ideal for Living* : Enigma, graphisme et anti-fascisme mal compris  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A018** — S71-A018 — *A Factory Sample* : naissance du label et rôle de Hannett  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A020** — S71-A020 — Première Peel Session : sortie du régionalisme  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A022** — S71-A022 — *Unknown Pleasures* : désenchantement, Hannett, Saville et indépendance  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A024** — S71-A024 — Sessions 1979, « Transmission » et l’accident de tournée  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A025** — S71-A025 — Fac 9, Buzzcocks, Plan K et rareté des images  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A026** — S71-A026 — « Transmission », *Earcom 2* et choix du côté obscur  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -421,12 +421,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ### 12.1. Motifs dominants
 
-- Unknown Pleasures (7)
+- Unknown Pleasures (8)
 - An Ideal for Living (7)
+- Rob Gretton (7)
 - Transmission (7)
 - Factory (6)
 - RCA (6)
-- Rob Gretton (6)
 - Martin Hannett (6)
 - Earcom 2 (5)
 - Electric Circus (5)
@@ -437,30 +437,30 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Sordide Sentimental (5)
 - Pennine Sound (4)
 - Digital (4)
+- Tony Wilson (4)
 - A Factory Sample (4)
+- Peter Saville (4)
 - Licht und Blindheit (4)
 - Dead Souls (4)
 - bootleg (4)
 - Rudolf Hess (3)
 - bootlegs (3)
 - Strawberry Studios (3)
+- Hannett (3)
 - John Peel (3)
 - Genetic (3)
 - Insight (3)
 - Paul Morley (3)
 - Warsaw (3)
-- Tony Wilson (3)
-- Peter Saville (3)
 - Chance (3)
 - Atrocity Exhibition (3)
 - Novelty (3)
 - Enigma (3)
 - An Ideal For Living (3)
+- Closer (2)
+- Britannia Row (2)
+- Annik (2)
 - DIY (2)
-- BBC (2)
-- radio (2)
-- Martin Rushent (2)
-- Eden Studios (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -552,9 +552,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Type | Nombre |
 |---|---|
 | production | 32 |
-| non qualifié | 20 |
+| non qualifié | 22 |
 | objet_discographique | 13 |
-| session_studio | 10 |
+| session_studio | 11 |
 | concert | 6 |
 | analyse | 5 |
 | archive | 5 |
@@ -564,12 +564,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | session | 3 |
 | evenement_discographique | 3 |
 | chronologie_discographique | 3 |
+| lieu_studio | 3 |
 | chronologie | 3 |
 | live_set_bootleg_context | 3 |
 | economie_materielle | 2 |
 | tension_industrie | 2 |
 | chronologie_structurante | 2 |
-| lieu_studio | 2 |
 | interpretation_studio | 2 |
 | chanson_single | 2 |
 | discographie | 2 |
@@ -592,6 +592,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | tension_esthetique | 1 |
 | esthétique_visuelle | 1 |
 | reception_discographique | 1 |
+| contexte_biographique_medical | 1 |
+| economie_groupe | 1 |
+| technique_studio | 1 |
+| evenement_medical_studio | 1 |
+| scene_reseau_postpunk | 1 |
+| esthetique_visuelle | 1 |
 | chronologie_single | 1 |
 | carrefour_discographique_live | 1 |
 | chronologie_reseau | 1 |
@@ -621,9 +627,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 82 |
-| non qualifiée | 78 |
-| majeur | 13 |
+| critique | 89 |
+| non qualifiée | 80 |
+| majeur | 14 |
 | majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -672,6 +678,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A124 [moyen] — Ne pas confondre version radio, version live et version Sordide Sentimental.
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
 - S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
+- S41-A179 [très élevé] — Risque de téléologie morbide : ce contexte prépare l’album sans en faire une preuve anticipée du suicide.
+- S41-A180 [moyen] — Ne pas romantiser la pauvreté ; Hook note aussi qu’il aurait aimé tester la théorie inverse.
+- S41-A181 [moyen] — Ne pas réduire Hannett au tyran : le passage maintient la tension génie / comportement brutal.
+- S41-A182 [moyen] — Ne pas transformer le studio en cause unique du son ; Hannett, groupe et compositions restent déterminants.
+- S41-A183 [moyen] — Ne pas accepter chaque détail technique comme certitude d’ingénierie ; croiser avec Caffery / Johnson si possible.
+- S41-A187 [très élevé] — Éviter le procès simpliste : l’atome montre secours, déni et continuation plutôt qu’indifférence pure.
+- S41-A188 [moyen] — Ne pas transformer U2 en héritiers directs de Joy Division ; l’atome montre admiration et bifurcation, non filiation totale.
+- S41-A189 [très élevé] — Risque majeur de téléologie funéraire ; Hook dit lui-même que personne ne sait.
 - S41-A142 [élevé] — Risque de lire le morceau uniquement comme death march ; Hook lui-même parle depuis l’après-coup.
 - S41-A079 [moyen] — Risque de juger 1978 avec une rationalité commerciale postérieure ; Hook signale lui-même la relecture après expérience.
 - S41-A081 [moyen] — Ne pas réduire Cargo à un décor ; ne pas non plus attribuer tout le son à la seule accumulation d’effets.
@@ -680,14 +694,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A084 [moyen] — Ne pas fétichiser l’objet Factory en oubliant le travail manuel et le retard logistique.
 - S41-A154 [moyen] — Ne pas réduire Interzone à la trace RCA ; Hook souligne aussi la générosité vocale de Curtis.
 - S41-A155 [moyen] — Ne pas transformer le morceau en pure préfiguration New Order ; l’intérêt est son statut de clôture Joy Division.
-- S41-A156 [faible] — L’atome sert à cadrer, non à interpréter causalement toute l’année.
-- S41-A159 [faible] — Ne pas confondre validation alternative et succès commercial.
-- S41-A160 [faible] — Atome de verrouillage chronologique, non interprétation psychologique.
-- S41-A161 [moyen] — Ne pas faire de la session une anticipation consciente de Closer ; elle est une charnière rétrospective.
-- S41-A162 [faible] — Atome de trajectoire discographique ; ne pas surinterpréter au-delà de la logique single.
-- S41-A165 [moyen] — Ne pas fusionner les objets : Earcom, FAC 13 et Sordide ont des fonctions distinctes.
-- S41-A062 [faible] — Atome de consolidation ; l’analyse de la provocation Rudolf Hess reste dans les atomes antérieurs.
-- S41-A063 [faible] — Ne pas téléologiser Gretton ; l’entrée montre surtout une infrastructure fragile.
 
 ## 15. Lacunes et prochaines vérifications
 

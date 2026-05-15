@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-15T15:05:36",
+  "generated_at": "2026-05-15T16:13:39",
   "summary": {
-    "records_total": 3187,
+    "records_total": 3237,
     "records_by_kind": {
-      "atom": 1568,
+      "atom": 1581,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 102,
+      "unknown": 106,
       "song": 41,
-      "template": 208,
+      "template": 220,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 206,
+      "motif": 218,
       "person": 157,
-      "concept": 134,
+      "concept": 143,
       "myth": 11
     },
-    "diagnostics_total": 15991,
+    "diagnostics_total": 16111,
     "errors": 0,
-    "warnings": 15991,
+    "warnings": 16111,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1568,
+    "atom": 1581,
     "chronology": 331,
-    "concept": 134,
+    "concept": 143,
     "metadata": 18,
-    "motif": 206,
+    "motif": 218,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,14 +41,14 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 208,
-    "unknown": 102
+    "template": 220,
+    "unknown": 106
   },
   "records_by_source": {
     "S41": {
-      "atom": 373,
+      "atom": 386,
       "quote": 9,
-      "unknown": 90,
+      "unknown": 94,
       "song": 7,
       "person": 9,
       "chronology": 9
@@ -126,18 +126,18 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 121,
-    "Chapitre 10": 213,
+    "Chapitre 10": 220,
     "Chapitre 11": 213,
-    "Chapitre 12": 387,
-    "Chapitre 13": 105,
-    "Chapitre 14": 897,
+    "Chapitre 12": 400,
+    "Chapitre 13": 109,
+    "Chapitre 14": 906,
     "Chapitre 2": 345,
-    "Chapitre 3": 359,
-    "Chapitre 4": 287,
-    "Chapitre 5": 429,
+    "Chapitre 3": 367,
+    "Chapitre 4": 290,
+    "Chapitre 5": 432,
     "Chapitre 6": 544,
     "Chapitre 7": 101,
-    "Chapitre 8": 258,
+    "Chapitre 8": 279,
     "Chapitre 9": 199,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1309,
-    "missing_required_field": 4515,
+    "invalid_controlled_value": 1320,
+    "missing_required_field": 4580,
     "schema_warning": 399,
-    "unknown_yaml_block": 102,
-    "v2_migration_debt": 9531
+    "unknown_yaml_block": 106,
+    "v2_migration_debt": 9571
   },
   "top_files_by_issue_count": [
     [
@@ -674,6 +674,38 @@
       "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
       "record_id": "LIVE-S41-WE-CARRIED-ON-FITS-STAGE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "ALBUM-S41-CLOSER-BRITANNIA-ROW-SESSIONS",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "TECH-S41-HANNETT-AURATONES-ARP-GATES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "VISUAL-S41-CLOSER-STAGLIENO-SAVILLE-WOLFF",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "NETWORK-S41-U2-11-OCLOCK-TICK-TOCK-HANNETT",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1215,10 +1247,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1568,
+    "atoms_total": 1581,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1507,
-    "v2_missing_field_warnings": 9531
+    "atoms_v2_incomplete": 1520,
+    "v2_missing_field_warnings": 9571
   },
   "source_registry": {
     "declared_but_unused": [
@@ -1295,8 +1327,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 497,
-        "atoms": 373,
+        "records": 514,
+        "atoms": 386,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -1318,6 +1350,7 @@
           "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+          "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
           "sources/hook/atomisation_04_unknown_pleasures_track_by_track.md",
@@ -1339,7 +1372,8 @@
           "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
           "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
-          "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md"
+          "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+          "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md"
         ]
       },
       {
@@ -25923,6 +25957,710 @@
       "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
       "record_id": "S41-A131",
       "message": "Invalid value for type_unite: scene_reseau",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A179",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A179",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A179",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A179",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A179",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A179",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A179",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A179",
+      "message": "Invalid value for type_unite: contexte_biographique_medical",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A180",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A180",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A180",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A180",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A180",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A180",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A180",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A180",
+      "message": "Invalid value for type_unite: economie_groupe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A181",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A181",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A181",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A181",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A181",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A181",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A181",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A181",
+      "message": "Invalid value for type_unite: session_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A182",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A182",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A182",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A182",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A182",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A182",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A182",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A182",
+      "message": "Invalid value for type_unite: lieu_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A183",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A183",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A183",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A183",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A183",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A183",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A183",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A183",
+      "message": "Invalid value for type_unite: technique_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A184",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A184",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A184",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A184",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A184",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A184",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A184",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A184",
+      "message": "Invalid value for type_unite: tension_identitaire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A185",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A185",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A185",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A185",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A185",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A185",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A185",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A185",
+      "message": "Invalid value for type_unite: tension_domestique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A186",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A186",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A186",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A186",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A186",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A186",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A186",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A186",
+      "message": "Invalid value for type_unite: tension_interne",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A187",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A187",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A187",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A187",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A187",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A187",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A187",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A187",
+      "message": "Invalid value for type_unite: evenement_medical_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A188",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A188",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A188",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A188",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A188",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A188",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A188",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A188",
+      "message": "Invalid value for type_unite: scene_reseau_postpunk",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A189",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A189",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A189",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A189",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A189",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A189",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A189",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "S41-A189",
+      "message": "Invalid value for type_unite: esthetique_visuelle",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -113298,6 +114036,262 @@
       "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
       "record_id": "LIVE-S41-WE-CARRIED-ON-FITS-STAGE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "SINGLE-S41-LWTUA-PENNINE-STRAWBERRY-MIX",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "ALBUM-S41-CLOSER-BRITANNIA-ROW-SESSIONS",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "STUDIO-S41-BRITANNIA-ROW-PINK-FLOYD",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "TECH-S41-HANNETT-AURATONES-ARP-GATES",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "VISUAL-S41-CLOSER-STAGLIENO-SAVILLE-WOLFF",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+      "record_id": "NETWORK-S41-U2-11-OCLOCK-TICK-TOCK-HANNETT",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

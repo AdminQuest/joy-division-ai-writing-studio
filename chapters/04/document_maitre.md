@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T15:05:39"
+generated_at: "2026-05-15T16:13:41"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-15T15:05:39"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 217 |
+| Atomes | 219 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-15T15:05:39"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 56 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 58 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -81,6 +81,8 @@ generated_at: "2026-05-15T15:05:39"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_single` ; importance : `critique` ; preuve : `chronologie discographique`.
 - **S41-A170** — S41-A170 — Deuxième Peel Session : seuil vers Closer avant Closer  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie`.
+- **S41-A181** — S41-A181 — Mix de « Love Will Tear Us Apart » : Hannett exclut les musiciens  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -113,8 +115,6 @@ generated_at: "2026-05-15T15:05:39"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A044** — S75-A044 — De la lecture des paroles à la téléologie : le piège Curtis  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A045** — S75-A045 — Deborah Curtis comme oreille littérale des textes  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_memoire`.
 
 ## 6. Autres atomes utiles
 
@@ -274,10 +274,10 @@ generated_at: "2026-05-15T15:05:39"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A043** — S75-A043 — Curtis aime le disque : divergence interne dans la réception d'Hannett  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `majeure` ; preuve : `reconstruction_critique`.
+- **S75-A045** — S75-A045 — Deborah Curtis comme oreille littérale des textes  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_memoire`.
 - **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A047** — S75-A047 — « She’s Lost Control » : origine professionnelle, retour biographique et comparaison des versions  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 7. Citations disponibles
 
@@ -508,11 +508,11 @@ generated_at: "2026-05-15T15:05:39"
 - Barton Street (7)
 - Natalie Curtis (7)
 - Annik Honoré (6)
+- Love Will Tear Us Apart (5)
 - Shadowplay (4)
 - Closer (4)
 - Transmission (4)
 - Atmosphere (4)
-- Love Will Tear Us Apart (4)
 - Bowie (4)
 - domesticité (4)
 - Tony Wilson (4)
@@ -588,6 +588,8 @@ generated_at: "2026-05-15T15:05:39"
 - S41-A126 — prolonge → CONCEPT-076
 - S41-A127 — prolonge → CONCEPT-093
 - S41-A127 — prépare → LOVE-WILL-TEAR-US-APART
+- S41-A181 — prolonge → CONCEPT-117
+- S41-A181 — prolonge → S41-A145
 - S41-A142 — prolonge → S41-A124
 - S41-A142 — prépare → REGISTRE-SORDIDE-SENTIMENTALE
 - S41-A154 — prolonge → S41-A068
@@ -623,8 +625,6 @@ generated_at: "2026-05-15T15:05:39"
 - S75-A062 — nuance → MYTH-002
 - S75-A063 — prolonge → S75-A045
 - S75-A063 — requiert → CONCEPT-004
-- S75-A063 — nuance → MYTH-002
-- S75-A064 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -632,7 +632,7 @@ generated_at: "2026-05-15T15:05:39"
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 17 |
+| non qualifié | 18 |
 | fait_sensible | 9 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
@@ -641,6 +641,7 @@ generated_at: "2026-05-15T15:05:39"
 | lecture | 4 |
 | lecture_musicale | 4 |
 | relation | 3 |
+| session_studio | 3 |
 | session_radio | 3 |
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
@@ -650,7 +651,6 @@ generated_at: "2026-05-15T15:05:39"
 | contexte_biographique | 3 |
 | tension_biographique | 3 |
 | live_set_context | 3 |
-| session_studio | 2 |
 | chanson_single | 2 |
 | processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
@@ -766,8 +766,8 @@ generated_at: "2026-05-15T15:05:39"
 
 | Importance | Nombre |
 |---|---|
-| critique | 99 |
-| non qualifiée | 81 |
+| critique | 100 |
+| non qualifiée | 82 |
 | majeure | 33 |
 | majeur | 3 |
 | structurante | 1 |
@@ -791,6 +791,7 @@ generated_at: "2026-05-15T15:05:39"
 - S41-A124 [moyen] — Ne pas confondre version radio, version live et version Sordide Sentimental.
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
 - S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
+- S41-A181 [moyen] — Ne pas réduire Hannett au tyran : le passage maintient la tension génie / comportement brutal.
 - S41-A142 [élevé] — Risque de lire le morceau uniquement comme death march ; Hook lui-même parle depuis l’après-coup.
 - S41-A154 [moyen] — Ne pas réduire Interzone à la trace RCA ; Hook souligne aussi la générosité vocale de Curtis.
 - S41-A156 [faible] — L’atome sert à cadrer, non à interpréter causalement toute l’année.
@@ -833,7 +834,6 @@ generated_at: "2026-05-15T15:05:39"
 - S74-A037 [moyen] — risque de mythifier une clause informelle comme pure vertu sans examiner ses effets économiques
 - S74-A044 [moyen] — risque de survaloriser les Distractions uniquement comme faire-valoir de Joy Division
 - S74-A046 [moyen] — risque de romantiser Factory comme seul espace authentique contre une télévision nécessairement morte
-- S74-A001 [moyen] — risque de romantisation de l’échec économique Factory comme geste esthétique pur
 
 ## 15. Lacunes et prochaines vérifications
 
