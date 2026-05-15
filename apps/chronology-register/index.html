@@ -10,7 +10,7 @@
   <header class="hero">
     <div class="hero-inner">
       <h1>Registre chronologique</h1>
-      <p class="subtitle">Vue documentaire dynamique générée depuis <code>exports/generated/chronology.json</code>.</p>
+      <p class="subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés.</p>
       <p class="back"><a href="../../">← Retour au portail</a></p>
     </div>
   </header>
@@ -27,30 +27,22 @@
 
         <div class="field">
           <label for="year-filter">Année</label>
-          <select id="year-filter">
-            <option value="">Toutes</option>
-          </select>
+          <select id="year-filter"><option value="">Toutes</option></select>
         </div>
 
         <div class="field">
           <label for="type-filter">Type</label>
-          <select id="type-filter">
-            <option value="">Tous</option>
-          </select>
+          <select id="type-filter"><option value="">Tous</option></select>
         </div>
 
         <div class="field">
           <label for="location-filter">Lieu</label>
-          <select id="location-filter">
-            <option value="">Tous</option>
-          </select>
+          <select id="location-filter"><option value="">Tous</option></select>
         </div>
 
         <div class="field">
           <label for="source-filter">Source</label>
-          <select id="source-filter">
-            <option value="">Toutes</option>
-          </select>
+          <select id="source-filter"><option value="">Toutes</option></select>
         </div>
       </div>
 
@@ -60,7 +52,7 @@
       </div>
 
       <p class="note">
-        Le registre chronologique fusionne les événements structurés issus des livres atomisés. Après toute nouvelle atomisation, reconstruire les exports avec <code>python3 tools/build_registers.py</code>.
+        Ce registre lit directement les fichiers <code>registers/chronology/*.md</code> et les sources atomisées du repo.
       </p>
     </section>
 
@@ -74,6 +66,7 @@
     </section>
   </main>
 
+  <script src="../lib/dynamic-registers.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
