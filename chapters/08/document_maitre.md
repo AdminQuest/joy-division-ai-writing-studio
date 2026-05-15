@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T18:06:04"
+generated_at: "2026-05-15T19:04:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 192 |
+| Atomes | 207 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
@@ -34,7 +34,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 89 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -190,6 +190,22 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_industrielle` ; importance : `majeur` ; preuve : `témoignage direct + citation rapportée`.
 - **S41-A203** — S41-A203 — Vidéo « Love Will Tear Us Apart » : anti-mime, live impossible et erreur devenue canon  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet audiovisuel vérifiable`.
+- **S41-A214** — S41-A214 — « Atrocity Exhibition » : échange d’instruments et colère contre Hannett  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct d’interprète`.
+- **S41-A215** — S41-A215 — « Isolation » : simplicité, synthés, batterie séparée et edit sauvé  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct + analyse technique`.
+- **S41-A216** — S41-A216 — « Passover » : six-string bass, Clone Theory et son du futur Hook  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_instrument` ; importance : `critique` ; preuve : `témoignage direct d’instrumentiste`.
+- **S41-A217** — S41-A217 — « Colony » et confiance de *Closer* : mélancolie fragile mais sûre d’elle  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_album` ; importance : `critique` ; preuve : `témoignage direct + appréciation critique d’interprète`.
+- **S41-A218** — S41-A218 — « A Means to an End » : pop song, disco abîmée et empreinte Hannett  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct + analyse musicale subjective`.
+- **S41-A219** — S41-A219 — « Heart and Soul » : basse transférée au synthé et naissance d’une méthode New Order  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct d’instrumentiste + analyse studio`.
+- **S41-A221** — S41-A221 — « The Eternal » : six-string, Transcendent et solidité collective irrépétable  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_memoire` ; importance : `critique` ; preuve : `témoignage direct + appréciation subjective`.
+- **S41-A222** — S41-A222 — « Decades » : beauté finale, double basse et *Closer* préféré à *Unknown Pleasures*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_album` ; importance : `critique` ; preuve : `témoignage direct + jugement esthétique subjectif`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
@@ -262,22 +278,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A009** — S70-A009 — *An Ideal for Living* : provocation graphique et ambiguïté  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A012** — S70-A012 — Sessions RCA et bootleg *Warsaw*  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A013** — S70-A013 — Granada TV, Factory Sample et maturation vers le son Joy Division  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A016** — S70-A016 — Piccadilly Radio, Central Sound et « Transmission »  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A017** — S70-A017 — Futurama, Scala, Buzzcocks et documents filmés  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A019** — S70-A019 — Paradiso, Effenaar, Collyer, Marquee, Warehouse  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A020** — S70-A020 — *Closer*, FAC 28 et sessions terminales  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A021** — S70-A021 — Sordide Sentimental : *Licht und Blindheit*  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A023** — S70-A023 — Vidéo promotionnelle « Love Will Tear Us Apart »  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -437,6 +437,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Sordide Sentimental (5)
 - Pennine Sound (4)
 - Digital (4)
+- Atrocity Exhibition (4)
 - Moonlight Club (4)
 - Tony Wilson (4)
 - A Factory Sample (4)
@@ -453,14 +454,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Insight (3)
 - Paul Morley (3)
 - Warsaw (3)
+- Heart and Soul (3)
 - Chance (3)
-- Atrocity Exhibition (3)
 - Novelty (3)
 - Enigma (3)
 - An Ideal For Living (3)
 - Closer (2)
 - Britannia Row (2)
-- Annik (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -532,18 +532,18 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A040 — alimente → REGISTRE-DISCOGRAPHIE
 - S41-A041 — prolonge → CONCEPT-050
 - S41-A041 — prépare → CONCEPT-HANNETT-STUDIO
-- S41-A190 — prolonge → S41-A179
-- S41-A190 — prolonge → CONCEPT-138
-- S41-A191 — prolonge → CONCEPT-139
-- S41-A191 — prolonge → S41-A180
-- S41-A203 — prolonge → CONCEPT-116
-- S41-A203 — prolonge → CONCEPT-146
-- S41-A093 — prolonge → CONCEPT-065
-- S41-A093 — consolide → S41-A065
-- S41-A093 — consolide → S41-A092
-- S41-A094 — prolonge → CONCEPT-073
-- S41-A094 — consolide → S41-A074
-- S41-A095 — consolide → S41-A069
+- S41-A214 — prolonge → CONCEPT-140
+- S41-A214 — prolonge → CONCEPT-142
+- S41-A215 — prolonge → CONCEPT-142
+- S41-A215 — prolonge → CONCEPT-155
+- S41-A216 — prolonge → CONCEPT-118
+- S41-A216 — prépare → NEW-ORDER-SOUND
+- S41-A217 — prolonge → CONCEPT-141
+- S41-A217 — nuance → MYTH-CLOSER-FUNERAL-PROPHECY
+- S41-A218 — prolonge → CONCEPT-160
+- S41-A218 — prépare → NEW-ORDER-SOUND
+- S41-A219 — prolonge → CONCEPT-160
+- S41-A219 — prolonge → CONCEPT-142
 
 ## 13. Distribution documentaire
 
@@ -552,17 +552,18 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Type | Nombre |
 |---|---|
 | production | 32 |
-| non qualifié | 22 |
+| non qualifié | 29 |
 | objet_discographique | 13 |
 | session_studio | 11 |
 | concert | 6 |
+| analyse_morceau | 6 |
 | analyse | 5 |
 | archive | 5 |
-| analyse_morceau | 5 |
 | economie_discographique | 4 |
 | session_radio | 4 |
 | session | 3 |
 | evenement_discographique | 3 |
+| analyse_morceau_studio | 3 |
 | chronologie_discographique | 3 |
 | lieu_studio | 3 |
 | chronologie | 3 |
@@ -585,6 +586,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | scene_conflit | 1 |
 | personne_reseau | 1 |
 | scene_live_violence | 1 |
+| analyse_morceau_instrument | 1 |
+| analyse_album | 1 |
+| analyse_morceau_memoire | 1 |
+| analyse_morceau_album | 1 |
 | contexte_tournee | 1 |
 | reception_industrielle | 1 |
 | objet_audiovisuel | 1 |
@@ -630,9 +635,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 91 |
-| non qualifiée | 80 |
-| majeur | 15 |
+| critique | 98 |
+| non qualifiée | 87 |
+| majeur | 16 |
 | majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -663,6 +668,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A036 [faible à moyen] — Ne pas téléologiser Gretton comme manager prédestiné.
 - S41-A040 [moyen] — Ne pas isoler Rudolf Hess de la logique plus large de maladresse provocatrice et de piège industriel.
 - S41-A041 [moyen] — Ne pas transformer la violence en simple folklore ; elle structure les appartenances locales.
+- S41-A214 [moyen] — Ne pas confondre réaction immédiate de Hook et évaluation définitive du morceau.
+- S41-A215 [moyen] — Les détails de déclenchement synthé et d’edit doivent être croisés avec les ingénieurs.
+- S41-A216 [faible] — Atome instrumental robuste.
+- S41-A217 [moyen] — Ne pas en faire une vérité objective : c’est la hiérarchie d’écoute de Hook.
+- S41-A218 [moyen] — Ne pas projeter trop directement New Order ; la dance est ici encore déformée.
+- S41-A219 [moyen] — Ne pas réduire New Order à ce seul procédé ; le passage fournit une matrice, non une cause unique.
+- S41-A221 [moyen] — Ne pas absolutiser la préférence de Hook ; elle vaut comme mémoire interne.
+- S41-A222 [moyen] — Ne pas transformer la préférence personnelle en canon critique universel.
 - S41-A190 [élevé] — Ne pas réduire chaque décision à l’argent ; le prestige, l’inertie et l’excitation de l’Amérique comptent aussi.
 - S41-A191 [moyen] — Ne pas faire de Polydor une trajectoire manquée centrale ; le passage sert surtout à mesurer l’aura live.
 - S41-A203 [moyen] — Ne pas faire de l’erreur un programme esthétique totalement conscient ; elle devient canon après coup.
@@ -689,14 +702,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A181 [moyen] — Ne pas réduire Hannett au tyran : le passage maintient la tension génie / comportement brutal.
 - S41-A182 [moyen] — Ne pas transformer le studio en cause unique du son ; Hannett, groupe et compositions restent déterminants.
 - S41-A183 [moyen] — Ne pas accepter chaque détail technique comme certitude d’ingénierie ; croiser avec Caffery / Johnson si possible.
-- S41-A187 [très élevé] — Éviter le procès simpliste : l’atome montre secours, déni et continuation plutôt qu’indifférence pure.
-- S41-A188 [moyen] — Ne pas transformer U2 en héritiers directs de Joy Division ; l’atome montre admiration et bifurcation, non filiation totale.
-- S41-A189 [très élevé] — Risque majeur de téléologie funéraire ; Hook dit lui-même que personne ne sait.
-- S41-A142 [élevé] — Risque de lire le morceau uniquement comme death march ; Hook lui-même parle depuis l’après-coup.
-- S41-A079 [moyen] — Risque de juger 1978 avec une rationalité commerciale postérieure ; Hook signale lui-même la relecture après expérience.
-- S41-A081 [moyen] — Ne pas réduire Cargo à un décor ; ne pas non plus attribuer tout le son à la seule accumulation d’effets.
-- S41-A082 [moyen] — Risque de faire de l’ignorance du groupe une qualité pure ; elle est aussi une perte de contrôle.
-- S41-A083 [moyen] — Ne pas lire cette réussite à travers les conflits ultérieurs seuls ; elle est aussi moment d’accord.
 
 ## 15. Lacunes et prochaines vérifications
 

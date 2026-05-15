@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T18:06:04"
+generated_at: "2026-05-15T19:04:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 302 |
+| Atomes | 310 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -34,7 +34,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 63 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 71 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -164,6 +164,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_funeraire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A210** — S41-A210 — Inquest, culpabilité et objets perdus : mac, écharpe, absence de goodbye  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `culpabilite_memorielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec culpabilité`.
+- **S41-A211** — S41-A211 — Épilogue : Joy Division mis en boîte et non-promu après la mort  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `transition_posthume` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A217** — S41-A217 — « Colony » et confiance de *Closer* : mélancolie fragile mais sûre d’elle  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_album` ; importance : `critique` ; preuve : `témoignage direct + appréciation critique d’interprète`.
+- **S41-A220** — S41-A220 — « Twenty Four Hours » : vulnérabilité vocale et confusion de la puissance Curtis  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_voix_sante` ; importance : `critique` ; preuve : `témoignage direct + interprétation vocale`.
+- **S41-A221** — S41-A221 — « The Eternal » : six-string, Transcendent et solidité collective irrépétable  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_memoire` ; importance : `critique` ; preuve : `témoignage direct + appréciation subjective`.
+- **S41-A222** — S41-A222 — « Decades » : beauté finale, double basse et *Closer* préféré à *Unknown Pleasures*  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_album` ; importance : `critique` ; preuve : `témoignage direct + jugement esthétique subjectif`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
@@ -268,16 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
 - **S45-A145** — S45-A145 — Parkside manqué : ambition accomplie et désir de sortie du groupe  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_psychiatrique` ; importance : `critique` ; preuve : `témoignage direct de Deborah ; propos de Steve Morris rapporté`.
-- **S45-A148** — S45-A148 — Chez Bernard et Sue : dépression, dépendance et cerveau endommagé  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage rapporté par Deborah`.
-- **S45-A149** — S45-A149 — Rendez-vous psychiatrique : dernière occasion de soin et collision des récits  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_psychiatrique` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
-- **S45-A150** — S45-A150 — Dernier concert et minder : gestion de tournée contre hospitalisation  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management_sante` ; importance : `critique` ; preuve : `témoignage direct indirect + reconstruction rétrospective de Deborah`.
-- **S45-A151** — S45-A151 — Dernier rendez-vous d’épilepsie : signes favorables et dons d’objets  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_medicale_sensible` ; importance : `critique` ; preuve : `témoignage direct + fait médical rapporté`.
-- **S45-A153** — S45-A153 — Stroszek et deadline américaine : charade finale devant le groupe  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_finale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + témoignages rapportés Hook/Gretton/Sumner/Morris`.
 
 ## 7. Citations disponibles
 
@@ -525,6 +525,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - handicap (4)
 - Phenobarbitone (4)
 - Rainbow Theatre (4)
+- Decades (4)
 - Debbie (4)
 - Atmosphere (4)
 - Sordide Sentimental (4)
@@ -538,7 +539,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Moonlight Club (3)
 - Moonlight (3)
 - honte (3)
-- riot (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -629,7 +629,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 13 |
+| non qualifié | 16 |
 | tension_domestique | 7 |
 | lecture_chanson | 7 |
 | session_studio | 5 |
@@ -704,6 +704,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | interpretation_vocale | 1 |
 | tension_industrie | 1 |
 | performance_sensible | 1 |
+| transition_posthume | 1 |
+| analyse_album | 1 |
+| analyse_voix_sante | 1 |
+| analyse_morceau_memoire | 1 |
+| analyse_morceau_album | 1 |
 | contexte_tournee | 1 |
 | violence_live | 1 |
 | scene_violence_materielle | 1 |
@@ -844,8 +849,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 176 |
-| non qualifiée | 94 |
+| critique | 181 |
+| non qualifiée | 97 |
 | majeure | 20 |
 | majeur | 12 |
 
@@ -905,12 +910,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S41-A110 [moyen] — Ne pas opposer artificiellement voix et texte ; le passage montre une chronologie de l’écoute.
 - S41-A111 [élevé] — Risque de transformer le choix Factory en pure noblesse artistique ; Hook rappelle le coût sanitaire et financier du refus d’avance.
 - S41-A033 [élevé] — Risque de projeter l’épilepsie ou le mythe suicidaire sur une scène d’alcool, colère et performance.
+- S41-A211 [moyen] — Ne pas confondre refus de promotion et absence de deuil ; le retrait est une forme de survie.
+- S41-A217 [moyen] — Ne pas en faire une vérité objective : c’est la hiérarchie d’écoute de Hook.
+- S41-A220 [très élevé] — Éviter de transformer la performance intense en preuve de bonne santé ou les paroles en diagnostic immédiat.
+- S41-A221 [moyen] — Ne pas absolutiser la préférence de Hook ; elle vaut comme mémoire interne.
+- S41-A222 [moyen] — Ne pas transformer la préférence personnelle en canon critique universel.
 - S41-A024 [très élevé] — Risque de psychologisation rétrospective et de réduction de Curtis à une pathologie de l’adaptation.
-- S41-A190 [élevé] — Ne pas réduire chaque décision à l’argent ; le prestige, l’inertie et l’excitation de l’Amérique comptent aussi.
-- S41-A193 [très élevé] — Éviter à la fois héroïsation du sacrifice et culpabilisation simple du groupe.
-- S41-A194 [très élevé] — Ne pas convertir l’aveu en preuve d’indifférence ; Hook énumère des hypothèses, non des certitudes.
-- S41-A195 [moyen] — Ne pas attribuer tout le riot à Rob ; le public, l’absence de Curtis et la tension de soirée comptent aussi.
-- S41-A196 [faible] — Atome concret ; ne pas le surcharger au-delà du motif sang / domesticité.
 
 ## 15. Lacunes et prochaines vérifications
 

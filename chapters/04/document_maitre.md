@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T18:06:04"
+generated_at: "2026-05-15T19:04:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-15T18:06:04"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 219 |
+| Atomes | 221 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-15T18:06:04"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 58 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -83,6 +83,8 @@ generated_at: "2026-05-15T18:06:04"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie`.
 - **S41-A181** — S41-A181 — Mix de « Love Will Tear Us Apart » : Hannett exclut les musiciens  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A220** — S41-A220 — « Twenty Four Hours » : vulnérabilité vocale et confusion de la puissance Curtis  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_voix_sante` ; importance : `critique` ; preuve : `témoignage direct + interprétation vocale`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -113,8 +115,6 @@ generated_at: "2026-05-15T18:06:04"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A041** — S75-A041 — « Disorder » comme manifeste sonore d'entrée  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A044** — S75-A044 — De la lecture des paroles à la téléologie : le piège Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -274,10 +274,10 @@ generated_at: "2026-05-15T18:06:04"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A043** — S75-A043 — Curtis aime le disque : divergence interne dans la réception d'Hannett  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `majeure` ; preuve : `reconstruction_critique`.
+- **S75-A044** — S75-A044 — De la lecture des paroles à la téléologie : le piège Curtis  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A045** — S75-A045 — Deborah Curtis comme oreille littérale des textes  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_memoire`.
-- **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 7. Citations disponibles
 
@@ -576,6 +576,8 @@ generated_at: "2026-05-15T18:06:04"
 - S41-A045 — prolonge → S41-A001
 - S41-A045 — prolonge → CONCEPT-025
 - S41-A045 — alerte → MYTH-LYRICS-AS-DIARY
+- S41-A220 — prolonge → CONCEPT-119
+- S41-A220 — prolonge → CONCEPT-158
 - S41-A023 — prolonge → CONCEPT-020
 - S41-A023 — prolonge → S45-A075
 - S41-A068 — prolonge → CONCEPT-058
@@ -623,8 +625,6 @@ generated_at: "2026-05-15T18:06:04"
 - S75-A062 — prolonge → S75-A058
 - S75-A062 — requiert → CONCEPT-004
 - S75-A062 — nuance → MYTH-002
-- S75-A063 — prolonge → S75-A045
-- S75-A063 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -632,7 +632,7 @@ generated_at: "2026-05-15T18:06:04"
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 18 |
+| non qualifié | 19 |
 | fait_sensible | 9 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
@@ -677,6 +677,7 @@ generated_at: "2026-05-15T18:06:04"
 | lieu_creatif | 1 |
 | interpretation_vocale | 1 |
 | paroles_source | 1 |
+| analyse_voix_sante | 1 |
 | tension_industrie | 1 |
 | scene_creative_live | 1 |
 | analyse_morceau | 1 |
@@ -766,8 +767,8 @@ generated_at: "2026-05-15T18:06:04"
 
 | Importance | Nombre |
 |---|---|
-| critique | 100 |
-| non qualifiée | 82 |
+| critique | 101 |
+| non qualifiée | 83 |
 | majeure | 33 |
 | majeur | 3 |
 | structurante | 1 |
@@ -785,6 +786,7 @@ generated_at: "2026-05-15T18:06:04"
 - S41-A110 [moyen] — Ne pas opposer artificiellement voix et texte ; le passage montre une chronologie de l’écoute.
 - S41-A044 [moyen] — Risque de reprendre sans distance l’héroïsation de Curtis comme auteur sans faute après l’EP.
 - S41-A045 [élevé] — Risque de traiter les paroles comme journal intime ou comme idéologie transparente.
+- S41-A220 [très élevé] — Éviter de transformer la performance intense en preuve de bonne santé ou les paroles en diagnostic immédiat.
 - S41-A023 [élevé] — Risque de mythifier Curtis comme âme pure ; Hook écrit rétrospectivement après le mythe.
 - S41-A068 [moyen] — Ne pas réduire Interzone à une reprise détournée ; la transformation est précisément l’objet.
 - S41-A073 [moyen] — Risque de canoniser rétrospectivement le morceau ; Hook insiste sur l’impossibilité de savoir à l’écriture.
@@ -833,7 +835,6 @@ generated_at: "2026-05-15T18:06:04"
 - S74-A036 [moyen] — risque de faire de Gretton un stratège totalement lucide alors que le choix reste empirique et risqué
 - S74-A037 [moyen] — risque de mythifier une clause informelle comme pure vertu sans examiner ses effets économiques
 - S74-A044 [moyen] — risque de survaloriser les Distractions uniquement comme faire-valoir de Joy Division
-- S74-A046 [moyen] — risque de romantiser Factory comme seul espace authentique contre une télévision nécessairement morte
 
 ## 15. Lacunes et prochaines vérifications
 

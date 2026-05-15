@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-15T18:05:49",
+  "generated_at": "2026-05-15T19:04:35",
   "status": "warning",
   "summary": {
-    "records_total": 3332,
+    "records_total": 3391,
     "records_by_kind": {
-      "atom": 1603,
+      "atom": 1625,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 118,
+      "unknown": 119,
       "song": 41,
-      "template": 243,
+      "template": 255,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 241,
+      "motif": 253,
       "person": 157,
-      "concept": 158,
+      "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16305,
+    "diagnostics_total": 16542,
     "errors": 0,
-    "warnings": 16305,
+    "warnings": 16542,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 548,
-        "atoms": 408,
+        "records": 571,
+        "atoms": 430,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -128,6 +128,7 @@
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
           "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+          "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
           "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
           "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
           "sources/hook/atomisation_02_transmission_1978.md",
@@ -153,6 +154,7 @@
           "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
           "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
           "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+          "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
           "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
           "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md"
         ]
@@ -16033,6 +16035,582 @@
       "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
       "message": "Invalid value for type_unite: scene_live_violence",
       "record_id": "S41-A041"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A211"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A211"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A211"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A211"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A211"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A211"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A211"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: transition_posthume",
+      "record_id": "S41-A211"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A212"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A212"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A212"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A212"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A212"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A212"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A212"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: transition_processus_creatif",
+      "record_id": "S41-A212"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A213"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A213"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A213"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A213"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A213"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A213"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A213"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: principe_groupe",
+      "record_id": "S41-A213"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A214"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A214"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A214"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A214"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A214"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A214"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A214"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: analyse_morceau_studio",
+      "record_id": "S41-A214"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A215"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A215"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A215"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A215"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A215"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A215"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A215"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: analyse_morceau_studio",
+      "record_id": "S41-A215"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A216"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A216"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A216"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A216"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A216"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A216"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A216"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: analyse_morceau_instrument",
+      "record_id": "S41-A216"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A217"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A217"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A217"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A217"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A217"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A217"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A217"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: analyse_album",
+      "record_id": "S41-A217"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A218"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A218"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A218"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A218"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A218"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A218"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A218"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: analyse_morceau",
+      "record_id": "S41-A218"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A219"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A219"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A219"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A219"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A219"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A219"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A219"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: analyse_morceau_studio",
+      "record_id": "S41-A219"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A220"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A220"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A220"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A220"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A220"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A220"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A220"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: analyse_voix_sante",
+      "record_id": "S41-A220"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A221"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A221"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A221"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A221"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A221"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A221"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A221"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: analyse_morceau_memoire",
+      "record_id": "S41-A221"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A222"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A222"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A222"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A222"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A222"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A222"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A222"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "message": "Invalid value for type_unite: analyse_morceau_album",
+      "record_id": "S41-A222"
     },
     {
       "level": "warning",
@@ -86887,6 +87465,852 @@
       "file": "registers/songs/s76_torn_apart_songs_part_08.md",
       "message": "Invalid value for type_unite: song",
       "record_id": "SONG-S76-022"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S41-CLOSER-TRACK-BY-TRACK-HOOK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY"
     },
     {
       "level": "warning",

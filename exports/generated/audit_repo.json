@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-15T18:06:01",
+  "generated_at": "2026-05-15T19:04:45",
   "summary": {
-    "records_total": 3332,
+    "records_total": 3391,
     "records_by_kind": {
-      "atom": 1603,
+      "atom": 1625,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 118,
+      "unknown": 119,
       "song": 41,
-      "template": 243,
+      "template": 255,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 241,
+      "motif": 253,
       "person": 157,
-      "concept": 158,
+      "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16305,
+    "diagnostics_total": 16542,
     "errors": 0,
-    "warnings": 16305,
+    "warnings": 16542,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1603,
+    "atom": 1625,
     "chronology": 331,
-    "concept": 158,
+    "concept": 170,
     "metadata": 18,
-    "motif": 241,
+    "motif": 253,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,14 +41,14 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 243,
-    "unknown": 118
+    "template": 255,
+    "unknown": 119
   },
   "records_by_source": {
     "S41": {
-      "atom": 408,
+      "atom": 430,
       "quote": 9,
-      "unknown": 106,
+      "unknown": 107,
       "song": 7,
       "person": 9,
       "chronology": 9
@@ -128,16 +128,16 @@
     "Chapitre 1": 121,
     "Chapitre 10": 230,
     "Chapitre 11": 213,
-    "Chapitre 12": 440,
+    "Chapitre 12": 454,
     "Chapitre 13": 109,
-    "Chapitre 14": 930,
+    "Chapitre 14": 954,
     "Chapitre 2": 345,
-    "Chapitre 3": 369,
-    "Chapitre 4": 290,
+    "Chapitre 3": 382,
+    "Chapitre 4": 294,
     "Chapitre 5": 436,
     "Chapitre 6": 563,
     "Chapitre 7": 101,
-    "Chapitre 8": 287,
+    "Chapitre 8": 311,
     "Chapitre 9": 199,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1341,
-    "missing_required_field": 4690,
+    "invalid_controlled_value": 1353,
+    "missing_required_field": 4800,
     "schema_warning": 399,
-    "unknown_yaml_block": 118,
-    "v2_migration_debt": 9622
+    "unknown_yaml_block": 119,
+    "v2_migration_debt": 9736
   },
   "top_files_by_issue_count": [
     [
@@ -722,6 +722,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
       "record_id": "LIVE-S41-PIPS-FIRST-JOY-DIVISION-GIG",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "ALBUM-S41-CLOSER-TRACK-BY-TRACK-HOOK",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1343,10 +1351,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1603,
+    "atoms_total": 1625,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1542,
-    "v2_missing_field_warnings": 9622
+    "atoms_v2_incomplete": 1564,
+    "v2_missing_field_warnings": 9736
   },
   "source_registry": {
     "declared_but_unused": [
@@ -1423,8 +1431,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 548,
-        "atoms": 408,
+        "records": 571,
+        "atoms": 430,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -1447,6 +1455,7 @@
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
           "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+          "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
           "registers/songs/s41_hook_songs_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
           "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
           "sources/hook/atomisation_02_transmission_1978.md",
@@ -1472,6 +1481,7 @@
           "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
           "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
           "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+          "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
           "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
           "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md"
         ]
@@ -22537,6 +22547,774 @@
       "file": "sources/hook_unknown_pleasures/source_part_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
       "record_id": "S41-A041",
       "message": "Invalid value for type_unite: scene_live_violence",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A211",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A211",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A211",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A211",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A211",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A211",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A211",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A211",
+      "message": "Invalid value for type_unite: transition_posthume",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A212",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A212",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A212",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A212",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A212",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A212",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A212",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A212",
+      "message": "Invalid value for type_unite: transition_processus_creatif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A213",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A213",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A213",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A213",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A213",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A213",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A213",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A213",
+      "message": "Invalid value for type_unite: principe_groupe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A214",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A214",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A214",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A214",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A214",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A214",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A214",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A214",
+      "message": "Invalid value for type_unite: analyse_morceau_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A215",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A215",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A215",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A215",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A215",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A215",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A215",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A215",
+      "message": "Invalid value for type_unite: analyse_morceau_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A216",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A216",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A216",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A216",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A216",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A216",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A216",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A216",
+      "message": "Invalid value for type_unite: analyse_morceau_instrument",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A217",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A217",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A217",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A217",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A217",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A217",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A217",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A217",
+      "message": "Invalid value for type_unite: analyse_album",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A218",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A218",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A218",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A218",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A218",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A218",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A218",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A218",
+      "message": "Invalid value for type_unite: analyse_morceau",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A219",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A219",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A219",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A219",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A219",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A219",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A219",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A219",
+      "message": "Invalid value for type_unite: analyse_morceau_studio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A220",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A220",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A220",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A220",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A220",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A220",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A220",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A220",
+      "message": "Invalid value for type_unite: analyse_voix_sante",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A221",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A221",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A221",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A221",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A221",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A221",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A221",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A221",
+      "message": "Invalid value for type_unite: analyse_morceau_memoire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A222",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A222",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A222",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A222",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A222",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A222",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A222",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
+      "record_id": "S41-A222",
+      "message": "Invalid value for type_unite: analyse_morceau_album",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -117010,6 +117788,1134 @@
       "record_id": "SONG-S76-022",
       "message": "Invalid value for type_unite: song",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "ALBUM-S41-CLOSER-TRACK-BY-TRACK-HOOK",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CEREMONY-IN-A-LONELY-PLACE-EPILOGUE",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-DREAMS-NEVER-END-EPILOGUE-METHOD",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ATROCITY-EXHIBITION-INSTRUMENT-SWAP",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-ISOLATION-SYNTH-EDIT",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-PASSOVER-SIX-STRING",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-A-MEANS-TO-AN-END-FUCKED-UP-DISCO",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-HEART-AND-SOUL-BASS-SYNTH",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-TWENTY-FOUR-HOURS-VOCAL-CONTRADICTION",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-THE-ETERNAL-CHEMISTRY",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1980_epilogue_closer_track_by_track.md",
+      "record_id": "SONG-S41-CLOSER-DECADES-BEAUTY",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
     {
       "level": "warning",

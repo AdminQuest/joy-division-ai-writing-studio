@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T18:06:04"
+generated_at: "2026-05-15T19:04:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 734 |
+| Atomes | 749 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 127 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -536,6 +536,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Sounds (4)
 - Strawberry Studios (4)
 - NME (4)
+- Ceremony (4)
+- Decades (4)
 - Control (4)
 - Moonlight Club (4)
 - America (4)
@@ -548,8 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Sister Ray (4)
 - Rabid Records (4)
 - Deborah Curtis (4)
-- A Certain Ratio (4)
-- Paris (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -621,18 +621,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A030 — prépare → S41-A036
 - S41-A039 — prolonge → S41-A037
 - S41-A039 — prépare → S41-A041
-- S41-A014 — prolonge → CONCEPT-046
-- S41-A014 — nuance → MYTH-SEX-PISTOLS-LFTH-ORIGIN
-- S41-A014 — prolonge → S41-A013
-- S41-A018 — prolonge → S41-A014
-- S41-A018 — nuance → MYTH-SEX-PISTOLS-LFTH-ORIGIN
-- S41-A019 — nuance → MYTH-002
-- S41-A019 — prolonge → CONCEPT-046
-- S41-A191 — prolonge → CONCEPT-139
-- S41-A191 — prolonge → S41-A180
-- S41-A195 — prolonge → CONCEPT-133
-- S41-A195 — prolonge → CONCEPT-137
-- S41-A198 — prolonge → MYTH-CURTIS-MARTYR-SEUL
+- S41-A211 — prolonge → CONCEPT-160
+- S41-A211 — prolonge → S41-A209
+- S41-A212 — prolonge → CONCEPT-160
+- S41-A212 — prépare → NEW-ORDER
+- S41-A213 — prolonge → CONCEPT-160
+- S41-A213 — prépare → NEW-ORDER-NAME
+- S41-A216 — prolonge → CONCEPT-118
+- S41-A216 — prépare → NEW-ORDER-SOUND
+- S41-A218 — prolonge → CONCEPT-160
+- S41-A218 — prépare → NEW-ORDER-SOUND
+- S41-A219 — prolonge → CONCEPT-160
+- S41-A219 — prolonge → CONCEPT-142
 
 ## 13. Distribution documentaire
 
@@ -642,7 +642,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | analyse | 34 |
 | reception | 28 |
-| non qualifié | 20 |
+| non qualifié | 27 |
 | reception_live | 12 |
 | objet_discographique | 12 |
 | memoire | 12 |
@@ -707,6 +707,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
 | infrastructure | 2 |
+| transition_posthume | 2 |
+| analyse_morceau | 2 |
 | scene_deuil | 2 |
 | strategie_medias | 2 |
 | chanson_single | 2 |
@@ -756,6 +758,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_finale | 1 |
 | reception_nominale | 1 |
 | lieu_structurant | 1 |
+| transition_processus_creatif | 1 |
+| principe_groupe | 1 |
+| analyse_morceau_instrument | 1 |
+| analyse_morceau_studio | 1 |
+| analyse_morceau_memoire | 1 |
+| analyse_morceau_album | 1 |
 | scene_revelation | 1 |
 | rencontre_fondatrice | 1 |
 | reception_industrielle | 1 |
@@ -764,7 +772,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_documentaire | 1 |
 | scene_memoire | 1 |
 | scene_funeraire | 1 |
-| transition_posthume | 1 |
 | culpabilite_memorielle | 1 |
 | chronologie_factory | 1 |
 | scene_politique_factory | 1 |
@@ -996,7 +1003,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | interpretation_retrospective | 1 |
 | portrait_fonctionnel | 1 |
 | contexte_scene | 1 |
-| analyse_morceau | 1 |
 | concept_transversal | 1 |
 | marketing | 1 |
 | release_or_session | 1 |
@@ -1014,10 +1020,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 456 |
-| critique | 211 |
+| non qualifiée | 463 |
+| critique | 218 |
 | majeure | 39 |
-| majeur | 24 |
+| majeur | 25 |
 | structurante | 2 |
 | moyenne | 2 |
 
@@ -1049,6 +1055,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A025 [faible à moyen] — Ne pas idéaliser toute la scène mancunienne à partir de la générosité des Buzzcocks.
 - S41-A030 [moyen] — Ne pas idéaliser l’appartenance ; le même écosystème est traversé de rivalités.
 - S41-A039 [moyen] — Ne pas faire de l’hostilité une essence du groupe ; elle est un mode de performance parmi d’autres.
+- S41-A211 [moyen] — Ne pas confondre refus de promotion et absence de deuil ; le retrait est une forme de survie.
+- S41-A212 [moyen] — Ne pas lire la reprise comme froideur : elle est travail de survie et nécessité de recomposition.
+- S41-A213 [faible] — Atome de principe ; ne pas surdramatiser.
+- S41-A216 [faible] — Atome instrumental robuste.
+- S41-A218 [moyen] — Ne pas projeter trop directement New Order ; la dance est ici encore déformée.
+- S41-A219 [moyen] — Ne pas réduire New Order à ce seul procédé ; le passage fournit une matrice, non une cause unique.
+- S41-A221 [moyen] — Ne pas absolutiser la préférence de Hook ; elle vaut comme mémoire interne.
+- S41-A222 [moyen] — Ne pas transformer la préférence personnelle en canon critique universel.
 - S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
 - S41-A018 [moyen] — Risque de faire du second concert un seul point d’origine ; Hook lui-même distribue l’importance entre plusieurs moments.
 - S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
@@ -1075,14 +1089,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A074 [moyen] — Ne pas téléologiser Factory Records ; le passage décrit encore un club night expérimental.
 - S41-A075 [faible] — Atome de réseau ; son intérêt tient à l’ambivalence entraide / ennui / opportunisme.
 - S41-A077 [moyen] — Ne pas faire de la télévision une consécration nationale ; c’est une fenêtre locale pré-enregistrée.
-- S41-A114 [moyen] — Ne pas opposer artificiellement son live achevé et son studio transformé : le passage prépare leur tension.
-- S41-A120 [moyen] — Ne pas faire de l’anti-image une stratégie totalement consciente ; Hook décrit aussi du froid, de la gêne et du désintérêt.
-- S41-A121 [moyen] — Ne pas attribuer à Gretton une stratégie mystique entièrement consciente.
-- S41-A122 [faible] — Atome matériel ; son intérêt est de désacraliser sans nier l’importance de l’objet.
-- S41-A123 [moyen] — Les chiffres de ventes/profit doivent être croisés avant usage quantitatif ferme.
-- S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
-- S41-A128 [moyen] — Ne pas confondre posture spontanée, discipline Gretton et construction rétrospective de la mystique.
-- S41-A129 [faible à moyen] — Ne pas présenter la télévision comme simple validation ; le passage montre surtout contrainte et bricolage.
 
 ## 15. Lacunes et prochaines vérifications
 
