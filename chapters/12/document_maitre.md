@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T08:45:49"
+generated_at: "2026-05-15T09:50:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 258 |
+| Atomes | 265 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -34,7 +34,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 19 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 26 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -79,6 +79,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_morale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A142** — S41-A142 — « Atmosphere » / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct + objet discographique établi`.
+- **S41-A144** — S41-A144 — « Atmosphere » : deux moitiés assemblées et Woolies organ  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A145** — S41-A145 — « Love Will Tear Us Apart » : riff Hook, batterie Morris, mélodie Curtis et première Peel Session  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + session Peel établie`.
+- **S41-A146** — S41-A146 — Bournemouth : crise, épuisement, médication et regard démonologique extérieur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A152** — S41-A152 — « She’s Lost Control » : Synare, aérosol et parole non analysée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_sante` ; importance : `critique` ; preuve : `témoignage direct + information de seconde main sur origine lyrique`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A036** — S45-A036 — Le cours sur l’épilepsie : savoir préalable et ironie tragique  
@@ -107,14 +115,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A092** — S45-A092 — Médecine muette : spécialiste, GP et savoir refusé au foyer  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A096** — S45-A096 — Drogues, médicaments et silence de dressing room  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct situé`.
-- **S45-A101** — S45-A101 — Dernier recours manqué : Aunty Nell et l’impossibilité de rendre la crise visible  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sensible` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A102** — S45-A102 — Fin août 1979 : quitter le day job comme seuil professionnel et médical  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_professionnel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A105** — S45-A105 — Dernière Factory : crise avant scène et passage à un nouveau chapitre  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_sante` ; importance : `critique` ; preuve : `témoignage direct`.
 
 ## 6. Autres atomes utiles
 
@@ -144,6 +144,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A084** — S45-A084 — Juin 1979 : intervalle idyllique, South Park et répit trompeur  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A096** — S45-A096 — Drogues, médicaments et silence de dressing room  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct situé`.
+- **S45-A101** — S45-A101 — Dernier recours manqué : Aunty Nell et l’impossibilité de rendre la crise visible  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sensible` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A102** — S45-A102 — Fin août 1979 : quitter le day job comme seuil professionnel et médical  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_professionnel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A105** — S45-A105 — Dernière Factory : crise avant scène et passage à un nouveau chapitre  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_sante` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A108** — S45-A108 — Rituels téléphoniques : langage conjugal comme assurance obsessionnelle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A109** — S45-A109 — Annik nommée par périphrase : maîtresse invisible et récit domestique falsifié  
@@ -270,14 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S47 — West, Joy Division, 1984 ; type : `concert_incident` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S47-071** — S47-071 — Birmingham University, 2 mai 1980 : dernier concert  
   Source : S47 — West, Joy Division, 1984 ; type : `dernier_concert` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-073** — S47-073 — Le film « Stroszek » est associé aux dernières heures de Curtis  
-  Source : S47 — West, Joy Division, 1984 ; type : `biographie_finale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-074** — S47-074 — La grève de la presse musicale retarde la diffusion de la nouvelle  
-  Source : S47 — West, Joy Division, 1984 ; type : `reception_deces` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-075** — S47-075 — John Peel annonce la mort de Curtis  
-  Source : S47 — West, Joy Division, 1984 ; type : `reception_radio` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-076** — S47-076 — West critique le culte morbide de Curtis  
-  Source : S47 — West, Joy Division, 1984 ; type : `critique_mythologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -437,6 +437,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - vérité conjugale différée (2)
 - corps exposé (2)
 - paternité empêchée (2)
+- écoute différée des paroles (2)
 - seuil clinique (2)
 - epilepsie (2)
 - 4 avril 1980 (2)
@@ -493,7 +494,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - langue comme contrôle affectif (1)
 - procédure conjugale (1)
 - sécurisation répétitive (1)
-- contrepoint domestique (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -508,17 +508,19 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Rob Gretton (8)
 - Tony Wilson (8)
 - Natalie Curtis (8)
+- Love Will Tear Us Apart (6)
 - Lindsay Reade (5)
-- Love Will Tear Us Apart (5)
 - Unknown Pleasures (5)
 - Terry Mason (5)
+- She’s Lost Control (5)
 - Barton Street (5)
 - Factory (4)
 - tournée américaine (4)
 - Britannia Row (4)
 - handicap (4)
 - Phenobarbitone (4)
-- She’s Lost Control (4)
+- epilepsy (4)
+- Atmosphere (4)
 - Peter Hook (3)
 - Candy (3)
 - domesticité (3)
@@ -529,16 +531,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Macclesfield (3)
 - honte (3)
 - American tour (3)
-- epilepsy (3)
-- Atmosphere (3)
 - Sordide Sentimental (3)
 - Derby Hall (3)
 - crise épileptique (3)
 - David Lewis Centre (3)
 - Mark Reeder (3)
 - mariage (3)
+- Buzzcocks tour (2)
 - chien (2)
-- tournée européenne (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -629,7 +629,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 9 |
+| non qualifié | 12 |
 | lecture_chanson | 7 |
 | tension_domestique | 6 |
 | session_studio | 5 |
@@ -654,6 +654,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | fait_medical | 2 |
 | performance_sante | 2 |
 | tension_psychiatrique | 2 |
+| evenement_medical_live | 2 |
+| processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
 | santé | 2 |
@@ -704,10 +706,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | decision_industrielle | 1 |
 | rencontre_biographique | 1 |
 | demythification | 1 |
-| evenement_medical_live | 1 |
 | tension_morale | 1 |
 | chanson_single | 1 |
 | chronologie_medicale | 1 |
+| analyse_morceau_sante | 1 |
 | scene_live | 1 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
@@ -815,8 +817,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 140 |
-| non qualifiée | 90 |
+| critique | 144 |
+| non qualifiée | 93 |
 | majeure | 20 |
 | majeur | 8 |
 

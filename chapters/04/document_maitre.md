@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T08:45:49"
+generated_at: "2026-05-15T09:50:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-15T08:45:49"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 202 |
+| Atomes | 209 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-15T08:45:49"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 41 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 48 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -67,6 +67,12 @@ generated_at: "2026-05-15T08:45:49"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
 - **S41-A142** — S41-A142 — « Atmosphere » / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct + objet discographique établi`.
+- **S41-A144** — S41-A144 — « Atmosphere » : deux moitiés assemblées et Woolies organ  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A145** — S41-A145 — « Love Will Tear Us Apart » : riff Hook, batterie Morris, mélodie Curtis et première Peel Session  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + session Peel établie`.
+- **S41-A152** — S41-A152 — « She’s Lost Control » : Synare, aérosol et parole non analysée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_sante` ; importance : `critique` ; preuve : `témoignage direct + information de seconde main sur origine lyrique`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -109,12 +115,6 @@ generated_at: "2026-05-15T08:45:49"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `performance` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_temoin_et_image`.
 - **S75-A059** — S75-A059 — Médication, lumières blanches et crise du 24 mai 1979  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte_medical` ; importance : `critique` ; preuve : `reconstruction_medicale_critique`.
-- **S75-A062** — S75-A062 — Presse de 1979 : possession, attraction et méprise médicale  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `critique` ; preuve : `reception_contemporaine`.
-- **S75-A063** — S75-A063 — Vie domestique, responsabilité et rock star self-absorption  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `memoire_intime_et_reconstruction_critique`.
-- **S75-A065** — S75-A065 — Annik Honoré : liaison, idéal de fuite et nœud biographique sensible  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `reconstruction_memorielle_conflictuelle`.
 
 ## 6. Autres atomes utiles
 
@@ -158,6 +158,8 @@ generated_at: "2026-05-15T08:45:49"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_biographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S41-A153** — S41-A153 — « Shadowplay » et « Wilderness » : structure sans refrain, religion et basse rêvée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceaux` ; importance : `majeur` ; preuve : `témoignage direct + analyse rétrospective`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-001** — S45-001 — Ian Curtis naît à Old Trafford mais grandit à Macclesfield  
@@ -276,8 +278,6 @@ generated_at: "2026-05-15T08:45:49"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A064** — S75-A064 — Goethe, Werther et le risque de romantiser Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_litteraire` ; importance : `majeure` ; preuve : `interpretation_litteraire`.
 
 ## 7. Citations disponibles
 
@@ -434,6 +434,7 @@ generated_at: "2026-05-15T08:45:49"
 - foyer (3)
 - wythenshawe (3)
 - fragmentation (3)
+- écoute différée des paroles (2)
 - Rainbow Theatre (2)
 - perte de contrôle (2)
 - Warsaw (2)
@@ -496,7 +497,6 @@ generated_at: "2026-05-15T08:45:49"
 - retrait créatif (1)
 - ian curtis (1)
 - gutz (1)
-- formation du groupe (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -508,6 +508,7 @@ generated_at: "2026-05-15T08:45:49"
 - Barton Street (7)
 - Natalie Curtis (7)
 - Annik Honoré (6)
+- Shadowplay (4)
 - Closer (4)
 - Bowie (4)
 - domesticité (4)
@@ -515,11 +516,13 @@ generated_at: "2026-05-15T08:45:49"
 - Mark Reeder (4)
 - New Dawn Fades (3)
 - paroles (3)
-- Shadowplay (3)
 - No Love Lost (3)
 - Iggy Pop (3)
 - Transmission (3)
+- Atmosphere (3)
 - Disorder (3)
+- Love Will Tear Us Apart (3)
+- She’s Lost Control (3)
 - Macclesfield (3)
 - fatigue (3)
 - Wythenshawe (3)
@@ -538,10 +541,7 @@ generated_at: "2026-05-15T08:45:49"
 - House of Dolls (2)
 - Throbbing Gristle (2)
 - Interzone (2)
-- Atmosphere (2)
-- mort jeune (2)
-- Mick Middles (2)
-- responsabilité (2)
+- Chance (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -590,6 +590,15 @@ generated_at: "2026-05-15T08:45:49"
 - S41-A127 — prépare → LOVE-WILL-TEAR-US-APART
 - S41-A142 — prolonge → S41-A124
 - S41-A142 — prépare → REGISTRE-SORDIDE-SENTIMENTALE
+- S41-A144 — prolonge → S41-A124
+- S41-A144 — nuance → MYTH-ATMOSPHERE-DEATH-SONG
+- S41-A145 — prolonge → S41-A109
+- S41-A145 — prolonge → CONCEPT-094
+- S41-A152 — prolonge → S41-A110
+- S41-A152 — prolonge → CONCEPT-095
+- S41-A152 — prépare → CONCEPT-107
+- S41-A153 — prolonge → S41-A108
+- S41-A153 — prolonge → CONCEPT-093
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -616,15 +625,6 @@ generated_at: "2026-05-15T08:45:49"
 - S75-A068 — prépare → S75-A075
 - S75-A071 — prolonge → MOTIF-001
 - S75-A071 — requiert → CONCEPT-004
-- S75-A071 — nuance → MYTH-002
-- S75-A075 — prolonge → CONCEPT-004
-- S75-A075 — deconstruit → MYTH-002
-- S75-A075 — conclut → S75-A068
-- S75-A003 — nuance → MYTH-curtis_prophete_de_sa_mort
-- S75-A003 — prolonge → S45
-- S75-A010 — nuance → MYTH-curtis_poete_deja_accompli
-- S75-A010 — corrobore → S45
-- S75-A012 — nuance → S75-A010
 
 ## 13. Distribution documentaire
 
@@ -632,7 +632,7 @@ generated_at: "2026-05-15T08:45:49"
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 11 |
+| non qualifié | 14 |
 | fait_sensible | 9 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
@@ -651,6 +651,7 @@ generated_at: "2026-05-15T08:45:49"
 | live_set_context | 3 |
 | session_studio | 2 |
 | chanson_single | 2 |
+| processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | performance | 2 |
@@ -678,6 +679,8 @@ generated_at: "2026-05-15T08:45:49"
 | tension_industrie | 1 |
 | scene_creative_live | 1 |
 | session_radio | 1 |
+| analyse_morceau_sante | 1 |
+| analyse_morceaux | 1 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
 | citation_contextualisee | 1 |
@@ -760,10 +763,10 @@ generated_at: "2026-05-15T08:45:49"
 
 | Importance | Nombre |
 |---|---|
-| critique | 92 |
-| non qualifiée | 75 |
+| critique | 95 |
+| non qualifiée | 78 |
 | majeure | 33 |
-| majeur | 1 |
+| majeur | 2 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -786,6 +789,10 @@ generated_at: "2026-05-15T08:45:49"
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
 - S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
 - S41-A142 [élevé] — Risque de lire le morceau uniquement comme death march ; Hook lui-même parle depuis l’après-coup.
+- S41-A144 [élevé] — Éviter de lire la genèse depuis la fonction funéraire posthume du morceau.
+- S41-A145 [très élevé] — Risque de rabattre les paroles sur Deborah, Annik ou Hook sans preuve ; Hook dit explicitement ne pas savoir.
+- S41-A152 [très élevé] — Risque de surpsychologiser Curtis ; Hook insiste sur le fait que le groupe n’analysait pas alors les paroles.
+- S41-A153 [moyen] — Ne pas figer l’interprétation antireligieuse de Wilderness comme seule lecture possible.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
@@ -824,10 +831,6 @@ generated_at: "2026-05-15T08:45:49"
 - S74-A008 [moyen] — risque de transformer So It Goes en cause unique de la médiatisation punk mancunienne
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
-- S74-A012 [moyen] — risque de transformer Reilly en pur symbole de sophistication populaire
-- S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
-- S76-A141 [eleve] — risque de téléologie du succès fatal ; maintenir la pluralité des contraintes
-- S76-A143 [tres_eleve] — risque de réduire la crise à un triangle amoureux ou à une faute individuelle
 
 ## 15. Lacunes et prochaines vérifications
 

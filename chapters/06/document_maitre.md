@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T08:45:49"
+generated_at: "2026-05-15T09:50:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 399 |
+| Atomes | 400 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 119 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 120 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -511,7 +511,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (23)
+- Rob Gretton (24)
 - Factory (13)
 - Tony Wilson (13)
 - Martin Hannett (12)
@@ -771,6 +771,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_live_anecdotique | 1 |
 | archive_live | 1 |
 | chronologie_reseau | 1 |
+| analyse_morceau_materiel | 1 |
 | scene_organisationnelle | 1 |
 | scene_sociale_live | 1 |
 | synthese_tension | 1 |
@@ -869,7 +870,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 |---|---|
 | critique | 180 |
 | non qualifiée | 154 |
-| majeur | 40 |
+| majeur | 41 |
 | majeure | 24 |
 | secondaire utile | 1 |
 

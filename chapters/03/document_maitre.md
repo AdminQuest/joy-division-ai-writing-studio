@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T08:45:49"
+generated_at: "2026-05-15T09:50:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 247 |
+| Atomes | 257 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -34,7 +34,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 82 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 92 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
@@ -106,6 +106,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
 - **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
+- **S41-A149** — S41-A149 — « Candidate » / « From Safety to Where » : commande d’écriture et guitare inversée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_session` ; importance : `critique` ; preuve : `témoignage direct + détail technique à croiser`.
+- **S41-A150** — S41-A150 — « Insight » : basse motrice, lift Strawberry et vocal pumping  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
 - **S45-A050** — S45-A050 — Arrow / RCA : désir de studio, absence de discussion et naïveté industrielle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A051** — S45-A051 — Arrow Studios : chant soul imposé, synthétiseur accepté, métamorphose inachevée  
@@ -114,10 +118,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A066** — S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A076** — S45-A076 — Curtis catalyseur : direction vocale, mélodies et cohésion collective  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignages directs rapportés de Morris et Sumner`.
-- **S45-A078** — S45-A078 — *Unknown Pleasures* : Hannett comme catalyseur de coordination sonore  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 
 ## 6. Autres atomes utiles
 
@@ -195,6 +195,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `personne_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A031** — S41-A031 — Tony Tabac puis Steve Brotherdale : batteurs transitoires et adéquation de phase  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `personnel_groupe` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A147** — S41-A147 — « Disorder » : erreurs de basse devenues partie du morceau  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
+- **S41-A148** — S41-A148 — « Day of the Lords » : claviers clandestins et justesse différée de Hannett  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A151** — S41-A151 — « New Dawn Fades » : amp Marshall vendu, économie domestique et son perdu  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_materiel` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A153** — S41-A153 — « Shadowplay » et « Wilderness » : structure sans refrain, religion et basse rêvée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceaux` ; importance : `majeur` ; preuve : `témoignage direct + analyse rétrospective`.
 - **S41-C02** — S41-C02 — La basse comme instrument principal de Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S41-C05** — S41-C05 — Joy Division comme tension entre live et studio  
@@ -203,6 +211,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `culture_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S45-010** — S45-010 — Le couple écoute reggae et soul dans l’espace domestique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `culture_domestique` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S45-A076** — S45-A076 — Curtis catalyseur : direction vocale, mélodies et cohésion collective  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignages directs rapportés de Morris et Sumner`.
+- **S45-A078** — S45-A078 — *Unknown Pleasures* : Hannett comme catalyseur de coordination sonore  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
 - **S46-007** — S46-007 — La première démo Warsaw du 18 juillet 1977  
@@ -269,18 +281,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concept_critique` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-168** — S46-168 — The Noise : art plus réel que le réel  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_esthetique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-170** — S46-170 — « Sound of Music : 5.8.6 » : voix comme information musicale  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_voix` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-171** — S46-171 — Voix de Curtis : régionalité effacée et grave artificiel  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_voix` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-172** — S46-172 — Varispeed : ralentissement, intensification et mythe sonore  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_production` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-173** — S46-173 — « Dead Souls » sur *Still* et le jugement de Robert Palmer  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-177** — S46-177 — Transe et répétition lente  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_rythmique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-178** — S46-178 — Désaccord volontaire et effet de trouble  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_sonore` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -384,9 +384,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - post-punk (10)
 - Ian Curtis (10)
 - production (9)
+- contrainte productive (8)
 - Strawberry Studios (7)
 - Stephen Morris (7)
-- contrainte productive (7)
 - martin hannett (6)
 - Transmission (6)
 - A Factory Sample (6)
@@ -469,10 +469,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Strawberry Studios (7)
 - Digital (6)
 - Transmission (6)
+- Shadowplay (5)
 - Glass (5)
 - Britannia Row (4)
 - RCA (4)
-- Shadowplay (4)
 - Interzone (4)
 - Velvet Underground (4)
 - Stephen Morris (4)
@@ -493,6 +493,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Novelty (2)
 - Martin Rushent (2)
 - Eden Studios (2)
+- Insight (2)
 - No Love Lost (2)
 - An Ideal for Living (2)
 - Steve Brotherdale (2)
@@ -500,9 +501,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - She’s Lost Control (2)
 - Still (2)
 - space (2)
-- radio (2)
-- Dead Souls (2)
-- Sordide Sentimental (2)
+- Disorder (2)
+- Wilderness (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -593,16 +593,16 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 23 |
+| non qualifié | 27 |
 | production | 15 |
 | session_studio | 15 |
 | lecture_musicale | 10 |
 | analyse | 9 |
 | fait | 9 |
+| analyse_morceau | 8 |
 | processus_creatif | 7 |
 | session | 7 |
 | concept | 5 |
-| analyse_morceau | 5 |
 | lieu_studio | 4 |
 | discographie | 4 |
 | reception_critique | 4 |
@@ -650,6 +650,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | influence_instrumentale | 1 |
 | scene_live_pre_album | 1 |
 | tension_esthetique | 1 |
+| analyse_session | 1 |
+| analyse_morceau_materiel | 1 |
+| analyse_morceaux | 1 |
 | archive_broadcast | 1 |
 | radio_broadcast | 1 |
 | vigilance_documentaire | 1 |
@@ -703,10 +706,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 159 |
-| critique | 74 |
+| non qualifiée | 163 |
+| critique | 76 |
 | majeure | 11 |
-| majeur | 3 |
+| majeur | 7 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -748,6 +751,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A081 [moyen] — Ne pas réduire Cargo à un décor ; ne pas non plus attribuer tout le son à la seule accumulation d’effets.
 - S41-A082 [moyen] — Risque de faire de l’ignorance du groupe une qualité pure ; elle est aussi une perte de contrôle.
 - S41-A083 [moyen] — Ne pas lire cette réussite à travers les conflits ultérieurs seuls ; elle est aussi moment d’accord.
+- S41-A147 [faible] — Atome technique ; éviter d’en faire une théorie générale de l’erreur.
+- S41-A148 [moyen] — Ne pas faire des claviers une simple trahison : Hook reconnaît leur utilité.
+- S41-A149 [moyen] — Ne pas réduire Candidate à un simple jam inachevé ; Hook en fait aussi une force.
+- S41-A150 [moyen] — Éviter de prendre toutes les hypothèses techniques de Hook comme certitudes d’ingénierie.
+- S41-A151 [faible] — Atome matériel ; son intérêt est la relation son / pauvreté.
+- S41-A153 [moyen] — Ne pas figer l’interprétation antireligieuse de Wilderness comme seule lecture possible.
 - S41-A004 [faible] — L’atome sert surtout de contre-mythe technique ; ne pas le surcharger.
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
@@ -764,12 +773,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A029 [eleve] — risque classique d'héroïser Hannett comme génie solitaire du son Joy Division
 - S75-A033 [moyen] — ne pas confondre visibilité radio et reconnaissance installée
 - S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
-- S75-A039 [moyen] — ne pas présenter le studio comme origine absolue du son ; le matériau existe déjà dans les répétitions et le live
-- S75-A040 [moyen] — ne pas faire du digital delay l'explication unique du son ; il agit dans un système plus large de mixage, jeu et espace
-- S75-A041 [moyen] — la lecture des paroles doit éviter de devenir prophétie rétrospective
-- S75-A042 [moyen] — ne pas transformer la frustration des musiciens en disqualification de l'album ; elle éclaire sa genèse conflictuelle
-- S75-A043 [moyen] — le goût de Curtis ne doit pas effacer les tensions collectives ni être psychologisé
-- S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T08:45:49"
+generated_at: "2026-05-15T09:50:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 164 |
+| Atomes | 165 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -34,7 +34,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 18 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
@@ -71,6 +71,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `demythification` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A135** — S41-A135 — Debbie récupère les ruines : band life, home life et crise domestique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif, partiellement spéculatif`.
+- **S41-A145** — S41-A145 — « Love Will Tear Us Apart » : riff Hook, batterie Morris, mélodie Curtis et première Peel Session  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + session Peel établie`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A052** — S45-A052 — Joy Division pariahs : Sue Barlow et Deborah comme faux public  
@@ -115,8 +117,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A112** — S45-A112 — Disparitions et fausses pistes : Eraserhead, cricket et peur policière  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A113** — S45-A113 — Fin 1979 : salaire de groupe, Silklands et économie domestique d’épuisement  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
 
 ## 6. Autres atomes utiles
 
@@ -182,6 +182,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_interne` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif + témoignage rapporté de Hook`.
 - **S45-A108** — S45-A108 — Rituels téléphoniques : langage conjugal comme assurance obsessionnelle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A113** — S45-A113 — Fin 1979 : salaire de groupe, Silklands et économie domestique d’épuisement  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A115** — S45-A115 — 13 décembre 1979 : restaurant chinois et couple déserté  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A117** — S45-A117 — Factory New Year’s Eve 1979 : image froide, violence et promesse de réussite sociale  
@@ -278,8 +280,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S69-A012** — S69-A012 — Middles et Reade contestent Deborah Curtis  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S69-A013** — S69-A013 — Control : adaptation, esthétique et mythification  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `reception` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -624,6 +624,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | evenement_logistique | 1 |
 | rencontre_biographique | 1 |
 | demythification | 1 |
+| processus_creatif_chanson | 1 |
 | performance_scenique | 1 |
 | chanson_biographie | 1 |
 | perception_scene | 1 |
@@ -660,7 +661,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 73 |
+| critique | 74 |
 | non qualifiée | 65 |
 | majeur | 24 |
 | majeure | 2 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T08:45:49"
+generated_at: "2026-05-15T09:50:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 701 |
+| Atomes | 703 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 94 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 96 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -234,6 +234,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_europeen` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A142** — S41-A142 — « Atmosphere » / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct + objet discographique établi`.
+- **S41-A143** — S41-A143 — *Licht und Blindheit* : Sordide Sentimental, 1 578 exemplaires et logique contraire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + fait discographique établi`.
+- **S41-A146** — S41-A146 — Bournemouth : crise, épuisement, médication et regard démonologique extérieur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
@@ -278,10 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `critique` ; preuve : `témoignage direct de Deborah + entretien/retour de Franck Essner probable`.
 - **S45-A124** — S45-A124 — Franck Essner à Barton Street : charade familiale et regard transnational  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `majeur` ; preuve : `témoignage direct + propos de Franck rapportés`.
-- **S45-A126** — S45-A126 — New Osbourne Club : beauté retrouvée, loge cachée et performance affaiblie  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_domestique` ; importance : `majeur` ; preuve : `témoignage direct + critique rapportée`.
-- **S45-A134** — S45-A134 — Crise sur scène : maladie devenue spectacle et capital mythique  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + témoignages Wilson/Mason rapportés`.
 
 ## 7. Citations disponibles
 
@@ -518,8 +518,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - fatigue (8)
 - Unknown Pleasures (7)
 - Factory (7)
+- Buzzcocks tour (6)
 - Electric Circus (6)
-- Buzzcocks tour (5)
 - Love Will Tear Us Apart (5)
 - John Peel (5)
 - Durutti Column (5)
@@ -535,6 +535,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Factory Club (4)
 - She’s Lost Control (4)
 - Plan K (4)
+- Licht und Blindheit (4)
+- Sordide Sentimental (4)
 - épilepsie (4)
 - Sister Ray (4)
 - Still (4)
@@ -548,8 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - T. J. Davidson’s (3)
 - Sex Pistols (3)
 - Control (3)
-- Alan Erasmus (3)
-- Vini Reilly (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -643,10 +643,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 34 |
 | reception | 28 |
 | non qualifié | 17 |
+| objet_discographique | 12 |
 | memoire | 12 |
 | reception_live | 11 |
 | discographie | 11 |
-| objet_discographique | 11 |
 | reception_poll | 10 |
 | reception_critique | 9 |
 | archive | 9 |
@@ -707,6 +707,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | strategie_medias | 2 |
 | chanson_single | 2 |
 | demythification | 2 |
+| evenement_medical_live | 2 |
 | archive_live | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -764,7 +765,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_discographique | 1 |
 | scene_lieu | 1 |
 | rencontre_biographique | 1 |
-| evenement_medical_live | 1 |
 | economie_tournee | 1 |
 | scene_tournee_excès | 1 |
 | evenement_europeen | 1 |
@@ -995,7 +995,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 453 |
-| critique | 185 |
+| critique | 187 |
 | majeure | 39 |
 | majeur | 20 |
 | structurante | 2 |

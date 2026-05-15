@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T08:45:49"
+generated_at: "2026-05-15T09:50:38"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 153 |
+| Atomes | 164 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
@@ -34,7 +34,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 50 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 61 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -130,6 +130,22 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
 - **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A143** — S41-A143 — *Licht und Blindheit* : Sordide Sentimental, 1 578 exemplaires et logique contraire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + fait discographique établi`.
+- **S41-A144** — S41-A144 — « Atmosphere » : deux moitiés assemblées et Woolies organ  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A147** — S41-A147 — « Disorder » : erreurs de basse devenues partie du morceau  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
+- **S41-A148** — S41-A148 — « Day of the Lords » : claviers clandestins et justesse différée de Hannett  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A149** — S41-A149 — « Candidate » / « From Safety to Where » : commande d’écriture et guitare inversée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_session` ; importance : `critique` ; preuve : `témoignage direct + détail technique à croiser`.
+- **S41-A150** — S41-A150 — « Insight » : basse motrice, lift Strawberry et vocal pumping  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
+- **S41-A151** — S41-A151 — « New Dawn Fades » : amp Marshall vendu, économie domestique et son perdu  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_materiel` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A153** — S41-A153 — « Shadowplay » et « Wilderness » : structure sans refrain, religion et basse rêvée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceaux` ; importance : `majeur` ; preuve : `témoignage direct + analyse rétrospective`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
@@ -262,22 +278,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `bootleg` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A030** — S75-A030 — *An Ideal for Living* 12 pouces : espace sonore et abstraction visuelle  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A050** — S75-A050 — L'encadré des sessions : *Unknown Pleasures* comme archive de quinze titres  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `chronology` ; importance : `critique` ; preuve : `donnees_discographiques`.
-- **S75-A053** — S75-A053 — « Autosuggestion » et « From Safety to Where...? » : les chutes qui déplacent l'album  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A054** — S75-A054 — *Still* et les titres de réserve : austérité gothique, exercices et titres trouvés  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A069** — S75-A069 — *Licht und Blindheit* : « Atmosphere » et « Dead Souls » comme seuil de l'éternel  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `objet_discographique` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_discographie`.
-- **S76-A030** — S76-A030 — Premier concert : Electric Circus, 29 mai 1977, apparition incertaine de Warsaw  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `evenement_corroborable_temoignages_multiples`.
-- **S76-A032** — S76-A032 — Pennine Sound, 18 juillet 1977 : première archive sonore et futur bootleg  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `production` ; importance : `critique` ; preuve : `evenement_discographique_corroborable`.
-- **S76-A034** — S76-A034 — Dernier week-end de l’Electric Circus : mémoire de scène et anti-héroïsation  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `concert` ; importance : `critique` ; preuve : `evenement_corroborable_memoire_plurielle`.
-- **S76-A039** — S76-A039 — Boxing Day 1977 : deuxième Pennine Sound et genèse d’*An Ideal For Living*  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `production` ; importance : `critique` ; preuve : `evenement_discographique_corroborable`.
 
 ## 7. Citations disponibles
 
@@ -356,6 +356,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - sordide sentimental (3)
 - atmosphere (3)
 - factory records (3)
+- contrainte productive (3)
 - DIY endetté (2)
 - anti-récit RCA (2)
 - pennine studios (2)
@@ -377,7 +378,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - granada tv (2)
 - novelty (2)
 - architecture sonore (2)
-- contrainte productive (2)
 - invitation symbolique / exclusion pratique (1)
 - studio comme dissociation domestique (1)
 - œuvre capitale sous crise intime (1)
@@ -429,13 +429,16 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Short Circuit (5)
 - RCA (5)
 - Arrow Studios (5)
+- Rob Gretton (5)
 - Still (5)
 - Earcom 2 (4)
 - Pennine Sound (4)
-- Rob Gretton (4)
 - Transmission (4)
 - Digital (4)
 - A Factory Sample (4)
+- Atmosphere (4)
+- Licht und Blindheit (4)
+- Sordide Sentimental (4)
 - bootleg (4)
 - Rudolf Hess (3)
 - bootlegs (3)
@@ -444,9 +447,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Warsaw (3)
 - Tony Wilson (3)
 - Peter Saville (3)
-- Atmosphere (3)
-- Licht und Blindheit (3)
-- Sordide Sentimental (3)
 - Dead Souls (3)
 - Enigma (3)
 - An Ideal For Living (3)
@@ -457,10 +457,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Eden Studios (2)
 - Glass (2)
 - Ice Age (2)
+- Insight (2)
 - NME (2)
 - distribution (2)
 - Alan Erasmus (2)
-- The Kill (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -552,8 +552,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Type | Nombre |
 |---|---|
 | production | 32 |
-| non qualifié | 13 |
-| objet_discographique | 12 |
+| non qualifié | 16 |
+| objet_discographique | 13 |
 | session_studio | 10 |
 | concert | 6 |
 | analyse | 5 |
@@ -561,6 +561,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | economie_discographique | 4 |
 | session | 3 |
 | evenement_discographique | 3 |
+| analyse_morceau | 3 |
 | chronologie | 3 |
 | live_set_bootleg_context | 3 |
 | economie_materielle | 2 |
@@ -593,6 +594,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | session_radio | 1 |
 | chronologie_reseau | 1 |
 | seuil_chronologique | 1 |
+| processus_creatif_chanson | 1 |
+| analyse_session | 1 |
+| analyse_morceau_materiel | 1 |
+| analyse_morceaux | 1 |
 | videographie | 1 |
 | controverse | 1 |
 | chronology | 1 |
@@ -612,9 +617,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 71 |
-| critique | 69 |
-| majeur | 7 |
+| non qualifiée | 74 |
+| critique | 73 |
+| majeur | 11 |
 | majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -672,13 +677,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A062 [faible] — Atome de consolidation ; l’analyse de la provocation Rudolf Hess reste dans les atomes antérieurs.
 - S41-A063 [faible] — Ne pas téléologiser Gretton ; l’entrée montre surtout une infrastructure fragile.
 - S41-A064 [faible] — Atome de verrouillage chronologique ; éviter de répéter l’analyse sonore des pages 85-98.
-- S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
-- S75-A008 [moyen] — l'objet est utile mais son statut juridique, la filiation des bandes et la chaîne de copie restent incertains
-- S75-A019 [faible] — fait discographique relativement stable, mais les jugements sonores restent critiques
-- S75-A021 [moyen] — risque de transformer RCA en pure caricature industrielle alors que l'échec tient aussi à l'inexpérience du groupe
-- S75-A025 [moyen] — les bandes survivantes doivent être distinguées des intentions et des versions officielles ultérieures
-- S75-A030 [moyen] — ne pas surestimer le 12 pouces comme rupture autonome ; il reste un seuil matériel
-- S75-A050 [faible] — principal risque factuel : dates et supports à recouper avec discographies spécialisées
+- S41-A143 [moyen] — Ne pas déduire une lucidité stratégique totale ; Hook hésite lui-même entre naïveté, stupidité et foresight.
+- S41-A144 [élevé] — Éviter de lire la genèse depuis la fonction funéraire posthume du morceau.
+- S41-A147 [faible] — Atome technique ; éviter d’en faire une théorie générale de l’erreur.
+- S41-A148 [moyen] — Ne pas faire des claviers une simple trahison : Hook reconnaît leur utilité.
+- S41-A149 [moyen] — Ne pas réduire Candidate à un simple jam inachevé ; Hook en fait aussi une force.
+- S41-A150 [moyen] — Éviter de prendre toutes les hypothèses techniques de Hook comme certitudes d’ingénierie.
+- S41-A151 [faible] — Atome matériel ; son intérêt est la relation son / pauvreté.
 
 ## 15. Lacunes et prochaines vérifications
 

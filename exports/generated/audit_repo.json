@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-15T08:45:44",
+  "generated_at": "2026-05-15T09:50:37",
   "summary": {
-    "records_total": 3020,
+    "records_total": 3071,
     "records_by_kind": {
-      "atom": 1523,
+      "atom": 1539,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 81,
+      "unknown": 84,
       "song": 41,
-      "template": 171,
+      "template": 183,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 168,
+      "motif": 180,
       "person": 157,
-      "concept": 108,
+      "concept": 116,
       "myth": 11
     },
-    "diagnostics_total": 15556,
+    "diagnostics_total": 15717,
     "errors": 0,
-    "warnings": 15556,
+    "warnings": 15717,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1523,
+    "atom": 1539,
     "chronology": 331,
-    "concept": 108,
+    "concept": 116,
     "metadata": 18,
-    "motif": 168,
+    "motif": 180,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,14 +41,14 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 171,
-    "unknown": 81
+    "template": 183,
+    "unknown": 84
   },
   "records_by_source": {
     "S41": {
-      "atom": 328,
+      "atom": 344,
       "quote": 9,
-      "unknown": 69,
+      "unknown": 72,
       "song": 7,
       "person": 9,
       "chronology": 9
@@ -128,16 +128,16 @@
     "Chapitre 1": 121,
     "Chapitre 10": 209,
     "Chapitre 11": 211,
-    "Chapitre 12": 347,
+    "Chapitre 12": 358,
     "Chapitre 13": 105,
-    "Chapitre 14": 854,
+    "Chapitre 14": 860,
     "Chapitre 2": 345,
-    "Chapitre 3": 331,
-    "Chapitre 4": 260,
+    "Chapitre 3": 348,
+    "Chapitre 4": 273,
     "Chapitre 5": 417,
-    "Chapitre 6": 517,
+    "Chapitre 6": 518,
     "Chapitre 7": 101,
-    "Chapitre 8": 212,
+    "Chapitre 8": 228,
     "Chapitre 9": 199,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1273,
-    "missing_required_field": 4290,
+    "invalid_controlled_value": 1284,
+    "missing_required_field": 4370,
     "schema_warning": 399,
-    "unknown_yaml_block": 81,
-    "v2_migration_debt": 9378
+    "unknown_yaml_block": 84,
+    "v2_migration_debt": 9445
   },
   "top_files_by_issue_count": [
     [
@@ -848,6 +848,30 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "DISC-S41-LICHT-UND-BLINDHEIT-1578",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "LIVE-S41-BOURNEMOUTH-BUZZCOCKS-SEIZURE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "ALBUM-S41-UP-TRACK-BY-TRACK-PART1",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/songs/s45_curtis_songs_1979_annik_apollo_rainbow_marriage_collapse.md",
       "record_id": "FILM-S45-ERASERHEAD-DISPARITION",
       "message": "Unable to infer documentary kind",
@@ -1047,10 +1071,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1523,
+    "atoms_total": 1539,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1462,
-    "v2_missing_field_warnings": 9378
+    "atoms_v2_incomplete": 1478,
+    "v2_missing_field_warnings": 9445
   },
   "source_registry": {
     "declared_but_unused": [
@@ -1127,8 +1151,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 431,
-        "atoms": 328,
+        "records": 450,
+        "atoms": 344,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -1145,6 +1169,7 @@
           "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
           "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+          "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
           "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "sources/hook/atomisation_02_transmission_1978.md",
@@ -1164,6 +1189,7 @@
           "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
           "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+          "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
           "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md"
         ]
@@ -27925,6 +27951,710 @@
       "file": "sources/hook_unknown_pleasures/source_part_1976_1977_timeline_two_warsaw_to_joy_division.md",
       "record_id": "S41-A064",
       "message": "Invalid value for type_unite: seuil_chronologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A143",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A143",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A143",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A143",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A143",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A143",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A143",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A143",
+      "message": "Invalid value for type_unite: objet_discographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A144",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A144",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A144",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A144",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A144",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A144",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A144",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A144",
+      "message": "Invalid value for type_unite: processus_creatif_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A145",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A145",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A145",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A145",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A145",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A145",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A145",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A145",
+      "message": "Invalid value for type_unite: processus_creatif_chanson",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A146",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A146",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A146",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A146",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A146",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A146",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A146",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A146",
+      "message": "Invalid value for type_unite: evenement_medical_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A147",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A147",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A147",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A147",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A147",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A147",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A147",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A147",
+      "message": "Invalid value for type_unite: analyse_morceau",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A148",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A148",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A148",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A148",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A148",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A148",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A148",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A148",
+      "message": "Invalid value for type_unite: analyse_morceau",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A149",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A149",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A149",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A149",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A149",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A149",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A149",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A149",
+      "message": "Invalid value for type_unite: analyse_session",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A150",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A150",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A150",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A150",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A150",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A150",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A150",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A150",
+      "message": "Invalid value for type_unite: analyse_morceau",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A151",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A151",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A151",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A151",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A151",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A151",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A151",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A151",
+      "message": "Invalid value for type_unite: analyse_morceau_materiel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A152",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A152",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A152",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A152",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A152",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A152",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A152",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A152",
+      "message": "Invalid value for type_unite: analyse_morceau_sante",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A153",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A153",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A153",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A153",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A153",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A153",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A153",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "S41-A153",
+      "message": "Invalid value for type_unite: analyse_morceaux",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -113606,6 +114336,590 @@
       "record_id": "SONG-S76-024",
       "message": "Invalid value for type_unite: song_or_cover",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "DISC-S41-LICHT-UND-BLINDHEIT-1578",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-ATMOSPHERE-TWO-HALVES-CHANCE",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-LOVE-WILL-TEAR-US-APART-PEEL-1979",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "LIVE-S41-BOURNEMOUTH-BUZZCOCKS-SEIZURE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "ALBUM-S41-UP-TRACK-BY-TRACK-PART1",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-DISORDER-GOOD-MISTAKE",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-INSIGHT-LIFT-PUMPING",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
+      "record_id": "SONG-S41-UP-SHES-LOST-CONTROL-SYNARE",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
     {
       "level": "warning",

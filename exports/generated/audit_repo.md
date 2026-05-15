@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-15T08:45:44`
+Généré le : `2026-05-15T09:50:37`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 81 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1462 atome(s) incomplet(s) sur 1523.
+Le repo est techniquement exploitable, mais 84 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1478 atome(s) incomplet(s) sur 1539.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 3020
+- Enregistrements : 3071
 - Erreurs : 0
-- Avertissements : 15556
+- Avertissements : 15717
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1462 atome(s) incomplet(s) sur 1523.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1523 |
+| atom | 1539 |
 | chronology | 331 |
-| concept | 108 |
+| concept | 116 |
 | metadata | 18 |
-| motif | 168 |
+| motif | 180 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1462 atome(s) incomplet(s) sur 1523.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 171 |
-| unknown | 81 |
+| template | 183 |
+| unknown | 84 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1273 |
-| missing_required_field | 4290 |
+| invalid_controlled_value | 1284 |
+| missing_required_field | 4370 |
 | schema_warning | 399 |
-| unknown_yaml_block | 81 |
-| v2_migration_debt | 9378 |
+| unknown_yaml_block | 84 |
+| v2_migration_debt | 9445 |
 
 ## 5. Erreurs bloquantes
 
@@ -94,7 +94,7 @@ Aucune.
 - `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [LIVE-S45-BIRMINGHAM-HIGH-HALL-FINAL-GIG] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [OBJ-S45-SORDIDE-SENTIMENTALE-1106] : Unable to infer documentary kind
 - `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [FILM-S45-STROSZEK-DEADLINE] : Unable to infer documentary kind
-- … 41 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 44 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -113,10 +113,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1523
+- Atomes : 1539
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1462
-- Avertissements de champs v2 manquants : 9378
+- Atomes v2 incomplets : 1478
+- Avertissements de champs v2 manquants : 9445
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
