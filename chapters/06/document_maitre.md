@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T13:51:39"
+generated_at: "2026-05-15T15:05:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 405 |
+| Atomes | 412 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 125 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 132 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -519,8 +519,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Unknown Pleasures (9)
 - Rafters (8)
 - Hannett (8)
+- Buzzcocks tour (7)
 - John Peel (7)
-- Buzzcocks tour (6)
 - Digital (6)
 - Terry Mason (6)
 - Electric Circus (6)
@@ -540,6 +540,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Shadowplay (4)
 - Bernard Sumner (4)
 - Band on the Wall (4)
+- Rainbow Theatre (4)
 - Buzzcocks (4)
 - Glass (4)
 - radio (4)
@@ -550,7 +551,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Sordide Sentimental (4)
 - Atmosphere (4)
 - Closer (4)
-- Britannia Row (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -670,6 +670,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_collective | 3 |
 | scene_live_violence | 3 |
 | chronologie_structurante | 3 |
+| chronologie_live | 3 |
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
@@ -706,7 +707,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | objet_visuel | 2 |
 | scene_repetition | 2 |
 | concept_management | 2 |
-| chronologie_live | 2 |
 | analyse_morceau | 2 |
 | live_set_context | 2 |
 | song_session | 2 |
@@ -773,6 +773,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | archive_live | 1 |
 | chronologie_reseau | 1 |
 | analyse_morceau_materiel | 1 |
+| ethos_live | 1 |
+| evenement_live_archive | 1 |
+| economie_corps_tournee | 1 |
+| interpretation_live | 1 |
+| economie_materielle_live | 1 |
+| tension_medicale_morale | 1 |
 | scene_organisationnelle | 1 |
 | scene_sociale_live | 1 |
 | synthese_tension | 1 |
@@ -869,9 +875,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 185 |
+| critique | 190 |
 | non qualifiée | 154 |
-| majeur | 41 |
+| majeur | 43 |
 | majeure | 24 |
 | secondaire utile | 1 |
 

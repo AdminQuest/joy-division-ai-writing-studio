@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T13:51:39"
+generated_at: "2026-05-15T15:05:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 165 |
+| Atomes | 167 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -34,7 +34,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 18 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 20 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
@@ -73,6 +73,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif, partiellement spéculatif`.
 - **S41-A145** — S41-A145 — « Love Will Tear Us Apart » : riff Hook, batterie Morris, mélodie Curtis et première Peel Session  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + session Peel établie`.
+- **S41-A173** — S41-A173 — Annik sur la tournée européenne : soin, contrôle moral et Curtis caméléon  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_affective_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A175** — S41-A175 — Antwerp brothel : lit, morale, Annik et violence verbale de Rob  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_morale_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A052** — S45-A052 — Joy Division pariahs : Sue Barlow et Deborah comme faux public  
@@ -113,10 +117,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_relationnelle` ; importance : `critique` ; preuve : `témoignage direct de Deborah + correction rétrospective par Morris`.
 - **S45-A110** — S45-A110 — Apollo Manchester : Deborah face à Annik sans le savoir  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A111** — S45-A111 — Rob Gretton arbitre le couple : médiation managériale du privé  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A112** — S45-A112 — Disparitions et fausses pistes : Eraserhead, cricket et peur policière  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -182,6 +182,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_interne` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif + témoignage rapporté de Hook`.
 - **S45-A108** — S45-A108 — Rituels téléphoniques : langage conjugal comme assurance obsessionnelle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A111** — S45-A111 — Rob Gretton arbitre le couple : médiation managériale du privé  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A112** — S45-A112 — Disparitions et fausses pistes : Eraserhead, cricket et peur policière  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A113** — S45-A113 — Fin 1979 : salaire de groupe, Silklands et économie domestique d’épuisement  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A115** — S45-A115 — 13 décembre 1979 : restaurant chinois et couple déserté  
@@ -275,10 +279,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - **S69-A004** — S69-A004 — Les premiers livres laissent peu de place à l’intimité  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `reception` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S69-A009** — S69-A009 — Les témoins produisent l’histoire populaire de Joy Division  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S69-A011** — S69-A011 — Deborah Curtis : expulsion du passé plutôt que nostalgie  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S69-A012** — S69-A012 — Middles et Reade contestent Deborah Curtis  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
@@ -430,17 +430,17 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ### 12.1. Motifs dominants
 
-- Rob Gretton (8)
-- Annik Honoré (7)
+- Rob Gretton (9)
+- Annik Honoré (8)
 - Peter Saville (6)
 - Natalie (5)
+- Annik (4)
 - silence (4)
 - Unknown Pleasures (4)
 - Deborah Curtis (4)
 - Tony Wilson (4)
 - van (3)
 - Candy (3)
-- Annik (3)
 - Factory (3)
 - Kevin Cummins (3)
 - Lesley Gilbert (2)
@@ -467,9 +467,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Terry Mason (2)
 - Ian Curtis (2)
 - people pleaser (2)
+- married man (2)
 - one of the lads (2)
 - T. J. Davidson’s (2)
-- band life (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -625,6 +625,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | rencontre_biographique | 1 |
 | demythification | 1 |
 | processus_creatif_chanson | 1 |
+| tension_affective_tournee | 1 |
+| tension_morale_tournee | 1 |
 | performance_scenique | 1 |
 | chanson_biographie | 1 |
 | perception_scene | 1 |
@@ -661,7 +663,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 74 |
+| critique | 76 |
 | non qualifiée | 65 |
 | majeur | 24 |
 | majeure | 2 |

@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-15T13:51:37`
+Généré le : `2026-05-15T15:05:36`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 93 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1494 atome(s) incomplet(s) sur 1555.
+Le repo est techniquement exploitable, mais 102 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1507 atome(s) incomplet(s) sur 1568.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 3129
+- Enregistrements : 3187
 - Erreurs : 0
-- Avertissements : 15878
+- Avertissements : 15991
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1494 atome(s) incomplet(s) sur 1555.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1555 |
+| atom | 1568 |
 | chronology | 331 |
-| concept | 125 |
+| concept | 134 |
 | metadata | 18 |
-| motif | 192 |
+| motif | 206 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1494 atome(s) incomplet(s) sur 1555.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 195 |
-| unknown | 93 |
+| template | 208 |
+| unknown | 102 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1296 |
-| missing_required_field | 4450 |
+| invalid_controlled_value | 1309 |
+| missing_required_field | 4515 |
 | schema_warning | 399 |
-| unknown_yaml_block | 93 |
-| v2_migration_debt | 9505 |
+| unknown_yaml_block | 102 |
+| v2_migration_debt | 9531 |
 
 ## 5. Erreurs bloquantes
 
@@ -80,21 +80,21 @@ Aucune.
 - `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [LIVE-S41-FIRST-FACTORY-RUSSELL-CLUB-1978-06-09] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [LIVE-S41-BAND-ON-THE-WALL-1978] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [TV-S41-GRANADA-REPORTS-SHADOWPLAY-1978-09-20] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [TOUR-S41-BUZZCOCKS-OCT-NOV-1979-END] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [LIVE-S41-ELECTRIC-BALLROOM-1979-10-26] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [PHOTO-S41-ANTON-CORBIJN-1979] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [LIVE-S41-BOURNEMOUTH-WINTER-GARDENS-HOSPITAL] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [RADIO-S41-SECOND-PEEL-SESSION-1979-11-26] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [LIVE-S41-LES-BAINS-DOUCHES-1979-12-18] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [EVENT-S41-FACTORY-OFFICE-PARTY-1979-12-31] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [TOUR-S41-EUROPEAN-TOUR-JAN-1980-ANNIK] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md` [LIVE-S41-WE-CARRIED-ON-FITS-STAGE] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [BOOK-S41-HOUSE-OF-DOLLS-NAME] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md` [LIVE-S41-PIPS-FIRST-JOY-DIVISION-GIG] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md` [RADIO-S41-PEEL-SESSION-OFFER-1979] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md` [PROCESS-S41-CURTIS-CONDUCTOR-TJ] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md` [DEAL-S41-FACTORY-GENETIC-CHOICE] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md` [ARCHIVE-S41-EDEN-TAPES-RESURFACE] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [ALBUM-S41-UNKNOWN-PLEASURES-STRAWBERRY-1979] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [FILM-S41-BOWDON-VALE-WHITEHEAD-1979] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [VISUAL-S41-UP-SAVILLE-ANTI-IMAGE] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [MATERIAL-S41-UP-10000-COPIES-PALATINE] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [RADIO-S41-PICCADILLY-CHANCE-ATROCITY] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [TV-S41-WHATS-ON-SHES-LOST-CONTROL] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [LIVE-S41-YMCA-TOTTENHAM-COURT-ROAD] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md` [MEDIA-S41-MELODY-MAKER-PISTOLS-APRIL-1976] : Unable to infer documentary kind
-- … 53 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 62 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -113,10 +113,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1555
+- Atomes : 1568
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1494
-- Avertissements de champs v2 manquants : 9505
+- Atomes v2 incomplets : 1507
+- Avertissements de champs v2 manquants : 9531
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

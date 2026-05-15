@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T13:51:39"
+generated_at: "2026-05-15T15:05:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 712 |
+| Atomes | 718 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 105 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -252,6 +252,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `mediation_audiovisuelle` ; importance : `critique` ; preuve : `chronologie audiovisuelle et live`.
 - **S41-A165** — S41-A165 — Earcom 2 / Sordide / Buzzcocks tour : octobre comme carrefour discographique et scénique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `carrefour_discographique_live` ; importance : `critique` ; preuve : `chronologie discographique et live`.
+- **S41-A166** — S41-A166 — Timeline Four fin 1979 : tournée Buzzcocks, setlists variables et crise visible  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `critique` ; preuve : `chronologie éditoriale + témoignage direct`.
+- **S41-A167** — S41-A167 — Electric Ballroom : règle punk, Factory et stratégie de contrariété  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `ethos_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A168** — S41-A168 — Anton Corbijn : photographie rapide, icône durable et retour critique par Control  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_visuelle` ; importance : `critique` ; preuve : `témoignage direct + archive photographique vérifiable`.
+- **S41-A169** — S41-A169 — Bournemouth : set écourté, hospitalisation et limite du système de tournée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `chronologie éditoriale + événement médical rapporté`.
+- **S41-A171** — S41-A171 — Les Bains Douches : Paris comme archive live majeure de fin 1979  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live_archive` ; importance : `critique` ; preuve : `chronologie live + setlist publiée`.
+- **S41-A172** — S41-A172 — Factory office party : beer economy et préhistoire de la Haçienda  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_factory` ; importance : `majeur` ; preuve : `anecdote Hook rétrospective`.
 - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
@@ -270,18 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `positionnement` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-044** — S45-044 — Deborah Curtis devient malgré elle gardienne d’archive  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `archive_vivante` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-A062** — S45-A062 — Humour privé du groupe : contre-mythe du groupe sombre  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_mythique` ; importance : `majeur` ; preuve : `témoignage rapporté + interprétation de Deborah`.
-- **S45-A064** — S45-A064 — Les « Goshes » : premières fans et reconfiguration des couples  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A067** — S45-A067 — Check Inn : autographes, demigod et canonisation précoce  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_precoce` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
-- **S45-A093** — S45-A093 — McCullough / Sounds : refus des réponses droites et publicité paradoxale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_presse` ; importance : `majeur` ; preuve : `témoignage direct + réception presse rapportée`.
-- **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_publique` ; importance : `critique` ; preuve : `témoignage direct + faits live/presse établissables`.
 
 ## 7. Citations disponibles
 
@@ -512,12 +512,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 - Annik Honoré (18)
 - Tony Wilson (17)
-- Rob Gretton (14)
+- Rob Gretton (15)
+- Buzzcocks tour (9)
 - Peter Saville (9)
 - Ian Curtis (8)
 - Factory (8)
 - fatigue (8)
-- Buzzcocks tour (7)
 - Transmission (7)
 - Unknown Pleasures (7)
 - John Peel (6)
@@ -530,10 +530,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Closer (5)
 - Gretton (5)
 - Mick Middles (4)
+- Rainbow Theatre (4)
 - Buzzcocks (4)
 - Sounds (4)
 - Strawberry Studios (4)
 - NME (4)
+- Control (4)
 - Factory Club (4)
 - Plan K (4)
 - Licht und Blindheit (4)
@@ -544,12 +546,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Rabid Records (4)
 - Deborah Curtis (4)
 - A Certain Ratio (4)
-- Rainbow Theatre (3)
+- Paris (3)
 - Dave McCullough (3)
 - YMCA (3)
 - interviews (3)
-- radio (3)
-- Peel Session (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -685,6 +685,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_radio | 3 |
 | scene_collective | 3 |
 | esthétique_visuelle | 3 |
+| evenement_medical_live | 3 |
+| archive_visuelle | 3 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
 | reception_posthume | 3 |
@@ -707,8 +709,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | strategie_medias | 2 |
 | chanson_single | 2 |
 | demythification | 2 |
-| evenement_medical_live | 2 |
-| archive_visuelle | 2 |
 | archive_live | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -778,6 +778,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | carrefour_discographique_live | 1 |
 | lieu_memoire | 1 |
 | chronologie_discographique | 1 |
+| chronologie_live | 1 |
+| ethos_live | 1 |
+| evenement_live_archive | 1 |
+| economie_factory | 1 |
 | scene_sociale_live | 1 |
 | synthese_tension | 1 |
 | contrepoint_lieu | 1 |
@@ -999,9 +1003,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 455 |
-| critique | 194 |
+| critique | 199 |
 | majeure | 39 |
-| majeur | 20 |
+| majeur | 21 |
 | structurante | 2 |
 | moyenne | 2 |
 

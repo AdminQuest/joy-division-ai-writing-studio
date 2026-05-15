@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-15T13:51:37",
+  "generated_at": "2026-05-15T15:05:36",
   "summary": {
-    "records_total": 3129,
+    "records_total": 3187,
     "records_by_kind": {
-      "atom": 1555,
+      "atom": 1568,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 93,
+      "unknown": 102,
       "song": 41,
-      "template": 195,
+      "template": 208,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 192,
+      "motif": 206,
       "person": 157,
-      "concept": 125,
+      "concept": 134,
       "myth": 11
     },
-    "diagnostics_total": 15878,
+    "diagnostics_total": 15991,
     "errors": 0,
-    "warnings": 15878,
+    "warnings": 15991,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1555,
+    "atom": 1568,
     "chronology": 331,
-    "concept": 125,
+    "concept": 134,
     "metadata": 18,
-    "motif": 192,
+    "motif": 206,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,14 +41,14 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 195,
-    "unknown": 93
+    "template": 208,
+    "unknown": 102
   },
   "records_by_source": {
     "S41": {
-      "atom": 360,
+      "atom": 373,
       "quote": 9,
-      "unknown": 81,
+      "unknown": 90,
       "song": 7,
       "person": 9,
       "chronology": 9
@@ -126,18 +126,18 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 121,
-    "Chapitre 10": 209,
-    "Chapitre 11": 211,
-    "Chapitre 12": 369,
+    "Chapitre 10": 213,
+    "Chapitre 11": 213,
+    "Chapitre 12": 387,
     "Chapitre 13": 105,
-    "Chapitre 14": 881,
+    "Chapitre 14": 897,
     "Chapitre 2": 345,
     "Chapitre 3": 359,
-    "Chapitre 4": 284,
-    "Chapitre 5": 426,
-    "Chapitre 6": 528,
+    "Chapitre 4": 287,
+    "Chapitre 5": 429,
+    "Chapitre 6": 544,
     "Chapitre 7": 101,
-    "Chapitre 8": 250,
+    "Chapitre 8": 258,
     "Chapitre 9": 199,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1296,
-    "missing_required_field": 4450,
+    "invalid_controlled_value": 1309,
+    "missing_required_field": 4515,
     "schema_warning": 399,
-    "unknown_yaml_block": 93,
-    "v2_migration_debt": 9505
+    "unknown_yaml_block": 102,
+    "v2_migration_debt": 9531
   },
   "top_files_by_issue_count": [
     [
@@ -602,6 +602,78 @@
       "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
       "record_id": "TV-S41-GRANADA-REPORTS-SHADOWPLAY-1978-09-20",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "TOUR-S41-BUZZCOCKS-OCT-NOV-1979-END",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "LIVE-S41-ELECTRIC-BALLROOM-1979-10-26",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "PHOTO-S41-ANTON-CORBIJN-1979",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "LIVE-S41-BOURNEMOUTH-WINTER-GARDENS-HOSPITAL",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "RADIO-S41-SECOND-PEEL-SESSION-1979-11-26",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "LIVE-S41-LES-BAINS-DOUCHES-1979-12-18",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "EVENT-S41-FACTORY-OFFICE-PARTY-1979-12-31",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "TOUR-S41-EUROPEAN-TOUR-JAN-1980-ANNIK",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "LIVE-S41-WE-CARRIED-ON-FITS-STAGE",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1143,10 +1215,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1555,
+    "atoms_total": 1568,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1494,
-    "v2_missing_field_warnings": 9505
+    "atoms_v2_incomplete": 1507,
+    "v2_missing_field_warnings": 9531
   },
   "source_registry": {
     "declared_but_unused": [
@@ -1223,8 +1295,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 475,
-        "atoms": 360,
+        "records": 497,
+        "atoms": 373,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -1240,6 +1312,7 @@
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+          "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
           "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
           "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
           "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
@@ -1265,6 +1338,7 @@
           "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
           "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+          "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
           "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md"
         ]
       },
@@ -29497,6 +29571,838 @@
       "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
       "record_id": "S41-A153",
       "message": "Invalid value for type_unite: analyse_morceaux",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A166",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A166",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A166",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A166",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A166",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A166",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A166",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A166",
+      "message": "Invalid value for type_unite: chronologie_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A167",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A167",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A167",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A167",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A167",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A167",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A167",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A167",
+      "message": "Invalid value for type_unite: ethos_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A168",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A168",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A168",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A168",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A168",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A168",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A168",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A168",
+      "message": "Invalid value for type_unite: archive_visuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A169",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A169",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A169",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A169",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A169",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A169",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A169",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A169",
+      "message": "Invalid value for type_unite: evenement_medical_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A170",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A170",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A170",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A170",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A170",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A170",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A170",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A170",
+      "message": "Invalid value for type_unite: session_radio",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A171",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A171",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A171",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A171",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A171",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A171",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A171",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A171",
+      "message": "Invalid value for type_unite: evenement_live_archive",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A172",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A172",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A172",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A172",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A172",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A172",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A172",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A172",
+      "message": "Invalid value for type_unite: economie_factory",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A173",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A173",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A173",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A173",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A173",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A173",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A173",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A173",
+      "message": "Invalid value for type_unite: tension_affective_tournee",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A174",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A174",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A174",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A174",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A174",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A174",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A174",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A174",
+      "message": "Invalid value for type_unite: economie_corps_tournee",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A175",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A175",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A175",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A175",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A175",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A175",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A175",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A175",
+      "message": "Invalid value for type_unite: tension_morale_tournee",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A176",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A176",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A176",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A176",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A176",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A176",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A176",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A176",
+      "message": "Invalid value for type_unite: interpretation_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A177",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A177",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A177",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A177",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A177",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A177",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A177",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A177",
+      "message": "Invalid value for type_unite: economie_materielle_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A178",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A178",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A178",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A178",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A178",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A178",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A178",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "record_id": "S41-A178",
+      "message": "Invalid value for type_unite: tension_medicale_morale",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -112322,6 +113228,78 @@
       "record_id": "SONG-S76-051",
       "message": "Invalid value for type_unite: release_design",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "TOUR-S41-BUZZCOCKS-OCT-NOV-1979-END",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "LIVE-S41-ELECTRIC-BALLROOM-1979-10-26",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "PHOTO-S41-ANTON-CORBIJN-1979",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "LIVE-S41-BOURNEMOUTH-WINTER-GARDENS-HOSPITAL",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "RADIO-S41-SECOND-PEEL-SESSION-1979-11-26",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "LIVE-S41-LES-BAINS-DOUCHES-1979-12-18",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "EVENT-S41-FACTORY-OFFICE-PARTY-1979-12-31",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "TOUR-S41-EUROPEAN-TOUR-JAN-1980-ANNIK",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "record_id": "LIVE-S41-WE-CARRIED-ON-FITS-STAGE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

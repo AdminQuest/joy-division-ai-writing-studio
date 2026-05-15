@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T13:51:39"
+generated_at: "2026-05-15T15:05:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 271 |
+| Atomes | 279 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -34,7 +34,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 32 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 40 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -97,29 +97,31 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique + commentaire Hook`.
 - **S41-A165** — S41-A165 — Earcom 2 / Sordide / Buzzcocks tour : octobre comme carrefour discographique et scénique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `carrefour_discographique_live` ; importance : `critique` ; preuve : `chronologie discographique et live`.
+- **S41-A166** — S41-A166 — Timeline Four fin 1979 : tournée Buzzcocks, setlists variables et crise visible  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `critique` ; preuve : `chronologie éditoriale + témoignage direct`.
+- **S41-A169** — S41-A169 — Bournemouth : set écourté, hospitalisation et limite du système de tournée  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `chronologie éditoriale + événement médical rapporté`.
+- **S41-A170** — S41-A170 — Deuxième Peel Session : seuil vers Closer avant Closer  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie`.
+- **S41-A173** — S41-A173 — Annik sur la tournée européenne : soin, contrôle moral et Curtis caméléon  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_affective_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A175** — S41-A175 — Antwerp brothel : lit, morale, Annik et violence verbale de Rob  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_morale_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A176** — S41-A176 — Rotterdam : scène comme refuge contre froid, faim et bickering  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A178** — S41-A178 — « We carried on » : automutilation, crises et vulnérabilité publique de Curtis  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_medicale_morale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A036** — S45-A036 — Le cours sur l’épilepsie : savoir préalable et ironie tragique  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A068** — S45-A068 — Hope and Anchor : déception londonienne et première crise reconnue  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_critique` ; importance : `critique` ; preuve : `témoignage direct indirect + récit des membres du groupe`.
-- **S45-A069** — S45-A069 — Diagnostic différé : incrédulité domestique, GP passif et attente médicale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A070** — S45-A070 — Janvier 1979 : couverture NME, Peel session et accommodation de la maladie  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_chronologique` ; importance : `critique` ; preuve : `témoignage direct + faits médiatiques établis`.
-- **S45-A071** — S45-A071 — 23 janvier 1979 : médicaments, effets secondaires et mot « EPILEPTIC »  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_medical` ; importance : `critique` ; preuve : `témoignage direct avec détails médicaux rapportés`.
-- **S45-A072** — S45-A072 — Médicaments et humeur : Sumner formule l’hypothèse dangereuse des comprimés  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage rapporté, interprétation rétrospective de Sumner`.
-- **S45-A073** — S45-A073 — Attendre la crise : rituel nocturne, absence seizure et care conjugal  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A074** — S45-A074 — Danse et crise : imitation, indistinction et réception corporelle  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
 
 ## 6. Autres atomes utiles
 
 - **S41-A002** — S41-A002 — Trans-Europe Express à Pips : Curtis entre rituel d’entrée et désordre pré-scénique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A177** — S41-A177 — Killing Joke, cab démonté et précarité technique avant la crise médicale  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
@@ -142,6 +144,20 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_live` ; importance : `majeur` ; preuve : `témoignage direct rapporté par Hook dans S45`.
 - **S45-A060** — S45-A060 — Candy : contrepoint domestique au récit d’intensification  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A068** — S45-A068 — Hope and Anchor : déception londonienne et première crise reconnue  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_critique` ; importance : `critique` ; preuve : `témoignage direct indirect + récit des membres du groupe`.
+- **S45-A069** — S45-A069 — Diagnostic différé : incrédulité domestique, GP passif et attente médicale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A070** — S45-A070 — Janvier 1979 : couverture NME, Peel session et accommodation de la maladie  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_chronologique` ; importance : `critique` ; preuve : `témoignage direct + faits médiatiques établis`.
+- **S45-A071** — S45-A071 — 23 janvier 1979 : médicaments, effets secondaires et mot « EPILEPTIC »  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_medical` ; importance : `critique` ; preuve : `témoignage direct avec détails médicaux rapportés`.
+- **S45-A072** — S45-A072 — Médicaments et humeur : Sumner formule l’hypothèse dangereuse des comprimés  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage rapporté, interprétation rétrospective de Sumner`.
+- **S45-A073** — S45-A073 — Attendre la crise : rituel nocturne, absence seizure et care conjugal  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A074** — S45-A074 — Danse et crise : imitation, indistinction et réception corporelle  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
 - **S45-A080** — S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A083** — S45-A083 — 24 mai 1979 : quatre crises grand mal et urgence médicale domestique  
@@ -262,22 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_chanson` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S46-186** — S46-186 — Dion Fortune et la psychisation de l’héritage Joy Division  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite_occultiste` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-187** — S46-187 — Dostoevsky et la résurrection des morts  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-189** — S46-189 — Le lexique du film comme méthode d’écriture  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `analyse_formelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-002** — S47-002 — Le mythe Joy Division dépasse Ian Curtis seul  
-  Source : S47 — West, Joy Division, 1984 ; type : `interpretation_historique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-025** — S47-025 — « Closer » n’est pas un disque-suicide  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-026** — S47-026 — Curtis n’est pas un « artiste maudit » romantique  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-027** — S47-027 — Joy Division véhicule aussi une idée d’espoir  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-030** — S47-030 — « Closer » représente un commencement interrompu  
-  Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-066** — S47-066 — *Closer* est enregistré à Britannia Row  
-  Source : S47 — West, Joy Division, 1984 ; type : `session_album` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -499,17 +499,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
-- Annik Honoré (22)
+- Annik Honoré (23)
 - fatigue (13)
 - Deborah Curtis (12)
 - épilepsie (10)
 - Closer (9)
+- Rob Gretton (9)
 - Ian Curtis (9)
 - Natalie Curtis (9)
-- Rob Gretton (8)
 - Tony Wilson (8)
-- Love Will Tear Us Apart (6)
+- Love Will Tear Us Apart (7)
 - Unknown Pleasures (6)
+- Buzzcocks tour (5)
 - Factory (5)
 - Lindsay Reade (5)
 - Terry Mason (5)
@@ -522,23 +523,22 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - epilepsy (4)
 - Atmosphere (4)
 - Sordide Sentimental (4)
-- Buzzcocks tour (3)
 - Peter Hook (3)
 - Candy (3)
 - domesticité (3)
+- Annik (3)
 - Mick Middles (3)
 - New Dawn Fades (3)
 - paroles (3)
 - silence (3)
 - Macclesfield (3)
+- Rainbow Theatre (3)
 - honte (3)
 - Transmission (3)
 - American tour (3)
+- Leeds (3)
 - Strawberry Studios (3)
-- Derby Hall (3)
-- crise épileptique (3)
-- David Lewis Centre (3)
-- Mark Reeder (3)
+- Bournemouth (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -639,6 +639,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_medicale | 3 |
 | evenement_medical | 3 |
 | tension_sante | 3 |
+| evenement_medical_live | 3 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
@@ -654,7 +655,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | fait_medical | 2 |
 | performance_sante | 2 |
 | tension_psychiatrique | 2 |
-| evenement_medical_live | 2 |
 | processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
@@ -714,6 +714,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | reception_live | 1 |
 | carrefour_discographique_live | 1 |
 | analyse_morceau_sante | 1 |
+| chronologie_live | 1 |
+| session_radio | 1 |
+| tension_affective_tournee | 1 |
+| tension_morale_tournee | 1 |
+| interpretation_live | 1 |
+| economie_materielle_live | 1 |
+| tension_medicale_morale | 1 |
 | scene_live | 1 |
 | coincidence_culturelle | 1 |
 | interpretation | 1 |
@@ -821,10 +828,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 149 |
+| critique | 156 |
 | non qualifiée | 94 |
 | majeure | 20 |
-| majeur | 8 |
+| majeur | 9 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

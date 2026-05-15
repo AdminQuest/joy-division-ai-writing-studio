@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T13:51:39"
+generated_at: "2026-05-15T15:05:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 183 |
+| Atomes | 184 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 5 |
@@ -34,7 +34,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 30 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
@@ -156,6 +156,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-A028** — S41-A028 — Heartbreakers à Rafters : désillusion punk devant l’héroïne et l’inertie  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_desillusion` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A174** — S41-A174 — Faim, froid et nourriture étrangère : corps de tournée et classe alimentaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_corps_tournee` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-003** — S45-003 — « There was more to living than working nine to five »  
@@ -279,8 +281,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S70-A003** — S70-A003 — Joy Division comme musique de l’espace métropolitain intérieur  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A005** — S70-A005 — Refus de faire du suicide le dernier geste créatif  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A010** — S70-A010 — Origine du nom Joy Division et *House of Dolls*  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
@@ -493,6 +493,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S41-A098 — prolonge → MYTH-007
 - S41-A141 — prolonge → CONCEPT-085
 - S41-A141 — prépare → S41-A142
+- S41-A174 — prolonge → CONCEPT-108
+- S41-A174 — prolonge → CONCEPT-110
 - S41-A001 — prolonge → MYTH-007
 - S41-A001 — prolonge → CONCEPT-025
 - S41-A001 — prolonge → S45-A100
@@ -538,8 +540,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A048 — nuance → MYTH-002
 - S74-A048 — prolonge → S74-A047
 - S74-A048 — annonce → S74-A049
-- S74-A049 — prolonge → S74-A048
-- S74-A049 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -584,6 +584,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | scene_live_violence | 1 |
 | tension_politique_live | 1 |
 | evenement_europeen | 1 |
+| economie_corps_tournee | 1 |
 | scene_ecoute | 1 |
 | chronologie | 1 |
 | reference_litteraire | 1 |
@@ -648,7 +649,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | non qualifiée | 124 |
 | critique | 43 |
 | majeure | 13 |
-| majeur | 3 |
+| majeur | 4 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -664,6 +665,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S41-A021 [moyen] — Risque de linéariser la sortie du punk ; la scène est une relecture ultérieure.
 - S41-A098 [très élevé] — La formule doit être lue comme mémoire de danger et ironie politique.
 - S41-A141 [moyen] — Ne pas réduire Plan K à la potacherie ; maintenir la coexistence avant-garde / pauvreté / désordre.
+- S41-A174 [moyen] — Ne pas folkloriser l’ignorance alimentaire ; l’enjeu est la matérialité sociale du déplacement.
 - S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
 - S41-A012 [moyen] — Risque d’en faire une influence formelle directe ; Hook parle surtout de gateway.
 - S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante

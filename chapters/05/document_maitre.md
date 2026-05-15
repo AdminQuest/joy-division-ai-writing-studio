@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T13:51:39"
+generated_at: "2026-05-15T15:05:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 313 |
+| Atomes | 314 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
@@ -34,7 +34,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 85 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 86 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
@@ -79,6 +79,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_visuelle` ; importance : `critique` ; preuve : `témoignage direct + archive photographique vérifiable`.
 - **S41-A164** — S41-A164 — Futurama / Factory Flick / Something Else : visibilité scénique, audiovisuelle et médiatique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `mediation_audiovisuelle` ; importance : `critique` ; preuve : `chronologie audiovisuelle et live`.
+- **S41-A168** — S41-A168 — Anton Corbijn : photographie rapide, icône durable et retour critique par Control  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_visuelle` ; importance : `critique` ; preuve : `témoignage direct + archive photographique vérifiable`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
@@ -115,8 +117,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A040** — S74-A040 — Hannett contre le groupe : conflit de contrôle et mixage sans témoins  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `conflit_studio` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A041** — S74-A041 — Unknown Pleasures : rejet initial du son par le groupe  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_interne` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 
 ## 6. Autres atomes utiles
 
@@ -622,10 +622,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A064 — consolide → S41-A042
 - S41-A064 — consolide → S41-A055
 - S41-A064 — prépare → S41-A001
+- S41-A168 — prolonge → CONCEPT-127
+- S41-A168 — prolonge → CONCEPT-123
 - S41-A001 — prolonge → MYTH-007
 - S41-A001 — prolonge → CONCEPT-025
-- S41-A001 — prolonge → S45-A100
-- S75-A013 — prolonge → S75-A018
 
 ## 13. Distribution documentaire
 
@@ -652,6 +652,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | tension_documentaire | 3 |
 | controverse | 3 |
 | esthétique_visuelle | 3 |
+| archive_visuelle | 3 |
 | television | 3 |
 | evenement | 3 |
 | lieu | 3 |
@@ -664,7 +665,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | reception | 3 |
 | construction_esthetique | 2 |
 | economie_discographique | 2 |
-| archive_visuelle | 2 |
 | iconographie | 2 |
 | enregistrement | 2 |
 | objet_merchandising | 2 |
@@ -814,7 +814,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 191 |
-| critique | 92 |
+| critique | 93 |
 | majeure | 26 |
 | majeur | 4 |
 
@@ -848,6 +848,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A157 [moyen] — Ne pas absolutiser la contrainte matérielle : l’œil de Cummins reste décisif.
 - S41-A164 [moyen] — Ne pas confondre visibilité accrue et maîtrise complète de l’image.
 - S41-A064 [faible] — Atome de verrouillage chronologique ; éviter de répéter l’analyse sonore des pages 85-98.
+- S41-A168 [moyen] — Ne pas réduire Corbijn à Control ; son rôle commence comme photographe de 1979.
 - S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
 - S75-A013 [eleve] — influence difficile à quantifier ; risque de surstructurer l'effet Throbbing Gristle
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
@@ -879,7 +880,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S76-A039 [moyen] — ne pas surestimer le niveau artistique de la session ; S76 insiste sur le son pauvre et live
 - S76-A040 [tres_eleve] — risque de rabattre le nom sur une sympathie fasciste ou, inversement, de neutraliser la violence référentielle
 - S76-A041 [tres_eleve] — la pochette Hitler Youth doit être analysée dans sa violence symbolique sans conclure automatiquement à une idéologie fasciste
-- S76-A042 [moyen] — risque de transformer une soirée déprimante pour le groupe en triomphe rétrospectif
 
 ## 15. Lacunes et prochaines vérifications
 

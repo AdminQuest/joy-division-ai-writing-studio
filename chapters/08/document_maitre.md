@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T13:51:39"
+generated_at: "2026-05-15T15:05:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 176 |
+| Atomes | 179 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
@@ -34,7 +34,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 73 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 76 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -162,6 +162,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_single` ; importance : `critique` ; preuve : `chronologie discographique`.
 - **S41-A165** — S41-A165 — Earcom 2 / Sordide / Buzzcocks tour : octobre comme carrefour discographique et scénique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `carrefour_discographique_live` ; importance : `critique` ; preuve : `chronologie discographique et live`.
+- **S41-A170** — S41-A170 — Deuxième Peel Session : seuil vers Closer avant Closer  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie`.
+- **S41-A171** — S41-A171 — Les Bains Douches : Paris comme archive live majeure de fin 1979  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live_archive` ; importance : `critique` ; preuve : `chronologie live + setlist publiée`.
+- **S41-A172** — S41-A172 — Factory office party : beer economy et préhistoire de la Haçienda  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_factory` ; importance : `majeur` ; preuve : `anecdote Hook rétrospective`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
@@ -272,12 +278,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S71-A026** — S71-A026 — « Transmission », *Earcom 2* et choix du côté obscur  
   Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A030** — S71-A030 — *Licht und Blindheit* et l’art total  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A032** — S71-A032 — Tournée américaine, « Ceremony », « In a Lonely Place » et vidéo de « Love Will Tear Us Apart »  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A072** — S71-A072 — Discographie sélectionnée : outil de cartographie historique  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -426,12 +426,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Transmission (7)
 - Factory (6)
 - RCA (6)
+- Rob Gretton (6)
 - Martin Hannett (6)
 - Earcom 2 (5)
 - Electric Circus (5)
 - Short Circuit (5)
 - Arrow Studios (5)
-- Rob Gretton (5)
 - Still (5)
 - Atmosphere (5)
 - Sordide Sentimental (5)
@@ -560,10 +560,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | archive | 5 |
 | analyse_morceau | 5 |
 | economie_discographique | 4 |
+| session_radio | 4 |
 | session | 3 |
 | evenement_discographique | 3 |
 | chronologie_discographique | 3 |
-| session_radio | 3 |
 | chronologie | 3 |
 | live_set_bootleg_context | 3 |
 | economie_materielle | 2 |
@@ -600,6 +600,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | analyse_session | 1 |
 | analyse_morceau_materiel | 1 |
 | analyse_morceaux | 1 |
+| evenement_live_archive | 1 |
+| economie_factory | 1 |
 | videographie | 1 |
 | controverse | 1 |
 | chronology | 1 |
@@ -619,9 +621,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 80 |
+| critique | 82 |
 | non qualifiée | 78 |
-| majeur | 12 |
+| majeur | 13 |
 | majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance

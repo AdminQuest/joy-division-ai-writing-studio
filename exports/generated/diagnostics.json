@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-15T13:51:28",
+  "generated_at": "2026-05-15T15:05:26",
   "status": "warning",
   "summary": {
-    "records_total": 3129,
+    "records_total": 3187,
     "records_by_kind": {
-      "atom": 1555,
+      "atom": 1568,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 93,
+      "unknown": 102,
       "song": 41,
-      "template": 195,
+      "template": 208,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 192,
+      "motif": 206,
       "person": 157,
-      "concept": 125,
+      "concept": 134,
       "myth": 11
     },
-    "diagnostics_total": 15878,
+    "diagnostics_total": 15991,
     "errors": 0,
-    "warnings": 15878,
+    "warnings": 15991,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 475,
-        "atoms": 360,
+        "records": 497,
+        "atoms": 373,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -121,6 +121,7 @@
           "registers/songs/s41_hook_songs_1978_pips_first_joy_division_gig.md",
           "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
+          "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
           "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
           "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
           "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
@@ -146,6 +147,7 @@
           "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
           "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+          "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
           "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md"
         ]
       },
@@ -21401,6 +21403,630 @@
       "file": "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
       "message": "Invalid value for type_unite: analyse_morceaux",
       "record_id": "S41-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A166"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A166"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A166"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A166"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A166"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A166"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A166"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: chronologie_live",
+      "record_id": "S41-A166"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A167"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A167"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A167"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A167"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A167"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A167"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A167"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: ethos_live",
+      "record_id": "S41-A167"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A168"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A168"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A168"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A168"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A168"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A168"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A168"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: archive_visuelle",
+      "record_id": "S41-A168"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A169"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A169"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A169"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A169"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A169"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A169"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A169"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: evenement_medical_live",
+      "record_id": "S41-A169"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A170"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A170"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A170"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A170"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A170"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A170"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A170"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: session_radio",
+      "record_id": "S41-A170"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A171"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A171"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A171"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A171"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A171"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A171"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A171"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: evenement_live_archive",
+      "record_id": "S41-A171"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A172"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A172"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A172"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A172"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A172"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A172"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A172"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: economie_factory",
+      "record_id": "S41-A172"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A173"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A173"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A173"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A173"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A173"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A173"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A173"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: tension_affective_tournee",
+      "record_id": "S41-A173"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A174"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A174"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A174"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A174"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A174"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A174"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A174"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: economie_corps_tournee",
+      "record_id": "S41-A174"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A175"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A175"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A175"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A175"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A175"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A175"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A175"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: tension_morale_tournee",
+      "record_id": "S41-A175"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A176"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A176"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A176"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A176"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A176"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A176"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A176"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: interpretation_live",
+      "record_id": "S41-A176"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A177"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A177"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A177"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A177"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A177"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A177"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A177"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: economie_materielle_live",
+      "record_id": "S41-A177"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A178"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A178"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A178"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A178"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A178"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A178"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A178"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
+      "message": "Invalid value for type_unite: tension_medicale_morale",
+      "record_id": "S41-A178"
     },
     {
       "level": "warning",
@@ -83519,6 +84145,60 @@
       "file": "registers/songs/s76_torn_apart_songs_part_15.md",
       "message": "Invalid value for type_unite: release_design",
       "record_id": "SONG-S76-051"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "TOUR-S41-BUZZCOCKS-OCT-NOV-1979-END"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-ELECTRIC-BALLROOM-1979-10-26"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PHOTO-S41-ANTON-CORBIJN-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-BOURNEMOUTH-WINTER-GARDENS-HOSPITAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "RADIO-S41-SECOND-PEEL-SESSION-1979-11-26"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-LES-BAINS-DOUCHES-1979-12-18"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "EVENT-S41-FACTORY-OFFICE-PARTY-1979-12-31"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "TOUR-S41-EUROPEAN-TOUR-JAN-1980-ANNIK"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-WE-CARRIED-ON-FITS-STAGE"
     },
     {
       "level": "warning",

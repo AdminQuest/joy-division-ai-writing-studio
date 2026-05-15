@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T13:51:39"
+generated_at: "2026-05-15T15:05:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-15T13:51:39"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 216 |
+| Atomes | 217 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-15T13:51:39"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 55 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 56 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -79,6 +79,8 @@ generated_at: "2026-05-15T13:51:39"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session radio documentée`.
 - **S41-A162** — S41-A162 — « Transmission » / FAC 13 : Central Sound, Strawberry et single autonome  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_single` ; importance : `critique` ; preuve : `chronologie discographique`.
+- **S41-A170** — S41-A170 — Deuxième Peel Session : seuil vers Closer avant Closer  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -113,8 +115,6 @@ generated_at: "2026-05-15T13:51:39"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S75-A045** — S75-A045 — Deborah Curtis comme oreille littérale des textes  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_memoire`.
-- **S75-A047** — S75-A047 — « She’s Lost Control » : origine professionnelle, retour biographique et comparaison des versions  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -276,8 +276,8 @@ generated_at: "2026-05-15T13:51:39"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `majeure` ; preuve : `reconstruction_critique`.
 - **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S75-A047** — S75-A047 — « She’s Lost Control » : origine professionnelle, retour biographique et comparaison des versions  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 7. Citations disponibles
 
@@ -512,6 +512,7 @@ generated_at: "2026-05-15T13:51:39"
 - Closer (4)
 - Transmission (4)
 - Atmosphere (4)
+- Love Will Tear Us Apart (4)
 - Bowie (4)
 - domesticité (4)
 - Tony Wilson (4)
@@ -523,7 +524,6 @@ generated_at: "2026-05-15T13:51:39"
 - Interzone (3)
 - Chance (3)
 - Disorder (3)
-- Love Will Tear Us Apart (3)
 - She’s Lost Control (3)
 - Macclesfield (3)
 - fatigue (3)
@@ -607,6 +607,8 @@ generated_at: "2026-05-15T13:51:39"
 - S41-A152 — prépare → CONCEPT-107
 - S41-A153 — prolonge → S41-A108
 - S41-A153 — prolonge → CONCEPT-093
+- S41-A170 — prolonge → CONCEPT-125
+- S41-A170 — prolonge → CONCEPT-103
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -623,8 +625,6 @@ generated_at: "2026-05-15T13:51:39"
 - S75-A063 — requiert → CONCEPT-004
 - S75-A063 — nuance → MYTH-002
 - S75-A064 — requiert → CONCEPT-004
-- S75-A064 — nuance → MYTH-002
-- S75-A064 — prolonge → S75-A057
 
 ## 13. Distribution documentaire
 
@@ -641,6 +641,7 @@ generated_at: "2026-05-15T13:51:39"
 | lecture | 4 |
 | lecture_musicale | 4 |
 | relation | 3 |
+| session_radio | 3 |
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
 | lecture_textuelle | 3 |
@@ -650,7 +651,6 @@ generated_at: "2026-05-15T13:51:39"
 | tension_biographique | 3 |
 | live_set_context | 3 |
 | session_studio | 2 |
-| session_radio | 2 |
 | chanson_single | 2 |
 | processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
@@ -766,7 +766,7 @@ generated_at: "2026-05-15T13:51:39"
 
 | Importance | Nombre |
 |---|---|
-| critique | 98 |
+| critique | 99 |
 | non qualifiée | 81 |
 | majeure | 33 |
 | majeur | 3 |
@@ -800,6 +800,7 @@ generated_at: "2026-05-15T13:51:39"
 - S41-A145 [très élevé] — Risque de rabattre les paroles sur Deborah, Annik ou Hook sans preuve ; Hook dit explicitement ne pas savoir.
 - S41-A152 [très élevé] — Risque de surpsychologiser Curtis ; Hook insiste sur le fait que le groupe n’analysait pas alors les paroles.
 - S41-A153 [moyen] — Ne pas figer l’interprétation antireligieuse de Wilderness comme seule lecture possible.
+- S41-A170 [moyen] — Ne pas présenter la session comme conception consciente de Closer ; elle est un seuil rétrospectif.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
@@ -833,7 +834,6 @@ generated_at: "2026-05-15T13:51:39"
 - S74-A044 [moyen] — risque de survaloriser les Distractions uniquement comme faire-valoir de Joy Division
 - S74-A046 [moyen] — risque de romantiser Factory comme seul espace authentique contre une télévision nécessairement morte
 - S74-A001 [moyen] — risque de romantisation de l’échec économique Factory comme geste esthétique pur
-- S74-A005 [faible] — source proche du témoin, mais portrait fortement stylisé par Middles
 
 ## 15. Lacunes et prochaines vérifications
 
