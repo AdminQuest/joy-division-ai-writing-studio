@@ -10,7 +10,7 @@
   <header class="hero">
     <div class="hero-inner">
       <h1>Registre des citations</h1>
-      <p class="subtitle">Vue documentaire dynamique générée depuis <code>exports/generated/quotes.json</code>.</p>
+      <p class="subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés.</p>
       <p class="back"><a href="../../">← Retour au portail</a></p>
     </div>
   </header>
@@ -27,30 +27,22 @@
 
         <div class="field">
           <label for="source-filter">Source</label>
-          <select id="source-filter">
-            <option value="">Toutes</option>
-          </select>
+          <select id="source-filter"><option value="">Toutes</option></select>
         </div>
 
         <div class="field">
           <label for="status-filter">Vérification</label>
-          <select id="status-filter">
-            <option value="">Toutes</option>
-          </select>
+          <select id="status-filter"><option value="">Toutes</option></select>
         </div>
 
         <div class="field">
           <label for="importance-filter">Importance</label>
-          <select id="importance-filter">
-            <option value="">Toutes</option>
-          </select>
+          <select id="importance-filter"><option value="">Toutes</option></select>
         </div>
 
         <div class="field">
           <label for="chapter-filter">Chapitre</label>
-          <select id="chapter-filter">
-            <option value="">Tous</option>
-          </select>
+          <select id="chapter-filter"><option value="">Tous</option></select>
         </div>
       </div>
 
@@ -60,7 +52,7 @@
       </div>
 
       <p class="note">
-        Le registre est une vue calculée. Après toute atomisation ou correction de citation, reconstruire les exports sur le Mac avec <code>python3 tools/build_registers.py</code>, puis publier <code>exports/generated</code>.
+        Ce registre lit directement les fichiers <code>registers/quotes/*.md</code> et les citations atomisées du repo.
       </p>
     </section>
 
@@ -91,6 +83,7 @@
     </section>
   </main>
 
+  <script src="../lib/dynamic-registers.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
