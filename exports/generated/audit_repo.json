@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-14T20:17:40",
+  "generated_at": "2026-05-15T08:45:44",
   "summary": {
-    "records_total": 2972,
+    "records_total": 3020,
     "records_by_kind": {
-      "atom": 1511,
+      "atom": 1523,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 75,
+      "unknown": 81,
       "song": 41,
-      "template": 159,
+      "template": 171,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 157,
+      "motif": 168,
       "person": 157,
-      "concept": 101,
+      "concept": 108,
       "myth": 11
     },
-    "diagnostics_total": 15448,
+    "diagnostics_total": 15556,
     "errors": 0,
-    "warnings": 15448,
+    "warnings": 15556,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,11 +29,11 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1511,
+    "atom": 1523,
     "chronology": 331,
-    "concept": 101,
+    "concept": 108,
     "metadata": 18,
-    "motif": 157,
+    "motif": 168,
     "myth": 11,
     "person": 157,
     "quote": 353,
@@ -41,14 +41,14 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 159,
-    "unknown": 75
+    "template": 171,
+    "unknown": 81
   },
   "records_by_source": {
     "S41": {
-      "atom": 316,
+      "atom": 328,
       "quote": 9,
-      "unknown": 63,
+      "unknown": 69,
       "song": 7,
       "person": 9,
       "chronology": 9
@@ -126,18 +126,18 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 121,
-    "Chapitre 10": 201,
-    "Chapitre 11": 208,
-    "Chapitre 12": 333,
+    "Chapitre 10": 209,
+    "Chapitre 11": 211,
+    "Chapitre 12": 347,
     "Chapitre 13": 105,
-    "Chapitre 14": 835,
+    "Chapitre 14": 854,
     "Chapitre 2": 345,
     "Chapitre 3": 331,
-    "Chapitre 4": 256,
+    "Chapitre 4": 260,
     "Chapitre 5": 417,
-    "Chapitre 6": 507,
+    "Chapitre 6": 517,
     "Chapitre 7": 101,
-    "Chapitre 8": 209,
+    "Chapitre 8": 212,
     "Chapitre 9": 199,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -267,11 +267,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1262,
-    "missing_required_field": 4230,
+    "invalid_controlled_value": 1273,
+    "missing_required_field": 4290,
     "schema_warning": 399,
-    "unknown_yaml_block": 75,
-    "v2_migration_debt": 9347
+    "unknown_yaml_block": 81,
+    "v2_migration_debt": 9378
   },
   "top_files_by_issue_count": [
     [
@@ -728,6 +728,54 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "EVENT-S41-M5-VAN-ACCIDENT-1979",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "INTERVIEW-S41-EN-ATTENDANT-DAVE-PILS-1979",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "TOUR-S41-BUZZCOCKS-A-DIFFERENT-KIND-OF-TENSION",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "LIVE-S41-LEEDS-SEIZURE-BUZZCOCKS-TOUR",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "LIVE-S41-PLAN-K-BRUSSELS-1979-10-16",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "DISC-S41-LICHT-UND-BLINDHEIT-ATMOSPHERE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
       "record_id": "INST-S41-M24J-FACTORY-PRELABEL",
       "message": "Unable to infer documentary kind",
@@ -999,10 +1047,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1511,
+    "atoms_total": 1523,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1450,
-    "v2_missing_field_warnings": 9347
+    "atoms_v2_incomplete": 1462,
+    "v2_missing_field_warnings": 9378
   },
   "source_registry": {
     "declared_but_unused": [
@@ -1079,8 +1127,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 413,
-        "atoms": 316,
+        "records": 431,
+        "atoms": 328,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -1097,6 +1145,7 @@
           "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
           "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+          "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
@@ -1115,6 +1164,7 @@
           "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
           "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+          "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md"
         ]
       },
@@ -25699,6 +25749,710 @@
       "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
       "record_id": "S41-A131",
       "message": "Invalid value for type_unite: scene_reseau",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A132",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A132",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A132",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A132",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A132",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A132",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A132",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A132",
+      "message": "Invalid value for type_unite: evenement_logistique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A133",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A133",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A133",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A133",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A133",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A133",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A133",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A133",
+      "message": "Invalid value for type_unite: rencontre_biographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A134",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A134",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A134",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A134",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A134",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A134",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A134",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A134",
+      "message": "Invalid value for type_unite: demythification",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A135",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A135",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A135",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A135",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A135",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A135",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A135",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A135",
+      "message": "Invalid value for type_unite: tension_domestique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A136",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A136",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A136",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A136",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A136",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A136",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A136",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A136",
+      "message": "Invalid value for type_unite: evenement_medical_live",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A137",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A137",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A137",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A137",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A137",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A137",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A137",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A137",
+      "message": "Invalid value for type_unite: tension_morale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A138",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A138",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A138",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A138",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A138",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A138",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A138",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A138",
+      "message": "Invalid value for type_unite: economie_tournee",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A139",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A139",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A139",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A139",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A139",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A139",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A139",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A139",
+      "message": "Invalid value for type_unite: scene_tournee_excès",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A140",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A140",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A140",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A140",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A140",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A140",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A140",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A140",
+      "message": "Invalid value for type_unite: scene_tournee_farce",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A141",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A141",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A141",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A141",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A141",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A141",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A141",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A141",
+      "message": "Invalid value for type_unite: evenement_europeen",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A142",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A142",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A142",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A142",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A142",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A142",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A142",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "S41-A142",
+      "message": "Invalid value for type_unite: chanson_single",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
@@ -112268,6 +113022,166 @@
       "record_id": "OBJ-S45-LAST-PHOTOGRAPH-NATALIE",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "EVENT-S41-M5-VAN-ACCIDENT-1979",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "INTERVIEW-S41-EN-ATTENDANT-DAVE-PILS-1979",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "TOUR-S41-BUZZCOCKS-A-DIFFERENT-KIND-OF-TENSION",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "LIVE-S41-LEEDS-SEIZURE-BUZZCOCKS-TOUR",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "LIVE-S41-PLAN-K-BRUSSELS-1979-10-16",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "DISC-S41-LICHT-UND-BLINDHEIT-ATMOSPHERE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: type_unite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
     },
     {
       "level": "warning",

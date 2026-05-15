@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T20:17:42"
+generated_at: "2026-05-15T08:45:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 251 |
+| Atomes | 258 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -34,7 +34,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 12 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 19 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -67,6 +67,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_industrielle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A125** — S41-A125 — Natalie Curtis et politique no-girlfriends : famille exclue, groupe accéléré  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec contradiction signalée avec S45`.
+- **S41-A133** — S41-A133 — Annik Honoré : entrée dans l’orbite Joy Division et correction de la mémoire Hook  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `rencontre_biographique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec autocritique mémorielle`.
+- **S41-A134** — S41-A134 — Ian non sacralisé : frontman, désir, people-pleaser et vie de groupe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `demythification` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A135** — S41-A135 — Debbie récupère les ruines : band life, home life et crise domestique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif, partiellement spéculatif`.
+- **S41-A136** — S41-A136 — Crises sur scène : lumière, danse, microphone et trademark involontaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A137** — S41-A137 — Leeds : crise grave et consentement commode du groupe  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_morale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A142** — S41-A142 — « Atmosphere » / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct + objet discographique établi`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A036** — S45-A036 — Le cours sur l’épilepsie : savoir préalable et ironie tragique  
@@ -103,18 +115,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `seuil_professionnel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A105** — S45-A105 — Dernière Factory : crise avant scène et passage à un nouveau chapitre  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_sante` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A109** — S45-A109 — Annik nommée par périphrase : maîtresse invisible et récit domestique falsifié  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_relationnelle` ; importance : `critique` ; preuve : `témoignage direct de Deborah + correction rétrospective par Morris`.
-- **S45-A112** — S45-A112 — Disparitions et fausses pistes : Eraserhead, cricket et peur policière  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A118** — S45-A118 — « Our marriage was over » : dépossession narrative de Deborah  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `synthese_tension` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A120** — S45-A120 — Tournée européenne : départ sans adieu et Annik comme exception à la no women policy  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_tournee` ; importance : `critique` ; preuve : `témoignage direct + souvenir rapporté de Tony Wilson`.
-- **S45-A121** — S45-A121 — Pernod, Bible et Revelation : crise alcoolisée, scène religieuse et récit divergent  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Morris`.
-- **S45-A129** — S45-A129 — Pseudo-crises possibles : manipulation, maladie et prudence probatoire  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `interprétation de Deborah + désaccord rapporté des membres du groupe`.
 
 ## 6. Autres atomes utiles
 
@@ -146,8 +146,20 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A108** — S45-A108 — Rituels téléphoniques : langage conjugal comme assurance obsessionnelle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A109** — S45-A109 — Annik nommée par périphrase : maîtresse invisible et récit domestique falsifié  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_relationnelle` ; importance : `critique` ; preuve : `témoignage direct de Deborah + correction rétrospective par Morris`.
+- **S45-A112** — S45-A112 — Disparitions et fausses pistes : Eraserhead, cricket et peur policière  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A118** — S45-A118 — « Our marriage was over » : dépossession narrative de Deborah  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `synthese_tension` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A120** — S45-A120 — Tournée européenne : départ sans adieu et Annik comme exception à la no women policy  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_tournee` ; importance : `critique` ; preuve : `témoignage direct + souvenir rapporté de Tony Wilson`.
+- **S45-A121** — S45-A121 — Pernod, Bible et Revelation : crise alcoolisée, scène religieuse et récit divergent  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_sensible` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Morris`.
 - **S45-A122** — S45-A122 — Arrêt annoncé des concerts : pacificateur domestique et calendrier impossible  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_professionnelle` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A129** — S45-A129 — Pseudo-crises possibles : manipulation, maladie et prudence probatoire  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `interprétation de Deborah + désaccord rapporté des membres du groupe`.
 - **S45-A131** — S45-A131 — Natalie au coucher : paternité désirée et restriction auto-imposée  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_sante` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
@@ -266,18 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S47 — West, Joy Division, 1984 ; type : `reception_radio` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S47-076** — S47-076 — West critique le culte morbide de Curtis  
   Source : S47 — West, Joy Division, 1984 ; type : `critique_mythologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-077** — S47-077 — La mort de Curtis met fin à Joy Division comme entité morale  
-  Source : S47 — West, Joy Division, 1984 ; type : `fin_groupe` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-155** — S47-155 — NME 1980 : Curtis devient figure mémorielle majeure  
-  Source : S47 — West, Joy Division, 1984 ; type : `reception_poll` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-156** — S47-156 — NME 1981 : Ian Curtis deuxième « Most Missed Person »  
-  Source : S47 — West, Joy Division, 1984 ; type : `reception_poll` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-167** — S47-167 — Britannia Row comme studio de la dernière transformation  
-  Source : S47 — West, Joy Division, 1984 ; type : `lieu_studio` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-169** — S47-169 — Birmingham High Hall comme clôture scénique  
-  Source : S47 — West, Joy Division, 1984 ; type : `lieu_terminal` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-173** — S47-173 — John Peel : médiateur du public fervent  
-  Source : S47 — West, Joy Division, 1984 ; type : `acteur_media` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -499,14 +499,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
-- Annik Honoré (20)
+- Annik Honoré (21)
 - fatigue (13)
-- Deborah Curtis (11)
+- Deborah Curtis (12)
 - épilepsie (10)
 - Closer (9)
+- Ian Curtis (9)
 - Rob Gretton (8)
 - Tony Wilson (8)
-- Ian Curtis (8)
 - Natalie Curtis (8)
 - Lindsay Reade (5)
 - Love Will Tear Us Apart (5)
@@ -529,6 +529,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Macclesfield (3)
 - honte (3)
 - American tour (3)
+- epilepsy (3)
+- Atmosphere (3)
+- Sordide Sentimental (3)
 - Derby Hall (3)
 - crise épileptique (3)
 - David Lewis Centre (3)
@@ -536,9 +539,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - mariage (3)
 - chien (2)
 - tournée européenne (2)
-- hovercraft (2)
-- Natalie (2)
-- Annik (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -629,9 +629,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 8 |
+| non qualifié | 9 |
 | lecture_chanson | 7 |
-| tension_domestique | 5 |
+| tension_domestique | 6 |
 | session_studio | 5 |
 | song | 5 |
 | live_set_context | 4 |
@@ -702,6 +702,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | performance_sensible | 1 |
 | interpretation_retrospective | 1 |
 | decision_industrielle | 1 |
+| rencontre_biographique | 1 |
+| demythification | 1 |
+| evenement_medical_live | 1 |
+| tension_morale | 1 |
+| chanson_single | 1 |
 | chronologie_medicale | 1 |
 | scene_live | 1 |
 | coincidence_culturelle | 1 |
@@ -810,8 +815,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 134 |
-| non qualifiée | 89 |
+| critique | 140 |
+| non qualifiée | 90 |
 | majeure | 20 |
 | majeur | 8 |
 
@@ -874,9 +879,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S41-A024 [très élevé] — Risque de psychologisation rétrospective et de réduction de Curtis à une pathologie de l’adaptation.
 - S41-A113 [élevé] — Risque d’idéaliser Factory en oubliant le coût salarial et sanitaire du refus d’avance.
 - S41-A125 [très élevé] — Risque de psychologisation et de jugement familial ; Hook signale lui-même son incertitude.
-- S41-A091 [très élevé] — Risque de relire toute la performance antérieure à travers l’épilepsie ; garder le seuil médical.
-- S41-A092 [moyen] — Le diagnostic ne doit pas transformer rétrospectivement tous les gestes antérieurs en symptômes.
-- S41-A002 [élevé] — Risque de transformer l’intro Kraftwerk en stratégie esthétique pleinement consciente ; Hook laisse plusieurs hypothèses ouvertes.
+- S41-A133 [très élevé] — Risque de psychologisation de Curtis et d’Annik ; Hook signale explicitement la fragilité de sa mémoire.
+- S41-A134 [très élevé] — Risque de corriger un mythe par un autre mythe viriliste ; maintenir la pluralité des points de vue.
+- S41-A135 [très élevé] — Risque de jugement moral et de psychologisation ; Hook parle depuis une culpabilité rétrospective.
 
 ## 15. Lacunes et prochaines vérifications
 

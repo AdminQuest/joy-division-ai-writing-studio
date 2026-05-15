@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T20:17:42"
+generated_at: "2026-05-15T08:45:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 394 |
+| Atomes | 399 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 114 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 119 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -270,16 +270,16 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_lieu` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A131** — S41-A131 — Hook et Les Pattinson : bassistes chauffeurs, fraternité logistique et scène Liverpool-Londres  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **S45-027** — S45-027 — Annick Honoré introduit une fracture supplémentaire  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `relation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S45-031** — S45-031 — *Closer* est vécu comme un album froid et distant  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S45-035** — S45-035 — Derby Hall devient un moment de rupture visible  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-036** — S45-036 — Ian Curtis hésite face à la tournée américaine  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S41-A132** — S41-A132 — M5 : accident du van et fin du bassiste-chauffeur  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_logistique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A138** — S41-A138 — Buzzcocks tour : professionnalisation pauvre et renversement de hiérarchie  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_tournee` ; importance : `critique` ; preuve : `témoignage direct + contexte de tournée établi`.
+- **S41-A139** — S41-A139 — Glasgow : vie de tournée, transgression masculine et fuite avant police  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_tournee_excès` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A140** — S41-A140 — Dundee / Twinny : farce de tournée et brutalité potache  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_tournee_farce` ; importance : `secondaire utile` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A141** — S41-A141 — Plan K Bruxelles : première Europe, Burroughs et collision entre avant-garde et potacherie  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_europeen` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -525,6 +525,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Electric Circus (6)
 - Ian Curtis (6)
 - Peter Saville (6)
+- Buzzcocks tour (5)
 - Russell Club (5)
 - Strawberry Studios (5)
 - RCA (5)
@@ -532,7 +533,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - manager (5)
 - Gretton (5)
 - Love Will Tear Us Apart (5)
-- Buzzcocks tour (4)
 - van (4)
 - Peter Hook (4)
 - télévision (4)
@@ -666,6 +666,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | session_radio | 4 |
 | tension_management | 3 |
 | scene_live | 3 |
+| economie_tournee | 3 |
 | scene_collective | 3 |
 | scene_live_violence | 3 |
 | television | 3 |
@@ -682,7 +683,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | reception_radio | 2 |
 | seuil_chronologique | 2 |
 | construction_esthetique | 2 |
-| economie_tournee | 2 |
 | personne_reseau | 2 |
 | scene_revelation | 2 |
 | chronologie_structurante | 2 |
@@ -756,6 +756,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | objet_audiovisuel | 1 |
 | scene_live_pre_album | 1 |
 | scene_lieu | 1 |
+| evenement_logistique | 1 |
+| scene_tournee_excès | 1 |
+| scene_tournee_farce | 1 |
+| evenement_europeen | 1 |
 | evenement_discographique | 1 |
 | tension_sociale | 1 |
 | scene_live_comparative | 1 |
@@ -863,10 +867,11 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 177 |
+| critique | 180 |
 | non qualifiée | 154 |
-| majeur | 39 |
+| majeur | 40 |
 | majeure | 24 |
+| secondaire utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

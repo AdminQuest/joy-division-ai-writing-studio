@@ -22485,6 +22485,776 @@
   },
   {
     "kind": "atom",
+    "id": "S41-A132",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A132 — M5 : accident du van et fin du bassiste-chauffeur",
+    "data": {
+      "id": "S41-A132",
+      "type_unite": "evenement_logistique",
+      "titre": "M5 : accident du van et fin du bassiste-chauffeur",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "180-181",
+        "papier": "à verrouiller"
+      },
+      "citation": "No more driving the van for me.",
+      "resume": "Après un concert londonien, Hook conduit le van défectueux vers Manchester. Un camion le percute à grande vitesse sur la M5, détruit l’arrière du véhicule et projette une partie du matériel sur l’autoroute. L’accident met fin à son rôle de chauffeur principal et libère Hook, qui rejoint ensuite la vie de bar du groupe, mais il y voit aussi le début d’une pente alcoolique.\n",
+      "role_argumentatif": [
+        "Montrer que la professionnalisation de Joy Division passe aussi par un accident matériel qui redistribue les rôles logistiques et les comportements de tournée."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne ; accident à croiser avec autres souvenirs si disponible",
+        "confiance": "élevée comme mémoire de Hook"
+      },
+      "stabilite": {
+        "statut": "stable comme nœud logistique",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas transformer l’accident en causalité unique de l’alcoolisme ; Hook formule une relation rétrospective."
+      },
+      "motifs": [
+        "M5",
+        "van accident",
+        "forty-foot lorry",
+        "bass cab",
+        "no more driving"
+      ],
+      "concepts_derives": [
+        "accident comme redistribution logistique",
+        "libération ambivalente"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-090"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S41-A131"
+        }
+      ],
+      "couche_narrative": [
+        "logistique",
+        "tournée",
+        "mémoire"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S41-A133",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A133 — Annik Honoré : entrée dans l’orbite Joy Division et correction de la mémoire Hook",
+    "data": {
+      "id": "S41-A133",
+      "type_unite": "rencontre_biographique",
+      "titre": "Annik Honoré : entrée dans l’orbite Joy Division et correction de la mémoire Hook",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "182",
+        "papier": "à verrouiller"
+      },
+      "citation": "You shouldn’t trust a word I say.",
+      "resume": "Hook situe l’arrivée d’Annik Honoré au Nashville Rooms, puis l’entretien *En Attendant* chez Dave Pils. Il reconnaît ne presque pas se souvenir d’Annik à ce moment-là et rapporte qu’elle possède une bande contredisant son souvenir d’une scène de *Control*. La relation Annik/Ian est donc abordée sous le signe de la mémoire lacunaire, de l’archive sonore et de la prudence.\n",
+      "role_argumentatif": [
+        "Utiliser Hook contre Hook : son propre aveu d’incertitude impose de croiser la relation Annik/Ian avec les archives et S45."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif avec autocritique mémorielle",
+        "corroboration": "forte pour l’existence de l’entretien ; faible à moyenne pour les intentions affectives",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable comme alerte méthodologique",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque de psychologisation de Curtis et d’Annik ; Hook signale explicitement la fragilité de sa mémoire."
+      },
+      "motifs": [
+        "Annik Honoré",
+        "En Attendant",
+        "Dave Pils flat",
+        "Control",
+        "tape"
+      ],
+      "concepts_derives": [
+        "mémoire corrigée par archive",
+        "relation sous incertitude"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MYTH-GROUP-MEMORY-TRANSPARENCY"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-104"
+        }
+      ],
+      "couche_narrative": [
+        "mémoire",
+        "Ian Curtis",
+        "domesticité"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S41-A134",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A134 — Ian non sacralisé : frontman, désir, people-pleaser et vie de groupe",
+    "data": {
+      "id": "S41-A134",
+      "type_unite": "demythification",
+      "titre": "Ian non sacralisé : frontman, désir, people-pleaser et vie de groupe",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "182-184",
+        "papier": "à verrouiller"
+      },
+      "citation": "He was our mate.",
+      "resume": "Hook conteste la déification de Curtis : Ian est poétique, romantique et torturé, mais aussi un chanteur de groupe, attiré par les filles, pris dans la vie de tournée, capable de rire aux mêmes obscénités que les autres. Le passage oppose l’Ian de Deborah, l’Ian d’Annik et l’Ian du groupe, en rappelant la logique people-pleaser déjà repérée.\n",
+      "role_argumentatif": [
+        "Désacraliser Curtis sans le diminuer : maintenir ensemble l’artiste, le malade, le mari et le camarade de groupe."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne ; à croiser avec S45 et Morris",
+        "confiance": "élevée comme perception de groupe"
+      },
+      "stabilite": {
+        "statut": "stable comme contre-mythe hookien",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque de corriger un mythe par un autre mythe viriliste ; maintenir la pluralité des points de vue."
+      },
+      "motifs": [
+        "Ian Curtis",
+        "deification",
+        "one of the lads",
+        "people pleaser",
+        "band life"
+      ],
+      "concepts_derives": [
+        "Curtis pluralisé",
+        "contre-mythe du martyr pur"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "MYTH-CURTIS-SOLE-GENIUS"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-104"
+        }
+      ],
+      "couche_narrative": [
+        "Ian Curtis",
+        "mythe",
+        "groupe"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S41-A135",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A135 — Debbie récupère les ruines : band life, home life et crise domestique",
+    "data": {
+      "id": "S41-A135",
+      "type_unite": "tension_domestique",
+      "titre": "Debbie récupère les ruines : band life, home life et crise domestique",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "183-184",
+        "papier": "à verrouiller"
+      },
+      "citation": "pick them up, take them away, drop them back off",
+      "resume": "Hook reconnaît que le groupe prend Ian, l’emmène sur la route et le rend épuisé à Deborah, qui doit gérer les crises, les disputes, les factures, le bébé et le retour de scène. Il distingue l’Ian valorisé par le groupe et l’Ian domestique, épuisé et instable, que Deborah reçoit. Le passage demande une lecture empathique des deux côtés.\n",
+      "role_argumentatif": [
+        "Inscrire la crise Curtis dans une économie relationnelle : le groupe bénéficie d’un Ian que le foyer paie ensuite."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif, partiellement spéculatif",
+        "corroboration": "forte sur tension globale ; détails à croiser avec S45",
+        "confiance": "moyenne à élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme tension ; détails domestiques à prudence",
+        "risque_revision": "moyen à élevé"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque de jugement moral et de psychologisation ; Hook parle depuis une culpabilité rétrospective."
+      },
+      "motifs": [
+        "Deborah Curtis",
+        "home life",
+        "band life",
+        "fits at home",
+        "bills"
+      ],
+      "concepts_derives": [
+        "foyer comme lieu de contrecoup",
+        "coût domestique de la tournée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-104"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S41-A125"
+        }
+      ],
+      "couche_narrative": [
+        "domesticité",
+        "santé",
+        "groupe"
+      ],
+      "usage_livre": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S41-A136",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A136 — Crises sur scène : lumière, danse, microphone et trademark involontaire",
+    "data": {
+      "id": "S41-A136",
+      "type_unite": "evenement_medical_live",
+      "titre": "Crises sur scène : lumière, danse, microphone et trademark involontaire",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "190-191",
+        "papier": "à verrouiller"
+      },
+      "citation": "yet another of those things that unintentionally ended up defining us",
+      "resume": "Durant la tournée Buzzcocks, Curtis a davantage de crises, parfois sur scène. Gretton se bat avec les éclairagistes pour éviter les flashes, mais les lumières déclenchent souvent des épisodes. Le groupe utilise alors des washes de lumière, qui deviennent une signature visuelle. La danse de Curtis, son microphone craft et son engagement physique deviennent indissociables du risque médical.\n",
+      "role_argumentatif": [
+        "Montrer comment la maladie transforme la scénographie et comment une contrainte médicale devient, sans intention esthétique initiale, une marque de Joy Division."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "forte avec autres récits ; détails de dates à croiser",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme nœud santé / performance",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque de romantiser les crises comme style ; le passage impose au contraire la contrainte médicale."
+      },
+      "motifs": [
+        "epilepsy",
+        "lighting",
+        "washes",
+        "Ian dance",
+        "microphone craft"
+      ],
+      "concepts_derives": [
+        "scénographie par contrainte médicale",
+        "style involontaire"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-081"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-087"
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "live",
+        "image"
+      ],
+      "usage_livre": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S41-A137",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A137 — Leeds : crise grave et consentement commode du groupe",
+    "data": {
+      "id": "S41-A137",
+      "type_unite": "tension_morale",
+      "titre": "Leeds : crise grave et consentement commode du groupe",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "191",
+        "papier": "à verrouiller"
+      },
+      "citation": "Because he said he was all right, that’s why.",
+      "resume": "Hook décrit une crise grave à Leeds, où il doit maintenir Curtis backstage et craint qu’il ne meure. Il reconnaît ensuite que Curtis aurait dû se reposer, mais que le groupe accepte sa parole lorsqu’il dit aller bien, parce que cela arrange tout le monde. Le passage condense la responsabilité collective sans la simplifier.\n",
+      "role_argumentatif": [
+        "Identifier le point moral le plus dur : le groupe voit le danger mais continue, parce que le système de tournée l’exige et que Curtis consent."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "moyenne à forte ; à croiser avec S45 / Morris / gig lists",
+        "confiance": "élevée comme mémoire de Hook"
+      },
+      "stabilite": {
+        "statut": "stable comme nœud moral",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Éviter le procès rétrospectif simpliste ; Hook assume une culpabilité après coup."
+      },
+      "motifs": [
+        "Leeds",
+        "seizure",
+        "held him down",
+        "rest",
+        "took his word"
+      ],
+      "concepts_derives": [
+        "consentement commode",
+        "responsabilité collective diffuse"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S41-A105"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-091"
+        }
+      ],
+      "couche_narrative": [
+        "santé",
+        "tournée",
+        "responsabilité"
+      ],
+      "usage_livre": [
+        "Chapitre 12"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S41-A138",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A138 — Buzzcocks tour : professionnalisation pauvre et renversement de hiérarchie",
+    "data": {
+      "id": "S41-A138",
+      "type_unite": "economie_tournee",
+      "titre": "Buzzcocks tour : professionnalisation pauvre et renversement de hiérarchie",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "188-190",
+        "papier": "à verrouiller"
+      },
+      "citation": "We were professional musicians.",
+      "resume": "Joy Division part en tournée britannique avec les Buzzcocks. Les membres quittent leur emploi, vivent avec £12 par semaine, £15 pour Curtis, et découvrent le contraste entre leur pauvreté et les hôtels, riders et privilèges des Buzzcocks. Hook affirme pourtant que Joy Division les dépasse presque chaque soir, sauf à Manchester. La tournée renverse la hiérarchie symbolique tout en conservant une hiérarchie matérielle.\n",
+      "role_argumentatif": [
+        "Documenter la professionnalisation comme seuil ambigu : reconnaissance scénique montante, pauvreté persistante et rivalité sociale avec les aînés punk."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct + contexte de tournée établi",
+        "corroboration": "forte pour tournée ; jugement de supériorité à traiter comme mémoire Hook",
+        "confiance": "élevée comme perception interne"
+      },
+      "stabilite": {
+        "statut": "stable comme seuil de tournée",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas prendre le récit de supériorité scénique comme mesure objective sans reviews."
+      },
+      "motifs": [
+        "Buzzcocks tour",
+        "£12 a week",
+        "dressing rooms",
+        "lobster thermidor",
+        "rough cousins"
+      ],
+      "concepts_derives": [
+        "professionnalisation pauvre",
+        "hiérarchie sociale de tournée"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-098"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-090"
+        }
+      ],
+      "couche_narrative": [
+        "tournée",
+        "économie",
+        "scène"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S41-A139",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A139 — Glasgow : vie de tournée, transgression masculine et fuite avant police",
+    "data": {
+      "id": "S41-A139",
+      "type_unite": "scene_tournee_excès",
+      "titre": "Glasgow : vie de tournée, transgression masculine et fuite avant police",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "191-193",
+        "papier": "à verrouiller"
+      },
+      "citation": "We just needed to concentrate on not being taken into custody",
+      "resume": "À Glasgow, le groupe et l’entourage Buzzcocks basculent dans une nuit de beuverie : défi du pint of piss, bar forcé, bagarre avec mobilier, alerte police et fuite organisée par Gretton. Le récit montre une masculinité de tournée infantile, violente et dangereuse, en contraste avec le traitement simultané de la crise épileptique de Curtis.\n",
+      "role_argumentatif": [
+        "Inscrire la tournée dans un régime d’excès qui brouille professionnalisation, virilité de route et risque pénal."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "faible à moyenne ; à traiter comme mémoire de tournée",
+        "confiance": "élevée comme récit Hook"
+      },
+      "stabilite": {
+        "statut": "stable comme scène d’excès ; détails à prudence",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "majeur"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas folkloriser l’excès ; le passage révèle un environnement peu protecteur."
+      },
+      "motifs": [
+        "Glasgow Hilton",
+        "Sarge",
+        "pint of piss",
+        "bar",
+        "police"
+      ],
+      "concepts_derives": [
+        "masculinité de tournée",
+        "professionnalisation par excès"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S41-A138"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-POSTPUNK-PROFESSIONALIZATION-CLEAN"
+        }
+      ],
+      "couche_narrative": [
+        "tournée",
+        "excès",
+        "masculinité"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S41-A140",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A140 — Dundee / Twinny : farce de tournée et brutalité potache",
+    "data": {
+      "id": "S41-A140",
+      "type_unite": "scene_tournee_farce",
+      "titre": "Dundee / Twinny : farce de tournée et brutalité potache",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "193",
+        "papier": "à verrouiller"
+      },
+      "citation": "the room being haunted",
+      "resume": "À Dundee, Hook raconte une farce contre Twinny : vêtements attachés au drapeau, lit remplacé par un berceau, ampoules retirées, cintres secoués pour lui faire croire que la chambre est hantée. La scène prolonge les farces de T. J. Davidson’s dans l’espace de tournée, entre camaraderie, cruauté et infantilisme.\n",
+      "role_argumentatif": [
+        "Relier les farces de local de répétition aux farces de tournée : le succès ne civilise pas immédiatement la culture interne du groupe."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "faible ; anecdote non décisive",
+        "confiance": "moyenne"
+      },
+      "stabilite": {
+        "statut": "stable comme motif de culture interne",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "secondaire utile"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Atome d’ambiance à ne pas surcharger."
+      },
+      "motifs": [
+        "Dundee",
+        "Twinny",
+        "haunted room",
+        "flagpole",
+        "baby cot"
+      ],
+      "concepts_derives": [
+        "farce de tournée",
+        "continuité potache"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S41-A130"
+        }
+      ],
+      "couche_narrative": [
+        "tournée",
+        "groupe",
+        "farce"
+      ],
+      "usage_livre": [
+        "Chapitre 6"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S41-A141",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A141 — Plan K Bruxelles : première Europe, Burroughs et collision entre avant-garde et potacherie",
+    "data": {
+      "id": "S41-A141",
+      "type_unite": "evenement_europeen",
+      "titre": "Plan K Bruxelles : première Europe, Burroughs et collision entre avant-garde et potacherie",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "194-197",
+        "papier": "à verrouiller"
+      },
+      "citation": "Fuck off, kid",
+      "resume": "Joy Division joue au Plan K de Bruxelles, dans un événement artistique avec William Burroughs, films et Cabaret Voltaire. L’excitation de la première sortie hors Royaume-Uni est aussitôt désacralisée : youth hostel au lieu d’hôtel, Curtis rembarré par Burroughs lorsqu’il demande un livre gratuit, beer volée, dortoir chaotique, bagarres de lits, pissotière improvisée et hamburgers de horse meat impossibles à manger.\n",
+      "role_argumentatif": [
+        "Montrer l’Europe comme seuil ambivalent : avant-garde internationale et art space, mais vécu par le groupe comme farce pauvre, alcoolisée et corporelle."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct rétrospectif",
+        "corroboration": "forte pour Plan K ; détails nocturnes à traiter comme mémoire Hook",
+        "confiance": "élevée pour l’événement ; moyenne pour les dialogues"
+      },
+      "stabilite": {
+        "statut": "stable comme scène européenne ; micro-détails à prudence",
+        "risque_revision": "moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas réduire Plan K à la potacherie ; maintenir la coexistence avant-garde / pauvreté / désordre."
+      },
+      "motifs": [
+        "Plan K",
+        "Brussels",
+        "William Burroughs",
+        "Cabaret Voltaire",
+        "youth hostel",
+        "horse meat"
+      ],
+      "concepts_derives": [
+        "Europe désacralisée",
+        "avant-garde et potacherie"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-085"
+        },
+        {
+          "type": "prépare",
+          "cible": "S41-A142"
+        }
+      ],
+      "couche_narrative": [
+        "Europe",
+        "avant-garde",
+        "tournée"
+      ],
+      "usage_livre": [
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S41-A142",
+    "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41-A142 — « Atmosphere » / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité",
+    "data": {
+      "id": "S41-A142",
+      "type_unite": "chanson_single",
+      "titre": "Atmosphere / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité",
+      "source_id": "S41",
+      "pages": {
+        "pdf": "197",
+        "papier": "à verrouiller"
+      },
+      "citation": "Who puts one of their best songs on a limited-edition single available only in France? Us, that’s who.",
+      "resume": "Au milieu de la tournée Buzzcocks et après Plan K, Hook évoque l’enregistrement de « Atmosphere » pour *Licht und Blindheit*, EP limité au territoire français. Il souligne le paradoxe stratégique : l’un des morceaux les plus reconnus de Joy Division est d’abord placé sur une sortie restreinte. Il le relie aussi à la mémoire funéraire de Curtis, que Hook juge trop lourde pour en faire son morceau préféré.\n",
+      "role_argumentatif": [
+        "Préparer l’analyse de Sordide Sentimental : circulation restreinte, grandeur du morceau et surcharge mémorielle posthume."
+      ],
+      "niveau_preuve": {
+        "statut": "témoignage direct + objet discographique établi",
+        "corroboration": "forte pour l’EP ; interprétation funéraire subjective",
+        "confiance": "élevée"
+      },
+      "stabilite": {
+        "statut": "stable comme nœud discographique et mémoriel",
+        "risque_revision": "faible à moyen"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de lire le morceau uniquement comme death march ; Hook lui-même parle depuis l’après-coup."
+      },
+      "motifs": [
+        "Atmosphere",
+        "Licht und Blindheit",
+        "Sordide Sentimental",
+        "limited edition",
+        "funeral song"
+      ],
+      "concepts_derives": [
+        "chef-d’œuvre à circulation restreinte",
+        "surcharge funéraire posthume"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S41-A124"
+        },
+        {
+          "type": "prépare",
+          "cible": "REGISTRE-SORDIDE-SENTIMENTALE"
+        }
+      ],
+      "couche_narrative": [
+        "discographie",
+        "mémoire",
+        "chanson"
+      ],
+      "usage_livre": [
+        "Chapitre 4",
+        "Chapitre 8",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S41-A079",
     "file": "sources/hook_unknown_pleasures/source_part_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "S41-A079 — *A Factory Sample* : confiance sans contrat et perte possible d’un single",
@@ -36206,7 +36976,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::795",
+    "id": "NO_ID::sources/flowers/README.md::806",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -36223,7 +36993,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::796",
+    "id": "NO_ID::sources/flowers/README.md::807",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -36283,7 +37053,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::797",
+    "id": "NO_ID::sources/flowers/README.md::808",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -36304,7 +37074,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::798",
+    "id": "NO_ID::sources/flowers/README.md::809",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -41021,7 +41791,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::880",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::891",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -76322,7 +77092,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1503",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1514",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -80908,7 +81678,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1649",
+    "id": "NO_ID::sources/suatoni/README.md::1660",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -80925,7 +81695,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1650",
+    "id": "NO_ID::sources/suatoni/README.md::1661",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -80963,7 +81733,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1651",
+    "id": "NO_ID::sources/suatoni/README.md::1662",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -82100,7 +82870,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1687",
+    "id": "NO_ID::sources/greig_strong/README.md::1698",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -82117,7 +82887,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1688",
+    "id": "NO_ID::sources/greig_strong/README.md::1699",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -82146,7 +82916,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1689",
+    "id": "NO_ID::sources/greig_strong/README.md::1700",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -83920,7 +84690,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::1745",
+    "id": "NO_ID::registers/songs/master_songs.md::1756",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -85737,6 +86507,184 @@
       "source_label": "S45 — Curtis, Touching from a Distance, 1995",
       "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
       "source_year": "1995"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "EVENT-S41-M5-VAN-ACCIDENT-1979",
+    "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41 — Chansons, concerts, tournées et objets — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
+    "data": {
+      "id": "EVENT-S41-M5-VAN-ACCIDENT-1979",
+      "source_id": "S41",
+      "titre": "M5 van accident, 1979",
+      "nature": "accident de tournée / rupture logistique",
+      "usage": "Accident qui détruit le van de Hook, projette le matériel sur l’autoroute et met fin au rôle de Hook comme chauffeur principal du groupe.\n",
+      "atomes_lies": [
+        "S41-A132"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "prudence": "Date exacte à verrouiller avec gig lists ; ne pas transformer l’accident en causalité unique de l’alcoolisme de Hook.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "INTERVIEW-S41-EN-ATTENDANT-DAVE-PILS-1979",
+    "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41 — Chansons, concerts, tournées et objets — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
+    "data": {
+      "id": "INTERVIEW-S41-EN-ATTENDANT-DAVE-PILS-1979",
+      "source_id": "S41",
+      "titre": "En Attendant interview, Dave Pils flat, 22 août 1979",
+      "nature": "entretien fanzine / archive sonore potentielle",
+      "usage": "Entretien mené par Annik Honoré et Isabelle après Walthamstow ; Hook l’utilise comme exemple d’archive corrigeant sa propre mémoire.\n",
+      "atomes_lies": [
+        "S41-A133"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "prudence": "Retrouver la bande ou transcription avant toute citation ; croiser avec S45.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "TOUR-S41-BUZZCOCKS-A-DIFFERENT-KIND-OF-TENSION",
+    "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41 — Chansons, concerts, tournées et objets — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
+    "data": {
+      "id": "TOUR-S41-BUZZCOCKS-A-DIFFERENT-KIND-OF-TENSION",
+      "source_id": "S41",
+      "titre": "Buzzcocks tour — A Different Kind of Tension, 1979",
+      "nature": "tournée support / professionnalisation pauvre",
+      "usage": "Tournée où Joy Division devient professionnel à très bas salaire, se compare aux Buzzcocks, subit les crises de Curtis et développe un dispositif scénique par contrainte médicale.\n",
+      "atomes_lies": [
+        "S41-A136",
+        "S41-A137",
+        "S41-A138",
+        "S41-A139",
+        "S41-A140"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "prudence": "Croiser les dates, reviews et intensité des performances avec gig lists et presse ; distinguer mémoire Hook et réception externe.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "LIVE-S41-LEEDS-SEIZURE-BUZZCOCKS-TOUR",
+    "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41 — Chansons, concerts, tournées et objets — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
+    "data": {
+      "id": "LIVE-S41-LEEDS-SEIZURE-BUZZCOCKS-TOUR",
+      "source_id": "S41",
+      "titre": "Leeds seizure, Buzzcocks tour",
+      "nature": "crise épileptique backstage / seuil moral",
+      "usage": "Crise grave de Curtis pendant la tournée Buzzcocks ; Hook le maintient backstage et reconnaît la facilité morale consistant à croire Curtis quand il dit aller bien.\n",
+      "atomes_lies": [
+        "S41-A137"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "prudence": "Croiser avec S45, Morris et gig lists ; éviter le procès rétrospectif simpliste.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "LIVE-S41-PLAN-K-BRUSSELS-1979-10-16",
+    "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41 — Chansons, concerts, tournées et objets — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
+    "data": {
+      "id": "LIVE-S41-PLAN-K-BRUSSELS-1979-10-16",
+      "source_id": "S41",
+      "titre": "Plan K, Bruxelles, 16 octobre 1979",
+      "nature": "concert européen / art space / avant-garde",
+      "usage": "Première sortie hors Royaume-Uni selon Hook : événement avec William Burroughs, films, Joy Division et Cabaret Voltaire, vécu comme mélange d’avant-garde et de désordre pauvre.\n",
+      "atomes_lies": [
+        "S41-A141"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "prudence": "Ne pas réduire Plan K à l’anecdote de dortoir ; maintenir l’importance artistique de l’événement.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "DISC-S41-LICHT-UND-BLINDHEIT-ATMOSPHERE",
+    "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41 — Chansons, concerts, tournées et objets — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
+    "data": {
+      "id": "DISC-S41-LICHT-UND-BLINDHEIT-ATMOSPHERE",
+      "source_id": "S41",
+      "titre": "Licht und Blindheit — \"Atmosphere\" / \"Dead Souls\"",
+      "nature": "EP Sordide Sentimental / édition limitée française",
+      "usage": "Objet qui place « Atmosphere » dans un circuit limité avant sa canonisation ; Hook insiste sur le paradoxe stratégique et la surcharge funéraire posthume du morceau.\n",
+      "atomes_lies": [
+        "S41-A142"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 8",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "prudence": "Croiser avec Discogs, Joydiv.org et sources Sordide Sentimental ; éviter de lire « Atmosphere » uniquement comme death march posthume.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+    "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41 — Chansons, concerts, tournées et objets — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
+    "data": {
+      "id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE",
+      "source_id": "S41",
+      "titre": "Atmosphere",
+      "artiste": "Joy Division",
+      "nature": "chanson / mémoire posthume / circulation restreinte initiale",
+      "usage": "Morceau présenté par Hook comme immense mais trop associé à Curtis et aux funérailles pour être son préféré ; utile pour analyser la différence entre destination discographique initiale et usage mémoriel ultérieur.\n",
+      "atomes_lies": [
+        "S41-A142"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "prudence": "Distinguer composition, sortie Sordide Sentimental, réception posthume et usage funéraire.",
+      "source_label": "S41 — Hook, Unknown Pleasures, 2012",
+      "source_short_title": "Peter Hook, Unknown Pleasures: Inside Joy Division, 2012",
+      "source_year": "2012"
     }
   },
   {
@@ -89386,7 +90334,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md::1911",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md::1929",
     "file": "registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "S41 — Citations candidates — Timeline Two, de Warsaw à Joy Division",
     "data": {
@@ -89522,7 +90470,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md::1912",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md::1930",
     "file": "registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md",
     "heading": "S41 — Citations candidates — Peel, Factory vs Genetic, Eden Studios",
     "data": {
@@ -90011,7 +90959,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::1922",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::1940",
     "file": "registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Citations candidates — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -90315,7 +91263,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1923",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::1941",
     "file": "registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Citations candidates — tournée européenne, Annik, foyer et seuil Closer",
     "data": {
@@ -92208,7 +93156,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1968",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::1986",
     "file": "registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md",
     "heading": "S45 — Citations candidates — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -92996,6 +93944,170 @@
       ],
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2004",
+    "file": "registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41 — Citations candidates — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
+    "data": {
+      "quotes": [
+        {
+          "id": "S41-Q133",
+          "source_id": "S41",
+          "passage": "No more driving the van for me.",
+          "traduction_de_travail": "Plus question pour moi de conduire le van.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "181",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A132"
+          ]
+        },
+        {
+          "id": "S41-Q134",
+          "source_id": "S41",
+          "passage": "You shouldn’t trust a word I say.",
+          "traduction_de_travail": "Vous ne devriez pas croire un mot de ce que je dis.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "182",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A133"
+          ]
+        },
+        {
+          "id": "S41-Q135",
+          "source_id": "S41",
+          "passage": "He was our mate.",
+          "traduction_de_travail": "C’était notre pote.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "183",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A134"
+          ]
+        },
+        {
+          "id": "S41-Q136",
+          "source_id": "S41",
+          "passage": "pick them up, take them away, drop them back off",
+          "traduction_de_travail": "les prendre, les emmener, puis les redéposer",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "183",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A135"
+          ]
+        },
+        {
+          "id": "S41-Q137",
+          "source_id": "S41",
+          "passage": "yet another of those things that unintentionally ended up defining us",
+          "traduction_de_travail": "encore une de ces choses qui ont fini par nous définir involontairement",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "191",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A136"
+          ]
+        },
+        {
+          "id": "S41-Q138",
+          "source_id": "S41",
+          "passage": "Because he said he was all right, that’s why.",
+          "traduction_de_travail": "Parce qu’il disait qu’il allait bien, voilà pourquoi.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "191",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A137"
+          ]
+        },
+        {
+          "id": "S41-Q139",
+          "source_id": "S41",
+          "passage": "We were professional musicians.",
+          "traduction_de_travail": "Nous étions des musiciens professionnels.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "188",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A138"
+          ]
+        },
+        {
+          "id": "S41-Q140",
+          "source_id": "S41",
+          "passage": "We just needed to concentrate on not being taken into custody",
+          "traduction_de_travail": "Nous devions seulement nous concentrer sur le fait de ne pas être placés en garde à vue",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "193",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A139"
+          ]
+        },
+        {
+          "id": "S41-Q141",
+          "source_id": "S41",
+          "passage": "the room being haunted",
+          "traduction_de_travail": "la chambre était hantée",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "193",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A140"
+          ]
+        },
+        {
+          "id": "S41-Q142",
+          "source_id": "S41",
+          "passage": "Fuck off, kid",
+          "traduction_de_travail": "Dégage, gamin",
+          "statut": {
+            "original": "propos_burroughs_rapportes",
+            "pagination_pdf": "195",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A141"
+          ]
+        },
+        {
+          "id": "S41-Q143",
+          "source_id": "S41",
+          "passage": "Who puts one of their best songs on a limited-edition single available only in France? Us, that’s who.",
+          "traduction_de_travail": "Qui met l’un de ses meilleurs morceaux sur un single en édition limitée disponible seulement en France ? Nous, voilà qui.",
+          "statut": {
+            "original": "verifie_sur_ocr",
+            "pagination_pdf": "197",
+            "pagination_papier": "a_completer"
+          },
+          "atomes_lies": [
+            "S41-A142"
+          ]
+        }
+      ]
     }
   },
   {
@@ -94032,7 +95144,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2013",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2032",
     "file": "registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "S41 — Citations candidates — Warsaw, premiers concerts, Hannett/Erasmus, démos",
     "data": {
@@ -94773,7 +95885,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md::2027",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md::2046",
     "file": "registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "S41 — Citations candidates — Lesser Free Trade Hall, basse, scène punk et recrutement de Curtis",
     "data": {
@@ -95237,7 +96349,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2035",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2054",
     "file": "registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "S41 — Citations candidates — Factory Sample, tournée Rezillos/Undertones, Hope & Anchor, épilepsie",
     "data": {
@@ -95443,7 +96555,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::2036",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::2055",
     "file": "registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Citations candidates — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -96703,7 +97815,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::2065",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::2084",
     "file": "registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "S41 — Citations candidates — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
     "data": {
@@ -97345,7 +98457,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::2080",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::2099",
     "file": "registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Citations candidates — Pips et premier concert Joy Division",
     "data": {
@@ -98266,7 +99378,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md::2102",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md::2121",
     "file": "registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "S41 — Citations candidates — An Ideal for Living, changement de nom, TJ Davidson’s",
     "data": {
@@ -99245,7 +100357,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md::2125",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md::2144",
     "file": "registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "S41 — Citations candidates — Factory deal, *Unknown Pleasures*, anti-image",
     "data": {
@@ -100546,7 +101658,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md::2157",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md::2176",
     "file": "registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "S41 — Citations candidates — Timeline Three, année 1978",
     "data": {
@@ -100924,7 +102036,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md::2163",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md::2182",
     "file": "registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "S41 — Citations candidates — Stiff/Chiswick, RCA, Gretton, Factory, Granada",
     "data": {
@@ -103133,7 +104245,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2227",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2246",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -103290,7 +104402,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2228",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2247",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -103532,7 +104644,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2229",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2248",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -103598,7 +104710,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2230",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2249",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -103752,7 +104864,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::2231",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::2250",
     "file": "registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -103839,7 +104951,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::2232",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::2251",
     "file": "registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -104050,7 +105162,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::2233",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::2252",
     "file": "registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -104123,7 +105235,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::2234",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::2253",
     "file": "registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -104335,7 +105447,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::2235",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::2254",
     "file": "registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -104478,7 +105590,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::2236",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::2255",
     "file": "registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -104772,7 +105884,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2237",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2256",
     "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -104831,7 +105943,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2238",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2257",
     "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -104959,7 +106071,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2239",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2258",
     "file": "registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -105060,7 +106172,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2240",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2259",
     "file": "registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -105241,7 +106353,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2241",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2260",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -105391,7 +106503,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2242",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2261",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -105620,7 +106732,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2243",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2262",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -105714,7 +106826,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2244",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2263",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -105884,7 +106996,332 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::2245",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2264",
+    "file": "registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "Relations stabilisées",
+    "data": {
+      "relations": [
+        {
+          "id": "REL-S41-A132-CONCEPT-108",
+          "source": "S41-A132",
+          "type": "prolonge",
+          "cible": "CONCEPT-108",
+          "justification": "L’accident du van met fin au rôle de Hook comme chauffeur principal et transforme la logistique de tournée.\n"
+        },
+        {
+          "id": "REL-S41-A133-CONCEPT-105",
+          "source": "S41-A133",
+          "type": "prolonge",
+          "cible": "CONCEPT-105",
+          "justification": "Le souvenir de Hook sur Annik et l’entretien En Attendant est corrigé par une archive sonore, ce qui impose une prudence méthodologique.\n"
+        },
+        {
+          "id": "REL-S41-A134-CONCEPT-106",
+          "source": "S41-A134",
+          "type": "prolonge",
+          "cible": "CONCEPT-106",
+          "justification": "Hook pluralise Curtis contre la figure unique du martyr littéraire ou du pur chanteur tragique.\n"
+        },
+        {
+          "id": "REL-S41-A135-CONCEPT-104",
+          "source": "S41-A135",
+          "type": "prolonge",
+          "cible": "CONCEPT-104",
+          "justification": "Le groupe bénéficie de l’énergie scénique de Curtis tandis que le foyer en reçoit le contrecoup domestique et médical.\n"
+        },
+        {
+          "id": "REL-S41-A136-CONCEPT-107",
+          "source": "S41-A136",
+          "type": "prolonge",
+          "cible": "CONCEPT-107",
+          "justification": "Les crises et la sensibilité aux flashes conduisent à une adaptation lumineuse qui devient signature visuelle.\n"
+        },
+        {
+          "id": "REL-S41-A137-CONCEPT-091",
+          "source": "S41-A137",
+          "type": "prolonge",
+          "cible": "CONCEPT-091",
+          "justification": "Après une crise grave, le groupe accepte la parole rassurante de Curtis et poursuit la tournée.\n"
+        },
+        {
+          "id": "REL-S41-A138-CONCEPT-108",
+          "source": "S41-A138",
+          "type": "prolonge",
+          "cible": "CONCEPT-108",
+          "justification": "La tournée Buzzcocks fait passer Joy Division au statut professionnel, mais dans une économie très pauvre.\n"
+        },
+        {
+          "id": "REL-S41-A139-CONCEPT-109",
+          "source": "S41-A139",
+          "type": "prolonge",
+          "cible": "CONCEPT-109",
+          "justification": "La nuit de Glasgow illustre la masculinité de tournée : alcool, défi obscène, destruction et risque policier.\n"
+        },
+        {
+          "id": "REL-S41-A140-CONCEPT-109",
+          "source": "S41-A140",
+          "type": "prolonge",
+          "cible": "CONCEPT-109",
+          "justification": "La farce de Dundee prolonge la culture interne brutale et potache de tournée.\n"
+        },
+        {
+          "id": "REL-S41-A141-CONCEPT-110",
+          "source": "S41-A141",
+          "type": "prolonge",
+          "cible": "CONCEPT-110",
+          "justification": "Plan K associe seuil européen, avant-garde internationale et désordre de tournée pauvre.\n"
+        },
+        {
+          "id": "REL-S41-A142-CONCEPT-111",
+          "source": "S41-A142",
+          "type": "prolonge",
+          "cible": "CONCEPT-111",
+          "justification": "« Atmosphere » apparaît d’abord dans un circuit limité avant de devenir morceau canonique et funéraire."
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2265",
+    "file": "registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "Entrées RAG candidates",
+    "data": {
+      "rag_index": [
+        {
+          "id": "RAG-S41-A132",
+          "source_id": "S41",
+          "atom_id": "S41-A132",
+          "title": "M5 : accident du van et fin du bassiste-chauffeur",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ],
+          "tags": [
+            "m5",
+            "van-accident",
+            "bass-cab",
+            "touring-logistics",
+            "peter-hook"
+          ],
+          "query_boost": [
+            "No more driving the van for me",
+            "forty-foot lorry bass cab motorway Joy Division"
+          ],
+          "use_for": [
+            "logistique de tournée",
+            "professionnalisation pauvre"
+          ],
+          "avoid_for": [
+            "causalité unique de l’alcoolisme"
+          ]
+        },
+        {
+          "id": "RAG-S41-A133",
+          "source_id": "S41",
+          "atom_id": "S41-A133",
+          "title": "Annik Honoré et mémoire corrigée par archive",
+          "chapters": [
+            "Chapitre 10",
+            "Chapitre 12",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "annik-honore",
+            "en-attendant",
+            "dave-pils",
+            "control",
+            "memory"
+          ],
+          "query_boost": [
+            "You shouldn’t trust a word I say",
+            "Annik En Attendant Dave Pils tape Hooky"
+          ],
+          "use_for": [
+            "méthode critique des mémoires",
+            "relation Annik / Ian à croiser"
+          ],
+          "avoid_for": [
+            "psychologisation non croisée"
+          ]
+        },
+        {
+          "id": "RAG-S41-A134",
+          "source_id": "S41",
+          "atom_id": "S41-A134",
+          "title": "Ian Curtis non sacralisé : one of the lads",
+          "chapters": [
+            "Chapitre 10",
+            "Chapitre 12",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "ian-curtis",
+            "myth",
+            "one-of-the-lads",
+            "deification",
+            "people-pleaser"
+          ],
+          "query_boost": [
+            "He was our mate",
+            "deification of Ian one of the lads"
+          ],
+          "use_for": [
+            "démythification de Curtis",
+            "pluralité des Ian"
+          ],
+          "avoid_for": [
+            "contre-mythe viriliste"
+          ]
+        },
+        {
+          "id": "RAG-S41-A136",
+          "source_id": "S41",
+          "atom_id": "S41-A136",
+          "title": "Crises sur scène et washes de lumière",
+          "chapters": [
+            "Chapitre 12",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "epilepsy",
+            "lighting",
+            "washes",
+            "ian-curtis-dance",
+            "stagecraft"
+          ],
+          "query_boost": [
+            "yet another of those things that unintentionally ended up defining us",
+            "Rob lighting men flashes Ian fit washes"
+          ],
+          "use_for": [
+            "scénographie par contrainte médicale",
+            "santé et performance"
+          ],
+          "avoid_for": [
+            "romantisation des crises"
+          ]
+        },
+        {
+          "id": "RAG-S41-A137",
+          "source_id": "S41",
+          "atom_id": "S41-A137",
+          "title": "Leeds : crise grave et consentement commode",
+          "chapters": [
+            "Chapitre 12"
+          ],
+          "tags": [
+            "leeds",
+            "seizure",
+            "epilepsy",
+            "buzzcocks-tour",
+            "responsibility"
+          ],
+          "query_boost": [
+            "Because he said he was all right that’s why",
+            "holding his tongue Leeds seizure"
+          ],
+          "use_for": [
+            "responsabilité collective",
+            "poursuite de tournée malgré crise"
+          ],
+          "avoid_for": [
+            "procès rétrospectif simpliste"
+          ]
+        },
+        {
+          "id": "RAG-S41-A138",
+          "source_id": "S41",
+          "atom_id": "S41-A138",
+          "title": "Buzzcocks tour : professionnalisation pauvre",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "buzzcocks",
+            "tour",
+            "professional-musicians",
+            "lobster-thermidor",
+            "rough-cousins"
+          ],
+          "query_boost": [
+            "We were professional musicians",
+            "rough cousins lobster thermidor Buzzcocks Joy Division"
+          ],
+          "use_for": [
+            "économie de tournée",
+            "renversement de hiérarchie punk"
+          ],
+          "avoid_for": [
+            "supériorité scénique non croisée"
+          ]
+        },
+        {
+          "id": "RAG-S41-A141",
+          "source_id": "S41",
+          "atom_id": "S41-A141",
+          "title": "Plan K Bruxelles : avant-garde et potacherie",
+          "chapters": [
+            "Chapitre 6",
+            "Chapitre 11",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "plan-k",
+            "brussels",
+            "william-burroughs",
+            "cabaret-voltaire",
+            "europe"
+          ],
+          "query_boost": [
+            "Fuck off kid William Burroughs Joy Division Plan K",
+            "Plan K Brussels youth hostel horse meat"
+          ],
+          "use_for": [
+            "première Europe",
+            "avant-garde désacralisée"
+          ],
+          "avoid_for": [
+            "réduction à l’anecdote scatologique"
+          ]
+        },
+        {
+          "id": "RAG-S41-A142",
+          "source_id": "S41",
+          "atom_id": "S41-A142",
+          "title": "Atmosphere / Licht und Blindheit : circuit limité et postérité funéraire",
+          "chapters": [
+            "Chapitre 4",
+            "Chapitre 8",
+            "Chapitre 12",
+            "Chapitre 14"
+          ],
+          "tags": [
+            "atmosphere",
+            "licht-und-blindheit",
+            "sordide-sentimental",
+            "limited-edition",
+            "funeral"
+          ],
+          "query_boost": [
+            "Who puts one of their best songs on a limited-edition single available only in France",
+            "Atmosphere death march funerals Peter Hook"
+          ],
+          "use_for": [
+            "Sordide Sentimental",
+            "canonisation posthume"
+          ],
+          "avoid_for": [
+            "lecture exclusivement funéraire"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::2266",
     "file": "registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -105992,7 +107429,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::2246",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::2267",
     "file": "registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -106232,7 +107669,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::2247",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::2268",
     "file": "registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -106340,7 +107777,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::2248",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::2269",
     "file": "registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -106608,7 +108045,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2249",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2270",
     "file": "registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -106667,7 +108104,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2250",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2271",
     "file": "registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -106819,7 +108256,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2251",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2272",
     "file": "registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -106927,7 +108364,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2252",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2273",
     "file": "registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -107159,7 +108596,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::2253",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::2274",
     "file": "registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -107232,7 +108669,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::2254",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::2275",
     "file": "registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -107440,7 +108877,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2255",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2276",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -107548,7 +108985,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2256",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2277",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -107756,7 +109193,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2257",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2278",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -107878,7 +109315,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2258",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2279",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -108012,7 +109449,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2259",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2280",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -108033,7 +109470,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2260",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2281",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -108113,7 +109550,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2261",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2282",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -108290,7 +109727,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2262",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2283",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -108412,7 +109849,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2263",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2284",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -108578,7 +110015,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::2264",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::2285",
     "file": "registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -108665,7 +110102,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::2265",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::2286",
     "file": "registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -108902,7 +110339,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2266",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2287",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -108961,7 +110398,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2267",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2288",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -109010,7 +110447,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2268",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2289",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -111180,6 +112617,241 @@
       "chapitres": [
         "Chapitre 10",
         "Chapitre 12"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-158",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-158 — van pulvérisé sur la M5",
+    "data": {
+      "id": "MOTIF-158",
+      "nom": "van pulvérisé sur la M5",
+      "definition": "Motif logistique : l’accident avec un forty-footer détruit le van et met fin au rôle de Hook comme chauffeur principal, ouvrant une liberté ambivalente de tournée.\n",
+      "atomes_lies": [
+        "S41-A132"
+      ],
+      "concepts_associes": [
+        "CONCEPT-090",
+        "CONCEPT-108"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-159",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-159 — You shouldn’t trust a word I say",
+    "data": {
+      "id": "MOTIF-159",
+      "nom": "You shouldn’t trust a word I say",
+      "definition": "Motif méthodologique : Hook reconnaît que l’archive sonore d’Annik corrige sa propre mémoire, imposant de traiter son témoignage comme source directe mais non transparente.\n",
+      "atomes_lies": [
+        "S41-A133"
+      ],
+      "concepts_associes": [
+        "CONCEPT-105"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-160",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-160 — Ian one of the lads",
+    "data": {
+      "id": "MOTIF-160",
+      "nom": "Ian one of the lads",
+      "definition": "Motif de désacralisation : Hook rappelle le Curtis du groupe, camarade, frontman et participant aux plaisanteries obscènes, contre la figure unique du martyr poétique.\n",
+      "atomes_lies": [
+        "S41-A134"
+      ],
+      "concepts_associes": [
+        "CONCEPT-106"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-161",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-161 — Debbie récupère Ian",
+    "data": {
+      "id": "MOTIF-161",
+      "nom": "Debbie récupère Ian",
+      "definition": "Motif domestique : le groupe profite de l’Ian de la route et de la scène, puis le rend épuisé à Deborah, qui doit gérer le contrecoup familial et médical.\n",
+      "atomes_lies": [
+        "S41-A135"
+      ],
+      "concepts_associes": [
+        "CONCEPT-104",
+        "CONCEPT-106"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-162",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-162 — washes contre stroboscopes",
+    "data": {
+      "id": "MOTIF-162",
+      "nom": "washes contre stroboscopes",
+      "definition": "Motif scénique : la nécessité d’éviter les flashes déclencheurs de crises conduit aux washes de lumière devenus signature visuelle.\n",
+      "atomes_lies": [
+        "S41-A136"
+      ],
+      "concepts_associes": [
+        "CONCEPT-107"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-163",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-163 — Because he said he was all right",
+    "data": {
+      "id": "MOTIF-163",
+      "nom": "Because he said he was all right",
+      "definition": "Motif moral : après une crise grave à Leeds, le groupe accepte la parole rassurante de Curtis parce que cela permet de poursuivre la tournée.\n",
+      "atomes_lies": [
+        "S41-A137"
+      ],
+      "concepts_associes": [
+        "CONCEPT-091",
+        "CONCEPT-107"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-164",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-164 — rough cousins des Buzzcocks",
+    "data": {
+      "id": "MOTIF-164",
+      "nom": "rough cousins des Buzzcocks",
+      "definition": "Motif social : Joy Division se voit comme parent pauvre, working-class et rugueux des Buzzcocks, installés dans une économie de tournée plus confortable.\n",
+      "atomes_lies": [
+        "S41-A138"
+      ],
+      "concepts_associes": [
+        "CONCEPT-108"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-165",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-165 — pint of piss Glasgow",
+    "data": {
+      "id": "MOTIF-165",
+      "nom": "pint of piss Glasgow",
+      "definition": "Motif d’excès de tournée : défi obscène, alcool, bar forcé et fuite avant police dans le Hilton de Glasgow.\n",
+      "atomes_lies": [
+        "S41-A139"
+      ],
+      "concepts_associes": [
+        "CONCEPT-109"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-166",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-166 — Twinny chambre hantée",
+    "data": {
+      "id": "MOTIF-166",
+      "nom": "Twinny chambre hantée",
+      "definition": "Motif de farce de tournée : à Dundee, le groupe met en scène une chambre hantée pour punir Twinny de sa proximité avec les Buzzcocks.\n",
+      "atomes_lies": [
+        "S41-A140"
+      ],
+      "concepts_associes": [
+        "CONCEPT-109"
+      ],
+      "chapitres": [
+        "Chapitre 6"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-167",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-167 — Fuck off kid Burroughs",
+    "data": {
+      "id": "MOTIF-167",
+      "nom": "Fuck off kid Burroughs",
+      "definition": "Motif de désacralisation avant-gardiste : Curtis approche William Burroughs au Plan K pour obtenir un livre, et se fait sèchement renvoyer.\n",
+      "atomes_lies": [
+        "S41-A141"
+      ],
+      "concepts_associes": [
+        "CONCEPT-110"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-168",
+    "file": "registers/motifs/s41_hook_motifs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "MOTIF-168 — Atmosphere funéraire après-coup",
+    "data": {
+      "id": "MOTIF-168",
+      "nom": "Atmosphere funéraire après-coup",
+      "definition": "Motif mémoriel : Hook relie « Atmosphere » à Curtis et aux funérailles, tout en signalant que cette charge posthume pèse sur son écoute du morceau.\n",
+      "atomes_lies": [
+        "S41-A142"
+      ],
+      "concepts_associes": [
+        "CONCEPT-111"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 8",
+        "Chapitre 12",
+        "Chapitre 14"
       ]
     }
   },
@@ -113893,7 +115565,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::2449",
+    "id": "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::2481",
     "file": "registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Personnes — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -114010,7 +115682,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2450",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::2482",
     "file": "registers/people/s45_curtis_people_1979_buzzcocks_tour.md",
     "heading": "S45 — Personnes — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -114750,7 +116422,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1979_factory_deal_unknown_pleasures_release_anti_image.md::2468",
+    "id": "NO_ID::registers/people/s41_hook_people_1979_factory_deal_unknown_pleasures_release_anti_image.md::2500",
     "file": "registers/people/s41_hook_people_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "S41 — Personnes — Factory deal, *Unknown Pleasures*, anti-image",
     "data": {
@@ -115004,7 +116676,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1979_peel_factory_genetic_eden_transition.md::2472",
+    "id": "NO_ID::registers/people/s41_hook_people_1979_peel_factory_genetic_eden_transition.md::2504",
     "file": "registers/people/s41_hook_people_1979_peel_factory_genetic_eden_transition.md",
     "heading": "S41 — Personnes — Peel, Factory vs Genetic, Eden Studios",
     "data": {
@@ -115968,7 +117640,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1978_timeline_three_factory_live_medical_threshold.md::2493",
+    "id": "NO_ID::registers/people/s41_hook_people_1978_timeline_three_factory_live_medical_threshold.md::2525",
     "file": "registers/people/s41_hook_people_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "S41 — Personnes — Timeline Three, année 1978",
     "data": {
@@ -116287,7 +117959,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md::2498",
+    "id": "NO_ID::registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md::2530",
     "file": "registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Personnes — Pips et premier concert Joy Division",
     "data": {
@@ -116521,7 +118193,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2503",
+    "id": "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::2535",
     "file": "registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Personnes — tournée européenne, Annik, foyer et seuil Closer",
     "data": {
@@ -116962,7 +118634,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1978_stiff_chiswick_rca_gretton_factory_granada.md::2512",
+    "id": "NO_ID::registers/people/s41_hook_people_1978_stiff_chiswick_rca_gretton_factory_granada.md::2544",
     "file": "registers/people/s41_hook_people_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "S41 — Personnes — Stiff/Chiswick, RCA, Gretton, Factory, Granada",
     "data": {
@@ -117180,7 +118852,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1976_1977_timeline_two_warsaw_to_joy_division.md::2513",
+    "id": "NO_ID::registers/people/s41_hook_people_1976_1977_timeline_two_warsaw_to_joy_division.md::2545",
     "file": "registers/people/s41_hook_people_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "S41 — Personnes — Timeline Two, de Warsaw à Joy Division",
     "data": {
@@ -117871,7 +119543,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2529",
+    "id": "NO_ID::registers/people/s41_hook_people_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2561",
     "file": "registers/people/s41_hook_people_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "S41 — Personnes — Warsaw, premiers concerts, Hannett/Erasmus, démos",
     "data": {
@@ -118569,7 +120241,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1976_lesser_free_trade_hall_bass_ian_joining.md::2543",
+    "id": "NO_ID::registers/people/s41_hook_people_1976_lesser_free_trade_hall_bass_ian_joining.md::2575",
     "file": "registers/people/s41_hook_people_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "S41 — Personnes — Lesser Free Trade Hall, basse, scène punk et recrutement de Curtis",
     "data": {
@@ -118948,7 +120620,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1956_1976_salford_jamaica_music_pistols_epiphany.md::2549",
+    "id": "NO_ID::registers/people/s41_hook_people_1956_1976_salford_jamaica_music_pistols_epiphany.md::2581",
     "file": "registers/people/s41_hook_people_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "S41 — Personnes — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
     "data": {
@@ -119361,6 +121033,219 @@
       "source_label": "S45 — Curtis, Touching from a Distance, 1995",
       "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
       "source_year": "1995"
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/people/s41_hook_people_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2593",
+    "file": "registers/people/s41_hook_people_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41 — Personnes — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
+    "data": {
+      "people": [
+        {
+          "id": "PERS-S41-ANNIK-HONORE-NASHVILLE-EN-ATTENDANT",
+          "personne": "Annik Honoré",
+          "source_id": "S41",
+          "role": "Entre dans l’orbite Joy Division au Nashville Rooms, puis conduit avec Isabelle l’entretien En Attendant chez Dave Pils ; sa bande corrige un souvenir de Hook.",
+          "statut": "interlocutrice / archive mémorielle / relation Curtis",
+          "atomes_lies": [
+            "S41-A133",
+            "S41-A134"
+          ],
+          "usage": [
+            "Chapitre 10",
+            "Chapitre 12",
+            "Chapitre 14"
+          ],
+          "prudence": "Croiser impérativement avec S45, l’entretien En Attendant et les sources belges."
+        },
+        {
+          "id": "PERS-S41-ISABELLE-EN-ATTENDANT",
+          "personne": "Isabelle",
+          "source_id": "S41",
+          "role": "Amie d’Annik Honoré, présente lors de l’entrée en contact avec Joy Division autour du Nashville Rooms et de l’entretien En Attendant.",
+          "statut": "témoin périphérique",
+          "atomes_lies": [
+            "S41-A133"
+          ],
+          "usage": [
+            "Chapitre 10",
+            "Chapitre 14"
+          ]
+        },
+        {
+          "id": "PERS-S41-DAVE-PILS-FLAT-ANNIK",
+          "personne": "Dave Pils",
+          "source_id": "S41",
+          "role": "Son flat sert de lieu à l’entretien En Attendant ; figure logistique et périphérique du groupe dans la période 1979.",
+          "statut": "entourage / lieu d’entretien",
+          "atomes_lies": [
+            "S41-A133",
+            "S41-A141"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ]
+        },
+        {
+          "id": "PERS-S41-IAN-CURTIS-PLURALIZED-TOUR",
+          "personne": "Ian Curtis",
+          "source_id": "S41",
+          "role": "Figure pluralisée : frontman, mari, malade, camarade de groupe, objet de désir, lecteur de Burroughs, sujet de crises sur scène et chanteur associé rétrospectivement à Atmosphere.",
+          "statut": "chanteur / sujet médical / sujet mythologique",
+          "atomes_lies": [
+            "S41-A133",
+            "S41-A134",
+            "S41-A135",
+            "S41-A136",
+            "S41-A137",
+            "S41-A141",
+            "S41-A142"
+          ],
+          "usage": [
+            "Chapitre 10",
+            "Chapitre 12",
+            "Chapitre 14"
+          ],
+          "prudence": "Éviter la psychologisation et la téléologie morbide."
+        },
+        {
+          "id": "PERS-S41-DEBORAH-CURTIS-HOME-LIFE",
+          "personne": "Deborah Curtis",
+          "source_id": "S41",
+          "role": "Pôle domestique recevant l’Ian épuisé, malade et sans argent après les tournées ; figure à traiter avec empathie et recoupement S45.",
+          "statut": "épouse / témoin primaire à croiser",
+          "atomes_lies": [
+            "S41-A135"
+          ],
+          "usage": [
+            "Chapitre 10",
+            "Chapitre 12"
+          ],
+          "prudence": "Hook parle depuis un point de vue externe au foyer ; croiser avec Touching from a Distance."
+        },
+        {
+          "id": "PERS-S41-ROB-GRETTON-BUZZCOCKS-TOUR-LIGHTS",
+          "personne": "Rob Gretton",
+          "source_id": "S41",
+          "role": "Manager de tournée : organise la fuite à Glasgow, se bat avec les éclairagistes contre les flashes, tient les comptes et tente de maintenir Joy Division en mouvement.",
+          "statut": "manager / régulateur imparfait",
+          "atomes_lies": [
+            "S41-A136",
+            "S41-A138",
+            "S41-A139"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 12",
+            "Chapitre 14"
+          ]
+        },
+        {
+          "id": "PERS-S41-SARGE-BUZZCOCKS-SECURITY",
+          "personne": "Sarge",
+          "source_id": "S41",
+          "role": "Garde de porte et figure de sécurité des Buzzcocks ; incarne la frontière sociale et matérielle entre dressing-room pauvre de Joy Division et privilèges des Buzzcocks.",
+          "statut": "crew / sécurité / culture de tournée",
+          "atomes_lies": [
+            "S41-A138",
+            "S41-A139"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ]
+        },
+        {
+          "id": "PERS-S41-PETE-SHELLEY-BUZZCOCKS-TOUR",
+          "personne": "Pete Shelley",
+          "source_id": "S41",
+          "role": "Membre des Buzzcocks ; figure d’aîné punk dont le confort de tournée contraste avec la pauvreté de Joy Division selon Hook.",
+          "statut": "aîné punk / point de comparaison social",
+          "atomes_lies": [
+            "S41-A138"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ]
+        },
+        {
+          "id": "PERS-S41-MIKE-NOLAN-BUZZCOCKS",
+          "personne": "Mike Nolan",
+          "source_id": "S41",
+          "role": "Tour manager des Buzzcocks ; recrute Twinny pour de la sécurité de scène après l’incident du Factory.",
+          "statut": "tour manager / médiateur de tournée",
+          "atomes_lies": [
+            "S41-A138"
+          ],
+          "usage": [
+            "Chapitre 6"
+          ]
+        },
+        {
+          "id": "PERS-S41-TWINNY-BUZZCOCKS-PLAN-K",
+          "personne": "Twinny",
+          "source_id": "S41",
+          "role": "Roadie central des scènes de tournée : absent lors de l’accident M5, proche des Buzzcocks, cible de farces, voleur de bière au Plan K et acteur des désordres de dortoir.",
+          "statut": "roadie / culture interne / farces",
+          "atomes_lies": [
+            "S41-A132",
+            "S41-A139",
+            "S41-A140",
+            "S41-A141"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ]
+        },
+        {
+          "id": "PERS-S41-WILLIAM-BURROUGHS-PLAN-K",
+          "personne": "William Burroughs",
+          "source_id": "S41",
+          "role": "Figure d’avant-garde présente au Plan K ; repousse sèchement Curtis lorsque celui-ci demande un livre gratuit selon Hook.",
+          "statut": "figure littéraire / désacralisation avant-gardiste",
+          "atomes_lies": [
+            "S41-A141"
+          ],
+          "usage": [
+            "Chapitre 11",
+            "Chapitre 14"
+          ],
+          "prudence": "Dialogue rapporté à traiter avec prudence."
+        },
+        {
+          "id": "PERS-S41-MICHEL-DUVAL-PLAN-K",
+          "personne": "Michel Duval",
+          "source_id": "S41",
+          "role": "Organisateur du Plan K, accueille Joy Division à Bruxelles et les conduit à leur hébergement.",
+          "statut": "organisateur / scène européenne",
+          "atomes_lies": [
+            "S41-A141"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ]
+        },
+        {
+          "id": "PERS-S41-CABARET-VOLTAIRE-PLAN-K",
+          "personne": "Cabaret Voltaire",
+          "source_id": "S41",
+          "role": "Partage le contexte Plan K avec Joy Division ; bénéficie d’un hébergement meilleur, où Curtis tente d’obtenir un lit selon Hook.",
+          "statut": "groupe avant-garde / réseau européen",
+          "atomes_lies": [
+            "S41-A141"
+          ],
+          "usage": [
+            "Chapitre 6",
+            "Chapitre 11",
+            "Chapitre 14"
+          ]
+        }
+      ]
     }
   },
   {
@@ -119849,7 +121734,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1977_an_ideal_name_change_tj_davidson_sound.md::2575",
+    "id": "NO_ID::registers/people/s41_hook_people_1977_an_ideal_name_change_tj_davidson_sound.md::2608",
     "file": "registers/people/s41_hook_people_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "S41 — Personnes — An Ideal for Living, changement de nom, TJ Davidson’s",
     "data": {
@@ -119982,7 +121867,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2576",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::2609",
     "file": "registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Personnes — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -120472,7 +122357,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2589",
+    "id": "NO_ID::registers/people/s41_hook_people_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2622",
     "file": "registers/people/s41_hook_people_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "S41 — Personnes — Factory Sample, tournée Rezillos/Undertones, Hope & Anchor, épilepsie",
     "data": {
@@ -121450,6 +123335,281 @@
       "risques": [
         "réduire *Closer* à la crise intime",
         "causalité esthétique trop directe"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-105",
+    "file": "registers/concepts/s41_hook_concepts_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "CONCEPT-105 — mémoire corrigée par archive",
+    "data": {
+      "id": "CONCEPT-105",
+      "nom": "mémoire corrigée par archive",
+      "statut": {
+        "type": [
+          "concept_methode",
+          "concept_memoire",
+          "concept_archive"
+        ],
+        "stabilite": "stable"
+      },
+      "definition": "Situation où le témoin reconnaît que son souvenir est fragile ou faux, et où une trace matérielle — bande, interview, enregistrement — oblige à corriger la mémoire rétrospective.\n",
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S41-A133"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "MYTH-GROUP-MEMORY-TRANSPARENCY"
+        }
+      ],
+      "risques": [
+        "traiter l’autodérision de Hook comme preuve générale d’inexactitude totale",
+        "ignorer l’archive qui contraint le souvenir"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-106",
+    "file": "registers/concepts/s41_hook_concepts_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "CONCEPT-106 — Curtis pluralisé",
+    "data": {
+      "id": "CONCEPT-106",
+      "nom": "Curtis pluralisé",
+      "statut": {
+        "type": [
+          "concept_biographique",
+          "concept_mythe",
+          "concept_groupe"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Concept désignant la nécessité de tenir ensemble plusieurs figures de Curtis : chanteur, mari, malade, parolier, séducteur, camarade de groupe, frontman et people-pleaser. Aucun de ces régimes ne suffit seul.\n",
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S41-A134",
+        "S41-A135"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "MYTH-CURTIS-SOLE-GENIUS"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-104"
+        }
+      ],
+      "risques": [
+        "remplacer l’hagiographie par un contre-mythe viriliste",
+        "affaiblir la portée artistique de Curtis sous prétexte de désacralisation"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-107",
+    "file": "registers/concepts/s41_hook_concepts_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "CONCEPT-107 — scénographie par contrainte médicale",
+    "data": {
+      "id": "CONCEPT-107",
+      "nom": "scénographie par contrainte médicale",
+      "statut": {
+        "type": [
+          "concept_sante",
+          "concept_live",
+          "concept_image"
+        ],
+        "stabilite": "stable"
+      },
+      "definition": "Transformation d’une contrainte médicale en dispositif scénique : l’épilepsie et la sensibilité aux flashes conduisent à privilégier des washes de lumière, devenus ensuite une signature visuelle.\n",
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S41-A136",
+        "S41-A137"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-081"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-087"
+        }
+      ],
+      "risques": [
+        "romantiser les crises comme esthétique volontaire",
+        "oublier la peur et le risque médical"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-108",
+    "file": "registers/concepts/s41_hook_concepts_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "CONCEPT-108 — professionnalisation pauvre",
+    "data": {
+      "id": "CONCEPT-108",
+      "nom": "professionnalisation pauvre",
+      "statut": {
+        "type": [
+          "concept_tournee",
+          "concept_economie",
+          "concept_scene"
+        ],
+        "stabilite": "stable"
+      },
+      "definition": "Professionnalisation où le groupe quitte le travail salarié et entre en tournée, mais reste payé très peu, dépend des autres, conserve une logistique fragile et vit un écart social avec les groupes déjà installés.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S41-A132",
+        "S41-A138",
+        "S41-A139"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-098"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-090"
+        }
+      ],
+      "risques": [
+        "faire de la pauvreté un folklore romantique",
+        "surestimer la supériorité scénique sans reviews contemporaines"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-109",
+    "file": "registers/concepts/s41_hook_concepts_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "CONCEPT-109 — masculinité de tournée",
+    "data": {
+      "id": "CONCEPT-109",
+      "nom": "masculinité de tournée",
+      "statut": {
+        "type": [
+          "concept_tournee",
+          "concept_corps",
+          "concept_groupe"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Régime de comportements masculins de route : alcool, défis obscènes, destruction, farces, rivalités, coups, honte et camaraderie brutale, qui accompagne la professionnalisation sans l’assagir.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S41-A139",
+        "S41-A140",
+        "S41-A141"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "MYTH-POSTPUNK-PROFESSIONALIZATION-CLEAN"
+        }
+      ],
+      "risques": [
+        "folkloriser la brutalité",
+        "confondre ambiance de tournée et valeur esthétique du groupe"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-110",
+    "file": "registers/concepts/s41_hook_concepts_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "CONCEPT-110 — Europe désacralisée",
+    "data": {
+      "id": "CONCEPT-110",
+      "nom": "Europe désacralisée",
+      "statut": {
+        "type": [
+          "concept_europe",
+          "concept_tournee",
+          "concept_avant_garde"
+        ],
+        "stabilite": "assez_stable"
+      },
+      "definition": "Première sortie européenne vécue simultanément comme accès à l’avant-garde internationale et comme expérience pauvre, alcoolisée, potache et corporellement triviale.\n",
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S41-A141"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-085"
+        }
+      ],
+      "risques": [
+        "réduire Plan K au burlesque de tournée",
+        "gommer l’importance artistique de l’événement"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-111",
+    "file": "registers/concepts/s41_hook_concepts_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "CONCEPT-111 — chef-d’œuvre à circulation restreinte",
+    "data": {
+      "id": "CONCEPT-111",
+      "nom": "chef-d’œuvre à circulation restreinte",
+      "statut": {
+        "type": [
+          "concept_discographie",
+          "concept_chanson",
+          "concept_memoire"
+        ],
+        "stabilite": "stable"
+      },
+      "definition": "Paradoxe discographique où un morceau devenu central dans la mémoire du groupe apparaît d’abord sur une sortie limitée, localisée ou marginale, avant sa canonisation.\n",
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 8",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S41-A142"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-103"
+        }
+      ],
+      "risques": [
+        "lire l’objet uniquement depuis sa canonisation ultérieure",
+        "rabattre « Atmosphere » sur une seule fonction funéraire"
       ]
     }
   },
@@ -125462,7 +127622,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2700",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2740",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-FACTORY-IDEALISM — Factory comme pure utopie désintéressée",
     "data": {
@@ -125477,7 +127637,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2701",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2741",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul destin sonore possible",
     "data": {
@@ -125492,7 +127652,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2702",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2742",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme clé immédiate de Joy Division",
     "data": {
@@ -125507,7 +127667,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2703",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2743",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-CURTIS-SOLE-GENIUS — Curtis comme auteur unique du groupe",
     "data": {
@@ -125523,7 +127683,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2704",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2744",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-EPILEPSY-RETROREADING — Toute la période doit être relue par l’épilepsie",
     "data": {
@@ -125540,7 +127700,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2705",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::2745",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-POSTPUNK-PROFESSIONALIZATION-CLEAN — La professionnalisation post-punk comme montée propre et maîtrisée",
     "data": {
@@ -125557,7 +127717,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2706",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2746",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -125579,7 +127739,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2707",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2747",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -125597,7 +127757,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2708",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2748",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -125615,7 +127775,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2709",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::2749",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -125631,7 +127791,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::2710",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::2750",
     "file": "registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Complément MYTH-ORIGIN-CLARITY — Origines parfaitement linéaires",
     "data": {
@@ -125647,7 +127807,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::2711",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::2751",
     "file": "registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Complément MYTH-GROUP-MEMORY-TRANSPARENCY — Mémoire de groupe transparente",
     "data": {
@@ -125664,7 +127824,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::2712",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::2752",
     "file": "registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Complément MYTH-RARE-OBJECT-AURA — Objet rare comme vérité originelle",
     "data": {
@@ -125680,7 +127840,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2713",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2753",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -125699,7 +127859,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2714",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2754",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -125719,7 +127879,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2715",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2755",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -125734,7 +127894,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2716",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::2756",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Closer comme pur objet de studio",
     "data": {
@@ -125749,7 +127909,118 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::2717",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2757",
+    "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "Complément MYTH-GROUP-MEMORY-TRANSPARENCY — Mémoire transparente du groupe",
+    "data": {
+      "mythe_id": "MYTH-GROUP-MEMORY-TRANSPARENCY",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A133"
+      ],
+      "apport": "Hook reconnaît explicitement que la bande d’Annik peut corriger son souvenir et conclut qu’il ne faut pas croire tout ce qu’il dit. Cette autocritique renforce le statut de son livre : témoignage central, mais mémoire à contrôler.\n",
+      "usage_recommande": "Utiliser Hook comme source primaire critique : riche, directe, mais à croiser avec archives, S45 et autres récits."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2758",
+    "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "Complément MYTH-CURTIS-SOLE-GENIUS — Curtis comme pur génie séparé du groupe",
+    "data": {
+      "mythe_id": "MYTH-CURTIS-SOLE-GENIUS",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A134",
+        "S41-A135"
+      ],
+      "apport": "Hook insiste sur l’Ian du groupe : camarade, frontman, participant à la vie de tournée, ni saint ni pur martyr. Il demande aussi de penser Debbie, qui reçoit le contrecoup domestique de ce que le groupe prélève.\n",
+      "usage_recommande": "Pluraliser Curtis : artiste, malade, mari, camarade, people-pleaser et frontman."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2759",
+    "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "Complément MYTH-EPILEPSY-RETROREADING — L’épilepsie comme clé esthétique totale",
+    "data": {
+      "mythe_id": "MYTH-EPILEPSY-RETROREADING",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A136",
+        "S41-A137"
+      ],
+      "apport": "Les crises produisent des effets scéniques, comme l’adoption des washes de lumière, mais ces effets naissent d’une contrainte médicale et d’une peur concrète. Il ne faut donc pas transformer la maladie en esthétique volontaire.\n",
+      "usage_recommande": "Distinguer symptôme, adaptation scénique, contrainte médicale et mythologisation ultérieure."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2760",
+    "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "Complément MYTH-POSTPUNK-PROFESSIONALIZATION-CLEAN — Professionnalisation post-punk propre et maîtrisée",
+    "data": {
+      "mythe_id": "MYTH-POSTPUNK-PROFESSIONALIZATION-CLEAN",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A132",
+        "S41-A138",
+        "S41-A139",
+        "S41-A140"
+      ],
+      "apport": "La tournée Buzzcocks montre une professionnalisation pauvre, alcoolisée, hiérarchisée et parfois dangereuse : très bas salaires, accidents, humiliations sociales, vandalisme, police, farces et absence de cadre protecteur.\n",
+      "usage_recommande": "Ne pas écrire l’ascension de Joy Division comme montée propre vers le succès ; conserver le désordre matériel et corporel."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2761",
+    "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "Complément MYTH-LONDON-CONSECRATION — Londres comme centre unique de validation",
+    "data": {
+      "mythe_id": "MYTH-LONDON-CONSECRATION",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A132",
+        "S41-A133"
+      ],
+      "apport": "Les scènes londoniennes restent ambiguës : elles ouvrent des rencontres majeures, comme Annik au Nashville Rooms, mais elles produisent aussi fatigue, accidents de retour et logistique dangereuse.\n",
+      "usage_recommande": "Traiter Londres comme espace de circulation et de risque, non comme pure consécration."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2762",
+    "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "Complément MYTH-EUROPE-ARTISTIC-CONSECRATION — L’Europe comme consécration artistique pure",
+    "data": {
+      "mythe_id": "MYTH-EUROPE-ARTISTIC-CONSECRATION",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A141"
+      ],
+      "apport": "Plan K est un événement d’avant-garde important, mais Hook le raconte aussi comme youth hostel, alcool, incompréhension linguistique, humiliation devant Burroughs et horse meat. L’Europe est donc seuil artistique et désacralisation matérielle.\n",
+      "usage_recommande": "Tenir ensemble prestige culturel et trivialité de tournée."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2763",
+    "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "Complément MYTH-ATMOSPHERE-DEATH-SONG — Atmosphere comme morceau uniquement funéraire",
+    "data": {
+      "mythe_id": "MYTH-ATMOSPHERE-DEATH-SONG",
+      "complement_source": "S41",
+      "atomes_qui_nuancent": [
+        "S41-A142"
+      ],
+      "apport": "Hook associe rétrospectivement « Atmosphere » à Curtis et aux funérailles, mais rappelle aussi sa première existence comme morceau placé sur un EP français limité. L’usage funéraire est une couche postérieure, non le seul sens originel.\n",
+      "usage_recommande": "Distinguer genèse, publication Sordide Sentimental, réception posthume et usage cérémoniel."
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::2764",
     "file": "registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Complément MYTH-FACTORY-RECORDS-DESTINY — Factory Records comme destin immédiat",
     "data": {
@@ -125765,7 +128036,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::2718",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::2765",
     "file": "registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Complément MYTH-007 — Controverse nazie",
     "data": {
@@ -125781,7 +128052,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::2719",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::2766",
     "file": "registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Complément MYTH-WILSON-INSTANT-RECOGNITION — Wilson et la reconnaissance instantanée",
     "data": {
@@ -125797,7 +128068,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::2720",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::2767",
     "file": "registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Complément MYTH-LONDON-CONSECRATION — Londres comme consécration naturelle",
     "data": {
@@ -125812,7 +128083,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::2721",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::2768",
     "file": "registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Complément MYTH-GROUP-MEMORY-TRANSPARENCY — Mémoire transparente du groupe",
     "data": {
@@ -126236,7 +128507,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2732",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2779",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-FACTORY-IDEALISM — Factory comme pure utopie désintéressée",
     "data": {
@@ -126253,7 +128524,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2733",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2780",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -126271,7 +128542,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2734",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2781",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-UP-IMMEDIATE-MASTERPIECE — Unknown Pleasures reconnu immédiatement par tous comme chef-d’œuvre",
     "data": {
@@ -126287,7 +128558,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2735",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2782",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-SAVILLE-PURE-DESIGN — La pochette comme pur geste de design détaché du groupe",
     "data": {
@@ -126302,7 +128573,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2736",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2783",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-JD-MYSTIQUE-INTENTIONAL — La mystique Joy Division comme stratégie parfaitement consciente",
     "data": {
@@ -126318,7 +128589,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2737",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2784",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-LONDON-CONSECRATION — Londres comme consécration naturelle",
     "data": {
@@ -126333,7 +128604,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2738",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::2785",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-CURTIS-HOME-BAND-SEPARATE — Séparation naturelle entre famille et groupe",
     "data": {
@@ -126348,7 +128619,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2739",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2786",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-003 — Manchester comme matrice unique",
     "data": {
@@ -126365,7 +128636,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2740",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2787",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -126383,7 +128654,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2741",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2788",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -126400,7 +128671,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2742",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2789",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -126415,7 +128686,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2743",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::2790",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-009 — Rob Gretton comme manager sauveur",
     "data": {
@@ -126431,7 +128702,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::2744",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::2791",
     "file": "registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Complément MYTH-SEX-PISTOLS-LFTH-ORIGIN — Le concert des Pistols comme origine absolue",
     "data": {
@@ -126447,7 +128718,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::2745",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::2792",
     "file": "registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Complément MYTH-HOOK-BASS-GENIUS — Hook bassiste comme vocation immédiate",
     "data": {
@@ -126463,7 +128734,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::2746",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::2793",
     "file": "registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Complément MYTH-002 — Curtis déjà poète maudit",
     "data": {
@@ -126480,7 +128751,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::2747",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::2794",
     "file": "registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Complément MYTH-JOY-DIVISION-ARTY-PURITY — Joy Division comme projet artistique pur",
     "data": {
@@ -126498,7 +128769,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2748",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2795",
     "file": "registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Complément MYTH-JOY-DIVISION-ARTY-PURITY — Joy Division comme projet d’art pur",
     "data": {
@@ -126518,7 +128789,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2749",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2796",
     "file": "registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Complément MYTH-007 — Controverse nazie",
     "data": {
@@ -126533,7 +128804,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2750",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2797",
     "file": "registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Complément MYTH-GROUP-BROTHERHOOD — Joy Division comme fraternité homogène",
     "data": {
@@ -126549,7 +128820,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2751",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2798",
     "file": "registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Complément MYTH-HANNETT-REVELATION-INSTANTANEE — Hannett comme producteur immédiatement destiné",
     "data": {
@@ -126565,7 +128836,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::2752",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::2799",
     "file": "registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Complément MYTH-007 — Controverse nazie",
     "data": {
@@ -126582,7 +128853,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::2753",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::2800",
     "file": "registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Complément MYTH-HOOK-BASS-GENIUS — Hook bassiste comme génie immédiat",
     "data": {
@@ -126597,7 +128868,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::2754",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::2801",
     "file": "registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -126612,7 +128883,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::2755",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::2802",
     "file": "registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Complément MYTH-INDUSTRIAL-PLACE-CAUSE — Le lieu industriel comme cause directe du son",
     "data": {
@@ -126627,7 +128898,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::2756",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::2803",
     "file": "registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Complément MYTH-RARE-OBJECT-AURA — L’objet rare comme valeur originelle",
     "data": {
@@ -126643,7 +128914,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2757",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2804",
     "file": "registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Complément MYTH-FACTORY-IDEALISM — Factory comme pure utopie désintéressée",
     "data": {
@@ -126659,7 +128930,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2758",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2805",
     "file": "registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -126676,7 +128947,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2759",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2806",
     "file": "registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Complément MYTH-PUNK-AUTHENTICITY — Le chaos punk comme authenticité désirable",
     "data": {
@@ -126693,7 +128964,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2760",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2807",
     "file": "registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Complément MYTH-LONDON-CONSECRATION — Londres comme consécration naturelle",
     "data": {
@@ -126709,7 +128980,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2761",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2808",
     "file": "registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Complément MYTH-EPILEPSY-RETROREADING — Toute violence antérieure comme symptôme",
     "data": {
@@ -126725,7 +128996,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2762",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2809",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -126746,7 +129017,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2763",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2810",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -126767,7 +129038,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2764",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2811",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-STROSZEK-CAUSE — Stroszek comme cause explicative du suicide",
     "data": {
@@ -126782,7 +129053,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2765",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::2812",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU / objet canonique isolé",
     "data": {
@@ -126797,7 +129068,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2766",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2813",
     "file": "registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Complément MYTH-LESSER-FREE-TRADE-HALL — Lieu sacré de la naissance punk mancunienne",
     "data": {
@@ -126812,7 +129083,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2767",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2814",
     "file": "registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Complément MYTH-SEX-PISTOLS-LFTH-ORIGIN — Le concert comme origine unique",
     "data": {
@@ -126828,7 +129099,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2768",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::2815",
     "file": "registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Complément MYTH-JOY-DIVISION-ARTY-PURITY — Joy Division comme groupe d’art pur",
     "data": {
@@ -126843,7 +129114,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2769",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2816",
     "file": "registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md",
     "heading": "Complément MYTH-007 — La controverse nazie",
     "data": {
@@ -126858,7 +129129,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2770",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::2817",
     "file": "registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md",
     "heading": "Complément MYTH-002 — Curtis comme figure tragique déjà constituée",
     "data": {
@@ -126875,7 +129146,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::2771",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::2818",
     "file": "registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Complément MYTH-WILSON-INSTANT-RECOGNITION — Wilson découvre immédiatement Joy Division",
     "data": {
@@ -126892,7 +129163,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::2772",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::2819",
     "file": "registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Complément MYTH-GRETTON-SAVIOUR — Gretton sauve Joy Division",
     "data": {
@@ -126909,7 +129180,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::2773",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::2820",
     "file": "registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Complément MYTH-RCA-LOST-ALBUM — L’album RCA comme joyau perdu",
     "data": {
@@ -126926,7 +129197,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::2774",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::2821",
     "file": "registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Complément MYTH-FACTORY-RECORDS-DESTINY — Factory Records comme destin immédiat",
     "data": {
@@ -126942,7 +129213,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::2775",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::2822",
     "file": "registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Complément MYTH-HOOK-BASS-GENIUS — Hook bassiste comme signature purement personnelle",
     "data": {
@@ -126957,7 +129228,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2776",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2823",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -126976,7 +129247,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2777",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2824",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -126998,7 +129269,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2778",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2825",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -127014,7 +129285,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2779",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2826",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-CURTIS-AUTEUR-TOTAL — Curtis comme auteur total de Joy Division",
     "data": {
@@ -127030,7 +129301,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2780",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2827",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -127046,7 +129317,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2781",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::2828",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-009 — Gretton comme manager sauveur",
     "data": {
@@ -127698,7 +129969,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md::2797",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md::2844",
     "file": "registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Chronologie candidate — Pips et premier concert Joy Division",
     "data": {
@@ -128290,7 +130561,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2811",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::2858",
     "file": "registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Chronologie candidate — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -129058,7 +131329,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2827",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::2874",
     "file": "registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md",
     "heading": "S45 — Chronologie candidate — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -129138,7 +131409,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_factory_deal_unknown_pleasures_release_anti_image.md::2828",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_factory_deal_unknown_pleasures_release_anti_image.md::2875",
     "file": "registers/chronology/s41_hook_chronology_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "S41 — Chronologie candidate — Factory deal, *Unknown Pleasures*, anti-image",
     "data": {
@@ -130044,7 +132315,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1977_an_ideal_name_change_tj_davidson_sound.md::2846",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1977_an_ideal_name_change_tj_davidson_sound.md::2893",
     "file": "registers/chronology/s41_hook_chronology_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "S41 — Chronologie candidate — An Ideal for Living, changement de nom, TJ Davidson’s",
     "data": {
@@ -130961,7 +133232,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2872",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::2919",
     "file": "registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Chronologie candidate — tournée européenne, Annik, foyer et seuil *Closer*",
     "data": {
@@ -131121,7 +133392,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2874",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2921",
     "file": "registers/chronology/s41_hook_chronology_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "S41 — Chronologie candidate — Factory Sample, tournée Rezillos/Undertones, Hope & Anchor, épilepsie",
     "data": {
@@ -131261,7 +133532,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1956_1976_salford_jamaica_music_pistols_epiphany.md::2875",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1956_1976_salford_jamaica_music_pistols_epiphany.md::2922",
     "file": "registers/chronology/s41_hook_chronology_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "S41 — Chronologie candidate — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
     "data": {
@@ -131352,7 +133623,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::2876",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::2923",
     "file": "registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Chronologie candidate — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -132071,7 +134342,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1976_1977_timeline_two_warsaw_to_joy_division.md::2889",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1976_1977_timeline_two_warsaw_to_joy_division.md::2936",
     "file": "registers/chronology/s41_hook_chronology_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "S41 — Chronologie consolidée — Timeline Two, de Warsaw à Joy Division",
     "data": {
@@ -132674,7 +134945,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_peel_factory_genetic_eden_transition.md::2900",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_peel_factory_genetic_eden_transition.md::2947",
     "file": "registers/chronology/s41_hook_chronology_1979_peel_factory_genetic_eden_transition.md",
     "heading": "S41 — Chronologie candidate — Peel, Factory vs Genetic, Eden Studios",
     "data": {
@@ -132786,7 +135057,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_stiff_chiswick_rca_gretton_factory_granada.md::2901",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_stiff_chiswick_rca_gretton_factory_granada.md::2948",
     "file": "registers/chronology/s41_hook_chronology_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "S41 — Chronologie candidate — Stiff/Chiswick, RCA, Gretton, Factory, Granada",
     "data": {
@@ -133553,7 +135824,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_timeline_three_factory_live_medical_threshold.md::2915",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_timeline_three_factory_live_medical_threshold.md::2962",
     "file": "registers/chronology/s41_hook_chronology_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "S41 — Chronologie consolidée — Timeline Three, année 1978",
     "data": {
@@ -134401,7 +136672,160 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1976_lesser_free_trade_hall_bass_ian_joining.md::2928",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2975",
+    "file": "registers/chronology/s41_hook_chronology_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+    "heading": "S41 — Chronologie candidate — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
+    "data": {
+      "chronology": [
+        {
+          "id": "CHR-S41-1979-M5-VAN-ACCIDENT",
+          "source_id": "S41",
+          "date": "1979",
+          "evenement": "Après un concert londonien, le van conduit par Hook est percuté sur la M5 par un camion, détruisant le véhicule et mettant fin à son rôle de chauffeur principal.\n",
+          "atomes_lies": [
+            "S41-A132"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 10"
+          ],
+          "statut": "date exacte à croiser avec gig list"
+        },
+        {
+          "id": "CHR-S41-1979-08-13-NASHVILLE-ANNIK",
+          "source_id": "S41",
+          "date": "1979-08-13",
+          "evenement": "Annik Honoré et Isabelle assistent au concert du Nashville Rooms, Londres, et entrent dans l’orbite de Joy Division via le sonorisateur puis Rob Gretton.\n",
+          "atomes_lies": [
+            "S41-A133"
+          ],
+          "chapitres": [
+            "Chapitre 10",
+            "Chapitre 12",
+            "Chapitre 14"
+          ],
+          "statut": "événement biographique à croiser avec S45 et entretien En Attendant"
+        },
+        {
+          "id": "CHR-S41-1979-08-22-EN-ATTENDANT-INTERVIEW",
+          "source_id": "S41",
+          "date": "1979-08-22",
+          "evenement": "Après le concert du Walthamstow Youth Club, Annik Honoré interviewe Joy Division pour le fanzine En Attendant chez Dave Pils.\n",
+          "atomes_lies": [
+            "S41-A133"
+          ],
+          "chapitres": [
+            "Chapitre 10",
+            "Chapitre 14"
+          ],
+          "statut": "entretien à croiser avec archive audio / transcription"
+        },
+        {
+          "id": "CHR-S41-1979-BUZZCOCKS-TOUR-PROFESSIONAL",
+          "source_id": "S41",
+          "date": "1979",
+          "evenement": "Joy Division rejoint la tournée britannique des Buzzcocks et quitte le travail salarié pour devenir, selon Hook, un groupe professionnel à très bas salaire.\n",
+          "atomes_lies": [
+            "S41-A138"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "statut": "tournée établie ; dates à croiser"
+        },
+        {
+          "id": "CHR-S41-1979-BUZZCOCKS-TOUR-SEIZURES",
+          "source_id": "S41",
+          "date": "1979",
+          "evenement": "Sur la tournée Buzzcocks, Curtis connaît davantage de crises, notamment sur scène ; Gretton tente d’interdire les flashes et le groupe adopte des washes de lumière.\n",
+          "atomes_lies": [
+            "S41-A136",
+            "S41-A137"
+          ],
+          "chapitres": [
+            "Chapitre 12",
+            "Chapitre 14"
+          ],
+          "statut": "séquence médicale à croiser avec S45 et Morris"
+        },
+        {
+          "id": "CHR-S41-1979-LEEDS-SEIZURE",
+          "source_id": "S41",
+          "date": "1979",
+          "evenement": "Lors de la deuxième date de la tournée Buzzcocks à Leeds, Hook maintient Curtis backstage pendant une crise grave et craint qu’il ne meure.\n",
+          "atomes_lies": [
+            "S41-A137"
+          ],
+          "chapitres": [
+            "Chapitre 12"
+          ],
+          "statut": "date précise à croiser avec gig list"
+        },
+        {
+          "id": "CHR-S41-1979-GLASGOW-HILTON-BUZZCOCKS",
+          "source_id": "S41",
+          "date": "1979",
+          "evenement": "Au Hilton de Glasgow, le groupe et l’entourage Buzzcocks passent une nuit de beuverie, vandalisme et fuite avant l’arrivée de la police.\n",
+          "atomes_lies": [
+            "S41-A139"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 14"
+          ],
+          "statut": "mémoire de tournée ; détails à prudence"
+        },
+        {
+          "id": "CHR-S41-1979-DUNDEE-TWINNY-PRANK",
+          "source_id": "S41",
+          "date": "1979",
+          "evenement": "À Dundee, le groupe organise une farce contre Twinny dans sa chambre d’hôtel, prolongeant la culture potache de tournée.\n",
+          "atomes_lies": [
+            "S41-A140"
+          ],
+          "chapitres": [
+            "Chapitre 6"
+          ],
+          "statut": "anecdote secondaire"
+        },
+        {
+          "id": "CHR-S41-1979-10-16-PLAN-K-BRUSSELS",
+          "source_id": "S41",
+          "date": "1979-10-16",
+          "evenement": "Joy Division joue au Plan K de Bruxelles avec Cabaret Voltaire lors d’un événement associant William Burroughs, projections et performance musicale ; première sortie hors Royaume-Uni selon Hook.\n",
+          "atomes_lies": [
+            "S41-A141"
+          ],
+          "chapitres": [
+            "Chapitre 6",
+            "Chapitre 11",
+            "Chapitre 14"
+          ],
+          "statut": "événement européen établi"
+        },
+        {
+          "id": "CHR-S41-1979-10-ATMOSPHERE-LICHT-UND-BLINDHEIT",
+          "source_id": "S41",
+          "date": "1979-10",
+          "evenement": "Joy Division enregistre « Atmosphere » pour Licht und Blindheit, EP Sordide Sentimental limité au territoire français selon le récit de Hook.\n",
+          "atomes_lies": [
+            "S41-A142"
+          ],
+          "chapitres": [
+            "Chapitre 4",
+            "Chapitre 8",
+            "Chapitre 12",
+            "Chapitre 14"
+          ],
+          "statut": "session / sortie à croiser avec discographie Sordide Sentimental"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "template",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1976_lesser_free_trade_hall_bass_ian_joining.md::2976",
     "file": "registers/chronology/s41_hook_chronology_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "S41 — Chronologie candidate — Lesser Free Trade Hall, basse, scène punk et recrutement de Curtis",
     "data": {
@@ -135433,7 +137857,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2956",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3004",
     "file": "registers/chronology/s41_hook_chronology_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "S41 — Chronologie candidate — Warsaw, premiers concerts, Hannett/Erasmus, démos",
     "data": {

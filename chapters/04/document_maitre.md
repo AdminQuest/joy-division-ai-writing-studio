@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T20:17:42"
+generated_at: "2026-05-15T08:45:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-14T20:17:42"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 200 |
+| Atomes | 202 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-14T20:17:42"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 39 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 41 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -65,6 +65,8 @@ generated_at: "2026-05-14T20:17:42"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
+- **S41-A142** — S41-A142 — « Atmosphere » / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct + objet discographique établi`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -113,8 +115,6 @@ generated_at: "2026-05-14T20:17:42"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `memoire_intime_et_reconstruction_critique`.
 - **S75-A065** — S75-A065 — Annik Honoré : liaison, idéal de fuite et nœud biographique sensible  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse_biographique` ; importance : `critique` ; preuve : `reconstruction_memorielle_conflictuelle`.
-- **S75-A068** — S75-A068 — Février-avril 1980 : tentatives, aveuglements et point de non-retour  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `chronologie_sensible` ; importance : `critique` ; preuve : `reconstruction_memorielle_sensible`.
 
 ## 6. Autres atomes utiles
 
@@ -538,10 +538,10 @@ generated_at: "2026-05-14T20:17:42"
 - House of Dolls (2)
 - Throbbing Gristle (2)
 - Interzone (2)
+- Atmosphere (2)
 - mort jeune (2)
 - Mick Middles (2)
 - responsabilité (2)
-- deification (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -588,6 +588,8 @@ generated_at: "2026-05-14T20:17:42"
 - S41-A126 — prolonge → CONCEPT-076
 - S41-A127 — prolonge → CONCEPT-093
 - S41-A127 — prépare → LOVE-WILL-TEAR-US-APART
+- S41-A142 — prolonge → S41-A124
+- S41-A142 — prépare → REGISTRE-SORDIDE-SENTIMENTALE
 - S75-A057 — requiert → CONCEPT-004
 - S75-A057 — nuance → MYTH-002
 - S75-A057 — prolonge → S75-A044
@@ -623,8 +625,6 @@ generated_at: "2026-05-14T20:17:42"
 - S75-A010 — nuance → MYTH-curtis_poete_deja_accompli
 - S75-A010 — corrobore → S45
 - S75-A012 — nuance → S75-A010
-- S75-A012 — prépare → CONCEPT-poesie_de_l_alienation
-- S75-A020 — prolonge → S75-A015
 
 ## 13. Distribution documentaire
 
@@ -632,7 +632,7 @@ generated_at: "2026-05-14T20:17:42"
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 10 |
+| non qualifié | 11 |
 | fait_sensible | 9 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
@@ -650,6 +650,7 @@ generated_at: "2026-05-14T20:17:42"
 | tension_biographique | 3 |
 | live_set_context | 3 |
 | session_studio | 2 |
+| chanson_single | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
 | performance | 2 |
@@ -677,7 +678,6 @@ generated_at: "2026-05-14T20:17:42"
 | tension_industrie | 1 |
 | scene_creative_live | 1 |
 | session_radio | 1 |
-| chanson_single | 1 |
 | iconographie_photographe | 1 |
 | performance_scenique | 1 |
 | citation_contextualisee | 1 |
@@ -760,8 +760,8 @@ generated_at: "2026-05-14T20:17:42"
 
 | Importance | Nombre |
 |---|---|
-| critique | 91 |
-| non qualifiée | 74 |
+| critique | 92 |
+| non qualifiée | 75 |
 | majeure | 33 |
 | majeur | 1 |
 | structurante | 1 |
@@ -785,6 +785,7 @@ generated_at: "2026-05-14T20:17:42"
 - S41-A124 [moyen] — Ne pas confondre version radio, version live et version Sordide Sentimental.
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
 - S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
+- S41-A142 [élevé] — Risque de lire le morceau uniquement comme death march ; Hook lui-même parle depuis l’après-coup.
 - S75-A057 [eleve] — risque de transformer un imaginaire de jeunesse en causalité téléologique de la mort de Curtis
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A059 [eleve] — données médicales secondaires ; ne pas poser de diagnostic rétrospectif ni causalité univoque
@@ -827,7 +828,6 @@ generated_at: "2026-05-14T20:17:42"
 - S74-A013 [eleve] — risque de surévaluer rétrospectivement un groupe marginal en raison des trajectoires ultérieures de ses membres
 - S76-A141 [eleve] — risque de téléologie du succès fatal ; maintenir la pluralité des contraintes
 - S76-A143 [tres_eleve] — risque de réduire la crise à un triangle amoureux ou à une faute individuelle
-- S76-A146 [tres_eleve] — scène spectaculaire et médicale ; très fort risque de causalité simpliste ou de théâtralisation morbide
 
 ## 15. Lacunes et prochaines vérifications
 

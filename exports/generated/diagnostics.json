@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-14T20:17:30",
+  "generated_at": "2026-05-15T08:45:35",
   "status": "warning",
   "summary": {
-    "records_total": 2972,
+    "records_total": 3020,
     "records_by_kind": {
-      "atom": 1511,
+      "atom": 1523,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 75,
+      "unknown": 81,
       "song": 41,
-      "template": 159,
+      "template": 171,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 157,
+      "motif": 168,
       "person": 157,
-      "concept": 101,
+      "concept": 108,
       "myth": 11
     },
-    "diagnostics_total": 15448,
+    "diagnostics_total": 15556,
     "errors": 0,
-    "warnings": 15448,
+    "warnings": 15556,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 413,
-        "atoms": 316,
+        "records": 431,
+        "atoms": 328,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -122,6 +122,7 @@
           "registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "registers/songs/s41_hook_songs_1978_timeline_three_factory_live_medical_threshold.md",
           "registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+          "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
@@ -140,6 +141,7 @@
           "sources/hook_unknown_pleasures/source_part_1978_stiff_chiswick_rca_gretton_factory_granada.md",
           "sources/hook_unknown_pleasures/source_part_1978_timeline_three_factory_live_medical_threshold.md",
           "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
+          "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md"
         ]
       },
@@ -18659,6 +18661,534 @@
       "file": "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
       "message": "Invalid value for type_unite: scene_reseau",
       "record_id": "S41-A131"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A132"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A132"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A132"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A132"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A132"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A132"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A132"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: evenement_logistique",
+      "record_id": "S41-A132"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: rencontre_biographique",
+      "record_id": "S41-A133"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: demythification",
+      "record_id": "S41-A134"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: tension_domestique",
+      "record_id": "S41-A135"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: evenement_medical_live",
+      "record_id": "S41-A136"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: tension_morale",
+      "record_id": "S41-A137"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: economie_tournee",
+      "record_id": "S41-A138"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: scene_tournee_excès",
+      "record_id": "S41-A139"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: scene_tournee_farce",
+      "record_id": "S41-A140"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: evenement_europeen",
+      "record_id": "S41-A141"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A142"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Invalid value for type_unite: chanson_single",
+      "record_id": "S41-A142"
     },
     {
       "level": "warning",
@@ -83585,6 +84115,126 @@
       "file": "registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md",
       "message": "Unable to infer documentary kind",
       "record_id": "OBJ-S45-LAST-PHOTOGRAPH-NATALIE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "EVENT-S41-M5-VAN-ACCIDENT-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "INTERVIEW-S41-EN-ATTENDANT-DAVE-PILS-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "TOUR-S41-BUZZCOCKS-A-DIFFERENT-KIND-OF-TENSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-LEEDS-SEIZURE-BUZZCOCKS-TOUR"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-PLAN-K-BRUSSELS-1979-10-16"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "DISC-S41-LICHT-UND-BLINDHEIT-ATMOSPHERE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-ATMOSPHERE-FUNERAL-AFTERLIFE"
     },
     {
       "level": "warning",

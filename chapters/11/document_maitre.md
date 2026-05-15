@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-14T20:17:42"
+generated_at: "2026-05-15T08:45:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 182 |
+| Atomes | 183 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 5 |
@@ -34,7 +34,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 29 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 30 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
@@ -63,6 +63,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage rétrospectif + contexte critique rapporté`.
 - **S41-A098** — S41-A098 — Bradford Royal Standard : public National Front et survie par mimétisme ambigu  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_politique_live` ; importance : `critique` ; preuve : `témoignage Hook inséré dans la timeline`.
+- **S41-A141** — S41-A141 — Plan K Bruxelles : première Europe, Burroughs et collision entre avant-garde et potacherie  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_europeen` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
 - **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
@@ -117,8 +119,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `temoignage_Terry_Mason_et_reconstruction_S76`.
 - **S76-A088** — S76-A088 — Fin 1978 : grossesse de Debbie, montée du groupe et pression multidirectionnelle  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `reconstruction_S76`.
-- **S76-A113** — S76-A113 — Curtis contre l’aloofness : désir de communication et politesse envers les journalistes  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `portrait_relationnel` ; importance : `critique` ; preuve : `synthese_S76_appuyee_sur_temoin_presse`.
 
 ## 6. Autres atomes utiles
 
@@ -432,6 +432,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Rudolf Hess (2)
 - Rock Against Racism (2)
 - Short Circuit (2)
+- Plan K (2)
 - Atmosphere (2)
 - silence (2)
 - Dead Souls (2)
@@ -456,7 +457,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - souffrance (1)
 - guerre (1)
 - nazisme (1)
-- uniformes (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -491,6 +491,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S41-A021 — prépare → S41-A026
 - S41-A098 — prolonge → CONCEPT-062
 - S41-A098 — prolonge → MYTH-007
+- S41-A141 — prolonge → CONCEPT-085
+- S41-A141 — prépare → S41-A142
 - S41-A001 — prolonge → MYTH-007
 - S41-A001 — prolonge → CONCEPT-025
 - S41-A001 — prolonge → S45-A100
@@ -538,8 +540,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A048 — annonce → S74-A049
 - S74-A049 — prolonge → S74-A048
 - S74-A049 — nuance → MYTH-002
-- S74-A049 — complète → S74-A047
-- S74-A050 — complète → S74-A049
 
 ## 13. Distribution documentaire
 
@@ -583,6 +583,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | evenement_discographique | 1 |
 | scene_live_violence | 1 |
 | tension_politique_live | 1 |
+| evenement_europeen | 1 |
 | scene_ecoute | 1 |
 | chronologie | 1 |
 | reference_litteraire | 1 |
@@ -645,7 +646,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 124 |
-| critique | 42 |
+| critique | 43 |
 | majeure | 13 |
 | majeur | 3 |
 
@@ -662,6 +663,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S41-A040 [moyen] — Ne pas isoler Rudolf Hess de la logique plus large de maladresse provocatrice et de piège industriel.
 - S41-A021 [moyen] — Risque de linéariser la sortie du punk ; la scène est une relecture ultérieure.
 - S41-A098 [très élevé] — La formule doit être lue comme mémoire de danger et ironie politique.
+- S41-A141 [moyen] — Ne pas réduire Plan K à la potacherie ; maintenir la coexistence avant-garde / pauvreté / désordre.
 - S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
 - S41-A012 [moyen] — Risque d’en faire une influence formelle directe ; Hook parle surtout de gateway.
 - S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
