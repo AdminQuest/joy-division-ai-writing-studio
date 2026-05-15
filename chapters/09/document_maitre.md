@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T19:04:51"
+generated_at: "2026-05-15T21:46:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-15T19:04:51"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 168 |
+| Atomes | 171 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
@@ -39,7 +39,7 @@ generated_at: "2026-05-15T19:04:51"
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 46 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 20 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 6 | 0 |
-| S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 5 | 0 |
+| S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 8 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 11 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 16 | 0 |
@@ -241,8 +241,8 @@ generated_at: "2026-05-15T19:04:51"
 - Rob Gretton (23)
 - Ian Curtis (15)
 - Factory (13)
+- Manchester (11)
 - Warsaw (11)
-- Manchester (10)
 - management (9)
 - factory records (8)
 - Joy Division (8)
@@ -270,6 +270,7 @@ generated_at: "2026-05-15T19:04:51"
 - Bowdon Vale (4)
 - Birmingham University (4)
 - concerts (4)
+- authenticité (4)
 - bootleg (3)
 - indépendance (3)
 - paul morley (3)
@@ -289,7 +290,6 @@ generated_at: "2026-05-15T19:04:51"
 - live (3)
 - son live (3)
 - epilepsie (3)
-- authenticité (3)
 - futurama (2)
 - warner bros (2)
 - wea (2)
@@ -342,8 +342,8 @@ generated_at: "2026-05-15T19:04:51"
 | Type | Nombre |
 |---|---|
 | fait | 10 |
+| reception | 9 |
 | chronologie | 9 |
-| reception | 8 |
 | sociologie | 8 |
 | concert | 7 |
 | evenement | 6 |
@@ -351,10 +351,10 @@ generated_at: "2026-05-15T19:04:51"
 | relation | 5 |
 | production | 5 |
 | contexte_scene | 5 |
+| analyse | 4 |
 | management | 4 |
 | reception_live | 4 |
 | anecdote_significative | 4 |
-| analyse | 3 |
 | acteur | 3 |
 | concert_incident | 3 |
 | industrie_musicale | 3 |
@@ -419,12 +419,13 @@ generated_at: "2026-05-15T19:04:51"
 | reception_scene | 1 |
 | contexte_economique | 1 |
 | portrait | 1 |
+| controverse | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 167 |
+| non qualifiée | 170 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

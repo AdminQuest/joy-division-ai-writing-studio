@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T19:04:51"
+generated_at: "2026-05-15T21:46:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 749 |
+| Atomes | 763 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -39,7 +39,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
-| S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 20 | 0 |
+| S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 53 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 41 | 0 |
@@ -440,32 +440,33 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - factory records (13)
 - Atmosphere (13)
 - peter saville (12)
+- réception (12)
 - martin hannett (11)
 - Tony Wilson (11)
 - Ceremony (11)
 - mémoire (11)
-- réception (11)
 - She's Lost Control (10)
 - presse musicale (10)
 - John Peel (10)
 - Dead Souls (9)
 - An Ideal for Living (9)
 - rob gretton (9)
+- authenticité (9)
 - indépendance (8)
 - Transmission (8)
 - Factory Records (8)
+- mythe (8)
 - postérité (8)
-- mythe (7)
 - Bernard Sumner (7)
 - Warsaw (7)
 - Martin Hannett (7)
 - Closer (7)
 - factory (7)
-- authenticité (7)
 - post-punk (6)
 - joy division (6)
 - goth (6)
 - archive (6)
+- Manchester (6)
 - Procession (6)
 - bootlegs (6)
 - héritage (6)
@@ -478,7 +479,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - management (6)
 - critique musicale (5)
 - manchester (5)
-- Manchester (5)
 - Plan K (5)
 - Londres (5)
 - Festive Fifty (5)
@@ -495,6 +495,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - télévision (4)
 - 1982 (4)
 - photographie (4)
+- noir et blanc (4)
 - fans (4)
 - historiographie (4)
 - réalité (4)
@@ -504,7 +505,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - ventes (4)
 - 1983 (4)
 - Paul Morley (4)
-- changement de nom (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -640,30 +640,31 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Type | Nombre |
 |---|---|
-| analyse | 34 |
-| reception | 28 |
+| analyse | 35 |
+| reception | 30 |
 | non qualifié | 27 |
+| memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
-| memoire | 12 |
 | discographie | 11 |
 | reception_poll | 10 |
 | reception_critique | 9 |
+| synthese | 9 |
 | archive | 9 |
 | production | 8 |
 | contrepoint | 8 |
-| synthese | 8 |
 | scene_fondatrice | 8 |
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
 | fait | 7 |
 | lecture | 6 |
+| controverse | 6 |
 | objet_audiovisuel | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
-| controverse | 5 |
+| mythe | 5 |
 | citation_repere | 5 |
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
@@ -675,7 +676,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert | 4 |
 | projet_avorte | 4 |
 | fait_interprete | 4 |
-| mythe | 4 |
+| prudence_methodologique | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | acteur_critique | 4 |
@@ -696,12 +697,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | chanson_transition | 3 |
 | design | 3 |
 | lecture_biographique | 3 |
-| prudence_methodologique | 3 |
 | concept | 3 |
 | objet_visuel | 3 |
 | decision_strategique | 3 |
 | session_studio | 3 |
 | interpretation | 3 |
+| concept_structurant | 3 |
 | song_session | 3 |
 | song | 3 |
 | reception_transnationale | 2 |
@@ -709,6 +710,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | infrastructure | 2 |
 | transition_posthume | 2 |
 | analyse_morceau | 2 |
+| tension_documentaire | 2 |
 | scene_deuil | 2 |
 | strategie_medias | 2 |
 | chanson_single | 2 |
@@ -746,6 +748,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept_management | 2 |
 | bascule_tournee | 2 |
 | concert_archive | 2 |
+| marketing | 2 |
 | album | 2 |
 | reception_starification | 1 |
 | scene_live_domestique | 1 |
@@ -769,7 +772,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_industrielle | 1 |
 | violence_live | 1 |
 | scene_refuge | 1 |
-| tension_documentaire | 1 |
 | scene_memoire | 1 |
 | scene_funeraire | 1 |
 | culpabilite_memorielle | 1 |
@@ -1004,7 +1006,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | portrait_fonctionnel | 1 |
 | contexte_scene | 1 |
 | concept_transversal | 1 |
-| marketing | 1 |
 | release_or_session | 1 |
 | tv_session | 1 |
 | album_reception_object | 1 |
@@ -1020,7 +1021,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 463 |
+| non qualifiée | 477 |
 | critique | 218 |
 | majeure | 39 |
 | majeur | 25 |

@@ -1746,6 +1746,56 @@
   },
   {
     "kind": "person",
+    "id": "PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR",
+    "file": "registers/people/s45_curtis_people_vote_conservateur.md",
+    "heading": "S45 — Personnes — vote conservateur rapporté",
+    "data": {
+      "id": "PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR",
+      "personne": "Ian Curtis",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A019",
+        "S45-A020"
+      ],
+      "contenu": "Deborah Curtis rapporte un vote conservateur lors d’une élection locale. Cette entrée documente une contradiction biographique possible, mais ne permet pas d’établir une doctrine politique structurée.\n",
+      "statut": "anecdote biographique",
+      "usage": [
+        "Chapitre 1",
+        "prudence anti-déterministe"
+      ],
+      "prudence": "Ne pas inférer « Ian Curtis est thatchérien ». Employer la formulation : « vote conservateur rapporté par Deborah Curtis ».",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE",
+    "file": "registers/people/s45_curtis_people_vote_conservateur.md",
+    "heading": "S45 — Personnes — vote conservateur rapporté",
+    "data": {
+      "id": "PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE",
+      "personne": "Deborah Curtis",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A019",
+        "S45-A020"
+      ],
+      "contenu": "Témoin direct d’une scène politique domestique. Son récit documente autant le comportement électoral rapporté d’Ian Curtis que la dynamique conjugale de la scène.\n",
+      "statut": "témoin direct situé",
+      "usage": [
+        "Chapitre 1",
+        "méthode des sources"
+      ],
+      "prudence": "La position de Deborah Curtis est précieuse, mais située ; elle ne transforme pas l’anecdote en vérité politique générale.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
     "id": "PERS-S76-070",
     "file": "registers/people/s76_torn_apart_people_part_13.md",
     "heading": "PERS-S76-070 — Annik Honoré",
@@ -4868,6 +4918,174 @@
   },
   {
     "kind": "person",
+    "id": "PERS-S45-ERNEST-BEARD",
+    "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Personnes — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "PERS-S45-ERNEST-BEARD",
+      "personne": "Ernest Beard",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A035",
+        "S45-A036"
+      ],
+      "contenu": "Supérieur et mentor de Ian Curtis à l’Employment Exchange de Macclesfield ; figure de travail liée au reclassement des personnes handicapées et à la connaissance professionnelle de l’épilepsie.\n",
+      "statut": "témoin professionnel",
+      "usage": [
+        "Chapitre 12"
+      ],
+      "prudence": "Ne pas l’utiliser comme preuve médicale ; son rôle est professionnel et social.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-DEREK-BRANDWOOD",
+    "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Personnes — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "PERS-S45-DEREK-BRANDWOOD",
+      "personne": "Derek Brandwood",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A049",
+        "S45-A050"
+      ],
+      "contenu": "Responsable RCA à Piccadilly Plaza, décrit par Deborah comme figure accueillante pour Ian et acteur du point de contact industriel local.\n",
+      "statut": "médiateur industriel",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-RICHARD-SEARLING",
+    "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Personnes — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "PERS-S45-RICHARD-SEARLING",
+      "personne": "Richard Searling",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A049",
+        "S45-A050",
+        "S45-A051"
+      ],
+      "contenu": "DJ Northern Soul et assistant de Derek Brandwood ; co-investisseur du projet RCA / Arrow. Il constitue un relais entre Northern Soul, industrie du disque et Joy Division.\n",
+      "statut": "médiateur industriel et musical",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-JOHN-ANDERSON",
+    "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Personnes — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "PERS-S45-JOHN-ANDERSON",
+      "personne": "John Anderson",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A050",
+        "S45-A051"
+      ],
+      "contenu": "Producteur ou initiateur productif des sessions RCA / Arrow. Deborah rapporte que Curtis se sent contraint par ses attentes vocales proches de la soul et de James Brown.\n",
+      "statut": "producteur / investisseur du projet RCA",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-BERNIE-BINNICK",
+    "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Personnes — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "PERS-S45-BERNIE-BINNICK",
+      "personne": "Bernie Binnick",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A050"
+      ],
+      "contenu": "Figure de Swan Records cherchant un groupe New Wave britannique pour le marché américain ; cofinance le projet RCA / Arrow.\n",
+      "statut": "investisseur industriel",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-SUE-BARLOW",
+    "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Personnes — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "PERS-S45-SUE-BARLOW",
+      "personne": "Sue Barlow",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A052"
+      ],
+      "contenu": "Compagne de Bernard Sumner ; avec Deborah Curtis, elle se place au début devant la scène pour donner l’apparence d’un public. Figure utile pour documenter le travail invisible des compagnes.\n",
+      "statut": "témoin et soutien de scène",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE",
+    "file": "registers/people/s45_curtis_people_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Personnes — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE",
+      "personne": "Tony Nuttall",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A046"
+      ],
+      "contenu": "Ancien ami d’enfance de Ian Curtis ; sa visite à Barton Street révèle un fossé politique et esthétique face à *An Ideal for Living*.\n",
+      "statut": "témoin intime de rupture",
+      "usage": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
     "id": "PERS-S76-024",
     "file": "registers/people/s76_torn_apart_people_part_04.md",
     "heading": "PERS-S76-024 — Martin Hannett",
@@ -5206,6 +5424,152 @@
   },
   {
     "kind": "person",
+    "id": "PERS-S45-TONY-WILSON-GRANADA",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-TONY-WILSON-GRANADA",
+      "personne": "Tony Wilson",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A054",
+        "S45-A056"
+      ],
+      "contenu": "Médiateur télévisuel décisif : accepte, après une invective de Curtis à Rafters, de programmer Joy Division à Granada ; associe « Shadowplay » à des images monochromes de paysage urbain.\n",
+      "statut": "médiateur télévision / Factory",
+      "usage": [
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "prudence": "Ne pas héroïser Wilson seul ; la scène repose aussi sur l’agressivité de Curtis, la concurrence locale et l’infrastructure Granada.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-ROB-GRETTON-GARDIEN",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-ROB-GRETTON-GARDIEN",
+      "personne": "Rob Gretton",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A055",
+        "S45-A057"
+      ],
+      "contenu": "Manager de proximité, observateur de Joy Division à Rafters, puis figure de protection et de confidentialité pour Ian Curtis ; perçu par Deborah comme gardien ou parent de substitution.\n",
+      "statut": "manager / médiateur intime",
+      "usage": [
+        "Chapitre 6",
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "prudence": "Ne pas réduire Gretton au manager sauveur ; sa protection déplace aussi les circuits d’information hors du foyer.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-LESLEY-GILBERT",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-LESLEY-GILBERT",
+      "personne": "Lesley Gilbert",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A057"
+      ],
+      "contenu": "Compagne de Rob Gretton ; associée par Deborah à la perception de Rob et Lesley comme figures protectrices, mais aussi à une position de désavantage lorsque la relation Rob / Ian devient confidentielle.\n",
+      "statut": "témoin périphérique / figure relationnelle",
+      "usage": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-MICK-MIDDLES-BAND-ON-THE-WALL",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-MICK-MIDDLES-BAND-ON-THE-WALL",
+      "personne": "Mick Middles",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A059"
+      ],
+      "contenu": "Critique qui juge certaines performances au Band on the Wall limitées et « samey » et considère que le lien nazi est exploité au-delà du tolérable.\n",
+      "statut": "réception critique contemporaine rapportée",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 5"
+      ],
+      "prudence": "Vérifier la citation dans l’article original avant insertion définitive.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-PAUL-MORLEY-BAND-ON-THE-WALL",
+      "personne": "Paul Morley",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A056",
+        "S45-A059"
+      ],
+      "contenu": "Critique favorable à la singularité de Joy Division, opposé ici à Mick Middles dans une réception divergente : là où Middles voit limite et répétition, Morley perçoit animation, volatilité, éloquence et direction.\n",
+      "statut": "critique / médiateur esthétique",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "prudence": "Éviter de faire de Morley le seul lecteur légitime ; conserver la divergence.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-CANDY",
+    "file": "registers/people/s45_curtis_people_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Personnes — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "PERS-S45-CANDY",
+      "personne": "Candy",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A060"
+      ],
+      "contenu": "Chienne Border collie adoptée par Ian et Deborah Curtis, nommée d’après « Candy Says » du Velvet Underground ; sert de contrepoint domestique au récit de montée en intensité du groupe.\n",
+      "statut": "animal domestique / motif affectif",
+      "usage": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
     "id": "PERS-S75-032",
     "file": "registers/people/s75_ott_people_part_04.md",
     "heading": "PERS-S75-032 — Annik Honoré",
@@ -5437,6 +5801,346 @@
       "methodological_warnings": [
         "traiter Morley comme producteur de réception critique, non comme source factuelle neutre"
       ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-IAIN-GRAY",
+    "file": "registers/people/s45_curtis_people_1976_1977.md",
+    "heading": "S45 — Personnes — formation 1976-1977",
+    "data": {
+      "id": "PERS-S45-IAIN-GRAY",
+      "personne": "Iain Gray",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A021",
+        "S45-A029"
+      ],
+      "contenu": "Premier répondant à l’annonce « Rusty » placée par Ian Curtis. Il échange avec Curtis sur l’écriture de chansons avant d’être marginalisé lorsque Curtis rejoint Hook, Sumner et Mason.\n",
+      "statut": "acteur mineur de la préformation",
+      "usage": [
+        "Chapitre 2"
+      ],
+      "prudence": "Ne pas le réduire à un simple perdant du récit ; il documente une bifurcation pré-Warsaw.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-TERRY-MASON",
+    "file": "registers/people/s45_curtis_people_1976_1977.md",
+    "heading": "S45 — Personnes — formation 1976-1977",
+    "data": {
+      "id": "PERS-S45-TERRY-MASON",
+      "personne": "Terry Mason",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A024",
+        "S45-A028"
+      ],
+      "contenu": "Présent dans les premières sociabilités autour de Hook et Sumner ; son rôle glisse vers le management avant l’arrivée de Stephen Morris.\n",
+      "statut": "acteur fondateur",
+      "usage": [
+        "Chapitre 2"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-PAUL-MORLEY-1977",
+    "file": "registers/people/s45_curtis_people_1976_1977.md",
+    "heading": "S45 — Personnes — formation 1976-1977",
+    "data": {
+      "id": "PERS-S45-PAUL-MORLEY-1977",
+      "personne": "Paul Morley",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A031",
+        "S45-A032"
+      ],
+      "contenu": "Figure critique de la scène mancunienne, liée à *Out There* puis au NME ; sa lecture de Warsaw saisit une différence encore inachevée.\n",
+      "statut": "critique et médiateur de scène",
+      "usage": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "prudence": "Vérifier les citations dans la source presse originale avant emploi définitif.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-STEVE-BROTHERDALE",
+    "file": "registers/people/s45_curtis_people_1976_1977.md",
+    "heading": "S45 — Personnes — formation 1976-1977",
+    "data": {
+      "id": "PERS-S45-STEVE-BROTHERDALE",
+      "personne": "Steve Brotherdale",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A033"
+      ],
+      "contenu": "Batteur de Panik, brièvement associé à Warsaw. Sa puissance et son agressivité ne suffisent pas à assurer une compatibilité humaine avec le groupe.\n",
+      "statut": "batteur transitoire",
+      "usage": [
+        "Chapitre 2"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-STEPHEN-MORRIS",
+    "file": "registers/people/s45_curtis_people_1976_1977.md",
+    "heading": "S45 — Personnes — formation 1976-1977",
+    "data": {
+      "id": "PERS-S45-STEPHEN-MORRIS",
+      "personne": "Stephen Morris",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A034"
+      ],
+      "contenu": "Seul répondant à l’annonce placée chez Jones’ Music Store ; son arrivée stabilise Warsaw humainement et musicalement.\n",
+      "statut": "membre fondateur stabilisateur",
+      "usage": [
+        "Chapitre 2"
+      ],
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-DEBORAH-CURTIS-LOGISTIQUE-FORMATION",
+    "file": "registers/people/s45_curtis_people_1976_1977.md",
+    "heading": "S45 — Personnes — formation 1976-1977",
+    "data": {
+      "id": "PERS-S45-DEBORAH-CURTIS-LOGISTIQUE-FORMATION",
+      "personne": "Deborah Curtis",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A023",
+        "S45-A025",
+        "S45-A027",
+        "S45-A030"
+      ],
+      "contenu": "Témoin direct de la logistique domestique, conjugale et matérielle de la phase 1976-1977 : déplacements, Barton Street, blue room, violences et silences.\n",
+      "statut": "témoin direct situé",
+      "usage": [
+        "Chapitre 2",
+        "Chapitre 4",
+        "Chapitre 10"
+      ],
+      "prudence": "Source indispensable, mais située ; ne pas transformer sa perception en vérité totale du groupe.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-SUE-BARLOW-GIRLIES",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-SUE-BARLOW-GIRLIES",
+      "personne": "Sue Barlow",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A061",
+        "S45-A063"
+      ],
+      "contenu": "Compagne puis épouse de Bernard Sumner ; associée par Deborah Curtis aux « original girlies » qui ont vu Joy Division se former et se professionnaliser.\n",
+      "statut": "témoin féminin de la formation",
+      "usage": [
+        "Chapitre 10"
+      ],
+      "prudence": "Ne pas réduire Sue Barlow à une figure décorative ; elle est un témoin de la formation du groupe et de ses sociabilités périphériques.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-GILLIAN-GILBERT-GOSHES",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-GILLIAN-GILBERT-GOSHES",
+      "personne": "Gillian Gilbert",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A064"
+      ],
+      "contenu": "Présentée dans S45 comme l’une des fans proches du groupe, associée au noyau des « Goshes », puis comme nouvelle compagne de Stephen Morris.\n",
+      "statut": "fan précoce / compagne / future membre de New Order",
+      "usage": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "prudence": "Dans ce passage, son rôle est celui d’une présence de réception et de recomposition relationnelle, non encore celui de musicienne.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-STEPHANIE-MORRIS",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-STEPHANIE-MORRIS",
+      "personne": "Stephanie",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A064",
+        "S45-A065"
+      ],
+      "contenu": "Compagne de Stephen Morris avant sa séparation ; figure d’un épisode trouble rapporté par Deborah, où Ian affirme qu’elle menace de se suicider et demande à Deborah d’appeler son père.\n",
+      "statut": "personne périphérique / scène sensible",
+      "usage": [
+        "Chapitre 10"
+      ],
+      "prudence": "Scène privée difficilement corroborable ; ne pas conclure à une manipulation certaine de Curtis.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-DEAN-CHECK-INN",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-DEAN-CHECK-INN",
+      "personne": "Dean",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A067"
+      ],
+      "contenu": "Jeune fan rencontré au Check Inn, Altrincham, dont la demande d’autographe à Ian Curtis est décrite par Deborah comme adressée à un demi-dieu plutôt qu’à un chanteur émergent.\n",
+      "statut": "fan précoce",
+      "usage": [
+        "Chapitre 14"
+      ],
+      "prudence": "Indice micro-local de canonisation ; ne pas généraliser à toute la réception.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-ERNEST-BEARD-EPILEPSY",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-ERNEST-BEARD-EPILEPSY",
+      "personne": "Ernest Beard",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A069",
+        "S45-A070"
+      ],
+      "contenu": "Supérieur de Ian Curtis à l’Employment Exchange ; accompagne Ian chez le médecin après une crise et observe l’articulation entre son travail, ses tournées et son état de santé.\n",
+      "statut": "témoin professionnel et médical périphérique",
+      "usage": [
+        "Chapitre 12"
+      ],
+      "prudence": "Témoin du travail et de l’apparence fonctionnelle de Curtis, non expert médical de son cas.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-BERNARD-SUMNER-TABLETS",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-BERNARD-SUMNER-TABLETS",
+      "personne": "Bernard Sumner",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A062",
+        "S45-A072",
+        "S45-A076"
+      ],
+      "contenu": "Témoin du versant humoristique du groupe, de la méthode créative de Curtis et de l’hypothèse rétrospective selon laquelle les médicaments auraient joué un rôle décisif dans sa mort.\n",
+      "statut": "membre du groupe / témoin direct / interprète rétrospectif",
+      "usage": [
+        "Chapitre 3",
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "prudence": "Distinguer témoignage de processus créatif, perception affective et causalité médicale non démontrée.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-MARTIN-HANNETT-UNKNOWN-PLEASURES",
+      "personne": "Martin Hannett",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A066",
+        "S45-A078"
+      ],
+      "contenu": "Producteur de « Digital » et « Glass » sur *A Factory Sample*, puis producteur d’*Unknown Pleasures* à Strawberry Studios ; décrit par Deborah comme le catalyseur sonore dont Joy Division avait besoin.\n",
+      "statut": "producteur / catalyseur sonore",
+      "usage": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 8"
+      ],
+      "prudence": "Ne pas le transformer en seul auteur du son ; son rôle est décisif mais coordonne une matière collective.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S45-NATALIE-CURTIS-BIRTH",
+    "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Personnes — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "PERS-S45-NATALIE-CURTIS-BIRTH",
+      "personne": "Natalie Curtis",
+      "source_id": "S45",
+      "atomes_lies": [
+        "S45-A080"
+      ],
+      "contenu": "Fille de Ian et Deborah Curtis, née en avril 1979 ; sa naissance reconfigure le foyer, la charge domestique et la capacité de Ian à assumer la paternité dans le contexte de l’épilepsie.\n",
+      "statut": "enfant / foyer",
+      "usage": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "prudence": "Traiter la naissance comme fait domestique structurant, non comme instrument narratif mélodramatique.",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
     }
   }
 ]

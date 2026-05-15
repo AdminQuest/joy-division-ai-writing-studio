@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T19:04:51"
+generated_at: "2026-05-15T21:46:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 310 |
+| Atomes | 318 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -38,7 +38,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
-| S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 1 | 0 |
+| S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 9 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 2 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 18 | 7 |
 | S76 | S76 — Middles & Reade, Torn Apart, 2006 | 103 | 68 |
@@ -420,7 +420,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - épilepsie (7)
 - non-monocausalité médicale (4)
 - film (4)
+- réception (4)
 - Britannia Row (4)
+- mythe (4)
 - réception corporelle (3)
 - Stroszek (3)
 - Werner Herzog (3)
@@ -431,9 +433,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - contrôle (3)
 - Martin Hannett (3)
 - suicide (3)
-- réception (3)
 - fatigue (3)
-- mythe (3)
+- récits concurrents (3)
 - vérité conjugale différée (2)
 - corps exposé (2)
 - paternité empêchée (2)
@@ -485,15 +486,14 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - mémoire située (2)
 - mémoire conjugale croisée (2)
 - anti-téléologie (2)
+- témoins d’autorité (2)
+- légitimité mémorielle (2)
+- anti-nostalgie (2)
 - seuil professionnel (1)
 - maladie collectivisée (1)
 - tournée comme soin pratique (1)
 - lieu-port d’attache (1)
 - scène sous vulnérabilité (1)
-- transition Factory/tournée (1)
-- langue comme contrôle affectif (1)
-- procédure conjugale (1)
-- sécurisation répétitive (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -635,6 +635,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | session_studio | 5 |
 | song | 5 |
 | evenement_medical_live | 4 |
+| prudence_methodologique | 4 |
 | live_set_context | 4 |
 | scene_domestique | 3 |
 | tension_medicale | 3 |
@@ -645,9 +646,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | intertextualite | 3 |
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
-| prudence_methodologique | 3 |
 | scene_medicale_live | 3 |
 | tension_biographique | 3 |
+| memoire | 3 |
 | song_session | 3 |
 | contrepoint_domestique | 2 |
 | tension_relationnelle | 2 |
@@ -664,8 +665,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | dispositif_formel | 2 |
 | santé | 2 |
 | lecture_biographique | 2 |
+| reception | 2 |
 | chronologie_sensible | 2 |
 | scene_fondatrice | 2 |
+| mythe | 2 |
 | biographie | 2 |
 | lecture_textuelle | 2 |
 | session_album | 2 |
@@ -677,6 +680,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | contexte_intime | 2 |
 | scene_intime | 2 |
 | bascule_tournee | 2 |
+| concept_structurant | 2 |
 | seuil_professionnel | 1 |
 | evenement_live_sante | 1 |
 | tension_tournee | 1 |
@@ -768,9 +772,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | citation_clef | 1 |
 | performance | 1 |
 | contexte_medical | 1 |
-| reception | 1 |
 | session | 1 |
-| mythe | 1 |
 | temoignage | 1 |
 | lecture_musicale | 1 |
 | interpretation_album | 1 |
@@ -834,7 +836,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | contexte_biographique | 1 |
 | concert_archive | 1 |
 | concert_europeen | 1 |
-| memoire | 1 |
+| analyse | 1 |
 | tv_session | 1 |
 | album | 1 |
 | song_pair | 1 |
@@ -850,7 +852,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Importance | Nombre |
 |---|---|
 | critique | 181 |
-| non qualifiée | 97 |
+| non qualifiée | 105 |
 | majeure | 20 |
 | majeur | 12 |
 

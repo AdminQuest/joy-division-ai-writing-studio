@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-15T19:04:45",
+  "generated_at": "2026-05-15T21:46:00",
   "summary": {
-    "records_total": 3391,
+    "records_total": 3425,
     "records_by_kind": {
-      "atom": 1625,
+      "atom": 1641,
       "quote": 353,
-      "chronology": 331,
+      "chronology": 335,
       "metadata": 18,
       "source": 56,
-      "unknown": 119,
+      "unknown": 125,
       "song": 41,
-      "template": 255,
+      "template": 263,
       "quote_batch": 1,
       "rules": 1,
       "motif": 253,
@@ -18,9 +18,9 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16542,
+    "diagnostics_total": 16710,
     "errors": 0,
-    "warnings": 16542,
+    "warnings": 16710,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -29,8 +29,8 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1625,
-    "chronology": 331,
+    "atom": 1641,
+    "chronology": 335,
     "concept": 170,
     "metadata": 18,
     "motif": 253,
@@ -41,8 +41,8 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 255,
-    "unknown": 119
+    "template": 263,
+    "unknown": 125
   },
   "records_by_source": {
     "S41": {
@@ -79,11 +79,12 @@
       "metadata": 1
     },
     "S69": {
+      "atom": 36,
+      "chronology": 12,
       "quote": 6,
       "source": 1,
-      "atom": 20,
-      "chronology": 8,
-      "metadata": 1
+      "metadata": 1,
+      "unknown": 6
     },
     "S70": {
       "quote": 11,
@@ -126,11 +127,11 @@
   },
   "records_by_chapter": {
     "Chapitre 1": 121,
-    "Chapitre 10": 230,
+    "Chapitre 10": 233,
     "Chapitre 11": 213,
-    "Chapitre 12": 454,
+    "Chapitre 12": 463,
     "Chapitre 13": 109,
-    "Chapitre 14": 954,
+    "Chapitre 14": 969,
     "Chapitre 2": 345,
     "Chapitre 3": 382,
     "Chapitre 4": 294,
@@ -138,7 +139,7 @@
     "Chapitre 6": 563,
     "Chapitre 7": 101,
     "Chapitre 8": 311,
-    "Chapitre 9": 199,
+    "Chapitre 9": 203,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -267,11 +268,11 @@
   ],
   "issue_categories": {
     "field_type_error": 135,
-    "invalid_controlled_value": 1353,
-    "missing_required_field": 4800,
+    "invalid_controlled_value": 1364,
+    "missing_required_field": 4807,
     "schema_warning": 399,
-    "unknown_yaml_block": 119,
-    "v2_migration_debt": 9736
+    "unknown_yaml_block": 125,
+    "v2_migration_debt": 9880
   },
   "top_files_by_issue_count": [
     [
@@ -1348,13 +1349,61 @@
       "record_id": "INST-S41-WEM-PA-DISTORTION-TERRY",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
+      "record_id": "REL-RAG-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
+      "record_id": "MOTIFS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md",
+      "record_id": "PEOPLE-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/concepts/s69_greig_strong_concepts_nostalgie_memoire_v2.md",
+      "record_id": "CONCEPTS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md",
+      "record_id": "MYTHES-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/chronology/s69_greig_strong_chronology_nostalgie_memoire_v2.md",
+      "record_id": "CHRONO-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     }
   ],
   "v2_migration": {
-    "atoms_total": 1625,
+    "atoms_total": 1641,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1564,
-    "v2_missing_field_warnings": 9736
+    "atoms_v2_incomplete": 1580,
+    "v2_missing_field_warnings": 9880
   },
   "source_registry": {
     "declared_but_unused": [
@@ -1599,14 +1648,22 @@
         "auteur": "Alastair Greig ; Catherine Strong",
         "titre": "But We Remember When We Were Young",
         "annee": "2014",
-        "records": 36,
-        "atoms": 20,
+        "records": 62,
+        "atoms": 36,
         "quotes": 6,
-        "chronology": 8,
+        "chronology": 12,
         "files": [
+          "registers/chronology/s69_greig_strong_chronology_nostalgie_memoire_v2.md",
+          "registers/concepts/s69_greig_strong_concepts_nostalgie_memoire_v2.md",
+          "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
+          "registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md",
+          "registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md",
+          "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
+          "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
           "sources/greig_strong/README.md",
           "sources/greig_strong/citations_exactes.md",
-          "sources/greig_strong/source.md"
+          "sources/greig_strong/source.md",
+          "sources/greig_strong/source_part_nostalgie_memoire_v2.md"
         ]
       },
       {
@@ -110455,6 +110512,1174 @@
     },
     {
       "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Invalid value for statut: integration_directe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-PART-NOSTALGIE-MEMOIRE-V2",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A021",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A021",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A021",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A021",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A021",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A021",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A021",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A021",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A021",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A022",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A022",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A022",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A022",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A022",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A022",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A022",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A022",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A022",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A023",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A023",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A023",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A023",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A023",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A023",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A023",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A023",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A023",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A023",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A024",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A024",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A024",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A024",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A024",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A024",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A024",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A024",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A024",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A024",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A025",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A025",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A025",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A025",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A025",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A025",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A025",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A025",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A025",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A025",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A026",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A026",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A026",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A026",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A026",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A026",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A026",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A026",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A026",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A027",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A027",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A027",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A027",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A027",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A027",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A027",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A027",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A027",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A028",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A028",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A028",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A028",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A028",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A028",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A028",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A028",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A028",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A029",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A029",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A029",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A029",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A029",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A029",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A029",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A029",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A029",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A030",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A030",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A030",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A030",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A030",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A030",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A030",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A030",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A030",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A030",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A031",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A031",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A031",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A031",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A031",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A031",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A031",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A031",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A031",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A031",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A032",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A032",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A032",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A032",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A032",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A032",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A032",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A032",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A032",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A032",
+      "message": "Invalid value for type_unite: marketing",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A033",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A033",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A033",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A033",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A033",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A033",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A033",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A033",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A033",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A034",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A034",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A034",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A034",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A034",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A034",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A034",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A034",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A034",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+      "record_id": "S69-A034",
+      "message": "Invalid value for type_unite: synthese",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
       "category": "v2_migration_debt",
       "file": "sources/greig_strong/source.md",
       "record_id": "S69-A001",
@@ -123384,6 +124609,134 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Invalid value for statut: integration_directe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
+      "record_id": "SONGS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Invalid value for type_unite: registre_chansons",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "registers/songs/s45_curtis_songs_1976_1977.md",
       "record_id": "SONG-S45-1976-WARSAWA",
       "message": "Missing required field: auteur",
@@ -132351,6 +133704,22 @@
     },
     {
       "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
+      "record_id": "REL-RAG-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
+      "record_id": "MOTIFS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "missing_required_field",
       "file": "registers/people/s45_curtis_people_vote_conservateur.md",
       "record_id": "PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR",
@@ -132564,6 +133933,14 @@
       "record_id": "PERS-S45-TONY-NUTTALL-RUPTURE-POLITIQUE",
       "message": "Missing required field: sources",
       "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md",
+      "record_id": "PEOPLE-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",
@@ -133044,6 +134421,30 @@
       "record_id": "PERS-S45-NATALIE-CURTIS-BIRTH",
       "message": "Missing required field: sources",
       "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/concepts/s69_greig_strong_concepts_nostalgie_memoire_v2.md",
+      "record_id": "CONCEPTS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md",
+      "record_id": "MYTHES-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/chronology/s69_greig_strong_chronology_nostalgie_memoire_v2.md",
+      "record_id": "CHRONO-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

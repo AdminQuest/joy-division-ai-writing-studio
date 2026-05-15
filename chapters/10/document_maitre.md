@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T19:04:51"
+generated_at: "2026-05-15T21:46:03"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 175 |
+| Atomes | 178 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -39,7 +39,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
-| S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 7 | 0 |
+| S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S75 | S75 — Ott, Joy Division's Unknown Pleasures, 2004 | 4 | 1 |
@@ -353,6 +353,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - new order (4)
 - suicide (4)
 - mémoire (3)
+- mythification (3)
 - vérité conjugale différée (2)
 - travail féminin effacé (2)
 - biographie contre mythe social (2)
@@ -381,8 +382,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - mort de ian curtis (2)
 - john peel (2)
 - réception posthume (2)
+- anti-nostalgie (2)
+- noir et blanc (2)
+- génie tragique (2)
 - manchester (2)
-- mythification (2)
 - privilège scénique (1)
 - division matérielle du travail (1)
 - artiste contre roadie (1)
@@ -422,9 +425,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - révélation suspendue (1)
 - complicité brève dans la rupture (1)
 - objet musical brisé (1)
-- symptôme contesté (1)
-- maladie/manipulation indécidable (1)
-- prudence probatoire médicale (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -561,14 +561,15 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Type | Nombre |
 |---|---|
 | tension_domestique | 7 |
+| reception | 7 |
 | scene_domestique | 6 |
 | biographie | 6 |
-| reception | 6 |
 | non qualifié | 5 |
 | scene_sensible | 4 |
 | objet_discographique | 4 |
 | tension_documentaire | 4 |
 | archive | 4 |
+| memoire | 4 |
 | contrepoint_domestique | 3 |
 | economie_domestique | 3 |
 | tension_medicale | 3 |
@@ -578,7 +579,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | relation | 3 |
 | objet_visuel | 3 |
 | analyse | 3 |
-| memoire | 3 |
 | tension_interne | 2 |
 | scene_live_domestique | 2 |
 | scene_conjugale | 2 |
@@ -656,6 +656,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | lieu_iconographique | 1 |
 | scene_deuil_mythographique | 1 |
 | fait_biographique | 1 |
+| mythe | 1 |
 | album | 1 |
 | album_reception_object | 1 |
 | release_design | 1 |
@@ -668,7 +669,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | critique | 84 |
-| non qualifiée | 65 |
+| non qualifiée | 68 |
 | majeur | 24 |
 | majeure | 2 |
 

@@ -3701,6 +3701,103 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S69-010",
+    "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S69-010",
+      "date": 2007,
+      "precision_date": "annee",
+      "event": "Sortie de Control, relu par Greig et Strong comme transformation du récit Deborah Curtis en iconographie tragique.",
+      "type": "film",
+      "people": [
+        "Anton Corbijn",
+        "Deborah Curtis",
+        "Ian Curtis"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S69-A028"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S69-011",
+    "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S69-011",
+      "date": 2007,
+      "precision_date": "annee",
+      "event": "Sortie du documentaire Joy Division de Grant Gee, interprété comme récit de mémoire urbaine et de transformation de Manchester.",
+      "type": "documentaire",
+      "location": "Manchester",
+      "people": [
+        "Grant Gee"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S69-A029"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S69-012",
+    "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S69-012",
+      "date": 2011,
+      "precision_date": "annee",
+      "event": "Campagne australienne Warner / JB Hi-Fi autour de From Joy Division to New Order et du livret British Underground.",
+      "type": "marketing",
+      "location": "Australie",
+      "people": [
+        "Peter Hook"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S69-A032"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S69-013",
+    "file": "sources/greig_strong/source_part_nostalgie_memoire_v2.md",
+    "heading": "Événements chronologiques complémentaires",
+    "data": {
+      "id": "CHR-S69-013",
+      "date": 2010,
+      "precision_date": "annee",
+      "event": "Peter Hook and The Light rejoue le répertoire de Joy Division et devient un cas de controverse mémorielle.",
+      "type": "concert",
+      "people": [
+        "Peter Hook",
+        "Bernard Sumner"
+      ],
+      "sources": [
+        "S69"
+      ],
+      "certainty": "strong",
+      "related_atoms": [
+        "S69-A033"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S69-001",
     "file": "sources/greig_strong/source.md",
     "heading": "5. Événements chronologiques lisibles par le registre",
@@ -6490,6 +6587,162 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S45-1976-07-20-SEX-PISTOLS",
+    "file": "registers/chronology/s45_curtis_chronology_1976_1977.md",
+    "heading": "S45 — Chronologie candidate — formation 1976-1977",
+    "data": {
+      "id": "CHR-S45-1976-07-20-SEX-PISTOLS",
+      "source_id": "S45",
+      "date": "1976-07-20",
+      "evenement": "Ian Curtis assiste au second concert des Sex Pistols au Lesser Free Trade Hall, Manchester ; Deborah Curtis le présente comme une confirmation que quelque chose existe hors de la carrière administrative.\n",
+      "chapitre_usage": [
+        "Chapitre 2"
+      ],
+      "atomes_lies": [
+        "S45-A022"
+      ],
+      "statut": "événement établi ; interprétation mémorielle à encadrer",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1976-08-MONT-DE-MARSAN",
+    "file": "registers/chronology/s45_curtis_chronology_1976_1977.md",
+    "heading": "S45 — Chronologie candidate — formation 1976-1977",
+    "data": {
+      "id": "CHR-S45-1976-08-MONT-DE-MARSAN",
+      "source_id": "S45",
+      "date": "1976-08",
+      "evenement": "Ian et Deborah Curtis se rendent au festival punk de Mont de Marsan ; Deborah lit ce voyage comme une partie de la « stratégie de carrière » de Ian.\n",
+      "chapitre_usage": [
+        "Chapitre 2"
+      ],
+      "atomes_lies": [
+        "S45-A023"
+      ],
+      "statut": "événement à recouper ; interprétation de Deborah",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-IGGY-POP-MANCHESTER",
+    "file": "registers/chronology/s45_curtis_chronology_1976_1977.md",
+    "heading": "S45 — Chronologie candidate — formation 1976-1977",
+    "data": {
+      "id": "CHR-S45-1977-IGGY-POP-MANCHESTER",
+      "source_id": "S45",
+      "date": 1977,
+      "evenement": "Lors d’un concert d’Iggy Pop à Manchester, Ian Curtis présente Deborah à Peter Hook et Terry Mason ; le réseau du futur groupe devient concret.\n",
+      "chapitre_usage": [
+        "Chapitre 2"
+      ],
+      "atomes_lies": [
+        "S45-A024"
+      ],
+      "statut": "datation à préciser",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-05-BARTON-STREET",
+    "file": "registers/chronology/s45_curtis_chronology_1976_1977.md",
+    "heading": "S45 — Chronologie candidate — formation 1976-1977",
+    "data": {
+      "id": "CHR-S45-1977-05-BARTON-STREET",
+      "source_id": "S45",
+      "date": "1977-05",
+      "evenement": "Ian et Deborah Curtis reviennent à Macclesfield et s’installent à Barton Street, qui deviendra la base domestique du travail d’écriture de Ian.\n",
+      "chapitre_usage": [
+        "Chapitre 2",
+        "Chapitre 4"
+      ],
+      "atomes_lies": [
+        "S45-A025",
+        "S45-A030"
+      ],
+      "statut": "stable ; pagination à verrouiller",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-05-29-WARSAW-ELECTRIC-CIRCUS",
+    "file": "registers/chronology/s45_curtis_chronology_1976_1977.md",
+    "heading": "S45 — Chronologie candidate — formation 1976-1977",
+    "data": {
+      "id": "CHR-S45-1977-05-29-WARSAW-ELECTRIC-CIRCUS",
+      "source_id": "S45",
+      "date": "1977-05-29",
+      "evenement": "Warsaw joue son premier concert à l’Electric Circus, avec Buzzcocks, Penetration, John Cooper Clarke et John the Postman.\n",
+      "chapitre_usage": [
+        "Chapitre 2"
+      ],
+      "atomes_lies": [
+        "S45-A032"
+      ],
+      "statut": "événement établi ; réception Morley à vérifier dans la presse originale",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-08-10-BROTHERDALE-PANIK",
+    "file": "registers/chronology/s45_curtis_chronology_1976_1977.md",
+    "heading": "S45 — Chronologie candidate — formation 1976-1977",
+    "data": {
+      "id": "CHR-S45-1977-08-10-BROTHERDALE-PANIK",
+      "source_id": "S45",
+      "date": "1977-08-10",
+      "evenement": "Steve Brotherdale et des membres de Panik viennent chez les Curtis après une fête familiale ; la tentative de déplacement de Curtis vers Panik échoue.\n",
+      "chapitre_usage": [
+        "Chapitre 2"
+      ],
+      "atomes_lies": [
+        "S45-A033"
+      ],
+      "statut": "témoignage direct ; détails à recouper",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT",
+    "file": "registers/chronology/s45_curtis_chronology_1976_1977.md",
+    "heading": "S45 — Chronologie candidate — formation 1976-1977",
+    "data": {
+      "id": "CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT",
+      "source_id": "S45",
+      "date": 1977,
+      "evenement": "Stephen Morris répond à l’annonce placée par Ian Curtis dans Jones’ Music Store à Macclesfield et devient le batteur stabilisateur de Warsaw.\n",
+      "chapitre_usage": [
+        "Chapitre 2"
+      ],
+      "atomes_lies": [
+        "S45-A034"
+      ],
+      "statut": "événement établi ; date précise à verrouiller",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S76-1978-013",
     "file": "registers/chronology/s76_torn_apart_chronology_part_08.md",
     "heading": "CHR-S76-1978-013 — Première Factory night au Russell Club",
@@ -6883,6 +7136,236 @@
         "date précise de la décision à vérifier"
       ],
       "notes": "Mesure pratique importante ; à relier aux conditions de performance, non à un récit de destin."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-09-TOPS-DEBORAH",
+    "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "CHR-S45-1977-09-TOPS-DEBORAH",
+      "source_id": "S45",
+      "date": "1977-09",
+      "evenement": "Deborah Curtis commence un cours TOPS au collège local, avec l’aide des connaissances administratives de Ian Curtis au Manpower Services Commission.\n",
+      "chapitre_usage": [
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A047"
+      ],
+      "statut": "contexte domestique ; datation mensuelle donnée par S45",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-EMPLOYMENT-EXCHANGE",
+    "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "CHR-S45-1977-EMPLOYMENT-EXCHANGE",
+      "source_id": "S45",
+      "date": 1977,
+      "evenement": "Ian Curtis obtient un poste à l’Employment Exchange de Macclesfield comme Assistant Disablement Resettlement Officer.\n",
+      "chapitre_usage": [
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A035"
+      ],
+      "statut": "datation à préciser",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-EPILEPSY-COURSE",
+    "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "CHR-S45-1977-EPILEPSY-COURSE",
+      "source_id": "S45",
+      "date": 1977,
+      "evenement": "Dans le cadre de son poste, Ian Curtis suit une formation professionnelle sur l’épilepsie.\n",
+      "chapitre_usage": [
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A036"
+      ],
+      "statut": "datation à préciser",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT",
+    "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "CHR-S45-1977-10-02-ELECTRIC-CIRCUS-SHORT-CIRCUIT",
+      "source_id": "S45",
+      "date": "1977-10-02",
+      "evenement": "Warsaw joue lors du week-end de fermeture annoncée de l’Electric Circus ; la performance donne lieu à une inclusion sur la compilation live Short Circuit.\n",
+      "chapitre_usage": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "atomes_lies": [
+        "S45-A037"
+      ],
+      "statut": "événement établi ; détails discographiques à croiser",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-12-PENNINE-AN-IDEAL",
+    "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "CHR-S45-1977-12-PENNINE-AN-IDEAL",
+      "source_id": "S45",
+      "date": "1977-12",
+      "evenement": "Joy Division enregistre son premier EP, An Ideal for Living, à Pennine Sound Studio, Oldham.\n",
+      "chapitre_usage": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "atomes_lies": [
+        "S45-A040",
+        "S45-A041",
+        "S45-A042"
+      ],
+      "statut": "événement établi",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1977-12-31-SWINGING-APPLE",
+    "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "CHR-S45-1977-12-31-SWINGING-APPLE",
+      "source_id": "S45",
+      "date": "1977-12-31",
+      "evenement": "Warsaw joue probablement son dernier concert sous ce nom au Swinging Apple, Liverpool, le soir du Nouvel An.\n",
+      "chapitre_usage": [
+        "Chapitre 2"
+      ],
+      "atomes_lies": [
+        "S45-A043"
+      ],
+      "statut": "probable selon S45 ; à croiser avec gig lists",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE",
+    "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "CHR-S45-1978-01-AN-IDEAL-NAME-CHANGE",
+      "source_id": "S45",
+      "date": "1978-01",
+      "evenement": "La sortie d’An Ideal for Living accompagne le changement de nom de Warsaw à Joy Division, après la découverte de Warsaw Pakt.\n",
+      "chapitre_usage": [
+        "Chapitre 2",
+        "Chapitre 5"
+      ],
+      "atomes_lies": [
+        "S45-A042",
+        "S45-A044"
+      ],
+      "statut": "événement établi",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-01-25-PIPS-FIRST-JD",
+    "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "CHR-S45-1978-01-25-PIPS-FIRST-JD",
+      "source_id": "S45",
+      "date": "1978-01-25",
+      "evenement": "Premier concert sous le nom Joy Division à Pips disco, Manchester.\n",
+      "chapitre_usage": [
+        "Chapitre 2"
+      ],
+      "atomes_lies": [
+        "S45-A045"
+      ],
+      "statut": "événement établi ; à croiser avec gig lists",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-04-RCA-ARROW",
+    "file": "registers/chronology/s45_curtis_chronology_1977_1978_an_ideal_rca.md",
+    "heading": "S45 — Chronologie candidate — *An Ideal for Living*, travail social, RCA",
+    "data": {
+      "id": "CHR-S45-1978-04-RCA-ARROW",
+      "source_id": "S45",
+      "date": "1978-04",
+      "evenement": "Joy Division enregistre douze morceaux à Greendow / Arrow Studios dans le cadre du projet financé par Richard Searling, John Anderson et Bernie Binnick.\n",
+      "chapitre_usage": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "atomes_lies": [
+        "S45-A049",
+        "S45-A050",
+        "S45-A051"
+      ],
+      "statut": "événement établi ; détails techniques à croiser avec Ott et Hook",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-VOTE-CONSERVATEUR-LOCAL",
+    "file": "registers/chronology/s45_curtis_chronology_vote_conservateur.md",
+    "heading": "S45 — Chronologie candidate — vote conservateur rapporté",
+    "data": {
+      "id": "CHR-S45-VOTE-CONSERVATEUR-LOCAL",
+      "date": "à préciser",
+      "periode": "mariage Ian/Deborah, avant 1980",
+      "evenement": "Deborah Curtis rapporte qu’Ian Curtis vote conservateur lors d’une élection locale après avoir laissé croire au candidat libéral qu’il voterait pour lui.\n",
+      "source": "S45",
+      "atomes_lies": [
+        "S45-A019",
+        "S45-A020"
+      ],
+      "statut": "datation à verrouiller",
+      "chapitre_usage": [
+        "Chapitre 1"
+      ],
+      "prudence": "Ne pas assimiler automatiquement cette scène à l’élection générale de 1979 ni à un vote personnel pour Margaret Thatcher sans source complémentaire."
     }
   },
   {
@@ -9134,6 +9617,258 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S45-1978-10-28-SUMNER-BARLOW-WEDDING",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1978-10-28-SUMNER-BARLOW-WEDDING",
+      "source_id": "S45",
+      "date": "1978-10-28",
+      "evenement": "Ian et Deborah Curtis sont témoins du mariage de Bernard Sumner et Sue Barlow. Deborah se décrit avec Sue comme l’une des « original girlies » ayant vu Joy Division se développer.\n",
+      "chapitre_usage": [
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A063"
+      ],
+      "statut": "événement daté par S45",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-FACTORY-SAMPLE",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1978-FACTORY-SAMPLE",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Tony Wilson finance *A Factory Sample* ; Martin Hannett produit « Digital » et « Glass » ; Peter Saville choisit une esthétique argent/noir.\n",
+      "chapitre_usage": [
+        "Chapitre 3",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S45-A066"
+      ],
+      "statut": "datation à préciser selon discographie Factory",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-11-CHECK-INN-ALTRINCHAM",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1978-11-CHECK-INN-ALTRINCHAM",
+      "source_id": "S45",
+      "date": "1978-11",
+      "evenement": "Deborah assiste au concert du Check Inn à Altrincham et observe une forme de fandom dévotionnel autour de Ian Curtis.\n",
+      "chapitre_usage": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S45-A067"
+      ],
+      "statut": "datation mensuelle donnée par S45",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1978-12-27-HOPE-AND-ANCHOR-FIRST-FIT",
+      "source_id": "S45",
+      "date": "1978-12-27",
+      "evenement": "Après le concert londonien décevant au Hope and Anchor, Ian Curtis connaît sa première crise reconnue et est conduit au Luton and Dunstable Hospital.\n",
+      "chapitre_usage": [
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A068",
+        "S45-A069"
+      ],
+      "statut": "événement établi par S45 ; à croiser avec autres mémoires",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-01-13-NME-COVER",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-01-13-NME-COVER",
+      "source_id": "S45",
+      "date": "1979-01-13",
+      "evenement": "Ian Curtis apparaît en couverture du NME avec son long manteau vert et une cigarette, grâce à la persistance de Paul Morley.\n",
+      "chapitre_usage": [
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "atomes_lies": [
+        "S45-A070"
+      ],
+      "statut": "événement médiatique établi",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-01-PEEL-SESSION-1",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-01-PEEL-SESSION-1",
+      "source_id": "S45",
+      "date": "1979-01",
+      "evenement": "Joy Division enregistre sa première John Peel session à la fin de janvier 1979, au moment où le foyer Curtis doit apprendre à composer avec la maladie.\n",
+      "chapitre_usage": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A070"
+      ],
+      "statut": "datation à préciser selon discographie BBC",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-01-23-SPECIALIST-EPILEPSY",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-01-23-SPECIALIST-EPILEPSY",
+      "source_id": "S45",
+      "date": "1979-01-23",
+      "evenement": "Ian Curtis voit un spécialiste au Macclesfield District and General Hospital ; Phenytoin Sodium et Phenobarbitone sont prescrits.\n",
+      "chapitre_usage": [
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A071",
+        "S45-A072"
+      ],
+      "statut": "événement médical rapporté par S45",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-01-03-13-GRAND-MAL-ATTACKS",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-01-03-13-GRAND-MAL-ATTACKS",
+      "source_id": "S45",
+      "date": "1979-01-24/1979-03-13",
+      "evenement": "Ian Curtis connaît plusieurs crises grand mal entre le 24 janvier et le 13 mars 1979 ; les traitements sont progressivement ajustés.\n",
+      "chapitre_usage": [
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A071",
+        "S45-A073"
+      ],
+      "statut": "période donnée par S45 ; détails médicaux à prudence",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-01-RCA-MASTERS-TRANSFER",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-01-RCA-MASTERS-TRANSFER",
+      "source_id": "S45",
+      "date": "1979-01",
+      "evenement": "Les bandes masters du projet RCA / Arrow sont remises contre 1 500 livres ; le contrat d’édition non signé laisse Joy Division libre de réenregistrer.\n",
+      "chapitre_usage": [
+        "Chapitre 8"
+      ],
+      "atomes_lies": [
+        "S45-A077"
+      ],
+      "statut": "événement contractuel rapporté ; à croiser avec Searling et archives",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-04-UNKNOWN-PLEASURES-STRAWBERRY",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-04-UNKNOWN-PLEASURES-STRAWBERRY",
+      "source_id": "S45",
+      "date": "1979-04",
+      "evenement": "*Unknown Pleasures* est enregistré à Strawberry Studios, Stockport, avec Martin Hannett ; Tony Wilson finance l’enregistrement et le premier pressage.\n",
+      "chapitre_usage": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "atomes_lies": [
+        "S45-A078"
+      ],
+      "statut": "événement discographique établi",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1979-04-16-NATALIE-BIRTH",
+    "file": "registers/chronology/s45_curtis_chronology_1978_1979_factory_epilepsy_lyrics_natalie.md",
+    "heading": "S45 — Chronologie candidate — Factory, épilepsie, paroles, Natalie",
+    "data": {
+      "id": "CHR-S45-1979-04-16-NATALIE-BIRTH",
+      "source_id": "S45",
+      "date": "1979-04-16",
+      "evenement": "La naissance de Natalie est induite le 16 avril 1979, mais le travail commence la veille au soir ; Ian passe de l’appréhension à l’émerveillement, puis demeure empêché par la peur des crises.\n",
+      "chapitre_usage": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "atomes_lies": [
+        "S45-A080"
+      ],
+      "statut": "événement domestique établi par S45",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S76-1956-001",
     "file": "registers/chronology/s76_torn_apart_chronology_part_01.md",
     "heading": "CHR-S76-1956-001 — Naissance de Ian Kevin Curtis",
@@ -9636,6 +10371,147 @@
         "détail des versions et masters à vérifier avec livret de l'anthologie"
       ],
       "notes": "Moment de stabilisation officielle d'un corpus longtemps fragmenté entre album, compilations et archives."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-STIFF-CHISWICK-RAFTERS",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-STIFF-CHISWICK-RAFTERS",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Stiff et Chiswick organisent à Rafters un concours de groupes ; Curtis y force l’accès à Tony Wilson et Rob Gretton y voit Joy Division dans un moment de détermination maximale.\n",
+      "chapitre_usage": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S45-A053",
+        "S45-A054",
+        "S45-A055"
+      ],
+      "statut": "datation à préciser ; événement à croiser avec gig lists et sources Wilson/Gretton",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-GRANADA-SHADOWPLAY",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-GRANADA-SHADOWPLAY",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Tony Wilson organise une apparition de Joy Division sur Granada Reports / What’s On avec « Shadowplay », montée avec des images monochromes d’un paysage urbain issu de World in Action.\n",
+      "chapitre_usage": [
+        "Chapitre 1",
+        "Chapitre 5",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S45-A056"
+      ],
+      "statut": "datation à préciser ; archive télévisuelle à vérifier",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-GRETTON-MANAGER",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-GRETTON-MANAGER",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Rob Gretton devient manager de Joy Division ; Deborah Curtis décrit son acceptation par Ian comme celle d’un gardien ou parent de substitution.\n",
+      "chapitre_usage": [
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A055",
+        "S45-A057"
+      ],
+      "statut": "datation à préciser ; événement établi par sources croisées",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-BASS-HOOK-INCIDENT",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-BASS-HOOK-INCIDENT",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "À la suite d’un conflit lié aux absences de Bernard Sumner et à l’idée d’un second guitariste, la basse de Peter Hook devient plus avancée et dominante selon Deborah Curtis.\n",
+      "chapitre_usage": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S45-A058"
+      ],
+      "statut": "causalité à recouper avec Hook, Sumner et Morris",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-BAND-ON-THE-WALL-COLLECTIVE",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Joy Division participe aux réunions du Musicians’ Union Collective au Band on the Wall, décrites par Deborah comme des répétitions publiques chaotiques.\n",
+      "chapitre_usage": [
+        "Chapitre 2",
+        "Chapitre 6"
+      ],
+      "atomes_lies": [
+        "S45-A059"
+      ],
+      "statut": "datation à préciser ; à croiser avec gig lists et presse Middles/Morley",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S45-1978-CANDY-DOG",
+    "file": "registers/chronology/s45_curtis_chronology_1978_wilson_gretton_band_on_the_wall.md",
+    "heading": "S45 — Chronologie candidate — Wilson, Gretton, Band on the Wall",
+    "data": {
+      "id": "CHR-S45-1978-CANDY-DOG",
+      "source_id": "S45",
+      "date": 1978,
+      "evenement": "Ian et Deborah Curtis adoptent une chienne Border collie appelée Candy d’après « Candy Says » du Velvet Underground.\n",
+      "chapitre_usage": [
+        "Chapitre 10"
+      ],
+      "atomes_lies": [
+        "S45-A060"
+      ],
+      "statut": "scène domestique ; datation à préciser",
+      "source_label": "S45 — Curtis, Touching from a Distance, 1995",
+      "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
+      "source_year": "1995"
     }
   },
   {
