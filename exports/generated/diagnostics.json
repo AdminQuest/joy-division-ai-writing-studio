@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-15T16:13:29",
+  "generated_at": "2026-05-15T17:09:44",
   "status": "warning",
   "summary": {
-    "records_total": 3237,
+    "records_total": 3283,
     "records_by_kind": {
-      "atom": 1581,
+      "atom": 1592,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 106,
+      "unknown": 113,
       "song": 41,
-      "template": 220,
+      "template": 231,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 218,
+      "motif": 229,
       "person": 157,
-      "concept": 143,
+      "concept": 149,
       "myth": 11
     },
-    "diagnostics_total": 16111,
+    "diagnostics_total": 16206,
     "errors": 0,
-    "warnings": 16111,
+    "warnings": 16206,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 514,
-        "atoms": 386,
+        "records": 532,
+        "atoms": 397,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -128,6 +128,7 @@
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
           "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
           "registers/songs/s41_hook_songs_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+          "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
           "sources/hook/atomisation_04_unknown_pleasures_track_by_track.md",
@@ -150,7 +151,8 @@
           "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
           "sources/hook_unknown_pleasures/source_part_1979_timeline_four_oct_dec_europe_annnik_we_carried_on.md",
           "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
-          "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md"
+          "sources/hook_unknown_pleasures/source_part_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
+          "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md"
         ]
       },
       {
@@ -16557,6 +16559,534 @@
       "file": "sources/hook_unknown_pleasures/source_part_1976_lesser_free_trade_hall_bass_ian_joining.md",
       "message": "Invalid value for type_unite: interpretation_retrospective",
       "record_id": "S41-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A190"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A190"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A190"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A190"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A190"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A190"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A190"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: contexte_tournee",
+      "record_id": "S41-A190"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A191"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A191"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A191"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A191"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A191"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A191"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A191"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: reception_industrielle",
+      "record_id": "S41-A191"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A192"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A192"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A192"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A192"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A192"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A192"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A192"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: economie_materielle_live",
+      "record_id": "S41-A192"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A193"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A193"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A193"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A193"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A193"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A193"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A193"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: evenement_medical_live",
+      "record_id": "S41-A193"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A194"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A194"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A194"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A194"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A194"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A194"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A194"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: tension_management_sante",
+      "record_id": "S41-A194"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A195"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A195"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A195"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A195"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A195"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A195"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A195"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: violence_live",
+      "record_id": "S41-A195"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A196"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A196"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A196"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A196"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A196"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A196"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A196"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: scene_violence_materielle",
+      "record_id": "S41-A196"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A197"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A197"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A197"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A197"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A197"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A197"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A197"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: tension_morale_live",
+      "record_id": "S41-A197"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A198"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A198"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A198"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A198"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A198"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A198"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A198"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: scene_refuge",
+      "record_id": "S41-A198"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A199"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A199"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A199"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A199"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A199"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A199"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A199"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: tension_domestique_live",
+      "record_id": "S41-A199"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A200"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A200"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A200"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A200"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A200"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A200"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A200"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Invalid value for type_unite: crise_domestique_juridique",
+      "record_id": "S41-A200"
     },
     {
       "level": "warning",
@@ -89715,6 +90245,48 @@
       "file": "registers/songs/s76_torn_apart_songs_part_16.md",
       "message": "Invalid value for type_unite: live_sequence",
       "record_id": "SONG-S76-054"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-MOONLIGHT-CLUB-APRIL-1980"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-RAINBOW-THEATRE-STRANGLERS-FRIENDS-1980-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-BURY-TOWN-HALL-RIOT-1980-04"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "EVENT-S41-WILSON-REFUGE-AFTER-BURY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-FACTORY-II-1980-04-11"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-DERBY-AJANTA-1980-04-19"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1980_moonlight_rainbow_bury_derby_divorce.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "EVENT-S41-DEBBIE-ANNIK-CO-RESPONDENT-CALL"
     },
     {
       "level": "warning",

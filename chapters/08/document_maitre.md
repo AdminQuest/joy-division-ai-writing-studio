@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T16:13:41"
+generated_at: "2026-05-15T17:09:57"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 189 |
+| Atomes | 191 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
@@ -34,7 +34,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 86 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 88 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -184,6 +184,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau_postpunk` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A189** — S41-A189 — Saville, Staglieno et *Closer* : image funéraire choisie avant la mort  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthetique_visuelle` ; importance : `critique` ; preuve : `témoignage direct + objet visuel documenté`.
+- **S41-A190** — S41-A190 — Moonlight / Rainbow : lever des fonds pour l’Amérique sous pression médicale  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + chronologie live`.
+- **S41-A191** — S41-A191 — Moonlight Club : Factory comme vitrine et Polydor comme regard industriel  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_industrielle` ; importance : `majeur` ; preuve : `témoignage direct + citation rapportée`.
 - **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
@@ -274,10 +278,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A027** — S70-A027 — *Still*, *Substance* et la gestion Factory de l’héritage  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A031** — S70-A031 — Cartographie interprétative des chansons  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A010** — S71-A010 — Pennine Sound Studios et la première démo  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -437,6 +437,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Sordide Sentimental (5)
 - Pennine Sound (4)
 - Digital (4)
+- Moonlight Club (4)
 - Tony Wilson (4)
 - A Factory Sample (4)
 - Peter Saville (4)
@@ -460,7 +461,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Closer (2)
 - Britannia Row (2)
 - Annik (2)
-- DIY (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -532,6 +532,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A040 — alimente → REGISTRE-DISCOGRAPHIE
 - S41-A041 — prolonge → CONCEPT-050
 - S41-A041 — prépare → CONCEPT-HANNETT-STUDIO
+- S41-A190 — prolonge → S41-A179
+- S41-A190 — prolonge → CONCEPT-138
+- S41-A191 — prolonge → CONCEPT-139
+- S41-A191 — prolonge → S41-A180
 - S41-A093 — prolonge → CONCEPT-065
 - S41-A093 — consolide → S41-A065
 - S41-A093 — consolide → S41-A092
@@ -540,10 +544,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A095 — consolide → S41-A069
 - S41-A095 — consolide → S41-A071
 - S41-A095 — consolide → S41-A079
-- S41-A068 — prolonge → CONCEPT-058
-- S41-A068 — prépare → S41-A069
-- S41-A069 — prolonge → CONCEPT-058
-- S41-A069 — prolonge → REGISTRE-BOOTLEGS
 
 ## 13. Distribution documentaire
 
@@ -585,6 +585,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | scene_conflit | 1 |
 | personne_reseau | 1 |
 | scene_live_violence | 1 |
+| contexte_tournee | 1 |
+| reception_industrielle | 1 |
 | chronologie_factory | 1 |
 | intervention_management | 1 |
 | scene_factory | 1 |
@@ -627,9 +629,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 89 |
+| critique | 90 |
 | non qualifiée | 80 |
-| majeur | 14 |
+| majeur | 15 |
 | majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -660,6 +662,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A036 [faible à moyen] — Ne pas téléologiser Gretton comme manager prédestiné.
 - S41-A040 [moyen] — Ne pas isoler Rudolf Hess de la logique plus large de maladresse provocatrice et de piège industriel.
 - S41-A041 [moyen] — Ne pas transformer la violence en simple folklore ; elle structure les appartenances locales.
+- S41-A190 [élevé] — Ne pas réduire chaque décision à l’argent ; le prestige, l’inertie et l’excitation de l’Amérique comptent aussi.
+- S41-A191 [moyen] — Ne pas faire de Polydor une trajectoire manquée centrale ; le passage sert surtout à mesurer l’aura live.
 - S41-A093 [faible] — La timeline cadre les scènes déjà atomisées sans constituer une causalité.
 - S41-A094 [faible] — Risque limité ; l’atome sert à éviter la téléologie Factory Records.
 - S41-A095 [faible] — Atome de verrouillage documentaire.
@@ -692,8 +696,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A082 [moyen] — Risque de faire de l’ignorance du groupe une qualité pure ; elle est aussi une perte de contrôle.
 - S41-A083 [moyen] — Ne pas lire cette réussite à travers les conflits ultérieurs seuls ; elle est aussi moment d’accord.
 - S41-A084 [moyen] — Ne pas fétichiser l’objet Factory en oubliant le travail manuel et le retard logistique.
-- S41-A154 [moyen] — Ne pas réduire Interzone à la trace RCA ; Hook souligne aussi la générosité vocale de Curtis.
-- S41-A155 [moyen] — Ne pas transformer le morceau en pure préfiguration New Order ; l’intérêt est son statut de clôture Joy Division.
 
 ## 15. Lacunes et prochaines vérifications
 

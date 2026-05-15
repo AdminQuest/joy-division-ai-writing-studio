@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T16:13:41"
+generated_at: "2026-05-15T17:09:57"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 412 |
+| Atomes | 420 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 132 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 140 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -513,7 +513,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 - Rob Gretton (24)
 - Factory (14)
-- Tony Wilson (13)
+- Tony Wilson (14)
 - Martin Hannett (12)
 - Transmission (9)
 - Unknown Pleasures (9)
@@ -521,6 +521,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Hannett (8)
 - Buzzcocks tour (7)
 - John Peel (7)
+- Rainbow Theatre (6)
 - Digital (6)
 - Terry Mason (6)
 - Electric Circus (6)
@@ -540,9 +541,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Shadowplay (4)
 - Bernard Sumner (4)
 - Band on the Wall (4)
-- Rainbow Theatre (4)
 - Buzzcocks (4)
 - Glass (4)
+- Twinny (4)
 - radio (4)
 - T. J. Davidson’s (4)
 - Kraftwerk (4)
@@ -550,7 +551,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Warsaw (4)
 - Sordide Sentimental (4)
 - Atmosphere (4)
-- Closer (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -679,6 +679,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_interne | 2 |
 | infrastructure_scene | 2 |
 | economie_domestique | 2 |
+| tension_management_sante | 2 |
 | reception | 2 |
 | relation | 2 |
 | management | 2 |
@@ -687,6 +688,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | construction_esthetique | 2 |
 | personne_reseau | 2 |
 | scene_revelation | 2 |
+| economie_materielle_live | 2 |
 | strategie_medias | 2 |
 | evenement_medical | 2 |
 | session_enregistrement | 2 |
@@ -734,7 +736,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | tension_live_sante | 1 |
 | evenement_live_crise | 1 |
 | tension_psychiatrique | 1 |
-| tension_management_sante | 1 |
 | tension_sante | 1 |
 | tension_industrie | 1 |
 | transition_nominale | 1 |
@@ -747,6 +748,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | interpretation_groupe | 1 |
 | rencontre_fondatrice | 1 |
 | scene_recrutement | 1 |
+| contexte_tournee | 1 |
+| reception_industrielle | 1 |
+| evenement_medical_live | 1 |
+| violence_live | 1 |
+| scene_violence_materielle | 1 |
+| tension_morale_live | 1 |
 | influence_live | 1 |
 | tension_politique_live | 1 |
 | scene_politique_factory | 1 |
@@ -777,7 +784,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | evenement_live_archive | 1 |
 | economie_corps_tournee | 1 |
 | interpretation_live | 1 |
-| economie_materielle_live | 1 |
 | tension_medicale_morale | 1 |
 | scene_organisationnelle | 1 |
 | scene_sociale_live | 1 |
@@ -875,9 +881,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 190 |
+| critique | 194 |
 | non qualifiée | 154 |
-| majeur | 43 |
+| majeur | 47 |
 | majeure | 24 |
 | secondaire utile | 1 |
 

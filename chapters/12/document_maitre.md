@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T16:13:41"
+generated_at: "2026-05-15T17:09:57"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 285 |
+| Atomes | 294 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -34,7 +34,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 46 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 55 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -130,6 +130,24 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A189** — S41-A189 — Saville, Staglieno et *Closer* : image funéraire choisie avant la mort  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthetique_visuelle` ; importance : `critique` ; preuve : `témoignage direct + objet visuel documenté`.
+- **S41-A190** — S41-A190 — Moonlight / Rainbow : lever des fonds pour l’Amérique sous pression médicale  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_tournee` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + chronologie live`.
+- **S41-A193** — S41-A193 — Rainbow puis Moonlight : crise, secours et obstination de Curtis  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A194** — S41-A194 — Bury Town Hall : concert qui aurait dû être annulé  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_management_sante` ; importance : `critique` ; preuve : `témoignage direct rétrospectif autocritique`.
+- **S41-A195** — S41-A195 — Bury riot : guest list de Rob, violence de salle et débordement de Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `violence_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A196** — S41-A196 — Twinny ensanglanté : chemise de Hook, sel et violence de proximité  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_violence_materielle` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A197** — S41-A197 — Hook retenu : fantasme de riposte collective et limite de la camaraderie violente  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_morale_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A198** — S41-A198 — Tony et Lindsay Wilson : refuge après Bury et temporalité de récupération  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_refuge` ; importance : `majeur` ; preuve : `synthèse Hook + chronologie biographique`.
+- **S41-A199** — S41-A199 — Factory II : Debbie apprend Annik, retour de la crise domestique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique_live` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments S45 à croiser`.
+- **S41-A200** — S41-A200 — Derby et showdown familial : dernière bascule avant la rupture judiciaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `crise_domestique_juridique` ; importance : `critique` ; preuve : `synthèse Hook + S45 / témoignages à croiser`.
 - **S45-002** — S45-002 — Ian Curtis enfant : passion pour les livres d’histoire  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-014** — S45-014 — Premier fit reconnu de Ian Curtis  
@@ -260,24 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `perception_scene` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-118** — S46-118 — Le studio comme lieu de contrôle impossible  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_studio` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-147** — S46-147 — Diffusion de *Stroszek* pendant la tournée australienne  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `coincidence_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-160** — S46-160 — Morley : impossibilité de parler de l’intérieur  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `epistemologie_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-161** — S46-161 — Morley : écouter Joy Division seulement en bonne santé  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_affective` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-162** — S46-162 — « Glass : Mesh » : le livre comme montage filmique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `dispositif_formel` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-164** — S46-164 — Camus, Nietzsche, Adorno : Joy Division encadré par la haute culture  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-170** — S46-170 — « Sound of Music : 5.8.6 » : voix comme information musicale  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_voix` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-175** — S46-175 — « Auto-Suggestion : The Him » : musique et langage symbolique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `intertextualite` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-176** — S46-176 — Backward masking : lecture paranoïde et critique culturelle  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_speculative` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-177** — S46-177 — Transe et répétition lente  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_rythmique` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -503,18 +503,19 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - fatigue (13)
 - Deborah Curtis (12)
 - épilepsie (10)
+- Tony Wilson (10)
 - Closer (9)
 - Rob Gretton (9)
 - Ian Curtis (9)
 - Natalie Curtis (9)
-- Tony Wilson (8)
+- Annik (7)
 - Love Will Tear Us Apart (7)
-- Annik (6)
 - Unknown Pleasures (6)
 - Buzzcocks tour (5)
 - Factory (5)
 - Lindsay Reade (5)
 - Terry Mason (5)
+- American tour (5)
 - epilepsy (5)
 - She’s Lost Control (5)
 - Barton Street (5)
@@ -523,6 +524,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Britannia Row (4)
 - handicap (4)
 - Phenobarbitone (4)
+- Rainbow Theatre (4)
+- Debbie (4)
 - Atmosphere (4)
 - Sordide Sentimental (4)
 - Peter Hook (3)
@@ -532,13 +535,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - paroles (3)
 - silence (3)
 - Macclesfield (3)
-- Rainbow Theatre (3)
+- Moonlight Club (3)
+- Moonlight (3)
 - honte (3)
-- Transmission (3)
-- American tour (3)
-- Debbie (3)
-- fit (3)
-- Leeds (3)
+- riot (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -634,12 +634,12 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | lecture_chanson | 7 |
 | session_studio | 5 |
 | song | 5 |
+| evenement_medical_live | 4 |
 | live_set_context | 4 |
 | scene_domestique | 3 |
 | tension_medicale | 3 |
 | evenement_medical | 3 |
 | tension_sante | 3 |
-| evenement_medical_live | 3 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
 | controverse_biographique | 3 |
@@ -655,6 +655,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | fait_medical | 2 |
 | performance_sante | 2 |
 | tension_psychiatrique | 2 |
+| tension_management_sante | 2 |
 | processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
 | dispositif_formel | 2 |
@@ -694,7 +695,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | scene_soin_amateur | 1 |
 | scene_live_domestique | 1 |
 | objet_audiovisuel | 1 |
-| tension_management_sante | 1 |
 | scene_medicale_sensible | 1 |
 | tension_finale | 1 |
 | management | 1 |
@@ -703,6 +703,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_industrie | 1 |
 | performance_sensible | 1 |
 | interpretation_retrospective | 1 |
+| contexte_tournee | 1 |
+| violence_live | 1 |
+| scene_violence_materielle | 1 |
+| tension_morale_live | 1 |
+| scene_refuge | 1 |
+| tension_domestique_live | 1 |
+| crise_domestique_juridique | 1 |
 | decision_industrielle | 1 |
 | contexte_biographique_medical | 1 |
 | tension_identitaire | 1 |
@@ -833,10 +840,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 162 |
+| critique | 168 |
 | non qualifiée | 94 |
 | majeure | 20 |
-| majeur | 9 |
+| majeur | 12 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -895,11 +902,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S41-A111 [élevé] — Risque de transformer le choix Factory en pure noblesse artistique ; Hook rappelle le coût sanitaire et financier du refus d’avance.
 - S41-A033 [élevé] — Risque de projeter l’épilepsie ou le mythe suicidaire sur une scène d’alcool, colère et performance.
 - S41-A024 [très élevé] — Risque de psychologisation rétrospective et de réduction de Curtis à une pathologie de l’adaptation.
-- S41-A113 [élevé] — Risque d’idéaliser Factory en oubliant le coût salarial et sanitaire du refus d’avance.
-- S41-A125 [très élevé] — Risque de psychologisation et de jugement familial ; Hook signale lui-même son incertitude.
-- S41-A179 [très élevé] — Risque de téléologie morbide : ce contexte prépare l’album sans en faire une preuve anticipée du suicide.
-- S41-A184 [très élevé] — Risque de psychologiser Curtis ; l’atome doit rester méthodologique et relationnel.
-- S41-A185 [élevé] — Ne pas réduire les femmes à leur fonction de conflit ; maintenir les dimensions économiques et spatiales.
+- S41-A190 [élevé] — Ne pas réduire chaque décision à l’argent ; le prestige, l’inertie et l’excitation de l’Amérique comptent aussi.
+- S41-A193 [très élevé] — Éviter à la fois héroïsation du sacrifice et culpabilisation simple du groupe.
+- S41-A194 [très élevé] — Ne pas convertir l’aveu en preuve d’indifférence ; Hook énumère des hypothèses, non des certitudes.
+- S41-A195 [moyen] — Ne pas attribuer tout le riot à Rob ; le public, l’absence de Curtis et la tension de soirée comptent aussi.
+- S41-A196 [faible] — Atome concret ; ne pas le surcharger au-delà du motif sang / domesticité.
 
 ## 15. Lacunes et prochaines vérifications
 

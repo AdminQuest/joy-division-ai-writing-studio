@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T16:13:41"
+generated_at: "2026-05-15T17:09:57"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 722 |
+| Atomes | 725 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 115 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 118 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -272,16 +272,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau_postpunk` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A189** — S41-A189 — Saville, Staglieno et *Closer* : image funéraire choisie avant la mort  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthetique_visuelle` ; importance : `critique` ; preuve : `témoignage direct + objet visuel documenté`.
+- **S41-A191** — S41-A191 — Moonlight Club : Factory comme vitrine et Polydor comme regard industriel  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_industrielle` ; importance : `majeur` ; preuve : `témoignage direct + citation rapportée`.
+- **S41-A195** — S41-A195 — Bury riot : guest list de Rob, violence de salle et débordement de Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `violence_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A198** — S41-A198 — Tony et Lindsay Wilson : refuge après Bury et temporalité de récupération  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_refuge` ; importance : `majeur` ; preuve : `synthèse Hook + chronologie biographique`.
 - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-026** — S45-026 — Deborah Curtis refuse la mythologie romantique du génie détruit  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `positionnement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-034** — S45-034 — Deborah Curtis refuse d’endosser seule une responsabilité morale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-040** — S45-040 — Factory transforme rapidement Joy Division en archive  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `mémoire_collective` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -510,7 +510,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
-- Tony Wilson (18)
+- Tony Wilson (19)
 - Annik Honoré (18)
 - Rob Gretton (16)
 - Peter Saville (10)
@@ -536,6 +536,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Strawberry Studios (4)
 - NME (4)
 - Control (4)
+- Moonlight Club (4)
 - Factory Club (4)
 - Hannett (4)
 - Plan K (4)
@@ -549,7 +550,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - A Certain Ratio (4)
 - Paris (3)
 - Dave McCullough (3)
-- YMCA (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -628,11 +628,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A018 — nuance → MYTH-SEX-PISTOLS-LFTH-ORIGIN
 - S41-A019 — nuance → MYTH-002
 - S41-A019 — prolonge → CONCEPT-046
-- S41-A094 — prolonge → CONCEPT-073
-- S41-A094 — consolide → S41-A074
-- S41-A096 — prolonge → CONCEPT-050
-- S41-A096 — prolonge → CONCEPT-073
-- S41-A099 — prolonge → S41-A077
+- S41-A191 — prolonge → CONCEPT-139
+- S41-A191 — prolonge → S41-A180
+- S41-A195 — prolonge → CONCEPT-133
+- S41-A195 — prolonge → CONCEPT-137
+- S41-A198 — prolonge → MYTH-CURTIS-MARTYR-SEUL
 
 ## 13. Distribution documentaire
 
@@ -757,6 +757,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lieu_structurant | 1 |
 | scene_revelation | 1 |
 | rencontre_fondatrice | 1 |
+| reception_industrielle | 1 |
+| violence_live | 1 |
+| scene_refuge | 1 |
 | chronologie_factory | 1 |
 | scene_politique_factory | 1 |
 | chronologie_live_locale | 1 |
@@ -1007,9 +1010,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 455 |
-| critique | 202 |
+| critique | 203 |
 | majeure | 39 |
-| majeur | 22 |
+| majeur | 24 |
 | structurante | 2 |
 | moyenne | 2 |
 
@@ -1044,6 +1047,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A014 [moyen] — Risque de sacraliser le concert comme origine unique du post-punk mancunien.
 - S41-A018 [moyen] — Risque de faire du second concert un seul point d’origine ; Hook lui-même distribue l’importance entre plusieurs moments.
 - S41-A019 [moyen] — Ne pas faire du mot Hate une prophétie psychologique ; c’est aussi un code punk.
+- S41-A191 [moyen] — Ne pas faire de Polydor une trajectoire manquée centrale ; le passage sert surtout à mesurer l’aura live.
+- S41-A195 [moyen] — Ne pas attribuer tout le riot à Rob ; le public, l’absence de Curtis et la tension de soirée comptent aussi.
+- S41-A198 [moyen] — Ne pas exagérer l’efficacité protectrice du refuge : les crises relationnelles se poursuivent.
 - S41-A094 [faible] — Risque limité ; l’atome sert à éviter la téléologie Factory Records.
 - S41-A096 [faible à moyen] — Ne pas transformer les anecdotes en jugement global sur les groupes.
 - S41-A099 [élevé] — Hook reste spéculatif sur la danse de Curtis.
@@ -1072,9 +1078,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A189 [très élevé] — Risque majeur de téléologie funéraire ; Hook dit lui-même que personne ne sait.
 - S41-A133 [très élevé] — Risque de psychologisation de Curtis et d’Annik ; Hook signale explicitement la fragilité de sa mémoire.
 - S41-A134 [très élevé] — Risque de corriger un mythe par un autre mythe viriliste ; maintenir la pluralité des points de vue.
-- S41-A136 [très élevé] — Risque de romantiser les crises comme style ; le passage impose au contraire la contrainte médicale.
-- S41-A138 [moyen] — Ne pas prendre le récit de supériorité scénique comme mesure objective sans reviews.
-- S41-A139 [moyen] — Ne pas folkloriser l’excès ; le passage révèle un environnement peu protecteur.
 
 ## 15. Lacunes et prochaines vérifications
 

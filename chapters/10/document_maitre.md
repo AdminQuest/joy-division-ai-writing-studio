@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T16:13:41"
+generated_at: "2026-05-15T17:09:57"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 171 |
+| Atomes | 173 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -34,7 +34,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 24 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 26 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
@@ -85,6 +85,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A186** — S41-A186 — Japes contre Ian et Annik : jalousie, cruauté et perte du camarade  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_interne` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec culpabilité`.
+- **S41-A199** — S41-A199 — Factory II : Debbie apprend Annik, retour de la crise domestique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique_live` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments S45 à croiser`.
+- **S41-A200** — S41-A200 — Derby et showdown familial : dernière bascule avant la rupture judiciaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `crise_domestique_juridique` ; importance : `critique` ; preuve : `synthèse Hook + S45 / témoignages à croiser`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A052** — S45-A052 — Joy Division pariahs : Sue Barlow et Deborah comme faux public  
@@ -113,10 +117,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A092** — S45-A092 — Médecine muette : spécialiste, GP et savoir refusé au foyer  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_publique` ; importance : `critique` ; preuve : `témoignage direct + faits live/presse établissables`.
-- **S45-A095** — S45-A095 — Eric’s Liverpool : « no women policy », image et travail féminin effacé  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
 
 ## 6. Autres atomes utiles
 
@@ -176,6 +176,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A087** — S45-A087 — Gretton père-figure : dispute, argent et infantilisation du musicien  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_publique` ; importance : `critique` ; preuve : `témoignage direct + faits live/presse établissables`.
+- **S45-A095** — S45-A095 — Eric’s Liverpool : « no women policy », image et travail féminin effacé  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_genre` ; importance : `critique` ; preuve : `témoignage direct situé`.
 - **S45-A096** — S45-A096 — Drogues, médicaments et silence de dressing room  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct situé`.
 - **S45-A097** — S45-A097 — Leigh Festival : anti-festival Factory/Zoo, police et inertie de Curtis  
@@ -276,10 +280,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S68-A036** — S-BROLL-A036 — Avril 1980 : santé de Ian Curtis et dates annulées  
   Source : S68 — Broll, Joy Division, 1988 ; type : `santé` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A037** — S-BROLL-A037 — Dernier concert : High Hall, Birmingham, 2 mai 1980  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A038** — S-BROLL-A038 — Tournée américaine prévue et mort de Ian Curtis  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -432,15 +432,15 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 - Rob Gretton (9)
 - Annik Honoré (8)
-- Annik (7)
+- Annik (8)
 - Peter Saville (6)
 - Natalie (5)
+- Debbie (5)
 - Candy (4)
 - silence (4)
 - Unknown Pleasures (4)
 - Deborah Curtis (4)
 - Tony Wilson (4)
-- Debbie (4)
 - van (3)
 - Factory (3)
 - Kevin Cummins (3)
@@ -465,11 +465,11 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - contradiction biographique (2)
 - Lindsay Reade (2)
 - Charlesworth (2)
+- Natalie birthday (2)
+- Belgian embassy (2)
+- co-respondent (2)
 - Terry Mason (2)
 - Ian Curtis (2)
-- people pleaser (2)
-- married man (2)
-- one of the lads (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -620,6 +620,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | evenement_discographique | 1 |
 | interpretation_groupe | 1 |
 | interpretation_retrospective | 1 |
+| tension_domestique_live | 1 |
+| crise_domestique_juridique | 1 |
 | intervention_management | 1 |
 | contexte_biographique_medical | 1 |
 | tension_identitaire | 1 |
@@ -665,7 +667,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 80 |
+| critique | 82 |
 | non qualifiée | 65 |
 | majeur | 24 |
 | majeure | 2 |

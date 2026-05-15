@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T16:13:41"
+generated_at: "2026-05-15T17:09:57"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 267 |
+| Atomes | 268 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -34,7 +34,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 102 | 4 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 103 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
@@ -209,6 +209,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
 - **S41-A183** — S41-A183 — Auratones, ARP, gates : Hannett comme école technique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `technique_studio` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
+- **S41-A192** — S41-A192 — Rainbow Theatre : Burnel, crew des Stranglers et hiérarchie matérielle  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C02** — S41-C02 — La basse comme instrument principal de Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S41-C05** — S41-C05 — Joy Division comme tension entre live et studio  
@@ -279,8 +281,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `analyse_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-118** — S46-118 — Le studio comme lieu de contrôle impossible  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_studio` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-121** — S46-121 — *Earcom 2: Contradiction* comme publication intermédiaire  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -499,10 +499,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - An Ideal for Living (2)
 - Steve Brotherdale (2)
 - Pennine Sound (2)
+- Jean-Jacques Burnel (2)
+- soundcheck (2)
 - She’s Lost Control (2)
 - Still (2)
-- space (2)
-- Piccadilly Radio (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -560,6 +560,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A022 — prépare → S45-A150
 - S41-A023 — prolonge → CONCEPT-020
 - S41-A023 — prolonge → S45-A075
+- S41-A192 — prolonge → CONCEPT-135
+- S41-A192 — prolonge → CONCEPT-139
 - S41-A095 — consolide → S41-A069
 - S41-A095 — consolide → S41-A071
 - S41-A095 — consolide → S41-A079
@@ -584,8 +586,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A118 — nuance → MYTH-HANNETT-GENIE-ABSOLU
 - S41-A119 — prolonge → CONCEPT-097
 - S41-A119 — prolonge → S41-A118
-- S41-A124 — prépare → S41-SORDIDE-SENTIMENTALE
-- S41-A124 — prolonge → CONCEPT-097
 
 ## 13. Distribution documentaire
 
@@ -644,6 +644,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | recrutement_musical | 1 |
 | scene_materielle | 1 |
 | personne_reseau | 1 |
+| economie_materielle_live | 1 |
 | influence_live | 1 |
 | tension_industrie | 1 |
 | scene_creative_live | 1 |
@@ -711,7 +712,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | non qualifiée | 166 |
 | critique | 82 |
 | majeure | 11 |
-| majeur | 8 |
+| majeur | 9 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -737,6 +738,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A016 [moyen] — Risque de faire d’une explication rétrospective une cause technique exclusive du son Hook.
 - S41-A022 [moyen] — Ne pas transformer Terry en cinquième membre artistique ; son rôle est infrastructurel et relationnel.
 - S41-A023 [élevé] — Risque de mythifier Curtis comme âme pure ; Hook écrit rétrospectivement après le mythe.
+- S41-A192 [faible] — Atome matériel ; son intérêt tient à la hiérarchie concrète des moyens.
 - S41-A095 [faible] — Atome de verrouillage documentaire.
 - S41-A097 [moyen] — Ne pas faire de Suicide une cause unique.
 - S41-A068 [moyen] — Ne pas réduire Interzone à une reprise détournée ; la transformation est précisément l’objet.
@@ -774,7 +776,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S75-A015 [faible] — lecture cohérente avec la place reconnue de Morris, mais à articuler avec les autres membres
 - S75-A020 [moyen] — formule forte d'Ott ; à articuler avec d'autres seuils possibles comme « Digital » ou les sessions RCA
 - S75-A021 [moyen] — risque de transformer RCA en pure caricature industrielle alors que l'échec tient aussi à l'inexpérience du groupe
-- S75-A022 [moyen] — la généalogie d'« Interzone » doit être maniée comme lecture de session, non comme origine exclusive du morceau
 
 ## 15. Lacunes et prochaines vérifications
 
