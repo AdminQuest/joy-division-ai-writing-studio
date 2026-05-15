@@ -10,7 +10,7 @@
   <header class="hero">
     <div class="hero-inner">
       <h1>Registre des acteurs</h1>
-      <p class="subtitle">Vue documentaire dynamique générée depuis <code>exports/generated/people.json</code>.</p>
+      <p class="subtitle">Vue documentaire dynamique reconstruite directement depuis les fichiers Markdown spécialisés.</p>
       <p class="back"><a href="../../">← Retour au portail</a></p>
     </div>
   </header>
@@ -27,30 +27,22 @@
 
         <div class="field">
           <label for="source-filter">Source</label>
-          <select id="source-filter">
-            <option value="">Toutes</option>
-          </select>
+          <select id="source-filter"><option value="">Toutes</option></select>
         </div>
 
         <div class="field">
           <label for="role-filter">Rôle</label>
-          <select id="role-filter">
-            <option value="">Tous</option>
-          </select>
+          <select id="role-filter"><option value="">Tous</option></select>
         </div>
 
         <div class="field">
           <label for="entity-filter">Entité associée</label>
-          <select id="entity-filter">
-            <option value="">Toutes</option>
-          </select>
+          <select id="entity-filter"><option value="">Toutes</option></select>
         </div>
 
         <div class="field">
           <label for="chapter-filter">Chapitre</label>
-          <select id="chapter-filter">
-            <option value="">Tous</option>
-          </select>
+          <select id="chapter-filter"><option value="">Tous</option></select>
         </div>
       </div>
 
@@ -60,7 +52,7 @@
       </div>
 
       <p class="note">
-        Le registre des acteurs consolide les personnes, rôles, sources, chansons, événements, contradictions et précautions méthodologiques. Après enrichissement de <code>master_people.md</code> ou atomisation d’un livre, reconstruire les exports.
+        Ce registre lit directement les fichiers <code>registers/people/*.md</code> et les personnes atomisées du repo.
       </p>
     </section>
 
@@ -74,6 +66,7 @@
     </section>
   </main>
 
+  <script src="../lib/dynamic-registers.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
