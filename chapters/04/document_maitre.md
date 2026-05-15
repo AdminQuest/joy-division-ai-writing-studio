@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T09:50:38"
+generated_at: "2026-05-15T13:51:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-15T09:50:38"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 209 |
+| Atomes | 216 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-15T09:50:38"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 48 | 0 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 55 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -73,6 +73,12 @@ generated_at: "2026-05-15T09:50:38"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `processus_creatif_chanson` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + session Peel établie`.
 - **S41-A152** — S41-A152 — « She’s Lost Control » : Synare, aérosol et parole non analysée  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_sante` ; importance : `critique` ; preuve : `témoignage direct + information de seconde main sur origine lyrique`.
+- **S41-A156** — S41-A156 — Timeline Four : 1979 comme année de superposition documentaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale + commentaires Hook`.
+- **S41-A161** — S41-A161 — De « Chance » à « Atrocity Exhibition » : Piccadilly Radio comme seuil post-album  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session radio documentée`.
+- **S41-A162** — S41-A162 — « Transmission » / FAC 13 : Central Sound, Strawberry et single autonome  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_single` ; importance : `critique` ; preuve : `chronologie discographique`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -109,12 +115,6 @@ generated_at: "2026-05-15T09:50:38"
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_memoire`.
 - **S75-A047** — S75-A047 — « She’s Lost Control » : origine professionnelle, retour biographique et comparaison des versions  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A057** — S75-A057 — Curtis, Bowie et le fantasme romantique de mourir jeune  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_biographique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A058** — S75-A058 — La « dead fly dance » : présence scénique, crise et méprise esthétique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `performance` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_temoin_et_image`.
-- **S75-A059** — S75-A059 — Médication, lumières blanches et crise du 24 mai 1979  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte_medical` ; importance : `critique` ; preuve : `reconstruction_medicale_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -160,6 +160,8 @@ generated_at: "2026-05-15T09:50:38"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-A153** — S41-A153 — « Shadowplay » et « Wilderness » : structure sans refrain, religion et basse rêvée  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceaux` ; importance : `majeur` ; preuve : `témoignage direct + analyse rétrospective`.
+- **S41-A154** — S41-A154 — « Interzone » : chant Hook, générosité Curtis et survivance RCA  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
 - **S41-C06** — S41-C06 — Ian Curtis : fragmentation progressive  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-001** — S45-001 — Ian Curtis naît à Old Trafford mais grandit à Macclesfield  
@@ -275,8 +277,6 @@ generated_at: "2026-05-15T09:50:38"
 - **S75-A046** — S75-A046 — « Insight » et « New Dawn Fades » : fatalisme textuel, puissance de lecture et risque de surcodage  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_textuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A049** — S75-A049 — « Wilderness », « Interzone », « I Remember Nothing » : fin d'album et dramaturgie du vide  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 7. Citations disponibles
@@ -510,6 +510,8 @@ generated_at: "2026-05-15T09:50:38"
 - Annik Honoré (6)
 - Shadowplay (4)
 - Closer (4)
+- Transmission (4)
+- Atmosphere (4)
 - Bowie (4)
 - domesticité (4)
 - Tony Wilson (4)
@@ -518,8 +520,8 @@ generated_at: "2026-05-15T09:50:38"
 - paroles (3)
 - No Love Lost (3)
 - Iggy Pop (3)
-- Transmission (3)
-- Atmosphere (3)
+- Interzone (3)
+- Chance (3)
 - Disorder (3)
 - Love Will Tear Us Apart (3)
 - She’s Lost Control (3)
@@ -540,8 +542,6 @@ generated_at: "2026-05-15T09:50:38"
 - Unknown Pleasures (2)
 - House of Dolls (2)
 - Throbbing Gristle (2)
-- Interzone (2)
-- Chance (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -590,6 +590,14 @@ generated_at: "2026-05-15T09:50:38"
 - S41-A127 — prépare → LOVE-WILL-TEAR-US-APART
 - S41-A142 — prolonge → S41-A124
 - S41-A142 — prépare → REGISTRE-SORDIDE-SENTIMENTALE
+- S41-A154 — prolonge → S41-A068
+- S41-A154 — prolonge → CONCEPT-093
+- S41-A156 — prolonge → S41-A117
+- S41-A156 — prolonge → S41-A143
+- S41-A161 — prolonge → S41-A124
+- S41-A161 — prolonge → CONCEPT-103
+- S41-A162 — prolonge → S41-A126
+- S41-A162 — prolonge → S41-A127
 - S41-A144 — prolonge → S41-A124
 - S41-A144 — nuance → MYTH-ATMOSPHERE-DEATH-SONG
 - S41-A145 — prolonge → S41-A109
@@ -617,14 +625,6 @@ generated_at: "2026-05-15T09:50:38"
 - S75-A064 — requiert → CONCEPT-004
 - S75-A064 — nuance → MYTH-002
 - S75-A064 — prolonge → S75-A057
-- S75-A065 — requiert → CONCEPT-004
-- S75-A065 — nuance → MYTH-002
-- S75-A065 — prolonge → S75-A063
-- S75-A068 — requiert → CONCEPT-004
-- S75-A068 — nuance → MYTH-002
-- S75-A068 — prépare → S75-A075
-- S75-A071 — prolonge → MOTIF-001
-- S75-A071 — requiert → CONCEPT-004
 
 ## 13. Distribution documentaire
 
@@ -632,7 +632,7 @@ generated_at: "2026-05-15T09:50:38"
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 14 |
+| non qualifié | 17 |
 | fait_sensible | 9 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
@@ -650,6 +650,7 @@ generated_at: "2026-05-15T09:50:38"
 | tension_biographique | 3 |
 | live_set_context | 3 |
 | session_studio | 2 |
+| session_radio | 2 |
 | chanson_single | 2 |
 | processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
@@ -678,7 +679,9 @@ generated_at: "2026-05-15T09:50:38"
 | paroles_source | 1 |
 | tension_industrie | 1 |
 | scene_creative_live | 1 |
-| session_radio | 1 |
+| analyse_morceau | 1 |
+| chronologie_structurante | 1 |
+| chronologie_single | 1 |
 | analyse_morceau_sante | 1 |
 | analyse_morceaux | 1 |
 | iconographie_photographe | 1 |
@@ -763,10 +766,10 @@ generated_at: "2026-05-15T09:50:38"
 
 | Importance | Nombre |
 |---|---|
-| critique | 95 |
-| non qualifiée | 78 |
+| critique | 98 |
+| non qualifiée | 81 |
 | majeure | 33 |
-| majeur | 2 |
+| majeur | 3 |
 | structurante | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -789,6 +792,10 @@ generated_at: "2026-05-15T09:50:38"
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
 - S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
 - S41-A142 [élevé] — Risque de lire le morceau uniquement comme death march ; Hook lui-même parle depuis l’après-coup.
+- S41-A154 [moyen] — Ne pas réduire Interzone à la trace RCA ; Hook souligne aussi la générosité vocale de Curtis.
+- S41-A156 [faible] — L’atome sert à cadrer, non à interpréter causalement toute l’année.
+- S41-A161 [moyen] — Ne pas faire de la session une anticipation consciente de Closer ; elle est une charnière rétrospective.
+- S41-A162 [faible] — Atome de trajectoire discographique ; ne pas surinterpréter au-delà de la logique single.
 - S41-A144 [élevé] — Éviter de lire la genèse depuis la fonction funéraire posthume du morceau.
 - S41-A145 [très élevé] — Risque de rabattre les paroles sur Deborah, Annik ou Hook sans preuve ; Hook dit explicitement ne pas savoir.
 - S41-A152 [très élevé] — Risque de surpsychologiser Curtis ; Hook insiste sur le fait que le groupe n’analysait pas alors les paroles.
@@ -827,10 +834,6 @@ generated_at: "2026-05-15T09:50:38"
 - S74-A046 [moyen] — risque de romantiser Factory comme seul espace authentique contre une télévision nécessairement morte
 - S74-A001 [moyen] — risque de romantisation de l’échec économique Factory comme geste esthétique pur
 - S74-A005 [faible] — source proche du témoin, mais portrait fortement stylisé par Middles
-- S74-A006 [moyen] — risque de psychologiser Factory à partir de la seule trajectoire sociale de Wilson
-- S74-A008 [moyen] — risque de transformer So It Goes en cause unique de la médiatisation punk mancunienne
-- S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
-- S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
 
 ## 15. Lacunes et prochaines vérifications
 

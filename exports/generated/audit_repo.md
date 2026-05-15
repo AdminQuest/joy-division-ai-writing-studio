@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-15T09:50:37`
+Généré le : `2026-05-15T13:51:37`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 84 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1478 atome(s) incomplet(s) sur 1539.
+Le repo est techniquement exploitable, mais 93 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1494 atome(s) incomplet(s) sur 1555.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 3071
+- Enregistrements : 3129
 - Erreurs : 0
-- Avertissements : 15717
+- Avertissements : 15878
 - Sources déclarées : 19
 - Sources utilisées : 12
 - Sources exportées : 12
@@ -22,11 +22,11 @@ La dette principale reste la migration v2 : 1478 atome(s) incomplet(s) sur 1539.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1539 |
+| atom | 1555 |
 | chronology | 331 |
-| concept | 116 |
+| concept | 125 |
 | metadata | 18 |
-| motif | 180 |
+| motif | 192 |
 | myth | 11 |
 | person | 157 |
 | quote | 353 |
@@ -34,19 +34,19 @@ La dette principale reste la migration v2 : 1478 atome(s) incomplet(s) sur 1539.
 | rules | 1 |
 | song | 41 |
 | source | 56 |
-| template | 183 |
-| unknown | 84 |
+| template | 195 |
+| unknown | 93 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 135 |
-| invalid_controlled_value | 1284 |
-| missing_required_field | 4370 |
+| invalid_controlled_value | 1296 |
+| missing_required_field | 4450 |
 | schema_warning | 399 |
-| unknown_yaml_block | 84 |
-| v2_migration_debt | 9445 |
+| unknown_yaml_block | 93 |
+| v2_migration_debt | 9505 |
 
 ## 5. Erreurs bloquantes
 
@@ -66,6 +66,15 @@ Aucune.
 - `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [INST-S41-CELESTION-18-HIGH-BASS] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [LIVE-S41-OLDHAM-TOWER-CLUB-NO-AUDIENCE] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [LIVE-S41-SWINGING-APPLE-1977-12-31] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md` [ALBUM-S41-A-FACTORY-SAMPLE-FAC2-TIMELINE-1979] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md` [PHOTO-S41-CUMMINS-PRINCESS-PARKWAY-NME] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md` [RADIO-S41-FIRST-PEEL-SESSION-1979] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md` [ALBUM-S41-UNKNOWN-PLEASURES-FACT10-TIMELINE] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md` [RADIO-S41-PICCADILLY-RADIO-1979-CHANCE-ATROCITY] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md` [LIVE-S41-YMCA-NASHVILLE-LEIGH-AUGUST-1979] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md` [FILM-S41-THE-FACTORY-FLICK-FAC9] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md` [TV-S41-SOMETHING-ELSE-SLC-TRANSMISSION] : Unable to infer documentary kind
+- `registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md` [COMP-S41-EARCOM2-FAST9B] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [LIVE-S41-STIFF-CHISWICK-RAFTERS-1978-04-14] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [DISC-S41-AN-IDEAL-12-INCH-GRETTON] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1978_stiff_chiswick_rca_gretton_factory_granada.md` [LIVE-S41-FIRST-FACTORY-RUSSELL-CLUB-1978-06-09] : Unable to infer documentary kind
@@ -85,16 +94,7 @@ Aucune.
 - `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [TV-S41-WHATS-ON-SHES-LOST-CONTROL] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1979_factory_deal_unknown_pleasures_release_anti_image.md` [LIVE-S41-YMCA-TOTTENHAM-COURT-ROAD] : Unable to infer documentary kind
 - `registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md` [MEDIA-S41-MELODY-MAKER-PISTOLS-APRIL-1976] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md` [FILM-S41-THATLL-BE-THE-DAY] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1956_1976_salford_jamaica_music_pistols_epiphany.md` [ARTIST-S41-SEX-PISTOLS-AS-CLASS-PERMISSION] : Unable to infer documentary kind
-- `registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md` [FILM-S45-ERASERHEAD-ABSENCE] : Unable to infer documentary kind
-- `registers/songs/s45_curtis_songs_1980_european_tour_annik_closer_threshold.md` [LIVE-S45-NEW-OSBOURNE-CITY-FUN] : Unable to infer documentary kind
-- `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [LIVE-S45-MOONLIGHT-RAINBOW-APRIL-1980] : Unable to infer documentary kind
-- `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [LIVE-S45-DERBY-HALL-BURY-1980] : Unable to infer documentary kind
-- `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [LIVE-S45-BIRMINGHAM-HIGH-HALL-FINAL-GIG] : Unable to infer documentary kind
-- `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [OBJ-S45-SORDIDE-SENTIMENTALE-1106] : Unable to infer documentary kind
-- `registers/songs/s45_curtis_songs_1980_moonlight_overdose_bury_divorce_last_clinic.md` [FILM-S45-STROSZEK-DEADLINE] : Unable to infer documentary kind
-- … 44 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 53 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -113,10 +113,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1539
+- Atomes : 1555
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1478
-- Avertissements de champs v2 manquants : 9445
+- Atomes v2 incomplets : 1494
+- Avertissements de champs v2 manquants : 9505
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

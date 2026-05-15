@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T09:50:38"
+generated_at: "2026-05-15T13:51:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 400 |
+| Atomes | 405 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 120 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 125 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
@@ -512,25 +512,26 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 ### 12.1. Motifs dominants
 
 - Rob Gretton (24)
-- Factory (13)
+- Factory (14)
 - Tony Wilson (13)
 - Martin Hannett (12)
+- Transmission (9)
 - Unknown Pleasures (9)
 - Rafters (8)
 - Hannett (8)
-- Transmission (7)
+- John Peel (7)
+- Buzzcocks tour (6)
 - Digital (6)
 - Terry Mason (6)
-- John Peel (6)
 - Electric Circus (6)
 - Ian Curtis (6)
 - Peter Saville (6)
-- Buzzcocks tour (5)
 - Russell Club (5)
 - Strawberry Studios (5)
 - RCA (5)
 - fatigue (5)
 - manager (5)
+- She’s Lost Control (5)
 - Gretton (5)
 - Love Will Tear Us Apart (5)
 - van (4)
@@ -541,16 +542,15 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Band on the Wall (4)
 - Buzzcocks (4)
 - Glass (4)
+- radio (4)
 - T. J. Davidson’s (4)
 - Kraftwerk (4)
 - Stephen Morris (4)
 - Warsaw (4)
-- She’s Lost Control (4)
+- Sordide Sentimental (4)
 - Atmosphere (4)
 - Closer (4)
 - Britannia Row (4)
-- synthétiseur (4)
-- John Anderson (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -643,7 +643,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 |---|---|
 | non qualifié | 16 |
 | production | 10 |
-| reception_live | 8 |
+| reception_live | 9 |
 | session_studio | 8 |
 | song | 8 |
 | scene_fondatrice | 7 |
@@ -656,6 +656,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | objet_discographique | 5 |
 | scene_management | 5 |
 | biographie | 5 |
+| session_radio | 5 |
 | discographie | 5 |
 | fait_sensible | 5 |
 | processus_creatif | 4 |
@@ -663,12 +664,12 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_reseau | 4 |
 | reception_critique | 4 |
 | fait_interprete | 4 |
-| session_radio | 4 |
 | tension_management | 3 |
 | scene_live | 3 |
 | economie_tournee | 3 |
 | scene_collective | 3 |
 | scene_live_violence | 3 |
+| chronologie_structurante | 3 |
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
@@ -685,8 +686,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | construction_esthetique | 2 |
 | personne_reseau | 2 |
 | scene_revelation | 2 |
-| chronologie_structurante | 2 |
 | strategie_medias | 2 |
+| evenement_medical | 2 |
 | session_enregistrement | 2 |
 | analyse_musicale | 2 |
 | interpretation_album | 2 |
@@ -765,8 +766,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_live_comparative | 1 |
 | scene_tournee_conflit | 1 |
 | scene_live_echec | 1 |
-| evenement_medical | 1 |
 | chronologie_medicale | 1 |
+| carrefour_discographique_live | 1 |
 | chronologie_scene | 1 |
 | scene_live_anecdotique | 1 |
 | archive_live | 1 |
@@ -868,7 +869,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 180 |
+| critique | 185 |
 | non qualifiée | 154 |
 | majeur | 41 |
 | majeure | 24 |

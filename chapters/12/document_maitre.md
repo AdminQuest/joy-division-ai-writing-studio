@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T09:50:38"
+generated_at: "2026-05-15T13:51:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 265 |
+| Atomes | 271 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
@@ -34,7 +34,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 26 | 1 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 32 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 29 | 4 |
@@ -87,6 +87,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A152** — S41-A152 — « She’s Lost Control » : Synare, aérosol et parole non analysée  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_sante` ; importance : `critique` ; preuve : `témoignage direct + information de seconde main sur origine lyrique`.
+- **S41-A156** — S41-A156 — Timeline Four : 1979 comme année de superposition documentaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale + commentaires Hook`.
+- **S41-A158** — S41-A158 — 23 janvier 1979 : diagnostic d’épilepsie comme seuil documentaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical` ; importance : `critique` ; preuve : `repère chronologique médical`.
+- **S41-A160** — S41-A160 — Chronologie *Unknown Pleasures* : session, naissance de Natalie et sortie FACT 10  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale discographique`.
+- **S41-A163** — S41-A163 — YMCA / Nashville / Leigh : montée live, images heureuses et « Atmosphere » avant funérailles  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique + commentaire Hook`.
+- **S41-A165** — S41-A165 — Earcom 2 / Sordide / Buzzcocks tour : octobre comme carrefour discographique et scénique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `carrefour_discographique_live` ; importance : `critique` ; preuve : `chronologie discographique et live`.
 - **S45-A035** — S45-A035 — Employment Exchange : Curtis comme agent de reclassement des personnes handicapées  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_structurant` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A036** — S45-A036 — Le cours sur l’épilepsie : savoir préalable et ironie tragique  
@@ -105,16 +115,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_medicale` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A074** — S45-A074 — Danse et crise : imitation, indistinction et réception corporelle  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_sante` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
-- **S45-A080** — S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A083** — S45-A083 — 24 mai 1979 : quatre crises grand mal et urgence médicale domestique  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_medical` ; importance : `critique` ; preuve : `témoignage direct avec éléments médicaux rapportés`.
-- **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
-- **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A092** — S45-A092 — Médecine muette : spécialiste, GP et savoir refusé au foyer  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -142,8 +142,18 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_live` ; importance : `majeur` ; preuve : `témoignage direct rapporté par Hook dans S45`.
 - **S45-A060** — S45-A060 — Candy : contrepoint domestique au récit d’intensification  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A080** — S45-A080 — Naissance de Natalie : grossesse, Nuremberg et incapacité paternelle inquiète  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
+- **S45-A083** — S45-A083 — 24 mai 1979 : quatre crises grand mal et urgence médicale domestique  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_medical` ; importance : `critique` ; preuve : `témoignage direct avec éléments médicaux rapportés`.
 - **S45-A084** — S45-A084 — Juin 1979 : intervalle idyllique, South Park et répit trompeur  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S45-A085** — S45-A085 — Mick Middles et la danse : réception extatique du corps épileptiforme  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_critique` ; importance : `critique` ; preuve : `citation critique rapportée par S45`.
+- **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A092** — S45-A092 — Médecine muette : spécialiste, GP et savoir refusé au foyer  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_medicale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A096** — S45-A096 — Drogues, médicaments et silence de dressing room  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_sante` ; importance : `critique` ; preuve : `témoignage direct situé`.
 - **S45-A101** — S45-A101 — Dernier recours manqué : Aunty Nell et l’impossibilité de rendre la crise visible  
@@ -268,16 +278,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S47 — West, Joy Division, 1984 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S47-066** — S47-066 — *Closer* est enregistré à Britannia Row  
   Source : S47 — West, Joy Division, 1984 ; type : `session_album` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-067** — S47-067 — Les sessions de *Closer* durent treize jours et treize nuits  
-  Source : S47 — West, Joy Division, 1984 ; type : `session_album` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-068** — S47-068 — *Closer* est une réussite artistique malgré le contexte humain délétère  
-  Source : S47 — West, Joy Division, 1984 ; type : `interpretation_album` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-069** — S47-069 — Moonlight Club : avril 1980, charge de travail et fragilité de Curtis  
-  Source : S47 — West, Joy Division, 1984 ; type : `concert_sequence` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-070** — S47-070 — Rainbow Theatre : soutien aux Stranglers et crise de Curtis  
-  Source : S47 — West, Joy Division, 1984 ; type : `concert_incident` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-071** — S47-071 — Birmingham University, 2 mai 1980 : dernier concert  
-  Source : S47 — West, Joy Division, 1984 ; type : `dernier_concert` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -499,28 +499,30 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ### 12.1. Motifs dominants
 
-- Annik Honoré (21)
+- Annik Honoré (22)
 - fatigue (13)
 - Deborah Curtis (12)
 - épilepsie (10)
 - Closer (9)
 - Ian Curtis (9)
+- Natalie Curtis (9)
 - Rob Gretton (8)
 - Tony Wilson (8)
-- Natalie Curtis (8)
 - Love Will Tear Us Apart (6)
+- Unknown Pleasures (6)
+- Factory (5)
 - Lindsay Reade (5)
-- Unknown Pleasures (5)
 - Terry Mason (5)
 - She’s Lost Control (5)
 - Barton Street (5)
-- Factory (4)
 - tournée américaine (4)
 - Britannia Row (4)
 - handicap (4)
 - Phenobarbitone (4)
 - epilepsy (4)
 - Atmosphere (4)
+- Sordide Sentimental (4)
+- Buzzcocks tour (3)
 - Peter Hook (3)
 - Candy (3)
 - domesticité (3)
@@ -530,15 +532,13 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - silence (3)
 - Macclesfield (3)
 - honte (3)
+- Transmission (3)
 - American tour (3)
-- Sordide Sentimental (3)
+- Strawberry Studios (3)
 - Derby Hall (3)
 - crise épileptique (3)
 - David Lewis Centre (3)
 - Mark Reeder (3)
-- mariage (3)
-- Buzzcocks tour (2)
-- chien (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -629,7 +629,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Type | Nombre |
 |---|---|
-| non qualifié | 12 |
+| non qualifié | 13 |
 | lecture_chanson | 7 |
 | tension_domestique | 6 |
 | session_studio | 5 |
@@ -637,6 +637,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | live_set_context | 4 |
 | scene_domestique | 3 |
 | tension_medicale | 3 |
+| evenement_medical | 3 |
 | tension_sante | 3 |
 | intertextualite | 3 |
 | fait_sensible | 3 |
@@ -647,7 +648,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | song_session | 3 |
 | contrepoint_domestique | 2 |
 | tension_relationnelle | 2 |
-| evenement_medical | 2 |
 | tension_documentaire | 2 |
 | performance_live | 2 |
 | evenement_critique | 2 |
@@ -709,6 +709,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | tension_morale | 1 |
 | chanson_single | 1 |
 | chronologie_medicale | 1 |
+| chronologie_structurante | 1 |
+| chronologie_discographique | 1 |
+| reception_live | 1 |
+| carrefour_discographique_live | 1 |
 | analyse_morceau_sante | 1 |
 | scene_live | 1 |
 | coincidence_culturelle | 1 |
@@ -817,8 +821,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 144 |
-| non qualifiée | 93 |
+| critique | 149 |
+| non qualifiée | 94 |
 | majeure | 20 |
 | majeur | 8 |
 

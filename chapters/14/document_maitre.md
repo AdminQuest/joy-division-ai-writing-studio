@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-15T09:50:38"
+generated_at: "2026-05-15T13:51:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 703 |
+| Atomes | 712 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -34,7 +34,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S41 | S41 — Hook, Unknown Pleasures, 2012 | 96 | 3 |
+| S41 | S41 — Hook, Unknown Pleasures, 2012 | 105 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -238,6 +238,20 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + fait discographique établi`.
 - **S41-A146** — S41-A146 — Bournemouth : crise, épuisement, médication et regard démonologique extérieur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A156** — S41-A156 — Timeline Four : 1979 comme année de superposition documentaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale + commentaires Hook`.
+- **S41-A157** — S41-A157 — Princess Parkway / Cummins : photographie pauvre, icône par contrainte  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_visuelle` ; importance : `critique` ; preuve : `témoignage direct + archive photographique vérifiable`.
+- **S41-A159** — S41-A159 — Première Peel Session : BBC, hands-on et professionnalisation radiophonique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie + témoignage direct`.
+- **S41-A162** — S41-A162 — « Transmission » / FAC 13 : Central Sound, Strawberry et single autonome  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_single` ; importance : `critique` ; preuve : `chronologie discographique`.
+- **S41-A163** — S41-A163 — YMCA / Nashville / Leigh : montée live, images heureuses et « Atmosphere » avant funérailles  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique + commentaire Hook`.
+- **S41-A164** — S41-A164 — Futurama / Factory Flick / Something Else : visibilité scénique, audiovisuelle et médiatique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `mediation_audiovisuelle` ; importance : `critique` ; preuve : `chronologie audiovisuelle et live`.
+- **S41-A165** — S41-A165 — Earcom 2 / Sordide / Buzzcocks tour : octobre comme carrefour discographique et scénique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `carrefour_discographique_live` ; importance : `critique` ; preuve : `chronologie discographique et live`.
 - **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-018** — S45-018 — *Unknown Pleasures* transforme l’image publique du groupe  
@@ -268,20 +282,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_presse` ; importance : `majeur` ; preuve : `témoignage direct + réception presse rapportée`.
 - **S45-A094** — S45-A094 — YMCA / Tottenham Court Road : notoriété publique et dépossession conjugale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_publique` ; importance : `critique` ; preuve : `témoignage direct + faits live/presse établissables`.
-- **S45-A098** — S45-A098 — Le nom Joy Division : silence stratégique et résistance à l’« Ian Curtis and Joy Division »  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `strategie_mediatique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A104** — S45-A104 — Futurama ’79 : consécration nordiste et correction d’une mémoire secondaire  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct indirect ; correction mémorielle de Deborah`.
-- **S45-A106** — S45-A106 — Mountford Hall : Joy Division déborde son statut de support band  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct indirect + citation critique rapportée`.
-- **S45-A107** — S45-A107 — Leeds University : Curtis star malgré le collectif  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_starification` ; importance : `critique` ; preuve : `citation critique rapportée + interprétation de Deborah`.
-- **S45-A114** — S45-A114 — Rainbow et Guildford : farces de tournée, sabotage sonore et domination contrariée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_live` ; importance : `critique` ; preuve : `témoignage direct rapporté + citation critique`.
-- **S45-A116** — S45-A116 — Franck Essner : « Transmission » et amorce d’un fandom transnational  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `critique` ; preuve : `témoignage direct de Deborah + entretien/retour de Franck Essner probable`.
-- **S45-A124** — S45-A124 — Franck Essner à Barton Street : charade familiale et regard transnational  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_transnationale` ; importance : `majeur` ; preuve : `témoignage direct + propos de Franck rapportés`.
 
 ## 7. Citations disponibles
 
@@ -510,33 +510,34 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ### 12.1. Motifs dominants
 
+- Annik Honoré (18)
 - Tony Wilson (17)
-- Annik Honoré (17)
 - Rob Gretton (14)
 - Peter Saville (9)
 - Ian Curtis (8)
+- Factory (8)
 - fatigue (8)
+- Buzzcocks tour (7)
+- Transmission (7)
 - Unknown Pleasures (7)
-- Factory (7)
-- Buzzcocks tour (6)
+- John Peel (6)
 - Electric Circus (6)
+- Kevin Cummins (6)
 - Love Will Tear Us Apart (5)
-- John Peel (5)
 - Durutti Column (5)
-- Kevin Cummins (5)
+- She’s Lost Control (5)
+- Sordide Sentimental (5)
 - Closer (5)
 - Gretton (5)
 - Mick Middles (4)
 - Buzzcocks (4)
-- Transmission (4)
 - Sounds (4)
 - Strawberry Studios (4)
 - NME (4)
 - Factory Club (4)
-- She’s Lost Control (4)
 - Plan K (4)
 - Licht und Blindheit (4)
-- Sordide Sentimental (4)
+- Dead Souls (4)
 - épilepsie (4)
 - Sister Ray (4)
 - Still (4)
@@ -545,11 +546,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - A Certain Ratio (4)
 - Rainbow Theatre (3)
 - Dave McCullough (3)
+- YMCA (3)
 - interviews (3)
+- radio (3)
 - Peel Session (3)
-- T. J. Davidson’s (3)
-- Sex Pistols (3)
-- Control (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -642,10 +642,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|
 | analyse | 34 |
 | reception | 28 |
-| non qualifié | 17 |
+| non qualifié | 19 |
+| reception_live | 12 |
 | objet_discographique | 12 |
 | memoire | 12 |
-| reception_live | 11 |
 | discographie | 11 |
 | reception_poll | 10 |
 | reception_critique | 9 |
@@ -659,6 +659,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | relation | 7 |
 | fait | 7 |
 | lecture | 6 |
+| session_radio | 5 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
 | controverse | 5 |
@@ -675,7 +676,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | projet_avorte | 4 |
 | fait_interprete | 4 |
 | mythe | 4 |
-| session_radio | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | acteur_critique | 4 |
@@ -708,6 +708,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | chanson_single | 2 |
 | demythification | 2 |
 | evenement_medical_live | 2 |
+| archive_visuelle | 2 |
 | archive_live | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
@@ -771,6 +772,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_live_violence | 1 |
 | scene_live_comparative | 1 |
 | scene_live_echec | 1 |
+| chronologie_structurante | 1 |
+| chronologie_single | 1 |
+| mediation_audiovisuelle | 1 |
+| carrefour_discographique_live | 1 |
 | lieu_memoire | 1 |
 | chronologie_discographique | 1 |
 | scene_sociale_live | 1 |
@@ -834,7 +839,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | session | 1 |
 | lecture_discographique | 1 |
 | lecture_musicale | 1 |
-| archive_visuelle | 1 |
 | mythe_institutionnel | 1 |
 | chronology | 1 |
 | bootleg_culture | 1 |
@@ -994,8 +998,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 453 |
-| critique | 187 |
+| non qualifiée | 455 |
+| critique | 194 |
 | majeure | 39 |
 | majeur | 20 |
 | structurante | 2 |

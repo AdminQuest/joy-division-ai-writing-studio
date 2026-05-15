@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-15T09:50:22",
+  "generated_at": "2026-05-15T13:51:28",
   "status": "warning",
   "summary": {
-    "records_total": 3071,
+    "records_total": 3129,
     "records_by_kind": {
-      "atom": 1539,
+      "atom": 1555,
       "quote": 353,
       "chronology": 331,
       "metadata": 18,
       "source": 56,
-      "unknown": 84,
+      "unknown": 93,
       "song": 41,
-      "template": 183,
+      "template": 195,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 180,
+      "motif": 192,
       "person": 157,
-      "concept": 116,
+      "concept": 125,
       "myth": 11
     },
-    "diagnostics_total": 15717,
+    "diagnostics_total": 15878,
     "errors": 0,
-    "warnings": 15717,
+    "warnings": 15878,
     "sources_declared_in_registre_json": 19,
     "sources_used_in_records": 12,
     "sources_exported": 12,
@@ -104,8 +104,8 @@
         "auteur": "Peter Hook",
         "titre": "Unknown Pleasures: Inside Joy Division",
         "annee": "2012",
-        "records": 450,
-        "atoms": 344,
+        "records": 475,
+        "atoms": 360,
         "quotes": 9,
         "chronology": 9,
         "files": [
@@ -125,6 +125,7 @@
           "registers/songs/s41_hook_songs_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
           "registers/songs/s41_hook_songs_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
           "registers/songs/s41_hook_songs_1979_peel_factory_genetic_eden_transition.md",
+          "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
           "sources/hook/atomisation_02_transmission_1978.md",
           "sources/hook/atomisation_03_unknown_pleasures_1979.md",
           "sources/hook/atomisation_04_unknown_pleasures_track_by_track.md",
@@ -144,7 +145,8 @@
           "sources/hook_unknown_pleasures/source_part_1979_factory_deal_unknown_pleasures_release_anti_image.md",
           "sources/hook_unknown_pleasures/source_part_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
           "sources/hook_unknown_pleasures/source_part_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
-          "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md"
+          "sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md",
+          "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md"
         ]
       },
       {
@@ -19863,6 +19865,582 @@
       "file": "sources/hook_unknown_pleasures/source_part_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
       "message": "Invalid value for type_unite: chronologie_medicale",
       "record_id": "S41-A092"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A154"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A154"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A154"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A154"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A154"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A154"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A154"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: analyse_morceau",
+      "record_id": "S41-A154"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A155"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A155"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A155"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A155"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A155"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A155"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A155"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: analyse_morceau",
+      "record_id": "S41-A155"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A156"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A156"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A156"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A156"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A156"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A156"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A156"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: chronologie_structurante",
+      "record_id": "S41-A156"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A157"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A157"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A157"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A157"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A157"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A157"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A157"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: archive_visuelle",
+      "record_id": "S41-A157"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A158"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A158"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A158"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A158"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A158"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A158"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A158"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: evenement_medical",
+      "record_id": "S41-A158"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A159"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A159"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A159"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A159"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A159"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A159"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A159"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: session_radio",
+      "record_id": "S41-A159"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A160"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A160"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A160"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A160"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A160"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A160"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A160"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: chronologie_discographique",
+      "record_id": "S41-A160"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A161"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A161"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A161"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A161"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A161"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A161"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A161"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: session_radio",
+      "record_id": "S41-A161"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A162"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A162"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A162"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A162"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A162"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A162"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A162"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: chronologie_single",
+      "record_id": "S41-A162"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A163"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A163"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A163"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A163"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A163"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A163"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A163"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: reception_live",
+      "record_id": "S41-A163"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A164"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A164"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A164"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A164"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A164"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A164"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A164"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: mediation_audiovisuelle",
+      "record_id": "S41-A164"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S41-A165"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S41-A165"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S41-A165"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "S41-A165"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S41-A165"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S41-A165"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S41-A165"
+    },
+    {
+      "level": "warning",
+      "file": "sources/hook_unknown_pleasures/source_part_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Invalid value for type_unite: carrefour_discographique_live",
+      "record_id": "S41-A165"
     },
     {
       "level": "warning",
@@ -81045,6 +81623,396 @@
       "file": "registers/songs/s76_torn_apart_songs_part_11.md",
       "message": "Invalid value for type_unite: album_reception_object",
       "record_id": "SONG-S76-030"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-UP-INTERZONE-HOOK-VOCAL"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONG-S41-UP-I-REMEMBER-NOTHING-TRANSCENDENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S41-A-FACTORY-SAMPLE-FAC2-TIMELINE-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PHOTO-S41-CUMMINS-PRINCESS-PARKWAY-NME"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "RADIO-S41-FIRST-PEEL-SESSION-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ALBUM-S41-UNKNOWN-PLEASURES-FACT10-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "RADIO-S41-PICCADILLY-RADIO-1979-CHANCE-ATROCITY"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: importance",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SINGLE-S41-TRANSMISSION-FAC13-TIMELINE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "LIVE-S41-YMCA-NASHVILLE-LEIGH-AUGUST-1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "FILM-S41-THE-FACTORY-FLICK-FAC9"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "TV-S41-SOMETHING-ELSE-SLC-TRANSMISSION"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "COMP-S41-EARCOM2-FAST9B"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: type_unite",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: statut",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: importance",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s41_hook_songs_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SESSION-S41-SORDIDE-CARGO-OCT1979"
     },
     {
       "level": "warning",
