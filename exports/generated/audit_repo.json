@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T09:25:55",
+  "generated_at": "2026-05-16T09:40:08",
   "summary": {
-    "records_total": 3666,
+    "records_total": 3670,
     "records_by_kind": {
       "atom": 1743,
-      "metadata": 36,
+      "metadata": 39,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 185,
+      "unknown": 186,
       "template": 326,
       "song": 41,
       "quote_batch": 1,
@@ -18,13 +18,13 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 17951,
+    "diagnostics_total": 17952,
     "errors": 0,
-    "warnings": 17951,
+    "warnings": 17952,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 18,
-    "sources_exported": 18,
-    "declared_but_unused": 33,
+    "sources_used_in_records": 19,
+    "sources_exported": 19,
+    "declared_but_unused": 32,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -32,7 +32,7 @@
     "atom": 1743,
     "chronology": 335,
     "concept": 170,
-    "metadata": 36,
+    "metadata": 39,
     "motif": 253,
     "myth": 11,
     "person": 157,
@@ -42,7 +42,7 @@
     "song": 41,
     "source": 54,
     "template": 326,
-    "unknown": 185
+    "unknown": 186
   },
   "records_by_source": {
     "S02": {
@@ -69,6 +69,10 @@
       "metadata": 3,
       "atom": 9,
       "unknown": 9
+    },
+    "S13": {
+      "metadata": 3,
+      "unknown": 1
     },
     "S20": {
       "atom": 15,
@@ -161,14 +165,14 @@
     "Chapitre 11": 213,
     "Chapitre 12": 469,
     "Chapitre 13": 109,
-    "Chapitre 14": 994,
+    "Chapitre 14": 996,
     "Chapitre 2": 361,
-    "Chapitre 3": 399,
-    "Chapitre 4": 309,
+    "Chapitre 3": 401,
+    "Chapitre 4": 311,
     "Chapitre 5": 441,
-    "Chapitre 6": 569,
-    "Chapitre 7": 106,
-    "Chapitre 8": 316,
+    "Chapitre 6": 571,
+    "Chapitre 7": 108,
+    "Chapitre 8": 318,
     "Chapitre 9": 268,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -301,7 +305,7 @@
     "invalid_controlled_value": 1521,
     "missing_required_field": 4913,
     "schema_warning": 399,
-    "unknown_yaml_block": 185,
+    "unknown_yaml_block": 186,
     "v2_migration_debt": 10784
   },
   "top_files_by_issue_count": [
@@ -1503,6 +1507,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
+      "record_id": "REG-S13-TOMEO-DANCE-DANCE-DANCE-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
       "record_id": "REG-S05-JEFFERY-TUFAIL-JACKSON-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
@@ -2016,21 +2028,6 @@
         ]
       },
       {
-        "source_id": "S13",
-        "source_label": "S13 — Tomeo, Dance Dance Dance!, 2021",
-        "auteur": "Caterina Tomeo",
-        "titre": "Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era",
-        "annee": "2021",
-        "statut": "a_consolider",
-        "usage": [
-          "présence absente",
-          "performance",
-          "transe",
-          "rave era",
-          "ordre public / contrôle social à vérifier"
-        ]
-      },
-      {
         "source_id": "S14",
         "source_label": "S14 — Happy Mondays, « God’s Cop », 1990",
         "auteur": "Happy Mondays",
@@ -2522,6 +2519,21 @@
           "registers/references/s12_press_aids_anderton_source_canonique.md",
           "sources/press_aids_anderton_1986/source.md",
           "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md"
+        ]
+      },
+      {
+        "source_id": "S13",
+        "source_label": "S13 — Tomeo, Dance Dance Dance!, 2021",
+        "auteur": "Caterina Tomeo",
+        "titre": "Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era",
+        "annee": "2021",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
+          "sources/tomeo_dance_dance_dance/source.md"
         ]
       },
       {
@@ -144341,6 +144353,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
       "record_id": "REG-S12-PRESS-AIDS-ANDERTON-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
+      "record_id": "REG-S13-TOMEO-DANCE-DANCE-DANCE-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
