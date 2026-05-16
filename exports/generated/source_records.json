@@ -83,6 +83,43 @@
   },
   {
     "kind": "source",
+    "id": "S11",
+    "file": "sources/uk_treasury_fsbr_1987_88/source.md",
+    "heading": "S11 — HM Treasury, *Financial Statement and Budget Report 1987-88*, 1987",
+    "data": {
+      "id": "S11",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_short_title": "HM Treasury, FSBR 1987-88, 1987",
+      "source_year": "1987",
+      "auteur": "HM Treasury",
+      "titre": "Financial Statement and Budget Report 1987-88",
+      "annee": "1987",
+      "date": "1987-03-17",
+      "institution": "HM Treasury",
+      "command_paper": "House of Commons No. 194",
+      "lieu_edition": "London",
+      "editeur": "Her Majesty’s Stationery Office",
+      "nature": "source primaire gouvernementale / source budgétaire et macroéconomique",
+      "statut": "verifie ; source canonique fixée",
+      "fiabilite": "forte pour les données et le cadrage gouvernemental 1987 ; à contextualiser politiquement",
+      "source_drive": "https://drive.google.com/file/d/12QIyJ7ItW_ofLl6M-gOuqGkkX7vPaPz6/view?usp=drive_link",
+      "fichier_source_original": "Financial-Statement-and-Budget-Report-1987-88.pdf",
+      "fichier_source_recommande": "S11_hm_treasury_fsbr_1987_88.pdf",
+      "dossier_source": "sources/uk_treasury_fsbr_1987_88/",
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "niveau_preuve": "source primaire gouvernementale contemporaine",
+      "citation_directe": false
+    }
+  },
+  {
+    "kind": "source",
     "id": "S71",
     "file": "sources/flowers/source.md",
     "heading": "Métadonnées",
@@ -689,8 +726,8 @@
         "registre historique"
       ],
       "arbitrage": "Source gouvernementale exacte à identifier.",
-      "source_short_title": "HM Treasury ; Department of Trade and Industry, Financial Statement and Budget Report / données budgétaires et industrielles 1978–1988, 1978–1988",
-      "source_year": "1978–1988"
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
     }
   },
   {

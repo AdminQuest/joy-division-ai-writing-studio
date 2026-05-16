@@ -39410,6 +39410,58 @@
     }
   },
   {
+    "kind": "source",
+    "id": "S11",
+    "file": "sources/uk_treasury_fsbr_1987_88/source.md",
+    "heading": "S11 — HM Treasury, *Financial Statement and Budget Report 1987-88*, 1987",
+    "data": {
+      "id": "S11",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_short_title": "HM Treasury, FSBR 1987-88, 1987",
+      "source_year": "1987",
+      "auteur": "HM Treasury",
+      "titre": "Financial Statement and Budget Report 1987-88",
+      "annee": "1987",
+      "date": "1987-03-17",
+      "institution": "HM Treasury",
+      "command_paper": "House of Commons No. 194",
+      "lieu_edition": "London",
+      "editeur": "Her Majesty’s Stationery Office",
+      "nature": "source primaire gouvernementale / source budgétaire et macroéconomique",
+      "statut": "verifie ; source canonique fixée",
+      "fiabilite": "forte pour les données et le cadrage gouvernemental 1987 ; à contextualiser politiquement",
+      "source_drive": "https://drive.google.com/file/d/12QIyJ7ItW_ofLl6M-gOuqGkkX7vPaPz6/view?usp=drive_link",
+      "fichier_source_original": "Financial-Statement-and-Budget-Report-1987-88.pdf",
+      "fichier_source_recommande": "S11_hm_treasury_fsbr_1987_88.pdf",
+      "dossier_source": "sources/uk_treasury_fsbr_1987_88/",
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "niveau_preuve": "source primaire gouvernementale contemporaine",
+      "citation_directe": false
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/source.md::774",
+    "file": "sources/uk_treasury_fsbr_1987_88/source.md",
+    "heading": "Consignes pour les futurs atomes",
+    "data": {
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "preuve": "source primaire gouvernementale contemporaine",
+      "usage": "Thatcherism, MTFS, PSBR, public expenditure, privatisation, taxation, inflation, employment, unemployment, industrial policy, macroeconomic official narrative",
+      "prudence": "source officielle ; distinguer prévisions et données constatées ; ne pas extrapoler mécaniquement au cas de Manchester ; croiser avec sources urbaines, sociales et culturelles",
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
     "kind": "quote",
     "id": "S45-Q001",
     "file": "sources/deborah_curtis/citations_exactes.md",
@@ -44095,7 +44147,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::916",
+    "id": "NO_ID::sources/flowers/README.md::918",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -44112,7 +44164,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::917",
+    "id": "NO_ID::sources/flowers/README.md::919",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -44172,7 +44224,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::918",
+    "id": "NO_ID::sources/flowers/README.md::920",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -44193,7 +44245,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::919",
+    "id": "NO_ID::sources/flowers/README.md::921",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -48910,7 +48962,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::1001",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::1003",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -65752,7 +65804,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_structurants_s15.md::1334",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_structurants_s15.md::1336",
     "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
     "heading": "Compléments aux registres structurants — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -66122,7 +66174,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md::1353",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md::1355",
     "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
     "heading": "Atomes v2 — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -66990,7 +67042,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/citations_exactes.md::1377",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/citations_exactes.md::1379",
     "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
     "heading": "Citations candidates — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -67137,7 +67189,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/relations_stabilisees.md::1383",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/relations_stabilisees.md::1385",
     "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
     "heading": "Relations stabilisées — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -67508,7 +67560,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1394",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1396",
     "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
     "heading": "Compléments aux registres spécialisés — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -67523,7 +67575,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1395",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1397",
     "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
     "heading": "Chronologie",
     "data": {
@@ -67614,7 +67666,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1396",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1398",
     "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
     "heading": "Acteurs",
     "data": {
@@ -67740,7 +67792,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1397",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1399",
     "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
     "heading": "Lieux",
     "data": {
@@ -67812,7 +67864,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1398",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1400",
     "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
     "heading": "Organisations et groupes",
     "data": {
@@ -67890,7 +67942,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1399",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1401",
     "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
     "heading": "Chansons / disques",
     "data": {
@@ -68476,7 +68528,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1415",
+    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1417",
     "file": "sources/dodge_manchester_geographies/source.md",
     "heading": "S20 — Martin Dodge, *Manchester Geographies*, chapitre 3",
     "data": {
@@ -68511,7 +68563,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1416",
+    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1418",
     "file": "sources/dodge_manchester_geographies/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -83694,7 +83746,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1605",
+    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1607",
     "file": "sources/sueur_villes_du_futur/source.md",
     "heading": "S02 — Sueur, *Villes du futur, futur des villes*, 2011",
     "data": {
@@ -83728,7 +83780,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1606",
+    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1608",
     "file": "sources/sueur_villes_du_futur/source.md",
     "heading": "Règle d’usage",
     "data": {
@@ -85138,7 +85190,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1644",
+    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1646",
     "file": "sources/sumner_chapter_and_verse/source.md",
     "heading": "S10 — Bernard Sumner, *Chapter and Verse*, 2014/2015",
     "data": {
@@ -85180,7 +85232,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1645",
+    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1647",
     "file": "sources/sumner_chapter_and_verse/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -85601,7 +85653,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1658",
+    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1660",
     "file": "sources/press_aids_anderton_1986/source.md",
     "heading": "S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986",
     "data": {
@@ -85640,7 +85692,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1659",
+    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1661",
     "file": "sources/press_aids_anderton_1986/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -86411,7 +86463,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1682",
+    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1684",
     "file": "sources/carter_hulme_youth_race_inner_city/source.md",
     "heading": "S06 — Carter, « Youth, race and the inner-city estate », 2021/2023",
     "data": {
@@ -86447,7 +86499,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1683",
+    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1685",
     "file": "sources/carter_hulme_youth_race_inner_city/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -86499,7 +86551,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/source.md::1685",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/source.md::1687",
     "file": "sources/cummins_joy_division_visual_corpus/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -86514,7 +86566,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/relations_stabilisees.md::1686",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/relations_stabilisees.md::1688",
     "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
     "heading": "Relations stabilisées — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -86761,7 +86813,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1694",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1696",
     "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
     "heading": "Compléments aux registres spécialisés — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -86776,7 +86828,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1695",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1697",
     "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
     "heading": "Citations / légendes à verrouiller",
     "data": {
@@ -86793,7 +86845,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1696",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1698",
     "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
     "heading": "Chronologie iconographique",
     "data": {
@@ -86844,7 +86896,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1697",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1699",
     "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
     "heading": "Acteurs",
     "data": {
@@ -86913,7 +86965,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1698",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1700",
     "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
     "heading": "Lieux",
     "data": {
@@ -86950,7 +87002,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1699",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1701",
     "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
     "heading": "Organisations",
     "data": {
@@ -86979,7 +87031,7 @@
   },
   {
     "kind": "unknown",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1700",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1702",
     "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
     "heading": "Chansons / albums",
     "data": {
@@ -87007,7 +87059,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md::1701",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md::1703",
     "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
     "heading": "Compléments aux registres structurants — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -87688,7 +87740,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::1727",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::1729",
     "file": "sources/wilkinson_city_fun_politics/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -90994,7 +91046,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::1830",
+    "id": "NO_ID::sources/hook/citations_exactes.md::1832",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -95580,7 +95632,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1976",
+    "id": "NO_ID::sources/suatoni/README.md::1978",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -95597,7 +95649,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1977",
+    "id": "NO_ID::sources/suatoni/README.md::1979",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -95635,7 +95687,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1978",
+    "id": "NO_ID::sources/suatoni/README.md::1980",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -97400,7 +97452,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2033",
+    "id": "NO_ID::sources/greig_strong/README.md::2035",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -97417,7 +97469,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2034",
+    "id": "NO_ID::sources/greig_strong/README.md::2036",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -97450,7 +97502,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2035",
+    "id": "NO_ID::sources/greig_strong/README.md::2037",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -97480,7 +97532,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/organizations/s06_carter_organizations_hulme_lived_discursive_space_v2.md::2037",
+    "id": "NO_ID::registers/organizations/s06_carter_organizations_hulme_lived_discursive_space_v2.md::2039",
     "file": "registers/organizations/s06_carter_organizations_hulme_lived_discursive_space_v2.md",
     "heading": "S06 — Compléments au registre des organisations — Hulme, presse, institutions et projets communautaires",
     "data": {
@@ -97565,7 +97617,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md::2039",
+    "id": "NO_ID::registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md::2041",
     "file": "registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md",
     "heading": "S05 — Compléments au registre des organisations — police, antifascisme, institutions locales",
     "data": {
@@ -97674,7 +97726,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/organizations/s20_dodge_organizations_housing_geographies_v2.md::2041",
+    "id": "NO_ID::registers/organizations/s20_dodge_organizations_housing_geographies_v2.md::2043",
     "file": "registers/organizations/s20_dodge_organizations_housing_geographies_v2.md",
     "heading": "S20 — Compléments au registre des organisations — institutions urbaines et logement",
     "data": {
@@ -97749,7 +97801,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/organizations/s12_press_aids_anderton_organizations_moral_order_v2.md::2043",
+    "id": "NO_ID::registers/organizations/s12_press_aids_anderton_organizations_moral_order_v2.md::2045",
     "file": "registers/organizations/s12_press_aids_anderton_organizations_moral_order_v2.md",
     "heading": "S12 — Compléments au registre des organisations — AIDS, Anderton et ordre moral",
     "data": {
@@ -97849,7 +97901,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md::2045",
+    "id": "NO_ID::registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md::2047",
     "file": "registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md",
     "heading": "S02 — Compléments au registre des organisations — cultures urbaines et régénération",
     "data": {
@@ -97906,7 +97958,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/organizations/s10_sumner_organizations_late_jd_transition_memory_v2.md::2047",
+    "id": "NO_ID::registers/organizations/s10_sumner_organizations_late_jd_transition_memory_v2.md::2049",
     "file": "registers/organizations/s10_sumner_organizations_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des organisations — Joy Division tardif et transition",
     "data": {
@@ -97972,7 +98024,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/organizations/s10_sumner_organizations_salford_formation_sound_v2.md::2049",
+    "id": "NO_ID::registers/organizations/s10_sumner_organizations_salford_formation_sound_v2.md::2051",
     "file": "registers/organizations/s10_sumner_organizations_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des organisations — Sumner, scènes, labels et médias",
     "data": {
@@ -100540,7 +100592,7 @@
   },
   {
     "kind": "song",
-    "id": "NO_ID::registers/songs/master_songs.md::2133",
+    "id": "NO_ID::registers/songs/master_songs.md::2135",
     "file": "registers/songs/master_songs.md",
     "heading": "Structure normalisée d’une chanson",
     "data": {
@@ -101282,7 +101334,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s10_sumner_songs_salford_formation_sound_v2.md::2148",
+    "id": "NO_ID::registers/songs/s10_sumner_songs_salford_formation_sound_v2.md::2150",
     "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des chansons — processus, image et postérité",
     "data": {
@@ -104550,7 +104602,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md::2267",
+    "id": "NO_ID::registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md::2269",
     "file": "registers/songs/s69_greig_strong_songs_nostalgie_memoire_v2.md",
     "heading": "S69 — Compléments au registre des chansons — appropriations tardives",
     "data": {
@@ -104998,7 +105050,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md::2283",
+    "id": "NO_ID::registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md::2285",
     "file": "registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des chansons — Joy Division tardif et transition New Order",
     "data": {
@@ -106507,7 +106559,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2326",
+    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2328",
     "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
     "heading": "S13 — Relations stabilisées — Interzone, sound Joy Division et rave era",
     "data": {
@@ -107363,7 +107415,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md::2351",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md::2353",
     "file": "registers/quotes/s41_hook_quotes_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "S41 — Citations candidates — Timeline Two, de Warsaw à Joy Division",
     "data": {
@@ -107499,7 +107551,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md::2352",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md::2354",
     "file": "registers/quotes/s41_hook_quotes_1979_peel_factory_genetic_eden_transition.md",
     "heading": "S41 — Citations candidates — Peel, Factory vs Genetic, Eden Studios",
     "data": {
@@ -107635,7 +107687,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::2353",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::2355",
     "file": "registers/quotes/s41_hook_quotes_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "S41 — Citations candidates — *Unknown Pleasures* track by track II et Timeline Four janvier-octobre 1979",
     "data": {
@@ -108166,7 +108218,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::2363",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md::2365",
     "file": "registers/quotes/s45_curtis_quotes_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Citations candidates — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -108470,7 +108522,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::2364",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::2366",
     "file": "registers/quotes/s41_hook_quotes_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "S41 — Citations candidates — *Closer*, Britannia Row, mix de « Love Will Tear Us Apart », Annik, Saville",
     "data": {
@@ -108649,7 +108701,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md::2366",
+    "id": "NO_ID::registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md::2368",
     "file": "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
     "heading": "S12 — Citations candidates — AIDS, Anderton et ordre moral",
     "data": {
@@ -108707,7 +108759,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::2367",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::2369",
     "file": "registers/quotes/s41_hook_quotes_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "S41 — Citations candidates — *Licht und Blindheit*, « Love Will Tear Us Apart », Bournemouth, *Unknown Pleasures* track by track I",
     "data": {
@@ -108871,7 +108923,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::2368",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md::2370",
     "file": "registers/quotes/s45_curtis_quotes_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Citations candidates — tournée européenne, Annik, foyer et seuil Closer",
     "data": {
@@ -110146,7 +110198,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md::2396",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md::2398",
     "file": "registers/quotes/s41_hook_quotes_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "S41 — Citations candidates — Moonlight, Rainbow, Bury, Derby, divorce",
     "data": {
@@ -110928,7 +110980,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::2414",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md::2416",
     "file": "registers/quotes/s45_curtis_quotes_1979_buzzcocks_tour.md",
     "heading": "S45 — Citations candidates — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -111720,7 +111772,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2432",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2434",
     "file": "registers/quotes/s41_hook_quotes_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "S41 — Citations candidates — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
     "data": {
@@ -112916,7 +112968,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2460",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2462",
     "file": "registers/quotes/s41_hook_quotes_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "S41 — Citations candidates — Warsaw, premiers concerts, Hannett/Erasmus, démos",
     "data": {
@@ -113657,7 +113709,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md::2474",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md::2476",
     "file": "registers/quotes/s41_hook_quotes_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "S41 — Citations candidates — Lesser Free Trade Hall, basse, scène punk et recrutement de Curtis",
     "data": {
@@ -114121,7 +114173,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2482",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2484",
     "file": "registers/quotes/s41_hook_quotes_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "S41 — Citations candidates — Factory Sample, tournée Rezillos/Undertones, Hope & Anchor, épilepsie",
     "data": {
@@ -114327,7 +114379,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::2483",
+    "id": "NO_ID::registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md::2485",
     "file": "registers/quotes/s45_curtis_quotes_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Citations candidates — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -115587,7 +115639,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::2512",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::2514",
     "file": "registers/quotes/s41_hook_quotes_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "S41 — Citations candidates — Timeline Four fin 1979, Europe, Annik, « We carried on »",
     "data": {
@@ -115779,7 +115831,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::2513",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md::2515",
     "file": "registers/quotes/s41_hook_quotes_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "S41 — Citations candidates — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
     "data": {
@@ -116421,7 +116473,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::2528",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md::2530",
     "file": "registers/quotes/s41_hook_quotes_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Citations candidates — Pips et premier concert Joy Division",
     "data": {
@@ -116809,7 +116861,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::2536",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::2538",
     "file": "registers/quotes/s41_hook_quotes_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "S41 — Citations candidates — « Love Will Tear Us Apart » vidéo, Birmingham, suicide, funérailles, après-coup",
     "data": {
@@ -117493,7 +117545,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md::2551",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md::2553",
     "file": "registers/quotes/s41_hook_quotes_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "S41 — Citations candidates — An Ideal for Living, changement de nom, TJ Davidson’s",
     "data": {
@@ -118472,7 +118524,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md::2574",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md::2576",
     "file": "registers/quotes/s41_hook_quotes_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "S41 — Citations candidates — Factory deal, *Unknown Pleasures*, anti-image",
     "data": {
@@ -119773,7 +119825,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md::2606",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md::2608",
     "file": "registers/quotes/s41_hook_quotes_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "S41 — Citations candidates — Timeline Three, année 1978",
     "data": {
@@ -120151,7 +120203,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md::2612",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md::2614",
     "file": "registers/quotes/s41_hook_quotes_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "S41 — Citations candidates — Stiff/Chiswick, RCA, Gretton, Factory, Granada",
     "data": {
@@ -120357,7 +120409,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md::2613",
+    "id": "NO_ID::registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md::2615",
     "file": "registers/quotes/s41_hook_quotes_1980_epilogue_closer_track_by_track.md",
     "heading": "S41 — Citations candidates — Épilogue et *Closer Track by Track*",
     "data": {
@@ -121291,8 +121343,8 @@
         "registre historique"
       ],
       "arbitrage": "Source gouvernementale exacte à identifier.",
-      "source_short_title": "HM Treasury ; Department of Trade and Industry, Financial Statement and Budget Report / données budgétaires et industrielles 1978–1988, 1978–1988",
-      "source_year": "1978–1988"
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
     }
   },
   {
@@ -122567,7 +122619,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2675",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2677",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -122724,7 +122776,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2676",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md::2678",
     "file": "registers/references/s45_curtis_relations_rag_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -122966,7 +123018,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2677",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2679",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -123032,7 +123084,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2678",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md::2680",
     "file": "registers/references/s45_curtis_relations_rag_1979_buzzcocks_tour.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -123186,7 +123238,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::2679",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::2681",
     "file": "registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -123273,7 +123325,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::2680",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md::2682",
     "file": "registers/references/s41_hook_relations_rag_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -123484,7 +123536,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::2681",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::2683",
     "file": "registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -123557,7 +123609,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::2682",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md::2684",
     "file": "registers/references/s41_hook_relations_rag_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -123769,7 +123821,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::2683",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::2685",
     "file": "registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -123912,7 +123964,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::2684",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md::2686",
     "file": "registers/references/s41_hook_relations_rag_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -124206,7 +124258,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2685",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2687",
     "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -124265,7 +124317,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2686",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md::2688",
     "file": "registers/references/s41_hook_relations_rag_1978_pips_first_joy_division_gig.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -124417,7 +124469,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::2688",
+    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::2690",
     "file": "registers/references/s06_carter_hulme_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -124432,7 +124484,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2689",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2691",
     "file": "registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -124533,7 +124585,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2690",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md::2692",
     "file": "registers/references/s41_hook_relations_rag_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -124746,7 +124798,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::2692",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::2694",
     "file": "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -124810,7 +124862,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::2693",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md::2695",
     "file": "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -124839,7 +124891,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2694",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2696",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -124989,7 +125041,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2695",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md::2697",
     "file": "registers/references/s45_curtis_relations_rag_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -125218,7 +125270,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2696",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2698",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -125312,7 +125364,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2697",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md::2699",
     "file": "registers/references/s45_curtis_relations_rag_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -125482,7 +125534,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::2698",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::2700",
     "file": "registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -125576,7 +125628,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::2699",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::2701",
     "file": "registers/references/s41_hook_relations_rag_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -125972,7 +126024,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::2701",
+    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::2703",
     "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -126096,7 +126148,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::2702",
+    "id": "NO_ID::registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md::2704",
     "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -126125,7 +126177,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2703",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2705",
     "file": "registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -126212,7 +126264,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2704",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::2706",
     "file": "registers/references/s41_hook_relations_rag_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -126466,7 +126518,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::2706",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::2708",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Fonction documentaire",
     "data": {
@@ -126479,7 +126531,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::2707",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::2709",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Mots-clés normalisés",
     "data": {
@@ -126507,7 +126559,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::2708",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::2710",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Aliases bilingues / italiens",
     "data": {
@@ -126528,7 +126580,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::2709",
+    "id": "NO_ID::registers/references/s13_tomeo_interzone_rave_era_reference_complement.md::2711",
     "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
     "heading": "Croisements recommandés",
     "data": {
@@ -126569,7 +126621,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::2711",
+    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::2713",
     "file": "registers/references/s20_dodge_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -126584,7 +126636,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::2712",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::2714",
     "file": "registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -126671,7 +126723,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::2713",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::2715",
     "file": "registers/references/s41_hook_relations_rag_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -127034,7 +127086,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::2715",
+    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::2717",
     "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -127049,7 +127101,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::2716",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::2718",
     "file": "registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -127157,7 +127209,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::2717",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md::2719",
     "file": "registers/references/s41_hook_relations_rag_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -127397,7 +127449,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::2718",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::2720",
     "file": "registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -127505,7 +127557,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::2719",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md::2721",
     "file": "registers/references/s41_hook_relations_rag_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -127773,7 +127825,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::2720",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::2722",
     "file": "registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -127860,7 +127912,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::2721",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md::2723",
     "file": "registers/references/s41_hook_relations_rag_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -128184,7 +128236,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2722",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2724",
     "file": "registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -128243,7 +128295,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2723",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md::2725",
     "file": "registers/references/s41_hook_relations_rag_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -128431,7 +128483,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::2725",
+    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::2727",
     "file": "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -128519,7 +128571,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::2726",
+    "id": "NO_ID::registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md::2728",
     "file": "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -128577,7 +128629,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::2728",
+    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::2730",
     "file": "registers/references/s22_wilkinson_city_fun_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -128592,7 +128644,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2729",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2731",
     "file": "registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -128700,7 +128752,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2730",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::2732",
     "file": "registers/references/s41_hook_relations_rag_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -128932,7 +128984,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::2731",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::2733",
     "file": "registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -129019,7 +129071,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::2732",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::2734",
     "file": "registers/references/s41_hook_relations_rag_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -129258,7 +129310,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::2733",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::2735",
     "file": "registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -129331,7 +129383,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::2734",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md::2736",
     "file": "registers/references/s41_hook_relations_rag_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -129563,7 +129615,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::2736",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::2738",
     "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -129578,7 +129630,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::2737",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::2739",
     "file": "registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -129672,7 +129724,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::2738",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md::2740",
     "file": "registers/references/s41_hook_relations_rag_1980_epilogue_closer_track_by_track.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -130050,7 +130102,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::2740",
+    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::2742",
     "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -130092,7 +130144,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::2742",
+    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::2744",
     "file": "registers/references/s09_cummins_joy_division_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -130107,7 +130159,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2743",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2745",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -130215,7 +130267,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2744",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md::2746",
     "file": "registers/references/s45_curtis_relations_rag_1980_european_tour_annik_closer_threshold.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -130446,7 +130498,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::2746",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::2748",
     "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -130461,7 +130513,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::2747",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::2749",
     "file": "registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -130562,7 +130614,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::2748",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::2750",
     "file": "registers/references/s41_hook_relations_rag_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -130953,7 +131005,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::2750",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::2752",
     "file": "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -131053,7 +131105,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::2751",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md::2753",
     "file": "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -131084,7 +131136,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2752",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2754",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -131206,7 +131258,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2753",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2755",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -131340,7 +131392,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2754",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1976_1977.md::2756",
     "file": "registers/references/s45_curtis_relations_rag_1976_1977.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -131416,7 +131468,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::2756",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::2758",
     "file": "registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -131576,7 +131628,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::2757",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md::2759",
     "file": "registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -131634,7 +131686,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::2759",
+    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::2761",
     "file": "registers/references/s02_sueur_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -131650,7 +131702,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::2760",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::2762",
     "file": "registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -131730,7 +131782,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::2761",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::2763",
     "file": "registers/references/s41_hook_relations_rag_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -132025,7 +132077,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2762",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2764",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -132105,7 +132157,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2763",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md::2765",
     "file": "registers/references/s45_curtis_relations_rag_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -132282,7 +132334,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2764",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2766",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -132404,7 +132456,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2765",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md::2767",
     "file": "registers/references/s45_curtis_relations_rag_1977_1978_an_ideal_rca.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -132608,7 +132660,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::2767",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::2769",
     "file": "registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -132696,7 +132748,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::2768",
+    "id": "NO_ID::registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md::2770",
     "file": "registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -132728,7 +132780,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::2769",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::2771",
     "file": "registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -132815,7 +132867,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::2770",
+    "id": "NO_ID::registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md::2772",
     "file": "registers/references/s41_hook_relations_rag_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Entrées RAG candidates",
     "data": {
@@ -133052,7 +133104,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2771",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2773",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -133111,7 +133163,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2772",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2774",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Entrée RAG candidate",
     "data": {
@@ -133160,7 +133212,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2773",
+    "id": "NO_ID::registers/references/s45_curtis_relations_rag_vote_conservateur.md::2775",
     "file": "registers/references/s45_curtis_relations_rag_vote_conservateur.md",
     "heading": "Formulations contrôlées",
     "data": {
@@ -133215,7 +133267,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::2775",
+    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::2777",
     "file": "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -133321,7 +133373,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::2776",
+    "id": "NO_ID::registers/references/s20_dodge_relations_rag_housing_geographies_v2.md::2778",
     "file": "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -133385,7 +133437,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::2778",
+    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::2780",
     "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
     "heading": "Relations stabilisées",
     "data": {
@@ -133479,7 +133531,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::2779",
+    "id": "NO_ID::registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md::2781",
     "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
     "heading": "Corpus RAG recommandé",
     "data": {
@@ -133503,6 +133555,45 @@
           "Ne pas citer les chiffres sans recoupement par sources urbaines spécialisées."
         ]
       }
+    }
+  },
+  {
+    "kind": "unknown",
+    "id": "REG-S11-HM-TREASURY-FSBR-SOURCE-CANONIQUE",
+    "file": "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
+    "heading": "S11 — Source canonique — HM Treasury, *Financial Statement and Budget Report 1987-88*, 1987",
+    "data": {
+      "id": "REG-S11-HM-TREASURY-FSBR-SOURCE-CANONIQUE",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "type_unite": "source_canonique",
+      "statut": "integration_directe",
+      "fiabilite": "forte pour les données et le cadrage gouvernemental 1987 ; à contextualiser politiquement",
+      "nature": "source primaire gouvernementale / source budgétaire et macroéconomique",
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::2783",
+    "file": "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
+    "heading": "Consignes pour les futurs atomes",
+    "data": {
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "preuve": "source primaire gouvernementale contemporaine",
+      "usage": "Thatcherism, MTFS, PSBR, public expenditure, privatisation, taxation, inflation, employment, unemployment, industrial policy, macroeconomic official narrative",
+      "prudence": "source officielle ; distinguer prévisions et données constatées ; ne pas extrapoler mécaniquement au cas de Manchester ; croiser avec sources urbaines, sociales et culturelles",
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
     }
   },
   {
@@ -133551,7 +133642,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s10_sumner_places_salford_formation_sound_v2.md::2782",
+    "id": "NO_ID::registers/places/s10_sumner_places_salford_formation_sound_v2.md::2786",
     "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des lieux — Salford, Manchester, Factory et studio",
     "data": {
@@ -133734,7 +133825,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md::2784",
+    "id": "NO_ID::registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md::2788",
     "file": "registers/places/s06_carter_places_hulme_lived_discursive_space_v2.md",
     "heading": "S06 — Compléments au registre des lieux — Hulme vécu et représenté",
     "data": {
@@ -133820,7 +133911,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md::2786",
+    "id": "NO_ID::registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md::2790",
     "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
     "heading": "S05 — Compléments au registre des lieux — policing et ordre public dans le Greater Manchester",
     "data": {
@@ -133919,7 +134010,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s10_sumner_places_late_jd_transition_memory_v2.md::2788",
+    "id": "NO_ID::registers/places/s10_sumner_places_late_jd_transition_memory_v2.md::2792",
     "file": "registers/places/s10_sumner_places_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des lieux — Joy Division tardif et transition",
     "data": {
@@ -133990,7 +134081,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s20_dodge_places_housing_geographies_v2.md::2790",
+    "id": "NO_ID::registers/places/s20_dodge_places_housing_geographies_v2.md::2794",
     "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
     "heading": "S20 — Compléments au registre des lieux — géographies du logement mancunien",
     "data": {
@@ -134124,7 +134215,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/places/s02_sueur_places_manchester_shrinking_city_v2.md::2792",
+    "id": "NO_ID::registers/places/s02_sueur_places_manchester_shrinking_city_v2.md::2796",
     "file": "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
     "heading": "S02 — Compléments au registre des lieux — Manchester, Greater Manchester, Hulme",
     "data": {
@@ -134192,7 +134283,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/motifs/s12_press_aids_anderton_motifs_moral_order_v2.md::2794",
+    "id": "NO_ID::registers/motifs/s12_press_aids_anderton_motifs_moral_order_v2.md::2798",
     "file": "registers/motifs/s12_press_aids_anderton_motifs_moral_order_v2.md",
     "heading": "S12 — Compléments au registre des motifs — sida, morale, stigmatisation",
     "data": {
@@ -135346,7 +135437,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/motifs/s20_dodge_motifs_housing_geographies_v2.md::2842",
+    "id": "NO_ID::registers/motifs/s20_dodge_motifs_housing_geographies_v2.md::2846",
     "file": "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
     "heading": "S20 — Compléments au registre des motifs — logement, taudis, estates",
     "data": {
@@ -138316,7 +138407,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/motifs/s05_jeffery_tufail_jackson_motifs_public_order_v2.md::2972",
+    "id": "NO_ID::registers/motifs/s05_jeffery_tufail_jackson_motifs_public_order_v2.md::2976",
     "file": "registers/motifs/s05_jeffery_tufail_jackson_motifs_public_order_v2.md",
     "heading": "S05 — Compléments au registre des motifs — ordre public, police et ville conflictuelle",
     "data": {
@@ -138416,7 +138507,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/motifs/s02_sueur_motifs_manchester_shrinking_city_v2.md::2974",
+    "id": "NO_ID::registers/motifs/s02_sueur_motifs_manchester_shrinking_city_v2.md::2978",
     "file": "registers/motifs/s02_sueur_motifs_manchester_shrinking_city_v2.md",
     "heading": "S02 — Compléments au registre des motifs — Manchester, ruine, régénération",
     "data": {
@@ -139753,7 +139844,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md::3030",
+    "id": "NO_ID::registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md::3034",
     "file": "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
     "heading": "S69 — Compléments au registre des motifs — mémoire, témoins, commerce",
     "data": {
@@ -139838,7 +139929,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/motifs/s10_sumner_motifs_salford_formation_sound_v2.md::3032",
+    "id": "NO_ID::registers/motifs/s10_sumner_motifs_salford_formation_sound_v2.md::3036",
     "file": "registers/motifs/s10_sumner_motifs_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des motifs — Salford, punk, Factory, Curtis",
     "data": {
@@ -140184,7 +140275,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/motifs/s10_sumner_motifs_late_jd_transition_memory_v2.md::3042",
+    "id": "NO_ID::registers/motifs/s10_sumner_motifs_late_jd_transition_memory_v2.md::3046",
     "file": "registers/motifs/s10_sumner_motifs_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des motifs — Joy Division tardif, seuil New Order, mémoire",
     "data": {
@@ -140308,7 +140399,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/motifs/s06_carter_motifs_hulme_lived_discursive_space_v2.md::3044",
+    "id": "NO_ID::registers/motifs/s06_carter_motifs_hulme_lived_discursive_space_v2.md::3048",
     "file": "registers/motifs/s06_carter_motifs_hulme_lived_discursive_space_v2.md",
     "heading": "S06 — Compléments au registre des motifs — Hulme, stigmate et contre-récits",
     "data": {
@@ -141012,7 +141103,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3067",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3071",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Citations / formulations à contrôler",
     "data": {
@@ -141058,7 +141149,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3068",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3072",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Chronologie spécialisée",
     "data": {
@@ -141138,7 +141229,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3069",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3073",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Acteurs",
     "data": {
@@ -141230,7 +141321,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3070",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3074",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Lieux",
     "data": {
@@ -141278,7 +141369,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3071",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3075",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Organisations / groupes",
     "data": {
@@ -141337,7 +141428,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3072",
+    "id": "NO_ID::registers/specialized/s13_tomeo_interzone_rave_era.md::3076",
     "file": "registers/specialized/s13_tomeo_interzone_rave_era.md",
     "heading": "Chansons / albums / objets musicaux",
     "data": {
@@ -142574,7 +142665,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1980_moonlight_rainbow_bury_derby_divorce.md::3096",
+    "id": "NO_ID::registers/people/s41_hook_people_1980_moonlight_rainbow_bury_derby_divorce.md::3100",
     "file": "registers/people/s41_hook_people_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "S41 — Personnes — Moonlight, Rainbow, Bury, Derby, divorce",
     "data": {
@@ -142742,7 +142833,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s20_dodge_people_housing_geographies_v2.md::3098",
+    "id": "NO_ID::registers/people/s20_dodge_people_housing_geographies_v2.md::3102",
     "file": "registers/people/s20_dodge_people_housing_geographies_v2.md",
     "heading": "S20 — Compléments au registre des personnes — cartographes, réformateurs, acteurs urbains",
     "data": {
@@ -142826,7 +142917,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::3099",
+    "id": "NO_ID::registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md::3103",
     "file": "registers/people/s45_curtis_people_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Personnes — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -142943,7 +143034,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::3100",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_buzzcocks_tour.md::3104",
     "file": "registers/people/s45_curtis_people_1979_buzzcocks_tour.md",
     "heading": "S45 — Personnes — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -143683,7 +143774,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1979_factory_deal_unknown_pleasures_release_anti_image.md::3118",
+    "id": "NO_ID::registers/people/s41_hook_people_1979_factory_deal_unknown_pleasures_release_anti_image.md::3122",
     "file": "registers/people/s41_hook_people_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "S41 — Personnes — Factory deal, *Unknown Pleasures*, anti-image",
     "data": {
@@ -143829,7 +143920,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s10_sumner_people_salford_formation_sound_v2.md::3120",
+    "id": "NO_ID::registers/people/s10_sumner_people_salford_formation_sound_v2.md::3124",
     "file": "registers/people/s10_sumner_people_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des personnes — Sumner, Hook, Curtis, Factory",
     "data": {
@@ -144105,7 +144196,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1979_peel_factory_genetic_eden_transition.md::3124",
+    "id": "NO_ID::registers/people/s41_hook_people_1979_peel_factory_genetic_eden_transition.md::3128",
     "file": "registers/people/s41_hook_people_1979_peel_factory_genetic_eden_transition.md",
     "heading": "S41 — Personnes — Peel, Factory vs Genetic, Eden Studios",
     "data": {
@@ -145069,7 +145160,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1978_timeline_three_factory_live_medical_threshold.md::3145",
+    "id": "NO_ID::registers/people/s41_hook_people_1978_timeline_three_factory_live_medical_threshold.md::3149",
     "file": "registers/people/s41_hook_people_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "S41 — Personnes — Timeline Three, année 1978",
     "data": {
@@ -145241,7 +145332,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s06_carter_people_hulme_lived_discursive_space_v2.md::3147",
+    "id": "NO_ID::registers/people/s06_carter_people_hulme_lived_discursive_space_v2.md::3151",
     "file": "registers/people/s06_carter_people_hulme_lived_discursive_space_v2.md",
     "heading": "S06 — Compléments au registre des personnes — témoins et autrice",
     "data": {
@@ -145352,7 +145443,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1980_epilogue_closer_track_by_track.md::3148",
+    "id": "NO_ID::registers/people/s41_hook_people_1980_epilogue_closer_track_by_track.md::3152",
     "file": "registers/people/s41_hook_people_1980_epilogue_closer_track_by_track.md",
     "heading": "S41 — Personnes — Épilogue et *Closer Track by Track*",
     "data": {
@@ -145645,7 +145736,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md::3153",
+    "id": "NO_ID::registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md::3157",
     "file": "registers/people/s41_hook_people_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Personnes — Pips et premier concert Joy Division",
     "data": {
@@ -145879,7 +145970,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::3158",
+    "id": "NO_ID::registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md::3162",
     "file": "registers/people/s45_curtis_people_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Personnes — tournée européenne, Annik, foyer et seuil Closer",
     "data": {
@@ -146320,7 +146411,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1978_stiff_chiswick_rca_gretton_factory_granada.md::3167",
+    "id": "NO_ID::registers/people/s41_hook_people_1978_stiff_chiswick_rca_gretton_factory_granada.md::3171",
     "file": "registers/people/s41_hook_people_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "S41 — Personnes — Stiff/Chiswick, RCA, Gretton, Factory, Granada",
     "data": {
@@ -146538,7 +146629,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1976_1977_timeline_two_warsaw_to_joy_division.md::3168",
+    "id": "NO_ID::registers/people/s41_hook_people_1976_1977_timeline_two_warsaw_to_joy_division.md::3172",
     "file": "registers/people/s41_hook_people_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "S41 — Personnes — Timeline Two, de Warsaw à Joy Division",
     "data": {
@@ -147021,7 +147112,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3179",
+    "id": "NO_ID::registers/people/s41_hook_people_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3183",
     "file": "registers/people/s41_hook_people_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "S41 — Personnes — « Love Will Tear Us Apart » vidéo, Birmingham, suicide, funérailles, après-coup",
     "data": {
@@ -147397,7 +147488,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3185",
+    "id": "NO_ID::registers/people/s41_hook_people_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3189",
     "file": "registers/people/s41_hook_people_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "S41 — Personnes — Warsaw, premiers concerts, Hannett/Erasmus, démos",
     "data": {
@@ -147582,7 +147673,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3186",
+    "id": "NO_ID::registers/people/s41_hook_people_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3190",
     "file": "registers/people/s41_hook_people_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "S41 — Personnes — *Licht und Blindheit*, « Love Will Tear Us Apart », Bournemouth, *Unknown Pleasures* track by track I",
     "data": {
@@ -147943,7 +148034,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s12_press_aids_anderton_people_moral_order_v2.md::3193",
+    "id": "NO_ID::registers/people/s12_press_aids_anderton_people_moral_order_v2.md::3197",
     "file": "registers/people/s12_press_aids_anderton_people_moral_order_v2.md",
     "heading": "S12 — Compléments au registre des personnes — AIDS, Anderton et ordre moral",
     "data": {
@@ -148342,7 +148433,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1976_lesser_free_trade_hall_bass_ian_joining.md::3202",
+    "id": "NO_ID::registers/people/s41_hook_people_1976_lesser_free_trade_hall_bass_ian_joining.md::3206",
     "file": "registers/people/s41_hook_people_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "S41 — Personnes — Lesser Free Trade Hall, basse, scène punk et recrutement de Curtis",
     "data": {
@@ -148721,7 +148812,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3208",
+    "id": "NO_ID::registers/people/s41_hook_people_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3212",
     "file": "registers/people/s41_hook_people_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "S41 — Personnes — *Unknown Pleasures* track by track II et Timeline Four janvier-octobre 1979",
     "data": {
@@ -148904,7 +148995,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1956_1976_salford_jamaica_music_pistols_epiphany.md::3209",
+    "id": "NO_ID::registers/people/s41_hook_people_1956_1976_salford_jamaica_music_pistols_epiphany.md::3213",
     "file": "registers/people/s41_hook_people_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "S41 — Personnes — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
     "data": {
@@ -149321,7 +149412,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3221",
+    "id": "NO_ID::registers/people/s41_hook_people_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3225",
     "file": "registers/people/s41_hook_people_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "S41 — Personnes — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
     "data": {
@@ -149534,7 +149625,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3222",
+    "id": "NO_ID::registers/people/s41_hook_people_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3226",
     "file": "registers/people/s41_hook_people_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "S41 — Personnes — *Closer*, Britannia Row, mix de « Love Will Tear Us Apart », Annik, Saville",
     "data": {
@@ -150045,7 +150136,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md::3232",
+    "id": "NO_ID::registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md::3236",
     "file": "registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md",
     "heading": "Personnes et rôles documentaires",
     "data": {
@@ -150315,7 +150406,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1977_an_ideal_name_change_tj_davidson_sound.md::3239",
+    "id": "NO_ID::registers/people/s41_hook_people_1977_an_ideal_name_change_tj_davidson_sound.md::3243",
     "file": "registers/people/s41_hook_people_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "S41 — Personnes — An Ideal for Living, changement de nom, TJ Davidson’s",
     "data": {
@@ -150448,7 +150539,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::3240",
+    "id": "NO_ID::registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md::3244",
     "file": "registers/people/s45_curtis_people_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Personnes — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -150559,7 +150650,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3241",
+    "id": "NO_ID::registers/people/s41_hook_people_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3245",
     "file": "registers/people/s41_hook_people_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "S41 — Personnes — Timeline Four fin 1979, Europe, Annik, « We carried on »",
     "data": {
@@ -151061,7 +151152,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s41_hook_people_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3254",
+    "id": "NO_ID::registers/people/s41_hook_people_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3258",
     "file": "registers/people/s41_hook_people_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "S41 — Personnes — Factory Sample, tournée Rezillos/Undertones, Hope & Anchor, épilepsie",
     "data": {
@@ -151258,7 +151349,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/people/s05_jeffery_tufail_jackson_people_public_order_v2.md::3256",
+    "id": "NO_ID::registers/people/s05_jeffery_tufail_jackson_people_public_order_v2.md::3260",
     "file": "registers/people/s05_jeffery_tufail_jackson_people_public_order_v2.md",
     "heading": "S05 — Compléments au registre des personnes — police, politique et ordre public",
     "data": {
@@ -152167,7 +152258,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/concepts/s69_greig_strong_concepts_nostalgie_memoire_v2.md::3280",
+    "id": "NO_ID::registers/concepts/s69_greig_strong_concepts_nostalgie_memoire_v2.md::3284",
     "file": "registers/concepts/s69_greig_strong_concepts_nostalgie_memoire_v2.md",
     "heading": "Concepts stabilisés",
     "data": {
@@ -152562,7 +152653,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/concepts/s10_sumner_concepts_salford_formation_sound_v2.md::3289",
+    "id": "NO_ID::registers/concepts/s10_sumner_concepts_salford_formation_sound_v2.md::3293",
     "file": "registers/concepts/s10_sumner_concepts_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des concepts — Sumner, Salford, formation et son",
     "data": {
@@ -153978,7 +154069,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/concepts/s12_press_aids_anderton_concepts_moral_order_v2.md::3320",
+    "id": "NO_ID::registers/concepts/s12_press_aids_anderton_concepts_moral_order_v2.md::3324",
     "file": "registers/concepts/s12_press_aids_anderton_concepts_moral_order_v2.md",
     "heading": "S12 — Compléments au registre des concepts — sida, Anderton et ordre moral",
     "data": {
@@ -154070,7 +154161,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/concepts/s06_carter_concepts_hulme_lived_discursive_space_v2.md::3322",
+    "id": "NO_ID::registers/concepts/s06_carter_concepts_hulme_lived_discursive_space_v2.md::3326",
     "file": "registers/concepts/s06_carter_concepts_hulme_lived_discursive_space_v2.md",
     "heading": "S06 — Compléments au registre des concepts — Hulme, inner city vécue et discours",
     "data": {
@@ -158055,7 +158146,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/concepts/s02_sueur_concepts_manchester_shrinking_city_v2.md::3413",
+    "id": "NO_ID::registers/concepts/s02_sueur_concepts_manchester_shrinking_city_v2.md::3417",
     "file": "registers/concepts/s02_sueur_concepts_manchester_shrinking_city_v2.md",
     "heading": "S02 — Compléments au registre des concepts — Manchester, shrinking city, régénération",
     "data": {
@@ -158829,7 +158920,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/concepts/s10_sumner_concepts_late_jd_transition_memory_v2.md::3433",
+    "id": "NO_ID::registers/concepts/s10_sumner_concepts_late_jd_transition_memory_v2.md::3437",
     "file": "registers/concepts/s10_sumner_concepts_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des concepts — Joy Division tardif, transition, mémoire",
     "data": {
@@ -159734,7 +159825,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/concepts/s20_dodge_concepts_housing_geographies_v2.md::3453",
+    "id": "NO_ID::registers/concepts/s20_dodge_concepts_housing_geographies_v2.md::3457",
     "file": "registers/concepts/s20_dodge_concepts_housing_geographies_v2.md",
     "heading": "S20 — Compléments au registre des concepts — logement et morphologie urbaine",
     "data": {
@@ -159857,7 +159948,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/concepts/s05_jeffery_tufail_jackson_concepts_public_order_v2.md::3455",
+    "id": "NO_ID::registers/concepts/s05_jeffery_tufail_jackson_concepts_public_order_v2.md::3459",
     "file": "registers/concepts/s05_jeffery_tufail_jackson_concepts_public_order_v2.md",
     "heading": "S05 — Compléments au registre des concepts — police, ordre social local, sécuritisation",
     "data": {
@@ -159947,7 +160038,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3456",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3460",
     "file": "registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md",
     "heading": "Complément MYTH-CLOSER-FUNERAL-PROPHECY — *Closer* comme tombeau prophétique pur",
     "data": {
@@ -159964,7 +160055,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3457",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3461",
     "file": "registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md",
     "heading": "Complément MYTH-NEW-ORDER-COLD-CONTINUITY — New Order comme continuation froide",
     "data": {
@@ -159980,7 +160071,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3458",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3462",
     "file": "registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md",
     "heading": "Complément MYTH-JOY-DIVISION-CONTINUES — Joy Division aurait simplement continué autrement",
     "data": {
@@ -159996,7 +160087,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3459",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3463",
     "file": "registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme génie sans conflit",
     "data": {
@@ -160013,7 +160104,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3460",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3464",
     "file": "registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md",
     "heading": "Complément MYTH-CURTIS-LYRICS-TRANSPARENT — Les paroles de Curtis immédiatement lisibles",
     "data": {
@@ -160028,7 +160119,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3461",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3465",
     "file": "registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md",
     "heading": "Complément MYTH-POSTHUMOUS-CLARITY — La mort rend tout immédiatement clair",
     "data": {
@@ -160044,7 +160135,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3462",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md::3466",
     "file": "registers/myths/s41_hook_myths_1980_epilogue_closer_track_by_track.md",
     "heading": "Complément MYTH-NEW-ORDER-ELECTRONIC-BREAK — New Order comme rupture électronique soudaine",
     "data": {
@@ -160061,7 +160152,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3463",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3467",
     "file": "registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Complément MYTH-LINEAR-RISE-1979 — 1979 comme ascension linéaire",
     "data": {
@@ -160079,7 +160170,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3464",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3468",
     "file": "registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Complément MYTH-ATMOSPHERE-DEATH-SONG — Atmosphere comme chant funéraire depuis l’origine",
     "data": {
@@ -160095,7 +160186,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3465",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3469",
     "file": "registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Complément MYTH-SAVILLE-PURE-DESIGN — Image Joy Division réduite aux pochettes",
     "data": {
@@ -160110,7 +160201,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3466",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3470",
     "file": "registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Complément MYTH-EPILEPSY-RETROREADING — L’épilepsie comme explication unique",
     "data": {
@@ -160126,7 +160217,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3467",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3471",
     "file": "registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Complément MYTH-CURTIS-MARTYR-SEUL — Curtis isolé comme martyr solitaire",
     "data": {
@@ -160143,7 +160234,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3468",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3472",
     "file": "registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Complément MYTH-EUROPE-ARTISTIC-CONSECRATION — L’Europe comme pure consécration artistique",
     "data": {
@@ -160160,7 +160251,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3469",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3473",
     "file": "registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Complément MYTH-FACTORY-IDEALISM — Factory comme stratégie cohérente et maîtrisée",
     "data": {
@@ -160175,7 +160266,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3470",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3474",
     "file": "registers/myths/s41_hook_myths_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "Complément MYTH-POSTPUNK-PROFESSIONALIZATION-CLEAN — Professionnalisation post-punk propre et maîtrisée",
     "data": {
@@ -160240,7 +160331,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3472",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3476",
     "file": "registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Complément MYTH-POSTPUNK-PROFESSIONALIZATION-CLEAN — Professionnalisation propre et maîtrisée",
     "data": {
@@ -160258,7 +160349,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3473",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3477",
     "file": "registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Complément MYTH-EPILEPSY-RETROREADING — L’épilepsie comme explication unique",
     "data": {
@@ -160275,7 +160366,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3474",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3478",
     "file": "registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Complément MYTH-CURTIS-MARTYR-SEUL — Curtis seul face à la fin",
     "data": {
@@ -160293,7 +160384,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3475",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3479",
     "file": "registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Complément MYTH-LINEAR-RISE-1979 — Ascension continue vers l’Amérique",
     "data": {
@@ -160311,7 +160402,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3476",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3480",
     "file": "registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Complément MYTH-FACTORY-IDEALISM — Factory comme protection cohérente",
     "data": {
@@ -160327,7 +160418,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3477",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md::3481",
     "file": "registers/myths/s41_hook_myths_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "Complément MYTH-CURTIS-SUICIDE-SINGLE-CAUSE — Suicide expliqué par une cause unique",
     "data": {
@@ -160358,7 +160449,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s10_sumner_myths_late_jd_transition_memory_v2.md::3479",
+    "id": "NO_ID::registers/myths/s10_sumner_myths_late_jd_transition_memory_v2.md::3483",
     "file": "registers/myths/s10_sumner_myths_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre des mythes — Joy Division tardif, New Order, mémoire mondiale",
     "data": {
@@ -160441,7 +160532,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s20_dodge_myths_housing_geographies_v2.md::3481",
+    "id": "NO_ID::registers/myths/s20_dodge_myths_housing_geographies_v2.md::3485",
     "file": "registers/myths/s20_dodge_myths_housing_geographies_v2.md",
     "heading": "S20 — Compléments au registre des mythes — ruine, modernisme, renaissance",
     "data": {
@@ -160502,7 +160593,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3482",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3486",
     "file": "registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Complément MYTH-FACTORY-IDEALISM — Factory comme pure utopie lucide",
     "data": {
@@ -160517,7 +160608,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3483",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3487",
     "file": "registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Complément MYTH-ATMOSPHERE-DEATH-SONG — Atmosphere comme pur chant funéraire",
     "data": {
@@ -160532,7 +160623,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3484",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3488",
     "file": "registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Complément MYTH-LWTUA-TRANSPARENT-DIARY — Love Will Tear Us Apart comme journal transparent",
     "data": {
@@ -160547,7 +160638,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3485",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3489",
     "file": "registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Complément MYTH-EPILEPSY-RETROREADING — L’épilepsie comme esthétique ou possession",
     "data": {
@@ -160563,7 +160654,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3486",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3490",
     "file": "registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Complément MYTH-UP-PERFECTION — Unknown Pleasures comme objet parfait et clos",
     "data": {
@@ -160580,7 +160671,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3487",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3491",
     "file": "registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme oracle infaillible",
     "data": {
@@ -160598,7 +160689,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3488",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3492",
     "file": "registers/myths/s41_hook_myths_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles de Curtis comme clé immédiate",
     "data": {
@@ -160614,7 +160705,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3489",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3493",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-FACTORY-IDEALISM — Factory comme pure utopie désintéressée",
     "data": {
@@ -160629,7 +160720,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3490",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3494",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul destin sonore possible",
     "data": {
@@ -160644,7 +160735,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3491",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3495",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme clé immédiate de Joy Division",
     "data": {
@@ -160659,7 +160750,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3492",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3496",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-CURTIS-SOLE-GENIUS — Curtis comme auteur unique du groupe",
     "data": {
@@ -160675,7 +160766,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3493",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3497",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-EPILEPSY-RETROREADING — Toute la période doit être relue par l’épilepsie",
     "data": {
@@ -160692,7 +160783,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3494",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md::3498",
     "file": "registers/myths/s41_hook_myths_1979_peel_factory_genetic_eden_transition.md",
     "heading": "Complément MYTH-POSTPUNK-PROFESSIONALIZATION-CLEAN — La professionnalisation post-punk comme montée propre et maîtrisée",
     "data": {
@@ -160724,7 +160815,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md::3496",
+    "id": "NO_ID::registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md::3500",
     "file": "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
     "heading": "S02 — Compléments au registre des mythes — Manchester et renaissance urbaine",
     "data": {
@@ -160775,7 +160866,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::3497",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::3501",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -160797,7 +160888,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::3498",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::3502",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -160815,7 +160906,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::3499",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::3503",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -160833,7 +160924,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::3500",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md::3504",
     "file": "registers/myths/s45_curtis_myths_1977_1978_an_ideal_rca.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -160849,7 +160940,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::3501",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::3505",
     "file": "registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Complément MYTH-ORIGIN-CLARITY — Origines parfaitement linéaires",
     "data": {
@@ -160865,7 +160956,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::3502",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::3506",
     "file": "registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Complément MYTH-GROUP-MEMORY-TRANSPARENCY — Mémoire de groupe transparente",
     "data": {
@@ -160882,7 +160973,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::3503",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md::3507",
     "file": "registers/myths/s41_hook_myths_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "Complément MYTH-RARE-OBJECT-AURA — Objet rare comme vérité originelle",
     "data": {
@@ -160898,7 +160989,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3504",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3508",
     "file": "registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Complément MYTH-CLOSER-FUNERAL-PROPHECY — *Closer* comme prophétie funéraire consciente",
     "data": {
@@ -160915,7 +161006,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3505",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3509",
     "file": "registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme pur génie hors conflit",
     "data": {
@@ -160932,7 +161023,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3506",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3510",
     "file": "registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Complément MYTH-CURTIS-SOLE-GENIUS — Le vrai Curtis accessible par une seule clé",
     "data": {
@@ -160948,7 +161039,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3507",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3511",
     "file": "registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Complément MYTH-CURTIS-MARTYR-SEUL — Curtis martyr solitaire",
     "data": {
@@ -160964,7 +161055,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3508",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3512",
     "file": "registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Complément MYTH-LWTUA-TRANSPARENT-DIARY — « Love Will Tear Us Apart » comme confession transparente",
     "data": {
@@ -160980,7 +161071,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3509",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3513",
     "file": "registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Complément MYTH-POSTPUNK-PROFESSIONALIZATION-CLEAN — Professionnalisation propre et stabilisée",
     "data": {
@@ -160997,7 +161088,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3510",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3514",
     "file": "registers/myths/s41_hook_myths_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "Complément MYTH-U2-SUCCESS-LINEAR — U2 comme simple héritier naturel de Joy Division",
     "data": {
@@ -161012,7 +161103,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::3511",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::3515",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -161031,7 +161122,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::3512",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::3516",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -161051,7 +161142,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::3513",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::3517",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -161066,7 +161157,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::3514",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md::3518",
     "file": "registers/myths/s45_curtis_myths_1980_european_tour_annik_closer_threshold.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Closer comme pur objet de studio",
     "data": {
@@ -161096,7 +161187,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s05_jeffery_tufail_jackson_myths_public_order_v2.md::3516",
+    "id": "NO_ID::registers/myths/s05_jeffery_tufail_jackson_myths_public_order_v2.md::3520",
     "file": "registers/myths/s05_jeffery_tufail_jackson_myths_public_order_v2.md",
     "heading": "S05 — Compléments au registre des mythes — police, neutralité et désordre",
     "data": {
@@ -161155,7 +161246,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3517",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3521",
     "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Complément MYTH-GROUP-MEMORY-TRANSPARENCY — Mémoire transparente du groupe",
     "data": {
@@ -161170,7 +161261,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3518",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3522",
     "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Complément MYTH-CURTIS-SOLE-GENIUS — Curtis comme pur génie séparé du groupe",
     "data": {
@@ -161186,7 +161277,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3519",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3523",
     "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Complément MYTH-EPILEPSY-RETROREADING — L’épilepsie comme clé esthétique totale",
     "data": {
@@ -161202,7 +161293,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3520",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3524",
     "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Complément MYTH-POSTPUNK-PROFESSIONALIZATION-CLEAN — Professionnalisation post-punk propre et maîtrisée",
     "data": {
@@ -161220,7 +161311,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3521",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3525",
     "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Complément MYTH-LONDON-CONSECRATION — Londres comme centre unique de validation",
     "data": {
@@ -161236,7 +161327,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3522",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3526",
     "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Complément MYTH-EUROPE-ARTISTIC-CONSECRATION — L’Europe comme consécration artistique pure",
     "data": {
@@ -161251,7 +161342,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3523",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3527",
     "file": "registers/myths/s41_hook_myths_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "Complément MYTH-ATMOSPHERE-DEATH-SONG — Atmosphere comme morceau uniquement funéraire",
     "data": {
@@ -161266,7 +161357,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::3524",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::3528",
     "file": "registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Complément MYTH-FACTORY-RECORDS-DESTINY — Factory Records comme destin immédiat",
     "data": {
@@ -161282,7 +161373,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::3525",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::3529",
     "file": "registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Complément MYTH-007 — Controverse nazie",
     "data": {
@@ -161298,7 +161389,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::3526",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::3530",
     "file": "registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Complément MYTH-WILSON-INSTANT-RECOGNITION — Wilson et la reconnaissance instantanée",
     "data": {
@@ -161314,7 +161405,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::3527",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::3531",
     "file": "registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Complément MYTH-LONDON-CONSECRATION — Londres comme consécration naturelle",
     "data": {
@@ -161329,7 +161420,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::3528",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md::3532",
     "file": "registers/myths/s41_hook_myths_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "Complément MYTH-GROUP-MEMORY-TRANSPARENCY — Mémoire transparente du groupe",
     "data": {
@@ -161768,7 +161859,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s10_sumner_myths_salford_formation_sound_v2.md::3540",
+    "id": "NO_ID::registers/myths/s10_sumner_myths_salford_formation_sound_v2.md::3544",
     "file": "registers/myths/s10_sumner_myths_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre des mythes — Salford, punk, Factory, Curtis",
     "data": {
@@ -161935,7 +162026,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3544",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3548",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-FACTORY-IDEALISM — Factory comme pure utopie désintéressée",
     "data": {
@@ -161952,7 +162043,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3545",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3549",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -161970,7 +162061,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3546",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3550",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-UP-IMMEDIATE-MASTERPIECE — Unknown Pleasures reconnu immédiatement par tous comme chef-d’œuvre",
     "data": {
@@ -161986,7 +162077,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3547",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3551",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-SAVILLE-PURE-DESIGN — La pochette comme pur geste de design détaché du groupe",
     "data": {
@@ -162001,7 +162092,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3548",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3552",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-JD-MYSTIQUE-INTENTIONAL — La mystique Joy Division comme stratégie parfaitement consciente",
     "data": {
@@ -162017,7 +162108,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3549",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3553",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-LONDON-CONSECRATION — Londres comme consécration naturelle",
     "data": {
@@ -162032,7 +162123,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3550",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md::3554",
     "file": "registers/myths/s41_hook_myths_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "Complément MYTH-CURTIS-HOME-BAND-SEPARATE — Séparation naturelle entre famille et groupe",
     "data": {
@@ -162047,7 +162138,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::3551",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::3555",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-003 — Manchester comme matrice unique",
     "data": {
@@ -162064,7 +162155,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::3552",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::3556",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-005 — Factory comme anti-business pur",
     "data": {
@@ -162082,7 +162173,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::3553",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::3557",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-006 — Le génie immédiat de Joy Division",
     "data": {
@@ -162099,7 +162190,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::3554",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::3558",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-007 — L’imagerie nazie comme fascination fasciste",
     "data": {
@@ -162114,7 +162205,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::3555",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md::3559",
     "file": "registers/myths/s45_curtis_myths_1978_wilson_gretton_band_on_the_wall.md",
     "heading": "Complément MYTH-009 — Rob Gretton comme manager sauveur",
     "data": {
@@ -162130,7 +162221,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::3556",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::3560",
     "file": "registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Complément MYTH-SEX-PISTOLS-LFTH-ORIGIN — Le concert des Pistols comme origine absolue",
     "data": {
@@ -162146,7 +162237,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::3557",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::3561",
     "file": "registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Complément MYTH-HOOK-BASS-GENIUS — Hook bassiste comme vocation immédiate",
     "data": {
@@ -162162,7 +162253,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::3558",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::3562",
     "file": "registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Complément MYTH-002 — Curtis déjà poète maudit",
     "data": {
@@ -162179,7 +162270,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::3559",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md::3563",
     "file": "registers/myths/s41_hook_myths_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "Complément MYTH-JOY-DIVISION-ARTY-PURITY — Joy Division comme projet artistique pur",
     "data": {
@@ -162197,7 +162288,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3560",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3564",
     "file": "registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Complément MYTH-JOY-DIVISION-ARTY-PURITY — Joy Division comme projet d’art pur",
     "data": {
@@ -162217,7 +162308,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3561",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3565",
     "file": "registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Complément MYTH-007 — Controverse nazie",
     "data": {
@@ -162232,7 +162323,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3562",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3566",
     "file": "registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Complément MYTH-GROUP-BROTHERHOOD — Joy Division comme fraternité homogène",
     "data": {
@@ -162248,7 +162339,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3563",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3567",
     "file": "registers/myths/s41_hook_myths_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "Complément MYTH-HANNETT-REVELATION-INSTANTANEE — Hannett comme producteur immédiatement destiné",
     "data": {
@@ -162279,7 +162370,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md::3565",
+    "id": "NO_ID::registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md::3569",
     "file": "registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md",
     "heading": "S12 — Compléments au registre des mythes — Anderton, sida, morale publique",
     "data": {
@@ -162329,7 +162420,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::3566",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::3570",
     "file": "registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Complément MYTH-007 — Controverse nazie",
     "data": {
@@ -162346,7 +162437,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::3567",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::3571",
     "file": "registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Complément MYTH-HOOK-BASS-GENIUS — Hook bassiste comme génie immédiat",
     "data": {
@@ -162361,7 +162452,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::3568",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::3572",
     "file": "registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -162376,7 +162467,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::3569",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::3573",
     "file": "registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Complément MYTH-INDUSTRIAL-PLACE-CAUSE — Le lieu industriel comme cause directe du son",
     "data": {
@@ -162391,7 +162482,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::3570",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md::3574",
     "file": "registers/myths/s41_hook_myths_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "Complément MYTH-RARE-OBJECT-AURA — L’objet rare comme valeur originelle",
     "data": {
@@ -162407,7 +162498,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3571",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3575",
     "file": "registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Complément MYTH-FACTORY-IDEALISM — Factory comme pure utopie désintéressée",
     "data": {
@@ -162423,7 +162514,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3572",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3576",
     "file": "registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -162440,7 +162531,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3573",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3577",
     "file": "registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Complément MYTH-PUNK-AUTHENTICITY — Le chaos punk comme authenticité désirable",
     "data": {
@@ -162457,7 +162548,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3574",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3578",
     "file": "registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Complément MYTH-LONDON-CONSECRATION — Londres comme consécration naturelle",
     "data": {
@@ -162473,7 +162564,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3575",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3579",
     "file": "registers/myths/s41_hook_myths_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "Complément MYTH-EPILEPSY-RETROREADING — Toute violence antérieure comme symptôme",
     "data": {
@@ -162504,7 +162595,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md::3577",
+    "id": "NO_ID::registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md::3581",
     "file": "registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md",
     "heading": "S69 — Compléments au registre des mythes — nostalgie et authenticité",
     "data": {
@@ -162563,7 +162654,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3578",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3582",
     "file": "registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Complément MYTH-CURTIS-SUICIDE-SINGLE-CAUSE — Suicide expliqué par une cause unique",
     "data": {
@@ -162581,7 +162672,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3579",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3583",
     "file": "registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Complément MYTH-AMERICA-SALVATION — L’Amérique aurait nécessairement sauvé Curtis",
     "data": {
@@ -162597,7 +162688,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3580",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3584",
     "file": "registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Complément MYTH-LWTUA-TRANSPARENT-DIARY — Love Will Tear Us Apart réduit à une confession intime",
     "data": {
@@ -162612,7 +162703,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3581",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3585",
     "file": "registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Complément MYTH-LINEAR-RISE-1979 — Ascension linéaire jusqu’à l’Amérique",
     "data": {
@@ -162628,7 +162719,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3582",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3586",
     "file": "registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Complément MYTH-POSTHUMOUS-CLARITY — La mort rend tout immédiatement clair",
     "data": {
@@ -162645,7 +162736,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3583",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3587",
     "file": "registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Complément MYTH-NEW-ORDER-COLD-CONTINUITY — New Order comme continuation froide et opportuniste",
     "data": {
@@ -162660,7 +162751,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3584",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3588",
     "file": "registers/myths/s41_hook_myths_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "Complément MYTH-RELICS-INTACT — Mémoire matérielle naturellement préservée",
     "data": {
@@ -162675,7 +162766,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::3585",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::3589",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -162696,7 +162787,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::3586",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::3590",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -162717,7 +162808,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::3587",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::3591",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-STROSZEK-CAUSE — Stroszek comme cause explicative du suicide",
     "data": {
@@ -162732,7 +162823,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::3588",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md::3592",
     "file": "registers/myths/s45_curtis_myths_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU / objet canonique isolé",
     "data": {
@@ -162762,7 +162853,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s06_carter_myths_hulme_lived_discursive_space_v2.md::3590",
+    "id": "NO_ID::registers/myths/s06_carter_myths_hulme_lived_discursive_space_v2.md::3594",
     "file": "registers/myths/s06_carter_myths_hulme_lived_discursive_space_v2.md",
     "heading": "S06 — Compléments au registre des mythes — Hulme, inner city et ruine moderniste",
     "data": {
@@ -162822,7 +162913,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::3591",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::3595",
     "file": "registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Complément MYTH-LESSER-FREE-TRADE-HALL — Lieu sacré de la naissance punk mancunienne",
     "data": {
@@ -162837,7 +162928,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::3592",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::3596",
     "file": "registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Complément MYTH-SEX-PISTOLS-LFTH-ORIGIN — Le concert comme origine unique",
     "data": {
@@ -162853,7 +162944,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::3593",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md::3597",
     "file": "registers/myths/s41_hook_myths_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "Complément MYTH-JOY-DIVISION-ARTY-PURITY — Joy Division comme groupe d’art pur",
     "data": {
@@ -162868,7 +162959,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::3594",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::3598",
     "file": "registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md",
     "heading": "Complément MYTH-007 — La controverse nazie",
     "data": {
@@ -162883,7 +162974,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::3595",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md::3599",
     "file": "registers/myths/s41_hook_myths_1978_pips_first_joy_division_gig.md",
     "heading": "Complément MYTH-002 — Curtis comme figure tragique déjà constituée",
     "data": {
@@ -162900,7 +162991,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::3596",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::3600",
     "file": "registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Complément MYTH-WILSON-INSTANT-RECOGNITION — Wilson découvre immédiatement Joy Division",
     "data": {
@@ -162917,7 +163008,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::3597",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::3601",
     "file": "registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Complément MYTH-GRETTON-SAVIOUR — Gretton sauve Joy Division",
     "data": {
@@ -162934,7 +163025,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::3598",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::3602",
     "file": "registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Complément MYTH-RCA-LOST-ALBUM — L’album RCA comme joyau perdu",
     "data": {
@@ -162951,7 +163042,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::3599",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::3603",
     "file": "registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Complément MYTH-FACTORY-RECORDS-DESTINY — Factory Records comme destin immédiat",
     "data": {
@@ -162967,7 +163058,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::3600",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md::3604",
     "file": "registers/myths/s41_hook_myths_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "Complément MYTH-HOOK-BASS-GENIUS — Hook bassiste comme signature purement personnelle",
     "data": {
@@ -162982,7 +163073,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3601",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3605",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-002 — Curtis comme poète maudit / artiste torturé",
     "data": {
@@ -163001,7 +163092,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3602",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3606",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-010 — L’épilepsie comme cause unique",
     "data": {
@@ -163023,7 +163114,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3603",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3607",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-LYRICS-AS-DIARY — Les paroles comme journal intime transparent",
     "data": {
@@ -163039,7 +163130,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3604",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3608",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-CURTIS-AUTEUR-TOTAL — Curtis comme auteur total de Joy Division",
     "data": {
@@ -163055,7 +163146,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3605",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3609",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-HANNETT-GENIE-ABSOLU — Hannett comme seul auteur du son",
     "data": {
@@ -163071,7 +163162,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3606",
+    "id": "NO_ID::registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md::3610",
     "file": "registers/myths/s45_curtis_myths_1978_1979_factory_epilepsy_lyrics_natalie.md",
     "heading": "Complément MYTH-009 — Gretton comme manager sauveur",
     "data": {
@@ -163087,7 +163178,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3607",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3611",
     "file": "registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Complément MYTH-CURTIS-SOLE-GENIUS — Curtis comme centre vocal exclusif",
     "data": {
@@ -163102,7 +163193,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3608",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3612",
     "file": "registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Complément MYTH-UP-PERFECTION — Unknown Pleasures comme totalité close et parfaite",
     "data": {
@@ -163118,7 +163209,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3609",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3613",
     "file": "registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Complément MYTH-ATMOSPHERE-DEATH-SONG — Atmosphere comme chant funéraire depuis l’origine",
     "data": {
@@ -163133,7 +163224,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3610",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3614",
     "file": "registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Complément MYTH-EPILEPSY-RETROREADING — 1979 entièrement expliqué par l’épilepsie",
     "data": {
@@ -163150,7 +163241,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3611",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3615",
     "file": "registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Complément MYTH-SAVILLE-PURE-DESIGN — Image Joy Division réduite aux pochettes",
     "data": {
@@ -163166,7 +163257,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3612",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3616",
     "file": "registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Complément MYTH-FACTORY-IDEALISM — Factory comme stratégie toujours cohérente",
     "data": {
@@ -163183,7 +163274,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3613",
+    "id": "NO_ID::registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3617",
     "file": "registers/myths/s41_hook_myths_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "Complément MYTH-LINEAR-RISE-1979 — 1979 comme ascension linéaire",
     "data": {
@@ -163838,7 +163929,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md::3629",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md::3633",
     "file": "registers/chronology/s41_hook_chronology_1978_pips_first_joy_division_gig.md",
     "heading": "S41 — Chronologie candidate — Pips et premier concert Joy Division",
     "data": {
@@ -164430,7 +164521,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3643",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md::3647",
     "file": "registers/chronology/s41_hook_chronology_1979_licht_lwtua_bournemouth_unknown_pleasures_track_by_track_1.md",
     "heading": "S41 — Chronologie candidate — *Licht und Blindheit*, « Love Will Tear Us Apart », Bournemouth, *Unknown Pleasures* track by track I",
     "data": {
@@ -164506,7 +164597,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::3644",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md::3648",
     "file": "registers/chronology/s45_curtis_chronology_1979_annik_apollo_rainbow_marriage_collapse.md",
     "heading": "S45 — Chronologie candidate — Annik, Apollo, Rainbow, effondrement conjugal",
     "data": {
@@ -165274,7 +165365,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::3660",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md::3664",
     "file": "registers/chronology/s45_curtis_chronology_1979_buzzcocks_tour.md",
     "heading": "S45 — Chronologie candidate — tournée Buzzcocks, Futurama, Mountford Hall",
     "data": {
@@ -165354,7 +165445,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3661",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md::3665",
     "file": "registers/chronology/s41_hook_chronology_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
     "heading": "S41 — Chronologie candidate — « Love Will Tear Us Apart » vidéo, Birmingham, suicide, funérailles, après-coup",
     "data": {
@@ -165505,7 +165596,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_factory_deal_unknown_pleasures_release_anti_image.md::3662",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_factory_deal_unknown_pleasures_release_anti_image.md::3666",
     "file": "registers/chronology/s41_hook_chronology_1979_factory_deal_unknown_pleasures_release_anti_image.md",
     "heading": "S41 — Chronologie candidate — Factory deal, *Unknown Pleasures*, anti-image",
     "data": {
@@ -165881,7 +165972,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3668",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1980_closer_britannia_row_lwtua_mix_annnik_saville.md::3672",
     "file": "registers/chronology/s41_hook_chronology_1980_closer_britannia_row_lwtua_mix_annnik_saville.md",
     "heading": "S41 — Chronologie candidate — *Closer*, Britannia Row, mix de « Love Will Tear Us Apart », Annik, Saville",
     "data": {
@@ -166191,7 +166282,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s69_greig_strong_chronology_nostalgie_memoire_v2.md::3674",
+    "id": "NO_ID::registers/chronology/s69_greig_strong_chronology_nostalgie_memoire_v2.md::3678",
     "file": "registers/chronology/s69_greig_strong_chronology_nostalgie_memoire_v2.md",
     "heading": "S69 — Compléments au registre chronologique — objets de mémoire posthume",
     "data": {
@@ -166639,7 +166730,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s20_dodge_chronology_housing_geographies_v2.md::3684",
+    "id": "NO_ID::registers/chronology/s20_dodge_chronology_housing_geographies_v2.md::3688",
     "file": "registers/chronology/s20_dodge_chronology_housing_geographies_v2.md",
     "heading": "S20 — Compléments au registre chronologique — logement et urban renewal à Manchester",
     "data": {
@@ -166846,7 +166937,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1977_an_ideal_name_change_tj_davidson_sound.md::3685",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1977_an_ideal_name_change_tj_davidson_sound.md::3689",
     "file": "registers/chronology/s41_hook_chronology_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "S41 — Chronologie candidate — An Ideal for Living, changement de nom, TJ Davidson’s",
     "data": {
@@ -167570,7 +167661,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s05_jeffery_tufail_jackson_chronology_public_order_v2.md::3703",
+    "id": "NO_ID::registers/chronology/s05_jeffery_tufail_jackson_chronology_public_order_v2.md::3707",
     "file": "registers/chronology/s05_jeffery_tufail_jackson_chronology_public_order_v2.md",
     "heading": "S05 — Compléments au registre chronologique — policing du Greater Manchester",
     "data": {
@@ -167785,7 +167876,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s10_sumner_chronology_late_jd_transition_memory_v2.md::3705",
+    "id": "NO_ID::registers/chronology/s10_sumner_chronology_late_jd_transition_memory_v2.md::3709",
     "file": "registers/chronology/s10_sumner_chronology_late_jd_transition_memory_v2.md",
     "heading": "S10 — Compléments au registre chronologique — Joy Division tardif, transition et mémoire",
     "data": {
@@ -168142,7 +168233,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::3715",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md::3719",
     "file": "registers/chronology/s45_curtis_chronology_1980_european_tour_annik_closer_threshold.md",
     "heading": "S45 — Chronologie candidate — tournée européenne, Annik, foyer et seuil *Closer*",
     "data": {
@@ -168302,7 +168393,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3717",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_factory_sample_rezillos_hope_anchor_epilepsy.md::3721",
     "file": "registers/chronology/s41_hook_chronology_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
     "heading": "S41 — Chronologie candidate — Factory Sample, tournée Rezillos/Undertones, Hope & Anchor, épilepsie",
     "data": {
@@ -168442,7 +168533,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1956_1976_salford_jamaica_music_pistols_epiphany.md::3718",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1956_1976_salford_jamaica_music_pistols_epiphany.md::3722",
     "file": "registers/chronology/s41_hook_chronology_1956_1976_salford_jamaica_music_pistols_epiphany.md",
     "heading": "S41 — Chronologie candidate — Salford, Jamaïque, premières écoutes et épiphanie Sex Pistols",
     "data": {
@@ -168533,7 +168624,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1980_moonlight_rainbow_bury_derby_divorce.md::3719",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1980_moonlight_rainbow_bury_derby_divorce.md::3723",
     "file": "registers/chronology/s41_hook_chronology_1980_moonlight_rainbow_bury_derby_divorce.md",
     "heading": "S41 — Chronologie candidate — Moonlight, Rainbow, Bury, Derby, divorce",
     "data": {
@@ -168708,7 +168799,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s06_carter_chronology_hulme_lived_discursive_space_v2.md::3721",
+    "id": "NO_ID::registers/chronology/s06_carter_chronology_hulme_lived_discursive_space_v2.md::3725",
     "file": "registers/chronology/s06_carter_chronology_hulme_lived_discursive_space_v2.md",
     "heading": "S06 — Compléments au registre chronologique — Hulme, inner city et récits habitants",
     "data": {
@@ -168904,7 +168995,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::3722",
+    "id": "NO_ID::registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md::3726",
     "file": "registers/chronology/s45_curtis_chronology_1980_moonlight_overdose_bury_divorce_last_clinic.md",
     "heading": "S45 — Chronologie candidate — Moonlight, overdose, Bury, divorce, dernier rendez-vous médical",
     "data": {
@@ -169623,7 +169714,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3735",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md::3739",
     "file": "registers/chronology/s41_hook_chronology_1979_unknown_pleasures_track_by_track_2_timeline_four_jan_oct.md",
     "heading": "S41 — Chronologie candidate — *Unknown Pleasures* track by track II et Timeline Four janvier-octobre 1979",
     "data": {
@@ -169909,7 +170000,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md::3737",
+    "id": "NO_ID::registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md::3741",
     "file": "registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md",
     "heading": "S02 — Compléments au registre chronologique — Manchester, régénération urbaine",
     "data": {
@@ -169984,7 +170075,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1976_1977_timeline_two_warsaw_to_joy_division.md::3738",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1976_1977_timeline_two_warsaw_to_joy_division.md::3742",
     "file": "registers/chronology/s41_hook_chronology_1976_1977_timeline_two_warsaw_to_joy_division.md",
     "heading": "S41 — Chronologie consolidée — Timeline Two, de Warsaw à Joy Division",
     "data": {
@@ -170602,7 +170693,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s10_sumner_chronology_salford_formation_sound_v2.md::3750",
+    "id": "NO_ID::registers/chronology/s10_sumner_chronology_salford_formation_sound_v2.md::3754",
     "file": "registers/chronology/s10_sumner_chronology_salford_formation_sound_v2.md",
     "heading": "S10 — Compléments au registre chronologique — Sumner, Salford, Warsaw, Factory",
     "data": {
@@ -171008,7 +171099,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s12_press_aids_anderton_chronology_moral_order_v2.md::3752",
+    "id": "NO_ID::registers/chronology/s12_press_aids_anderton_chronology_moral_order_v2.md::3756",
     "file": "registers/chronology/s12_press_aids_anderton_chronology_moral_order_v2.md",
     "heading": "S12 — Compléments au registre chronologique — AIDS, Anderton, décembre 1986",
     "data": {
@@ -171117,7 +171208,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_peel_factory_genetic_eden_transition.md::3753",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_peel_factory_genetic_eden_transition.md::3757",
     "file": "registers/chronology/s41_hook_chronology_1979_peel_factory_genetic_eden_transition.md",
     "heading": "S41 — Chronologie candidate — Peel, Factory vs Genetic, Eden Studios",
     "data": {
@@ -171229,7 +171320,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_stiff_chiswick_rca_gretton_factory_granada.md::3754",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_stiff_chiswick_rca_gretton_factory_granada.md::3758",
     "file": "registers/chronology/s41_hook_chronology_1978_stiff_chiswick_rca_gretton_factory_granada.md",
     "heading": "S41 — Chronologie candidate — Stiff/Chiswick, RCA, Gretton, Factory, Granada",
     "data": {
@@ -171996,7 +172087,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_timeline_three_factory_live_medical_threshold.md::3768",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1978_timeline_three_factory_live_medical_threshold.md::3772",
     "file": "registers/chronology/s41_hook_chronology_1978_timeline_three_factory_live_medical_threshold.md",
     "heading": "S41 — Chronologie consolidée — Timeline Three, année 1978",
     "data": {
@@ -172316,7 +172407,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3769",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md::3773",
     "file": "registers/chronology/s41_hook_chronology_1979_1980_timeline_four_end_europe_annnik_we_carried_on.md",
     "heading": "S41 — Chronologie candidate — Timeline Four fin 1979, Europe, Annik, « We carried on »",
     "data": {
@@ -172499,7 +172590,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1980_epilogue_closer_track_by_track.md::3770",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1980_epilogue_closer_track_by_track.md::3774",
     "file": "registers/chronology/s41_hook_chronology_1980_epilogue_closer_track_by_track.md",
     "heading": "S41 — Chronologie candidate — Épilogue et *Closer Track by Track*",
     "data": {
@@ -173107,7 +173198,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3783",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md::3787",
     "file": "registers/chronology/s41_hook_chronology_1979_m5_annnik_buzzcocks_plan_k_atmosphere.md",
     "heading": "S41 — Chronologie candidate — M5, Annik, Buzzcocks tour, Plan K, « Atmosphere »",
     "data": {
@@ -173260,7 +173351,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1976_lesser_free_trade_hall_bass_ian_joining.md::3784",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1976_lesser_free_trade_hall_bass_ian_joining.md::3788",
     "file": "registers/chronology/s41_hook_chronology_1976_lesser_free_trade_hall_bass_ian_joining.md",
     "heading": "S41 — Chronologie candidate — Lesser Free Trade Hall, basse, scène punk et recrutement de Curtis",
     "data": {
@@ -174292,7 +174383,7 @@
   },
   {
     "kind": "template",
-    "id": "NO_ID::registers/chronology/s41_hook_chronology_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3812",
+    "id": "NO_ID::registers/chronology/s41_hook_chronology_1977_warsaw_first_gigs_hannett_erasmus_demos.md::3816",
     "file": "registers/chronology/s41_hook_chronology_1977_warsaw_first_gigs_hannett_erasmus_demos.md",
     "heading": "S41 — Chronologie candidate — Warsaw, premiers concerts, Hannett/Erasmus, démos",
     "data": {

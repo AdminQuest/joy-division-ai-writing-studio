@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T16:26:09",
+  "generated_at": "2026-05-16T18:29:34",
   "status": "warning",
   "summary": {
-    "records_total": 3828,
+    "records_total": 3832,
     "records_by_kind": {
       "atom": 1779,
-      "metadata": 51,
+      "metadata": 53,
       "quote": 358,
       "chronology": 343,
-      "source": 57,
-      "unknown": 233,
+      "source": 58,
+      "unknown": 234,
       "concept": 188,
       "motif": 266,
       "myth": 17,
@@ -19,13 +19,13 @@
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 18359,
+    "diagnostics_total": 18360,
     "errors": 0,
-    "warnings": 18359,
+    "warnings": 18360,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 23,
-    "sources_exported": 23,
-    "declared_but_unused": 28,
+    "sources_used_in_records": 24,
+    "sources_exported": 24,
+    "declared_but_unused": 27,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -98,20 +98,6 @@
           "dérive",
           "ville",
           "situationnisme"
-        ]
-      },
-      {
-        "source_id": "S11",
-        "source_label": "S11 — UK Treasury / DTI, Financial Statement and Budget Report, 1978–1988",
-        "auteur": "HM Treasury ; Department of Trade and Industry",
-        "titre": "Financial Statement and Budget Report / données budgétaires et industrielles 1978–1988",
-        "annee": "1978–1988",
-        "statut": "a_consolider",
-        "usage": [
-          "austérité",
-          "politique industrielle",
-          "dépenses industrielles",
-          "ère Thatcher"
         ]
       },
       {
@@ -559,6 +545,21 @@
           "sources/sumner_chapter_and_verse/source.md",
           "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
           "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md"
+        ]
+      },
+      {
+        "source_id": "S11",
+        "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+        "auteur": "HM Treasury",
+        "titre": "Financial Statement and Budget Report 1987-88",
+        "annee": "1987",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
+          "sources/uk_treasury_fsbr_1987_88/source.md"
         ]
       },
       {
@@ -109604,6 +109605,12 @@
       "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-RAG-S02-MANCHESTER-SHRINKING-CITY-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S11-HM-TREASURY-FSBR-SOURCE-CANONIQUE"
     },
     {
       "level": "warning",
