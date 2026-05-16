@@ -9,9 +9,19 @@
     "nature": "chapitre d’ouvrage / étude urbaine",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["déclin de l’emploi", "East Manchester", "base économique", "contexte socio-économique"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique"],
+    "usage": [
+      "déclin de l’emploi",
+      "East Manchester",
+      "base économique",
+      "contexte socio-économique"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
     "arbitrage": "Le registre historique mentionne Manchester City Council / Manchester Hive ; le texte intégral renvoie précisément à Blakeley & Evans pour le chiffre de contraction de l’emploi dans East Manchester.",
     "legacy_label": "Manchester City Council (Manchester Hive) — Manchester Hive – East Manchester: economic base decline (PDF)"
   },
@@ -21,14 +31,50 @@
     "auteur": "Jean-Pierre Sueur / Sénat",
     "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
     "annee": "2011",
-    "reference_complete": "Sueur, Jean-Pierre (rapporteur). Villes du futur, futur des villes : quel avenir pour les villes du monde ? Rapport d’information n° 594, Délégation sénatoriale à la prospective, Sénat, 9 juin 2011, section « Manchester : shrinking city et renouveau urbain ».",
-    "nature": "rapport parlementaire",
+    "reference_complete": "SUEUR, Jean-Pierre, Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses, rapport d’information n° 594 fait au nom de la délégation sénatoriale à la prospective, Sénat, session ordinaire 2010-2011, enregistré le 9 juin 2011.",
+    "nature": "rapport parlementaire / rapport de prospective urbaine",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["shrinking city", "déclin démographique", "emploi", "Manchester / Greater Manchester"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique"],
-    "arbitrage": "Référence directement présente dans la note du chapitre 1."
+    "usage": [
+      "Manchester shrinking city",
+      "déclin démographique",
+      "désindustrialisation",
+      "perte d’emplois industriels",
+      "Greater Manchester",
+      "renouvellement urbain",
+      "régénération urbaine",
+      "ville entrepreneuriale",
+      "Hulme",
+      "IRA 1996",
+      "Commonwealth Games 2002",
+      "cultures urbaines",
+      "post-punk",
+      "Factory Records",
+      "Hacienda",
+      "Joy Division dans l’imaginaire urbain de Manchester"
+    ],
+    "chapitres": [
+      "Chapitre 1",
+      "Chapitre 9",
+      "Chapitre 14"
+    ],
+    "source_origin": [
+      "Google Drive",
+      "texte intégral",
+      "registre historique"
+    ],
+    "arbitrage": "Source utile pour le cadre urbain, démographique et politique de Manchester. La section pertinente est « Manchester : shrinking city et renouveau urbain ». Ne pas atomiser l’ensemble du rapport sauf besoin spécifique sur les villes du futur ; privilégier Manchester et les notions de shrinking city, désindustrialisation, régénération urbaine, cultures urbaines et rôle de la musique dans le changement d’image de la ville.",
+    "dossier_source": "sources/sueur_villes_du_futur/",
+    "fichier_source": "S02_sueur_villes_du_futur_tome_2_analyses_2011.pdf",
+    "section_utile": "« Manchester : shrinking city et renouveau urbain »",
+    "auteur_section_utile": "Pauline Malet",
+    "pages_utiles": "p. 303-316 du rapport",
+    "chapitres_secondaires": [
+      "Chapitre 2",
+      "Chapitre 12"
+    ],
+    "niveau_preuve": "source secondaire institutionnelle",
+    "prudence": "Ne pas traiter S02 comme une source spécialisée sur Joy Division. La source est un rapport parlementaire de prospective urbaine ; elle cite Joy Division dans le cadre des cultures urbaines mancuniennes et de la régénération symbolique de Manchester."
   },
   {
     "id": "S03",
@@ -40,9 +86,18 @@
     "nature": "source statistique web",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["démographie urbaine", "périmètres", "séries historiques Manchester / Greater Manchester"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["registre historique", "document maître"],
+    "usage": [
+      "démographie urbaine",
+      "périmètres",
+      "séries historiques Manchester / Greater Manchester"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Le registre historique l’identifie comme source démographique, mais le texte intégral ne donne pas encore de référence bibliographique complète autonome."
   },
   {
@@ -55,9 +110,20 @@
     "nature": "ouvrage historique",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["histoire urbaine", "désindustrialisation", "emplois manufacturiers", "Manchester"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique", "document maître"],
+    "usage": [
+      "histoire urbaine",
+      "désindustrialisation",
+      "emplois manufacturiers",
+      "Manchester"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Référence directement présente dans la note du chapitre 1 ; pagination des chiffres d’emploi à verrouiller lors d’une passe bibliographique."
   },
   {
@@ -70,9 +136,21 @@
     "nature": "article / étude universitaire",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["Moss Side", "émeutes", "police", "ordre public", "ordres de grandeur"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique", "document maître"],
+    "usage": [
+      "Moss Side",
+      "émeutes",
+      "police",
+      "ordre public",
+      "ordres de grandeur"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Le texte intégral renvoie explicitement à Jeffery 2015 pour Moss Side."
   },
   {
@@ -85,9 +163,21 @@
     "nature": "article universitaire / étude historique",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["Hulme", "Hulme Crescents", "logement social", "échec moderniste", "expérience vécue"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique", "document maître"],
+    "usage": [
+      "Hulme",
+      "Hulme Crescents",
+      "logement social",
+      "échec moderniste",
+      "expérience vécue"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Le registre historique mentionne « Holly Carter » ; la note du texte intégral indique « Carter, I. ». Auteur, support exact, volume et pagination restent à confirmer."
   },
   {
@@ -100,9 +190,19 @@
     "nature": "ouvrage classique",
     "statut": "a_consolider",
     "fiabilite": "forte",
-    "usage": ["conditions de vie", "Salford", "Manchester", "profondeur historique"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["registre historique", "document maître"],
+    "usage": [
+      "conditions de vie",
+      "Salford",
+      "Manchester",
+      "profondeur historique"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Source sécurisée dans le registre historique, mais non retrouvée comme note autonome dans le texte intégral transmis ; éviter tout usage anachronique."
   },
   {
@@ -115,9 +215,20 @@
     "nature": "textes théoriques",
     "statut": "a_consolider",
     "fiabilite": "forte",
-    "usage": ["psychogéographie", "dérive", "ville", "situationnisme"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["registre historique", "document maître", "texte intégral"],
+    "usage": [
+      "psychogéographie",
+      "dérive",
+      "ville",
+      "situationnisme"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "registre historique",
+      "document maître",
+      "texte intégral"
+    ],
     "arbitrage": "Le texte intégral mentionne Debord surtout via l’influence situationniste sur Tony Wilson ; pour le chapitre 1, le texte de référence à choisir doit rester la psychogéographie ou la dérive."
   },
   {
@@ -130,9 +241,21 @@
     "nature": "corpus photographique / source visuelle",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["iconographie", "paysage urbain", "Manchester", "Joy Division", "Hulme / Epping Walk"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique", "document maître"],
+    "usage": [
+      "iconographie",
+      "paysage urbain",
+      "Manchester",
+      "Joy Division",
+      "Hulme / Epping Walk"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Référence retrouvée dans les notes du texte intégral."
   },
   {
@@ -145,9 +268,18 @@
     "nature": "thèse / ressource académique",
     "statut": "a_consolider",
     "fiabilite": "faible",
-    "usage": ["témoignage", "mémoire urbaine", "Salford"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["registre historique", "document maître"],
+    "usage": [
+      "témoignage",
+      "mémoire urbaine",
+      "Salford"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Le registre historique la considère comme sécurisée, mais la référence précise n’est pas retrouvée dans le texte intégral ; privilégier la source primaire Sumner, Chapter and Verse, p. 7–8, si l’idée est conservée."
   },
   {
@@ -160,9 +292,20 @@
     "nature": "source primaire statistique / données gouvernementales",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["austérité", "politique industrielle", "dépenses industrielles", "ère Thatcher"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique", "document maître"],
+    "usage": [
+      "austérité",
+      "politique industrielle",
+      "dépenses industrielles",
+      "ère Thatcher"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Le texte intégral signale que les ratios DTI nécessitent un calcul agrégé ; l’entrée reste donc sécurisée comme type de source, mais non comme référence paginée."
   },
   {
@@ -175,9 +318,20 @@
     "nature": "acteur institutionnel / dossier de presse à constituer",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["contrôle social", "répression", "conservatisme moral", "ordre public"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique", "document maître"],
+    "usage": [
+      "contrôle social",
+      "répression",
+      "conservatisme moral",
+      "ordre public"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Le texte du chapitre 1 mobilise Anderton mais ne donne pas encore de référence source autonome ; l’entrée est maintenue comme nœud documentaire à consolider."
   },
   {
@@ -190,9 +344,20 @@
     "nature": "chapitre d’ouvrage critique",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["présence absente", "performance", "transe", "rave era", "ordre public / contrôle social à vérifier"],
-    "chapitres": ["Chapitre 7"],
-    "source_origin": ["texte intégral", "registre historique"],
+    "usage": [
+      "présence absente",
+      "performance",
+      "transe",
+      "rave era",
+      "ordre public / contrôle social à vérifier"
+    ],
+    "chapitres": [
+      "Chapitre 7"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
     "arbitrage": "La référence Tomeo est retrouvée dans le texte intégral pour les analyses de performance / rave ; le lien avec Manchester et le contrôle social sous Thatcher, indiqué dans le registre historique, n’est pas confirmé à ce stade."
   },
   {
@@ -205,9 +370,19 @@
     "nature": "référence discographique",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["réappropriation musicale", "James Anderton", "police", "mémoire culturelle mancunienne"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique"],
+    "usage": [
+      "réappropriation musicale",
+      "James Anderton",
+      "police",
+      "mémoire culturelle mancunienne"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
     "arbitrage": "Référence discographique présente dans la note du chapitre 1."
   },
   {
@@ -220,9 +395,18 @@
     "nature": "chapitre d’ouvrage critique",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["concert des Sex Pistols du 4 juin 1976", "scène mancunienne", "événement catalyseur"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique"],
+    "usage": [
+      "concert des Sex Pistols du 4 juin 1976",
+      "scène mancunienne",
+      "événement catalyseur"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
     "arbitrage": "Référence présente dans la note du chapitre 1."
   },
   {
@@ -235,9 +419,19 @@
     "nature": "référence discographique",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["ennui", "jeunesse", "immobilité sociale", "punk mancunien"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique"],
+    "usage": [
+      "ennui",
+      "jeunesse",
+      "immobilité sociale",
+      "punk mancunien"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
     "arbitrage": "Référence discographique présente dans la note du chapitre 1."
   },
   {
@@ -250,9 +444,19 @@
     "nature": "référence discographique",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["critique sociale", "médicaments", "surmédication", "Manchester"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique"],
+    "usage": [
+      "critique sociale",
+      "médicaments",
+      "surmédication",
+      "Manchester"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
     "arbitrage": "Le texte intégral mentionne le titre et l’année ; la référence discographique complète reste à verrouiller."
   },
   {
@@ -265,9 +469,20 @@
     "nature": "ouvrage / essai d’histoire culturelle",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["punk", "scène mancunienne", "génération", "1976–1982"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique", "document maître"],
+    "usage": [
+      "punk",
+      "scène mancunienne",
+      "génération",
+      "1976–1982"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Référence retrouvée dans le texte intégral et le document maître ; citations et pagination à vérifier avant usage manuscrit."
   },
   {
@@ -280,9 +495,19 @@
     "nature": "article théorique",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["capital culturel", "conversion des capitaux", "sociologie de la culture"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "registre historique", "document maître"],
+    "usage": [
+      "capital culturel",
+      "conversion des capitaux",
+      "sociologie de la culture"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
     "arbitrage": "Référence canonique plus précise que la mention générale à La Distinction ; elle stabilise l’usage du concept de conversion entre capitaux."
   },
   {
@@ -295,9 +520,21 @@
     "nature": "essai historique / critique",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["post-punk", "scènes locales", "Manchester", "infrastructure culturelle", "City Fun"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique", "texte intégral"],
+    "usage": [
+      "post-punk",
+      "scènes locales",
+      "Manchester",
+      "infrastructure culturelle",
+      "City Fun"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique",
+      "texte intégral"
+    ],
     "arbitrage": "Entrée ajoutée pour éviter le trou S20 entre S19 et S21. Le document maître l’identifie comme cadre historique post-punk consolidé pour Manchester."
   },
   {
@@ -310,9 +547,20 @@
     "nature": "fanzine / source primaire périodique",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["médias alternatifs", "DIY", "politique post-punk", "Factory", "contre-culture mancunienne"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique"],
+    "usage": [
+      "médias alternatifs",
+      "DIY",
+      "politique post-punk",
+      "Factory",
+      "contre-culture mancunienne"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "Source primaire centrale mais le corpus exact consulté et les cotes d’archives doivent être verrouillés avant citation manuscrit."
   },
   {
@@ -325,9 +573,20 @@
     "nature": "article universitaire / étude média",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["City Fun", "médias", "politique", "critique de Factory", "Rochdale Alternative Press"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique"],
+    "usage": [
+      "City Fun",
+      "médias",
+      "politique",
+      "critique de Factory",
+      "Rochdale Alternative Press"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "Référence précise retrouvée dans le document maître. Elle sert à distinguer City Fun comme source primaire et Wilkinson comme appui interprétatif."
   },
   {
@@ -340,9 +599,20 @@
     "nature": "infrastructure coopérative / source institutionnelle à documenter",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["DIY", "production", "impression", "contre-culture", "City Fun"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique"],
+    "usage": [
+      "DIY",
+      "production",
+      "impression",
+      "contre-culture",
+      "City Fun"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "La référence fonctionne surtout via Wilkinson 2018 ; une source primaire ou archivistique propre à RAP reste souhaitable."
   },
   {
@@ -355,9 +625,21 @@
     "nature": "référence discographique / histoire de label indépendant",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["label indépendant", "distribution directe", "New Hormones", "DIY", "Spiral Scratch"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique", "texte intégral"],
+    "usage": [
+      "label indépendant",
+      "distribution directe",
+      "New Hormones",
+      "DIY",
+      "Spiral Scratch"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique",
+      "texte intégral"
+    ],
     "arbitrage": "Le jalon est sécurisé ; les chiffres de financement, tirage et distribution doivent être vérifiés sur source primaire ou discographique avant emploi définitif."
   },
   {
@@ -370,9 +652,21 @@
     "nature": "label / infrastructure culturelle",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["indépendance", "label", "écosystème culturel", "contrats informels", "Factory"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique", "texte intégral"],
+    "usage": [
+      "indépendance",
+      "label",
+      "écosystème culturel",
+      "contrats informels",
+      "Factory"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique",
+      "texte intégral"
+    ],
     "arbitrage": "Entrée maintenue comme nœud institutionnel. La formule « pas de contrats » doit être sourcée avec prudence, sans la réduire à la dramatisation de 24 Hour Party People."
   },
   {
@@ -385,9 +679,21 @@
     "nature": "ouvrage collectif / études culturelles",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["écoles d’art", "réseaux", "post-punk", "avant-garde", "enseignement artistique"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "document maître", "registre historique"],
+    "usage": [
+      "écoles d’art",
+      "réseaux",
+      "post-punk",
+      "avant-garde",
+      "enseignement artistique"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "Référence précise présente dans le texte intégral. L’usage doit porter sur l’accès élargi et les subventions, non sur une gratuité générale des écoles d’art."
   },
   {
@@ -400,9 +706,21 @@
     "nature": "ouvrage universitaire / sociologie des réseaux",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["réseaux", "sociologie", "formation des groupes", "micro-mobilisation", "scènes punk et post-punk"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "document maître", "registre historique"],
+    "usage": [
+      "réseaux",
+      "sociologie",
+      "formation des groupes",
+      "micro-mobilisation",
+      "scènes punk et post-punk"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "Source exacte pour objectiver les réseaux sociaux, étudiants et locaux de la scène punk / post-punk."
   },
   {
@@ -415,9 +733,21 @@
     "nature": "source primaire audiovisuelle / archive télévisuelle",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["médiatisation", "TV régionale", "Tony Wilson", "punk", "pont underground-national"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "document maître", "registre historique"],
+    "usage": [
+      "médiatisation",
+      "TV régionale",
+      "Tony Wilson",
+      "punk",
+      "pont underground-national"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "Source audiovisuelle bien identifiée, mais les segments doivent être cités précisément par épisode et date."
   },
   {
@@ -430,9 +760,20 @@
     "nature": "chapitre d’ouvrage critique / étude esthétique",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["hantologie", "paysage industriel", "esthétique", "transmutation du local en universel"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "document maître", "registre historique"],
+    "usage": [
+      "hantologie",
+      "paysage industriel",
+      "esthétique",
+      "transmutation du local en universel"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "Référence précise retrouvée dans le document maître ; utile pour attribuer strictement l’usage de la notion de « hauntology »."
   },
   {
@@ -445,9 +786,20 @@
     "nature": "ouvrage universitaire / sociologie de la musique populaire",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["musique populaire", "résistance culturelle", "rock", "subculture", "politique de la musique"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique"],
+    "usage": [
+      "musique populaire",
+      "résistance culturelle",
+      "rock",
+      "subculture",
+      "politique de la musique"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "Source canonique retenue pour la musique populaire comme vecteur de résistance culturelle ; éviter l’appel d’autorité vague à Simon Frith."
   },
   {
@@ -460,9 +812,21 @@
     "nature": "chapitre d’ouvrage critique",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["froid", "modernité", "incertitude", "anxiété", "post-situationnisme"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["texte intégral", "document maître", "registre historique"],
+    "usage": [
+      "froid",
+      "modernité",
+      "incertitude",
+      "anxiété",
+      "post-situationnisme"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "Référence identifiée mais pagination précise et formulations exactes doivent être vérifiées avant citation."
   },
   {
@@ -475,9 +839,22 @@
     "nature": "source musicale / influence artistique",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["influence électronique", "avant-garde", "mécanique", "synthétiseurs", "structure"],
-    "chapitres": ["Chapitre 1", "Chapitre 3"],
-    "source_origin": ["texte intégral", "document maître", "registre historique"],
+    "usage": [
+      "influence électronique",
+      "avant-garde",
+      "mécanique",
+      "synthétiseurs",
+      "structure"
+    ],
+    "chapitres": [
+      "Chapitre 1",
+      "Chapitre 3"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "L’influence est mobilisée dans le texte, mais l’entrée doit distinguer les œuvres citées et les témoignages qui établissent le lien avec Joy Division."
   },
   {
@@ -490,9 +867,22 @@
     "nature": "source musicale / influence artistique",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["krautrock", "expérimentation", "répétition", "rythme", "influence européenne"],
-    "chapitres": ["Chapitre 1", "Chapitre 3"],
-    "source_origin": ["texte intégral", "document maître", "registre historique"],
+    "usage": [
+      "krautrock",
+      "expérimentation",
+      "répétition",
+      "rythme",
+      "influence européenne"
+    ],
+    "chapitres": [
+      "Chapitre 1",
+      "Chapitre 3"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "Album retenu comme référence musicale précise ; il faut encore fixer les témoignages ou sources secondaires qui rattachent explicitement Can à Joy Division."
   },
   {
@@ -505,9 +895,20 @@
     "nature": "article universitaire / études urbaines et musicales",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["urbanité", "incorporation de l’espace", "Joy Division", "Manchester", "production musicale"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique"],
+    "usage": [
+      "urbanité",
+      "incorporation de l’espace",
+      "Joy Division",
+      "Manchester",
+      "production musicale"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique"
+    ],
     "arbitrage": "Référence complète validée dans le document maître ; source utile pour formaliser la thèse de la musique comme incorporation de l’espace urbain."
   },
   {
@@ -520,9 +921,21 @@
     "nature": "chapitre universitaire / études culturelles et littéraires",
     "statut": "a_consolider",
     "fiabilite": "forte",
-    "usage": ["réception critique", "méthode", "historicisme imaginatif", "anti-déterminisme", "double temporalité"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique", "texte intégral"],
+    "usage": [
+      "réception critique",
+      "méthode",
+      "historicisme imaginatif",
+      "anti-déterminisme",
+      "double temporalité"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique",
+      "texte intégral"
+    ],
     "arbitrage": "Référence universitaire clé pour éviter une lecture déterministe de Joy Division comme simple symptôme du Manchester post-industriel ; pagination exacte à verrouiller avant citation finale."
   },
   {
@@ -535,9 +948,22 @@
     "nature": "source institutionnelle contemporaine / communication design",
     "statut": "a_consolider",
     "fiabilite": "moyenne",
-    "usage": ["patrimonialisation", "design", "Unknown Pleasures", "Manchester United", "adidas", "institutionnalisation"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique", "texte intégral"],
+    "usage": [
+      "patrimonialisation",
+      "design",
+      "Unknown Pleasures",
+      "Manchester United",
+      "adidas",
+      "institutionnalisation"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique",
+      "texte intégral"
+    ],
     "arbitrage": "Exemple contemporain d’institutionnalisation de l’esthétique Factory / Joy Division ; à dater avec précision et à traiter descriptivement, sans reprendre la rhétorique promotionnelle."
   },
   {
@@ -550,9 +976,21 @@
     "nature": "ouvrage théorique / sociologie",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["modernité liquide", "liquidité", "dissolution des liens sociaux", "mobilité", "fragilité des structures"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique", "texte intégral"],
+    "usage": [
+      "modernité liquide",
+      "liquidité",
+      "dissolution des liens sociaux",
+      "mobilité",
+      "fragilité des structures"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique",
+      "texte intégral"
+    ],
     "arbitrage": "Source théorique retenue comme cadre conclusif pour relier l’héritage Joy Division à la dissolution contemporaine des liens stables."
   },
   {
@@ -565,9 +1003,21 @@
     "nature": "essai philosophico-esthétique",
     "statut": "verifie",
     "fiabilite": "forte",
-    "usage": ["nostalgie du futur", "temps", "futur perdu", "temporalité suspendue", "hantologie"],
-    "chapitres": ["Chapitre 1"],
-    "source_origin": ["document maître", "registre historique", "texte intégral"],
+    "usage": [
+      "nostalgie du futur",
+      "temps",
+      "futur perdu",
+      "temporalité suspendue",
+      "hantologie"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "document maître",
+      "registre historique",
+      "texte intégral"
+    ],
     "arbitrage": "Référence retenue pour la formule de la « nostalgie du futur » et la lecture du temps post-industriel ; pagination stabilisée dans le document maître autour de p. 232 et suivantes."
   },
   {

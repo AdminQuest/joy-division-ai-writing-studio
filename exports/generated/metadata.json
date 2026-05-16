@@ -309,7 +309,57 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1740",
+    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1492",
+    "file": "sources/sueur_villes_du_futur/source.md",
+    "heading": "S02 — Sueur, *Villes du futur, futur des villes*, 2011",
+    "data": {
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "annee": "2011",
+      "nature": "rapport parlementaire / rapport de prospective urbaine",
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "source_drive": "https://drive.google.com/file/d/1BlGevF3K8gIg5ZsQXzEYCSi1KwuGbxP8/view?usp=drive_link",
+      "fichier_source_original": "r10-594-21.pdf",
+      "fichier_source_recommande": "S02_sueur_villes_du_futur_tome_2_analyses_2011.pdf",
+      "section_utile": "« Manchester : shrinking city et renouveau urbain »",
+      "pages_utiles": "p. 303-316 du rapport",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 2",
+        "Chapitre 12"
+      ],
+      "niveau_preuve": "source secondaire institutionnelle",
+      "source_short_title": "Jean-Pierre Sueur / Sénat, Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses, 2011",
+      "source_year": "2011"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1493",
+    "file": "sources/sueur_villes_du_futur/source.md",
+    "heading": "Règle d’usage",
+    "data": {
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "preuve": "source secondaire institutionnelle",
+      "usage": "cadre urbain, désindustrialisation, shrinking city, régénération, image de Manchester",
+      "prudence": "ne pas utiliser comme source primaire sur Joy Division ; croiser les données chiffrées avec sources urbaines spécialisées",
+      "source_short_title": "Jean-Pierre Sueur / Sénat, Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses, 2011",
+      "source_year": "2011"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/suatoni/README.md::1742",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -326,7 +376,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1741",
+    "id": "NO_ID::sources/suatoni/README.md::1743",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -364,7 +414,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1742",
+    "id": "NO_ID::sources/suatoni/README.md::1744",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -384,7 +434,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1797",
+    "id": "NO_ID::sources/greig_strong/README.md::1799",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -401,7 +451,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1798",
+    "id": "NO_ID::sources/greig_strong/README.md::1800",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -434,7 +484,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1799",
+    "id": "NO_ID::sources/greig_strong/README.md::1801",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -445,6 +495,22 @@
         "Chapitre 12",
         "Chapitre 14"
       ]
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::2467",
+    "file": "registers/references/s02_sueur_source_canonique.md",
+    "heading": "Consignes pour les futurs atomes",
+    "data": {
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "preuve": "source secondaire institutionnelle",
+      "usage": "cadre urbain, désindustrialisation, shrinking city, régénération, image de Manchester",
+      "prudence": "ne pas utiliser comme source primaire sur Joy Division ; croiser les données chiffrées avec sources urbaines spécialisées",
+      "source_short_title": "Jean-Pierre Sueur / Sénat, Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses, 2011",
+      "source_year": "2011"
     }
   }
 ]

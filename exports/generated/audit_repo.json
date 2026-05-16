@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T05:03:11",
+  "generated_at": "2026-05-16T06:01:53",
   "summary": {
-    "records_total": 3425,
+    "records_total": 3429,
     "records_by_kind": {
       "atom": 1641,
       "quote": 353,
       "chronology": 335,
-      "metadata": 18,
+      "metadata": 21,
       "source": 56,
-      "unknown": 125,
+      "unknown": 126,
       "song": 41,
       "template": 263,
       "quote_batch": 1,
@@ -18,13 +18,13 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16710,
+    "diagnostics_total": 16711,
     "errors": 0,
-    "warnings": 16710,
+    "warnings": 16711,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 12,
-    "sources_exported": 12,
-    "declared_but_unused": 39,
+    "sources_used_in_records": 13,
+    "sources_exported": 13,
+    "declared_but_unused": 38,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -32,7 +32,7 @@
     "atom": 1641,
     "chronology": 335,
     "concept": 170,
-    "metadata": 18,
+    "metadata": 21,
     "motif": 253,
     "myth": 11,
     "person": 157,
@@ -42,9 +42,13 @@
     "song": 41,
     "source": 56,
     "template": 263,
-    "unknown": 125
+    "unknown": 126
   },
   "records_by_source": {
+    "S02": {
+      "metadata": 3,
+      "unknown": 1
+    },
     "S41": {
       "atom": 430,
       "quote": 9,
@@ -126,12 +130,12 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 121,
+    "Chapitre 1": 123,
     "Chapitre 10": 233,
     "Chapitre 11": 213,
     "Chapitre 12": 463,
     "Chapitre 13": 109,
-    "Chapitre 14": 969,
+    "Chapitre 14": 971,
     "Chapitre 2": 345,
     "Chapitre 3": 382,
     "Chapitre 4": 294,
@@ -139,7 +143,7 @@
     "Chapitre 6": 563,
     "Chapitre 7": 101,
     "Chapitre 8": 311,
-    "Chapitre 9": 203,
+    "Chapitre 9": 205,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -271,7 +275,7 @@
     "invalid_controlled_value": 1364,
     "missing_required_field": 4807,
     "schema_warning": 399,
-    "unknown_yaml_block": 125,
+    "unknown_yaml_block": 126,
     "v2_migration_debt": 9880
   },
   "top_files_by_issue_count": [
@@ -1361,6 +1365,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s02_sueur_source_canonique.md",
+      "record_id": "REG-S02-SUEUR-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
       "record_id": "MOTIFS-S69-NOSTALGIE-MEMOIRE-V2",
       "message": "Unable to infer documentary kind",
@@ -1419,20 +1431,6 @@
           "East Manchester",
           "base économique",
           "contexte socio-économique"
-        ]
-      },
-      {
-        "source_id": "S02",
-        "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
-        "auteur": "Jean-Pierre Sueur / Sénat",
-        "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
-        "annee": "2011",
-        "statut": "verifie",
-        "usage": [
-          "shrinking city",
-          "déclin démographique",
-          "emploi",
-          "Manchester / Greater Manchester"
         ]
       },
       {
@@ -1971,6 +1969,21 @@
     "used_but_missing_from_registre_json": [],
     "weak_source_labels": [],
     "exported_sources": [
+      {
+        "source_id": "S02",
+        "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+        "auteur": "Jean-Pierre Sueur / Sénat",
+        "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+        "annee": "2011",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s02_sueur_source_canonique.md",
+          "sources/sueur_villes_du_futur/source.md"
+        ]
+      },
       {
         "source_id": "S41",
         "source_label": "S41 — Hook, Unknown Pleasures, 2012",
@@ -134204,6 +134217,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
       "record_id": "REL-RAG-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s02_sueur_source_canonique.md",
+      "record_id": "REG-S02-SUEUR-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

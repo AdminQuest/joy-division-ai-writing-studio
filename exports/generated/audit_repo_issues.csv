@@ -16480,6 +16480,7 @@ warning,missing_required_field,registers/quotes/s45_curtis_quotes_1977_1978_an_i
 warning,missing_required_field,registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md,S45-Q027,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md,S45-Q027,Missing required field: statut_verification,Compléter le champ obligatoire.
 warning,unknown_yaml_block,registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md,REL-RAG-S69-NOSTALGIE-MEMOIRE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/references/s02_sueur_source_canonique.md,REG-S02-SUEUR-SOURCE-CANONIQUE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md,MOTIFS-S69-NOSTALGIE-MEMOIRE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,registers/people/s45_curtis_people_vote_conservateur.md,PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR,Missing required field: name,Compléter le champ obligatoire.
 warning,missing_required_field,registers/people/s45_curtis_people_vote_conservateur.md,PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR,Missing required field: role,Compléter le champ obligatoire.
