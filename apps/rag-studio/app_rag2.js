@@ -6,13 +6,13 @@ const RAG2_STOPWORDS = new Set([
 
 const SOURCE_ALIASES = {
   'S-BROLL-JOY-001': 'S68',
-  'S20': 'S72',
   'S35': 'S41',
   'S37': 'S45',
   'S41-HIST': 'S73'
 };
 
 const FALLBACK_SOURCES = {
+  S20: 'S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d.',
   S41: 'S41 — Hook, Unknown Pleasures, 2012',
   S45: 'S45 — Curtis, Touching from a Distance, 1995',
   S46: 'S46 — Johnson, An Ideal for Living, 1984',
