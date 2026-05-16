@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-16T09:12:23",
+  "generated_at": "2026-05-16T09:25:44",
   "status": "warning",
   "summary": {
-    "records_total": 3640,
+    "records_total": 3666,
     "records_by_kind": {
-      "atom": 1734,
+      "atom": 1743,
       "metadata": 36,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 177,
-      "template": 317,
+      "unknown": 185,
+      "template": 326,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
@@ -19,9 +19,9 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 17824,
+    "diagnostics_total": 17951,
     "errors": 0,
-    "warnings": 17824,
+    "warnings": 17951,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 18,
     "sources_exported": 18,
@@ -620,13 +620,22 @@
         "auteur": "The Times ; Nicholas Wood ; Thomson Prentice ; auteurs multiples",
         "titre": "Bundle of press articles re AIDS",
         "annee": "1986",
-        "records": 4,
-        "atoms": 0,
+        "records": 21,
+        "atoms": 9,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/chronology/s12_press_aids_anderton_chronology_moral_order_v2.md",
+          "registers/concepts/s12_press_aids_anderton_concepts_moral_order_v2.md",
+          "registers/motifs/s12_press_aids_anderton_motifs_moral_order_v2.md",
+          "registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md",
+          "registers/organizations/s12_press_aids_anderton_organizations_moral_order_v2.md",
+          "registers/people/s12_press_aids_anderton_people_moral_order_v2.md",
+          "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
+          "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
           "registers/references/s12_press_aids_anderton_source_canonique.md",
-          "sources/press_aids_anderton_1986/source.md"
+          "sources/press_aids_anderton_1986/source.md",
+          "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md"
         ]
       },
       {
@@ -75863,6 +75872,720 @@
     },
     {
       "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for statut: integration_directe",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for fiabilite: forte pour l’existence des discours publics ; à croiser pour les citations exactes",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for type_unite: contexte_discursif",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "record_id": "S12-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for type_unite: acteur_institutionnel",
+      "record_id": "S12-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for type_unite: reaction_politique",
+      "record_id": "S12-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for type_unite: conflit_institutionnel",
+      "record_id": "S12-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for type_unite: discours_religieux",
+      "record_id": "S12-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for type_unite: motif_discursif",
+      "record_id": "S12-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S12-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S12-A008"
+    },
+    {
+      "level": "warning",
       "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
       "message": "Missing required field: concepts",
       "record_id": "S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2"
@@ -90695,6 +91418,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/organizations/s12_press_aids_anderton_organizations_moral_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORGS-S12-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "ORGS-S02-MANCHESTER-SHRINKING-CITY-V2"
@@ -102011,6 +102740,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "QUOTES-S12-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S76-Q087"
@@ -106337,6 +107072,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-RAG-S12-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-RAG-S69-NOSTALGIE-MEMOIRE-V2"
@@ -106445,6 +107186,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/motifs/s12_press_aids_anderton_motifs_moral_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MOTIFS-S12-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MOTIFS-S20-HOUSING-GEOGRAPHIES-V2"
@@ -106538,6 +107285,12 @@
       "file": "registers/people/s06_carter_people_hulme_lived_discursive_space_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "PEOPLE-S06-HULME-LIVED-DISCURSIVE-SPACE-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s12_press_aids_anderton_people_moral_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PEOPLE-S12-AIDS-ANDERTON-MORAL-ORDER-V2"
     },
     {
       "level": "warning",
@@ -107051,6 +107804,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/concepts/s12_press_aids_anderton_concepts_moral_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CONCEPTS-S12-AIDS-ANDERTON-MORAL-ORDER-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/concepts/s06_carter_concepts_hulme_lived_discursive_space_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "CONCEPTS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2"
@@ -107108,6 +107867,12 @@
       "file": "registers/myths/s10_sumner_myths_salford_formation_sound_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MYTHS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MYTHS-S12-AIDS-ANDERTON-MORAL-ORDER-V2"
     },
     {
       "level": "warning",
@@ -107570,6 +108335,12 @@
       "file": "registers/chronology/s10_sumner_chronology_salford_formation_sound_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "CHRONO-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s12_press_aids_anderton_chronology_moral_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRONO-S12-AIDS-ANDERTON-MORAL-ORDER-V2"
     },
     {
       "level": "warning",

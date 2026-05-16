@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T09:04:43"
+generated_at: "2026-05-16T09:25:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 780 |
+| Atomes | 782 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 17 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 1 | 0 |
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 2 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
+| S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 2 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
@@ -159,6 +160,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `reception_memoire` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2** — S10 — Passe v2 bis — Joy Division tardif, transition et mémoire selon Sumner  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S12-A005** — S12-A005 — Cardinal Hume : « moral Chernobyl » et discours religieux sur sexualité / prévention  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `discours_religieux` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A006** — S12-A006 — Langage de la dégénérescence : homosexualité, drogue, prostitution et ordre moral  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
 - **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -283,10 +288,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_visuelle` ; importance : `critique` ; preuve : `témoignage direct + archive photographique vérifiable`.
 - **S41-A159** — S41-A159 — Première Peel Session : BBC, hands-on et professionnalisation radiophonique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session BBC établie + témoignage direct`.
-- **S41-A162** — S41-A162 — « Transmission » / FAC 13 : Central Sound, Strawberry et single autonome  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_single` ; importance : `critique` ; preuve : `chronologie discographique`.
-- **S41-A163** — S41-A163 — YMCA / Nashville / Leigh : montée live, images heureuses et « Atmosphere » avant funérailles  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique + commentaire Hook`.
 
 ## 7. Citations disponibles
 
@@ -756,6 +757,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert_archive | 2 |
 | source_part | 2 |
 | politique_urbaine | 2 |
+| motif_discursif | 2 |
 | marketing | 2 |
 | album | 2 |
 | reception_starification | 1 |
@@ -1006,7 +1008,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | transition_vocale | 1 |
 | transition_album | 1 |
 | reception_memoire | 1 |
-| motif_discursif | 1 |
+| discours_religieux | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -1037,7 +1039,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 494 |
+| non qualifiée | 496 |
 | critique | 218 |
 | majeure | 39 |
 | majeur | 25 |

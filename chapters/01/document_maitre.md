@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T09:04:43"
+generated_at: "2026-05-16T09:25:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T09:04:43"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 113 |
+| Atomes | 122 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ generated_at: "2026-05-16T09:04:43"
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 13 | 0 |
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 9 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
+| S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 9 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
@@ -163,6 +164,24 @@ generated_at: "2026-05-16T09:04:43"
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S12-A001** — S12-A001 — Décembre 1986 : sida, morale publique et controverse nationale  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `contexte_discursif` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A002** — S12-A002 — James Anderton : sida, « self-inflicted wound » et moralisation policière  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `acteur_institutionnel` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A003** — S12-A003 — Gouvernement Thatcher : pragmatisme sanitaire contre croisade morale  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `reaction_politique` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A004** — S12-A004 — Greater Manchester Police Authority : menace de censure et conflit d’accountability  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `conflit_institutionnel` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A005** — S12-A005 — Cardinal Hume : « moral Chernobyl » et discours religieux sur sexualité / prévention  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `discours_religieux` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A006** — S12-A006 — Langage de la dégénérescence : homosexualité, drogue, prostitution et ordre moral  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A007** — S12-A007 — Anderton au croisement de police, morale, religion et santé publique  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A008** — S12-A008 — S12 comme source de presse à croiser avec S05  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2** — S12 — Passe v2 — AIDS, Anderton, morale publique et ordre social  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte pour l’existence des discours publics ; à croiser pour les citations exactes`.
 - **S20-A001** — S20-A001 — Manchester industriel et logement ouvrier : absence de plan et logique du profit  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
@@ -233,24 +252,6 @@ generated_at: "2026-05-16T09:04:43"
   Source : S47 — West, Joy Division, 1984 ; type : `biographie_collective` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S47-047** — S47-047 — Ian Wood : Joy Division comme abstraction grise du malaise urbain  
   Source : S47 — West, Joy Division, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-161** — S47-161 — Macclesfield comme origine biographique de Curtis et Morris  
-  Source : S47 — West, Joy Division, 1984 ; type : `lieu_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-162** — S47-162 — Manchester comme scène d’apprentissage collectif  
-  Source : S47 — West, Joy Division, 1984 ; type : `lieu_scene` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-187** — S47-187 — Citation critique : Ian Wood et « deadly accurate »  
-  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A008** — S70-A008 — Manchester comme scène locale foisonnante  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S71-A003** — S71-A003 — Manchester : déclin industriel et enfance de Hook et Sumner  
-  Source : S71 — Flowers, Dreams Never End, 1995/2012 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S72-A001** — S72-A001 — Le projet du livre : post-punk comme âge de l’expérimentation  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `methode` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A002** — S72-A002 — Post-punk : poursuivre la révolution inachevée de punk  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A003** — S72-A003 — Modernisme, art schools et design graphique  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A007** — S72-A007 — DIY et infrastructure indépendante  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -287,12 +288,15 @@ generated_at: "2026-05-16T09:04:43"
 - diy (4)
 - Ian Curtis (4)
 - Hulme (4)
+- James Anderton (3)
 - Ian Wood (3)
 - NME (3)
 - Macclesfield (3)
 - classe ouvriere (3)
 - slum clearance (3)
 - biographie contre mythe social (2)
+- ordre social local (2)
+- accountability (2)
 - Tactical Aid Group (2)
 - police-community relations (2)
 - Manchester post-industriel (2)
@@ -328,6 +332,10 @@ generated_at: "2026-05-16T09:04:43"
 - paysage industriel (2)
 - relogement (2)
 - Ordsall (2)
+- sida (2)
+- ordre moral (2)
+- santé publique (2)
+- prévention (2)
 - oral history (2)
 - post-war inner city (2)
 - ville télévisuelle (1)
@@ -343,7 +351,6 @@ generated_at: "2026-05-16T09:04:43"
 - seuil de preuve politique (1)
 - distinction anecdote / position idéologique (1)
 - formulation contrôlée (1)
-- ordre social local (1)
 - police (1)
 - maintien de l’ordre (1)
 - fabrication de l’ordre social (1)
@@ -351,14 +358,8 @@ generated_at: "2026-05-16T09:04:43"
 - recomposition institutionnelle (1)
 - crise urbaine (1)
 - années 1970 (1)
-- James Anderton (1)
 - conservatisme moral (1)
-- accountability (1)
 - policing politique (1)
-- maintien de l’ordre public (1)
-- paramilitarisation (1)
-- police centralisée (1)
-- National Front (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -473,13 +474,13 @@ generated_at: "2026-05-16T09:04:43"
 
 | Type | Nombre |
 |---|---|
-| concept_structurant | 8 |
+| concept_structurant | 9 |
+| source_part | 6 |
 | sociologie | 6 |
 | contexte_social | 6 |
-| source_part | 5 |
+| prudence_methodologique | 5 |
 | evenement_politique | 5 |
 | analyse | 5 |
-| prudence_methodologique | 4 |
 | contexte | 4 |
 | biographie | 4 |
 | methode | 3 |
@@ -489,15 +490,16 @@ generated_at: "2026-05-16T09:04:43"
 | politique_urbaine | 3 |
 | concept | 3 |
 | tension_documentaire | 2 |
+| acteur_institutionnel | 2 |
 | conclusion_historiographique | 2 |
 | chronologie | 2 |
 | lieu | 2 |
 | urbanisme | 2 |
 | scene_fondatrice | 2 |
+| motif_discursif | 2 |
 | mediation_visuelle | 1 |
 | contexte_scene | 1 |
 | contexte_institutionnel | 1 |
-| acteur_institutionnel | 1 |
 | institution_policiere | 1 |
 | contexte_politique | 1 |
 | infrastructure | 1 |
@@ -524,8 +526,11 @@ generated_at: "2026-05-16T09:04:43"
 | culture_urbaine | 1 |
 | paysage_urbain | 1 |
 | urbanisme_vécu | 1 |
+| contexte_discursif | 1 |
+| reaction_politique | 1 |
+| conflit_institutionnel | 1 |
+| discours_religieux | 1 |
 | evenement_urbain | 1 |
-| motif_discursif | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
@@ -535,7 +540,7 @@ generated_at: "2026-05-16T09:04:43"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 93 |
+| non qualifiée | 102 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

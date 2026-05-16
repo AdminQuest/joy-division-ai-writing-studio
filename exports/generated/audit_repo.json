@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T09:12:34",
+  "generated_at": "2026-05-16T09:25:55",
   "summary": {
-    "records_total": 3640,
+    "records_total": 3666,
     "records_by_kind": {
-      "atom": 1734,
+      "atom": 1743,
       "metadata": 36,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 177,
-      "template": 317,
+      "unknown": 185,
+      "template": 326,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
@@ -18,9 +18,9 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 17824,
+    "diagnostics_total": 17951,
     "errors": 0,
-    "warnings": 17824,
+    "warnings": 17951,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 18,
     "sources_exported": 18,
@@ -29,7 +29,7 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1734,
+    "atom": 1743,
     "chronology": 335,
     "concept": 170,
     "metadata": 36,
@@ -41,8 +41,8 @@
     "rules": 1,
     "song": 41,
     "source": 54,
-    "template": 317,
-    "unknown": 177
+    "template": 326,
+    "unknown": 185
   },
   "records_by_source": {
     "S02": {
@@ -67,7 +67,8 @@
     },
     "S12": {
       "metadata": 3,
-      "unknown": 1
+      "atom": 9,
+      "unknown": 9
     },
     "S20": {
       "atom": 15,
@@ -155,12 +156,12 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 185,
+    "Chapitre 1": 195,
     "Chapitre 10": 247,
     "Chapitre 11": 213,
     "Chapitre 12": 469,
     "Chapitre 13": 109,
-    "Chapitre 14": 992,
+    "Chapitre 14": 994,
     "Chapitre 2": 361,
     "Chapitre 3": 399,
     "Chapitre 4": 309,
@@ -168,7 +169,7 @@
     "Chapitre 6": 569,
     "Chapitre 7": 106,
     "Chapitre 8": 316,
-    "Chapitre 9": 262,
+    "Chapitre 9": 268,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -296,12 +297,12 @@
     ]
   ],
   "issue_categories": {
-    "field_type_error": 148,
-    "invalid_controlled_value": 1502,
-    "missing_required_field": 4894,
+    "field_type_error": 149,
+    "invalid_controlled_value": 1521,
+    "missing_required_field": 4913,
     "schema_warning": 399,
-    "unknown_yaml_block": 177,
-    "v2_migration_debt": 10704
+    "unknown_yaml_block": 185,
+    "v2_migration_debt": 10784
   },
   "top_files_by_issue_count": [
     [
@@ -448,6 +449,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/organizations/s20_dodge_organizations_housing_geographies_v2.md",
       "record_id": "ORGS-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/organizations/s12_press_aids_anderton_organizations_moral_order_v2.md",
+      "record_id": "ORGS-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1430,8 +1439,24 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
+      "record_id": "QUOTES-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s06_carter_hulme_source_canonique.md",
       "record_id": "REG-S06-CARTER-HULME-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
+      "record_id": "REL-RAG-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1582,6 +1607,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/motifs/s12_press_aids_anderton_motifs_moral_order_v2.md",
+      "record_id": "MOTIFS-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
       "record_id": "MOTIFS-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
@@ -1662,6 +1695,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/people/s12_press_aids_anderton_people_moral_order_v2.md",
+      "record_id": "PEOPLE-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/people/s69_greig_strong_people_nostalgie_memoire_v2.md",
       "record_id": "PEOPLE-S69-NOSTALGIE-MEMOIRE-V2",
       "message": "Unable to infer documentary kind",
@@ -1688,6 +1729,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/concepts/s10_sumner_concepts_salford_formation_sound_v2.md",
       "record_id": "CONCEPTS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/concepts/s12_press_aids_anderton_concepts_moral_order_v2.md",
+      "record_id": "CONCEPTS-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1774,6 +1823,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md",
+      "record_id": "MYTHS-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md",
       "record_id": "MYTHES-S69-NOSTALGIE-MEMOIRE-V2",
       "message": "Unable to infer documentary kind",
@@ -1842,13 +1899,21 @@
       "record_id": "CHRONO-S10-SUMNER-SALFORD-FORMATION-SOUND-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/chronology/s12_press_aids_anderton_chronology_moral_order_v2.md",
+      "record_id": "CHRONO-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     }
   ],
   "v2_migration": {
-    "atoms_total": 1734,
+    "atoms_total": 1743,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1673,
-    "v2_missing_field_warnings": 10704
+    "atoms_v2_incomplete": 1682,
+    "v2_missing_field_warnings": 10784
   },
   "source_registry": {
     "declared_but_unused": [
@@ -2441,13 +2506,22 @@
         "auteur": "The Times ; Nicholas Wood ; Thomson Prentice ; auteurs multiples",
         "titre": "Bundle of press articles re AIDS",
         "annee": "1986",
-        "records": 4,
-        "atoms": 0,
+        "records": 21,
+        "atoms": 9,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/chronology/s12_press_aids_anderton_chronology_moral_order_v2.md",
+          "registers/concepts/s12_press_aids_anderton_concepts_moral_order_v2.md",
+          "registers/motifs/s12_press_aids_anderton_motifs_moral_order_v2.md",
+          "registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md",
+          "registers/organizations/s12_press_aids_anderton_organizations_moral_order_v2.md",
+          "registers/people/s12_press_aids_anderton_people_moral_order_v2.md",
+          "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
+          "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
           "registers/references/s12_press_aids_anderton_source_canonique.md",
-          "sources/press_aids_anderton_1986/source.md"
+          "sources/press_aids_anderton_1986/source.md",
+          "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md"
         ]
       },
       {
@@ -102625,6 +102699,958 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Invalid value for statut: integration_directe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Invalid value for fiabilite: forte pour l’existence des discours publics ; à croiser pour les citations exactes",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Invalid value for type_unite: contexte_discursif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A001",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A002",
+      "message": "Invalid value for type_unite: acteur_institutionnel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A003",
+      "message": "Invalid value for type_unite: reaction_politique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A004",
+      "message": "Invalid value for type_unite: conflit_institutionnel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A005",
+      "message": "Invalid value for type_unite: discours_religieux",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A006",
+      "message": "Invalid value for type_unite: motif_discursif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A007",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Invalid value for fiabilite: source_primaire_journalistique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/press_aids_anderton_1986/source_part_aids_anderton_moral_order_v2.md",
+      "record_id": "S12-A008",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
       "record_id": "S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2",
       "message": "Missing required field: concepts",
@@ -122401,6 +123427,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/organizations/s12_press_aids_anderton_organizations_moral_order_v2.md",
+      "record_id": "ORGS-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md",
       "record_id": "ORGS-S02-MANCHESTER-SHRINKING-CITY-V2",
       "message": "Unable to infer documentary kind",
@@ -137488,6 +138522,14 @@
     },
     {
       "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
+      "record_id": "QUOTES-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "missing_required_field",
       "file": "registers/quotes/s76_torn_apart_quotes_part_09.md",
       "record_id": "S76-Q087",
@@ -143257,6 +144299,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md",
+      "record_id": "REL-RAG-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
       "record_id": "REL-RAG-S69-NOSTALGIE-MEMOIRE-V2",
       "message": "Unable to infer documentary kind",
@@ -143401,6 +144451,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/motifs/s12_press_aids_anderton_motifs_moral_order_v2.md",
+      "record_id": "MOTIFS-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
       "record_id": "MOTIFS-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
@@ -143523,6 +144581,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/people/s06_carter_people_hulme_lived_discursive_space_v2.md",
       "record_id": "PEOPLE-S06-HULME-LIVED-DISCURSIVE-SPACE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/people/s12_press_aids_anderton_people_moral_order_v2.md",
+      "record_id": "PEOPLE-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -144209,6 +145275,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/concepts/s12_press_aids_anderton_concepts_moral_order_v2.md",
+      "record_id": "CONCEPTS-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/concepts/s06_carter_concepts_hulme_lived_discursive_space_v2.md",
       "record_id": "CONCEPTS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2",
       "message": "Unable to infer documentary kind",
@@ -144283,6 +145357,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/myths/s10_sumner_myths_salford_formation_sound_v2.md",
       "record_id": "MYTHS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s12_press_aids_anderton_myths_moral_order_v2.md",
+      "record_id": "MYTHS-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -144899,6 +145981,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/chronology/s10_sumner_chronology_salford_formation_sound_v2.md",
       "record_id": "CHRONO-S10-SUMNER-SALFORD-FORMATION-SOUND-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/chronology/s12_press_aids_anderton_chronology_moral_order_v2.md",
+      "record_id": "CHRONO-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

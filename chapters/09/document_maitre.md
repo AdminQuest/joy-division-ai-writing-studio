@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T09:04:43"
+generated_at: "2026-05-16T09:25:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T09:04:43"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 217 |
+| Atomes | 223 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ generated_at: "2026-05-16T09:04:43"
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 6 | 0 |
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 13 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
+| S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 6 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
@@ -125,6 +126,18 @@ generated_at: "2026-05-16T09:04:43"
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `media_scene` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S12-A001** — S12-A001 — Décembre 1986 : sida, morale publique et controverse nationale  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `contexte_discursif` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A003** — S12-A003 — Gouvernement Thatcher : pragmatisme sanitaire contre croisade morale  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `reaction_politique` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A004** — S12-A004 — Greater Manchester Police Authority : menace de censure et conflit d’accountability  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `conflit_institutionnel` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A006** — S12-A006 — Langage de la dégénérescence : homosexualité, drogue, prostitution et ordre moral  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A007** — S12-A007 — Anderton au croisement de police, morale, religion et santé publique  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S12-A008** — S12-A008 — S12 comme source de presse à croiser avec S05  
+  Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
 - **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `lieu_memoire_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A004** — S20-A004 — Cartographier les problèmes de logement : Bastow, Marr et la géographie sanitaire  
@@ -205,18 +218,6 @@ generated_at: "2026-05-16T09:04:43"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-078** — S41-078 — Éjection de la tournée et confrontation avec Chelsea  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-079** — S41-079 — Hope & Anchor : premier concert londonien décevant  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-081** — S41-081 — Timeline 1978 : ossature factuelle de la métamorphose  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-082** — S41-082 — Le dilemme Genetic / Factory  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_strategique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-088** — S41-088 — L’anecdote des autoradios : persistance du registre scally  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `anecdote_significative` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-102** — S41-102 — La scène comme aggravateur physique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-104** — S41-104 — Live : le décalage entre puissance scénique et image studio  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -349,8 +350,8 @@ generated_at: "2026-05-16T09:04:43"
 | fait | 10 |
 | reception | 9 |
 | chronologie | 9 |
+| concept_structurant | 8 |
 | sociologie | 8 |
-| concept_structurant | 7 |
 | concert | 7 |
 | evenement | 6 |
 | interpretation | 6 |
@@ -362,6 +363,7 @@ generated_at: "2026-05-16T09:04:43"
 | reception_live | 4 |
 | source_part | 4 |
 | politique_urbaine | 4 |
+| prudence_methodologique | 4 |
 | anecdote_significative | 4 |
 | evenement_politique | 3 |
 | conclusion_historiographique | 3 |
@@ -371,7 +373,7 @@ generated_at: "2026-05-16T09:04:43"
 | industrie_musicale | 3 |
 | evenement_live | 3 |
 | evenement_urbain | 3 |
-| prudence_methodologique | 3 |
+| motif_discursif | 3 |
 | temoignage_analyse | 3 |
 | fait_sensible | 3 |
 | methode | 2 |
@@ -382,7 +384,6 @@ generated_at: "2026-05-16T09:04:43"
 | archive | 2 |
 | urbanisme | 2 |
 | scene_fondatrice | 2 |
-| motif_discursif | 2 |
 | contexte | 2 |
 | chronologie_live | 2 |
 | concept_transversal | 2 |
@@ -435,6 +436,9 @@ generated_at: "2026-05-16T09:04:43"
 | limite_interpretative | 1 |
 | urbanisme_vécu | 1 |
 | media_scene | 1 |
+| contexte_discursif | 1 |
+| reaction_politique | 1 |
+| conflit_institutionnel | 1 |
 | contexte_materiel | 1 |
 | témoignage_externe | 1 |
 | decision_strategique | 1 |
@@ -449,7 +453,7 @@ generated_at: "2026-05-16T09:04:43"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 216 |
+| non qualifiée | 222 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
