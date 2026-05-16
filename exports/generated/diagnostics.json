@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T06:13:34",
+  "generated_at": "2026-05-16T06:29:08",
   "status": "warning",
   "summary": {
-    "records_total": 3455,
+    "records_total": 3459,
     "records_by_kind": {
       "atom": 1652,
       "quote": 353,
       "chronology": 335,
-      "metadata": 21,
+      "metadata": 24,
       "source": 56,
-      "unknown": 133,
+      "unknown": 134,
       "template": 271,
       "song": 41,
       "quote_batch": 1,
@@ -19,13 +19,13 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16830,
+    "diagnostics_total": 16831,
     "errors": 0,
-    "warnings": 16830,
+    "warnings": 16831,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 13,
-    "sources_exported": 13,
-    "declared_but_unused": 38,
+    "sources_used_in_records": 14,
+    "sources_exported": 14,
+    "declared_but_unused": 37,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -281,21 +281,6 @@
           "capital culturel",
           "conversion des capitaux",
           "sociologie de la culture"
-        ]
-      },
-      {
-        "source_id": "S20",
-        "source_label": "S20 — Reynolds, Rip It Up and Start Again, 2005/2006",
-        "auteur": "Simon Reynolds",
-        "titre": "Rip It Up and Start Again: Postpunk 1978–1984",
-        "annee": "2005/2006",
-        "statut": "verifie",
-        "usage": [
-          "post-punk",
-          "scènes locales",
-          "Manchester",
-          "infrastructure culturelle",
-          "City Fun"
         ]
       },
       {
@@ -602,6 +587,21 @@
           "registers/references/s02_sueur_source_canonique.md",
           "sources/sueur_villes_du_futur/source.md",
           "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md"
+        ]
+      },
+      {
+        "source_id": "S20",
+        "source_label": "S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d.",
+        "auteur": "Martin Dodge",
+        "titre": "Mapping the geographies of Manchester’s housing problems and the twentieth century solutions",
+        "annee": "s.d.",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s20_dodge_source_canonique.md",
+          "sources/dodge_manchester_geographies/source.md"
         ]
       },
       {
@@ -100555,6 +100555,12 @@
       "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-RAG-S69-NOSTALGIE-MEMOIRE-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s20_dodge_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S20-DODGE-SOURCE-CANONIQUE"
     },
     {
       "level": "warning",
