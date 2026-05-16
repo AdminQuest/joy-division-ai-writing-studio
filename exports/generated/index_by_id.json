@@ -113528,29 +113528,52 @@
     "kind": "source",
     "id": "S20",
     "file": "registers/references/master_references.md",
-    "heading": "S20 — Reynolds, cadre historique post-punk, migré vers S72",
+    "heading": "S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d.",
     "data": {
       "id": "S20",
-      "canonical_id": "S72",
-      "source_label": "S20 — Reynolds, cadre historique post-punk, s.d.",
-      "auteur": "Simon Reynolds",
-      "titre": "Cadre historique post-punk",
+      "source_label": "S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d.",
+      "auteur": "Martin Dodge",
+      "titre": "Mapping the geographies of Manchester’s housing problems and the twentieth century solutions",
       "annee": "s.d.",
-      "reference_complete": "Voir S72 — Reynolds, Rip It Up and Start Again, 2005/2006.",
-      "nature": "legacy_reference",
-      "statut": "migree",
-      "fiabilite": "forte",
+      "reference_complete": "DODGE, Martin, « Mapping the geographies of Manchester’s housing problems and the twentieth century solutions », Manchester Geographies, chapitre 3, p. 19-36, année et édition à confirmer.",
+      "nature": "chapitre d’ouvrage / géographie historique urbaine",
+      "statut": "a_consolider",
+      "fiabilite": "forte pour le contenu ; référence bibliographique à compléter",
       "usage": [
-        "post-punk",
-        "scène"
+        "Manchester industriel",
+        "logement ouvrier",
+        "taudis victoriens",
+        "Little Ireland",
+        "Angel Meadow",
+        "Victoria Park",
+        "cartographie sanitaire",
+        "Thomas Marr",
+        "ceinture de taudis",
+        "Chorltonville",
+        "Wythenshawe",
+        "Hulme",
+        "Hattersley",
+        "Beswick",
+        "Fort Beswick",
+        "streets-in-the-sky",
+        "logement social",
+        "urban renewal",
+        "deindustrialisation",
+        "city centre living"
       ],
       "chapitres": [
-        "Chapitre 1"
+        "Chapitre 1",
+        "Chapitre 9",
+        "Chapitre 14"
       ],
       "source_origin": [
-        "registre historique"
+        "Google Drive",
+        "texte intégral",
+        "arbitrage utilisateur"
       ],
-      "arbitrage": "Identifiant historique conservé comme legacy_id ; identifiant repo canonique : S72.",
+      "niveau_preuve": "source secondaire universitaire",
+      "arbitrage": "S20 était occupé par Reynolds, Rip It Up and Start Again, considéré par l’utilisateur comme doublon de S72. L’ancien S20 est redirigé vers S72. S20 est réattribué à Martin Dodge, Manchester Geographies, chapitre 3.",
+      "prudence": "Ne pas écraser S04 Kidd. Ne pas réutiliser l’ancien S20 Reynolds : utiliser S72 pour Reynolds. Ne pas utiliser Dodge comme source interne sur Joy Division. Vérifier l’année et l’édition de Manchester Geographies avant citation finale.",
       "source_short_title": "Martin Dodge, Mapping the geographies of Manchester’s housing problems and the twentieth century solutions, s.d.",
       "source_year": "s.d."
     }
