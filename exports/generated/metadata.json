@@ -410,46 +410,88 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/source.md::1334",
-    "file": "sources/deluca_manchester_punk_threshold/source.md",
-    "heading": "S15 — DeLuca, article sur le seuil punk mancunien, 2021",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_structurants_s15.md::1334",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Compléments aux registres structurants — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
       "source_id": "S15",
-      "source_label": "S15 — DeLuca, article sur le seuil punk mancunien, 2021",
-      "auteur": "Daniele DeLuca",
-      "auteur_alias": [
-        "Daniele De Luca"
-      ],
-      "titre_article": "à verrouiller dans le PDF",
-      "titre_article_provisoire": "Article sur le seuil punk mancunien, l’apprentissage autodidacte et la cristallisation de Joy Division",
-      "titre_ouvrage": "Our Vision Touched the Sky: Fenomenologia dei Joy Division",
-      "direction": "Alfonso Amendola ; Linda Barone",
-      "annee": "2021",
-      "lieu_edition": "Roma",
-      "editeur": "Rogas Edizioni",
-      "nature": "article d’ouvrage collectif / source critique historico-culturelle",
-      "statut": "source canonique fixée ; titre exact et pagination à verrouiller",
-      "fiabilite": "forte pour l’analyse critique ; à croiser pour les faits historiques, la date des concerts, les participants et les détails biographiques",
-      "source_drive": "https://drive.google.com/file/d/1i4yRFXBFMrCey2N9eAQs5qJJfGe9Wssf/view?usp=drive_link",
-      "fichier_source_recommande": "S15_deluca_manchester_punk_threshold_2021.pdf",
-      "pagination": "à confirmer dans le PDF",
-      "chapitres": [
-        "Chapitre 1",
-        "Chapitre 2",
-        "Chapitre 3"
-      ],
-      "chapitres_secondaires": [
-        "Chapitre 7",
-        "Chapitre 14"
-      ],
-      "niveau_preuve": "source secondaire critique / lecture historico-culturelle",
-      "source_short_title": "Daniele DeLuca, Article sur le seuil punk mancunien, l’apprentissage autodidacte et la cristallisation de Joy Division, 2021",
+      "source_label": "S15 — De Luca, The Sound and the Fury, 2021",
+      "type_unite": "registres_structurants",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "source_short_title": "Daniele De Luca, The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta, 2021",
       "source_year": "2021"
     }
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1350",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md::1353",
+    "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+    "heading": "Atomes v2 — S15 — De Luca, *The Sound and the Fury*, 2021",
+    "data": {
+      "source_id": "S15",
+      "source_label": "S15 — De Luca, The Sound and the Fury, 2021",
+      "source_short_title": "De Luca, The Sound and the Fury, 2021",
+      "source_year": "2021",
+      "auteur": "Daniele De Luca",
+      "titre": "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta",
+      "type_unite": "corpus_atomes",
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "pages_pdf": "54-63"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/relations_stabilisees.md::1383",
+    "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+    "heading": "Relations stabilisées — S15 — De Luca, *The Sound and the Fury*, 2021",
+    "data": {
+      "source_id": "S15",
+      "source_label": "S15 — De Luca, The Sound and the Fury, 2021",
+      "type_unite": "relations_stabilisees",
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "atomes_source": [
+        "S15-A001",
+        "S15-A002",
+        "S15-A003",
+        "S15-A004",
+        "S15-A005",
+        "S15-A006",
+        "S15-A007",
+        "S15-A008",
+        "S15-A009",
+        "S15-A010",
+        "S15-A011",
+        "S15-A012",
+        "S15-A013",
+        "S15-A014",
+        "S15-A015"
+      ],
+      "source_short_title": "Daniele De Luca, The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1394",
+    "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+    "heading": "Compléments aux registres spécialisés — S15 — De Luca, *The Sound and the Fury*, 2021",
+    "data": {
+      "source_id": "S15",
+      "source_label": "S15 — De Luca, The Sound and the Fury, 2021",
+      "type_unite": "registres_specialises",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "source_short_title": "Daniele De Luca, The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta, 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1415",
     "file": "sources/dodge_manchester_geographies/source.md",
     "heading": "S20 — Martin Dodge, *Manchester Geographies*, chapitre 3",
     "data": {
@@ -484,7 +526,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1351",
+    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1416",
     "file": "sources/dodge_manchester_geographies/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -499,7 +541,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1540",
+    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1605",
     "file": "sources/sueur_villes_du_futur/source.md",
     "heading": "S02 — Sueur, *Villes du futur, futur des villes*, 2011",
     "data": {
@@ -533,7 +575,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1541",
+    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1606",
     "file": "sources/sueur_villes_du_futur/source.md",
     "heading": "Règle d’usage",
     "data": {
@@ -549,7 +591,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1579",
+    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1644",
     "file": "sources/sumner_chapter_and_verse/source.md",
     "heading": "S10 — Bernard Sumner, *Chapter and Verse*, 2014/2015",
     "data": {
@@ -591,7 +633,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1580",
+    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1645",
     "file": "sources/sumner_chapter_and_verse/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -606,7 +648,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1593",
+    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1658",
     "file": "sources/press_aids_anderton_1986/source.md",
     "heading": "S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986",
     "data": {
@@ -645,7 +687,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1594",
+    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1659",
     "file": "sources/press_aids_anderton_1986/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -660,7 +702,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1617",
+    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1682",
     "file": "sources/carter_hulme_youth_race_inner_city/source.md",
     "heading": "S06 — Carter, « Youth, race and the inner-city estate », 2021/2023",
     "data": {
@@ -696,7 +738,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1618",
+    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1683",
     "file": "sources/carter_hulme_youth_race_inner_city/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -711,7 +753,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1867",
+    "id": "NO_ID::sources/suatoni/README.md::1932",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -728,7 +770,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1868",
+    "id": "NO_ID::sources/suatoni/README.md::1933",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -766,7 +808,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::1869",
+    "id": "NO_ID::sources/suatoni/README.md::1934",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -786,7 +828,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1924",
+    "id": "NO_ID::sources/greig_strong/README.md::1989",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -803,7 +845,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1925",
+    "id": "NO_ID::sources/greig_strong/README.md::1990",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -836,7 +878,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::1926",
+    "id": "NO_ID::sources/greig_strong/README.md::1991",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -851,7 +893,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2217",
+    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2282",
     "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
     "heading": "S13 — Relations stabilisées — Interzone, sound Joy Division et rave era",
     "data": {
@@ -865,7 +907,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::2579",
+    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::2644",
     "file": "registers/references/s06_carter_hulme_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -880,7 +922,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::2602",
+    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::2667",
     "file": "registers/references/s20_dodge_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -895,7 +937,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::2606",
+    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::2671",
     "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -910,7 +952,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::2625",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::2690",
     "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -925,7 +967,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::2629",
+    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::2694",
     "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -940,7 +982,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::2633",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::2698",
     "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -955,7 +997,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::2646",
+    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::2711",
     "file": "registers/references/s02_sueur_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -967,21 +1009,6 @@
       "prudence": "ne pas utiliser comme source primaire sur Joy Division ; croiser les données chiffrées avec sources urbaines spécialisées",
       "source_short_title": "Jean-Pierre Sueur / Sénat, Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses, 2011",
       "source_year": "2011"
-    }
-  },
-  {
-    "kind": "metadata",
-    "id": "NO_ID::registers/references/s15_deluca_source_canonique.md::2668",
-    "file": "registers/references/s15_deluca_source_canonique.md",
-    "heading": "Consignes pour les futurs atomes",
-    "data": {
-      "source_id": "S15",
-      "source_label": "S15 — DeLuca, article sur le seuil punk mancunien, 2021",
-      "preuve": "source secondaire critique / lecture historico-culturelle",
-      "usage": "Lesser Free Trade Hall, Sex Pistols, scène mancunienne, autodidaxie, DIY, fanzines, apprentissage, transformation des contraintes en style, punk vers post-punk",
-      "prudence": "ne pas utiliser comme source factuelle principale ; éviter la causalité fondatrice unique ; vérifier titre, pagination et italien ; croiser avec S41, S45, S72, S74, S75, S76",
-      "source_short_title": "Daniele DeLuca, Article sur le seuil punk mancunien, l’apprentissage autodidacte et la cristallisation de Joy Division, 2021",
-      "source_year": "2021"
     }
   }
 ]

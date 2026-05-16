@@ -1,6 +1,80 @@
 [
   {
     "kind": "motif",
+    "id": "MOTIF-S15-001",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Motifs à ajouter ou consolider",
+    "data": {
+      "id": "MOTIF-S15-001",
+      "motif": "ville fermée",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A012",
+        "S15-A014"
+      ],
+      "description": "Manchester comme espace clos, claustrophobique, où la sortie se transforme en imaginaire gothique contemporain."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S15-002",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Motifs à ajouter ou consolider",
+    "data": {
+      "id": "MOTIF-S15-002",
+      "motif": "faire sans savoir jouer",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A009",
+        "S15-A010",
+        "S15-A011"
+      ],
+      "description": "Permission punk : la compétence n’est plus préalable à l’expression ; le geste précède la maîtrise."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S15-003",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Motifs à ajouter ou consolider",
+    "data": {
+      "id": "MOTIF-S15-003",
+      "motif": "la ville comme instrument",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A001",
+        "S15-A012",
+        "S15-A015"
+      ],
+      "description": "La ville imprime sa clôture, sa dureté et son désarroi dans les formes musicales et symboliques."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S15-004",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Motifs à ajouter ou consolider",
+    "data": {
+      "id": "MOTIF-S15-004",
+      "motif": "récit de conversion punk",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A007",
+        "S15-A009"
+      ],
+      "description": "Le concert ne transmet pas un savoir ; il donne l’autorisation subjective de faire."
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-084",
     "file": "registers/motifs/s41_hook_motifs_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "MOTIF-084 — DIY financé par dette",

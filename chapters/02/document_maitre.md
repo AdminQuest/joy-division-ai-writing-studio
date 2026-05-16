@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T10:25:49"
+generated_at: "2026-05-16T12:50:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 296 |
+| Atomes | 306 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 32 |
 | Personnes | 27 |
 | Chansons | 6 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
+| S15 | S15 — De Luca, The Sound and the Fury, 2021 | 10 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
@@ -148,6 +149,26 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `controverse_visuelle` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S15-A004** — S15-A004 — Manchester comme récepteur idéal du punk  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A005** — S15-A005 — Antagonisme générationnel et maturité forcée des jeunes mancuniens  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A006** — S15-A006 — Le Marquee comme prélude médiatique au seuil mancunien  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `reception` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A007** — S15-A007 — 4 juin et 20 juillet 1976 : seuil fondateur, mythe à manier avec prudence  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `concert` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A008** — S15-A008 — No Future, No Feelings et Politics of Boredom comme grammaire d’action  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A009** — S15-A009 — Peter Hook : de la sidération à la nécessité de faire  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S15-A010** — S15-A010 — *Spiral Scratch* : le DIY comme seuil d’autonomie mancunienne  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A011** — S15-A011 — 1978 : le punk devient post-punk à Manchester  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A013** — S15-A013 — Salford et Macclesfield : tension de classe, de lieu et d’éducation  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A014** — S15-A014 — Ian Curtis comme passeur musical et littéraire  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -262,26 +283,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A025** — S45-A025 — Retour à Macclesfield : Barton Street comme base domestique du groupe  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A029** — S45-A029 — Iain Gray comme premier dommage collatéral de la formation du groupe  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct et témoignage rapporté`.
-- **S45-A033** — S45-A033 — Brotherdale et la crise du batteur : puissance sans compatibilité  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct et reconstruction rétrospective`.
-- **S45-A038** — S45-A038 — Rafters : la scène comme débordement corporel et inquiétude conjugale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_live` ; importance : `majeur` ; preuve : `témoignage direct rapporté par Hook dans S45`.
-- **S45-A039** — S45-A039 — Granada comme obsession médiatique : Curtis pousse Sumner vers la télévision  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_mediatique` ; importance : `majeur` ; preuve : `témoignage direct + témoignage rapporté de Sumner`.
-- **S45-A043** — S45-A043 — Swinging Apple : dernier Warsaw, reprise d’Iggy Pop et seuil communautaire manqué  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_live` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A045** — S45-A045 — Pips, 25 janvier 1978 : première apparition Joy Division et aura perceptible  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `performance_live` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A046** — S45-A046 — Tony Nuttall : rupture politique et rejet d’*An Ideal for Living*  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A047** — S45-A047 — La Morris Traveller : autonomie de Deborah et nouvelle cartographie des concerts  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `fait_social` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A053** — S45-A053 — Stiff/Chiswick Challenge : le concours comme théâtre de l’ambition provinciale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_scene_locale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S46-003** — S46-003 — Paul Morley et la mémoire instable de Warsaw  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `temoignage_interpretatif` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -393,38 +394,40 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ## 11. Concepts récurrents
 
-- Warsaw (30)
+- Warsaw (31)
 - Electric Circus (17)
 - Joy Division (11)
 - Rob Gretton (11)
 - punk (11)
+- Sex Pistols (10)
 - Rafters (10)
-- Sex Pistols (9)
 - An Ideal for Living (9)
 - Manchester (8)
 - Ian Curtis (8)
 - electric circus (7)
 - warsaw (7)
+- Buzzcocks (7)
 - Stephen Morris (7)
 - Short Circuit (7)
 - an ideal for living (6)
 - tony wilson (6)
-- Buzzcocks (6)
 - Stiff Kittens (6)
 - At a Later Date (6)
 - Warsaw Pakt (6)
 - Tony Wilson (6)
 - premier concert (6)
+- DIY (6)
 - ian curtis (5)
 - nazisme (5)
 - industrie musicale (5)
 - rob gretton (5)
 - Pennine Sound (5)
+- Lesser Free Trade Hall (5)
+- Manchester punk (5)
 - batterie (5)
 - changement de nom (5)
 - Arrow Studios (5)
 - management (5)
-- DIY (5)
 - contrainte productive (5)
 - formation du groupe (4)
 - rafters (4)
@@ -432,12 +435,11 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - rca (4)
 - factory (4)
 - buzzcocks (4)
-- Lesser Free Trade Hall (4)
-- Manchester punk (4)
 - House of Dolls (4)
 - RCA (4)
 - Bernard Sumner (4)
 - imagerie nazie (4)
+- Peter Hook (4)
 - sex pistols (4)
 - apprentissage autodidacte (4)
 - Factory (4)
@@ -456,12 +458,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - John Anderson (3)
 - organisation (3)
 - autoproduction (3)
-- Peter Hook (3)
 - Virgin Records (3)
 - scène locale (3)
 - manchester (3)
 - peter hook (3)
 - architecture sonore (3)
+- mythe fondateur (3)
+- Salford (3)
 - provocation punk (3)
 - classe ouvriere (3)
 - médiation télévisuelle (2)
@@ -471,8 +474,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - stiff kittens (2)
 - salford (2)
 - apprentissage scénique (2)
-- stephen morris (2)
-- short circuit (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -610,16 +611,16 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 |---|---|
 | fait | 25 |
 | scene_fondatrice | 21 |
-| production | 16 |
-| concert | 15 |
+| production | 17 |
+| concert | 16 |
 | chronologie | 14 |
 | non qualifié | 14 |
+| analyse | 10 |
 | objet_discographique | 9 |
+| biographie | 8 |
 | session | 7 |
 | controverse | 7 |
 | relation | 7 |
-| analyse | 7 |
-| biographie | 7 |
 | lecture | 5 |
 | formation_groupe | 4 |
 | mythe | 4 |
@@ -632,15 +633,17 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | discographie | 3 |
 | evenement | 3 |
 | contexte | 3 |
+| reception | 3 |
 | infrastructure_scene | 2 |
 | temoignage | 2 |
 | scene_revelation | 2 |
 | rencontre_fondatrice | 2 |
 | reception_presse | 2 |
 | changement_nom | 2 |
-| reception | 2 |
 | bootleg | 2 |
 | micro_chronologie | 2 |
+| sociologie | 2 |
+| concept | 2 |
 | mythe_nomination | 2 |
 | contexte_biographique | 2 |
 | scene_de_transition | 2 |
@@ -700,6 +703,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | origine_nom | 1 |
 | analyse_developpement | 1 |
 | anecdote | 1 |
+| memoire | 1 |
 | chronologie_scene | 1 |
 | lecture_biographique | 1 |
 | lieu_culturel | 1 |
@@ -718,18 +722,16 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte_materiel | 1 |
 | anecdote_significative | 1 |
 | contexte_musical | 1 |
-| concept | 1 |
 | portrait | 1 |
 | analyse_morceau | 1 |
 | influences | 1 |
-| sociologie | 1 |
 | song_or_release | 1 |
 
 ### 13.2. Importance documentaire
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 182 |
+| non qualifiée | 192 |
 | critique | 77 |
 | majeure | 18 |
 | majeur | 15 |

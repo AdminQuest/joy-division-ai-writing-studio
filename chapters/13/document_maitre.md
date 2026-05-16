@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T10:25:49"
+generated_at: "2026-05-16T12:50:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 66 |
+| Atomes | 67 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 19 |
 | Événements chronologiques | 9 |
 | Personnes | 16 |
 | Chansons | 2 |
-| Sources mobilisées | 7 |
+| Sources mobilisées | 8 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
+| S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
@@ -119,6 +120,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 - **S13-A001** — S13-A001 — Manchester sous Thatcher : scène apocalyptique et résistance musicale  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `contexte_critique` ; importance : `majeur` ; preuve : `source critique secondaire`.
+- **S15-A012** — S15-A012 — Psychogéographie et ville moderne : Manchester comme thème porteur  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-010** — S41-010 — Destruction d’Ordsall et relogement forcé  
@@ -456,10 +459,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | Type | Nombre |
 |---|---|
 | lecture | 4 |
+| concept | 4 |
 | analyse | 3 |
 | lieu | 3 |
 | biographie | 3 |
-| concept | 3 |
 | contexte | 2 |
 | contrepoint | 2 |
 | contexte_social | 2 |
@@ -511,7 +514,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 23 |
+| non qualifiée | 24 |
 | majeure | 21 |
 | critique | 19 |
 | majeur | 3 |

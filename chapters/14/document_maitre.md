@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T10:25:49"
+generated_at: "2026-05-16T12:50:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 788 |
+| Atomes | 789 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 19 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -40,6 +40,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 6 | 0 |
+| S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
@@ -171,6 +172,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `transition_groupe` ; importance : `majeur` ; preuve : `synthèse critique secondaire`.
 - **S13-A010** — S13-A010 — Rave manifesto : utopie provisoire, tribu globale et technologie  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `motif_culturel` ; importance : `majeur` ; preuve : `source manifeste citée par Tomeo ; statut documentaire à vérifier`.
+- **S15-A015** — S15-A015 — Joy Division comme unité, contre la réduction au seul mythe Curtis  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -287,8 +290,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_tournee` ; importance : `critique` ; preuve : `témoignage direct + contexte de tournée établi`.
 - **S41-A139** — S41-A139 — Glasgow : vie de tournée, transgression masculine et fuite avant police  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_tournee_excès` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A141** — S41-A141 — Plan K Bruxelles : première Europe, Burroughs et collision entre avant-garde et potacherie  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_europeen` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -654,9 +655,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_live | 12 |
 | objet_discographique | 12 |
 | discographie | 11 |
+| synthese | 10 |
 | reception_poll | 10 |
 | reception_critique | 9 |
-| synthese | 9 |
 | archive | 9 |
 | production | 8 |
 | contrepoint | 8 |
@@ -1044,7 +1045,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 496 |
+| non qualifiée | 497 |
 | critique | 221 |
 | majeure | 39 |
 | majeur | 28 |

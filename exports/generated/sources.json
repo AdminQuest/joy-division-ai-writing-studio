@@ -149,17 +149,36 @@
   },
   {
     "source_id": "S15",
-    "source_label": "S15 — DeLuca, article sur le seuil punk mancunien, 2021",
-    "auteur": "Daniele DeLuca",
-    "titre": "Article sur le seuil punk mancunien, l’apprentissage autodidacte et la cristallisation de Joy Division",
+    "source_label": "S15 — De Luca, The Sound and the Fury, 2021",
+    "auteur": "Daniele De Luca",
+    "titre": "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta",
     "annee": "2021",
-    "records": 3,
+    "records": 62,
+    "atoms": 15,
+    "quotes": 5,
+    "chronology": 8,
+    "files": [
+      "registers/references/s15_deluca_source_canonique.md",
+      "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "sources/deluca_manchester_punk_threshold/source.md"
+    ]
+  },
+  {
+    "source_id": "S16",
+    "source_label": "S16 — Buzzcocks, « Boredom », 1977",
+    "auteur": "Buzzcocks",
+    "titre": "« Boredom »",
+    "annee": "1977",
+    "records": 1,
     "atoms": 0,
     "quotes": 0,
     "chronology": 0,
     "files": [
-      "registers/references/s15_deluca_source_canonique.md",
-      "sources/deluca_manchester_punk_threshold/source.md"
+      "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
     ]
   },
   {

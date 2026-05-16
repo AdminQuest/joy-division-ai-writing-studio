@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-05-16T11:03:15",
+  "generated_at": "2026-05-16T12:50:41",
   "status": "error",
   "summary": {
-    "records_total": 3716,
+    "records_total": 3780,
     "records_by_kind": {
-      "atom": 1753,
-      "metadata": 42,
-      "quote": 353,
-      "chronology": 335,
-      "source": 54,
-      "unknown": 196,
+      "atom": 1768,
+      "metadata": 44,
+      "quote": 358,
+      "chronology": 343,
+      "source": 55,
+      "unknown": 217,
+      "concept": 183,
+      "motif": 262,
       "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 258,
       "person": 157,
-      "concept": 175,
       "myth": 14
     },
-    "diagnostics_total": 18047,
+    "diagnostics_total": 18213,
     "errors": 5,
-    "warnings": 18042,
+    "warnings": 18208,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 20,
-    "sources_exported": 20,
-    "declared_but_unused": 31,
+    "sources_used_in_records": 21,
+    "sources_exported": 21,
+    "declared_but_unused": 30,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -141,20 +141,6 @@
           "James Anderton",
           "police",
           "mémoire culturelle mancunienne"
-        ]
-      },
-      {
-        "source_id": "S16",
-        "source_label": "S16 — Buzzcocks, « Boredom », 1977",
-        "auteur": "Buzzcocks",
-        "titre": "« Boredom »",
-        "annee": "1977",
-        "statut": "verifie",
-        "usage": [
-          "ennui",
-          "jeunesse",
-          "immobilité sociale",
-          "punk mancunien"
         ]
       },
       {
@@ -631,17 +617,36 @@
       },
       {
         "source_id": "S15",
-        "source_label": "S15 — DeLuca, article sur le seuil punk mancunien, 2021",
-        "auteur": "Daniele DeLuca",
-        "titre": "Article sur le seuil punk mancunien, l’apprentissage autodidacte et la cristallisation de Joy Division",
+        "source_label": "S15 — De Luca, The Sound and the Fury, 2021",
+        "auteur": "Daniele De Luca",
+        "titre": "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta",
         "annee": "2021",
-        "records": 3,
+        "records": 62,
+        "atoms": 15,
+        "quotes": 5,
+        "chronology": 8,
+        "files": [
+          "registers/references/s15_deluca_source_canonique.md",
+          "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+          "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+          "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+          "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+          "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+          "sources/deluca_manchester_punk_threshold/source.md"
+        ]
+      },
+      {
+        "source_id": "S16",
+        "source_label": "S16 — Buzzcocks, « Boredom », 1977",
+        "auteur": "Buzzcocks",
+        "titre": "« Boredom »",
+        "annee": "1977",
+        "records": 1,
         "atoms": 0,
         "quotes": 0,
         "chronology": 0,
         "files": [
-          "registers/references/s15_deluca_source_canonique.md",
-          "sources/deluca_manchester_punk_threshold/source.md"
+          "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
         ]
       },
       {
@@ -61757,6 +61762,1002 @@
       "file": "sources/books/S074_Middles_FromJoyDivisionToNewOrder_1996.md",
       "message": "Invalid value for type_unite: scene_fondatrice",
       "record_id": "S74-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MYTHE-S15-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MYTHE-S15-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S15-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S15-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S15-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S15-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S15-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S15-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S15-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: importance",
+      "record_id": "S15-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S15-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S15-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S15-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S15-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S15-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "message": "Invalid value for type_unite: synthese",
+      "record_id": "S15-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "message": "Missing id",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "message": "Missing required field: id",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S15-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S15-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S15-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S15-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S15-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S15-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S15-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S15-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S15-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S15-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S15-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S15-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S15-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S15-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
     },
     {
       "level": "warning",

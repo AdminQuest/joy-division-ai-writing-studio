@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T10:25:49"
+generated_at: "2026-05-16T12:50:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 318 |
+| Atomes | 319 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 40 |
 | Personnes | 39 |
 | Chansons | 4 |
-| Sources mobilisées | 11 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
+| S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 88 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
@@ -125,6 +126,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `controverse_visuelle` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S15-A014** — S15-A014 — Ian Curtis comme passeur musical et littéraire  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-018** — S41-018 — Apprendre « mal » : naissance d’un style mélodique  
@@ -278,8 +281,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - **S46-016** — S46-016 — *An Ideal for Living* 12 pouces : Anonymous Records et messages de run-out  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-017** — S46-017 — *A Factory Sample* et Cargo Studios  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-020** — S46-020 — Strawberry Studios et l’enregistrement d’*Unknown Pleasures*  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
@@ -678,6 +679,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | micro_chronologie | 2 |
 | analyse_studio | 2 |
 | reception_interne | 2 |
+| biographie | 2 |
 | mythe_nomination | 2 |
 | concept_management | 2 |
 | bascule_tournee | 2 |
@@ -750,7 +752,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | evenement_crise | 1 |
 | temoignage_affectif | 1 |
 | reception_posthume | 1 |
-| biographie | 1 |
 | ecosysteme | 1 |
 | tournee_fatigue | 1 |
 | concert_incident | 1 |
@@ -817,7 +818,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 193 |
+| non qualifiée | 194 |
 | critique | 95 |
 | majeure | 26 |
 | majeur | 4 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T10:25:49"
+generated_at: "2026-05-16T12:50:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 187 |
+| Atomes | 189 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 5 |
 | Personnes | 5 |
 | Chansons | 10 |
-| Sources mobilisées | 13 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 3 | 0 |
+| S15 | S15 — De Luca, The Sound and the Fury, 2021 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
@@ -125,6 +126,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - **S13-A006** — S13-A006 — « No language, just sound » : de la parole au signal corporel  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `motif_textuel` ; importance : `majeur` ; preuve : `analyse textuelle secondaire`.
+- **S15-A008** — S15-A008 — No Future, No Feelings et Politics of Boredom comme grammaire d’action  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A014** — S15-A014 — Ian Curtis comme passeur musical et littéraire  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-025** — S41-025 — Premières paroles : Hook écrit, Curtis transcende  
@@ -279,10 +284,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S69-A007** — S69-A007 — La nostalgie n’est pas automatiquement réactionnaire  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S69-A020** — S69-A020 — Conclusion : Joy Division comme espace de nostalgies concurrentes  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S70-A003** — S70-A003 — Joy Division comme musique de l’espace métropolitain intérieur  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -549,9 +550,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Type | Nombre |
 |---|---|
 | analyse | 32 |
+| biographie | 7 |
 | analyse_morceau | 7 |
 | controverse | 6 |
-| biographie | 6 |
 | lecture_chanson | 6 |
 | non qualifié | 5 |
 | song | 5 |
@@ -562,6 +563,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | intertextualite | 3 |
 | reception_critique | 3 |
 | citation_repere | 3 |
+| concept | 3 |
 | contexte_biographique | 3 |
 | contrepoint | 2 |
 | synthese | 2 |
@@ -575,7 +577,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | temoignage_direct_rapporte | 2 |
 | tension_biographique | 2 |
 | fait | 2 |
-| concept | 2 |
 | registre_influences | 1 |
 | scene_soin_amateur | 1 |
 | santé | 1 |
@@ -650,7 +651,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 124 |
+| non qualifiée | 126 |
 | critique | 45 |
 | majeure | 13 |
 | majeur | 5 |

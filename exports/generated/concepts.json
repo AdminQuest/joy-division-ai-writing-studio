@@ -1,6 +1,185 @@
 [
   {
     "kind": "concept",
+    "id": "CONCEPT-S15-001",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Concepts à consolider",
+    "data": {
+      "id": "CONCEPT-S15-001",
+      "concept": "Manchester post-industrielle",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A001",
+        "S15-A003",
+        "S15-A004"
+      ],
+      "definition": "Manchester comme ville issue de la révolution industrielle, mais saisie au moment où l’industrie devient ruine sociale, chômage, habitat dégradé et imaginaire de clôture.",
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S15-002",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Concepts à consolider",
+    "data": {
+      "id": "CONCEPT-S15-002",
+      "concept": "ville punk",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A004",
+        "S15-A007"
+      ],
+      "definition": "Appropriation locale du punk par une ville dont les conditions sociales rendent immédiatement disponible la colère punk.",
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "prudence": "Ne pas confondre formule critique et réalité sociale totale."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S15-003",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Concepts à consolider",
+    "data": {
+      "id": "CONCEPT-S15-003",
+      "concept": "Politics of Boredom",
+      "sources": [
+        "S15",
+        "S16"
+      ],
+      "related_atoms": [
+        "S15-A008"
+      ],
+      "definition": "Transformation de l’ennui social, scolaire et professionnel en grammaire d’action punk.",
+      "usage_chapitres": [
+        "Chapitre 2",
+        "Chapitre 11"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S15-004",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Concepts à consolider",
+    "data": {
+      "id": "CONCEPT-S15-004",
+      "concept": "DIY mancunien",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A010",
+        "S15-A011"
+      ],
+      "definition": "Capacité de produire localement disques, scènes, réseaux et formes musicales hors des circuits dominants londoniens.",
+      "usage_chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S15-005",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Concepts à consolider",
+    "data": {
+      "id": "CONCEPT-S15-005",
+      "concept": "seuil punk mancunien",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A006",
+        "S15-A007",
+        "S15-A009"
+      ],
+      "definition": "Chaîne Marquee / NME / Shelley-Devoto / Lesser Free Trade Hall par laquelle le punk devient opératoire à Manchester.",
+      "usage_chapitres": [
+        "Chapitre 2"
+      ],
+      "prudence": "À traiter comme seuil historiographique, non comme cause unique."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S15-006",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Concepts à consolider",
+    "data": {
+      "id": "CONCEPT-S15-006",
+      "concept": "passage punk post-punk",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A010",
+        "S15-A011"
+      ],
+      "definition": "Réemploi des idées punk dans un langage musical plus ouvert, expérimental, urbain et post-industriel.",
+      "usage_chapitres": [
+        "Chapitre 3"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S15-007",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Concepts à consolider",
+    "data": {
+      "id": "CONCEPT-S15-007",
+      "concept": "Ian Curtis passeur culturel",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A014"
+      ],
+      "definition": "Curtis comme vecteur d’élargissement musical et littéraire du groupe : Doors, John Cale, Kraftwerk, Gogol, Kafka, Ballard, Burroughs.",
+      "usage_chapitres": [
+        "Chapitre 2",
+        "Chapitre 5",
+        "Chapitre 11"
+      ],
+      "prudence": "Croiser avec les sources littéraires et mémorielles."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S15-008",
+    "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+    "heading": "Concepts à consolider",
+    "data": {
+      "id": "CONCEPT-S15-008",
+      "concept": "unité Joy Division",
+      "sources": [
+        "S15"
+      ],
+      "related_atoms": [
+        "S15-A015"
+      ],
+      "definition": "Correction historiographique qui maintient la centralité de Curtis sans réduire l’œuvre à son seul destin biographique.",
+      "usage_chapitres": [
+        "Chapitre 3",
+        "Chapitre 10",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-059",
     "file": "registers/concepts/s41_hook_concepts_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "CONCEPT-059 — DIY endetté",

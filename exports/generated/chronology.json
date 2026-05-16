@@ -3188,6 +3188,221 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S15-001",
+    "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+    "heading": "Chronologie extraite de S15",
+    "data": {
+      "id": "CHR-S15-001",
+      "date": "1845",
+      "precision_date": "annee",
+      "event": "Friedrich Engels publie son enquête sur la condition de la classe ouvrière en Angleterre, utilisée par De Luca comme seuil historique de Manchester industrielle.",
+      "type": "contexte",
+      "location": "Manchester",
+      "people": [
+        "Friedrich Engels"
+      ],
+      "songs": [],
+      "sources": [
+        "S15"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S15-A001"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S15-002",
+    "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+    "heading": "Chronologie extraite de S15",
+    "data": {
+      "id": "CHR-S15-002",
+      "date": "1973",
+      "precision_date": "annee",
+      "event": "Le choc pétrolier consécutif à la guerre du Yom Kippur aggrave la crise économique britannique.",
+      "type": "contexte",
+      "location": "Royaume-Uni",
+      "people": [
+        "Edward Heath"
+      ],
+      "songs": [],
+      "sources": [
+        "S15"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S15-A003"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S15-003",
+    "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+    "heading": "Chronologie extraite de S15",
+    "data": {
+      "id": "CHR-S15-003",
+      "date": "1974",
+      "precision_date": "annee",
+      "event": "Edward Heath quitte le pouvoir dans le contexte des conflits sociaux et de la crise économique.",
+      "type": "contexte",
+      "location": "Royaume-Uni",
+      "people": [
+        "Edward Heath"
+      ],
+      "songs": [],
+      "sources": [
+        "S15"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S15-A003"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S15-004",
+    "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+    "heading": "Chronologie extraite de S15",
+    "data": {
+      "id": "CHR-S15-004",
+      "date": "1976-02-19",
+      "precision_date": "jour",
+      "event": "Concert des Sex Pistols au Marquee de Londres, relayé par une recension du New Musical Express qui conduit Shelley et Devoto à vouloir faire venir le groupe à Manchester.",
+      "type": "concert",
+      "location": "The Marquee, Londres",
+      "people": [
+        "Neil Spencer",
+        "Pete Shelley",
+        "Howard Devoto",
+        "Malcolm McLaren"
+      ],
+      "songs": [],
+      "sources": [
+        "S15"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S15-A006"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S15-005",
+    "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+    "heading": "Chronologie extraite de S15",
+    "data": {
+      "id": "CHR-S15-005",
+      "date": "1976-06-04",
+      "precision_date": "jour",
+      "event": "Premier concert des Sex Pistols à la Lesser Free Trade Hall de Manchester, organisé par Shelley et Devoto.",
+      "type": "concert",
+      "location": "Lesser Free Trade Hall, Manchester",
+      "people": [
+        "Johnny Rotten",
+        "Steve Jones",
+        "Glen Matlock",
+        "Paul Cook",
+        "Pete Shelley",
+        "Howard Devoto",
+        "Peter Hook"
+      ],
+      "sources": [
+        "S15"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S15-A007",
+        "S15-A009"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S15-006",
+    "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+    "heading": "Chronologie extraite de S15",
+    "data": {
+      "id": "CHR-S15-006",
+      "date": "1976-07-20",
+      "precision_date": "jour",
+      "event": "Second concert des Sex Pistols à la Lesser Free Trade Hall, devant un public plus large ; De Luca en fait le second moment du seuil punk mancunien.",
+      "type": "concert",
+      "location": "Lesser Free Trade Hall, Manchester",
+      "people": [
+        "Sex Pistols",
+        "Ian Curtis",
+        "Peter Hook",
+        "Bernard Sumner"
+      ],
+      "songs": [],
+      "sources": [
+        "S15"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S15-A007"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S15-007",
+    "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+    "heading": "Chronologie extraite de S15",
+    "data": {
+      "id": "CHR-S15-007",
+      "date": "1977-01",
+      "precision_date": "mois",
+      "event": "Publication de l’EP *Spiral Scratch* par les Buzzcocks, produit par Martin Hannett, moment clef du DIY mancunien.",
+      "type": "publication",
+      "location": "Manchester",
+      "people": [
+        "Buzzcocks",
+        "Martin Hannett"
+      ],
+      "songs": [
+        "Boredom"
+      ],
+      "sources": [
+        "S15"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S15-A010"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S15-008",
+    "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+    "heading": "Chronologie extraite de S15",
+    "data": {
+      "id": "CHR-S15-008",
+      "date": "1978",
+      "precision_date": "annee",
+      "event": "La scène mancunienne réemploie les idées punk pour créer un langage post-punk ; Magazine, Warsaw/Joy Division, The Fall et A Certain Ratio cristallisent cette mutation.",
+      "type": "reception",
+      "location": "Manchester",
+      "people": [
+        "Tony Wilson"
+      ],
+      "songs": [],
+      "sources": [
+        "S15"
+      ],
+      "certainty": "medium",
+      "related_atoms": [
+        "S15-A011"
+      ]
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S70-001",
     "file": "sources/suatoni/source.md",
     "heading": "Événements chronologiques",

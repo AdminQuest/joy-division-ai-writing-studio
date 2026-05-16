@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T10:25:49"
+generated_at: "2026-05-16T12:50:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T10:25:49"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 122 |
+| Atomes | 129 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 16 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ generated_at: "2026-05-16T10:25:49"
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 9 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 9 | 0 |
+| S15 | S15 — De Luca, The Sound and the Fury, 2021 | 7 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
@@ -182,6 +183,20 @@ generated_at: "2026-05-16T10:25:49"
   Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
 - **S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2** — S12 — Passe v2 — AIDS, Anderton, morale publique et ordre social  
   Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte pour l’existence des discours publics ; à croiser pour les citations exactes`.
+- **S15-A001** — S15-A001 — Manchester, de la ville industrielle à la ville-symptôme  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A002** — S15-A002 — Logement, slums et recomposition contrainte des classes populaires  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A003** — S15-A003 — La crise britannique des années 1970 comme matrice historique  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A004** — S15-A004 — Manchester comme récepteur idéal du punk  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A005** — S15-A005 — Antagonisme générationnel et maturité forcée des jeunes mancuniens  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A008** — S15-A008 — No Future, No Feelings et Politics of Boredom comme grammaire d’action  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A012** — S15-A012 — Psychogéographie et ville moderne : Manchester comme thème porteur  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A001** — S20-A001 — Manchester industriel et logement ouvrier : absence de plan et logique du profit  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
@@ -238,20 +253,6 @@ generated_at: "2026-05-16T10:25:49"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A046** — S45-A046 — Tony Nuttall : rupture politique et rejet d’*An Ideal for Living*  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S46-004** — S46-004 — Les concerts des Sex Pistols comme matrice mancunienne  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-044** — S46-044 — Ian Wood : Joy Division et le malaise industriel  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-068** — S46-068 — La citation inaugurale de Curtis : monde intérieur et rêverie ouvrière  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `citation_contextualisee` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-069** — S46-069 — La jeunesse mancunienne et le modèle Sex Pistols  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `contexte_punk` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-108** — S46-108 — Tony Wilson et le romantisme de l’échec mancunien  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_culturelle` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S47-005** — S47-005 — Curtis, Sumner, Hook et Morris ont vingt ans en 1976  
-  Source : S47 — West, Joy Division, 1984 ; type : `biographie_collective` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-047** — S47-047 — Ian Wood : Joy Division comme abstraction grise du malaise urbain  
-  Source : S47 — West, Joy Division, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -283,8 +284,8 @@ generated_at: "2026-05-16T10:25:49"
 - manchester (9)
 - Manchester (6)
 - Salford (6)
+- désindustrialisation (5)
 - géographie émotionnelle (5)
-- désindustrialisation (4)
 - diy (4)
 - Ian Curtis (4)
 - Hulme (4)
@@ -315,6 +316,7 @@ generated_at: "2026-05-16T10:25:49"
 - crise sociale (2)
 - Sex Pistols (2)
 - Buzzcocks (2)
+- Manchester punk (2)
 - enfance (2)
 - peter hook (2)
 - bernard sumner (2)
@@ -359,7 +361,6 @@ generated_at: "2026-05-16T10:25:49"
 - crise urbaine (1)
 - années 1970 (1)
 - conservatisme moral (1)
-- policing politique (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -475,12 +476,13 @@ generated_at: "2026-05-16T10:25:49"
 | Type | Nombre |
 |---|---|
 | concept_structurant | 9 |
+| analyse | 9 |
+| sociologie | 7 |
 | source_part | 6 |
-| sociologie | 6 |
 | contexte_social | 6 |
 | prudence_methodologique | 5 |
 | evenement_politique | 5 |
-| analyse | 5 |
+| concept | 5 |
 | contexte | 4 |
 | biographie | 4 |
 | methode | 3 |
@@ -488,7 +490,6 @@ generated_at: "2026-05-16T10:25:49"
 | lecture | 3 |
 | lieu_scene | 3 |
 | politique_urbaine | 3 |
-| concept | 3 |
 | tension_documentaire | 2 |
 | acteur_institutionnel | 2 |
 | conclusion_historiographique | 2 |
@@ -540,7 +541,7 @@ generated_at: "2026-05-16T10:25:49"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 102 |
+| non qualifiée | 109 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

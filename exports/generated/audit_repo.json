@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-05-16T11:03:26",
+  "generated_at": "2026-05-16T12:50:57",
   "summary": {
-    "records_total": 3716,
+    "records_total": 3780,
     "records_by_kind": {
-      "atom": 1753,
-      "metadata": 42,
-      "quote": 353,
-      "chronology": 335,
-      "source": 54,
-      "unknown": 196,
+      "atom": 1768,
+      "metadata": 44,
+      "quote": 358,
+      "chronology": 343,
+      "source": 55,
+      "unknown": 217,
+      "concept": 183,
+      "motif": 262,
       "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 258,
       "person": 157,
-      "concept": 175,
       "myth": 14
     },
-    "diagnostics_total": 18047,
+    "diagnostics_total": 18213,
     "errors": 5,
-    "warnings": 18042,
+    "warnings": 18208,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 20,
-    "sources_exported": 20,
-    "declared_but_unused": 31,
+    "sources_used_in_records": 21,
+    "sources_exported": 21,
+    "declared_but_unused": 30,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1753,
-    "chronology": 335,
-    "concept": 175,
-    "metadata": 42,
-    "motif": 258,
+    "atom": 1768,
+    "chronology": 343,
+    "concept": 183,
+    "metadata": 44,
+    "motif": 262,
     "myth": 14,
     "person": 157,
-    "quote": 353,
+    "quote": 358,
     "quote_batch": 1,
     "rules": 1,
     "song": 41,
-    "source": 54,
+    "source": 55,
     "template": 336,
-    "unknown": 196
+    "unknown": 217
   },
   "records_by_source": {
     "S02": {
@@ -77,8 +77,17 @@
       "motif": 5
     },
     "S15": {
-      "metadata": 2,
-      "unknown": 1
+      "metadata": 4,
+      "concept": 8,
+      "motif": 4,
+      "unknown": 17,
+      "atom": 15,
+      "chronology": 8,
+      "quote": 5,
+      "source": 1
+    },
+    "S16": {
+      "concept": 1
     },
     "S20": {
       "atom": 15,
@@ -166,16 +175,16 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 197,
-    "Chapitre 10": 247,
-    "Chapitre 11": 217,
+    "Chapitre 1": 207,
+    "Chapitre 10": 249,
+    "Chapitre 11": 221,
     "Chapitre 12": 471,
-    "Chapitre 13": 109,
-    "Chapitre 14": 1003,
-    "Chapitre 2": 363,
-    "Chapitre 3": 403,
+    "Chapitre 13": 111,
+    "Chapitre 14": 1005,
+    "Chapitre 2": 379,
+    "Chapitre 3": 412,
     "Chapitre 4": 312,
-    "Chapitre 5": 441,
+    "Chapitre 5": 443,
     "Chapitre 6": 571,
     "Chapitre 7": 114,
     "Chapitre 8": 320,
@@ -270,6 +279,10 @@
       26
     ],
     [
+      "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      24
+    ],
+    [
       "sources/hook/atomisation_04_unknown_pleasures_track_by_track.md",
       24
     ],
@@ -300,20 +313,16 @@
     [
       "sources/ott_unknown_pleasures/source_part_01.md",
       20
-    ],
-    [
-      "sources/mike_west_joy_division/chronology.md",
-      20
     ]
   ],
   "issue_categories": {
     "duplicate_id": 5,
     "field_type_error": 149,
-    "invalid_controlled_value": 1531,
-    "missing_required_field": 4963,
-    "schema_warning": 399,
-    "unknown_yaml_block": 196,
-    "v2_migration_debt": 10804
+    "invalid_controlled_value": 1532,
+    "missing_required_field": 4971,
+    "schema_warning": 400,
+    "unknown_yaml_block": 217,
+    "v2_migration_debt": 10939
   },
   "top_files_by_issue_count": [
     [
@@ -492,6 +501,174 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "MYTHE-S15-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "MYTHE-S15-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "REF-S15-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "REF-S15-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "REF-S15-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "REF-S15-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
       "record_id": null,
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -2050,10 +2227,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1753,
+    "atoms_total": 1768,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1692,
-    "v2_missing_field_warnings": 10804
+    "atoms_v2_incomplete": 1707,
+    "v2_missing_field_warnings": 10939
   },
   "source_registry": {
     "declared_but_unused": [
@@ -2167,20 +2344,6 @@
           "James Anderton",
           "police",
           "mémoire culturelle mancunienne"
-        ]
-      },
-      {
-        "source_id": "S16",
-        "source_label": "S16 — Buzzcocks, « Boredom », 1977",
-        "auteur": "Buzzcocks",
-        "titre": "« Boredom »",
-        "annee": "1977",
-        "statut": "verifie",
-        "usage": [
-          "ennui",
-          "jeunesse",
-          "immobilité sociale",
-          "punk mancunien"
         ]
       },
       {
@@ -2657,17 +2820,36 @@
       },
       {
         "source_id": "S15",
-        "source_label": "S15 — DeLuca, article sur le seuil punk mancunien, 2021",
-        "auteur": "Daniele DeLuca",
-        "titre": "Article sur le seuil punk mancunien, l’apprentissage autodidacte et la cristallisation de Joy Division",
+        "source_label": "S15 — De Luca, The Sound and the Fury, 2021",
+        "auteur": "Daniele De Luca",
+        "titre": "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta",
         "annee": "2021",
-        "records": 3,
+        "records": 62,
+        "atoms": 15,
+        "quotes": 5,
+        "chronology": 8,
+        "files": [
+          "registers/references/s15_deluca_source_canonique.md",
+          "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+          "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+          "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+          "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+          "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+          "sources/deluca_manchester_punk_threshold/source.md"
+        ]
+      },
+      {
+        "source_id": "S16",
+        "source_label": "S16 — Buzzcocks, « Boredom », 1977",
+        "auteur": "Buzzcocks",
+        "titre": "« Boredom »",
+        "annee": "1977",
+        "records": 1,
         "atoms": 0,
         "quotes": 0,
         "chronology": 0,
         "files": [
-          "registers/references/s15_deluca_source_canonique.md",
-          "sources/deluca_manchester_punk_threshold/source.md"
+          "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md"
         ]
       },
       {
@@ -84017,6 +84199,1334 @@
       "record_id": "S74-A009",
       "message": "Invalid value for type_unite: scene_fondatrice",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "MYTHE-S15-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "MYTHE-S15-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "REF-S15-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "REF-S15-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "REF-S15-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
+      "record_id": "REF-S15-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A001",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A001",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A002",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A003",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A004",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A005",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A006",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A007",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A008",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A009",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A010",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A011",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A011",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A011",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A011",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A011",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A012",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A012",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A012",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A012",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A012",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A013",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A013",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A013",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A013",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A013",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A014",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A014",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A014",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A014",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A014",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A014",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A015",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A015",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A015",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A015",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A015",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A015",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
+      "record_id": "S15-A015",
+      "message": "Invalid value for type_unite: synthese",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "record_id": null,
+      "message": "Missing id",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "record_id": null,
+      "message": "Missing required field: id",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "record_id": null,
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "record_id": null,
+      "message": "Missing required field: langue_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "record_id": null,
+      "message": "Missing required field: statut_verification",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "record_id": "S15-Q001",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "record_id": "S15-Q002",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "record_id": "S15-Q003",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
+      "record_id": "S15-Q004",
+      "message": "Missing required field: citation_originale",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
+      "record_id": "REL-S15-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T10:25:49"
+generated_at: "2026-05-16T12:50:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 189 |
+| Atomes | 190 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
 | Chansons | 6 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 10 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
+| S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
@@ -142,6 +143,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S15-A015** — S15-A015 — Joy Division comme unité, contre la réduction au seul mythe Curtis  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-146** — S41-146 — 23 mai 1980 : crémation et wake Factory  
@@ -280,8 +283,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A149** — S45-A149 — Rendez-vous psychiatrique : dernière occasion de soin et collision des récits  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_psychiatrique` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
-- **S45-A152** — S45-A152 — Dernière photographie : fleurs, blue room et visage hanté  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_finale` ; importance : `critique` ; preuve : `témoignage direct + photographie existante mentionnée`.
 
 ## 7. Citations disponibles
 
@@ -380,6 +381,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Factory (2)
 - archive (2)
 - Love Will Tear Us Apart (2)
+- mythe Curtis (2)
 - rainbow theatre (2)
 - moonlight club (2)
 - in a lonely place (2)
@@ -426,7 +428,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - vérité par archive domestique (1)
 - nom comme preuve (1)
 - foyer devenu enquête (1)
-- révélation suspendue (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -648,6 +649,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | archive_vivante | 1 |
 | concept | 1 |
 | citation_repere | 1 |
+| synthese | 1 |
 | iconographie | 1 |
 | image_et_reception | 1 |
 | concert_iconographie | 1 |
@@ -680,7 +682,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | critique | 85 |
-| non qualifiée | 78 |
+| non qualifiée | 79 |
 | majeur | 24 |
 | majeure | 2 |
 

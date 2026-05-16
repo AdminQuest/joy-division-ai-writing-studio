@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T10:25:49"
+generated_at: "2026-05-16T12:50:44"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 290 |
+| Atomes | 294 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
 | Personnes | 19 |
 | Chansons | 18 |
-| Sources mobilisées | 13 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
+| S15 | S15 — De Luca, The Sound and the Fury, 2021 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
@@ -151,6 +152,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S13-A007** — S13-A007 — Unknown Pleasures : laboratoire sonore, bruit et spatialisation  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `economie_sonore` ; importance : `majeur` ; preuve : `lecture critique ; faits techniques à corroborer`.
+- **S15-A009** — S15-A009 — Peter Hook : de la sidération à la nécessité de faire  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `memoire` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S15-A010** — S15-A010 — *Spiral Scratch* : le DIY comme seuil d’autonomie mancunienne  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A011** — S15-A011 — 1978 : le punk devient post-punk à Manchester  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S15-A015** — S15-A015 — Joy Division comme unité, contre la réduction au seul mythe Curtis  
+  Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
@@ -275,14 +284,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-011** — S46-011 — RCA, Arrow Studios et l’album avorté  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_avortee` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-017** — S46-017 — *A Factory Sample* et Cargo Studios  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-020** — S46-020 — Strawberry Studios et l’enregistrement d’*Unknown Pleasures*  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-021** — S46-021 — Réception NME à Eric’s : Joy Division comme « Important Band »  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-024** — S46-024 — Le second Peel Session  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `broadcast` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -380,7 +381,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 11. Concepts récurrents
 
-- Martin Hannett (20)
+- Martin Hannett (21)
 - architecture sonore (16)
 - Unknown Pleasures (14)
 - Ian Curtis (11)
@@ -391,11 +392,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Transmission (7)
 - Cargo Studios (7)
 - Stephen Morris (7)
+- Peter Hook (7)
 - martin hannett (6)
 - espace sonore (6)
 - A Factory Sample (6)
 - voix (6)
-- Peter Hook (6)
 - ian curtis (6)
 - basse melodique (6)
 - digital (5)
@@ -434,6 +435,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - prudence historiographique (3)
 - cinquième membre (3)
 - Hannett (3)
+- new wave (3)
 - basse (3)
 - apprentissage autodidacte (3)
 - Granada Reports (3)
@@ -459,7 +461,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - FAC 2 (2)
 - Martin Zero (2)
 - avril 1979 (2)
-- Ian Wood (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -596,12 +597,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Type | Nombre |
 |---|---|
 | non qualifié | 34 |
+| production | 17 |
 | session_studio | 17 |
-| production | 16 |
 | analyse_morceau | 11 |
+| analyse | 10 |
 | lecture_musicale | 10 |
 | processus_creatif | 9 |
-| analyse | 9 |
 | fait | 9 |
 | session | 7 |
 | lieu_studio | 5 |
@@ -701,6 +702,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | temoignage_retrospectif | 1 |
 | interpretation_critique | 1 |
 | biographie | 1 |
+| memoire | 1 |
+| synthese | 1 |
 | relation_studio | 1 |
 | controverse_studio | 1 |
 | lecture_reprise | 1 |
@@ -719,7 +722,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 183 |
+| non qualifiée | 187 |
 | critique | 86 |
 | majeure | 11 |
 | majeur | 10 |
