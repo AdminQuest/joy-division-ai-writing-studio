@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T06:01:58"
+generated_at: "2026-05-16T06:13:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ generated_at: "2026-05-16T06:01:58"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 64 |
+| Atomes | 71 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -86,6 +87,20 @@ generated_at: "2026-05-16T06:01:58"
 
 ## 6. Autres atomes utiles
 
+- **S02-A001** — S02-A001 — Manchester comme archétype de la shrinking city industrielle  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A002** — S02-A002 — Désindustrialisation, emploi et déclin démographique  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `fait_cadre` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A003** — S02-A003 — Changement d’échelle : City of Manchester, Greater Manchester et aire urbaine  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A004** — S02-A004 — La ville rétrécie : vacance, réseaux et coût des infrastructures  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A008** — S02-A008 — Hulme comme laboratoire et limite du renouvellement urbain  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `lieu` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A009** — S02-A009 — Cultures urbaines, post-punk et régénération symbolique de Manchester  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `culture_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-PART-MANCHESTER-SHRINKING-CITY-V2** — S02 — Passe v2 — Manchester, shrinking city et renouveau urbain  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-005** — S41-005 — Enfance de Hook : Salford, violence domestique et monde ouvrier  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
@@ -217,6 +232,7 @@ generated_at: "2026-05-16T06:01:58"
 - Macclesfield (3)
 - classe ouvriere (3)
 - biographie contre mythe social (2)
+- post-punk (2)
 - factory records (2)
 - new hormones (2)
 - buzzcocks (2)
@@ -238,7 +254,10 @@ generated_at: "2026-05-16T06:01:58"
 - scène d’apprentissage (2)
 - salford (2)
 - géographie biographique (2)
+- désindustrialisation (2)
 - mémoire ouvrière (2)
+- shrinking city (2)
+- Factory Records (2)
 - ville télévisuelle (1)
 - médiation audiovisuelle (1)
 - Manchester monté en noir et blanc (1)
@@ -252,7 +271,6 @@ generated_at: "2026-05-16T06:01:58"
 - seuil de preuve politique (1)
 - distinction anecdote / position idéologique (1)
 - formulation contrôlée (1)
-- post-punk (1)
 - âge d’or (1)
 - présentisme (1)
 - contre-culture (1)
@@ -283,9 +301,6 @@ generated_at: "2026-05-16T06:01:58"
 - rivalité locale (1)
 - scène post-punk (1)
 - trafford park (1)
-- pollution (1)
-- industrial estate (1)
-- paysage sonore (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -410,11 +425,12 @@ generated_at: "2026-05-16T06:01:58"
 | contexte_social | 3 |
 | concept | 3 |
 | tension_documentaire | 2 |
+| prudence_methodologique | 2 |
 | methode | 2 |
 | chronologie | 2 |
+| concept_structurant | 2 |
 | mediation_visuelle | 1 |
 | contexte_scene | 1 |
-| prudence_methodologique | 1 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
 | citation_contextualisee | 1 |
@@ -432,6 +448,10 @@ generated_at: "2026-05-16T06:01:58"
 | lieu_culturel | 1 |
 | sociabilite_scene | 1 |
 | geographie_sociale | 1 |
+| source_part | 1 |
+| fait_cadre | 1 |
+| lieu | 1 |
+| culture_urbaine | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
@@ -441,7 +461,7 @@ generated_at: "2026-05-16T06:01:58"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 44 |
+| non qualifiée | 51 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

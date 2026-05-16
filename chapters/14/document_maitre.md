@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T06:01:58"
+generated_at: "2026-05-16T06:13:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 763 |
+| Atomes | 769 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
@@ -122,6 +123,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ## 6. Autres atomes utiles
 
+- **S02-A005** — S02-A005 — Le renouvellement urbain comme réponse politique au déclin  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A006** — S02-A006 — Manchester entrepreneuriale : partenariats, événements et compétition territoriale  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A007** — S02-A007 — La bombe de l’IRA de 1996 comme accélérateur de recomposition du centre-ville  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `evenement_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A009** — S02-A009 — Cultures urbaines, post-punk et régénération symbolique de Manchester  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `culture_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A010** — S02-A010 — Le modèle Manchester reste traversé par des inégalités et des limites sociales  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `limite_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-PART-MANCHESTER-SHRINKING-CITY-V2** — S02 — Passe v2 — Manchester, shrinking city et renouveau urbain  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-014** — S41-014 — Lesser Free Trade Hall, 4 juin 1976 : mythe et expérience vécue  
@@ -270,18 +283,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_identitaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + interprétation`.
 - **S41-A188** — S41-A188 — U2 à Britannia Row : prétendants humides, Hannett et bifurcation des carrières  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau_postpunk` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A189** — S41-A189 — Saville, Staglieno et *Closer* : image funéraire choisie avant la mort  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthetique_visuelle` ; importance : `critique` ; preuve : `témoignage direct + objet visuel documenté`.
-- **S41-A191** — S41-A191 — Moonlight Club : Factory comme vitrine et Polydor comme regard industriel  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_industrielle` ; importance : `majeur` ; preuve : `témoignage direct + citation rapportée`.
-- **S41-A195** — S41-A195 — Bury riot : guest list de Rob, violence de salle et débordement de Factory  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `violence_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A198** — S41-A198 — Tony et Lindsay Wilson : refuge après Bury et temporalité de récupération  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_refuge` ; importance : `majeur` ; preuve : `synthèse Hook + chronologie biographique`.
-- **S41-A202** — S41-A202 — Amérique : excitation collective et contradiction Genesis  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + contradiction mémorielle`.
-- **S41-A203** — S41-A203 — Vidéo « Love Will Tear Us Apart » : anti-mime, live impossible et erreur devenue canon  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet audiovisuel vérifiable`.
 
 ## 7. Citations disponibles
 
@@ -449,20 +450,20 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - presse musicale (10)
 - John Peel (10)
 - Dead Souls (9)
+- Factory Records (9)
 - An Ideal for Living (9)
 - rob gretton (9)
 - authenticité (9)
 - indépendance (8)
 - Transmission (8)
-- Factory Records (8)
 - mythe (8)
 - postérité (8)
+- post-punk (7)
 - Bernard Sumner (7)
 - Warsaw (7)
 - Martin Hannett (7)
 - Closer (7)
 - factory (7)
-- post-punk (6)
 - joy division (6)
 - goth (6)
 - archive (6)
@@ -748,6 +749,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept_management | 2 |
 | bascule_tournee | 2 |
 | concert_archive | 2 |
+| politique_urbaine | 2 |
 | marketing | 2 |
 | album | 2 |
 | reception_starification | 1 |
@@ -991,6 +993,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_deuil_mythographique | 1 |
 | scene_deuil_collectif | 1 |
 | concert_filme | 1 |
+| source_part | 1 |
+| evenement_urbain | 1 |
+| culture_urbaine | 1 |
+| limite_interpretative | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -1021,7 +1027,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 477 |
+| non qualifiée | 483 |
 | critique | 218 |
 | majeure | 39 |
 | majeur | 25 |

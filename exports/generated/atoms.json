@@ -74225,6 +74225,406 @@
   },
   {
     "kind": "atom",
+    "id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02 — Passe v2 — Manchester, shrinking city et renouveau urbain",
+    "data": {
+      "id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "type_unite": "source_part",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "passage_atomise": "Section « Manchester : shrinking city et renouveau urbain », p. 303-316 du rapport ; reste du rapport exclu de cette passe.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "source_short_title": "Jean-Pierre Sueur / Sénat, Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses, 2011",
+      "source_year": "2011"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S02-A001",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02-A001 — Manchester comme archétype de la shrinking city industrielle",
+    "data": {
+      "id": "S02-A001",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "source_short_title": "Sueur / Sénat, Villes du futur, futur des villes, 2011",
+      "source_year": "2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "pages_rapport": "303-316",
+      "type_unite": "concept_structurant",
+      "concepts": [
+        "shrinking city",
+        "ville industrielle",
+        "déclin urbain",
+        "Manchester post-industriel"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire institutionnelle",
+      "methodological_warnings": [
+        "Ne pas utiliser S02 comme source primaire sur Manchester.",
+        "Croiser les données chiffrées avec S01, S03 et S04."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S02-A002",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02-A002 — Désindustrialisation, emploi et déclin démographique",
+    "data": {
+      "id": "S02-A002",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "source_short_title": "Sueur / Sénat, Villes du futur, futur des villes, 2011",
+      "source_year": "2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "pages_rapport": "303-316",
+      "type_unite": "fait_cadre",
+      "concepts": [
+        "désindustrialisation",
+        "emploi industriel",
+        "déclin démographique",
+        "base économique"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire institutionnelle",
+      "methodological_warnings": [
+        "Ne pas traiter les ordres de grandeur de S02 comme source statistique brute.",
+        "Préciser l’échelle géographique concernée avant tout usage rédactionnel."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S02-A003",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02-A003 — Changement d’échelle : City of Manchester, Greater Manchester et aire urbaine",
+    "data": {
+      "id": "S02-A003",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "source_short_title": "Sueur / Sénat, Villes du futur, futur des villes, 2011",
+      "source_year": "2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "pages_rapport": "303-316",
+      "type_unite": "prudence_methodologique",
+      "concepts": [
+        "échelle urbaine",
+        "City of Manchester",
+        "Greater Manchester",
+        "aire métropolitaine"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire institutionnelle",
+      "methodological_warnings": [
+        "Distinguer systématiquement municipalité, conurbation et région urbaine."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S02-A004",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02-A004 — La ville rétrécie : vacance, réseaux et coût des infrastructures",
+    "data": {
+      "id": "S02-A004",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "source_short_title": "Sueur / Sénat, Villes du futur, futur des villes, 2011",
+      "source_year": "2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "pages_rapport": "303-316",
+      "type_unite": "concept_structurant",
+      "concepts": [
+        "shrinking city",
+        "vacance urbaine",
+        "réseaux urbains",
+        "base fiscale"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire institutionnelle",
+      "methodological_warnings": [
+        "Ne pas réduire la shrinking city à une baisse de population."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S02-A005",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02-A005 — Le renouvellement urbain comme réponse politique au déclin",
+    "data": {
+      "id": "S02-A005",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "source_short_title": "Sueur / Sénat, Villes du futur, futur des villes, 2011",
+      "source_year": "2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "pages_rapport": "303-316",
+      "type_unite": "politique_urbaine",
+      "concepts": [
+        "renouvellement urbain",
+        "régénération urbaine",
+        "politiques publiques",
+        "recomposition territoriale"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire institutionnelle",
+      "methodological_warnings": [
+        "Ne pas présenter la régénération comme un processus linéaire ou unanimement réussi."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S02-A006",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02-A006 — Manchester entrepreneuriale : partenariats, événements et compétition territoriale",
+    "data": {
+      "id": "S02-A006",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "source_short_title": "Sueur / Sénat, Villes du futur, futur des villes, 2011",
+      "source_year": "2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "pages_rapport": "303-316",
+      "type_unite": "politique_urbaine",
+      "concepts": [
+        "ville entrepreneuriale",
+        "partenariats public-privé",
+        "compétition territoriale",
+        "événementialisation"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire institutionnelle",
+      "methodological_warnings": [
+        "Ne pas confondre récit d’attractivité et transformation sociale effective."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S02-A007",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02-A007 — La bombe de l’IRA de 1996 comme accélérateur de recomposition du centre-ville",
+    "data": {
+      "id": "S02-A007",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "source_short_title": "Sueur / Sénat, Villes du futur, futur des villes, 2011",
+      "source_year": "2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "pages_rapport": "303-316",
+      "type_unite": "evenement_urbain",
+      "concepts": [
+        "centre-ville",
+        "reconstruction",
+        "régénération urbaine",
+        "événement déclencheur"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire institutionnelle",
+      "related_events": [
+        "IRA 1996"
+      ],
+      "methodological_warnings": [
+        "Ne pas transformer l’attentat de 1996 en cause unique de la régénération mancunienne."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S02-A008",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02-A008 — Hulme comme laboratoire et limite du renouvellement urbain",
+    "data": {
+      "id": "S02-A008",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "source_short_title": "Sueur / Sénat, Villes du futur, futur des villes, 2011",
+      "source_year": "2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "pages_rapport": "303-316",
+      "type_unite": "lieu",
+      "concepts": [
+        "Hulme",
+        "logement social",
+        "rénovation urbaine",
+        "coût social de la régénération"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire institutionnelle",
+      "related_places": [
+        "Hulme"
+      ],
+      "methodological_warnings": [
+        "Croiser avec S06 et les sources spécialisées sur Hulme avant d’entrer dans le détail social."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S02-A009",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02-A009 — Cultures urbaines, post-punk et régénération symbolique de Manchester",
+    "data": {
+      "id": "S02-A009",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "source_short_title": "Sueur / Sénat, Villes du futur, futur des villes, 2011",
+      "source_year": "2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "pages_rapport": "303-316",
+      "type_unite": "culture_urbaine",
+      "concepts": [
+        "cultures urbaines",
+        "post-punk",
+        "Factory Records",
+        "Hacienda",
+        "régénération symbolique"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire institutionnelle",
+      "related_organizations": [
+        "Factory Records",
+        "Hacienda"
+      ],
+      "methodological_warnings": [
+        "Ne pas utiliser S02 pour établir l’histoire interne de Joy Division.",
+        "Utiliser S02 comme cadre urbain et symbolique, non comme source musicologique."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S02-A010",
+    "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+    "heading": "S02-A010 — Le modèle Manchester reste traversé par des inégalités et des limites sociales",
+    "data": {
+      "id": "S02-A010",
+      "source_id": "S02",
+      "source_label": "S02 — Sueur, Villes du futur, futur des villes, 2011",
+      "source_short_title": "Sueur / Sénat, Villes du futur, futur des villes, 2011",
+      "source_year": "2011",
+      "auteur": "Jean-Pierre Sueur / Sénat",
+      "auteur_section_manchester": "Pauline Malet",
+      "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
+      "section": "Manchester : shrinking city et renouveau urbain",
+      "pages_rapport": "303-316",
+      "type_unite": "limite_interpretative",
+      "concepts": [
+        "régénération inégale",
+        "pauvreté urbaine",
+        "attractivité",
+        "limites du modèle"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire institutionnelle",
+      "methodological_warnings": [
+        "Ne pas présenter Manchester comme succès urbain homogène."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S41-040",
     "file": "sources/hook/atomisation_02_transmission_1978.md",
     "heading": "S41-040 — Dernier concert sous le nom Warsaw",

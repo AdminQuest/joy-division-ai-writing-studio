@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T06:01:58"
+generated_at: "2026-05-16T06:13:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ generated_at: "2026-05-16T06:01:58"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 171 |
+| Atomes | 181 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 10 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 46 | 2 |
@@ -52,6 +53,26 @@ generated_at: "2026-05-16T06:01:58"
 
 ## 6. Autres atomes utiles
 
+- **S02-A001** — S02-A001 — Manchester comme archétype de la shrinking city industrielle  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A003** — S02-A003 — Changement d’échelle : City of Manchester, Greater Manchester et aire urbaine  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A004** — S02-A004 — La ville rétrécie : vacance, réseaux et coût des infrastructures  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A005** — S02-A005 — Le renouvellement urbain comme réponse politique au déclin  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A006** — S02-A006 — Manchester entrepreneuriale : partenariats, événements et compétition territoriale  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A007** — S02-A007 — La bombe de l’IRA de 1996 comme accélérateur de recomposition du centre-ville  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `evenement_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A008** — S02-A008 — Hulme comme laboratoire et limite du renouvellement urbain  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `lieu` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A009** — S02-A009 — Cultures urbaines, post-punk et régénération symbolique de Manchester  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `culture_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-A010** — S02-A010 — Le modèle Manchester reste traversé par des inégalités et des limites sociales  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `limite_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S02-PART-MANCHESTER-SHRINKING-CITY-V2** — S02 — Passe v2 — Manchester, shrinking city et renouveau urbain  
+  Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-023** — S41-023 — Terry Mason : membre fondateur périphérique  
@@ -192,26 +213,6 @@ generated_at: "2026-05-16T06:01:58"
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `strategie_management` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-046** — S46-046 — Factory Tour : limites de la reconnaissance londonienne  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-047** — S46-047 — Bowdon Vale, guitare de Curtis et obscurité scénique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `scene_detail` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-055** — S46-055 — « Transmission » et l’intérêt des majors américaines  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `industrie_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-056** — S46-056 — Les Bains-Douches comme entrée française du mythe live  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_broadcast` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-057** — S46-057 — Paradiso : deux sets pour un même prix  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_exceptionnel` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-058** — S46-058 — Plan K : Burroughs, Bruxelles et la rue de Manchester  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_international` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-059** — S46-059 — Leeds University : foule écrasée et Curtis aidé hors scène  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_incident` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-060** — S46-060 — Projet avorté de concert au Reichstag  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `projet_avorte` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-072** — S46-072 — Electric Circus, 29 mai 1977 : premier concert Warsaw  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-073** — S46-073 — Premier concert : malaise de Curtis et réactions mitigées  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-074** — S46-074 — Rafters, 30 juin 1977 : premier concert vraiment observé  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -286,6 +287,7 @@ generated_at: "2026-05-16T06:01:58"
 - dernier concert (3)
 - Here Are the Young Men (3)
 - Unknown Pleasures (3)
+- Factory Records (3)
 - performance (3)
 - live (3)
 - son live (3)
@@ -317,7 +319,6 @@ generated_at: "2026-05-16T06:01:58"
 - 25 janvier 1978 (2)
 - première apparition (2)
 - Stiff Test (2)
-- Chiswick Challenge (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -357,15 +358,17 @@ generated_at: "2026-05-16T06:01:58"
 | anecdote_significative | 4 |
 | acteur | 3 |
 | concert_incident | 3 |
+| lieu | 3 |
 | industrie_musicale | 3 |
 | evenement_live | 3 |
 | fait_sensible | 3 |
 | infrastructure | 2 |
 | chronologie_tournee | 2 |
-| lieu | 2 |
 | projet_avorte | 2 |
 | dynamique_collective | 2 |
 | archive | 2 |
+| concept_structurant | 2 |
+| politique_urbaine | 2 |
 | contexte | 2 |
 | chronologie_live | 2 |
 | concept_transversal | 2 |
@@ -411,6 +414,11 @@ generated_at: "2026-05-16T06:01:58"
 | acteur_scene | 1 |
 | micro_chronologie | 1 |
 | non qualifié | 1 |
+| source_part | 1 |
+| prudence_methodologique | 1 |
+| evenement_urbain | 1 |
+| culture_urbaine | 1 |
+| limite_interpretative | 1 |
 | contexte_materiel | 1 |
 | témoignage_externe | 1 |
 | decision_strategique | 1 |
@@ -425,7 +433,7 @@ generated_at: "2026-05-16T06:01:58"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 170 |
+| non qualifiée | 180 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

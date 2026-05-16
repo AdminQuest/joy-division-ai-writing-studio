@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-16T06:01:53",
+  "generated_at": "2026-05-16T06:13:44",
   "summary": {
-    "records_total": 3429,
+    "records_total": 3455,
     "records_by_kind": {
-      "atom": 1641,
+      "atom": 1652,
       "quote": 353,
       "chronology": 335,
       "metadata": 21,
       "source": 56,
-      "unknown": 126,
+      "unknown": 133,
+      "template": 271,
       "song": 41,
-      "template": 263,
       "quote_batch": 1,
       "rules": 1,
       "motif": 253,
@@ -18,9 +18,9 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16711,
+    "diagnostics_total": 16830,
     "errors": 0,
-    "warnings": 16711,
+    "warnings": 16830,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 13,
     "sources_exported": 13,
@@ -29,7 +29,7 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1641,
+    "atom": 1652,
     "chronology": 335,
     "concept": 170,
     "metadata": 21,
@@ -41,13 +41,14 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 263,
-    "unknown": 126
+    "template": 271,
+    "unknown": 133
   },
   "records_by_source": {
     "S02": {
       "metadata": 3,
-      "unknown": 1
+      "atom": 11,
+      "unknown": 8
     },
     "S41": {
       "atom": 430,
@@ -130,12 +131,12 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 123,
+    "Chapitre 1": 131,
     "Chapitre 10": 233,
     "Chapitre 11": 213,
     "Chapitre 12": 463,
     "Chapitre 13": 109,
-    "Chapitre 14": 971,
+    "Chapitre 14": 978,
     "Chapitre 2": 345,
     "Chapitre 3": 382,
     "Chapitre 4": 294,
@@ -143,7 +144,7 @@
     "Chapitre 6": 563,
     "Chapitre 7": 101,
     "Chapitre 8": 311,
-    "Chapitre 9": 205,
+    "Chapitre 9": 216,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -271,12 +272,12 @@
     ]
   ],
   "issue_categories": {
-    "field_type_error": 135,
-    "invalid_controlled_value": 1364,
-    "missing_required_field": 4807,
+    "field_type_error": 145,
+    "invalid_controlled_value": 1376,
+    "missing_required_field": 4808,
     "schema_warning": 399,
-    "unknown_yaml_block": 126,
-    "v2_migration_debt": 9880
+    "unknown_yaml_block": 133,
+    "v2_migration_debt": 9969
   },
   "top_files_by_issue_count": [
     [
@@ -402,6 +403,14 @@
   ],
   "blocking_errors": [],
   "unknown_yaml_blocks": [
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md",
+      "record_id": "ORGS-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
@@ -1373,6 +1382,30 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
+      "record_id": "REL-RAG-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
+      "record_id": "PLACES-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/motifs/s02_sueur_motifs_manchester_shrinking_city_v2.md",
+      "record_id": "MOTIFS-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
       "record_id": "MOTIFS-S69-NOSTALGIE-MEMOIRE-V2",
       "message": "Unable to infer documentary kind",
@@ -1397,6 +1430,22 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/concepts/s02_sueur_concepts_manchester_shrinking_city_v2.md",
+      "record_id": "CONCEPTS-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
+      "record_id": "MYTHES-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md",
       "record_id": "MYTHES-S69-NOSTALGIE-MEMOIRE-V2",
       "message": "Unable to infer documentary kind",
@@ -1409,13 +1458,21 @@
       "record_id": "CHRONO-S69-NOSTALGIE-MEMOIRE-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md",
+      "record_id": "CHRONO-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     }
   ],
   "v2_migration": {
-    "atoms_total": 1641,
+    "atoms_total": 1652,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1580,
-    "v2_missing_field_warnings": 9880
+    "atoms_v2_incomplete": 1591,
+    "v2_missing_field_warnings": 9969
   },
   "source_registry": {
     "declared_but_unused": [
@@ -1975,13 +2032,21 @@
         "auteur": "Jean-Pierre Sueur / Sénat",
         "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
         "annee": "2011",
-        "records": 4,
-        "atoms": 0,
+        "records": 22,
+        "atoms": 11,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md",
+          "registers/concepts/s02_sueur_concepts_manchester_shrinking_city_v2.md",
+          "registers/motifs/s02_sueur_motifs_manchester_shrinking_city_v2.md",
+          "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
+          "registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md",
+          "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
+          "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
           "registers/references/s02_sueur_source_canonique.md",
-          "sources/sueur_villes_du_futur/source.md"
+          "sources/sueur_villes_du_futur/source.md",
+          "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md"
         ]
       },
       {
@@ -94950,6 +95015,902 @@
     },
     {
       "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Invalid value for statut: integration_directe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-PART-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A001",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A001",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A001",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A002",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A002",
+      "message": "Invalid value for type_unite: fait_cadre",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A002",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A003",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A003",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A003",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A004",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A004",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A004",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A005",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A005",
+      "message": "Invalid value for type_unite: politique_urbaine",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A005",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A006",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A006",
+      "message": "Invalid value for type_unite: politique_urbaine",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A006",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A007",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A007",
+      "message": "Invalid value for type_unite: evenement_urbain",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A007",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A008",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A008",
+      "message": "Invalid value for type_unite: lieu",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A008",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A009",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A009",
+      "message": "Invalid value for type_unite: culture_urbaine",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A009",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A010",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A010",
+      "message": "Invalid value for type_unite: limite_interpretative",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md",
+      "record_id": "S02-A010",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
       "category": "v2_migration_debt",
       "file": "sources/hook/atomisation_02_transmission_1978.md",
       "record_id": "S41-040",
@@ -113643,6 +114604,14 @@
       "record_id": "S69-A020",
       "message": "Invalid value for type_unite: synthese",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md",
+      "record_id": "ORGS-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",
@@ -134231,6 +135200,30 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
+      "record_id": "REL-RAG-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
+      "record_id": "PLACES-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/motifs/s02_sueur_motifs_manchester_shrinking_city_v2.md",
+      "record_id": "MOTIFS-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
       "record_id": "MOTIFS-S69-NOSTALGIE-MEMOIRE-V2",
       "message": "Unable to infer documentary kind",
@@ -134951,6 +135944,22 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/concepts/s02_sueur_concepts_manchester_shrinking_city_v2.md",
+      "record_id": "CONCEPTS-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
+      "record_id": "MYTHES-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/myths/s69_greig_strong_mythes_nostalgie_memoire_v2.md",
       "record_id": "MYTHES-S69-NOSTALGIE-MEMOIRE-V2",
       "message": "Unable to infer documentary kind",
@@ -135507,6 +136516,14 @@
       "record_id": "CHR-S45-VOTE-CONSERVATEUR-LOCAL",
       "message": "Missing required field: certainty",
       "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md",
+      "record_id": "CHRONO-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",
