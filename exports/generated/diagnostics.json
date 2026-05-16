@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T04:56:43",
+  "generated_at": "2026-05-16T05:03:01",
   "status": "warning",
   "summary": {
     "records_total": 3425,
@@ -22,10 +22,10 @@
     "diagnostics_total": 16710,
     "errors": 0,
     "warnings": 16710,
-    "sources_declared_in_registre_json": 47,
+    "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 12,
     "sources_exported": 12,
-    "declared_but_unused": 35,
+    "declared_but_unused": 39,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -519,6 +519,67 @@
           "Joy Division",
           "Manchester",
           "production musicale"
+        ]
+      },
+      {
+        "source_id": "S36",
+        "source_label": "S36 — Crosthwaite, Trauma and Degeneration, 2016",
+        "auteur": "Paul Crosthwaite",
+        "titre": "Trauma and Degeneration: Joy Division and Pop Criticism’s Imaginative Historicism",
+        "annee": "2016",
+        "statut": "a_consolider",
+        "usage": [
+          "réception critique",
+          "méthode",
+          "historicisme imaginatif",
+          "anti-déterminisme",
+          "double temporalité"
+        ]
+      },
+      {
+        "source_id": "S38",
+        "source_label": "S38 — Saville / Manchester United / adidas, Pulsebeat of Manchester, 2022–2024",
+        "auteur": "Peter Saville ; Manchester United ; adidas",
+        "titre": "Pulsebeat of Manchester collection",
+        "annee": "2022–2024",
+        "statut": "a_consolider",
+        "usage": [
+          "patrimonialisation",
+          "design",
+          "Unknown Pleasures",
+          "Manchester United",
+          "adidas",
+          "institutionnalisation"
+        ]
+      },
+      {
+        "source_id": "S39",
+        "source_label": "S39 — Bauman, Liquid Modernity / La vie liquide, 2000–2006",
+        "auteur": "Zygmunt Bauman",
+        "titre": "Liquid Modernity ; La vie liquide",
+        "annee": "2000–2006",
+        "statut": "verifie",
+        "usage": [
+          "modernité liquide",
+          "liquidité",
+          "dissolution des liens sociaux",
+          "mobilité",
+          "fragilité des structures"
+        ]
+      },
+      {
+        "source_id": "S40",
+        "source_label": "S40 — Cacciatore, Waiting for Something to Happen, 2019",
+        "auteur": "Fortunato M. Cacciatore",
+        "titre": "…WAITING FOR SOMETHING TO HAPPEN…",
+        "annee": "2019",
+        "statut": "verifie",
+        "usage": [
+          "nostalgie du futur",
+          "temps",
+          "futur perdu",
+          "temporalité suspendue",
+          "hantologie"
         ]
       },
       {
