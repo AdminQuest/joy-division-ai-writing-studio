@@ -35,8 +35,8 @@ atomes:
   - S13-A007
   - S13-A003
 concepts:
-  - CONCEPT-065
-  - CONCEPT-068
+  - CONCEPT-S13-001
+  - CONCEPT-S13-004
 usage: >
   S13 apporte une lecture de *Unknown Pleasures* comme laboratoire sonore et de Joy Division comme seuil d’écoute post-punk vers une sensibilité électronique. À utiliser en contrepoint des sources Hook / Hannett / Ott / Middles.
 prudence: >
@@ -74,9 +74,9 @@ atomes:
   - S13-A007
   - S13-A009
 concepts:
-  - CONCEPT-065
-  - CONCEPT-066
-  - CONCEPT-067
+  - CONCEPT-S13-001
+  - CONCEPT-S13-002
+  - CONCEPT-S13-003
 motifs:
   - MOTIF-S13-001
   - MOTIF-S13-002
@@ -96,7 +96,7 @@ atomes:
   - S13-A008
   - S13-A009
 concepts:
-  - CONCEPT-068
+  - CONCEPT-S13-004
 usage: >
   L’Haçienda peut être traitée comme une infrastructure posthume, financée et symboliquement portée par l’après Joy Division / New Order. Le chapitre 8 peut s’en servir pour montrer que la mémoire du groupe circule aussi par lieux, clubs, récits et économies parallèles.
 prudence: >
@@ -114,8 +114,8 @@ atomes:
   - S13-A005
   - S13-A006
 concepts:
-  - CONCEPT-066
-  - CONCEPT-067
+  - CONCEPT-S13-002
+  - CONCEPT-S13-003
 usage: >
   S13 permet d’écrire la transformation du malaise individuel en expérience collective fragile. La communauté sonore se substitue au discours politique ou au message explicite.
 prudence: >
@@ -150,9 +150,9 @@ atomes:
   - S13-A009
   - S13-A010
 concepts:
-  - CONCEPT-065
-  - CONCEPT-068
-  - CONCEPT-069
+  - CONCEPT-S13-001
+  - CONCEPT-S13-004
+  - CONCEPT-S13-005
 mythes:
   - MYTH-S13-001
   - MYTH-S13-003
