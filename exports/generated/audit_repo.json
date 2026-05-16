@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T21:46:00",
+  "generated_at": "2026-05-16T04:49:12",
   "summary": {
     "records_total": 3425,
     "records_by_kind": {
@@ -21,10 +21,10 @@
     "diagnostics_total": 16710,
     "errors": 0,
     "warnings": 16710,
-    "sources_declared_in_registre_json": 19,
+    "sources_declared_in_registre_json": 32,
     "sources_used_in_records": 12,
     "sources_exported": 12,
-    "declared_but_unused": 7,
+    "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -1413,8 +1413,13 @@
         "auteur": "Georgina Blakeley ; Brendan Evans",
         "titre": "The Regeneration of East Manchester: A Political Analysis",
         "annee": "2013",
-        "statut": "consolidée",
-        "usage": "déclin de l’emploi ; East Manchester ; contexte socio-économique"
+        "statut": "verifie",
+        "usage": [
+          "déclin de l’emploi",
+          "East Manchester",
+          "base économique",
+          "contexte socio-économique"
+        ]
       },
       {
         "source_id": "S02",
@@ -1422,8 +1427,13 @@
         "auteur": "Jean-Pierre Sueur / Sénat",
         "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
         "annee": "2011",
-        "statut": "consolidée",
-        "usage": "shrinking city ; déclin démographique ; emploi ; Manchester"
+        "statut": "verifie",
+        "usage": [
+          "shrinking city",
+          "déclin démographique",
+          "emploi",
+          "Manchester / Greater Manchester"
+        ]
       },
       {
         "source_id": "S03",
@@ -1431,8 +1441,12 @@
         "auteur": "Demographia",
         "titre": "England Largest Cities: Population & Density from 1891",
         "annee": "s.d.",
-        "statut": "consolidée comme source statistique web ; à archiver",
-        "usage": "démographie urbaine ; Manchester ; séries historiques"
+        "statut": "a_consolider",
+        "usage": [
+          "démographie urbaine",
+          "périmètres",
+          "séries historiques Manchester / Greater Manchester"
+        ]
       },
       {
         "source_id": "S04",
@@ -1440,26 +1454,224 @@
         "auteur": "Alan J. Kidd",
         "titre": "Manchester: A History",
         "annee": "2006",
-        "statut": "consolidée",
-        "usage": "industrialisation ; histoire urbaine ; désindustrialisation"
+        "statut": "verifie",
+        "usage": [
+          "histoire urbaine",
+          "désindustrialisation",
+          "emplois manufacturiers",
+          "Manchester"
+        ]
       },
       {
         "source_id": "S05",
-        "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
-        "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
-        "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+        "source_label": "S05 — Jeffery, Policing and the Reproduction of Local Social Order, 2015",
+        "auteur": "Peter Jeffery",
+        "titre": "Policing and the Reproduction of Local Social Order: The 1981 Riots in Moss Side, Manchester",
         "annee": "2015",
-        "statut": "consolidée",
-        "usage": "Moss Side ; émeutes ; police ; ordre public"
+        "statut": "verifie",
+        "usage": [
+          "Moss Side",
+          "émeutes",
+          "police",
+          "ordre public",
+          "ordres de grandeur"
+        ]
       },
       {
         "source_id": "S06",
-        "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2023",
+        "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021",
         "auteur": "Isabelle Carter",
         "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
-        "annee": "2023",
-        "statut": "consolidée",
-        "usage": "Hulme ; logement social moderniste ; inner city ; expérience vécue"
+        "annee": "2021",
+        "statut": "a_consolider",
+        "usage": [
+          "Hulme",
+          "Hulme Crescents",
+          "logement social",
+          "échec moderniste",
+          "expérience vécue"
+        ]
+      },
+      {
+        "source_id": "S07",
+        "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845",
+        "auteur": "Friedrich Engels",
+        "titre": "The Condition of the Working Class in England",
+        "annee": "1845",
+        "statut": "a_consolider",
+        "usage": [
+          "conditions de vie",
+          "Salford",
+          "Manchester",
+          "profondeur historique"
+        ]
+      },
+      {
+        "source_id": "S08",
+        "source_label": "S08 — Debord, psychogéographie et dérive, 1955–1958",
+        "auteur": "Guy Debord",
+        "titre": "Textes sur la psychogéographie et la dérive",
+        "annee": "1955–1958",
+        "statut": "a_consolider",
+        "usage": [
+          "psychogéographie",
+          "dérive",
+          "ville",
+          "situationnisme"
+        ]
+      },
+      {
+        "source_id": "S09",
+        "source_label": "S09 — Cummins, Joy Division, 2010",
+        "auteur": "Kevin Cummins",
+        "titre": "Joy Division",
+        "annee": "2010",
+        "statut": "verifie",
+        "usage": [
+          "iconographie",
+          "paysage urbain",
+          "Manchester",
+          "Joy Division",
+          "Hulme / Epping Walk"
+        ]
+      },
+      {
+        "source_id": "S10",
+        "source_label": "S10 — University of Birmingham eTheses, ressource sur Salford, à identifier",
+        "auteur": "University of Birmingham eTheses",
+        "titre": "Thèse / ressource citant Bernard Sumner sur Salford",
+        "annee": "s.d.",
+        "statut": "a_consolider",
+        "usage": [
+          "témoignage",
+          "mémoire urbaine",
+          "Salford"
+        ]
+      },
+      {
+        "source_id": "S11",
+        "source_label": "S11 — UK Treasury / DTI, Financial Statement and Budget Report, 1978–1988",
+        "auteur": "HM Treasury ; Department of Trade and Industry",
+        "titre": "Financial Statement and Budget Report / données budgétaires et industrielles 1978–1988",
+        "annee": "1978–1988",
+        "statut": "a_consolider",
+        "usage": [
+          "austérité",
+          "politique industrielle",
+          "dépenses industrielles",
+          "ère Thatcher"
+        ]
+      },
+      {
+        "source_id": "S12",
+        "source_label": "S12 — Anderton, Chief Constable of Greater Manchester Police, à consolider",
+        "auteur": "James Anderton",
+        "titre": "Figure du chef de police du Greater Manchester",
+        "annee": "1976–1991",
+        "statut": "a_consolider",
+        "usage": [
+          "contrôle social",
+          "répression",
+          "conservatisme moral",
+          "ordre public"
+        ]
+      },
+      {
+        "source_id": "S13",
+        "source_label": "S13 — Tomeo, Dance Dance Dance!, 2021",
+        "auteur": "Caterina Tomeo",
+        "titre": "Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era",
+        "annee": "2021",
+        "statut": "a_consolider",
+        "usage": [
+          "présence absente",
+          "performance",
+          "transe",
+          "rave era",
+          "ordre public / contrôle social à vérifier"
+        ]
+      },
+      {
+        "source_id": "S14",
+        "source_label": "S14 — Happy Mondays, « God’s Cop », 1990",
+        "auteur": "Happy Mondays",
+        "titre": "« God’s Cop »",
+        "annee": "1990",
+        "statut": "verifie",
+        "usage": [
+          "réappropriation musicale",
+          "James Anderton",
+          "police",
+          "mémoire culturelle mancunienne"
+        ]
+      },
+      {
+        "source_id": "S15",
+        "source_label": "S15 — De Luca, The Sound and the Fury, 2021",
+        "auteur": "Daniele De Luca",
+        "titre": "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta",
+        "annee": "2021",
+        "statut": "verifie",
+        "usage": [
+          "concert des Sex Pistols du 4 juin 1976",
+          "scène mancunienne",
+          "événement catalyseur"
+        ]
+      },
+      {
+        "source_id": "S16",
+        "source_label": "S16 — Buzzcocks, « Boredom », 1977",
+        "auteur": "Buzzcocks",
+        "titre": "« Boredom »",
+        "annee": "1977",
+        "statut": "verifie",
+        "usage": [
+          "ennui",
+          "jeunesse",
+          "immobilité sociale",
+          "punk mancunien"
+        ]
+      },
+      {
+        "source_id": "S17",
+        "source_label": "S17 — The Fall, « Rowche Rumble », 1979",
+        "auteur": "The Fall",
+        "titre": "« Rowche Rumble »",
+        "annee": "1979",
+        "statut": "a_consolider",
+        "usage": [
+          "critique sociale",
+          "médicaments",
+          "surmédication",
+          "Manchester"
+        ]
+      },
+      {
+        "source_id": "S18",
+        "source_label": "S18 — Fédida, Manchester : L’éveil d’une scène musicale, 2021",
+        "auteur": "Michel-Angelo Fédida",
+        "titre": "Manchester : L’éveil d’une scène musicale",
+        "annee": "2021",
+        "statut": "a_consolider",
+        "usage": [
+          "punk",
+          "scène mancunienne",
+          "génération",
+          "1976–1982"
+        ]
+      },
+      {
+        "source_id": "S19",
+        "source_label": "S19 — Bourdieu, Les trois états du capital culturel, 1979",
+        "auteur": "Pierre Bourdieu",
+        "titre": "Les trois états du capital culturel",
+        "annee": "1979",
+        "statut": "verifie",
+        "usage": [
+          "capital culturel",
+          "conversion des capitaux",
+          "sociologie de la culture"
+        ]
       },
       {
         "source_id": "S73",
