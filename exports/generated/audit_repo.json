@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T20:35:31",
+  "generated_at": "2026-05-16T20:46:24",
   "summary": {
-    "records_total": 4039,
+    "records_total": 4043,
     "records_by_kind": {
       "atom": 1833,
-      "metadata": 69,
+      "source": 61,
+      "metadata": 71,
       "quote": 358,
       "chronology": 343,
-      "source": 60,
-      "unknown": 307,
+      "unknown": 308,
       "concept": 215,
       "motif": 287,
       "myth": 31,
@@ -18,13 +18,13 @@
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 19083,
+    "diagnostics_total": 19084,
     "errors": 0,
-    "warnings": 19083,
+    "warnings": 19084,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 26,
-    "sources_exported": 26,
-    "declared_but_unused": 25,
+    "sources_used_in_records": 27,
+    "sources_exported": 27,
+    "declared_but_unused": 24,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -32,7 +32,7 @@
     "atom": 1833,
     "chronology": 343,
     "concept": 215,
-    "metadata": 69,
+    "metadata": 71,
     "motif": 287,
     "myth": 31,
     "person": 157,
@@ -40,9 +40,9 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 41,
-    "source": 60,
+    "source": 61,
     "template": 336,
-    "unknown": 307
+    "unknown": 308
   },
   "records_by_source": {
     "S02": {
@@ -145,6 +145,11 @@
       "motif": 7,
       "myth": 4
     },
+    "S27": {
+      "source": 1,
+      "metadata": 2,
+      "unknown": 1
+    },
     "S41": {
       "atom": 430,
       "quote": 9,
@@ -226,13 +231,13 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 260,
+    "Chapitre 1": 262,
     "Chapitre 10": 253,
     "Chapitre 11": 223,
     "Chapitre 12": 471,
     "Chapitre 13": 111,
     "Chapitre 14": 1077,
-    "Chapitre 2": 392,
+    "Chapitre 2": 394,
     "Chapitre 3": 446,
     "Chapitre 4": 312,
     "Chapitre 5": 443,
@@ -371,7 +376,7 @@
     "invalid_controlled_value": 1612,
     "missing_required_field": 5091,
     "schema_warning": 400,
-    "unknown_yaml_block": 307,
+    "unknown_yaml_block": 308,
     "v2_migration_debt": 11524
   },
   "top_files_by_issue_count": [
@@ -2557,6 +2562,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s27_riom_review_crossley_source_canonique.md",
+      "record_id": "REG-S27-RIOM-REVIEW-CROSSLEY-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s26_post_punk_then_now_source_canonique.md",
       "record_id": "REG-S26-POST-PUNK-THEN-NOW-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
@@ -3134,21 +3147,6 @@
         ]
       },
       {
-        "source_id": "S27",
-        "source_label": "S27 — Crossley, Networks of Sound, Style and Subversion, 2015",
-        "auteur": "Nick Crossley",
-        "titre": "Networks of Sound, Style and Subversion: The Punk and Post-Punk Worlds of Manchester, London, Liverpool and Sheffield, 1975–80",
-        "annee": "2015",
-        "statut": "verifie",
-        "usage": [
-          "réseaux",
-          "sociologie",
-          "formation des groupes",
-          "micro-mobilisation",
-          "scènes punk et post-punk"
-        ]
-      },
-      {
         "source_id": "S28",
         "source_label": "S28 — Granada Television / Tony Wilson, So It Goes, 1976–1977",
         "auteur": "Granada Television ; Tony Wilson",
@@ -3628,6 +3626,21 @@
           "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
           "sources/butt_eshun_fisher_post_punk_then_now/source.md",
           "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md"
+        ]
+      },
+      {
+        "source_id": "S27",
+        "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+        "auteur": "Loïc Riom",
+        "titre": "Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980",
+        "annee": "2016",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s27_riom_review_crossley_source_canonique.md",
+          "sources/riom_review_crossley_networks/source.md"
         ]
       },
       {
@@ -154487,6 +154500,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/references/s02_sueur_source_canonique.md",
       "record_id": "REG-S02-SUEUR-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s27_riom_review_crossley_source_canonique.md",
+      "record_id": "REG-S27-RIOM-REVIEW-CROSSLEY-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

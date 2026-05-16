@@ -1,6 +1,51 @@
 [
   {
     "kind": "source",
+    "id": "S27",
+    "file": "sources/riom_review_crossley_networks/source.md",
+    "heading": "S27 — Riom, compte rendu de Crossley, *Networks of Sound, Style and Subversion*, 2016",
+    "data": {
+      "id": "S27",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "source_short_title": "Riom, compte rendu de Crossley, 2016",
+      "source_year": "2016",
+      "auteur": "Loïc Riom",
+      "titre": "Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980",
+      "titre_ouvrage_recense": "Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London, Liverpool and Sheffield, 1975-1980",
+      "auteur_ouvrage_recense": "Nick Crossley",
+      "annee": "2016",
+      "annee_ouvrage_recense": "2015",
+      "revue": "Volume ! La revue des musiques populaires",
+      "volume": "12:2",
+      "dossier": "Special Beatles studies",
+      "date_publication": "2016-03-22",
+      "pagination": "223-225",
+      "editeur": "Association Mélanie Seteun",
+      "doi": "10.4000/volume.4795",
+      "url": "https://journals.openedition.org/volume/4795",
+      "nature": "compte rendu universitaire / note de lecture",
+      "statut": "verifie ; source canonique fixée ; distingue compte rendu et ouvrage recensé",
+      "fiabilite": "forte pour la lecture critique de Riom ; à ne pas confondre avec le livre de Crossley",
+      "source_drive": "https://drive.google.com/file/d/1BXAdvigoOoX4xAtsxDM6Ge9ySc5wNlzZ/view?usp=drive_link",
+      "fichier_source_original": "volume-4795.pdf",
+      "fichier_source_recommande": "S27_riom_review_crossley_networks_volume_2016.pdf",
+      "dossier_source": "sources/riom_review_crossley_networks/",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "niveau_preuve": "source secondaire critique ; compte rendu d’ouvrage",
+      "citation_directe": false
+    }
+  },
+  {
+    "kind": "source",
     "id": "S72",
     "file": "sources/reynolds_rip_it_up/source.md",
     "heading": "Métadonnées",
@@ -1325,8 +1370,8 @@
         "registre historique"
       ],
       "arbitrage": "Déterminer quel ouvrage/article de Crossley fonde l’usage.",
-      "source_short_title": "Nick Crossley, Networks of Sound, Style and Subversion: The Punk and Post-Punk Worlds of Manchester, London, Liverpool and Sheffield, 1975–80, 2015",
-      "source_year": "2015"
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
     }
   },
   {
