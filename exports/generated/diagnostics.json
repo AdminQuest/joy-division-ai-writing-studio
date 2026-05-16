@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T15:45:18",
+  "generated_at": "2026-05-16T15:56:20",
   "status": "warning",
   "summary": {
-    "records_total": 3784,
+    "records_total": 3788,
     "records_by_kind": {
       "atom": 1768,
-      "metadata": 46,
+      "metadata": 48,
       "quote": 358,
       "chronology": 343,
-      "source": 56,
-      "unknown": 218,
+      "source": 57,
+      "unknown": 219,
       "concept": 183,
       "motif": 262,
       "template": 336,
@@ -19,13 +19,13 @@
       "person": 157,
       "myth": 14
     },
-    "diagnostics_total": 18209,
+    "diagnostics_total": 18210,
     "errors": 0,
-    "warnings": 18209,
+    "warnings": 18210,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 22,
-    "sources_exported": 22,
-    "declared_but_unused": 29,
+    "sources_used_in_records": 23,
+    "sources_exported": 23,
+    "declared_but_unused": 28,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -98,21 +98,6 @@
           "dérive",
           "ville",
           "situationnisme"
-        ]
-      },
-      {
-        "source_id": "S09",
-        "source_label": "S09 — Cummins, Joy Division, 2010",
-        "auteur": "Kevin Cummins",
-        "titre": "Joy Division",
-        "annee": "2010",
-        "statut": "verifie",
-        "usage": [
-          "iconographie",
-          "paysage urbain",
-          "Manchester",
-          "Joy Division",
-          "Hulme / Epping Walk"
         ]
       },
       {
@@ -521,6 +506,21 @@
           "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
           "sources/carter_hulme_youth_race_inner_city/source.md",
           "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md"
+        ]
+      },
+      {
+        "source_id": "S09",
+        "source_label": "S09 — Cummins, Joy Division, 2010",
+        "auteur": "Kevin Cummins",
+        "titre": "Joy Division",
+        "annee": "2010",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s09_cummins_joy_division_source_canonique.md",
+          "sources/cummins_joy_division_visual_corpus/source.md"
         ]
       },
       {
@@ -108658,6 +108658,12 @@
       "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REG-S13-TOMEO-DANCE-DANCE-DANCE-SOURCE-CANONIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s09_cummins_joy_division_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S09-CUMMINS-JOY-DIVISION-SOURCE-CANONIQUE"
     },
     {
       "level": "warning",
