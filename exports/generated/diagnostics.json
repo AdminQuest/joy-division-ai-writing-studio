@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T04:49:01",
+  "generated_at": "2026-05-16T04:56:43",
   "status": "warning",
   "summary": {
     "records_total": 3425,
@@ -22,10 +22,10 @@
     "diagnostics_total": 16710,
     "errors": 0,
     "warnings": 16710,
-    "sources_declared_in_registre_json": 32,
+    "sources_declared_in_registre_json": 47,
     "sources_used_in_records": 12,
     "sources_exported": 12,
-    "declared_but_unused": 20,
+    "declared_but_unused": 35,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -295,6 +295,230 @@
           "capital culturel",
           "conversion des capitaux",
           "sociologie de la culture"
+        ]
+      },
+      {
+        "source_id": "S20",
+        "source_label": "S20 — Reynolds, Rip It Up and Start Again, 2005/2006",
+        "auteur": "Simon Reynolds",
+        "titre": "Rip It Up and Start Again: Postpunk 1978–1984",
+        "annee": "2005/2006",
+        "statut": "verifie",
+        "usage": [
+          "post-punk",
+          "scènes locales",
+          "Manchester",
+          "infrastructure culturelle",
+          "City Fun"
+        ]
+      },
+      {
+        "source_id": "S21",
+        "source_label": "S21 — City Fun, fanzine, 1978–1983",
+        "auteur": "City Fun",
+        "titre": "City Fun",
+        "annee": "1978–1983",
+        "statut": "a_consolider",
+        "usage": [
+          "médias alternatifs",
+          "DIY",
+          "politique post-punk",
+          "Factory",
+          "contre-culture mancunienne"
+        ]
+      },
+      {
+        "source_id": "S22",
+        "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+        "auteur": "David Wilkinson",
+        "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
+        "annee": "2018",
+        "statut": "verifie",
+        "usage": [
+          "City Fun",
+          "médias",
+          "politique",
+          "critique de Factory",
+          "Rochdale Alternative Press"
+        ]
+      },
+      {
+        "source_id": "S23",
+        "source_label": "S23 — Rochdale Alternative Press, infrastructure DIY, 1971–1981",
+        "auteur": "Rochdale Alternative Press",
+        "titre": "Rochdale Alternative Press / RAP newspaper press",
+        "annee": "1971–1981",
+        "statut": "a_consolider",
+        "usage": [
+          "DIY",
+          "production",
+          "impression",
+          "contre-culture",
+          "City Fun"
+        ]
+      },
+      {
+        "source_id": "S24",
+        "source_label": "S24 — Richard Boon / New Hormones, Spiral Scratch, 1977",
+        "auteur": "Richard Boon ; Buzzcocks ; New Hormones",
+        "titre": "New Hormones / Spiral Scratch EP",
+        "annee": "1977",
+        "statut": "a_consolider",
+        "usage": [
+          "label indépendant",
+          "distribution directe",
+          "New Hormones",
+          "DIY",
+          "Spiral Scratch"
+        ]
+      },
+      {
+        "source_id": "S25",
+        "source_label": "S25 — Factory Records, philosophie d’indépendance, 1978–1992",
+        "auteur": "Factory Records ; Tony Wilson ; Alan Erasmus",
+        "titre": "Factory Records : écosystème et philosophie des « handshake deals »",
+        "annee": "1978–1992",
+        "statut": "a_consolider",
+        "usage": [
+          "indépendance",
+          "label",
+          "écosystème culturel",
+          "contrats informels",
+          "Factory"
+        ]
+      },
+      {
+        "source_id": "S26",
+        "source_label": "S26 — Butt, Post-Punk Then and Now, 2016",
+        "auteur": "Gavin Butt ; Mark Fisher ; Kodwo Eshun (dir.)",
+        "titre": "Post-Punk Then and Now",
+        "annee": "2016",
+        "statut": "verifie",
+        "usage": [
+          "écoles d’art",
+          "réseaux",
+          "post-punk",
+          "avant-garde",
+          "enseignement artistique"
+        ]
+      },
+      {
+        "source_id": "S27",
+        "source_label": "S27 — Crossley, Networks of Sound, Style and Subversion, 2015",
+        "auteur": "Nick Crossley",
+        "titre": "Networks of Sound, Style and Subversion: The Punk and Post-Punk Worlds of Manchester, London, Liverpool and Sheffield, 1975–80",
+        "annee": "2015",
+        "statut": "verifie",
+        "usage": [
+          "réseaux",
+          "sociologie",
+          "formation des groupes",
+          "micro-mobilisation",
+          "scènes punk et post-punk"
+        ]
+      },
+      {
+        "source_id": "S28",
+        "source_label": "S28 — Granada Television / Tony Wilson, So It Goes, 1976–1977",
+        "auteur": "Granada Television ; Tony Wilson",
+        "titre": "So It Goes",
+        "annee": "1976–1977",
+        "statut": "a_consolider",
+        "usage": [
+          "médiatisation",
+          "TV régionale",
+          "Tony Wilson",
+          "punk",
+          "pont underground-national"
+        ]
+      },
+      {
+        "source_id": "S29",
+        "source_label": "S29 — Goddard, Missions of Dead Souls, 2011",
+        "auteur": "Michael Goddard",
+        "titre": "Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division",
+        "annee": "2011",
+        "statut": "verifie",
+        "usage": [
+          "hantologie",
+          "paysage industriel",
+          "esthétique",
+          "transmutation du local en universel"
+        ]
+      },
+      {
+        "source_id": "S30",
+        "source_label": "S30 — Frith, Sound Effects, 1981",
+        "auteur": "Simon Frith",
+        "titre": "Sound Effects: Youth, Leisure, and the Politics of Rock",
+        "annee": "1981",
+        "statut": "verifie",
+        "usage": [
+          "musique populaire",
+          "résistance culturelle",
+          "rock",
+          "subculture",
+          "politique de la musique"
+        ]
+      },
+      {
+        "source_id": "S31",
+        "source_label": "S31 — Allegri, Living in the Ice Age, 2021",
+        "auteur": "Giuseppe Allegri",
+        "titre": "Living in the Ice Age. Joy Division: un’impresa comune tra post-situazionismo e isolazionismo",
+        "annee": "2021",
+        "statut": "a_consolider",
+        "usage": [
+          "froid",
+          "modernité",
+          "incertitude",
+          "anxiété",
+          "post-situationnisme"
+        ]
+      },
+      {
+        "source_id": "S32",
+        "source_label": "S32 — Kraftwerk, Trans-Europe Express / Radio-Activity, 1975–1977",
+        "auteur": "Kraftwerk",
+        "titre": "Trans-Europe Express ; Radio-Activity",
+        "annee": "1975–1977",
+        "statut": "a_consolider",
+        "usage": [
+          "influence électronique",
+          "avant-garde",
+          "mécanique",
+          "synthétiseurs",
+          "structure"
+        ]
+      },
+      {
+        "source_id": "S33",
+        "source_label": "S33 — Can, Tago Mago, 1971",
+        "auteur": "Can",
+        "titre": "Tago Mago",
+        "annee": "1971",
+        "statut": "a_consolider",
+        "usage": [
+          "krautrock",
+          "expérimentation",
+          "répétition",
+          "rythme",
+          "influence européenne"
+        ]
+      },
+      {
+        "source_id": "S34",
+        "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+        "auteur": "Benjamin Fraser ; Abby Fuoto",
+        "titre": "Manchester, 1976: Documenting the urban nature of Joy Division’s musical production",
+        "annee": "2012",
+        "statut": "verifie",
+        "usage": [
+          "urbanité",
+          "incorporation de l’espace",
+          "Joy Division",
+          "Manchester",
+          "production musicale"
         ]
       },
       {
