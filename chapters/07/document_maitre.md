@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T09:25:56"
+generated_at: "2026-05-16T10:25:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 79 |
-| Atomes critiques / majeurs | 24 |
+| Atomes | 86 |
+| Atomes critiques / majeurs | 29 |
 | Citations | 6 |
 | Événements chronologiques | 9 |
 | Personnes | 7 |
 | Chansons | 7 |
-| Sources mobilisées | 9 |
+| Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
@@ -46,6 +47,14 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ## 5. Atomes critiques ou majeurs
 
+- **S13-A002** — S13-A002 — « Fottiti », « sono fottuto », « acieeeed » : trois régimes affectifs  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_affectif` ; importance : `critique` ; preuve : `proposition critique`.
+- **S13-A003** — S13-A003 — Le sound de Joy Division comme trait d’union critique, non comme cause  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S13-A004** — S13-A004 — Curtis sciamane moderne : voix, corps, transe et sacrifice scénique  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_performance` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S13-A005** — S13-A005 — « Transmission » : écouter le silence et danser à la radio  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `chanson_conceptuelle` ; importance : `critique` ; preuve : `analyse critique d’une chanson`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
@@ -94,6 +103,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S13-A006** — S13-A006 — « No language, just sound » : de la parole au signal corporel  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `motif_textuel` ; importance : `majeur` ; preuve : `analyse textuelle secondaire`.
 
 ## 6. Autres atomes utiles
 
@@ -101,6 +112,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S13-A001** — S13-A001 — Manchester sous Thatcher : scène apocalyptique et résistance musicale  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `contexte_critique` ; importance : `majeur` ; preuve : `source critique secondaire`.
+- **S13-A007** — S13-A007 — Unknown Pleasures : laboratoire sonore, bruit et spatialisation  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `economie_sonore` ; importance : `majeur` ; preuve : `lecture critique ; faits techniques à corroborer`.
 - **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-071** — S41-071 — Martin Hannett : première impression de sorcier technique  
@@ -336,49 +351,69 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ### 12.1. Motifs dominants
 
-- Transmission (2)
+- Transmission (3)
+- silence (3)
+- post-punk (2)
+- radio (2)
+- Hannett (2)
 - électronique (2)
 - objet disque (2)
+- Manchester post-industrielle (1)
+- Thatcher’s Britain (1)
+- résistance culturelle (1)
+- punk (1)
+- rave era (1)
+- rage punk (1)
+- malaise post-punk (1)
+- cri acid house (1)
+- acieeeed (1)
+- sound Joy Division (1)
+- transition post-punk / rave (1)
+- acid house (1)
+- French Kiss (1)
+- Summer of Love (1)
+- Ian Curtis performer (1)
+- transe (1)
+- corps convulsif (1)
+- voix baritonale (1)
+- sacrifice scénique (1)
+- danse (1)
+- langage aboli (1)
+- no language just sound (1)
+- synchronisation (1)
+- beat (1)
+- communauté fragile (1)
+- Unknown Pleasures (1)
+- bruit concret (1)
+- delay (1)
+- spatialisation (1)
 - dead fly dance (1)
 - performance live (1)
 - épilepsie (1)
 - corps scénique (1)
-- méprise critique (1)
-- Strawberry Studios (1)
-- Hannett (1)
-- radio (1)
-- distance stéréophonique (1)
-- presse musicale (1)
-- Jon Savage (1)
-- Mick Middles (1)
-- stage presence (1)
-- possession (1)
-- Buzzcocks tour (1)
-- Plan K (1)
-- Futurama (1)
-- reconnaissance nationale (1)
-- Apollo Manchester (1)
-- Rainbow Theatre (1)
-- Derby Hall (1)
-- Alan Hempsall (1)
-- Sister Ray (1)
-- riot (1)
-- Ceremony (1)
-- In a Lonely Place (1)
-- New Order (1)
-- absence (1)
-- transition (1)
-- reprise (1)
-- postérité (1)
-- austérité (1)
-- internalisation (1)
-- ombre portée (1)
-- communication (1)
-- pop song (1)
-- post-punk (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S13-A001 — prolonge → S12
+- S13-A001 — prolonge → S20
+- S13-A001 — prépare → S13-A005
+- S13-A002 — prolonge → CONCEPT-no-future
+- S13-A002 — prépare → S13-A010
+- S13-A003 — nuance → S13-A005
+- S13-A003 — prolonge → S74
+- S13-A003 — prolonge → S41
+- S13-A004 — prolonge → S41-A003
+- S13-A004 — prolonge → S45-performance-Curtis
+- S13-A004 — nuance → MYTH-Curtis-prophète
+- S13-A005 — prolonge → SONG-Transmission
+- S13-A005 — prépare → S13-A006
+- S13-A005 — prolonge → CONCEPT-signal
+- S13-A006 — prolonge → S13-A005
+- S13-A006 — prolonge → MOTIF-silence
+- S13-A006 — prolonge → MOTIF-radio
+- S13-A007 — prolonge → S41-Hannett-Unknown-Pleasures
+- S13-A007 — prolonge → S45-Hannett-catalyseur
+- S13-A007 — prépare → S13-A008
 - S75-A058 — requiert → CONCEPT-004
 - S75-A058 — nuance → MYTH-002
 - S75-A058 — prolonge → S75-A047
@@ -439,18 +474,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A060 — complète → S74-A058
 - S74-A020 — nuance → MYTH-004
 - S74-A020 — prolonge → S74-A010
-- S74-A020 — annonce → CONCEPT_HANNETT_SPATIALISATION
-- S74-A007 — prolonge → S74-A001
-- S74-A007 — nuance → MYTH-005
-- S76-A005 — nuance → MYTH-002
-- S76-A005 — prolonge → S76-A002
-- S76-A005 — requiert → CONCEPT-004
-- S76-A012 — nuance → MYTH-001
-- S76-A012 — prolonge → S76-A011
-- S76-A012 — prepare → S76-A017
-- S76-A027 — prolonge → S76-A012
-- S76-A027 — nuance → MYTH-001
-- S76-A027 — prepare → S76-A031
 
 ## 13. Distribution documentaire
 
@@ -475,6 +498,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | transition | 2 |
 | contexte | 1 |
 | synthese | 1 |
+| contexte_critique | 1 |
+| concept_affectif | 1 |
+| tension_documentaire | 1 |
+| concept_performance | 1 |
+| chanson_conceptuelle | 1 |
+| motif_textuel | 1 |
+| economie_sonore | 1 |
 | réception | 1 |
 | memoire | 1 |
 | performance | 1 |
@@ -497,12 +527,20 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 54 |
-| critique | 22 |
+| critique | 26 |
+| majeur | 3 |
 | majeure | 2 |
 | moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S13-A001 [élevé] — Risque d’utiliser Tomeo comme source historique directe sur Thatcher, Anderton ou l’ordre public local.
+- S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
+- S13-A003 [très élevé] — Ne jamais écrire que Joy Division invente la rave ou la techno.
+- S13-A004 [très élevé] — Risque d’essentialiser Curtis, de confondre maladie, danse et rituel, ou de transformer la souffrance en pur motif esthétique.
+- S13-A005 [moyen] — Ne pas confondre la danse de « Transmission » avec l’euphorie rave ; la danse y reste ambivalente, nocturne, médiatisée.
+- S13-A006 [moyen] — Le motif ne doit pas effacer la dimension verbale très travaillée des textes de Curtis.
+- S13-A007 [élevé] — Vérifier chaque détail de bruitage avant utilisation factuelle.
 - S75-A058 [eleve] — risque de médicaliser toute performance ou, inversement, d'esthétiser les signes d'épilepsie
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A062 [eleve] — la presse contemporaine documente la réception, pas l'état intérieur de Curtis

@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-16T09:39:57",
-  "status": "warning",
+  "generated_at": "2026-05-16T10:25:47",
+  "status": "error",
   "summary": {
-    "records_total": 3670,
+    "records_total": 3713,
     "records_by_kind": {
-      "atom": 1743,
-      "metadata": 39,
+      "atom": 1753,
+      "metadata": 40,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 186,
-      "template": 326,
+      "unknown": 195,
+      "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 253,
+      "motif": 258,
       "person": 157,
-      "concept": 170,
-      "myth": 11
+      "concept": 175,
+      "myth": 14
     },
-    "diagnostics_total": 17952,
-    "errors": 0,
-    "warnings": 17952,
+    "diagnostics_total": 18046,
+    "errors": 5,
+    "warnings": 18041,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 19,
     "sources_exported": 19,
@@ -629,13 +629,17 @@
         "auteur": "Caterina Tomeo",
         "titre": "Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era",
         "annee": "2021",
-        "records": 4,
-        "atoms": 0,
+        "records": 21,
+        "atoms": 10,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md",
           "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
-          "sources/tomeo_dance_dance_dance/source.md"
+          "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
+          "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+          "sources/tomeo_dance_dance_dance/source.md",
+          "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md"
         ]
       },
       {
@@ -15539,6 +15543,498 @@
       "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
       "message": "Invalid value for type_unite: synthese",
       "record_id": "S72-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Invalid value for type_unite: contexte_critique",
+      "record_id": "S13-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Invalid value for type_unite: concept_affectif",
+      "record_id": "S13-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "record_id": "S13-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Invalid value for type_unite: concept_performance",
+      "record_id": "S13-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Invalid value for type_unite: chanson_conceptuelle",
+      "record_id": "S13-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Invalid value for type_unite: motif_textuel",
+      "record_id": "S13-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Invalid value for type_unite: economie_sonore",
+      "record_id": "S13-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Invalid value for type_unite: lieu_institution",
+      "record_id": "S13-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Invalid value for type_unite: transition_groupe",
+      "record_id": "S13-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Invalid value for type_unite: motif_culturel",
+      "record_id": "S13-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
     },
     {
       "level": "warning",
@@ -102254,6 +102750,42 @@
     },
     {
       "level": "warning",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S13-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S13-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S13-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S13-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S13-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S13-006"
+    },
+    {
+      "level": "warning",
       "file": "registers/quotes/s76_torn_apart_quotes_part_08.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S76-Q078"
@@ -107084,6 +107616,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S13-TOMEO-INTERZONE-RAVE-ERA-COMPLEMENT"
+    },
+    {
+      "level": "warning",
       "file": "registers/references/s20_dodge_source_canonique.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REG-S20-DODGE-SOURCE-CANONIQUE"
@@ -107831,6 +108369,36 @@
       "file": "registers/concepts/s10_sumner_concepts_late_jd_transition_memory_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "CONCEPTS-S10-LATE-JD-TRANSITION-MEMORY-V2"
+    },
+    {
+      "level": "error",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "CONCEPT-065"
+    },
+    {
+      "level": "error",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "CONCEPT-066"
+    },
+    {
+      "level": "error",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "CONCEPT-067"
+    },
+    {
+      "level": "error",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "record_id": "CONCEPT-068"
+    },
+    {
+      "level": "error",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1978_stiff_chiswick_rca_gretton_factory_granada.md",
+      "record_id": "CONCEPT-069"
     },
     {
       "level": "warning",

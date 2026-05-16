@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T09:25:56"
+generated_at: "2026-05-16T10:25:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 323 |
+| Atomes | 325 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
 | Personnes | 35 |
 | Chansons | 6 |
-| Sources mobilisées | 9 |
+| Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 71 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
@@ -46,6 +47,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ## 5. Atomes critiques ou majeurs
 
+- **S13-A004** — S13-A004 — Curtis sciamane moderne : voix, corps, transe et sacrifice scénique  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_performance` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S13-A005** — S13-A005 — « Transmission » : écouter le silence et danser à la radio  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `chanson_conceptuelle` ; importance : `critique` ; preuve : `analyse critique d’une chanson`.
 - **S41-A024** — S41-A024 — Curtis miroir : trois personas et coût de l’adaptation  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `critique` ; preuve : `interprétation rétrospective de témoin direct`.
 - **S41-A033** — S41-A033 — Curtis à Rafters : Iggy, alcool et première violence scénique inquiétante  
@@ -112,10 +117,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A178** — S41-A178 — « We carried on » : automutilation, crises et vulnérabilité publique de Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_medicale_morale` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A179** — S41-A179 — Avant *Closer* : Amérique prévue, affaire Annik, Candy et barbituriques  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_biographique_medical` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments issus de lettres / S45 à croiser`.
-- **S41-A184** — S41-A184 — Ian / Annik / Genesis : qui connaît le « vrai Ian » ?  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_identitaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + interprétation`.
 
 ## 6. Autres atomes utiles
 
@@ -133,6 +134,10 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A177** — S41-A177 — Killing Joke, cab démonté et précarité technique avant la crise médicale  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A179** — S41-A179 — Avant *Closer* : Amérique prévue, affaire Annik, Candy et barbituriques  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_biographique_medical` ; importance : `critique` ; preuve : `synthèse rétrospective Hook + éléments issus de lettres / S45 à croiser`.
+- **S41-A184** — S41-A184 — Ian / Annik / Genesis : qui connaît le « vrai Ian » ?  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_identitaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + interprétation`.
 - **S41-A185** — S41-A185 — Compagnes à Londres : Annik visible, autres femmes exclues du processus  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A186** — S41-A186 — Japes contre Ian et Annik : jalousie, cruauté et perte du camarade  
@@ -275,10 +280,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_critique` ; importance : `critique` ; preuve : `témoignage direct ; note suicidaire rapportée`.
 - **S45-A137** — S45-A137 — Wilson/Reade/Erasmus : commandement amateur et effacement de la preuve  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_management` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
-- **S45-A138** — S45-A138 — Charlesworth : évacuation du père hors du foyer  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct + mention de dossier médical selon Deborah`.
-- **S45-A139** — S45-A139 — Derby Hall Bury : jouer malgré l’absence du chanteur et fabriquer l’émeute  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_crise` ; importance : `critique` ; preuve : `témoignage direct indirect + témoignage Morris/Wilson rapporté`.
 
 ## 7. Citations disponibles
 
@@ -523,9 +524,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Candy (4)
 - tournée américaine (4)
 - Britannia Row (4)
+- silence (4)
 - handicap (4)
 - Phenobarbitone (4)
 - Rainbow Theatre (4)
+- Transmission (4)
 - Decades (4)
 - Debbie (4)
 - Atmosphere (4)
@@ -535,11 +538,9 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - Mick Middles (3)
 - New Dawn Fades (3)
 - paroles (3)
-- silence (3)
 - Macclesfield (3)
 - Moonlight Club (3)
 - Moonlight (3)
-- honte (3)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -704,6 +705,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | objet_audiovisuel | 1 |
 | scene_medicale_sensible | 1 |
 | tension_finale | 1 |
+| concept_performance | 1 |
+| chanson_conceptuelle | 1 |
 | management | 1 |
 | processus_creatif | 1 |
 | interpretation_vocale | 1 |
@@ -857,7 +860,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Importance | Nombre |
 |---|---|
-| critique | 181 |
+| critique | 183 |
 | non qualifiée | 110 |
 | majeure | 20 |
 | majeur | 12 |
@@ -912,6 +915,8 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
 - S45-A151 [très élevé] — Risque de lire chaque don d’objet comme signe suicidaire certain.
 - S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
+- S13-A004 [très élevé] — Risque d’essentialiser Curtis, de confondre maladie, danse et rituel, ou de transformer la souffrance en pur motif esthétique.
+- S13-A005 [moyen] — Ne pas confondre la danse de « Transmission » avec l’euphorie rave ; la danse y reste ambivalente, nocturne, médiatisée.
 - S41-A105 [élevé] — Risque de juger rétrospectivement le groupe avec une conscience médicale et morale postérieure.
 - S41-A106 [moyen] — Ne pas réduire Gretton à l’accélération dangereuse ; il apporte aussi l’infrastructure indispensable.
 - S41-A109 [élevé] — Risque d’héroïser Curtis comme seul organisateur du groupe ; le passage doit rester relationnel.
@@ -922,8 +927,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - S41-A217 [moyen] — Ne pas en faire une vérité objective : c’est la hiérarchie d’écoute de Hook.
 - S41-A220 [très élevé] — Éviter de transformer la performance intense en preuve de bonne santé ou les paroles en diagnostic immédiat.
 - S41-A221 [moyen] — Ne pas absolutiser la préférence de Hook ; elle vaut comme mémoire interne.
-- S41-A222 [moyen] — Ne pas transformer la préférence personnelle en canon critique universel.
-- S41-A024 [très élevé] — Risque de psychologisation rétrospective et de réduction de Curtis à une pathologie de l’adaptation.
 
 ## 15. Lacunes et prochaines vérifications
 

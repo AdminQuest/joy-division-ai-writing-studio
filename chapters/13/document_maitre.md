@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T09:25:56"
+generated_at: "2026-05-16T10:25:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 65 |
+| Atomes | 66 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 19 |
 | Événements chronologiques | 9 |
 | Personnes | 16 |
 | Chansons | 2 |
-| Sources mobilisées | 6 |
+| Sources mobilisées | 7 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
@@ -116,6 +117,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 6. Autres atomes utiles
 
+- **S13-A001** — S13-A001 — Manchester sous Thatcher : scène apocalyptique et résistance musicale  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `contexte_critique` ; importance : `majeur` ; preuve : `source critique secondaire`.
 - **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-010** — S41-010 — Destruction d’Ordsall et relogement forcé  
@@ -284,6 +287,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - the fall (1)
 - mark e smith (1)
 - anti-lyrisme (1)
+- contre-culture comme réponse urbaine (1)
+- scène apocalyptique (1)
+- transition post-punk / rave (1)
 - lieu-matrice (1)
 - esthétique du froid matériel (1)
 - pratique collective située (1)
@@ -314,9 +320,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - géographie sociale de Joy Division (1)
 - futur fermé (1)
 - mémoire ouvrière déplacée (1)
-- architecture sonore (1)
-- critique de l'iconographie industrielle (1)
-- band on the wall (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -340,6 +343,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Roxy Room (2)
 - Mark Reeder (2)
 - Manchester City (2)
+- Manchester post-industrielle (1)
+- Thatcher’s Britain (1)
+- résistance culturelle (1)
+- punk (1)
+- post-punk (1)
+- rave era (1)
 - famous photographs (1)
 - froid (1)
 - Britannia Row (1)
@@ -356,15 +365,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Swan pub (1)
 - Eccles New Road (1)
 - salle de répétition (1)
-- mémoire d’Ian (1)
-- Haçienda (1)
-- enfance ouvrière (1)
-- smog (1)
-- Control (1)
-- violence domestique (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S13-A001 — prolonge → S12
+- S13-A001 — prolonge → S20
+- S13-A001 — prépare → S13-A005
 - S41-A053 — prolonge → S41-A052
 - S41-A053 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
 - S41-A053 — prolonge → S45-A144
@@ -442,9 +448,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A004 — requiert → CONCEPT-004
 - S76-A075 — nuance → MYTH-003
 - S76-A075 — relie → CONCEPT-003
-- S76-A075 — relie → MOTIF-008
-- S76-A077 — prolonge → S76-A076
-- S76-A077 — relie → MOTIF-008
 
 ## 13. Distribution documentaire
 
@@ -461,6 +464,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | contrepoint | 2 |
 | contexte_social | 2 |
 | lieu_scene | 2 |
+| contexte_critique | 1 |
 | lieu_structurant | 1 |
 | lieu_studio | 1 |
 | tension_sociale | 1 |
@@ -510,10 +514,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | non qualifiée | 23 |
 | majeure | 21 |
 | critique | 19 |
-| majeur | 2 |
+| majeur | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S13-A001 [élevé] — Risque d’utiliser Tomeo comme source historique directe sur Thatcher, Anderton ou l’ordre public local.
 - S41-A053 [moyen] — Ne pas transformer le lieu en cause esthétique directe ; il agit comme environnement de répétition et de mémoire.
 - S41-A182 [moyen] — Ne pas transformer le studio en cause unique du son ; Hannett, groupe et compositions restent déterminants.
 - S41-A085 [moyen] — Ne pas transformer l’anecdote en analyse policière générale ; elle éclaire surtout la géographie des gigs.

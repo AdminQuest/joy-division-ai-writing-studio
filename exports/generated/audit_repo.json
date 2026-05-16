@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-16T09:40:08",
+  "generated_at": "2026-05-16T10:26:04",
   "summary": {
-    "records_total": 3670,
+    "records_total": 3713,
     "records_by_kind": {
-      "atom": 1743,
-      "metadata": 39,
+      "atom": 1753,
+      "metadata": 40,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 186,
-      "template": 326,
+      "unknown": 195,
+      "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
-      "motif": 253,
+      "motif": 258,
       "person": 157,
-      "concept": 170,
-      "myth": 11
+      "concept": 175,
+      "myth": 14
     },
-    "diagnostics_total": 17952,
-    "errors": 0,
-    "warnings": 17952,
+    "diagnostics_total": 18046,
+    "errors": 5,
+    "warnings": 18041,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 19,
     "sources_exported": 19,
@@ -29,20 +29,20 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1743,
+    "atom": 1753,
     "chronology": 335,
-    "concept": 170,
-    "metadata": 39,
-    "motif": 253,
-    "myth": 11,
+    "concept": 175,
+    "metadata": 40,
+    "motif": 258,
+    "myth": 14,
     "person": 157,
     "quote": 353,
     "quote_batch": 1,
     "rules": 1,
     "song": 41,
     "source": 54,
-    "template": 326,
-    "unknown": 186
+    "template": 336,
+    "unknown": 195
   },
   "records_by_source": {
     "S02": {
@@ -71,8 +71,10 @@
       "unknown": 9
     },
     "S13": {
-      "metadata": 3,
-      "unknown": 1
+      "metadata": 4,
+      "atom": 10,
+      "unknown": 2,
+      "motif": 5
     },
     "S20": {
       "atom": 15,
@@ -162,17 +164,17 @@
   "records_by_chapter": {
     "Chapitre 1": 195,
     "Chapitre 10": 247,
-    "Chapitre 11": 213,
-    "Chapitre 12": 469,
+    "Chapitre 11": 217,
+    "Chapitre 12": 471,
     "Chapitre 13": 109,
-    "Chapitre 14": 996,
+    "Chapitre 14": 1003,
     "Chapitre 2": 361,
     "Chapitre 3": 401,
-    "Chapitre 4": 311,
+    "Chapitre 4": 312,
     "Chapitre 5": 441,
     "Chapitre 6": 571,
-    "Chapitre 7": 108,
-    "Chapitre 8": 318,
+    "Chapitre 7": 114,
+    "Chapitre 8": 320,
     "Chapitre 9": 268,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -301,12 +303,13 @@
     ]
   ],
   "issue_categories": {
+    "duplicate_id": 5,
     "field_type_error": 149,
-    "invalid_controlled_value": 1521,
-    "missing_required_field": 4913,
+    "invalid_controlled_value": 1531,
+    "missing_required_field": 4963,
     "schema_warning": 399,
-    "unknown_yaml_block": 186,
-    "v2_migration_debt": 10784
+    "unknown_yaml_block": 195,
+    "v2_migration_debt": 10804
   },
   "top_files_by_issue_count": [
     [
@@ -430,8 +433,65 @@
       161
     ]
   ],
-  "blocking_errors": [],
+  "blocking_errors": [
+    {
+      "level": "error",
+      "category": "duplicate_id",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "record_id": "CONCEPT-065",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
+    },
+    {
+      "level": "error",
+      "category": "duplicate_id",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "record_id": "CONCEPT-066",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
+    },
+    {
+      "level": "error",
+      "category": "duplicate_id",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "record_id": "CONCEPT-067",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
+    },
+    {
+      "level": "error",
+      "category": "duplicate_id",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "record_id": "CONCEPT-068",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
+    },
+    {
+      "level": "error",
+      "category": "duplicate_id",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "record_id": "CONCEPT-069",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1978_stiff_chiswick_rca_gretton_factory_granada.md",
+      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
+    }
+  ],
   "unknown_yaml_blocks": [
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
@@ -1443,6 +1503,54 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/quotes/s12_press_aids_anderton_quotes_moral_order_v2.md",
       "record_id": "QUOTES-S12-AIDS-ANDERTON-MORAL-ORDER-V2",
       "message": "Unable to infer documentary kind",
@@ -1469,6 +1577,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md",
       "record_id": "REL-RAG-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
+      "record_id": "REF-S13-TOMEO-INTERZONE-RAVE-ERA-COMPLEMENT",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1922,10 +2038,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1743,
+    "atoms_total": 1753,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1682,
-    "v2_missing_field_warnings": 10784
+    "atoms_v2_incomplete": 1692,
+    "v2_missing_field_warnings": 10804
   },
   "source_registry": {
     "declared_but_unused": [
@@ -2527,13 +2643,17 @@
         "auteur": "Caterina Tomeo",
         "titre": "Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era",
         "annee": "2021",
-        "records": 4,
-        "atoms": 0,
+        "records": 21,
+        "atoms": 10,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/motifs/s13_tomeo_motifs_interzone_rave_era.md",
           "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
-          "sources/tomeo_dance_dance_dance/source.md"
+          "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
+          "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+          "sources/tomeo_dance_dance_dance/source.md",
+          "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md"
         ]
       },
       {
@@ -22267,6 +22387,662 @@
       "record_id": "S72-A061",
       "message": "Invalid value for type_unite: synthese",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A001",
+      "message": "Invalid value for type_unite: contexte_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A002",
+      "message": "Invalid value for type_unite: concept_affectif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A003",
+      "message": "Invalid value for type_unite: tension_documentaire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A004",
+      "message": "Invalid value for type_unite: concept_performance",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A005",
+      "message": "Invalid value for type_unite: chanson_conceptuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A006",
+      "message": "Invalid value for type_unite: motif_textuel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A007",
+      "message": "Invalid value for type_unite: economie_sonore",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A008",
+      "message": "Invalid value for type_unite: lieu_institution",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A009",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A009",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A009",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A009",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A009",
+      "message": "Invalid value for type_unite: transition_groupe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A010",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A010",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A010",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A010",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": "S13-A010",
+      "message": "Invalid value for type_unite: motif_culturel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",
@@ -137886,6 +138662,54 @@
     },
     {
       "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
+      "record_id": "REL-S13-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "missing_required_field",
       "file": "registers/quotes/s76_torn_apart_quotes_part_08.md",
       "record_id": "S76-Q078",
@@ -144327,6 +145151,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
+      "record_id": "REF-S13-TOMEO-INTERZONE-RAVE-ERA-COMPLEMENT",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s20_dodge_source_canonique.md",
       "record_id": "REG-S20-DODGE-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
@@ -145323,6 +146155,46 @@
       "record_id": "CONCEPTS-S10-LATE-JD-TRANSITION-MEMORY-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "error",
+      "category": "duplicate_id",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "record_id": "CONCEPT-065",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
+    },
+    {
+      "level": "error",
+      "category": "duplicate_id",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "record_id": "CONCEPT-066",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
+    },
+    {
+      "level": "error",
+      "category": "duplicate_id",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "record_id": "CONCEPT-067",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
+    },
+    {
+      "level": "error",
+      "category": "duplicate_id",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "record_id": "CONCEPT-068",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
+      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
+    },
+    {
+      "level": "error",
+      "category": "duplicate_id",
+      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
+      "record_id": "CONCEPT-069",
+      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1978_stiff_chiswick_rca_gretton_factory_granada.md",
+      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",

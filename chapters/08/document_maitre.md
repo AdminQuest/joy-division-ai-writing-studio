@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T09:25:56"
+generated_at: "2026-05-16T10:25:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 209 |
+| Atomes | 213 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
 | Personnes | 7 |
 | Chansons | 4 |
-| Sources mobilisées | 9 |
+| Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
@@ -46,6 +47,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 5. Atomes critiques ou majeurs
 
+- **S13-A003** — S13-A003 — Le sound de Joy Division comme trait d’union critique, non comme cause  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S13-A008** — S13-A008 — Haçienda : du deuil de Curtis à la scène acid house  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `lieu_institution` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S41-A032** — S41-A032 — Rafters / Fast Breeder : Hannett, Erasmus et la scène comme guerre de rang  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_conflit` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A034** — S41-A034 — Warsaw demo : Pennine Sound et futur audible dans *The Kill*  
@@ -112,10 +117,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
 - **S41-A126** — S41-A126 — « Transmission » : single choisi par puissance live et non logique album  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
-- **S41-A142** — S41-A142 — « Atmosphere » / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct + objet discographique établi`.
 
 ## 6. Autres atomes utiles
 
@@ -123,6 +124,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S13-A007** — S13-A007 — Unknown Pleasures : laboratoire sonore, bruit et spatialisation  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `economie_sonore` ; importance : `majeur` ; preuve : `lecture critique ; faits techniques à corroborer`.
+- **S13-A009** — S13-A009 — New Order : émancipation partielle de l’ombre Curtis  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `transition_groupe` ; importance : `majeur` ; preuve : `synthèse critique secondaire`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
@@ -135,6 +140,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
 - **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
+- **S41-A142** — S41-A142 — « Atmosphere » / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct + objet discographique établi`.
 - **S41-A143** — S41-A143 — *Licht und Blindheit* : Sordide Sentimental, 1 578 exemplaires et logique contraire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + fait discographique établi`.
 - **S41-A144** — S41-A144 — « Atmosphere » : deux moitiés assemblées et Woolies organ  
@@ -271,14 +280,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S68-A030** — S-BROLL-A030 — Composition autour de FAC 28  
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A031** — S-BROLL-A031 — Sessions de mars 1980 : *Closer* et « Love Will Tear Us Apart »  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A033** — S-BROLL-A033 — Sordide Sentimental : « Atmosphere » / « Dead Souls »  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A034** — S-BROLL-A034 — Flexi FAC 28 : distribution gratuite  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A035** — S-BROLL-A035 — Ajanta Theatre, Derby, Section 25  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -422,7 +423,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ### 12.1. Motifs dominants
 
-- Unknown Pleasures (8)
+- Unknown Pleasures (9)
 - An Ideal for Living (7)
 - Rob Gretton (7)
 - Transmission (7)
@@ -437,6 +438,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Atmosphere (5)
 - Sordide Sentimental (5)
 - Pennine Sound (4)
+- Hannett (4)
 - Digital (4)
 - Atrocity Exhibition (4)
 - Moonlight Club (4)
@@ -449,7 +451,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Rudolf Hess (3)
 - bootlegs (3)
 - Strawberry Studios (3)
-- Hannett (3)
+- Haçienda (3)
 - John Peel (3)
 - Genetic (3)
 - Insight (3)
@@ -461,7 +463,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Enigma (3)
 - An Ideal For Living (3)
 - Closer (2)
-- Britannia Row (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -502,6 +503,18 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S45-A151 — prolonge → CONCEPT-035
 - S45-A151 — prolonge → REGISTRE-OBJETS-DISCOGRAPHIQUES
 - S45-A151 — prépare → S45-A152
+- S13-A003 — nuance → S13-A005
+- S13-A003 — prolonge → S74
+- S13-A003 — prolonge → S41
+- S13-A007 — prolonge → S41-Hannett-Unknown-Pleasures
+- S13-A007 — prolonge → S45-Hannett-catalyseur
+- S13-A007 — prépare → S13-A008
+- S13-A008 — prolonge → ORG-Factory-Records
+- S13-A008 — prolonge → PLACE-Hacienda
+- S13-A008 — prolonge → S41-Hacienda
+- S13-A009 — prolonge → S13-A008
+- S13-A009 — prolonge → ORG-New-Order
+- S13-A009 — nuance → MYTH-Curtis-centre-absolu
 - S41-A106 — prolonge → CONCEPT-071
 - S41-A106 — prépare → S41-A107
 - S41-A107 — prolonge → S41-A079
@@ -533,18 +546,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A040 — alimente → REGISTRE-DISCOGRAPHIE
 - S41-A041 — prolonge → CONCEPT-050
 - S41-A041 — prépare → CONCEPT-HANNETT-STUDIO
-- S41-A214 — prolonge → CONCEPT-140
-- S41-A214 — prolonge → CONCEPT-142
-- S41-A215 — prolonge → CONCEPT-142
-- S41-A215 — prolonge → CONCEPT-155
-- S41-A216 — prolonge → CONCEPT-118
-- S41-A216 — prépare → NEW-ORDER-SOUND
-- S41-A217 — prolonge → CONCEPT-141
-- S41-A217 — nuance → MYTH-CLOSER-FUNERAL-PROPHECY
-- S41-A218 — prolonge → CONCEPT-160
-- S41-A218 — prépare → NEW-ORDER-SOUND
-- S41-A219 — prolonge → CONCEPT-160
-- S41-A219 — prolonge → CONCEPT-142
 
 ## 13. Distribution documentaire
 
@@ -583,6 +584,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | position_esthetique | 1 |
 | tension_economique | 1 |
 | scene_medicale_sensible | 1 |
+| tension_documentaire | 1 |
+| economie_sonore | 1 |
+| lieu_institution | 1 |
+| transition_groupe | 1 |
 | management | 1 |
 | reception_radio | 1 |
 | scene_conflit | 1 |
@@ -637,9 +642,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| critique | 98 |
+| critique | 100 |
 | non qualifiée | 89 |
-| majeur | 16 |
+| majeur | 18 |
 | majeure | 6 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -656,6 +661,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S45-A077 [moyen] — Risque de présenter l’origine cassette des bootlegs comme fait définitif sans expertise des sources sonores.
 - S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
 - S45-A151 [très élevé] — Risque de lire chaque don d’objet comme signe suicidaire certain.
+- S13-A003 [très élevé] — Ne jamais écrire que Joy Division invente la rave ou la techno.
+- S13-A007 [élevé] — Vérifier chaque détail de bruitage avant utilisation factuelle.
+- S13-A008 [moyen] — Ne pas confondre trajectoire New Order / Factory / Haçienda avec continuité musicale simple de Joy Division.
+- S13-A009 [moyen] — Ne pas faire de Curtis le seul principe explicatif de la transition ; les choix de Sumner, Hook, Morris et Gilbert sont déterminants.
 - S41-A106 [moyen] — Ne pas réduire Gretton à l’accélération dangereuse ; il apporte aussi l’infrastructure indispensable.
 - S41-A107 [faible à moyen] — Ne pas convertir le prestige Peel en succès de masse ; c’est une validation de réseau.
 - S41-A111 [élevé] — Risque de transformer le choix Factory en pure noblesse artistique ; Hook rappelle le coût sanitaire et financier du refus d’avance.
@@ -700,10 +709,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
 - S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
 - S41-A179 [très élevé] — Risque de téléologie morbide : ce contexte prépare l’album sans en faire une preuve anticipée du suicide.
-- S41-A180 [moyen] — Ne pas romantiser la pauvreté ; Hook note aussi qu’il aurait aimé tester la théorie inverse.
-- S41-A181 [moyen] — Ne pas réduire Hannett au tyran : le passage maintient la tension génie / comportement brutal.
-- S41-A182 [moyen] — Ne pas transformer le studio en cause unique du son ; Hannett, groupe et compositions restent déterminants.
-- S41-A183 [moyen] — Ne pas accepter chaque détail technique comme certitude d’ingénierie ; croiser avec Caffery / Johnson si possible.
 
 ## 15. Lacunes et prochaines vérifications
 

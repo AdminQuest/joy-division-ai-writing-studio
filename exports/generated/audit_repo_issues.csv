@@ -2414,6 +2414,88 @@ warning,v2_migration_debt,sources/reynolds_rip_it_up/second_pass_scenes_heritage
 warning,v2_migration_debt,sources/reynolds_rip_it_up/second_pass_scenes_heritage.md,S72-A061,Missing required field: motifs,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,v2_migration_debt,sources/reynolds_rip_it_up/second_pass_scenes_heritage.md,S72-A061,Missing required field: concepts_derives,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
 warning,invalid_controlled_value,sources/reynolds_rip_it_up/second_pass_scenes_heritage.md,S72-A061,Invalid value for type_unite: synthese,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A001,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A001,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A001,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A001,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A001,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A001,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A001,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A001,Invalid value for type_unite: contexte_critique,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A002,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A002,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A002,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A002,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A002,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A002,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A002,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A002,Invalid value for type_unite: concept_affectif,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A003,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A003,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A003,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A003,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A003,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A003,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A003,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A003,Invalid value for type_unite: tension_documentaire,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A004,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A004,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A004,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A004,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A004,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A004,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A004,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A004,Invalid value for type_unite: concept_performance,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A005,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A005,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A005,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A005,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A005,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A005,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A005,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A005,Invalid value for type_unite: chanson_conceptuelle,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A006,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A006,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A006,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A006,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A006,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A006,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A006,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A006,Invalid value for type_unite: motif_textuel,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A007,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A007,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A007,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A007,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A007,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A007,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A007,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A007,Invalid value for type_unite: economie_sonore,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A008,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A008,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A008,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A008,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A008,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A008,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A008,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A008,Invalid value for type_unite: lieu_institution,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A009,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A009,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A009,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A009,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A009,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A009,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A009,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A009,Invalid value for type_unite: transition_groupe,Aligner la valeur avec le schéma contrôlé.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A010,Missing required field: auteur,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A010,Missing required field: concepts,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A010,Missing required field: chapitres,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A010,Missing required field: statut,Compléter le champ obligatoire.
+warning,missing_required_field,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A010,Missing required field: fiabilite,Compléter le champ obligatoire.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A010,Missing required field: liens_interchapitres,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,v2_migration_debt,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A010,Missing required field: liens_citations,Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat.
+warning,invalid_controlled_value,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,S13-A010,Invalid value for type_unite: motif_culturel,Aligner la valeur avec le schéma contrôlé.
+warning,unknown_yaml_block,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md,,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md,S41-A104,Missing required field: auteur,Compléter le champ obligatoire.
 warning,missing_required_field,sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md,S41-A104,Missing required field: concepts,Compléter le champ obligatoire.
 warning,missing_required_field,sources/hook_unknown_pleasures/source_part_1979_peel_factory_genetic_eden_transition.md,S41-A104,Missing required field: chapitres,Compléter le champ obligatoire.
@@ -16866,6 +16948,12 @@ warning,unknown_yaml_block,registers/songs/s41_hook_songs_1976_lesser_free_trade
 warning,unknown_yaml_block,registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md,LIVE-S41-ELECTRIC-CIRCUS-PISTOLS-1976-12-09,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md,BAND-S41-STIFF-KITTENS-SOUNDS-1976,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/songs/s41_hook_songs_1976_lesser_free_trade_hall_bass_ian_joining.md,INST-S41-WEM-PA-DISTORTION-TERRY,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/relations/s13_tomeo_relations_interzone_rave_era.md,REL-S13-001,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/relations/s13_tomeo_relations_interzone_rave_era.md,REL-S13-002,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/relations/s13_tomeo_relations_interzone_rave_era.md,REL-S13-003,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/relations/s13_tomeo_relations_interzone_rave_era.md,REL-S13-004,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/relations/s13_tomeo_relations_interzone_rave_era.md,REL-S13-005,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/relations/s13_tomeo_relations_interzone_rave_era.md,REL-S13-006,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_08.md,S76-Q078,Missing required field: citation_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_08.md,S76-Q078,Missing required field: langue_originale,Compléter le champ obligatoire.
 warning,missing_required_field,registers/quotes/s76_torn_apart_quotes_part_08.md,S76-Q078,Missing required field: statut_verification,Compléter le champ obligatoire.
@@ -17671,6 +17759,7 @@ warning,missing_required_field,registers/quotes/s45_curtis_quotes_1977_1978_an_i
 warning,unknown_yaml_block,registers/references/s06_carter_hulme_source_canonique.md,REG-S06-CARTER-HULME-SOURCE-CANONIQUE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/references/s12_press_aids_anderton_relations_rag_moral_order_v2.md,REL-RAG-S12-AIDS-ANDERTON-MORAL-ORDER-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/references/s69_greig_strong_relations_rag_nostalgie_memoire_v2.md,REL-RAG-S69-NOSTALGIE-MEMOIRE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+warning,unknown_yaml_block,registers/references/s13_tomeo_interzone_rave_era_reference_complement.md,REF-S13-TOMEO-INTERZONE-RAVE-ERA-COMPLEMENT,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/references/s20_dodge_source_canonique.md,REG-S20-DODGE-SOURCE-CANONIQUE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/references/s10_sumner_chapter_and_verse_source_canonique.md,REG-S10-SUMNER-CHAPTER-AND-VERSE-SOURCE-CANONIQUE,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md,REL-RAG-S06-HULME-LIVED-DISCURSIVE-SPACE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
@@ -17796,6 +17885,11 @@ warning,unknown_yaml_block,registers/concepts/s12_press_aids_anderton_concepts_m
 warning,unknown_yaml_block,registers/concepts/s06_carter_concepts_hulme_lived_discursive_space_v2.md,CONCEPTS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/concepts/s02_sueur_concepts_manchester_shrinking_city_v2.md,CONCEPTS-S02-MANCHESTER-SHRINKING-CITY-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/concepts/s10_sumner_concepts_late_jd_transition_memory_v2.md,CONCEPTS-S10-LATE-JD-TRANSITION-MEMORY-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
+error,duplicate_id,registers/concepts/s13_tomeo_concepts_interzone_rave_era.md,CONCEPT-065,Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md,Renommer ou fusionner l’identifiant en doublon.
+error,duplicate_id,registers/concepts/s13_tomeo_concepts_interzone_rave_era.md,CONCEPT-066,Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md,Renommer ou fusionner l’identifiant en doublon.
+error,duplicate_id,registers/concepts/s13_tomeo_concepts_interzone_rave_era.md,CONCEPT-067,Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md,Renommer ou fusionner l’identifiant en doublon.
+error,duplicate_id,registers/concepts/s13_tomeo_concepts_interzone_rave_era.md,CONCEPT-068,Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md,Renommer ou fusionner l’identifiant en doublon.
+error,duplicate_id,registers/concepts/s13_tomeo_concepts_interzone_rave_era.md,CONCEPT-069,Duplicate id also found in registers/concepts/s41_hook_concepts_1978_stiff_chiswick_rca_gretton_factory_granada.md,Renommer ou fusionner l’identifiant en doublon.
 warning,unknown_yaml_block,registers/concepts/s20_dodge_concepts_housing_geographies_v2.md,CONCEPTS-S20-HOUSING-GEOGRAPHIES-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/concepts/s05_jeffery_tufail_jackson_concepts_public_order_v2.md,CONCEPTS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.
 warning,unknown_yaml_block,registers/myths/s10_sumner_myths_late_jd_transition_memory_v2.md,MYTHS-S10-LATE-JD-TRANSITION-MEMORY-V2,Unable to infer documentary kind,Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire.

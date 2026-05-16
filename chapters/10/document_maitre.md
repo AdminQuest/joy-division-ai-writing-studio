@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T09:25:56"
+generated_at: "2026-05-16T10:25:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 188 |
+| Atomes | 189 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
 | Chansons | 6 |
-| Sources mobilisées | 11 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 10 | 0 |
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
@@ -48,6 +49,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 5. Atomes critiques ou majeurs
 
+- **S13-A005** — S13-A005 — « Transmission » : écouter le silence et danser à la radio  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `chanson_conceptuelle` ; importance : `critique` ; preuve : `analyse critique d’une chanson`.
 - **S41-A024** — S41-A024 — Curtis miroir : trois personas et coût de l’adaptation  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `critique` ; preuve : `interprétation rétrospective de témoin direct`.
 - **S41-A038** — S41-A038 — Trois îles musicales : alliances internes et Ian comme colle du groupe  
@@ -116,8 +119,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_live` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A082** — S45-A082 — Natalie d’abord : maternité contre centralité de Ian  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A090** — S45-A090 — *Unknown Pleasures* publié : objet Factory, faces « Inside/Outside » et rejet domestique initial  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 
 ## 6. Autres atomes utiles
 
@@ -197,6 +198,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A087** — S45-A087 — Gretton père-figure : dispute, argent et infantilisation du musicien  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_management` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S45-A090** — S45-A090 — *Unknown Pleasures* publié : objet Factory, faces « Inside/Outside » et rejet domestique initial  
+  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 - **S45-A091** — S45-A091 — « New Dawn Fades » au foyer : herméneutique conjugale de l’angoisse  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `reception_domestique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A092** — S45-A092 — Médecine muette : spécialiste, GP et savoir refusé au foyer  
@@ -279,8 +282,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_psychiatrique` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
 - **S45-A152** — S45-A152 — Dernière photographie : fleurs, blue room et visage hanté  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_finale` ; importance : `critique` ; preuve : `témoignage direct + photographie existante mentionnée`.
-- **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -436,9 +437,9 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Annik (8)
 - Peter Saville (6)
 - Natalie (5)
+- silence (5)
 - Debbie (5)
 - Candy (4)
-- silence (4)
 - Unknown Pleasures (4)
 - Deborah Curtis (4)
 - Tony Wilson (4)
@@ -620,6 +621,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | tension_psychiatrique | 1 |
 | scene_domestique_finale | 1 |
 | santé | 1 |
+| chanson_conceptuelle | 1 |
 | processus_creatif | 1 |
 | evenement_discographique | 1 |
 | interpretation_groupe | 1 |
@@ -677,7 +679,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 84 |
+| critique | 85 |
 | non qualifiée | 78 |
 | majeur | 24 |
 | majeure | 2 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T09:25:56"
+generated_at: "2026-05-16T10:25:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 289 |
+| Atomes | 290 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
 | Personnes | 19 |
 | Chansons | 18 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
@@ -148,6 +149,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S13-A007** — S13-A007 — Unknown Pleasures : laboratoire sonore, bruit et spatialisation  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `economie_sonore` ; importance : `majeur` ; preuve : `lecture critique ; faits techniques à corroborer`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
@@ -280,8 +283,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-024** — S46-024 — Le second Peel Session  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `broadcast` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-029** — S46-029 — Paul Morley, Wozencroft et la lecture occulto-filmique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -464,9 +465,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ### 12.1. Motifs dominants
 
+- Hannett (9)
+- Unknown Pleasures (9)
 - Martin Hannett (9)
-- Hannett (8)
-- Unknown Pleasures (8)
 - Strawberry Studios (8)
 - Digital (6)
 - Transmission (6)
@@ -494,6 +495,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Bernard Sumner (2)
 - synthétiseur (2)
 - Novelty (2)
+- delay (2)
+- spatialisation (2)
 - Martin Rushent (2)
 - Eden Studios (2)
 - Insight (2)
@@ -502,8 +505,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Steve Brotherdale (2)
 - Pennine Sound (2)
 - ARP (2)
-- Heart and Soul (2)
-- Jean-Jacques Burnel (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -528,6 +529,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S45-A078 — prolonge → CONCEPT-006
 - S45-A078 — prolonge → S45-A066
 - S45-A078 — nuance → MYTH-HANNETT-GENIE-ABSOLU
+- S13-A007 — prolonge → S41-Hannett-Unknown-Pleasures
+- S13-A007 — prolonge → S45-Hannett-catalyseur
+- S13-A007 — prépare → S13-A008
 - S41-A108 — prolonge → CONCEPT-064
 - S41-A108 — prolonge → CONCEPT-085
 - S41-A109 — prolonge → CONCEPT-057
@@ -584,9 +588,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A073 — prolonge → CONCEPT-056
 - S41-A073 — prolonge → S41-A068
 - S41-A078 — prolonge → CONCEPT-063
-- S41-A078 — prolonge → CONCEPT-049
-- S41-A114 — prolonge → S41-A108
-- S41-A114 — prépare → S41-A117
 
 ## 13. Distribution documentaire
 
@@ -642,6 +643,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | session_domestique | 1 |
 | concert | 1 |
 | contrepoint | 1 |
+| economie_sonore | 1 |
 | processus_sonore | 1 |
 | lieu_structurant | 1 |
 | personnel_groupe | 1 |
@@ -720,7 +722,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | non qualifiée | 183 |
 | critique | 86 |
 | majeure | 11 |
-| majeur | 9 |
+| majeur | 10 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -731,6 +733,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
 - S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
+- S13-A007 [élevé] — Vérifier chaque détail de bruitage avant utilisation factuelle.
 - S41-A108 [moyen] — Ne pas réduire « Digital » à Kraftwerk ni « Shadowplay » au Velvet Underground ; Hook insiste justement sur la transformation.
 - S41-A109 [élevé] — Risque d’héroïser Curtis comme seul organisateur du groupe ; le passage doit rester relationnel.
 - S41-A112 [moyen] — Ne pas présenter Rushent comme simple impasse : la session révèle une alternative réelle mais non retenue.
@@ -783,7 +786,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A004 [faible] — L’atome sert surtout de contre-mythe technique ; ne pas le surcharger.
 - S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
 - S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
-- S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T09:25:56"
+generated_at: "2026-05-16T10:25:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 184 |
+| Atomes | 187 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 5 |
 | Personnes | 5 |
 | Chansons | 10 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
@@ -49,6 +50,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 5. Atomes critiques ou majeurs
 
+- **S13-A002** — S13-A002 — « Fottiti », « sono fottuto », « acieeeed » : trois régimes affectifs  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_affectif` ; importance : `critique` ; preuve : `proposition critique`.
+- **S13-A004** — S13-A004 — Curtis sciamane moderne : voix, corps, transe et sacrifice scénique  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_performance` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S41-A001** — S41-A001 — Le nom Joy Division : House of Dolls, provocation punk et défense salfordienne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif de Peter Hook`.
 - **S41-A012** — S41-A012 — « Sebastian » de Cockney Rebel : révélation pop longue et rituel d’écoute  
@@ -115,13 +120,11 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_et_contexte_historique`.
 - **S76-A068** — S76-A068 — Ian Wood et Curtis : sérieux documentaire contre mythe du chanteur instinctif  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_reception` ; importance : `critique` ; preuve : `temoignage_Ian_Wood_rapporté_par_S76`.
-- **S76-A081** — S76-A081 — Curtis en marge des rouages Factory : domesticité, grossesse de Debbie et leadership créatif  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `temoignage_Terry_Mason_et_reconstruction_S76`.
-- **S76-A088** — S76-A088 — Fin 1978 : grossesse de Debbie, montée du groupe et pression multidirectionnelle  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `tension_biographique` ; importance : `critique` ; preuve : `reconstruction_S76`.
 
 ## 6. Autres atomes utiles
 
+- **S13-A006** — S13-A006 — « No language, just sound » : de la parole au signal corporel  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `motif_textuel` ; importance : `majeur` ; preuve : `analyse textuelle secondaire`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-025** — S41-025 — Premières paroles : Hook écrit, Curtis transcende  
@@ -280,8 +283,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S70-A003** — S70-A003 — Joy Division comme musique de l’espace métropolitain intérieur  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A005** — S70-A005 — Refus de faire du suicide le dernier geste créatif  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -420,6 +421,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - provocation (5)
 - domesticité (5)
 - An Ideal for Living (3)
+- silence (3)
 - House of Dolls (3)
 - Throbbing Gristle (3)
 - Electric Circus (3)
@@ -434,7 +436,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Short Circuit (2)
 - Plan K (2)
 - Atmosphere (2)
-- silence (2)
 - Dead Souls (2)
 - histoire (2)
 - Warsaw Pakt (2)
@@ -476,6 +477,14 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A140 — prolonge → CONCEPT-035
 - S45-A140 — prolonge → CONCEPT-030
 - S45-A140 — nuance → MYTH-002
+- S13-A002 — prolonge → CONCEPT-no-future
+- S13-A002 — prépare → S13-A010
+- S13-A004 — prolonge → S41-A003
+- S13-A004 — prolonge → S45-performance-Curtis
+- S13-A004 — nuance → MYTH-Curtis-prophète
+- S13-A006 — prolonge → S13-A005
+- S13-A006 — prolonge → MOTIF-silence
+- S13-A006 — prolonge → MOTIF-radio
 - S41-A045 — prolonge → S41-A001
 - S41-A045 — prolonge → CONCEPT-025
 - S41-A045 — alerte → MYTH-LYRICS-AS-DIARY
@@ -532,14 +541,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A024 — prolonge → S74-A017
 - S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
 - S74-A028 — nuance → MYTH-002
-- S74-A028 — complète → S74-A021
-- S74-A028 — prolonge → S74-A018
-- S74-A042 — prolonge → S74-A041
-- S74-A042 — complète → S74-A036
-- S74-A042 — nuance → MYTH-006
-- S74-A048 — nuance → MYTH-002
-- S74-A048 — prolonge → S74-A047
-- S74-A048 — annonce → S74-A049
 
 ## 13. Distribution documentaire
 
@@ -578,6 +579,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | registre_influences | 1 |
 | scene_soin_amateur | 1 |
 | santé | 1 |
+| concept_affectif | 1 |
+| concept_performance | 1 |
+| motif_textuel | 1 |
 | paroles_source | 1 |
 | scene_live_desillusion | 1 |
 | evenement_discographique | 1 |
@@ -647,9 +651,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 124 |
-| critique | 43 |
+| critique | 45 |
 | majeure | 13 |
-| majeur | 4 |
+| majeur | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -658,6 +662,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
 - S45-A140 [élevé] — Risque de spiritualiser ou de pathologiser ces épisodes ; ils sont surtout des indices de soin amateur.
+- S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
+- S13-A004 [très élevé] — Risque d’essentialiser Curtis, de confondre maladie, danse et rituel, ou de transformer la souffrance en pur motif esthétique.
+- S13-A006 [moyen] — Le motif ne doit pas effacer la dimension verbale très travaillée des textes de Curtis.
 - S41-A045 [élevé] — Risque de traiter les paroles comme journal intime ou comme idéologie transparente.
 - S41-A050 [très élevé] — Risque d’excuser ou d’accuser trop vite ; l’atome impose la distinction intention / effet / contexte politique.
 - S41-A028 [moyen] — Ne pas généraliser la scène à tout le punk américain ; c’est une expérience située.
@@ -710,9 +717,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A127 [tres_eleve] — risque maximal d’épitaphe rétroactive et de prophétisation de Curtis
 - S76-A128 [tres_eleve] — le titre attire des lectures possessionnelles, morbides ou psychopathologiques
 - S76-A068 [moyen] — scène très suggestive ; ne pas en faire une théorie générale de Curtis comme stratège médiatique
-- S76-A071 [eleve] — risque de transformer tout écart biographique en signe avant-coureur ; conserver la prudence anti-téléologique
-- S76-A031 [eleve] — risque majeur de causalité médicale unique et de psychologisation
-- S76-A138 [moyen] — première live et reprise rare à vérifier précisément ; ne pas surcharger symboliquement
 
 ## 15. Lacunes et prochaines vérifications
 
