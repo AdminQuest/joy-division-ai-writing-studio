@@ -271,6 +271,131 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-S22-001",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S22-001",
+      "motif": "fanzine comme nerve centre",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A001"
+      ],
+      "description": "City Fun fonctionne comme lieu de coordination, de parole et de dispute de la scène post-punk mancunienne."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S22-002",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S22-002",
+      "motif": "communiqués et Sellotape",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A002",
+        "S22-A003"
+      ],
+      "description": "La matérialité pauvre et bricolée de la presse alternative devient une infrastructure culturelle."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S22-003",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S22-003",
+      "motif": "quality control contre inclusion",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A003",
+        "S22-A004",
+        "S22-A005"
+      ],
+      "description": "Tension entre démocratisation radicale de la parole et exigence d’un objet médiatique lisible, drôle et durable."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S22-004",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S22-004",
+      "motif": "Fat Tory Records",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A006",
+        "S22-A007"
+      ],
+      "description": "Surnom satirique attribué à Factory dans l’orbite City Fun, révélateur d’un conflit de classe et de pouvoir culturel.",
+      "prudence": "Expression à contextualiser comme mémoire et satire, non comme qualification analytique brute."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S22-005",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S22-005",
+      "motif": "pseudy berks",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A008"
+      ],
+      "description": "Motif de satire des journalistes et intellectuels post-punk perçus comme socialement mobiles, verbeux et complices du marché culturel."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S22-006",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S22-006",
+      "motif": "Pam et le narcissisme moral",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A011"
+      ],
+      "description": "La série Pam Ponders caricature une politisation de soi qui transforme la vie quotidienne en tribunal moral."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S22-007",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S22-007",
+      "motif": "Manchester oppositional vs Manchester brand",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A013",
+        "S22-A014"
+      ],
+      "description": "Opposition entre une ville disputée par un média subculturel et une ville célébrée comme marque cool, civique et cosmopolite."
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-084",
     "file": "registers/motifs/s41_hook_motifs_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "MOTIF-084 — DIY financé par dette",

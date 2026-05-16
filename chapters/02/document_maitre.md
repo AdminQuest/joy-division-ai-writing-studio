@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:17:29"
+generated_at: "2026-05-16T19:34:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 306 |
+| Atomes | 309 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 32 |
 | Personnes | 27 |
 | Chansons | 6 |
-| Sources mobilisées | 13 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 10 | 0 |
+| S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
@@ -169,6 +170,12 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S15-A014** — S15-A014 — Ian Curtis comme passeur musical et littéraire  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A001** — S22-A001 — *City Fun* comme média post-punk mancunien : fanzine, collectif, nerve centre  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `source_media` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A003** — S22-A003 — Amateurisme, inclusion et problème de la qualité éditoriale  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `tension_editoriale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2** — S22 — Passe v2 — Wilkinson, *City Fun* and the politics of post-punk  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source secondaire universitaire ; à croiser avec S21 pour les citations primaires de City Fun`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -277,12 +284,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `dynamique_collective` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-A021** — S45-A021 — « Rusty » : l’annonce solitaire avant la rencontre du groupe  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A023** — S45-A023 — Mont de Marsan : le punk comme stratégie de carrière plus que vacances  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A024** — S45-A024 — Iggy Pop 1977 : contact avec Hook et Mason, immobilité de Curtis  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A025** — S45-A025 — Retour à Macclesfield : Barton Street comme base domestique du groupe  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu` ; importance : `majeur` ; preuve : `témoignage direct`.
 
 ## 7. Citations disponibles
 
@@ -463,6 +464,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - manchester (3)
 - peter hook (3)
 - architecture sonore (3)
+- amateurisme (3)
 - mythe fondateur (3)
 - Salford (3)
 - provocation punk (3)
@@ -473,7 +475,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - stabilisation rythmique (2)
 - stiff kittens (2)
 - salford (2)
-- apprentissage scénique (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -647,6 +648,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | mythe_nomination | 2 |
 | contexte_biographique | 2 |
 | scene_de_transition | 2 |
+| source_part | 2 |
 | scene_scene_locale | 1 |
 | tension_mediatique | 1 |
 | seuil_identitaire | 1 |
@@ -709,7 +711,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | lieu_culturel | 1 |
 | reseau_culturel | 1 |
 | nœud_biographique | 1 |
-| source_part | 1 |
 | rencontre | 1 |
 | sociabilite_musicale | 1 |
 | influence_esthetique | 1 |
@@ -719,6 +720,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | scene_live | 1 |
 | professionnalisation | 1 |
 | controverse_visuelle | 1 |
+| source_media | 1 |
+| tension_editoriale | 1 |
 | contexte_materiel | 1 |
 | anecdote_significative | 1 |
 | contexte_musical | 1 |
@@ -731,7 +734,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 192 |
+| non qualifiée | 195 |
 | critique | 77 |
 | majeure | 18 |
 | majeur | 15 |

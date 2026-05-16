@@ -967,7 +967,22 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::1808",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_specialises_s22.md::1807",
+    "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+    "heading": "Compléments aux registres spécialisés — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
+    "data": {
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "type_unite": "registres_specialises",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::1815",
     "file": "sources/wilkinson_city_fun_politics/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -982,7 +997,54 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2057",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/relations_stabilisees.md::1816",
+    "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+    "heading": "Relations stabilisées — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
+    "data": {
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "type_unite": "relations_stabilisees",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "atomes_source": [
+        "S22-A001",
+        "S22-A002",
+        "S22-A003",
+        "S22-A004",
+        "S22-A005",
+        "S22-A006",
+        "S22-A007",
+        "S22-A008",
+        "S22-A009",
+        "S22-A010",
+        "S22-A011",
+        "S22-A012",
+        "S22-A013",
+        "S22-A014",
+        "S22-A015"
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_structurants_s22.md::1843",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Compléments aux registres structurants — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
+    "data": {
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "type_unite": "registres_structurants",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/suatoni/README.md::2116",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -999,7 +1061,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2058",
+    "id": "NO_ID::sources/suatoni/README.md::2117",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -1037,7 +1099,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2059",
+    "id": "NO_ID::sources/suatoni/README.md::2118",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -1057,7 +1119,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2114",
+    "id": "NO_ID::sources/greig_strong/README.md::2173",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -1074,7 +1136,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2115",
+    "id": "NO_ID::sources/greig_strong/README.md::2174",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -1107,7 +1169,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2116",
+    "id": "NO_ID::sources/greig_strong/README.md::2175",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -1122,7 +1184,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2407",
+    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2466",
     "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
     "heading": "S13 — Relations stabilisées — Interzone, sound Joy Division et rave era",
     "data": {
@@ -1136,7 +1198,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::2769",
+    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::2828",
     "file": "registers/references/s06_carter_hulme_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1151,7 +1213,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::2792",
+    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::2851",
     "file": "registers/references/s20_dodge_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1166,7 +1228,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::2796",
+    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::2855",
     "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1181,7 +1243,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::2809",
+    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::2868",
     "file": "registers/references/s22_wilkinson_city_fun_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1196,7 +1258,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::2817",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::2876",
     "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1211,7 +1273,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::2821",
+    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::2880",
     "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1226,7 +1288,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::2823",
+    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::2882",
     "file": "registers/references/s09_cummins_joy_division_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1241,7 +1303,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::2827",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::2886",
     "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1256,7 +1318,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::2829",
+    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::2888",
     "file": "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1271,7 +1333,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::2842",
+    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::2901",
     "file": "registers/references/s02_sueur_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1287,7 +1349,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::2864",
+    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::2923",
     "file": "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {

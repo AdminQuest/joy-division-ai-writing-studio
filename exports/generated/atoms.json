@@ -80256,6 +80256,584 @@
   },
   {
     "kind": "atom",
+    "id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22 — Passe v2 — Wilkinson, *City Fun* and the politics of post-punk",
+    "data": {
+      "id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "source_short_title": "Wilkinson, City Fun and the politics of post-punk, 2018",
+      "source_year": "2018",
+      "auteur": "David Wilkinson",
+      "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
+      "type_unite": "source_part",
+      "statut": "integration_directe",
+      "fiabilite": "forte comme source secondaire universitaire ; à croiser avec S21 pour les citations primaires de City Fun",
+      "citation_directe": false,
+      "passage_atomise": "Article complet fourni en PDF : « ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk », p. PDF 91-109, incluant l’introduction, « Keeping control », « Fat tories », « The joys of oppression », « Meanwhile, back in the jungle », conclusion et notes.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 9",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A001",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A001 — *City Fun* comme média post-punk mancunien : fanzine, collectif, nerve centre",
+    "data": {
+      "id": "S22-A001",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "91-92",
+      "type_unite": "source_media",
+      "concepts": [
+        "City Fun",
+        "fanzine",
+        "post-punk media",
+        "Manchester scene",
+        "grassroots media"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_sources": [
+        "S21"
+      ],
+      "methodological_warnings": [
+        "Ne pas confondre S22, source secondaire, avec S21, source primaire City Fun."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A002",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A002 — Rochdale Alternative Press : infrastructure coopérative et héritage libertarian left",
+    "data": {
+      "id": "S22-A002",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "92-93",
+      "type_unite": "infrastructure_media",
+      "concepts": [
+        "Rochdale Alternative Press",
+        "Moss Side Press",
+        "libertarian left",
+        "cooperative printing",
+        "community publications"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organizations": [
+        "Rochdale Alternative Press",
+        "Moss Side Press"
+      ],
+      "methodological_warnings": [
+        "Ne pas réduire City Fun au punk : Wilkinson l’inscrit dans une généalogie contre-culturelle plus longue."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A003",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A003 — Amateurisme, inclusion et problème de la qualité éditoriale",
+    "data": {
+      "id": "S22-A003",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "93-94",
+      "type_unite": "tension_editoriale",
+      "concepts": [
+        "amateurisme",
+        "inclusion",
+        "qualité éditoriale",
+        "fanzine ethics"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas idéaliser l’ouverture totale : Wilkinson montre ses limites pratiques et esthétiques."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A004",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A004 — New pop, marché, indépendance : *City Fun* contre l’équation qualité/professionnalisation",
+    "data": {
+      "id": "S22-A004",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "94-96",
+      "type_unite": "debat_culturel",
+      "concepts": [
+        "new pop",
+        "independent media",
+        "professionalisation",
+        "neoliberalism",
+        "quality control"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Simon Reynolds",
+        "Paul Morley",
+        "Bob Last",
+        "Green Gartside"
+      ],
+      "methodological_warnings": [
+        "Ne pas réduire new pop à trahison : Wilkinson décrit une tension idéologique et esthétique."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A005",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A005 — Relaunch de 1980 : de l’ouverture totale à la coopération éditoriale sélective",
+    "data": {
+      "id": "S22-A005",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "95-97",
+      "type_unite": "evolution_editoriale",
+      "concepts": [
+        "City Fun relaunch",
+        "volume 2",
+        "editorial cooperation",
+        "sub-world",
+        "quality without sell-out"
+      ],
+      "chapitres": [
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Andy Zero",
+        "Liz Naylor",
+        "Cath Carroll",
+        "Bob Dickinson"
+      ],
+      "methodological_warnings": [
+        "Ne pas présenter la sélection éditoriale comme abandon pur du DIY ; Wilkinson la lit comme réorganisation coopérative."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A006",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A006 — Factory Records et *City Fun* : conflit esthétique, classe et éducation",
+    "data": {
+      "id": "S22-A006",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "97-99",
+      "type_unite": "conflit_scene",
+      "concepts": [
+        "Factory Records",
+        "City Fun",
+        "class",
+        "education",
+        "aesthetic debate"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Tony Wilson",
+        "Andy Zero",
+        "Martin X"
+      ],
+      "related_organizations": [
+        "Factory Records",
+        "City Fun"
+      ],
+      "methodological_warnings": [
+        "Ne pas transformer Wilson en antagoniste simple ; le conflit révèle des tensions de classe, d’éducation et de monopole culturel."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A007",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A007 — Tony Wilson, Cambridge, Factory et soupçon d’élitisme culturel",
+    "data": {
+      "id": "S22-A007",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "97-99",
+      "type_unite": "acteur_critique",
+      "concepts": [
+        "Tony Wilson",
+        "Cambridge education",
+        "elitism",
+        "Factory Records",
+        "left culturism"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Tony Wilson",
+        "Martin X",
+        "Alan Sinfield"
+      ],
+      "methodological_warnings": [
+        "Éviter la caricature anti-Wilson : City Fun et Factory restent partiellement imbriqués."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A008",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A008 — Ray Lowry, Paul Morley et critique du postmodernisme new pop",
+    "data": {
+      "id": "S22-A008",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "99-100",
+      "type_unite": "satire_media",
+      "concepts": [
+        "Ray Lowry",
+        "Paul Morley",
+        "new pop",
+        "postmodernism",
+        "NME"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Ray Lowry",
+        "Paul Morley",
+        "Garry Bushell"
+      ],
+      "methodological_warnings": [
+        "Ne pas confondre critique du postmodernisme new pop et anti-intellectualisme."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A009",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A009 — Liz Naylor et Cath Carroll : voix camp, working-class et critique des normes",
+    "data": {
+      "id": "S22-A009",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "100-102",
+      "type_unite": "acteurs_media",
+      "concepts": [
+        "Liz Naylor",
+        "Cath Carroll",
+        "camp",
+        "working-class voices",
+        "gender politics"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Liz Naylor",
+        "Cath Carroll"
+      ],
+      "methodological_warnings": [
+        "Ne pas lire la critique de certains féminismes middle-class comme antiféminisme."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A010",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A010 — Sexualité, féminisme, camp : critique non réactionnaire des identités middle-class",
+    "data": {
+      "id": "S22-A010",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "100-102",
+      "type_unite": "genre_sexualite",
+      "concepts": [
+        "feminism",
+        "camp",
+        "sexuality",
+        "middle-class identities",
+        "queer sensibility"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Liz Naylor",
+        "Cath Carroll",
+        "Helen Reddington",
+        "Susan Sontag",
+        "Alan Sinfield"
+      ],
+      "methodological_warnings": [
+        "Distinguer critique de la respectabilité middle-class et réaction antiféministe."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A011",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A011 — « Pam Ponders » : satire de l’individualisme moral middle-class",
+    "data": {
+      "id": "S22-A011",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "103-104",
+      "type_unite": "satire_serie",
+      "concepts": [
+        "Pam Ponders",
+        "Cath Carroll",
+        "new middle class",
+        "moral narcissism",
+        "identity politics"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Cath Carroll",
+        "Raphael Samuel",
+        "Andrew Milner"
+      ],
+      "methodological_warnings": [
+        "Ne pas reprendre Pam comme caricature anti-féministe ; Wilkinson la lit comme satire de l’individualisme moral middle-class."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A012",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A012 — Tribalism, left fragmentation et identités postmodernes",
+    "data": {
+      "id": "S22-A012",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "102-104",
+      "type_unite": "politique_identitaire",
+      "concepts": [
+        "tribalism",
+        "left fragmentation",
+        "identity politics",
+        "postmodernism",
+        "working-class politics"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Fredric Jameson",
+        "Andrew Milner",
+        "Raphael Samuel",
+        "André Gorz"
+      ],
+      "methodological_warnings": [
+        "Ne pas plaquer les débats contemporains sur City Fun ; conserver le contexte 1980-1982."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A013",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A013 — *City Fun* contre *I Love Manchester* : média oppositional vs content marketing",
+    "data": {
+      "id": "S22-A013",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "105-106",
+      "type_unite": "comparaison_media",
+      "concepts": [
+        "I Love Manchester",
+        "content marketing",
+        "civic pride",
+        "oppositional media",
+        "urban branding"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organizations": [
+        "I Love Manchester",
+        "City Fun"
+      ],
+      "methodological_warnings": [
+        "Ne pas utiliser S22 pour condamner globalement tout média urbain contemporain ; l’article oppose deux régimes de discours."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A014",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A014 — *City Fun* comme ressource critique pour penser Manchester après la régénération",
+    "data": {
+      "id": "S22-A014",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "105-106",
+      "type_unite": "conclusion_historiographique",
+      "concepts": [
+        "Manchester regeneration",
+        "civic pride",
+        "media critique",
+        "counterculture",
+        "urban memory"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas transformer City Fun en nostalgie pure ; Wilkinson en fait aussi un outil critique du présent."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S22-A015",
+    "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+    "heading": "S22-A015 — S22 comme source secondaire : croiser avec S21 avant citation primaire",
+    "data": {
+      "id": "S22-A015",
+      "source_id": "S22",
+      "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+      "pages_pdf": "91-109",
+      "type_unite": "prudence_methodologique",
+      "concepts": [
+        "source secondaire",
+        "City Fun primary source",
+        "citation verification",
+        "method"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_sources": [
+        "S21"
+      ],
+      "methodological_warnings": [
+        "Pour citer City Fun, revenir à S21 ou au fac-similé primaire.",
+        "Utiliser Wilkinson pour l’interprétation, non pour substituer le corpus primaire."
+      ],
+      "source_short_title": "David Wilkinson, ‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S41-040",
     "file": "sources/hook/atomisation_02_transmission_1978.md",
     "heading": "S41-040 — Dernier concert sous le nom Warsaw",

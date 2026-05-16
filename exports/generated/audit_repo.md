@@ -1,17 +1,17 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-16T19:17:27`
+Généré le : `2026-05-16T19:34:55`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 264 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1738 atome(s) incomplet(s) sur 1799.
+Le repo est techniquement exploitable, mais 285 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1754 atome(s) incomplet(s) sur 1815.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 3913
+- Enregistrements : 3972
 - Erreurs : 0
-- Avertissements : 18629
+- Avertissements : 18843
 - Sources déclarées : 51
 - Sources utilisées : 25
 - Sources exportées : 25
@@ -22,12 +22,12 @@ La dette principale reste la migration v2 : 1738 atome(s) incomplet(s) sur 1799.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1799 |
+| atom | 1815 |
 | chronology | 343 |
-| concept | 197 |
-| metadata | 61 |
-| motif | 273 |
-| myth | 23 |
+| concept | 205 |
+| metadata | 64 |
+| motif | 280 |
+| myth | 27 |
 | person | 157 |
 | quote | 358 |
 | quote_batch | 1 |
@@ -35,18 +35,18 @@ La dette principale reste la migration v2 : 1738 atome(s) incomplet(s) sur 1799.
 | song | 41 |
 | source | 59 |
 | template | 336 |
-| unknown | 264 |
+| unknown | 285 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 149 |
-| invalid_controlled_value | 1574 |
-| missing_required_field | 5024 |
+| invalid_controlled_value | 1592 |
+| missing_required_field | 5055 |
 | schema_warning | 400 |
-| unknown_yaml_block | 264 |
-| v2_migration_debt | 11218 |
+| unknown_yaml_block | 285 |
+| v2_migration_debt | 11362 |
 
 ## 5. Erreurs bloquantes
 
@@ -94,7 +94,7 @@ Aucune.
 - `sources/deluca_manchester_punk_threshold/registres_specialises_s15.md` : Unable to infer documentary kind
 - `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-001] : Unable to infer documentary kind
 - `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-002] : Unable to infer documentary kind
-- … 224 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 245 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -132,10 +132,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1799
+- Atomes : 1815
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1738
-- Avertissements de champs v2 manquants : 11218
+- Atomes v2 incomplets : 1754
+- Avertissements de champs v2 manquants : 11362
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

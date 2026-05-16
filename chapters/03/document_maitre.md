@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:17:29"
+generated_at: "2026-05-16T19:34:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 299 |
+| Atomes | 304 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
 | Personnes | 19 |
 | Chansons | 18 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 4 | 0 |
+| S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 5 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
@@ -171,6 +172,16 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S15-A015** — S15-A015 — Joy Division comme unité, contre la réduction au seul mythe Curtis  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A001** — S22-A001 — *City Fun* comme média post-punk mancunien : fanzine, collectif, nerve centre  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `source_media` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A004** — S22-A004 — New pop, marché, indépendance : *City Fun* contre l’équation qualité/professionnalisation  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `debat_culturel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A006** — S22-A006 — Factory Records et *City Fun* : conflit esthétique, classe et éducation  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `conflit_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A007** — S22-A007 — Tony Wilson, Cambridge, Factory et soupçon d’élitisme culturel  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `acteur_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2** — S22 — Passe v2 — Wilkinson, *City Fun* and the politics of post-punk  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source secondaire universitaire ; à croiser avec S21 pour les citations primaires de City Fun`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
@@ -275,16 +286,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 - **S45-007** — S45-007 — Rare Records comme point de bascule culturel  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `culture_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S45-010** — S45-010 — Le couple écoute reggae et soul dans l’espace domestique  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `culture_domestique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S45-A050** — S45-A050 — Arrow / RCA : désir de studio, absence de discussion et naïveté industrielle  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A051** — S45-A051 — Arrow Studios : chant soul imposé, synthétiseur accepté, métamorphose inachevée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A058** — S45-A058 — L’incident du second guitariste : la basse de Hook avance par conflit  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A066** — S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
 
 ## 7. Citations disponibles
 
@@ -421,6 +422,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Factory (4)
 - producteur catalyseur (4)
 - spectralité (4)
+- Factory Records (4)
+- Tony Wilson (4)
 - radio (3)
 - piccadilly radio (3)
 - dub (3)
@@ -439,7 +442,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - new wave (3)
 - basse (3)
 - apprentissage autodidacte (3)
-- Tony Wilson (3)
 - Granada Reports (3)
 - john peel (2)
 - peel session (2)
@@ -461,7 +463,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - RCA (2)
 - John Anderson (2)
 - FAC 2 (2)
-- Martin Zero (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -611,6 +612,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | session_radio | 4 |
 | discographie | 4 |
 | reception_critique | 4 |
+| source_part | 4 |
 | analyse_morceau_studio | 3 |
 | interpretation_studio | 3 |
 | reception_presse | 3 |
@@ -618,7 +620,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | enregistrement | 3 |
 | interpretation_esthetique | 3 |
 | equipment_file | 3 |
-| source_part | 3 |
 | contexte_technique | 3 |
 | song_session | 3 |
 | release_or_session | 3 |
@@ -716,6 +717,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | image_groupe | 1 |
 | relation_son_image | 1 |
 | reseau_visuel | 1 |
+| source_media | 1 |
+| debat_culturel | 1 |
+| conflit_scene | 1 |
+| acteur_critique | 1 |
 | transition | 1 |
 | conflit_esthetique | 1 |
 | portrait_technique | 1 |
@@ -727,7 +732,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 192 |
+| non qualifiée | 197 |
 | critique | 86 |
 | majeure | 11 |
 | majeur | 10 |

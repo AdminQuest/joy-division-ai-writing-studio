@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:17:29"
+generated_at: "2026-05-16T19:34:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T19:17:29"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 150 |
+| Atomes | 152 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 20 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ generated_at: "2026-05-16T19:17:29"
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 5 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 7 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
+| S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -478,7 +479,7 @@ generated_at: "2026-05-16T19:17:29"
 
 | Type | Nombre |
 |---|---|
-| source_part | 9 |
+| source_part | 10 |
 | concept_structurant | 9 |
 | analyse | 9 |
 | prudence_methodologique | 7 |
@@ -551,6 +552,7 @@ generated_at: "2026-05-16T19:17:29"
 | chanson | 1 |
 | relation_inter_sources | 1 |
 | mythe_prudence | 1 |
+| infrastructure_media | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
@@ -560,7 +562,7 @@ generated_at: "2026-05-16T19:17:29"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 130 |
+| non qualifiée | 132 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:17:29"
+generated_at: "2026-05-16T19:34:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 806 |
+| Atomes | 817 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 23 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 9 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
+| S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 11 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
@@ -213,6 +214,28 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A004** — S22-A004 — New pop, marché, indépendance : *City Fun* contre l’équation qualité/professionnalisation  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `debat_culturel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A006** — S22-A006 — Factory Records et *City Fun* : conflit esthétique, classe et éducation  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `conflit_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A007** — S22-A007 — Tony Wilson, Cambridge, Factory et soupçon d’élitisme culturel  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `acteur_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A008** — S22-A008 — Ray Lowry, Paul Morley et critique du postmodernisme new pop  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `satire_media` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A009** — S22-A009 — Liz Naylor et Cath Carroll : voix camp, working-class et critique des normes  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `acteurs_media` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A010** — S22-A010 — Sexualité, féminisme, camp : critique non réactionnaire des identités middle-class  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `genre_sexualite` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A011** — S22-A011 — « Pam Ponders » : satire de l’individualisme moral middle-class  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `satire_serie` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A012** — S22-A012 — Tribalism, left fragmentation et identités postmodernes  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `politique_identitaire` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A013** — S22-A013 — *City Fun* contre *I Love Manchester* : média oppositional vs content marketing  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `comparaison_media` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A014** — S22-A014 — *City Fun* comme ressource critique pour penser Manchester après la régénération  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A015** — S22-A015 — S22 comme source secondaire : croiser avec S21 avant citation primaire  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-014** — S41-014 — Lesser Free Trade Hall, 4 juin 1976 : mythe et expérience vécue  
@@ -271,28 +294,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-131** — S41-131 — Le paradoxe commercial de « Love Will Tear Us Apart »  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `réception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-142** — S41-142 — Birmingham University, 2 mai 1980 : dernier concert officiel  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-143** — S41-143 — « Ceremony » : morceau de passage vers l’après-Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `morceau_transitionnel` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-146** — S41-146 — 23 mai 1980 : crémation et wake Factory  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_biographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-148** — S41-148 — 27 juin 1980 : sortie de « Love Will Tear Us Apart » en 12 pouces  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-149** — S41-149 — 18 juillet 1980 : sortie de *Closer*  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-151** — S41-151 — FAC 28 : le flexidisc comme compromis après l’abandon du double album  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-153** — S41-153 — 2 septembre 1980 : « Atmosphere » / « She’s Lost Control » en 12 pouces  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-154** — S41-154 — *Still* : constitution de l’archive officielle  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie_posthume` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-155** — S41-155 — *Still* : double temporalité studio/live  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-156** — S41-156 — Bootlegs et incertitudes d’origine documentaire  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `note_documentaire` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -443,19 +444,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Joy Division (21)
 - Unknown Pleasures (20)
 - Peter Saville (18)
+- NME (16)
 - Rob Gretton (16)
 - Love Will Tear Us Apart (16)
-- NME (15)
 - prudence historiographique (15)
 - Atmosphere (14)
 - new order (13)
 - factory records (13)
+- Tony Wilson (13)
+- Factory Records (13)
 - peter saville (12)
-- Tony Wilson (12)
 - réception (12)
 - martin hannett (11)
 - Ceremony (11)
-- Factory Records (11)
 - mémoire (11)
 - Dead Souls (10)
 - She's Lost Control (10)
@@ -475,6 +476,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Closer (7)
 - factory (7)
 - joy division (6)
+- new pop (6)
 - goth (6)
 - archive (6)
 - mémoire culturelle (6)
@@ -496,6 +498,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Plan K (5)
 - Londres (5)
 - Festive Fifty (5)
+- Paul Morley (5)
 - imagerie nazie (5)
 - Digital (5)
 - love will tear us apart (5)
@@ -505,7 +508,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - culte (5)
 - fanzine (4)
 - paul morley (4)
-- new pop (4)
 - télévision (4)
 - 1982 (4)
 - photographie (4)
@@ -515,7 +517,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Temptation (4)
 - Everything's Gone Green (4)
 - Blue Monday (4)
-- ventes (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -668,8 +669,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
+| prudence_methodologique | 7 |
 | fait | 7 |
-| prudence_methodologique | 6 |
 | lecture | 6 |
 | controverse | 6 |
 | objet_audiovisuel | 5 |
@@ -677,6 +678,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | iconographie_photographe | 5 |
 | biographie | 5 |
 | mythe | 5 |
+| acteur_critique | 5 |
 | citation_repere | 5 |
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
@@ -691,7 +693,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | fait_interprete | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
-| acteur_critique | 4 |
 | session_studio | 4 |
 | lecture_chanson | 4 |
 | concert_europeen | 4 |
@@ -715,6 +716,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept | 3 |
 | objet_visuel | 3 |
 | decision_strategique | 3 |
+| conclusion_historiographique | 3 |
 | source_part | 3 |
 | interpretation | 3 |
 | song_session | 3 |
@@ -755,7 +757,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
 | reception_interne | 2 |
-| conclusion_historiographique | 2 |
 | lettre_intime | 2 |
 | scene_medicale_live | 2 |
 | reception_scene | 2 |
@@ -1030,6 +1031,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | satire_culturelle | 1 |
 | contexte_discographique | 1 |
 | mythe_prudence | 1 |
+| debat_culturel | 1 |
+| conflit_scene | 1 |
+| satire_media | 1 |
+| acteurs_media | 1 |
+| genre_sexualite | 1 |
+| satire_serie | 1 |
+| politique_identitaire | 1 |
+| comparaison_media | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -1060,7 +1069,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 514 |
+| non qualifiée | 525 |
 | critique | 221 |
 | majeure | 39 |
 | majeur | 28 |

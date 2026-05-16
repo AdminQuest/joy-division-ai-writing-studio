@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-16T19:17:27",
+  "generated_at": "2026-05-16T19:34:55",
   "summary": {
-    "records_total": 3913,
+    "records_total": 3972,
     "records_by_kind": {
-      "atom": 1799,
-      "metadata": 61,
+      "atom": 1815,
+      "metadata": 64,
       "quote": 358,
       "chronology": 343,
       "source": 59,
-      "unknown": 264,
-      "concept": 197,
-      "motif": 273,
-      "myth": 23,
+      "unknown": 285,
+      "concept": 205,
+      "motif": 280,
+      "myth": 27,
       "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 18629,
+    "diagnostics_total": 18843,
     "errors": 0,
-    "warnings": 18629,
+    "warnings": 18843,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 25,
     "sources_exported": 25,
@@ -29,12 +29,12 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1799,
+    "atom": 1815,
     "chronology": 343,
-    "concept": 197,
-    "metadata": 61,
-    "motif": 273,
-    "myth": 23,
+    "concept": 205,
+    "metadata": 64,
+    "motif": 280,
+    "myth": 27,
     "person": 157,
     "quote": 358,
     "quote_batch": 1,
@@ -42,7 +42,7 @@
     "song": 41,
     "source": 59,
     "template": 336,
-    "unknown": 264
+    "unknown": 285
   },
   "records_by_source": {
     "S02": {
@@ -128,9 +128,13 @@
       "unknown": 9
     },
     "S22": {
+      "metadata": 5,
       "source": 1,
-      "metadata": 2,
-      "unknown": 1
+      "unknown": 16,
+      "atom": 16,
+      "concept": 8,
+      "motif": 7,
+      "myth": 4
     },
     "S41": {
       "atom": 430,
@@ -213,19 +217,19 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 248,
+    "Chapitre 1": 251,
     "Chapitre 10": 253,
     "Chapitre 11": 221,
     "Chapitre 12": 471,
     "Chapitre 13": 111,
-    "Chapitre 14": 1037,
-    "Chapitre 2": 381,
-    "Chapitre 3": 424,
+    "Chapitre 14": 1056,
+    "Chapitre 2": 384,
+    "Chapitre 3": 431,
     "Chapitre 4": 312,
     "Chapitre 5": 443,
     "Chapitre 6": 571,
     "Chapitre 7": 123,
-    "Chapitre 8": 325,
+    "Chapitre 8": 346,
     "Chapitre 9": 283,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -317,6 +321,10 @@
       26
     ],
     [
+      "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      25
+    ],
+    [
       "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
       24
     ],
@@ -347,19 +355,15 @@
     [
       "sources/flowers/citations_exactes.md",
       20
-    ],
-    [
-      "sources/ott_unknown_pleasures/source_part_01.md",
-      20
     ]
   ],
   "issue_categories": {
     "field_type_error": 149,
-    "invalid_controlled_value": 1574,
-    "missing_required_field": 5024,
+    "invalid_controlled_value": 1592,
+    "missing_required_field": 5055,
     "schema_warning": 400,
-    "unknown_yaml_block": 264,
-    "v2_migration_debt": 11218
+    "unknown_yaml_block": 285,
+    "v2_migration_debt": 11362
   },
   "top_files_by_issue_count": [
     [
@@ -463,6 +467,10 @@
       200
     ],
     [
+      "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      193
+    ],
+    [
       "sources/greig_strong/source.md",
       182
     ],
@@ -477,10 +485,6 @@
     [
       "sources/ott_unknown_pleasures/source_part_01.md",
       167
-    ],
-    [
-      "sources/ott_unknown_pleasures/source_part_03.md",
-      161
     ]
   ],
   "blocking_errors": [],
@@ -1010,6 +1014,174 @@
       "category": "unknown_yaml_block",
       "file": "sources/happy_mondays_gods_cop/registres_specialises_s14.md",
       "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      "record_id": "REF-S22-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      "record_id": "REF-S22-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      "record_id": "REF-S22-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      "record_id": "REF-S22-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      "record_id": "REF-S22-005",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -2599,10 +2771,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1799,
+    "atoms_total": 1815,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1738,
-    "v2_missing_field_warnings": 11218
+    "atoms_v2_incomplete": 1754,
+    "v2_missing_field_warnings": 11362
   },
   "source_registry": {
     "declared_but_unused": [
@@ -3256,13 +3428,17 @@
         "auteur": "David Wilkinson",
         "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
         "annee": "2018",
-        "records": 4,
-        "atoms": 0,
+        "records": 57,
+        "atoms": 16,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s22_wilkinson_city_fun_source_canonique.md",
-          "sources/wilkinson_city_fun_politics/source.md"
+          "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+          "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+          "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+          "sources/wilkinson_city_fun_politics/source.md",
+          "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md"
         ]
       },
       {
@@ -110738,6 +110914,1718 @@
       "category": "unknown_yaml_block",
       "file": "sources/happy_mondays_gods_cop/registres_specialises_s14.md",
       "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
+      "record_id": "REL-S22-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Invalid value for statut: integration_directe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Invalid value for fiabilite: forte comme source secondaire universitaire ; à croiser avec S21 pour les citations primaires de City Fun",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A001",
+      "message": "Invalid value for type_unite: source_media",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A002",
+      "message": "Invalid value for type_unite: infrastructure_media",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A003",
+      "message": "Invalid value for type_unite: tension_editoriale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A004",
+      "message": "Invalid value for type_unite: debat_culturel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A005",
+      "message": "Invalid value for type_unite: evolution_editoriale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A006",
+      "message": "Invalid value for type_unite: conflit_scene",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A007",
+      "message": "Invalid value for type_unite: acteur_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A008",
+      "message": "Invalid value for type_unite: satire_media",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A009",
+      "message": "Invalid value for type_unite: acteurs_media",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A010",
+      "message": "Invalid value for type_unite: genre_sexualite",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A011",
+      "message": "Invalid value for type_unite: satire_serie",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A012",
+      "message": "Invalid value for type_unite: politique_identitaire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A013",
+      "message": "Invalid value for type_unite: comparaison_media",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A014",
+      "message": "Invalid value for type_unite: conclusion_historiographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md",
+      "record_id": "S22-A015",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      "record_id": "REF-S22-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      "record_id": "REF-S22-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      "record_id": "REF-S22-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      "record_id": "REF-S22-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+      "record_id": "REF-S22-005",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

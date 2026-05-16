@@ -172,6 +172,82 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-S22-001",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S22-001",
+      "mythe": "City Fun comme simple fanzine musical",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A001",
+        "S22-A014"
+      ],
+      "statut": "mythe à corriger",
+      "position": "City Fun est un média politique, local, collectif et culturel, pas seulement une publication musicale."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S22-002",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S22-002",
+      "mythe": "Factory comme seul récit légitime du post-punk mancunien",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A006",
+        "S22-A007"
+      ],
+      "statut": "mythe à nuancer",
+      "position": "Factory domine la mémoire publique, mais City Fun donne une perspective alternative sur la scène, ses classes et ses conflits."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S22-003",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S22-003",
+      "mythe": "camp City Fun comme dépolitisation",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A009",
+        "S22-A010"
+      ],
+      "statut": "mythe à nuancer",
+      "position": "Le camp peut désamorcer, mais il peut aussi produire une critique située de la respectabilité, de la norme sexuelle et de la distinction."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S22-004",
+    "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S22-004",
+      "mythe": "City Fun comme nostalgie pure",
+      "sources": [
+        "S22"
+      ],
+      "related_atoms": [
+        "S22-A013",
+        "S22-A014"
+      ],
+      "statut": "mythe à déconstruire",
+      "position": "Wilkinson utilise City Fun pour penser le présent de la ville-branding et du marketing culturel, pas pour idéaliser le passé."
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-011",
     "file": "registers/myths/s45_curtis_myths_vote_conservateur.md",
     "heading": "MYTH-011 — Joy Division comme groupe naturellement ouvrier et de gauche",

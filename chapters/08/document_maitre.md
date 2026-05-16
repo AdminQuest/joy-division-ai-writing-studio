@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:17:29"
+generated_at: "2026-05-16T19:34:56"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 216 |
+| Atomes | 229 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
 | Personnes | 7 |
 | Chansons | 4 |
-| Sources mobilisées | 11 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 4 | 0 |
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 3 | 0 |
+| S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 13 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
@@ -135,6 +136,32 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `contexte_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S14-A007** — S14-A007 — S14 et S13 : passerelle vers Madchester, Haçienda et rave era  
   Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A001** — S22-A001 — *City Fun* comme média post-punk mancunien : fanzine, collectif, nerve centre  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `source_media` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A002** — S22-A002 — Rochdale Alternative Press : infrastructure coopérative et héritage libertarian left  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `infrastructure_media` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A003** — S22-A003 — Amateurisme, inclusion et problème de la qualité éditoriale  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `tension_editoriale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A004** — S22-A004 — New pop, marché, indépendance : *City Fun* contre l’équation qualité/professionnalisation  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `debat_culturel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A005** — S22-A005 — Relaunch de 1980 : de l’ouverture totale à la coopération éditoriale sélective  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `evolution_editoriale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A006** — S22-A006 — Factory Records et *City Fun* : conflit esthétique, classe et éducation  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `conflit_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A007** — S22-A007 — Tony Wilson, Cambridge, Factory et soupçon d’élitisme culturel  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `acteur_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A008** — S22-A008 — Ray Lowry, Paul Morley et critique du postmodernisme new pop  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `satire_media` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A009** — S22-A009 — Liz Naylor et Cath Carroll : voix camp, working-class et critique des normes  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `acteurs_media` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A010** — S22-A010 — Sexualité, féminisme, camp : critique non réactionnaire des identités middle-class  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `genre_sexualite` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A011** — S22-A011 — « Pam Ponders » : satire de l’individualisme moral middle-class  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `satire_serie` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A012** — S22-A012 — Tribalism, left fragmentation et identités postmodernes  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `politique_identitaire` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S22-A015** — S22-A015 — S22 comme source secondaire : croiser avec S21 avant citation primaire  
+  Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
@@ -255,32 +282,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S68-A006** — S-BROLL-A006 — Electric Circus, 2 novembre 1977, et *Short Circuit*  
   Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A007** — S-BROLL-A007 — *An Ideal for Living* : enregistrement et insatisfaction initiale  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A011** — S-BROLL-A011 — Sessions RCA de mai 1978  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A012** — S-BROLL-A012 — Contrat RCA refusé  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A014** — S-BROLL-A014 — Publication de *An Ideal for Living* en juin 1978  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A015** — S-BROLL-A015 — Réédition 12'' d’octobre 1978  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A016** — S-BROLL-A016 — « Digital » et « Glass » pour *A Factory Sample*  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A018** — S-BROLL-A018 — Première Peel Session  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A019** — S-BROLL-A019 — Martin Rushent / Genetic Records / Eden Studios  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A021** — S-BROLL-A021 — FAST Product / *Earcom 2: Contradiction*  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A022** — S-BROLL-A022 — Piccadilly Radio, 4 juin 1979  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A023** — S-BROLL-A023 — Central Sound Studio, juillet 1979  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A025** — S-BROLL-A025 — Films de Malcolm Whitehead et Charles Salem  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A026** — S-BROLL-A026 — Apollo Theatre, Manchester, et *Here Are the Young Men*  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -349,6 +350,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - here are the young men (4)
 - martin hannett (4)
 - culture bootleg (4)
+- Factory Records (4)
 - warsaw (3)
 - john peel (3)
 - piccadilly radio (3)
@@ -381,8 +383,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - granada tv (2)
 - novelty (2)
 - architecture sonore (2)
-- Factory Records (2)
 - Madchester (2)
+- City Fun (2)
+- new pop (2)
+- postmodernism (2)
+- Cath Carroll (2)
+- camp (2)
+- identity politics (2)
 - invitation symbolique / exclusion pratique (1)
 - studio comme dissociation domestique (1)
 - œuvre capitale sous crise intime (1)
@@ -413,12 +420,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - coordination d’atmosphère (1)
 - studio comme traduction (1)
 - fausse stabilisation (1)
-- don ambigu (1)
-- signe testamentaire incertain (1)
-- demo tape (1)
-- electric circus (1)
-- short circuit (1)
-- virgin (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -637,6 +638,19 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | contexte_musical | 1 |
 | contexte_discographique | 1 |
 | relation_inter_sources | 1 |
+| source_media | 1 |
+| infrastructure_media | 1 |
+| tension_editoriale | 1 |
+| debat_culturel | 1 |
+| evolution_editoriale | 1 |
+| conflit_scene | 1 |
+| acteur_critique | 1 |
+| satire_media | 1 |
+| acteurs_media | 1 |
+| genre_sexualite | 1 |
+| satire_serie | 1 |
+| politique_identitaire | 1 |
+| prudence_methodologique | 1 |
 | release_or_session | 1 |
 | release_object | 1 |
 | live_set_context | 1 |
@@ -646,8 +660,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
+| non qualifiée | 105 |
 | critique | 100 |
-| non qualifiée | 92 |
 | majeur | 18 |
 | majeure | 6 |
 
