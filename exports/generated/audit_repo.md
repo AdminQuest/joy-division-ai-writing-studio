@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-16T20:35:31`
+Généré le : `2026-05-16T20:59:35`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 307 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1772 atome(s) incomplet(s) sur 1833.
+Le repo est techniquement exploitable, mais 325 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1783 atome(s) incomplet(s) sur 1844.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 4039
+- Enregistrements : 4087
 - Erreurs : 0
-- Avertissements : 19083
+- Avertissements : 19233
 - Sources déclarées : 51
-- Sources utilisées : 26
-- Sources exportées : 26
+- Sources utilisées : 27
+- Sources exportées : 27
 - Sources utilisées absentes du registre : 0
 - Libellés faibles : 0
 
@@ -22,31 +22,31 @@ La dette principale reste la migration v2 : 1772 atome(s) incomplet(s) sur 1833.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1833 |
+| atom | 1844 |
 | chronology | 343 |
-| concept | 215 |
-| metadata | 69 |
-| motif | 287 |
-| myth | 31 |
+| concept | 221 |
+| metadata | 74 |
+| motif | 291 |
+| myth | 34 |
 | person | 157 |
 | quote | 358 |
 | quote_batch | 1 |
 | rules | 1 |
 | song | 41 |
-| source | 60 |
+| source | 61 |
 | template | 336 |
-| unknown | 307 |
+| unknown | 325 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 149 |
-| invalid_controlled_value | 1612 |
-| missing_required_field | 5091 |
+| invalid_controlled_value | 1625 |
+| missing_required_field | 5111 |
 | schema_warning | 400 |
-| unknown_yaml_block | 307 |
-| v2_migration_debt | 11524 |
+| unknown_yaml_block | 325 |
+| v2_migration_debt | 11623 |
 
 ## 5. Erreurs bloquantes
 
@@ -54,6 +54,23 @@ Aucune.
 
 ## 6. Blocs YAML non classés
 
+- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/registres_specialises_s27.md` : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-001] : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-002] : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-003] : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-004] : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-005] : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-006] : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-007] : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/relations_stabilisees.md` [REL-S27-008] : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-001] : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-002] : Unable to infer documentary kind
+- `sources/riom_review_crossley_networks/registres_structurants_s27.md` [REF-S27-003] : Unable to infer documentary kind
 - `sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md` : Unable to infer documentary kind
 - `sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md` : Unable to infer documentary kind
 - `sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md` [REF-S11-001] : Unable to infer documentary kind
@@ -77,24 +94,7 @@ Aucune.
 - `sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md` : Unable to infer documentary kind
 - `sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md` : Unable to infer documentary kind
 - `sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md` : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-001] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-002] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-003] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-004] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-005] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-006] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-007] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-008] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-009] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-010] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md` [REL-S26-011] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md` [REF-S26-001] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md` [REF-S26-002] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md` [REF-S26-003] : Unable to infer documentary kind
-- `sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md` [REF-S26-004] : Unable to infer documentary kind
-- `sources/deluca_manchester_punk_threshold/registres_structurants_s15.md` [MYTHE-S15-001] : Unable to infer documentary kind
-- `sources/deluca_manchester_punk_threshold/registres_structurants_s15.md` [MYTHE-S15-002] : Unable to infer documentary kind
-- … 267 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 285 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -113,7 +113,6 @@ Sources déclarées mais non utilisées :
 - S23 — Rochdale Alternative Press, infrastructure DIY, 1971–1981 — a_consolider
 - S24 — Richard Boon / New Hormones, Spiral Scratch, 1977 — a_consolider
 - S25 — Factory Records, philosophie d’indépendance, 1978–1992 — a_consolider
-- S27 — Crossley, Networks of Sound, Style and Subversion, 2015 — verifie
 - S28 — Granada Television / Tony Wilson, So It Goes, 1976–1977 — a_consolider
 - S29 — Goddard, Missions of Dead Souls, 2011 — verifie
 - S30 — Frith, Sound Effects, 1981 — verifie
@@ -131,10 +130,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1833
+- Atomes : 1844
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1772
-- Avertissements de champs v2 manquants : 11524
+- Atomes v2 incomplets : 1783
+- Avertissements de champs v2 manquants : 11623
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

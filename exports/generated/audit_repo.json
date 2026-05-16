@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-16T20:46:24",
+  "generated_at": "2026-05-16T20:59:35",
   "summary": {
-    "records_total": 4043,
+    "records_total": 4087,
     "records_by_kind": {
-      "atom": 1833,
+      "atom": 1844,
+      "metadata": 74,
+      "unknown": 325,
       "source": 61,
-      "metadata": 71,
+      "concept": 221,
+      "motif": 291,
+      "myth": 34,
       "quote": 358,
       "chronology": 343,
-      "unknown": 308,
-      "concept": 215,
-      "motif": 287,
-      "myth": 31,
       "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 19084,
+    "diagnostics_total": 19233,
     "errors": 0,
-    "warnings": 19084,
+    "warnings": 19233,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 27,
     "sources_exported": 27,
@@ -29,12 +29,12 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1833,
+    "atom": 1844,
     "chronology": 343,
-    "concept": 215,
-    "metadata": 71,
-    "motif": 287,
-    "myth": 31,
+    "concept": 221,
+    "metadata": 74,
+    "motif": 291,
+    "myth": 34,
     "person": 157,
     "quote": 358,
     "quote_batch": 1,
@@ -42,7 +42,7 @@
     "song": 41,
     "source": 61,
     "template": 336,
-    "unknown": 308
+    "unknown": 325
   },
   "records_by_source": {
     "S02": {
@@ -146,9 +146,13 @@
       "myth": 4
     },
     "S27": {
+      "metadata": 5,
       "source": 1,
-      "metadata": 2,
-      "unknown": 1
+      "unknown": 12,
+      "atom": 11,
+      "concept": 6,
+      "motif": 4,
+      "myth": 3
     },
     "S41": {
       "atom": 430,
@@ -231,20 +235,20 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 262,
+    "Chapitre 1": 273,
     "Chapitre 10": 253,
     "Chapitre 11": 223,
     "Chapitre 12": 471,
     "Chapitre 13": 111,
-    "Chapitre 14": 1077,
-    "Chapitre 2": 394,
-    "Chapitre 3": 446,
+    "Chapitre 14": 1084,
+    "Chapitre 2": 404,
+    "Chapitre 3": 450,
     "Chapitre 4": 312,
     "Chapitre 5": 443,
     "Chapitre 6": 571,
     "Chapitre 7": 135,
-    "Chapitre 8": 362,
-    "Chapitre 9": 283,
+    "Chapitre 8": 378,
+    "Chapitre 9": 284,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -373,11 +377,11 @@
   ],
   "issue_categories": {
     "field_type_error": 149,
-    "invalid_controlled_value": 1612,
-    "missing_required_field": 5091,
+    "invalid_controlled_value": 1625,
+    "missing_required_field": 5111,
     "schema_warning": 400,
-    "unknown_yaml_block": 308,
-    "v2_migration_debt": 11524
+    "unknown_yaml_block": 325,
+    "v2_migration_debt": 11623
   },
   "top_files_by_issue_count": [
     [
@@ -503,6 +507,142 @@
   ],
   "blocking_errors": [],
   "unknown_yaml_blocks": [
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+      "record_id": "REF-S27-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+      "record_id": "REF-S27-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+      "record_id": "REF-S27-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
@@ -2969,10 +3109,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1833,
+    "atoms_total": 1844,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1772,
-    "v2_missing_field_warnings": 11524
+    "atoms_v2_incomplete": 1783,
+    "v2_missing_field_warnings": 11623
   },
   "source_registry": {
     "declared_but_unused": [
@@ -3634,13 +3774,17 @@
         "auteur": "Loïc Riom",
         "titre": "Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980",
         "annee": "2016",
-        "records": 4,
-        "atoms": 0,
+        "records": 42,
+        "atoms": 11,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s27_riom_review_crossley_source_canonique.md",
-          "sources/riom_review_crossley_networks/source.md"
+          "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+          "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+          "sources/riom_review_crossley_networks/relations_stabilisees.md",
+          "sources/riom_review_crossley_networks/source.md",
+          "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md"
         ]
       },
       {
@@ -14822,6 +14966,1198 @@
       "record_id": "S45-A153",
       "message": "Missing nested field: stabilite.risque_revision",
       "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+      "record_id": "REL-S27-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Invalid value for statut: integration_directe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Invalid value for fiabilite: forte comme compte rendu critique ; ne remplace pas le livre de Crossley",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A001",
+      "message": "Invalid value for type_unite: compte_rendu_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A002",
+      "message": "Invalid value for type_unite: methode_sociologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A003",
+      "message": "Invalid value for type_unite: lieu_scene",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A004",
+      "message": "Invalid value for type_unite: concept_scene",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A005",
+      "message": "Invalid value for type_unite: mediations_scene",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A006",
+      "message": "Invalid value for type_unite: concept_sociologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A007",
+      "message": "Invalid value for type_unite: renversement_question",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A008",
+      "message": "Invalid value for type_unite: critique_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A009",
+      "message": "Invalid value for type_unite: critique_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+      "record_id": "S27-A010",
+      "message": "Invalid value for type_unite: prudence_documentaire",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+      "record_id": "REF-S27-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+      "record_id": "REF-S27-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+      "record_id": "REF-S27-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

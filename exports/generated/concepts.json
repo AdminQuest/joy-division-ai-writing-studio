@@ -1,6 +1,137 @@
 [
   {
     "kind": "concept",
+    "id": "CONCEPT-S27-001",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S27-001",
+      "concept": "source secondaire au second degré",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A001",
+        "S27-A010"
+      ],
+      "definition": "Compte rendu d’un ouvrage non directement substituable à l’ouvrage recensé ; utile comme synthèse critique, mais insuffisant pour les données fines.",
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S27-002",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S27-002",
+      "concept": "analyse relationnelle des scènes",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A002",
+        "S27-A003"
+      ],
+      "definition": "Approche qui combine mesures de réseau, archives qualitatives, lieux et interactions pour comprendre la formation des scènes punk / post-punk.",
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S27-003",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S27-003",
+      "concept": "effervescence collective musicale",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A004"
+      ],
+      "definition": "Dynamique collective où coopération, rivalité et interactions intenses stimulent la production d’une scène musicale.",
+      "usage_chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S27-004",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S27-004",
+      "concept": "personnel renfort des scènes musicales",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A005"
+      ],
+      "definition": "Acteurs non nécessairement musiciens — managers, ingénieurs, disquaires, médiateurs — qui fournissent ressources, connexions et fonctions de gatekeeping.",
+      "usage_chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S27-005",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S27-005",
+      "concept": "music world crossleyen",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A006"
+      ],
+      "definition": "Application à la musique de l’idée beckerienne de monde de l’art : production collective, conventions, médiateurs, lieux et interactions.",
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 8"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S27-006",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S27-006",
+      "concept": "émergence comme processus",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A007"
+      ],
+      "definition": "Déplacement méthodologique : ne plus chercher une cause unique du punk, mais les processus relationnels par lesquels il devient possible.",
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-S11-001",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
     "heading": "Concepts",

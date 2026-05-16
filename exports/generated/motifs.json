@@ -1,6 +1,74 @@
 [
   {
     "kind": "motif",
+    "id": "MOTIF-S27-001",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S27-001",
+      "motif": "lieux qui font réseau",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A003"
+      ],
+      "description": "Clubs, espaces éphémères et points de rencontre produisent les conditions de visibilité et d’interaction d’une scène."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S27-002",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S27-002",
+      "motif": "coopération et rivalité",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A004"
+      ],
+      "description": "Une scène se nourrit autant d’alliances que de conflits, de stimulation mutuelle que de compétition."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S27-003",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S27-003",
+      "motif": "gatekeepers invisibles",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A005"
+      ],
+      "description": "Les médiateurs non musiciens conditionnent l’accès aux ressources et influencent la forme musicale."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S27-004",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S27-004",
+      "motif": "comment plutôt que pourquoi",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A007"
+      ],
+      "description": "La question processuelle remplace la recherche d’une origine unique."
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-S11-001",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
     "heading": "Motifs",

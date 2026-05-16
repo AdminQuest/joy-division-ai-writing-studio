@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:35:33"
+generated_at: "2026-05-16T20:59:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 313 |
+| Atomes | 319 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 32 |
 | Personnes | 27 |
 | Chansons | 6 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 10 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 3 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 4 | 0 |
+| S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
@@ -185,6 +186,18 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `concept_collectif` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S26-A010** — S26-A010 — Punk gig, art school et cristallisation de scènes  
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `evenement_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A002** — S27-A002 — Analyse de réseaux : centralité, densité et approche relationnelle des scènes  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `methode_sociologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A003** — S27-A003 — Lieux de convergence : clubs, points de rencontre et formation des réseaux  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `lieu_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A004** — S27-A004 — Effervescence collective : coopération, rivalité et stimulation mutuelle  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `concept_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A005** — S27-A005 — Personnel renfort : managers, ingénieurs, disquaires, connecteurs et gatekeepers  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `mediations_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A007** — S27-A007 — De pourquoi à comment : déplacer la question de l’émergence du punk  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `renversement_question` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2** — S27 — Passe v2 — Riom, compte rendu de Crossley, réseaux punk / post-punk  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme compte rendu critique ; ne remplace pas le livre de Crossley`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -273,18 +286,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-081** — S41-081 — Timeline 1978 : ossature factuelle de la métamorphose  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-088** — S41-088 — L’anecdote des autoradios : persistance du registre scally  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `anecdote_significative` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-119** — S41-119 — « Wilderness » : survivance du punk dans Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-120** — S41-120 — « Interzone » : héritage Stooges et Velvet Underground  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `influences` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-A008** — S41-A008 — Jamaïque en couleur : mobilité sociale, fracture coloniale et retour perdant à Salford  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_biographique` ; importance : `majeur` ; preuve : `témoignage autobiographique direct`.
-- **S41-A010** — S41-A010 — Le vol comme économie d’apprentissage : classe, transgression et futur backstage  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `motif_social` ; importance : `majeur` ; preuve : `témoignage direct avec interprétation rétrospective`.
-- **S45-006** — S45-006 — Deborah Curtis construit un Ian pré-punk  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `cadre_narratif` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -632,12 +633,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | performance_live | 3 |
 | tension_documentaire | 3 |
 | lieu | 3 |
+| source_part | 3 |
 | discographie | 3 |
 | evenement | 3 |
 | contexte | 3 |
 | reception | 3 |
 | infrastructure_scene | 2 |
 | temoignage | 2 |
+| lieu_scene | 2 |
 | scene_revelation | 2 |
 | rencontre_fondatrice | 2 |
 | reception_presse | 2 |
@@ -650,7 +653,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | mythe_nomination | 2 |
 | contexte_biographique | 2 |
 | scene_de_transition | 2 |
-| source_part | 2 |
 | scene_scene_locale | 1 |
 | tension_mediatique | 1 |
 | seuil_identitaire | 1 |
@@ -661,6 +663,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | contexte_scene | 1 |
 | reception_critique | 1 |
 | fait_structurant | 1 |
+| methode_sociologique | 1 |
+| concept_scene | 1 |
+| mediations_scene | 1 |
+| renversement_question | 1 |
 | scene_materielle | 1 |
 | scene_recrutement | 1 |
 | chronologie_structurante | 1 |
@@ -699,7 +705,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | archive_inedite | 1 |
 | archive_live | 1 |
 | lieu_biographique | 1 |
-| lieu_scene | 1 |
 | lieu_archive | 1 |
 | lieu_bascule | 1 |
 | acteur_scene | 1 |
@@ -738,7 +743,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 199 |
+| non qualifiée | 205 |
 | critique | 77 |
 | majeure | 18 |
 | majeur | 15 |

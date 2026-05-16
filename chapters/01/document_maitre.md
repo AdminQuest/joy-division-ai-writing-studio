@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:35:33"
+generated_at: "2026-05-16T20:59:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T20:35:33"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 157 |
+| Atomes | 164 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 22 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -46,6 +46,7 @@ generated_at: "2026-05-16T20:35:33"
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 2 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 5 | 0 |
+| S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -303,6 +304,8 @@ generated_at: "2026-05-16T20:35:33"
 - slum clearance (3)
 - mémoire culturelle (3)
 - biographie contre mythe social (2)
+- Crossley (2)
+- scènes musicales (2)
 - ordre social local (2)
 - police (2)
 - accountability (2)
@@ -364,8 +367,6 @@ generated_at: "2026-05-16T20:35:33"
 - complexité politique de Curtis (1)
 - anti-déterminisme sociologique (1)
 - discordance entre œuvre et opinion (1)
-- seuil de preuve politique (1)
-- distinction anecdote / position idéologique (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -480,7 +481,7 @@ generated_at: "2026-05-16T20:35:33"
 
 | Type | Nombre |
 |---|---|
-| source_part | 11 |
+| source_part | 12 |
 | concept_structurant | 9 |
 | analyse | 9 |
 | prudence_methodologique | 7 |
@@ -488,12 +489,12 @@ generated_at: "2026-05-16T20:35:33"
 | contexte_social | 6 |
 | evenement_politique | 5 |
 | concept | 5 |
+| lieu_scene | 4 |
 | contexte | 4 |
 | biographie | 4 |
 | methode | 3 |
 | contrepoint | 3 |
 | lecture | 3 |
-| lieu_scene | 3 |
 | politique_urbaine | 3 |
 | tension_documentaire | 2 |
 | acteur_institutionnel | 2 |
@@ -505,6 +506,11 @@ generated_at: "2026-05-16T20:35:33"
 | motif_discursif | 2 |
 | mediation_visuelle | 1 |
 | contexte_scene | 1 |
+| compte_rendu_critique | 1 |
+| methode_sociologique | 1 |
+| concept_sociologique | 1 |
+| renversement_question | 1 |
+| prudence_documentaire | 1 |
 | contexte_institutionnel | 1 |
 | institution_policiere | 1 |
 | contexte_politique | 1 |
@@ -567,7 +573,7 @@ generated_at: "2026-05-16T20:35:33"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 137 |
+| non qualifiée | 144 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

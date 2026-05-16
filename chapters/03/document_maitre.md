@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:35:33"
+generated_at: "2026-05-16T20:59:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 312 |
+| Atomes | 314 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
 | Personnes | 19 |
 | Chansons | 18 |
-| Sources mobilisées | 17 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -40,6 +40,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 4 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 5 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 8 | 0 |
+| S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
@@ -199,6 +200,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `processus_creation` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2** — S26 — Passe v2 — Post-punk now, popular modernism, art school commons  
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser`.
+- **S27-A004** — S27-A004 — Effervescence collective : coopération, rivalité et stimulation mutuelle  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `concept_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A005** — S27-A005 — Personnel renfort : managers, ingénieurs, disquaires, connecteurs et gatekeepers  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `mediations_scene` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
@@ -283,10 +288,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceaux` ; importance : `majeur` ; preuve : `témoignage direct + analyse rétrospective`.
 - **S41-A154** — S41-A154 — « Interzone » : chant Hook, générosité Curtis et survivance RCA  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
-- **S41-A182** — S41-A182 — Britannia Row : studio vaisseau, silence nocturne et son de *Closer*  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
-- **S41-A183** — S41-A183 — Auratones, ARP, gates : Hannett comme école technique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `technique_studio` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
 
 ## 7. Citations disponibles
 
@@ -646,6 +647,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | song | 2 |
 | song_or_cover | 2 |
 | session_domestique | 1 |
+| concept_scene | 1 |
+| mediations_scene | 1 |
 | concert | 1 |
 | contrepoint | 1 |
 | economie_sonore | 1 |
@@ -739,7 +742,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 205 |
+| non qualifiée | 207 |
 | critique | 86 |
 | majeure | 11 |
 | majeur | 10 |

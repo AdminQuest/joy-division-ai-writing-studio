@@ -10032,6 +10032,380 @@
   },
   {
     "kind": "atom",
+    "id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27 — Passe v2 — Riom, compte rendu de Crossley, réseaux punk / post-punk",
+    "data": {
+      "id": "S27-PART-RIOM-CROSSLEY-NETWORKS-REVIEW-V2",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "source_short_title": "Riom, compte rendu de Crossley, 2016",
+      "source_year": "2016",
+      "auteur": "Loïc Riom",
+      "titre": "Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980",
+      "type_unite": "source_part",
+      "statut": "integration_directe",
+      "fiabilite": "forte comme compte rendu critique ; ne remplace pas le livre de Crossley",
+      "citation_directe": false,
+      "passage_atomise": "Article complet de Loïc Riom dans Volume !, 12:2, 2016, p. 223-225 : compte rendu de Nick Crossley, Networks of Sound, Style and Subversion, Manchester University Press, 2015.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S27-A001",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27-A001 — Riom comme compte rendu critique de Crossley : source secondaire au second degré",
+    "data": {
+      "id": "S27-A001",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "source_short_title": "Riom, compte rendu de Crossley, 2016",
+      "source_year": "2016",
+      "auteur": "Loïc Riom",
+      "pages_pdf": "223-225",
+      "type_unite": "compte_rendu_critique",
+      "concepts": [
+        "compte rendu universitaire",
+        "source secondaire au second degré",
+        "Crossley",
+        "prudence documentaire"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Loïc Riom",
+        "Nick Crossley"
+      ],
+      "methodological_warnings": [
+        "Ne pas citer S27 comme si le livre de Crossley avait été consulté.",
+        "Distinguer thèses de Crossley restituées par Riom et critiques propres à Riom."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S27-A002",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27-A002 — Analyse de réseaux : centralité, densité et approche relationnelle des scènes",
+    "data": {
+      "id": "S27-A002",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "pages_pdf": "223-224",
+      "type_unite": "methode_sociologique",
+      "concepts": [
+        "analyse de réseaux",
+        "centralité",
+        "densité",
+        "approche relationnelle",
+        "scènes musicales"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Nick Crossley"
+      ],
+      "methodological_warnings": [
+        "Ne pas réduire l’analyse de réseaux à des mesures quantitatives.",
+        "Riom insiste sur l’articulation entre métriques et archives qualitatives."
+      ],
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S27-A003",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27-A003 — Lieux de convergence : clubs, points de rencontre et formation des réseaux",
+    "data": {
+      "id": "S27-A003",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "pages_pdf": "224",
+      "type_unite": "lieu_scene",
+      "concepts": [
+        "lieux de convergence",
+        "clubs",
+        "réseaux locaux",
+        "scènes urbaines"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_places": [
+        "London",
+        "Manchester",
+        "Liverpool",
+        "Sheffield"
+      ],
+      "methodological_warnings": [
+        "Ne pas généraliser à Manchester sans revenir au chapitre Manchester de Crossley."
+      ],
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S27-A004",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27-A004 — Effervescence collective : coopération, rivalité et stimulation mutuelle",
+    "data": {
+      "id": "S27-A004",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "pages_pdf": "224",
+      "type_unite": "concept_scene",
+      "concepts": [
+        "effervescence collective",
+        "coopération",
+        "rivalité",
+        "stimulation mutuelle",
+        "dynamique collective"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas confondre effervescence collective et harmonie de scène."
+      ],
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S27-A005",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27-A005 — Personnel renfort : managers, ingénieurs, disquaires, connecteurs et gatekeepers",
+    "data": {
+      "id": "S27-A005",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "pages_pdf": "224",
+      "type_unite": "mediations_scene",
+      "concepts": [
+        "personnel renfort",
+        "managers",
+        "ingénieurs",
+        "disquaires",
+        "gatekeepers",
+        "connecteurs"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas réduire le personnel renfort aux seuls managers."
+      ],
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S27-A006",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27-A006 — Music world : Crossley via Becker, monde musical et action collective",
+    "data": {
+      "id": "S27-A006",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "pages_pdf": "224-225",
+      "type_unite": "concept_sociologique",
+      "concepts": [
+        "music world",
+        "monde de l’art",
+        "Howard Becker",
+        "action collective",
+        "scènes musicales"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Nick Crossley",
+        "Howard Becker"
+      ],
+      "methodological_warnings": [
+        "Si le concept de monde musical est central, revenir au livre de Crossley et à Becker."
+      ],
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S27-A007",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27-A007 — De pourquoi à comment : déplacer la question de l’émergence du punk",
+    "data": {
+      "id": "S27-A007",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "pages_pdf": "225",
+      "type_unite": "renversement_question",
+      "concepts": [
+        "émergence du punk",
+        "question processuelle",
+        "sociologie des scènes",
+        "comment plutôt que pourquoi"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas réduire l’émergence du punk à une cause unique."
+      ],
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S27-A008",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27-A008 — Limite signalée par Riom : réception peu traitée",
+    "data": {
+      "id": "S27-A008",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "pages_pdf": "224",
+      "type_unite": "critique_methodologique",
+      "concepts": [
+        "réception",
+        "limites de l’analyse de réseaux",
+        "expérience musicale",
+        "public"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas confondre réseaux de production et réception des publics."
+      ],
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S27-A009",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27-A009 — Limite signalée par Riom : risque d’essentialisation du punk",
+    "data": {
+      "id": "S27-A009",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "pages_pdf": "224-225",
+      "type_unite": "critique_methodologique",
+      "concepts": [
+        "essentialisation du punk",
+        "hétérogénéité",
+        "décentralisation",
+        "sens du punk"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Conserver la multiplicité et l’hétérogénéité du punk."
+      ],
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S27-A010",
+    "file": "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md",
+    "heading": "S27-A010 — S27 comme tremplin vers Crossley, non substitut au livre",
+    "data": {
+      "id": "S27-A010",
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "pages_pdf": "223-225",
+      "type_unite": "prudence_documentaire",
+      "concepts": [
+        "tremplin bibliographique",
+        "Crossley",
+        "source secondaire",
+        "vérification"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_sources": [
+        "S27"
+      ],
+      "methodological_warnings": [
+        "Pour toute donnée précise, retourner à Crossley 2015 ou aux articles de Crossley."
+      ],
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
     "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
     "heading": "S05 — Passe v2 — maintien de l’ordre, police et ordre social local dans le Greater Manchester",

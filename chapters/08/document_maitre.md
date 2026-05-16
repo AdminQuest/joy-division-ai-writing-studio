@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:35:33"
+generated_at: "2026-05-16T20:59:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 238 |
+| Atomes | 247 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
 | Personnes | 7 |
 | Chansons | 4 |
-| Sources mobilisées | 13 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 3 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 13 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 9 | 0 |
+| S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 9 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
@@ -181,6 +182,24 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `prudence_sociale` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2** — S26 — Passe v2 — Post-punk now, popular modernism, art school commons  
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser`.
+- **S27-A001** — S27-A001 — Riom comme compte rendu critique de Crossley : source secondaire au second degré  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `compte_rendu_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A002** — S27-A002 — Analyse de réseaux : centralité, densité et approche relationnelle des scènes  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `methode_sociologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A004** — S27-A004 — Effervescence collective : coopération, rivalité et stimulation mutuelle  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `concept_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A005** — S27-A005 — Personnel renfort : managers, ingénieurs, disquaires, connecteurs et gatekeepers  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `mediations_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A006** — S27-A006 — Music world : Crossley via Becker, monde musical et action collective  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `concept_sociologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A007** — S27-A007 — De pourquoi à comment : déplacer la question de l’émergence du punk  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `renversement_question` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A008** — S27-A008 — Limite signalée par Riom : réception peu traitée  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `critique_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A009** — S27-A009 — Limite signalée par Riom : risque d’essentialisation du punk  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `critique_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A010** — S27-A010 — S27 comme tremplin vers Crossley, non substitut au livre  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `prudence_documentaire` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
@@ -265,24 +284,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_instrument` ; importance : `critique` ; preuve : `témoignage direct d’instrumentiste`.
 - **S41-A217** — S41-A217 — « Colony » et confiance de *Closer* : mélancolie fragile mais sûre d’elle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_album` ; importance : `critique` ; preuve : `témoignage direct + appréciation critique d’interprète`.
-- **S41-A218** — S41-A218 — « A Means to an End » : pop song, disco abîmée et empreinte Hannett  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct + analyse musicale subjective`.
-- **S41-A219** — S41-A219 — « Heart and Soul » : basse transférée au synthé et naissance d’une méthode New Order  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct d’instrumentiste + analyse studio`.
-- **S41-A221** — S41-A221 — « The Eternal » : six-string, Transcendent et solidité collective irrépétable  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_memoire` ; importance : `critique` ; preuve : `témoignage direct + appréciation subjective`.
-- **S41-A222** — S41-A222 — « Decades » : beauté finale, double basse et *Closer* préféré à *Unknown Pleasures*  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_album` ; importance : `critique` ; preuve : `témoignage direct + jugement esthétique subjectif`.
-- **S45-A037** — S45-A037 — Electric Circus / *Short Circuit* : archive locale et honneur ambigu  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A040** — S45-A040 — Les 400 livres d’*An Ideal for Living* : dette domestique et premier objet  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A041** — S45-A041 — Pennine Sound et projet in-house : premier disque comme bricolage total  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A050** — S45-A050 — Arrow / RCA : désir de studio, absence de discussion et naïveté industrielle  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A077** — S45-A077 — RCA abandonné : rachat des bandes, bootlegs et libération éditoriale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait contractuel rapporté`.
 
 ## 7. Citations disponibles
 
@@ -365,6 +366,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - contrainte productive (3)
 - DIY endetté (2)
 - anti-récit RCA (2)
+- Crossley (2)
+- scènes musicales (2)
+- source secondaire (2)
 - pennine studios (2)
 - pressage (2)
 - rca sessions (2)
@@ -418,9 +422,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - naïveté industrielle (1)
 - libération éditoriale (1)
 - source pirate (1)
-- catalyseur sonore (1)
-- coordination d’atmosphère (1)
-- studio comme traduction (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -575,6 +576,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | source_part | 3 |
 | live_set_bootleg_context | 3 |
 | economie_materielle | 2 |
+| critique_methodologique | 2 |
 | tension_industrie | 2 |
 | chronologie_structurante | 2 |
 | interpretation_studio | 2 |
@@ -587,6 +589,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | position_esthetique | 1 |
 | tension_economique | 1 |
 | scene_medicale_sensible | 1 |
+| compte_rendu_critique | 1 |
+| methode_sociologique | 1 |
+| concept_scene | 1 |
+| mediations_scene | 1 |
+| concept_sociologique | 1 |
+| renversement_question | 1 |
+| prudence_documentaire | 1 |
 | tension_documentaire | 1 |
 | economie_sonore | 1 |
 | lieu_institution | 1 |
@@ -669,7 +678,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 114 |
+| non qualifiée | 123 |
 | critique | 100 |
 | majeur | 18 |
 | majeure | 6 |

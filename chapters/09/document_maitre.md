@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:35:33"
+generated_at: "2026-05-16T20:59:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T20:35:33"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 232 |
+| Atomes | 233 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 19 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ generated_at: "2026-05-16T20:35:33"
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 6 | 0 |
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 2 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
+| S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 46 | 2 |
@@ -183,6 +184,8 @@ generated_at: "2026-05-16T20:35:33"
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-PART-HOUSING-GEOGRAPHIES-V2** — S20 — Passe v2 — Manchester, géographies du logement et solutions du XXe siècle  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A003** — S27-A003 — Lieux de convergence : clubs, points de rencontre et formation des réseaux  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `lieu_scene` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-023** — S41-023 — Terry Mason : membre fondateur périphérique  
@@ -218,8 +221,6 @@ generated_at: "2026-05-16T20:35:33"
 - **S41-055** — S41-055 — « Transmission » comme premier moment d’évidence collective  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-056** — S41-056 — Oz PA et la professionnalisation du son live  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-058** — S41-058 — Premier concert Factory de Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
@@ -379,6 +380,7 @@ generated_at: "2026-05-16T20:35:33"
 | motif_discursif | 3 |
 | temoignage_analyse | 3 |
 | fait_sensible | 3 |
+| lieu_scene | 2 |
 | methode | 2 |
 | infrastructure | 2 |
 | chronologie_tournee | 2 |
@@ -426,7 +428,6 @@ generated_at: "2026-05-16T20:35:33"
 | archive_video | 1 |
 | video | 1 |
 | versions_chanson | 1 |
-| lieu_scene | 1 |
 | lieu_archive | 1 |
 | lieu_bascule | 1 |
 | lieu_terminal | 1 |
@@ -463,7 +464,7 @@ generated_at: "2026-05-16T20:35:33"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 231 |
+| non qualifiée | 232 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

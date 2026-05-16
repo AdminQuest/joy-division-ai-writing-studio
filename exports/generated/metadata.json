@@ -1,7 +1,22 @@
 [
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/riom_review_crossley_networks/source.md::137",
+    "id": "NO_ID::sources/riom_review_crossley_networks/registres_specialises_s27.md::136",
+    "file": "sources/riom_review_crossley_networks/registres_specialises_s27.md",
+    "heading": "Compléments aux registres spécialisés — S27 — Riom, compte rendu de Crossley, 2016",
+    "data": {
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "type_unite": "registres_specialises",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/riom_review_crossley_networks/source.md::144",
     "file": "sources/riom_review_crossley_networks/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -16,7 +31,49 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/jeffery_tufail_jackson_policing/source.md::138",
+    "id": "NO_ID::sources/riom_review_crossley_networks/relations_stabilisees.md::145",
+    "file": "sources/riom_review_crossley_networks/relations_stabilisees.md",
+    "heading": "Relations stabilisées — S27 — Riom, compte rendu de Crossley, 2016",
+    "data": {
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "type_unite": "relations_stabilisees",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "atomes_source": [
+        "S27-A001",
+        "S27-A002",
+        "S27-A003",
+        "S27-A004",
+        "S27-A005",
+        "S27-A006",
+        "S27-A007",
+        "S27-A008",
+        "S27-A009",
+        "S27-A010"
+      ],
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/riom_review_crossley_networks/registres_structurants_s27.md::165",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Compléments aux registres structurants — S27 — Riom, compte rendu de Crossley, 2016",
+    "data": {
+      "source_id": "S27",
+      "source_label": "S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016",
+      "type_unite": "registres_structurants",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "source_short_title": "Loïc Riom, Nick CROSSLEY, Networks of Sound, Style and Subversion: The Punk and Post-punk Worlds of Manchester, London and Sheffield, 1975-1980, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/jeffery_tufail_jackson_policing/source.md::182",
     "file": "sources/jeffery_tufail_jackson_policing/source.md",
     "heading": "S05 — Jeffery, Tufail & Jackson, « Policing and the Reproduction of Local Social Order », 2015",
     "data": {
@@ -49,7 +106,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/jeffery_tufail_jackson_policing/source.md::139",
+    "id": "NO_ID::sources/jeffery_tufail_jackson_policing/source.md::183",
     "file": "sources/jeffery_tufail_jackson_policing/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -64,7 +121,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::234",
+    "id": "NO_ID::sources/marco_broll/README.md::278",
     "file": "sources/marco_broll/README.md",
     "heading": "S68 — Broll, « Joy Division », s.d.",
     "data": {
@@ -84,7 +141,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::235",
+    "id": "NO_ID::sources/marco_broll/README.md::279",
     "file": "sources/marco_broll/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -124,7 +181,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/marco_broll/README.md::236",
+    "id": "NO_ID::sources/marco_broll/README.md::280",
     "file": "sources/marco_broll/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -142,7 +199,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::323",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::367",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "S72 — Reynolds, *Rip It Up and Start Again*, 2005/2006",
     "data": {
@@ -159,7 +216,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::324",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::368",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Couverture documentaire consolidée",
     "data": {
@@ -214,7 +271,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::325",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::369",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -235,7 +292,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::326",
+    "id": "NO_ID::sources/reynolds_rip_it_up/README.md::370",
     "file": "sources/reynolds_rip_it_up/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -249,7 +306,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/tomeo_dance_dance_dance/source.md::327",
+    "id": "NO_ID::sources/tomeo_dance_dance_dance/source.md::371",
     "file": "sources/tomeo_dance_dance_dance/source.md",
     "heading": "S13 — Tomeo, « Dance Dance Dance! », 2021",
     "data": {
@@ -287,7 +344,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/tomeo_dance_dance_dance/source.md::328",
+    "id": "NO_ID::sources/tomeo_dance_dance_dance/source.md::372",
     "file": "sources/tomeo_dance_dance_dance/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -302,7 +359,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md::775",
+    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md::819",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
     "heading": "Compléments aux registres structurants — S11 — HM Treasury, *Financial Statement and Budget Report 1987-88*, 1987",
     "data": {
@@ -317,7 +374,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/source.md::801",
+    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/source.md::845",
     "file": "sources/uk_treasury_fsbr_1987_88/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -332,7 +389,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md::802",
+    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md::846",
     "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
     "heading": "Relations stabilisées — S11 — HM Treasury, *Financial Statement and Budget Report 1987-88*, 1987",
     "data": {
@@ -359,7 +416,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md::811",
+    "id": "NO_ID::sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md::855",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
     "heading": "Compléments aux registres spécialisés — S11 — HM Treasury, *Financial Statement and Budget Report 1987-88*, 1987",
     "data": {
@@ -374,7 +431,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::961",
+    "id": "NO_ID::sources/flowers/README.md::1005",
     "file": "sources/flowers/README.md",
     "heading": "S71 — Flowers, *Dreams Never End*, 1995/2012",
     "data": {
@@ -391,7 +448,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::962",
+    "id": "NO_ID::sources/flowers/README.md::1006",
     "file": "sources/flowers/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -451,7 +508,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::963",
+    "id": "NO_ID::sources/flowers/README.md::1007",
     "file": "sources/flowers/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -472,7 +529,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/flowers/README.md::964",
+    "id": "NO_ID::sources/flowers/README.md::1008",
     "file": "sources/flowers/README.md",
     "heading": "Travail restant possible",
     "data": {
@@ -485,7 +542,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::1046",
+    "id": "NO_ID::sources/ott_unknown_pleasures/README.md::1090",
     "file": "sources/ott_unknown_pleasures/README.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -497,7 +554,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md::1083",
+    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md::1127",
     "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
     "heading": "Compléments aux registres spécialisés — S26 — *Post-Punk Then and Now*, 2016",
     "data": {
@@ -512,7 +569,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/source.md::1091",
+    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/source.md::1135",
     "file": "sources/butt_eshun_fisher_post_punk_then_now/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -527,7 +584,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md::1092",
+    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md::1136",
     "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
     "heading": "Relations stabilisées — S26 — *Post-Punk Then and Now*, 2016",
     "data": {
@@ -561,7 +618,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md::1122",
+    "id": "NO_ID::sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md::1166",
     "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
     "heading": "Compléments aux registres structurants — S26 — *Post-Punk Then and Now*, 2016",
     "data": {
@@ -576,7 +633,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_structurants_s15.md::1444",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_structurants_s15.md::1488",
     "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
     "heading": "Compléments aux registres structurants — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -591,7 +648,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md::1463",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md::1507",
     "file": "sources/deluca_manchester_punk_threshold/atomes_s15_sound_fury.md",
     "heading": "Atomes v2 — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -610,7 +667,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/relations_stabilisees.md::1493",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/relations_stabilisees.md::1537",
     "file": "sources/deluca_manchester_punk_threshold/relations_stabilisees.md",
     "heading": "Relations stabilisées — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -642,7 +699,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1504",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/registres_specialises_s15.md::1548",
     "file": "sources/deluca_manchester_punk_threshold/registres_specialises_s15.md",
     "heading": "Compléments aux registres spécialisés — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -657,7 +714,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1525",
+    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1569",
     "file": "sources/dodge_manchester_geographies/source.md",
     "heading": "S20 — Martin Dodge, *Manchester Geographies*, chapitre 3",
     "data": {
@@ -692,7 +749,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1526",
+    "id": "NO_ID::sources/dodge_manchester_geographies/source.md::1570",
     "file": "sources/dodge_manchester_geographies/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -707,7 +764,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1715",
+    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1759",
     "file": "sources/sueur_villes_du_futur/source.md",
     "heading": "S02 — Sueur, *Villes du futur, futur des villes*, 2011",
     "data": {
@@ -741,7 +798,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1716",
+    "id": "NO_ID::sources/sueur_villes_du_futur/source.md::1760",
     "file": "sources/sueur_villes_du_futur/source.md",
     "heading": "Règle d’usage",
     "data": {
@@ -757,7 +814,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1754",
+    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1798",
     "file": "sources/sumner_chapter_and_verse/source.md",
     "heading": "S10 — Bernard Sumner, *Chapter and Verse*, 2014/2015",
     "data": {
@@ -799,7 +856,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1755",
+    "id": "NO_ID::sources/sumner_chapter_and_verse/source.md::1799",
     "file": "sources/sumner_chapter_and_verse/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -814,7 +871,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1768",
+    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1812",
     "file": "sources/press_aids_anderton_1986/source.md",
     "heading": "S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986",
     "data": {
@@ -853,7 +910,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1769",
+    "id": "NO_ID::sources/press_aids_anderton_1986/source.md::1813",
     "file": "sources/press_aids_anderton_1986/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -868,7 +925,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1792",
+    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1836",
     "file": "sources/carter_hulme_youth_race_inner_city/source.md",
     "heading": "S06 — Carter, « Youth, race and the inner-city estate », 2021/2023",
     "data": {
@@ -904,7 +961,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1793",
+    "id": "NO_ID::sources/carter_hulme_youth_race_inner_city/source.md::1837",
     "file": "sources/carter_hulme_youth_race_inner_city/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -919,7 +976,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/source.md::1795",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/source.md::1839",
     "file": "sources/cummins_joy_division_visual_corpus/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -934,7 +991,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/relations_stabilisees.md::1796",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/relations_stabilisees.md::1840",
     "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
     "heading": "Relations stabilisées — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -961,7 +1018,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1804",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md::1848",
     "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
     "heading": "Compléments aux registres spécialisés — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -976,7 +1033,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md::1811",
+    "id": "NO_ID::sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md::1855",
     "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
     "heading": "Compléments aux registres structurants — S09 — Cummins, *Joy Division*, 2010",
     "data": {
@@ -991,7 +1048,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_structurants_s14.md::1845",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_structurants_s14.md::1889",
     "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
     "heading": "Compléments aux registres structurants — S14 — Happy Mondays, « God’s Cop », 1990",
     "data": {
@@ -1006,7 +1063,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/source.md::1859",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/source.md::1903",
     "file": "sources/happy_mondays_gods_cop/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1021,7 +1078,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/relations_stabilisees.md::1860",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/relations_stabilisees.md::1904",
     "file": "sources/happy_mondays_gods_cop/relations_stabilisees.md",
     "heading": "Relations stabilisées — S14 — Happy Mondays, « God’s Cop », 1990",
     "data": {
@@ -1046,7 +1103,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_specialises_s14.md::1867",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_specialises_s14.md::1911",
     "file": "sources/happy_mondays_gods_cop/registres_specialises_s14.md",
     "heading": "Compléments aux registres spécialisés — S14 — Happy Mondays, « God’s Cop », 1990",
     "data": {
@@ -1061,7 +1118,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_specialises_s22.md::1874",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_specialises_s22.md::1918",
     "file": "sources/wilkinson_city_fun_politics/registres_specialises_s22.md",
     "heading": "Compléments aux registres spécialisés — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
     "data": {
@@ -1076,7 +1133,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::1882",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::1926",
     "file": "sources/wilkinson_city_fun_politics/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1091,7 +1148,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/relations_stabilisees.md::1883",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/relations_stabilisees.md::1927",
     "file": "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
     "heading": "Relations stabilisées — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
     "data": {
@@ -1123,7 +1180,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_structurants_s22.md::1910",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/registres_structurants_s22.md::1954",
     "file": "sources/wilkinson_city_fun_politics/registres_structurants_s22.md",
     "heading": "Compléments aux registres structurants — S22 — Wilkinson, *City Fun and the politics of post-punk*, 2018",
     "data": {
@@ -1138,7 +1195,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2183",
+    "id": "NO_ID::sources/suatoni/README.md::2227",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -1155,7 +1212,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2184",
+    "id": "NO_ID::sources/suatoni/README.md::2228",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -1193,7 +1250,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2185",
+    "id": "NO_ID::sources/suatoni/README.md::2229",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -1213,7 +1270,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2240",
+    "id": "NO_ID::sources/greig_strong/README.md::2284",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -1230,7 +1287,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2241",
+    "id": "NO_ID::sources/greig_strong/README.md::2285",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -1263,7 +1320,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2242",
+    "id": "NO_ID::sources/greig_strong/README.md::2286",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -1278,7 +1335,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2533",
+    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2577",
     "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
     "heading": "S13 — Relations stabilisées — Interzone, sound Joy Division et rave era",
     "data": {
@@ -1292,7 +1349,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::2895",
+    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::2939",
     "file": "registers/references/s06_carter_hulme_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1307,7 +1364,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::2918",
+    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::2962",
     "file": "registers/references/s20_dodge_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1322,7 +1379,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::2922",
+    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::2966",
     "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1337,7 +1394,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::2935",
+    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::2979",
     "file": "registers/references/s22_wilkinson_city_fun_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1352,7 +1409,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::2943",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::2987",
     "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1367,7 +1424,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::2947",
+    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::2991",
     "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1382,7 +1439,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::2949",
+    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::2993",
     "file": "registers/references/s09_cummins_joy_division_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1397,7 +1454,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::2953",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::2997",
     "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1412,7 +1469,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::2955",
+    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::2999",
     "file": "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1427,7 +1484,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::2968",
+    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::3012",
     "file": "registers/references/s02_sueur_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1443,7 +1500,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s27_riom_review_crossley_source_canonique.md::2972",
+    "id": "NO_ID::registers/references/s27_riom_review_crossley_source_canonique.md::3016",
     "file": "registers/references/s27_riom_review_crossley_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1458,7 +1515,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s26_post_punk_then_now_source_canonique.md::2978",
+    "id": "NO_ID::registers/references/s26_post_punk_then_now_source_canonique.md::3022",
     "file": "registers/references/s26_post_punk_then_now_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1473,7 +1530,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::2994",
+    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::3038",
     "file": "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {

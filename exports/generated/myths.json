@@ -1,6 +1,61 @@
 [
   {
     "kind": "myth",
+    "id": "MYTH-S27-001",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S27-001",
+      "mythe": "le compte rendu vaut le livre",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A001",
+        "S27-A010"
+      ],
+      "statut": "mythe méthodologique à éviter",
+      "position": "S27 oriente vers Crossley, mais ne peut pas remplacer l’ouvrage de 2015 pour l’exploitation détaillée des réseaux."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S27-002",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S27-002",
+      "mythe": "analyse de réseaux purement quantitative",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A002"
+      ],
+      "statut": "mythe à corriger",
+      "position": "Riom souligne que Crossley combine mesures de réseau et analyse qualitative des relations."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S27-003",
+    "file": "sources/riom_review_crossley_networks/registres_structurants_s27.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S27-003",
+      "mythe": "punk comme essence stable",
+      "sources": [
+        "S27"
+      ],
+      "related_atoms": [
+        "S27-A009"
+      ],
+      "statut": "mythe à déconstruire",
+      "position": "Riom signale le risque d’essentialiser le punk, alors que son caractère décentralisé et hétérogène doit rester central."
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-S11-001",
     "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
     "heading": "Mythes",

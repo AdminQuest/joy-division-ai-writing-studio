@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:35:33"
+generated_at: "2026-05-16T20:59:37"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 829 |
+| Atomes | 833 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 25 |
+| Sources mobilisées | 26 |
 
 ## 4. Sources mobilisées
 
@@ -47,6 +47,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 11 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 12 | 0 |
+| S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
@@ -261,6 +262,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2** — S26 — Passe v2 — Post-punk now, popular modernism, art school commons  
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser`.
+- **S27-A001** — S27-A001 — Riom comme compte rendu critique de Crossley : source secondaire au second degré  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `compte_rendu_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A008** — S27-A008 — Limite signalée par Riom : réception peu traitée  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `critique_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A009** — S27-A009 — Limite signalée par Riom : risque d’essentialisation du punk  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `critique_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S27-A010** — S27-A010 — S27 comme tremplin vers Crossley, non substitut au livre  
+  Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `prudence_documentaire` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-014** — S41-014 — Lesser Free Trade Hall, 4 juin 1976 : mythe et expérience vécue  
@@ -287,14 +296,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-068** — S41-068 — Tony Wilson comme médiateur symbolique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-074** — S41-074 — Assemblage matériel de *A Factory Sample*  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_materiel` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-082** — S41-082 — Le dilemme Genetic / Factory  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_strategique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-083** — S41-083 — Rob Gretton contre l’avance discographique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-087** — S41-087 — Les « Genetic demos » comme bifurcation fantôme  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -450,12 +451,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Love Will Tear Us Apart (16)
 - prudence historiographique (15)
 - Atmosphere (14)
+- réception (13)
 - new order (13)
 - factory records (13)
 - Tony Wilson (13)
 - Factory Records (13)
 - peter saville (12)
-- réception (12)
 - martin hannett (11)
 - Ceremony (11)
 - mémoire (11)
@@ -724,6 +725,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | song | 3 |
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
+| critique_methodologique | 2 |
 | infrastructure | 2 |
 | lieu_institution | 2 |
 | transition_posthume | 2 |
@@ -780,6 +782,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_management_sante | 1 |
 | scene_domestique_finale | 1 |
 | tension_finale | 1 |
+| compte_rendu_critique | 1 |
+| prudence_documentaire | 1 |
 | contexte_critique | 1 |
 | concept_affectif | 1 |
 | transition_groupe | 1 |
@@ -1079,7 +1083,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 537 |
+| non qualifiée | 541 |
 | critique | 221 |
 | majeure | 39 |
 | majeur | 28 |
