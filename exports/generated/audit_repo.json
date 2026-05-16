@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T18:50:47",
+  "generated_at": "2026-05-16T19:01:41",
   "summary": {
-    "records_total": 3873,
+    "records_total": 3877,
     "records_by_kind": {
       "atom": 1790,
-      "metadata": 56,
+      "metadata": 58,
       "quote": 358,
       "chronology": 343,
-      "source": 58,
-      "unknown": 249,
+      "source": 59,
+      "unknown": 250,
       "concept": 193,
       "motif": 270,
       "myth": 20,
@@ -18,13 +18,13 @@
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 18506,
+    "diagnostics_total": 18507,
     "errors": 0,
-    "warnings": 18506,
+    "warnings": 18507,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 24,
-    "sources_exported": 24,
-    "declared_but_unused": 27,
+    "sources_used_in_records": 25,
+    "sources_exported": 25,
+    "declared_but_unused": 26,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -32,7 +32,7 @@
     "atom": 1790,
     "chronology": 343,
     "concept": 193,
-    "metadata": 56,
+    "metadata": 58,
     "motif": 270,
     "myth": 20,
     "person": 157,
@@ -40,9 +40,9 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 41,
-    "source": 58,
+    "source": 59,
     "template": 336,
-    "unknown": 249
+    "unknown": 250
   },
   "records_by_source": {
     "S02": {
@@ -93,6 +93,11 @@
       "atom": 10,
       "unknown": 2,
       "motif": 5
+    },
+    "S14": {
+      "source": 1,
+      "metadata": 2,
+      "unknown": 1
     },
     "S15": {
       "metadata": 4,
@@ -198,12 +203,12 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 238,
+    "Chapitre 1": 240,
     "Chapitre 10": 253,
     "Chapitre 11": 221,
     "Chapitre 12": 471,
     "Chapitre 13": 111,
-    "Chapitre 14": 1020,
+    "Chapitre 14": 1022,
     "Chapitre 2": 381,
     "Chapitre 3": 424,
     "Chapitre 4": 312,
@@ -343,7 +348,7 @@
     "invalid_controlled_value": 1562,
     "missing_required_field": 5009,
     "schema_warning": 400,
-    "unknown_yaml_block": 249,
+    "unknown_yaml_block": 250,
     "v2_migration_debt": 11137
   },
   "top_files_by_issue_count": [
@@ -2049,6 +2054,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
+      "record_id": "REG-S14-HAPPY-MONDAYS-GODS-COP-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
       "record_id": "REL-RAG-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
       "message": "Unable to infer documentary kind",
@@ -2538,20 +2551,6 @@
           "dérive",
           "ville",
           "situationnisme"
-        ]
-      },
-      {
-        "source_id": "S14",
-        "source_label": "S14 — Happy Mondays, « God’s Cop », 1990",
-        "auteur": "Happy Mondays",
-        "titre": "« God’s Cop »",
-        "annee": "1990",
-        "statut": "verifie",
-        "usage": [
-          "réappropriation musicale",
-          "James Anderton",
-          "police",
-          "mémoire culturelle mancunienne"
         ]
       },
       {
@@ -3047,6 +3046,21 @@
           "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
           "sources/tomeo_dance_dance_dance/source.md",
           "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md"
+        ]
+      },
+      {
+        "source_id": "S14",
+        "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+        "auteur": "Happy Mondays",
+        "titre": "God’s Cop",
+        "annee": "1990",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
+          "sources/happy_mondays_gods_cop/source.md"
         ]
       },
       {
@@ -149347,6 +149361,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
       "record_id": "REG-S05-JEFFERY-TUFAIL-JACKSON-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
+      "record_id": "REG-S14-HAPPY-MONDAYS-GODS-COP-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

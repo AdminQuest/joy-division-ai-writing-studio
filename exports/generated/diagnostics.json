@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T18:50:36",
+  "generated_at": "2026-05-16T19:01:30",
   "status": "warning",
   "summary": {
-    "records_total": 3873,
+    "records_total": 3877,
     "records_by_kind": {
       "atom": 1790,
-      "metadata": 56,
+      "metadata": 58,
       "quote": 358,
       "chronology": 343,
-      "source": 58,
-      "unknown": 249,
+      "source": 59,
+      "unknown": 250,
       "concept": 193,
       "motif": 270,
       "myth": 20,
@@ -19,13 +19,13 @@
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 18506,
+    "diagnostics_total": 18507,
     "errors": 0,
-    "warnings": 18506,
+    "warnings": 18507,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 24,
-    "sources_exported": 24,
-    "declared_but_unused": 27,
+    "sources_used_in_records": 25,
+    "sources_exported": 25,
+    "declared_but_unused": 26,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -98,20 +98,6 @@
           "dérive",
           "ville",
           "situationnisme"
-        ]
-      },
-      {
-        "source_id": "S14",
-        "source_label": "S14 — Happy Mondays, « God’s Cop », 1990",
-        "auteur": "Happy Mondays",
-        "titre": "« God’s Cop »",
-        "annee": "1990",
-        "statut": "verifie",
-        "usage": [
-          "réappropriation musicale",
-          "James Anderton",
-          "police",
-          "mémoire culturelle mancunienne"
         ]
       },
       {
@@ -607,6 +593,21 @@
           "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
           "sources/tomeo_dance_dance_dance/source.md",
           "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md"
+        ]
+      },
+      {
+        "source_id": "S14",
+        "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+        "auteur": "Happy Mondays",
+        "titre": "God’s Cop",
+        "annee": "1990",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
+          "sources/happy_mondays_gods_cop/source.md"
         ]
       },
       {
@@ -110449,6 +110450,12 @@
       "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REG-S05-JEFFERY-TUFAIL-JACKSON-SOURCE-CANONIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S14-HAPPY-MONDAYS-GODS-COP-SOURCE-CANONIQUE"
     },
     {
       "level": "warning",

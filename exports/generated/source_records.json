@@ -259,6 +259,48 @@
   },
   {
     "kind": "source",
+    "id": "S14",
+    "file": "sources/happy_mondays_gods_cop/source.md",
+    "heading": "S14 — Happy Mondays, « God’s Cop », 1990",
+    "data": {
+      "id": "S14",
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990",
+      "auteur": "Happy Mondays",
+      "artiste": "Happy Mondays",
+      "titre": "God’s Cop",
+      "titre_album": "Pills ’n’ Thrills and Bellyaches",
+      "annee": "1990",
+      "date_sortie_album": "1990-11-05",
+      "label": "Factory Records",
+      "catalogue": "FAC 334",
+      "producteurs": [
+        "Paul Oakenfold",
+        "Steve Osborne"
+      ],
+      "nature": "référence discographique / chanson / source musicale primaire éditorialisée",
+      "statut": "verifie ; source canonique fixée",
+      "fiabilite": "forte pour l’identification discographique ; paroles et interprétation à vérifier avant citation",
+      "source_drive": "https://drive.google.com/file/d/11IUb6LwRSZE-1vPhpl-GPRdxkXwSIRh6/view?usp=drive_link",
+      "fichier_source_original": "R-79847-1565780998-8296.jpg",
+      "fichier_source_recommande": "S14_happy_mondays_gods_cop_factory_fac334_reference.jpg",
+      "dossier_source": "sources/happy_mondays_gods_cop/",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 8",
+        "Chapitre 9"
+      ],
+      "niveau_preuve": "source musicale primaire ; référence discographique",
+      "citation_directe": false
+    }
+  },
+  {
+    "kind": "source",
     "id": "S22",
     "file": "sources/wilkinson_city_fun_politics/source.md",
     "heading": "S22 — Wilkinson, « Pam ponders Paul Morley’s cat », 2018",
@@ -817,7 +859,7 @@
         "registre historique"
       ],
       "arbitrage": "Référence connexe, plutôt utile pour réception mancunienne ultérieure.",
-      "source_short_title": "Happy Mondays, « God’s Cop », 1990",
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
       "source_year": "1990"
     }
   },
