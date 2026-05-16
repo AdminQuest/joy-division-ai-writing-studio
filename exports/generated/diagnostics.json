@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-16T20:59:23",
+  "generated_at": "2026-05-16T21:31:06",
   "status": "warning",
   "summary": {
-    "records_total": 4087,
+    "records_total": 4091,
     "records_by_kind": {
       "atom": 1844,
-      "metadata": 74,
-      "unknown": 325,
-      "source": 61,
+      "metadata": 76,
+      "unknown": 326,
+      "source": 62,
       "concept": 221,
       "motif": 291,
       "myth": 34,
@@ -19,13 +19,13 @@
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 19233,
+    "diagnostics_total": 19234,
     "errors": 0,
-    "warnings": 19233,
+    "warnings": 19234,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 27,
-    "sources_exported": 27,
-    "declared_but_unused": 24,
+    "sources_used_in_records": 28,
+    "sources_exported": 28,
+    "declared_but_unused": 23,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -214,20 +214,6 @@
           "Tony Wilson",
           "punk",
           "pont underground-national"
-        ]
-      },
-      {
-        "source_id": "S29",
-        "source_label": "S29 — Goddard, Missions of Dead Souls, 2011",
-        "auteur": "Michael Goddard",
-        "titre": "Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division",
-        "annee": "2011",
-        "statut": "verifie",
-        "usage": [
-          "hantologie",
-          "paysage industriel",
-          "esthétique",
-          "transmutation du local en universel"
         ]
       },
       {
@@ -700,6 +686,21 @@
           "sources/riom_review_crossley_networks/relations_stabilisees.md",
           "sources/riom_review_crossley_networks/source.md",
           "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md"
+        ]
+      },
+      {
+        "source_id": "S29",
+        "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+        "auteur": "Michael Goddard",
+        "titre": "Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division",
+        "annee": "2018",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s29_goddard_missions_dead_souls_source_canonique.md",
+          "sources/goddard_missions_dead_souls/source.md"
         ]
       },
       {
@@ -114771,6 +114772,12 @@
       "file": "registers/references/s20_dodge_source_canonique.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REG-S20-DODGE-SOURCE-CANONIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_missions_dead_souls_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S29-GODDARD-MISSIONS-DEAD-SOULS-SOURCE-CANONIQUE"
     },
     {
       "level": "warning",

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-16T20:59:35",
+  "generated_at": "2026-05-16T21:31:18",
   "summary": {
-    "records_total": 4087,
+    "records_total": 4091,
     "records_by_kind": {
       "atom": 1844,
-      "metadata": 74,
-      "unknown": 325,
-      "source": 61,
+      "metadata": 76,
+      "unknown": 326,
+      "source": 62,
       "concept": 221,
       "motif": 291,
       "myth": 34,
@@ -18,13 +18,13 @@
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 19233,
+    "diagnostics_total": 19234,
     "errors": 0,
-    "warnings": 19233,
+    "warnings": 19234,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 27,
-    "sources_exported": 27,
-    "declared_but_unused": 24,
+    "sources_used_in_records": 28,
+    "sources_exported": 28,
+    "declared_but_unused": 23,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -32,7 +32,7 @@
     "atom": 1844,
     "chronology": 343,
     "concept": 221,
-    "metadata": 74,
+    "metadata": 76,
     "motif": 291,
     "myth": 34,
     "person": 157,
@@ -40,9 +40,9 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 41,
-    "source": 61,
+    "source": 62,
     "template": 336,
-    "unknown": 325
+    "unknown": 326
   },
   "records_by_source": {
     "S02": {
@@ -154,6 +154,11 @@
       "motif": 4,
       "myth": 3
     },
+    "S29": {
+      "source": 1,
+      "metadata": 2,
+      "unknown": 1
+    },
     "S41": {
       "atom": 430,
       "quote": 9,
@@ -235,18 +240,18 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 273,
+    "Chapitre 1": 275,
     "Chapitre 10": 253,
-    "Chapitre 11": 223,
+    "Chapitre 11": 225,
     "Chapitre 12": 471,
     "Chapitre 13": 111,
-    "Chapitre 14": 1084,
+    "Chapitre 14": 1086,
     "Chapitre 2": 404,
-    "Chapitre 3": 450,
+    "Chapitre 3": 452,
     "Chapitre 4": 312,
     "Chapitre 5": 443,
     "Chapitre 6": 571,
-    "Chapitre 7": 135,
+    "Chapitre 7": 137,
     "Chapitre 8": 378,
     "Chapitre 9": 284,
     "Chapitre bootlegs": 8,
@@ -380,7 +385,7 @@
     "invalid_controlled_value": 1625,
     "missing_required_field": 5111,
     "schema_warning": 400,
-    "unknown_yaml_block": 325,
+    "unknown_yaml_block": 326,
     "v2_migration_debt": 11623
   },
   "top_files_by_issue_count": [
@@ -2614,6 +2619,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s29_goddard_missions_dead_souls_source_canonique.md",
+      "record_id": "REG-S29-GODDARD-MISSIONS-DEAD-SOULS-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
       "record_id": "REG-S10-SUMNER-CHAPTER-AND-VERSE-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
@@ -3302,20 +3315,6 @@
         ]
       },
       {
-        "source_id": "S29",
-        "source_label": "S29 — Goddard, Missions of Dead Souls, 2011",
-        "auteur": "Michael Goddard",
-        "titre": "Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division",
-        "annee": "2011",
-        "statut": "verifie",
-        "usage": [
-          "hantologie",
-          "paysage industriel",
-          "esthétique",
-          "transmutation du local en universel"
-        ]
-      },
-      {
         "source_id": "S30",
         "source_label": "S30 — Frith, Sound Effects, 1981",
         "auteur": "Simon Frith",
@@ -3785,6 +3784,21 @@
           "sources/riom_review_crossley_networks/relations_stabilisees.md",
           "sources/riom_review_crossley_networks/source.md",
           "sources/riom_review_crossley_networks/source_part_riom_crossley_networks_review_v2.md"
+        ]
+      },
+      {
+        "source_id": "S29",
+        "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+        "auteur": "Michael Goddard",
+        "titre": "Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division",
+        "annee": "2018",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s29_goddard_missions_dead_souls_source_canonique.md",
+          "sources/goddard_missions_dead_souls/source.md"
         ]
       },
       {
@@ -155748,6 +155762,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/references/s20_dodge_source_canonique.md",
       "record_id": "REG-S20-DODGE-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s29_goddard_missions_dead_souls_source_canonique.md",
+      "record_id": "REG-S29-GODDARD-MISSIONS-DEAD-SOULS-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
