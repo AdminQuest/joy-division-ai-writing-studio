@@ -7,12 +7,12 @@ const STOPWORDS = new Set([
 const TOKEN_RE = /[\wÀ-ÿ']+/gu;
 const SOURCE_ID_ALIASES = {
   'S-BROLL-JOY-001': 'S68',
-  'S20': 'S72',
   'S35': 'S41',
   'S37': 'S45',
   'S41-HIST': 'S73'
 };
 const FALLBACK_SOURCE_LABELS = {
+  S20: 'S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d.',
   S41: 'S41 — Hook, Unknown Pleasures, 2012',
   S45: 'S45 — Curtis, Touching from a Distance, 1995',
   S46: 'S46 — Johnson, An Ideal for Living, 1984',
@@ -260,334 +260,154 @@ function buildFilterControls() {
   if (card) card.dataset.filters = `chapitres:${chapters.length}; sources:${sources.length}; types:${types.length}; importances:${importances.length}; preuves:${proofs.length}; concepts:${concepts.length}; motifs:${motifs.length}`;
 }
 
-function currentFilters() {
-  return {
-    kind: $('kind')?.value || '',
-    chapter: $('chapter-filter')?.value || '',
-    source: $('source-filter')?.value || '',
-    type: $('type-filter')?.value || '',
-    importance: $('importance-filter')?.value || '',
-    proof: $('proof-filter')?.value || '',
-    concept: $('concept-filter')?.value || '',
-    motif: $('motif-filter')?.value || ''
-  };
+function scoreItem(item, queryTokens, rawQuery) {
+  let score = 0;
+  for (const token of queryTokens) score += (item.tokenCounts.get(token) || 0) * 3;
+  if (rawQuery && item.normalizedText.includes(rawQuery)) score += 20;
+  if (item.record.kind === 'atom') score += 2;
+  if (item.importance.toLowerCase().includes('critique')) score += 4;
+  if (item.importance.toLowerCase().includes('majeure')) score += 2;
+  return score;
 }
 
-function hasActiveFilters(filters) {
-  return Object.values(filters).some(Boolean);
-}
-
-function matchesFilters(item, filters) {
-  if (filters.kind && item.record.kind !== filters.kind) return false;
-  if (filters.chapter && !item.chapters.includes(filters.chapter)) return false;
-  if (filters.source && !item.sourceIds.includes(filters.source)) return false;
-  if (filters.type && item.type !== filters.type) return false;
-  if (filters.importance && item.importance !== filters.importance) return false;
-  if (filters.proof && item.proof !== filters.proof) return false;
-  if (filters.concept && !item.concepts.includes(filters.concept)) return false;
-  if (filters.motif && !item.motifs.includes(filters.motif)) return false;
+function passesFilters(item) {
+  const chapter = $('chapter-filter')?.value || '';
+  const source = $('source-filter')?.value || '';
+  const type = $('type-filter')?.value || '';
+  const importance = $('importance-filter')?.value || '';
+  const proof = $('proof-filter')?.value || '';
+  const concept = $('concept-filter')?.value || '';
+  const motif = $('motif-filter')?.value || '';
+  if (chapter && !item.chapters.includes(chapter)) return false;
+  if (source && !item.sourceIds.includes(source)) return false;
+  if (type && item.type !== type) return false;
+  if (importance && item.importance !== importance) return false;
+  if (proof && item.proof !== proof) return false;
+  if (concept && !item.concepts.includes(concept)) return false;
+  if (motif && !item.motifs.includes(motif)) return false;
   return true;
 }
 
-function kindWeight(kind) {
-  return {atom: 1.25, quote: 1.2, chronology: 1.1, concept: 1.05, myth: 1.05, motif: 1.05}[kind] || 1;
-}
-
-function scoreItem(item, terms, normalizedQuery, filters) {
-  let score = normalizedQuery.length >= 4 && item.normalizedText.includes(normalizedQuery) ? 25 : 0;
-  let matched = 0;
-  const details = [];
-  for (const term of terms) {
-    const count = item.tokenCounts.get(term) || 0;
-    const partial = count ? 0 : (item.normalizedText.includes(term) ? 1 : 0);
-    const termScore = count * 6 + partial * 2;
-    if (termScore > 0) {
-      matched += 1;
-      score += termScore;
-      details.push(`${term}:${count || 'partial'}`);
-    }
-  }
-  if (terms.length && matched === terms.length) score += 12;
-  if (item.record.id && normalizeText(item.record.id).includes(normalizedQuery)) score += 20;
-  if (hasActiveFilters(filters)) score += 5;
-  return {score: Math.round(score * kindWeight(item.record.kind)), details};
-}
-
-function searchRecords(query, filters) {
-  const terms = unique(tokenize(query));
-  const normalizedQuery = normalizeText(query).trim();
-  const filterOnly = !terms.length && normalizedQuery.length < 3 && hasActiveFilters(filters);
-  if (!filterOnly && !terms.length && normalizedQuery.length < 3) return [];
-
+function runSearch() {
+  const raw = normalizeText($('search-input')?.value || '');
+  const queryTokens = tokenize(raw);
+  const hasQuery = raw.length > 0 || queryTokens.length > 0;
   const results = [];
   for (const item of state.index) {
-    if (!matchesFilters(item, filters)) continue;
-    const scored = filterOnly ? {score: 1, details: ['filtre']} : scoreItem(item, terms, normalizedQuery, filters);
-    if (scored.score > 0) results.push({score: scored.score, record: conciseRecord(item.record, scored.details.join(', ')), order: item.order});
+    if (!passesFilters(item)) continue;
+    const score = hasQuery ? scoreItem(item, queryTokens, raw) : 1;
+    if (!hasQuery || score > 0) results.push({...item, score});
   }
-  return results.sort((a, b) => (b.score - a.score) || (a.order - b.order));
-}
-
-function conciseRecord(record, scoreDetails = '') {
-  const data = recordData(record);
-  const sourceId = data.source_id ? normalizeSourceId(data.source_id) : '';
-  return {
-    id: record.id,
-    kind: record.kind,
-    file: record.file,
-    heading: record.heading,
-    summary_fields: Object.fromEntries(Object.entries({
-      titre: data.titre || recordTitle(record),
-      source_id: sourceId,
-      source_label: data.source_label || sourceLabel(sourceId),
-      pages_pdf: data.pages_pdf,
-      page_pdf: data.page_pdf,
-      type_unite: data.type_unite,
-      importance: data.importance,
-      niveau_preuve: data.niveau_preuve,
-      concepts: data.concepts,
-      motifs: data.motifs,
-      chapitres: data.chapitres || data.chapters,
-      citation_originale: data.citation_originale,
-      traduction_editoriale_fr: data.traduction_editoriale_fr,
-      song: data.song,
-      name: data.name,
-      role: data.role,
-      date: data.date,
-      event: data.event,
-      certainty: data.certainty,
-      score_details: scoreDetails
-    }).filter(([, value]) => value !== undefined && value !== null && value !== ''))
-  };
-}
-
-function addField(dl, key, value) {
-  if (!dl || value === undefined || value === null || value === '') return;
-  const dt = document.createElement('dt');
-  dt.textContent = key;
-  const dd = document.createElement('dd');
-  dd.textContent = typeof value === 'object' ? JSON.stringify(value, null, 2) : value;
-  dl.appendChild(dt);
-  dl.appendChild(dd);
-}
-
-function clearResults() {
-  if ($('results')) $('results').innerHTML = '';
-  if ($('results-meta')) $('results-meta').textContent = '';
-  if ($('pagination')) $('pagination').innerHTML = '';
-}
-
-function renderPagination(totalPages) {
-  const container = $('pagination');
-  if (!container) return;
-  container.innerHTML = '';
-  if (totalPages <= 1) return;
-  const button = (label, page, disabled = false, active = false) => {
-    const node = document.createElement('button');
-    node.textContent = label;
-    node.disabled = disabled;
-    if (active) node.classList.add('active');
-    node.addEventListener('click', () => { state.page = page; renderCurrentPage(); });
-    return node;
-  };
-  container.appendChild(button('←', Math.max(1, state.page - 1), state.page === 1));
-  for (let page = Math.max(1, state.page - 3); page <= Math.min(totalPages, state.page + 3); page += 1) container.appendChild(button(String(page), page, false, page === state.page));
-  container.appendChild(button('→', Math.min(totalPages, state.page + 1), state.page === totalPages));
-}
-
-function renderCurrentPage() {
-  clearResults();
-  const results = $('results');
-  const meta = $('results-meta');
-  const template = $('result-template');
-  if (!results || !meta || !template) return;
-  const total = state.results.length;
-  const totalPages = Math.ceil(total / state.perPage) || 1;
-  const start = (state.page - 1) * state.perPage;
-  const pageItems = state.results.slice(start, start + state.perPage);
-  meta.textContent = `${total} résultat(s) · page ${state.page}/${totalPages}`;
-  if (!pageItems.length) {
-    const empty = document.createElement('div');
-    empty.className = 'status-card';
-    empty.textContent = 'Aucun résultat.';
-    results.appendChild(empty);
-    return;
-  }
-  for (const item of pageItems) {
-    const node = template.content.cloneNode(true);
-    node.querySelector('.result-kind').textContent = item.record.kind || '';
-    node.querySelector('.result-score').textContent = `score ${item.score}`;
-    node.querySelector('.result-title').textContent = item.record.id || item.record.summary_fields?.titre || '(sans id)';
-    node.querySelector('.result-file').textContent = item.record.file || '';
-    const fields = node.querySelector('.result-fields');
-    for (const [key, value] of Object.entries(item.record.summary_fields || {})) addField(fields, key, value);
-    results.appendChild(node);
-  }
-  renderPagination(totalPages);
-}
-
-function renderResults(results, perPage = 10) {
-  state.results = Array.isArray(results) ? results : [];
-  state.perPage = Number(perPage) || 10;
+  results.sort((a, b) => b.score - a.score || a.order - b.order);
+  state.results = results;
   state.page = 1;
-  renderCurrentPage();
+  renderResults();
 }
 
-function activeFilterLabel(filters) {
-  const labels = [];
-  if (filters.kind) labels.push(`type=${filters.kind}`);
-  if (filters.chapter) labels.push(filters.chapter);
-  if (filters.source) labels.push(`source=${filters.source}`);
-  if (filters.type) labels.push(`type_unite=${filters.type}`);
-  if (filters.importance) labels.push(`importance=${filters.importance}`);
-  if (filters.proof) labels.push(`preuve=${filters.proof}`);
-  if (filters.concept) labels.push(`concept=${filters.concept}`);
-  if (filters.motif) labels.push(`motif=${filters.motif}`);
-  return labels.join(' · ');
+function renderBadges(values, cls = '') {
+  return unique(values).slice(0, 8).map(value => `<span class="badge ${cls}">${escapeHtml(value)}</span>`).join('');
 }
 
-function performSearch() {
-  const query = $('query')?.value.trim() || '';
-  const filters = currentFilters();
-  if ($('results-title')) $('results-title').textContent = activeFilterLabel(filters) || 'Résultats';
-  if ($('results')) $('results').innerHTML = '<div class="status-card">Recherche en cours…</div>';
-  renderResults(searchRecords(query, filters), $('top')?.value || 10);
+function escapeHtml(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
 }
 
-function renderSources() {
-  const container = $('sources-list');
-  const count = $('sources-count');
-  if (!container || !count) return;
-  container.innerHTML = '';
-  count.textContent = `${state.sources.length} source(s)`;
-  for (const source of state.sources) {
-    const wrapper = document.createElement('div');
-    wrapper.className = 'source-entry';
-    const button = document.createElement('button');
-    button.innerHTML = `<div class="source-title">${source.source_label}</div><div class="source-meta">${source.counts.atom || 0} atomes · ${source.counts.quote || 0} citations · ${source.counts.chronology || 0} chronologies · ${source.records.length} enregistrements</div>`;
-    button.addEventListener('click', () => {
-      const select = $('source-filter');
-      if (select) select.value = source.source_id;
-      performSearch();
-    });
-    wrapper.appendChild(button);
-    container.appendChild(wrapper);
-  }
+function renderRecord(item) {
+  const record = item.record;
+  const data = recordData(record);
+  const sources = item.sourceIds.map(id => sourceLabel(id));
+  const chapters = item.chapters;
+  const title = recordTitle(record);
+  const body = data.resume || data.contenu || data.note || data.extrait || data.definition || data.usage || data.arbitrage || data.reference_complete || '';
+  const path = record.file || '';
+  return `
+    <article class="result-card">
+      <div class="result-meta">
+        <span>${escapeHtml(record.kind || 'record')}</span>
+        <span>${escapeHtml(record.id || '')}</span>
+        ${item.score ? `<span>score ${Math.round(item.score)}</span>` : ''}
+      </div>
+      <h3>${escapeHtml(title)}</h3>
+      <div class="badges">
+        ${renderBadges(chapters, 'chapter')}
+        ${renderBadges(sources, 'source')}
+        ${item.type ? `<span class="badge">${escapeHtml(item.type)}</span>` : ''}
+        ${item.importance ? `<span class="badge importance">${escapeHtml(item.importance)}</span>` : ''}
+        ${item.proof ? `<span class="badge proof">${escapeHtml(item.proof)}</span>` : ''}
+      </div>
+      ${body ? `<p>${escapeHtml(flatten(body)).slice(0, 900)}</p>` : ''}
+      ${path ? `<div class="path">${escapeHtml(path)}</div>` : ''}
+    </article>
+  `;
 }
 
-async function loadJson(path, fallback = []) {
-  try {
-    const response = await fetch(path, {cache: 'no-store'});
-    if (!response.ok) throw new Error(`${path} ${response.status}`);
-    return await response.json();
-  } catch (error) {
-    console.warn('Fallback', path, error);
-    return fallback;
-  }
+function renderResults() {
+  const list = $('results-list');
+  const count = $('results-count');
+  const pageInfo = $('page-info');
+  const total = state.results.length;
+  const pages = Math.max(1, Math.ceil(total / state.perPage));
+  state.page = Math.min(state.page, pages);
+  const start = (state.page - 1) * state.perPage;
+  const current = state.results.slice(start, start + state.perPage);
+  if (count) count.textContent = `${total} résultat${total > 1 ? 's' : ''}`;
+  if (pageInfo) pageInfo.textContent = `Page ${state.page} / ${pages}`;
+  if (list) list.innerHTML = current.map(renderRecord).join('') || '<p class="muted">Aucun résultat.</p>';
+  const status = $('status-card');
+  if (status) status.innerHTML = `<strong>Corpus chargé.</strong> ${state.records.length} enregistrements, ${state.sources.length} sources, ${total} résultats affichables.`;
 }
 
-async function loadText(path, fallback = '') {
-  try {
-    const response = await fetch(path, {cache: 'no-store'});
-    if (!response.ok) throw new Error(`${path} ${response.status}`);
-    return await response.text();
-  } catch (error) {
-    console.warn('Fallback', path, error);
-    return fallback;
-  }
-}
-
-function splitTableRow(line) {
-  return line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(value => String(value || '').trim().replace(/`/g, ''));
-}
-
-function inferSourceId(id, sourceCell) {
-  const direct = String(id || '').match(/^(S\d{2})-Q\d+/);
-  if (direct) return normalizeSourceId(direct[1]);
-  const fromSource = String(sourceCell || '').match(/S\d{2}(?:-HIST)?/);
-  return fromSource ? normalizeSourceId(fromSource[0]) : '';
-}
-
-function parseConsolidatedQuotesMarkdown(markdown) {
-  const rows = [];
-  let mode = '';
-  for (const line of String(markdown || '').split(/\r?\n/)) {
-    if (line.startsWith('## 1.1.')) { mode = 'historical'; continue; }
-    if (line.startsWith('## 2.')) { mode = 'atomized'; continue; }
-    if (!line.trim().startsWith('|') || line.includes('---')) continue;
-    const cells = splitTableRow(line);
-    if (!cells.length || /^ID/.test(cells[0]) || /^id$/i.test(cells[0])) continue;
-    if (mode === 'historical' && cells.length >= 5) {
-      const [id, source, type, entry, status] = cells;
-      const sourceId = inferSourceId(id, source);
-      rows.push({kind: 'quote', id, file: 'registers/quotes/master_quotes.md', heading: 'citation historique consolidée', data: {id, source_id: sourceId, citation_originale: entry, type_citation: type, statut_consolidation: status, statut_verification: status, chapitres: ['Chapitre 1']}});
-    } else if (mode === 'atomized' && cells.length >= 4) {
-      const [id, citation, status, usage] = cells;
-      const sourceId = inferSourceId(id, '');
-      rows.push({kind: 'quote', id, file: 'registers/quotes/master_quotes.md', heading: 'citation atomisée consolidée', data: {id, source_id: sourceId, citation_originale: citation, usage_recommande: usage, statut_consolidation: status, statut_verification: status}});
-    }
-  }
-  return rows;
-}
-
-function mergeConsolidatedQuotes(records, quotes) {
-  const existing = new Set(records.map(record => record.id));
-  return records.concat(quotes.filter(record => !existing.has(record.id)));
-}
-
-function resetFilters() {
-  for (const id of ['kind','chapter-filter','source-filter','type-filter','importance-filter','proof-filter','concept-filter','motif-filter']) {
-    if ($(id)) $(id).value = '';
-  }
-  if ($('query')) $('query').value = '';
-  clearResults();
-  if ($('results-title')) $('results-title').textContent = 'Résultats';
-}
-
-function bindUi() {
-  const form = $('search-form');
-  if (form) form.addEventListener('submit', event => { event.preventDefault(); performSearch(); });
-  const reset = $('reset-filters');
-  if (reset) reset.addEventListener('click', resetFilters);
-  for (const id of ['kind','chapter-filter','source-filter','type-filter','importance-filter','proof-filter','concept-filter','motif-filter','top']) {
-    if ($(id)) $(id).addEventListener('change', () => {
-      if (($('query')?.value || '').trim() || hasActiveFilters(currentFilters())) performSearch();
-    });
-  }
-  for (const button of document.querySelectorAll('.example-query')) {
-    button.addEventListener('click', () => {
-      if ($('query')) $('query').value = button.dataset.query || '';
-      performSearch();
-    });
-  }
+async function loadJson(path, fallback) {
+  const response = await fetch(path);
+  if (!response.ok) return fallback;
+  return response.json();
 }
 
 async function init() {
-  const card = $('status-card');
   try {
-    const [records, registry, quotesMarkdown] = await Promise.all([
-      loadJson('../../exports/generated/all_records.json', []),
-      loadJson('../../data/registre.json', []),
-      loadText('../../registers/quotes/master_quotes.md', '')
+    const [records, registry] = await Promise.all([
+      loadJson('../../exports/generated/source_records.json', []),
+      loadJson('../../data/registre.json', [])
     ]);
+    state.records = records;
     buildSourceLabels(registry, records);
-    state.records = mergeConsolidatedQuotes(records, parseConsolidatedQuotesMarkdown(quotesMarkdown));
     buildIndex();
     buildSourcesIndex();
     buildFilterControls();
-    renderSources();
-    bindUi();
-    const counts = {};
-    for (const record of state.records) counts[record.kind || 'unknown'] = (counts[record.kind || 'unknown'] || 0) + 1;
-    const summary = Object.entries(counts).sort().map(([kind, count]) => `${kind}: ${count}`).join(' · ');
-    if (card) card.textContent = `RAG 2 chargé · ${state.records.length} enregistrements · ${summary} · filtres ${card.dataset.filters || ''}`;
+    runSearch();
   } catch (error) {
-    if (card) card.textContent = `Erreur : ${error.message}`;
+    const status = $('status-card');
+    if (status) status.textContent = `Erreur de chargement: ${error.message}`;
   }
 }
 
-window.rag2 = {state, searchRecords, currentFilters, performSearch};
-window.addEventListener('error', event => console.error('RAG Studio error', event.error || event.message));
-window.addEventListener('unhandledrejection', event => console.error('RAG Studio rejected promise', event.reason));
+for (const id of ['search-input','chapter-filter','source-filter','type-filter','importance-filter','proof-filter','concept-filter','motif-filter']) {
+  const element = $(id);
+  if (element) element.addEventListener('input', runSearch);
+}
+
+$('reset-btn')?.addEventListener('click', () => {
+  for (const id of ['search-input','chapter-filter','source-filter','type-filter','importance-filter','proof-filter','concept-filter','motif-filter']) {
+    const element = $(id);
+    if (element) element.value = '';
+  }
+  runSearch();
+});
+
+$('prev-page')?.addEventListener('click', () => {
+  state.page = Math.max(1, state.page - 1);
+  renderResults();
+});
+
+$('next-page')?.addEventListener('click', () => {
+  const pages = Math.max(1, Math.ceil(state.results.length / state.perPage));
+  state.page = Math.min(pages, state.page + 1);
+  renderResults();
+});
 
 init();
