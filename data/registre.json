@@ -5,8 +5,25 @@
     "auteur": "Georgina Blakeley ; Brendan Evans",
     "titre": "The Regeneration of East Manchester: A Political Analysis",
     "annee": "2013",
-    "statut": "consolidée",
-    "usage": "déclin de l’emploi ; East Manchester ; contexte socio-économique"
+    "reference_complete": "Blakeley, Georgina, and Brendan Evans. « The Past and Present of East Manchester ». In The Regeneration of East Manchester: A Political Analysis, 7–20. Manchester University Press, 2013.",
+    "nature": "chapitre d’ouvrage / étude urbaine",
+    "statut": "verifie",
+    "fiabilite": "forte",
+    "usage": [
+      "déclin de l’emploi",
+      "East Manchester",
+      "base économique",
+      "contexte socio-économique"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
+    "arbitrage": "Le registre historique mentionne Manchester City Council / Manchester Hive ; le texte intégral renvoie précisément à Blakeley & Evans pour le chiffre de contraction de l’emploi dans East Manchester.",
+    "legacy_label": "Manchester City Council (Manchester Hive) — Manchester Hive – East Manchester: economic base decline (PDF)"
   },
   {
     "id": "S02",
@@ -14,8 +31,24 @@
     "auteur": "Jean-Pierre Sueur / Sénat",
     "titre": "Villes du futur, futur des villes : quel avenir pour les villes du monde ? Tome II : Analyses",
     "annee": "2011",
-    "statut": "consolidée",
-    "usage": "shrinking city ; déclin démographique ; emploi ; Manchester"
+    "reference_complete": "Sueur, Jean-Pierre (rapporteur). Villes du futur, futur des villes : quel avenir pour les villes du monde ? Rapport d’information n° 594, Délégation sénatoriale à la prospective, Sénat, 9 juin 2011, section « Manchester : shrinking city et renouveau urbain ».",
+    "nature": "rapport parlementaire",
+    "statut": "verifie",
+    "fiabilite": "forte",
+    "usage": [
+      "shrinking city",
+      "déclin démographique",
+      "emploi",
+      "Manchester / Greater Manchester"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
+    "arbitrage": "Référence directement présente dans la note du chapitre 1."
   },
   {
     "id": "S03",
@@ -23,8 +56,23 @@
     "auteur": "Demographia",
     "titre": "England Largest Cities: Population & Density from 1891",
     "annee": "s.d.",
-    "statut": "consolidée comme source statistique web ; à archiver",
-    "usage": "démographie urbaine ; Manchester ; séries historiques"
+    "reference_complete": "Demographia. England Largest Cities: Population & Density from 1891. Ressource statistique en ligne, s.d.",
+    "nature": "source statistique web",
+    "statut": "a_consolider",
+    "fiabilite": "moyenne",
+    "usage": [
+      "démographie urbaine",
+      "périmètres",
+      "séries historiques Manchester / Greater Manchester"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Le registre historique l’identifie comme source démographique, mais le texte intégral ne donne pas encore de référence bibliographique complète autonome."
   },
   {
     "id": "S04",
@@ -32,26 +80,409 @@
     "auteur": "Alan J. Kidd",
     "titre": "Manchester: A History",
     "annee": "2006",
-    "statut": "consolidée",
-    "usage": "industrialisation ; histoire urbaine ; désindustrialisation"
+    "reference_complete": "Kidd, Alan J. Manchester: A History. Lancaster / Clitheroe: Carnegie Publishing, 2006.",
+    "nature": "ouvrage historique",
+    "statut": "verifie",
+    "fiabilite": "forte",
+    "usage": [
+      "histoire urbaine",
+      "désindustrialisation",
+      "emplois manufacturiers",
+      "Manchester"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Référence directement présente dans la note du chapitre 1 ; pagination des chiffres d’emploi à verrouiller lors d’une passe bibliographique."
   },
   {
     "id": "S05",
-    "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
-    "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
-    "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+    "source_label": "S05 — Jeffery, Policing and the Reproduction of Local Social Order, 2015",
+    "auteur": "Peter Jeffery",
+    "titre": "Policing and the Reproduction of Local Social Order: The 1981 Riots in Moss Side, Manchester",
     "annee": "2015",
-    "statut": "consolidée",
-    "usage": "Moss Side ; émeutes ; police ; ordre public"
+    "reference_complete": "Jeffery, Peter. « Policing and the Reproduction of Local Social Order: The 1981 Riots in Moss Side, Manchester ». Sheffield Hallam University Research Archive, 2015. https://shura.shu.ac.uk/13150/",
+    "nature": "article / étude universitaire",
+    "statut": "verifie",
+    "fiabilite": "forte",
+    "usage": [
+      "Moss Side",
+      "émeutes",
+      "police",
+      "ordre public",
+      "ordres de grandeur"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Le texte intégral renvoie explicitement à Jeffery 2015 pour Moss Side."
   },
   {
     "id": "S06",
-    "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2023",
+    "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021",
     "auteur": "Isabelle Carter",
     "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
-    "annee": "2023",
-    "statut": "consolidée",
-    "usage": "Hulme ; logement social moderniste ; inner city ; expérience vécue"
+    "annee": "2021",
+    "reference_complete": "Carter, Isabelle. « Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994 ». Journal of Social History, Cambridge University Press, 2021.",
+    "nature": "article universitaire / étude historique",
+    "statut": "a_consolider",
+    "fiabilite": "moyenne",
+    "usage": [
+      "Hulme",
+      "Hulme Crescents",
+      "logement social",
+      "échec moderniste",
+      "expérience vécue"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Le registre historique mentionne « Holly Carter » ; la note du texte intégral indique « Carter, I. ». Auteur, support exact, volume et pagination restent à confirmer."
+  },
+  {
+    "id": "S07",
+    "source_label": "S07 — Engels, The Condition of the Working Class in England, 1845",
+    "auteur": "Friedrich Engels",
+    "titre": "The Condition of the Working Class in England",
+    "annee": "1845",
+    "reference_complete": "Engels, Friedrich. The Condition of the Working Class in England. Leipzig, 1845. Traduction française usuelle : La Situation de la classe laborieuse en Angleterre.",
+    "nature": "ouvrage classique",
+    "statut": "a_consolider",
+    "fiabilite": "forte",
+    "usage": [
+      "conditions de vie",
+      "Salford",
+      "Manchester",
+      "profondeur historique"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Source sécurisée dans le registre historique, mais non retrouvée comme note autonome dans le texte intégral transmis ; éviter tout usage anachronique."
+  },
+  {
+    "id": "S08",
+    "source_label": "S08 — Debord, psychogéographie et dérive, 1955–1958",
+    "auteur": "Guy Debord",
+    "titre": "Textes sur la psychogéographie et la dérive",
+    "annee": "1955–1958",
+    "reference_complete": "Debord, Guy. « Introduction à une critique de la géographie urbaine », Les Lèvres nues, n° 6, 1955 ; « Théorie de la dérive », Les Lèvres nues, n° 9, 1956, repris dans Internationale situationniste, n° 2, 1958.",
+    "nature": "textes théoriques",
+    "statut": "a_consolider",
+    "fiabilite": "forte",
+    "usage": [
+      "psychogéographie",
+      "dérive",
+      "ville",
+      "situationnisme"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "registre historique",
+      "document maître",
+      "texte intégral"
+    ],
+    "arbitrage": "Le texte intégral mentionne Debord surtout via l’influence situationniste sur Tony Wilson ; pour le chapitre 1, le texte de référence à choisir doit rester la psychogéographie ou la dérive."
+  },
+  {
+    "id": "S09",
+    "source_label": "S09 — Cummins, Joy Division, 2010",
+    "auteur": "Kevin Cummins",
+    "titre": "Joy Division",
+    "annee": "2010",
+    "reference_complete": "Cummins, Kevin. Joy Division. New York: Rizzoli, 2010.",
+    "nature": "corpus photographique / source visuelle",
+    "statut": "verifie",
+    "fiabilite": "forte",
+    "usage": [
+      "iconographie",
+      "paysage urbain",
+      "Manchester",
+      "Joy Division",
+      "Hulme / Epping Walk"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Référence retrouvée dans les notes du texte intégral."
+  },
+  {
+    "id": "S10",
+    "source_label": "S10 — University of Birmingham eTheses, ressource sur Salford, à identifier",
+    "auteur": "University of Birmingham eTheses",
+    "titre": "Thèse / ressource citant Bernard Sumner sur Salford",
+    "annee": "s.d.",
+    "reference_complete": "Référence exacte non retrouvée dans le texte intégral transmis. Entrée à consolider : ressource eTheses de l’Université de Birmingham citant Bernard Sumner sur Salford.",
+    "nature": "thèse / ressource académique",
+    "statut": "a_consolider",
+    "fiabilite": "faible",
+    "usage": [
+      "témoignage",
+      "mémoire urbaine",
+      "Salford"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Le registre historique la considère comme sécurisée, mais la référence précise n’est pas retrouvée dans le texte intégral ; privilégier la source primaire Sumner, Chapter and Verse, p. 7–8, si l’idée est conservée."
+  },
+  {
+    "id": "S11",
+    "source_label": "S11 — UK Treasury / DTI, Financial Statement and Budget Report, 1978–1988",
+    "auteur": "HM Treasury ; Department of Trade and Industry",
+    "titre": "Financial Statement and Budget Report / données budgétaires et industrielles 1978–1988",
+    "annee": "1978–1988",
+    "reference_complete": "HM Treasury. Financial Statement and Budget Report, exercices 1978–1979 à 1988–1989 ; Department of Trade and Industry, données budgétaires relatives aux subsidies to industry. Référence précise et calcul agrégé à consolider.",
+    "nature": "source primaire statistique / données gouvernementales",
+    "statut": "a_consolider",
+    "fiabilite": "moyenne",
+    "usage": [
+      "austérité",
+      "politique industrielle",
+      "dépenses industrielles",
+      "ère Thatcher"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Le texte intégral signale que les ratios DTI nécessitent un calcul agrégé ; l’entrée reste donc sécurisée comme type de source, mais non comme référence paginée."
+  },
+  {
+    "id": "S12",
+    "source_label": "S12 — Anderton, Chief Constable of Greater Manchester Police, à consolider",
+    "auteur": "James Anderton",
+    "titre": "Figure du chef de police du Greater Manchester",
+    "annee": "1976–1991",
+    "reference_complete": "Source de consolidation à fixer : profil biographique et déclarations publiques de James Anderton, Chief Constable of Greater Manchester Police de 1976 à 1991. Voir notamment les entretiens et articles de presse relatifs au surnom « God’s Cop » et aux controverses morales des années 1980.",
+    "nature": "acteur institutionnel / dossier de presse à constituer",
+    "statut": "a_consolider",
+    "fiabilite": "moyenne",
+    "usage": [
+      "contrôle social",
+      "répression",
+      "conservatisme moral",
+      "ordre public"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Le texte du chapitre 1 mobilise Anderton mais ne donne pas encore de référence source autonome ; l’entrée est maintenue comme nœud documentaire à consolider."
+  },
+  {
+    "id": "S13",
+    "source_label": "S13 — Tomeo, Dance Dance Dance!, 2021",
+    "auteur": "Caterina Tomeo",
+    "titre": "Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era",
+    "annee": "2021",
+    "reference_complete": "Tomeo, Caterina. « Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era ». In Alfonso Amendola et Linda Barone (dir.), Our Vision Touched the Sky: Fenomenologia dei Joy Division. Roma: Rogas Edizioni, 2021.",
+    "nature": "chapitre d’ouvrage critique",
+    "statut": "a_consolider",
+    "fiabilite": "moyenne",
+    "usage": [
+      "présence absente",
+      "performance",
+      "transe",
+      "rave era",
+      "ordre public / contrôle social à vérifier"
+    ],
+    "chapitres": [
+      "Chapitre 7"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
+    "arbitrage": "La référence Tomeo est retrouvée dans le texte intégral pour les analyses de performance / rave ; le lien avec Manchester et le contrôle social sous Thatcher, indiqué dans le registre historique, n’est pas confirmé à ce stade."
+  },
+  {
+    "id": "S14",
+    "source_label": "S14 — Happy Mondays, « God’s Cop », 1990",
+    "auteur": "Happy Mondays",
+    "titre": "« God’s Cop »",
+    "annee": "1990",
+    "reference_complete": "Happy Mondays. « God’s Cop ». Track 2 sur Pills ’n’ Thrills and Bellyaches. Factory Records FAC 334, 5 novembre 1990, 4:58.",
+    "nature": "référence discographique",
+    "statut": "verifie",
+    "fiabilite": "forte",
+    "usage": [
+      "réappropriation musicale",
+      "James Anderton",
+      "police",
+      "mémoire culturelle mancunienne"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
+    "arbitrage": "Référence discographique présente dans la note du chapitre 1."
+  },
+  {
+    "id": "S15",
+    "source_label": "S15 — De Luca, The Sound and the Fury, 2021",
+    "auteur": "Daniele De Luca",
+    "titre": "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta",
+    "annee": "2021",
+    "reference_complete": "De Luca, Daniele. « The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta ». In Alfonso Amendola et Linda Barone (dir.), Our Vision Touched the Sky: Fenomenologia dei Joy Division, 54–63, spéc. 59. Roma: Rogas Edizioni, 2021.",
+    "nature": "chapitre d’ouvrage critique",
+    "statut": "verifie",
+    "fiabilite": "forte",
+    "usage": [
+      "concert des Sex Pistols du 4 juin 1976",
+      "scène mancunienne",
+      "événement catalyseur"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
+    "arbitrage": "Référence présente dans la note du chapitre 1."
+  },
+  {
+    "id": "S16",
+    "source_label": "S16 — Buzzcocks, « Boredom », 1977",
+    "auteur": "Buzzcocks",
+    "titre": "« Boredom »",
+    "annee": "1977",
+    "reference_complete": "Buzzcocks. « Boredom ». Piste B1 sur Spiral Scratch EP. New Hormones ORG 1, 29 janvier 1977.",
+    "nature": "référence discographique",
+    "statut": "verifie",
+    "fiabilite": "forte",
+    "usage": [
+      "ennui",
+      "jeunesse",
+      "immobilité sociale",
+      "punk mancunien"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
+    "arbitrage": "Référence discographique présente dans la note du chapitre 1."
+  },
+  {
+    "id": "S17",
+    "source_label": "S17 — The Fall, « Rowche Rumble », 1979",
+    "auteur": "The Fall",
+    "titre": "« Rowche Rumble »",
+    "annee": "1979",
+    "reference_complete": "The Fall. « Rowche Rumble ». Single, Step-Forward Records, 1979. Référence discographique à compléter avec numéro de catalogue lors d’une passe Discogs.",
+    "nature": "référence discographique",
+    "statut": "a_consolider",
+    "fiabilite": "moyenne",
+    "usage": [
+      "critique sociale",
+      "médicaments",
+      "surmédication",
+      "Manchester"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique"
+    ],
+    "arbitrage": "Le texte intégral mentionne le titre et l’année ; la référence discographique complète reste à verrouiller."
+  },
+  {
+    "id": "S18",
+    "source_label": "S18 — Fédida, Manchester : L’éveil d’une scène musicale, 2021",
+    "auteur": "Michel-Angelo Fédida",
+    "titre": "Manchester : L’éveil d’une scène musicale",
+    "annee": "2021",
+    "reference_complete": "Fédida, Michel-Angelo. Manchester : L’éveil d’une scène musicale. MJW Fédition, 2021.",
+    "nature": "ouvrage / essai d’histoire culturelle",
+    "statut": "a_consolider",
+    "fiabilite": "moyenne",
+    "usage": [
+      "punk",
+      "scène mancunienne",
+      "génération",
+      "1976–1982"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Référence retrouvée dans le texte intégral et le document maître ; citations et pagination à vérifier avant usage manuscrit."
+  },
+  {
+    "id": "S19",
+    "source_label": "S19 — Bourdieu, Les trois états du capital culturel, 1979",
+    "auteur": "Pierre Bourdieu",
+    "titre": "Les trois états du capital culturel",
+    "annee": "1979",
+    "reference_complete": "Bourdieu, Pierre. « Les trois états du capital culturel ». Actes de la recherche en sciences sociales, n° 30, 1979, p. 3–6.",
+    "nature": "article théorique",
+    "statut": "verifie",
+    "fiabilite": "forte",
+    "usage": [
+      "capital culturel",
+      "conversion des capitaux",
+      "sociologie de la culture"
+    ],
+    "chapitres": [
+      "Chapitre 1"
+    ],
+    "source_origin": [
+      "texte intégral",
+      "registre historique",
+      "document maître"
+    ],
+    "arbitrage": "Référence canonique plus précise que la mention générale à La Distinction ; elle stabilise l’usage du concept de conversion entre capitaux."
   },
   {
     "id": "S41",
