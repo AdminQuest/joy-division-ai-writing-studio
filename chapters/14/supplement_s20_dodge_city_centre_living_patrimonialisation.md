@@ -55,4 +55,3 @@ relations:
 ## Formule rédactionnelle possible
 
 La ville ne se contente pas de se souvenir. Elle reconvertit. Les mills deviennent appartements, les estates honnis disparaissent, le centre se verticalise, les récits de renaissance accompagnent le marché résidentiel. Manchester n’efface pas son passé industriel : elle le trie, l’expose, le démolit ou le vend, selon les lieux et les usages.
-```
