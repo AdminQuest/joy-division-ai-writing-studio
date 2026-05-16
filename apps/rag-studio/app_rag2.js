@@ -6,8 +6,6 @@ const RAG2_STOPWORDS = new Set([
 
 const SOURCE_ALIASES = {
   'S-BROLL-JOY-001': 'S68',
-  'S35': 'S41',
-  'S37': 'S45',
   'S41-HIST': 'S73'
 };
 

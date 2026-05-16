@@ -7,8 +7,6 @@ const STOPWORDS = new Set([
 const TOKEN_RE = /[\wÀ-ÿ']+/gu;
 const SOURCE_ID_ALIASES = {
   'S-BROLL-JOY-001': 'S68',
-  'S35': 'S41',
-  'S37': 'S45',
   'S41-HIST': 'S73'
 };
 const FALLBACK_SOURCE_LABELS = {

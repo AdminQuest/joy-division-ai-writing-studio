@@ -631,25 +631,6 @@ source_origin: [registre historique]
 arbitrage: "Référence importante pour géographie émotionnelle ; à localiser et atomiser si disponible."
 ```
 
-## S35 — Peter Hook, autobiographie / mémoires, migré vers S41
-
-```yaml
-id: S35
-canonical_id: S41
-source_label: "S35 — Peter Hook, autobiographie / mémoires, s.d."
-auteur: Peter Hook
-titre: Autobiographie / mémoires
-annee: "s.d."
-reference_complete: "Voir S41 — Hook, Unknown Pleasures, 2012."
-nature: legacy_reference
-statut: migree
-fiabilite: forte
-usage: [ancrage territorial, Factory]
-chapitres: [Chapitre 1]
-source_origin: [registre historique]
-arbitrage: "Identifiant historique conservé comme entrée migrée ; identifiant repo canonique pour Hook : S41."
-```
-
 ## S36 — Crosthwaite, historicisme imaginatif, s.d.
 
 ```yaml
@@ -666,25 +647,6 @@ usage: [réception critique, méthode]
 chapitres: [Chapitre 1]
 source_origin: [registre historique]
 arbitrage: "Référence à localiser ; utile pour cadrer les risques de projection rétrospective."
-```
-
-## S37 — Deborah Curtis, témoignage biographique, migré vers S45
-
-```yaml
-id: S37
-canonical_id: S45
-source_label: "S37 — Deborah Curtis, témoignage biographique, s.d."
-auteur: Deborah Curtis
-titre: Témoignage biographique
-annee: "s.d."
-reference_complete: "Voir S45 — Curtis, Touching from a Distance, 1995."
-nature: legacy_reference
-statut: migree
-fiabilite: forte
-usage: [biographie, vote 1979]
-chapitres: [Chapitre 1]
-source_origin: [registre historique]
-arbitrage: "Identifiant historique conservé comme entrée migrée ; identifiant repo canonique pour Deborah Curtis : S45."
 ```
 
 ## S38 — Saville / Manchester United / Adidas, Pulsebeat of Manchester, 2023

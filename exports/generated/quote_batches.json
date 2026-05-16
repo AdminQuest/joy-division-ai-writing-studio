@@ -19,7 +19,7 @@
         "Chapitre 1"
       ],
       "statut_consolidation": "imported_batch",
-      "arbitrage": "Les 70 lignes du fichier historique 00_Citations.xlsx sont importées comme lot de consolidation. Elles ne sont pas automatiquement supérieures aux citations atomisées. Les entrées marquées comme concepts, titres, paraphrases ou formulations analytiques doivent rester hors citation directe. Les identifiants historiques S20, S35 et S37 sont à lire comme legacy_id pointant respectivement vers S72, S41 et S45."
+      "arbitrage": "Les 70 lignes du fichier historique 00_Citations.xlsx sont importées comme lot de consolidation. Elles ne sont pas automatiquement supérieures aux citations atomisées. Les entrées marquées comme concepts, titres, paraphrases ou formulations analytiques doivent rester hors citation directe. Les identifiants historiques migrés ne doivent pas être réexportés comme sources actives. Utiliser directement S72 pour Reynolds, S41 pour Hook et S45 pour Curtis."
     }
   }
 ]

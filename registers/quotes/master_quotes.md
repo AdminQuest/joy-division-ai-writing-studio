@@ -30,8 +30,8 @@ arbitrage: >
   Les 70 lignes du fichier historique 00_Citations.xlsx sont importées comme lot de consolidation.
   Elles ne sont pas automatiquement supérieures aux citations atomisées. Les entrées marquées
   comme concepts, titres, paraphrases ou formulations analytiques doivent rester hors citation
-  directe. Les identifiants historiques S20, S35 et S37 sont à lire comme legacy_id pointant
-  respectivement vers S72, S41 et S45.
+  directe. Les identifiants historiques migrés ne doivent pas être réexportés comme sources actives.
+  Utiliser directement S72 pour Reynolds, S41 pour Hook et S45 pour Curtis.
 ```
 
 ## 1.1. Index des entrées historiques importées
@@ -68,7 +68,7 @@ arbitrage: >
 | HIST-C1-028 | à attribuer | titre de chanson | « Twenty Four Hours » | reference_or_concept |
 | HIST-C1-029 | à attribuer | formulation analytique | « entreprise commune » | reference_or_concept |
 | HIST-C1-030 | à attribuer | verbatim | « l'historicisme imaginatif » | candidate |
-| HIST-C1-031 | S72 legacy S20 | paraphrase | « Joy Division a créé quelque chose qui, tout en étant profondément ancré dans ... » | candidate |
+| HIST-C1-031 | S72 | paraphrase | « Joy Division a créé quelque chose qui, tout en étant profondément ancré dans ... » | candidate |
 | HIST-C1-032 | à attribuer | verbatim | « double temporalité » | candidate |
 | HIST-C1-033 | à attribuer | verbatim | « Il est ironique que je reçoive une reconnaissance officielle d'une ville fran... » | candidate |
 | HIST-C1-034 | à attribuer | titre de chanson | « Love Will Tear Us Apart » | reference_or_concept |
@@ -83,7 +83,7 @@ arbitrage: >
 | HIST-C1-043 | S15 | paraphrase | De Luca et le concert des Sex Pistols du 4 juin 1976 | candidate |
 | HIST-C1-044 | S18 | paraphrase | Fédida et l’éveil d’une scène musicale | candidate |
 | HIST-C1-045 | à attribuer | paraphrase | Manchester traversée par des dynamiques contradictoires | candidate |
-| HIST-C1-046 | S72 legacy S20 | paraphrase | Reynolds et le paysage urbain en déclin de Manchester | candidate |
+| HIST-C1-046 | S72 | paraphrase | Reynolds et le paysage urbain en déclin de Manchester | candidate |
 | HIST-C1-047 | à attribuer | paraphrase | Electric Circus comme « khazi » attribué à Kevin Cummins | candidate |
 | HIST-C1-048 | S26 | paraphrase | Gavin Butt et le rôle des écoles d’art | candidate |
 | HIST-C1-049 | S27 | paraphrase | Nick Crossley et les réseaux sociaux de la scène | candidate |
@@ -102,7 +102,7 @@ arbitrage: >
 | HIST-C1-062 | S31 | paraphrase | Allegri et l’univers sonore propre | candidate |
 | HIST-C1-063 | à attribuer | paraphrase | Au-delà du mythe mancunien | candidate |
 | HIST-C1-064 | S11 | paraphrase | Deborah Curtis et complexité politique de Curtis | candidate |
-| HIST-C1-065 | S72 legacy S20 | paraphrase | Reynolds : local et universel | candidate |
+| HIST-C1-065 | S72 | paraphrase | Reynolds : local et universel | candidate |
 | HIST-C1-066 | à attribuer | paraphrase | Double temporalité critique | candidate |
 | HIST-C1-067 | S36 | paraphrase | Crosthwaite et innovations sonores | candidate |
 | HIST-C1-068 | S41 | paraphrase | Peter Hook et reconnaissance officielle à Clermont-Ferrand | candidate |
