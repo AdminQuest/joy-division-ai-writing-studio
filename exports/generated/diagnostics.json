@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T10:25:47",
+  "generated_at": "2026-05-16T11:03:15",
   "status": "error",
   "summary": {
-    "records_total": 3713,
+    "records_total": 3716,
     "records_by_kind": {
       "atom": 1753,
-      "metadata": 40,
+      "metadata": 42,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 195,
+      "unknown": 196,
       "template": 336,
       "song": 41,
       "quote_batch": 1,
@@ -19,13 +19,13 @@
       "concept": 175,
       "myth": 14
     },
-    "diagnostics_total": 18046,
+    "diagnostics_total": 18047,
     "errors": 5,
-    "warnings": 18041,
+    "warnings": 18042,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 19,
-    "sources_exported": 19,
-    "declared_but_unused": 32,
+    "sources_used_in_records": 20,
+    "sources_exported": 20,
+    "declared_but_unused": 31,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -141,19 +141,6 @@
           "James Anderton",
           "police",
           "mémoire culturelle mancunienne"
-        ]
-      },
-      {
-        "source_id": "S15",
-        "source_label": "S15 — De Luca, The Sound and the Fury, 2021",
-        "auteur": "Daniele De Luca",
-        "titre": "The Sound and the Fury. Manchester, i Joy Division e la crisi sociopolitica dell’Inghilterra degli anni Settanta",
-        "annee": "2021",
-        "statut": "verifie",
-        "usage": [
-          "concert des Sex Pistols du 4 juin 1976",
-          "scène mancunienne",
-          "événement catalyseur"
         ]
       },
       {
@@ -640,6 +627,21 @@
           "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
           "sources/tomeo_dance_dance_dance/source.md",
           "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md"
+        ]
+      },
+      {
+        "source_id": "S15",
+        "source_label": "S15 — DeLuca, article sur le seuil punk mancunien, 2021",
+        "auteur": "Daniele DeLuca",
+        "titre": "Article sur le seuil punk mancunien, l’apprentissage autodidacte et la cristallisation de Joy Division",
+        "annee": "2021",
+        "records": 3,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s15_deluca_source_canonique.md",
+          "sources/deluca_manchester_punk_threshold/source.md"
         ]
       },
       {
@@ -107691,6 +107693,12 @@
       "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-RAG-S02-MANCHESTER-SHRINKING-CITY-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s15_deluca_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S15-DELUCA-SOURCE-CANONIQUE"
     },
     {
       "level": "warning",
