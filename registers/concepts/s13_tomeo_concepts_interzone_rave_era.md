@@ -4,10 +4,10 @@ Concepts issus de `sources/tomeo_dance_dance_dance/source_part_interzone_rave_er
 
 ---
 
-# CONCEPT-065 — filiation oblique post-punk / rave
+# CONCEPT-S13-001 — filiation oblique post-punk / rave
 
 ```yaml
-id: CONCEPT-065
+id: CONCEPT-S13-001
 nom: filiation oblique post-punk / rave
 statut:
   type:
@@ -38,10 +38,10 @@ risques:
 
 ---
 
-# CONCEPT-066 — corps-médium curtisien
+# CONCEPT-S13-002 — corps-médium curtisien
 
 ```yaml
-id: CONCEPT-066
+id: CONCEPT-S13-002
 nom: corps-médium curtisien
 statut:
   type:
@@ -70,10 +70,10 @@ risques:
 
 ---
 
-# CONCEPT-067 — communauté sonore fragile
+# CONCEPT-S13-003 — communauté sonore fragile
 
 ```yaml
-id: CONCEPT-067
+id: CONCEPT-S13-003
 nom: communauté sonore fragile
 statut:
   type:
@@ -104,10 +104,10 @@ risques:
 
 ---
 
-# CONCEPT-068 — infrastructure de translation Factory / Haçienda
+# CONCEPT-S13-004 — infrastructure de translation Factory / Haçienda
 
 ```yaml
-id: CONCEPT-068
+id: CONCEPT-S13-004
 nom: infrastructure de translation Factory / Haçienda
 statut:
   type:
@@ -135,10 +135,10 @@ risques:
 
 ---
 
-# CONCEPT-069 — utopie rave provisoire
+# CONCEPT-S13-005 — utopie rave provisoire
 
 ```yaml
-id: CONCEPT-069
+id: CONCEPT-S13-005
 nom: utopie rave provisoire
 statut:
   type:
@@ -154,7 +154,7 @@ atomes_lies:
   - S13-A010
 relations:
   - type: nuance
-    cible: CONCEPT-065
+    cible: CONCEPT-S13-001
   - type: prolonge
     cible: MYTH-rave-utopie
 risques:
