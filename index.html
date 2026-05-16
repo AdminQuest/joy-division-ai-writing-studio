@@ -12,12 +12,12 @@ header{background:linear-gradient(to bottom,#1b2029,#101319);border-bottom:1px s
 h1{margin:0;font-size:2.2rem;letter-spacing:-.03em}
 .subtitle{margin:10px 0 0;color:#aab2bd;max-width:780px;line-height:1.55}
 main{max-width:1100px;margin:auto;padding:30px 28px}
+.block{margin:0 0 34px}.block-header{margin:0 0 16px}.block-header h2{margin:0;font-size:1.35rem}.block-header p{margin:8px 0 0;color:#aab2bd;line-height:1.55;max-width:860px}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .card{background:#171b22;border:1px solid #2a2f38;border-radius:16px;padding:24px;min-height:230px;display:flex;flex-direction:column;justify-content:space-between}
-.card h2{margin:0 0 10px;font-size:1.25rem}
-.card p{color:#c8d0da;line-height:1.55;margin:0 0 18px}
-.card ul{color:#aeb7c2;margin:0 0 22px;padding-left:20px;line-height:1.55}
+.card.compact{min-height:190px}.card h3{margin:0 0 10px;font-size:1.15rem}.card p{color:#c8d0da;line-height:1.55;margin:0 0 18px}.card ul{color:#aeb7c2;margin:0 0 22px;padding-left:20px;line-height:1.55}
 a.button{display:inline-block;background:#e5e5e5;color:#111;text-decoration:none;border-radius:10px;padding:12px 16px;font-weight:700;width:max-content}
+.badge{display:inline-block;border:1px solid #394252;border-radius:999px;color:#c8d0da;padding:4px 9px;font-size:.78rem;margin:0 6px 10px 0}.struct{border-color:#546a95}.spec{border-color:#6a8657}
 @media(max-width:850px){.grid{grid-template-columns:1fr}h1{font-size:1.8rem}}
 </style>
 </head>
@@ -29,125 +29,124 @@ a.button{display:inline-block;background:#e5e5e5;color:#111;text-decoration:none
 </div>
 </header>
 <main>
-<section class="grid">
+
+<section class="block">
+<div class="block-header">
+<h2>Outils de travail</h2>
+<p>Accès aux espaces de lecture, d’interrogation et de rédaction.</p>
+</div>
+<div class="grid">
 <article class="card">
 <div>
-<h2>Documents maîtres</h2>
+<h3>Documents maîtres</h3>
 <p>Consultation pleine page des documents maîtres générés automatiquement depuis les atomes, citations et registres consolidés.</p>
-<ul>
-<li>lecture chapitre par chapitre ;</li>
-<li>Markdown intégral ;</li>
-<li>consolidation documentaire ;</li>
-<li>navigation structurée ;</li>
-<li>copie et export brut.</li>
-</ul>
+<ul><li>lecture chapitre par chapitre ;</li><li>Markdown intégral ;</li><li>consolidation documentaire ;</li><li>navigation structurée.</li></ul>
 </div>
 <a class="button" href="apps/master-docs/">Ouvrir les documents maîtres</a>
 </article>
-
 <article class="card">
 <div>
-<h2>Prompt Studio</h2>
+<h3>Prompt Studio</h3>
 <p>Atelier de construction de prompts contraints pour l’écriture du livre.</p>
-<ul>
-<li>sources ;</li>
-<li>structuration ;</li>
-<li>production ;</li>
-<li>contrôle.</li>
-</ul>
+<ul><li>sources ;</li><li>structuration ;</li><li>production ;</li><li>contrôle.</li></ul>
 </div>
 <a class="button" href="apps/prompt-studio/">Ouvrir le Prompt Studio</a>
 </article>
-
 <article class="card">
 <div>
-<h2>RAG Studio</h2>
-<p>Interface documentaire pour interroger les atomes, citations, chansons, personnes et événements.</p>
-<ul>
-<li>recherche texte simple ;</li>
-<li>filtrage documentaire ;</li>
-<li>navigation par sources ;</li>
-<li>requêtes bilingues FR / EN.</li>
-</ul>
+<h3>RAG Studio</h3>
+<p>Interface documentaire pour interroger les atomes, citations, chansons, personnes, lieux et événements.</p>
+<ul><li>recherche texte simple ;</li><li>filtrage documentaire ;</li><li>navigation par sources ;</li><li>requêtes bilingues FR / EN.</li></ul>
 </div>
 <a class="button" href="apps/rag-studio/">Ouvrir le RAG Studio</a>
 </article>
+</div>
+</section>
 
-<article class="card">
+<section class="block">
+<div class="block-header">
+<h2>Registres structurants</h2>
+<p>Ils organisent l’argumentation du livre : concepts, motifs, mythes et références canoniques. Ils servent à stabiliser les catégories d’analyse et les relations documentaires.</p>
+<span class="badge struct">concepts</span><span class="badge struct">motifs</span><span class="badge struct">mythes</span><span class="badge struct">références</span>
+</div>
+<div class="grid">
+<article class="card compact">
 <div>
-<h2>Registre des citations</h2>
+<h3>Concepts, motifs et mythes</h3>
+<p>Vue structurante des concepts analytiques, motifs récurrents et mythes à déconstruire ou nuancer.</p>
+<ul><li>concepts critiques ;</li><li>motifs argumentatifs ;</li><li>mythes et corrections ;</li><li>liens par sources et chapitres.</li></ul>
+</div>
+<a class="button" href="apps/concept-register/">Ouvrir le registre structurant</a>
+</article>
+<article class="card compact">
+<div>
+<h3>Références et relations RAG</h3>
+<p>Accès au registre consolidé des références, aux notes RAG et aux arbitrages canoniques de sources.</p>
+<ul><li>sources canoniques ;</li><li>relations stabilisées ;</li><li>arbitrages ;</li><li>redirections documentaires.</li></ul>
+</div>
+<a class="button" href="registers/references/master_references.md">Ouvrir les références</a>
+</article>
+</div>
+</section>
+
+<section class="block">
+<div class="block-header">
+<h2>Registres spécialisés</h2>
+<p>Ils classent les objets documentaires par nature : citations, chronologie, personnes, lieux, organisations et chansons.</p>
+<span class="badge spec">citations</span><span class="badge spec">chronologie</span><span class="badge spec">acteurs</span><span class="badge spec">lieux</span><span class="badge spec">organisations</span><span class="badge spec">chansons</span>
+</div>
+<div class="grid">
+<article class="card compact">
+<div>
+<h3>Registre des citations</h3>
 <p>Vue documentaire dynamique construite automatiquement depuis les citations structurées du corpus.</p>
-<ul>
-<li>citation originale ;</li>
-<li>traduction éditoriale ;</li>
-<li>niveau de vérification ;</li>
-<li>chapitres liés ;</li>
-<li>export CSV.</li>
-</ul>
+<ul><li>citation originale ;</li><li>traduction éditoriale ;</li><li>niveau de vérification ;</li><li>chapitres liés.</li></ul>
 </div>
 <a class="button" href="apps/quote-register/">Ouvrir le registre</a>
 </article>
-
-<article class="card">
+<article class="card compact">
 <div>
-<h2>Registre chronologique</h2>
-<p>Vue chronologique consolidée des concerts, sessions, sorties, événements biographiques et transitions du groupe.</p>
-<ul>
-<li>timeline documentaire ;</li>
-<li>filtres par année ;</li>
-<li>filtres par type ;</li>
-<li>lieux et acteurs ;</li>
-<li>export CSV.</li>
-</ul>
+<h3>Registre chronologique</h3>
+<p>Vue consolidée des concerts, sessions, sorties, événements biographiques et transitions.</p>
+<ul><li>timeline documentaire ;</li><li>filtres par année ;</li><li>lieux et acteurs ;</li><li>export CSV.</li></ul>
 </div>
 <a class="button" href="apps/chronology-register/">Ouvrir le registre</a>
 </article>
-
-<article class="card">
+<article class="card compact">
 <div>
-<h2>Registre des acteurs</h2>
+<h3>Registre des acteurs</h3>
 <p>Vue consolidée des personnes, rôles, réseaux, contradictions documentaires et précautions méthodologiques.</p>
-<ul>
-<li>sources croisées ;</li>
-<li>rôles et fonctions ;</li>
-<li>événements liés ;</li>
-<li>contradictions ;</li>
-<li>export CSV.</li>
-</ul>
+<ul><li>sources croisées ;</li><li>rôles et fonctions ;</li><li>événements liés ;</li><li>contradictions.</li></ul>
 </div>
 <a class="button" href="apps/people-register/">Ouvrir le registre</a>
 </article>
-
-<article class="card">
+<article class="card compact">
 <div>
-<h2>Registre des chansons</h2>
-<p>Vue analytique des chansons : thèmes, motifs, production, live history, sources, atomes et chapitres liés.</p>
-<ul>
-<li>thèmes récurrents ;</li>
-<li>citations et motifs ;</li>
-<li>production Hannett ;</li>
-<li>liens interchapitres ;</li>
-<li>export CSV.</li>
-</ul>
+<h3>Registre des lieux</h3>
+<p>Vue des villes, quartiers, salles, studios, estates et lieux de mémoire liés au corpus.</p>
+<ul><li>géographie documentaire ;</li><li>types de lieux ;</li><li>sources et chapitres ;</li><li>prudences d’usage.</li></ul>
+</div>
+<a class="button" href="apps/places-register/">Ouvrir le registre</a>
+</article>
+<article class="card compact">
+<div>
+<h3>Registre des organisations</h3>
+<p>Vue des labels, institutions, groupes, médias, forces de police et organisations politiques.</p>
+<ul><li>Factory, Granada, GMP ;</li><li>organisations musicales et politiques ;</li><li>types et usages ;</li><li>sources associées.</li></ul>
+</div>
+<a class="button" href="apps/organizations-register/">Ouvrir le registre</a>
+</article>
+<article class="card compact">
+<div>
+<h3>Registre des chansons</h3>
+<p>Vue analytique des chansons : thèmes, motifs, production, live history, sources et chapitres liés.</p>
+<ul><li>thèmes récurrents ;</li><li>citations et motifs ;</li><li>production ;</li><li>liens interchapitres.</li></ul>
 </div>
 <a class="button" href="apps/song-register/">Ouvrir le registre</a>
 </article>
-
-<article class="card">
-<div>
-<h2>Registre des concepts</h2>
-<p>Cartographie dynamique des concepts, objets culturels, notions critiques, lieux, acteurs et thèmes du corpus.</p>
-<ul>
-<li>occurrences consolidées ;</li>
-<li>liens entre sources ;</li>
-<li>types documentaires ;</li>
-<li>navigation thématique ;</li>
-<li>export CSV.</li>
-</ul>
 </div>
-<a class="button" href="apps/concept-register/">Ouvrir le registre</a>
-</article>
 </section>
+
 </main>
 </body>
 </html>
