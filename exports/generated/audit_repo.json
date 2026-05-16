@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-16T18:29:46",
+  "generated_at": "2026-05-16T18:50:47",
   "summary": {
-    "records_total": 3832,
+    "records_total": 3873,
     "records_by_kind": {
-      "atom": 1779,
-      "metadata": 53,
+      "atom": 1790,
+      "metadata": 56,
       "quote": 358,
       "chronology": 343,
       "source": 58,
-      "unknown": 234,
-      "concept": 188,
-      "motif": 266,
-      "myth": 17,
+      "unknown": 249,
+      "concept": 193,
+      "motif": 270,
+      "myth": 20,
       "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 18360,
+    "diagnostics_total": 18506,
     "errors": 0,
-    "warnings": 18360,
+    "warnings": 18506,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 24,
     "sources_exported": 24,
@@ -29,12 +29,12 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1779,
+    "atom": 1790,
     "chronology": 343,
-    "concept": 188,
-    "metadata": 53,
-    "motif": 266,
-    "myth": 17,
+    "concept": 193,
+    "metadata": 56,
+    "motif": 270,
+    "myth": 20,
     "person": 157,
     "quote": 358,
     "quote_batch": 1,
@@ -42,7 +42,7 @@
     "song": 41,
     "source": 58,
     "template": 336,
-    "unknown": 234
+    "unknown": 249
   },
   "records_by_source": {
     "S02": {
@@ -75,9 +75,13 @@
       "unknown": 16
     },
     "S11": {
-      "source": 1,
-      "metadata": 2,
-      "unknown": 1
+      "metadata": 5,
+      "concept": 5,
+      "motif": 4,
+      "myth": 3,
+      "unknown": 10,
+      "atom": 11,
+      "source": 1
     },
     "S12": {
       "metadata": 3,
@@ -194,12 +198,12 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 219,
+    "Chapitre 1": 238,
     "Chapitre 10": 253,
     "Chapitre 11": 221,
     "Chapitre 12": 471,
     "Chapitre 13": 111,
-    "Chapitre 14": 1017,
+    "Chapitre 14": 1020,
     "Chapitre 2": 381,
     "Chapitre 3": 424,
     "Chapitre 4": 312,
@@ -207,7 +211,7 @@
     "Chapitre 6": 571,
     "Chapitre 7": 123,
     "Chapitre 8": 320,
-    "Chapitre 9": 278,
+    "Chapitre 9": 280,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -336,11 +340,11 @@
   ],
   "issue_categories": {
     "field_type_error": 149,
-    "invalid_controlled_value": 1549,
-    "missing_required_field": 4990,
+    "invalid_controlled_value": 1562,
+    "missing_required_field": 5009,
     "schema_warning": 400,
-    "unknown_yaml_block": 234,
-    "v2_migration_debt": 11038
+    "unknown_yaml_block": 249,
+    "v2_migration_debt": 11137
   },
   "top_files_by_issue_count": [
     [
@@ -478,6 +482,126 @@
       "level": "warning",
       "category": "unknown_yaml_block",
       "file": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
+      "record_id": "REF-S11-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
       "record_id": null,
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
@@ -2340,10 +2464,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1779,
+    "atoms_total": 1790,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1718,
-    "v2_missing_field_warnings": 11038
+    "atoms_v2_incomplete": 1729,
+    "v2_missing_field_warnings": 11137
   },
   "source_registry": {
     "declared_but_unused": [
@@ -2869,13 +2993,17 @@
         "auteur": "HM Treasury",
         "titre": "Financial Statement and Budget Report 1987-88",
         "annee": "1987",
-        "records": 4,
-        "atoms": 0,
+        "records": 39,
+        "atoms": 11,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
-          "sources/uk_treasury_fsbr_1987_88/source.md"
+          "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+          "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
+          "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+          "sources/uk_treasury_fsbr_1987_88/source.md",
+          "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md"
         ]
       },
       {
@@ -53093,6 +53221,1174 @@
       "record_id": "S46-065",
       "message": "Invalid value for type_unite: anecdote_scene",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
+      "record_id": "REF-S11-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Invalid value for statut: integration_directe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Invalid value for fiabilite: forte pour le cadrage gouvernemental et les données publiées ; à contextualiser politiquement",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A001",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A001",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A001",
+      "message": "Invalid value for type_unite: source_gouvernementale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A002",
+      "message": "Invalid value for type_unite: concept_macro",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A003",
+      "message": "Invalid value for type_unite: fiscalite",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A004",
+      "message": "Invalid value for type_unite: depense_publique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A005",
+      "message": "Invalid value for type_unite: finances_publiques",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A006",
+      "message": "Invalid value for type_unite: conjoncture",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A007",
+      "message": "Invalid value for type_unite: marche_travail",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A008",
+      "message": "Invalid value for type_unite: industrie_competitivite",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A009",
+      "message": "Invalid value for type_unite: finances_locales",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "record_id": "S11-A010",
+      "message": "Invalid value for type_unite: prudence_historiographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "record_id": "REL-S11-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

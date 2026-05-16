@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T16:26:22"
+generated_at: "2026-05-16T18:50:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T16:26:22"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 134 |
+| Atomes | 145 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 18 |
+| Sources mobilisées | 19 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ generated_at: "2026-05-16T16:26:22"
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 9 | 0 |
 | S09 | S09 — Cummins, Joy Division, 2010 | 5 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
+| S11 | S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 | 11 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 9 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 7 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
@@ -176,6 +177,28 @@ generated_at: "2026-05-16T16:26:22"
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S11-A001** — S11-A001 — Le FSBR 1987-88 comme source officielle de la stratégie économique Thatcher  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `source_gouvernementale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S11-A002** — S11-A002 — Medium Term Financial Strategy : monnaie, inflation et discipline budgétaire  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `concept_macro` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S11-A003** — S11-A003 — Baisse de l’impôt sur le revenu et récit de l’entreprise  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `fiscalite` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S11-A004** — S11-A004 — Dépense publique en baisse relative : objectif de réduction de la part de l’État  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `depense_publique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S11-A005** — S11-A005 — Privatisations et PSBR : cadrage de la discipline budgétaire  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `finances_publiques` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S11-A006** — S11-A006 — Inflation basse et reprise officielle : récit d’une économie stabilisée  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `conjoncture` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S11-A007** — S11-A007 — Emploi et chômage : inflexion officielle de 1986-1987  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `marche_travail` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S11-A008** — S11-A008 — Industrie et compétitivité : productivité, unit labour costs, export recovery  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `industrie_competitivite` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S11-A009** — S11-A009 — Local authorities et public expenditure : place des collectivités dans le cadrage budgétaire  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `finances_locales` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S11-A010** — S11-A010 — S11 comme contrepoint macroéconomique aux récits culturels du déclin mancunien  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `prudence_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2** — S11 — Passe v2 — HM Treasury, FSBR 1987-88, stratégie économique Thatcher et récit officiel de la reprise  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte pour le cadrage gouvernemental et les données publiées ; à contextualiser politiquement`.
 - **S12-A001** — S12-A001 — Décembre 1986 : sida, morale publique et controverse nationale  
   Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `contexte_discursif` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
 - **S12-A002** — S12-A002 — James Anderton : sida, « self-inflicted wound » et moralisation policière  
@@ -232,28 +255,6 @@ generated_at: "2026-05-16T16:26:22"
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `cas_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A012** — S20-A012 — Désindustrialisation, chômage masculin et crise des estates  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-PART-HOUSING-GEOGRAPHIES-V2** — S20 — Passe v2 — Manchester, géographies du logement et solutions du XXe siècle  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-005** — S41-005 — Enfance de Hook : Salford, violence domestique et monde ouvrier  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-009** — S41-009 — Délinquance adolescente et logique de classe  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-010** — S41-010 — Destruction d’Ordsall et relogement forcé  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-011** — S41-011 — Ellor Street comme contre-utopie moderniste  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-084** — S41-084 — Manchester contre Londres : géographie de l’indépendance  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-118** — S41-118 — « Shadowplay » : la ville comme labyrinthe mental  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-C01** — S41-C01 — Manchester comme matrice émotionnelle  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **S45-001** — S45-001 — Ian Curtis naît à Old Trafford mais grandit à Macclesfield  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-003** — S45-003 — « There was more to living than working nine to five »  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `citation_clef` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -293,6 +294,7 @@ generated_at: "2026-05-16T16:26:22"
 - James Anderton (3)
 - Ian Wood (3)
 - NME (3)
+- Thatcherism (3)
 - Macclesfield (3)
 - classe ouvriere (3)
 - slum clearance (3)
@@ -318,6 +320,8 @@ generated_at: "2026-05-16T16:26:22"
 - Sex Pistols (2)
 - Buzzcocks (2)
 - Manchester punk (2)
+- inflation (2)
+- public expenditure (2)
 - enfance (2)
 - peter hook (2)
 - bernard sumner (2)
@@ -359,9 +363,6 @@ generated_at: "2026-05-16T16:26:22"
 - maintien de l’ordre (1)
 - fabrication de l’ordre social (1)
 - Greater Manchester Police (1)
-- recomposition institutionnelle (1)
-- crise urbaine (1)
-- années 1970 (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -478,7 +479,7 @@ generated_at: "2026-05-16T16:26:22"
 |---|---|
 | concept_structurant | 9 |
 | analyse | 9 |
-| source_part | 7 |
+| source_part | 8 |
 | sociologie | 7 |
 | prudence_methodologique | 6 |
 | contexte_social | 6 |
@@ -509,6 +510,16 @@ generated_at: "2026-05-16T16:26:22"
 | citation_contextualisee | 1 |
 | contexte_punk | 1 |
 | reception_presse | 1 |
+| source_gouvernementale | 1 |
+| concept_macro | 1 |
+| fiscalite | 1 |
+| depense_publique | 1 |
+| finances_publiques | 1 |
+| conjoncture | 1 |
+| marche_travail | 1 |
+| industrie_competitivite | 1 |
+| finances_locales | 1 |
+| prudence_historiographique | 1 |
 | travail | 1 |
 | citation_clef | 1 |
 | environnement_social | 1 |
@@ -545,7 +556,7 @@ generated_at: "2026-05-16T16:26:22"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 114 |
+| non qualifiée | 125 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

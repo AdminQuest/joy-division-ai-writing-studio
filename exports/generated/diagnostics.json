@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-16T18:29:34",
+  "generated_at": "2026-05-16T18:50:36",
   "status": "warning",
   "summary": {
-    "records_total": 3832,
+    "records_total": 3873,
     "records_by_kind": {
-      "atom": 1779,
-      "metadata": 53,
+      "atom": 1790,
+      "metadata": 56,
       "quote": 358,
       "chronology": 343,
       "source": 58,
-      "unknown": 234,
-      "concept": 188,
-      "motif": 266,
-      "myth": 17,
+      "unknown": 249,
+      "concept": 193,
+      "motif": 270,
+      "myth": 20,
       "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 18360,
+    "diagnostics_total": 18506,
     "errors": 0,
-    "warnings": 18360,
+    "warnings": 18506,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 24,
     "sources_exported": 24,
@@ -553,13 +553,17 @@
         "auteur": "HM Treasury",
         "titre": "Financial Statement and Budget Report 1987-88",
         "annee": "1987",
-        "records": 4,
-        "atoms": 0,
+        "records": 39,
+        "atoms": 11,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
-          "sources/uk_treasury_fsbr_1987_88/source.md"
+          "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+          "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
+          "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+          "sources/uk_treasury_fsbr_1987_88/source.md",
+          "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md"
         ]
       },
       {
@@ -38349,6 +38353,882 @@
       "file": "sources/johnson_morley_an_ideal_for_living/source_suite_02.md",
       "message": "Invalid value for type_unite: anecdote_scene",
       "record_id": "S46-065"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S11-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for statut: integration_directe",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for fiabilite: forte pour le cadrage gouvernemental et les données publiées ; à contextualiser politiquement",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: source_gouvernementale",
+      "record_id": "S11-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: concept_macro",
+      "record_id": "S11-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: fiscalite",
+      "record_id": "S11-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: depense_publique",
+      "record_id": "S11-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: finances_publiques",
+      "record_id": "S11-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: conjoncture",
+      "record_id": "S11-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: marche_travail",
+      "record_id": "S11-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: industrie_competitivite",
+      "record_id": "S11-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: finances_locales",
+      "record_id": "S11-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+      "message": "Invalid value for type_unite: prudence_historiographique",
+      "record_id": "S11-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S11-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S11-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S11-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S11-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S11-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S11-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S11-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S11-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
     },
     {
       "level": "warning",

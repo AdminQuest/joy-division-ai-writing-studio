@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T16:26:22"
+generated_at: "2026-05-16T18:50:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 796 |
+| Atomes | 797 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 21 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 2 | 0 |
 | S09 | S09 — Cummins, Joy Division, 2010 | 7 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
+| S11 | S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 | 1 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 6 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
@@ -177,6 +178,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `reception_memoire` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2** — S10 — Passe v2 bis — Joy Division tardif, transition et mémoire selon Sumner  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S11-A010** — S11-A010 — S11 comme contrepoint macroéconomique aux récits culturels du déclin mancunien  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `prudence_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S12-A005** — S12-A005 — Cardinal Hume : « moral Chernobyl » et discours religieux sur sexualité / prévention  
   Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `discours_religieux` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
 - **S12-A006** — S12-A006 — Langage de la dégénérescence : homosexualité, drogue, prostitution et ordre moral  
@@ -289,8 +292,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `majeur` ; preuve : `témoignage direct inséré dans la timeline`.
 - **S41-A102** — S41-A102 — Check Inn / New Electric Circus / Salford Tech : ancrage territorial et réception mancunienne montante  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live_locale` ; importance : `majeur` ; preuve : `chronologie + review rapportée`.
-- **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -872,6 +873,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | prolongement_new_order | 1 |
 | reception_live_new_order | 1 |
 | anecdote_scene | 1 |
+| prudence_historiographique | 1 |
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
 | videographie | 1 |
@@ -1051,7 +1053,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 504 |
+| non qualifiée | 505 |
 | critique | 221 |
 | majeure | 39 |
 | majeur | 28 |

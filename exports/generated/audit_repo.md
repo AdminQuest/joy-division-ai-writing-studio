@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-16T16:26:20`
+Généré le : `2026-05-16T18:50:47`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 233 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1718 atome(s) incomplet(s) sur 1779.
+Le repo est techniquement exploitable, mais 249 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1729 atome(s) incomplet(s) sur 1790.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 3828
+- Enregistrements : 3873
 - Erreurs : 0
-- Avertissements : 18359
+- Avertissements : 18506
 - Sources déclarées : 51
-- Sources utilisées : 23
-- Sources exportées : 23
+- Sources utilisées : 24
+- Sources exportées : 24
 - Sources utilisées absentes du registre : 0
 - Libellés faibles : 0
 
@@ -22,31 +22,31 @@ La dette principale reste la migration v2 : 1718 atome(s) incomplet(s) sur 1779.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1779 |
+| atom | 1790 |
 | chronology | 343 |
-| concept | 188 |
-| metadata | 51 |
-| motif | 266 |
-| myth | 17 |
+| concept | 193 |
+| metadata | 56 |
+| motif | 270 |
+| myth | 20 |
 | person | 157 |
 | quote | 358 |
 | quote_batch | 1 |
 | rules | 1 |
 | song | 41 |
-| source | 57 |
+| source | 58 |
 | template | 336 |
-| unknown | 233 |
+| unknown | 249 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 149 |
-| invalid_controlled_value | 1549 |
-| missing_required_field | 4990 |
+| invalid_controlled_value | 1562 |
+| missing_required_field | 5009 |
 | schema_warning | 400 |
-| unknown_yaml_block | 233 |
-| v2_migration_debt | 11038 |
+| unknown_yaml_block | 249 |
+| v2_migration_debt | 11137 |
 
 ## 5. Erreurs bloquantes
 
@@ -56,6 +56,21 @@ Aucune.
 
 - `sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md` : Unable to infer documentary kind
 - `sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md` : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md` [REF-S11-001] : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-001] : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-002] : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-003] : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-004] : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-005] : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-006] : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-007] : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/relations_stabilisees.md` [REL-S11-008] : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
+- `sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md` : Unable to infer documentary kind
 - `sources/deluca_manchester_punk_threshold/registres_structurants_s15.md` [MYTHE-S15-001] : Unable to infer documentary kind
 - `sources/deluca_manchester_punk_threshold/registres_structurants_s15.md` [MYTHE-S15-002] : Unable to infer documentary kind
 - `sources/deluca_manchester_punk_threshold/registres_structurants_s15.md` [REF-S15-001] : Unable to infer documentary kind
@@ -79,22 +94,7 @@ Aucune.
 - `sources/deluca_manchester_punk_threshold/registres_specialises_s15.md` : Unable to infer documentary kind
 - `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-001] : Unable to infer documentary kind
 - `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-002] : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-003] : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-004] : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-005] : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-006] : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-007] : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
-- `sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md` [REF-S09-001] : Unable to infer documentary kind
-- `registers/organizations/s06_carter_organizations_hulme_lived_discursive_space_v2.md` [ORGS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2] : Unable to infer documentary kind
-- `registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md` [ORGS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2] : Unable to infer documentary kind
-- `registers/organizations/s20_dodge_organizations_housing_geographies_v2.md` [ORGS-S20-HOUSING-GEOGRAPHIES-V2] : Unable to infer documentary kind
-- … 193 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 209 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -106,7 +106,6 @@ Sources déclarées mais non utilisées :
 - S04 — Kidd, Manchester: A History, 2006 — verifie
 - S07 — Engels, The Condition of the Working Class in England, 1845 — a_consolider
 - S08 — Debord, psychogéographie et dérive, 1955–1958 — a_consolider
-- S11 — UK Treasury / DTI, Financial Statement and Budget Report, 1978–1988 — a_consolider
 - S14 — Happy Mondays, « God’s Cop », 1990 — verifie
 - S17 — The Fall, « Rowche Rumble », 1979 — a_consolider
 - S18 — Fédida, Manchester : L’éveil d’une scène musicale, 2021 — a_consolider
@@ -134,10 +133,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1779
+- Atomes : 1790
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1718
-- Avertissements de champs v2 manquants : 11038
+- Atomes v2 incomplets : 1729
+- Avertissements de champs v2 manquants : 11137
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

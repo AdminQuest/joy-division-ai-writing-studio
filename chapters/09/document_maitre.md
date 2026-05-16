@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T16:26:22"
+generated_at: "2026-05-16T18:50:49"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T16:26:22"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 229 |
+| Atomes | 230 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 17 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ generated_at: "2026-05-16T16:26:22"
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 13 | 0 |
 | S09 | S09 — Cummins, Joy Division, 2010 | 6 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
+| S11 | S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 | 1 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 6 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
@@ -139,6 +140,8 @@ generated_at: "2026-05-16T16:26:22"
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `media_scene` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
+- **S11-A009** — S11-A009 — Local authorities et public expenditure : place des collectivités dans le cadrage budgétaire  
+  Source : S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 ; type : `finances_locales` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S12-A001** — S12-A001 — Décembre 1986 : sida, morale publique et controverse nationale  
   Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `contexte_discursif` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
 - **S12-A003** — S12-A003 — Gouvernement Thatcher : pragmatisme sanitaire contre croisade morale  
@@ -217,8 +220,6 @@ generated_at: "2026-05-16T16:26:22"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-060** — S41-060 — Gretton dépense pour le son : philosophie d’investissement  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-061** — S41-061 — Tension Ian Curtis / Rob Gretton : double autorité  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -410,6 +411,7 @@ generated_at: "2026-05-16T16:26:22"
 | concert_broadcast | 1 |
 | concert_exceptionnel | 1 |
 | concert_international | 1 |
+| finances_locales | 1 |
 | sociologie_scene | 1 |
 | réception_scene | 1 |
 | lecture_discographique | 1 |
@@ -458,7 +460,7 @@ generated_at: "2026-05-16T16:26:22"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 228 |
+| non qualifiée | 229 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

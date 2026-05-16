@@ -36776,6 +36776,354 @@
   },
   {
     "kind": "atom",
+    "id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11 — Passe v2 — HM Treasury, FSBR 1987-88, stratégie économique Thatcher et récit officiel de la reprise",
+    "data": {
+      "id": "S11-PART-HM-TREASURY-FSBR-1987-MACRO-CONTEXT-V2",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_short_title": "HM Treasury, FSBR 1987-88, 1987",
+      "source_year": "1987",
+      "auteur": "HM Treasury",
+      "titre": "Financial Statement and Budget Report 1987-88",
+      "type_unite": "source_part",
+      "statut": "integration_directe",
+      "fiabilite": "forte pour le cadrage gouvernemental et les données publiées ; à contextualiser politiquement",
+      "citation_directe": false,
+      "passage_atomise": "Financial Statement and Budget Report 1987-88, House of Commons No. 194, 17 mars 1987 : chapitres 1 à 6, tableaux centraux et annexes utiles au cadrage macroéconomique.",
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S11-A001",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11-A001 — Le FSBR 1987-88 comme source officielle de la stratégie économique Thatcher",
+    "data": {
+      "id": "S11-A001",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_short_title": "HM Treasury, FSBR 1987-88, 1987",
+      "source_year": "1987",
+      "auteur": "HM Treasury",
+      "titre": "Financial Statement and Budget Report 1987-88",
+      "pages_pdf": "1-7",
+      "type_unite": "source_gouvernementale",
+      "concepts": [
+        "Thatcherism",
+        "stratégie économique officielle",
+        "budget 1987",
+        "récit gouvernemental"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organizations": [
+        "HM Treasury",
+        "House of Commons"
+      ],
+      "methodological_warnings": [
+        "Source officielle : ne pas la traiter comme description neutre du réel social.",
+        "Ne pas l’utiliser comme source directe sur Joy Division ou Manchester musical."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S11-A002",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11-A002 — Medium Term Financial Strategy : monnaie, inflation et discipline budgétaire",
+    "data": {
+      "id": "S11-A002",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "pages_pdf": "8-17",
+      "type_unite": "concept_macro",
+      "concepts": [
+        "Medium Term Financial Strategy",
+        "money GDP",
+        "M0",
+        "inflation",
+        "discipline budgétaire"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Distinguer M0, broad money, money GDP, PSBR et GDP deflator."
+      ],
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S11-A003",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11-A003 — Baisse de l’impôt sur le revenu et récit de l’entreprise",
+    "data": {
+      "id": "S11-A003",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "pages_pdf": "4-7, 37-43",
+      "type_unite": "fiscalite",
+      "concepts": [
+        "income tax",
+        "baisse fiscale",
+        "entreprise",
+        "motivation",
+        "efficacité"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_events": [
+        "CHR-S11-1987-001"
+      ],
+      "methodological_warnings": [
+        "Ne pas inférer directement les effets sociaux locaux de Manchester à partir d’une mesure fiscale nationale."
+      ],
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S11-A004",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11-A004 — Dépense publique en baisse relative : objectif de réduction de la part de l’État",
+    "data": {
+      "id": "S11-A004",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "pages_pdf": "12-14, 51-54",
+      "type_unite": "depense_publique",
+      "concepts": [
+        "public expenditure",
+        "dépense publique",
+        "part de l’État",
+        "fiscal restraint",
+        "Thatcherism"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Distinguer general government expenditure, public expenditure planning total et supply expenditure."
+      ],
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S11-A005",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11-A005 — Privatisations et PSBR : cadrage de la discipline budgétaire",
+    "data": {
+      "id": "S11-A005",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "pages_pdf": "12-15, 55-63",
+      "type_unite": "finances_publiques",
+      "concepts": [
+        "privatisation",
+        "PSBR",
+        "public sector borrowing requirement",
+        "fiscal discipline",
+        "public corporations"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas confondre baisse du PSBR, produit des privatisations et amélioration sociale locale."
+      ],
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S11-A006",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11-A006 — Inflation basse et reprise officielle : récit d’une économie stabilisée",
+    "data": {
+      "id": "S11-A006",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "pages_pdf": "18-36",
+      "type_unite": "conjoncture",
+      "concepts": [
+        "inflation",
+        "RPI",
+        "GDP deflator",
+        "reprise économique",
+        "croissance"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Distinguer inflation constatée, prévision d’inflation et récit politique de désinflation."
+      ],
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S11-A007",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11-A007 — Emploi et chômage : inflexion officielle de 1986-1987",
+    "data": {
+      "id": "S11-A007",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "pages_pdf": "31-34",
+      "type_unite": "marche_travail",
+      "concepts": [
+        "employment",
+        "unemployment",
+        "labour market",
+        "training",
+        "counselling"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas extrapoler l’amélioration nationale au chômage local de Manchester sans données locales."
+      ],
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S11-A008",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11-A008 — Industrie et compétitivité : productivité, unit labour costs, export recovery",
+    "data": {
+      "id": "S11-A008",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "pages_pdf": "23-31",
+      "type_unite": "industrie_competitivite",
+      "concepts": [
+        "manufacturing output",
+        "productivity",
+        "unit labour costs",
+        "competitiveness",
+        "export recovery"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas confondre compétitivité manufacturière nationale et expérience sociale des villes industrielles désindustrialisées."
+      ],
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S11-A009",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11-A009 — Local authorities et public expenditure : place des collectivités dans le cadrage budgétaire",
+    "data": {
+      "id": "S11-A009",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "pages_pdf": "51-63",
+      "type_unite": "finances_locales",
+      "concepts": [
+        "local authorities",
+        "public expenditure",
+        "rates",
+        "grants",
+        "borrowing"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas transformer les catégories nationales en analyse de Manchester City Council sans données locales."
+      ],
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S11-A010",
+    "file": "sources/uk_treasury_fsbr_1987_88/source_part_thatcher_macro_context_1987_v2.md",
+    "heading": "S11-A010 — S11 comme contrepoint macroéconomique aux récits culturels du déclin mancunien",
+    "data": {
+      "id": "S11-A010",
+      "source_id": "S11",
+      "source_label": "S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "pages_pdf": "1-67",
+      "type_unite": "prudence_historiographique",
+      "concepts": [
+        "récit officiel",
+        "déclin mancunien",
+        "contrepoint macroéconomique",
+        "histoire culturelle",
+        "Thatcherism"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Utiliser S11 comme contrepoint, non comme réfutation des sources culturelles."
+      ],
+      "source_short_title": "HM Treasury, Financial Statement and Budget Report 1987-88, 1987",
+      "source_year": "1987"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S45-016",
     "file": "sources/deborah_curtis/atomisation_02_unknown_pleasures_domesticite_maladie.md",
     "heading": "S45-016 — Factory introduit une nouvelle hiérarchie affective",

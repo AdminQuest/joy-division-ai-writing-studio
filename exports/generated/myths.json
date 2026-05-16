@@ -1,6 +1,64 @@
 [
   {
     "kind": "myth",
+    "id": "MYTH-S11-001",
+    "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S11-001",
+      "mythe": "le FSBR comme description neutre du réel social",
+      "sources": [
+        "S11"
+      ],
+      "related_atoms": [
+        "S11-A001",
+        "S11-A010"
+      ],
+      "statut": "mythe à déconstruire",
+      "position": "Le FSBR est une source officielle, donc un cadrage politique de l’économie, même lorsqu’il mobilise des données robustes."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S11-002",
+    "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S11-002",
+      "mythe": "la reprise macroéconomique efface le déclin local",
+      "sources": [
+        "S11"
+      ],
+      "related_atoms": [
+        "S11-A006",
+        "S11-A008",
+        "S11-A010"
+      ],
+      "statut": "mythe à corriger",
+      "position": "La reprise nationale officielle ne suffit pas à expliquer ou annuler l’expérience locale du déclassement industriel."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S11-003",
+    "file": "sources/uk_treasury_fsbr_1987_88/registres_structurants_s11.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S11-003",
+      "mythe": "les chiffres nationaux prouvent Manchester",
+      "sources": [
+        "S11"
+      ],
+      "related_atoms": [
+        "S11-A008",
+        "S11-A009"
+      ],
+      "statut": "mythe méthodologique à éviter",
+      "position": "Les données nationales doivent être croisées avec des sources locales avant tout usage sur Manchester, Salford ou Hulme."
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-S09-001",
     "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
     "heading": "Mythes",
