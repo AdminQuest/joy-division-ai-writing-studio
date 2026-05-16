@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T19:34:55",
+  "generated_at": "2026-05-16T19:48:43",
   "summary": {
-    "records_total": 3972,
+    "records_total": 3976,
     "records_by_kind": {
       "atom": 1815,
-      "metadata": 64,
+      "metadata": 66,
       "quote": 358,
       "chronology": 343,
-      "source": 59,
-      "unknown": 285,
+      "source": 60,
+      "unknown": 286,
       "concept": 205,
       "motif": 280,
       "myth": 27,
@@ -18,13 +18,13 @@
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 18843,
+    "diagnostics_total": 18844,
     "errors": 0,
-    "warnings": 18843,
+    "warnings": 18844,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 25,
-    "sources_exported": 25,
-    "declared_but_unused": 26,
+    "sources_used_in_records": 26,
+    "sources_exported": 26,
+    "declared_but_unused": 25,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -32,7 +32,7 @@
     "atom": 1815,
     "chronology": 343,
     "concept": 205,
-    "metadata": 64,
+    "metadata": 66,
     "motif": 280,
     "myth": 27,
     "person": 157,
@@ -40,9 +40,9 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 41,
-    "source": 59,
+    "source": 60,
     "template": 336,
-    "unknown": 285
+    "unknown": 286
   },
   "records_by_source": {
     "S02": {
@@ -136,6 +136,11 @@
       "motif": 7,
       "myth": 4
     },
+    "S26": {
+      "source": 1,
+      "metadata": 2,
+      "unknown": 1
+    },
     "S41": {
       "atom": 430,
       "quote": 9,
@@ -217,19 +222,19 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 251,
+    "Chapitre 1": 253,
     "Chapitre 10": 253,
     "Chapitre 11": 221,
     "Chapitre 12": 471,
     "Chapitre 13": 111,
-    "Chapitre 14": 1056,
+    "Chapitre 14": 1058,
     "Chapitre 2": 384,
-    "Chapitre 3": 431,
+    "Chapitre 3": 433,
     "Chapitre 4": 312,
     "Chapitre 5": 443,
     "Chapitre 6": 571,
-    "Chapitre 7": 123,
-    "Chapitre 8": 346,
+    "Chapitre 7": 125,
+    "Chapitre 8": 348,
     "Chapitre 9": 283,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -362,7 +367,7 @@
     "invalid_controlled_value": 1592,
     "missing_required_field": 5055,
     "schema_warning": 400,
-    "unknown_yaml_block": 285,
+    "unknown_yaml_block": 286,
     "v2_migration_debt": 11362
   },
   "top_files_by_issue_count": [
@@ -2380,6 +2385,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s26_post_punk_then_now_source_canonique.md",
+      "record_id": "REG-S26-POST-PUNK-THEN-NOW-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s10_sumner_relations_rag_late_jd_transition_memory_v2.md",
       "record_id": "REL-RAG-S10-LATE-JD-TRANSITION-MEMORY-V2",
       "message": "Unable to infer documentary kind",
@@ -2949,21 +2962,6 @@
         ]
       },
       {
-        "source_id": "S26",
-        "source_label": "S26 — Butt, Post-Punk Then and Now, 2016",
-        "auteur": "Gavin Butt ; Mark Fisher ; Kodwo Eshun (dir.)",
-        "titre": "Post-Punk Then and Now",
-        "annee": "2016",
-        "statut": "verifie",
-        "usage": [
-          "écoles d’art",
-          "réseaux",
-          "post-punk",
-          "avant-garde",
-          "enseignement artistique"
-        ]
-      },
-      {
         "source_id": "S27",
         "source_label": "S27 — Crossley, Networks of Sound, Style and Subversion, 2015",
         "auteur": "Nick Crossley",
@@ -3439,6 +3437,21 @@
           "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
           "sources/wilkinson_city_fun_politics/source.md",
           "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md"
+        ]
+      },
+      {
+        "source_id": "S26",
+        "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+        "auteur": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.)",
+        "titre": "Post-Punk Then and Now",
+        "annee": "2016",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s26_post_punk_then_now_source_canonique.md",
+          "sources/butt_eshun_fisher_post_punk_then_now/source.md"
         ]
       },
       {
@@ -152386,6 +152399,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/references/s02_sueur_source_canonique.md",
       "record_id": "REG-S02-SUEUR-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s26_post_punk_then_now_source_canonique.md",
+      "record_id": "REG-S26-POST-PUNK-THEN-NOW-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

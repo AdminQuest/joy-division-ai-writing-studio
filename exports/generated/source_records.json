@@ -180,6 +180,49 @@
   },
   {
     "kind": "source",
+    "id": "S26",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source.md",
+    "heading": "S26 — Butt, Eshun & Fisher (dir.), *Post-Punk Then and Now*, 2016",
+    "data": {
+      "id": "S26",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_short_title": "Butt, Eshun & Fisher, Post-Punk Then and Now, 2016",
+      "source_year": "2016",
+      "auteurs_direction": [
+        "Gavin Butt",
+        "Kodwo Eshun",
+        "Mark Fisher"
+      ],
+      "titre": "Post-Punk Then and Now",
+      "annee": "2016",
+      "editeur": "Repeater Books",
+      "lieu_edition": "London",
+      "nature": "ouvrage collectif / études culturelles / actes de conférences et conversations",
+      "statut": "verifie ; source canonique fixée",
+      "fiabilite": "forte comme source critique ; à distinguer selon les chapitres et locuteurs",
+      "fichier_source_original": "Gavin Butt - Post-Punk Then and Now.pdf",
+      "fichier_source_recommande": "S26_butt_eshun_fisher_post_punk_then_now_2016.pdf",
+      "dossier_source": "sources/butt_eshun_fisher_post_punk_then_now/",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 2",
+        "Chapitre 9",
+        "Chapitre 11"
+      ],
+      "niveau_preuve": "source secondaire critique / source orale éditorialisée",
+      "citation_directe": false,
+      "auteur": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.)"
+    }
+  },
+  {
+    "kind": "source",
     "id": "S15",
     "file": "sources/deluca_manchester_punk_threshold/source.md",
     "heading": "S15 — De Luca, The Sound and the Fury, 2021",
@@ -1251,7 +1294,7 @@
         "registre historique"
       ],
       "arbitrage": "Référence à localiser et compléter.",
-      "source_short_title": "Gavin Butt ; Mark Fisher ; Kodwo Eshun (dir.), Post-Punk Then and Now, 2016",
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
       "source_year": "2016"
     }
   },

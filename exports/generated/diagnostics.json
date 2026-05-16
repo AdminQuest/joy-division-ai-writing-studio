@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T19:34:44",
+  "generated_at": "2026-05-16T19:48:32",
   "status": "warning",
   "summary": {
-    "records_total": 3972,
+    "records_total": 3976,
     "records_by_kind": {
       "atom": 1815,
-      "metadata": 64,
+      "metadata": 66,
       "quote": 358,
       "chronology": 343,
-      "source": 59,
-      "unknown": 285,
+      "source": 60,
+      "unknown": 286,
       "concept": 205,
       "motif": 280,
       "myth": 27,
@@ -19,13 +19,13 @@
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 18843,
+    "diagnostics_total": 18844,
     "errors": 0,
-    "warnings": 18843,
+    "warnings": 18844,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 25,
-    "sources_exported": 25,
-    "declared_but_unused": 26,
+    "sources_used_in_records": 26,
+    "sources_exported": 26,
+    "declared_but_unused": 25,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -199,21 +199,6 @@
           "écosystème culturel",
           "contrats informels",
           "Factory"
-        ]
-      },
-      {
-        "source_id": "S26",
-        "source_label": "S26 — Butt, Post-Punk Then and Now, 2016",
-        "auteur": "Gavin Butt ; Mark Fisher ; Kodwo Eshun (dir.)",
-        "titre": "Post-Punk Then and Now",
-        "annee": "2016",
-        "statut": "verifie",
-        "usage": [
-          "écoles d’art",
-          "réseaux",
-          "post-punk",
-          "avant-garde",
-          "enseignement artistique"
         ]
       },
       {
@@ -692,6 +677,21 @@
           "sources/wilkinson_city_fun_politics/relations_stabilisees.md",
           "sources/wilkinson_city_fun_politics/source.md",
           "sources/wilkinson_city_fun_politics/source_part_city_fun_politics_post_punk_v2.md"
+        ]
+      },
+      {
+        "source_id": "S26",
+        "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+        "auteur": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.)",
+        "titre": "Post-Punk Then and Now",
+        "annee": "2016",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s26_post_punk_then_now_source_canonique.md",
+          "sources/butt_eshun_fisher_post_punk_then_now/source.md"
         ]
       },
       {
@@ -112501,6 +112501,12 @@
       "file": "registers/references/s02_sueur_source_canonique.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REG-S02-SUEUR-SOURCE-CANONIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s26_post_punk_then_now_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S26-POST-PUNK-THEN-NOW-SOURCE-CANONIQUE"
     },
     {
       "level": "warning",
