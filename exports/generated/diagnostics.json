@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T07:27:28",
+  "generated_at": "2026-05-16T07:34:11",
   "status": "warning",
   "summary": {
-    "records_total": 3524,
+    "records_total": 3528,
     "records_by_kind": {
       "atom": 1681,
-      "metadata": 27,
+      "metadata": 30,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 151,
+      "unknown": 152,
       "template": 289,
       "song": 41,
       "quote_batch": 1,
@@ -19,13 +19,13 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 17143,
+    "diagnostics_total": 17144,
     "errors": 0,
-    "warnings": 17143,
+    "warnings": 17144,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 15,
-    "sources_exported": 15,
-    "declared_but_unused": 36,
+    "sources_used_in_records": 16,
+    "sources_exported": 16,
+    "declared_but_unused": 35,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -70,21 +70,6 @@
           "désindustrialisation",
           "emplois manufacturiers",
           "Manchester"
-        ]
-      },
-      {
-        "source_id": "S06",
-        "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021",
-        "auteur": "Isabelle Carter",
-        "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
-        "annee": "2021",
-        "statut": "a_consolider",
-        "usage": [
-          "Hulme",
-          "Hulme Crescents",
-          "logement social",
-          "échec moderniste",
-          "expérience vécue"
         ]
       },
       {
@@ -596,6 +581,21 @@
           "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
           "sources/jeffery_tufail_jackson_policing/source.md",
           "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md"
+        ]
+      },
+      {
+        "source_id": "S06",
+        "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+        "auteur": "Isabelle Carter",
+        "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+        "annee": "2021/2023",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s06_carter_hulme_source_canonique.md",
+          "sources/carter_hulme_youth_race_inner_city/source.md"
         ]
       },
       {
@@ -102349,6 +102349,12 @@
       "file": "registers/quotes/s45_curtis_quotes_1977_1978_an_ideal_rca.md",
       "message": "Missing required field: statut_verification",
       "record_id": "S45-Q027"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s06_carter_hulme_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S06-CARTER-HULME-SOURCE-CANONIQUE"
     },
     {
       "level": "warning",
