@@ -10032,6 +10032,510 @@
   },
   {
     "kind": "atom",
+    "id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05 — Passe v2 — maintien de l’ordre, police et ordre social local dans le Greater Manchester",
+    "data": {
+      "id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "type_unite": "source_part",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "passage_atomise": "Article complet utile au livre : cadre théorique sur ordre social local, section historique Greater Manchester Police 1974-2014, conclusion ; bibliographie exclue de l’atomisation principale.",
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 9"
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015",
+      "source_year": "2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A001",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A001 — Police et fabrication de l’ordre social local",
+    "data": {
+      "id": "S05-A001",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "1-7, 20-23",
+      "type_unite": "concept_structurant",
+      "concepts": [
+        "ordre social local",
+        "police",
+        "maintien de l’ordre",
+        "fabrication de l’ordre social"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire universitaire",
+      "methodological_warnings": [
+        "Ne pas transformer le cadre théorique en causalité simple.",
+        "Distinguer l’analyse générale de la police et les cas localisés du Greater Manchester."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A002",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A002 — Greater Manchester Police : création en 1974 et crise urbaine des années 1970",
+    "data": {
+      "id": "S05-A002",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "7-8",
+      "type_unite": "contexte_institutionnel",
+      "concepts": [
+        "Greater Manchester Police",
+        "recomposition institutionnelle",
+        "crise urbaine",
+        "années 1970"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organizations": [
+        "Greater Manchester Police"
+      ],
+      "methodological_warnings": [
+        "Ne pas confondre Greater Manchester Police, créée en 1974, avec les forces municipales antérieures."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A003",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A003 — James Anderton, conservatisme moral et police accountability",
+    "data": {
+      "id": "S05-A003",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "8-13",
+      "type_unite": "acteur_institutionnel",
+      "concepts": [
+        "James Anderton",
+        "conservatisme moral",
+        "accountability",
+        "policing politique"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "James Anderton"
+      ],
+      "methodological_warnings": [
+        "Ne pas réduire Anderton au surnom médiatique « God’s Cop ».",
+        "Le traiter comme acteur institutionnel structurant de la police mancunienne."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A004",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A004 — Tactical Aid Group : force mobile, centralisée et paramilitaire",
+    "data": {
+      "id": "S05-A004",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "8-9",
+      "type_unite": "institution_policiere",
+      "concepts": [
+        "Tactical Aid Group",
+        "maintien de l’ordre public",
+        "paramilitarisation",
+        "police centralisée"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organizations": [
+        "Tactical Aid Group",
+        "Greater Manchester Police"
+      ],
+      "methodological_warnings": [
+        {
+          "Ne pas confondre TAG et TAU": "TAG désigne l’unité initiale, TAU sa forme rebrandée ultérieure."
+        }
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A005",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A005 — National Front, antifascisme et maintien de l’ordre à Hyde et Bolton, 1977-1978",
+    "data": {
+      "id": "S05-A005",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "8-10",
+      "type_unite": "evenement_politique",
+      "concepts": [
+        "National Front",
+        "antifascisme",
+        "Hyde 1977",
+        "Bolton 1978",
+        "ordre public"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organizations": [
+        "National Front",
+        "Anti-Nazi League",
+        "Greater Manchester Police"
+      ],
+      "methodological_warnings": [
+        "Identifier précisément le statut secondaire des sources citées par l’article, notamment Renton et McLaughlin."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A006",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A006 — Racisme policier et Moss Side 1981",
+    "data": {
+      "id": "S05-A006",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "10",
+      "type_unite": "evenement_politique",
+      "concepts": [
+        "Moss Side 1981",
+        "racisme policier",
+        "riots",
+        "police-community relations"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_places": [
+        "Moss Side"
+      ],
+      "related_organizations": [
+        "Greater Manchester Police"
+      ],
+      "methodological_warnings": [
+        {
+          "Croiser si usage factuel précis": "Hytner Inquiry, McLaughlin, Moss Side Defence Committee."
+        }
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A007",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A007 — Battle of Brittan 1985 et police vigilantism",
+    "data": {
+      "id": "S05-A007",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "11-12",
+      "type_unite": "evenement_politique",
+      "concepts": [
+        "Battle of Brittan",
+        "police vigilantism",
+        "étudiants",
+        "Tactical Aid Group"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_places": [
+        "University of Manchester"
+      ],
+      "related_people": [
+        "Leon Brittan"
+      ],
+      "methodological_warnings": [
+        "Éviter de citer directement les témoignages rapportés sans vérifier la source secondaire d’origine."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A008",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A008 — New Left municipal, police committee et conflits d’accountability",
+    "data": {
+      "id": "S05-A008",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "10-13",
+      "type_unite": "contexte_politique",
+      "concepts": [
+        "New Left municipal",
+        "police accountability",
+        "Manchester Town Hall",
+        "New Right"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organizations": [
+        "Manchester Town Hall",
+        "Greater Manchester Police"
+      ],
+      "methodological_warnings": [
+        "Distinguer Manchester municipal, Greater Manchester et l’État national conservateur."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A009",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A009 — Ordsall 1992 : désindustrialisation, inner city et anti-police riot",
+    "data": {
+      "id": "S05-A009",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "14-15, 21",
+      "type_unite": "evenement_politique",
+      "concepts": [
+        "Ordsall 1992",
+        "désindustrialisation",
+        "anti-police riot",
+        "inner city",
+        "régénération"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_places": [
+        "Ordsall",
+        "Salford"
+      ],
+      "methodological_warnings": [
+        "Croiser avec sources locales si usage détaillé sur Ordsall."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A010",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A010 — Oldham 2001 : racialisation, far right et récit de community cohesion",
+    "data": {
+      "id": "S05-A010",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "16-17",
+      "type_unite": "evenement_politique",
+      "concepts": [
+        "Oldham 2001",
+        "racialisation",
+        "far right",
+        "community cohesion",
+        "moral panic"
+      ],
+      "chapitres": [
+        "Chapitre 1"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_places": [
+        "Oldham"
+      ],
+      "methodological_warnings": [
+        "Ne pas reprendre sans distance le langage de « community cohesion » ; l’article le traite comme dépolitisation."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A011",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A011 — Régénération, sécuritisation et policing de la ville attractive",
+    "data": {
+      "id": "S05-A011",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "13-18",
+      "type_unite": "concept_structurant",
+      "concepts": [
+        "régénération sécurisée",
+        "sécuritisation urbaine",
+        "ville attractive",
+        "city-region",
+        "policing privé"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas confondre régénération urbaine et pacification sociale."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A012",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A012 — Barton Moss : police, anti-fracking et défense de l’ordre local",
+    "data": {
+      "id": "S05-A012",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "20-22",
+      "type_unite": "evenement_politique",
+      "concepts": [
+        "Barton Moss",
+        "anti-fracking",
+        "police power",
+        "ordre local",
+        "protest policing"
+      ],
+      "chapitres": [
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_places": [
+        "Barton Moss"
+      ],
+      "related_organizations": [
+        "Greater Manchester Police"
+      ],
+      "methodological_warnings": [
+        "Usage secondaire seulement ; utile pour la continuité longue du policing, moins pour Joy Division."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S05-A013",
+    "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+    "heading": "S05-A013 — Police, ordre local et Manchester post-industriel",
+    "data": {
+      "id": "S05-A013",
+      "source_id": "S05",
+      "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+      "source_year": "2015",
+      "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+      "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+      "pages_pdf": "20-23",
+      "type_unite": "conclusion_historiographique",
+      "concepts": [
+        "Manchester post-industriel",
+        "ordre local",
+        "repressive neoliberalisation",
+        "police-community relations"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas faire de la police le facteur unique du climat social mancunien ; l’articuler à la désindustrialisation, aux politiques urbaines et aux conflits raciaux."
+      ],
+      "source_short_title": "Bob Jeffery ; Waqas Tufail ; Will Jackson, Policing and the Reproduction of Local Social Order: a case study of Greater Manchester, 2015"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S68-A001",
     "file": "sources/marco_broll/source.md",
     "heading": "S-BROLL-A001 — Première apparition sous le nom Stiff Kittens",

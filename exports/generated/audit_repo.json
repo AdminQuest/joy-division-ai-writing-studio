@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T07:06:24",
+  "generated_at": "2026-05-16T07:15:24",
   "summary": {
-    "records_total": 3493,
+    "records_total": 3524,
     "records_by_kind": {
-      "atom": 1667,
+      "atom": 1681,
       "metadata": 27,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 143,
-      "template": 280,
+      "unknown": 151,
+      "template": 289,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
@@ -18,9 +18,9 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16993,
+    "diagnostics_total": 17143,
     "errors": 0,
-    "warnings": 16993,
+    "warnings": 17143,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 15,
     "sources_exported": 15,
@@ -29,7 +29,7 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1667,
+    "atom": 1681,
     "chronology": 335,
     "concept": 170,
     "metadata": 27,
@@ -41,8 +41,8 @@
     "rules": 1,
     "song": 41,
     "source": 54,
-    "template": 280,
-    "unknown": 143
+    "template": 289,
+    "unknown": 151
   },
   "records_by_source": {
     "S02": {
@@ -52,7 +52,8 @@
     },
     "S05": {
       "metadata": 3,
-      "unknown": 1
+      "atom": 14,
+      "unknown": 9
     },
     "S20": {
       "atom": 15,
@@ -140,12 +141,12 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 147,
+    "Chapitre 1": 161,
     "Chapitre 10": 233,
     "Chapitre 11": 213,
     "Chapitre 12": 463,
     "Chapitre 13": 109,
-    "Chapitre 14": 981,
+    "Chapitre 14": 982,
     "Chapitre 2": 345,
     "Chapitre 3": 382,
     "Chapitre 4": 294,
@@ -153,7 +154,7 @@
     "Chapitre 6": 563,
     "Chapitre 7": 101,
     "Chapitre 8": 311,
-    "Chapitre 9": 232,
+    "Chapitre 9": 238,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -281,12 +282,12 @@
     ]
   ],
   "issue_categories": {
-    "field_type_error": 146,
-    "invalid_controlled_value": 1392,
-    "missing_required_field": 4810,
+    "field_type_error": 147,
+    "invalid_controlled_value": 1407,
+    "missing_required_field": 4811,
     "schema_warning": 399,
-    "unknown_yaml_block": 143,
-    "v2_migration_debt": 10103
+    "unknown_yaml_block": 151,
+    "v2_migration_debt": 10228
   },
   "top_files_by_issue_count": [
     [
@@ -412,6 +413,14 @@
   ],
   "blocking_errors": [],
   "unknown_yaml_blocks": [
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md",
+      "record_id": "ORGS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
@@ -1407,6 +1416,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
+      "record_id": "REL-RAG-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s02_sueur_source_canonique.md",
       "record_id": "REG-S02-SUEUR-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
@@ -1431,6 +1448,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+      "record_id": "PLACES-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
       "record_id": "PLACES-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
@@ -1449,6 +1474,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
       "record_id": "MOTIFS-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/motifs/s05_jeffery_tufail_jackson_motifs_public_order_v2.md",
+      "record_id": "MOTIFS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1487,6 +1520,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/people/s05_jeffery_tufail_jackson_people_public_order_v2.md",
+      "record_id": "PEOPLE-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/concepts/s69_greig_strong_concepts_nostalgie_memoire_v2.md",
       "record_id": "CONCEPTS-S69-NOSTALGIE-MEMOIRE-V2",
       "message": "Unable to infer documentary kind",
@@ -1511,6 +1552,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/concepts/s05_jeffery_tufail_jackson_concepts_public_order_v2.md",
+      "record_id": "CONCEPTS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/myths/s20_dodge_myths_housing_geographies_v2.md",
       "record_id": "MYTHS-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
@@ -1521,6 +1570,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
       "record_id": "MYTHES-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s05_jeffery_tufail_jackson_myths_public_order_v2.md",
+      "record_id": "MYTHS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1551,6 +1608,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/chronology/s05_jeffery_tufail_jackson_chronology_public_order_v2.md",
+      "record_id": "CHRONO-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md",
       "record_id": "CHRONO-S02-MANCHESTER-SHRINKING-CITY-V2",
       "message": "Unable to infer documentary kind",
@@ -1558,10 +1623,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1667,
+    "atoms_total": 1681,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1606,
-    "v2_missing_field_warnings": 10103
+    "atoms_v2_incomplete": 1620,
+    "v2_missing_field_warnings": 10228
   },
   "source_registry": {
     "declared_but_unused": [
@@ -2114,13 +2179,22 @@
         "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
         "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
         "annee": "2015",
-        "records": 4,
-        "atoms": 0,
+        "records": 26,
+        "atoms": 14,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/chronology/s05_jeffery_tufail_jackson_chronology_public_order_v2.md",
+          "registers/concepts/s05_jeffery_tufail_jackson_concepts_public_order_v2.md",
+          "registers/motifs/s05_jeffery_tufail_jackson_motifs_public_order_v2.md",
+          "registers/myths/s05_jeffery_tufail_jackson_myths_public_order_v2.md",
+          "registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md",
+          "registers/people/s05_jeffery_tufail_jackson_people_public_order_v2.md",
+          "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+          "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
           "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
-          "sources/jeffery_tufail_jackson_policing/source.md"
+          "sources/jeffery_tufail_jackson_policing/source.md",
+          "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md"
         ]
       },
       {
@@ -13326,6 +13400,1142 @@
       "record_id": "S45-A153",
       "message": "Missing nested field: stabilite.risque_revision",
       "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Invalid value for statut: integration_directe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A001",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A001",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A001",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A002",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A002",
+      "message": "Invalid value for type_unite: contexte_institutionnel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A003",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A003",
+      "message": "Invalid value for type_unite: acteur_institutionnel",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A004",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A004",
+      "message": "Invalid value for type_unite: institution_policiere",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A005",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A005",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A006",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A006",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A007",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A007",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A008",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A008",
+      "message": "Invalid value for type_unite: contexte_politique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A009",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A009",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A010",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A010",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A011",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A011",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A011",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A011",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A011",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A011",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A012",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A012",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A012",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A012",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A012",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A012",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A013",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A013",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A013",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A013",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A013",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "record_id": "S05-A013",
+      "message": "Invalid value for type_unite: conclusion_historiographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
@@ -115930,6 +117140,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md",
+      "record_id": "ORGS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/organizations/s20_dodge_organizations_housing_geographies_v2.md",
       "record_id": "ORGS-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
@@ -136538,6 +137756,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
+      "record_id": "REL-RAG-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s02_sueur_source_canonique.md",
       "record_id": "REG-S02-SUEUR-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
@@ -136562,6 +137788,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+      "record_id": "PLACES-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
       "record_id": "PLACES-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
@@ -136580,6 +137814,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
       "record_id": "MOTIFS-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/motifs/s05_jeffery_tufail_jackson_motifs_public_order_v2.md",
+      "record_id": "MOTIFS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -137121,6 +138363,14 @@
     },
     {
       "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/people/s05_jeffery_tufail_jackson_people_public_order_v2.md",
+      "record_id": "PEOPLE-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
       "category": "missing_required_field",
       "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
       "record_id": "PERS-S45-SUE-BARLOW-GIRLIES",
@@ -137338,6 +138588,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/concepts/s05_jeffery_tufail_jackson_concepts_public_order_v2.md",
+      "record_id": "CONCEPTS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/myths/s20_dodge_myths_housing_geographies_v2.md",
       "record_id": "MYTHS-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
@@ -137348,6 +138606,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
       "record_id": "MYTHES-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s05_jeffery_tufail_jackson_myths_public_order_v2.md",
+      "record_id": "MYTHS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -137598,6 +138864,14 @@
       "record_id": "CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT",
       "message": "Missing required field: certainty",
       "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/chronology/s05_jeffery_tufail_jackson_chronology_public_order_v2.md",
+      "record_id": "CHRONO-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T06:54:22"
+generated_at: "2026-05-16T07:15:26"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ generated_at: "2026-05-16T06:54:22"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 84 |
+| Atomes | 97 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 7 | 0 |
+| S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 13 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
@@ -102,6 +103,32 @@ generated_at: "2026-05-16T06:54:22"
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `culture_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S02-PART-MANCHESTER-SHRINKING-CITY-V2** — S02 — Passe v2 — Manchester, shrinking city et renouveau urbain  
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A001** — S05-A001 — Police et fabrication de l’ordre social local  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A002** — S05-A002 — Greater Manchester Police : création en 1974 et crise urbaine des années 1970  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `contexte_institutionnel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A003** — S05-A003 — James Anderton, conservatisme moral et police accountability  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `acteur_institutionnel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A004** — S05-A004 — Tactical Aid Group : force mobile, centralisée et paramilitaire  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `institution_policiere` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A005** — S05-A005 — National Front, antifascisme et maintien de l’ordre à Hyde et Bolton, 1977-1978  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A006** — S05-A006 — Racisme policier et Moss Side 1981  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A007** — S05-A007 — Battle of Brittan 1985 et police vigilantism  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A008** — S05-A008 — New Left municipal, police committee et conflits d’accountability  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `contexte_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A009** — S05-A009 — Ordsall 1992 : désindustrialisation, inner city et anti-police riot  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A010** — S05-A010 — Oldham 2001 : racialisation, far right et récit de community cohesion  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A011** — S05-A011 — Régénération, sécuritisation et policing de la ville attractive  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A013** — S05-A013 — Police, ordre local et Manchester post-industriel  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2** — S05 — Passe v2 — maintien de l’ordre, police et ordre social local dans le Greater Manchester  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A001** — S20-A001 — Manchester industriel et logement ouvrier : absence de plan et logique du profit  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
@@ -252,15 +279,18 @@ generated_at: "2026-05-16T06:54:22"
 - Manchester (6)
 - géographie émotionnelle (5)
 - Salford (5)
+- désindustrialisation (4)
 - diy (4)
 - Ian Curtis (4)
 - Ian Wood (3)
 - NME (3)
 - Macclesfield (3)
 - classe ouvriere (3)
-- désindustrialisation (3)
 - Hulme (3)
 - biographie contre mythe social (2)
+- Tactical Aid Group (2)
+- police-community relations (2)
+- Manchester post-industriel (2)
 - post-punk (2)
 - factory records (2)
 - new hormones (2)
@@ -303,31 +333,28 @@ generated_at: "2026-05-16T06:54:22"
 - seuil de preuve politique (1)
 - distinction anecdote / position idéologique (1)
 - formulation contrôlée (1)
-- âge d’or (1)
-- présentisme (1)
-- contre-culture (1)
-- histoire critique (1)
-- révolution inachevée (1)
-- rupture avec le rock (1)
-- radical content radical form (1)
-- electronics (1)
-- dub (1)
-- modernisme (1)
-- art schools (1)
-- peter saville (1)
-- constructivisme (1)
-- bauhaus (1)
-- labels indépendants (1)
-- rough trade (1)
-- infrastructure (1)
-- spiral scratch (1)
-- manchester contre londres (1)
-- rabid records (1)
-- centralisation londonienne (1)
-- j g ballard (1)
-- paysages de ruine (1)
-- ballardian manchester (1)
-- local universel (1)
+- ordre social local (1)
+- police (1)
+- maintien de l’ordre (1)
+- fabrication de l’ordre social (1)
+- Greater Manchester Police (1)
+- recomposition institutionnelle (1)
+- crise urbaine (1)
+- années 1970 (1)
+- James Anderton (1)
+- conservatisme moral (1)
+- accountability (1)
+- policing politique (1)
+- maintien de l’ordre public (1)
+- paramilitarisation (1)
+- police centralisée (1)
+- National Front (1)
+- antifascisme (1)
+- Hyde 1977 (1)
+- Bolton 1978 (1)
+- ordre public (1)
+- Moss Side 1981 (1)
+- racisme policier (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -443,25 +470,31 @@ generated_at: "2026-05-16T06:54:22"
 | Type | Nombre |
 |---|---|
 | sociologie | 6 |
+| concept_structurant | 5 |
+| evenement_politique | 5 |
 | analyse | 5 |
 | contexte | 4 |
 | biographie | 4 |
 | contexte_social | 4 |
+| source_part | 3 |
 | methode | 3 |
 | contrepoint | 3 |
 | lecture | 3 |
 | lieu_scene | 3 |
-| concept_structurant | 3 |
 | politique_urbaine | 3 |
 | concept | 3 |
 | tension_documentaire | 2 |
 | prudence_methodologique | 2 |
 | chronologie | 2 |
-| source_part | 2 |
 | lieu | 2 |
 | urbanisme | 2 |
 | mediation_visuelle | 1 |
 | contexte_scene | 1 |
+| contexte_institutionnel | 1 |
+| acteur_institutionnel | 1 |
+| institution_policiere | 1 |
+| contexte_politique | 1 |
+| conclusion_historiographique | 1 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
 | citation_contextualisee | 1 |
@@ -493,7 +526,7 @@ generated_at: "2026-05-16T06:54:22"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 64 |
+| non qualifiée | 77 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

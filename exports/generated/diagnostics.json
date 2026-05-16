@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-16T07:06:14",
+  "generated_at": "2026-05-16T07:15:14",
   "status": "warning",
   "summary": {
-    "records_total": 3493,
+    "records_total": 3524,
     "records_by_kind": {
-      "atom": 1667,
+      "atom": 1681,
       "metadata": 27,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 143,
-      "template": 280,
+      "unknown": 151,
+      "template": 289,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
@@ -19,9 +19,9 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16993,
+    "diagnostics_total": 17143,
     "errors": 0,
-    "warnings": 16993,
+    "warnings": 17143,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 15,
     "sources_exported": 15,
@@ -580,13 +580,22 @@
         "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
         "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
         "annee": "2015",
-        "records": 4,
-        "atoms": 0,
+        "records": 26,
+        "atoms": 14,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/chronology/s05_jeffery_tufail_jackson_chronology_public_order_v2.md",
+          "registers/concepts/s05_jeffery_tufail_jackson_concepts_public_order_v2.md",
+          "registers/motifs/s05_jeffery_tufail_jackson_motifs_public_order_v2.md",
+          "registers/myths/s05_jeffery_tufail_jackson_myths_public_order_v2.md",
+          "registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md",
+          "registers/people/s05_jeffery_tufail_jackson_people_public_order_v2.md",
+          "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+          "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
           "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
-          "sources/jeffery_tufail_jackson_policing/source.md"
+          "sources/jeffery_tufail_jackson_policing/source.md",
+          "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md"
         ]
       },
       {
@@ -9094,6 +9103,858 @@
       "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
       "message": "Missing nested field: stabilite.risque_revision",
       "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for statut: integration_directe",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S05-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "record_id": "S05-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: contexte_institutionnel",
+      "record_id": "S05-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: acteur_institutionnel",
+      "record_id": "S05-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: institution_policiere",
+      "record_id": "S05-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "record_id": "S05-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "record_id": "S05-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "record_id": "S05-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: contexte_politique",
+      "record_id": "S05-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "record_id": "S05-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "record_id": "S05-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S05-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: evenement_politique",
+      "record_id": "S05-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S05-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S05-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S05-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S05-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S05-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S05-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S05-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S05-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S05-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/jeffery_tufail_jackson_policing/source_part_public_order_greater_manchester_v2.md",
+      "message": "Invalid value for type_unite: conclusion_historiographique",
+      "record_id": "S05-A013"
     },
     {
       "level": "warning",
@@ -86047,6 +86908,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORGS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/organizations/s20_dodge_organizations_housing_geographies_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "ORGS-S20-HOUSING-GEOGRAPHIES-V2"
@@ -101503,6 +102370,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/references/s05_jeffery_tufail_jackson_relations_rag_public_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-RAG-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/references/s02_sueur_source_canonique.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REG-S02-SUEUR-SOURCE-CANONIQUE"
@@ -101521,6 +102394,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/places/s05_jeffery_tufail_jackson_places_public_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PLACES-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "PLACES-S20-HOUSING-GEOGRAPHIES-V2"
@@ -101536,6 +102415,12 @@
       "file": "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MOTIFS-S20-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/motifs/s05_jeffery_tufail_jackson_motifs_public_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MOTIFS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
     },
     {
       "level": "warning",
@@ -101941,6 +102826,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/people/s05_jeffery_tufail_jackson_people_public_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PEOPLE-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/people/s45_curtis_people_1978_1979_factory_epilepsy_lyrics_natalie.md",
       "message": "Missing required field: name",
       "record_id": "PERS-S45-SUE-BARLOW-GIRLIES"
@@ -102103,6 +102994,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/concepts/s05_jeffery_tufail_jackson_concepts_public_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CONCEPTS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/myths/s20_dodge_myths_housing_geographies_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MYTHS-S20-HOUSING-GEOGRAPHIES-V2"
@@ -102112,6 +103009,12 @@
       "file": "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MYTHES-S02-MANCHESTER-SHRINKING-CITY-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/myths/s05_jeffery_tufail_jackson_myths_public_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MYTHS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
     },
     {
       "level": "warning",
@@ -102298,6 +103201,12 @@
       "file": "registers/chronology/s45_curtis_chronology_1976_1977.md",
       "message": "Missing required field: certainty",
       "record_id": "CHR-S45-1977-STEPHEN-MORRIS-RECRUTEMENT"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s05_jeffery_tufail_jackson_chronology_public_order_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRONO-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
     },
     {
       "level": "warning",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T06:54:22"
+generated_at: "2026-05-16T07:15:26"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 770 |
+| Atomes | 771 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 14 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 6 | 0 |
+| S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 1 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
@@ -136,6 +137,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `limite_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S02-PART-MANCHESTER-SHRINKING-CITY-V2** — S02 — Passe v2 — Manchester, shrinking city et renouveau urbain  
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A011** — S05-A011 — Régénération, sécuritisation et policing de la ville attractive  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -282,8 +285,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_factory` ; importance : `majeur` ; preuve : `anecdote Hook rétrospective`.
 - **S41-A180** — S41-A180 — Pauvreté maintenue : *Unknown Pleasures* reconnu, mais pas de star-system  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_groupe` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A184** — S41-A184 — Ian / Annik / Genesis : qui connaît le « vrai Ian » ?  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_identitaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + interprétation`.
 
 ## 7. Citations disponibles
 
@@ -670,6 +671,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | citation_repere | 5 |
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
+| concept_structurant | 4 |
 | management | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
@@ -704,7 +706,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | decision_strategique | 3 |
 | session_studio | 3 |
 | interpretation | 3 |
-| concept_structurant | 3 |
 | song_session | 3 |
 | song | 3 |
 | reception_transnationale | 2 |
@@ -1029,7 +1030,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 484 |
+| non qualifiée | 485 |
 | critique | 218 |
 | majeure | 39 |
 | majeur | 25 |

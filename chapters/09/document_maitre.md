@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T06:54:22"
+generated_at: "2026-05-16T07:15:26"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ generated_at: "2026-05-16T06:54:22"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 193 |
+| Atomes | 199 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 10 | 0 |
+| S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 6 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
@@ -74,6 +75,18 @@ generated_at: "2026-05-16T06:54:22"
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `limite_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S02-PART-MANCHESTER-SHRINKING-CITY-V2** — S02 — Passe v2 — Manchester, shrinking city et renouveau urbain  
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A004** — S05-A004 — Tactical Aid Group : force mobile, centralisée et paramilitaire  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `institution_policiere` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A006** — S05-A006 — Racisme policier et Moss Side 1981  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A009** — S05-A009 — Ordsall 1992 : désindustrialisation, inner city et anti-police riot  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A011** — S05-A011 — Régénération, sécuritisation et policing de la ville attractive  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A012** — S05-A012 — Barton Moss : police, anti-fracking et défense de l’ordre local  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S05-A013** — S05-A013 — Police, ordre local et Manchester post-industriel  
+  Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `lieu_memoire_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A004** — S20-A004 — Cartographier les problèmes de logement : Bastow, Marr et la géographie sanitaire  
@@ -202,18 +215,6 @@ generated_at: "2026-05-16T06:54:22"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `dynamique_collective` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-017** — S45-017 — Deborah vit l’entourage Factory comme un espace masculin fermé  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S45-025** — S45-025 — Le public ne comprend pas les crises de Ian Curtis  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception_scene` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-035** — S45-035 — Derby Hall devient un moment de rupture visible  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-036** — S45-036 — Ian Curtis hésite face à la tournée américaine  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-009** — S46-009 — Premier concert sous le nom Joy Division  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-010** — S46-010 — Le Stiff/Chiswick Challenge comme bascule Gretton-Wilson  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-012** — S46-012 — Rob Gretton devient manager  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `acteur` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -294,6 +295,10 @@ generated_at: "2026-05-16T06:54:22"
 - live (3)
 - son live (3)
 - epilepsie (3)
+- police-community relations (2)
+- désindustrialisation (2)
+- ordre local (2)
+- Manchester post-industriel (2)
 - futurama (2)
 - warner bros (2)
 - wea (2)
@@ -316,10 +321,6 @@ generated_at: "2026-05-16T06:54:22"
 - autonomie (2)
 - fanzines (2)
 - Granada Reports (2)
-- Peel Session (2)
-- Pips (2)
-- 25 janvier 1978 (2)
-- première apparition (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -353,18 +354,20 @@ generated_at: "2026-05-16T06:54:22"
 | relation | 5 |
 | production | 5 |
 | contexte_scene | 5 |
+| concept_structurant | 4 |
 | analyse | 4 |
 | management | 4 |
 | reception_live | 4 |
 | politique_urbaine | 4 |
 | anecdote_significative | 4 |
+| evenement_politique | 3 |
 | acteur | 3 |
 | concert_incident | 3 |
 | lieu | 3 |
 | industrie_musicale | 3 |
 | evenement_live | 3 |
-| concept_structurant | 3 |
 | fait_sensible | 3 |
+| conclusion_historiographique | 2 |
 | methode | 2 |
 | infrastructure | 2 |
 | chronologie_tournee | 2 |
@@ -378,6 +381,7 @@ generated_at: "2026-05-16T06:54:22"
 | chronologie_live | 2 |
 | concept_transversal | 2 |
 | memoire | 2 |
+| institution_policiere | 1 |
 | contrepoint | 1 |
 | archive_broadcast | 1 |
 | television | 1 |
@@ -421,7 +425,6 @@ generated_at: "2026-05-16T06:54:22"
 | lieu_memoire_urbain | 1 |
 | cas_urbain | 1 |
 | contexte_social | 1 |
-| conclusion_historiographique | 1 |
 | prudence_methodologique | 1 |
 | culture_urbaine | 1 |
 | limite_interpretative | 1 |
@@ -439,7 +442,7 @@ generated_at: "2026-05-16T06:54:22"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 192 |
+| non qualifiée | 198 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
