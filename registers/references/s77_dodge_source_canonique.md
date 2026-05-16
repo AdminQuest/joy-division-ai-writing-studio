@@ -1,10 +1,12 @@
-# S77 — Source canonique recommandée — Martin Dodge, *Manchester Geographies*, chapitre 3
+# S20 — Source canonique — Martin Dodge, *Manchester Geographies*, chapitre 3
 
 ```yaml
-id: REG-S77-DODGE-SOURCE-CANONIQUE
-source_id: S77
-source_id_requested: S04
-source_label: "S77 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d."
+id: REG-S20-DODGE-SOURCE-CANONIQUE
+source_id: S20
+previous_source_id: S20-OLD
+previous_source_redirect: S72
+source_id_requested_initially: S04
+source_label: "S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d."
 type_unite: source_canonique
 statut: integration_directe
 fiabilite: forte
@@ -16,24 +18,22 @@ chapitres:
 
 ## Identifiant canonique
 
-L’identifiant demandé par erreur était **S04**. Il ne doit pas être utilisé pour ce fichier.
-
-Dans le registre actuel, **S04** désigne déjà Alan J. Kidd, *Manchester: A History*, 2006. La source Dodge doit donc être séparée de S04.
-
-Identifiant recommandé :
+L’identifiant canonique retenu est désormais :
 
 ```text
-S77
+S20
 ```
 
-Cette recommandation est fondée sur le fait que S76 est déjà massivement utilisé dans les registres et qu’aucune entrée S77 n’a été retrouvée par recherche GitHub. Un contrôle local exhaustif du registre doit néanmoins être effectué avant application du patch.
+Arbitrage : l’ancien S20, Simon Reynolds, *Rip It Up and Start Again*, est considéré comme doublon de S72. L’ancien S20 est donc redirigé vers S72, et S20 est réattribué à Martin Dodge.
+
+L’identifiant initialement demandé, S04, reste réservé à Alan J. Kidd, *Manchester: A History*, 2006. Il ne doit pas être écrasé.
 
 ## Libellé source
 
 Libellé court :
 
 ```text
-S77 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d.
+S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d.
 ```
 
 Libellé long :
@@ -51,22 +51,23 @@ sources/dodge_manchester_geographies/
 Fichier PDF recommandé :
 
 ```text
-sources/dodge_manchester_geographies/S77_dodge_manchester_geographies_housing_problems.pdf
+sources/dodge_manchester_geographies/S20_dodge_manchester_geographies_housing_problems.pdf
 ```
 
 ## Entrée registre
 
-L’entrée à ajouter au registre figure dans :
+L’entrée à appliquer au registre figure dans :
 
 ```text
-sources/dodge_manchester_geographies/registre_patch_s77.json
+sources/dodge_manchester_geographies/registre_patch_s20.json
 ```
 
-Ne pas appliquer ce patch avant d’avoir vérifié l’absence de S77 dans `data/registre.json`.
+Elle remplace l’entrée S20 existante. L’ancien contenu Reynolds doit être recherché sous S72.
 
 ## Risques de confusion
 
 - Ne pas écraser S04 : S04 = Kidd, *Manchester: A History*, 2006.
+- Ne pas réutiliser l’ancien S20 Reynolds : utiliser S72.
 - Ne pas confondre Dodge avec Kidd.
 - Ne pas confondre *Manchester Geographies* avec *Manchester: A History*.
 - Ne pas traiter cette source comme source directe sur Joy Division.
@@ -78,28 +79,28 @@ Ne pas appliquer ce patch avant d’avoir vérifié l’absence de S77 dans `dat
 ## Consignes pour les futurs atomes
 
 ```yaml
-source_id: S77
-source_label: "S77 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d."
+source_id: S20
+source_label: "S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d."
 preuve: "source secondaire universitaire"
 usage: "logement, morphologie urbaine, taudis, logement social, Wythenshawe, Hulme, Beswick, géographie historique de Manchester"
-prudence: "ne pas utiliser comme source interne sur Joy Division ; ne pas confondre avec S04 Kidd ; vérifier année et édition avant citation finale"
+prudence: "ne pas utiliser comme source interne sur Joy Division ; ne pas confondre avec S04 Kidd ; ancien S20 Reynolds redirigé vers S72 ; vérifier année et édition avant citation finale"
 ```
 
 Atomes prioritaires :
 
 ```text
-S77-A001 — Manchester industriel et logement ouvrier : absence de plan et logique du profit
-S77-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel
-S77-A003 — Victoria Park et la ségrégation résidentielle bourgeoise
-S77-A004 — Cartographier les problèmes de logement : Bastow, Marr et la géographie sanitaire
-S77-A005 — La ceinture de taudis autour du cœur commercial de Manchester
-S77-A006 — Chorltonville et la solution garden suburb
-S77-A007 — Wythenshawe : ville satellite, relogement social et désancrage urbain
-S77-A008 — Le plan de 1945 et la dédensification programmée de Hulme
-S77-A009 — Overspill estates : Hattersley, Hyde, Heywood, Longdendale
-S77-A010 — Urban renewal des années 1960 : Action Areas et effacement des rues victoriennes
-S77-A011 — Beswick / Fort Beswick : échec des megastructures et des streets-in-the-sky
-S77-A012 — Deindustrialisation, chômage masculin et crise des estates
-S77-A013 — Démolition et retour aux maisons conventionnelles dans les années 1980
-S77-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière
+S20-A001 — Manchester industriel et logement ouvrier : absence de plan et logique du profit
+S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel
+S20-A003 — Victoria Park et la ségrégation résidentielle bourgeoise
+S20-A004 — Cartographier les problèmes de logement : Bastow, Marr et la géographie sanitaire
+S20-A005 — La ceinture de taudis autour du cœur commercial de Manchester
+S20-A006 — Chorltonville et la solution garden suburb
+S20-A007 — Wythenshawe : ville satellite, relogement social et désancrage urbain
+S20-A008 — Le plan de 1945 et la dédensification programmée de Hulme
+S20-A009 — Overspill estates : Hattersley, Hyde, Heywood, Longdendale
+S20-A010 — Urban renewal des années 1960 : Action Areas et effacement des rues victoriennes
+S20-A011 — Beswick / Fort Beswick : échec des megastructures et des streets-in-the-sky
+S20-A012 — Deindustrialisation, chômage masculin et crise des estates
+S20-A013 — Démolition et retour aux maisons conventionnelles dans les années 1980
+S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière
 ```
