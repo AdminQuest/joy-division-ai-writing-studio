@@ -411,29 +411,61 @@
   },
   {
     "id": "S12",
-    "source_label": "S12 — Anderton, Chief Constable of Greater Manchester Police, à consolider",
-    "auteur": "James Anderton",
-    "titre": "Figure du chef de police du Greater Manchester",
-    "annee": "1976–1991",
-    "reference_complete": "Source de consolidation à fixer : profil biographique et déclarations publiques de James Anderton, Chief Constable of Greater Manchester Police de 1976 à 1991. Voir notamment les entretiens et articles de presse relatifs au surnom « God’s Cop » et aux controverses morales des années 1980.",
-    "nature": "acteur institutionnel / dossier de presse à constituer",
-    "statut": "a_consolider",
-    "fiabilite": "moyenne",
+    "source_label": "S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986",
+    "auteur": "The Times ; Nicholas Wood ; Thomson Prentice ; auteurs multiples",
+    "titre": "Bundle of press articles re AIDS",
+    "annee": "1986",
+    "reference_complete": "The Times et auteurs multiples, Bundle of press articles re AIDS, 13 décembre 1986, document d’archive HSOC0015800, dossier de presse incluant des articles de Thomson Prentice et Nicholas Wood sur le sida, Cardinal Basil Hume, les réactions gouvernementales et les déclarations de James Anderton, Chief Constable of Greater Manchester Police.",
+    "nature": "dossier de presse / source primaire journalistique",
+    "statut": "verifie",
+    "fiabilite": "forte pour l’existence des discours publics ; à croiser pour les faits et citations",
     "usage": [
-      "contrôle social",
-      "répression",
+      "James Anderton",
+      "Greater Manchester Police",
+      "sida",
+      "AIDS",
+      "morale publique",
       "conservatisme moral",
-      "ordre public"
+      "police authority",
+      "accountability",
+      "homosexualité",
+      "drogue",
+      "prostitution",
+      "discours stigmatisants",
+      "santé publique",
+      "gouvernement Thatcher",
+      "Cardinal Basil Hume",
+      "moral Chernobyl"
     ],
     "chapitres": [
       "Chapitre 1"
     ],
     "source_origin": [
-      "texte intégral",
-      "registre historique",
-      "document maître"
+      "Google Drive",
+      "dossier de presse",
+      "registre historique corrigé"
     ],
-    "arbitrage": "Le texte du chapitre 1 mobilise Anderton mais ne donne pas encore de référence source autonome ; l’entrée est maintenue comme nœud documentaire à consolider."
+    "arbitrage": "Remplace l’entrée vague S12 — Anderton, Chief Constable of Greater Manchester Police, à consolider. Le fichier fourni est un dossier de presse du 13 décembre 1986 sur le sida, la morale publique et les réactions aux déclarations de James Anderton.",
+    "date": "1986-12-13",
+    "dossier_source": "sources/press_aids_anderton_1986/",
+    "fichier_source": "S12_press_aids_anderton_1986.pdf",
+    "source_drive": "https://drive.google.com/file/d/1d6igXESueoR4NhqL3j33hnb9ccTWZS3s/view?usp=drive_link",
+    "fichier_source_original": "HSOC0015800 - Bundle of press articles re AIDS - 13 Dec 1986.pdf",
+    "identifiant_archive": "HSOC0015800",
+    "publication_principale": "The Times",
+    "pieces_incluses": [
+      "Thomson Prentice, « Aids in Britain: Spread a ‘moral Chernobyl’ »",
+      "Nicholas Wood, « Ministers dismiss Anderton’s tirade »",
+      "Article sur le risque disciplinaire pesant sur James Anderton après ses propos sur le sida",
+      "Continuation d’article sur la police authority et les réactions à Anderton",
+      "Lettre de Nicholas Aiken sur l’éthique chrétienne et le sida"
+    ],
+    "chapitres_secondaires": [
+      "Chapitre 9",
+      "Chapitre 14"
+    ],
+    "niveau_preuve": "source primaire journalistique / dossier de presse contemporain",
+    "prudence": "Ne pas présenter S12 comme un texte écrit par Anderton. Ne pas utiliser comme source médicale sur le sida. Distinguer citations, discours rapportés et commentaires journalistiques. Croiser avec S05 pour l’analyse universitaire. Ne pas reproduire les expressions stigmatisantes sans distance critique."
   },
   {
     "id": "S13",

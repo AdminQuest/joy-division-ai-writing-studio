@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T09:04:29",
+  "generated_at": "2026-05-16T09:12:23",
   "status": "warning",
   "summary": {
-    "records_total": 3636,
+    "records_total": 3640,
     "records_by_kind": {
       "atom": 1734,
-      "metadata": 33,
+      "metadata": 36,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 176,
+      "unknown": 177,
       "template": 317,
       "song": 41,
       "quote_batch": 1,
@@ -19,13 +19,13 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 17823,
+    "diagnostics_total": 17824,
     "errors": 0,
-    "warnings": 17823,
+    "warnings": 17824,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 17,
-    "sources_exported": 17,
-    "declared_but_unused": 34,
+    "sources_used_in_records": 18,
+    "sources_exported": 18,
+    "declared_but_unused": 33,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -127,20 +127,6 @@
           "politique industrielle",
           "dépenses industrielles",
           "ère Thatcher"
-        ]
-      },
-      {
-        "source_id": "S12",
-        "source_label": "S12 — Anderton, Chief Constable of Greater Manchester Police, à consolider",
-        "auteur": "James Anderton",
-        "titre": "Figure du chef de police du Greater Manchester",
-        "annee": "1976–1991",
-        "statut": "a_consolider",
-        "usage": [
-          "contrôle social",
-          "répression",
-          "conservatisme moral",
-          "ordre public"
         ]
       },
       {
@@ -626,6 +612,21 @@
           "sources/sumner_chapter_and_verse/source.md",
           "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
           "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md"
+        ]
+      },
+      {
+        "source_id": "S12",
+        "source_label": "S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986",
+        "auteur": "The Times ; Nicholas Wood ; Thomson Prentice ; auteurs multiples",
+        "titre": "Bundle of press articles re AIDS",
+        "annee": "1986",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s12_press_aids_anderton_source_canonique.md",
+          "sources/press_aids_anderton_1986/source.md"
         ]
       },
       {
@@ -106357,6 +106358,12 @@
       "file": "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-RAG-S06-HULME-LIVED-DISCURSIVE-SPACE-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S12-PRESS-AIDS-ANDERTON-SOURCE-CANONIQUE"
     },
     {
       "level": "warning",
