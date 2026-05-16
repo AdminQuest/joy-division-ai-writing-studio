@@ -49,12 +49,14 @@ window.DynamicRegisters = (() => {
 
   async function sourceLabels() {
     const labels = {
+      S20:'S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d.',
       S41:'S41 — Hook, Unknown Pleasures, 2012',
       S45:'S45 — Curtis, Touching from a Distance, 1995',
       S46:'S46 — Johnson, An Ideal for Living, 1984',
       S47:'S47 — West, Joy Division, 1983',
       S68:'S68 — Broll, Joy Division, s.d.',
-      S72:'S72 — Reynolds, Rip It Up and Start Again, 2005/2006'
+      S72:'S72 — Reynolds, Rip It Up and Start Again, 2005/2006',
+      S75:'S75 — Ott, Joy Division’s Unknown Pleasures, 2004'
     };
     const registry = await loadRegistry();
     registry.forEach(entry => {
@@ -68,10 +70,16 @@ window.DynamicRegisters = (() => {
 
   function inferKind(data) {
     const id = text(data.id);
+    const file = text(data.__file);
     if (id.startsWith('CHR-')) return 'chronology';
-    if (id.startsWith('PERS-')) return 'person';
-    if (id.startsWith('SONG-') || data.song || data.titre && /songs?\//.test(text(data.__file))) return 'song';
+    if (id.startsWith('PERS-') || id.startsWith('PERSONNE-') || /people\//.test(file)) return 'person';
+    if (id.startsWith('PLACE-') || /places\//.test(file)) return 'place';
+    if (id.startsWith('ORG-') || /organizations\//.test(file)) return 'organization';
+    if (id.startsWith('SONG-') || id.startsWith('ALBUM-') || data.song || data.titre && /songs?\//.test(file)) return 'song';
     if (id.startsWith('CONCEPT-')) return 'concept';
+    if (id.startsWith('MOTIF-')) return 'motif';
+    if (id.startsWith('MYTH-') || id.startsWith('MYTHE-')) return 'myth';
+    if (id.startsWith('REG-') || id.startsWith('REL-RAG-')) return 'reference';
     if (id.includes('-Q')) return 'quote';
     if (id.startsWith('S') && id.includes('-')) return 'atom';
     return 'unknown';
@@ -83,8 +91,8 @@ window.DynamicRegisters = (() => {
     if (Array.isArray(d.sources)) d.sources = d.sources.map(normalizeSourceId).filter(Boolean);
     if (d.evenement && !d.event) d.event = d.evenement;
     if (d.chapitres && !d.chapters) d.chapters = d.chapitres;
-    if (!d.song && d.titre) d.song = String(d.titre).replace(/[«»*]/g, '').trim();
-    if (!d.song && d.title) d.song = d.title;
+    if (!d.song && d.titre && /songs?\//.test(file)) d.song = String(d.titre).replace(/[«»*]/g, '').trim();
+    if (!d.song && d.title && /songs?\//.test(file)) d.song = d.title;
     const id = text(d.id) || `NO_ID::${file}`;
     return { kind: inferKind(d), id, file, heading, data: d };
   }
@@ -105,7 +113,7 @@ window.DynamicRegisters = (() => {
       let loaded;
       try { loaded = yaml.load(m[1]); } catch { continue; }
       if (!loaded || typeof loaded !== 'object' || Array.isArray(loaded)) continue;
-      const containerKeys = ['chronology','people','persons','songs','citations','quotes','concepts','records'];
+      const containerKeys = ['chronology','events','people','persons','places','organizations','organisations','orgs','songs','citations','quotes','concepts','motifs','mythes','myths','records'];
       const key = containerKeys.find(k => Array.isArray(loaded[k]));
       if (key) {
         loaded[key].forEach(item => {
