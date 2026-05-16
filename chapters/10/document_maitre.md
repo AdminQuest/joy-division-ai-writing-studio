@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:05:52"
+generated_at: "2026-05-16T08:39:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 178 |
+| Atomes | 182 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
 | Chansons | 6 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
@@ -120,6 +121,14 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 6. Autres atomes utiles
 
+- **S10-A023** — S10-A023 — « Love Will Tear Us Apart » : riff, arrangement, paroles, postérité  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A024** — S10-A024 — Épilepsie de Curtis : Luton, diagnostic, scène et pression  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `crise_biographique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A025** — S10-A025 — *Closer*, Bournemouth et pression psychique de Curtis  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `crise_finale` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-146** — S41-146 — 23 mai 1980 : crémation et wake Factory  
@@ -272,14 +281,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_biographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-117** — S46-117 — Le public prend parfois les crises pour une performance  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `perception_scene` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-179** — S46-179 — Danse de Curtis et japonisme hypnotique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `theorie_performance` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S47-188** — S47-188 — Citation critique : Curtis comme « loser caught in a world only partially understood »  
-  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A025** — S-BROLL-A025 — Films de Malcolm Whitehead et Charles Salem  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A026** — S-BROLL-A026 — Apollo Theatre, Manchester, et *Here Are the Young Men*  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -345,14 +346,15 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (13)
-- épilepsie (7)
+- Ian Curtis (15)
+- épilepsie (8)
 - closer (4)
 - love will tear us apart (4)
 - ian curtis (4)
 - new order (4)
 - suicide (4)
 - mémoire (3)
+- postérité (3)
 - mythification (3)
 - vérité conjugale différée (2)
 - travail féminin effacé (2)
@@ -375,7 +377,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - deuil (2)
 - Factory (2)
 - archive (2)
-- postérité (2)
+- Love Will Tear Us Apart (2)
 - rainbow theatre (2)
 - moonlight club (2)
 - in a lonely place (2)
@@ -424,7 +426,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - foyer devenu enquête (1)
 - révélation suspendue (1)
 - complicité brève dans la rupture (1)
-- objet musical brisé (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -655,6 +656,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | session_studio | 1 |
 | lieu_iconographique | 1 |
 | scene_deuil_mythographique | 1 |
+| source_part | 1 |
+| analyse_morceau | 1 |
+| crise_biographique | 1 |
+| crise_finale | 1 |
 | fait_biographique | 1 |
 | mythe | 1 |
 | album | 1 |
@@ -669,7 +674,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | critique | 84 |
-| non qualifiée | 68 |
+| non qualifiée | 72 |
 | majeur | 24 |
 | majeure | 2 |
 

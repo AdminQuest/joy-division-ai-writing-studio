@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:05:52"
+generated_at: "2026-05-16T08:39:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 276 |
+| Atomes | 285 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
 | Personnes | 19 |
 | Chansons | 18 |
-| Sources mobilisées | 11 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 9 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
@@ -121,6 +122,24 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 6. Autres atomes utiles
 
+- **S10-A009** — S10-A009 — Ennio Morricone, espace sonore et influence sur Sumner  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `influence_esthetique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A012** — S10-A012 — Apprentissage guitare / basse avec Hook et bricolage du gramophone amplifié  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `processus_creatif` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A016** — S10-A016 — Rob Gretton, Rafters et entrée dans l’écosystème Factory  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `professionnalisation` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A017** — S10-A017 — Tony Wilson, Manchester et Granada Reports / « Shadowplay »  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `media_scene` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A018** — S10-A018 — RCA sessions : échec industriel et leçon d’autonomie  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `session_studio` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A020** — S10-A020 — Hannett et le studio comme instrument  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `production` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A021** — S10-A021 — *Unknown Pleasures* : production, désaccords et invention sonore  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `production_album` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A022** — S10-A022 — Processus de composition collectif et rôle d’Ian Curtis  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `processus_creatif` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
@@ -263,24 +282,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie_pre_album` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-043** — S46-043 — Sessions d’*Unknown Pleasures* : durée et intensité  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `enregistrement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-044** — S46-044 — Ian Wood : Joy Division et le malaise industriel  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-051** — S46-051 — Voix de Curtis : transition des premiers enregistrements au studio  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_sonore` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-052** — S46-052 — Hannett, harmoniser et varispeed : mythe technique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation_technique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-053** — S46-053 — Robert Palmer : le studio révèle le rôle de Hannett  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-077** — S46-077 — The Warsaw Demo : quatre titres fondateurs  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `enregistrement` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-093** — S46-093 — Factory Sample : compromis contractuel avec Anderson et Searling  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `industrie_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-099** — S46-099 — *Unknown Pleasures* : tracklist et architecture d’album  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_album` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-101** — S46-101 — Pennine Sound Studios et la pauvreté des moyens initiaux  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `studio_enregistrement` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-104** — S46-104 — Steve Morris et la précision mécanique du rythme  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `portrait_musicien` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -378,16 +379,17 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 11. Concepts récurrents
 
-- Martin Hannett (19)
+- Martin Hannett (20)
 - architecture sonore (16)
-- Unknown Pleasures (12)
+- Unknown Pleasures (14)
+- Ian Curtis (11)
 - post-punk (10)
-- Ian Curtis (10)
 - production (9)
 - contrainte productive (8)
-- Strawberry Studios (7)
+- Strawberry Studios (8)
 - Stephen Morris (7)
 - martin hannett (6)
+- espace sonore (6)
 - Transmission (6)
 - A Factory Sample (6)
 - Cargo Studios (6)
@@ -406,7 +408,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - factory (4)
 - unknown pleasures (4)
 - transmission (4)
-- espace sonore (4)
+- Manchester (4)
 - Peel Session (4)
 - Arrow Studios (4)
 - batterie (4)
@@ -417,11 +419,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - piccadilly radio (3)
 - dub (3)
 - factory records (3)
-- Manchester (3)
 - John Peel (3)
 - BBC (3)
 - Warsaw Demo (3)
 - Pennine Sound (3)
+- Interzone (3)
 - varispeed (3)
 - Factory (3)
 - An Ideal for Living (3)
@@ -429,7 +431,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - spectralité (3)
 - prudence historiographique (3)
 - cinquième membre (3)
+- Hannett (3)
 - basse (3)
+- apprentissage autodidacte (3)
+- Granada Reports (3)
 - john peel (2)
 - peel session (2)
 - radio (2)
@@ -449,15 +454,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - At a Later Date (2)
 - RCA (2)
 - John Anderson (2)
-- Interzone (2)
 - FAC 2 (2)
 - Martin Zero (2)
 - avril 1979 (2)
 - Ian Wood (2)
 - Eric's Liverpool (2)
-- industrial malaise (2)
-- Love Will Tear Us Apart (2)
-- précision (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -594,13 +595,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Type | Nombre |
 |---|---|
 | non qualifié | 34 |
-| production | 15 |
-| session_studio | 15 |
+| production | 16 |
+| session_studio | 16 |
 | analyse_morceau | 10 |
 | lecture_musicale | 10 |
+| processus_creatif | 9 |
 | analyse | 9 |
 | fait | 9 |
-| processus_creatif | 7 |
 | session | 7 |
 | lieu_studio | 5 |
 | concept | 5 |
@@ -627,6 +628,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | controverse | 2 |
 | lieu | 2 |
 | temoignage | 2 |
+| production_album | 2 |
 | citation_repere | 2 |
 | performance_live | 2 |
 | temoignage_direct_rapporte | 2 |
@@ -686,7 +688,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | reception_discographique | 1 |
 | reception_radio | 1 |
 | demythification | 1 |
-| production_album | 1 |
 | acteur | 1 |
 | micro_chronologie | 1 |
 | idee_directrice | 1 |
@@ -700,6 +701,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | relation_studio | 1 |
 | controverse_studio | 1 |
 | lecture_reprise | 1 |
+| source_part | 1 |
+| influence_esthetique | 1 |
+| professionnalisation | 1 |
+| media_scene | 1 |
 | transition | 1 |
 | conflit_esthetique | 1 |
 | portrait_technique | 1 |
@@ -711,7 +716,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 170 |
+| non qualifiée | 179 |
 | critique | 86 |
 | majeure | 11 |
 | majeur | 9 |

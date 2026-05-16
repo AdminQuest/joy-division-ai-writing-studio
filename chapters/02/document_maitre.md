@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:05:52"
+generated_at: "2026-05-16T08:39:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 283 |
+| Atomes | 296 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 32 |
 | Personnes | 27 |
 | Chansons | 6 |
-| Sources mobilisées | 11 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
@@ -121,6 +122,32 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ## 6. Autres atomes utiles
 
+- **S10-A006** — S10-A006 — École, humiliation sociale et désir de création  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A007** — S10-A007 — Salford Grammar : rencontre avec Peter Hook  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `rencontre` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A008** — S10-A008 — North Salford Youth Club, scooter culture et apprentissage musical  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `sociabilite_musicale` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A009** — S10-A009 — Ennio Morricone, espace sonore et influence sur Sumner  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `influence_esthetique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A010** — S10-A010 — Sex Pistols au Lesser Free Trade Hall : inspiration sans mythe de conversion absolue  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `scene_fondatrice` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A011** — S10-A011 — Punk comme autorisation sociale pour les working-class misfits  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A012** — S10-A012 — Apprentissage guitare / basse avec Hook et bricolage du gramophone amplifié  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `processus_creatif` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A013** — S10-A013 — Annonce Virgin Records et recrutement de Ian Curtis  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `recrutement` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A014** — S10-A014 — Grey Mare, premières répétitions et recherche de batteur  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `formation_groupe` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A015** — S10-A015 — Warsaw, premier concert Electric Circus et apprentissage de scène  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `scene_live` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A016** — S10-A016 — Rob Gretton, Rafters et entrée dans l’écosystème Factory  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `professionnalisation` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A019** — S10-A019 — *An Ideal for Living* : mauvais pressage, image Hitler Youth, Bernard Albrecht  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `controverse_visuelle` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -255,32 +282,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_scene_locale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S46-003** — S46-003 — Paul Morley et la mémoire instable de Warsaw  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `temoignage_interpretatif` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-004** — S46-004 — Les concerts des Sex Pistols comme matrice mancunienne  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-005** — S46-005 — Première mention presse : Stiff Kittens  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_presse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-006** — S46-006 — Warsaw et la substitution de Steve Brotherdale par Stephen Morris  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie_interne` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-007** — S46-007 — La première démo Warsaw du 18 juillet 1977  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-008** — S46-008 — Le passage de Warsaw à Joy Division  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-009** — S46-009 — Premier concert sous le nom Joy Division  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-010** — S46-010 — Le Stiff/Chiswick Challenge comme bascule Gretton-Wilson  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-011** — S46-011 — RCA, Arrow Studios et l’album avorté  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_avortee` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-012** — S46-012 — Rob Gretton devient manager  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `acteur` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-015** — S46-015 — *An Ideal for Living* 7 pouces : autoproduction et mauvais pressage  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-032** — S46-032 — Factory Club comme vrai point de naissance artistique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_temoin` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-033** — S46-033 — Autoédition du 7 pouces *An Ideal for Living*  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet_discographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-036** — S46-036 — Rupture avec RCA et durcissement de Gretton  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `industrie_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -392,36 +393,37 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 ## 11. Concepts récurrents
 
-- Warsaw (29)
-- Electric Circus (16)
+- Warsaw (30)
+- Electric Circus (17)
 - Joy Division (11)
-- Rob Gretton (10)
-- Rafters (9)
-- punk (9)
-- Sex Pistols (8)
+- Rob Gretton (11)
+- punk (11)
+- Rafters (10)
+- Sex Pistols (9)
+- An Ideal for Living (9)
 - Manchester (8)
-- An Ideal for Living (8)
+- Ian Curtis (8)
 - electric circus (7)
 - warsaw (7)
-- Ian Curtis (7)
+- Stephen Morris (7)
 - Short Circuit (7)
 - an ideal for living (6)
 - tony wilson (6)
 - Buzzcocks (6)
-- Stephen Morris (6)
+- Stiff Kittens (6)
 - At a Later Date (6)
 - Warsaw Pakt (6)
 - Tony Wilson (6)
+- premier concert (6)
 - ian curtis (5)
 - nazisme (5)
 - industrie musicale (5)
 - rob gretton (5)
 - Pennine Sound (5)
-- Stiff Kittens (5)
 - batterie (5)
 - changement de nom (5)
 - Arrow Studios (5)
-- premier concert (5)
+- management (5)
 - DIY (5)
 - contrainte productive (5)
 - formation du groupe (4)
@@ -430,13 +432,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - rca (4)
 - factory (4)
 - buzzcocks (4)
+- Lesser Free Trade Hall (4)
 - Manchester punk (4)
 - House of Dolls (4)
 - RCA (4)
-- management (4)
 - Bernard Sumner (4)
 - imagerie nazie (4)
 - sex pistols (4)
+- apprentissage autodidacte (4)
 - Factory (4)
 - joy division (4)
 - autorisation punk (3)
@@ -447,17 +450,19 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - russell club (3)
 - joy division nom (3)
 - Paul Morley (3)
-- Lesser Free Trade Hall (3)
+- Steve Brotherdale (3)
 - Warsaw Demo (3)
 - The Kill (3)
 - John Anderson (3)
 - organisation (3)
 - autoproduction (3)
+- Peter Hook (3)
+- Virgin Records (3)
 - scène locale (3)
 - manchester (3)
 - peter hook (3)
-- apprentissage autodidacte (3)
 - architecture sonore (3)
+- provocation punk (3)
 - classe ouvriere (3)
 - médiation télévisuelle (2)
 - matérialité discographique (2)
@@ -465,13 +470,9 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - stabilisation rythmique (2)
 - stiff kittens (2)
 - salford (2)
+- apprentissage scénique (2)
 - stephen morris (2)
 - short circuit (2)
-- qualité sonore (2)
-- rca sessions (2)
-- contrat (2)
-- enigma (2)
-- a factory sample (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -608,7 +609,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Type | Nombre |
 |---|---|
 | fait | 25 |
-| scene_fondatrice | 20 |
+| scene_fondatrice | 21 |
 | production | 16 |
 | concert | 15 |
 | chronologie | 14 |
@@ -620,17 +621,17 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | analyse | 7 |
 | biographie | 7 |
 | lecture | 5 |
+| formation_groupe | 4 |
 | mythe | 4 |
 | fait_interprete | 4 |
+| contexte_social | 4 |
 | interpretation | 4 |
 | performance_live | 3 |
 | tension_documentaire | 3 |
 | lieu | 3 |
 | discographie | 3 |
 | evenement | 3 |
-| formation_groupe | 3 |
 | contexte | 3 |
-| contexte_social | 3 |
 | infrastructure_scene | 2 |
 | temoignage | 2 |
 | scene_revelation | 2 |
@@ -704,6 +705,16 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | lieu_culturel | 1 |
 | reseau_culturel | 1 |
 | nœud_biographique | 1 |
+| source_part | 1 |
+| rencontre | 1 |
+| sociabilite_musicale | 1 |
+| influence_esthetique | 1 |
+| concept_structurant | 1 |
+| processus_creatif | 1 |
+| recrutement | 1 |
+| scene_live | 1 |
+| professionnalisation | 1 |
+| controverse_visuelle | 1 |
 | contexte_materiel | 1 |
 | anecdote_significative | 1 |
 | contexte_musical | 1 |
@@ -718,7 +729,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 169 |
+| non qualifiée | 182 |
 | critique | 77 |
 | majeure | 18 |
 | majeur | 15 |

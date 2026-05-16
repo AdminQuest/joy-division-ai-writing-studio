@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:05:52"
+generated_at: "2026-05-16T08:39:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 773 |
+| Atomes | 774 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 16 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 6 | 0 |
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 1 | 0 |
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 2 | 0 |
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 1 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
@@ -144,6 +145,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S06-A012** — S06-A012 — Reclaiming narratives of the post-war inner city  
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S10-A023** — S10-A023 — « Love Will Tear Us Apart » : riff, arrangement, paroles, postérité  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -284,8 +287,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_visuelle` ; importance : `critique` ; preuve : `témoignage direct + archive photographique vérifiable`.
 - **S41-A169** — S41-A169 — Bournemouth : set écourté, hospitalisation et limite du système de tournée  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `chronologie éditoriale + événement médical rapporté`.
-- **S41-A171** — S41-A171 — Les Bains Douches : Paris comme archive live majeure de fin 1979  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live_archive` ; importance : `critique` ; preuve : `chronologie live + setlist publiée`.
 
 ## 7. Citations disponibles
 
@@ -437,8 +438,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Unknown Pleasures (20)
 - Peter Saville (17)
 - Rob Gretton (16)
+- Love Will Tear Us Apart (16)
 - NME (15)
-- Love Will Tear Us Apart (15)
 - prudence historiographique (15)
 - new order (13)
 - factory records (13)
@@ -455,12 +456,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Dead Souls (9)
 - Factory Records (9)
 - An Ideal for Living (9)
+- postérité (9)
 - rob gretton (9)
 - authenticité (9)
 - indépendance (8)
 - Transmission (8)
 - mythe (8)
-- postérité (8)
 - post-punk (7)
 - Bernard Sumner (7)
 - Warsaw (7)
@@ -690,6 +691,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_presse | 3 |
 | reception_radio | 3 |
 | scene_collective | 3 |
+| analyse_morceau | 3 |
 | dernier_concert | 3 |
 | esthétique_visuelle | 3 |
 | evenement_medical_live | 3 |
@@ -713,7 +715,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_precoce | 2 |
 | infrastructure | 2 |
 | transition_posthume | 2 |
-| analyse_morceau | 2 |
 | tension_documentaire | 2 |
 | scene_deuil | 2 |
 | strategie_medias | 2 |
@@ -1032,7 +1033,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 487 |
+| non qualifiée | 488 |
 | critique | 218 |
 | majeure | 39 |
 | majeur | 25 |

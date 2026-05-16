@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:05:52"
+generated_at: "2026-05-16T08:39:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 77 |
+| Atomes | 78 |
 | Atomes critiques / majeurs | 24 |
 | Citations | 6 |
 | Événements chronologiques | 9 |
 | Personnes | 7 |
 | Chansons | 7 |
-| Sources mobilisées | 8 |
+| Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
@@ -96,6 +97,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ## 6. Autres atomes utiles
 
+- **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-071** — S41-071 — Martin Hannett : première impression de sorcier technique  
@@ -479,6 +482,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | reception_posthume | 1 |
 | lecture | 1 |
 | temoignage_biographique | 1 |
+| source_part | 1 |
 | discographie | 1 |
 | conflit_esthetique | 1 |
 | concept | 1 |
@@ -490,7 +494,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 52 |
+| non qualifiée | 53 |
 | critique | 22 |
 | majeure | 2 |
 | moyenne | 1 |

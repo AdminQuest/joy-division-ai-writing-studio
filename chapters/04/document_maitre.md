@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:05:52"
+generated_at: "2026-05-16T08:39:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ generated_at: "2026-05-16T08:05:52"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 221 |
+| Atomes | 226 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
 | Personnes | 31 |
 | Chansons | 13 |
-| Sources mobilisées | 8 |
+| Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
@@ -118,6 +119,16 @@ generated_at: "2026-05-16T08:05:52"
 
 ## 6. Autres atomes utiles
 
+- **S10-A022** — S10-A022 — Processus de composition collectif et rôle d’Ian Curtis  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `processus_creatif` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A023** — S10-A023 — « Love Will Tear Us Apart » : riff, arrangement, paroles, postérité  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A024** — S10-A024 — Épilepsie de Curtis : Luton, diagnostic, scène et pression  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `crise_biographique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A025** — S10-A025 — *Closer*, Bournemouth et pression psychique de Curtis  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `crise_finale` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-021** — S41-021 — Première impression d’Ian Curtis : le manteau « Hate »  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-022** — S41-022 — Recrutement d’Ian Curtis  
@@ -268,16 +279,6 @@ generated_at: "2026-05-16T08:05:52"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
 - **S75-A010** — S75-A010 — « Gutz », domesticité et brutalité des premiers textes de Curtis  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A012** — S75-A012 — Curtis dans la pièce bleue : ambition, naïveté et écriture de transition  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `biographie` ; importance : `majeure` ; preuve : `reconstruction_critique`.
-- **S75-A032** — S75-A032 — Kevin Cummins et le contre-portrait de Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A043** — S75-A043 — Curtis aime le disque : divergence interne dans la réception d'Hannett  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `majeure` ; preuve : `reconstruction_critique`.
-- **S75-A044** — S75-A044 — De la lecture des paroles à la téléologie : le piège Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A045** — S75-A045 — Deborah Curtis comme oreille littérale des textes  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `temoignage` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_memoire`.
 
 ## 7. Citations disponibles
 
@@ -417,13 +418,13 @@ generated_at: "2026-05-16T08:05:52"
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (37)
+- Ian Curtis (40)
 - prudence historiographique (20)
 - epilepsie (10)
+- épilepsie (6)
 - scène (6)
 - factory (6)
 - danse (5)
-- épilepsie (5)
 - fatigue (5)
 - tony wilson (5)
 - voix (4)
@@ -471,6 +472,7 @@ generated_at: "2026-05-16T08:05:52"
 - mémoire conjugale croisée (2)
 - anti-téléologie (2)
 - tension domesticité-scène (2)
+- paroles (2)
 - Rob Gretton (2)
 - Tony Wilson (2)
 - avril 1980 (2)
@@ -496,7 +498,6 @@ generated_at: "2026-05-16T08:05:52"
 - matérialité de l’écriture (1)
 - retrait créatif (1)
 - ian curtis (1)
-- gutz (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -636,8 +637,8 @@ generated_at: "2026-05-16T08:05:52"
 | fait_sensible | 9 |
 | scene_fondatrice | 7 |
 | biographie | 6 |
+| processus_creatif | 5 |
 | interpretation | 5 |
-| processus_creatif | 4 |
 | lecture | 4 |
 | lecture_musicale | 4 |
 | relation | 3 |
@@ -652,6 +653,7 @@ generated_at: "2026-05-16T08:05:52"
 | tension_biographique | 3 |
 | live_set_context | 3 |
 | chanson_single | 2 |
+| analyse_morceau | 2 |
 | processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
@@ -680,7 +682,6 @@ generated_at: "2026-05-16T08:05:52"
 | analyse_voix_sante | 1 |
 | tension_industrie | 1 |
 | scene_creative_live | 1 |
-| analyse_morceau | 1 |
 | chronologie_structurante | 1 |
 | chronologie_single | 1 |
 | analyse_morceau_sante | 1 |
@@ -753,6 +754,9 @@ generated_at: "2026-05-16T08:05:52"
 | derniere_nuit | 1 |
 | scene_deces | 1 |
 | memoire_endeuillée | 1 |
+| source_part | 1 |
+| crise_biographique | 1 |
+| crise_finale | 1 |
 | témoignage_externe | 1 |
 | fait_biographique | 1 |
 | tension | 1 |
@@ -768,7 +772,7 @@ generated_at: "2026-05-16T08:05:52"
 | Importance | Nombre |
 |---|---|
 | critique | 101 |
-| non qualifiée | 83 |
+| non qualifiée | 88 |
 | majeure | 33 |
 | majeur | 3 |
 | structurante | 1 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:05:52"
+generated_at: "2026-05-16T08:39:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 421 |
+| Atomes | 422 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
 | Personnes | 37 |
 | Chansons | 17 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 141 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
@@ -120,6 +121,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 6. Autres atomes utiles
 
+- **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-080** — S41-080 — Premier signal critique de l’épilepsie de Ian Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-102** — S41-102 — La scène comme aggravateur physique  
@@ -278,8 +281,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_tournee_excès` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A140** — S41-A140 — Dundee / Twinny : farce de tournée et brutalité potache  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_tournee_farce` ; importance : `secondaire utile` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A141** — S41-A141 — Plan K Bruxelles : première Europe, Burroughs et collision entre avant-garde et potacherie  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_europeen` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -860,6 +861,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
 | concert_europeen | 1 |
+| source_part | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
 | discographie_analysee | 1 |
@@ -882,7 +884,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | critique | 195 |
-| non qualifiée | 154 |
+| non qualifiée | 155 |
 | majeur | 47 |
 | majeure | 24 |
 | secondaire utile | 1 |

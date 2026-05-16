@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-16T08:15:56",
+  "generated_at": "2026-05-16T08:39:33",
   "status": "warning",
   "summary": {
-    "records_total": 3562,
+    "records_total": 3607,
     "records_by_kind": {
-      "atom": 1694,
+      "atom": 1721,
       "metadata": 33,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 161,
-      "template": 298,
+      "unknown": 169,
+      "template": 308,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
@@ -19,9 +19,9 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 17285,
+    "diagnostics_total": 17645,
     "errors": 0,
-    "warnings": 17285,
+    "warnings": 17645,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 17,
     "sources_exported": 17,
@@ -600,13 +600,23 @@
         "auteur": "Bernard Sumner",
         "titre": "Chapter and Verse: New Order, Joy Division and Me",
         "annee": "2014/2015",
-        "records": 4,
-        "atoms": 0,
+        "records": 39,
+        "atoms": 27,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/chronology/s10_sumner_chronology_salford_formation_sound_v2.md",
+          "registers/concepts/s10_sumner_concepts_salford_formation_sound_v2.md",
+          "registers/motifs/s10_sumner_motifs_salford_formation_sound_v2.md",
+          "registers/myths/s10_sumner_myths_salford_formation_sound_v2.md",
+          "registers/organizations/s10_sumner_organizations_salford_formation_sound_v2.md",
+          "registers/people/s10_sumner_people_salford_formation_sound_v2.md",
+          "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
           "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
-          "sources/sumner_chapter_and_verse/source.md"
+          "registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md",
+          "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+          "sources/sumner_chapter_and_verse/source.md",
+          "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md"
         ]
       },
       {
@@ -72897,6 +72907,2022 @@
     },
     {
       "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for statut: integration_directe",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: forte, mais témoignage rétrospectif à croiser",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: contexte_social",
+      "record_id": "S10-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: paysage_urbain",
+      "record_id": "S10-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: urbanisme_vécu",
+      "record_id": "S10-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S10-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S10-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: contexte_social",
+      "record_id": "S10-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: rencontre",
+      "record_id": "S10-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: sociabilite_musicale",
+      "record_id": "S10-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: influence_esthetique",
+      "record_id": "S10-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: scene_fondatrice",
+      "record_id": "S10-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S10-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: processus_creatif",
+      "record_id": "S10-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: recrutement",
+      "record_id": "S10-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: formation_groupe",
+      "record_id": "S10-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: scene_live",
+      "record_id": "S10-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: professionnalisation",
+      "record_id": "S10-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: media_scene",
+      "record_id": "S10-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: session_studio",
+      "record_id": "S10-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: controverse_visuelle",
+      "record_id": "S10-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: production_album",
+      "record_id": "S10-A021"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: processus_creatif",
+      "record_id": "S10-A022"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: analyse_morceau",
+      "record_id": "S10-A023"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: crise_biographique",
+      "record_id": "S10-A024"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for fiabilite: source_primaire_retrospective",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
+      "file": "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: crise_finale",
+      "record_id": "S10-A025"
+    },
+    {
+      "level": "warning",
       "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
       "message": "Missing required field: concepts",
       "record_id": "S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2"
@@ -87735,6 +89761,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/organizations/s10_sumner_organizations_salford_formation_sound_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md",
       "message": "Unable to infer documentary kind",
       "record_id": "DISC-S41-A-FACTORY-SAMPLE-DIGITAL-GLASS"
@@ -91692,6 +93724,102 @@
       "file": "registers/songs/s45_curtis_songs_1977_1978_an_ideal_rca.md",
       "message": "Missing required field: concepts_derives",
       "record_id": "SONG-S45-NOVELTY-RCA"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Invalid value for statut: integration_directe",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s10_sumner_songs_salford_formation_sound_v2.md",
+      "message": "Invalid value for type_unite: registre_chansons",
+      "record_id": "SONGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
     },
     {
       "level": "warning",
@@ -103203,6 +105331,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/references/s10_sumner_relations_rag_salford_formation_sound_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-RAG-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/references/s02_sueur_source_canonique.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REG-S02-SUEUR-SOURCE-CANONIQUE"
@@ -103218,6 +105352,12 @@
       "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-RAG-S02-MANCHESTER-SHRINKING-CITY-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/places/s10_sumner_places_salford_formation_sound_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PLACES-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
     },
     {
       "level": "warning",
@@ -103269,6 +105409,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/motifs/s10_sumner_motifs_salford_formation_sound_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MOTIFS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/motifs/s06_carter_motifs_hulme_lived_discursive_space_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MOTIFS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2"
@@ -103314,6 +105460,12 @@
       "file": "registers/people/s45_curtis_people_vote_conservateur.md",
       "message": "Missing required field: sources",
       "record_id": "PERS-S45-DEBORAH-CURTIS-TEMOIN-POLITIQUE-DOMESTIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s10_sumner_people_salford_formation_sound_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PEOPLE-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
     },
     {
       "level": "warning",
@@ -103827,6 +105979,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/concepts/s10_sumner_concepts_salford_formation_sound_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CONCEPTS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/concepts/s06_carter_concepts_hulme_lived_discursive_space_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "CONCEPTS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2"
@@ -103866,6 +106024,12 @@
       "file": "registers/myths/s05_jeffery_tufail_jackson_myths_public_order_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MYTHS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/myths/s10_sumner_myths_salford_formation_sound_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MYTHS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
     },
     {
       "level": "warning",
@@ -104316,6 +106480,12 @@
       "file": "registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "CHRONO-S02-MANCHESTER-SHRINKING-CITY-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s10_sumner_chronology_salford_formation_sound_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRONO-S10-SUMNER-SALFORD-FORMATION-SOUND-V2"
     },
     {
       "level": "warning",

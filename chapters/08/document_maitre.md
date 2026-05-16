@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:05:52"
+generated_at: "2026-05-16T08:39:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 207 |
+| Atomes | 208 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
 | Personnes | 7 |
 | Chansons | 4 |
-| Sources mobilisées | 8 |
+| Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
@@ -118,6 +119,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 6. Autres atomes utiles
 
+- **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
@@ -276,8 +279,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A007** — S70-A007 — Warsaw : nom, line-up, premières démos  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S70-A009** — S70-A009 — *An Ideal for Living* : provocation graphique et ambiguïté  
-  Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -626,6 +627,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | lecture_reprise | 1 |
 | fait_contractuel | 1 |
 | concert_filme | 1 |
+| source_part | 1 |
 | release_or_session | 1 |
 | release_object | 1 |
 | live_set_context | 1 |
@@ -636,7 +638,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | critique | 98 |
-| non qualifiée | 87 |
+| non qualifiée | 88 |
 | majeur | 16 |
 | majeure | 6 |
 

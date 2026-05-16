@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:05:52"
+generated_at: "2026-05-16T08:39:46"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T08:05:52"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 106 |
+| Atomes | 113 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 14 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ generated_at: "2026-05-16T08:05:52"
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 7 | 0 |
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 13 | 0 |
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 9 | 0 |
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
@@ -148,6 +149,20 @@ generated_at: "2026-05-16T08:05:52"
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2** — S06 — Passe v2 — Hulme, inner city vécue et espace discursif  
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S10-A001** — S10-A001 — Salford, Alfred Street et communauté ouvrière de Lower Broughton  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A002** — S10-A002 — Paysage industriel, Wheathill Chemical Works et environnement toxique  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `paysage_urbain` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A003** — S10-A003 — Tour blocks, relogement et perte de sociabilité de rue  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `urbanisme_vécu` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A004** — S10-A004 — Destruction d’Alfred Street : mort d’une communauté et passage à l’âge adulte  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `scene_fondatrice` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A005** — S10-A005 — La nuit d’Ordsall : brouillard, sodium streetlights et matrice affective du son Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `scene_fondatrice` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A006** — S10-A006 — École, humiliation sociale et désir de création  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S20-A001** — S20-A001 — Manchester industriel et logement ouvrier : absence de plan et logique du profit  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
@@ -236,20 +251,6 @@ generated_at: "2026-05-16T08:05:52"
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A007** — S72-A007 — DIY et infrastructure indépendante  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A008** — S72-A008 — *Spiral Scratch* comme matrice DIY mancunienne  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `chronologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A009** — S72-A009 — New Hormones, Rabid et le précédent que Factory refuse de suivre  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A013** — S72-A013 — Ballard et les paysages post-industriels  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A014** — S72-A014 — Joy Division : membrane entre le local et l’universel  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A015** — S72-A015 — Joy Division et The Fall : rivalité tacite pour définir Manchester  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A016** — S72-A016 — Trafford Park et l’incorporation de la ville dans le son  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A023** — S72-A023 — Manchester : scène, fanzines et infrastructures locales  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -280,8 +281,8 @@ generated_at: "2026-05-16T08:05:52"
 
 - manchester (9)
 - Manchester (6)
+- Salford (6)
 - géographie émotionnelle (5)
-- Salford (5)
 - désindustrialisation (4)
 - diy (4)
 - Ian Curtis (4)
@@ -290,6 +291,7 @@ generated_at: "2026-05-16T08:05:52"
 - NME (3)
 - Macclesfield (3)
 - classe ouvriere (3)
+- slum clearance (3)
 - biographie contre mythe social (2)
 - Tactical Aid Group (2)
 - police-community relations (2)
@@ -319,10 +321,13 @@ generated_at: "2026-05-16T08:05:52"
 - géographie biographique (2)
 - mémoire ouvrière (2)
 - géographie sociale (2)
-- slum clearance (2)
 - logement social (2)
 - shrinking city (2)
 - Factory Records (2)
+- Lower Broughton (2)
+- paysage industriel (2)
+- relogement (2)
+- Ordsall (2)
 - oral history (2)
 - post-war inner city (2)
 - ville télévisuelle (1)
@@ -354,10 +359,6 @@ generated_at: "2026-05-16T08:05:52"
 - paramilitarisation (1)
 - police centralisée (1)
 - National Front (1)
-- antifascisme (1)
-- Hyde 1977 (1)
-- Bolton 1978 (1)
-- ordre public (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -474,13 +475,13 @@ generated_at: "2026-05-16T08:05:52"
 |---|---|
 | concept_structurant | 8 |
 | sociologie | 6 |
+| contexte_social | 6 |
+| source_part | 5 |
 | evenement_politique | 5 |
 | analyse | 5 |
 | prudence_methodologique | 4 |
-| source_part | 4 |
 | contexte | 4 |
 | biographie | 4 |
-| contexte_social | 4 |
 | methode | 3 |
 | contrepoint | 3 |
 | lecture | 3 |
@@ -492,6 +493,7 @@ generated_at: "2026-05-16T08:05:52"
 | chronologie | 2 |
 | lieu | 2 |
 | urbanisme | 2 |
+| scene_fondatrice | 2 |
 | mediation_visuelle | 1 |
 | contexte_scene | 1 |
 | contexte_institutionnel | 1 |
@@ -520,6 +522,8 @@ generated_at: "2026-05-16T08:05:52"
 | geographie_sociale | 1 |
 | fait_cadre | 1 |
 | culture_urbaine | 1 |
+| paysage_urbain | 1 |
+| urbanisme_vécu | 1 |
 | evenement_urbain | 1 |
 | motif_discursif | 1 |
 | fait | 1 |
@@ -531,7 +535,7 @@ generated_at: "2026-05-16T08:05:52"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 86 |
+| non qualifiée | 93 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |
