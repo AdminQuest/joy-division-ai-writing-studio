@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T07:15:26"
+generated_at: "2026-05-16T08:05:52"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 771 |
+| Atomes | 773 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 |---|---|---|---|
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 6 | 0 |
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 1 | 0 |
+| S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 2 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
@@ -139,6 +140,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S05-A011** — S05-A011 — Régénération, sécuritisation et policing de la ville attractive  
   Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A008** — S06-A008 — Réappropriation du mot « ghetto » : communauté, acceptation et contre-récit  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A012** — S06-A012 — Reclaiming narratives of the post-war inner city  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -281,10 +286,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `chronologie éditoriale + événement médical rapporté`.
 - **S41-A171** — S41-A171 — Les Bains Douches : Paris comme archive live majeure de fin 1979  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live_archive` ; importance : `critique` ; preuve : `chronologie live + setlist publiée`.
-- **S41-A172** — S41-A172 — Factory office party : beer economy et préhistoire de la Haçienda  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_factory` ; importance : `majeur` ; preuve : `anecdote Hook rétrospective`.
-- **S41-A180** — S41-A180 — Pauvreté maintenue : *Unknown Pleasures* reconnu, mais pas de star-system  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_groupe` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -744,6 +745,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | micro_chronologie | 2 |
 | idee_directrice | 2 |
 | reception_interne | 2 |
+| conclusion_historiographique | 2 |
 | lettre_intime | 2 |
 | scene_medicale_live | 2 |
 | reception_scene | 2 |
@@ -937,7 +939,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | session_transition | 1 |
 | temoignage | 1 |
 | analyse_studio | 1 |
-| conclusion_historiographique | 1 |
 | ecosysteme | 1 |
 | mythe_nomination | 1 |
 | tension_synthese | 1 |
@@ -1000,6 +1001,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | evenement_urbain | 1 |
 | culture_urbaine | 1 |
 | limite_interpretative | 1 |
+| motif_discursif | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -1030,7 +1032,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 485 |
+| non qualifiée | 487 |
 | critique | 218 |
 | majeure | 39 |
 | majeur | 25 |

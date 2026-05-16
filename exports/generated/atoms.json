@@ -75668,6 +75668,459 @@
   },
   {
     "kind": "atom",
+    "id": "S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06 — Passe v2 — Hulme, inner city vécue et espace discursif",
+    "data": {
+      "id": "S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "type_unite": "source_part",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "passage_atomise": "Article complet utile au livre : introduction, représentations d’inner-city Hulme, témoignages des résidents, conclusion ; bibliographie exclue de l’atomisation principale.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 14"
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023",
+      "source_year": "2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A001",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A001 — Hulme comme inner-city estate : espace vécu et espace discursif",
+    "data": {
+      "id": "S06-A001",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "248-250, 262-263",
+      "type_unite": "concept_structurant",
+      "concepts": [
+        "Hulme",
+        "inner-city estate",
+        "espace vécu",
+        "espace discursif",
+        "oral history"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "niveau_preuve": "source secondaire universitaire ; histoire orale",
+      "methodological_warnings": [
+        "Ne pas utiliser S06 comme source directe sur Joy Division.",
+        "Distinguer représentations médiatiques et expérience vécue des résidents."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A002",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A002 — Hulme Crescents : démolition, redevelopment et récit de renaissance familiale",
+    "data": {
+      "id": "S06-A002",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "248-249",
+      "type_unite": "evenement_urbain",
+      "concepts": [
+        "Hulme Crescents",
+        "démolition",
+        "redevelopment",
+        "récit de renaissance"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_places": [
+        "Hulme Crescents"
+      ],
+      "methodological_warnings": [
+        "Ne pas présenter la démolition comme simple libération ou progrès ; analyser le récit qui l’accompagne."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A003",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A003 — Jeunesse, race et fabrication médiatique de l’inner-city crisis",
+    "data": {
+      "id": "S06-A003",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "248-254",
+      "type_unite": "concept_structurant",
+      "concepts": [
+        "youth",
+        "race",
+        "inner-city crisis",
+        "stigmatisation médiatique",
+        "minorités ethniques"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas reprendre les catégories médiatiques comme des descriptions neutres."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A004",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A004 — « Concrete jungle », « ghetto », « Bronx » : lexique de stigmatisation territoriale",
+    "data": {
+      "id": "S06-A004",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "251-255, 257-258",
+      "type_unite": "motif_discursif",
+      "concepts": [
+        "stigmatisation territoriale",
+        "concrete jungle",
+        "ghetto",
+        "Bronx of Britain",
+        "racialisation du paysage"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Marquer ces termes comme discours médiatiques ou réappropriés, jamais comme descriptions objectives."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A005",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A005 — Deck-access estates, défensible space et causalité architecturale du crime",
+    "data": {
+      "id": "S06-A005",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "252-253",
+      "type_unite": "concept_structurant",
+      "concepts": [
+        "deck-access estates",
+        "defensible space",
+        "architecture et crime",
+        "Oscar Newman",
+        "Alice Coleman"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Oscar Newman",
+        "Alice Coleman"
+      ],
+      "methodological_warnings": [
+        "Ne pas valider mécaniquement la causalité architecture-crime ; Carter analyse sa circulation discursive."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A006",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A006 — Les habitants contre les clichés : oral history et récits contradictoires",
+    "data": {
+      "id": "S06-A006",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "249-250, 255-258, 262-263",
+      "type_unite": "prudence_methodologique",
+      "concepts": [
+        "oral history",
+        "témoignages contradictoires",
+        "récit de soi",
+        "représentation"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas chercher à réduire les contradictions des témoignages ; elles font partie de l’objet."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A007",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A007 — Jason et Conor : contradictions entre défense de Hulme et reconnaissance du crime",
+    "data": {
+      "id": "S06-A007",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "255-257",
+      "type_unite": "temoignage_analyse",
+      "concepts": [
+        "Jason",
+        "Conor",
+        "crime",
+        "contradictions mémorielles",
+        "défense du quartier"
+      ],
+      "chapitres": [
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Jason",
+        "Conor"
+      ],
+      "methodological_warnings": [
+        "Utiliser ces prénoms comme témoins anonymisés / prénoms d’entretien, non comme personnages à biographier."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A008",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A008 — Réappropriation du mot « ghetto » : communauté, acceptation et contre-récit",
+    "data": {
+      "id": "S06-A008",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "257-258",
+      "type_unite": "motif_discursif",
+      "concepts": [
+        "ghetto",
+        "réappropriation",
+        "communauté",
+        "contre-récit",
+        "Hulme Views Project"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas reprendre le terme ghetto hors guillemets et hors contexte d’appropriation ou de stigmatisation."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A009",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A009 — Hulme comme bulle multiculturelle : diversité, antiracisme vécu et limites",
+    "data": {
+      "id": "S06-A009",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "258-261",
+      "type_unite": "temoignage_analyse",
+      "concepts": [
+        "multiculturalisme vécu",
+        "antiracisme ordinaire",
+        "communauté",
+        "bulle",
+        "Hulme"
+      ],
+      "chapitres": [
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Stephanie",
+        "Alison",
+        "Lee-Ann"
+      ],
+      "methodological_warnings": [
+        "Ne pas idéaliser Hulme comme utopie multiculturelle ; Carter souligne aussi les limites et les différenciations internes."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A010",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A010 — Shaima : communauté, racisme ordinaire et position minoritaire asiatique",
+    "data": {
+      "id": "S06-A010",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "260-262",
+      "type_unite": "temoignage_analyse",
+      "concepts": [
+        "Shaima",
+        "racisme ordinaire",
+        "communauté asiatique",
+        "minorité dans la minorité",
+        "Hulme"
+      ],
+      "chapitres": [
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Shaima"
+      ],
+      "methodological_warnings": [
+        "Ne pas homogénéiser les minorités ethniques de Hulme ; Carter distingue expériences afro-caribéennes et asiatiques."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A011",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A011 — Hulme entre mythe, spectacle et abstraction : méthode historiographique",
+    "data": {
+      "id": "S06-A011",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "249-250, 262-263",
+      "type_unite": "prudence_methodologique",
+      "concepts": [
+        "mythe",
+        "spectacle",
+        "abstraction",
+        "post-war inner city",
+        "méthode historiographique"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas transformer Hulme en symbole pur ; maintenir les voix habitantes et les conditions matérielles."
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S06-A012",
+    "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
+    "heading": "S06-A012 — Reclaiming narratives of the post-war inner city",
+    "data": {
+      "id": "S06-A012",
+      "source_id": "S06",
+      "source_label": "S06 — Carter, Youth, race and the inner-city estate, 2021/2023",
+      "source_year": "2021/2023",
+      "auteur": "Isabelle Carter",
+      "titre": "Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994",
+      "pages_pdf": "262-263",
+      "type_unite": "conclusion_historiographique",
+      "concepts": [
+        "reclaiming narratives",
+        "post-war inner city",
+        "témoignages habitants",
+        "récit contre-stigmatisant"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        {
+          "Utiliser cette conclusion comme principe d’écriture": "restituer la complexité plutôt que choisir entre enfer urbain et communauté héroïsée."
+        }
+      ],
+      "source_short_title": "Isabelle Carter, Youth, race and the inner-city estate: narratives of everyday life in Manchester’s Hulme, 1970–1994, 2021/2023"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S41-040",
     "file": "sources/hook/atomisation_02_transmission_1978.md",
     "heading": "S41-040 — Dernier concert sous le nom Warsaw",

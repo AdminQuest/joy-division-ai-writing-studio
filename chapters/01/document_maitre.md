@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T07:15:26"
+generated_at: "2026-05-16T08:05:52"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T07:15:26"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 97 |
+| Atomes | 106 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 13 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ generated_at: "2026-05-16T07:15:26"
 |---|---|---|---|
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 7 | 0 |
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 13 | 0 |
+| S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 9 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
@@ -129,6 +130,24 @@ generated_at: "2026-05-16T07:15:26"
   Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S05-PART-PUBLIC-ORDER-GREATER-MANCHESTER-V2** — S05 — Passe v2 — maintien de l’ordre, police et ordre social local dans le Greater Manchester  
   Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A001** — S06-A001 — Hulme comme inner-city estate : espace vécu et espace discursif  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A002** — S06-A002 — Hulme Crescents : démolition, redevelopment et récit de renaissance familiale  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `evenement_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A003** — S06-A003 — Jeunesse, race et fabrication médiatique de l’inner-city crisis  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A004** — S06-A004 — « Concrete jungle », « ghetto », « Bronx » : lexique de stigmatisation territoriale  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A005** — S06-A005 — Deck-access estates, défensible space et causalité architecturale du crime  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A006** — S06-A006 — Les habitants contre les clichés : oral history et récits contradictoires  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A011** — S06-A011 — Hulme entre mythe, spectacle et abstraction : méthode historiographique  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A012** — S06-A012 — Reclaiming narratives of the post-war inner city  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2** — S06 — Passe v2 — Hulme, inner city vécue et espace discursif  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A001** — S20-A001 — Manchester industriel et logement ouvrier : absence de plan et logique du profit  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
@@ -231,22 +250,6 @@ generated_at: "2026-05-16T07:15:26"
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A023** — S72-A023 — Manchester : scène, fanzines et infrastructures locales  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A031** — S72-A031 — Reynolds comme source déjà présente dans le socle du livre  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `methode` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A034** — S72-A034 — DIY : Desperate Bicycles et l’injonction « do it yourself »  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A039** — S72-A039 — Pere Ubu et Devo : grotesque industriel et Amérique post-industrielle  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A040** — S72-A040 — Sheffield : ville industrielle jumelle de Manchester  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A043** — S72-A043 — The Fall : Manchester par irritation, répétition et anti-lyrisme  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A044** — S72-A044 — City Fun : fanzine comme cartographie locale  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `infrastructure` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A049** — S72-A049 — 2-Tone : autre réponse britannique à la crise sociale  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- **SONG-S45-SHADOWPLAY-GRANADA** — S45 — Chansons, vidéos et objets — Wilson, Gretton, Band on the Wall  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `non qualifié`.
 
 ## 7. Citations disponibles
 
@@ -282,11 +285,11 @@ generated_at: "2026-05-16T07:15:26"
 - désindustrialisation (4)
 - diy (4)
 - Ian Curtis (4)
+- Hulme (4)
 - Ian Wood (3)
 - NME (3)
 - Macclesfield (3)
 - classe ouvriere (3)
-- Hulme (3)
 - biographie contre mythe social (2)
 - Tactical Aid Group (2)
 - police-community relations (2)
@@ -320,6 +323,8 @@ generated_at: "2026-05-16T07:15:26"
 - logement social (2)
 - shrinking city (2)
 - Factory Records (2)
+- oral history (2)
+- post-war inner city (2)
 - ville télévisuelle (1)
 - médiation audiovisuelle (1)
 - Manchester monté en noir et blanc (1)
@@ -353,8 +358,6 @@ generated_at: "2026-05-16T07:15:26"
 - Hyde 1977 (1)
 - Bolton 1978 (1)
 - ordre public (1)
-- Moss Side 1981 (1)
-- racisme policier (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -469,14 +472,15 @@ generated_at: "2026-05-16T07:15:26"
 
 | Type | Nombre |
 |---|---|
+| concept_structurant | 8 |
 | sociologie | 6 |
-| concept_structurant | 5 |
 | evenement_politique | 5 |
 | analyse | 5 |
+| prudence_methodologique | 4 |
+| source_part | 4 |
 | contexte | 4 |
 | biographie | 4 |
 | contexte_social | 4 |
-| source_part | 3 |
 | methode | 3 |
 | contrepoint | 3 |
 | lecture | 3 |
@@ -484,7 +488,7 @@ generated_at: "2026-05-16T07:15:26"
 | politique_urbaine | 3 |
 | concept | 3 |
 | tension_documentaire | 2 |
-| prudence_methodologique | 2 |
+| conclusion_historiographique | 2 |
 | chronologie | 2 |
 | lieu | 2 |
 | urbanisme | 2 |
@@ -494,7 +498,6 @@ generated_at: "2026-05-16T07:15:26"
 | acteur_institutionnel | 1 |
 | institution_policiere | 1 |
 | contexte_politique | 1 |
-| conclusion_historiographique | 1 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
 | citation_contextualisee | 1 |
@@ -517,6 +520,8 @@ generated_at: "2026-05-16T07:15:26"
 | geographie_sociale | 1 |
 | fait_cadre | 1 |
 | culture_urbaine | 1 |
+| evenement_urbain | 1 |
+| motif_discursif | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
@@ -526,7 +531,7 @@ generated_at: "2026-05-16T07:15:26"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 77 |
+| non qualifiée | 86 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

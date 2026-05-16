@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T07:15:26"
+generated_at: "2026-05-16T08:05:52"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T07:15:26"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 199 |
+| Atomes | 212 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 13 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ generated_at: "2026-05-16T07:15:26"
 |---|---|---|---|
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 10 | 0 |
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 6 | 0 |
+| S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 13 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
@@ -87,6 +88,32 @@ generated_at: "2026-05-16T07:15:26"
   Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `evenement_politique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S05-A013** — S05-A013 — Police, ordre local et Manchester post-industriel  
   Source : S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A001** — S06-A001 — Hulme comme inner-city estate : espace vécu et espace discursif  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A002** — S06-A002 — Hulme Crescents : démolition, redevelopment et récit de renaissance familiale  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `evenement_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A003** — S06-A003 — Jeunesse, race et fabrication médiatique de l’inner-city crisis  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A004** — S06-A004 — « Concrete jungle », « ghetto », « Bronx » : lexique de stigmatisation territoriale  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A005** — S06-A005 — Deck-access estates, défensible space et causalité architecturale du crime  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A006** — S06-A006 — Les habitants contre les clichés : oral history et récits contradictoires  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A007** — S06-A007 — Jason et Conor : contradictions entre défense de Hulme et reconnaissance du crime  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `temoignage_analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A008** — S06-A008 — Réappropriation du mot « ghetto » : communauté, acceptation et contre-récit  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A009** — S06-A009 — Hulme comme bulle multiculturelle : diversité, antiracisme vécu et limites  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `temoignage_analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A010** — S06-A010 — Shaima : communauté, racisme ordinaire et position minoritaire asiatique  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `temoignage_analyse` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A011** — S06-A011 — Hulme entre mythe, spectacle et abstraction : méthode historiographique  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-A012** — S06-A012 — Reclaiming narratives of the post-war inner city  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2** — S06 — Passe v2 — Hulme, inner city vécue et espace discursif  
+  Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `lieu_memoire_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A004** — S20-A004 — Cartographier les problèmes de logement : Bastow, Marr et la géographie sanitaire  
@@ -189,32 +216,6 @@ generated_at: "2026-05-16T07:15:26"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_economique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-123** — S41-123 — Le succès grandissant et l’intensification des tournées  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-124** — S41-124 — Curtis sur scène : ambiguïté entre performance et crise  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-135** — S41-135 — Le Moonlight Club : concentration finale de l’énergie live  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-136** — S41-136 — 2–4 avril 1980 : crise sur scène après une séquence d’épuisement  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait_sensible` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-137** — S41-137 — Malvern, 5 avril 1980 : trace extérieure d’un Curtis fatigué mais disponible  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `témoignage_externe` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-139** — S41-139 — Derby Hall, Bury, 8 avril 1980 : concert empêché et émeute  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-141** — S41-141 — Ajanta Theatre, Derby, 19 avril 1980 : encore une capacité scénique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-142** — S41-142 — Birmingham University, 2 mai 1980 : dernier concert officiel  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_live` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-145** — S41-145 — Martin Hannett devait mixer le son live de la tournée américaine  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-C04** — S41-C04 — Rob Gretton comme infrastructure humaine  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **S41-C05** — S41-C05 — Joy Division comme tension entre live et studio  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **S45-012** — S45-012 — Warsaw puis Joy Division : intrusion du groupe dans le foyer  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `dynamique_collective` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-016** — S45-016 — Factory introduit une nouvelle hiérarchie affective  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `dynamique_collective` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-017** — S45-017 — Deborah vit l’entourage Factory comme un espace masculin fermé  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -256,6 +257,7 @@ generated_at: "2026-05-16T07:15:26"
 - manchester (6)
 - Electric Circus (6)
 - fatigue (6)
+- Hulme (6)
 - Transmission (5)
 - public (5)
 - Buzzcocks (5)
@@ -289,7 +291,6 @@ generated_at: "2026-05-16T07:15:26"
 - dernier concert (3)
 - Here Are the Young Men (3)
 - Unknown Pleasures (3)
-- Hulme (3)
 - Factory Records (3)
 - performance (3)
 - live (3)
@@ -348,35 +349,38 @@ generated_at: "2026-05-16T07:15:26"
 | reception | 9 |
 | chronologie | 9 |
 | sociologie | 8 |
+| concept_structurant | 7 |
 | concert | 7 |
 | evenement | 6 |
 | interpretation | 6 |
 | relation | 5 |
 | production | 5 |
 | contexte_scene | 5 |
-| concept_structurant | 4 |
 | analyse | 4 |
 | management | 4 |
 | reception_live | 4 |
 | politique_urbaine | 4 |
 | anecdote_significative | 4 |
 | evenement_politique | 3 |
+| conclusion_historiographique | 3 |
 | acteur | 3 |
 | concert_incident | 3 |
 | lieu | 3 |
 | industrie_musicale | 3 |
 | evenement_live | 3 |
+| source_part | 3 |
+| evenement_urbain | 3 |
+| prudence_methodologique | 3 |
+| temoignage_analyse | 3 |
 | fait_sensible | 3 |
-| conclusion_historiographique | 2 |
 | methode | 2 |
 | infrastructure | 2 |
 | chronologie_tournee | 2 |
 | projet_avorte | 2 |
 | dynamique_collective | 2 |
 | archive | 2 |
-| source_part | 2 |
 | urbanisme | 2 |
-| evenement_urbain | 2 |
+| motif_discursif | 2 |
 | contexte | 2 |
 | chronologie_live | 2 |
 | concept_transversal | 2 |
@@ -425,7 +429,6 @@ generated_at: "2026-05-16T07:15:26"
 | lieu_memoire_urbain | 1 |
 | cas_urbain | 1 |
 | contexte_social | 1 |
-| prudence_methodologique | 1 |
 | culture_urbaine | 1 |
 | limite_interpretative | 1 |
 | contexte_materiel | 1 |
@@ -442,7 +445,7 @@ generated_at: "2026-05-16T07:15:26"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 198 |
+| non qualifiée | 211 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
