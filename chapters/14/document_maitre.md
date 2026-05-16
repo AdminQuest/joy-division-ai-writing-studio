@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T06:13:46"
+generated_at: "2026-05-16T06:41:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 769 |
+| Atomes | 770 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 13 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 6 | 0 |
+| S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
@@ -135,6 +136,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `limite_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S02-PART-MANCHESTER-SHRINKING-CITY-V2** — S02 — Passe v2 — Manchester, shrinking city et renouveau urbain  
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-014** — S41-014 — Lesser Free Trade Hall, 4 juin 1976 : mythe et expérience vécue  
@@ -281,8 +284,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_groupe` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A184** — S41-A184 — Ian / Annik / Genesis : qui connaît le « vrai Ian » ?  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_identitaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + interprétation`.
-- **S41-A188** — S41-A188 — U2 à Britannia Row : prétendants humides, Hannett et bifurcation des carrières  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau_postpunk` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -935,6 +936,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | session_transition | 1 |
 | temoignage | 1 |
 | analyse_studio | 1 |
+| conclusion_historiographique | 1 |
 | ecosysteme | 1 |
 | mythe_nomination | 1 |
 | tension_synthese | 1 |
@@ -1027,7 +1029,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 483 |
+| non qualifiée | 484 |
 | critique | 218 |
 | majeure | 39 |
 | majeur | 25 |

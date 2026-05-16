@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T06:13:46"
+generated_at: "2026-05-16T06:41:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ generated_at: "2026-05-16T06:13:46"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 181 |
+| Atomes | 193 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 11 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 10 | 0 |
+| S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 46 | 2 |
@@ -73,6 +74,30 @@ generated_at: "2026-05-16T06:13:46"
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `limite_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S02-PART-MANCHESTER-SHRINKING-CITY-V2** — S02 — Passe v2 — Manchester, shrinking city et renouveau urbain  
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `lieu_memoire_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A004** — S20-A004 — Cartographier les problèmes de logement : Bastow, Marr et la géographie sanitaire  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `methode` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A005** — S20-A005 — La ceinture de taudis autour du cœur commercial de Manchester  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A007** — S20-A007 — Wythenshawe : ville satellite, relogement social et désancrage urbain  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A008** — S20-A008 — Le plan de 1945 et la dédensification programmée de Hulme  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `urbanisme` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A009** — S20-A009 — Overspill estates : Hattersley, Hyde, Heywood, Longdendale  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A010** — S20-A010 — Urban renewal des années 1960 : Action Areas et effacement des rues victoriennes  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `urbanisme` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A011** — S20-A011 — Beswick / Fort Beswick : échec des mégastructures et des streets-in-the-sky  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `cas_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A012** — S20-A012 — Désindustrialisation, chômage masculin et crise des estates  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A013** — S20-A013 — Démolition et retour aux maisons conventionnelles dans les années 1980  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `evenement_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-PART-HOUSING-GEOGRAPHIES-V2** — S20 — Passe v2 — Manchester, géographies du logement et solutions du XXe siècle  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-023** — S41-023 — Terry Mason : membre fondateur périphérique  
@@ -189,30 +214,6 @@ generated_at: "2026-05-16T06:13:46"
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S46-012** — S46-012 — Rob Gretton devient manager  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `acteur` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-014** — S46-014 — Factory I, Russell Club, 9 juin 1978  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-018** — S46-018 — Bowdon Vale, provocation publique et accusations de nazisme  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-019** — S46-019 — Rob Gretton formule l’ambition nationale  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `acteur` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-023** — S46-023 — *Transmission* comme single de relance et attraction des majors  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_strategie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-025** — S46-025 — Europe 1979-1980 et Les Bains-Douches  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie_tournee` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-026** — S46-026 — Paradiso : double set du 11 janvier 1980  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie_tournee` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-028** — S46-028 — Plan K : William Burroughs et la rue de Manchester  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-032** — S46-032 — Factory Club comme vrai point de naissance artistique  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_temoin` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-036** — S46-036 — Rupture avec RCA et durcissement de Gretton  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `industrie_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-040** — S46-040 — Bowdon Vale et les provocations anti-nazies du public  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-041** — S46-041 — Gretton et le refus symbolique du Sud  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `strategie_management` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-046** — S46-046 — Factory Tour : limites de la reconnaissance londonienne  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_live` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -287,6 +288,7 @@ generated_at: "2026-05-16T06:13:46"
 - dernier concert (3)
 - Here Are the Young Men (3)
 - Unknown Pleasures (3)
+- Hulme (3)
 - Factory Records (3)
 - performance (3)
 - live (3)
@@ -318,7 +320,6 @@ generated_at: "2026-05-16T06:13:46"
 - Pips (2)
 - 25 janvier 1978 (2)
 - première apparition (2)
-- Stiff Test (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -355,25 +356,28 @@ generated_at: "2026-05-16T06:13:46"
 | analyse | 4 |
 | management | 4 |
 | reception_live | 4 |
+| politique_urbaine | 4 |
 | anecdote_significative | 4 |
 | acteur | 3 |
 | concert_incident | 3 |
 | lieu | 3 |
 | industrie_musicale | 3 |
 | evenement_live | 3 |
+| concept_structurant | 3 |
 | fait_sensible | 3 |
+| methode | 2 |
 | infrastructure | 2 |
 | chronologie_tournee | 2 |
 | projet_avorte | 2 |
 | dynamique_collective | 2 |
 | archive | 2 |
-| concept_structurant | 2 |
-| politique_urbaine | 2 |
+| source_part | 2 |
+| urbanisme | 2 |
+| evenement_urbain | 2 |
 | contexte | 2 |
 | chronologie_live | 2 |
 | concept_transversal | 2 |
 | memoire | 2 |
-| methode | 1 |
 | contrepoint | 1 |
 | archive_broadcast | 1 |
 | television | 1 |
@@ -414,9 +418,11 @@ generated_at: "2026-05-16T06:13:46"
 | acteur_scene | 1 |
 | micro_chronologie | 1 |
 | non qualifié | 1 |
-| source_part | 1 |
+| lieu_memoire_urbain | 1 |
+| cas_urbain | 1 |
+| contexte_social | 1 |
+| conclusion_historiographique | 1 |
 | prudence_methodologique | 1 |
-| evenement_urbain | 1 |
 | culture_urbaine | 1 |
 | limite_interpretative | 1 |
 | contexte_materiel | 1 |
@@ -433,7 +439,7 @@ generated_at: "2026-05-16T06:13:46"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 180 |
+| non qualifiée | 192 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

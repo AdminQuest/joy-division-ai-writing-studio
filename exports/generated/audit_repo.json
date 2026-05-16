@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T06:29:18",
+  "generated_at": "2026-05-16T06:41:49",
   "summary": {
-    "records_total": 3459,
+    "records_total": 3491,
     "records_by_kind": {
-      "atom": 1652,
+      "atom": 1667,
       "quote": 353,
       "chronology": 335,
       "metadata": 24,
       "source": 56,
-      "unknown": 134,
-      "template": 271,
+      "unknown": 142,
+      "template": 280,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
@@ -18,9 +18,9 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16831,
+    "diagnostics_total": 16992,
     "errors": 0,
-    "warnings": 16831,
+    "warnings": 16992,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 14,
     "sources_exported": 14,
@@ -29,7 +29,7 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1652,
+    "atom": 1667,
     "chronology": 335,
     "concept": 170,
     "metadata": 24,
@@ -41,8 +41,8 @@
     "rules": 1,
     "song": 41,
     "source": 56,
-    "template": 271,
-    "unknown": 134
+    "template": 280,
+    "unknown": 142
   },
   "records_by_source": {
     "S02": {
@@ -51,8 +51,9 @@
       "unknown": 8
     },
     "S20": {
+      "atom": 15,
       "metadata": 3,
-      "unknown": 1
+      "unknown": 9
     },
     "S41": {
       "atom": 430,
@@ -135,12 +136,12 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 133,
+    "Chapitre 1": 147,
     "Chapitre 10": 233,
     "Chapitre 11": 213,
     "Chapitre 12": 463,
     "Chapitre 13": 109,
-    "Chapitre 14": 978,
+    "Chapitre 14": 980,
     "Chapitre 2": 345,
     "Chapitre 3": 382,
     "Chapitre 4": 294,
@@ -148,7 +149,7 @@
     "Chapitre 6": 563,
     "Chapitre 7": 101,
     "Chapitre 8": 311,
-    "Chapitre 9": 218,
+    "Chapitre 9": 231,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -276,12 +277,12 @@
     ]
   ],
   "issue_categories": {
-    "field_type_error": 145,
-    "invalid_controlled_value": 1376,
-    "missing_required_field": 4808,
+    "field_type_error": 146,
+    "invalid_controlled_value": 1392,
+    "missing_required_field": 4810,
     "schema_warning": 399,
-    "unknown_yaml_block": 134,
-    "v2_migration_debt": 9969
+    "unknown_yaml_block": 142,
+    "v2_migration_debt": 10103
   },
   "top_files_by_issue_count": [
     [
@@ -407,6 +408,14 @@
   ],
   "blocking_errors": [],
   "unknown_yaml_blocks": [
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/organizations/s20_dodge_organizations_housing_geographies_v2.md",
+      "record_id": "ORGS-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
     {
       "level": "warning",
       "category": "unknown_yaml_block",
@@ -1394,6 +1403,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
+      "record_id": "REL-RAG-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
       "record_id": "REL-RAG-S02-MANCHESTER-SHRINKING-CITY-V2",
       "message": "Unable to infer documentary kind",
@@ -1402,8 +1419,24 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+      "record_id": "PLACES-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
       "record_id": "PLACES-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
+      "record_id": "MOTIFS-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1420,6 +1453,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
       "record_id": "MOTIFS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/people/s20_dodge_people_housing_geographies_v2.md",
+      "record_id": "PEOPLE-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -1450,6 +1491,22 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/concepts/s20_dodge_concepts_housing_geographies_v2.md",
+      "record_id": "CONCEPTS-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s20_dodge_myths_housing_geographies_v2.md",
+      "record_id": "MYTHS-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
       "record_id": "MYTHES-S02-MANCHESTER-SHRINKING-CITY-V2",
       "message": "Unable to infer documentary kind",
@@ -1474,6 +1531,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/chronology/s20_dodge_chronology_housing_geographies_v2.md",
+      "record_id": "CHRONO-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/chronology/s02_sueur_chronology_manchester_shrinking_city_v2.md",
       "record_id": "CHRONO-S02-MANCHESTER-SHRINKING-CITY-V2",
       "message": "Unable to infer documentary kind",
@@ -1481,10 +1546,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1652,
+    "atoms_total": 1667,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1591,
-    "v2_missing_field_warnings": 9969
+    "atoms_v2_incomplete": 1606,
+    "v2_missing_field_warnings": 10103
   },
   "source_registry": {
     "declared_but_unused": [
@@ -2052,13 +2117,22 @@
         "auteur": "Martin Dodge",
         "titre": "Mapping the geographies of Manchester’s housing problems and the twentieth century solutions",
         "annee": "s.d.",
-        "records": 4,
-        "atoms": 0,
+        "records": 27,
+        "atoms": 15,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/chronology/s20_dodge_chronology_housing_geographies_v2.md",
+          "registers/concepts/s20_dodge_concepts_housing_geographies_v2.md",
+          "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
+          "registers/myths/s20_dodge_myths_housing_geographies_v2.md",
+          "registers/organizations/s20_dodge_organizations_housing_geographies_v2.md",
+          "registers/people/s20_dodge_people_housing_geographies_v2.md",
+          "registers/places/s20_dodge_places_housing_geographies_v2.md",
+          "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
           "registers/references/s20_dodge_source_canonique.md",
-          "sources/dodge_manchester_geographies/source.md"
+          "sources/dodge_manchester_geographies/source.md",
+          "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md"
         ]
       },
       {
@@ -81596,6 +81670,1230 @@
     {
       "level": "warning",
       "category": "missing_required_field",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Invalid value for statut: integration_directe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A001",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A001",
+      "message": "Invalid value for type_unite: contexte_urbain",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "field_type_error",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A001",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "suggested_action": "Corriger le type YAML du champ."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A002",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A002",
+      "message": "Invalid value for type_unite: lieu_memoire_urbain",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A003",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A003",
+      "message": "Invalid value for type_unite: lieu",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A004",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A004",
+      "message": "Invalid value for type_unite: methode",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A005",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A005",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A006",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A006",
+      "message": "Invalid value for type_unite: politique_urbaine",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A007",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A007",
+      "message": "Invalid value for type_unite: politique_urbaine",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A008",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A008",
+      "message": "Invalid value for type_unite: urbanisme",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A009",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A009",
+      "message": "Invalid value for type_unite: politique_urbaine",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A010",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A010",
+      "message": "Invalid value for type_unite: urbanisme",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A011",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A011",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A011",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A011",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A011",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A011",
+      "message": "Invalid value for type_unite: cas_urbain",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A012",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A012",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A012",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A012",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A012",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A012",
+      "message": "Invalid value for type_unite: contexte_social",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A013",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A013",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A013",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A013",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A013",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A013",
+      "message": "Invalid value for type_unite: evenement_urbain",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A014",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A014",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A014",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A014",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A014",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A014",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "record_id": "S20-A014",
+      "message": "Invalid value for type_unite: conclusion_historiographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
       "file": "sources/middles_reade_torn_apart/source_part_04.md",
       "record_id": "S76-A035",
       "message": "Missing required field: auteur",
@@ -114620,6 +115918,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/organizations/s20_dodge_organizations_housing_geographies_v2.md",
+      "record_id": "ORGS-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md",
       "record_id": "ORGS-S02-MANCHESTER-SHRINKING-CITY-V2",
       "message": "Unable to infer documentary kind",
@@ -135220,6 +136526,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
+      "record_id": "REL-RAG-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
       "record_id": "REL-RAG-S02-MANCHESTER-SHRINKING-CITY-V2",
       "message": "Unable to infer documentary kind",
@@ -135228,8 +136542,24 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+      "record_id": "PLACES-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
       "record_id": "PLACES-S02-MANCHESTER-SHRINKING-CITY-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
+      "record_id": "MOTIFS-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -135246,6 +136576,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
       "record_id": "MOTIFS-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/people/s20_dodge_people_housing_geographies_v2.md",
+      "record_id": "PEOPLE-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -135972,6 +137310,22 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/concepts/s20_dodge_concepts_housing_geographies_v2.md",
+      "record_id": "CONCEPTS-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/myths/s20_dodge_myths_housing_geographies_v2.md",
+      "record_id": "MYTHS-S20-HOUSING-GEOGRAPHIES-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
       "record_id": "MYTHES-S02-MANCHESTER-SHRINKING-CITY-V2",
       "message": "Unable to infer documentary kind",
@@ -135990,6 +137344,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/chronology/s69_greig_strong_chronology_nostalgie_memoire_v2.md",
       "record_id": "CHRONO-S69-NOSTALGIE-MEMOIRE-V2",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/chronology/s20_dodge_chronology_housing_geographies_v2.md",
+      "record_id": "CHRONO-S20-HOUSING-GEOGRAPHIES-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },

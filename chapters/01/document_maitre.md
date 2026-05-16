@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T06:13:46"
+generated_at: "2026-05-16T06:41:51"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ generated_at: "2026-05-16T06:13:46"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 71 |
+| Atomes | 84 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 11 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 7 | 0 |
+| S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -101,6 +102,32 @@ generated_at: "2026-05-16T06:13:46"
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `culture_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S02-PART-MANCHESTER-SHRINKING-CITY-V2** — S02 — Passe v2 — Manchester, shrinking city et renouveau urbain  
   Source : S02 — Sueur, Villes du futur, futur des villes, 2011 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A001** — S20-A001 — Manchester industriel et logement ouvrier : absence de plan et logique du profit  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `lieu_memoire_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A003** — S20-A003 — Victoria Park et la ségrégation résidentielle bourgeoise  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `lieu` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A004** — S20-A004 — Cartographier les problèmes de logement : Bastow, Marr et la géographie sanitaire  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `methode` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A005** — S20-A005 — La ceinture de taudis autour du cœur commercial de Manchester  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A006** — S20-A006 — Chorltonville et la solution garden suburb  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A007** — S20-A007 — Wythenshawe : ville satellite, relogement social et désancrage urbain  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A008** — S20-A008 — Le plan de 1945 et la dédensification programmée de Hulme  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `urbanisme` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A009** — S20-A009 — Overspill estates : Hattersley, Hyde, Heywood, Longdendale  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A010** — S20-A010 — Urban renewal des années 1960 : Action Areas et effacement des rues victoriennes  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `urbanisme` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A011** — S20-A011 — Beswick / Fort Beswick : échec des mégastructures et des streets-in-the-sky  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `cas_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-A012** — S20-A012 — Désindustrialisation, chômage masculin et crise des estates  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S20-PART-HOUSING-GEOGRAPHIES-V2** — S20 — Passe v2 — Manchester, géographies du logement et solutions du XXe siècle  
+  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-005** — S41-005 — Enfance de Hook : Salford, violence domestique et monde ouvrier  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-006** — S41-006 — Salford comme paysage noir, humide, smoggy  
@@ -231,6 +258,8 @@ generated_at: "2026-05-16T06:13:46"
 - NME (3)
 - Macclesfield (3)
 - classe ouvriere (3)
+- désindustrialisation (3)
+- Hulme (3)
 - biographie contre mythe social (2)
 - post-punk (2)
 - factory records (2)
@@ -244,6 +273,7 @@ generated_at: "2026-05-16T06:13:46"
 - city fun (2)
 - fanzine (2)
 - scène locale (2)
+- crise sociale (2)
 - Sex Pistols (2)
 - Buzzcocks (2)
 - enfance (2)
@@ -254,8 +284,10 @@ generated_at: "2026-05-16T06:13:46"
 - scène d’apprentissage (2)
 - salford (2)
 - géographie biographique (2)
-- désindustrialisation (2)
 - mémoire ouvrière (2)
+- géographie sociale (2)
+- slum clearance (2)
+- logement social (2)
 - shrinking city (2)
 - Factory Records (2)
 - ville télévisuelle (1)
@@ -296,11 +328,6 @@ generated_at: "2026-05-16T06:13:46"
 - paysages de ruine (1)
 - ballardian manchester (1)
 - local universel (1)
-- atmosphère (1)
-- condition humaine (1)
-- rivalité locale (1)
-- scène post-punk (1)
-- trafford park (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -419,16 +446,20 @@ generated_at: "2026-05-16T06:13:46"
 | analyse | 5 |
 | contexte | 4 |
 | biographie | 4 |
+| contexte_social | 4 |
+| methode | 3 |
 | contrepoint | 3 |
 | lecture | 3 |
 | lieu_scene | 3 |
-| contexte_social | 3 |
+| concept_structurant | 3 |
+| politique_urbaine | 3 |
 | concept | 3 |
 | tension_documentaire | 2 |
 | prudence_methodologique | 2 |
-| methode | 2 |
 | chronologie | 2 |
-| concept_structurant | 2 |
+| source_part | 2 |
+| lieu | 2 |
+| urbanisme | 2 |
 | mediation_visuelle | 1 |
 | contexte_scene | 1 |
 | infrastructure | 1 |
@@ -444,13 +475,14 @@ generated_at: "2026-05-16T06:13:46"
 | citation_repere | 1 |
 | biographie_collective | 1 |
 | temoignage | 1 |
+| contexte_urbain | 1 |
+| lieu_memoire_urbain | 1 |
+| cas_urbain | 1 |
 | contexte_biographique | 1 |
 | lieu_culturel | 1 |
 | sociabilite_scene | 1 |
 | geographie_sociale | 1 |
-| source_part | 1 |
 | fait_cadre | 1 |
-| lieu | 1 |
 | culture_urbaine | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
@@ -461,7 +493,7 @@ generated_at: "2026-05-16T06:13:46"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 51 |
+| non qualifiée | 64 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

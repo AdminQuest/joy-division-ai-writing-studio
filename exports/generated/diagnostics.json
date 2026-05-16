@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-16T06:29:08",
+  "generated_at": "2026-05-16T06:41:38",
   "status": "warning",
   "summary": {
-    "records_total": 3459,
+    "records_total": 3491,
     "records_by_kind": {
-      "atom": 1652,
+      "atom": 1667,
       "quote": 353,
       "chronology": 335,
       "metadata": 24,
       "source": 56,
-      "unknown": 134,
-      "template": 271,
+      "unknown": 142,
+      "template": 280,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
@@ -19,9 +19,9 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16831,
+    "diagnostics_total": 16992,
     "errors": 0,
-    "warnings": 16831,
+    "warnings": 16992,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 14,
     "sources_exported": 14,
@@ -595,13 +595,22 @@
         "auteur": "Martin Dodge",
         "titre": "Mapping the geographies of Manchester’s housing problems and the twentieth century solutions",
         "annee": "s.d.",
-        "records": 4,
-        "atoms": 0,
+        "records": 27,
+        "atoms": 15,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/chronology/s20_dodge_chronology_housing_geographies_v2.md",
+          "registers/concepts/s20_dodge_concepts_housing_geographies_v2.md",
+          "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
+          "registers/myths/s20_dodge_myths_housing_geographies_v2.md",
+          "registers/organizations/s20_dodge_organizations_housing_geographies_v2.md",
+          "registers/people/s20_dodge_people_housing_geographies_v2.md",
+          "registers/places/s20_dodge_places_housing_geographies_v2.md",
+          "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
           "registers/references/s20_dodge_source_canonique.md",
-          "sources/dodge_manchester_geographies/source.md"
+          "sources/dodge_manchester_geographies/source.md",
+          "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md"
         ]
       },
       {
@@ -60352,6 +60361,924 @@
     },
     {
       "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for statut: integration_directe",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S20-PART-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: contexte_urbain",
+      "record_id": "S20-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Field must be an object/dict: niveau_preuve",
+      "record_id": "S20-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: lieu_memoire_urbain",
+      "record_id": "S20-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: lieu",
+      "record_id": "S20-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: methode",
+      "record_id": "S20-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S20-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: politique_urbaine",
+      "record_id": "S20-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: politique_urbaine",
+      "record_id": "S20-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: urbanisme",
+      "record_id": "S20-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: politique_urbaine",
+      "record_id": "S20-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: urbanisme",
+      "record_id": "S20-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: cas_urbain",
+      "record_id": "S20-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: contexte_social",
+      "record_id": "S20-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: evenement_urbain",
+      "record_id": "S20-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S20-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S20-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S20-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S20-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S20-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S20-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S20-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S20-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S20-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md",
+      "message": "Invalid value for type_unite: conclusion_historiographique",
+      "record_id": "S20-A014"
+    },
+    {
+      "level": "warning",
       "file": "sources/middles_reade_torn_apart/source_part_04.md",
       "message": "Missing required field: auteur",
       "record_id": "S76-A035"
@@ -85120,6 +86047,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/organizations/s20_dodge_organizations_housing_geographies_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "ORGS-S20-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "ORGS-S02-MANCHESTER-SHRINKING-CITY-V2"
@@ -100570,15 +101503,33 @@
     },
     {
       "level": "warning",
+      "file": "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-RAG-S20-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/references/s02_sueur_relations_rag_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-RAG-S02-MANCHESTER-SHRINKING-CITY-V2"
     },
     {
       "level": "warning",
+      "file": "registers/places/s20_dodge_places_housing_geographies_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PLACES-S20-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/places/s02_sueur_places_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "PLACES-S02-MANCHESTER-SHRINKING-CITY-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/motifs/s20_dodge_motifs_housing_geographies_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MOTIFS-S20-HOUSING-GEOGRAPHIES-V2"
     },
     {
       "level": "warning",
@@ -100591,6 +101542,12 @@
       "file": "registers/motifs/s69_greig_strong_motifs_nostalgie_memoire_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MOTIFS-S69-NOSTALGIE-MEMOIRE-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s20_dodge_people_housing_geographies_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "PEOPLE-S20-HOUSING-GEOGRAPHIES-V2"
     },
     {
       "level": "warning",
@@ -101134,6 +102091,18 @@
     },
     {
       "level": "warning",
+      "file": "registers/concepts/s20_dodge_concepts_housing_geographies_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CONCEPTS-S20-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/myths/s20_dodge_myths_housing_geographies_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "MYTHS-S20-HOUSING-GEOGRAPHIES-V2"
+    },
+    {
+      "level": "warning",
       "file": "registers/myths/s02_sueur_mythes_manchester_shrinking_city_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MYTHES-S02-MANCHESTER-SHRINKING-CITY-V2"
@@ -101149,6 +102118,12 @@
       "file": "registers/chronology/s69_greig_strong_chronology_nostalgie_memoire_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "CHRONO-S69-NOSTALGIE-MEMOIRE-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s20_dodge_chronology_housing_geographies_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "CHRONO-S20-HOUSING-GEOGRAPHIES-V2"
     },
     {
       "level": "warning",
