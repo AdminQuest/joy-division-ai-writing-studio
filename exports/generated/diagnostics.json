@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T07:00:09",
+  "generated_at": "2026-05-16T07:06:14",
   "status": "warning",
   "summary": {
-    "records_total": 3489,
+    "records_total": 3493,
     "records_by_kind": {
       "atom": 1667,
+      "metadata": 27,
       "quote": 353,
       "chronology": 335,
-      "metadata": 24,
       "source": 54,
-      "unknown": 142,
+      "unknown": 143,
       "template": 280,
       "song": 41,
       "quote_batch": 1,
@@ -19,13 +19,13 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 16992,
+    "diagnostics_total": 16993,
     "errors": 0,
-    "warnings": 16992,
+    "warnings": 16993,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 14,
-    "sources_exported": 14,
-    "declared_but_unused": 37,
+    "sources_used_in_records": 15,
+    "sources_exported": 15,
+    "declared_but_unused": 36,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -70,21 +70,6 @@
           "désindustrialisation",
           "emplois manufacturiers",
           "Manchester"
-        ]
-      },
-      {
-        "source_id": "S05",
-        "source_label": "S05 — Jeffery, Policing and the Reproduction of Local Social Order, 2015",
-        "auteur": "Peter Jeffery",
-        "titre": "Policing and the Reproduction of Local Social Order: The 1981 Riots in Moss Side, Manchester",
-        "annee": "2015",
-        "statut": "verifie",
-        "usage": [
-          "Moss Side",
-          "émeutes",
-          "police",
-          "ordre public",
-          "ordres de grandeur"
         ]
       },
       {
@@ -587,6 +572,21 @@
           "registers/references/s02_sueur_source_canonique.md",
           "sources/sueur_villes_du_futur/source.md",
           "sources/sueur_villes_du_futur/source_part_manchester_shrinking_city_v2.md"
+        ]
+      },
+      {
+        "source_id": "S05",
+        "source_label": "S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015",
+        "auteur": "Bob Jeffery ; Waqas Tufail ; Will Jackson",
+        "titre": "Policing and the Reproduction of Local Social Order: a case study of Greater Manchester",
+        "annee": "2015",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
+          "sources/jeffery_tufail_jackson_policing/source.md"
         ]
       },
       {
@@ -101494,6 +101494,12 @@
       "file": "registers/references/s20_dodge_source_canonique.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REG-S20-DODGE-SOURCE-CANONIQUE"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S05-JEFFERY-TUFAIL-JACKSON-SOURCE-CANONIQUE"
     },
     {
       "level": "warning",
