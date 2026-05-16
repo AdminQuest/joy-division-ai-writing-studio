@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:39:46"
+generated_at: "2026-05-16T09:04:43"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 774 |
+| Atomes | 780 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
@@ -37,7 +37,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 6 | 0 |
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 1 | 0 |
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 2 | 0 |
-| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 1 | 0 |
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
@@ -147,6 +147,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S10-A023** — S10-A023 — « Love Will Tear Us Apart » : riff, arrangement, paroles, postérité  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A028** — S10-A028 — Cargo / Sordide Sentimental : « Atmosphere » et « Dead Souls » comme extension spectrale du son  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `session_studio` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A033** — S10-A033 — Continuer sans Curtis : interdiction de reprendre le nom Joy Division et naissance d’une contrainte  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `decision_collective` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A034** — S10-A034 — Trouver une voix : Sumner chanteur par défaut et crise de légitimité  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_vocale` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A035** — S10-A035 — De Joy Division à Movement : survivance du deuil dans une musique qui cherche sa forme  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_album` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A036** — S10-A036 — La mémoire mondiale de Joy Division / New Order : de Manchester aux publics globaux  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `reception_memoire` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2** — S10 — Passe v2 bis — Joy Division tardif, transition et mémoire selon Sumner  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -275,18 +287,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_single` ; importance : `critique` ; preuve : `chronologie discographique`.
 - **S41-A163** — S41-A163 — YMCA / Nashville / Leigh : montée live, images heureuses et « Atmosphere » avant funérailles  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `chronologie + citation critique + commentaire Hook`.
-- **S41-A164** — S41-A164 — Futurama / Factory Flick / Something Else : visibilité scénique, audiovisuelle et médiatique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `mediation_audiovisuelle` ; importance : `critique` ; preuve : `chronologie audiovisuelle et live`.
-- **S41-A165** — S41-A165 — Earcom 2 / Sordide / Buzzcocks tour : octobre comme carrefour discographique et scénique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `carrefour_discographique_live` ; importance : `critique` ; preuve : `chronologie discographique et live`.
-- **S41-A166** — S41-A166 — Timeline Four fin 1979 : tournée Buzzcocks, setlists variables et crise visible  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live` ; importance : `critique` ; preuve : `chronologie éditoriale + témoignage direct`.
-- **S41-A167** — S41-A167 — Electric Ballroom : règle punk, Factory et stratégie de contrariété  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `ethos_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A168** — S41-A168 — Anton Corbijn : photographie rapide, icône durable et retour critique par Control  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `archive_visuelle` ; importance : `critique` ; preuve : `témoignage direct + archive photographique vérifiable`.
-- **S41-A169** — S41-A169 — Bournemouth : set écourté, hospitalisation et limite du système de tournée  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `chronologie éditoriale + événement médical rapporté`.
 
 ## 7. Citations disponibles
 
@@ -430,7 +430,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ## 11. Concepts récurrents
 
-- New Order (37)
+- New Order (41)
 - Factory (31)
 - Ian Curtis (26)
 - Still (26)
@@ -441,19 +441,19 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Love Will Tear Us Apart (16)
 - NME (15)
 - prudence historiographique (15)
+- Atmosphere (14)
 - new order (13)
 - factory records (13)
-- Atmosphere (13)
 - peter saville (12)
 - réception (12)
 - martin hannett (11)
 - Tony Wilson (11)
 - Ceremony (11)
 - mémoire (11)
+- Dead Souls (10)
 - She's Lost Control (10)
 - presse musicale (10)
 - John Peel (10)
-- Dead Souls (9)
 - Factory Records (9)
 - An Ideal for Living (9)
 - postérité (9)
@@ -686,6 +686,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | acteur_critique | 4 |
+| session_studio | 4 |
 | lecture_chanson | 4 |
 | concert_europeen | 4 |
 | reception_presse | 3 |
@@ -707,7 +708,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept | 3 |
 | objet_visuel | 3 |
 | decision_strategique | 3 |
-| session_studio | 3 |
 | interpretation | 3 |
 | song_session | 3 |
 | song | 3 |
@@ -754,6 +754,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept_management | 2 |
 | bascule_tournee | 2 |
 | concert_archive | 2 |
+| source_part | 2 |
 | politique_urbaine | 2 |
 | marketing | 2 |
 | album | 2 |
@@ -998,10 +999,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | scene_deuil_mythographique | 1 |
 | scene_deuil_collectif | 1 |
 | concert_filme | 1 |
-| source_part | 1 |
 | evenement_urbain | 1 |
 | culture_urbaine | 1 |
 | limite_interpretative | 1 |
+| decision_collective | 1 |
+| transition_vocale | 1 |
+| transition_album | 1 |
+| reception_memoire | 1 |
 | motif_discursif | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
@@ -1033,7 +1037,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 488 |
+| non qualifiée | 494 |
 | critique | 218 |
 | majeure | 39 |
 | majeur | 25 |

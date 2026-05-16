@@ -76662,6 +76662,412 @@
   },
   {
     "kind": "atom",
+    "id": "S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10 — Passe v2 bis — Joy Division tardif, transition et mémoire selon Sumner",
+    "data": {
+      "id": "S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "auteur": "Bernard Sumner",
+      "titre": "Chapter and Verse: New Order, Joy Division and Me",
+      "type_unite": "source_part",
+      "statut": "integration_directe",
+      "fiabilite": "forte, mais témoignage rétrospectif à croiser",
+      "citation_directe": false,
+      "passage_atomise": "Deuxième passage utile au livre : chapitres 9 à 12 et passages rétrospectifs connexes ; après Unknown Pleasures, Transmission, Atmosphere / Dead Souls, Closer, fin de Joy Division, Ceremony / In a Lonely Place, transition New Order et mémoire longue du groupe.",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 4",
+        "Chapitre 6",
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A026",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A026 — Après Unknown Pleasures : le groupe cherche un dépassement, non une répétition",
+    "data": {
+      "id": "S10-A026",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "auteur": "Bernard Sumner",
+      "type_unite": "transition_artistique",
+      "concepts": [
+        "après Unknown Pleasures",
+        "maturité sonore",
+        "non-répétition",
+        "Joy Division tardif"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 4"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Croiser avec S75 et S76 pour la chronologie exacte des sessions."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A027",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A027 — « Transmission » comme articulation entre injonction collective et tension radio",
+    "data": {
+      "id": "S10-A027",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "analyse_morceau",
+      "concepts": [
+        "Transmission",
+        "radio",
+        "répétition",
+        "tension collective",
+        "single"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 4",
+        "Chapitre 10"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "related_songs": [
+        "Transmission"
+      ],
+      "methodological_warnings": [
+        "Croiser avec S75, S76 et les sessionographies pour date, versions et supports."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A028",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A028 — Cargo / Sordide Sentimental : « Atmosphere » et « Dead Souls » comme extension spectrale du son",
+    "data": {
+      "id": "S10-A028",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "session_studio",
+      "concepts": [
+        "Atmosphere",
+        "Dead Souls",
+        "Cargo Studios",
+        "Sordide Sentimental",
+        "spectralité"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "related_songs": [
+        "Atmosphere",
+        "Dead Souls"
+      ],
+      "related_organizations": [
+        "Sordide Sentimental"
+      ],
+      "methodological_warnings": [
+        "Croiser avec S75, S76, Sordide Sentimental et sources discographiques."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A029",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A029 — *Closer* : Britannia Row, déplacement géographique et intensification sonore",
+    "data": {
+      "id": "S10-A029",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "production_album",
+      "concepts": [
+        "Closer",
+        "Britannia Row",
+        "Martin Hannett",
+        "déplacement hors Manchester",
+        "intensification sonore"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "related_albums": [
+        "Closer"
+      ],
+      "related_places": [
+        "Britannia Row Studios"
+      ],
+      "methodological_warnings": [
+        "Croiser avec S45 et S76 ; ne pas faire de Sumner le témoin unique de Closer."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A030",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A030 — Curtis, écriture de Closer et sentiment d’accélération incontrôlable",
+    "data": {
+      "id": "S10-A030",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "crise_creative",
+      "concepts": [
+        "Ian Curtis",
+        "Closer",
+        "écriture",
+        "pression psychique",
+        "accélération"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "methodological_warnings": [
+        "Ne pas psychologiser au-delà de ce que Sumner dit ; croiser avec S45 et S76."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A031",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A031 — « Ceremony » et « In a Lonely Place » : écrire pour soutenir Curtis, produire un seuil post-Joy Division",
+    "data": {
+      "id": "S10-A031",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "transition_morceaux",
+      "concepts": [
+        "Ceremony",
+        "In a Lonely Place",
+        "Graveyard rehearsals",
+        "transition Joy Division New Order",
+        "soutien à Curtis"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "related_songs": [
+        "Ceremony",
+        "In a Lonely Place"
+      ],
+      "methodological_warnings": [
+        "Croiser avec S41 et les bandes Graveyard ; éviter les lectures téléologiques trop nettes."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A032",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A032 — La mort de Curtis comme rupture pratique avant d’être mythe",
+    "data": {
+      "id": "S10-A032",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "rupture_biographique",
+      "concepts": [
+        "mort de Curtis",
+        "interruption de tournée",
+        "choc pratique",
+        "survie du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 10",
+        "Chapitre 12"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "methodological_warnings": [
+        "Ne pas transformer immédiatement la mort en mythe ; restituer la stupeur matérielle et pratique."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A033",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A033 — Continuer sans Curtis : interdiction de reprendre le nom Joy Division et naissance d’une contrainte",
+    "data": {
+      "id": "S10-A033",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "decision_collective",
+      "concepts": [
+        "New Order",
+        "fin de Joy Division",
+        "contrainte de continuité",
+        "nom du groupe"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "related_organizations": [
+        "Joy Division",
+        "New Order"
+      ],
+      "methodological_warnings": [
+        "Croiser avec Hook et Morris ; ne pas réduire la décision au seul récit de Sumner."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A034",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A034 — Trouver une voix : Sumner chanteur par défaut et crise de légitimité",
+    "data": {
+      "id": "S10-A034",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "transition_vocale",
+      "concepts": [
+        "Bernard Sumner chanteur",
+        "New Order",
+        "légitimité vocale",
+        "absence de Curtis"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "related_people": [
+        "Bernard Sumner",
+        "Ian Curtis"
+      ],
+      "methodological_warnings": [
+        "Ne pas juger rétrospectivement la voix de Sumner à partir de la période New Order stabilisée."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A035",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A035 — De Joy Division à Movement : survivance du deuil dans une musique qui cherche sa forme",
+    "data": {
+      "id": "S10-A035",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "transition_album",
+      "concepts": [
+        "Movement",
+        "deuil",
+        "New Order",
+        "héritage Joy Division",
+        "identité instable"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "related_albums": [
+        "Movement"
+      ],
+      "methodological_warnings": [
+        "Croiser avec sources New Order et Factory ; garder Movement comme prolongement hésitant, non simple album Joy Division tardif."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S10-A036",
+    "file": "sources/sumner_chapter_and_verse/source_part_sumner_late_jd_transition_memory_v2.md",
+    "heading": "S10-A036 — La mémoire mondiale de Joy Division / New Order : de Manchester aux publics globaux",
+    "data": {
+      "id": "S10-A036",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "reception_memoire",
+      "concepts": [
+        "réception mondiale",
+        "Unknown Pleasures T-shirt",
+        "fans intergénérationnels",
+        "mémoire globale",
+        "New Order"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "source_primaire_retrospective",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Utiliser comme témoignage de perception contemporaine de Sumner ; croiser avec S69 sur nostalgie et réception."
+      ],
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2",
     "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
     "heading": "S06 — Passe v2 — Hulme, inner city vécue et espace discursif",
@@ -87883,6 +88289,21 @@
       "source_label": "S76 — Middles & Reade, Torn Apart, 2006",
       "source_short_title": "Mick Middles ; Lindsay Reade, Torn Apart: The Life of Ian Curtis, 2006",
       "source_year": "2006"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "SONGS-S10-LATE-JD-TRANSITION-MEMORY-V2",
+    "file": "registers/songs/s10_sumner_songs_late_jd_transition_memory_v2.md",
+    "heading": "S10 — Compléments au registre des chansons — Joy Division tardif et transition New Order",
+    "data": {
+      "id": "SONGS-S10-LATE-JD-TRANSITION-MEMORY-V2",
+      "source_id": "S10",
+      "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+      "type_unite": "registre_chansons",
+      "statut": "integration_directe",
+      "source_short_title": "Bernard Sumner, Chapter and Verse: New Order, Joy Division and Me, 2014/2015",
+      "source_year": "2014/2015"
     }
   },
   {

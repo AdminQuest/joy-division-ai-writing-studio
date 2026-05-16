@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:39:46"
+generated_at: "2026-05-16T09:04:43"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 285 |
+| Atomes | 289 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
@@ -34,7 +34,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 9 | 0 |
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
@@ -138,6 +138,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `production_album` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-A022** — S10-A022 — Processus de composition collectif et rôle d’Ian Curtis  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `processus_creatif` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A026** — S10-A026 — Après Unknown Pleasures : le groupe cherche un dépassement, non une répétition  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_artistique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A027** — S10-A027 — « Transmission » comme articulation entre injonction collective et tension radio  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A028** — S10-A028 — Cargo / Sordide Sentimental : « Atmosphere » et « Dead Souls » comme extension spectrale du son  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `session_studio` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2** — S10 — Passe v2 bis — Joy Division tardif, transition et mémoire selon Sumner  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
@@ -274,14 +282,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `broadcast` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-029** — S46-029 — Paul Morley, Wozencroft et la lecture occulto-filmique  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S46-034** — S46-034 — Mauvaise qualité sonore du 7 pouces  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `reception_critique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-039** — S46-039 — FAC 2 et l’entrée discographique dans Factory  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_factory` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-042** — S46-042 — Walthamstow et la marche vers *Unknown Pleasures*  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chronologie_pre_album` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-043** — S46-043 — Sessions d’*Unknown Pleasures* : durée et intensité  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `enregistrement` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -387,12 +387,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - production (9)
 - contrainte productive (8)
 - Strawberry Studios (8)
+- Transmission (7)
+- Cargo Studios (7)
 - Stephen Morris (7)
 - martin hannett (6)
 - espace sonore (6)
-- Transmission (6)
 - A Factory Sample (6)
-- Cargo Studios (6)
 - voix (6)
 - Peter Hook (6)
 - ian curtis (6)
@@ -402,7 +402,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Glass (5)
 - NME (5)
 - studio (5)
+- Dead Souls (5)
+- répétition (5)
 - synthétiseur (5)
+- Atmosphere (5)
 - a factory sample (4)
 - glass (4)
 - factory (4)
@@ -412,10 +415,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Peel Session (4)
 - Arrow Studios (4)
 - batterie (4)
-- Dead Souls (4)
-- répétition (4)
 - producteur catalyseur (4)
-- Atmosphere (4)
+- spectralité (4)
+- radio (3)
 - piccadilly radio (3)
 - dub (3)
 - factory records (3)
@@ -428,7 +430,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Factory (3)
 - An Ideal for Living (3)
 - domesticité (3)
-- spectralité (3)
 - prudence historiographique (3)
 - cinquième membre (3)
 - Hannett (3)
@@ -437,7 +438,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Granada Reports (3)
 - john peel (2)
 - peel session (2)
-- radio (2)
 - martin rushent (2)
 - genetic records (2)
 - strawberry studios (2)
@@ -448,6 +448,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - europe froide (2)
 - erreur productive (2)
 - Joy Division (2)
+- single (2)
 - 18 juillet 1977 (2)
 - Inside the Line (2)
 - The Kill (2)
@@ -458,7 +459,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Martin Zero (2)
 - avril 1979 (2)
 - Ian Wood (2)
-- Eric's Liverpool (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -595,9 +595,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Type | Nombre |
 |---|---|
 | non qualifié | 34 |
+| session_studio | 17 |
 | production | 16 |
-| session_studio | 16 |
-| analyse_morceau | 10 |
+| analyse_morceau | 11 |
 | lecture_musicale | 10 |
 | processus_creatif | 9 |
 | analyse | 9 |
@@ -633,6 +633,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | performance_live | 2 |
 | temoignage_direct_rapporte | 2 |
 | scene_repetition | 2 |
+| source_part | 2 |
 | evenement | 2 |
 | concept_transversal | 2 |
 | album | 2 |
@@ -701,10 +702,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | relation_studio | 1 |
 | controverse_studio | 1 |
 | lecture_reprise | 1 |
-| source_part | 1 |
 | influence_esthetique | 1 |
 | professionnalisation | 1 |
 | media_scene | 1 |
+| transition_artistique | 1 |
 | transition | 1 |
 | conflit_esthetique | 1 |
 | portrait_technique | 1 |
@@ -716,7 +717,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 179 |
+| non qualifiée | 183 |
 | critique | 86 |
 | majeure | 11 |
 | majeur | 9 |

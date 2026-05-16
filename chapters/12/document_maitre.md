@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 12"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:39:46"
+generated_at: "2026-05-16T09:04:43"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 318 |
+| Atomes | 323 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 82 |
 | Événements chronologiques | 56 |
 | Personnes | 35 |
 | Chansons | 6 |
-| Sources mobilisées | 8 |
+| Sources mobilisées | 9 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 71 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 61 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 25 | 0 |
@@ -118,6 +119,16 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 
 ## 6. Autres atomes utiles
 
+- **S10-A031** — S10-A031 — « Ceremony » et « In a Lonely Place » : écrire pour soutenir Curtis, produire un seuil post-Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_morceaux` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A032** — S10-A032 — La mort de Curtis comme rupture pratique avant d’être mythe  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `rupture_biographique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A033** — S10-A033 — Continuer sans Curtis : interdiction de reprendre le nom Joy Division et naissance d’une contrainte  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `decision_collective` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A034** — S10-A034 — Trouver une voix : Sumner chanteur par défaut et crise de légitimité  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_vocale` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A035** — S10-A035 — De Joy Division à Movement : survivance du deuil dans une musique qui cherche sa forme  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_album` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S41-A002** — S41-A002 — Trans-Europe Express à Pips : Curtis entre rituel d’entrée et désordre pré-scénique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A177** — S41-A177 — Killing Joke, cab démonté et précarité technique avant la crise médicale  
@@ -268,16 +279,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_domestique` ; importance : `critique` ; preuve : `témoignage direct + mention de dossier médical selon Deborah`.
 - **S45-A139** — S45-A139 — Derby Hall Bury : jouer malgré l’absence du chanteur et fabriquer l’émeute  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `evenement_live_crise` ; importance : `critique` ; preuve : `témoignage direct indirect + témoignage Morris/Wilson rapporté`.
-- **S45-A140** — S45-A140 — Yeats et hypnose : substituts culturels au soin professionnel  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_soin_amateur` ; importance : `majeur` ; preuve : `témoignage direct indirect + souvenirs rapportés`.
-- **S45-A141** — S45-A141 — Factory du 11 avril : retour impossible et humiliation publique de Deborah  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_live_domestique` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A142** — S45-A142 — Natalie un an : anniversaire sans père et dépression de la maison Wilson  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct + propos de Lindsay rapportés`.
-- **S45-A144** — S45-A144 — Vidéo « Love Will Tear Us Apart » : marionnette du music-business  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
-- **S45-A145** — S45-A145 — Parkside manqué : ambition accomplie et désir de sortie du groupe  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_psychiatrique` ; importance : `critique` ; preuve : `témoignage direct de Deborah ; propos de Steve Morris rapporté`.
 
 ## 7. Citations disponibles
 
@@ -418,6 +419,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - prudence historiographique (17)
 - Closer (9)
 - épilepsie (7)
+- New Order (6)
 - non-monocausalité médicale (4)
 - film (4)
 - réception (4)
@@ -426,7 +428,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - réception corporelle (3)
 - Stroszek (3)
 - Werner Herzog (3)
-- New Order (3)
 - Rainbow Theatre (3)
 - hypnose (3)
 - backward masking (3)
@@ -456,6 +457,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - médicaments (2)
 - quotidien (2)
 - sommeil (2)
+- deuil (2)
 - Bernard Sumner (2)
 - crise (2)
 - anti-prophétisation (2)
@@ -474,6 +476,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - John Peel (2)
 - Radio 1 (2)
 - romantisme noir (2)
+- fin de Joy Division (2)
 - intégrité (2)
 - Neil Norman (2)
 - NME (2)
@@ -492,8 +495,6 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 - seuil professionnel (1)
 - maladie collectivisée (1)
 - tournée comme soin pratique (1)
-- lieu-port d’attache (1)
-- scène sous vulnérabilité (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -836,6 +837,11 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | contexte_biographique | 1 |
 | concert_archive | 1 |
 | concert_europeen | 1 |
+| transition_morceaux | 1 |
+| rupture_biographique | 1 |
+| decision_collective | 1 |
+| transition_vocale | 1 |
+| transition_album | 1 |
 | analyse | 1 |
 | tv_session | 1 |
 | album | 1 |
@@ -852,7 +858,7 @@ Analyser le trauma, la santé mentale, l’éthique de la réception et la diffi
 | Importance | Nombre |
 |---|---|
 | critique | 181 |
-| non qualifiée | 105 |
+| non qualifiée | 110 |
 | majeure | 20 |
 | majeur | 12 |
 

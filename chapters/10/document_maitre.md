@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:39:46"
+generated_at: "2026-05-16T09:04:43"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 182 |
+| Atomes | 188 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
@@ -34,7 +34,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 4 | 0 |
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 10 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 28 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
@@ -127,6 +127,18 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `crise_biographique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-A025** — S10-A025 — *Closer*, Bournemouth et pression psychique de Curtis  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `crise_finale` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A027** — S10-A027 — « Transmission » comme articulation entre injonction collective et tension radio  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A029** — S10-A029 — *Closer* : Britannia Row, déplacement géographique et intensification sonore  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `production_album` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A030** — S10-A030 — Curtis, écriture de Closer et sentiment d’accélération incontrôlable  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `crise_creative` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A031** — S10-A031 — « Ceremony » et « In a Lonely Place » : écrire pour soutenir Curtis, produire un seuil post-Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_morceaux` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A032** — S10-A032 — La mort de Curtis comme rupture pratique avant d’être mythe  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `rupture_biographique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2** — S10 — Passe v2 bis — Joy Division tardif, transition et mémoire selon Sumner  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-144** — S41-144 — 18 mai 1980 : suicide de Ian Curtis à la veille de l’Amérique  
@@ -269,18 +281,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique_finale` ; importance : `critique` ; preuve : `témoignage direct + photographie existante mentionnée`.
 - **S46-027** — S46-027 — Rainbow Theatre : crise d’épilepsie du 4 avril 1980  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-045** — S46-045 — Ian Curtis comme incarnation scénique de la vulnérabilité  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `performance` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-059** — S46-059 — Leeds University : foule écrasée et Curtis aidé hors scène  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `concert_incident` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-061** — S46-061 — Rainbow Theatre : crise et malentendu spectaculaire  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement_biographique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-111** — S46-111 — Curtis et la danse comme perte de contrôle  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `performance_scenique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-112** — S46-112 — « She’s Lost Control » comme miroir biographique indirect  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `chanson_biographie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-117** — S46-117 — Le public prend parfois les crises pour une performance  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `perception_scene` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -346,7 +346,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (15)
+- Ian Curtis (16)
 - épilepsie (8)
 - closer (4)
 - love will tear us apart (4)
@@ -355,6 +355,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - suicide (4)
 - mémoire (3)
 - postérité (3)
+- Closer (3)
 - mythification (3)
 - vérité conjugale différée (2)
 - travail féminin effacé (2)
@@ -425,7 +426,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - nom comme preuve (1)
 - foyer devenu enquête (1)
 - révélation suspendue (1)
-- complicité brève dans la rupture (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -595,6 +595,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | fait_sensible | 2 |
 | mémoire | 2 |
 | chronologie | 2 |
+| source_part | 2 |
+| analyse_morceau | 2 |
 | song | 2 |
 | relation_management | 1 |
 | tension_tournee | 1 |
@@ -656,10 +658,12 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | session_studio | 1 |
 | lieu_iconographique | 1 |
 | scene_deuil_mythographique | 1 |
-| source_part | 1 |
-| analyse_morceau | 1 |
 | crise_biographique | 1 |
 | crise_finale | 1 |
+| production_album | 1 |
+| crise_creative | 1 |
+| transition_morceaux | 1 |
+| rupture_biographique | 1 |
 | fait_biographique | 1 |
 | mythe | 1 |
 | album | 1 |
@@ -674,7 +678,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | critique | 84 |
-| non qualifiée | 72 |
+| non qualifiée | 78 |
 | majeur | 24 |
 | majeure | 2 |
 

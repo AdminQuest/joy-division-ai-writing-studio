@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:39:46"
+generated_at: "2026-05-16T09:04:43"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ generated_at: "2026-05-16T08:39:46"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 226 |
+| Atomes | 232 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
@@ -34,7 +34,7 @@ generated_at: "2026-05-16T08:39:46"
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 11 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
@@ -127,6 +127,18 @@ generated_at: "2026-05-16T08:39:46"
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `crise_biographique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-A025** — S10-A025 — *Closer*, Bournemouth et pression psychique de Curtis  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `crise_finale` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A026** — S10-A026 — Après Unknown Pleasures : le groupe cherche un dépassement, non une répétition  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_artistique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A027** — S10-A027 — « Transmission » comme articulation entre injonction collective et tension radio  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A029** — S10-A029 — *Closer* : Britannia Row, déplacement géographique et intensification sonore  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `production_album` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A030** — S10-A030 — Curtis, écriture de Closer et sentiment d’accélération incontrôlable  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `crise_creative` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-A031** — S10-A031 — « Ceremony » et « In a Lonely Place » : écrire pour soutenir Curtis, produire un seuil post-Joy Division  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `transition_morceaux` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2** — S10 — Passe v2 bis — Joy Division tardif, transition et mémoire selon Sumner  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-021** — S41-021 — Première impression d’Ian Curtis : le manteau « Hate »  
@@ -267,18 +279,6 @@ generated_at: "2026-05-16T08:39:46"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
-- **S74-A012** — S74-A012 — Vini Reilly, apprentissage musical et refus des frontières populaires/savantes  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A013** — S74-A013 — Ed Banger And The Nosebleeds comme contre-mythe punk local  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `structurante` ; preuve : `plausible`.
-- **S74-A035** — S74-A035 — Après le Factory Sample : vide stratégique et tentation des majors  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `contexte_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S74-A044** — S74-A044 — Factory scene : Distractions comme antithèse lumineuse de Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_locale` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
-- **S75-A010** — S75-A010 — « Gutz », domesticité et brutalité des premiers textes de Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 7. Citations disponibles
 
@@ -418,7 +418,7 @@ generated_at: "2026-05-16T08:39:46"
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (40)
+- Ian Curtis (41)
 - prudence historiographique (20)
 - epilepsie (10)
 - épilepsie (6)
@@ -434,6 +434,7 @@ generated_at: "2026-05-16T08:39:46"
 - performance (3)
 - foyer (3)
 - wythenshawe (3)
+- Closer (3)
 - fragmentation (3)
 - écoute différée des paroles (2)
 - Rainbow Theatre (2)
@@ -456,6 +457,7 @@ generated_at: "2026-05-16T08:39:46"
 - silence (2)
 - couple (2)
 - Macclesfield (2)
+- écriture (2)
 - Hope and Anchor (2)
 - crise (2)
 - anti-prophétisation (2)
@@ -496,8 +498,6 @@ generated_at: "2026-05-16T08:39:46"
 - logistique conjugale (1)
 - atelier domestique (1)
 - matérialité de l’écriture (1)
-- retrait créatif (1)
-- ian curtis (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -644,6 +644,7 @@ generated_at: "2026-05-16T08:39:46"
 | relation | 3 |
 | session_studio | 3 |
 | session_radio | 3 |
+| analyse_morceau | 3 |
 | lecture_biographique | 3 |
 | controverse_biographique | 3 |
 | lecture_textuelle | 3 |
@@ -653,7 +654,6 @@ generated_at: "2026-05-16T08:39:46"
 | tension_biographique | 3 |
 | live_set_context | 3 |
 | chanson_single | 2 |
-| analyse_morceau | 2 |
 | processus_creatif_chanson | 2 |
 | evenement_biographique | 2 |
 | theorie_voix | 2 |
@@ -671,6 +671,7 @@ generated_at: "2026-05-16T08:39:46"
 | scene_medicale | 2 |
 | contexte_intime | 2 |
 | scene_de_transition | 2 |
+| source_part | 2 |
 | fait | 2 |
 | tension_economique | 1 |
 | reception_domestique | 1 |
@@ -754,9 +755,12 @@ generated_at: "2026-05-16T08:39:46"
 | derniere_nuit | 1 |
 | scene_deces | 1 |
 | memoire_endeuillée | 1 |
-| source_part | 1 |
 | crise_biographique | 1 |
 | crise_finale | 1 |
+| transition_artistique | 1 |
+| production_album | 1 |
+| crise_creative | 1 |
+| transition_morceaux | 1 |
 | témoignage_externe | 1 |
 | fait_biographique | 1 |
 | tension | 1 |
@@ -772,7 +776,7 @@ generated_at: "2026-05-16T08:39:46"
 | Importance | Nombre |
 |---|---|
 | critique | 101 |
-| non qualifiée | 88 |
+| non qualifiée | 94 |
 | majeure | 33 |
 | majeur | 3 |
 | structurante | 1 |

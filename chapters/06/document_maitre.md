@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T08:39:46"
+generated_at: "2026-05-16T09:04:43"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 422 |
+| Atomes | 424 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 54 |
 | Événements chronologiques | 37 |
@@ -34,7 +34,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 1 | 0 |
+| S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 141 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
@@ -121,6 +121,10 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 6. Autres atomes utiles
 
+- **S10-A028** — S10-A028 — Cargo / Sordide Sentimental : « Atmosphere » et « Dead Souls » comme extension spectrale du son  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `session_studio` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
+- **S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2** — S10 — Passe v2 bis — Joy Division tardif, transition et mémoire selon Sumner  
+  Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S41-080** — S41-080 — Premier signal critique de l’épilepsie de Ian Curtis  
@@ -277,10 +281,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_logistique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A138** — S41-A138 — Buzzcocks tour : professionnalisation pauvre et renversement de hiérarchie  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_tournee` ; importance : `critique` ; preuve : `témoignage direct + contexte de tournée établi`.
-- **S41-A139** — S41-A139 — Glasgow : vie de tournée, transgression masculine et fuite avant police  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_tournee_excès` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A140** — S41-A140 — Dundee / Twinny : farce de tournée et brutalité potache  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_tournee_farce` ; importance : `secondaire utile` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -431,13 +431,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Still (15)
 - architecture sonore (15)
 - Ian Curtis (14)
+- Atmosphere (9)
 - Transmission (9)
 - Love Will Tear Us Apart (9)
 - Unknown Pleasures (9)
 - factory (8)
-- Atmosphere (8)
+- Dead Souls (8)
 - martin hannett (7)
-- Dead Souls (7)
 - She's Lost Control (7)
 - Martin Hannett (7)
 - rob gretton (7)
@@ -460,6 +460,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Factory (4)
 - producteur catalyseur (4)
 - contrainte productive (4)
+- spectralité (4)
 - matérialité discographique (4)
 - prudence historiographique (4)
 - studio (4)
@@ -470,9 +471,9 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - Something Must Break (3)
 - scène (3)
 - autonomie négociée (3)
-- spectralité (3)
 - culture bootleg (3)
 - Exercise One (3)
+- Cargo Studios (3)
 - tension (3)
 - mixage (3)
 - Peel Sessions (3)
@@ -498,6 +499,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - ceremony (2)
 - decades (2)
 - stabilisation rythmique (2)
+- Sordide Sentimental (2)
 - Manchester (2)
 - Colony (2)
 - The Kill (2)
@@ -505,8 +507,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - tracklist (2)
 - seuil (2)
 - froideur (2)
-- Derby Hall (2)
-- Bury (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -645,7 +645,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | non qualifié | 16 |
 | production | 10 |
 | reception_live | 9 |
-| session_studio | 8 |
+| session_studio | 9 |
 | song | 8 |
 | scene_fondatrice | 7 |
 | lecture_musicale | 7 |
@@ -711,6 +711,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | objet_visuel | 2 |
 | scene_repetition | 2 |
 | concept_management | 2 |
+| source_part | 2 |
 | analyse_morceau | 2 |
 | live_set_context | 2 |
 | song_session | 2 |
@@ -861,7 +862,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | scene_contractuelle | 1 |
 | fait_contractuel | 1 |
 | concert_europeen | 1 |
-| source_part | 1 |
 | fait_biographique | 1 |
 | morceau_transitionnel | 1 |
 | discographie_analysee | 1 |
@@ -884,7 +884,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | Importance | Nombre |
 |---|---|
 | critique | 195 |
-| non qualifiée | 155 |
+| non qualifiée | 157 |
 | majeur | 47 |
 | majeure | 24 |
 | secondaire utile | 1 |
