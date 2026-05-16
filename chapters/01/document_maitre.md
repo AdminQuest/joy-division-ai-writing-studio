@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T12:50:44"
+generated_at: "2026-05-16T16:26:22"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T12:50:44"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 129 |
+| Atomes | 134 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 17 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ generated_at: "2026-05-16T12:50:44"
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 7 | 0 |
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 13 | 0 |
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 9 | 0 |
+| S09 | S09 — Cummins, Joy Division, 2010 | 5 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 9 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 7 | 0 |
@@ -151,6 +152,16 @@ generated_at: "2026-05-16T12:50:44"
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2** — S06 — Passe v2 — Hulme, inner city vécue et espace discursif  
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A001** — S09-A001 — Kevin Cummins comme témoin visuel de Joy Division  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `source_visuelle` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A003** — S09-A003 — Epping Walk / Hulme : architecture, hauteur, vide et posture du groupe  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `lieu_image` ; importance : `non qualifiée` ; preuve : `forte si légende vérifiée`.
+- **S09-A004** — S09-A004 — Manchester industriel : photographie comme géographie émotionnelle  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `concept_visuel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A008** — S09-A008 — Image documentaire ou mise en scène : prudence méthodologique  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2** — S09 — Passe v2 — Cummins, corpus visuel, Manchester et méthode iconographique  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte pour l’iconographie ; à croiser pour le contexte historique, les dates, les lieux et les légendes`.
 - **S10-A001** — S10-A001 — Salford, Alfred Street et communauté ouvrière de Lower Broughton  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-A002** — S10-A002 — Paysage industriel, Wheathill Chemical Works et environnement toxique  
@@ -243,16 +254,6 @@ generated_at: "2026-05-16T12:50:44"
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-003** — S45-003 — « There was more to living than working nine to five »  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `citation_clef` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-005** — S45-005 — Aunty Nell : horizon d’une vie différente  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `environnement_social` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-009** — S45-009 — Mariage précoce et provincialité  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `sociologie` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-023** — S45-023 — Ian Curtis continue de travailler malgré le succès  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `travail` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-A019** — S45-A019 — Le vote conservateur d’Ian Curtis comme contrepoint biographique fragile  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S45-A046** — S45-A046 — Tony Nuttall : rupture politique et rejet d’*An Ideal for Living*  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -283,12 +284,12 @@ generated_at: "2026-05-16T12:50:44"
 
 - manchester (9)
 - Manchester (6)
+- géographie émotionnelle (6)
 - Salford (6)
 - désindustrialisation (5)
-- géographie émotionnelle (5)
+- Hulme (5)
 - diy (4)
 - Ian Curtis (4)
-- Hulme (4)
 - James Anderton (3)
 - Ian Wood (3)
 - NME (3)
@@ -326,6 +327,7 @@ generated_at: "2026-05-16T12:50:44"
 - salford (2)
 - géographie biographique (2)
 - mémoire ouvrière (2)
+- Manchester industriel (2)
 - géographie sociale (2)
 - logement social (2)
 - shrinking city (2)
@@ -360,7 +362,6 @@ generated_at: "2026-05-16T12:50:44"
 - recomposition institutionnelle (1)
 - crise urbaine (1)
 - années 1970 (1)
-- conservatisme moral (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -477,10 +478,10 @@ generated_at: "2026-05-16T12:50:44"
 |---|---|
 | concept_structurant | 9 |
 | analyse | 9 |
+| source_part | 7 |
 | sociologie | 7 |
-| source_part | 6 |
+| prudence_methodologique | 6 |
 | contexte_social | 6 |
-| prudence_methodologique | 5 |
 | evenement_politique | 5 |
 | concept | 5 |
 | contexte | 4 |
@@ -532,6 +533,9 @@ generated_at: "2026-05-16T12:50:44"
 | conflit_institutionnel | 1 |
 | discours_religieux | 1 |
 | evenement_urbain | 1 |
+| source_visuelle | 1 |
+| lieu_image | 1 |
+| concept_visuel | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
@@ -541,7 +545,7 @@ generated_at: "2026-05-16T12:50:44"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 109 |
+| non qualifiée | 114 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

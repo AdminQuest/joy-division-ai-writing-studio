@@ -79208,6 +79208,380 @@
   },
   {
     "kind": "atom",
+    "id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09 — Passe v2 — Cummins, corpus visuel, Manchester et méthode iconographique",
+    "data": {
+      "id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "source_short_title": "Cummins, Joy Division, 2010",
+      "source_year": "2010",
+      "auteur": "Kevin Cummins",
+      "titre": "Joy Division",
+      "type_unite": "source_part",
+      "statut": "integration_directe",
+      "fiabilite": "forte pour l’iconographie ; à croiser pour le contexte historique, les dates, les lieux et les légendes",
+      "citation_directe": false,
+      "passage_atomise": "Passage iconographique disponible : capture d’écran de référence associée au livre photographique de Kevin Cummins, Joy Division, Rizzoli, 2010. Le livre complet n’étant pas disponible comme texte ou PDF dans le Drive, la passe atomise le corpus S09 comme source visuelle et méthode d’usage iconographique, sans description planche par planche.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 9"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S09-A001",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09-A001 — Kevin Cummins comme témoin visuel de Joy Division",
+    "data": {
+      "id": "S09-A001",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "source_short_title": "Cummins, Joy Division, 2010",
+      "source_year": "2010",
+      "auteur": "Kevin Cummins",
+      "titre": "Joy Division",
+      "type_unite": "source_visuelle",
+      "concepts": [
+        "Kevin Cummins",
+        "témoin visuel",
+        "photographie musicale",
+        "mémoire iconographique"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Kevin Cummins"
+      ],
+      "methodological_warnings": [
+        "Ne pas utiliser S09 comme source factuelle principale sur l’histoire du groupe.",
+        "Distinguer témoignage photographique, sélection éditoriale et mémoire ultérieure."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S09-A002",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09-A002 — Noir et blanc, austérité et construction photographique du groupe",
+    "data": {
+      "id": "S09-A002",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "type_unite": "motif_visuel",
+      "concepts": [
+        "noir et blanc",
+        "austérité visuelle",
+        "image post-punk",
+        "froideur construite"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas traiter le noir et blanc comme simple reflet du réel.",
+        "Analyser le noir et blanc comme choix esthétique et éditorial."
+      ],
+      "source_short_title": "Kevin Cummins, Joy Division, 2010",
+      "source_year": "2010"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S09-A003",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09-A003 — Epping Walk / Hulme : architecture, hauteur, vide et posture du groupe",
+    "data": {
+      "id": "S09-A003",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "type_unite": "lieu_image",
+      "concepts": [
+        "Epping Walk",
+        "Hulme",
+        "architecture moderniste",
+        "vide urbain",
+        "posture collective"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "a_verrouiller",
+      "fiabilite": "forte si légende vérifiée",
+      "citation_directe": false,
+      "related_places": [
+        "Epping Walk",
+        "Hulme"
+      ],
+      "methodological_warnings": [
+        "Vérifier la légende exacte, la date et la localisation avant usage.",
+        "Croiser avec S06 et S20 pour Hulme comme espace vécu, discursif et morphologique."
+      ],
+      "source_short_title": "Kevin Cummins, Joy Division, 2010",
+      "source_year": "2010"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S09-A004",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09-A004 — Manchester industriel : photographie comme géographie émotionnelle",
+    "data": {
+      "id": "S09-A004",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "type_unite": "concept_visuel",
+      "concepts": [
+        "Manchester industriel",
+        "géographie émotionnelle",
+        "paysage urbain",
+        "photographie documentaire"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas confondre image de Manchester et totalité historique de Manchester.",
+        "Croiser avec S02, S04, S05, S06, S20 et S15."
+      ],
+      "source_short_title": "Kevin Cummins, Joy Division, 2010",
+      "source_year": "2010"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S09-A005",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09-A005 — Ian Curtis photographié : présence, distance et non-psychologisation",
+    "data": {
+      "id": "S09-A005",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "type_unite": "acteur_image",
+      "concepts": [
+        "Ian Curtis",
+        "présence photographique",
+        "distance",
+        "non-psychologisation"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis"
+      ],
+      "methodological_warnings": [
+        "Ne pas psychologiser Curtis à partir d’une posture ou d’un regard photographique.",
+        "Ne pas utiliser l’image pour prouver un état intérieur."
+      ],
+      "source_short_title": "Kevin Cummins, Joy Division, 2010",
+      "source_year": "2010"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S09-A006",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09-A006 — Le groupe comme bloc : unité visuelle contre mythe du seul Curtis",
+    "data": {
+      "id": "S09-A006",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "type_unite": "image_groupe",
+      "concepts": [
+        "unité visuelle",
+        "groupe comme bloc",
+        "mythe Curtis",
+        "posture collective"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 10",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "methodological_warnings": [
+        "Ne pas réduire l’iconographie à Curtis.",
+        "Analyser la disposition collective, la distance entre les corps et le rapport au lieu."
+      ],
+      "source_short_title": "Kevin Cummins, Joy Division, 2010",
+      "source_year": "2010"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S09-A007",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09-A007 — Photographie et son : traduire le froid, l’espace et la tension en image",
+    "data": {
+      "id": "S09-A007",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "type_unite": "relation_son_image",
+      "concepts": [
+        "photographie et son",
+        "froideur",
+        "espace",
+        "tension",
+        "traduction visuelle"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 9"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas affirmer une équivalence simple entre son et image.",
+        "Parler de traduction visuelle, de résonance ou de correspondance, non de preuve sonore."
+      ],
+      "source_short_title": "Kevin Cummins, Joy Division, 2010",
+      "source_year": "2010"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S09-A008",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09-A008 — Image documentaire ou mise en scène : prudence méthodologique",
+    "data": {
+      "id": "S09-A008",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "type_unite": "prudence_methodologique",
+      "concepts": [
+        "image documentaire",
+        "mise en scène",
+        "choix éditorial",
+        "preuve visuelle"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Toujours distinguer prise de vue, légende, sélection éditoriale et usage contemporain.",
+        "Ne pas transformer une photographie en vérité générale."
+      ],
+      "source_short_title": "Kevin Cummins, Joy Division, 2010",
+      "source_year": "2010"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S09-A009",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09-A009 — Cummins, Factory, Saville, Wilson : réseau visuel mancunien",
+    "data": {
+      "id": "S09-A009",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "type_unite": "reseau_visuel",
+      "concepts": [
+        "Kevin Cummins",
+        "Factory",
+        "Peter Saville",
+        "Tony Wilson",
+        "réseau visuel mancunien"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "a_croiser",
+      "fiabilite": "forte comme hypothèse de réseau",
+      "citation_directe": false,
+      "related_people": [
+        "Kevin Cummins",
+        "Peter Saville",
+        "Tony Wilson"
+      ],
+      "related_organizations": [
+        "Factory Records"
+      ],
+      "methodological_warnings": [
+        "Ne pas confondre photographie, design graphique, télévision et label ; les distinguer avant de les articuler."
+      ],
+      "source_short_title": "Kevin Cummins, Joy Division, 2010",
+      "source_year": "2010"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S09-A010",
+    "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+    "heading": "S09-A010 — S09 comme source iconographique à droits contrôlés",
+    "data": {
+      "id": "S09-A010",
+      "source_id": "S09",
+      "source_label": "S09 — Cummins, Joy Division, 2010",
+      "type_unite": "droit_image",
+      "concepts": [
+        "droits photographiques",
+        "crédit image",
+        "reproduction",
+        "usage éditorial"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Aucune reproduction d’image sans vérification des droits, du crédit et de la qualité.",
+        "Distinguer citation iconographique, description critique et reproduction matérielle."
+      ],
+      "source_short_title": "Kevin Cummins, Joy Division, 2010",
+      "source_year": "2010"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S41-040",
     "file": "sources/hook/atomisation_02_transmission_1978.md",
     "heading": "S41-040 — Dernier concert sous le nom Warsaw",

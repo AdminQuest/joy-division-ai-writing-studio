@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-16T12:50:57`
+Généré le : `2026-05-16T16:26:20`
 
 ## 1. Verdict
 
-Le repo n’est pas strict-compliant : 5 erreur(s) bloquante(s) subsistent.
-La dette principale reste la migration v2 : 1707 atome(s) incomplet(s) sur 1768.
+Le repo est techniquement exploitable, mais 233 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1718 atome(s) incomplet(s) sur 1779.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 3780
-- Erreurs : 5
-- Avertissements : 18208
+- Enregistrements : 3828
+- Erreurs : 0
+- Avertissements : 18359
 - Sources déclarées : 51
-- Sources utilisées : 21
-- Sources exportées : 21
+- Sources utilisées : 23
+- Sources exportées : 23
 - Sources utilisées absentes du registre : 0
 - Libellés faibles : 0
 
@@ -22,40 +22,35 @@ La dette principale reste la migration v2 : 1707 atome(s) incomplet(s) sur 1768.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1768 |
+| atom | 1779 |
 | chronology | 343 |
-| concept | 183 |
-| metadata | 44 |
-| motif | 262 |
-| myth | 14 |
+| concept | 188 |
+| metadata | 51 |
+| motif | 266 |
+| myth | 17 |
 | person | 157 |
 | quote | 358 |
 | quote_batch | 1 |
 | rules | 1 |
 | song | 41 |
-| source | 55 |
+| source | 57 |
 | template | 336 |
-| unknown | 217 |
+| unknown | 233 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
-| duplicate_id | 5 |
 | field_type_error | 149 |
-| invalid_controlled_value | 1532 |
-| missing_required_field | 4971 |
+| invalid_controlled_value | 1549 |
+| missing_required_field | 4990 |
 | schema_warning | 400 |
-| unknown_yaml_block | 217 |
-| v2_migration_debt | 10939 |
+| unknown_yaml_block | 233 |
+| v2_migration_debt | 11038 |
 
 ## 5. Erreurs bloquantes
 
-- **duplicate_id** — `registers/concepts/s13_tomeo_concepts_interzone_rave_era.md` [CONCEPT-065] : Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `registers/concepts/s13_tomeo_concepts_interzone_rave_era.md` [CONCEPT-066] : Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `registers/concepts/s13_tomeo_concepts_interzone_rave_era.md` [CONCEPT-067] : Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `registers/concepts/s13_tomeo_concepts_interzone_rave_era.md` [CONCEPT-068] : Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md → Renommer ou fusionner l’identifiant en doublon.
-- **duplicate_id** — `registers/concepts/s13_tomeo_concepts_interzone_rave_era.md` [CONCEPT-069] : Duplicate id also found in registers/concepts/s41_hook_concepts_1978_stiff_chiswick_rca_gretton_factory_granada.md → Renommer ou fusionner l’identifiant en doublon.
+Aucune.
 
 ## 6. Blocs YAML non classés
 
@@ -82,24 +77,24 @@ La dette principale reste la migration v2 : 1707 atome(s) incomplet(s) sur 1768.
 - `sources/deluca_manchester_punk_threshold/registres_specialises_s15.md` : Unable to infer documentary kind
 - `sources/deluca_manchester_punk_threshold/registres_specialises_s15.md` : Unable to infer documentary kind
 - `sources/deluca_manchester_punk_threshold/registres_specialises_s15.md` : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-001] : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-002] : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-003] : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-004] : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-005] : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-006] : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-007] : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md` : Unable to infer documentary kind
+- `sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md` [REF-S09-001] : Unable to infer documentary kind
 - `registers/organizations/s06_carter_organizations_hulme_lived_discursive_space_v2.md` [ORGS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2] : Unable to infer documentary kind
 - `registers/organizations/s05_jeffery_tufail_jackson_organizations_public_order_v2.md` [ORGS-S05-PUBLIC-ORDER-GREATER-MANCHESTER-V2] : Unable to infer documentary kind
 - `registers/organizations/s20_dodge_organizations_housing_geographies_v2.md` [ORGS-S20-HOUSING-GEOGRAPHIES-V2] : Unable to infer documentary kind
-- `registers/organizations/s12_press_aids_anderton_organizations_moral_order_v2.md` [ORGS-S12-AIDS-ANDERTON-MORAL-ORDER-V2] : Unable to infer documentary kind
-- `registers/organizations/s02_sueur_organizations_manchester_shrinking_city_v2.md` [ORGS-S02-MANCHESTER-SHRINKING-CITY-V2] : Unable to infer documentary kind
-- `registers/organizations/s10_sumner_organizations_late_jd_transition_memory_v2.md` [ORGS-S10-LATE-JD-TRANSITION-MEMORY-V2] : Unable to infer documentary kind
-- `registers/organizations/s10_sumner_organizations_salford_formation_sound_v2.md` [ORGS-S10-SUMNER-SALFORD-FORMATION-SOUND-V2] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [DISC-S41-A-FACTORY-SAMPLE-DIGITAL-GLASS] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [LIVE-S41-REZILLOS-UNDERTONES-TOUR-1978] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [LIVE-S41-BRUNEL-SPITTING-1978] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [LIVE-S41-BRISTOL-LOCARNO-EJECTION] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [LIVE-S41-HOPE-ANCHOR-FIRST-LONDON] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1978_factory_sample_rezillos_hope_anchor_epilepsy.md` [MED-S41-LUTON-DUNSTABLE-FIRST-FIT] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [DISC-S41-AN-IDEAL-FOR-LIVING-EP] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [BAND-S41-WARSAW-PAKT-NEEDLE-TIME] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [PLACE-S41-TJ-DAVIDSONS-LITTLE-PETER-STREET] : Unable to infer documentary kind
-- `registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md` [INST-S41-CELESTION-18-HIGH-BASS] : Unable to infer documentary kind
-- … 177 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 193 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -111,14 +106,12 @@ Sources déclarées mais non utilisées :
 - S04 — Kidd, Manchester: A History, 2006 — verifie
 - S07 — Engels, The Condition of the Working Class in England, 1845 — a_consolider
 - S08 — Debord, psychogéographie et dérive, 1955–1958 — a_consolider
-- S09 — Cummins, Joy Division, 2010 — verifie
 - S11 — UK Treasury / DTI, Financial Statement and Budget Report, 1978–1988 — a_consolider
 - S14 — Happy Mondays, « God’s Cop », 1990 — verifie
 - S17 — The Fall, « Rowche Rumble », 1979 — a_consolider
 - S18 — Fédida, Manchester : L’éveil d’une scène musicale, 2021 — a_consolider
 - S19 — Bourdieu, Les trois états du capital culturel, 1979 — verifie
 - S21 — City Fun, fanzine, 1978–1983 — a_consolider
-- S22 — Wilkinson, City Fun and the politics of post-punk, 2018 — verifie
 - S23 — Rochdale Alternative Press, infrastructure DIY, 1971–1981 — a_consolider
 - S24 — Richard Boon / New Hormones, Spiral Scratch, 1977 — a_consolider
 - S25 — Factory Records, philosophie d’indépendance, 1978–1992 — a_consolider
@@ -141,10 +134,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1768
+- Atomes : 1779
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1707
-- Avertissements de champs v2 manquants : 10939
+- Atomes v2 incomplets : 1718
+- Avertissements de champs v2 manquants : 11038
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 

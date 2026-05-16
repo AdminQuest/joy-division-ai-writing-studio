@@ -75,6 +75,76 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-S09-001",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S09-001",
+      "motif": "noir et blanc froid",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A002",
+        "S09-A007"
+      ],
+      "description": "Le noir et blanc matérialise une mémoire visuelle froide, distante et silencieuse de Joy Division."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S09-002",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S09-002",
+      "motif": "corps dans le béton",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A003",
+        "S09-A004"
+      ],
+      "description": "Le groupe photographié dans des espaces modernistes ou industriels devient un corps collectif inscrit dans l’architecture."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S09-003",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S09-003",
+      "motif": "visage-prophétie à refuser",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A005"
+      ],
+      "description": "Le visage photographié de Curtis ne doit pas être lu comme prophétie visuelle de sa mort ou de son intériorité."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S09-004",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S09-004",
+      "motif": "bloc visuel du groupe",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A006"
+      ],
+      "description": "Les images de groupe corrigent la tentation d’une iconographie centrée uniquement sur Curtis."
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-084",
     "file": "registers/motifs/s41_hook_motifs_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "MOTIF-084 — DIY financé par dette",

@@ -1,6 +1,61 @@
 [
   {
     "kind": "myth",
+    "id": "MYTH-S09-001",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S09-001",
+      "mythe": "photographie comme vérité brute",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A001",
+        "S09-A008"
+      ],
+      "statut": "mythe à déconstruire",
+      "position": "Une photographie documente, mais elle cadre, sélectionne, met en scène et circule dans des contextes éditoriaux."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S09-002",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S09-002",
+      "mythe": "noir et blanc comme reflet naturel du Manchester réel",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A002"
+      ],
+      "statut": "mythe à nuancer",
+      "position": "Le noir et blanc participe à la fabrication esthétique de la froideur post-punk."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S09-003",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S09-003",
+      "mythe": "Curtis lisible dans son visage",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A005"
+      ],
+      "statut": "mythe à corriger",
+      "position": "L’image ne donne pas un accès direct à l’intériorité de Curtis."
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-011",
     "file": "registers/myths/s45_curtis_myths_vote_conservateur.md",
     "heading": "MYTH-011 — Joy Division comme groupe naturellement ouvrier et de gauche",

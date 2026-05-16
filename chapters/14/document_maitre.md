@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T12:50:44"
+generated_at: "2026-05-16T16:26:22"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 789 |
+| Atomes | 796 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 20 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 6 | 0 |
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 1 | 0 |
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 2 | 0 |
+| S09 | S09 — Cummins, Joy Division, 2010 | 7 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 6 | 0 |
@@ -148,6 +149,20 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `motif_discursif` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S06-A012** — S06-A012 — Reclaiming narratives of the post-war inner city  
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A001** — S09-A001 — Kevin Cummins comme témoin visuel de Joy Division  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `source_visuelle` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A002** — S09-A002 — Noir et blanc, austérité et construction photographique du groupe  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `motif_visuel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A005** — S09-A005 — Ian Curtis photographié : présence, distance et non-psychologisation  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `acteur_image` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A006** — S09-A006 — Le groupe comme bloc : unité visuelle contre mythe du seul Curtis  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `image_groupe` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A008** — S09-A008 — Image documentaire ou mise en scène : prudence méthodologique  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A009** — S09-A009 — Cummins, Factory, Saville, Wilson : réseau visuel mancunien  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `reseau_visuel` ; importance : `non qualifiée` ; preuve : `forte comme hypothèse de réseau`.
+- **S09-A010** — S09-A010 — S09 comme source iconographique à droits contrôlés  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `droit_image` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S10-A023** — S10-A023 — « Love Will Tear Us Apart » : riff, arrangement, paroles, postérité  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-A028** — S10-A028 — Cargo / Sordide Sentimental : « Atmosphere » et « Dead Souls » comme extension spectrale du son  
@@ -276,20 +291,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live_locale` ; importance : `majeur` ; preuve : `chronologie + review rapportée`.
 - **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A129** — S41-A129 — What’s On : grève Granada, « She’s Lost Control » et performance sous contrainte  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `majeur` ; preuve : `témoignage direct + archive audiovisuelle à vérifier`.
-- **S41-A130** — S41-A130 — T. J. Davidson’s après le succès : farces, flight cases et retour de Tony Davidson  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_lieu` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A131** — S41-A131 — Hook et Les Pattinson : bassistes chauffeurs, fraternité logistique et scène Liverpool-Londres  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A134** — S41-A134 — Ian non sacralisé : frontman, désir, people-pleaser et vie de groupe  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `demythification` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A136** — S41-A136 — Crises sur scène : lumière, danse, microphone et trademark involontaire  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_medical_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A138** — S41-A138 — Buzzcocks tour : professionnalisation pauvre et renversement de hiérarchie  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_tournee` ; importance : `critique` ; preuve : `témoignage direct + contexte de tournée établi`.
-- **S41-A139** — S41-A139 — Glasgow : vie de tournée, transgression masculine et fuite avant police  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_tournee_excès` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -434,12 +435,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 ## 11. Concepts récurrents
 
 - New Order (41)
-- Factory (31)
-- Ian Curtis (26)
+- Factory (32)
+- Ian Curtis (27)
 - Still (26)
 - Joy Division (21)
 - Unknown Pleasures (20)
-- Peter Saville (17)
+- Peter Saville (18)
 - Rob Gretton (16)
 - Love Will Tear Us Apart (16)
 - NME (15)
@@ -448,9 +449,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - new order (13)
 - factory records (13)
 - peter saville (12)
+- Tony Wilson (12)
 - réception (12)
 - martin hannett (11)
-- Tony Wilson (11)
 - Ceremony (11)
 - mémoire (11)
 - Dead Souls (10)
@@ -487,6 +488,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - management (6)
 - critique musicale (5)
 - manchester (5)
+- Kevin Cummins (5)
+- noir et blanc (5)
 - Plan K (5)
 - Londres (5)
 - Festive Fifty (5)
@@ -503,7 +506,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - télévision (4)
 - 1982 (4)
 - photographie (4)
-- noir et blanc (4)
 - fans (4)
 - historiographie (4)
 - réalité (4)
@@ -512,7 +514,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Blue Monday (4)
 - ventes (4)
 - 1983 (4)
-- Paul Morley (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -672,6 +673,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
+| prudence_methodologique | 5 |
 | mythe | 5 |
 | citation_repere | 5 |
 | live_set_context | 5 |
@@ -685,7 +687,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert | 4 |
 | projet_avorte | 4 |
 | fait_interprete | 4 |
-| prudence_methodologique | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | acteur_critique | 4 |
@@ -725,6 +726,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | chanson_single | 2 |
 | demythification | 2 |
 | archive_live | 2 |
+| acteur_image | 2 |
 | methodologie_source | 2 |
 | reception_new_order | 2 |
 | design_discographique | 2 |
@@ -827,7 +829,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | archive_broadcast | 1 |
 | television_new_order | 1 |
 | objet_sonore_new_order | 1 |
-| acteur_image | 1 |
 | vigilance_documentaire | 1 |
 | methodologie_critique | 1 |
 | historiographie | 1 |
@@ -1015,6 +1016,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | transition_album | 1 |
 | reception_memoire | 1 |
 | discours_religieux | 1 |
+| source_visuelle | 1 |
+| motif_visuel | 1 |
+| image_groupe | 1 |
+| reseau_visuel | 1 |
+| droit_image | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -1045,7 +1051,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 497 |
+| non qualifiée | 504 |
 | critique | 221 |
 | majeure | 39 |
 | majeur | 28 |

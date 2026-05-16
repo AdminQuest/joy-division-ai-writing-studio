@@ -180,6 +180,115 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-S09-001",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S09-001",
+      "concept": "source visuelle primaire éditorialisée",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A001",
+        "S09-A008"
+      ],
+      "definition": "Source photographique qui documente le groupe tout en étant sélectionnée, cadrée, légendée et republiée dans un dispositif éditorial postérieur.",
+      "usage_chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S09-002",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S09-002",
+      "concept": "austérité visuelle post-punk",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A002",
+        "S09-A007"
+      ],
+      "definition": "Construction visuelle du froid, du silence, de la distance et de la retenue par le noir et blanc, le cadrage et la posture.",
+      "usage_chapitres": [
+        "Chapitre 3",
+        "Chapitre 7"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S09-003",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S09-003",
+      "concept": "géographie émotionnelle photographique",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A003",
+        "S09-A004"
+      ],
+      "definition": "Lecture des lieux photographiés comme opérateurs d’affect : béton, vide, hauteur, distance et corps dans l’espace.",
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 9"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S09-004",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S09-004",
+      "concept": "non-psychologisation iconographique de Curtis",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A005"
+      ],
+      "definition": "Principe méthodologique refusant de déduire l’intériorité de Curtis d’une image fixe, d’une posture ou d’un regard.",
+      "usage_chapitres": [
+        "Chapitre 10",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S09-005",
+    "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S09-005",
+      "concept": "unité visuelle Joy Division",
+      "sources": [
+        "S09"
+      ],
+      "related_atoms": [
+        "S09-A006"
+      ],
+      "definition": "Lecture des photographies de groupe comme preuve d’une construction collective de l’image, contre la réduction au seul visage de Curtis.",
+      "usage_chapitres": [
+        "Chapitre 3",
+        "Chapitre 10",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-059",
     "file": "registers/concepts/s41_hook_concepts_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "CONCEPT-059 — DIY endetté",

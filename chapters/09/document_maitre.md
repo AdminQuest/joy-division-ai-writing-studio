@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T12:50:44"
+generated_at: "2026-05-16T16:26:22"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T12:50:44"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 223 |
+| Atomes | 229 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 16 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ generated_at: "2026-05-16T12:50:44"
 | S02 | S02 — Sueur, Villes du futur, futur des villes, 2011 | 10 | 0 |
 | S05 | S05 — Jeffery, Tufail & Jackson, Policing and the Reproduction of Local Social Order, 2015 | 6 | 0 |
 | S06 | S06 — Carter, Youth, race and the inner-city estate, 2021/2023 | 13 | 0 |
+| S09 | S09 — Cummins, Joy Division, 2010 | 6 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 6 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
@@ -116,6 +117,18 @@ generated_at: "2026-05-16T12:50:44"
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S06-PART-HULME-LIVED-DISCURSIVE-SPACE-V2** — S06 — Passe v2 — Hulme, inner city vécue et espace discursif  
   Source : S06 — Carter, Youth, race and the inner-city estate, 2021/2023 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A001** — S09-A001 — Kevin Cummins comme témoin visuel de Joy Division  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `source_visuelle` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A003** — S09-A003 — Epping Walk / Hulme : architecture, hauteur, vide et posture du groupe  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `lieu_image` ; importance : `non qualifiée` ; preuve : `forte si légende vérifiée`.
+- **S09-A004** — S09-A004 — Manchester industriel : photographie comme géographie émotionnelle  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `concept_visuel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A007** — S09-A007 — Photographie et son : traduire le froid, l’espace et la tension en image  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `relation_son_image` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A008** — S09-A008 — Image documentaire ou mise en scène : prudence méthodologique  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2** — S09 — Passe v2 — Cummins, corpus visuel, Manchester et méthode iconographique  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte pour l’iconographie ; à croiser pour le contexte historique, les dates, les lieux et les légendes`.
 - **S10-A003** — S10-A003 — Tour blocks, relogement et perte de sociabilité de rue  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `urbanisme_vécu` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-A004** — S10-A004 — Destruction d’Alfred Street : mort d’une communauté et passage à l’âge adulte  
@@ -206,18 +219,6 @@ generated_at: "2026-05-16T12:50:44"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-061** — S41-061 — Tension Ian Curtis / Rob Gretton : double autorité  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-063** — S41-063 — Rob Gretton comme figure maternelle autoritaire  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-065** — S41-065 — Huddersfield : concert devant une personne  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `anecdote_significative` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-075** — S41-075 — Le van de Hook et l’enquête Yorkshire Ripper  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `anecdote_significative` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-076** — S41-076 — Tour Rezillos / Undertones : inadéquation d’affiche  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-077** — S41-077 — Spitting et violence du public punk  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-078** — S41-078 — Éjection de la tournée et confrontation avec Chelsea  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -256,10 +257,10 @@ generated_at: "2026-05-16T12:50:44"
 - Rafters (7)
 - scène (7)
 - tournée (7)
+- Hulme (7)
 - manchester (6)
 - Electric Circus (6)
 - fatigue (6)
-- Hulme (6)
 - Transmission (5)
 - public (5)
 - Buzzcocks (5)
@@ -358,12 +359,12 @@ generated_at: "2026-05-16T12:50:44"
 | relation | 5 |
 | production | 5 |
 | contexte_scene | 5 |
+| source_part | 5 |
+| prudence_methodologique | 5 |
 | analyse | 4 |
 | management | 4 |
 | reception_live | 4 |
-| source_part | 4 |
 | politique_urbaine | 4 |
-| prudence_methodologique | 4 |
 | anecdote_significative | 4 |
 | evenement_politique | 3 |
 | conclusion_historiographique | 3 |
@@ -439,6 +440,10 @@ generated_at: "2026-05-16T12:50:44"
 | contexte_discursif | 1 |
 | reaction_politique | 1 |
 | conflit_institutionnel | 1 |
+| source_visuelle | 1 |
+| lieu_image | 1 |
+| concept_visuel | 1 |
+| relation_son_image | 1 |
 | contexte_materiel | 1 |
 | témoignage_externe | 1 |
 | decision_strategique | 1 |
@@ -453,7 +458,7 @@ generated_at: "2026-05-16T12:50:44"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 222 |
+| non qualifiée | 228 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

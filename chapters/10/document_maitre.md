@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T12:50:44"
+generated_at: "2026-05-16T16:26:22"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 190 |
+| Atomes | 192 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
 | Chansons | 6 |
-| Sources mobilisées | 13 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S09 | S09 — Cummins, Joy Division, 2010 | 2 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 10 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
@@ -123,6 +124,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 6. Autres atomes utiles
 
+- **S09-A005** — S09-A005 — Ian Curtis photographié : présence, distance et non-psychologisation  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `acteur_image` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A006** — S09-A006 — Le groupe comme bloc : unité visuelle contre mythe du seul Curtis  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `image_groupe` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S10-A023** — S10-A023 — « Love Will Tear Us Apart » : riff, arrangement, paroles, postérité  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-A024** — S10-A024 — Épilepsie de Curtis : Luton, diagnostic, scène et pression  
@@ -279,10 +284,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
 - **S45-A146** — S45-A146 — Derby / Rob / Annik : secret exposé aux parents et décision de divorce  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_conjugale` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S45-A147** — S45-A147 — Jeff et reprise de soi : l’épouse redevient sujet désiré  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `contrepoint_domestique` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A149** — S45-A149 — Rendez-vous psychiatrique : dernière occasion de soin et collision des récits  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_psychiatrique` ; importance : `critique` ; preuve : `témoignage direct de Deborah`.
 
 ## 7. Citations disponibles
 
@@ -348,7 +349,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (16)
+- Ian Curtis (17)
 - épilepsie (8)
 - closer (4)
 - love will tear us apart (4)
@@ -357,6 +358,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - suicide (4)
 - mémoire (3)
 - postérité (3)
+- mythe Curtis (3)
 - Closer (3)
 - mythification (3)
 - vérité conjugale différée (2)
@@ -381,7 +383,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - Factory (2)
 - archive (2)
 - Love Will Tear Us Apart (2)
-- mythe Curtis (2)
 - rainbow theatre (2)
 - moonlight club (2)
 - in a lonely place (2)
@@ -668,6 +669,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | crise_creative | 1 |
 | transition_morceaux | 1 |
 | rupture_biographique | 1 |
+| acteur_image | 1 |
+| image_groupe | 1 |
 | fait_biographique | 1 |
 | mythe | 1 |
 | album | 1 |
@@ -682,7 +685,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | Importance | Nombre |
 |---|---|
 | critique | 85 |
-| non qualifiée | 79 |
+| non qualifiée | 81 |
 | majeur | 24 |
 | majeure | 2 |
 

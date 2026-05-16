@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T12:50:44"
+generated_at: "2026-05-16T16:26:22"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 294 |
+| Atomes | 299 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
 | Personnes | 19 |
 | Chansons | 18 |
-| Sources mobilisées | 14 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S09 | S09 — Cummins, Joy Division, 2010 | 5 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 4 | 0 |
@@ -124,6 +125,16 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 6. Autres atomes utiles
 
+- **S09-A002** — S09-A002 — Noir et blanc, austérité et construction photographique du groupe  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `motif_visuel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A006** — S09-A006 — Le groupe comme bloc : unité visuelle contre mythe du seul Curtis  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `image_groupe` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A007** — S09-A007 — Photographie et son : traduire le froid, l’espace et la tension en image  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `relation_son_image` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A009** — S09-A009 — Cummins, Factory, Saville, Wilson : réseau visuel mancunien  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `reseau_visuel` ; importance : `non qualifiée` ; preuve : `forte comme hypothèse de réseau`.
+- **S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2** — S09 — Passe v2 — Cummins, corpus visuel, Manchester et méthode iconographique  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte pour l’iconographie ; à croiser pour le contexte historique, les dates, les lieux et les légendes`.
 - **S10-A009** — S10-A009 — Ennio Morricone, espace sonore et influence sur Sumner  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `influence_esthetique` ; importance : `non qualifiée` ; preuve : `source_primaire_retrospective`.
 - **S10-A012** — S10-A012 — Apprentissage guitare / basse avec Hook et bricolage du gramophone amplifié  
@@ -274,16 +285,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A066** — S45-A066 — *A Factory Sample* : Wilson finance, Hannett refroidit, Saville formalise  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A076** — S45-A076 — Curtis catalyseur : direction vocale, mélodies et cohésion collective  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `processus_creatif` ; importance : `critique` ; preuve : `témoignages directs rapportés de Morris et Sumner`.
-- **S45-A078** — S45-A078 — *Unknown Pleasures* : Hannett comme catalyseur de coordination sonore  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
-- **S46-007** — S46-007 — La première démo Warsaw du 18 juillet 1977  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-011** — S46-011 — RCA, Arrow Studios et l’album avorté  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie_avortee` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -417,6 +418,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Peel Session (4)
 - Arrow Studios (4)
 - batterie (4)
+- Factory (4)
 - producteur catalyseur (4)
 - spectralité (4)
 - radio (3)
@@ -429,7 +431,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Pennine Sound (3)
 - Interzone (3)
 - varispeed (3)
-- Factory (3)
 - An Ideal for Living (3)
 - domesticité (3)
 - prudence historiographique (3)
@@ -438,6 +439,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - new wave (3)
 - basse (3)
 - apprentissage autodidacte (3)
+- Tony Wilson (3)
 - Granada Reports (3)
 - john peel (2)
 - peel session (2)
@@ -460,7 +462,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - John Anderson (2)
 - FAC 2 (2)
 - Martin Zero (2)
-- avril 1979 (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -617,6 +618,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | enregistrement | 3 |
 | interpretation_esthetique | 3 |
 | equipment_file | 3 |
+| source_part | 3 |
 | contexte_technique | 3 |
 | song_session | 3 |
 | release_or_session | 3 |
@@ -635,7 +637,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | performance_live | 2 |
 | temoignage_direct_rapporte | 2 |
 | scene_repetition | 2 |
-| source_part | 2 |
 | evenement | 2 |
 | concept_transversal | 2 |
 | album | 2 |
@@ -711,6 +712,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | professionnalisation | 1 |
 | media_scene | 1 |
 | transition_artistique | 1 |
+| motif_visuel | 1 |
+| image_groupe | 1 |
+| relation_son_image | 1 |
+| reseau_visuel | 1 |
 | transition | 1 |
 | conflit_esthetique | 1 |
 | portrait_technique | 1 |
@@ -722,7 +727,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 187 |
+| non qualifiée | 192 |
 | critique | 86 |
 | majeure | 11 |
 | majeur | 10 |

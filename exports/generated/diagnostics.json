@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-16T15:56:20",
+  "generated_at": "2026-05-16T16:26:09",
   "status": "warning",
   "summary": {
-    "records_total": 3788,
+    "records_total": 3828,
     "records_by_kind": {
-      "atom": 1768,
-      "metadata": 48,
+      "atom": 1779,
+      "metadata": 51,
       "quote": 358,
       "chronology": 343,
       "source": 57,
-      "unknown": 219,
-      "concept": 183,
-      "motif": 262,
+      "unknown": 233,
+      "concept": 188,
+      "motif": 266,
+      "myth": 17,
       "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
-      "person": 157,
-      "myth": 14
+      "person": 157
     },
-    "diagnostics_total": 18210,
+    "diagnostics_total": 18359,
     "errors": 0,
-    "warnings": 18210,
+    "warnings": 18359,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 23,
     "sources_exported": 23,
@@ -514,13 +514,17 @@
         "auteur": "Kevin Cummins",
         "titre": "Joy Division",
         "annee": "2010",
-        "records": 4,
-        "atoms": 0,
+        "records": 38,
+        "atoms": 11,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s09_cummins_joy_division_source_canonique.md",
-          "sources/cummins_joy_division_visual_corpus/source.md"
+          "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
+          "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+          "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
+          "sources/cummins_joy_division_visual_corpus/source.md",
+          "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md"
         ]
       },
       {
@@ -78874,6 +78878,900 @@
       "file": "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md",
       "message": "Invalid value for type_unite: conclusion_historiographique",
       "record_id": "S06-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S09-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S09-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S09-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S09-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S09-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S09-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S09-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/registres_specialises_s09.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/registres_structurants_s09.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S09-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for statut: integration_directe",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for fiabilite: forte pour l’iconographie ; à croiser pour le contexte historique, les dates, les lieux et les légendes",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: source_visuelle",
+      "record_id": "S09-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: motif_visuel",
+      "record_id": "S09-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for statut: a_verrouiller",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for fiabilite: forte si légende vérifiée",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: lieu_image",
+      "record_id": "S09-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: concept_visuel",
+      "record_id": "S09-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: acteur_image",
+      "record_id": "S09-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: image_groupe",
+      "record_id": "S09-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: relation_son_image",
+      "record_id": "S09-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S09-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for statut: a_croiser",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for fiabilite: forte comme hypothèse de réseau",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: reseau_visuel",
+      "record_id": "S09-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S09-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cummins_joy_division_visual_corpus/source_part_visual_corpus_method_v2.md",
+      "message": "Invalid value for type_unite: droit_image",
+      "record_id": "S09-A010"
     },
     {
       "level": "warning",

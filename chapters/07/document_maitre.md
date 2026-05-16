@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T12:50:44"
+generated_at: "2026-05-16T16:26:22"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,18 +22,19 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 86 |
+| Atomes | 91 |
 | Atomes critiques / majeurs | 29 |
 | Citations | 6 |
 | Événements chronologiques | 9 |
 | Personnes | 7 |
 | Chansons | 7 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
+| S09 | S09 — Cummins, Joy Division, 2010 | 5 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
@@ -108,6 +109,16 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ## 6. Autres atomes utiles
 
+- **S09-A002** — S09-A002 — Noir et blanc, austérité et construction photographique du groupe  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `motif_visuel` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A005** — S09-A005 — Ian Curtis photographié : présence, distance et non-psychologisation  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `acteur_image` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A007** — S09-A007 — Photographie et son : traduire le froid, l’espace et la tension en image  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `relation_son_image` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S09-A009** — S09-A009 — Cummins, Factory, Saville, Wilson : réseau visuel mancunien  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `reseau_visuel` ; importance : `non qualifiée` ; preuve : `forte comme hypothèse de réseau`.
+- **S09-PART-CUMMINS-VISUAL-CORPUS-METHOD-V2** — S09 — Passe v2 — Cummins, corpus visuel, Manchester et méthode iconographique  
+  Source : S09 — Cummins, Joy Division, 2010 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte pour l’iconographie ; à croiser pour le contexte historique, les dates, les lieux et les légendes`.
 - **S10-PART-SUMNER-LATE-JD-TRANSITION-MEMORY-V2** — S10 — Passe v2 bis — Joy Division tardif, transition et mémoire selon Sumner  
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S10-PART-SUMNER-SALFORD-FORMATION-SOUND-V2** — S10 — Passe v2 — Sumner, Salford, formation et son Joy Division  
@@ -295,6 +306,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - anti-rock (2)
 - sheffield (2)
 - minimalisme (2)
+- froideur (2)
+- distance (2)
 - Digital (2)
 - Glass (2)
 - novelty (2)
@@ -303,11 +316,14 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - producteur catalyseur (2)
 - répétition (2)
 - factory (2)
+- austérité visuelle (2)
 - spatialisation sonore (2)
 - réception interne (2)
 - pochette (2)
 - design funéraire (2)
 - production sonore (2)
+- espace (2)
+- Peter Saville (2)
 - Cargo Studios (2)
 - John Brierley (2)
 - Strawberry Studios (2)
@@ -341,11 +357,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - j g ballard (1)
 - electropunk (1)
 - pop group (1)
-- slits (1)
-- reggae (1)
-- tribalisme post-punk (1)
-- gang of four (1)
-- brecht (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -487,11 +498,11 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | lecture_musicale | 4 |
 | reception | 4 |
 | scene_fondatrice | 4 |
+| source_part | 3 |
 | controverse | 2 |
 | design | 2 |
 | analyse_studio | 2 |
 | reception_interne | 2 |
-| source_part | 2 |
 | contexte_technique | 2 |
 | portrait | 2 |
 | fait | 2 |
@@ -515,6 +526,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | reception_posthume | 1 |
 | lecture | 1 |
 | temoignage_biographique | 1 |
+| motif_visuel | 1 |
+| acteur_image | 1 |
+| relation_son_image | 1 |
+| reseau_visuel | 1 |
 | discographie | 1 |
 | conflit_esthetique | 1 |
 | concept | 1 |
@@ -526,7 +541,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 54 |
+| non qualifiée | 59 |
 | critique | 26 |
 | majeur | 3 |
 | majeure | 2 |
