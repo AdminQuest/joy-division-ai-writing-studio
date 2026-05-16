@@ -7185,11 +7185,11 @@
   },
   {
     "kind": "concept",
-    "id": "CONCEPT-065",
+    "id": "CONCEPT-S13-001",
     "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-    "heading": "CONCEPT-065 — filiation oblique post-punk / rave",
+    "heading": "CONCEPT-S13-001 — filiation oblique post-punk / rave",
     "data": {
-      "id": "CONCEPT-065",
+      "id": "CONCEPT-S13-001",
       "nom": "filiation oblique post-punk / rave",
       "statut": {
         "type": [
@@ -7229,11 +7229,11 @@
   },
   {
     "kind": "concept",
-    "id": "CONCEPT-066",
+    "id": "CONCEPT-S13-002",
     "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-    "heading": "CONCEPT-066 — corps-médium curtisien",
+    "heading": "CONCEPT-S13-002 — corps-médium curtisien",
     "data": {
-      "id": "CONCEPT-066",
+      "id": "CONCEPT-S13-002",
       "nom": "corps-médium curtisien",
       "statut": {
         "type": [
@@ -7271,11 +7271,11 @@
   },
   {
     "kind": "concept",
-    "id": "CONCEPT-067",
+    "id": "CONCEPT-S13-003",
     "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-    "heading": "CONCEPT-067 — communauté sonore fragile",
+    "heading": "CONCEPT-S13-003 — communauté sonore fragile",
     "data": {
-      "id": "CONCEPT-067",
+      "id": "CONCEPT-S13-003",
       "nom": "communauté sonore fragile",
       "statut": {
         "type": [
@@ -7317,11 +7317,11 @@
   },
   {
     "kind": "concept",
-    "id": "CONCEPT-068",
+    "id": "CONCEPT-S13-004",
     "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-    "heading": "CONCEPT-068 — infrastructure de translation Factory / Haçienda",
+    "heading": "CONCEPT-S13-004 — infrastructure de translation Factory / Haçienda",
     "data": {
-      "id": "CONCEPT-068",
+      "id": "CONCEPT-S13-004",
       "nom": "infrastructure de translation Factory / Haçienda",
       "statut": {
         "type": [
@@ -7358,11 +7358,11 @@
   },
   {
     "kind": "concept",
-    "id": "CONCEPT-069",
+    "id": "CONCEPT-S13-005",
     "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-    "heading": "CONCEPT-069 — utopie rave provisoire",
+    "heading": "CONCEPT-S13-005 — utopie rave provisoire",
     "data": {
-      "id": "CONCEPT-069",
+      "id": "CONCEPT-S13-005",
       "nom": "utopie rave provisoire",
       "statut": {
         "type": [
@@ -7382,7 +7382,7 @@
       "relations": [
         {
           "type": "nuance",
-          "cible": "CONCEPT-065"
+          "cible": "CONCEPT-S13-001"
         },
         {
           "type": "prolonge",

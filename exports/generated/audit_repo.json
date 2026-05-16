@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T12:50:57",
+  "generated_at": "2026-05-16T15:45:31",
   "summary": {
-    "records_total": 3780,
+    "records_total": 3784,
     "records_by_kind": {
       "atom": 1768,
-      "metadata": 44,
+      "metadata": 46,
       "quote": 358,
       "chronology": 343,
-      "source": 55,
-      "unknown": 217,
+      "source": 56,
+      "unknown": 218,
       "concept": 183,
       "motif": 262,
       "template": 336,
@@ -18,13 +18,13 @@
       "person": 157,
       "myth": 14
     },
-    "diagnostics_total": 18213,
-    "errors": 5,
-    "warnings": 18208,
+    "diagnostics_total": 18209,
+    "errors": 0,
+    "warnings": 18209,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 21,
-    "sources_exported": 21,
-    "declared_but_unused": 30,
+    "sources_used_in_records": 22,
+    "sources_exported": 22,
+    "declared_but_unused": 29,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -32,7 +32,7 @@
     "atom": 1768,
     "chronology": 343,
     "concept": 183,
-    "metadata": 44,
+    "metadata": 46,
     "motif": 262,
     "myth": 14,
     "person": 157,
@@ -40,9 +40,9 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 41,
-    "source": 55,
+    "source": 56,
     "template": 336,
-    "unknown": 217
+    "unknown": 218
   },
   "records_by_source": {
     "S02": {
@@ -93,6 +93,11 @@
       "atom": 15,
       "metadata": 3,
       "unknown": 9
+    },
+    "S22": {
+      "source": 1,
+      "metadata": 2,
+      "unknown": 1
     },
     "S41": {
       "atom": 430,
@@ -175,14 +180,14 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 207,
+    "Chapitre 1": 209,
     "Chapitre 10": 249,
     "Chapitre 11": 221,
     "Chapitre 12": 471,
     "Chapitre 13": 111,
     "Chapitre 14": 1005,
-    "Chapitre 2": 379,
-    "Chapitre 3": 412,
+    "Chapitre 2": 381,
+    "Chapitre 3": 414,
     "Chapitre 4": 312,
     "Chapitre 5": 443,
     "Chapitre 6": 571,
@@ -316,12 +321,11 @@
     ]
   ],
   "issue_categories": {
-    "duplicate_id": 5,
     "field_type_error": 149,
     "invalid_controlled_value": 1532,
     "missing_required_field": 4971,
     "schema_warning": 400,
-    "unknown_yaml_block": 217,
+    "unknown_yaml_block": 218,
     "v2_migration_debt": 10939
   },
   "top_files_by_issue_count": [
@@ -446,48 +450,7 @@
       161
     ]
   ],
-  "blocking_errors": [
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "record_id": "CONCEPT-065",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "record_id": "CONCEPT-066",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "record_id": "CONCEPT-067",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "record_id": "CONCEPT-068",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "record_id": "CONCEPT-069",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1978_stiff_chiswick_rca_gretton_factory_granada.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    }
-  ],
+  "blocking_errors": [],
   "unknown_yaml_blocks": [
     {
       "level": "warning",
@@ -1796,6 +1759,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s22_wilkinson_city_fun_source_canonique.md",
+      "record_id": "REG-S22-WILKINSON-CITY-FUN-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
       "record_id": "REG-S12-PRESS-AIDS-ANDERTON-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
@@ -2403,21 +2374,6 @@
         ]
       },
       {
-        "source_id": "S22",
-        "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
-        "auteur": "David Wilkinson",
-        "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
-        "annee": "2018",
-        "statut": "verifie",
-        "usage": [
-          "City Fun",
-          "médias",
-          "politique",
-          "critique de Factory",
-          "Rochdale Alternative Press"
-        ]
-      },
-      {
         "source_id": "S23",
         "source_label": "S23 — Rochdale Alternative Press, infrastructure DIY, 1971–1981",
         "auteur": "Rochdale Alternative Press",
@@ -2874,6 +2830,21 @@
           "registers/references/s20_dodge_source_canonique.md",
           "sources/dodge_manchester_geographies/source.md",
           "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md"
+        ]
+      },
+      {
+        "source_id": "S22",
+        "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+        "auteur": "David Wilkinson",
+        "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
+        "annee": "2018",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s22_wilkinson_city_fun_source_canonique.md",
+          "sources/wilkinson_city_fun_politics/source.md"
         ]
       },
       {
@@ -146707,6 +146678,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s22_wilkinson_city_fun_source_canonique.md",
+      "record_id": "REG-S22-WILKINSON-CITY-FUN-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
       "record_id": "REG-S12-PRESS-AIDS-ANDERTON-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
@@ -147687,46 +147666,6 @@
       "record_id": "CONCEPTS-S10-LATE-JD-TRANSITION-MEMORY-V2",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "record_id": "CONCEPT-065",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "record_id": "CONCEPT-066",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "record_id": "CONCEPT-067",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "record_id": "CONCEPT-068",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
-    },
-    {
-      "level": "error",
-      "category": "duplicate_id",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "record_id": "CONCEPT-069",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1978_stiff_chiswick_rca_gretton_factory_granada.md",
-      "suggested_action": "Renommer ou fusionner l’identifiant en doublon."
     },
     {
       "level": "warning",

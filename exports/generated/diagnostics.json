@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-16T12:50:41",
-  "status": "error",
+  "generated_at": "2026-05-16T15:45:18",
+  "status": "warning",
   "summary": {
-    "records_total": 3780,
+    "records_total": 3784,
     "records_by_kind": {
       "atom": 1768,
-      "metadata": 44,
+      "metadata": 46,
       "quote": 358,
       "chronology": 343,
-      "source": 55,
-      "unknown": 217,
+      "source": 56,
+      "unknown": 218,
       "concept": 183,
       "motif": 262,
       "template": 336,
@@ -19,13 +19,13 @@
       "person": 157,
       "myth": 14
     },
-    "diagnostics_total": 18213,
-    "errors": 5,
-    "warnings": 18208,
+    "diagnostics_total": 18209,
+    "errors": 0,
+    "warnings": 18209,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 21,
-    "sources_exported": 21,
-    "declared_but_unused": 30,
+    "sources_used_in_records": 22,
+    "sources_exported": 22,
+    "declared_but_unused": 29,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -197,21 +197,6 @@
           "politique post-punk",
           "Factory",
           "contre-culture mancunienne"
-        ]
-      },
-      {
-        "source_id": "S22",
-        "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
-        "auteur": "David Wilkinson",
-        "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
-        "annee": "2018",
-        "statut": "verifie",
-        "usage": [
-          "City Fun",
-          "médias",
-          "politique",
-          "critique de Factory",
-          "Rochdale Alternative Press"
         ]
       },
       {
@@ -671,6 +656,21 @@
           "registers/references/s20_dodge_source_canonique.md",
           "sources/dodge_manchester_geographies/source.md",
           "sources/dodge_manchester_geographies/source_part_housing_geographies_v2.md"
+        ]
+      },
+      {
+        "source_id": "S22",
+        "source_label": "S22 — Wilkinson, City Fun and the politics of post-punk, 2018",
+        "auteur": "David Wilkinson",
+        "titre": "‘Pam ponders Paul Morley’s cat’: City Fun and the politics of post-punk",
+        "annee": "2018",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s22_wilkinson_city_fun_source_canonique.md",
+          "sources/wilkinson_city_fun_politics/source.md"
         ]
       },
       {
@@ -108643,6 +108643,12 @@
     },
     {
       "level": "warning",
+      "file": "registers/references/s22_wilkinson_city_fun_source_canonique.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REG-S22-WILKINSON-CITY-FUN-SOURCE-CANONIQUE"
+    },
+    {
+      "level": "warning",
       "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REG-S12-PRESS-AIDS-ANDERTON-SOURCE-CANONIQUE"
@@ -109378,36 +109384,6 @@
       "file": "registers/concepts/s10_sumner_concepts_late_jd_transition_memory_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "CONCEPTS-S10-LATE-JD-TRANSITION-MEMORY-V2"
-    },
-    {
-      "level": "error",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "record_id": "CONCEPT-065"
-    },
-    {
-      "level": "error",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "record_id": "CONCEPT-066"
-    },
-    {
-      "level": "error",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "record_id": "CONCEPT-067"
-    },
-    {
-      "level": "error",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1976_1977_timeline_two_warsaw_to_joy_division.md",
-      "record_id": "CONCEPT-068"
-    },
-    {
-      "level": "error",
-      "file": "registers/concepts/s13_tomeo_concepts_interzone_rave_era.md",
-      "message": "Duplicate id also found in registers/concepts/s41_hook_concepts_1978_stiff_chiswick_rca_gretton_factory_granada.md",
-      "record_id": "CONCEPT-069"
     },
     {
       "level": "warning",
