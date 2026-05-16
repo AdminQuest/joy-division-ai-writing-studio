@@ -113,6 +113,227 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-S26-001",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S26-001",
+      "concept": "retour critique au post-punk",
+      "sources": [
+        "S26"
+      ],
+      "related_atoms": [
+        "S26-A001",
+        "S26-A003"
+      ],
+      "definition": "Retour historiographique au post-punk comme outil de critique du présent néolibéral, et non comme seule nostalgie générationnelle.",
+      "usage_chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S26-002",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S26-002",
+      "concept": "popular modernism",
+      "sources": [
+        "S26"
+      ],
+      "related_atoms": [
+        "S26-A002",
+        "S26-A016"
+      ],
+      "definition": "Modernisme populaire : culture de masse expérimentale, difficile, orientée vers la nouveauté et le futur, notamment formulée par Mark Fisher.",
+      "usage_chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "prudence": "Concept de Fisher à manier comme outil critique, non comme catégorie universelle."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S26-003",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S26-003",
+      "concept": "flattening of cultural time",
+      "sources": [
+        "S26"
+      ],
+      "related_atoms": [
+        "S26-A003"
+      ],
+      "definition": "Aplatissement du temps culturel par lequel le passé reste étrangement contemporain tandis que le présent peine à produire du futur.",
+      "usage_chapitres": [
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S26-004",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S26-004",
+      "concept": "self-authorisation autodidacte",
+      "sources": [
+        "S26"
+      ],
+      "related_atoms": [
+        "S26-A004"
+      ],
+      "definition": "Processus par lequel l’incapacité, l’amateurisme et les contraintes deviennent moteurs d’autorisation créative.",
+      "usage_chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S26-005",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S26-005",
+      "concept": "alternative public sphere post-punk",
+      "sources": [
+        "S26"
+      ],
+      "related_atoms": [
+        "S26-A005"
+      ],
+      "definition": "Espace public parallèle formé par la presse musicale, les fanzines, la théorie, les références littéraires, les disques et les réseaux d’autodidaxie.",
+      "usage_chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S26-006",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S26-006",
+      "concept": "conditions matérielles du post-punk",
+      "sources": [
+        "S26"
+      ],
+      "related_atoms": [
+        "S26-A006",
+        "S26-A007"
+      ],
+      "definition": "Ensemble des conditions institutionnelles et sociales — art schools, grants, dole, welfare state, social democracy — qui rendent possible l’expérimentation post-punk.",
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 3"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S26-007",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S26-007",
+      "concept": "post-punk commons",
+      "sources": [
+        "S26"
+      ],
+      "related_atoms": [
+        "S26-A008",
+        "S26-A011",
+        "S26-A012",
+        "S26-A013"
+      ],
+      "definition": "Formes collectives de production post-punk fondées sur le partage des ressources, des espaces, des pratiques et des disciplines.",
+      "usage_chapitres": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S26-008",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S26-008",
+      "concept": "world-making machine",
+      "sources": [
+        "S26"
+      ],
+      "related_atoms": [
+        "S26-A008",
+        "S26-A013"
+      ],
+      "definition": "Le groupe comme machine de monde : dispositif collectif produisant formes, modes de vie, relations et futurs possibles.",
+      "usage_chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S26-009",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S26-009",
+      "concept": "commoning disciplinaire",
+      "sources": [
+        "S26"
+      ],
+      "related_atoms": [
+        "S26-A012"
+      ],
+      "definition": "Pratique consistant à battre les clôtures entre art, musique, performance, design, théorie et média.",
+      "usage_chapitres": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S26-010",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S26-010",
+      "concept": "commons limités",
+      "sources": [
+        "S26"
+      ],
+      "related_atoms": [
+        "S26-A014",
+        "S26-A015"
+      ],
+      "definition": "Rappel critique : les collectifs post-punk peuvent ouvrir des possibles sans abolir les clôtures de genre, race, classe et institution.",
+      "usage_chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-S15-001",
     "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
     "heading": "Concepts à consolider",

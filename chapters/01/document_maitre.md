@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:34:56"
+generated_at: "2026-05-16T20:35:33"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T19:34:56"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 152 |
+| Atomes | 157 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 21 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -45,6 +45,7 @@ generated_at: "2026-05-16T19:34:56"
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 7 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 2 | 0 |
+| S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 5 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -329,6 +330,8 @@ generated_at: "2026-05-16T19:34:56"
 - enfance (2)
 - peter hook (2)
 - bernard sumner (2)
+- welfare state (2)
+- race (2)
 - urban malaise (2)
 - Stephen Morris (2)
 - scène d’apprentissage (2)
@@ -363,8 +366,6 @@ generated_at: "2026-05-16T19:34:56"
 - discordance entre œuvre et opinion (1)
 - seuil de preuve politique (1)
 - distinction anecdote / position idéologique (1)
-- formulation contrôlée (1)
-- maintien de l’ordre (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -479,7 +480,7 @@ generated_at: "2026-05-16T19:34:56"
 
 | Type | Nombre |
 |---|---|
-| source_part | 10 |
+| source_part | 11 |
 | concept_structurant | 9 |
 | analyse | 9 |
 | prudence_methodologique | 7 |
@@ -525,6 +526,10 @@ generated_at: "2026-05-16T19:34:56"
 | travail | 1 |
 | citation_clef | 1 |
 | environnement_social | 1 |
+| conditions_materielles | 1 |
+| paradoxe_politique | 1 |
+| scene_regionale | 1 |
+| prudence_sociale | 1 |
 | reception_critique | 1 |
 | lieu_biographique | 1 |
 | citation_repere | 1 |
@@ -562,7 +567,7 @@ generated_at: "2026-05-16T19:34:56"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 132 |
+| non qualifiée | 137 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-16T19:48:43",
+  "generated_at": "2026-05-16T20:35:31",
   "summary": {
-    "records_total": 3976,
+    "records_total": 4039,
     "records_by_kind": {
-      "atom": 1815,
-      "metadata": 66,
+      "atom": 1833,
+      "metadata": 69,
       "quote": 358,
       "chronology": 343,
       "source": 60,
-      "unknown": 286,
-      "concept": 205,
-      "motif": 280,
-      "myth": 27,
+      "unknown": 307,
+      "concept": 215,
+      "motif": 287,
+      "myth": 31,
       "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 18844,
+    "diagnostics_total": 19083,
     "errors": 0,
-    "warnings": 18844,
+    "warnings": 19083,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 26,
     "sources_exported": 26,
@@ -29,12 +29,12 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1815,
+    "atom": 1833,
     "chronology": 343,
-    "concept": 205,
-    "metadata": 66,
-    "motif": 280,
-    "myth": 27,
+    "concept": 215,
+    "metadata": 69,
+    "motif": 287,
+    "myth": 31,
     "person": 157,
     "quote": 358,
     "quote_batch": 1,
@@ -42,7 +42,7 @@
     "song": 41,
     "source": 60,
     "template": 336,
-    "unknown": 286
+    "unknown": 307
   },
   "records_by_source": {
     "S02": {
@@ -137,9 +137,13 @@
       "myth": 4
     },
     "S26": {
+      "metadata": 5,
       "source": 1,
-      "metadata": 2,
-      "unknown": 1
+      "unknown": 16,
+      "atom": 18,
+      "concept": 10,
+      "motif": 7,
+      "myth": 4
     },
     "S41": {
       "atom": 430,
@@ -222,19 +226,19 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 253,
+    "Chapitre 1": 260,
     "Chapitre 10": 253,
-    "Chapitre 11": 221,
+    "Chapitre 11": 223,
     "Chapitre 12": 471,
     "Chapitre 13": 111,
-    "Chapitre 14": 1058,
-    "Chapitre 2": 384,
-    "Chapitre 3": 433,
+    "Chapitre 14": 1077,
+    "Chapitre 2": 392,
+    "Chapitre 3": 446,
     "Chapitre 4": 312,
     "Chapitre 5": 443,
     "Chapitre 6": 571,
-    "Chapitre 7": 125,
-    "Chapitre 8": 348,
+    "Chapitre 7": 135,
+    "Chapitre 8": 362,
     "Chapitre 9": 283,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
@@ -322,6 +326,10 @@
       29
     ],
     [
+      "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      26
+    ],
+    [
       "sources/sumner_chapter_and_verse/source_part_sumner_salford_formation_sound_v2.md",
       26
     ],
@@ -356,19 +364,15 @@
     [
       "sources/johnson_morley_an_ideal_for_living/source_suite_04.md",
       20
-    ],
-    [
-      "sources/flowers/citations_exactes.md",
-      20
     ]
   ],
   "issue_categories": {
     "field_type_error": 149,
-    "invalid_controlled_value": 1592,
-    "missing_required_field": 5055,
+    "invalid_controlled_value": 1612,
+    "missing_required_field": 5091,
     "schema_warning": 400,
-    "unknown_yaml_block": 286,
-    "v2_migration_debt": 11362
+    "unknown_yaml_block": 307,
+    "v2_migration_debt": 11524
   },
   "top_files_by_issue_count": [
     [
@@ -456,6 +460,10 @@
       219
     ],
     [
+      "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      218
+    ],
+    [
       "sources/curtis_touching_from_a_distance/source_part_1979_factory_unknown_pleasures_wives_nazism.md",
       210
     ],
@@ -486,10 +494,6 @@
     [
       "sources/ott_unknown_pleasures/source_part_04.md",
       170
-    ],
-    [
-      "sources/ott_unknown_pleasures/source_part_01.md",
-      167
     ]
   ],
   "blocking_errors": [],
@@ -627,6 +631,174 @@
       "category": "unknown_yaml_block",
       "file": "sources/uk_treasury_fsbr_1987_88/registres_specialises_s11.md",
       "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "record_id": "REF-S26-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "record_id": "REF-S26-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "record_id": "REF-S26-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "record_id": "REF-S26-004",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
@@ -2784,10 +2956,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1815,
+    "atoms_total": 1833,
     "atoms_v2_complete": 61,
-    "atoms_v2_incomplete": 1754,
-    "v2_missing_field_warnings": 11362
+    "atoms_v2_incomplete": 1772,
+    "v2_missing_field_warnings": 11524
   },
   "source_registry": {
     "declared_but_unused": [
@@ -3445,13 +3617,17 @@
         "auteur": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.)",
         "titre": "Post-Punk Then and Now",
         "annee": "2016",
-        "records": 4,
-        "atoms": 0,
+        "records": 61,
+        "atoms": 18,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s26_post_punk_then_now_source_canonique.md",
-          "sources/butt_eshun_fisher_post_punk_then_now/source.md"
+          "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+          "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+          "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+          "sources/butt_eshun_fisher_post_punk_then_now/source.md",
+          "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md"
         ]
       },
       {
@@ -68913,6 +69089,1918 @@
       "record_id": "S75-A056",
       "message": "Missing nested field: stabilite.risque_revision",
       "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "record_id": null,
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-005",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-006",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-007",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-008",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-009",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-010",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "record_id": "REL-S26-011",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Invalid value for statut: integration_directe",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Invalid value for fiabilite: forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A001",
+      "message": "Invalid value for type_unite: cadrage_historiographique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A002",
+      "message": "Invalid value for type_unite: concept_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A003",
+      "message": "Invalid value for type_unite: temporalite_culturelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A004",
+      "message": "Invalid value for type_unite: concept_pratique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A005",
+      "message": "Invalid value for type_unite: media_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A006",
+      "message": "Invalid value for type_unite: conditions_materielles",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A007",
+      "message": "Invalid value for type_unite: paradoxe_politique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A008",
+      "message": "Invalid value for type_unite: concept_collectif",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A009",
+      "message": "Invalid value for type_unite: scene_regionale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A010",
+      "message": "Invalid value for type_unite: evenement_scene",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A011",
+      "message": "Invalid value for type_unite: economie_collective",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A012",
+      "message": "Invalid value for type_unite: transdisciplinarite",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A013",
+      "message": "Invalid value for type_unite: processus_creation",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A014",
+      "message": "Invalid value for type_unite: genre_scene",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A015",
+      "message": "Invalid value for type_unite: prudence_sociale",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A016",
+      "message": "Invalid value for type_unite: comparaison_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "record_id": "S26-A017",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "record_id": "REF-S26-001",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "record_id": "REF-S26-002",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "record_id": "REF-S26-003",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "record_id": "REF-S26-004",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
     {
       "level": "warning",

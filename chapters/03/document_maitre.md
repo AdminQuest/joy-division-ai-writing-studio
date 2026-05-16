@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:34:56"
+generated_at: "2026-05-16T20:35:33"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 304 |
+| Atomes | 312 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 18 |
 | Personnes | 19 |
 | Chansons | 18 |
-| Sources mobilisées | 16 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 4 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 5 | 0 |
+| S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 8 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
@@ -182,6 +183,22 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `acteur_critique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2** — S22 — Passe v2 — Wilkinson, *City Fun* and the politics of post-punk  
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source secondaire universitaire ; à croiser avec S21 pour les citations primaires de City Fun`.
+- **S26-A002** — S26-A002 — Post-punk comme popular modernism : nouveauté, difficulté, futur  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `concept_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A004** — S26-A004 — Contraintes, autodidaxie et self-authorisation  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `concept_pratique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A006** — S26-A006 — Art school, welfare state et conditions matérielles du post-punk  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `conditions_materielles` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A008** — S26-A008 — Being in a band : groupe, commons, world-making machine  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `concept_collectif` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A011** — S26-A011 — Post-punk commons : partage des ressources, argent rare, espaces communs  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `economie_collective` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A012** — S26-A012 — Commoning disciplinaire : battre les clôtures entre art, musique, performance  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `transdisciplinarite` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A013** — S26-A013 — Improvisation collective et production de formes imprévisibles  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `processus_creation` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2** — S26 — Passe v2 — Post-punk now, popular modernism, art school commons  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
@@ -270,22 +287,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
 - **S41-A183** — S41-A183 — Auratones, ARP, gates : Hannett comme école technique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `technique_studio` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
-- **S41-A192** — S41-A192 — Rainbow Theatre : Burnel, crew des Stranglers et hiérarchie matérielle  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle_live` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A214** — S41-A214 — « Atrocity Exhibition » : échange d’instruments et colère contre Hannett  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct d’interprète`.
-- **S41-A215** — S41-A215 — « Isolation » : simplicité, synthés, batterie séparée et edit sauvé  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct + analyse technique`.
-- **S41-A216** — S41-A216 — « Passover » : six-string bass, Clone Theory et son du futur Hook  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_instrument` ; importance : `critique` ; preuve : `témoignage direct d’instrumentiste`.
-- **S41-A219** — S41-A219 — « Heart and Soul » : basse transférée au synthé et naissance d’une méthode New Order  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct d’instrumentiste + analyse studio`.
-- **S41-C02** — S41-C02 — La basse comme instrument principal de Joy Division  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **S41-C05** — S41-C05 — Joy Division comme tension entre live et studio  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
-- **S45-007** — S45-007 — Rare Records comme point de bascule culturel  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `culture_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -608,11 +609,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | fait | 9 |
 | session | 7 |
 | lieu_studio | 5 |
+| source_part | 5 |
 | concept | 5 |
 | session_radio | 4 |
 | discographie | 4 |
 | reception_critique | 4 |
-| source_part | 4 |
 | analyse_morceau_studio | 3 |
 | interpretation_studio | 3 |
 | reception_presse | 3 |
@@ -627,6 +628,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | economie_materielle | 2 |
 | chronologie_discographique | 2 |
 | session_enregistrement | 2 |
+| concept_critique | 2 |
 | theorie_voix | 2 |
 | chronologie | 2 |
 | scene_fondatrice | 2 |
@@ -677,7 +679,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | analyse_musicale | 1 |
 | industrie_musicale | 1 |
 | discographie_album | 1 |
-| concept_critique | 1 |
 | theorie_production | 1 |
 | theorie_rythmique | 1 |
 | theorie_sonore | 1 |
@@ -691,6 +692,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | bootleg | 1 |
 | archive | 1 |
 | contexte | 1 |
+| concept_pratique | 1 |
+| conditions_materielles | 1 |
+| concept_collectif | 1 |
+| economie_collective | 1 |
+| transdisciplinarite | 1 |
+| processus_creation | 1 |
 | reception_discographique | 1 |
 | reception_radio | 1 |
 | demythification | 1 |
@@ -732,7 +739,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 197 |
+| non qualifiée | 205 |
 | critique | 86 |
 | majeure | 11 |
 | majeur | 10 |

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:34:56"
+generated_at: "2026-05-16T20:35:33"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 309 |
+| Atomes | 313 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 32 |
 | Personnes | 27 |
 | Chansons | 6 |
-| Sources mobilisées | 14 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 13 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 10 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 3 | 0 |
+| S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 4 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
@@ -176,6 +177,14 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `tension_editoriale` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S22-PART-CITY-FUN-POLITICS-POST-PUNK-V2** — S22 — Passe v2 — Wilkinson, *City Fun* and the politics of post-punk  
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source secondaire universitaire ; à croiser avec S21 pour les citations primaires de City Fun`.
+- **S26-A004** — S26-A004 — Contraintes, autodidaxie et self-authorisation  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `concept_pratique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A006** — S26-A006 — Art school, welfare state et conditions matérielles du post-punk  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `conditions_materielles` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A008** — S26-A008 — Being in a band : groupe, commons, world-making machine  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `concept_collectif` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A010** — S26-A010 — Punk gig, art school et cristallisation de scènes  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `evenement_scene` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
@@ -276,14 +285,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `motif_social` ; importance : `majeur` ; preuve : `témoignage direct avec interprétation rétrospective`.
 - **S45-006** — S45-006 — Deborah Curtis construit un Ian pré-punk  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `cadre_narratif` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-007** — S45-007 — Rare Records comme point de bascule culturel  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `culture_musicale` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S45-011** — S45-011 — Les Sex Pistols comme déclencheur mais non origine totale  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `histoire_punk` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-012** — S45-012 — Warsaw puis Joy Division : intrusion du groupe dans le foyer  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `dynamique_collective` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S45-A021** — S45-A021 — « Rusty » : l’annonce solitaire avant la rencontre du groupe  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 
 ## 7. Citations disponibles
 
@@ -397,10 +398,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 - Warsaw (31)
 - Electric Circus (17)
+- Sex Pistols (11)
 - Joy Division (11)
 - Rob Gretton (11)
 - punk (11)
-- Sex Pistols (10)
 - Rafters (10)
 - An Ideal for Living (9)
 - Manchester (8)
@@ -640,6 +641,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | scene_revelation | 2 |
 | rencontre_fondatrice | 2 |
 | reception_presse | 2 |
+| evenement_scene | 2 |
 | changement_nom | 2 |
 | bootleg | 2 |
 | micro_chronologie | 2 |
@@ -678,7 +680,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | reception_live | 1 |
 | enregistrement | 1 |
 | concert_incident | 1 |
-| evenement_scene | 1 |
 | concert_bascule | 1 |
 | historiographie_subjective | 1 |
 | anecdote_critique | 1 |
@@ -690,6 +691,9 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | dynamique_collective | 1 |
 | influence | 1 |
 | lecture_musicale | 1 |
+| concept_pratique | 1 |
+| conditions_materielles | 1 |
+| concept_collectif | 1 |
 | contexte_nom | 1 |
 | genealogie_culturelle | 1 |
 | archive_inedite | 1 |
@@ -734,7 +738,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 195 |
+| non qualifiée | 199 |
 | critique | 77 |
 | majeure | 18 |
 | majeur | 15 |

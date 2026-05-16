@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:34:56"
+generated_at: "2026-05-16T20:35:33"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 91 |
+| Atomes | 97 |
 | Atomes critiques / majeurs | 29 |
 | Citations | 6 |
 | Événements chronologiques | 9 |
 | Personnes | 7 |
 | Chansons | 7 |
-| Sources mobilisées | 11 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S09 | S09 — Cummins, Joy Division, 2010 | 5 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 7 | 0 |
+| S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
@@ -127,6 +128,18 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `contexte_critique` ; importance : `majeur` ; preuve : `source critique secondaire`.
 - **S13-A007** — S13-A007 — Unknown Pleasures : laboratoire sonore, bruit et spatialisation  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `economie_sonore` ; importance : `majeur` ; preuve : `lecture critique ; faits techniques à corroborer`.
+- **S26-A001** — S26-A001 — Post-punk now : retour critique, non simple nostalgie  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `cadrage_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A002** — S26-A002 — Post-punk comme popular modernism : nouveauté, difficulté, futur  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `concept_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A004** — S26-A004 — Contraintes, autodidaxie et self-authorisation  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `concept_pratique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A016** — S26-A016 — The Jam, Joy Division et deux formes working-class de popular modernism  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `comparaison_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A017** — S26-A017 — S26 comme source de cadrage critique, non source factuelle sur Joy Division  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2** — S26 — Passe v2 — Post-punk now, popular modernism, art school commons  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser`.
 - **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-071** — S41-071 — Martin Hannett : première impression de sorcier technique  
@@ -314,6 +327,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - glass (2)
 - réception corporelle (2)
 - producteur catalyseur (2)
+- Joy Division (2)
 - répétition (2)
 - factory (2)
 - austérité visuelle (2)
@@ -356,7 +370,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - warm leatherette (1)
 - j g ballard (1)
 - electropunk (1)
-- pop group (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -498,7 +511,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | lecture_musicale | 4 |
 | reception | 4 |
 | scene_fondatrice | 4 |
-| source_part | 3 |
+| source_part | 4 |
 | controverse | 2 |
 | design | 2 |
 | analyse_studio | 2 |
@@ -520,6 +533,11 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | memoire | 1 |
 | performance | 1 |
 | lecture_discographique | 1 |
+| cadrage_historiographique | 1 |
+| concept_critique | 1 |
+| concept_pratique | 1 |
+| comparaison_critique | 1 |
+| prudence_methodologique | 1 |
 | lieu | 1 |
 | institution | 1 |
 | session | 1 |
@@ -541,7 +559,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 59 |
+| non qualifiée | 65 |
 | critique | 26 |
 | majeur | 3 |
 | majeure | 2 |

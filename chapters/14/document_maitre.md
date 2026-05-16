@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:34:56"
+generated_at: "2026-05-16T20:35:33"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 817 |
+| Atomes | 829 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 24 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -46,6 +46,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 11 | 0 |
+| S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 12 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
@@ -236,6 +237,30 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `conclusion_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S22-A015** — S22-A015 — S22 comme source secondaire : croiser avec S21 avant citation primaire  
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A001** — S26-A001 — Post-punk now : retour critique, non simple nostalgie  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `cadrage_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A002** — S26-A002 — Post-punk comme popular modernism : nouveauté, difficulté, futur  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `concept_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A003** — S26-A003 — Flattening of cultural time : pourquoi le post-punk reste contemporain  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `temporalite_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A005** — S26-A005 — Alternative public sphere : presse musicale, théorie et éducation parallèle  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `media_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A007** — S26-A007 — Welfare state : condition attaquée, condition nécessaire  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `paradoxe_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A009** — S26-A009 — Leeds comme contrepoint à Manchester : scènes régionales et active localism  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `scene_regionale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A012** — S26-A012 — Commoning disciplinaire : battre les clôtures entre art, musique, performance  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `transdisciplinarite` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A014** — S26-A014 — Féminist commoning : les Shee Hees contre la masculinité studio  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `genre_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A015** — S26-A015 — Classe, race, art school : commons limités, non utopie transparente  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `prudence_sociale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A016** — S26-A016 — The Jam, Joy Division et deux formes working-class de popular modernism  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `comparaison_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A017** — S26-A017 — S26 comme source de cadrage critique, non source factuelle sur Joy Division  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2** — S26 — Passe v2 — Post-punk now, popular modernism, art school commons  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-014** — S41-014 — Lesser Free Trade Hall, 4 juin 1976 : mythe et expérience vécue  
@@ -270,30 +295,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-087** — S41-087 — Les « Genetic demos » comme bifurcation fantôme  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-089** — S41-089 — Factory comme liberté musicale complète  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `decision_strategique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-090** — S41-090 — L’accord Factory : partage plus que contrat traditionnel  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_juridico_economique` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-097** — S41-097 — La grandeur rétrospective de l’erreur perçue  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation_retrospective` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-098** — S41-098 — Peter Saville et la pochette : image froide pour son froid  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-099** — S41-099 — *Unknown Pleasures* : sortie sans emballement commercial immédiat  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-100** — S41-100 — La critique comme confirmation extérieure  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-106** — S41-106 — Rob Gretton comme pare-chocs contre l’industrie  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `portrait_fonctionnel` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-107** — S41-107 — Les débuts de la mythologie Curtis sur scène  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-108** — S41-108 — La photographie et l’image publique du groupe  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-123** — S41-123 — Le succès grandissant et l’intensification des tournées  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_scene` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-130** — S41-130 — « Love Will Tear Us Apart » : simplicité pop et tragédie interne  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-131** — S41-131 — Le paradoxe commercial de « Love Will Tear Us Apart »  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `réception` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -441,7 +442,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Factory (33)
 - Ian Curtis (27)
 - Still (26)
-- Joy Division (21)
+- Joy Division (23)
 - Unknown Pleasures (20)
 - Peter Saville (18)
 - NME (16)
@@ -666,10 +667,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | production | 8 |
 | contrepoint | 8 |
 | scene_fondatrice | 8 |
+| prudence_methodologique | 8 |
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
-| prudence_methodologique | 7 |
 | fait | 7 |
 | lecture | 6 |
 | controverse | 6 |
@@ -691,6 +692,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert | 4 |
 | projet_avorte | 4 |
 | fait_interprete | 4 |
+| source_part | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | session_studio | 4 |
@@ -717,7 +719,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | objet_visuel | 3 |
 | decision_strategique | 3 |
 | conclusion_historiographique | 3 |
-| source_part | 3 |
 | interpretation | 3 |
 | song_session | 3 |
 | song | 3 |
@@ -741,6 +742,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | changement_nom | 2 |
 | objet_merchandising | 2 |
 | dispositif_formel | 2 |
+| concept_critique | 2 |
 | conclusion_methodologique | 2 |
 | paratexte_discographique | 2 |
 | réception | 2 |
@@ -863,7 +865,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | citation_contextuelle | 1 |
 | theorie_speculative | 1 |
 | interpretation_posthume | 1 |
-| concept_critique | 1 |
 | intertextualite_occultiste | 1 |
 | chanson_seuil | 1 |
 | analyse_formelle | 1 |
@@ -890,6 +891,15 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_musicale | 1 |
 | mythe_institutionnel | 1 |
 | chronology | 1 |
+| cadrage_historiographique | 1 |
+| temporalite_culturelle | 1 |
+| media_critique | 1 |
+| paradoxe_politique | 1 |
+| scene_regionale | 1 |
+| transdisciplinarite | 1 |
+| genre_scene | 1 |
+| prudence_sociale | 1 |
+| comparaison_critique | 1 |
 | bootleg_culture | 1 |
 | reception_album | 1 |
 | reception_comparative | 1 |
@@ -1069,7 +1079,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 525 |
+| non qualifiée | 537 |
 | critique | 221 |
 | majeure | 39 |
 | majeur | 28 |

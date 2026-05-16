@@ -47737,6 +47737,650 @@
   },
   {
     "kind": "atom",
+    "id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26 — Passe v2 — Post-punk now, popular modernism, art school commons",
+    "data": {
+      "id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_short_title": "Butt, Eshun & Fisher, Post-Punk Then and Now, 2016",
+      "source_year": "2016",
+      "auteurs_direction": [
+        "Gavin Butt",
+        "Kodwo Eshun",
+        "Mark Fisher"
+      ],
+      "titre": "Post-Punk Then and Now",
+      "type_unite": "source_part",
+      "statut": "integration_directe",
+      "fiabilite": "forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser",
+      "citation_directe": false,
+      "passage_atomise": "Préface ; Introduction : Gavin Butt, Kodwo Eshun et Mark Fisher in Conversation, p. PDF 5-19 ; Gavin Butt, « Being in A Band: Art-school Experiment and the Post-Punk Commons », p. PDF 47-69 ; raccord partiel avec Mark Fisher, « Going Overground », p. PDF 82-95.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 2",
+        "Chapitre 9",
+        "Chapitre 11"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A001",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A001 — Post-punk now : retour critique, non simple nostalgie",
+    "data": {
+      "id": "S26-A001",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "5-7",
+      "type_unite": "cadrage_historiographique",
+      "locuteurs": [
+        "Gavin Butt",
+        "Mark Fisher",
+        "Kodwo Eshun"
+      ],
+      "concepts": [
+        "retour critique au post-punk",
+        "nostalgie",
+        "historicisation",
+        "neoliberal present"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas réduire le retour au post-punk à une nostalgie générationnelle.",
+        "Distinguer souvenir, historicisation et usage critique du présent."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A002",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A002 — Post-punk comme popular modernism : nouveauté, difficulté, futur",
+    "data": {
+      "id": "S26-A002",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "8-11, 82-86",
+      "type_unite": "concept_critique",
+      "locuteurs": [
+        "Mark Fisher"
+      ],
+      "concepts": [
+        "popular modernism",
+        "nouveauté",
+        "difficulté",
+        "anti-kitsch",
+        "futur"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas appliquer mécaniquement popular modernism à tout post-punk.",
+        "Préciser quand la notion vient de Fisher."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A003",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A003 — Flattening of cultural time : pourquoi le post-punk reste contemporain",
+    "data": {
+      "id": "S26-A003",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "8-9, 15-18",
+      "type_unite": "temporalite_culturelle",
+      "locuteurs": [
+        "Mark Fisher",
+        "Kodwo Eshun"
+      ],
+      "concepts": [
+        "flattening of cultural time",
+        "temporal bandwidth",
+        "archive numérique",
+        "présent saturé"
+      ],
+      "chapitres": [
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas confondre contemporanéité ressentie et continuité historique directe."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A004",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A004 — Contraintes, autodidaxie et self-authorisation",
+    "data": {
+      "id": "S26-A004",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "9-10",
+      "type_unite": "concept_pratique",
+      "locuteurs": [
+        "Kodwo Eshun"
+      ],
+      "concepts": [
+        "autodidaxie",
+        "self-authorisation",
+        "amateurism",
+        "incapacity",
+        "contraintes"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 7"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas confondre incapacité valorisée et absence de travail."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A005",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A005 — Alternative public sphere : presse musicale, théorie et éducation parallèle",
+    "data": {
+      "id": "S26-A005",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "10-11",
+      "type_unite": "media_critique",
+      "locuteurs": [
+        "Mark Fisher"
+      ],
+      "concepts": [
+        "alternative public sphere",
+        "music press",
+        "autodidacticism",
+        "theory",
+        "alternative education"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organizations": [
+        "New Musical Express"
+      ],
+      "methodological_warnings": [
+        "Croiser avec S22 pour les médias post-punk mancuniens."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A006",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A006 — Art school, welfare state et conditions matérielles du post-punk",
+    "data": {
+      "id": "S26-A006",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "11-13, 47-53, 93-94",
+      "type_unite": "conditions_materielles",
+      "locuteurs": [
+        "Gavin Butt",
+        "Mark Fisher"
+      ],
+      "concepts": [
+        "art school",
+        "welfare state",
+        "student grants",
+        "dole",
+        "social democracy"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas écrire une gratuité abstraite : préciser grants, art schools, welfare state, dole, social democracy."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A007",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A007 — Welfare state : condition attaquée, condition nécessaire",
+    "data": {
+      "id": "S26-A007",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "12-13",
+      "type_unite": "paradoxe_politique",
+      "locuteurs": [
+        "Kodwo Eshun",
+        "Mark Fisher"
+      ],
+      "concepts": [
+        "welfare state",
+        "anti-authoritarian leftism",
+        "libidinal leftism",
+        "neoliberal capture"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas transformer le post-punk en simple défense rétrospective de la social-démocratie."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A008",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A008 — Being in a band : groupe, commons, world-making machine",
+    "data": {
+      "id": "S26-A008",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "47-53",
+      "type_unite": "concept_collectif",
+      "locuteurs": [
+        "Gavin Butt"
+      ],
+      "concepts": [
+        "being in a band",
+        "post-punk commons",
+        "world-making machine",
+        "collective practice"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas idéaliser la collectivité : conserver tensions, limites et conflits."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A009",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A009 — Leeds comme contrepoint à Manchester : scènes régionales et active localism",
+    "data": {
+      "id": "S26-A009",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "47-51, 64-65",
+      "type_unite": "scene_regionale",
+      "locuteurs": [
+        "Gavin Butt"
+      ],
+      "concepts": [
+        "Leeds",
+        "regional city scenes",
+        "active localism",
+        "art school scene"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_places": [
+        "Leeds",
+        "Manchester"
+      ],
+      "methodological_warnings": [
+        "Ne pas importer mécaniquement la scène Leeds dans l’histoire mancunienne."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A010",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A010 — Punk gig, art school et cristallisation de scènes",
+    "data": {
+      "id": "S26-A010",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "49-51",
+      "type_unite": "evenement_scene",
+      "locuteurs": [
+        "Gavin Butt"
+      ],
+      "concepts": [
+        "Anarchy tour",
+        "Sex Pistols",
+        "Leeds Polytechnic",
+        "scene crystallisation"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Comparer avec Manchester / Lesser Free Trade Hall sans les confondre."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A011",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A011 — Post-punk commons : partage des ressources, argent rare, espaces communs",
+    "data": {
+      "id": "S26-A011",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "52-53",
+      "type_unite": "economie_collective",
+      "locuteurs": [
+        "Gavin Butt"
+      ],
+      "concepts": [
+        "communalism",
+        "shared resources",
+        "rehearsal space",
+        "student maintenance grants",
+        "commons"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas réduire les commons post-punk à une harmonie collective : il y a aussi conflit, précarité et limites."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A012",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A012 — Commoning disciplinaire : battre les clôtures entre art, musique, performance",
+    "data": {
+      "id": "S26-A012",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "53-55, 60-61",
+      "type_unite": "transdisciplinarite",
+      "locuteurs": [
+        "Gavin Butt"
+      ],
+      "concepts": [
+        "commoning",
+        "beating the bounds",
+        "disciplinary enclosures",
+        "art music performance"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Préciser la source Lewis Hyde si l’expression beating the bounds est citée."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A013",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A013 — Improvisation collective et production de formes imprévisibles",
+    "data": {
+      "id": "S26-A013",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "56-59",
+      "type_unite": "processus_creation",
+      "locuteurs": [
+        "Gavin Butt"
+      ],
+      "concepts": [
+        "improvisation",
+        "ensemble conversation",
+        "generative group culture",
+        "anti-division of labour"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 8"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas confondre désordre apparent et absence de pensée."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A014",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A014 — Féminist commoning : les Shee Hees contre la masculinité studio",
+    "data": {
+      "id": "S26-A014",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "55-57",
+      "type_unite": "genre_scene",
+      "locuteurs": [
+        "Gavin Butt"
+      ],
+      "concepts": [
+        "feminist commoning",
+        "Shee Hees",
+        "machismo",
+        "studio culture",
+        "comedy performance"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas réduire les Shee Hees à la blague : Butt les lit comme intervention féministe dans les commons."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A015",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A015 — Classe, race, art school : commons limités, non utopie transparente",
+    "data": {
+      "id": "S26-A015",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "62-64, 67-69",
+      "type_unite": "prudence_sociale",
+      "locuteurs": [
+        "Gavin Butt"
+      ],
+      "concepts": [
+        "class",
+        "race",
+        "art school access",
+        "white enclosure",
+        "commons limited"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas idéaliser les art schools : accès élargi ne signifie pas absence d’enclosures sociales, raciales ou de genre."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A016",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A016 — The Jam, Joy Division et deux formes working-class de popular modernism",
+    "data": {
+      "id": "S26-A016",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "82-91",
+      "type_unite": "comparaison_critique",
+      "locuteurs": [
+        "Mark Fisher"
+      ],
+      "concepts": [
+        "The Jam",
+        "Joy Division",
+        "working-class popular modernism",
+        "class consciousness",
+        "capitalist realism"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organizations": [
+        "The Jam",
+        "Joy Division"
+      ],
+      "methodological_warnings": [
+        "Comparer Joy Division et The Jam sans les hiérarchiser ni effacer leurs esthétiques divergentes."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S26-A017",
+    "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+    "heading": "S26-A017 — S26 comme source de cadrage critique, non source factuelle sur Joy Division",
+    "data": {
+      "id": "S26-A017",
+      "source_id": "S26",
+      "source_label": "S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016",
+      "pages_pdf": "5-95",
+      "type_unite": "prudence_methodologique",
+      "concepts": [
+        "source secondaire critique",
+        "source orale éditorialisée",
+        "Joy Division",
+        "cadrage"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Toujours identifier locuteur, chapitre et statut oral éditorialisé.",
+        "Ne pas utiliser S26 comme preuve factuelle primaire sur Joy Division."
+      ],
+      "source_short_title": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.), Post-Punk Then and Now, 2016",
+      "source_year": "2016"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S47-041",
     "file": "sources/mike_west_joy_division/source_atomisation_02.md",
     "heading": "S47-041 — La Factory Sampler devient rapidement obsolète",

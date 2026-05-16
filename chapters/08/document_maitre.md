@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:34:56"
+generated_at: "2026-05-16T20:35:33"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 229 |
+| Atomes | 238 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
 | Personnes | 7 |
 | Chansons | 4 |
-| Sources mobilisées | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 4 | 0 |
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 3 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 13 | 0 |
+| S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 9 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
@@ -162,6 +163,24 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `politique_identitaire` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S22-A015** — S22-A015 — S22 comme source secondaire : croiser avec S21 avant citation primaire  
   Source : S22 — Wilkinson, City Fun and the politics of post-punk, 2018 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A005** — S26-A005 — Alternative public sphere : presse musicale, théorie et éducation parallèle  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `media_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A008** — S26-A008 — Being in a band : groupe, commons, world-making machine  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `concept_collectif` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A009** — S26-A009 — Leeds comme contrepoint à Manchester : scènes régionales et active localism  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `scene_regionale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A011** — S26-A011 — Post-punk commons : partage des ressources, argent rare, espaces communs  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `economie_collective` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A012** — S26-A012 — Commoning disciplinaire : battre les clôtures entre art, musique, performance  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `transdisciplinarite` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A013** — S26-A013 — Improvisation collective et production de formes imprévisibles  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `processus_creation` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A014** — S26-A014 — Féminist commoning : les Shee Hees contre la masculinité studio  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `genre_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A015** — S26-A015 — Classe, race, art school : commons limités, non utopie transparente  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `prudence_sociale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2** — S26 — Passe v2 — Post-punk now, popular modernism, art school commons  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
@@ -264,24 +283,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A077** — S45-A077 — RCA abandonné : rachat des bandes, bootlegs et libération éditoriale  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait contractuel rapporté`.
-- **S45-A078** — S45-A078 — *Unknown Pleasures* : Hannett comme catalyseur de coordination sonore  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A086** — S45-A086 — Factory comme liberté : anti-major, artwork et refus de dilution  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `position_esthetique` ; importance : `critique` ; preuve : `citation d’entretien rapportée par S45`.
-- **S45-A088** — S45-A088 — Petites économies : cigarettes, nettoyage et sandpaper sleeves  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct`.
-- **S45-A089** — S45-A089 — Publishing collectif : royalties, outsider conjugale et crédit d’auteur  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_economique` ; importance : `critique` ; preuve : `témoignage direct sur perception et accord rapporté`.
-- **S45-A090** — S45-A090 — *Unknown Pleasures* publié : objet Factory, faces « Inside/Outside » et rejet domestique initial  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_discographique` ; importance : `critique` ; preuve : `témoignage direct + fait discographique établi`.
-- **S45-A132** — S45-A132 — *Closer* à Britannia Row : invitation formelle, exclusion pratique et Annik installée  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `session_domestique` ; importance : `critique` ; preuve : `témoignage direct + faits de session établis`.
-- **S45-A151** — S45-A151 — Dernier rendez-vous d’épilepsie : signes favorables et dons d’objets  
-  Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_medicale_sensible` ; importance : `critique` ; preuve : `témoignage direct + fait médical rapporté`.
-- **S68-A005** — S-BROLL-A005 — Démo du 18 juillet 1977 aux Pennine Studios  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A006** — S-BROLL-A006 — Electric Circus, 2 novembre 1977, et *Short Circuit*  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -383,6 +384,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - granada tv (2)
 - novelty (2)
 - architecture sonore (2)
+- class (2)
 - Madchester (2)
 - City Fun (2)
 - new pop (2)
@@ -419,7 +421,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - catalyseur sonore (1)
 - coordination d’atmosphère (1)
 - studio comme traduction (1)
-- fausse stabilisation (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -571,6 +572,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | chronologie_discographique | 3 |
 | lieu_studio | 3 |
 | chronologie | 3 |
+| source_part | 3 |
 | live_set_bootleg_context | 3 |
 | economie_materielle | 2 |
 | tension_industrie | 2 |
@@ -580,7 +582,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | discographie | 2 |
 | bootleg | 2 |
 | concert_archive | 2 |
-| source_part | 2 |
 | song_or_release | 2 |
 | session_domestique | 1 |
 | position_esthetique | 1 |
@@ -628,6 +629,14 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | videographie | 1 |
 | controverse | 1 |
 | chronology | 1 |
+| media_critique | 1 |
+| concept_collectif | 1 |
+| scene_regionale | 1 |
+| economie_collective | 1 |
+| transdisciplinarite | 1 |
+| processus_creation | 1 |
+| genre_scene | 1 |
+| prudence_sociale | 1 |
 | festival | 1 |
 | analyse_sonore | 1 |
 | bifurcation_institutionnelle | 1 |
@@ -660,7 +669,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 105 |
+| non qualifiée | 114 |
 | critique | 100 |
 | majeur | 18 |
 | majeure | 6 |

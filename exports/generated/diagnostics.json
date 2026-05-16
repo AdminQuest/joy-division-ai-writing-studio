@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-16T19:48:32",
+  "generated_at": "2026-05-16T20:35:20",
   "status": "warning",
   "summary": {
-    "records_total": 3976,
+    "records_total": 4039,
     "records_by_kind": {
-      "atom": 1815,
-      "metadata": 66,
+      "atom": 1833,
+      "metadata": 69,
       "quote": 358,
       "chronology": 343,
       "source": 60,
-      "unknown": 286,
-      "concept": 205,
-      "motif": 280,
-      "myth": 27,
+      "unknown": 307,
+      "concept": 215,
+      "motif": 287,
+      "myth": 31,
       "template": 336,
       "song": 41,
       "quote_batch": 1,
       "rules": 1,
       "person": 157
     },
-    "diagnostics_total": 18844,
+    "diagnostics_total": 19083,
     "errors": 0,
-    "warnings": 18844,
+    "warnings": 19083,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 26,
     "sources_exported": 26,
@@ -685,13 +685,17 @@
         "auteur": "Gavin Butt ; Kodwo Eshun ; Mark Fisher (dir.)",
         "titre": "Post-Punk Then and Now",
         "annee": "2016",
-        "records": 4,
-        "atoms": 0,
+        "records": 61,
+        "atoms": 18,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s26_post_punk_then_now_source_canonique.md",
-          "sources/butt_eshun_fisher_post_punk_then_now/source.md"
+          "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+          "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+          "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+          "sources/butt_eshun_fisher_post_punk_then_now/source.md",
+          "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md"
         ]
       },
       {
@@ -49885,6 +49889,1440 @@
       "file": "sources/ott_unknown_pleasures/source_part_03.md",
       "message": "Missing nested field: stabilite.risque_revision",
       "record_id": "S75-A056"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_specialises_s26.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S26-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for statut: integration_directe",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for fiabilite: forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: cadrage_historiographique",
+      "record_id": "S26-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: concept_critique",
+      "record_id": "S26-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: temporalite_culturelle",
+      "record_id": "S26-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: concept_pratique",
+      "record_id": "S26-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: media_critique",
+      "record_id": "S26-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: conditions_materielles",
+      "record_id": "S26-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: paradoxe_politique",
+      "record_id": "S26-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: concept_collectif",
+      "record_id": "S26-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: scene_regionale",
+      "record_id": "S26-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: evenement_scene",
+      "record_id": "S26-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: economie_collective",
+      "record_id": "S26-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: transdisciplinarite",
+      "record_id": "S26-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: processus_creation",
+      "record_id": "S26-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: genre_scene",
+      "record_id": "S26-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: prudence_sociale",
+      "record_id": "S26-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: comparaison_critique",
+      "record_id": "S26-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/source_part_postpunk_now_commons_popular_modernism_v2.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S26-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S26-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S26-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S26-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REF-S26-004"
     },
     {
       "level": "warning",

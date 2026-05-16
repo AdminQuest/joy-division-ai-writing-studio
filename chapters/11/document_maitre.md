@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T19:34:56"
+generated_at: "2026-05-16T20:35:33"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 189 |
+| Atomes | 190 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 15 |
 | Événements chronologiques | 5 |
 | Personnes | 5 |
 | Chansons | 10 |
-| Sources mobilisées | 14 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 |---|---|---|---|
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 3 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 2 | 0 |
+| S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
@@ -130,6 +131,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `concept` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S15-A014** — S15-A014 — Ian Curtis comme passeur musical et littéraire  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S26-A016** — S26-A016 — The Jam, Joy Division et deux formes working-class de popular modernism  
+  Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `comparaison_critique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-025** — S41-025 — Premières paroles : Hook écrit, Curtis transcende  
@@ -282,8 +285,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S69-A006** — S69-A006 — Nostalgie comme humeur, mode et ersatz  
   Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S69-A007** — S69-A007 — La nostalgie n’est pas automatiquement réactionnaire  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -338,9 +339,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - ian curtis (13)
 - NME (7)
 - isolement (6)
+- Joy Division (6)
 - épilepsie (5)
 - suicide (5)
-- Joy Division (5)
 - House of Dolls (5)
 - post-punk (5)
 - domesticité (5)
@@ -618,6 +619,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | lecture_textuelle | 1 |
 | influence | 1 |
 | contexte | 1 |
+| comparaison_critique | 1 |
 | genealogie_culturelle | 1 |
 | acteur_critique | 1 |
 | analyse_culturelle | 1 |
@@ -651,7 +653,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 126 |
+| non qualifiée | 127 |
 | critique | 45 |
 | majeure | 13 |
 | majeur | 5 |
