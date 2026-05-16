@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T08:05:51",
+  "generated_at": "2026-05-16T08:16:06",
   "summary": {
-    "records_total": 3558,
+    "records_total": 3562,
     "records_by_kind": {
       "atom": 1694,
-      "metadata": 30,
+      "metadata": 33,
       "quote": 353,
       "chronology": 335,
       "source": 54,
-      "unknown": 160,
+      "unknown": 161,
       "template": 298,
       "song": 41,
       "quote_batch": 1,
@@ -18,13 +18,13 @@
       "concept": 170,
       "myth": 11
     },
-    "diagnostics_total": 17284,
+    "diagnostics_total": 17285,
     "errors": 0,
-    "warnings": 17284,
+    "warnings": 17285,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 16,
-    "sources_exported": 16,
-    "declared_but_unused": 35,
+    "sources_used_in_records": 17,
+    "sources_exported": 17,
+    "declared_but_unused": 34,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -32,7 +32,7 @@
     "atom": 1694,
     "chronology": 335,
     "concept": 170,
-    "metadata": 30,
+    "metadata": 33,
     "motif": 253,
     "myth": 11,
     "person": 157,
@@ -42,7 +42,7 @@
     "song": 41,
     "source": 54,
     "template": 298,
-    "unknown": 160
+    "unknown": 161
   },
   "records_by_source": {
     "S02": {
@@ -59,6 +59,10 @@
       "atom": 13,
       "metadata": 3,
       "unknown": 9
+    },
+    "S10": {
+      "metadata": 3,
+      "unknown": 1
     },
     "S20": {
       "atom": 15,
@@ -146,20 +150,20 @@
     }
   },
   "records_by_chapter": {
-    "Chapitre 1": 173,
-    "Chapitre 10": 233,
+    "Chapitre 1": 175,
+    "Chapitre 10": 235,
     "Chapitre 11": 213,
     "Chapitre 12": 463,
     "Chapitre 13": 109,
     "Chapitre 14": 984,
-    "Chapitre 2": 345,
-    "Chapitre 3": 382,
-    "Chapitre 4": 294,
-    "Chapitre 5": 436,
-    "Chapitre 6": 563,
-    "Chapitre 7": 101,
-    "Chapitre 8": 311,
-    "Chapitre 9": 254,
+    "Chapitre 2": 347,
+    "Chapitre 3": 384,
+    "Chapitre 4": 296,
+    "Chapitre 5": 438,
+    "Chapitre 6": 565,
+    "Chapitre 7": 103,
+    "Chapitre 8": 313,
+    "Chapitre 9": 256,
     "Chapitre bootlegs": 8,
     "Tous chapitres": 1,
     "méthode générale": 3
@@ -291,7 +295,7 @@
     "invalid_controlled_value": 1421,
     "missing_required_field": 4812,
     "schema_warning": 399,
-    "unknown_yaml_block": 160,
+    "unknown_yaml_block": 161,
     "v2_migration_debt": 10344
   },
   "top_files_by_issue_count": [
@@ -1429,6 +1433,14 @@
     {
       "level": "warning",
       "category": "unknown_yaml_block",
+      "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
+      "record_id": "REG-S10-SUMNER-CHAPTER-AND-VERSE-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
       "file": "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
       "record_id": "REL-RAG-S06-HULME-LIVED-DISCURSIVE-SPACE-V2",
       "message": "Unable to infer documentary kind",
@@ -1789,19 +1801,6 @@
           "Manchester",
           "Joy Division",
           "Hulme / Epping Walk"
-        ]
-      },
-      {
-        "source_id": "S10",
-        "source_label": "S10 — University of Birmingham eTheses, ressource sur Salford, à identifier",
-        "auteur": "University of Birmingham eTheses",
-        "titre": "Thèse / ressource citant Bernard Sumner sur Salford",
-        "annee": "s.d.",
-        "statut": "a_consolider",
-        "usage": [
-          "témoignage",
-          "mémoire urbaine",
-          "Salford"
         ]
       },
       {
@@ -2281,6 +2280,21 @@
           "registers/references/s06_carter_relations_rag_hulme_lived_discursive_space_v2.md",
           "sources/carter_hulme_youth_race_inner_city/source.md",
           "sources/carter_hulme_youth_race_inner_city/source_part_hulme_lived_discursive_space_v2.md"
+        ]
+      },
+      {
+        "source_id": "S10",
+        "source_label": "S10 — Sumner, Chapter and Verse, 2014/2015",
+        "auteur": "Bernard Sumner",
+        "titre": "Chapter and Verse: New Order, Joy Division and Me",
+        "annee": "2014/2015",
+        "records": 4,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
+          "sources/sumner_chapter_and_verse/source.md"
         ]
       },
       {
@@ -138900,6 +138914,14 @@
       "category": "unknown_yaml_block",
       "file": "registers/references/s20_dodge_source_canonique.md",
       "record_id": "REG-S20-DODGE-SOURCE-CANONIQUE",
+      "message": "Unable to infer documentary kind",
+      "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
+    },
+    {
+      "level": "warning",
+      "category": "unknown_yaml_block",
+      "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
+      "record_id": "REG-S10-SUMNER-CHAPTER-AND-VERSE-SOURCE-CANONIQUE",
       "message": "Unable to infer documentary kind",
       "suggested_action": "Ajouter un champ discriminant ou supprimer le bloc YAML non documentaire."
     },
