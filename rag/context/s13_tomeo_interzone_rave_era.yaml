@@ -1,0 +1,60 @@
+id: RAG-S13-TOMEO-INTERZONE-RAVE-ERA
+source_id: S13
+source_label: "S13 — Tomeo, Dance Dance Dance!, 2021"
+source_part: "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md"
+relations: "registers/relations/s13_tomeo_relations_interzone_rave_era.md"
+registre_specialise: "registers/specialized/s13_tomeo_interzone_rave_era.md"
+addendum_documents_maitres: "chapters/addenda/s13_tomeo_interzone_rave_era.md"
+status: integrated
+passage_atomise: "Article complet de Caterina Tomeo, « Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era », depuis le titre jusqu’à la citation finale du manifeste « Rave or Die »."
+axes:
+  - "Manchester post-industrielle et Thatcher’s Britain comme scène politique critique"
+  - "Punk / post-punk / rave comme trois régimes affectifs"
+  - "Joy Division comme seuil sonore et non cause directe de la rave"
+  - "Ian Curtis comme corps-médium, voix, transe et performance"
+  - "« Transmission » comme chanson de la danse, du silence, du signal et de la synchronisation"
+  - "*Unknown Pleasures* comme laboratoire sonore et spatialisation"
+  - "New Order / Factory Records / Haçienda comme infrastructure de translation"
+  - "Rave manifesto comme utopie provisoire et chambre d’écho"
+usage_prioritaire:
+  - "Chapitre 3"
+  - "Chapitre 4"
+  - "Chapitre 7"
+  - "Chapitre 8"
+  - "Chapitre 11"
+  - "Chapitre 12"
+  - "Chapitre 14"
+concepts:
+  - "CONCEPT-065 — filiation oblique post-punk / rave"
+  - "CONCEPT-066 — corps-médium curtisien"
+  - "CONCEPT-067 — communauté sonore fragile"
+  - "CONCEPT-068 — infrastructure de translation Factory / Haçienda"
+  - "CONCEPT-069 — utopie rave provisoire"
+motifs:
+  - "MOTIF-S13-001 — danse ambivalente"
+  - "MOTIF-S13-002 — Interzone liminale"
+  - "MOTIF-S13-003 — cri acid"
+  - "MOTIF-S13-004 — radio comme médium de synchronisation"
+  - "MOTIF-S13-005 — fête impossible"
+mythes:
+  - "MYTH-S13-001 — Joy Division proto-rave"
+  - "MYTH-S13-002 — Curtis chaman littéral"
+  - "MYTH-S13-003 — La rave comme rédemption de Joy Division"
+interdits:
+  - "Ne pas écrire que Joy Division invente la rave, l’acid house ou la techno."
+  - "Ne pas utiliser S13 comme source factuelle principale sur Thatcher, Anderton, Chicago, Detroit ou l’histoire de la house."
+  - "Ne pas esthétiser l’épilepsie de Curtis sous prétexte de transe."
+  - "Ne pas citer longuement les paroles de « Transmission » ni le manifeste « Rave or Die »."
+formules_recommandees:
+  - "filiation oblique"
+  - "seuil sonore"
+  - "survivance corporelle"
+  - "chambre d’écho"
+  - "relecture depuis l’après-rave"
+  - "utopie provisoire"
+queries_rag:
+  - "S13 Tomeo Interzone rave era Joy Division Transmission danse radio"
+  - "S13 corps Curtis transe sciamano moderno performance"
+  - "S13 Factory New Order Hacienda acid house filiation oblique"
+  - "S13 Unknown Pleasures laboratoire sonore Hannett bruit spatialisation"
+  - "S13 Rave or Die utopie provisoire communauté sonore"
