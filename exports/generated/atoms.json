@@ -79930,6 +79930,332 @@
   },
   {
     "kind": "atom",
+    "id": "S14-PART-HAPPY-MONDAYS-GODS-COP-MADCHESTER-ANDERTON-V2",
+    "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
+    "heading": "S14 — Passe v2 — Happy Mondays, « God’s Cop », Anderton et mémoire Madchester",
+    "data": {
+      "id": "S14-PART-HAPPY-MONDAYS-GODS-COP-MADCHESTER-ANDERTON-V2",
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990",
+      "auteur": "Happy Mondays",
+      "artiste": "Happy Mondays",
+      "titre": "God’s Cop",
+      "titre_album": "Pills ’n’ Thrills and Bellyaches",
+      "label": "Factory Records",
+      "catalogue": "FAC 334",
+      "type_unite": "source_part",
+      "statut": "integration_directe",
+      "fiabilite": "forte pour l’identification discographique ; paroles, durée, version et crédits à vérifier avant citation",
+      "citation_directe": false,
+      "passage_atomise": "Référence discographique disponible : image de référence associée à « God’s Cop », chanson des Happy Mondays publiée sur Pills ’n’ Thrills and Bellyaches, Factory Records FAC 334, 1990. La passe porte sur la fonction culturelle du morceau, non sur une analyse exhaustive des paroles.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 8",
+        "Chapitre 9"
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S14-A001",
+    "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
+    "heading": "S14-A001 — « God’s Cop » : Anderton transformé en personnage pop mancunien",
+    "data": {
+      "id": "S14-A001",
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990",
+      "auteur": "Happy Mondays",
+      "titre": "God’s Cop",
+      "type_unite": "chanson",
+      "concepts": [
+        "James Anderton",
+        "personnage pop",
+        "mémoire culturelle",
+        "Madchester"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "James Anderton"
+      ],
+      "related_songs": [
+        "God’s Cop"
+      ],
+      "related_albums": [
+        "Pills ’n’ Thrills and Bellyaches"
+      ],
+      "methodological_warnings": [
+        "Ne pas utiliser S14 comme preuve factuelle sur Anderton.",
+        "Croiser les faits historiques avec S05 et S12."
+      ]
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S14-A002",
+    "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
+    "heading": "S14-A002 — Happy Mondays, Factory et Madchester : autre âge de la contre-culture mancunienne",
+    "data": {
+      "id": "S14-A002",
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "type_unite": "contexte_musical",
+      "concepts": [
+        "Happy Mondays",
+        "Factory Records",
+        "Madchester",
+        "club culture",
+        "post-Joy Division"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_organizations": [
+        "Happy Mondays",
+        "Factory Records"
+      ],
+      "related_albums": [
+        "Pills ’n’ Thrills and Bellyaches"
+      ],
+      "methodological_warnings": [
+        "Ne pas faire de Madchester une simple continuation de Joy Division.",
+        "Écrire la relation en termes d’héritage oblique, de lieu, de label et de culture club."
+      ],
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S14-A003",
+    "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
+    "heading": "S14-A003 — Satire, drogue, rave et police : la morale d’Anderton retournée par Shaun Ryder",
+    "data": {
+      "id": "S14-A003",
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "type_unite": "satire_culturelle",
+      "concepts": [
+        "satire",
+        "drogue",
+        "rave",
+        "police morale",
+        "Shaun Ryder"
+      ],
+      "chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "a_verifier_paroles",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "related_people": [
+        "Shaun Ryder",
+        "James Anderton"
+      ],
+      "methodological_warnings": [
+        "Vérifier les paroles avant toute analyse textuelle précise.",
+        "Ne pas citer les paroles au-delà de courts fragments autorisés."
+      ],
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S14-A004",
+    "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
+    "heading": "S14-A004 — Du policing moral à la dérision club : continuité oblique S05 / S12 / S14",
+    "data": {
+      "id": "S14-A004",
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "type_unite": "relation_inter_sources",
+      "concepts": [
+        "policing moral",
+        "dérision club",
+        "mémoire culturelle",
+        "Anderton",
+        "sources croisées"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 9",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_sources": [
+        "S05",
+        "S12",
+        "S14"
+      ],
+      "methodological_warnings": [
+        "S05 et S12 documentent Anderton ; S14 documente sa réappropriation culturelle."
+      ],
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S14-A005",
+    "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
+    "heading": "S14-A005 — « God’s Cop » comme mémoire culturelle d’Anderton, non source factuelle sur la police",
+    "data": {
+      "id": "S14-A005",
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "type_unite": "prudence_methodologique",
+      "concepts": [
+        "mémoire culturelle",
+        "source musicale",
+        "source factuelle",
+        "police",
+        "Anderton"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "S14 ne doit jamais porter seul une affirmation historique sur GMP ou Anderton.",
+        "Employer S14 pour la réception culturelle, la satire et la mémoire."
+      ],
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S14-A006",
+    "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
+    "heading": "S14-A006 — *Pills ’n’ Thrills and Bellyaches* : contexte discographique minimal",
+    "data": {
+      "id": "S14-A006",
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "type_unite": "contexte_discographique",
+      "concepts": [
+        "Pills ’n’ Thrills and Bellyaches",
+        "Factory Records",
+        "Paul Oakenfold",
+        "Steve Osborne",
+        "FAC 334"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_albums": [
+        "Pills ’n’ Thrills and Bellyaches"
+      ],
+      "related_people": [
+        "Paul Oakenfold",
+        "Steve Osborne"
+      ],
+      "methodological_warnings": [
+        "Vérifier tracklist, durée et version exacte avant tout détail discographique."
+      ],
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S14-A007",
+    "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
+    "heading": "S14-A007 — S14 et S13 : passerelle vers Madchester, Haçienda et rave era",
+    "data": {
+      "id": "S14-A007",
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "type_unite": "relation_inter_sources",
+      "concepts": [
+        "Madchester",
+        "Haçienda",
+        "rave era",
+        "héritage oblique",
+        "Factory"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_sources": [
+        "S13",
+        "S14"
+      ],
+      "methodological_warnings": [
+        "Ne pas confondre Joy Division, New Order et Happy Mondays comme s’ils relevaient d’une continuité musicale simple."
+      ],
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S14-A008",
+    "file": "sources/happy_mondays_gods_cop/source_part_gods_cop_madchester_anderton_v2.md",
+    "heading": "S14-A008 — Risque de folklorisation : ne pas réduire Anderton au surnom « God’s Cop »",
+    "data": {
+      "id": "S14-A008",
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "type_unite": "mythe_prudence",
+      "concepts": [
+        "God’s Cop",
+        "folklore",
+        "James Anderton",
+        "mémoire politique",
+        "réduction médiatique"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "related_people": [
+        "James Anderton"
+      ],
+      "methodological_warnings": [
+        "Ne pas faire du surnom un substitut à l’analyse institutionnelle.",
+        "Toujours revenir à S05 et S12 pour Anderton comme acteur policier et moral."
+      ],
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S41-040",
     "file": "sources/hook/atomisation_02_transmission_1978.md",
     "heading": "S41-040 — Dernier concert sous le nom Warsaw",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T18:50:49"
+generated_at: "2026-05-16T19:17:29"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T18:50:49"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 145 |
+| Atomes | 150 |
 | Atomes critiques / majeurs | 18 |
 | Citations | 6 |
 | Événements chronologiques | 2 |
 | Personnes | 4 |
 | Chansons | 0 |
-| Sources mobilisées | 19 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -41,6 +41,7 @@ generated_at: "2026-05-16T18:50:49"
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
 | S11 | S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 | 11 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 9 | 0 |
+| S14 | S14 — Happy Mondays, God’s Cop, 1990 | 5 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 7 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 13 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
@@ -217,6 +218,16 @@ generated_at: "2026-05-16T18:50:49"
   Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
 - **S12-PART-AIDS-ANDERTON-MORAL-ORDER-V2** — S12 — Passe v2 — AIDS, Anderton, morale publique et ordre social  
   Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte pour l’existence des discours publics ; à croiser pour les citations exactes`.
+- **S14-A001** — S14-A001 — « God’s Cop » : Anderton transformé en personnage pop mancunien  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `chanson` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A004** — S14-A004 — Du policing moral à la dérision club : continuité oblique S05 / S12 / S14  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A005** — S14-A005 — « God’s Cop » comme mémoire culturelle d’Anderton, non source factuelle sur la police  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A008** — S14-A008 — Risque de folklorisation : ne pas réduire Anderton au surnom « God’s Cop »  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `mythe_prudence` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-PART-HAPPY-MONDAYS-GODS-COP-MADCHESTER-ANDERTON-V2** — S14 — Passe v2 — Happy Mondays, « God’s Cop », Anderton et mémoire Madchester  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte pour l’identification discographique ; paroles, durée, version et crédits à vérifier avant citation`.
 - **S15-A001** — S15-A001 — Manchester, de la ville industrielle à la ville-symptôme  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S15-A002** — S15-A002 — Logement, slums et recomposition contrainte des classes populaires  
@@ -245,16 +256,6 @@ generated_at: "2026-05-16T18:50:49"
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A007** — S20-A007 — Wythenshawe : ville satellite, relogement social et désancrage urbain  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A008** — S20-A008 — Le plan de 1945 et la dédensification programmée de Hulme  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `urbanisme` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A009** — S20-A009 — Overspill estates : Hattersley, Hyde, Heywood, Longdendale  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `politique_urbaine` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A010** — S20-A010 — Urban renewal des années 1960 : Action Areas et effacement des rues victoriennes  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `urbanisme` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A011** — S20-A011 — Beswick / Fort Beswick : échec des mégastructures et des streets-in-the-sky  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `cas_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S20-A012** — S20-A012 — Désindustrialisation, chômage masculin et crise des estates  
-  Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `contexte_social` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -287,19 +288,21 @@ generated_at: "2026-05-16T18:50:49"
 - Manchester (6)
 - géographie émotionnelle (6)
 - Salford (6)
+- James Anderton (5)
 - désindustrialisation (5)
 - Hulme (5)
 - diy (4)
 - Ian Curtis (4)
-- James Anderton (3)
 - Ian Wood (3)
 - NME (3)
 - Thatcherism (3)
 - Macclesfield (3)
 - classe ouvriere (3)
 - slum clearance (3)
+- mémoire culturelle (3)
 - biographie contre mythe social (2)
 - ordre social local (2)
+- police (2)
 - accountability (2)
 - Tactical Aid Group (2)
 - police-community relations (2)
@@ -346,6 +349,7 @@ generated_at: "2026-05-16T18:50:49"
 - prévention (2)
 - oral history (2)
 - post-war inner city (2)
+- Anderton (2)
 - ville télévisuelle (1)
 - médiation audiovisuelle (1)
 - Manchester monté en noir et blanc (1)
@@ -359,10 +363,7 @@ generated_at: "2026-05-16T18:50:49"
 - seuil de preuve politique (1)
 - distinction anecdote / position idéologique (1)
 - formulation contrôlée (1)
-- police (1)
 - maintien de l’ordre (1)
-- fabrication de l’ordre social (1)
-- Greater Manchester Police (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -477,11 +478,11 @@ generated_at: "2026-05-16T18:50:49"
 
 | Type | Nombre |
 |---|---|
+| source_part | 9 |
 | concept_structurant | 9 |
 | analyse | 9 |
-| source_part | 8 |
+| prudence_methodologique | 7 |
 | sociologie | 7 |
-| prudence_methodologique | 6 |
 | contexte_social | 6 |
 | evenement_politique | 5 |
 | concept | 5 |
@@ -547,6 +548,9 @@ generated_at: "2026-05-16T18:50:49"
 | source_visuelle | 1 |
 | lieu_image | 1 |
 | concept_visuel | 1 |
+| chanson | 1 |
+| relation_inter_sources | 1 |
+| mythe_prudence | 1 |
 | fait | 1 |
 | analyse_morceau | 1 |
 | concept_transversal | 1 |
@@ -556,7 +560,7 @@ generated_at: "2026-05-16T18:50:49"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 125 |
+| non qualifiée | 130 |
 | critique | 9 |
 | majeure | 9 |
 | majeur | 2 |

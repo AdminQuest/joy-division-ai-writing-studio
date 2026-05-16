@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T18:50:49"
+generated_at: "2026-05-16T19:17:29"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 797 |
+| Atomes | 806 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 92 |
 | Événements chronologiques | 57 |
 | Personnes | 67 |
 | Chansons | 8 |
-| Sources mobilisées | 22 |
+| Sources mobilisées | 23 |
 
 ## 4. Sources mobilisées
 
@@ -42,6 +42,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S11 | S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 | 1 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 6 | 0 |
+| S14 | S14 — Happy Mondays, God’s Cop, 1990 | 9 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
@@ -190,6 +191,24 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `transition_groupe` ; importance : `majeur` ; preuve : `synthèse critique secondaire`.
 - **S13-A010** — S13-A010 — Rave manifesto : utopie provisoire, tribu globale et technologie  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `motif_culturel` ; importance : `majeur` ; preuve : `source manifeste citée par Tomeo ; statut documentaire à vérifier`.
+- **S14-A001** — S14-A001 — « God’s Cop » : Anderton transformé en personnage pop mancunien  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `chanson` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A002** — S14-A002 — Happy Mondays, Factory et Madchester : autre âge de la contre-culture mancunienne  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `contexte_musical` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A003** — S14-A003 — Satire, drogue, rave et police : la morale d’Anderton retournée par Shaun Ryder  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `satire_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S14-A004** — S14-A004 — Du policing moral à la dérision club : continuité oblique S05 / S12 / S14  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A005** — S14-A005 — « God’s Cop » comme mémoire culturelle d’Anderton, non source factuelle sur la police  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A006** — S14-A006 — *Pills ’n’ Thrills and Bellyaches* : contexte discographique minimal  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `contexte_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A007** — S14-A007 — S14 et S13 : passerelle vers Madchester, Haçienda et rave era  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A008** — S14-A008 — Risque de folklorisation : ne pas réduire Anderton au surnom « God’s Cop »  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `mythe_prudence` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-PART-HAPPY-MONDAYS-GODS-COP-MADCHESTER-ANDERTON-V2** — S14 — Passe v2 — Happy Mondays, « God’s Cop », Anderton et mémoire Madchester  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte pour l’identification discographique ; paroles, durée, version et crédits à vérifier avant citation`.
 - **S15-A015** — S15-A015 — Joy Division comme unité, contre la réduction au seul mythe Curtis  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A014** — S20-A014 — Héritages contemporains : gentrification, city centre living et pression immobilière  
@@ -274,24 +293,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-156** — S41-156 — Bootlegs et incertitudes d’origine documentaire  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `note_documentaire` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S41-A011** — S41-A011 — Lesser Free Trade Hall avant les Pistols : anti-prélude ivre et désacralisation du lieu  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contrepoint_lieu` ; importance : `majeur` ; preuve : `témoignage autobiographique direct`.
-- **S41-A049** — S41-A049 — Joy Division protégé et marchandisé : nom traumatique, vibrateurs, bootlegs et T-shirts  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_nominale` ; importance : `majeur` ; preuve : `témoignage rétrospectif de Hook`.
-- **S41-A075** — S41-A075 — Musicians’ Collective : entraide officielle et arrière-goût de salle de classe  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage Hook + citation Kevin Eden rapportée`.
-- **S41-A080** — S41-A080 — Wilson et Curtis : aura télévisuelle, conversation intellectuelle et loyauté Factory  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A084** — S41-A084 — Assembler Factory Sample : travail manuel, Saville retardataire et Wilson en père Noël punk  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct + notice documentaire`.
-- **S41-A088** — S41-A088 — Pete Shelley sous la pluie de crachats : norme punk et limite corporelle  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_comparative` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A094** — S41-A094 — M24J : Factory avant Joy Division, management project et origine institutionnelle  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
-- **S41-A096** — S41-A096 — Rich Kids et Durutti Column : sociabilité de plateau, hiérarchies et corps fragiles  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `majeur` ; preuve : `témoignage direct inséré dans la timeline`.
-- **S41-A102** — S41-A102 — Check Inn / New Electric Circus / Salford Tech : ancrage territorial et réception mancunienne montante  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_live_locale` ; importance : `majeur` ; preuve : `chronologie + review rapportée`.
 
 ## 7. Citations disponibles
 
@@ -436,7 +437,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 ## 11. Concepts récurrents
 
 - New Order (41)
-- Factory (32)
+- Factory (33)
 - Ian Curtis (27)
 - Still (26)
 - Joy Division (21)
@@ -454,12 +455,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - réception (12)
 - martin hannett (11)
 - Ceremony (11)
+- Factory Records (11)
 - mémoire (11)
 - Dead Souls (10)
 - She's Lost Control (10)
 - presse musicale (10)
 - John Peel (10)
-- Factory Records (9)
 - An Ideal for Living (9)
 - postérité (9)
 - rob gretton (9)
@@ -476,6 +477,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - joy division (6)
 - goth (6)
 - archive (6)
+- mémoire culturelle (6)
 - Manchester (6)
 - Procession (6)
 - bootlegs (6)
@@ -514,7 +516,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Everything's Gone Green (4)
 - Blue Monday (4)
 - ventes (4)
-- 1983 (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -668,13 +669,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | sociologie | 7 |
 | relation | 7 |
 | fait | 7 |
+| prudence_methodologique | 6 |
 | lecture | 6 |
 | controverse | 6 |
 | objet_audiovisuel | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
-| prudence_methodologique | 5 |
 | mythe | 5 |
 | citation_repere | 5 |
 | live_set_context | 5 |
@@ -714,6 +715,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept | 3 |
 | objet_visuel | 3 |
 | decision_strategique | 3 |
+| source_part | 3 |
 | interpretation | 3 |
 | song_session | 3 |
 | song | 3 |
@@ -761,9 +763,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concept_management | 2 |
 | bascule_tournee | 2 |
 | concert_archive | 2 |
-| source_part | 2 |
 | politique_urbaine | 2 |
 | motif_discursif | 2 |
+| relation_inter_sources | 2 |
 | marketing | 2 |
 | album | 2 |
 | reception_starification | 1 |
@@ -1023,6 +1025,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | image_groupe | 1 |
 | reseau_visuel | 1 |
 | droit_image | 1 |
+| chanson | 1 |
+| contexte_musical | 1 |
+| satire_culturelle | 1 |
+| contexte_discographique | 1 |
+| mythe_prudence | 1 |
 | contexte_historique | 1 |
 | portrait | 1 |
 | contexte_materiel | 1 |
@@ -1053,7 +1060,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 505 |
+| non qualifiée | 514 |
 | critique | 221 |
 | majeure | 39 |
 | majeur | 28 |

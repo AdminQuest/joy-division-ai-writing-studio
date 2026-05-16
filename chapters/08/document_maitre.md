@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T18:50:49"
+generated_at: "2026-05-16T19:17:29"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 213 |
+| Atomes | 216 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 23 |
 | Personnes | 7 |
 | Chansons | 4 |
-| Sources mobilisées | 10 |
+| Sources mobilisées | 11 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 4 | 0 |
+| S14 | S14 — Happy Mondays, God’s Cop, 1990 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
@@ -128,6 +129,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `economie_sonore` ; importance : `majeur` ; preuve : `lecture critique ; faits techniques à corroborer`.
 - **S13-A009** — S13-A009 — New Order : émancipation partielle de l’ombre Curtis  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `transition_groupe` ; importance : `majeur` ; preuve : `synthèse critique secondaire`.
+- **S14-A002** — S14-A002 — Happy Mondays, Factory et Madchester : autre âge de la contre-culture mancunienne  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `contexte_musical` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A006** — S14-A006 — *Pills ’n’ Thrills and Bellyaches* : contexte discographique minimal  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `contexte_discographique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S14-A007** — S14-A007 — S14 et S13 : passerelle vers Madchester, Haçienda et rave era  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
@@ -274,12 +281,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S68-A026** — S-BROLL-A026 — Apollo Theatre, Manchester, et *Here Are the Young Men*  
   Source : S68 — Broll, Joy Division, 1988 ; type : `archive` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A027** — S-BROLL-A027 — Seconde Peel Session  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A029** — S-BROLL-A029 — Paradiso Amsterdam et bootleg *Gruftgesaenge*  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `concert` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A030** — S-BROLL-A030 — Composition autour de FAC 28  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `production` ; importance : `non qualifiée` ; preuve : `moyenne`.
 
 ## 7. Citations disponibles
 
@@ -380,6 +381,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - granada tv (2)
 - novelty (2)
 - architecture sonore (2)
+- Factory Records (2)
+- Madchester (2)
 - invitation symbolique / exclusion pratique (1)
 - studio comme dissociation domestique (1)
 - œuvre capitale sous crise intime (1)
@@ -416,8 +419,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - electric circus (1)
 - short circuit (1)
 - virgin (1)
-- live recording (1)
-- qualité sonore (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -633,6 +634,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | lecture_reprise | 1 |
 | fait_contractuel | 1 |
 | concert_filme | 1 |
+| contexte_musical | 1 |
+| contexte_discographique | 1 |
+| relation_inter_sources | 1 |
 | release_or_session | 1 |
 | release_object | 1 |
 | live_set_context | 1 |
@@ -643,7 +647,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | critique | 100 |
-| non qualifiée | 89 |
+| non qualifiée | 92 |
 | majeur | 18 |
 | majeure | 6 |
 

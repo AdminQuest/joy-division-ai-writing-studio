@@ -401,6 +401,98 @@
   },
   {
     "kind": "concept",
+    "id": "CONCEPT-S14-001",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S14-001",
+      "concept": "Anderton personnage pop mancunien",
+      "sources": [
+        "S14"
+      ],
+      "related_atoms": [
+        "S14-A001",
+        "S14-A005"
+      ],
+      "definition": "Transformation d’une figure institutionnelle de police morale en personnage musical et satirique dans la culture Madchester.",
+      "usage_chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "prudence": "Ne pas confondre réception culturelle et preuve factuelle sur Greater Manchester Police."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S14-002",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S14-002",
+      "concept": "dérision club du policing moral",
+      "sources": [
+        "S14",
+        "S05",
+        "S12"
+      ],
+      "related_atoms": [
+        "S14-A003",
+        "S14-A004"
+      ],
+      "definition": "Réappropriation par la culture club / Madchester d’une figure de police morale, par satire, argot, fête et mémoire populaire.",
+      "usage_chapitres": [
+        "Chapitre 9",
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S14-003",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S14-003",
+      "concept": "héritage oblique Factory / Madchester",
+      "sources": [
+        "S14",
+        "S13"
+      ],
+      "related_atoms": [
+        "S14-A002",
+        "S14-A007"
+      ],
+      "definition": "Relation non linéaire entre Joy Division, Factory, New Order, Haçienda, Happy Mondays et Madchester : continuité de lieu et d’institution, discontinuité de son et de régime corporel.",
+      "usage_chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "prudence": "Ne pas transformer Madchester en simple suite de Joy Division."
+    }
+  },
+  {
+    "kind": "concept",
+    "id": "CONCEPT-S14-004",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Concepts",
+    "data": {
+      "id": "CONCEPT-S14-004",
+      "concept": "source musicale comme mémoire culturelle",
+      "sources": [
+        "S14"
+      ],
+      "related_atoms": [
+        "S14-A005",
+        "S14-A008"
+      ],
+      "definition": "Usage d’une chanson comme archive de réception, de satire et de circulation mémorielle, non comme document factuel sur les événements qu’elle évoque.",
+      "usage_chapitres": [
+        "Chapitre 14"
+      ]
+    }
+  },
+  {
+    "kind": "concept",
     "id": "CONCEPT-059",
     "file": "registers/concepts/s41_hook_concepts_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "CONCEPT-059 — DIY endetté",

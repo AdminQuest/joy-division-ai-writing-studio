@@ -216,6 +216,61 @@
   },
   {
     "kind": "motif",
+    "id": "MOTIF-S14-001",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S14-001",
+      "motif": "police retournée par la fête",
+      "sources": [
+        "S14"
+      ],
+      "related_atoms": [
+        "S14-A003",
+        "S14-A004"
+      ],
+      "description": "La culture club transforme une figure d’ordre moral en objet de dérision musicale."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S14-002",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S14-002",
+      "motif": "God’s Cop folklorisé",
+      "sources": [
+        "S14"
+      ],
+      "related_atoms": [
+        "S14-A001",
+        "S14-A008"
+      ],
+      "description": "Le surnom rend Anderton immédiatement reconnaissable, mais risque de réduire son rôle institutionnel à une caricature."
+    }
+  },
+  {
+    "kind": "motif",
+    "id": "MOTIF-S14-003",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Motifs",
+    "data": {
+      "id": "MOTIF-S14-003",
+      "motif": "Factory tardif et mémoire mancunienne",
+      "sources": [
+        "S14"
+      ],
+      "related_atoms": [
+        "S14-A002",
+        "S14-A006",
+        "S14-A007"
+      ],
+      "description": "Factory reste une infrastructure de mémoire et d’invention, mais dans un autre régime : Madchester, club culture, production Oakenfold / Osborne."
+    }
+  },
+  {
+    "kind": "motif",
     "id": "MOTIF-084",
     "file": "registers/motifs/s41_hook_motifs_1977_an_ideal_name_change_tj_davidson_sound.md",
     "heading": "MOTIF-084 — DIY financé par dette",

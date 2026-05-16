@@ -114,6 +114,64 @@
   },
   {
     "kind": "myth",
+    "id": "MYTH-S14-001",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S14-001",
+      "mythe": "God’s Cop comme source historique sur Anderton",
+      "sources": [
+        "S14"
+      ],
+      "related_atoms": [
+        "S14-A005"
+      ],
+      "statut": "mythe méthodologique à éviter",
+      "position": "« God’s Cop » est une chanson et une trace de mémoire culturelle ; S05 et S12 restent les sources sur Anderton comme acteur policier et moral."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S14-002",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S14-002",
+      "mythe": "Madchester comme continuation simple de Joy Division",
+      "sources": [
+        "S14",
+        "S13"
+      ],
+      "related_atoms": [
+        "S14-A002",
+        "S14-A007"
+      ],
+      "statut": "mythe à déconstruire",
+      "position": "La continuité passe par Factory, Manchester et l’Haçienda ; elle ne doit pas être confondue avec une continuité esthétique directe."
+    }
+  },
+  {
+    "kind": "myth",
+    "id": "MYTH-S14-003",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Mythes",
+    "data": {
+      "id": "MYTH-S14-003",
+      "mythe": "Anderton réduit au folklore God’s Cop",
+      "sources": [
+        "S14",
+        "S05",
+        "S12"
+      ],
+      "related_atoms": [
+        "S14-A008"
+      ],
+      "statut": "mythe à corriger",
+      "position": "Le surnom est une archive culturelle, mais l’analyse doit revenir à l’institution, au policing moral et aux controverses documentées."
+    }
+  },
+  {
+    "kind": "myth",
     "id": "MYTH-011",
     "file": "registers/myths/s45_curtis_myths_vote_conservateur.md",
     "heading": "MYTH-011 — Joy Division comme groupe naturellement ouvrier et de gauche",

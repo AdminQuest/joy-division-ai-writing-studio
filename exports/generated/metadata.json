@@ -897,7 +897,22 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/happy_mondays_gods_cop/source.md::1770",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_structurants_s14.md::1778",
+    "file": "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+    "heading": "Compléments aux registres structurants — S14 — Happy Mondays, « God’s Cop », 1990",
+    "data": {
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "type_unite": "registres_structurants",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/source.md::1792",
     "file": "sources/happy_mondays_gods_cop/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -912,7 +927,47 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::1772",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/relations_stabilisees.md::1793",
+    "file": "sources/happy_mondays_gods_cop/relations_stabilisees.md",
+    "heading": "Relations stabilisées — S14 — Happy Mondays, « God’s Cop », 1990",
+    "data": {
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "type_unite": "relations_stabilisees",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "atomes_source": [
+        "S14-A001",
+        "S14-A002",
+        "S14-A003",
+        "S14-A004",
+        "S14-A005",
+        "S14-A006",
+        "S14-A007",
+        "S14-A008"
+      ],
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/happy_mondays_gods_cop/registres_specialises_s14.md::1800",
+    "file": "sources/happy_mondays_gods_cop/registres_specialises_s14.md",
+    "heading": "Compléments aux registres spécialisés — S14 — Happy Mondays, « God’s Cop », 1990",
+    "data": {
+      "source_id": "S14",
+      "source_label": "S14 — Happy Mondays, God’s Cop, 1990",
+      "type_unite": "registres_specialises",
+      "statut": "integration_directe",
+      "fiabilite": "forte",
+      "source_short_title": "Happy Mondays, God’s Cop, 1990",
+      "source_year": "1990"
+    }
+  },
+  {
+    "kind": "metadata",
+    "id": "NO_ID::sources/wilkinson_city_fun_politics/source.md::1808",
     "file": "sources/wilkinson_city_fun_politics/source.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -927,7 +982,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2021",
+    "id": "NO_ID::sources/suatoni/README.md::2057",
     "file": "sources/suatoni/README.md",
     "heading": "S70 — Suatoni, *Joy Division*, s.d.",
     "data": {
@@ -944,7 +999,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2022",
+    "id": "NO_ID::sources/suatoni/README.md::2058",
     "file": "sources/suatoni/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -982,7 +1037,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/suatoni/README.md::2023",
+    "id": "NO_ID::sources/suatoni/README.md::2059",
     "file": "sources/suatoni/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -1002,7 +1057,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2078",
+    "id": "NO_ID::sources/greig_strong/README.md::2114",
     "file": "sources/greig_strong/README.md",
     "heading": "S69 — Greig & Strong, « But We Remember When We Were Young », 2014",
     "data": {
@@ -1019,7 +1074,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2079",
+    "id": "NO_ID::sources/greig_strong/README.md::2115",
     "file": "sources/greig_strong/README.md",
     "heading": "Couverture documentaire",
     "data": {
@@ -1052,7 +1107,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::sources/greig_strong/README.md::2080",
+    "id": "NO_ID::sources/greig_strong/README.md::2116",
     "file": "sources/greig_strong/README.md",
     "heading": "Usages principaux",
     "data": {
@@ -1067,7 +1122,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2371",
+    "id": "NO_ID::registers/relations/s13_tomeo_relations_interzone_rave_era.md::2407",
     "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
     "heading": "S13 — Relations stabilisées — Interzone, sound Joy Division et rave era",
     "data": {
@@ -1081,7 +1136,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::2733",
+    "id": "NO_ID::registers/references/s06_carter_hulme_source_canonique.md::2769",
     "file": "registers/references/s06_carter_hulme_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1096,7 +1151,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::2756",
+    "id": "NO_ID::registers/references/s20_dodge_source_canonique.md::2792",
     "file": "registers/references/s20_dodge_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1111,7 +1166,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::2760",
+    "id": "NO_ID::registers/references/s10_sumner_chapter_and_verse_source_canonique.md::2796",
     "file": "registers/references/s10_sumner_chapter_and_verse_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1126,7 +1181,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::2773",
+    "id": "NO_ID::registers/references/s22_wilkinson_city_fun_source_canonique.md::2809",
     "file": "registers/references/s22_wilkinson_city_fun_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1141,7 +1196,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::2781",
+    "id": "NO_ID::registers/references/s12_press_aids_anderton_source_canonique.md::2817",
     "file": "registers/references/s12_press_aids_anderton_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1156,7 +1211,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::2785",
+    "id": "NO_ID::registers/references/s13_tomeo_dance_dance_dance_source_canonique.md::2821",
     "file": "registers/references/s13_tomeo_dance_dance_dance_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1171,7 +1226,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::2787",
+    "id": "NO_ID::registers/references/s09_cummins_joy_division_source_canonique.md::2823",
     "file": "registers/references/s09_cummins_joy_division_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1186,7 +1241,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::2791",
+    "id": "NO_ID::registers/references/s05_jeffery_tufail_jackson_source_canonique.md::2827",
     "file": "registers/references/s05_jeffery_tufail_jackson_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1201,7 +1256,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::2793",
+    "id": "NO_ID::registers/references/s14_happy_mondays_gods_cop_source_canonique.md::2829",
     "file": "registers/references/s14_happy_mondays_gods_cop_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1216,7 +1271,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::2806",
+    "id": "NO_ID::registers/references/s02_sueur_source_canonique.md::2842",
     "file": "registers/references/s02_sueur_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {
@@ -1232,7 +1287,7 @@
   },
   {
     "kind": "metadata",
-    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::2828",
+    "id": "NO_ID::registers/references/s11_hm_treasury_fsbr_source_canonique.md::2864",
     "file": "registers/references/s11_hm_treasury_fsbr_source_canonique.md",
     "heading": "Consignes pour les futurs atomes",
     "data": {

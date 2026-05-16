@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T18:50:49"
+generated_at: "2026-05-16T19:17:29"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T18:50:49"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 230 |
+| Atomes | 232 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 18 |
+| Sources mobilisées | 19 |
 
 ## 4. Sources mobilisées
 
@@ -41,6 +41,7 @@ generated_at: "2026-05-16T18:50:49"
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 5 | 0 |
 | S11 | S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 | 1 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 6 | 0 |
+| S14 | S14 — Happy Mondays, God’s Cop, 1990 | 2 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
@@ -154,6 +155,10 @@ generated_at: "2026-05-16T18:50:49"
   Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `concept_structurant` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
 - **S12-A008** — S12-A008 — S12 comme source de presse à croiser avec S05  
   Source : S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `source_primaire_journalistique`.
+- **S14-A003** — S14-A003 — Satire, drogue, rave et police : la morale d’Anderton retournée par Shaun Ryder  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `satire_culturelle` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S14-A004** — S14-A004 — Du policing moral à la dérision club : continuité oblique S05 / S12 / S14  
+  Source : S14 — Happy Mondays, God’s Cop, 1990 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A002** — S20-A002 — Little Ireland et Angel Meadow comme figures du taudis industriel  
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `lieu_memoire_urbain` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S20-A004** — S20-A004 — Cartographier les problèmes de logement : Bastow, Marr et la géographie sanitaire  
@@ -216,10 +221,6 @@ generated_at: "2026-05-16T18:50:49"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-058** — S41-058 — Premier concert Factory de Joy Division  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-059** — S41-059 — Manchester Musicians’ Collective : coopération contrainte  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-060** — S41-060 — Gretton dépense pour le son : philosophie d’investissement  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -446,6 +447,8 @@ generated_at: "2026-05-16T18:50:49"
 | lieu_image | 1 |
 | concept_visuel | 1 |
 | relation_son_image | 1 |
+| satire_culturelle | 1 |
+| relation_inter_sources | 1 |
 | contexte_materiel | 1 |
 | témoignage_externe | 1 |
 | decision_strategique | 1 |
@@ -460,7 +463,7 @@ generated_at: "2026-05-16T18:50:49"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 229 |
+| non qualifiée | 231 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

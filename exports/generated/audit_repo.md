@@ -1,20 +1,20 @@
 # Audit du repo documentaire
 
-Généré le : `2026-05-16T18:50:47`
+Généré le : `2026-05-16T19:17:27`
 
 ## 1. Verdict
 
-Le repo est techniquement exploitable, mais 249 bloc(s) YAML ne sont pas classés.
-La dette principale reste la migration v2 : 1729 atome(s) incomplet(s) sur 1790.
+Le repo est techniquement exploitable, mais 264 bloc(s) YAML ne sont pas classés.
+La dette principale reste la migration v2 : 1738 atome(s) incomplet(s) sur 1799.
 
 ## 2. Synthèse chiffrée
 
-- Enregistrements : 3873
+- Enregistrements : 3913
 - Erreurs : 0
-- Avertissements : 18506
+- Avertissements : 18629
 - Sources déclarées : 51
-- Sources utilisées : 24
-- Sources exportées : 24
+- Sources utilisées : 25
+- Sources exportées : 25
 - Sources utilisées absentes du registre : 0
 - Libellés faibles : 0
 
@@ -22,31 +22,31 @@ La dette principale reste la migration v2 : 1729 atome(s) incomplet(s) sur 1790.
 
 | Type | Nombre |
 |---|---:|
-| atom | 1790 |
+| atom | 1799 |
 | chronology | 343 |
-| concept | 193 |
-| metadata | 56 |
-| motif | 270 |
-| myth | 20 |
+| concept | 197 |
+| metadata | 61 |
+| motif | 273 |
+| myth | 23 |
 | person | 157 |
 | quote | 358 |
 | quote_batch | 1 |
 | rules | 1 |
 | song | 41 |
-| source | 58 |
+| source | 59 |
 | template | 336 |
-| unknown | 249 |
+| unknown | 264 |
 
 ## 4. Catégories de problèmes
 
 | Catégorie | Nombre |
 |---|---:|
 | field_type_error | 149 |
-| invalid_controlled_value | 1562 |
-| missing_required_field | 5009 |
+| invalid_controlled_value | 1574 |
+| missing_required_field | 5024 |
 | schema_warning | 400 |
-| unknown_yaml_block | 249 |
-| v2_migration_debt | 11137 |
+| unknown_yaml_block | 264 |
+| v2_migration_debt | 11218 |
 
 ## 5. Erreurs bloquantes
 
@@ -94,7 +94,7 @@ Aucune.
 - `sources/deluca_manchester_punk_threshold/registres_specialises_s15.md` : Unable to infer documentary kind
 - `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-001] : Unable to infer documentary kind
 - `sources/cummins_joy_division_visual_corpus/relations_stabilisees.md` [REL-S09-002] : Unable to infer documentary kind
-- … 209 bloc(s) supplémentaire(s) dans `audit_repo.json`.
+- … 224 bloc(s) supplémentaire(s) dans `audit_repo.json`.
 
 ## 7. Registre des sources
 
@@ -106,7 +106,6 @@ Sources déclarées mais non utilisées :
 - S04 — Kidd, Manchester: A History, 2006 — verifie
 - S07 — Engels, The Condition of the Working Class in England, 1845 — a_consolider
 - S08 — Debord, psychogéographie et dérive, 1955–1958 — a_consolider
-- S14 — Happy Mondays, « God’s Cop », 1990 — verifie
 - S17 — The Fall, « Rowche Rumble », 1979 — a_consolider
 - S18 — Fédida, Manchester : L’éveil d’une scène musicale, 2021 — a_consolider
 - S19 — Bourdieu, Les trois états du capital culturel, 1979 — verifie
@@ -133,10 +132,10 @@ Aucun libellé faible.
 
 ## 8. Migration v2
 
-- Atomes : 1790
+- Atomes : 1799
 - Atomes v2 complets : 61
-- Atomes v2 incomplets : 1729
-- Avertissements de champs v2 manquants : 11137
+- Atomes v2 incomplets : 1738
+- Avertissements de champs v2 manquants : 11218
 
 Cette dette ne doit pas être corrigée mécaniquement sans stratégie d’enrichissement documentaire. Elle relève d’une migration progressive des sources déjà atomisées.
 
