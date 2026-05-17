@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-17T20:14:41",
+  "generated_at": "2026-05-17T20:24:04",
   "status": "warning",
   "summary": {
-    "records_total": 4373,
+    "records_total": 4376,
     "records_by_kind": {
       "atom": 1941,
-      "metadata": 110,
+      "metadata": 111,
       "unknown": 391,
-      "source": 69,
+      "source": 71,
       "concept": 233,
       "motif": 295,
       "myth": 40,
@@ -22,9 +22,9 @@
     "diagnostics_total": 20396,
     "errors": 0,
     "warnings": 20396,
-    "sources_declared_in_registre_json": 54,
-    "sources_used_in_records": 34,
-    "sources_exported": 34,
+    "sources_declared_in_registre_json": 55,
+    "sources_used_in_records": 35,
+    "sources_exported": 35,
     "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -942,6 +942,21 @@
           "sources/mike_west_joy_division/source_atomisation_02.md",
           "sources/mike_west_joy_division/source_atomisation_03.md",
           "sources/mike_west_joy_division/source_atomisation_04.md"
+        ]
+      },
+      {
+        "source_id": "S48",
+        "source_label": "S48 — De Sia, Il segno, la grafica, la visione, 2021",
+        "auteur": "Alfredo De Sia",
+        "titre": "Il segno, la grafica, la visione",
+        "annee": "2021",
+        "records": 3,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s48_desia_segno_grafica_visione_source_canonique.md",
+          "sources/desia_segno_grafica_visione/source.md"
         ]
       },
       {

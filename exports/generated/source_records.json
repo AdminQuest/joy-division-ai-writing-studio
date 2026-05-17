@@ -352,6 +352,31 @@
   },
   {
     "kind": "source",
+    "id": "S48",
+    "file": "sources/desia_segno_grafica_visione/source.md",
+    "heading": "S48 — Source canonique — De Sia, « Il segno, la grafica, la visione », 2021",
+    "data": {
+      "id": "S48",
+      "source_id": "S48",
+      "type_unite": "source",
+      "source_label": "S48 — De Sia, Il segno, la grafica, la visione, 2021",
+      "source_short_title": "De Sia, Il segno, la grafica, la visione, 2021",
+      "auteur": "Alfredo De Sia",
+      "titre": "Il segno, la grafica, la visione",
+      "annee": "2021",
+      "dossier_source": "sources/desia_segno_grafica_visione/",
+      "volume_contenant": "Alfonso Amendola et Linda Barone (dir.), Our Vision Touched the Sky: Fenomenologia dei Joy Division, Roma, Rogas Edizioni, 2021",
+      "editeur": "Rogas Edizioni",
+      "lieu_edition": "Roma",
+      "isbn": "9788845294778",
+      "fichier_source_original": "Alfonso Amendola e Linda Barone - Our vision touched the sky.pdf",
+      "pages_pdf_exemplaire": "p. 94-98",
+      "statut": "source canonique fixée",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "source",
     "id": "S42",
     "file": "sources/amendola_troianiello_metropoli_spazio_periferico/source.md",
     "heading": "S42 — Source canonique — Amendola & Troianiello, « Metropoli e spazio periferico nell’underground post-punk inglese », 2021",
@@ -2350,6 +2375,27 @@
       "fichier_source_original": "Alfonso Amendola e Linda Barone - Our vision touched the sky.pdf",
       "pages_pdf": "64-75",
       "statut": "source canonique fixée ; atomes v2 intégrés",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "source",
+    "id": "S48",
+    "file": "registers/references/s48_desia_segno_grafica_visione_source_canonique.md",
+    "heading": "S48 — Source canonique — De Sia, « Il segno, la grafica, la visione », 2021",
+    "data": {
+      "id": "S48",
+      "source_id": "S48",
+      "type_unite": "reference_canonique",
+      "source_label": "S48 — De Sia, Il segno, la grafica, la visione, 2021",
+      "source_short_title": "De Sia, Il segno, la grafica, la visione, 2021",
+      "auteur": "Alfredo De Sia",
+      "titre": "Il segno, la grafica, la visione",
+      "annee": "2021",
+      "volume_contenant": "Alfonso Amendola et Linda Barone (dir.), Our Vision Touched the Sky: Fenomenologia dei Joy Division, Roma, Rogas Edizioni, 2021",
+      "dossier_source": "sources/desia_segno_grafica_visione/",
+      "pages_pdf_exemplaire": "p. 94-98",
+      "statut": "source canonique fixée",
       "source_year": "2021"
     }
   },
