@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-17T16:44:03",
+  "generated_at": "2026-05-17T17:20:37",
   "summary": {
-    "records_total": 4264,
+    "records_total": 4267,
     "records_by_kind": {
       "atom": 1897,
-      "metadata": 96,
+      "metadata": 98,
       "unknown": 350,
-      "source": 64,
+      "source": 65,
       "concept": 228,
       "motif": 295,
       "myth": 40,
@@ -21,9 +21,9 @@
     "diagnostics_total": 19869,
     "errors": 0,
     "warnings": 19869,
-    "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 31,
-    "sources_exported": 31,
+    "sources_declared_in_registre_json": 52,
+    "sources_used_in_records": 32,
+    "sources_exported": 32,
     "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -32,7 +32,7 @@
     "atom": 1897,
     "chronology": 353,
     "concept": 228,
-    "metadata": 96,
+    "metadata": 98,
     "motif": 295,
     "myth": 40,
     "person": 181,
@@ -40,7 +40,7 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 53,
-    "source": 64,
+    "source": 65,
     "template": 336,
     "unknown": 350
   },
@@ -195,6 +195,10 @@
       "song": 7,
       "person": 9,
       "chronology": 9
+    },
+    "S42": {
+      "source": 1,
+      "metadata": 2
     },
     "S45": {
       "atom": 205,
@@ -4116,6 +4120,21 @@
           "sources/hook_unknown_pleasures/source_part_1980_epilogue_closer_track_by_track.md",
           "sources/hook_unknown_pleasures/source_part_1980_lwtua_video_birmingham_suicide_funeral_aftermath.md",
           "sources/hook_unknown_pleasures/source_part_1980_moonlight_rainbow_bury_derby_divorce.md"
+        ]
+      },
+      {
+        "source_id": "S42",
+        "source_label": "S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021",
+        "auteur": "Alfonso Amendola et Novella Troianiello",
+        "titre": "Metropoli e spazio periferico nell underground post-punk inglese",
+        "annee": "2021",
+        "records": 3,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md",
+          "sources/amendola_troianiello_metropoli_spazio_periferico/source.md"
         ]
       },
       {
