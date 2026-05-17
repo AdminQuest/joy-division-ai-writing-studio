@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:24:17"
+generated_at: "2026-05-17T20:40:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 119 |
+| Atomes | 129 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 13 |
 | Personnes | 16 |
 | Chansons | 16 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
 | S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 6 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
+| S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 17 | 0 |
@@ -76,6 +77,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `rupture_esthetique` ; importance : `critique` ; preuve : `interprétation critique`.
 - **S42-A013** — S42-A013 — De la sous-culture au mainstream : réification et circulation globale du post-punk  
   Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `lecture_reception` ; importance : `critique` ; preuve : `interprétation critique`.
+- **S48-A001** — S48-A001 — S48 comme source graphique secondaire, non source de crédit définitif  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S48-A006** — S48-A006 — La technique Saville : décontextualiser et recontextualiser  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `concept_graphique` ; importance : `critique` ; preuve : `moyenne`.
+- **S48-A011** — S48-A011 — Matérialité de *Closer* : carton ivoire, rugosité, Palatino  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `analyse_materielle` ; importance : `critique` ; preuve : `moyenne`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
@@ -116,12 +123,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
 - **S76-A005** — S76-A005 — Le jeune Curtis meneur discret : charisme sans domination  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_biographique` ; importance : `critique` ; preuve : `temoignage_retroactif`.
-- **S76-A012** — S76-A012 — Ziggy Stardust au Hardrock : Bowie comme choc de scène avant le punk  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
-- **S76-A027** — S76-A027 — Iggy Pop à l’Apollo : modèle de physicalité scénique  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
-- **S29-A015** — S29-A015 — La spectralité de l’enregistrement : l’archive sonore comme retour des morts  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept_theorique` ; importance : `majeure` ; preuve : `forte`.
 
 ## 6. Autres atomes utiles
 
@@ -169,6 +170,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S29-A010** — S29-A010 — Hauntological past : persistance, insistance et mémoire spectrale de Joy Division  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `memoire_spectrale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A015** — S29-A015 — La spectralité de l’enregistrement : l’archive sonore comme retour des morts  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept_theorique` ; importance : `majeure` ; preuve : `forte`.
 - **S29-A017** — S29-A017 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
 - **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2** — S29 — Passe v2 — Goddard, hauntology, industrial music, modernism and esotericism  
@@ -221,6 +224,20 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-031** — S45-031 — *Closer* est vécu comme un album froid et distant  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `réception` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S48-A002** — S48-A002 — Les trois éléments fondamentaux de l’image Joy Division  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `concept_structurant` ; importance : `majeure` ; preuve : `forte`.
+- **S48-A004** — S48-A004 — Reprise Factory de *An Ideal for Living* : échafaudages et croix typographique  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `analyse_objet_discographique` ; importance : `utile` ; preuve : `moyenne`.
+- **S48-A005** — S48-A005 — *Unknown Pleasures* : Saville, pulsar et vide sidéral  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `analyse_pochette` ; importance : `majeure` ; preuve : `forte`.
+- **S48-A009** — S48-A009 — « Love Will Tear Us Apart » : Ian Curtis et plaque métallique, à vérifier  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `point_a_verifier` ; importance : `utile` ; preuve : `moyenne`.
+- **S48-A010** — S48-A010 — *Closer* : Wolff, Staglieno, Appiani et épitaphe visuelle  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `analyse_pochette` ; importance : `majeure` ; preuve : `forte`.
+- **S48-A012** — S48-A012 — *Still* : transition graphique vers New Order  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `transition_visuelle` ; importance : `utile` ; preuve : `moyenne`.
+- **S48-A013** — S48-A013 — Tambour, pulsar, tombeau : trois images et un mythe visuel  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `synthese_relationnelle` ; importance : `majeure` ; preuve : `forte`.
 - **S70-A004** — S70-A004 — Le concert Joy Division comme expérience physique et collective  
   Source : S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 ; type : `reception` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S70-A014** — S70-A014 — Hannett comme cinquième membre en studio  
@@ -269,22 +286,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A033** — S72-A033 — PiL et la basse dub comme modèle d’espace  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A035** — S72-A035 — Mute et « Warm Leatherette » : Ballard devient électronique minimale  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A037** — S72-A037 — The Pop Group et The Slits : tribu, reggae, funk, anti-rock  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A038** — S72-A038 — Gang of Four : forme radicale, Brecht, Godard et anti-romantisme  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A039** — S72-A039 — Pere Ubu et Devo : grotesque industriel et Amérique post-industrielle  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A040** — S72-A040 — Sheffield : ville industrielle jumelle de Manchester  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contexte` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A041** — S72-A041 — Cabaret Voltaire : cut-up, machines et documentaire du malaise  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A045** — S72-A045 — Throbbing Gristle : l’usine de mort comme limite du post-punk  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A047** — S72-A047 — Talking Heads et Wire : art rock discipliné et formes courtes  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -361,22 +362,26 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - prudence historiographique (5)
 - dub (4)
 - espace sonore (4)
+- Closer (4)
 - peter saville (4)
 - love will tear us apart (4)
+- Unknown Pleasures (4)
+- Peter Saville (4)
 - production (4)
 - industrial music (3)
 - Throbbing Gristle (3)
 - sonic hauntology (3)
 - capitalist realism (3)
+- Ian Curtis (3)
 - post-punk (3)
 - digital (3)
 - basse (3)
-- Closer (3)
 - factory records (3)
+- pulsar (3)
 - architecture sonore (3)
+- pochette (3)
 - studio (3)
 - son live (3)
-- Unknown Pleasures (3)
 - batterie (3)
 - postindustrial cityscapes (2)
 - spiritual wasteland (2)
@@ -386,7 +391,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - possession (2)
 - past lives (2)
 - hypnosis (2)
-- Ian Curtis (2)
 - electronics (2)
 - funk (2)
 - bernard sumner (2)
@@ -408,16 +412,15 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - réception corporelle (2)
 - producteur catalyseur (2)
 - Joy Division (2)
+- source secondaire critique (2)
 - répétition (2)
 - factory (2)
 - austérité visuelle (2)
 - spatialisation sonore (2)
 - réception interne (2)
-- pochette (2)
 - design funéraire (2)
 - production sonore (2)
 - espace (2)
-- Peter Saville (2)
 - Cargo Studios (2)
 - John Brierley (2)
 - Strawberry Studios (2)
@@ -432,8 +435,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - cancellation of the future (1)
 - Berardi (1)
 - haunting (1)
-- esotericism (1)
-- occult (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -581,6 +582,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | concept_theorique | 2 |
 | temporalite_culturelle | 2 |
 | lecture_chanson | 2 |
+| prudence_methodologique | 2 |
+| concept_structurant | 2 |
+| analyse_pochette | 2 |
 | controverse | 2 |
 | design | 2 |
 | analyse_studio | 2 |
@@ -610,8 +614,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | concept_critique | 1 |
 | concept_pratique | 1 |
 | comparaison_critique | 1 |
-| prudence_methodologique | 1 |
-| concept_structurant | 1 |
+| analyse_objet_discographique | 1 |
+| concept_graphique | 1 |
+| point_a_verifier | 1 |
+| analyse_materielle | 1 |
+| transition_visuelle | 1 |
+| synthese_relationnelle | 1 |
 | rupture_esthetique | 1 |
 | cartographie_scene | 1 |
 | institution_scene | 1 |
@@ -638,9 +646,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 73 |
-| critique | 34 |
-| majeure | 8 |
+| critique | 37 |
+| majeure | 12 |
 | majeur | 3 |
+| utile | 3 |
 | moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

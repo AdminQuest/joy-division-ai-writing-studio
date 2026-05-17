@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:24:17"
+generated_at: "2026-05-17T20:40:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 428 |
+| Atomes | 429 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 38 |
 | Personnes | 39 |
 | Chansons | 19 |
-| Sources mobilisées | 14 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
@@ -42,6 +42,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 45 | 2 |
+| S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 1 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 13 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 5 | 0 |
@@ -435,7 +436,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 11. Concepts récurrents
 
-- Closer (18)
+- Closer (19)
 - architecture sonore (16)
 - Still (15)
 - Ian Curtis (14)
@@ -817,6 +818,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | lecture_textuelle | 1 |
 | chronology | 1 |
 | contexte | 1 |
+| analyse_pochette | 1 |
 | strategie_discographique | 1 |
 | projet_avorte | 1 |
 | discographie_single | 1 |
@@ -896,7 +898,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | critique | 199 |
 | non qualifiée | 157 |
 | majeur | 47 |
-| majeure | 24 |
+| majeure | 25 |
 | secondaire utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

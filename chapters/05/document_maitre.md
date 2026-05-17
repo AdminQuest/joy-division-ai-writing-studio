@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:24:17"
+generated_at: "2026-05-17T20:40:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 328 |
+| Atomes | 334 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
 | Événements chronologiques | 41 |
 | Personnes | 41 |
 | Chansons | 7 |
-| Sources mobilisées | 16 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
 | S47 | S47 — West, Joy Division, 1984 | 39 | 2 |
+| S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 6 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 7 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 1 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 3 | 0 |
@@ -117,12 +118,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct + témoignage rapporté de Sumner + interprétation de Deborah`.
 - **S45-A144** — S45-A144 — Vidéo « Love Will Tear Us Apart » : marionnette du music-business  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + fait audiovisuel établi`.
+- **S48-A001** — S48-A001 — S48 comme source graphique secondaire, non source de crédit définitif  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `forte`.
+- **S48-A003** — S48-A003 — *An Ideal for Living* : tambour hitlérien, nom et polémique initiale  
+  Source : S48 — De Sia, Il segno, la grafica, la visione, 2021 ; type : `analyse_image` ; importance : `critique` ; preuve : `moyenne`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A021** — S74-A021 — Warsaw au premier concert : désespoir, confusion et identité non stabilisée  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `plausible`.
-- **S74-A023** — S74-A023 — Derek Brandwood et le rendez-vous manqué RCA/Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -432,21 +433,21 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Martin Hannett (27)
 - Unknown Pleasures (25)
 - Tony Wilson (21)
-- Rob Gretton (17)
+- Rob Gretton (18)
 - Peter Saville (15)
 - Transmission (12)
 - Atmosphere (11)
+- An Ideal for Living (10)
 - Digital (10)
 - A Factory Sample (10)
 - production (10)
 - Factory Records (10)
 - martin hannett (10)
-- An Ideal for Living (9)
 - Dead Souls (8)
+- Ian Curtis (8)
 - indépendance (8)
 - Glass (7)
 - Strawberry Studios (7)
-- Ian Curtis (7)
 - espace sonore (6)
 - Manchester (6)
 - She's Lost Control (6)
@@ -463,6 +464,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Anonymous Records (4)
 - run-out groove (4)
 - FAC 2 (4)
+- pulsar (4)
 - synthétiseur (4)
 - factory records (4)
 - studio (4)
@@ -471,10 +473,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Joy Division (3)
 - Shadowplay (3)
 - Better Badges (3)
+- identité visuelle (3)
 - FAC 1 (3)
 - Enigma (3)
 - autoproduction (3)
-- pulsar (3)
 - design Factory (3)
 - reconnaissance (3)
 - album (3)
@@ -503,7 +505,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Stiff Test (2)
 - Chiswick Challenge (2)
 - badges (2)
-- identité visuelle (2)
 - merchandising (2)
 - 7 pouces (2)
 - imagerie nazie (2)
@@ -682,6 +683,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | objet_factory | 2 |
 | contexte_scene | 2 |
 | paratexte_discographique | 2 |
+| concept_structurant | 2 |
 | economie_factory | 2 |
 | strategie_discographique | 2 |
 | lieu_studio | 2 |
@@ -739,7 +741,11 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | influence | 1 |
 | archive | 1 |
 | objet_visuel | 1 |
-| concept_structurant | 1 |
+| prudence_methodologique | 1 |
+| analyse_image | 1 |
+| analyse_objet_discographique | 1 |
+| point_a_verifier | 1 |
+| synthese_relationnelle | 1 |
 | institution_scene | 1 |
 | reception_discographique | 1 |
 | reception_album | 1 |
@@ -835,10 +841,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 197 |
-| critique | 99 |
-| majeure | 27 |
+| critique | 101 |
+| majeure | 29 |
 | majeur | 4 |
-| utile | 1 |
+| utile | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

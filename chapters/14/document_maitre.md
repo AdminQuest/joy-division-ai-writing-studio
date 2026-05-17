@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:24:17"
+generated_at: "2026-05-17T20:40:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 891 |
+| Atomes | 902 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 98 |
 | Événements chronologiques | 62 |
 | Personnes | 81 |
 | Chansons | 11 |
-| Sources mobilisées | 33 |
+| Sources mobilisées | 34 |
 
 ## 4. Sources mobilisées
 
@@ -59,6 +59,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
+| S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 11 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 1 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 34 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 21 | 0 |
@@ -449,16 +450,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 ## 11. Concepts récurrents
 
-- New Order (41)
+- New Order (42)
 - Factory (33)
-- Ian Curtis (29)
-- Still (26)
+- Ian Curtis (30)
+- Still (27)
 - Joy Division (25)
-- Unknown Pleasures (21)
-- Peter Saville (18)
+- Unknown Pleasures (22)
+- Peter Saville (20)
+- Love Will Tear Us Apart (17)
 - NME (16)
 - Rob Gretton (16)
-- Love Will Tear Us Apart (16)
 - prudence historiographique (16)
 - Atmosphere (14)
 - Factory Records (14)
@@ -474,18 +475,18 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - She's Lost Control (10)
 - presse musicale (10)
 - John Peel (10)
-- An Ideal for Living (9)
+- An Ideal for Living (10)
 - postérité (9)
 - rob gretton (9)
+- Closer (9)
 - authenticité (9)
 - Manchester (8)
+- post-punk (8)
 - indépendance (8)
 - Transmission (8)
 - mythe (8)
-- Closer (8)
 - suicide (7)
 - archive (7)
-- post-punk (7)
 - Bernard Sumner (7)
 - Warsaw (7)
 - Martin Hannett (7)
@@ -498,6 +499,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - bootlegs (6)
 - héritage (6)
 - charts (6)
+- pulsar (6)
 - Peter Hook (6)
 - tony wilson (6)
 - unknown pleasures (6)
@@ -528,7 +530,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - photographie (4)
 - fans (4)
 - historiographie (4)
-- réalité (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -667,12 +668,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
-| prudence_methodologique | 16 |
+| prudence_methodologique | 17 |
 | memoire | 14 |
 | reception_live | 12 |
 | objet_discographique | 12 |
+| concept_structurant | 11 |
 | discographie | 11 |
-| concept_structurant | 10 |
 | synthese | 10 |
 | archive | 10 |
 | reception_poll | 10 |
@@ -768,6 +769,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | positionnement | 2 |
 | mémoire | 2 |
 | controverse_biographique | 2 |
+| analyse_pochette | 2 |
 | outtakes | 2 |
 | collection | 2 |
 | archive_inedite | 2 |
@@ -928,6 +930,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | genre_scene | 1 |
 | prudence_sociale | 1 |
 | comparaison_critique | 1 |
+| analyse_image | 1 |
+| concept_graphique | 1 |
+| iconisation | 1 |
+| reception_iconographique | 1 |
+| point_a_verifier | 1 |
+| transition_visuelle | 1 |
+| synthese_relationnelle | 1 |
 | lieu_scene | 1 |
 | institution_scene | 1 |
 | cartographie_relationnelle | 1 |
@@ -1118,12 +1127,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 249 |
-| majeure | 57 |
+| critique | 252 |
+| majeure | 63 |
 | majeur | 28 |
+| utile | 3 |
 | structurante | 2 |
 | moyenne | 2 |
-| utile | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

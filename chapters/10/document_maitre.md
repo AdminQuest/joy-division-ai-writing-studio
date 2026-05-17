@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 10"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T20:24:17"
+generated_at: "2026-05-17T20:40:39"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 194 |
+| Atomes | 202 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 20 |
 | Événements chronologiques | 7 |
 | Personnes | 17 |
 | Chansons | 6 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 81 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 8 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 1 | 1 |
+| S48 | S48 — De Sia, Il segno, la grafica, la visione, 2021 | 8 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 7 | 0 |
 | S69 | S69 — Greig & Strong, But We Remember When We Were Young, 2014 | 10 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 8 | 0 |
@@ -390,6 +391,8 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - mort de ian curtis (2)
 - john peel (2)
 - réception posthume (2)
+- Peter Saville (2)
+- pulsar (2)
 - anti-nostalgie (2)
 - noir et blanc (2)
 - génie tragique (2)
@@ -428,8 +431,6 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 - épouse qui refleurit (1)
 - performance sous tension (1)
 - vérité par archive domestique (1)
-- nom comme preuve (1)
-- foyer devenu enquête (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -651,6 +652,14 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
 | concept | 1 |
+| prudence_methodologique | 1 |
+| concept_structurant | 1 |
+| analyse_pochette | 1 |
+| concept_graphique | 1 |
+| iconisation | 1 |
+| reception_iconographique | 1 |
+| analyse_materielle | 1 |
+| synthese_relationnelle | 1 |
 | citation_repere | 1 |
 | synthese | 1 |
 | iconographie | 1 |
@@ -686,10 +695,10 @@ Examiner la perpétuation numérique du mythe, ses réemplois et ses mutations d
 
 | Importance | Nombre |
 |---|---|
-| critique | 86 |
+| critique | 89 |
 | non qualifiée | 81 |
 | majeur | 24 |
-| majeure | 3 |
+| majeure | 8 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 

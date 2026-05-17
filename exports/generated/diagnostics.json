@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-17T20:24:04",
+  "generated_at": "2026-05-17T20:40:25",
   "status": "warning",
   "summary": {
-    "records_total": 4376,
+    "records_total": 4409,
     "records_by_kind": {
-      "atom": 1941,
-      "metadata": 111,
-      "unknown": 391,
+      "atom": 1954,
+      "metadata": 114,
+      "unknown": 408,
       "source": 71,
       "concept": 233,
       "motif": 295,
@@ -19,9 +19,9 @@
       "rules": 1,
       "person": 181
     },
-    "diagnostics_total": 20396,
+    "diagnostics_total": 20569,
     "errors": 0,
-    "warnings": 20396,
+    "warnings": 20569,
     "sources_declared_in_registre_json": 55,
     "sources_used_in_records": 35,
     "sources_exported": 35,
@@ -950,12 +950,15 @@
         "auteur": "Alfredo De Sia",
         "titre": "Il segno, la grafica, la visione",
         "annee": "2021",
-        "records": 3,
-        "atoms": 0,
+        "records": 29,
+        "atoms": 13,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s48_desia_segno_grafica_visione_source_canonique.md",
+          "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+          "sources/desia_segno_grafica_visione/registres_specialises_s48.md",
+          "sources/desia_segno_grafica_visione/relations_stabilisees.md",
           "sources/desia_segno_grafica_visione/source.md"
         ]
       },
@@ -55153,6 +55156,1044 @@
       "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S26-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S48-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S48-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S48-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S48-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S48-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S48-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S48-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S48-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S48-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S48-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/registres_specialises_s48.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/registres_specialises_s48.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/registres_specialises_s48.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/registres_specialises_s48.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/registres_specialises_s48.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/registres_specialises_s48.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/registres_specialises_s48.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": null
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: analyse_image",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: analyse_objet_discographique",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: analyse_pochette",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: concept_graphique",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: iconisation",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: reception_iconographique",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: point_a_verifier",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: analyse_pochette",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: analyse_materielle",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: transition_visuelle",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: titre",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Invalid value for type_unite: synthese_relationnelle",
+      "record_id": "S48-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/desia_segno_grafica_visione/atomes_s48_segno_grafica_visione.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S48-A013"
     },
     {
       "level": "warning",
