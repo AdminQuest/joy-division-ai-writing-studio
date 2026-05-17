@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-17T14:49:12",
+  "generated_at": "2026-05-17T15:03:37",
   "summary": {
-    "records_total": 4241,
+    "records_total": 4248,
     "records_by_kind": {
-      "atom": 1880,
-      "metadata": 90,
+      "atom": 1881,
+      "metadata": 96,
       "unknown": 350,
       "source": 64,
       "concept": 228,
@@ -18,9 +18,9 @@
       "rules": 1,
       "person": 181
     },
-    "diagnostics_total": 19693,
+    "diagnostics_total": 19709,
     "errors": 0,
-    "warnings": 19693,
+    "warnings": 19709,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 31,
     "sources_exported": 31,
@@ -29,10 +29,10 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1880,
+    "atom": 1881,
     "chronology": 353,
     "concept": 228,
-    "metadata": 90,
+    "metadata": 96,
     "motif": 295,
     "myth": 40,
     "person": 181,
@@ -185,7 +185,8 @@
       "atom": 1
     },
     "S40": {
-      "metadata": 3
+      "metadata": 9,
+      "atom": 1
     },
     "S41": {
       "atom": 430,
@@ -410,11 +411,11 @@
   ],
   "issue_categories": {
     "field_type_error": 157,
-    "invalid_controlled_value": 1679,
-    "missing_required_field": 5276,
+    "invalid_controlled_value": 1681,
+    "missing_required_field": 5281,
     "schema_warning": 400,
     "unknown_yaml_block": 350,
-    "v2_migration_debt": 11831
+    "v2_migration_debt": 11840
   },
   "top_files_by_issue_count": [
     [
@@ -3342,10 +3343,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1880,
+    "atoms_total": 1881,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 1807,
-    "v2_missing_field_warnings": 11831
+    "atoms_v2_incomplete": 1808,
+    "v2_missing_field_warnings": 11840
   },
   "source_registry": {
     "declared_but_unused": [
@@ -4037,13 +4038,20 @@
         "auteur": "Fortunato M. Cacciatore",
         "titre": "...waiting for something to happen...",
         "annee": "2021",
-        "records": 3,
-        "atoms": 0,
+        "records": 10,
+        "atoms": 1,
         "quotes": 0,
         "chronology": 0,
         "files": [
+          "registers/concepts/s40_cacciatore_hauntologie_no_future_concepts.md",
+          "registers/motifs/s40_cacciatore_hauntologie_no_future_motifs.md",
+          "registers/myths/s40_cacciatore_hauntologie_no_future_myths.md",
           "registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md",
-          "sources/cacciatore_waiting_for_something_to_happen/source.md"
+          "registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md",
+          "sources/cacciatore_waiting_for_something_to_happen/registers_update_s40_hauntologie_no_future.md",
+          "sources/cacciatore_waiting_for_something_to_happen/relations_stabilisees.md",
+          "sources/cacciatore_waiting_for_something_to_happen/source.md",
+          "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md"
         ]
       },
       {
@@ -15225,6 +15233,134 @@
       "record_id": "S45-A153",
       "message": "Missing nested field: stabilite.risque_revision",
       "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: titre",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: role_argumentatif",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: niveau_preuve",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: importance",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: risque_surinterpretation",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: motifs",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Missing required field: concepts_derives",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Invalid value for statut: intégré",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
+      "record_id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
+      "message": "Invalid value for type_unite: source_part",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
     },
     {
       "level": "warning",
