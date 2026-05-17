@@ -191,7 +191,7 @@ Le documentaire de Grant Gee est utile parce qu’il travaille par fragments, tr
 id: REL-S29-008
 source_id: S29
 relation_type: modernisme_litteraire
- de:
+de:
   - S29-A008
 vers:
   - Ballard
