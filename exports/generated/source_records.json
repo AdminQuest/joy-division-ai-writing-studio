@@ -482,6 +482,31 @@
   },
   {
     "kind": "source",
+    "id": "S44",
+    "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/source.md",
+    "heading": "S44 — Source canonique — Guarino, « I Joy Division tra vomito culturale e ideali sottoculturali », 2021",
+    "data": {
+      "id": "S44",
+      "source_id": "S44",
+      "type_unite": "source",
+      "source_label": "S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021",
+      "source_short_title": "Guarino, I Joy Division tra vomito culturale, 2021",
+      "auteur": "Donato Guarino",
+      "titre": "I Joy Division tra vomito culturale e ideali sottoculturali",
+      "annee": "2021",
+      "dossier_source": "sources/guarino_vomito_culturale_ideali_sottoculturali/",
+      "volume_contenant": "Alfonso Amendola et Linda Barone (dir.), Our Vision Touched the Sky: Fenomenologia dei Joy Division, Roma, Rogas Edizioni, 2021",
+      "editeur": "Rogas Edizioni",
+      "lieu_edition": "Roma",
+      "isbn": "9788845294778",
+      "fichier_source_original": "Alfonso Amendola e Linda Barone - Our vision touched the sky.pdf",
+      "pages_pdf_exemplaire": "p. 76-92",
+      "statut": "source canonique fixée",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "source",
     "id": "S09",
     "file": "sources/cummins_joy_division_visual_corpus/source.md",
     "heading": "S09 — Cummins, *Joy Division*, 2010",
@@ -2325,6 +2350,27 @@
       "fichier_source_original": "Alfonso Amendola e Linda Barone - Our vision touched the sky.pdf",
       "pages_pdf": "64-75",
       "statut": "source canonique fixée ; atomes v2 intégrés",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "source",
+    "id": "S44",
+    "file": "registers/references/s44_guarino_vomito_culturale_source_canonique.md",
+    "heading": "S44 — Source canonique — Guarino, « I Joy Division tra vomito culturale e ideali sottoculturali », 2021",
+    "data": {
+      "id": "S44",
+      "source_id": "S44",
+      "type_unite": "reference_canonique",
+      "source_label": "S44 — Guarino, I Joy Division tra vomito culturale e ideali sottoculturali, 2021",
+      "source_short_title": "Guarino, I Joy Division tra vomito culturale, 2021",
+      "auteur": "Donato Guarino",
+      "titre": "I Joy Division tra vomito culturale e ideali sottoculturali",
+      "annee": "2021",
+      "volume_contenant": "Alfonso Amendola et Linda Barone (dir.), Our Vision Touched the Sky: Fenomenologia dei Joy Division, Roma, Rogas Edizioni, 2021",
+      "dossier_source": "sources/guarino_vomito_culturale_ideali_sottoculturali/",
+      "pages_pdf_exemplaire": "p. 76-92",
+      "statut": "source canonique fixée",
       "source_year": "2021"
     }
   }
