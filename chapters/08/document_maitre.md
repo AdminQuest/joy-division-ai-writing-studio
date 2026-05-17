@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:59:37"
+generated_at: "2026-05-17T11:41:20"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 247 |
+| Atomes | 251 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 9 |
+| Citations | 11 |
 | Événements chronologiques | 23 |
-| Personnes | 7 |
+| Personnes | 10 |
 | Chansons | 4 |
-| Sources mobilisées | 14 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
@@ -40,6 +40,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 13 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 9 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 9 | 0 |
+| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 4 | 2 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
@@ -55,6 +56,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S13-A008** — S13-A008 — Haçienda : du deuil de Curtis à la scène acid house  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `lieu_institution` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S29-A003** — S29-A003 — Sonic hauntology : Derrida, Fisher, Reynolds et spectralité de l’enregistrement  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_theorique`.
 - **S41-A032** — S41-A032 — Rafters / Fast Breeder : Hannett, Erasmus et la scène comme guerre de rang  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_conflit` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A034** — S41-A034 — Warsaw demo : Pennine Sound et futur audible dans *The Kill*  
@@ -119,8 +122,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_discographique` ; importance : `critique` ; preuve : `synthèse rétrospective + presse à retrouver`.
 - **S41-A124** — S41-A124 — Piccadilly Radio : « Chance », « Atrocity Exhibition » et organ Woolworths  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
-- **S41-A126** — S41-A126 — « Transmission » : single choisi par puissance live et non logique album  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -200,6 +201,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `critique_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S27-A010** — S27-A010 — S27 comme tremplin vers Crossley, non substitut au livre  
   Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `prudence_documentaire` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A007** — S29-A007 — Grant Gee contre *Control* : l’archive fragmentaire saisit mieux le temps disparu  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S29-A015** — S29-A015 — La spectralité de l’enregistrement : l’archive sonore comme retour des morts  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept_theorique` ; importance : `majeure` ; preuve : `forte`.
+- **S29-A019** — S29-A019 — Grant Gee contre *Control* : l’archive fragmentaire saisit mieux le temps disparu  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mediation_audiovisuelle` ; importance : `majeure` ; preuve : `forte`.
 - **S41-A041** — S41-A041 — Salford Technical College : violence inter-scène et première trace Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `majeur` ; preuve : `témoignage direct + propos ultérieur de Gretton rapporté`.
 - **S41-A043** — S41-A043 — Morley absent : produire sans producteur et apprendre par défaut  
@@ -212,6 +219,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
 - **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A126** — S41-A126 — « Transmission » : single choisi par puissance live et non logique album  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
 - **S41-A142** — S41-A142 — « Atmosphere » / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité  
@@ -276,14 +285,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_industrielle` ; importance : `majeur` ; preuve : `témoignage direct + citation rapportée`.
 - **S41-A203** — S41-A203 — Vidéo « Love Will Tear Us Apart » : anti-mime, live impossible et erreur devenue canon  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet audiovisuel vérifiable`.
-- **S41-A214** — S41-A214 — « Atrocity Exhibition » : échange d’instruments et colère contre Hannett  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct d’interprète`.
-- **S41-A215** — S41-A215 — « Isolation » : simplicité, synthés, batterie séparée et edit sauvé  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct + analyse technique`.
-- **S41-A216** — S41-A216 — « Passover » : six-string bass, Clone Theory et son du futur Hook  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_instrument` ; importance : `critique` ; preuve : `témoignage direct d’instrumentiste`.
-- **S41-A217** — S41-A217 — « Colony » et confiance de *Closer* : mélancolie fragile mais sûre d’elle  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_album` ; importance : `critique` ; preuve : `témoignage direct + appréciation critique d’interprète`.
 
 ## 7. Citations disponibles
 
@@ -296,6 +297,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - **S76-Q136** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q141** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q053** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S29-Q001** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
+- **S29-Q005** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -331,6 +334,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - PERS-S76-020 — Steve Brotherdale
 - PERS-S76-023 — Kevin Cummins
 - PERS-S76-066 — Jean-Pierre Turmel
+- PERS-S29-006 — Simon Reynolds
+- PERS-S29-010 — Grant Gee
+- PERS-S29-011 — Anton Corbijn
 - PERS-S75-036 — Jean-Pierre Turmel
 
 ## 10. Chansons rattachées
@@ -382,6 +388,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - richard boon (2)
 - paradiso (2)
 - france (2)
+- sonic hauntology (2)
 - pennine sound studios (2)
 - derek branwood (2)
 - unknown pleasures (2)
@@ -421,7 +428,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - désir de studio (1)
 - naïveté industrielle (1)
 - libération éditoriale (1)
-- source pirate (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -507,6 +513,12 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S45-A151 — prolonge → CONCEPT-035
 - S45-A151 — prolonge → REGISTRE-OBJETS-DISCOGRAPHIQUES
 - S45-A151 — prépare → S45-A152
+- S29-A003 — prolonge → CONCEPT-S29-002
+- S29-A003 — prolonge → MOTIF-004
+- S29-A003 — prépare → S29-A010
+- S29-A007 — prolonge → CONCEPT-S29-002
+- S29-A007 — relie → MOTIF-004
+- S29-A007 — nuance → MYTH-002
 - S13-A003 — nuance → S13-A005
 - S13-A003 — prolonge → S74
 - S13-A003 — prolonge → S41
@@ -544,12 +556,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A034 — prépare → UNKNOWN-PLEASURES-SESSIONS
 - S41-A034 — prolonge → CONCEPT-049
 - S41-A036 — prépare → CONCEPT-030
-- S41-A036 — prépare → FACTORY-NETWORK
-- S41-A040 — prolonge → CONCEPT-025
-- S41-A040 — prolonge → MYTH-007
-- S41-A040 — alimente → REGISTRE-DISCOGRAPHIE
-- S41-A041 — prolonge → CONCEPT-050
-- S41-A041 — prépare → CONCEPT-HANNETT-STUDIO
 
 ## 13. Distribution documentaire
 
@@ -596,6 +602,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | concept_sociologique | 1 |
 | renversement_question | 1 |
 | prudence_documentaire | 1 |
+| concept | 1 |
+| archive_visuelle | 1 |
+| concept_theorique | 1 |
+| mediation_audiovisuelle | 1 |
 | tension_documentaire | 1 |
 | economie_sonore | 1 |
 | lieu_institution | 1 |
@@ -679,9 +689,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 123 |
-| critique | 100 |
+| critique | 101 |
 | majeur | 18 |
-| majeure | 6 |
+| majeure | 9 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
@@ -697,6 +707,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S45-A077 [moyen] — Risque de présenter l’origine cassette des bootlegs comme fait définitif sans expertise des sources sonores.
 - S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
 - S45-A151 [très élevé] — Risque de lire chaque don d’objet comme signe suicidaire certain.
+- S29-A003 [moyen] — risque de confondre spectralité de l’enregistrement, occultisme et simple nostalgie
+- S29-A007 [moyen] — l’opposition doit rester un outil de lecture, non un jugement définitif sur les œuvres
 - S13-A003 [très élevé] — Ne jamais écrire que Joy Division invente la rave ou la techno.
 - S13-A007 [élevé] — Vérifier chaque détail de bruitage avant utilisation factuelle.
 - S13-A008 [moyen] — Ne pas confondre trajectoire New Order / Factory / Haçienda avec continuité musicale simple de Joy Division.
@@ -743,8 +755,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A123 [moyen] — Les chiffres de ventes/profit doivent être croisés avant usage quantitatif ferme.
 - S41-A124 [moyen] — Ne pas confondre version radio, version live et version Sordide Sentimental.
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
-- S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
-- S41-A179 [très élevé] — Risque de téléologie morbide : ce contexte prépare l’album sans en faire une preuve anticipée du suicide.
 
 ## 15. Lacunes et prochaines vérifications
 

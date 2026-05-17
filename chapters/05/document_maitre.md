@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 5"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:59:37"
+generated_at: "2026-05-17T11:41:20"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 319 |
+| Atomes | 325 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 68 |
-| Événements chronologiques | 40 |
-| Personnes | 39 |
-| Chansons | 4 |
-| Sources mobilisées | 12 |
+| Événements chronologiques | 41 |
+| Personnes | 41 |
+| Chansons | 7 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
+| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 88 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 19 | 1 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 51 | 3 |
@@ -49,6 +50,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 ## 5. Atomes critiques ou majeurs
 
+- **S29-A008** — S29-A008 — Ruines du modernisme : Ballard, Kafka, Burroughs et Gogol comme voix incorporées  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A010** — S29-A010 — « Dead Souls » : titre littéraire, possession et passé virtuel  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S29-A020** — S29-A020 — « Dead Souls » : le titre littéraire devient dispositif de hantise, non commentaire de Gogol  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `forte`.
 - **S41-A001** — S41-A001 — Le nom Joy Division : House of Dolls, provocation punk et défense salfordienne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif de Peter Hook`.
 - **S41-A026** — S41-A026 — De Stiff Kittens à Warsaw : austérité nominale, Low et premier malentendu graphique  
@@ -113,12 +120,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `fait_interprete` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A033** — S74-A033 — Cargo Studios : Digital et Glass comme seuil Hannett/Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A034** — S74-A034 — Hannett comme génie erratique : vision sonore et échecs répétés  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `portrait_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -128,6 +129,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S15-A014** — S15-A014 — Ian Curtis comme passeur musical et littéraire  
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A006** — S29-A006 — Ruines du modernisme : postindustrial cityscapes, Ballard, Kafka, Burroughs, Gogol  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `modernisme_litteraire` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A007** — S29-A007 — « Dead Souls » : possession, past lives et hantise non narrative  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A011** — S29-A011 — S29 comme source de cadrage critique, non preuve directe sur les intentions de Curtis  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-018** — S41-018 — Apprendre « mal » : naissance d’un style mélodique  
@@ -276,12 +283,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `objet` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-014** — S46-014 — Factory I, Russell Club, 9 juin 1978  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S46-015** — S46-015 — *An Ideal for Living* 7 pouces : autoproduction et mauvais pressage  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-016** — S46-016 — *An Ideal for Living* 12 pouces : Anonymous Records et messages de run-out  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S46-017** — S46-017 — *A Factory Sample* et Cargo Studios  
-  Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -349,6 +350,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S76-1980-027 — Joy Division joue son dernier concert à Birmingham University. Le set s’ouvre sur un morceau encore noté « NEW ONE », qui deviendra « Ceremony », et se termine par « Decades ».
 - CHR-S76-1978-017 — Joy Division adopte T. J. Davidson’s, Little Peter Street, comme espace de répétition. Le lieu devient ensuite central dans l’iconographie du groupe, notamment par les photographies de Kevin Cummins et la vidéo de « Love Will Tear Us Apart ».
 - CHR-S76-1978-018 — Joy Division joue à Eric’s, Liverpool. S76 présente ce concert comme la première fois où le groupe bénéficie d’un rider et du concours d’Oz PA, future équipe régulière de sonorisation.
+- CHR-S29-1979-001 — Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.
 - CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
 - CHR-S75-1979-001 — Ian Curtis apparaît pour la première fois en couverture du NME, photographié par Kevin Cummins.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
@@ -367,7 +369,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - CHR-S75-1979-006 — Sortie de *Unknown Pleasures* chez Factory Records.
 - CHR-S76-1979-015 — Joy Division joue à l’Electric Ballroom de Camden avec Scritti Politti, Monochrome Set et A Certain Ratio, devant un public d’environ 1 200 personnes selon S76.
 - CHR-S76-1979-017 — Joy Division joue au Futurama Festival à Leeds. S76 décrit une performance qui place le groupe au-dessus de la plupart des autres formations post-punk présentes, avec un set qui circulera ensuite en bootlegs.
-- CHR-S76-1979-018 — Après le concert au Nashville Rooms, le van de Joy Division est percuté par un camion sur l’autoroute ; l’équipement est projeté sur la route, mais personne n’est blessé.
 
 ## 9. Personnes et acteurs
 
@@ -401,6 +402,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S76-033 — Richard Searling
 - PERS-S76-034 — John Anderson
 - PERS-S76-036 — Bernie Binnick
+- PERS-S29-002 — Ian Curtis
+- PERS-S29-012 — Nikolai Gogol
 - PERS-S76-004 — Carole Curtis
 - PERS-S76-074 — Terry Mason
 - PERS-S76-024 — Martin Hannett
@@ -409,10 +412,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - PERS-S76-027 — Rob Gretton
 - PERS-S76-028 — Bob Dickinson
 - PERS-S76-029 — Mark Reeder
-- PERS-S75-036 — Jean-Pierre Turmel
 
 ## 10. Chansons rattachées
 
+- SONG-S29-001 — Dead Souls
+- SONG-S29-002 — Interzone
+- SONG-S29-003 — Colony
 - Transmission
 - She's Lost Control
 - Disorder
@@ -434,12 +439,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Factory Records (10)
 - martin hannett (10)
 - An Ideal for Living (9)
+- Dead Souls (8)
 - indépendance (8)
 - Glass (7)
 - Strawberry Studios (7)
 - Ian Curtis (7)
 - espace sonore (6)
-- Dead Souls (6)
 - Manchester (6)
 - She's Lost Control (6)
 - Rafters (6)
@@ -481,6 +486,10 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Martin Rushent (3)
 - contextualisation sans excuse (2)
 - provocation nominale (2)
+- Interzone (2)
+- possession (2)
+- past lives (2)
+- hypnosis (2)
 - dub (2)
 - peter hook (2)
 - bernard sumner (2)
@@ -496,10 +505,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - 7 pouces (2)
 - imagerie nazie (2)
 - Rabid Records (2)
-- Martin Zero (2)
-- avril 1979 (2)
-- premier album (2)
-- Bernard Sumner (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -519,6 +524,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Rudolf Hess (3)
 - Hitler Youth (3)
 - Warsaw Pakt (3)
+- Dead Souls (3)
 - Warsaw (3)
 - Tosh Ryan (3)
 - répétition (3)
@@ -543,8 +549,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - Digital (2)
 - Glass (2)
 - Love Will Tear Us Apart (2)
-- House of Dolls (2)
-- Iggy Pop (2)
+- possession (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -579,6 +584,12 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A144 — prolonge → CONCEPT-036
 - S45-A144 — prolonge → S45-A132
 - S45-A144 — prépare → CHAPITRE-14-LOVE-WILL-TEAR-US-APART-POSTERITY
+- S29-A008 — prolonge → CONCEPT-S29-004
+- S29-A008 — relie → S29-A011
+- S29-A008 — prépare → S29-A012
+- S29-A010 — prolonge → CONCEPT-S29-002
+- S29-A010 — relie → S29-A008
+- S29-A010 — nuance → MYTH-002
 - S41-A045 — prolonge → S41-A001
 - S41-A045 — prolonge → CONCEPT-025
 - S41-A045 — alerte → MYTH-LYRICS-AS-DIARY
@@ -622,12 +633,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S41-A084 — prolonge → CONCEPT-073
 - S41-A084 — prolonge → CONCEPT-061
 - S41-A157 — prolonge → CONCEPT-101
-- S41-A157 — prolonge → S41-A120
-- S41-A164 — prolonge → S41-A129
-- S41-A164 — prolonge → CONCEPT-101
-- S41-A064 — consolide → S41-A042
-- S41-A064 — consolide → S41-A055
-- S41-A064 — prépare → S41-A001
 
 ## 13. Distribution documentaire
 
@@ -653,6 +658,7 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | concept_transversal | 4 |
 | tension_documentaire | 3 |
 | controverse | 3 |
+| lecture_chanson | 3 |
 | esthétique_visuelle | 3 |
 | archive_visuelle | 3 |
 | television | 3 |
@@ -691,6 +697,9 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 | mediation_visuelle | 1 |
 | strategie_mediatique | 1 |
 | seuil_identitaire | 1 |
+| lecture | 1 |
+| modernisme_litteraire | 1 |
+| prudence_interpretative | 1 |
 | paroles_source | 1 |
 | transition_nominale | 1 |
 | reception_nominale | 1 |
@@ -818,8 +827,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 194 |
-| critique | 95 |
+| non qualifiée | 197 |
+| critique | 98 |
 | majeure | 26 |
 | majeur | 4 |
 
@@ -834,6 +843,8 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S45-A044 [élevé] — Risque de dissoudre la charge éthique du nom dans le récit musical, ou au contraire de réduire la mutation musicale au seul scandale nominal.
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S45-A144 [moyen] — Risque de réduire la vidéo à exploitation ; elle est aussi objet audiovisuel majeur.
+- S29-A008 [moyen] — risque de projeter une intention littéraire trop systématique sur Curtis
+- S29-A010 [eleve] — risque d’expliquer psychologiquement Curtis par l’occultisme ou de citer trop longuement les paroles
 - S41-A045 [élevé] — Risque de traiter les paroles comme journal intime ou comme idéologie transparente.
 - S41-A048 [faible à moyen] — Ne pas réduire Joy Division à une nécessité administrative ; le choix porte aussi une charge symbolique.
 - S41-A049 [moyen] — Risque d’éparpiller l’analyse ; l’intérêt est le rapport entre nom, marque, bootleg et refus du merchandising.
@@ -883,8 +894,6 @@ Analyser l’identité visuelle, Peter Saville, Factory et l’esthétique du vi
 - S74-A021 [eleve] — risque de projeter rétrospectivement Joy Division sur un groupe encore instable et embryonnaire
 - S74-A010 [moyen] — portrait très scénarisé par Middles, avec risque d’accentuation comique ou légendaire
 - S76-A035 [moyen] — la présence de Hannett est probable mais le lien causal avec la production ultérieure ne doit pas être forcé
-- S76-A036 [moyen] — la phrase de C. P. Lee sur la chaîne Music Force/Rabid/Factory/Haçienda doit être utilisée comme lecture historiographique, non comme causalité mécanique
-- S76-A039 [moyen] — ne pas surestimer le niveau artistique de la session ; S76 insiste sur le son pauvre et live
 
 ## 15. Lacunes et prochaines vérifications
 

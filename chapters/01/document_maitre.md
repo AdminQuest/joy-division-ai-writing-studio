@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:59:37"
+generated_at: "2026-05-17T11:41:20"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T20:59:37"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 164 |
-| Atomes critiques / majeurs | 18 |
-| Citations | 6 |
-| Événements chronologiques | 2 |
-| Personnes | 4 |
+| Atomes | 178 |
+| Atomes critiques / majeurs | 25 |
+| Citations | 7 |
+| Événements chronologiques | 3 |
+| Personnes | 7 |
 | Chansons | 0 |
-| Sources mobilisées | 23 |
+| Sources mobilisées | 24 |
 
 ## 4. Sources mobilisées
 
@@ -47,6 +47,7 @@ generated_at: "2026-05-16T20:59:37"
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 2 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 5 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 7 | 0 |
+| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 14 | 1 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -60,6 +61,18 @@ generated_at: "2026-05-16T20:59:37"
 
 ## 5. Atomes critiques ou majeurs
 
+- **S29-A001** — S29-A001 — Goddard comme source critique hauntologique, non comme source biographique primaire  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A002** — S29-A002 — Joy Division et industrial music : proximité hauntologique plutôt qu’influence sonore directe  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A005** — S29-A005 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_theorique`.
+- **S29-A006** — S29-A006 — Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `controverse` ; importance : `critique` ; preuve : `critique_historiographique`.
+- **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `critique` ; preuve : `forte`.
+- **S29-A018** — S29-A018 — Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `critique_historiographique` ; importance : `critique` ; preuve : `forte`.
 - **S45-A020** — S45-A020 — Ne pas confondre vote conservateur local et adhésion au thatchérisme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage issue d’un témoignage direct`.
 - **S45-A031** — S45-A031 — Manchester comme « nouvelle capitale » : scène d’auto-habilitation  
@@ -78,6 +91,8 @@ generated_at: "2026-05-16T20:59:37"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `geographie_sociale` ; importance : `critique` ; preuve : `reconstruction_S76_appuyee_sur_temoin_et_memoire_locale`.
 - **S76-A075** — S76-A075 — Russell Club / Hulme : lieu anti-glam pour le post-punk industriel  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
+- **S29-A017** — S29-A017 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -268,10 +283,12 @@ generated_at: "2026-05-16T20:59:37"
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S29-Q003** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S76-1973-001 — La famille Curtis quitte Macclesfield pour New Moston, ce qui modifie les trajets, les sociabilités et le rapport de Curtis à Manchester.
+- CHR-S29-1977-001 — Goddard mobilise Berardi et Fisher pour lire 1977 comme seuil d’une sensibilité punk/post-punk où le futur moderniste s’épuise.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 
 ## 9. Personnes et acteurs
@@ -279,6 +296,9 @@ generated_at: "2026-05-16T20:59:37"
 - PERS-003-S75 — Bernard Sumner
 - PERS-S76-039 — Donald Johnson
 - PERS-S76-040 — Eddie Garrity / Ed Banger
+- PERS-S29-001 — Michael Goddard
+- PERS-S29-008 — Franco Berardi
+- PERS-S29-009 — Paul Crosthwaite
 - PERS-S76-003 — Kevin Curtis
 
 ## 10. Chansons rattachées
@@ -288,17 +308,18 @@ generated_at: "2026-05-16T20:59:37"
 ## 11. Concepts récurrents
 
 - manchester (9)
-- Manchester (6)
+- Manchester (8)
 - géographie émotionnelle (6)
 - Salford (6)
 - James Anderton (5)
 - désindustrialisation (5)
+- Thatcherism (5)
 - Hulme (5)
 - diy (4)
 - Ian Curtis (4)
+- postindustrial cityscapes (3)
 - Ian Wood (3)
 - NME (3)
-- Thatcherism (3)
 - Macclesfield (3)
 - classe ouvriere (3)
 - slum clearance (3)
@@ -312,6 +333,16 @@ generated_at: "2026-05-16T20:59:37"
 - Tactical Aid Group (2)
 - police-community relations (2)
 - Manchester post-industriel (2)
+- cancellation of the future (2)
+- source critique (2)
+- industrial music (2)
+- spiritual wasteland (2)
+- no future (2)
+- capitalist realism (2)
+- dyschronia (2)
+- imaginative historicism (2)
+- mythologisation (2)
+- atemporality (2)
 - post-punk (2)
 - factory records (2)
 - new hormones (2)
@@ -356,23 +387,12 @@ generated_at: "2026-05-16T20:59:37"
 - prévention (2)
 - oral history (2)
 - post-war inner city (2)
-- Anderton (2)
-- ville télévisuelle (1)
-- médiation audiovisuelle (1)
-- Manchester monté en noir et blanc (1)
-- rupture politique intime (1)
-- auto-habilitation mancunienne (1)
-- scène comme écosystème (1)
-- capitale alternative (1)
-- complexité politique de Curtis (1)
-- anti-déterminisme sociologique (1)
-- discordance entre œuvre et opinion (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
-- Manchester (3)
+- Manchester (4)
 - Salford (3)
 - politique (2)
 - scène locale (2)
@@ -401,17 +421,17 @@ generated_at: "2026-05-16T20:59:37"
 - Thatcher (1)
 - conservatisme (1)
 - extrapolation (1)
-- Londres (1)
-- punk (1)
-- auto-suffisance (1)
-- déclencheur (1)
-- Lower Broughton (1)
-- déplacement (1)
-- tour (1)
-- travail répétitif (1)
-- 1979 (1)
-- crise anglaise (1)
-- disco (1)
+- hauntology (1)
+- source critique (1)
+- prudence historiographique (1)
+- industrial music (1)
+- postindustrial cityscapes (1)
+- spiritual wasteland (1)
+- ruines de la modernité (1)
+- no future (1)
+- lost futures (1)
+- dyschronia (1)
+- 1977 (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -434,6 +454,17 @@ generated_at: "2026-05-16T20:59:37"
 - S45-A020 — stabilise → REGISTRE-CITATIONS-VERIFIEES
 - S45-A020 — alerte → RISQUE-SURTRADUCTION-POLITIQUE
 - S45-A020 — nuance → S45-A019
+- S29-A001 — prolonge → CONCEPT-004
+- S29-A001 — nuance → MYTH-002
+- S29-A002 — nuance → MYTH-003
+- S29-A002 — prépare → CONCEPT-S29-001
+- S29-A002 — relie → S29-A008
+- S29-A005 — prolonge → CONCEPT-S29-003
+- S29-A005 — nuance → MYTH-002
+- S29-A005 — nuance → MYTH-003
+- S29-A006 — prolonge → CONCEPT-004
+- S29-A006 — déconstruit → MYTH-003
+- S29-A006 — nuance → MYTH-002
 - S75-A004 — nuance → MYTH-lesser_free_trade_hall_origine_absolue
 - S75-A004 — prolonge → CONCEPT-geographie_emotionnelle
 - S75-A014 — nuance → MYTH-curtis_centre_unique
@@ -481,24 +512,27 @@ generated_at: "2026-05-16T20:59:37"
 
 | Type | Nombre |
 |---|---|
-| source_part | 12 |
+| source_part | 14 |
 | concept_structurant | 9 |
 | analyse | 9 |
-| prudence_methodologique | 7 |
+| prudence_methodologique | 8 |
+| concept | 7 |
 | sociologie | 7 |
 | contexte_social | 6 |
 | evenement_politique | 5 |
-| concept | 5 |
 | lieu_scene | 4 |
+| lecture | 4 |
 | contexte | 4 |
 | biographie | 4 |
 | methode | 3 |
 | contrepoint | 3 |
-| lecture | 3 |
 | politique_urbaine | 3 |
 | tension_documentaire | 2 |
 | acteur_institutionnel | 2 |
 | conclusion_historiographique | 2 |
+| relation_esthetique | 2 |
+| temporalite_culturelle | 2 |
+| critique_historiographique | 2 |
 | chronologie | 2 |
 | lieu | 2 |
 | urbanisme | 2 |
@@ -514,6 +548,8 @@ generated_at: "2026-05-16T20:59:37"
 | contexte_institutionnel | 1 |
 | institution_policiere | 1 |
 | contexte_politique | 1 |
+| controverse | 1 |
+| modernisme_litteraire | 1 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
 | citation_contextualisee | 1 |
@@ -573,9 +609,9 @@ generated_at: "2026-05-16T20:59:37"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 144 |
-| critique | 9 |
-| majeure | 9 |
+| non qualifiée | 151 |
+| critique | 15 |
+| majeure | 10 |
 | majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -585,6 +621,10 @@ generated_at: "2026-05-16T20:59:37"
 - S45-A031 [moyen] — Risque de reconstruire Manchester comme capitale évidente alors que la scène est encore précaire, locale et partiellement fantasmée.
 - S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.
 - S45-A020 [très élevé] — « Conservateur » peut être surtraduit en « thatchérien », alors que le passage ne l’établit pas.
+- S29-A001 [eleve] — risque de transformer une lecture hauntologique en preuve d’intention ou en biographie psychologique
+- S29-A002 [moyen] — risque d’écrire que Throbbing Gristle influence directement Joy Division sans preuve sonore suffisante
+- S29-A005 [eleve] — risque de transformer Joy Division en oracle politique ou en anticipation littérale de Thatcher
+- S29-A006 [eleve] — risque double : déterminisme Manchester/Thatcher ou atemporalisation romantique du groupe
 - S75-A004 [moyen] — risque de durcir excessivement l'opposition Londres/Manchester
 - S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
 - S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale

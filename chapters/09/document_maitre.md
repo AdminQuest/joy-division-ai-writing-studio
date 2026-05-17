@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:59:37"
+generated_at: "2026-05-17T11:41:20"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-16T20:59:37"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 233 |
+| Atomes | 234 |
 | Atomes critiques / majeurs | 1 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 20 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ generated_at: "2026-05-16T20:59:37"
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 2 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 12 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 1 | 0 |
+| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 46 | 2 |
@@ -186,6 +187,8 @@ generated_at: "2026-05-16T20:59:37"
   Source : S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S27-A003** — S27-A003 — Lieux de convergence : clubs, points de rencontre et formation des réseaux  
   Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `lieu_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A006** — S29-A006 — Ruines du modernisme : postindustrial cityscapes, Ballard, Kafka, Burroughs, Gogol  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `modernisme_litteraire` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-002** — S41-002 — Premier concert sous le nom Joy Division : chaos fondateur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-023** — S41-023 — Terry Mason : membre fondateur périphérique  
@@ -220,8 +223,6 @@ generated_at: "2026-05-16T20:59:37"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `interpretation` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-055** — S41-055 — « Transmission » comme premier moment d’évidence collective  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S41-056** — S41-056 — Oz PA et la professionnalisation du son live  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -394,6 +395,7 @@ generated_at: "2026-05-16T20:59:37"
 | concept_transversal | 2 |
 | memoire | 2 |
 | institution_policiere | 1 |
+| modernisme_litteraire | 1 |
 | contrepoint | 1 |
 | archive_broadcast | 1 |
 | television | 1 |
@@ -464,7 +466,7 @@ generated_at: "2026-05-16T20:59:37"
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 232 |
+| non qualifiée | 233 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance

@@ -1613,7 +1613,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/deluca_manchester_punk_threshold/citations_exactes.md::1533",
+    "id": "NO_ID::sources/deluca_manchester_punk_threshold/citations_exactes.md::1580",
     "file": "sources/deluca_manchester_punk_threshold/citations_exactes.md",
     "heading": "Citations candidates — S15 — De Luca, *The Sound and the Fury*, 2021",
     "data": {
@@ -2143,7 +2143,7 @@
   },
   {
     "kind": "quote",
-    "id": "NO_ID::sources/hook/citations_exactes.md::2083",
+    "id": "NO_ID::sources/hook/citations_exactes.md::2130",
     "file": "sources/hook/citations_exactes.md",
     "heading": "Citations candidates à extraire ensuite",
     "data": {
@@ -11998,6 +11998,222 @@
       "source_label": "S45 — Curtis, Touching from a Distance, 1995",
       "source_short_title": "Deborah Curtis, Touching from a Distance: Ian Curtis and Joy Division, 1995",
       "source_year": "1995"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S29-Q001",
+    "file": "registers/quotes/s29_goddard_quotes.md",
+    "heading": "S29-Q001 — L’enregistrement comme sous-courant spectral",
+    "data": {
+      "id": "S29-Q001",
+      "type_unite": "quote",
+      "source_id": "S29",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "auteur": "Simon Reynolds, cité par Michael Goddard",
+      "citation": "Recording has always had a spectral undercurrent",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          36
+        ],
+        "imprimees": [
+          5
+        ]
+      },
+      "usage": [
+        "sonic hauntology",
+        "archive sonore",
+        "bootleg"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A003"
+      ],
+      "related_concepts": [
+        "CONCEPT-S29-002"
+      ],
+      "risque": [
+        "citation courte à attribuer à Reynolds via Goddard"
+      ],
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S29-Q002",
+    "file": "registers/quotes/s29_goddard_quotes.md",
+    "heading": "S29-Q002 — Agency of the virtual",
+    "data": {
+      "id": "S29-Q002",
+      "type_unite": "quote",
+      "source_id": "S29",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "auteur": "Mark Fisher, cité par Michael Goddard",
+      "citation": "agency of the virtual",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          36
+        ],
+        "imprimees": [
+          5
+        ]
+      },
+      "usage": [
+        "hauntology",
+        "spectralité",
+        "théorie"
+      ],
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A003"
+      ],
+      "related_concepts": [
+        "CONCEPT-S29-002"
+      ],
+      "risque": [
+        "citation conceptuelle à contextualiser dans la hauntology derridienne relue par Fisher"
+      ],
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S29-Q003",
+    "file": "registers/quotes/s29_goddard_quotes.md",
+    "heading": "S29-Q003 — Slow cancellation of the future",
+    "data": {
+      "id": "S29-Q003",
+      "type_unite": "quote",
+      "source_id": "S29",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "auteur": "Mark Fisher, mobilisé par Michael Goddard",
+      "citation": "slow cancellation of the future",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          38
+        ],
+        "imprimees": [
+          7
+        ]
+      },
+      "usage": [
+        "temporalité culturelle",
+        "no future",
+        "capitalist realism"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A005"
+      ],
+      "related_concepts": [
+        "CONCEPT-S29-003"
+      ],
+      "risque": [
+        "ne pas transformer la formule en intention de Joy Division"
+      ],
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S29-Q004",
+    "file": "registers/quotes/s29_goddard_quotes.md",
+    "heading": "S29-Q004 — Zero affect",
+    "data": {
+      "id": "S29-Q004",
+      "type_unite": "quote",
+      "source_id": "S29",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "auteur": "Mark Fisher, cité par Michael Goddard",
+      "citation": "Zero affect",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          40
+        ],
+        "imprimees": [
+          9
+        ]
+      },
+      "usage": [
+        "mélancolie",
+        "dépression",
+        "esthétique critique"
+      ],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A012"
+      ],
+      "risque": [
+        "ne pas esthétiser la dépression ; citation à encadrer fortement"
+      ],
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "quote",
+    "id": "S29-Q005",
+    "file": "registers/quotes/s29_goddard_quotes.md",
+    "heading": "S29-Q005 — Places that no longer exist",
+    "data": {
+      "id": "S29-Q005",
+      "type_unite": "quote",
+      "source_id": "S29",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "auteur": "Mark Fisher, repris par Michael Goddard",
+      "citation": "places that no longer exist",
+      "statut": "candidate",
+      "verification": "a_verifier_sur_pdf",
+      "pages": {
+        "pdf": [
+          40
+        ],
+        "imprimees": [
+          9
+        ]
+      },
+      "usage": [
+        "archive visuelle",
+        "Manchester disparu",
+        "documentaire Grant Gee"
+      ],
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A007"
+      ],
+      "risque": [
+        "citation utile seulement si le régime documentaire de Grant Gee est traité"
+      ],
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
     }
   },
   {

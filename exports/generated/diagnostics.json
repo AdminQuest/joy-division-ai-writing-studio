@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-16T21:31:06",
-  "status": "warning",
+  "generated_at": "2026-05-17T11:41:07",
+  "status": "error",
   "summary": {
-    "records_total": 4091,
+    "records_total": 4172,
     "records_by_kind": {
-      "atom": 1844,
-      "metadata": 76,
-      "unknown": 326,
+      "atom": 1879,
+      "metadata": 77,
+      "unknown": 338,
       "source": 62,
-      "concept": 221,
+      "concept": 225,
       "motif": 291,
-      "myth": 34,
-      "quote": 358,
-      "chronology": 343,
+      "myth": 37,
+      "quote": 363,
+      "chronology": 347,
       "template": 336,
-      "song": 41,
+      "song": 46,
       "quote_batch": 1,
       "rules": 1,
-      "person": 157
+      "person": 169
     },
-    "diagnostics_total": 19234,
-    "errors": 0,
-    "warnings": 19234,
+    "diagnostics_total": 19690,
+    "errors": 12,
+    "warnings": 19678,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 28,
     "sources_exported": 28,
@@ -694,13 +694,24 @@
         "auteur": "Michael Goddard",
         "titre": "Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division",
         "annee": "2018",
-        "records": 4,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 85,
+        "atoms": 35,
+        "quotes": 5,
+        "chronology": 4,
         "files": [
+          "registers/chronology/s29_goddard_chronology.md",
+          "registers/concepts/s29_goddard_concepts_part_01.md",
+          "registers/myths/s29_goddard_myths_part_01.md",
+          "registers/people/s29_goddard_people.md",
+          "registers/quotes/s29_goddard_quotes.md",
           "registers/references/s29_goddard_missions_dead_souls_source_canonique.md",
-          "sources/goddard_missions_dead_souls/source.md"
+          "registers/references/s29_goddard_v2bis_register_complements.md",
+          "registers/songs/s29_goddard_songs.md",
+          "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+          "sources/goddard_missions_dead_souls/source.md",
+          "sources/goddard_missions_dead_souls/source_part_01.md",
+          "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+          "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md"
         ]
       },
       {
@@ -13036,6 +13047,2352 @@
       "file": "sources/marco_broll/source.md",
       "message": "Missing required field: concepts_derives",
       "record_id": "S68-A039"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Invalid value for type_unite: archive_visuelle",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Invalid value for type_unite: prudence_temoin",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: statut",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
+      "message": "Missing nested field: stabilite.risque_revision",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for statut: integration_directe",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for fiabilite: forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: relation_esthetique",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: concept_theorique",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: temporalite_culturelle",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: critique_historiographique",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: modernisme_litteraire",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for statut: a_croiser",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: relation_inter_sources",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: depression_politique",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: memoire_spectrale",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: prudence_interpretative",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Invalid value for type_unite: mythe_prudence",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "error",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
+      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
+      "record_id": "S29-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S29-012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for statut: integration_directe_complementaire",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for fiabilite: forte comme source critique ; moyenne pour les faits biographiques rapportés ; à croiser pour P-Orridge, Curtis, Fisher et les citations de paroles",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for type_unite: prudence_temoin",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S29-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for type_unite: relation_esthetique",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S29-A014"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for type_unite: concept_theorique",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S29-A015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for type_unite: mythe_prudence",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S29-A016"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for type_unite: temporalite_culturelle",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S29-A017"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for type_unite: critique_historiographique",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S29-A018"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for type_unite: mediation_audiovisuelle",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S29-A019"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Invalid value for type_unite: lecture_chanson",
+      "record_id": "S29-A020"
+    },
+    {
+      "level": "warning",
+      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md",
+      "message": "Field must be an object/dict: importance",
+      "record_id": "S29-A020"
     },
     {
       "level": "warning",
@@ -99925,6 +102282,66 @@
     },
     {
       "level": "warning",
+      "file": "registers/songs/s29_goddard_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S29-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s29_goddard_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S29-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s29_goddard_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S29-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s29_goddard_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S29-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s29_goddard_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S29-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s29_goddard_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S29-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s29_goddard_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S29-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s29_goddard_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S29-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s29_goddard_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S29-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s29_goddard_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S29-005"
+    },
+    {
+      "level": "warning",
       "file": "registers/songs/s41_hook_songs_1977_an_ideal_name_change_tj_davidson_sound.md",
       "message": "Unable to infer documentary kind",
       "record_id": "DISC-S41-AN-IDEAL-FOR-LIVING-EP"
@@ -114385,6 +116802,96 @@
     },
     {
       "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S29-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S29-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S29-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S29-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S29-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S29-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S29-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S29-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S29-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S29-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S29-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S29-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S29-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S29-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s29_goddard_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S29-Q005"
+    },
+    {
+      "level": "warning",
       "file": "registers/quotes/s45_curtis_quotes_vote_conservateur.md",
       "message": "Missing required field: citation_originale",
       "record_id": "S45-Q006"
@@ -114865,6 +117372,102 @@
     },
     {
       "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: titre",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: importance",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Invalid value for statut: integration_directe",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
+      "file": "registers/references/s29_goddard_v2bis_register_complements.md",
+      "message": "Invalid value for type_unite: registre_complements",
+      "record_id": "S29-REGISTER-COMPLEMENTS-V2BIS-2026-05-17"
+    },
+    {
+      "level": "warning",
       "file": "registers/references/s20_dodge_relations_rag_housing_geographies_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-RAG-S20-HOUSING-GEOGRAPHIES-V2"
@@ -115024,6 +117627,78 @@
       "file": "registers/people/s06_carter_people_hulme_lived_discursive_space_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "PEOPLE-S06-HULME-LIVED-DISCURSIVE-SPACE-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s29_goddard_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S29-012"
     },
     {
       "level": "warning",
@@ -116062,6 +118737,78 @@
       "file": "registers/chronology/s06_carter_chronology_hulme_lived_discursive_space_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "CHRONO-S06-HULME-LIVED-DISCURSIVE-SPACE-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S29-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S29-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Invalid value for certainty: interpretation_critique",
+      "record_id": "CHR-S29-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S29-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S29-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Invalid value for certainty: interpretation_critique",
+      "record_id": "CHR-S29-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S29-1980-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S29-1980-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Invalid value for certainty: interpretation_critique",
+      "record_id": "CHR-S29-1980-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S29-2017-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S29-2017-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s29_goddard_chronology.md",
+      "message": "Invalid value for certainty: interpretation_critique",
+      "record_id": "CHR-S29-2017-001"
     },
     {
       "level": "warning",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:59:37"
+generated_at: "2026-05-17T11:41:20"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 190 |
+| Atomes | 206 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 15 |
-| Événements chronologiques | 5 |
-| Personnes | 5 |
-| Chansons | 10 |
-| Sources mobilisées | 15 |
+| Citations | 16 |
+| Événements chronologiques | 7 |
+| Personnes | 10 |
+| Chansons | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -37,6 +37,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 3 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 2 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 1 | 0 |
+| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 16 | 1 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
@@ -56,6 +57,22 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_affectif` ; importance : `critique` ; preuve : `proposition critique`.
 - **S13-A004** — S13-A004 — Curtis sciamane moderne : voix, corps, transe et sacrifice scénique  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_performance` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S29-A001** — S29-A001 — Goddard comme source critique hauntologique, non comme source biographique primaire  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A008** — S29-A008 — Ruines du modernisme : Ballard, Kafka, Burroughs et Gogol comme voix incorporées  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A009** — S29-A009 — Throbbing Gristle : affinités, occulture et témoin problématique  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `temoignage_rapporté_problématisé`.
+- **S29-A010** — S29-A010 — « Dead Souls » : titre littéraire, possession et passé virtuel  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S29-A012** — S29-A012 — Dépression, classe et exorcisme politique : Curtis et Fisher sans romantisation  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A013** — S29-A013 — P-Orridge / Curtis : affinité revendiquée, mais témoin instable  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `moyenne`.
+- **S29-A016** — S29-A016 — Fisher hanté à son tour : quand le concept devient lui-même posthume  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mythe_prudence` ; importance : `critique` ; preuve : `forte`.
+- **S29-A020** — S29-A020 — « Dead Souls » : le titre littéraire devient dispositif de hantise, non commentaire de Gogol  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `forte`.
 - **S41-A001** — S41-A001 — Le nom Joy Division : House of Dolls, provocation punk et défense salfordienne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif de Peter Hook`.
 - **S41-A012** — S41-A012 — « Sebastian » de Cockney Rebel : révélation pop longue et rituel d’écoute  
@@ -106,22 +123,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A018** — S75-A018 — *An Ideal for Living* : provocation visuelle, jeunesse et impasse critique  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A070** — S75-A070 — « Atmosphere » : fin du pop, voix résignée et cathédrale sonore  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S76-A007** — S76-A007 — King’s School : classe, brutalité masculine et désajustement scolaire  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `critique` ; preuve : `temoignage_retroactif`.
-- **S76-A020** — S76-A020 — Chadderton : vie conjugale ordinaire et rêve encore informel de rock star  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
-- **S76-A031** — S76-A031 — Assistant Disablement Resettlement Officer : travail, handicap et préfiguration de l’épilepsie  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
-- **S76-A040** — S76-A040 — De Warsaw à Joy Division : nom, Warsaw Pakt et Ka-Tzetnik  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `mythe_nomination` ; importance : `critique` ; preuve : `temoignages_et_reconstruction_historique`.
-- **S76-A043** — S76-A043 — Début 1978 : crise de réputation, soupçon nazi et isolement local  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `controverse` ; importance : `critique` ; preuve : `temoignage_direct_et_contexte_historique`.
-- **S76-A068** — S76-A068 — Ian Wood et Curtis : sérieux documentaire contre mythe du chanteur instinctif  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_reception` ; importance : `critique` ; preuve : `temoignage_Ian_Wood_rapporté_par_S76`.
 
 ## 6. Autres atomes utiles
 
@@ -133,6 +134,22 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S15 — De Luca, The Sound and the Fury, 2021 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S26-A016** — S26-A016 — The Jam, Joy Division et deux formes working-class de popular modernism  
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `comparaison_critique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A004** — S29-A004 — Fisher hanté à son tour : quand le concept devient lui-même posthume  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mythe` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S29-A007** — S29-A007 — « Dead Souls » : possession, past lives et hantise non narrative  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A009** — S29-A009 — Mark Fisher et Ian Curtis : dépression, classe et expression politique  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `depression_politique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A011** — S29-A011 — De « The Eternal » à « Decades » : état liminaire entre vie, mort et mémoire collective  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S29-A011** — S29-A011 — S29 comme source de cadrage critique, non preuve directe sur les intentions de Curtis  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A012** — S29-A012 — Risque de romantisation : suicide, dépression et mythologie postmortem  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mythe_prudence` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2** — S29 — Passe v2 — Goddard, hauntology, industrial music, modernism and esotericism  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge`.
+- **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17** — S29 — Passe v2 bis — Goddard, *Heart and Soul*, chapitre 1  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; moyenne pour les faits biographiques rapportés ; à croiser pour P-Orridge, Curtis, Fisher et les citations de paroles`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-025** — S41-025 — Premières paroles : Hook écrit, Curtis transcende  
@@ -269,22 +286,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S47 — West, Joy Division, 1984 ; type : `acteur_critique` ; importance : `non qualifiée` ; preuve : `faible`.
 - **S47-187** — S47-187 — Citation critique : Ian Wood et « deadly accurate »  
   Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-188** — S47-188 — Citation critique : Curtis comme « loser caught in a world only partially understood »  
-  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-191** — S47-191 — Citation critique : Neil Norman et le défi à Dieu  
-  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S68-A008** — S-BROLL-A008 — Origine du nom Joy Division  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A036** — S-BROLL-A036 — Avril 1980 : santé de Ian Curtis et dates annulées  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `santé` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S68-A038** — S-BROLL-A038 — Tournée américaine prévue et mort de Ian Curtis  
-  Source : S68 — Broll, Joy Division, 1988 ; type : `biographie` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S69-A001** — S69-A001 — Étudier Joy Division comme travail de mémoire  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S69-A003** — S69-A003 — Authenticité, Manchester, mort de Curtis  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S69-A006** — S69-A006 — Nostalgie comme humeur, mode et ersatz  
-  Source : S69 — Greig & Strong, But We Remember When We Were Young, 2014 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 
 ## 7. Citations disponibles
 
@@ -302,12 +303,15 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - **S76-Q039** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q006** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q162** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
+- **S29-Q004** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
 - **S75-Q020** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 - CHR-S76-1978-012 — Terry Mason, Peter Hook et deux amis partent environ deux semaines et demie dans le sud de la France et en Espagne. Mason relit rétrospectivement ce voyage comme révélateur de la différence entre leur jeunesse insouciante et la vie plus adulte de Ian Curtis, déjà marié et empêché aussi par son eczéma.
+- CHR-S29-1979-001 — Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.
+- CHR-S29-2017-001 — Dans S29, la mort de Mark Fisher rend la sonic hauntology elle-même hantée et rend délicate la mise en relation Fisher / Curtis.
 - CHR-S75-1977-002 — Performance de Warsaw à l'Electric Circus, associée à « At a Later Date » et à la captation publiée sur *Short Circuit*, avec l'ambiguïté liée au cri sur Rudolf Hess.
 - CHR-S75-1978-003 — Sortie de *An Ideal for Living*, premier EP de Joy Division, objet visuel et sonore litigieux selon Ott.
 - CHR-S76-1966-001 — Ian Curtis et Pete Johnson quittent Hurdsfield pour King’s School, expérience que Johnson décrit comme une rupture sociale et institutionnelle.
@@ -316,12 +320,22 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - PERS-001 — Ian Curtis
 - PERS-S76-041 — Ian Wood
+- PERS-S29-001 — Michael Goddard
+- PERS-S29-002 — Ian Curtis
+- PERS-S29-003 — Genesis P-Orridge
+- PERS-S29-005 — Mark Fisher
+- PERS-S29-012 — Nikolai Gogol
 - PERS-S76-006 — Pete Johnson
 - PERS-S76-029 — Mark Reeder
 - PERS-S75-033 — William S. Burroughs
 
 ## 10. Chansons rattachées
 
+- SONG-S29-001 — Dead Souls
+- SONG-S29-002 — Interzone
+- SONG-S29-003 — Colony
+- SONG-S29-004 — The Eternal
+- SONG-S29-005 — Decades
 - SONG-S75-027 — Atmosphere
 - SONG-S75-028 — Dead Souls
 - Transmission
@@ -335,13 +349,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 ## 11. Concepts récurrents
 
-- Ian Curtis (16)
+- Ian Curtis (17)
 - ian curtis (13)
 - NME (7)
+- suicide (6)
 - isolement (6)
 - Joy Division (6)
 - épilepsie (5)
-- suicide (5)
 - House of Dolls (5)
 - post-punk (5)
 - domesticité (5)
@@ -356,6 +370,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - closer (4)
 - paroles (4)
 - fatigue (3)
+- depression (3)
 - joy division nom (3)
 - goth (3)
 - bruit (3)
@@ -371,6 +386,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - contextualisation sans excuse (2)
 - nom du groupe (2)
 - macclesfield (2)
+- affinité construite (2)
+- Dead Souls (2)
+- possession (2)
+- past lives (2)
+- hypnosis (2)
+- postmortem myth (2)
 - conscience (2)
 - existentialisme (2)
 - j g ballard (2)
@@ -408,13 +429,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - imagerie nazie (2)
 - vulnérabilité (2)
 - solitude (2)
-- silence (2)
-- couple (2)
-- mémoire (2)
-- industrie musicale (2)
-- danse de curtis (2)
-- presse musicale (2)
-- transmission (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -422,23 +436,27 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 - provocation (5)
 - domesticité (5)
+- Ian Curtis (4)
+- Throbbing Gristle (4)
 - An Ideal for Living (3)
+- dépression (3)
+- Dead Souls (3)
+- The Eternal (3)
 - silence (3)
 - House of Dolls (3)
-- Throbbing Gristle (3)
 - Electric Circus (3)
 - réception critique (3)
-- Ian Curtis (3)
 - John Heartfield (2)
 - imagerie nazie (2)
 - Hitler Youth (2)
+- possession (2)
+- Decades (2)
 - Iggy Pop (2)
 - Rudolf Hess (2)
 - Rock Against Racism (2)
 - Short Circuit (2)
 - Plan K (2)
 - Atmosphere (2)
-- Dead Souls (2)
 - histoire (2)
 - Warsaw Pakt (2)
 - Joy Division (2)
@@ -447,7 +465,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - manager (2)
 - pression (2)
 - Terry Mason (2)
-- The Eternal (2)
 - procession (2)
 - fatigue (2)
 - Debbie Curtis (2)
@@ -457,9 +474,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Sartre (1)
 - Hesse (1)
 - Ballard (1)
-- souffrance (1)
-- guerre (1)
-- nazisme (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -479,6 +493,27 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A140 — prolonge → CONCEPT-035
 - S45-A140 — prolonge → CONCEPT-030
 - S45-A140 — nuance → MYTH-002
+- S29-A001 — prolonge → CONCEPT-004
+- S29-A001 — nuance → MYTH-002
+- S29-A004 — nuance → MYTH-002
+- S29-A004 — prépare → MYTH-S29-001
+- S29-A004 — relie → S29-A009
+- S29-A008 — prolonge → CONCEPT-S29-004
+- S29-A008 — relie → S29-A011
+- S29-A008 — prépare → S29-A012
+- S29-A009 — nuance → S29-A002
+- S29-A009 — prolonge → CONCEPT-004
+- S29-A009 — prépare → MYTH-S29-002
+- S29-A010 — prolonge → CONCEPT-S29-002
+- S29-A010 — relie → S29-A008
+- S29-A010 — nuance → MYTH-002
+- S29-A011 — prolonge → MOTIF-006
+- S29-A011 — nuance → MYTH-002
+- S29-A011 — relie → S29-A005
+- S29-A012 — prolonge → CONCEPT-004
+- S29-A012 — nuance → MYTH-002
+- S29-A012 — relie → S29-A004
+- S29-A012 — relie → S29-A005
 - S13-A002 — prolonge → CONCEPT-no-future
 - S13-A002 — prépare → S13-A010
 - S13-A004 — prolonge → S41-A003
@@ -522,27 +557,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S75-A071 — nuance → MYTH-002
 - S75-A010 — nuance → MYTH-curtis_poete_deja_accompli
 - S75-A010 — corrobore → S45
-- S75-A013 — prolonge → S75-A018
-- S75-A013 — nuance → MYTH-nazi_imagery_simple_fascination
-- S75-A016 — prolonge → S75-A013
-- S75-A016 — annonce → S75-A018
-- S75-A017 — nuance → S75-A006
-- S75-A017 — corrobore → MYTH-warsaw_cover_up
-- S75-A017 — prolonge → S75-A018
-- S75-A018 — prolonge → S75-A016
-- S75-A018 — prolonge → S75-A017
-- S75-A018 — nuance → MYTH-fascination_fasciste
-- S75-A034 — prolonge → CONCEPT-006
-- S75-A034 — nuance → MYTH-joy_division_pure_obscurité
-- S75-A056 — nuance → MYTH-003
-- S75-A056 — prolonge → CONCEPT-002
-- S75-A056 — prolonge → CONCEPT-001
-- S74-A022 — nuance → MYTH-002
-- S74-A022 — prolonge → S74-A017
-- S74-A024 — nuance → MYTH-002
-- S74-A024 — prolonge → S74-A017
-- S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
-- S74-A028 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -551,21 +565,25 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Type | Nombre |
 |---|---|
 | analyse | 32 |
+| lecture_chanson | 10 |
 | biographie | 7 |
 | analyse_morceau | 7 |
 | controverse | 6 |
-| lecture_chanson | 6 |
 | non qualifié | 5 |
 | song | 5 |
 | tension_documentaire | 4 |
+| lecture | 4 |
+| concept | 4 |
 | reception | 3 |
 | interpretation | 3 |
 | interpretation_esthetique | 3 |
 | intertextualite | 3 |
 | reception_critique | 3 |
 | citation_repere | 3 |
-| concept | 3 |
 | contexte_biographique | 3 |
+| prudence_temoin | 2 |
+| source_part | 2 |
+| mythe_prudence | 2 |
 | contrepoint | 2 |
 | synthese | 2 |
 | reception_presse | 2 |
@@ -574,13 +592,15 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | citation_clef | 2 |
 | relation_conjugale | 2 |
 | lecture_musicale | 2 |
-| lecture | 2 |
 | temoignage_direct_rapporte | 2 |
 | tension_biographique | 2 |
 | fait | 2 |
 | registre_influences | 1 |
 | scene_soin_amateur | 1 |
 | santé | 1 |
+| mythe | 1 |
+| depression_politique | 1 |
+| prudence_interpretative | 1 |
 | concept_affectif | 1 |
 | concept_performance | 1 |
 | motif_textuel | 1 |
@@ -653,9 +673,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 127 |
-| critique | 45 |
-| majeure | 13 |
+| non qualifiée | 133 |
+| critique | 53 |
+| majeure | 15 |
 | majeur | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -665,6 +685,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
 - S45-A140 [élevé] — Risque de spiritualiser ou de pathologiser ces épisodes ; ils sont surtout des indices de soin amateur.
+- S29-A001 [eleve] — risque de transformer une lecture hauntologique en preuve d’intention ou en biographie psychologique
+- S29-A004 [eleve] — risque de faire de la mort une preuve esthétique ou de produire une symétrie Curtis/Fisher artificielle
+- S29-A008 [moyen] — risque de projeter une intention littéraire trop systématique sur Curtis
+- S29-A009 [eleve] — P-Orridge peut aimanter une narration sensationnaliste et biographiquement faible
+- S29-A010 [eleve] — risque d’expliquer psychologiquement Curtis par l’occultisme ou de citer trop longuement les paroles
+- S29-A011 [eleve] — risque de lire *Closer* exclusivement à rebours de la mort de Curtis
+- S29-A012 [eleve] — risque de transformer la dépression en esthétique ou de faire de l’art une compensation rédemptrice
 - S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
 - S13-A004 [très élevé] — Risque d’essentialiser Curtis, de confondre maladie, danse et rituel, ou de transformer la souffrance en pur motif esthétique.
 - S13-A006 [moyen] — Le motif ne doit pas effacer la dimension verbale très travaillée des textes de Curtis.
@@ -713,13 +740,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A159 [eleve] — titre immédiatement biographisable ; ne pas le transformer en journal intime direct
 - S76-A160 [tres_eleve] — risque majeur de lire ces titres comme annonçant consciemment la fin
 - S76-A161 [tres_eleve] — lecture explicitement postérieure ; très fort risque de faire de « Decades » un message final
-- S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
-- S76-A088 [eleve] — risque de lire grossesse et pression comme causes directes de la crise ultérieure
-- S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études
-- S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
-- S76-A127 [tres_eleve] — risque maximal d’épitaphe rétroactive et de prophétisation de Curtis
-- S76-A128 [tres_eleve] — le titre attire des lectures possessionnelles, morbides ou psychopathologiques
-- S76-A068 [moyen] — scène très suggestive ; ne pas en faire une théorie générale de Curtis comme stratège médiatique
 
 ## 15. Lacunes et prochaines vérifications
 

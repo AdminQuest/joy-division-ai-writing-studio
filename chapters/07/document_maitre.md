@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:59:37"
+generated_at: "2026-05-17T11:41:20"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 97 |
-| Atomes critiques / majeurs | 29 |
-| Citations | 6 |
-| Événements chronologiques | 9 |
-| Personnes | 7 |
-| Chansons | 7 |
-| Sources mobilisées | 12 |
+| Atomes | 118 |
+| Atomes critiques / majeurs | 35 |
+| Citations | 9 |
+| Événements chronologiques | 12 |
+| Personnes | 16 |
+| Chansons | 12 |
+| Sources mobilisées | 13 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 7 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 6 | 0 |
+| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 21 | 3 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
@@ -57,6 +58,26 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_performance` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S13-A005** — S13-A005 — « Transmission » : écouter le silence et danser à la radio  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `chanson_conceptuelle` ; importance : `critique` ; preuve : `analyse critique d’une chanson`.
+- **S29-A001** — S29-A001 — Goddard comme source critique hauntologique, non comme source biographique primaire  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A002** — S29-A002 — Joy Division et industrial music : proximité hauntologique plutôt qu’influence sonore directe  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A003** — S29-A003 — Sonic hauntology : Derrida, Fisher, Reynolds et spectralité de l’enregistrement  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_theorique`.
+- **S29-A005** — S29-A005 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_theorique`.
+- **S29-A008** — S29-A008 — Ruines du modernisme : Ballard, Kafka, Burroughs et Gogol comme voix incorporées  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A009** — S29-A009 — Throbbing Gristle : affinités, occulture et témoin problématique  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `temoignage_rapporté_problématisé`.
+- **S29-A010** — S29-A010 — « Dead Souls » : titre littéraire, possession et passé virtuel  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S29-A013** — S29-A013 — P-Orridge / Curtis : affinité revendiquée, mais témoin instable  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `moyenne`.
+- **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `critique` ; preuve : `forte`.
+- **S29-A020** — S29-A020 — « Dead Souls » : le titre littéraire devient dispositif de hantise, non commentaire de Gogol  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `forte`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
@@ -99,14 +120,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `temoignage_biographique` ; importance : `critique` ; preuve : `temoignage_retroactif`.
 - **S76-A012** — S76-A012 — Ziggy Stardust au Hardrock : Bowie comme choc de scène avant le punk  
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
-- **S76-A027** — S76-A027 — Iggy Pop à l’Apollo : modèle de physicalité scénique  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
-- **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S13-A006** — S13-A006 — « No language, just sound » : de la parole au signal corporel  
-  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `motif_textuel` ; importance : `majeur` ; preuve : `analyse textuelle secondaire`.
 
 ## 6. Autres atomes utiles
 
@@ -126,6 +139,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S13-A001** — S13-A001 — Manchester sous Thatcher : scène apocalyptique et résistance musicale  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `contexte_critique` ; importance : `majeur` ; preuve : `source critique secondaire`.
+- **S13-A006** — S13-A006 — « No language, just sound » : de la parole au signal corporel  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `motif_textuel` ; importance : `majeur` ; preuve : `analyse textuelle secondaire`.
 - **S13-A007** — S13-A007 — Unknown Pleasures : laboratoire sonore, bruit et spatialisation  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `economie_sonore` ; importance : `majeur` ; preuve : `lecture critique ; faits techniques à corroborer`.
 - **S26-A001** — S26-A001 — Post-punk now : retour critique, non simple nostalgie  
@@ -140,6 +155,28 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S26-PART-POSTPUNK-NOW-COMMONS-POPULAR-MODERNISM-V2** — S26 — Passe v2 — Post-punk now, popular modernism, art school commons  
   Source : S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; locuteur, chapitre et statut oral éditorialisé à préciser`.
+- **S29-A002** — S29-A002 — Joy Division et industrial music : proximité hauntologique plutôt que simple influence sonore  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A003** — S29-A003 — Sonic hauntology : Derrida, Fisher, Reynolds et spectralité de l’enregistrement  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept_theorique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A004** — S29-A004 — Cancellation of the future : Joy Division, Berardi et Fisher  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A007** — S29-A007 — « Dead Souls » : possession, past lives et hantise non narrative  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A008** — S29-A008 — Joy Division / Throbbing Gristle : industrial society, esotericism, occult and spiritual wasteland  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S29-A010** — S29-A010 — Hauntological past : persistance, insistance et mémoire spectrale de Joy Division  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `memoire_spectrale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A011** — S29-A011 — De « The Eternal » à « Decades » : état liminaire entre vie, mort et mémoire collective  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S29-A015** — S29-A015 — La spectralité de l’enregistrement : l’archive sonore comme retour des morts  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept_theorique` ; importance : `majeure` ; preuve : `forte`.
+- **S29-A017** — S29-A017 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
+- **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2** — S29 — Passe v2 — Goddard, hauntology, industrial music, modernism and esotericism  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge`.
+- **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17** — S29 — Passe v2 bis — Goddard, *Heart and Soul*, chapitre 1  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; moyenne pour les faits biographiques rapportés ; à croiser pour P-Orridge, Curtis, Fisher et les citations de paroles`.
 - **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-071** — S41-071 — Martin Hannett : première impression de sorcier technique  
@@ -255,6 +292,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - **S76-Q019** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q038** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q002** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S29-Q001** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
+- **S29-Q002** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
+- **S29-Q003** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -264,6 +304,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - CHR-S75-1980-005 — Concert au Rainbow Theatre de Londres ; les stroboscopes déclenchent une crise pendant le set selon Ott.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
+- CHR-S29-1977-001 — Goddard mobilise Berardi et Fisher pour lire 1977 comme seuil d’une sensibilité punk/post-punk où le futur moderniste s’épuise.
+- CHR-S29-1979-001 — Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.
+- CHR-S29-1980-001 — Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.
 - CHR-1979-001 — Publication de A Factory Sample contenant « Digital » et « Glass ».
 - CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
 - CHR-1980-004 — Sortie posthume de l’album Closer.
@@ -275,11 +318,25 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - PERS-012 — John Brierley
 - PERS-016 — Bedhead
 - PERS-S76-010 — David Bowie
+- PERS-S29-001 — Michael Goddard
+- PERS-S29-002 — Ian Curtis
+- PERS-S29-003 — Genesis P-Orridge
+- PERS-S29-004 — Cosey Fanni Tutti
+- PERS-S29-005 — Mark Fisher
+- PERS-S29-006 — Simon Reynolds
+- PERS-S29-007 — Jacques Derrida
+- PERS-S29-008 — Franco Berardi
+- PERS-S29-012 — Nikolai Gogol
 - PERS-S76-030 — John The Postman
 - PERS-S75-035 — Alan Hempsall
 
 ## 10. Chansons rattachées
 
+- SONG-S29-001 — Dead Souls
+- SONG-S29-002 — Interzone
+- SONG-S29-003 — Colony
+- SONG-S29-004 — The Eternal
+- SONG-S29-005 — Decades
 - SONG-S75-026 — Transmission
 - SONG-S75-029 — Love Will Tear Us Apart
 - SONG-S75-031 — Ceremony
@@ -295,11 +352,15 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - unknown pleasures (7)
 - closer (5)
 - prudence historiographique (5)
+- sonic hauntology (4)
 - dub (4)
 - espace sonore (4)
 - peter saville (4)
 - love will tear us apart (4)
 - production (4)
+- industrial music (3)
+- Throbbing Gristle (3)
+- capitalist realism (3)
 - post-punk (3)
 - digital (3)
 - basse (3)
@@ -310,6 +371,17 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - son live (3)
 - Unknown Pleasures (3)
 - batterie (3)
+- cancellation of the future (2)
+- affinité construite (2)
+- postindustrial cityscapes (2)
+- spiritual wasteland (2)
+- no future (2)
+- dyschronia (2)
+- Dead Souls (2)
+- possession (2)
+- past lives (2)
+- hypnosis (2)
+- Ian Curtis (2)
 - electronics (2)
 - funk (2)
 - bernard sumner (2)
@@ -343,81 +415,89 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - Strawberry Studios (2)
 - Stephen Morris (2)
 - studio comme instrument (2)
-- révolution inachevée (1)
-- rupture avec le rock (1)
-- radical content radical form (1)
-- basse mélodique (1)
-- métal (1)
-- black sabbath (1)
-- vitesse et pesanteur (1)
-- première période joy division (1)
-- peter hook (1)
-- stephen morris (1)
-- vide musical (1)
-- kraftwerk (1)
-- low (1)
-- heroes (1)
-- synthpop (1)
-- europe froide (1)
-- industrial music (1)
-- post-industrialisme (1)
-- public image ltd (1)
-- john lydon (1)
-- post-punk fondateur (1)
-- jah wobble (1)
-- mute records (1)
-- daniel miller (1)
-- warm leatherette (1)
-- j g ballard (1)
-- electropunk (1)
+- source critique relationnelle (1)
+- cadre hauntologique (1)
+- convergence industrielle (1)
+- hantise postindustrielle (1)
+- spectralité enregistrée (1)
+- sensibilité sans avenir (1)
+- modernisme incorporé (1)
+- hantise littéraire (1)
+- témoignage instable (1)
+- chanson-dispositif de hantise (1)
+- passé virtuel (1)
+- état liminaire (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
+- possession (3)
 - Transmission (3)
 - silence (3)
+- Throbbing Gristle (2)
 - post-punk (2)
 - radio (2)
 - Hannett (2)
 - électronique (2)
 - objet disque (2)
+- hauntology (1)
+- source critique (1)
+- prudence historiographique (1)
+- industrial music (1)
+- postindustrial cityscapes (1)
+- spiritual wasteland (1)
+- ruines de la modernité (1)
+- spectralité (1)
+- enregistrement (1)
+- archive sonore (1)
+- voix absente (1)
+- no future (1)
+- lost futures (1)
+- dyschronia (1)
+- 1977 (1)
+- modernisme littéraire (1)
+- voix incorporées (1)
+- interzone intérieure (1)
+- Genesis P-Orridge (1)
+- Weeping (1)
+- témoin problématique (1)
+- Dead Souls (1)
+- past lives (1)
+- appel du passé (1)
+- The Eternal (1)
+- Decades (1)
+- seuil (1)
+- mémoire collective (1)
 - Manchester post-industrielle (1)
 - Thatcher’s Britain (1)
 - résistance culturelle (1)
-- punk (1)
-- rave era (1)
-- rage punk (1)
-- malaise post-punk (1)
-- cri acid house (1)
-- acieeeed (1)
-- sound Joy Division (1)
-- transition post-punk / rave (1)
-- acid house (1)
-- French Kiss (1)
-- Summer of Love (1)
-- Ian Curtis performer (1)
-- transe (1)
-- corps convulsif (1)
-- voix baritonale (1)
-- sacrifice scénique (1)
-- danse (1)
-- langage aboli (1)
-- no language just sound (1)
-- synchronisation (1)
-- beat (1)
-- communauté fragile (1)
-- Unknown Pleasures (1)
-- bruit concret (1)
-- delay (1)
-- spatialisation (1)
-- dead fly dance (1)
-- performance live (1)
-- épilepsie (1)
-- corps scénique (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S29-A001 — prolonge → CONCEPT-004
+- S29-A001 — nuance → MYTH-002
+- S29-A002 — nuance → MYTH-003
+- S29-A002 — prépare → CONCEPT-S29-001
+- S29-A002 — relie → S29-A008
+- S29-A003 — prolonge → CONCEPT-S29-002
+- S29-A003 — prolonge → MOTIF-004
+- S29-A003 — prépare → S29-A010
+- S29-A005 — prolonge → CONCEPT-S29-003
+- S29-A005 — nuance → MYTH-002
+- S29-A005 — nuance → MYTH-003
+- S29-A008 — prolonge → CONCEPT-S29-004
+- S29-A008 — relie → S29-A011
+- S29-A008 — prépare → S29-A012
+- S29-A009 — nuance → S29-A002
+- S29-A009 — prolonge → CONCEPT-004
+- S29-A009 — prépare → MYTH-S29-002
+- S29-A010 — prolonge → CONCEPT-S29-002
+- S29-A010 — relie → S29-A008
+- S29-A010 — nuance → MYTH-002
+- S29-A011 — prolonge → MOTIF-006
+- S29-A011 — nuance → MYTH-002
+- S29-A011 — relie → S29-A005
 - S13-A001 — prolonge → S12
 - S13-A001 — prolonge → S20
 - S13-A001 — prépare → S13-A005
@@ -475,29 +555,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A031 — prolonge → S74-A007
 - S74-A031 — complète → S74-A030
 - S74-A031 — annonce → CONCEPT_FACTORY_VISUAL_IDENTITY
-- S74-A032 — prolonge → S74-A001
-- S74-A032 — complète → S74-A031
-- S74-A032 — annonce → S74-A033
-- S74-A033 — nuance → MYTH-004
-- S74-A033 — prolonge → S74-A020
-- S74-A033 — complète → S74-A032
-- S74-A039 — prolonge → S74-A020
-- S74-A039 — complète → S74-A033
-- S74-A039 — nuance → MYTH-004
-- S74-A041 — nuance → MYTH-004
-- S74-A041 — complète → S74-A040
-- S74-A041 — annonce → S74-A042
-- S74-A043 — prolonge → S74-A031
-- S74-A043 — complète → S74-A032
-- S74-A043 — annonce → CONCEPT_UNKNOWN_PLEASURES_ICON
-- S74-A056 — prolonge → S74-A055
-- S74-A056 — nuance → MYTH-006
-- S74-A056 — complète → S74-A043
-- S74-A060 — prolonge → S74-A024
-- S74-A060 — nuance → MYTH-007
-- S74-A060 — complète → S74-A058
-- S74-A020 — nuance → MYTH-004
-- S74-A020 — prolonge → S74-A010
 
 ## 13. Distribution documentaire
 
@@ -506,12 +563,19 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Type | Nombre |
 |---|---|
 | analyse | 19 |
+| source_part | 6 |
 | contrepoint | 6 |
 | production | 6 |
+| concept | 4 |
+| lecture_chanson | 4 |
 | lecture_musicale | 4 |
 | reception | 4 |
 | scene_fondatrice | 4 |
-| source_part | 4 |
+| lecture | 3 |
+| prudence_temoin | 2 |
+| relation_esthetique | 2 |
+| concept_theorique | 2 |
+| temporalite_culturelle | 2 |
 | controverse | 2 |
 | design | 2 |
 | analyse_studio | 2 |
@@ -520,6 +584,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | portrait | 2 |
 | fait | 2 |
 | transition | 2 |
+| relation_inter_sources | 1 |
+| memoire_spectrale | 1 |
 | contexte | 1 |
 | synthese | 1 |
 | contexte_critique | 1 |
@@ -542,7 +608,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | institution | 1 |
 | session | 1 |
 | reception_posthume | 1 |
-| lecture | 1 |
 | temoignage_biographique | 1 |
 | motif_visuel | 1 |
 | acteur_image | 1 |
@@ -550,7 +615,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | reseau_visuel | 1 |
 | discographie | 1 |
 | conflit_esthetique | 1 |
-| concept | 1 |
 | réception_interne | 1 |
 | portrait_technique | 1 |
 | concept_transversal | 1 |
@@ -559,14 +623,22 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 65 |
-| critique | 26 |
+| non qualifiée | 73 |
+| critique | 36 |
+| majeure | 5 |
 | majeur | 3 |
-| majeure | 2 |
 | moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S29-A001 [eleve] — risque de transformer une lecture hauntologique en preuve d’intention ou en biographie psychologique
+- S29-A002 [moyen] — risque d’écrire que Throbbing Gristle influence directement Joy Division sans preuve sonore suffisante
+- S29-A003 [moyen] — risque de confondre spectralité de l’enregistrement, occultisme et simple nostalgie
+- S29-A005 [eleve] — risque de transformer Joy Division en oracle politique ou en anticipation littérale de Thatcher
+- S29-A008 [moyen] — risque de projeter une intention littéraire trop systématique sur Curtis
+- S29-A009 [eleve] — P-Orridge peut aimanter une narration sensationnaliste et biographiquement faible
+- S29-A010 [eleve] — risque d’expliquer psychologiquement Curtis par l’occultisme ou de citer trop longuement les paroles
+- S29-A011 [eleve] — risque de lire *Closer* exclusivement à rebours de la mort de Curtis
 - S13-A001 [élevé] — Risque d’utiliser Tomeo comme source historique directe sur Thatcher, Anderton ou l’ordre public local.
 - S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
 - S13-A003 [très élevé] — Ne jamais écrire que Joy Division invente la rave ou la techno.

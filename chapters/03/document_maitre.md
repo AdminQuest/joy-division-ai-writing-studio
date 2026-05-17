@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-16T20:59:37"
+generated_at: "2026-05-17T11:41:20"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 314 |
+| Atomes | 321 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
-| Événements chronologiques | 18 |
-| Personnes | 19 |
+| Événements chronologiques | 19 |
+| Personnes | 20 |
 | Chansons | 18 |
-| Sources mobilisées | 18 |
+| Sources mobilisées | 19 |
 
 ## 4. Sources mobilisées
 
@@ -41,6 +41,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 5 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 8 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 2 | 0 |
+| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
@@ -55,6 +56,12 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 5. Atomes critiques ou majeurs
 
+- **S29-A001** — S29-A001 — Goddard comme source critique hauntologique, non comme source biographique primaire  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A002** — S29-A002 — Joy Division et industrial music : proximité hauntologique plutôt qu’influence sonore directe  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `critique` ; preuve : `forte`.
 - **S41-A015** — S41-A015 — Acheter une basse : hasard instrumental, Mazel et naissance de Hooky bassiste  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_materielle` ; importance : `critique` ; preuve : `témoignage direct autobiographique`.
 - **S41-A016** — S41-A016 — Apprendre faux : trois doigts, stickers Tippex et style mélodique  
@@ -119,12 +126,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
 - **S41-A155** — S41-A155 — « I Remember Nothing » : jam sans ordre, Transcendent 2000 et atmosphère finale  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct d’interprète + détails studio à croiser`.
-- **S41-A156** — S41-A156 — Timeline Four : 1979 comme année de superposition documentaire  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale + commentaires Hook`.
-- **S41-A160** — S41-A160 — Chronologie *Unknown Pleasures* : session, naissance de Natalie et sortie FACT 10  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale discographique`.
-- **S41-A161** — S41-A161 — De « Chance » à « Atrocity Exhibition » : Piccadilly Radio comme seuil post-album  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `session radio documentée`.
 
 ## 6. Autres atomes utiles
 
@@ -204,6 +205,14 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `concept_scene` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S27-A005** — S27-A005 — Personnel renfort : managers, ingénieurs, disquaires, connecteurs et gatekeepers  
   Source : S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 ; type : `mediations_scene` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A002** — S29-A002 — Joy Division et industrial music : proximité hauntologique plutôt que simple influence sonore  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A008** — S29-A008 — Joy Division / Throbbing Gristle : industrial society, esotericism, occult and spiritual wasteland  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `moyenne`.
+- **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2** — S29 — Passe v2 — Goddard, hauntology, industrial music, modernism and esotericism  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge`.
+- **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17** — S29 — Passe v2 bis — Goddard, *Heart and Soul*, chapitre 1  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; moyenne pour les faits biographiques rapportés ; à croiser pour P-Orridge, Curtis, Fisher et les citations de paroles`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
@@ -280,14 +289,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `personnel_groupe` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A147** — S41-A147 — « Disorder » : erreurs de basse devenues partie du morceau  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
-- **S41-A148** — S41-A148 — « Day of the Lords » : claviers clandestins et justesse différée de Hannett  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A151** — S41-A151 — « New Dawn Fades » : amp Marshall vendu, économie domestique et son perdu  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_materiel` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A153** — S41-A153 — « Shadowplay » et « Wilderness » : structure sans refrain, religion et basse rêvée  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceaux` ; importance : `majeur` ; preuve : `témoignage direct + analyse rétrospective`.
-- **S41-A154** — S41-A154 — « Interzone » : chant Hook, générosité Curtis et survivance RCA  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
 
 ## 7. Citations disponibles
 
@@ -326,6 +327,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - CHR-S76-1979-024 — Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.
 - CHR-S76-1980-002 — Joy Division enregistre aux Pennine Sound Studios une première version de « Love Will Tear Us Apart », avec « These Days » et « The Sound of Music ». La session précède la version canonique ultérieure et documente un état encore insatisfaisant de la chanson.
 - CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
+- CHR-S29-1980-001 — Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.
 - CHR-S75-1978-006 — Sessions RCA de Joy Division à Arrow Studios, produites autour de John Anderson, Bob Auger et Richard Searling.
 - CHR-S75-1978-007 — Enregistrement de « Digital » et « Glass » pour *A Factory Sample* à Cargo Studios avec Martin Hannett.
 - CHR-S75-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
@@ -359,6 +361,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - PERS-004-S75 — Stephen Morris
 - PERS-S76-042 — Jeremy Kerr
 - PERS-S76-069 — Martin Hannett
+- PERS-S29-001 — Michael Goddard
 - PERS-S76-058 — Martin Rushent
 - PERS-S76-073 — Tony Wilson
 
@@ -451,6 +454,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - genetic records (2)
 - strawberry studios (2)
 - dead souls (2)
+- industrial music (2)
+- Throbbing Gristle (2)
+- postindustrial cityscapes (2)
+- spiritual wasteland (2)
 - basse mélodique (2)
 - kraftwerk (2)
 - synthpop (2)
@@ -461,10 +468,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - 18 juillet 1977 (2)
 - Inside the Line (2)
 - The Kill (2)
-- At a Later Date (2)
-- RCA (2)
-- John Anderson (2)
-- FAC 2 (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -534,6 +537,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S45-A078 — prolonge → CONCEPT-006
 - S45-A078 — prolonge → S45-A066
 - S45-A078 — nuance → MYTH-HANNETT-GENIE-ABSOLU
+- S29-A001 — prolonge → CONCEPT-004
+- S29-A001 — nuance → MYTH-002
+- S29-A002 — nuance → MYTH-003
+- S29-A002 — prépare → CONCEPT-S29-001
+- S29-A002 — relie → S29-A008
 - S13-A007 — prolonge → S41-Hannett-Unknown-Pleasures
 - S13-A007 — prolonge → S45-Hannett-catalyseur
 - S13-A007 — prépare → S13-A008
@@ -588,11 +596,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A068 — prolonge → CONCEPT-058
 - S41-A068 — prépare → S41-A069
 - S41-A069 — prolonge → CONCEPT-058
-- S41-A069 — prolonge → REGISTRE-BOOTLEGS
-- S41-A069 — prépare → S41-A071
-- S41-A073 — prolonge → CONCEPT-056
-- S41-A073 — prolonge → S41-A068
-- S41-A078 — prolonge → CONCEPT-063
 
 ## 13. Distribution documentaire
 
@@ -609,9 +612,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | processus_creatif | 9 |
 | fait | 9 |
 | session | 7 |
+| source_part | 7 |
+| concept | 6 |
 | lieu_studio | 5 |
-| source_part | 5 |
-| concept | 5 |
 | session_radio | 4 |
 | discographie | 4 |
 | reception_critique | 4 |
@@ -626,6 +629,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | song_session | 3 |
 | release_or_session | 3 |
 | objet_discographique | 2 |
+| relation_esthetique | 2 |
 | economie_materielle | 2 |
 | chronologie_discographique | 2 |
 | session_enregistrement | 2 |
@@ -650,6 +654,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | concept_scene | 1 |
 | mediations_scene | 1 |
 | concert | 1 |
+| lecture | 1 |
+| relation_inter_sources | 1 |
 | contrepoint | 1 |
 | economie_sonore | 1 |
 | processus_sonore | 1 |
@@ -742,8 +748,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Importance | Nombre |
 |---|---|
-| non qualifiée | 207 |
-| critique | 86 |
+| non qualifiée | 211 |
+| critique | 89 |
 | majeure | 11 |
 | majeur | 10 |
 
@@ -756,6 +762,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
 - S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
+- S29-A001 [eleve] — risque de transformer une lecture hauntologique en preuve d’intention ou en biographie psychologique
+- S29-A002 [moyen] — risque d’écrire que Throbbing Gristle influence directement Joy Division sans preuve sonore suffisante
 - S13-A007 [élevé] — Vérifier chaque détail de bruitage avant utilisation factuelle.
 - S41-A108 [moyen] — Ne pas réduire « Digital » à Kraftwerk ni « Shadowplay » au Velvet Underground ; Hook insiste justement sur la transformation.
 - S41-A109 [élevé] — Risque d’héroïser Curtis comme seul organisateur du groupe ; le passage doit rester relationnel.
@@ -807,8 +815,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A151 [faible] — Atome matériel ; son intérêt est la relation son / pauvreté.
 - S41-A153 [moyen] — Ne pas figer l’interprétation antireligieuse de Wilderness comme seule lecture possible.
 - S41-A004 [faible] — L’atome sert surtout de contre-mythe technique ; ne pas le surcharger.
-- S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
-- S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
 
 ## 15. Lacunes et prochaines vérifications
 
