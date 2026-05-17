@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-17T13:49:06",
+  "generated_at": "2026-05-17T14:49:01",
   "status": "warning",
   "summary": {
-    "records_total": 4231,
+    "records_total": 4241,
     "records_by_kind": {
-      "atom": 1879,
-      "metadata": 81,
+      "atom": 1880,
+      "metadata": 90,
       "unknown": 350,
       "source": 64,
       "concept": 228,
@@ -19,13 +19,13 @@
       "rules": 1,
       "person": 181
     },
-    "diagnostics_total": 19677,
+    "diagnostics_total": 19693,
     "errors": 0,
-    "warnings": 19677,
+    "warnings": 19693,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 30,
-    "sources_exported": 30,
-    "declared_but_unused": 21,
+    "sources_used_in_records": 31,
+    "sources_exported": 31,
+    "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -305,21 +305,6 @@
           "Manchester United",
           "adidas",
           "institutionnalisation"
-        ]
-      },
-      {
-        "source_id": "S40",
-        "source_label": "S40 — Cacciatore, Waiting for Something to Happen, 2019",
-        "auteur": "Fortunato M. Cacciatore",
-        "titre": "…WAITING FOR SOMETHING TO HAPPEN…",
-        "annee": "2019",
-        "statut": "verifie",
-        "usage": [
-          "nostalgie du futur",
-          "temps",
-          "futur perdu",
-          "temporalité suspendue",
-          "hantologie"
         ]
       },
       {
@@ -708,17 +693,39 @@
       },
       {
         "source_id": "S39",
-        "source_label": "S39 — Bauman, Liquid Modernity / La vie liquide, 2000–2006",
+        "source_label": "S39 — Bauman, Liquid Modernity, 2000",
         "auteur": "Zygmunt Bauman",
-        "titre": "Liquid Modernity ; La vie liquide",
-        "annee": "2000–2006",
+        "titre": "Liquid Modernity",
+        "annee": "2000",
+        "records": 10,
+        "atoms": 1,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/concepts/s39_bauman_liquid_modernity_concepts.md",
+          "registers/motifs/s39_bauman_liquid_modernity_motifs.md",
+          "registers/myths/s39_bauman_liquid_modernity_myths.md",
+          "registers/references/s39_bauman_liquid_modernity_source_canonique.md",
+          "registers/specialized/s39_bauman_liquid_modernity_specialized.md",
+          "sources/bauman_liquid_modernity/registers_update_s39_passage_modernite_liquide.md",
+          "sources/bauman_liquid_modernity/relations_stabilisees.md",
+          "sources/bauman_liquid_modernity/source.md",
+          "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md"
+        ]
+      },
+      {
+        "source_id": "S40",
+        "source_label": "S40 — Cacciatore, ...waiting for something to happen..., 2021",
+        "auteur": "Fortunato M. Cacciatore",
+        "titre": "...waiting for something to happen...",
+        "annee": "2021",
         "records": 3,
         "atoms": 0,
         "quotes": 0,
         "chronology": 0,
         "files": [
-          "registers/references/s39_bauman_liquid_modernity_source_canonique.md",
-          "sources/bauman_liquid_modernity/source.md"
+          "registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md",
+          "sources/cacciatore_waiting_for_something_to_happen/source.md"
         ]
       },
       {
@@ -44386,6 +44393,102 @@
       "file": "sources/deborah_curtis/atomisation_01_enfance_mariage_warsaw.md",
       "message": "Missing required field: concepts_derives",
       "record_id": "S45-015"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: titre",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: role_argumentatif",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: niveau_preuve",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: importance",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: risque_surinterpretation",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: motifs",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Missing required field: concepts_derives",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Invalid value for statut: intégré",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
+      "message": "Invalid value for type_unite: source_part",
+      "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
     },
     {
       "level": "warning",

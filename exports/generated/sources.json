@@ -372,17 +372,39 @@
   },
   {
     "source_id": "S39",
-    "source_label": "S39 — Bauman, Liquid Modernity / La vie liquide, 2000–2006",
+    "source_label": "S39 — Bauman, Liquid Modernity, 2000",
     "auteur": "Zygmunt Bauman",
-    "titre": "Liquid Modernity ; La vie liquide",
-    "annee": "2000–2006",
+    "titre": "Liquid Modernity",
+    "annee": "2000",
+    "records": 10,
+    "atoms": 1,
+    "quotes": 0,
+    "chronology": 0,
+    "files": [
+      "registers/concepts/s39_bauman_liquid_modernity_concepts.md",
+      "registers/motifs/s39_bauman_liquid_modernity_motifs.md",
+      "registers/myths/s39_bauman_liquid_modernity_myths.md",
+      "registers/references/s39_bauman_liquid_modernity_source_canonique.md",
+      "registers/specialized/s39_bauman_liquid_modernity_specialized.md",
+      "sources/bauman_liquid_modernity/registers_update_s39_passage_modernite_liquide.md",
+      "sources/bauman_liquid_modernity/relations_stabilisees.md",
+      "sources/bauman_liquid_modernity/source.md",
+      "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md"
+    ]
+  },
+  {
+    "source_id": "S40",
+    "source_label": "S40 — Cacciatore, ...waiting for something to happen..., 2021",
+    "auteur": "Fortunato M. Cacciatore",
+    "titre": "...waiting for something to happen...",
+    "annee": "2021",
     "records": 3,
     "atoms": 0,
     "quotes": 0,
     "chronology": 0,
     "files": [
-      "registers/references/s39_bauman_liquid_modernity_source_canonique.md",
-      "sources/bauman_liquid_modernity/source.md"
+      "registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md",
+      "sources/cacciatore_waiting_for_something_to_happen/source.md"
     ]
   },
   {
