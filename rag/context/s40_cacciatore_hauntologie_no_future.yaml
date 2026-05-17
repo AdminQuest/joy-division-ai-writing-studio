@@ -1,0 +1,61 @@
+source_id: S40
+source_label: "S40 — Cacciatore, ...waiting for something to happen..., 2021"
+source_type: "article de volume collectif / essai philosophico-esthetique"
+workflow: "RAG context"
+date_integration: "2026-05-17"
+passage_atomise: "Passage final sur le past inside the present, les spectres, le no future, la lente cancellazione del futuro, l'attente sans horizon stable et Joy Division comme objet spectral."
+statut_citationnel: "citations minimales ; pagination a verifier avant usage manuscrit"
+usage_principal:
+  - "hauntologie de reception"
+  - "past inside the present"
+  - "spectres"
+  - "no future"
+  - "futur perdu"
+  - "attente sans horizon stable"
+  - "lente cancellazione del futuro"
+  - "survivance posthume de Joy Division"
+chapitres:
+  principaux:
+    - "Chapitre 11"
+    - "Chapitre 14"
+  garde_fou:
+    - "Chapitre 1"
+  secondaires:
+    - "Chapitre 3"
+    - "Chapitre 13"
+atomes:
+  - S40-A001
+  - S40-A002
+  - S40-A003
+  - S40-A004
+  - S40-A005
+  - S40-A006
+  - S40-A007
+  - S40-A008
+relations:
+  - REL-S40-001
+  - REL-S40-002
+  - REL-S40-003
+  - REL-S40-004
+  - REL-S40-005
+  - REL-S40-006
+  - REL-S40-007
+  - REL-S40-008
+  - REL-S40-009
+fichiers:
+  source_part: "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md"
+  atomes: "sources/cacciatore_waiting_for_something_to_happen/atoms_s40_hauntologie_no_future_v2.json"
+  relations: "sources/cacciatore_waiting_for_something_to_happen/relations_stabilisees.md"
+  registres_update: "sources/cacciatore_waiting_for_something_to_happen/registers_update_s40_hauntologie_no_future.md"
+  concepts: "registers/concepts/s40_cacciatore_hauntologie_no_future_concepts.md"
+  motifs: "registers/motifs/s40_cacciatore_hauntologie_no_future_motifs.md"
+  mythes: "registers/myths/s40_cacciatore_hauntologie_no_future_myths.md"
+  specialises: "registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md"
+  rag_fragments: "rag/fragments/s40_cacciatore_hauntologie_no_future.jsonl"
+garde_fous:
+  - "Ne pas utiliser S40 comme source primaire historique."
+  - "Ne pas faire de Joy Division un annonciateur direct de Fisher, Derrida ou Bifo."
+  - "Ne pas transformer l'hauntologie en cle totale."
+  - "Ne pas attribuer la theorie du no future au groupe."
+  - "Verifier la pagination avant toute citation directe."
+  - "Distinguer S40 de S29 : S29 pour l'hauntologie industrielle, S40 pour la reception temporelle et spectrale."
