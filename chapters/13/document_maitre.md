@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T15:03:39"
+generated_at: "2026-05-17T15:14:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 77 |
+| Atomes | 78 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 24 |
 | Événements chronologiques | 12 |
@@ -34,7 +34,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 1 | 0 |
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 2 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 10 | 5 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
@@ -46,6 +46,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 ## 5. Atomes critiques ou majeurs
 
+- **S13-DM-A001** — S13-DM-A001 — Interzone, post-punk et rave era : atome-pont pour documents maîtres  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `atome_pont_document_maitre` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S34-A001** — S34-A001 — S34 comme source critique urbaine, non comme source biographique  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S34-A004** — S34-A004 — Urbanization of consciousness : Simmel, Harvey et la perception métropolitaine  
@@ -114,8 +116,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
 
 ## 6. Autres atomes utiles
 
@@ -167,6 +167,8 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A043** — S72-A043 — The Fall : Manchester par irritation, répétition et anti-lyrisme  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A057** — S74-A057 — Beach Club : lieu de transition entre post-punk sombre et second glam age  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu_transition` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A028** — S75-A028 — Granada TV et l’image industrielle comme mauvais miroir  
@@ -340,6 +342,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - the fall (1)
 - mark e smith (1)
 - anti-lyrisme (1)
+- survivance corporelle (1)
+- filiation oblique (1)
+- seuil sonore (1)
+- transition post-punk / club culture (1)
 - contre-culture comme réponse urbaine (1)
 - scène apocalyptique (1)
 - transition post-punk / rave (1)
@@ -364,10 +370,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Russell Club (1)
 - Moss Side (1)
 - West Indian cultural centre (1)
-- Rob Gretton (1)
-- nord-ouest (1)
-- stratégie territoriale (1)
-- rue de Manchester (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -377,6 +379,10 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Kevin Cummins (4)
 - T. J. Davidson’s (3)
 - Factory Club (3)
+- Interzone (2)
+- danse (2)
+- rave era (2)
+- Haçienda (2)
 - Little Peter Street (2)
 - Love Will Tear Us Apart video (2)
 - Jamaïque (2)
@@ -395,27 +401,27 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Roxy Room (2)
 - Mark Reeder (2)
 - Manchester City (2)
+- transe (1)
+- transmission (1)
+- acid house (1)
 - Manchester post-industrielle (1)
 - Thatcher’s Britain (1)
 - résistance culturelle (1)
 - punk (1)
 - post-punk (1)
-- rave era (1)
 - famous photographs (1)
 - froid (1)
 - Britannia Row (1)
 - Pink Floyd (1)
 - Star Wars (1)
 - airless (1)
-- night work (1)
-- Closer (1)
-- blue Transit (1)
-- Yorkshire Ripper (1)
-- red-light districts (1)
-- Leeds (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S13-DM-A001 — synthese → sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md
+- S13-DM-A001 — prolonge → S13-A003
+- S13-DM-A001 — prolonge → S13-A004
+- S13-DM-A001 — prolonge → S13-A010
 - S13-A001 — prolonge → S12
 - S13-A001 — prolonge → S20
 - S13-A001 — prépare → S13-A005
@@ -492,10 +498,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S34-A007 — prolonge → S34-A004
 - S34-A007 — relie → S13
 - S34-A008 — prolonge → CONCEPT-006
-- S34-A008 — nuance → MYTH-004
-- S34-A009 — prolonge → S13
-- S34-A009 — prépare → S34-A012
-- S34-A010 — prolonge → CONCEPT-S34-002
 
 ## 13. Distribution documentaire
 
@@ -512,6 +514,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | contrepoint | 2 |
 | contexte_social | 2 |
 | lieu_scene | 2 |
+| atome_pont_document_maitre | 1 |
 | contexte_critique | 1 |
 | lieu_structurant | 1 |
 | lieu_studio | 1 |
@@ -559,13 +562,14 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 26 |
+| critique | 27 |
 | non qualifiée | 24 |
 | majeure | 24 |
 | majeur | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S13-DM-A001 [très élevé] — Ne pas écrire que Joy Division cause la rave, la house ou l’Haçienda.
 - S13-A001 [élevé] — Risque d’utiliser Tomeo comme source historique directe sur Thatcher, Anderton ou l’ordre public local.
 - S41-A053 [moyen] — Ne pas transformer le lieu en cause esthétique directe ; il agit comme environnement de répétition et de mémoire.
 - S41-A182 [moyen] — Ne pas transformer le studio en cause unique du son ; Hannett, groupe et compositions restent déterminants.

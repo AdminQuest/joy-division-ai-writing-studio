@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T15:03:39"
+generated_at: "2026-05-17T15:14:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 856 |
+| Atomes | 870 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 98 |
 | Événements chronologiques | 62 |
 | Personnes | 81 |
 | Chansons | 11 |
-| Sources mobilisées | 28 |
+| Sources mobilisées | 30 |
 
 ## 4. Sources mobilisées
 
@@ -41,7 +41,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 7 | 0 |
 | S11 | S11 — HM Treasury, Financial Statement and Budget Report 1987-88, 1987 | 1 | 0 |
 | S12 | S12 — Dossier de presse, AIDS / Anderton, 13 décembre 1986 | 2 | 0 |
-| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 6 | 0 |
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 7 | 0 |
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 9 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S20 | S20 — Dodge, Mapping Manchester’s housing problems, Manchester Geographies, s.d. | 1 | 0 |
@@ -50,6 +50,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 4 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 18 | 5 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 5 | 1 |
+| S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
+| S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
@@ -71,6 +73,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S13-A008** — S13-A008 — Haçienda : du deuil de Curtis à la scène acid house  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `lieu_institution` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S13-DM-A001** — S13-DM-A001 — Interzone, post-punk et rave era : atome-pont pour documents maîtres  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `atome_pont_document_maitre` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S29-A013** — S29-A013 — P-Orridge / Curtis : affinité revendiquée, mais témoin instable  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `moyenne`.
 - **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
@@ -85,6 +89,22 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `archive` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_visuelle`.
 - **S34-A011** — S34-A011 — Manchester comme matrice critique à nuancer par Crosthwaite et Goddard  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `controverse` ; importance : `critique` ; preuve : `prudence_methodologique`.
+- **S39-A001** — S39-A001 — Bauman comme source théorique, non comme source Joy Division  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire théorique`.
+- **S39-A002** — S39-A002 — Modernité liquide : dissolution des cadres stables  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `concept_structurant` ; importance : `critique` ; preuve : `source secondaire théorique`.
+- **S39-A005** — S39-A005 — Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle méthodologique issue du statut de la source`.
+- **S39-A007** — S39-A007 — Permanence paradoxale : un groupe fixe dans une modernité instable  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `concept_reception` ; importance : `critique` ; preuve : `interprétation rétrospective appuyée sur un cadre théorique`.
+- **S40-A001** — S40-A001 — S40 comme article philosophico-esthétique, non source primaire  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire critique`.
+- **S40-A003** — S40-A003 — No future et capitalisme globalisé : du cri punk à l’impossibilité contemporaine  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `source secondaire critique`.
+- **S40-A006** — S40-A006 — Joy Division et les spectres : corpus clos, présence persistante  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `lecture_reception` ; importance : `critique` ; preuve : `source secondaire critique`.
+- **S40-A008** — S40-A008 — Garde-fou : l’hauntologie ne doit pas devenir une téléologie Joy Division  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage historiographique`.
 - **S41-A005** — S41-A005 — Les mates de Salford : public intime, violence ordinaire et honte du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_sociale_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A006** — S41-A006 — Premier concert Joy Division : naissance publique dans l’échec  
@@ -117,24 +137,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_collective` ; importance : `critique` ; preuve : `témoignage direct + réception critique rapportée`.
 - **S41-A067** — S41-A067 — Curtis contre Wilson : colère télévisuelle et reconnaissance différée  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_reception` ; importance : `critique` ; preuve : `témoignage Hook + propos Wilson rapportés + S45 à croiser`.
-- **S41-A074** — S41-A074 — Factory au Russell Club : entrée de Joy Division dans l’orbite Wilson/Saville/Erasmus  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_factory` ; importance : `critique` ; preuve : `synthèse Hook + appareil factuel`.
-- **S41-A077** — S41-A077 — Granada Reports / « Shadowplay » : télévision locale, Salford mal attribué et image naissante  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + archive télévisuelle existante`.
-- **S41-A087** — S41-A087 — Brunel : crachats, basse comme arme et fin anticipée du set  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `critique` ; preuve : `témoignage direct`.
-- **S41-A090** — S41-A090 — Hope & Anchor : premier Londres comme cave froide, déficit et désillusion  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_echec` ; importance : `critique` ; preuve : `témoignage direct + review rapportée`.
-- **S41-A099** — S41-A099 — Granada Reports : montage World in Action et naissance du geste scénique de Curtis  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage Hook sur archive audiovisuelle`.
-- **S41-A100** — S41-A100 — Rock Against Racism et Cabaret Voltaire : correction politique et montée Factory  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_politique_factory` ; importance : `critique` ; preuve : `chronologie éditoriale + citation Hook`.
-- **S41-A101** — S41-A101 — Brunel et Bristol dans la timeline : la violence de tournée vérifiée par témoins externes  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `citations témoins externes rapportées par Hook`.
-- **S41-A103** — S41-A103 — Hope & Anchor dans la timeline : anti-consécration londonienne confirmée par review  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `review rapportée + chronologie`.
-- **S41-A107** — S41-A107 — John Peel Session : validation radiophonique et prestige supérieur au chart placing  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_radio` ; importance : `critique` ; preuve : `témoignage direct + fait radiophonique établi`.
 
 ## 6. Autres atomes utiles
 
@@ -513,6 +515,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Peel Sessions (5)
 - Birmingham University (5)
 - culte (5)
+- réception posthume (4)
 - sonic hauntology (4)
 - fanzine (4)
 - paul morley (4)
@@ -523,7 +526,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - historiographie (4)
 - réalité (4)
 - Temptation (4)
-- Everything's Gone Green (4)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -543,6 +545,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Electric Circus (6)
 - Kevin Cummins (6)
 - Love Will Tear Us Apart (5)
+- Haçienda (5)
 - New Order (5)
 - Still (5)
 - Durutti Column (5)
@@ -556,7 +559,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Sounds (4)
 - Strawberry Studios (4)
 - NME (4)
-- Haçienda (4)
 - radio (4)
 - Ceremony (4)
 - Decades (4)
@@ -624,6 +626,17 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A153 — prolonge → S45-A151
 - S45-A153 — nuance → MYTH-002
 - S45-A153 — prépare → CHAPITRE-13-MY-TIMING
+- S40-A001 — garde_fou → REL-S40-001
+- S40-A002 — prolonge → REL-S40-002
+- S40-A003 — prolonge → REL-S40-003
+- S40-A004 — nuance → REL-S40-007
+- S40-A006 — prolonge → REL-S40-005
+- S40-A007 — garde_fou → REL-S40-006
+- S40-A008 — garde_fou → REL-S40-007
+- S13-DM-A001 — synthese → sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md
+- S13-DM-A001 — prolonge → S13-A003
+- S13-DM-A001 — prolonge → S13-A004
+- S13-DM-A001 — prolonge → S13-A010
 - S13-A001 — prolonge → S12
 - S13-A001 — prolonge → S20
 - S13-A001 — prépare → S13-A005
@@ -641,17 +654,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S13-A010 — prolonge → S13-A002
 - S13-A010 — prolonge → MYTH-rave-utopie
 - S13-A010 — nuance → S13-A003
-- S41-A107 — prolonge → S41-A079
-- S41-A107 — prolonge → CONCEPT-075
-- S41-A047 — prolonge → S41-A046
-- S41-A047 — prolonge → S41-A040
-- S41-A047 — alimente → REGISTRE-BOOTLEGS
-- S41-A049 — prolonge → S41-A001
-- S41-A049 — prolonge → REGISTRE-BOOTLEGS
-- S41-A053 — prolonge → S41-A052
-- S41-A053 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
-- S41-A053 — prolonge → S45-A144
-- S41-A025 — prolonge → CONCEPT-050
 
 ## 13. Distribution documentaire
 
@@ -663,6 +665,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception | 30 |
 | non qualifié | 27 |
 | memoire | 14 |
+| prudence_methodologique | 13 |
 | reception_live | 12 |
 | objet_discographique | 12 |
 | discographie | 11 |
@@ -670,11 +673,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | archive | 10 |
 | reception_poll | 10 |
 | reception_critique | 9 |
-| prudence_methodologique | 9 |
 | production | 8 |
 | contrepoint | 8 |
 | scene_fondatrice | 8 |
 | lecture | 8 |
+| concept_structurant | 7 |
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
@@ -690,7 +693,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | citation_repere | 5 |
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
-| concept_structurant | 4 |
 | management | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
@@ -706,6 +708,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | lecture_chanson | 4 |
 | concert_europeen | 4 |
 | reception_presse | 3 |
+| concept_critique | 3 |
 | temporalite_culturelle | 3 |
 | relation_inter_sources | 3 |
 | mythe_prudence | 3 |
@@ -733,6 +736,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | song | 3 |
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
+| lecture_reception | 2 |
 | critique_methodologique | 2 |
 | concept_theorique | 2 |
 | critique_historiographique | 2 |
@@ -755,7 +759,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | changement_nom | 2 |
 | objet_merchandising | 2 |
 | dispositif_formel | 2 |
-| concept_critique | 2 |
 | conclusion_methodologique | 2 |
 | paratexte_discographique | 2 |
 | réception | 2 |
@@ -792,6 +795,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | tension_management_sante | 1 |
 | scene_domestique_finale | 1 |
 | tension_finale | 1 |
+| prudence_conceptuelle | 1 |
 | compte_rendu_critique | 1 |
 | prudence_documentaire | 1 |
 | depression_politique | 1 |
@@ -799,6 +803,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | prudence_interpretative | 1 |
 | prudence_temoin | 1 |
 | relation_esthetique | 1 |
+| atome_pont_document_maitre | 1 |
 | contexte_critique | 1 |
 | concept_affectif | 1 |
 | transition_groupe | 1 |
@@ -898,6 +903,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | prudence_historiographique | 1 |
 | mémoire_collective | 1 |
 | archive_vivante | 1 |
+| motif_majeur | 1 |
+| concept_reception | 1 |
 | videographie | 1 |
 | bibliographie | 1 |
 | performance | 1 |
@@ -1096,8 +1103,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 228 |
-| majeure | 44 |
+| critique | 237 |
+| majeure | 49 |
 | majeur | 28 |
 | structurante | 2 |
 | moyenne | 2 |
@@ -1123,6 +1130,14 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
 - S45-A152 [moyen] — Risque de fétichiser la dernière photographie ; elle doit rester un document affectif et domestique.
 - S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
+- S40-A001 [élevé] — Risque de convertir S40 en clé totale ou en preuve historique.
+- S40-A002 [moyen] — Ne pas confondre survivance spectrale et influence documentée.
+- S40-A003 [moyen] — Éviter de faire du punk ou de Joy Division une théorie constituée du capitalisme globalisé.
+- S40-A004 [élevé] — La disparition du futur ne doit pas devenir une formule automatique.
+- S40-A006 [moyen] — Ne pas confondre spectre et fait d’influence directe.
+- S40-A007 [élevé] — Risque d’attribuer le futur perdu directement à Curtis ou au groupe.
+- S40-A008 [très élevé] — L’hauntologie devient dangereuse si elle fonctionne comme clé totale.
+- S13-DM-A001 [très élevé] — Ne pas écrire que Joy Division cause la rave, la house ou l’Haçienda.
 - S13-A001 [élevé] — Risque d’utiliser Tomeo comme source historique directe sur Thatcher, Anderton ou l’ordre public local.
 - S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
 - S13-A003 [très élevé] — Ne jamais écrire que Joy Division invente la rave ou la techno.
@@ -1156,14 +1171,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A205 [très élevé] — Risque de relire l’euphorie comme masque évident ; Hook maintient l’incertitude.
 - S41-A207 [moyen] — Ne pas interpréter l’absence de cris comme absence d’affect ; Hook parle de sidération.
 - S41-A208 [élevé] — Ne pas faire de Rob un prophète froid ; la phrase s’inscrit dans une scène de sidération.
-- S41-A209 [moyen] — Ne pas présenter cette reprise comme froideur ; elle relève de la survie et du travail.
-- S41-A210 [très élevé] — Ne pas convertir la culpabilité en aveu causal ; elle relève de l’après-coup.
-- S41-A094 [faible] — Risque limité ; l’atome sert à éviter la téléologie Factory Records.
-- S41-A096 [faible à moyen] — Ne pas transformer les anecdotes en jugement global sur les groupes.
-- S41-A099 [élevé] — Hook reste spéculatif sur la danse de Curtis.
-- S41-A100 [moyen] — RAR est un élément de nuance, non une absolution totale.
-- S41-A101 [moyen] — Ne pas confondre citation de fan et preuve exhaustive.
-- S41-A102 [moyen] — La review formule une possibilité, non une consécration.
 
 ## 15. Lacunes et prochaines vérifications
 

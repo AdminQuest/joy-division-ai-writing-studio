@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T15:03:39"
+generated_at: "2026-05-17T15:14:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 112 |
+| Atomes | 113 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 13 |
@@ -36,7 +36,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 |---|---|---|---|
 | S09 | S09 — Cummins, Joy Division, 2010 | 5 | 0 |
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
-| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 7 | 0 |
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 8 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 6 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 13 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 2 | 0 |
@@ -59,6 +59,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_performance` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S13-A005** — S13-A005 — « Transmission » : écouter le silence et danser à la radio  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `chanson_conceptuelle` ; importance : `critique` ; preuve : `analyse critique d’une chanson`.
+- **S13-DM-A001** — S13-DM-A001 — Interzone, post-punk et rave era : atome-pont pour documents maîtres  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `atome_pont_document_maitre` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S29-A013** — S29-A013 — P-Orridge / Curtis : affinité revendiquée, mais témoin instable  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `moyenne`.
 - **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
@@ -119,8 +121,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -278,6 +278,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S74-A007** — S74-A007 — Wilson, les pochettes de disques et l’esthétique matérielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `moyenne` ; preuve : `plausible`.
+- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
+  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 7. Citations disponibles
 
@@ -389,6 +391,9 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - anti-rock (2)
 - sheffield (2)
 - minimalisme (2)
+- survivance corporelle (2)
+- filiation oblique (2)
+- seuil sonore (2)
 - froideur (2)
 - distance (2)
 - Digital (2)
@@ -424,38 +429,38 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - haunting (1)
 - esotericism (1)
 - occult (1)
-- Temple of Psychic Youth (1)
-- industrial society (1)
-- hauntological past (1)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
 - Transmission (4)
+- danse (3)
 - radio (3)
 - silence (3)
+- Interzone (2)
+- transe (2)
+- acid house (2)
+- rave era (2)
 - post-punk (2)
-- danse (2)
 - Hannett (2)
 - électronique (2)
 - objet disque (2)
+- transmission (1)
+- Haçienda (1)
 - Manchester post-industrielle (1)
 - Thatcher’s Britain (1)
 - résistance culturelle (1)
 - punk (1)
-- rave era (1)
 - rage punk (1)
 - malaise post-punk (1)
 - cri acid house (1)
 - acieeeed (1)
 - sound Joy Division (1)
 - transition post-punk / rave (1)
-- acid house (1)
 - French Kiss (1)
 - Summer of Love (1)
 - Ian Curtis performer (1)
-- transe (1)
 - corps convulsif (1)
 - voix baritonale (1)
 - sacrifice scénique (1)
@@ -469,12 +474,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - delay (1)
 - spatialisation (1)
 - dead fly dance (1)
-- performance live (1)
-- épilepsie (1)
-- corps scénique (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
+- S13-DM-A001 — synthese → sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md
+- S13-DM-A001 — prolonge → S13-A003
+- S13-DM-A001 — prolonge → S13-A004
+- S13-DM-A001 — prolonge → S13-A010
 - S13-A001 — prolonge → S12
 - S13-A001 — prolonge → S20
 - S13-A001 — prépare → S13-A005
@@ -551,10 +557,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A056 — nuance → MYTH-006
 - S74-A056 — complète → S74-A043
 - S74-A060 — prolonge → S74-A024
-- S74-A060 — nuance → MYTH-007
-- S74-A060 — complète → S74-A058
-- S74-A020 — nuance → MYTH-004
-- S74-A020 — prolonge → S74-A010
 
 ## 13. Distribution documentaire
 
@@ -587,6 +589,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | prudence_temoin | 1 |
 | contexte | 1 |
 | synthese | 1 |
+| atome_pont_document_maitre | 1 |
 | contexte_critique | 1 |
 | concept_affectif | 1 |
 | tension_documentaire | 1 |
@@ -624,13 +627,14 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 73 |
-| critique | 30 |
+| critique | 31 |
 | majeure | 5 |
 | majeur | 3 |
 | moyenne | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
+- S13-DM-A001 [très élevé] — Ne pas écrire que Joy Division cause la rave, la house ou l’Haçienda.
 - S13-A001 [élevé] — Risque d’utiliser Tomeo comme source historique directe sur Thatcher, Anderton ou l’ordre public local.
 - S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
 - S13-A003 [très élevé] — Ne jamais écrire que Joy Division invente la rave ou la techno.

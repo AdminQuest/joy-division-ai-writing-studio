@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T15:03:39"
+generated_at: "2026-05-17T15:14:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,22 +22,24 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 199 |
+| Atomes | 212 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 16 |
 | Événements chronologiques | 7 |
 | Personnes | 10 |
 | Chansons | 15 |
-| Sources mobilisées | 16 |
+| Sources mobilisées | 18 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
-| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 3 | 0 |
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 4 | 0 |
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 2 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 9 | 1 |
+| S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
+| S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
@@ -57,12 +59,30 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_affectif` ; importance : `critique` ; preuve : `proposition critique`.
 - **S13-A004** — S13-A004 — Curtis sciamane moderne : voix, corps, transe et sacrifice scénique  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `concept_performance` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S13-DM-A001** — S13-DM-A001 — Interzone, post-punk et rave era : atome-pont pour documents maîtres  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `atome_pont_document_maitre` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S29-A013** — S29-A013 — P-Orridge / Curtis : affinité revendiquée, mais témoin instable  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `moyenne`.
 - **S29-A016** — S29-A016 — Fisher hanté à son tour : quand le concept devient lui-même posthume  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mythe_prudence` ; importance : `critique` ; preuve : `forte`.
 - **S29-A020** — S29-A020 — « Dead Souls » : le titre littéraire devient dispositif de hantise, non commentaire de Gogol  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S39-A001** — S39-A001 — Bauman comme source théorique, non comme source Joy Division  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire théorique`.
+- **S39-A002** — S39-A002 — Modernité liquide : dissolution des cadres stables  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `concept_structurant` ; importance : `critique` ; preuve : `source secondaire théorique`.
+- **S39-A005** — S39-A005 — Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle méthodologique issue du statut de la source`.
+- **S39-A007** — S39-A007 — Permanence paradoxale : un groupe fixe dans une modernité instable  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `concept_reception` ; importance : `critique` ; preuve : `interprétation rétrospective appuyée sur un cadre théorique`.
+- **S40-A001** — S40-A001 — S40 comme article philosophico-esthétique, non source primaire  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire critique`.
+- **S40-A003** — S40-A003 — No future et capitalisme globalisé : du cri punk à l’impossibilité contemporaine  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `source secondaire critique`.
+- **S40-A005** — S40-A005 — L’attente sans horizon stable : structure temporelle du titre  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `motif_majeur` ; importance : `critique` ; preuve : `lecture critique du passage`.
+- **S40-A008** — S40-A008 — Garde-fou : l’hauntologie ne doit pas devenir une téléologie Joy Division  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage historiographique`.
 - **S41-A001** — S41-A001 — Le nom Joy Division : House of Dolls, provocation punk et défense salfordienne  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `témoignage direct rétrospectif de Peter Hook`.
 - **S41-A012** — S41-A012 — « Sebastian » de Cockney Rebel : révélation pop longue et rituel d’écoute  
@@ -105,24 +125,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_direct_rapporte` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A056** — S74-A056 — Closer et Love Will Tear Us Apart : beauté posthume, design funéraire et campagne américaine absurde  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A013** — S75-A013 — Throbbing Gristle, shock art et postwar nihilism dans l'imaginaire de Curtis  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `influence` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A016** — S75-A016 — Electric Circus, « At a Later Date » et l'ambiguïté Hess  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A017** — S75-A017 — Warsaw devient Joy Division : nécessité nominale et charge éthique du nouveau nom  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A018** — S75-A018 — *An Ideal for Living* : provocation visuelle, jeunesse et impasse critique  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A034** — S75-A034 — « Transmission » et la communication comme discipline populaire  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S75-A070** — S75-A070 — « Atmosphere » : fin du pop, voix résignée et cathédrale sonore  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S76-A007** — S76-A007 — King’s School : classe, brutalité masculine et désajustement scolaire  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `critique` ; preuve : `temoignage_retroactif`.
-- **S76-A020** — S76-A020 — Chadderton : vie conjugale ordinaire et rêve encore informel de rock star  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_de_transition` ; importance : `critique` ; preuve : `reconstruction_biographique`.
-- **S76-A031** — S76-A031 — Assistant Disablement Resettlement Officer : travail, handicap et préfiguration de l’épilepsie  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
 
 ## 6. Autres atomes utiles
 
@@ -146,6 +148,14 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge`.
 - **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17** — S29 — Passe v2 bis — Goddard, *Heart and Soul*, chapitre 1  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; moyenne pour les faits biographiques rapportés ; à croiser pour P-Orridge, Curtis, Fisher et les citations de paroles`.
+- **S39-A003** — S39-A003 — Mobilité, flexibilité et individualisation de l’incertitude  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `concept_structurant` ; importance : `majeure` ; preuve : `source secondaire théorique`.
+- **S39-A004** — S39-A004 — Fragilité des liens sociaux et précarité des appartenances  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `motif_majeur` ; importance : `majeure` ; preuve : `source secondaire théorique`.
+- **S40-A004** — S40-A004 — La lente cancellazione del futuro : diagnostic et risque de clôture  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `concept_critique` ; importance : `majeure` ; preuve : `source secondaire critique`.
+- **S40-A007** — S40-A007 — Futur perdu : outil de réception, non preuve historique  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_conceptuelle` ; importance : `majeure` ; preuve : `garde-fou méthodologique`.
 - **S41-003** — S41-003 — Origine du nom Joy Division et référence à *House of Dolls*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-025** — S41-025 — Premières paroles : Hook écrit, Curtis transcende  
@@ -278,14 +288,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S47 — West, Joy Division, 1984 ; type : `interpretation_esthetique` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S47-128** — S47-128 — *Low* de Bowie comme objet de généalogie indirecte  
   Source : S47 — West, Joy Division, 1984 ; type : `genealogie_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S47-178** — S47-178 — Neil Norman : la dimension quasi prométhéenne de Joy Division  
-  Source : S47 — West, Joy Division, 1984 ; type : `acteur_critique` ; importance : `non qualifiée` ; preuve : `faible`.
-- **S47-187** — S47-187 — Citation critique : Ian Wood et « deadly accurate »  
-  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-188** — S47-188 — Citation critique : Curtis comme « loser caught in a world only partially understood »  
-  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `moyenne`.
-- **S47-191** — S47-191 — Citation critique : Neil Norman et le défi à Dieu  
-  Source : S47 — West, Joy Division, 1984 ; type : `citation_repere` ; importance : `non qualifiée` ; preuve : `faible`.
 
 ## 7. Citations disponibles
 
@@ -384,6 +386,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - fragmentation (3)
 - communication (3)
 - contextualisation sans excuse (2)
+- hauntologie (2)
+- réception posthume (2)
 - nom du groupe (2)
 - macclesfield (2)
 - Dead Souls (2)
@@ -427,8 +431,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - réalité (2)
 - imagerie nazie (2)
 - vulnérabilité (2)
-- solitude (2)
-- silence (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -437,6 +439,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - provocation (5)
 - domesticité (5)
 - An Ideal for Living (3)
+- prudence anti-anachronique (3)
 - silence (3)
 - House of Dolls (3)
 - Throbbing Gristle (3)
@@ -446,6 +449,9 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - John Heartfield (2)
 - imagerie nazie (2)
 - Hitler Youth (2)
+- séparation production-réception (2)
+- futur perdu (2)
+- transe (2)
 - Iggy Pop (2)
 - Rudolf Hess (2)
 - Rock Against Racism (2)
@@ -470,10 +476,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - Nietzsche (1)
 - Sartre (1)
 - Hesse (1)
-- Ballard (1)
-- souffrance (1)
-- guerre (1)
-- nazisme (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -493,6 +495,16 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A140 — prolonge → CONCEPT-035
 - S45-A140 — prolonge → CONCEPT-030
 - S45-A140 — nuance → MYTH-002
+- S40-A001 — garde_fou → REL-S40-001
+- S40-A003 — prolonge → REL-S40-003
+- S40-A004 — nuance → REL-S40-007
+- S40-A005 — structure → REL-S40-004
+- S40-A007 — garde_fou → REL-S40-006
+- S40-A008 — garde_fou → REL-S40-007
+- S13-DM-A001 — synthese → sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md
+- S13-DM-A001 — prolonge → S13-A003
+- S13-DM-A001 — prolonge → S13-A004
+- S13-DM-A001 — prolonge → S13-A010
 - S13-A002 — prolonge → CONCEPT-no-future
 - S13-A002 — prépare → S13-A010
 - S13-A004 — prolonge → S41-A003
@@ -525,6 +537,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S41-A001 — prolonge → S45-A100
 - S41-A012 — alimente → REGISTRE-INFLUENCES-MUSICALES
 - S41-A012 — prépare → S41-A013
+- S39-A001 — garde_fou → REL-S39-001
+- S39-A002 — structure → REL-S39-002
+- S39-A003 — prolonge → REL-S39-004
+- S39-A004 — prolonge → REL-S39-005
+- S39-A005 — garde_fou → REL-S39-008
+- S39-A007 — prolonge → REL-S39-007
 - S75-A064 — requiert → CONCEPT-004
 - S75-A064 — nuance → MYTH-002
 - S75-A064 — prolonge → S75-A057
@@ -541,22 +559,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S75-A016 — prolonge → S75-A013
 - S75-A016 — annonce → S75-A018
 - S75-A017 — nuance → S75-A006
-- S75-A017 — corrobore → MYTH-warsaw_cover_up
-- S75-A017 — prolonge → S75-A018
-- S75-A018 — prolonge → S75-A016
-- S75-A018 — prolonge → S75-A017
-- S75-A018 — nuance → MYTH-fascination_fasciste
-- S75-A034 — prolonge → CONCEPT-006
-- S75-A034 — nuance → MYTH-joy_division_pure_obscurité
-- S75-A056 — nuance → MYTH-003
-- S75-A056 — prolonge → CONCEPT-002
-- S75-A056 — prolonge → CONCEPT-001
-- S74-A022 — nuance → MYTH-002
-- S74-A022 — prolonge → S74-A017
-- S74-A024 — nuance → MYTH-002
-- S74-A024 — prolonge → S74-A017
-- S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
-- S74-A028 — nuance → MYTH-002
 
 ## 13. Distribution documentaire
 
@@ -572,6 +574,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | non qualifié | 5 |
 | song | 5 |
 | tension_documentaire | 4 |
+| prudence_methodologique | 4 |
+| concept_structurant | 3 |
 | reception | 3 |
 | interpretation | 3 |
 | interpretation_esthetique | 3 |
@@ -580,6 +584,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | citation_repere | 3 |
 | concept | 3 |
 | contexte_biographique | 3 |
+| concept_critique | 2 |
+| motif_majeur | 2 |
 | source_part | 2 |
 | mythe_prudence | 2 |
 | contrepoint | 2 |
@@ -596,10 +602,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | fait | 2 |
 | registre_influences | 1 |
 | scene_soin_amateur | 1 |
+| prudence_conceptuelle | 1 |
 | santé | 1 |
 | depression_politique | 1 |
 | prudence_interpretative | 1 |
 | prudence_temoin | 1 |
+| atome_pont_document_maitre | 1 |
 | concept_affectif | 1 |
 | concept_performance | 1 |
 | motif_textuel | 1 |
@@ -622,7 +630,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | epistemologie_critique | 1 |
 | reception_affective | 1 |
 | chanson_seuil | 1 |
-| concept_critique | 1 |
 | interpretation_scenique | 1 |
 | theorie_rythmique | 1 |
 | iconographie_polemique | 1 |
@@ -633,6 +640,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | mémoire_sensible | 1 |
 | psychologie_sociale | 1 |
 | culture_domestique | 1 |
+| concept_reception | 1 |
 | concert | 1 |
 | lecture_litteraire | 1 |
 | lecture_textuelle | 1 |
@@ -673,8 +681,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 48 |
-| majeure | 13 |
+| critique | 57 |
+| majeure | 17 |
 | majeur | 5 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -684,6 +692,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S45-A042 [élevé] — Risque double : excuser la provocation comme simple naïveté, ou la réduire à preuve directe de fascination fasciste.
 - S45-A026 [très élevé] — Risque de transformer un épisode rapporté en portrait moral total, ou de le neutraliser au nom du mythe Curtis.
 - S45-A140 [élevé] — Risque de spiritualiser ou de pathologiser ces épisodes ; ils sont surtout des indices de soin amateur.
+- S40-A001 [élevé] — Risque de convertir S40 en clé totale ou en preuve historique.
+- S40-A003 [moyen] — Éviter de faire du punk ou de Joy Division une théorie constituée du capitalisme globalisé.
+- S40-A004 [élevé] — La disparition du futur ne doit pas devenir une formule automatique.
+- S40-A005 [moyen] — Ne pas réduire toutes les chansons de Joy Division à l’attente.
+- S40-A007 [élevé] — Risque d’attribuer le futur perdu directement à Curtis ou au groupe.
+- S40-A008 [très élevé] — L’hauntologie devient dangereuse si elle fonctionne comme clé totale.
+- S13-DM-A001 [très élevé] — Ne pas écrire que Joy Division cause la rave, la house ou l’Haçienda.
 - S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
 - S13-A004 [très élevé] — Risque d’essentialiser Curtis, de confondre maladie, danse et rituel, ou de transformer la souffrance en pur motif esthétique.
 - S13-A006 [moyen] — Le motif ne doit pas effacer la dimension verbale très travaillée des textes de Curtis.
@@ -697,6 +712,12 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S41-A174 [moyen] — Ne pas folkloriser l’ignorance alimentaire ; l’enjeu est la matérialité sociale du déplacement.
 - S41-A001 [très élevé] — Risque double : excuser la charge du nom par le contexte punk ou conclure à une intention fasciste démontrée.
 - S41-A012 [moyen] — Risque d’en faire une influence formelle directe ; Hook parle surtout de gateway.
+- S39-A001 [élevé] — Risque de substituer une théorie générale à des sources historiques sur le groupe.
+- S39-A002 [moyen] — Ne pas projeter directement le concept sur Manchester 1976-1980.
+- S39-A003 [moyen] — Ne pas psychologiser le concept ni le rabattre sur Ian Curtis.
+- S39-A004 [moyen] — Ne pas faire de S39 une source lyrique ou biographique.
+- S39-A005 [très élevé] — Risque d’écrire que Joy Division annonce la modernité liquide.
+- S39-A007 [moyen] — Ne pas transformer la brièveté du groupe en destin métaphysique.
 - S75-A064 [eleve] — analogie puissante mais fortement téléologique et esthétisante
 - S75-A070 [moyen] — risque de sacralisation excessive de la chanson ; maintenir l'analyse sonore concrète
 - S75-A071 [eleve] — risque de prendre les motifs de revenance comme croyance ou clé psychologique de Curtis
@@ -726,19 +747,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S76-A043 [tres_eleve] — dossier politiquement sensible ; distinguer rumeur, perception, iconographie et position idéologique
 - S76-A152 [tres_eleve] — chanson la plus mythifiable du corpus ; risque d’absorber toute la biographie de Curtis
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
-- S76-A007 [moyen] — risque de transformer King’s School en matrice unique du mal-être
-- S76-A113 [moyen] — S76 valorise Curtis ; rester attentif aux effets de contraste avec les autres membres du groupe
-- S76-A158 [eleve] — référence littéraire et violence sonore peuvent être surpsychologisées
-- S76-A159 [eleve] — titre immédiatement biographisable ; ne pas le transformer en journal intime direct
-- S76-A160 [tres_eleve] — risque majeur de lire ces titres comme annonçant consciemment la fin
-- S76-A161 [tres_eleve] — lecture explicitement postérieure ; très fort risque de faire de « Decades » un message final
-- S76-A081 [eleve] — ne pas transformer l’écart domestique en annonce tragique ; l’atome décrit une position sociale et créative en tension
-- S76-A088 [eleve] — risque de lire grossesse et pression comme causes directes de la crise ultérieure
-- S76-A014 [moyen] — risque de dramatiser rétrospectivement la sortie des études
-- S76-A020 [moyen] — risque de faire de la domesticité une prison déjà constituée
-- S76-A127 [tres_eleve] — risque maximal d’épitaphe rétroactive et de prophétisation de Curtis
-- S76-A128 [tres_eleve] — le titre attire des lectures possessionnelles, morbides ou psychopathologiques
-- S76-A068 [moyen] — scène très suggestive ; ne pas en faire une théorie générale de Curtis comme stratège médiatique
 
 ## 15. Lacunes et prochaines vérifications
 

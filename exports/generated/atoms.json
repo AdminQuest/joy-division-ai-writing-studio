@@ -10032,6 +10032,395 @@
   },
   {
     "kind": "atom",
+    "id": "S40-A001",
+    "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+    "heading": "S40-A001 — S40 comme article philosophico-esthétique, non source primaire",
+    "data": {
+      "id": "S40-A001",
+      "type_unite": "prudence_methodologique",
+      "titre": "S40 comme article philosophico-esthétique, non source primaire",
+      "source_id": "S40",
+      "resume": "S40 doit être utilisé comme source de réception et d’interprétation, non comme preuve historique première. Cacciatore propose une lecture philosophique et critique de la persistance de Joy Division ; il ne documente pas directement les faits de production du groupe.\n",
+      "role_argumentatif": [
+        "Fixer le statut documentaire de S40 avant toute mobilisation théorique."
+      ],
+      "niveau_preuve": {
+        "statut": "source secondaire critique",
+        "confiance": "moyenne-forte comme interprétation ; faible comme preuve factuelle directe"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de convertir S40 en clé totale ou en preuve historique."
+      },
+      "motifs": [
+        "prudence anti-téléologique",
+        "séparation production-réception"
+      ],
+      "concepts_derives": [
+        "hauntologie",
+        "réception posthume"
+      ],
+      "relations": [
+        {
+          "type": "garde_fou",
+          "cible": "REL-S40-001"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S40 — Cacciatore, ...waiting for something to happen..., 2021",
+      "source_short_title": "Fortunato M. Cacciatore, ...waiting for something to happen..., 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S40-A002",
+    "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+    "heading": "S40-A002 — Le past inside the present : survivance spectrale du passé",
+    "data": {
+      "id": "S40-A002",
+      "type_unite": "concept_structurant",
+      "titre": "Le past inside the present : survivance spectrale du passé",
+      "source_id": "S40",
+      "resume": "Cacciatore évoque des « sampler viventi » obsédés par le past inside the present. Le passé Joy Division ne revient pas comme simple nostalgie ; il persiste dans le présent sous forme de spectres, de traces et de réactivations médiatiques.\n",
+      "role_argumentatif": [
+        "Décrire la persistance du passé dans le présent comme structure de réception."
+      ],
+      "niveau_preuve": {
+        "statut": "source secondaire critique",
+        "confiance": "moyenne-forte"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas confondre survivance spectrale et influence documentée."
+      },
+      "motifs": [
+        "spectres",
+        "passé persistant",
+        "archive réactivée"
+      ],
+      "concepts_derives": [
+        "past inside the present",
+        "survivance spectrale"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "REL-S40-002"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 14"
+      ],
+      "source_label": "S40 — Cacciatore, ...waiting for something to happen..., 2021",
+      "source_short_title": "Fortunato M. Cacciatore, ...waiting for something to happen..., 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S40-A003",
+    "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+    "heading": "S40-A003 — No future et capitalisme globalisé : du cri punk à l’impossibilité contemporaine",
+    "data": {
+      "id": "S40-A003",
+      "type_unite": "concept_structurant",
+      "titre": "No future et capitalisme globalisé : du cri punk à l’impossibilité contemporaine",
+      "source_id": "S40",
+      "resume": "Le no future n’est plus seulement un mot d’ordre punk ; il devient, dans la lecture de Cacciatore, une impossibilité contemporaine d’ouvrir un monde possible. Cette lecture doit être maniée comme interprétation critique, non comme théorie explicite de Joy Division.\n",
+      "role_argumentatif": [
+        "Relier le no future punk à une condition contemporaine où l’avenir cesse d’être opératoire."
+      ],
+      "niveau_preuve": {
+        "statut": "source secondaire critique",
+        "confiance": "moyenne-forte comme interprétation critique"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Éviter de faire du punk ou de Joy Division une théorie constituée du capitalisme globalisé."
+      },
+      "motifs": [
+        "no future",
+        "futur fermé"
+      ],
+      "concepts_derives": [
+        "capitalisme globalisé",
+        "impossibilité d’un monde possible"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "REL-S40-003"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S40 — Cacciatore, ...waiting for something to happen..., 2021",
+      "source_short_title": "Fortunato M. Cacciatore, ...waiting for something to happen..., 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S40-A004",
+    "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+    "heading": "S40-A004 — La lente cancellazione del futuro : diagnostic et risque de clôture",
+    "data": {
+      "id": "S40-A004",
+      "type_unite": "concept_critique",
+      "titre": "La lente cancellazione del futuro : diagnostic et risque de clôture",
+      "source_id": "S40",
+      "resume": "La perte du futur est un outil critique puissant, mais Cacciatore invite à ne pas figer l’avenir dans le seul registre de sa disparition. Cette prudence évite de transformer l’hauntologie en fatalisme narratif.\n",
+      "role_argumentatif": [
+        "Introduire une prudence interne à la théorie du futur perdu."
+      ],
+      "niveau_preuve": {
+        "statut": "source secondaire critique",
+        "confiance": "moyenne-forte"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "La disparition du futur ne doit pas devenir une formule automatique."
+      },
+      "motifs": [
+        "diagnostic critique",
+        "futur perdu"
+      ],
+      "concepts_derives": [
+        "lente cancellazione del futuro",
+        "indétermination de l’avenir"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "REL-S40-007"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S40 — Cacciatore, ...waiting for something to happen..., 2021",
+      "source_short_title": "Fortunato M. Cacciatore, ...waiting for something to happen..., 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S40-A005",
+    "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+    "heading": "S40-A005 — L’attente sans horizon stable : structure temporelle du titre",
+    "data": {
+      "id": "S40-A005",
+      "type_unite": "motif_majeur",
+      "titre": "L’attente sans horizon stable : structure temporelle du titre",
+      "source_id": "S40",
+      "resume": "L’attente n’est pas ici espérance ; elle est suspension, veille, impossibilité de voir venir l’avenir. Cette structure temporelle donne sa force au titre de l’article : « ...waiting for something to happen... ».\n",
+      "role_argumentatif": [
+        "Faire de l’attente le nœud temporel de S40."
+      ],
+      "niveau_preuve": {
+        "statut": "lecture critique du passage",
+        "confiance": "forte"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas réduire toutes les chansons de Joy Division à l’attente."
+      },
+      "motifs": [
+        "waiting",
+        "suspension",
+        "avenir invisible"
+      ],
+      "concepts_derives": [
+        "attente sans horizon stable",
+        "horizon d’attente"
+      ],
+      "relations": [
+        {
+          "type": "structure",
+          "cible": "REL-S40-004"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 11"
+      ],
+      "source_label": "S40 — Cacciatore, ...waiting for something to happen..., 2021",
+      "source_short_title": "Fortunato M. Cacciatore, ...waiting for something to happen..., 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S40-A006",
+    "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+    "heading": "S40-A006 — Joy Division et les spectres : corpus clos, présence persistante",
+    "data": {
+      "id": "S40-A006",
+      "type_unite": "lecture_reception",
+      "titre": "Joy Division et les spectres : corpus clos, présence persistante",
+      "source_id": "S40",
+      "resume": "Joy Division devient un objet spectral parce que son corpus clos continue d’agir dans le présent comme trace, symptôme et appel d’un futur non accompli. Cette survivance doit être distinguée d’une influence directe documentée.\n",
+      "role_argumentatif": [
+        "Définir Joy Division comme objet de survivance plus que comme nostalgie simple."
+      ],
+      "niveau_preuve": {
+        "statut": "source secondaire critique",
+        "confiance": "moyenne-forte"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas confondre spectre et fait d’influence directe."
+      },
+      "motifs": [
+        "revenance",
+        "héritage spectral",
+        "présence après-coup"
+      ],
+      "concepts_derives": [
+        "spectres",
+        "corpus clos",
+        "présence posthume"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "REL-S40-005"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 14"
+      ],
+      "source_label": "S40 — Cacciatore, ...waiting for something to happen..., 2021",
+      "source_short_title": "Fortunato M. Cacciatore, ...waiting for something to happen..., 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S40-A007",
+    "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+    "heading": "S40-A007 — Futur perdu : outil de réception, non preuve historique",
+    "data": {
+      "id": "S40-A007",
+      "type_unite": "prudence_conceptuelle",
+      "titre": "Futur perdu : outil de réception, non preuve historique",
+      "source_id": "S40",
+      "resume": "Le futur perdu permet de lire la résonance contemporaine de Joy Division ; il ne prouve pas que le groupe aurait consciemment théorisé cette condition. Le concept doit rester un outil de réception, non une causalité historique.\n",
+      "role_argumentatif": [
+        "Empêcher la conversion du concept de futur perdu en causalité historique."
+      ],
+      "niveau_preuve": {
+        "statut": "garde-fou méthodologique",
+        "confiance": "forte"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque d’attribuer le futur perdu directement à Curtis ou au groupe."
+      },
+      "motifs": [
+        "futur perdu",
+        "prudence anti-anachronique"
+      ],
+      "concepts_derives": [
+        "réception posthume",
+        "non-accomplissement"
+      ],
+      "relations": [
+        {
+          "type": "garde_fou",
+          "cible": "REL-S40-006"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S40 — Cacciatore, ...waiting for something to happen..., 2021",
+      "source_short_title": "Fortunato M. Cacciatore, ...waiting for something to happen..., 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S40-A008",
+    "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+    "heading": "S40-A008 — Garde-fou : l’hauntologie ne doit pas devenir une téléologie Joy Division",
+    "data": {
+      "id": "S40-A008",
+      "type_unite": "prudence_methodologique",
+      "titre": "Garde-fou : l’hauntologie ne doit pas devenir une téléologie Joy Division",
+      "source_id": "S40",
+      "resume": "L’hauntologie doit ouvrir une analyse des temporalités, non enfermer Joy Division dans une prophétie rétrospective. S40 contient donc un garde-fou contre les lectures qui feraient du groupe un annonciateur direct de Fisher, Derrida ou Bifo.\n",
+      "role_argumentatif": [
+        "Prévenir la lecture prophétique de Joy Division."
+      ],
+      "niveau_preuve": {
+        "statut": "règle d’usage historiographique",
+        "confiance": "forte"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "L’hauntologie devient dangereuse si elle fonctionne comme clé totale."
+      },
+      "motifs": [
+        "anti-prophétie",
+        "anti-mythe",
+        "médiation critique"
+      ],
+      "concepts_derives": [
+        "hauntologie",
+        "téléologie"
+      ],
+      "relations": [
+        {
+          "type": "garde_fou",
+          "cible": "REL-S40-007"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S40 — Cacciatore, ...waiting for something to happen..., 2021",
+      "source_short_title": "Fortunato M. Cacciatore, ...waiting for something to happen..., 2021",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S40-PART-HAUNTOLOGIE-NO-FUTURE-V2",
     "file": "sources/cacciatore_waiting_for_something_to_happen/source_part_hauntologie_no_future_v2.md",
     "heading": "S40 — Source part — Hauntologie, no future et attente sans horizon",
@@ -15581,6 +15970,77 @@
       "statut": "a_consolider",
       "fiabilite": "forte",
       "citation_directe": false
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S13-DM-A001",
+    "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+    "heading": "S13-DM-A001 — Interzone, post-punk et rave era : atome-pont pour documents maîtres",
+    "data": {
+      "id": "S13-DM-A001",
+      "type_unite": "atome_pont_document_maitre",
+      "titre": "Interzone, post-punk et rave era : atome-pont pour documents maîtres",
+      "source_id": "S13",
+      "resume": "La passe S13 doit être lue comme une articulation critique entre Joy Division, Interzone, corps de Curtis, danse, répétition, transmission, New Order, Factory Records, Haçienda, acid house et rave era. La source n’établit pas une causalité Joy Division vers la rave ; elle permet de penser une survivance corporelle, sonore et culturelle.\n",
+      "role_argumentatif": [
+        "Rendre la passe S13 visible dans les documents maîtres sans dépendre du dossier chapters/addenda.",
+        "Prévenir la généalogie mécanique Joy Division -> rave tout en conservant l’intuition d’une transmission oblique."
+      ],
+      "niveau_preuve": {
+        "statut": "source critique secondaire",
+        "confiance": "forte comme lecture interprétative ; moyenne pour les enchaînements historiques à recouper"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Ne pas écrire que Joy Division cause la rave, la house ou l’Haçienda."
+      },
+      "motifs": [
+        "Interzone",
+        "danse",
+        "transe",
+        "transmission",
+        "acid house",
+        "rave era",
+        "Haçienda"
+      ],
+      "concepts_derives": [
+        "survivance corporelle",
+        "filiation oblique",
+        "seuil sonore",
+        "transition post-punk / club culture"
+      ],
+      "relations": [
+        {
+          "type": "synthese",
+          "cible": "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S13-A003"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S13-A004"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S13-A010"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 11",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "source_label": "S13 — Tomeo, Dance Dance Dance!, 2021",
+      "source_short_title": "Caterina Tomeo, Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era, 2021",
+      "source_year": "2021"
     }
   },
   {
@@ -39673,6 +40133,340 @@
       "date_integration": "2026-05-17",
       "statut": "intégré",
       "statut_citationnel": "aucune citation verbatim intégrée",
+      "source_short_title": "Zygmunt Bauman, Liquid Modernity, 2000",
+      "source_year": "2000"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S39-A001",
+    "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+    "heading": "S39-A001 — Bauman comme source théorique, non comme source Joy Division",
+    "data": {
+      "id": "S39-A001",
+      "type_unite": "prudence_methodologique",
+      "titre": "Bauman comme source théorique, non comme source Joy Division",
+      "source_id": "S39",
+      "resume": "S39 doit être mobilisée comme cadre de lecture rétrospectif, jamais comme source factuelle sur Manchester, Factory Records, Ian Curtis ou la genèse de Joy Division. Bauman construit un modèle général de la modernité liquide, utile pour penser certains usages contemporains du mythe.\n",
+      "role_argumentatif": [
+        "Fixer le statut documentaire de S39 : cadre théorique de réception, non preuve historique."
+      ],
+      "niveau_preuve": {
+        "statut": "source secondaire théorique",
+        "confiance": "forte comme cadre conceptuel ; faible comme preuve factuelle Joy Division"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "élevé",
+        "raison": "Risque de substituer une théorie générale à des sources historiques sur le groupe."
+      },
+      "motifs": [
+        "prudence anti-anachronique",
+        "réception contemporaine"
+      ],
+      "concepts_derives": [
+        "modernité liquide",
+        "source théorique"
+      ],
+      "relations": [
+        {
+          "type": "garde_fou",
+          "cible": "REL-S39-001"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S39 — Bauman, Liquid Modernity, 2000",
+      "source_short_title": "Zygmunt Bauman, Liquid Modernity, 2000",
+      "source_year": "2000"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S39-A002",
+    "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+    "heading": "S39-A002 — Modernité liquide : dissolution des cadres stables",
+    "data": {
+      "id": "S39-A002",
+      "type_unite": "concept_structurant",
+      "titre": "Modernité liquide : dissolution des cadres stables",
+      "source_id": "S39",
+      "resume": "Le passage de la modernité solide à la modernité liquide désigne l’affaiblissement des formes sociales durables, des cadres collectifs stabilisés et des appartenances capables d’ordonner durablement les existences. Pour le livre, cette notion sert à éclairer la réception contemporaine, non les conditions historiques de production du groupe.\n",
+      "role_argumentatif": [
+        "Introduire un cadre conceptuel pour penser l’instabilité contemporaine dans laquelle Joy Division continue de circuler."
+      ],
+      "niveau_preuve": {
+        "statut": "source secondaire théorique",
+        "confiance": "forte comme concept ; moyenne pour son usage appliqué"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas projeter directement le concept sur Manchester 1976-1980."
+      },
+      "motifs": [
+        "dissolution des cadres stables",
+        "fragilité des appartenances"
+      ],
+      "concepts_derives": [
+        "modernité liquide",
+        "cadres sociaux durables"
+      ],
+      "relations": [
+        {
+          "type": "structure",
+          "cible": "REL-S39-002"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S39 — Bauman, Liquid Modernity, 2000",
+      "source_short_title": "Zygmunt Bauman, Liquid Modernity, 2000",
+      "source_year": "2000"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S39-A003",
+    "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+    "heading": "S39-A003 — Mobilité, flexibilité et individualisation de l’incertitude",
+    "data": {
+      "id": "S39-A003",
+      "type_unite": "concept_structurant",
+      "titre": "Mobilité, flexibilité et individualisation de l’incertitude",
+      "source_id": "S39",
+      "resume": "La modernité liquide valorise la mobilité et l’adaptation. L’incertitude devient une charge à gérer individuellement. Cette grille permet de comprendre la réception actuelle de Joy Division comme musique d’une instabilité devenue ordinaire, sans transformer Curtis en sujet baumanien par anticipation.\n",
+      "role_argumentatif": [
+        "Relier l’incertitude contemporaine à la réception actuelle du groupe."
+      ],
+      "niveau_preuve": {
+        "statut": "source secondaire théorique",
+        "confiance": "moyenne-forte"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas psychologiser le concept ni le rabattre sur Ian Curtis."
+      },
+      "motifs": [
+        "instabilité culturelle",
+        "incertitude individuelle"
+      ],
+      "concepts_derives": [
+        "individualisation de l’incertitude",
+        "mobilité"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "REL-S39-004"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 11"
+      ],
+      "source_label": "S39 — Bauman, Liquid Modernity, 2000",
+      "source_short_title": "Zygmunt Bauman, Liquid Modernity, 2000",
+      "source_year": "2000"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S39-A004",
+    "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+    "heading": "S39-A004 — Fragilité des liens sociaux et précarité des appartenances",
+    "data": {
+      "id": "S39-A004",
+      "type_unite": "motif_majeur",
+      "titre": "Fragilité des liens sociaux et précarité des appartenances",
+      "source_id": "S39",
+      "resume": "La fragilité des liens sociaux et la précarité des appartenances permettent de comprendre pourquoi Joy Division peut fonctionner comme point d’appartenance affective pour des publics éloignés du contexte mancunien initial.\n",
+      "role_argumentatif": [
+        "Expliquer la fonction d’appartenance affective que le groupe conserve dans la réception contemporaine."
+      ],
+      "niveau_preuve": {
+        "statut": "source secondaire théorique",
+        "confiance": "moyenne-forte"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas faire de S39 une source lyrique ou biographique."
+      },
+      "motifs": [
+        "fragilité des liens",
+        "appartenance affective"
+      ],
+      "concepts_derives": [
+        "précarité des appartenances",
+        "réception affective"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "REL-S39-005"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S39 — Bauman, Liquid Modernity, 2000",
+      "source_short_title": "Zygmunt Bauman, Liquid Modernity, 2000",
+      "source_year": "2000"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S39-A005",
+    "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+    "heading": "S39-A005 — Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation",
+    "data": {
+      "id": "S39-A005",
+      "type_unite": "prudence_methodologique",
+      "titre": "Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation",
+      "source_id": "S39",
+      "resume": "Liquid Modernity paraît en 2000. Le concept peut structurer une conclusion ou une relecture contemporaine ; il ne doit pas réécrire la genèse historique de Joy Division entre 1976 et 1980.\n",
+      "role_argumentatif": [
+        "Séparer production historique et réception contemporaine."
+      ],
+      "niveau_preuve": {
+        "statut": "règle méthodologique issue du statut de la source",
+        "confiance": "forte"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "très élevé",
+        "raison": "Risque d’écrire que Joy Division annonce la modernité liquide."
+      },
+      "motifs": [
+        "prudence anti-anachronique",
+        "séparation production-réception"
+      ],
+      "concepts_derives": [
+        "méthode historiographique"
+      ],
+      "relations": [
+        {
+          "type": "garde_fou",
+          "cible": "REL-S39-008"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S39 — Bauman, Liquid Modernity, 2000",
+      "source_short_title": "Zygmunt Bauman, Liquid Modernity, 2000",
+      "source_year": "2000"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S39-A006",
+    "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+    "heading": "S39-A006 — Patrimonialisation liquide : circulation diffuse du mythe Joy Division",
+    "data": {
+      "id": "S39-A006",
+      "type_unite": "lecture_reception",
+      "titre": "Patrimonialisation liquide : circulation diffuse du mythe Joy Division",
+      "source_id": "S39",
+      "resume": "Le mythe Joy Division circule désormais par fragments : pochettes, lignes de basse, citations isolées, playlists, tee-shirts, objets de collection et images numériques. Cette circulation renforce sa présence tout en simplifiant parfois sa complexité.\n",
+      "role_argumentatif": [
+        "Penser la circulation contemporaine du mythe hors du seul récit historique complet."
+      ],
+      "niveau_preuve": {
+        "statut": "interprétation rétrospective appuyée sur un cadre théorique",
+        "confiance": "moyenne-forte"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas confondre circulation, influence documentée et appropriation marchande."
+      },
+      "motifs": [
+        "patrimonialisation liquide",
+        "circulation fragmentaire"
+      ],
+      "concepts_derives": [
+        "mythe fragmenté",
+        "culture numérique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "REL-S39-006"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 14"
+      ],
+      "source_label": "S39 — Bauman, Liquid Modernity, 2000",
+      "source_short_title": "Zygmunt Bauman, Liquid Modernity, 2000",
+      "source_year": "2000"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S39-A007",
+    "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+    "heading": "S39-A007 — Permanence paradoxale : un groupe fixe dans une modernité instable",
+    "data": {
+      "id": "S39-A007",
+      "type_unite": "concept_reception",
+      "titre": "Permanence paradoxale : un groupe fixe dans une modernité instable",
+      "source_id": "S39",
+      "resume": "Joy Division est un objet historiquement clos : deux albums studio, une existence brève, une fin datée. Cette clôture peut expliquer sa capacité à fonctionner comme repère stable dans une culture mobile, fragmentée et liquide.\n",
+      "role_argumentatif": [
+        "Formuler le paradoxe central de la réception contemporaine : stabilité du corpus, instabilité du monde qui le reçoit."
+      ],
+      "niveau_preuve": {
+        "statut": "interprétation rétrospective appuyée sur un cadre théorique",
+        "confiance": "moyenne-forte"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "Ne pas transformer la brièveté du groupe en destin métaphysique."
+      },
+      "motifs": [
+        "corpus clos",
+        "permanence paradoxale"
+      ],
+      "concepts_derives": [
+        "canonisation",
+        "stabilité symbolique"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "REL-S39-007"
+        }
+      ],
+      "usage_livre": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "source_label": "S39 — Bauman, Liquid Modernity, 2000",
       "source_short_title": "Zygmunt Bauman, Liquid Modernity, 2000",
       "source_year": "2000"
     }

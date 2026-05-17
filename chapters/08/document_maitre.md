@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T15:03:39"
+generated_at: "2026-05-17T15:14:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 250 |
+| Atomes | 251 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 24 |
@@ -35,7 +35,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 2 | 0 |
-| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 4 | 0 |
+| S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 5 | 0 |
 | S14 | S14 — Happy Mondays, God’s Cop, 1990 | 3 | 0 |
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 13 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 9 | 0 |
@@ -57,6 +57,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S13-A008** — S13-A008 — Haçienda : du deuil de Curtis à la scène acid house  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `lieu_institution` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S13-DM-A001** — S13-DM-A001 — Interzone, post-punk et rave era : atome-pont pour documents maîtres  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `atome_pont_document_maitre` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S34-A002** — S34-A002 — Grant Gee : Joy Division comme histoire d’une ville plutôt que d’un groupe  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `archive` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_visuelle`.
 - **S41-A032** — S41-A032 — Rafters / Fast Breeder : Hannett, Erasmus et la scène comme guerre de rang  
@@ -121,8 +123,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet visuel documenté`.
 - **S41-A123** — S41-A123 — Sortie de *Unknown Pleasures* : acclamation critique, ventes lentes et profit Factory  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_discographique` ; importance : `critique` ; preuve : `synthèse rétrospective + presse à retrouver`.
-- **S41-A124** — S41-A124 — Piccadilly Radio : « Chance », « Atrocity Exhibition » et organ Woolworths  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
 
 ## 6. Autres atomes utiles
 
@@ -218,6 +218,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
 - **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A124** — S41-A124 — Piccadilly Radio : « Chance », « Atrocity Exhibition » et organ Woolworths  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
 - **S41-A126** — S41-A126 — « Transmission » : single choisi par puissance live et non logique album  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
@@ -284,8 +286,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_industrielle` ; importance : `majeur` ; preuve : `témoignage direct + citation rapportée`.
 - **S41-A203** — S41-A203 — Vidéo « Love Will Tear Us Apart » : anti-mime, live impossible et erreur devenue canon  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet audiovisuel vérifiable`.
-- **S41-A214** — S41-A214 — « Atrocity Exhibition » : échange d’instruments et colère contre Hannett  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct d’interprète`.
 
 ## 7. Citations disponibles
 
@@ -393,6 +393,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - richard boon (2)
 - paradiso (2)
 - france (2)
+- survivance corporelle (2)
+- filiation oblique (2)
+- seuil sonore (2)
 - pennine sound studios (2)
 - derek branwood (2)
 - unknown pleasures (2)
@@ -430,9 +433,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - objet bricolé (1)
 - DIY intégral (1)
 - désir de studio (1)
-- naïveté industrielle (1)
-- libération éditoriale (1)
-- source pirate (1)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -454,6 +454,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Sordide Sentimental (5)
 - Pennine Sound (4)
 - Hannett (4)
+- Haçienda (4)
 - Digital (4)
 - Atrocity Exhibition (4)
 - Moonlight Club (4)
@@ -466,7 +467,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Rudolf Hess (3)
 - bootlegs (3)
 - Strawberry Studios (3)
-- Haçienda (3)
+- Interzone (3)
+- acid house (3)
 - John Peel (3)
 - Genetic (3)
 - Insight (3)
@@ -476,8 +478,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - Chance (3)
 - Novelty (3)
 - Enigma (3)
-- An Ideal For Living (3)
-- Closer (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -518,6 +518,10 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S45-A151 — prolonge → CONCEPT-035
 - S45-A151 — prolonge → REGISTRE-OBJETS-DISCOGRAPHIQUES
 - S45-A151 — prépare → S45-A152
+- S13-DM-A001 — synthese → sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md
+- S13-DM-A001 — prolonge → S13-A003
+- S13-DM-A001 — prolonge → S13-A004
+- S13-DM-A001 — prolonge → S13-A010
 - S13-A003 — nuance → S13-A005
 - S13-A003 — prolonge → S74
 - S13-A003 — prolonge → S41
@@ -557,10 +561,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A036 — prépare → CONCEPT-030
 - S41-A036 — prépare → FACTORY-NETWORK
 - S41-A040 — prolonge → CONCEPT-025
-- S41-A040 — prolonge → MYTH-007
-- S41-A040 — alimente → REGISTRE-DISCOGRAPHIE
-- S41-A041 — prolonge → CONCEPT-050
-- S41-A041 — prépare → CONCEPT-HANNETT-STUDIO
 
 ## 13. Distribution documentaire
 
@@ -609,6 +609,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | prudence_documentaire | 1 |
 | concept_theorique | 1 |
 | mediation_audiovisuelle | 1 |
+| atome_pont_document_maitre | 1 |
 | tension_documentaire | 1 |
 | economie_sonore | 1 |
 | lieu_institution | 1 |
@@ -692,7 +693,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 123 |
-| critique | 101 |
+| critique | 102 |
 | majeur | 18 |
 | majeure | 8 |
 
@@ -710,6 +711,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S45-A077 [moyen] — Risque de présenter l’origine cassette des bootlegs comme fait définitif sans expertise des sources sonores.
 - S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
 - S45-A151 [très élevé] — Risque de lire chaque don d’objet comme signe suicidaire certain.
+- S13-DM-A001 [très élevé] — Ne pas écrire que Joy Division cause la rave, la house ou l’Haçienda.
 - S13-A003 [très élevé] — Ne jamais écrire que Joy Division invente la rave ou la techno.
 - S13-A007 [élevé] — Vérifier chaque détail de bruitage avant utilisation factuelle.
 - S13-A008 [moyen] — Ne pas confondre trajectoire New Order / Factory / Haçienda avec continuité musicale simple de Joy Division.
@@ -757,7 +759,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - S41-A124 [moyen] — Ne pas confondre version radio, version live et version Sordide Sentimental.
 - S41-A126 [moyen] — Ne pas prendre le scénario alternatif de Hook comme évidence commerciale ; c’est une uchronie critique.
 - S41-A127 [moyen] — Ne pas confondre démo, single final et version live.
-- S41-A179 [très élevé] — Risque de téléologie morbide : ce contexte prépare l’album sans en faire une preuve anticipée du suicide.
 
 ## 15. Lacunes et prochaines vérifications
 

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-17T15:03:26",
+  "generated_at": "2026-05-17T15:14:09",
   "status": "warning",
   "summary": {
-    "records_total": 4248,
+    "records_total": 4264,
     "records_by_kind": {
-      "atom": 1881,
+      "atom": 1897,
       "metadata": 96,
       "unknown": 350,
       "source": 64,
@@ -19,9 +19,9 @@
       "rules": 1,
       "person": 181
     },
-    "diagnostics_total": 19709,
+    "diagnostics_total": 19869,
     "errors": 0,
-    "warnings": 19709,
+    "warnings": 19869,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 31,
     "sources_exported": 31,
@@ -495,8 +495,8 @@
         "auteur": "Caterina Tomeo",
         "titre": "Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era",
         "annee": "2021",
-        "records": 23,
-        "atoms": 10,
+        "records": 24,
+        "atoms": 11,
         "quotes": 0,
         "chronology": 0,
         "files": [
@@ -505,6 +505,7 @@
           "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
           "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
           "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+          "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
           "sources/tomeo_dance_dance_dance/source.md",
           "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md"
         ]
@@ -697,8 +698,8 @@
         "auteur": "Zygmunt Bauman",
         "titre": "Liquid Modernity",
         "annee": "2000",
-        "records": 10,
-        "atoms": 1,
+        "records": 17,
+        "atoms": 8,
         "quotes": 0,
         "chronology": 0,
         "files": [
@@ -707,6 +708,7 @@
           "registers/myths/s39_bauman_liquid_modernity_myths.md",
           "registers/references/s39_bauman_liquid_modernity_source_canonique.md",
           "registers/specialized/s39_bauman_liquid_modernity_specialized.md",
+          "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
           "sources/bauman_liquid_modernity/registers_update_s39_passage_modernite_liquide.md",
           "sources/bauman_liquid_modernity/relations_stabilisees.md",
           "sources/bauman_liquid_modernity/source.md",
@@ -719,8 +721,8 @@
         "auteur": "Fortunato M. Cacciatore",
         "titre": "...waiting for something to happen...",
         "annee": "2021",
-        "records": 10,
-        "atoms": 1,
+        "records": 18,
+        "atoms": 9,
         "quotes": 0,
         "chronology": 0,
         "files": [
@@ -729,6 +731,7 @@
           "registers/myths/s40_cacciatore_hauntologie_no_future_myths.md",
           "registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md",
           "registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md",
+          "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
           "sources/cacciatore_waiting_for_something_to_happen/registers_update_s40_hauntologie_no_future.md",
           "sources/cacciatore_waiting_for_something_to_happen/relations_stabilisees.md",
           "sources/cacciatore_waiting_for_something_to_happen/source.md",
@@ -9216,6 +9219,486 @@
       "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
       "message": "Missing nested field: stabilite.risque_revision",
       "record_id": "S45-A153"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S40-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S40-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S40-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: statut",
+      "record_id": "S40-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S40-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S40-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S40-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S40-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S40-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S40-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S40-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S40-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S40-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: statut",
+      "record_id": "S40-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S40-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S40-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S40-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S40-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S40-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S40-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S40-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S40-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S40-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: statut",
+      "record_id": "S40-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S40-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S40-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S40-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S40-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S40-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S40-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S40-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S40-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S40-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: statut",
+      "record_id": "S40-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S40-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S40-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S40-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S40-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Invalid value for type_unite: concept_critique",
+      "record_id": "S40-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S40-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S40-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S40-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S40-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: statut",
+      "record_id": "S40-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S40-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S40-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S40-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S40-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Invalid value for type_unite: motif_majeur",
+      "record_id": "S40-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S40-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S40-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S40-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S40-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: statut",
+      "record_id": "S40-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S40-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S40-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S40-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S40-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Invalid value for type_unite: lecture_reception",
+      "record_id": "S40-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S40-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S40-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S40-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S40-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: statut",
+      "record_id": "S40-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S40-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S40-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S40-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S40-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Invalid value for type_unite: prudence_conceptuelle",
+      "record_id": "S40-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S40-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S40-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S40-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S40-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: statut",
+      "record_id": "S40-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S40-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S40-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S40-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S40-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S40-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S40-A008"
     },
     {
       "level": "warning",
@@ -18276,6 +18759,66 @@
       "file": "sources/reynolds_rip_it_up/second_pass_scenes_heritage.md",
       "message": "Invalid value for type_unite: synthese",
       "record_id": "S72-A061"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S13-DM-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S13-DM-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S13-DM-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "message": "Missing required field: statut",
+      "record_id": "S13-DM-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S13-DM-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S13-DM-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S13-DM-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S13-DM-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "message": "Invalid value for type_unite: atome_pont_document_maitre",
+      "record_id": "S13-DM-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S13-DM-A001"
     },
     {
       "level": "warning",
@@ -44592,6 +45135,426 @@
       "file": "sources/bauman_liquid_modernity/source_part_modernite_liquide_reception_v2.md",
       "message": "Invalid value for type_unite: source_part",
       "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S39-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S39-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S39-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: statut",
+      "record_id": "S39-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S39-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S39-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S39-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S39-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S39-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S39-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S39-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S39-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S39-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: statut",
+      "record_id": "S39-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S39-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S39-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S39-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S39-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S39-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S39-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S39-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S39-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S39-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: statut",
+      "record_id": "S39-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S39-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S39-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S39-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S39-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S39-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S39-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S39-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S39-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S39-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: statut",
+      "record_id": "S39-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S39-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S39-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S39-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S39-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Invalid value for type_unite: motif_majeur",
+      "record_id": "S39-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S39-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S39-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S39-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S39-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: statut",
+      "record_id": "S39-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S39-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S39-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S39-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S39-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S39-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S39-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S39-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S39-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S39-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: statut",
+      "record_id": "S39-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S39-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S39-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S39-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S39-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Invalid value for type_unite: lecture_reception",
+      "record_id": "S39-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S39-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S39-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S39-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S39-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: statut",
+      "record_id": "S39-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S39-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S39-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S39-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S39-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Invalid value for type_unite: concept_reception",
+      "record_id": "S39-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S39-A007"
     },
     {
       "level": "warning",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T15:03:39"
+generated_at: "2026-05-17T15:14:23"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-17T15:03:39"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 183 |
-| Atomes critiques / majeurs | 30 |
+| Atomes | 187 |
+| Atomes critiques / majeurs | 34 |
 | Citations | 12 |
 | Événements chronologiques | 7 |
 | Personnes | 16 |
 | Chansons | 1 |
-| Sources mobilisées | 25 |
+| Sources mobilisées | 27 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,8 @@ generated_at: "2026-05-17T15:03:39"
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 7 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 10 | 1 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 9 | 5 |
+| S39 | S39 — Bauman, Liquid Modernity, 2000 | 1 | 0 |
+| S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -80,6 +82,12 @@ generated_at: "2026-05-17T15:03:39"
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `concept_theorique`.
 - **S34-A011** — S34-A011 — Manchester comme matrice critique à nuancer par Crosthwaite et Goddard  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `controverse` ; importance : `critique` ; preuve : `prudence_methodologique`.
+- **S39-A005** — S39-A005 — Prudence anti-anachronique : ne pas faire parler 1979 avec 2000 sans médiation  
+  Source : S39 — Bauman, Liquid Modernity, 2000 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle méthodologique issue du statut de la source`.
+- **S40-A001** — S40-A001 — S40 comme article philosophico-esthétique, non source primaire  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire critique`.
+- **S40-A008** — S40-A008 — Garde-fou : l’hauntologie ne doit pas devenir une téléologie Joy Division  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage historiographique`.
 - **S45-A020** — S45-A020 — Ne pas confondre vote conservateur local et adhésion au thatchérisme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage issue d’un témoignage direct`.
 - **S45-A031** — S45-A031 — Manchester comme « nouvelle capitale » : scène d’auto-habilitation  
@@ -104,6 +112,8 @@ generated_at: "2026-05-17T15:03:39"
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S34-A012** — S34-A012 — Joy Division comme passerelle entre music sociology et urban studies  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S40-A007** — S40-A007 — Futur perdu : outil de réception, non preuve historique  
+  Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_conceptuelle` ; importance : `majeure` ; preuve : `garde-fou méthodologique`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -355,6 +365,8 @@ generated_at: "2026-05-17T15:03:39"
 - slum clearance (3)
 - mémoire culturelle (3)
 - biographie contre mythe social (2)
+- hauntologie (2)
+- réception posthume (2)
 - Crossley (2)
 - scènes musicales (2)
 - ordre social local (2)
@@ -390,6 +402,7 @@ generated_at: "2026-05-17T15:03:39"
 - inflation (2)
 - public expenditure (2)
 - enfance (2)
+- méthode historiographique (2)
 - peter hook (2)
 - bernard sumner (2)
 - prudence historiographique (2)
@@ -413,9 +426,6 @@ generated_at: "2026-05-17T15:03:39"
 - relogement (2)
 - Ordsall (2)
 - sida (2)
-- ordre moral (2)
-- santé publique (2)
-- prévention (2)
 
 ## 12. Motifs et chaînes relationnelles
 
@@ -426,6 +436,8 @@ generated_at: "2026-05-17T15:03:39"
 - Shadowplay (2)
 - politique (2)
 - scène locale (2)
+- séparation production-réception (2)
+- prudence anti-anachronique (2)
 - mémoire ouvrière (2)
 - Wythenshawe (2)
 - overspill estate (2)
@@ -452,15 +464,13 @@ generated_at: "2026-05-17T15:03:39"
 - Thatcher (1)
 - conservatisme (1)
 - extrapolation (1)
+- prudence anti-téléologique (1)
+- futur perdu (1)
+- anti-prophétie (1)
+- anti-mythe (1)
+- médiation critique (1)
 - Londres (1)
 - punk (1)
-- auto-suffisance (1)
-- déclencheur (1)
-- Lower Broughton (1)
-- déplacement (1)
-- tour (1)
-- travail répétitif (1)
-- 1979 (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -483,6 +493,10 @@ generated_at: "2026-05-17T15:03:39"
 - S45-A020 — stabilise → REGISTRE-CITATIONS-VERIFIEES
 - S45-A020 — alerte → RISQUE-SURTRADUCTION-POLITIQUE
 - S45-A020 — nuance → S45-A019
+- S40-A001 — garde_fou → REL-S40-001
+- S40-A007 — garde_fou → REL-S40-006
+- S40-A008 — garde_fou → REL-S40-007
+- S39-A005 — garde_fou → REL-S39-008
 - S75-A004 — nuance → MYTH-lesser_free_trade_hall_origine_absolue
 - S75-A004 — prolonge → CONCEPT-geographie_emotionnelle
 - S75-A014 — nuance → MYTH-curtis_centre_unique
@@ -540,8 +554,6 @@ generated_at: "2026-05-17T15:03:39"
 - S76-A059 — nuance → CONCEPT-scene_manchester
 - S76-A059 — relie → MOTIF-geographie_emotionnelle
 - S76-A067 — prolonge → S76-A058
-- S76-A067 — nuance → MYTH-003
-- S76-A067 — relie → CONCEPT-003
 
 ## 13. Distribution documentaire
 
@@ -550,10 +562,10 @@ generated_at: "2026-05-17T15:03:39"
 | Type | Nombre |
 |---|---|
 | source_part | 14 |
+| prudence_methodologique | 11 |
 | concept_structurant | 9 |
 | analyse | 9 |
 | concept | 9 |
-| prudence_methodologique | 8 |
 | sociologie | 7 |
 | contexte_social | 6 |
 | evenement_politique | 5 |
@@ -577,6 +589,7 @@ generated_at: "2026-05-17T15:03:39"
 | motif_discursif | 2 |
 | mediation_visuelle | 1 |
 | contexte_scene | 1 |
+| prudence_conceptuelle | 1 |
 | compte_rendu_critique | 1 |
 | methode_sociologique | 1 |
 | concept_sociologique | 1 |
@@ -648,8 +661,8 @@ generated_at: "2026-05-17T15:03:39"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 18 |
-| majeure | 12 |
+| critique | 21 |
+| majeure | 13 |
 | majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -659,6 +672,10 @@ generated_at: "2026-05-17T15:03:39"
 - S45-A031 [moyen] — Risque de reconstruire Manchester comme capitale évidente alors que la scène est encore précaire, locale et partiellement fantasmée.
 - S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.
 - S45-A020 [très élevé] — « Conservateur » peut être surtraduit en « thatchérien », alors que le passage ne l’établit pas.
+- S40-A001 [élevé] — Risque de convertir S40 en clé totale ou en preuve historique.
+- S40-A007 [élevé] — Risque d’attribuer le futur perdu directement à Curtis ou au groupe.
+- S40-A008 [très élevé] — L’hauntologie devient dangereuse si elle fonctionne comme clé totale.
+- S39-A005 [très élevé] — Risque d’écrire que Joy Division annonce la modernité liquide.
 - S75-A004 [moyen] — risque de durcir excessivement l'opposition Londres/Manchester
 - S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
 - S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-17T15:03:37",
+  "generated_at": "2026-05-17T15:14:21",
   "summary": {
-    "records_total": 4248,
+    "records_total": 4264,
     "records_by_kind": {
-      "atom": 1881,
+      "atom": 1897,
       "metadata": 96,
       "unknown": 350,
       "source": 64,
@@ -18,9 +18,9 @@
       "rules": 1,
       "person": 181
     },
-    "diagnostics_total": 19709,
+    "diagnostics_total": 19869,
     "errors": 0,
-    "warnings": 19709,
+    "warnings": 19869,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 31,
     "sources_exported": 31,
@@ -29,7 +29,7 @@
     "weak_source_labels": 0
   },
   "records_by_kind": {
-    "atom": 1881,
+    "atom": 1897,
     "chronology": 353,
     "concept": 228,
     "metadata": 96,
@@ -94,7 +94,7 @@
     },
     "S13": {
       "metadata": 4,
-      "atom": 10,
+      "atom": 11,
       "concept": 1,
       "myth": 1,
       "unknown": 2,
@@ -182,11 +182,11 @@
     "S39": {
       "metadata": 8,
       "source": 1,
-      "atom": 1
+      "atom": 8
     },
     "S40": {
       "metadata": 9,
-      "atom": 1
+      "atom": 9
     },
     "S41": {
       "atom": 430,
@@ -411,11 +411,11 @@
   ],
   "issue_categories": {
     "field_type_error": 157,
-    "invalid_controlled_value": 1681,
-    "missing_required_field": 5281,
-    "schema_warning": 400,
+    "invalid_controlled_value": 1697,
+    "missing_required_field": 5361,
+    "schema_warning": 416,
     "unknown_yaml_block": 350,
-    "v2_migration_debt": 11840
+    "v2_migration_debt": 11888
   },
   "top_files_by_issue_count": [
     [
@@ -3343,10 +3343,10 @@
     }
   ],
   "v2_migration": {
-    "atoms_total": 1881,
+    "atoms_total": 1897,
     "atoms_v2_complete": 73,
-    "atoms_v2_incomplete": 1808,
-    "v2_missing_field_warnings": 11840
+    "atoms_v2_incomplete": 1824,
+    "v2_missing_field_warnings": 11888
   },
   "source_registry": {
     "declared_but_unused": [
@@ -3814,8 +3814,8 @@
         "auteur": "Caterina Tomeo",
         "titre": "Dance Dance Dance! L’Interzone tra il sound dei Joy Division e la rave era",
         "annee": "2021",
-        "records": 23,
-        "atoms": 10,
+        "records": 24,
+        "atoms": 11,
         "quotes": 0,
         "chronology": 0,
         "files": [
@@ -3824,6 +3824,7 @@
           "registers/references/s13_tomeo_interzone_rave_era_reference_complement.md",
           "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
           "sources/happy_mondays_gods_cop/registres_structurants_s14.md",
+          "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
           "sources/tomeo_dance_dance_dance/source.md",
           "sources/tomeo_dance_dance_dance/source_part_interzone_rave_era.md"
         ]
@@ -4016,8 +4017,8 @@
         "auteur": "Zygmunt Bauman",
         "titre": "Liquid Modernity",
         "annee": "2000",
-        "records": 10,
-        "atoms": 1,
+        "records": 17,
+        "atoms": 8,
         "quotes": 0,
         "chronology": 0,
         "files": [
@@ -4026,6 +4027,7 @@
           "registers/myths/s39_bauman_liquid_modernity_myths.md",
           "registers/references/s39_bauman_liquid_modernity_source_canonique.md",
           "registers/specialized/s39_bauman_liquid_modernity_specialized.md",
+          "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
           "sources/bauman_liquid_modernity/registers_update_s39_passage_modernite_liquide.md",
           "sources/bauman_liquid_modernity/relations_stabilisees.md",
           "sources/bauman_liquid_modernity/source.md",
@@ -4038,8 +4040,8 @@
         "auteur": "Fortunato M. Cacciatore",
         "titre": "...waiting for something to happen...",
         "annee": "2021",
-        "records": 10,
-        "atoms": 1,
+        "records": 18,
+        "atoms": 9,
         "quotes": 0,
         "chronology": 0,
         "files": [
@@ -4048,6 +4050,7 @@
           "registers/myths/s40_cacciatore_hauntologie_no_future_myths.md",
           "registers/references/s40_cacciatore_waiting_for_something_to_happen_source_canonique.md",
           "registers/specialized/s40_cacciatore_hauntologie_no_future_specialized.md",
+          "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
           "sources/cacciatore_waiting_for_something_to_happen/registers_update_s40_hauntologie_no_future.md",
           "sources/cacciatore_waiting_for_something_to_happen/relations_stabilisees.md",
           "sources/cacciatore_waiting_for_something_to_happen/source.md",
@@ -15232,6 +15235,646 @@
       "file": "sources/curtis_touching_from_a_distance/source_part_1980_moonlight_overdose_bury_divorce_last_clinic.md",
       "record_id": "S45-A153",
       "message": "Missing nested field: stabilite.risque_revision",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A001",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A002",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A002",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A003",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A003",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A004",
+      "message": "Invalid value for type_unite: concept_critique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A004",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A005",
+      "message": "Invalid value for type_unite: motif_majeur",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A005",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A006",
+      "message": "Invalid value for type_unite: lecture_reception",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A006",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A007",
+      "message": "Invalid value for type_unite: prudence_conceptuelle",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A007",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A008",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A008",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A008",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A008",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A008",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A008",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A008",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A008",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A008",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/cacciatore_waiting_for_something_to_happen/atoms_dm_s40_hauntologie_no_future.md",
+      "record_id": "S40-A008",
+      "message": "Missing nested field: niveau_preuve.corroboration",
       "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
     },
     {
@@ -27313,6 +27956,86 @@
       "record_id": "S72-A061",
       "message": "Invalid value for type_unite: synthese",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "record_id": "S13-DM-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "record_id": "S13-DM-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "record_id": "S13-DM-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "record_id": "S13-DM-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "record_id": "S13-DM-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "record_id": "S13-DM-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "record_id": "S13-DM-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "record_id": "S13-DM-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "record_id": "S13-DM-A001",
+      "message": "Invalid value for type_unite: atome_pont_document_maitre",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/tomeo_dance_dance_dance/atoms_dm_s13_interzone_rave_bridge.md",
+      "record_id": "S13-DM-A001",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
     },
     {
       "level": "warning",
@@ -62401,6 +63124,566 @@
       "record_id": "S39-PART-MODERNITE-LIQUIDE-RECEPTION-V2",
       "message": "Invalid value for type_unite: source_part",
       "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A001",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A001",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A001",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A001",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A001",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A001",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A001",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A001",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A001",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A001",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A002",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A002",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A002",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A002",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A002",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A002",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A002",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A002",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A002",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A002",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A003",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A003",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A003",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A003",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A003",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A003",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A003",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A003",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A003",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A003",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A004",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A004",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A004",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A004",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A004",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A004",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A004",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A004",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A004",
+      "message": "Invalid value for type_unite: motif_majeur",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A004",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A005",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A005",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A005",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A005",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A005",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A005",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A005",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A005",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A005",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A005",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A006",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A006",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A006",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A006",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A006",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A006",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A006",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A006",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A006",
+      "message": "Invalid value for type_unite: lecture_reception",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A006",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A007",
+      "message": "Missing required field: auteur",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A007",
+      "message": "Missing required field: concepts",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A007",
+      "message": "Missing required field: chapitres",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A007",
+      "message": "Missing required field: statut",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "missing_required_field",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A007",
+      "message": "Missing required field: fiabilite",
+      "suggested_action": "Compléter le champ obligatoire."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A007",
+      "message": "Missing required field: stabilite",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A007",
+      "message": "Missing required field: liens_interchapitres",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "v2_migration_debt",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A007",
+      "message": "Missing required field: liens_citations",
+      "suggested_action": "Reporter dans la migration v2 des atomes ; ne pas traiter comme blocage immédiat."
+    },
+    {
+      "level": "warning",
+      "category": "invalid_controlled_value",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A007",
+      "message": "Invalid value for type_unite: concept_reception",
+      "suggested_action": "Aligner la valeur avec le schéma contrôlé."
+    },
+    {
+      "level": "warning",
+      "category": "schema_warning",
+      "file": "sources/bauman_liquid_modernity/atoms_dm_s39_modernite_liquide.md",
+      "record_id": "S39-A007",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "suggested_action": "Examiner le bloc et décider s’il relève d’une correction ou de la dette v2."
     },
     {
       "level": "warning",
