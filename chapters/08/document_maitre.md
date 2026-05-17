@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T12:07:13"
+generated_at: "2026-05-17T13:10:09"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 249 |
+| Atomes | 250 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 11 |
-| Événements chronologiques | 23 |
-| Personnes | 10 |
+| Citations | 12 |
+| Événements chronologiques | 24 |
+| Personnes | 12 |
 | Chansons | 4 |
-| Sources mobilisées | 15 |
+| Sources mobilisées | 16 |
 
 ## 4. Sources mobilisées
 
@@ -41,6 +41,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 9 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 9 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 2 | 2 |
+| S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
@@ -56,6 +57,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S13-A008** — S13-A008 — Haçienda : du deuil de Curtis à la scène acid house  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `lieu_institution` ; importance : `critique` ; preuve : `source critique secondaire`.
+- **S34-A002** — S34-A002 — Grant Gee : Joy Division comme histoire d’une ville plutôt que d’un groupe  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `archive` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_visuelle`.
 - **S41-A032** — S41-A032 — Rafters / Fast Breeder : Hannett, Erasmus et la scène comme guerre de rang  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_conflit` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A034** — S41-A034 — Warsaw demo : Pennine Sound et futur audible dans *The Kill*  
@@ -120,8 +123,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_discographique` ; importance : `critique` ; preuve : `synthèse rétrospective + presse à retrouver`.
 - **S41-A124** — S41-A124 — Piccadilly Radio : « Chance », « Atrocity Exhibition » et organ Woolworths  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
-- **S41-A126** — S41-A126 — « Transmission » : single choisi par puissance live et non logique album  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -217,6 +218,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_factory` ; importance : `majeur` ; preuve : `chronologie éditoriale`.
 - **S41-A122** — S41-A122 — 10 000 copies à porter : l’album culte comme charge d’escalier  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_discographique` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
+- **S41-A126** — S41-A126 — « Transmission » : single choisi par puissance live et non logique album  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chanson_single` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
 - **S41-A142** — S41-A142 — « Atmosphere » / Licht und Blindheit : chef-d’œuvre placé dans un circuit limité  
@@ -283,8 +286,6 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet audiovisuel vérifiable`.
 - **S41-A214** — S41-A214 — « Atrocity Exhibition » : échange d’instruments et colère contre Hannett  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct d’interprète`.
-- **S41-A215** — S41-A215 — « Isolation » : simplicité, synthés, batterie séparée et edit sauvé  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau_studio` ; importance : `critique` ; preuve : `témoignage direct + analyse technique`.
 
 ## 7. Citations disponibles
 
@@ -292,6 +293,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - **S76-Q132** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q166** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q071** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S76-Q026** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q028** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q136** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -311,6 +313,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 - CHR-S76-1977-003 — Premier concert de Warsaw à l’Electric Circus, en ouverture de Buzzcocks, Penetration et John Cooper Clarke ; l’affichage et certaines mémoires entretiennent une confusion avec Stiff Kittens et The Prefects.
 - CHR-S76-1977-005 — Warsaw enregistre cinq morceaux à Pennine Sound Studios, Oldham, avec Steve Brotherdale à la batterie.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
+- CHR-S34-2007-001 — Le documentaire de Grant Gee devient dans S34 le support principal d’une lecture urbaine de Joy Division comme histoire de Manchester.
 - CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
 - CHR-S76-1980-006 — Joy Division joue à l’Effenaar d’Eindhoven avec Minny Pops. La performance est ensuite partiellement intégrée à la mémoire audiovisuelle du groupe, notamment par les images liées à *Here Are The Young Men*.
 - CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
@@ -328,6 +331,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 ## 9. Personnes et acteurs
 
+- PERS-S34-003 — Grant Gee
+- PERS-S34-004 — Tony Wilson
 - PERS-S75-017 — Derek Brandwood
 - PERS-S76-071 — Minny Pops
 - PERS-S76-016 — Terry Mason
@@ -568,9 +573,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | objet_discographique | 13 |
 | session_studio | 11 |
 | concert | 6 |
+| archive | 6 |
 | analyse_morceau | 6 |
 | analyse | 5 |
-| archive | 5 |
 | economie_discographique | 4 |
 | session_radio | 4 |
 | session | 3 |
@@ -687,7 +692,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 123 |
-| critique | 100 |
+| critique | 101 |
 | majeur | 18 |
 | majeure | 8 |
 

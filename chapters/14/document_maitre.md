@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T12:07:13"
+generated_at: "2026-05-17T13:10:09"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 851 |
+| Atomes | 856 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 97 |
-| Événements chronologiques | 60 |
-| Personnes | 78 |
-| Chansons | 10 |
-| Sources mobilisées | 27 |
+| Citations | 98 |
+| Événements chronologiques | 62 |
+| Personnes | 81 |
+| Chansons | 11 |
+| Sources mobilisées | 28 |
 
 ## 4. Sources mobilisées
 
@@ -49,6 +49,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 12 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 4 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 18 | 5 |
+| S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 5 | 1 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
@@ -78,6 +79,12 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mythe_prudence` ; importance : `critique` ; preuve : `forte`.
 - **S29-A018** — S29-A018 — Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `critique_historiographique` ; importance : `critique` ; preuve : `forte`.
+- **S34-A001** — S34-A001 — S34 comme source critique urbaine, non comme source biographique  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S34-A002** — S34-A002 — Grant Gee : Joy Division comme histoire d’une ville plutôt que d’un groupe  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `archive` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_visuelle`.
+- **S34-A011** — S34-A011 — Manchester comme matrice critique à nuancer par Crosthwaite et Goddard  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `controverse` ; importance : `critique` ; preuve : `prudence_methodologique`.
 - **S41-A005** — S41-A005 — Les mates de Salford : public intime, violence ordinaire et honte du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_sociale_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A006** — S41-A006 — Premier concert Joy Division : naissance publique dans l’échec  
@@ -128,12 +135,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `review rapportée + chronologie`.
 - **S41-A107** — S41-A107 — John Peel Session : validation radiophonique et prestige supérieur au chart placing  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_radio` ; importance : `critique` ; preuve : `témoignage direct + fait radiophonique établi`.
-- **S41-A114** — S41-A114 — Bowdon Vale : Joy Division presque achevé avant l’album  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_pre_album` ; importance : `critique` ; preuve : `témoignage direct + archive filmique`.
-- **S41-A120** — S41-A120 — Anti-image : Saville, anonymat, grisaille et refus du rock portraituré  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet visuel documenté`.
-- **S41-A121** — S41-A121 — Silence aux journalistes : Gretton interdit Hook/Sumner et fabrique malgré lui la mystique  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `strategie_medias` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -358,6 +359,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S76-1979-026 — S76 clôt 1979 sur le dernier réveillon de Ian Curtis, en le présentant comme seuil rétrospectif avant la tournée européenne et la reprise de la relation avec Annik Honoré.
 - CHR-S76-1980-001 — À Amsterdam, pendant la tournée européenne de Joy Division, Annik Honoré rapporte que sa relation avec Ian Curtis reprend et devient assumée comme relation amoureuse durable dans sa mémoire.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
+- CHR-S34-1979-002 — S34 lit « Transmission » comme exemple d’une lecture urbaine de la forme musicale : rythme, radio, danse et répétition.
+- CHR-S34-2007-001 — Le documentaire de Grant Gee devient dans S34 le support principal d’une lecture urbaine de Joy Division comme histoire de Manchester.
 - CHR-S76-1980-003 — Joy Division joue au Paradiso d’Amsterdam pendant la tournée européenne. Le concert devient une archive live majeure et constitue aussi, dans S76, une scène intime liée à Annik Honoré.
 - CHR-S76-1980-004 — Joy Division joue au Basement de Cologne, dans un lieu souterrain à l’acoustique et à l’atmosphère marquantes. S76 en fait une étape allemande forte de la tournée européenne.
 - CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
@@ -381,8 +384,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - CHR-S75-1979-002 — Première Peel Session de Joy Division pour Radio One, diffusée le 14 février 1979 selon Ott.
 - CHR-1979-002 — Sortie de l’album Unknown Pleasures chez Factory Records.
 - CHR-1980-002 — Dernier concert officiel de Joy Division à Birmingham University.
-- CHR-1980-003 — Suicide de Ian Curtis à Macclesfield.
-- CHR-1980-004 — Sortie posthume de l’album Closer.
 
 ## 9. Personnes et acteurs
 
@@ -401,6 +402,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-051 — Tony Davidson / T. J. Davidson
 - PERS-S76-053 — Mark Reeder
 - PERS-S76-054 — Alan Wise
+- PERS-S34-003 — Grant Gee
+- PERS-S34-004 — Tony Wilson
+- PERS-S34-009 — Jane Jacobs
 - PERS-S75-021 — John Peel
 - PERS-S75-023 — Kevin Cummins
 - PERS-S75-024 — Alan Erasmus
@@ -423,9 +427,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - PERS-S76-044 — John Anderson
 - PERS-S76-080 — Alan Hempsall
 - PERS-S76-081 — Simon Topping
-- PERS-S76-082 — Perry Boys
-- PERS-S76-083 — Larry Cassidy
-- PERS-S76-037 — Rob Gretton
 
 ## 10. Chansons rattachées
 
@@ -439,6 +440,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Decades
 - Ceremony
 - SONG-S75-003 — Disorder
+- SONG-S34-003 — Transmission
 
 ## 11. Concepts récurrents
 
@@ -452,7 +454,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - NME (16)
 - Rob Gretton (16)
 - Love Will Tear Us Apart (16)
-- prudence historiographique (15)
+- prudence historiographique (16)
 - Atmosphere (14)
 - réception (13)
 - new order (13)
@@ -532,11 +534,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Rob Gretton (16)
 - Peter Saville (10)
 - Buzzcocks tour (9)
+- Transmission (8)
 - Ian Curtis (8)
 - Unknown Pleasures (8)
 - Factory (8)
 - fatigue (8)
-- Transmission (7)
 - John Peel (6)
 - Electric Circus (6)
 - Kevin Cummins (6)
@@ -555,6 +557,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Strawberry Studios (4)
 - NME (4)
 - Haçienda (4)
+- radio (4)
 - Ceremony (4)
 - Decades (4)
 - Control (4)
@@ -566,7 +569,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Licht und Blindheit (4)
 - Dead Souls (4)
 - épilepsie (4)
-- Sister Ray (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -665,20 +667,20 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | objet_discographique | 12 |
 | discographie | 11 |
 | synthese | 10 |
+| archive | 10 |
 | reception_poll | 10 |
 | reception_critique | 9 |
 | prudence_methodologique | 9 |
-| archive | 9 |
 | production | 8 |
 | contrepoint | 8 |
 | scene_fondatrice | 8 |
+| lecture | 8 |
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
+| controverse | 7 |
 | fait | 7 |
 | source_part | 6 |
-| lecture | 6 |
-| controverse | 6 |
 | objet_audiovisuel | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
@@ -697,6 +699,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | concert | 4 |
 | projet_avorte | 4 |
 | fait_interprete | 4 |
+| concept | 4 |
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | session_studio | 4 |
@@ -722,7 +725,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | chanson_transition | 3 |
 | design | 3 |
 | lecture_biographique | 3 |
-| concept | 3 |
 | objet_visuel | 3 |
 | decision_strategique | 3 |
 | conclusion_historiographique | 3 |
@@ -1094,8 +1096,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 225 |
-| majeure | 42 |
+| critique | 228 |
+| majeure | 44 |
 | majeur | 28 |
 | structurante | 2 |
 | moyenne | 2 |

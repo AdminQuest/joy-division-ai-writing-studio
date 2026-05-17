@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T12:07:13"
+generated_at: "2026-05-17T13:10:09"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 110 |
-| Atomes critiques / majeurs | 34 |
+| Atomes | 112 |
+| Atomes critiques / majeurs | 35 |
 | Citations | 9 |
-| Événements chronologiques | 12 |
+| Événements chronologiques | 13 |
 | Personnes | 16 |
-| Chansons | 12 |
-| Sources mobilisées | 13 |
+| Chansons | 16 |
+| Sources mobilisées | 14 |
 
 ## 4. Sources mobilisées
 
@@ -39,6 +39,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S13 | S13 — Tomeo, Dance Dance Dance!, 2021 | 7 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 6 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 13 | 3 |
+| S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
@@ -64,6 +65,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `critique` ; preuve : `forte`.
 - **S29-A020** — S29-A020 — « Dead Souls » : le titre littéraire devient dispositif de hantise, non commentaire de Gogol  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `forte`.
+- **S34-A007** — S34-A007 — « Interzone » : marche urbaine, fuite impossible et monotonie du bâti  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
@@ -112,12 +115,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept_theorique` ; importance : `majeure` ; preuve : `forte`.
 - **S29-A017** — S29-A017 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
+- **S34-A009** — S34-A009 — « Transmission » : danse, radio et énergie urbaine  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S13-A006** — S13-A006 — « No language, just sound » : de la parole au signal corporel  
-  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `motif_textuel` ; importance : `majeur` ; preuve : `analyse textuelle secondaire`.
 
 ## 6. Autres atomes utiles
 
@@ -137,6 +140,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S10 — Sumner, Chapter and Verse, 2014/2015 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte, mais témoignage rétrospectif à croiser`.
 - **S13-A001** — S13-A001 — Manchester sous Thatcher : scène apocalyptique et résistance musicale  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `contexte_critique` ; importance : `majeur` ; preuve : `source critique secondaire`.
+- **S13-A006** — S13-A006 — « No language, just sound » : de la parole au signal corporel  
+  Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `motif_textuel` ; importance : `majeur` ; preuve : `analyse textuelle secondaire`.
 - **S13-A007** — S13-A007 — Unknown Pleasures : laboratoire sonore, bruit et spatialisation  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `economie_sonore` ; importance : `majeur` ; preuve : `lecture critique ; faits techniques à corroborer`.
 - **S26-A001** — S26-A001 — Post-punk now : retour critique, non simple nostalgie  
@@ -294,6 +299,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - CHR-S75-1980-005 — Concert au Rainbow Theatre de Londres ; les stroboscopes déclenchent une crise pendant le set selon Ott.
 - CHR-S75-1980-007 — Concert de Derby Hall à Bury avec Alan Hempsall sur certains titres ; le set dégénère en émeute autour de « Sister Ray ».
 - CHR-S75-1980-008 — Dernier concert de Joy Division à Birmingham University, enregistré par Martin Hannett et publié en partie sur *Still*.
+- CHR-S34-1979-002 — S34 lit « Transmission » comme exemple d’une lecture urbaine de la forme musicale : rythme, radio, danse et répétition.
 - CHR-S29-1977-001 — Goddard mobilise Berardi et Fisher pour lire 1977 comme seuil d’une sensibilité punk/post-punk où le futur moderniste s’épuise.
 - CHR-S29-1979-001 — Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.
 - CHR-S29-1980-001 — Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.
@@ -334,6 +340,10 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - She's Lost Control
 - SONG-S75-003 — Disorder
 - SONG-S75-012 — Transmission
+- SONG-S34-002 — Interzone
+- SONG-S34-003 — Transmission
+- SONG-S34-005 — Dead Souls
+- SONG-S34-006 — Atmosphere
 
 ## 11. Concepts récurrents
 
@@ -422,10 +432,11 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 ### 12.1. Motifs dominants
 
-- Transmission (3)
+- Transmission (4)
+- radio (3)
 - silence (3)
 - post-punk (2)
-- radio (2)
+- danse (2)
 - Hannett (2)
 - électronique (2)
 - objet disque (2)
@@ -448,7 +459,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - corps convulsif (1)
 - voix baritonale (1)
 - sacrifice scénique (1)
-- danse (1)
 - langage aboli (1)
 - no language just sound (1)
 - synchronisation (1)
@@ -559,6 +569,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | lecture_musicale | 4 |
 | reception | 4 |
 | scene_fondatrice | 4 |
+| lecture | 3 |
 | relation_esthetique | 2 |
 | concept_theorique | 2 |
 | temporalite_culturelle | 2 |
@@ -596,7 +607,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | institution | 1 |
 | session | 1 |
 | reception_posthume | 1 |
-| lecture | 1 |
 | temoignage_biographique | 1 |
 | motif_visuel | 1 |
 | acteur_image | 1 |
@@ -614,8 +624,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 73 |
-| critique | 29 |
-| majeure | 4 |
+| critique | 30 |
+| majeure | 5 |
 | majeur | 3 |
 | moyenne | 1 |
 
@@ -650,6 +660,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A060 [eleve] — risque symétrique de disculpation naïve ou d’accusation intentionnaliste
 - S74-A020 [moyen] — risque de lire Spiral Scratch uniquement comme prélude à Joy Division et non comme objet punk autonome
 - S74-A007 [moyen] — risque de téléologie biographique reliant trop directement les goûts adolescents à la politique esthétique de Factory
+- S34-A007 [eleve] — risque de citer trop longuement les paroles et de réduire la chanson à son contenu urbain
+- S34-A009 [moyen] — risque de surcharger « Transmission » d’une fonction théorique unique
 - S76-A005 [moyen] — souvenir d'enfance reconstruit quarante ans après les faits
 - S76-A012 [moyen] — risque de substituer un mythe Bowie au mythe punk comme origine unique
 - S76-A027 [moyen] — risque de causalité trop directe entre Iggy et la danse de Curtis

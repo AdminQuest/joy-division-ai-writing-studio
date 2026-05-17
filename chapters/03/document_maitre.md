@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T12:07:13"
+generated_at: "2026-05-17T13:10:09"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 319 |
+| Atomes | 327 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 27 |
-| Événements chronologiques | 19 |
-| Personnes | 20 |
-| Chansons | 18 |
-| Sources mobilisées | 19 |
+| Citations | 30 |
+| Événements chronologiques | 22 |
+| Personnes | 29 |
+| Chansons | 25 |
+| Sources mobilisées | 20 |
 
 ## 4. Sources mobilisées
 
@@ -42,6 +42,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 8 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 2 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 5 | 0 |
+| S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 8 | 3 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
@@ -58,6 +59,18 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 - **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `critique` ; preuve : `forte`.
+- **S34-A001** — S34-A001 — S34 comme source critique urbaine, non comme source biographique  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S34-A004** — S34-A004 — Urbanization of consciousness : Simmel, Harvey et la perception métropolitaine  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `concept_theorique`.
+- **S34-A006** — S34-A006 — « Shadowplay » : Granada, centre-ville nocturne et projection urbaine  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_televisuelle`.
+- **S34-A007** — S34-A007 — « Interzone » : marche urbaine, fuite impossible et monotonie du bâti  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S34-A008** — S34-A008 — Espace sonore et aliénation : instruments séparés, production Hannett et ville moderne  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S34-A010** — S34-A010 — Lefebvre : espace vécu, espace conçu, espace perçu dans Joy Division  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `concept_theorique`.
 - **S41-A015** — S41-A015 — Acheter une basse : hasard instrumental, Mazel et naissance de Hooky bassiste  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_materielle` ; importance : `critique` ; preuve : `témoignage direct autobiographique`.
 - **S41-A016** — S41-A016 — Apprendre faux : trois doigts, stickers Tippex et style mélodique  
@@ -114,18 +127,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_esthetique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A124** — S41-A124 — Piccadilly Radio : « Chance », « Atrocity Exhibition » et organ Woolworths  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_radio` ; importance : `critique` ; preuve : `témoignage direct + session radio à vérifier`.
-- **S41-A127** — S41-A127 — Central Sound : « Novelty », « Something Must Break » et synthétiseur comme apprentissage  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct + session à croiser`.
-- **S41-A149** — S41-A149 — « Candidate » / « From Safety to Where » : commande d’écriture et guitare inversée  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_session` ; importance : `critique` ; preuve : `témoignage direct + détail technique à croiser`.
-- **S41-A150** — S41-A150 — « Insight » : basse motrice, lift Strawberry et vocal pumping  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
-- **S41-A155** — S41-A155 — « I Remember Nothing » : jam sans ordre, Transcendent 2000 et atmosphère finale  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct d’interprète + détails studio à croiser`.
-- **S41-A156** — S41-A156 — Timeline Four : 1979 comme année de superposition documentaire  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale + commentaires Hook`.
-- **S41-A160** — S41-A160 — Chronologie *Unknown Pleasures* : session, naissance de Natalie et sortie FACT 10  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale discographique`.
 
 ## 6. Autres atomes utiles
 
@@ -213,6 +214,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge`.
 - **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17** — S29 — Passe v2 bis — Goddard, *Heart and Soul*, chapitre 1  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; moyenne pour les faits biographiques rapportés ; à croiser pour P-Orridge, Curtis, Fisher et les citations de paroles`.
+- **S34-A009** — S34-A009 — « Transmission » : danse, radio et énergie urbaine  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S34-A012** — S34-A012 — Joy Division comme passerelle entre music sociology et urban studies  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S41-004** — S41-004 — Kraftwerk comme musique d’entrée et indice de déplacement esthétique  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `fait` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S41-017** — S41-017 — Achat de la première basse chez Mazel’s  
@@ -285,10 +290,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_materielle` ; importance : `majeur` ; preuve : `témoignage direct de Peter Hook`.
 - **S41-A022** — S41-A022 — Terry Mason : membre périphérique, distortion accidentelle et mémoire du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `personne_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A031** — S41-A031 — Tony Tabac puis Steve Brotherdale : batteurs transitoires et adéquation de phase  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `personnel_groupe` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A147** — S41-A147 — « Disorder » : erreurs de basse devenues partie du morceau  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `majeur` ; preuve : `témoignage direct d’interprète + analyse rétrospective`.
 
 ## 7. Citations disponibles
 
@@ -311,6 +312,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - **S75-Q016** — S75 — Ott, Joy Division's Unknown Pleasures, 2004 — statut : `candidate` — «  »
 - **S76-Q128** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q076** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S34-Q003** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
+- **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
+- **S34-Q006** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
 - **S76-Q155** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q104** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
@@ -325,6 +329,9 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - CHR-S75-1979-009 — Après des sessions abortives à Central Sound, Joy Division et Martin Hannett enregistrent « Transmission » à Strawberry Studios.
 - CHR-S75-1979-012 — Enregistrement de « Atmosphere », « Dead Souls » et « Ice Age » à Cargo Studios pour le single *Licht und Blindheit*.
 - CHR-S76-1979-024 — Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.
+- CHR-S34-1978-001 — Joy Division apparaît dans Granada Reports et interprète « Shadowplay » avec des images urbaines synchronisées, selon l’analyse de S34.
+- CHR-S34-1979-001 — S34 mobilise *Unknown Pleasures* comme forme spatiale : faces Inside / Outside, espace sonore, séparation instrumentale et ville intérieure.
+- CHR-S34-1979-002 — S34 lit « Transmission » comme exemple d’une lecture urbaine de la forme musicale : rythme, radio, danse et répétition.
 - CHR-S76-1980-002 — Joy Division enregistre aux Pennine Sound Studios une première version de « Love Will Tear Us Apart », avec « These Days » et « The Sound of Music ». La session précède la version canonique ultérieure et documente un état encore insatisfaisant de la chanson.
 - CHR-S76-1978-016 — Joy Division enregistre « Digital » et « Glass » à Cargo Studios, à Rochdale, avec Martin Hannett, pour *The Factory Sample*. La session associe l’entrée effective dans Factory, le financement de Tony Wilson, le dispositif Cargo et l’usage récent de l’AMS Digital Delay par Hannett.
 - CHR-S29-1980-001 — Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.
@@ -351,6 +358,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - PERS-004 — Stephen Morris
 - PERS-008 — Martin Hannett
 - PERS-012 — John Brierley
+- PERS-S34-001 — Benjamin Fraser
+- PERS-S34-002 — Abby Fuoto
+- PERS-S34-006 — Henri Lefebvre
+- PERS-S34-007 — Georg Simmel
+- PERS-S34-008 — David Harvey
+- PERS-S34-009 — Jane Jacobs
+- PERS-S34-010 — Ian Curtis
+- PERS-S34-011 — Martin Hannett
+- PERS-S34-012 — Paul Morley
 - PERS-S75-019 — John Anderson
 - PERS-S75-020 — Bob Auger
 - PERS-S75-021 — John Peel
@@ -385,11 +401,18 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - SONG-S75-013 — Exercise One
 - SONG-S75-014 — Insight
 - SONG-S75-015 — She’s Lost Control
+- SONG-S34-001 — Shadowplay
+- SONG-S34-002 — Interzone
+- SONG-S34-003 — Transmission
+- SONG-S34-004 — Disorder
+- SONG-S34-005 — Dead Souls
+- SONG-S34-006 — Atmosphere
+- SONG-S34-007 — I Remember Nothing
 
 ## 11. Concepts récurrents
 
 - Martin Hannett (21)
-- architecture sonore (16)
+- architecture sonore (17)
 - Unknown Pleasures (14)
 - Ian Curtis (11)
 - post-punk (10)
@@ -477,16 +500,17 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Unknown Pleasures (9)
 - Martin Hannett (9)
 - Strawberry Studios (8)
+- Transmission (7)
+- Shadowplay (6)
+- Interzone (6)
 - Digital (6)
-- Transmission (6)
 - Britannia Row (5)
 - RCA (5)
-- Shadowplay (5)
-- Interzone (5)
 - Glass (5)
 - Atmosphere (5)
 - Velvet Underground (4)
 - Stephen Morris (4)
+- radio (4)
 - Peter Hook (3)
 - Closer (3)
 - Arrow Studios (3)
@@ -497,7 +521,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - Ice Age (3)
 - Atrocity Exhibition (3)
 - Cargo Studios (3)
-- radio (3)
 - domesticité (3)
 - basse (2)
 - Bernard Sumner (2)
@@ -610,14 +633,15 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | analyse | 10 |
 | lecture_musicale | 10 |
 | processus_creatif | 9 |
+| concept | 9 |
 | fait | 9 |
 | session | 7 |
 | source_part | 7 |
 | lieu_studio | 5 |
-| concept | 5 |
 | session_radio | 4 |
 | discographie | 4 |
 | reception_critique | 4 |
+| lecture | 4 |
 | analyse_morceau_studio | 3 |
 | interpretation_studio | 3 |
 | reception_presse | 3 |
@@ -748,8 +772,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 211 |
-| critique | 87 |
-| majeure | 11 |
+| critique | 93 |
+| majeure | 13 |
 | majeur | 10 |
 
 ## 14. Risques de surinterprétation et points de vigilance

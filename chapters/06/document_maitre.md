@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 6"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T12:07:13"
+generated_at: "2026-05-17T13:10:09"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,19 +22,20 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 424 |
+| Atomes | 425 |
 | Atomes critiques / majeurs | 35 |
-| Citations | 54 |
-| Événements chronologiques | 37 |
-| Personnes | 37 |
-| Chansons | 17 |
-| Sources mobilisées | 11 |
+| Citations | 55 |
+| Événements chronologiques | 38 |
+| Personnes | 39 |
+| Chansons | 19 |
+| Sources mobilisées | 12 |
 
 ## 4. Sources mobilisées
 
 | ID | Source | Atomes | Citations |
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 3 | 0 |
+| S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 141 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 49 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 19 | 0 |
@@ -48,6 +49,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 ## 5. Atomes critiques ou majeurs
 
+- **S34-A008** — S34-A008 — Espace sonore et aliénation : instruments séparés, production Hannett et ville moderne  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S41-A005** — S41-A005 — Les mates de Salford : public intime, violence ordinaire et honte du groupe  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_sociale_live` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A006** — S41-A006 — Premier concert Joy Division : naissance publique dans l’échec  
@@ -116,8 +119,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage direct + archive télévisuelle existante`.
 - **S41-A079** — S41-A079 — *A Factory Sample* : confiance sans contrat et perte possible d’un single  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_discographique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A087** — S41-A087 — Brunel : crachats, basse comme arme et fin anticipée du set  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `critique` ; preuve : `témoignage direct`.
 
 ## 6. Autres atomes utiles
 
@@ -227,6 +228,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_sociale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A086** — S41-A086 — Rezillos / Undertones : premier séjour hors domicile et inadéquation power-pop  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_tournee` ; importance : `majeur` ; preuve : `témoignage direct`.
+- **S41-A087** — S41-A087 — Brunel : crachats, basse comme arme et fin anticipée du set  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_violence` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S41-A088** — S41-A088 — Pete Shelley sous la pluie de crachats : norme punk et limite corporelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_comparative` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A089** — S41-A089 — Locarno Bristol : éviction de tournée, Chelsea et violence Manc/Cockney  
@@ -279,8 +282,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_reseau` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A132** — S41-A132 — M5 : accident du van et fin du bassiste-chauffeur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_logistique` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
-- **S41-A138** — S41-A138 — Buzzcocks tour : professionnalisation pauvre et renversement de hiérarchie  
-  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `economie_tournee` ; importance : `critique` ; preuve : `témoignage direct + contexte de tournée établi`.
 
 ## 7. Citations disponibles
 
@@ -309,6 +310,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q069** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q074** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q176** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S34-Q005** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S76-Q022** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q027** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q137** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `paraphrase_candidate` — «  »
@@ -323,7 +325,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - **S76-Q108** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q109** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q110** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
-- **S76-Q116** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
@@ -333,6 +334,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - CHR-S75-1980-004 — Joy Division enregistre *Closer* à Britannia Row avec Martin Hannett, dans un contexte personnel très tendu mais sans conscience collective d'un testament.
 - CHR-S76-1979-023 — Joy Division joue deux soirs au Rainbow Theatre de Londres en première partie de Buzzcocks. Les concerts donnent une visibilité londonienne majeure à un répertoire déjà en transition vers les formes de 1980.
 - CHR-S76-1979-024 — Joy Division enregistre à Cargo Studios les titres associés à la séquence Sordide / post-*Unknown Pleasures*, notamment « Atmosphere », « Dead Souls » et « Ice Age », avec Martin Hannett.
+- CHR-S34-1979-001 — S34 mobilise *Unknown Pleasures* comme forme spatiale : faces Inside / Outside, espace sonore, séparation instrumentale et ville intérieure.
 - CHR-S76-1980-002 — Joy Division enregistre aux Pennine Sound Studios une première version de « Love Will Tear Us Apart », avec « These Days » et « The Sound of Music ». La session précède la version canonique ultérieure et documente un état encore insatisfaisant de la chanson.
 - CHR-S76-1980-005 — Joy Division joue au Plan K de Bruxelles. Le concert est associé à une setlist de transition incluant « The Eternal » et une reprise de « Sister Ray », selon S76 et les recoupements de concert listing.
 - CHR-S76-1978-009 — Après les sessions RCA / Arrow et l’échec du projet d’album, Rob Gretton prend en charge la sortie contractuelle du groupe. Il contacte John Anderson, exige 10 000 livres et 15 % de royalties si le disque paraît, puis obtient une sortie fondée sur l’inapplicabilité du contrat d’édition américain en droit britannique. Le rachat des bandes est ramené de 1 000 à 850 livres selon S76.
@@ -372,6 +374,8 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - PERS-001 — Ian Curtis
 - PERS-008 — Martin Hannett
 - PERS-010 — Annick Honoré
+- PERS-S34-011 — Martin Hannett
+- PERS-S34-012 — Paul Morley
 - PERS-S75-021 — John Peel
 - PERS-S75-022 — Martin Rushent
 - PERS-S75-024 — Alan Erasmus
@@ -424,12 +428,14 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 - SONG-S75-010 — Digital
 - SONG-S75-011 — Glass
 - SONG-S75-014 — Insight
+- SONG-S34-004 — Disorder
+- SONG-S34-007 — I Remember Nothing
 
 ## 11. Concepts récurrents
 
 - Closer (17)
+- architecture sonore (16)
 - Still (15)
-- architecture sonore (15)
 - Ian Curtis (14)
 - Atmosphere (9)
 - Transmission (9)
@@ -675,6 +681,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | television | 3 |
 | discographie_album | 3 |
 | evenement_live | 3 |
+| concept | 3 |
 | versions_chanson | 3 |
 | release_or_session | 3 |
 | tension_interne | 2 |
@@ -700,7 +707,6 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 | réception | 2 |
 | chronologie | 2 |
 | lecture | 2 |
-| concept | 2 |
 | temoignage | 2 |
 | outtakes | 2 |
 | session_album | 2 |
@@ -883,7 +889,7 @@ Montrer comment la production, l’espace sonore et la forme-album transforment 
 
 | Importance | Nombre |
 |---|---|
-| critique | 195 |
+| critique | 196 |
 | non qualifiée | 157 |
 | majeur | 47 |
 | majeure | 24 |

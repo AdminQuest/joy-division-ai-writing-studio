@@ -12423,996 +12423,6 @@
   },
   {
     "kind": "atom",
-    "id": "S29-A001",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A001 — Goddard comme source critique hauntologique, non comme source biographique primaire",
-    "data": {
-      "id": "S29-A001",
-      "type_unite": "lecture",
-      "titre": "Goddard comme source critique hauntologique, non comme source biographique primaire",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          34,
-          47
-        ],
-        "imprimees": [
-          3,
-          16
-        ]
-      },
-      "citation": null,
-      "resume": "Le chapitre de Goddard construit une lecture théorique de Joy Division : hauntology, industrial music, modernisme littéraire, ruines urbaines et spectralité de l’enregistrement. Sa valeur principale est critique et relationnelle. Il ne doit pas être mobilisé comme preuve primaire sur les intentions de Curtis, sur les faits biographiques ou sur les relations personnelles avec Genesis P-Orridge.\n",
-      "role_argumentatif": [
-        "fixer le statut documentaire de S29 dans le repo",
-        "éviter l’usage factuel abusif d’une source critique",
-        "installer une grille d’analyse transversale pour Manchester, le son et la postérité"
-      ],
-      "niveau_preuve": {
-        "statut": "interpretation_critique",
-        "corroboration": "forte_comme_cadre_theorique",
-        "confiance": "forte"
-      },
-      "stabilite": {
-        "statut": "stable"
-      },
-      "importance": {
-        "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "eleve",
-        "raison": "risque de transformer une lecture hauntologique en preuve d’intention ou en biographie psychologique"
-      },
-      "motifs": [
-        "hauntology",
-        "source critique",
-        "prudence historiographique"
-      ],
-      "concepts_derives": [
-        "source critique relationnelle",
-        "cadre hauntologique"
-      ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "CONCEPT-004",
-          "note": "S29 oblige à distinguer cadre critique, preuve factuelle et mythologie posthume."
-        },
-        {
-          "type": "nuance",
-          "cible": "MYTH-002",
-          "note": "La lecture de Curtis comme figure spectrale doit rester une construction critique, non une essence biographique."
-        }
-      ],
-      "couche_narrative": [
-        "methodologique",
-        "critique"
-      ],
-      "usage_livre": [
-        "Chapitre 1",
-        "Chapitre 3",
-        "Chapitre 7",
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A002",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A002 — Joy Division et industrial music : proximité hauntologique plutôt qu’influence sonore directe",
-    "data": {
-      "id": "S29-A002",
-      "type_unite": "concept",
-      "titre": "Joy Division et industrial music : proximité hauntologique plutôt qu’influence sonore directe",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          34,
-          35,
-          42,
-          44
-        ],
-        "imprimees": [
-          3,
-          4,
-          11,
-          13
-        ]
-      },
-      "citation": null,
-      "resume": "Goddard situe Joy Division à proximité de l’industrial music, mais déplace la question de l’influence sonore vers celle des conditions partagées : paysages postindustriels, ruines de la modernité, modernisme littéraire, ésotérisme et vision de la société industrielle comme friche spirituelle. Throbbing Gristle et Cabaret Voltaire deviennent des points de comparaison, non des causes simples du son de Joy Division.\n",
-      "role_argumentatif": [
-        "remplacer le modèle causal de l’influence par un modèle de convergence",
-        "rattacher Joy Division à une constellation industrielle sans réduire son langage musical",
-        "préparer la réflexion sur la ville, le son et les ruines modernes"
-      ],
-      "niveau_preuve": {
-        "statut": "interpretation_critique",
-        "corroboration": "forte",
-        "confiance": "forte"
-      },
-      "stabilite": {
-        "statut": "stable"
-      },
-      "importance": {
-        "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "moyen",
-        "raison": "risque d’écrire que Throbbing Gristle influence directement Joy Division sans preuve sonore suffisante"
-      },
-      "motifs": [
-        "industrial music",
-        "postindustrial cityscapes",
-        "spiritual wasteland",
-        "ruines de la modernité"
-      ],
-      "concepts_derives": [
-        "convergence industrielle",
-        "hantise postindustrielle"
-      ],
-      "relations": [
-        {
-          "type": "nuance",
-          "cible": "MYTH-003",
-          "note": "La ville compte, mais comme constellation de ruines partagées, non comme matrice unique."
-        },
-        {
-          "type": "prépare",
-          "cible": "CONCEPT-S29-001",
-          "note": "Concept source-spécifique : convergence industrielle hauntologique."
-        },
-        {
-          "type": "relie",
-          "cible": "S29-A008",
-          "note": "Prépare la comparaison plus précise avec Throbbing Gristle."
-        }
-      ],
-      "couche_narrative": [
-        "sonore",
-        "urbaine",
-        "critique"
-      ],
-      "usage_livre": [
-        "Chapitre 1",
-        "Chapitre 3",
-        "Chapitre 7",
-        "Chapitre 14"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A003",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A003 — Sonic hauntology : Derrida, Fisher, Reynolds et spectralité de l’enregistrement",
-    "data": {
-      "id": "S29-A003",
-      "type_unite": "concept",
-      "titre": "Sonic hauntology : Derrida, Fisher, Reynolds et spectralité de l’enregistrement",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          35,
-          37
-        ],
-        "imprimees": [
-          4,
-          6
-        ]
-      },
-      "citation": null,
-      "resume": "Goddard articule la hauntology derridienne et son déplacement vers la sonic hauntology chez Mark Fisher et Simon Reynolds. L’enregistrement sonore est pensé comme un médium spectral : il fait revenir des voix, des contextes et des temps absents. La musique enregistrée de Joy Division peut ainsi être comprise comme archive hantée avant même sa mythologisation posthume.\n",
-      "role_argumentatif": [
-        "stabiliser le vocabulaire hauntologique utilisé dans le livre",
-        "distinguer spectralité technique de l’enregistrement et fascination morbide pour Curtis",
-        "relier archive, bootleg, réécoute et mémoire sonore"
-      ],
-      "niveau_preuve": {
-        "statut": "interpretation_theorique",
-        "corroboration": "forte",
-        "confiance": "forte"
-      },
-      "stabilite": {
-        "statut": "stable"
-      },
-      "importance": {
-        "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "moyen",
-        "raison": "risque de confondre spectralité de l’enregistrement, occultisme et simple nostalgie"
-      },
-      "motifs": [
-        "spectralité",
-        "enregistrement",
-        "archive sonore",
-        "voix absente"
-      ],
-      "concepts_derives": [
-        "sonic hauntology",
-        "spectralité enregistrée"
-      ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "CONCEPT-S29-002",
-          "note": "Concept source-spécifique : sonic hauntology."
-        },
-        {
-          "type": "prolonge",
-          "cible": "MOTIF-004",
-          "note": "La culture bootleg relève aussi d’un régime de retour spectral."
-        },
-        {
-          "type": "prépare",
-          "cible": "S29-A010",
-          "note": "Prépare la persistance hauntologique de Joy Division."
-        }
-      ],
-      "couche_narrative": [
-        "theorique",
-        "sonore",
-        "archival"
-      ],
-      "usage_livre": [
-        "Chapitre 7",
-        "Chapitre 8",
-        "Chapitre 14"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A004",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A004 — Fisher hanté à son tour : quand le concept devient lui-même posthume",
-    "data": {
-      "id": "S29-A004",
-      "type_unite": "mythe",
-      "titre": "Fisher hanté à son tour : quand le concept devient lui-même posthume",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          35,
-          37
-        ],
-        "imprimees": [
-          4,
-          6
-        ]
-      },
-      "citation": null,
-      "resume": "Goddard indique que la mort de Mark Fisher rend inévitable, mais délicate, la mise en relation de Fisher et Curtis. Le rapprochement a une force critique, car Fisher écrit sur dépression, lost futures et Joy Division ; il présente aussi un risque de double mythologisation, où deux trajectoires posthumes se réfléchissent abusivement l’une l’autre.\n",
-      "role_argumentatif": [
-        "signaler un nœud critique Curtis / Fisher",
-        "préserver l’usage de Fisher sans fabriquer un roman de doubles tragiques",
-        "inscrire la prudence anti-morbide au cœur de la hauntology"
-      ],
-      "niveau_preuve": {
-        "statut": "interpretation_critique",
-        "corroboration": "forte",
-        "confiance": "forte"
-      },
-      "stabilite": {
-        "statut": "stable"
-      },
-      "importance": {
-        "niveau": "majeure"
-      },
-      "risque_surinterpretation": {
-        "niveau": "eleve",
-        "raison": "risque de faire de la mort une preuve esthétique ou de produire une symétrie Curtis/Fisher artificielle"
-      },
-      "motifs": [
-        "postmortem myth",
-        "Mark Fisher",
-        "Ian Curtis",
-        "dépression"
-      ],
-      "concepts_derives": [
-        "double hantise critique",
-        "mythe posthume réflexif"
-      ],
-      "relations": [
-        {
-          "type": "nuance",
-          "cible": "MYTH-002"
-        },
-        {
-          "type": "prépare",
-          "cible": "MYTH-S29-001",
-          "note": "Mythe source-spécifique : Curtis et Fisher comme doubles tragiques."
-        },
-        {
-          "type": "relie",
-          "cible": "S29-A009",
-          "note": "Relie le risque mythologique à la réflexion politique sur la dépression."
-        }
-      ],
-      "couche_narrative": [
-        "critique",
-        "methodologique"
-      ],
-      "usage_livre": [
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A005",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A005 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir",
-    "data": {
-      "id": "S29-A005",
-      "type_unite": "concept",
-      "titre": "« After the future » : 1977 comme seuil d’une sensibilité sans avenir",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          37,
-          38
-        ],
-        "imprimees": [
-          6,
-          7
-        ]
-      },
-      "citation": null,
-      "resume": "En mobilisant Berardi et Fisher, Goddard lit 1977 comme seuil d’une sensibilité « no future » : le futur moderniste, progressiste ou révolutionnaire s’épuise. Joy Division cristallise cette dyschronie, sans pour autant devenir une prophétie consciente du néolibéralisme ou du thatchérisme.\n",
-      "role_argumentatif": [
-        "inscrire Joy Division dans une crise de temporalité plutôt que dans une simple noirceur psychologique",
-        "relier punk, post-punk, Berardi, Fisher et capitalisme réaliste",
-        "éviter la téléologie rétrospective"
-      ],
-      "niveau_preuve": {
-        "statut": "interpretation_theorique",
-        "corroboration": "forte",
-        "confiance": "forte"
-      },
-      "stabilite": {
-        "statut": "stable"
-      },
-      "importance": {
-        "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "eleve",
-        "raison": "risque de transformer Joy Division en oracle politique ou en anticipation littérale de Thatcher"
-      },
-      "motifs": [
-        "no future",
-        "lost futures",
-        "dyschronia",
-        1977
-      ],
-      "concepts_derives": [
-        "cancellation of the future",
-        "sensibilité sans avenir"
-      ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "CONCEPT-S29-003",
-          "note": "Concept source-spécifique : cancellation of the future."
-        },
-        {
-          "type": "nuance",
-          "cible": "MYTH-002"
-        },
-        {
-          "type": "nuance",
-          "cible": "MYTH-003"
-        }
-      ],
-      "usage_livre": [
-        "Chapitre 1",
-        "Chapitre 7",
-        "Chapitre 14"
-      ],
-      "couche_narrative": [
-        "temporelle",
-        "politique",
-        "critique"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A006",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A006 — Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité",
-    "data": {
-      "id": "S29-A006",
-      "type_unite": "controverse",
-      "titre": "Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          38,
-          40
-        ],
-        "imprimees": [
-          7,
-          9
-        ]
-      },
-      "citation": null,
-      "resume": "Goddard reprend la critique par Paul Crosthwaite de l’« imaginative historicism » : Joy Division est souvent lu comme reflet de la décomposition du socialisme travailliste et anticipation du néolibéralisme. L’atome fixe une ligne de crête : Joy Division est historiquement situé, mais ne doit pas être réduit à Manchester, Thatcher ou à une temporalité prophétique.\n",
-      "role_argumentatif": [
-        "encadrer le chapitre 1 contre le déterminisme urbain",
-        "équilibrer inscription historique et excès spectral",
-        "déconstruire les lectures trop parfaites de Joy Division"
-      ],
-      "niveau_preuve": {
-        "statut": "critique_historiographique",
-        "corroboration": "forte",
-        "confiance": "forte"
-      },
-      "stabilite": {
-        "statut": "stable"
-      },
-      "importance": {
-        "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "eleve",
-        "raison": "risque double : déterminisme Manchester/Thatcher ou atemporalisation romantique du groupe"
-      },
-      "motifs": [
-        "imaginative historicism",
-        "Manchester",
-        "Thatcherism",
-        "atemporalité"
-      ],
-      "concepts_derives": [
-        "prudence anti-déterministe",
-        "inscription sans réduction"
-      ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "CONCEPT-004"
-        },
-        {
-          "type": "déconstruit",
-          "cible": "MYTH-003"
-        },
-        {
-          "type": "nuance",
-          "cible": "MYTH-002"
-        }
-      ],
-      "usage_livre": [
-        "Chapitre 1",
-        "Chapitre 14"
-      ],
-      "couche_narrative": [
-        "historiographique",
-        "methodologique"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A007",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A007 — Grant Gee contre *Control* : l’archive fragmentaire saisit mieux le temps disparu",
-    "data": {
-      "id": "S29-A007",
-      "type_unite": "archive_visuelle",
-      "titre": "Grant Gee contre Control : l’archive fragmentaire saisit mieux le temps disparu",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          39,
-          40
-        ],
-        "imprimees": [
-          8,
-          9
-        ]
-      },
-      "citation": null,
-      "resume": "Goddard, via Fisher, oppose l’efficacité hauntologique du documentaire de Grant Gee à la reconstitution biographique de *Control*. Le montage d’archives, de fragments filmés, d’entretiens et d’images d’un Manchester disparu produit une forme plus conforme à l’objet : Joy Division se comprend mieux par traces que par clôture narrative.\n",
-      "role_argumentatif": [
-        "relier Joy Division aux régimes d’archive audiovisuelle",
-        "nourrir la réflexion sur la mémoire filmée du groupe",
-        "éviter l’opposition simpliste documentaire vrai / fiction fausse"
-      ],
-      "niveau_preuve": {
-        "statut": "interpretation_critique",
-        "corroboration": "forte",
-        "confiance": "forte"
-      },
-      "stabilite": {
-        "statut": "stable"
-      },
-      "importance": {
-        "niveau": "majeure"
-      },
-      "risque_surinterpretation": {
-        "niveau": "moyen",
-        "raison": "l’opposition doit rester un outil de lecture, non un jugement définitif sur les œuvres"
-      },
-      "motifs": [
-        "archive fragmentaire",
-        "lieux disparus",
-        "cinéma",
-        "documentaire"
-      ],
-      "concepts_derives": [
-        "archive hantée",
-        "mémoire par fragments"
-      ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "CONCEPT-S29-002"
-        },
-        {
-          "type": "relie",
-          "cible": "MOTIF-004"
-        },
-        {
-          "type": "nuance",
-          "cible": "MYTH-002"
-        }
-      ],
-      "usage_livre": [
-        "Chapitre 8",
-        "Chapitre 14"
-      ],
-      "couche_narrative": [
-        "audiovisuelle",
-        "archival",
-        "critique"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A008",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A008 — Ruines du modernisme : Ballard, Kafka, Burroughs et Gogol comme voix incorporées",
-    "data": {
-      "id": "S29-A008",
-      "type_unite": "lecture",
-      "titre": "Ruines du modernisme : Ballard, Kafka, Burroughs et Gogol comme voix incorporées",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          40,
-          42
-        ],
-        "imprimees": [
-          9,
-          11
-        ]
-      },
-      "citation": null,
-      "resume": "Goddard lit les références littéraires de Joy Division comme des hantises incorporées plutôt que comme de simples adaptations. « Interzone », « Colony », « Atrocity Exhibition » et « Dead Souls » n’illustrent pas mécaniquement leurs hypotextes ; ils transforment Ballard, Kafka, Burroughs et Gogol en voix modernes intériorisées par Curtis.\n",
-      "role_argumentatif": [
-        "articuler littérature, son et expérience existentielle",
-        "éviter la lecture strictement référentielle des titres",
-        "renforcer la dimension moderniste de l’écriture de Curtis"
-      ],
-      "niveau_preuve": {
-        "statut": "interpretation_critique",
-        "corroboration": "forte",
-        "confiance": "forte"
-      },
-      "stabilite": {
-        "statut": "stable"
-      },
-      "importance": {
-        "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "moyen",
-        "raison": "risque de projeter une intention littéraire trop systématique sur Curtis"
-      },
-      "motifs": [
-        "modernisme littéraire",
-        "voix incorporées",
-        "possession",
-        "interzone intérieure"
-      ],
-      "concepts_derives": [
-        "modernisme incorporé",
-        "hantise littéraire"
-      ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "CONCEPT-S29-004",
-          "note": "Concept source-spécifique : modernisme incorporé."
-        },
-        {
-          "type": "relie",
-          "cible": "S29-A011"
-        },
-        {
-          "type": "prépare",
-          "cible": "S29-A012"
-        }
-      ],
-      "usage_livre": [
-        "Chapitre 5",
-        "Chapitre 7",
-        "Chapitre 11"
-      ],
-      "couche_narrative": [
-        "litteraire",
-        "critique"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A009",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A009 — Throbbing Gristle : affinités, occulture et témoin problématique",
-    "data": {
-      "id": "S29-A009",
-      "type_unite": "prudence_temoin",
-      "titre": "Throbbing Gristle : affinités, occulture et témoin problématique",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          34,
-          35,
-          42,
-          44
-        ],
-        "imprimees": [
-          3,
-          4,
-          11,
-          13
-        ]
-      },
-      "citation": null,
-      "resume": "Goddard rappelle les affirmations de Genesis P-Orridge sur Curtis, Throbbing Gristle et « Weeping », puis les fragilise explicitement à la lumière du témoignage de Cosey Fanni Tutti. La relation reste utile comme motif critique, mais elle doit être formulée avec prudence : P-Orridge est un témoin intéressé, instable et problématisé par la source elle-même.\n",
-      "role_argumentatif": [
-        "documenter l’affinité Joy Division / industrial music sans l’absolutiser",
-        "encadrer l’usage de P-Orridge comme témoin",
-        "éviter l’anecdote spectaculaire du « dernier appel » comme preuve forte"
-      ],
-      "niveau_preuve": {
-        "statut": "temoignage_rapporté_problématisé",
-        "corroboration": "faible_a_moyenne",
-        "confiance": "moyenne"
-      },
-      "stabilite": {
-        "statut": "fragile"
-      },
-      "importance": {
-        "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "eleve",
-        "raison": "P-Orridge peut aimanter une narration sensationnaliste et biographiquement faible"
-      },
-      "motifs": [
-        "Genesis P-Orridge",
-        "Throbbing Gristle",
-        "Weeping",
-        "témoin problématique"
-      ],
-      "concepts_derives": [
-        "affinité construite",
-        "témoignage instable"
-      ],
-      "relations": [
-        {
-          "type": "nuance",
-          "cible": "S29-A002"
-        },
-        {
-          "type": "prolonge",
-          "cible": "CONCEPT-004"
-        },
-        {
-          "type": "prépare",
-          "cible": "MYTH-S29-002",
-          "note": "Mythe source-spécifique : le dernier appel à P-Orridge comme preuve décisive."
-        }
-      ],
-      "usage_livre": [
-        "Chapitre 7",
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "couche_narrative": [
-        "critique",
-        "biographique_prudente"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A010",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A010 — « Dead Souls » : titre littéraire, possession et passé virtuel",
-    "data": {
-      "id": "S29-A010",
-      "type_unite": "lecture_chanson",
-      "titre": "« Dead Souls » : titre littéraire, possession et passé virtuel",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          34,
-          35,
-          43,
-          44
-        ],
-        "imprimees": [
-          3,
-          4,
-          12,
-          13
-        ]
-      },
-      "citation": null,
-      "resume": "Goddard soutient que « Dead Souls » relève moins d’une adaptation de Gogol que d’un dispositif de hantise : possession, appels du passé, régression, voix moqueuses et temporalité ancienne qui envahit le présent. La chanson devient un seuil entre littérature, occultisme et spectralité sonore.\n",
-      "role_argumentatif": [
-        "donner à « Dead Souls » un statut de chanson-pivot dans l’axe hauntologique",
-        "distinguer référence littéraire et dispositif de possession",
-        "relier chanson, titre, performance et imaginaire occultiste"
-      ],
-      "niveau_preuve": {
-        "statut": "interpretation_critique_appuyee_sur_ecoute",
-        "corroboration": "forte",
-        "confiance": "forte"
-      },
-      "stabilite": {
-        "statut": "stable"
-      },
-      "importance": {
-        "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "eleve",
-        "raison": "risque d’expliquer psychologiquement Curtis par l’occultisme ou de citer trop longuement les paroles"
-      },
-      "motifs": [
-        "Dead Souls",
-        "possession",
-        "past lives",
-        "appel du passé"
-      ],
-      "concepts_derives": [
-        "chanson-dispositif de hantise",
-        "passé virtuel"
-      ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "CONCEPT-S29-002"
-        },
-        {
-          "type": "relie",
-          "cible": "S29-A008"
-        },
-        {
-          "type": "nuance",
-          "cible": "MYTH-002"
-        }
-      ],
-      "usage_livre": [
-        "Chapitre 5",
-        "Chapitre 7",
-        "Chapitre 11"
-      ],
-      "couche_narrative": [
-        "chanson",
-        "litteraire",
-        "hauntologique"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A011",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A011 — De « The Eternal » à « Decades » : état liminaire entre vie, mort et mémoire collective",
-    "data": {
-      "id": "S29-A011",
-      "type_unite": "lecture_chanson",
-      "titre": "De « The Eternal » à « Decades » : état liminaire entre vie, mort et mémoire collective",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          43,
-          45
-        ],
-        "imprimees": [
-          12,
-          14
-        ]
-      },
-      "citation": null,
-      "resume": "Goddard lit les derniers titres de *Closer*, notamment « The Eternal » et « Decades », comme des formes d’état liminaire. Les chansons semblent parler depuis une zone intermédiaire, où le sujet observe son propre parcours, la mémoire collective des « young men » et une fermeture sans rédemption. L’atome est utile mais doit être manié sans téléologie posthume.\n",
-      "role_argumentatif": [
-        "relier la fin de *Closer* à la structure hauntologique du livre",
-        "éclairer la dimension collective du « young men » sans l’enfermer dans le suicide de Curtis",
-        "préparer l’analyse de la postérité et de la survivance sonore"
-      ],
-      "niveau_preuve": {
-        "statut": "interpretation_critique_appuyee_sur_ecoute",
-        "corroboration": "moyenne",
-        "confiance": "moyenne"
-      },
-      "stabilite": {
-        "statut": "assez_stable"
-      },
-      "importance": {
-        "niveau": "majeure"
-      },
-      "risque_surinterpretation": {
-        "niveau": "eleve",
-        "raison": "risque de lire *Closer* exclusivement à rebours de la mort de Curtis"
-      },
-      "motifs": [
-        "The Eternal",
-        "Decades",
-        "seuil",
-        "mémoire collective"
-      ],
-      "concepts_derives": [
-        "état liminaire",
-        "Bardo critique"
-      ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "MOTIF-006"
-        },
-        {
-          "type": "nuance",
-          "cible": "MYTH-002"
-        },
-        {
-          "type": "relie",
-          "cible": "S29-A005"
-        }
-      ],
-      "usage_livre": [
-        "Chapitre 7",
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "couche_narrative": [
-        "chanson",
-        "temporelle",
-        "critique"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
-    "id": "S29-A012",
-    "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-    "heading": "S29-A012 — Dépression, classe et exorcisme politique : Curtis et Fisher sans romantisation",
-    "data": {
-      "id": "S29-A012",
-      "type_unite": "concept",
-      "titre": "Dépression, classe et exorcisme politique : Curtis et Fisher sans romantisation",
-      "source_id": "S29",
-      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
-      "pages": {
-        "pdf": [
-          45,
-          47
-        ],
-        "imprimees": [
-          14,
-          16
-        ]
-      },
-      "citation": null,
-      "resume": "La conclusion de Goddard rapproche Curtis et Fisher autour d’une dépression comprise non comme simple état individuel, mais comme intériorisation de forces sociales. La musique ou l’écriture ne guérissent pas ; elles rendent expressive une pression politique et psychique. Cette ligne permet de parler de souffrance sans esthétiser le suicide.\n",
-      "role_argumentatif": [
-        "articuler mental health, classe et politique sans pathologiser l’œuvre",
-        "donner une issue critique à la hauntology",
-        "refuser le romantisme morbide du génie souffrant"
-      ],
-      "niveau_preuve": {
-        "statut": "interpretation_critique",
-        "corroboration": "forte_comme_cadre",
-        "confiance": "forte"
-      },
-      "stabilite": {
-        "statut": "stable"
-      },
-      "importance": {
-        "niveau": "critique"
-      },
-      "risque_surinterpretation": {
-        "niveau": "eleve",
-        "raison": "risque de transformer la dépression en esthétique ou de faire de l’art une compensation rédemptrice"
-      },
-      "motifs": [
-        "dépression",
-        "classe",
-        "austerity",
-        "exorcisme"
-      ],
-      "concepts_derives": [
-        "dépression socialisée",
-        "exorcisme politique"
-      ],
-      "relations": [
-        {
-          "type": "prolonge",
-          "cible": "CONCEPT-004"
-        },
-        {
-          "type": "nuance",
-          "cible": "MYTH-002"
-        },
-        {
-          "type": "relie",
-          "cible": "S29-A004"
-        },
-        {
-          "type": "relie",
-          "cible": "S29-A005"
-        }
-      ],
-      "usage_livre": [
-        "Chapitre 11",
-        "Chapitre 14"
-      ],
-      "couche_narrative": [
-        "politique",
-        "critique",
-        "methodologique"
-      ],
-      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
-      "source_year": "2018"
-    }
-  },
-  {
-    "kind": "atom",
     "id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2",
     "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
     "heading": "S29 — Passe v2 — Goddard, hauntology, industrial music, modernism and esotericism",
@@ -63491,6 +62501,1111 @@
       "source_label": "S74 — Middles, From Joy Division to New Order, 1996",
       "source_short_title": "Mick Middles, From Joy Division to New Order, 1996",
       "source_year": "1996"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A001",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A001 — S34 comme source critique urbaine, non comme source biographique",
+    "data": {
+      "id": "S34-A001",
+      "type_unite": "lecture",
+      "titre": "S34 comme source critique urbaine, non comme source biographique",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          139,
+          154
+        ],
+        "imprimees": [
+          139,
+          154
+        ]
+      },
+      "citation": null,
+      "resume": "Fraser et Fuoto proposent une lecture de Joy Division par la ville, en croisant analyse culturelle, urban studies, documentaire et production musicale. La source n’est pas une biographie de Curtis : elle déplace l’attention de la trajectoire individuelle vers la manière dont la ville moderne configure perception, aliénation, formes musicales et médiation documentaire.\n",
+      "role_argumentatif": [
+        "fixer le statut documentaire de S34",
+        "éviter l’usage biographique abusif de l’article",
+        "introduire Manchester comme matrice perceptive et critique"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "forte_comme_cadre",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque de transformer une lecture urbaine en déterminisme biographique ou géographique"
+      },
+      "motifs": [
+        "Manchester",
+        "urbanité",
+        "ville moderne",
+        "source critique"
+      ],
+      "concepts": [
+        "urban studies",
+        "music sociology",
+        "production musicale située"
+      ],
+      "concepts_derives": [
+        "matrice perceptive urbaine",
+        "critique urbaine de Joy Division"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-004",
+          "note": "S34 impose une prudence méthodologique : la ville éclaire Joy Division sans tout expliquer."
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-003",
+          "note": "La source aide à lire Manchester sans en faire une matrice unique."
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "liens_citations": [],
+      "couche_narrative": [
+        "methodologique",
+        "urbaine"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme source critique ; à croiser pour les faits biographiques et les citations de paroles",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A002",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A002 — Grant Gee : Joy Division comme histoire d’une ville plutôt que d’un groupe",
+    "data": {
+      "id": "S34-A002",
+      "type_unite": "archive",
+      "titre": "Grant Gee : Joy Division comme histoire d’une ville plutôt que d’un groupe",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          140,
+          141
+        ],
+        "imprimees": [
+          140,
+          141
+        ]
+      },
+      "citation": "the story of a city",
+      "resume": "L’article part du documentaire de Grant Gee et souligne que le film se présente d’abord comme une lecture urbaine. Le documentaire ne raconte pas seulement l’ascension d’un groupe ; il organise visuellement et discursivement Joy Division comme symptôme, expression et mémoire de Manchester.\n",
+      "role_argumentatif": [
+        "établir le documentaire comme médiation urbaine",
+        "relier film, ville et récit post-punk",
+        "préparer le passage de l’image documentaire à l’analyse musicale"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique_appuyee_sur_archive_visuelle",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque de confondre la thèse de Gee et l’analyse propre de Fraser et Fuoto"
+      },
+      "motifs": [
+        "documentaire",
+        "ville",
+        "archive audiovisuelle",
+        "Manchester nocturne"
+      ],
+      "concepts": [
+        "documentary cinema",
+        "lecture urbaine"
+      ],
+      "concepts_derives": [
+        "documentaire comme lecture urbaine"
+      ],
+      "relations": [
+        {
+          "type": "relie",
+          "cible": "S34-A001"
+        },
+        {
+          "type": "prolonge",
+          "cible": "S29-A007",
+          "note": "À croiser avec Goddard sur Grant Gee et l’archive fragmentaire."
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "liens_citations": [
+        "S34-Q001"
+      ],
+      "couche_narrative": [
+        "audiovisuelle",
+        "urbaine"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme analyse du dispositif documentaire",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A003",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A003 — Berman et Rauschenbusch : Manchester comme ville moderne contradictoire",
+    "data": {
+      "id": "S34-A003",
+      "type_unite": "concept",
+      "titre": "Berman et Rauschenbusch : Manchester comme ville moderne contradictoire",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          140,
+          141
+        ],
+        "imprimees": [
+          140,
+          141
+        ]
+      },
+      "citation": null,
+      "resume": "Fraser et Fuoto montrent que le début du documentaire de Gee oriente explicitement la réception vers une tradition de pensée urbaine : Berman fournit la modernité comme promesse et menace, Rauschenbusch la ville comme lieu de misère et de justice possible. Manchester apparaît alors comme ville moderne contradictoire.\n",
+      "role_argumentatif": [
+        "inscrire Joy Division dans une histoire longue de la modernité urbaine",
+        "éviter la réduction de Manchester à un décor industriel",
+        "relier culture post-punk et théorie de la ville moderne"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque d’alourdir le manuscrit par une généalogie théorique trop autonome"
+      },
+      "motifs": [
+        "modernité contradictoire",
+        "ville révolutionnaire",
+        "ruine"
+      ],
+      "concepts": [
+        "Marshall Berman",
+        "Walter Rauschenbusch",
+        "modernité urbaine"
+      ],
+      "concepts_derives": [
+        "ville comme promesse et destruction"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-S34-001"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-003"
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "liens_citations": [
+        "S34-Q002"
+      ],
+      "couche_narrative": [
+        "theorique",
+        "urbaine"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme cadrage théorique",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A004",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A004 — Urbanization of consciousness : Simmel, Harvey et la perception métropolitaine",
+    "data": {
+      "id": "S34-A004",
+      "type_unite": "concept",
+      "titre": "Urbanization of consciousness : Simmel, Harvey et la perception métropolitaine",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          141,
+          142
+        ],
+        "imprimees": [
+          141,
+          142
+        ]
+      },
+      "citation": "urbanization of consciousness",
+      "resume": "L’article stabilise l’idée que la ville ne relève pas seulement du bâti : elle transforme la conscience, les sensations, la distance affective et les formes de perception. Harvey, Simmel, Benjamin, de Certeau, Debord et Jacobs forment l’arrière-plan de cette écoute urbaine de Joy Division.\n",
+      "role_argumentatif": [
+        "donner une base théorique à l’écoute urbaine du groupe",
+        "relier ville, perception, aliénation et forme sonore",
+        "éviter une lecture purement paysagère ou décorative de Manchester"
+      ],
+      "niveau_preuve": {
+        "statut": "concept_theorique",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque de détacher le concept des chansons et de la matière sonore"
+      },
+      "motifs": [
+        "perception métropolitaine",
+        "surstimulation",
+        "blasé attitude",
+        "dérive"
+      ],
+      "concepts": [
+        "urbanization of consciousness",
+        "Georg Simmel",
+        "David Harvey",
+        "psychogeography"
+      ],
+      "concepts_derives": [
+        "écoute urbanisée",
+        "conscience métropolitaine"
+      ],
+      "relations": [
+        {
+          "type": "prépare",
+          "cible": "CONCEPT-S34-002"
+        },
+        {
+          "type": "prépare",
+          "cible": "S34-A007"
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "liens_citations": [
+        "S34-Q003"
+      ],
+      "couche_narrative": [
+        "theorique",
+        "sensorielle"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme cadrage d’urban studies",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A005",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A005 — Hulme Crescents : la ruine moderniste comme expérience psychique",
+    "data": {
+      "id": "S34-A005",
+      "type_unite": "lieu",
+      "titre": "Hulme Crescents : la ruine moderniste comme expérience psychique",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          145,
+          146
+        ],
+        "imprimees": [
+          145,
+          146
+        ]
+      },
+      "citation": null,
+      "resume": "Le passage sur les Hulme Crescents montre que l’environnement urbain produit autre chose qu’un décor visuel : il produit solitude, anxiété, enfermement et perception de la ville comme lieu hostile. S34 relie ce motif aux images du documentaire et à la difficulté de vivre dans l’urbanisme moderniste dégradé.\n",
+      "role_argumentatif": [
+        "incarner la thèse urbaine dans un lieu précis",
+        "relier urban renewal, architecture et affect",
+        "nourrir la géographie émotionnelle du livre"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_appuyee_sur_source_secondaire",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque de faire des Crescents une origine unique de l’esthétique Joy Division"
+      },
+      "motifs": [
+        "Hulme Crescents",
+        "ruine moderniste",
+        "solitude",
+        "anxiété urbaine"
+      ],
+      "concepts": [
+        "urban alienation",
+        "lived space"
+      ],
+      "concepts_derives": [
+        "ruine moderniste vécue"
+      ],
+      "relations": [
+        {
+          "type": "relie",
+          "cible": "S06",
+          "note": "À croiser avec S06 sur Hulme comme espace vécu et discursif."
+        },
+        {
+          "type": "relie",
+          "cible": "S20",
+          "note": "À croiser avec S20 sur la morphologie urbaine et les politiques de logement."
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "liens_citations": [
+        "S34-Q004"
+      ],
+      "couche_narrative": [
+        "lieu",
+        "affective"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme lecture urbaine ; faits architecturaux à croiser avec S06 et S20",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A006",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A006 — « Shadowplay » : Granada, centre-ville nocturne et projection urbaine",
+    "data": {
+      "id": "S34-A006",
+      "type_unite": "lecture",
+      "titre": "« Shadowplay » : Granada, centre-ville nocturne et projection urbaine",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          147,
+          148
+        ],
+        "imprimees": [
+          147,
+          148
+        ]
+      },
+      "citation": null,
+      "resume": "S34 fait de la performance de « Shadowplay » sur Granada Reports un point de convergence entre chanson, image télévisuelle et imaginaire urbain. Les images de ville projetées renforcent l’idée d’un centre nocturne, solitaire, menaçant et traversé par des relations instrumentales.\n",
+      "role_argumentatif": [
+        "relier chanson, télévision et urbanité",
+        "documenter une médiation visuelle de la ville dans la réception du groupe",
+        "préparer l’analyse de la ville comme thème et dispositif formel"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique_appuyee_sur_archive_televisuelle",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "citation de paroles à éviter ou limiter strictement"
+      },
+      "motifs": [
+        "Shadowplay",
+        "Granada Reports",
+        "centre-ville nocturne",
+        "projection urbaine"
+      ],
+      "concepts": [
+        "mediation audiovisuelle",
+        "ville comme image"
+      ],
+      "concepts_derives": [
+        "chanson projetée dans la ville"
+      ],
+      "relations": [
+        {
+          "type": "relie",
+          "cible": "S45-A056",
+          "note": "À croiser avec Deborah Curtis sur Granada et le monochrome urbain."
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-S34-003"
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "liens_citations": [],
+      "couche_narrative": [
+        "chanson",
+        "audiovisuelle"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme lecture critique ; archive Granada à vérifier pour citation précise",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A007",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A007 — « Interzone » : marche urbaine, fuite impossible et monotonie du bâti",
+    "data": {
+      "id": "S34-A007",
+      "type_unite": "lecture",
+      "titre": "« Interzone » : marche urbaine, fuite impossible et monotonie du bâti",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          147,
+          148
+        ],
+        "imprimees": [
+          147,
+          148
+        ]
+      },
+      "citation": null,
+      "resume": "Fraser et Fuoto lisent « Interzone » comme l’errance d’un sujet urbain dans un espace répétitif, menaçant et difficile à fuir. La superposition vocale est interprétée comme équivalent formel de la surstimulation métropolitaine décrite par Simmel.\n",
+      "role_argumentatif": [
+        "transformer la lecture urbaine en analyse formelle de chanson",
+        "relier texte, voix, espace et chaos perceptif",
+        "documenter « Interzone » comme chanson urbaine majeure"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique_appuyee_sur_ecoute",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "risque de citer trop longuement les paroles et de réduire la chanson à son contenu urbain"
+      },
+      "motifs": [
+        "Interzone",
+        "marche urbaine",
+        "fuite impossible",
+        "monotonie du bâti"
+      ],
+      "concepts": [
+        "urbanization of consciousness",
+        "Simmel"
+      ],
+      "concepts_derives": [
+        "chanson comme dérive urbaine",
+        "superposition vocale comme surstimulation"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S34-A004"
+        },
+        {
+          "type": "relie",
+          "cible": "S13",
+          "note": "À croiser avec S13 sur Interzone et la danse/transe."
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 13"
+      ],
+      "liens_citations": [],
+      "couche_narrative": [
+        "chanson",
+        "formelle",
+        "urbaine"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme lecture critique ; citations de paroles à vérifier et limiter",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A008",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A008 — Espace sonore et aliénation : instruments séparés, production Hannett et ville moderne",
+    "data": {
+      "id": "S34-A008",
+      "type_unite": "concept",
+      "titre": "Espace sonore et aliénation : instruments séparés, production Hannett et ville moderne",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          148,
+          150
+        ],
+        "imprimees": [
+          148,
+          150
+        ]
+      },
+      "citation": null,
+      "resume": "L’article interprète l’espace dans la musique de Joy Division comme équivalent formel de la ville aliénée. Les instruments semblent parfois occuper des zones autonomes ; cette distance sonore matérialise un manque de connexion que les auteurs rapprochent de l’aliénation urbaine.\n",
+      "role_argumentatif": [
+        "relier production sonore et urban studies",
+        "nuancer le rôle de Hannett sans l’isoler du groupe",
+        "fournir une formulation forte sur l’espace sonore comme paysage urbain"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique_appuyee_sur_ecoute",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque de faire de Hannett le seul producteur de l’espace sonore alors que les auteurs insistent aussi sur le groupe"
+      },
+      "motifs": [
+        "espace sonore",
+        "vide",
+        "instruments séparés",
+        "alienation"
+      ],
+      "concepts": [
+        "urban alienation",
+        "architecture sonore"
+      ],
+      "concepts_derives": [
+        "espace sonore comme équivalent urbain",
+        "autonomie relative des instruments"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-006"
+        },
+        {
+          "type": "nuance",
+          "cible": "MYTH-004",
+          "note": "L’espace sonore ne doit pas être attribué exclusivement à Hannett."
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "liens_citations": [
+        "S34-Q005"
+      ],
+      "couche_narrative": [
+        "sonore",
+        "critique"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme lecture sonore ; à croiser avec S72, S75 et témoignages de Hook/Sumner",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A009",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A009 — « Transmission » : danse, radio et énergie urbaine",
+    "data": {
+      "id": "S34-A009",
+      "type_unite": "lecture",
+      "titre": "« Transmission » : danse, radio et énergie urbaine",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          149,
+          151
+        ],
+        "imprimees": [
+          149,
+          151
+        ]
+      },
+      "citation": null,
+      "resume": "S34 lit « Transmission » comme exemple majeur d’une forme urbaine : rythme rapide, appel à la danse, répétition hypnotique, radio, énergie punk et possibilité de changement à l’intérieur même de la monotonie moderne. La chanson ouvre une articulation entre ville, corps, machine et communauté.\n",
+      "role_argumentatif": [
+        "relier danse et urbanité",
+        "montrer que l’aliénation urbaine n’exclut pas la puissance collective",
+        "préparer Jane Jacobs et le motif du sidewalk ballet"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique_appuyee_sur_ecoute",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque de surcharger « Transmission » d’une fonction théorique unique"
+      },
+      "motifs": [
+        "Transmission",
+        "danse",
+        "radio",
+        "énergie urbaine"
+      ],
+      "concepts": [
+        "sidewalk ballet",
+        "urban motion"
+      ],
+      "concepts_derives": [
+        "danse comme réponse urbaine"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S13",
+          "note": "À croiser avec S13 sur danse, Interzone et corps sonore."
+        },
+        {
+          "type": "prépare",
+          "cible": "S34-A012"
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "liens_citations": [],
+      "couche_narrative": [
+        "chanson",
+        "corporelle",
+        "urbaine"
+      ],
+      "usage_livre": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme lecture critique ; paroles à vérifier avant citation",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A010",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A010 — Lefebvre : espace vécu, espace conçu, espace perçu dans Joy Division",
+    "data": {
+      "id": "S34-A010",
+      "type_unite": "concept",
+      "titre": "Lefebvre : espace vécu, espace conçu, espace perçu dans Joy Division",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          150,
+          151
+        ],
+        "imprimees": [
+          150,
+          151
+        ]
+      },
+      "citation": null,
+      "resume": "La conclusion théorique de l’article mobilise Lefebvre et Harvey pour refuser la séparation entre matérialité, représentation et imagination. Joy Division est alors lisible comme une forme artistique où espace urbain, subjectivité, production sonore et images de ville s’interpénètrent.\n",
+      "role_argumentatif": [
+        "donner une assise théorique à la géographie émotionnelle du livre",
+        "relier ville matérielle, imaginaire et forme musicale",
+        "éviter l’opposition simpliste entre contexte et intériorité"
+      ],
+      "niveau_preuve": {
+        "statut": "concept_theorique",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque d’abstraction théorique si le passage n’est pas rattaché aux chansons et aux images"
+      },
+      "motifs": [
+        "espace vécu",
+        "espace conçu",
+        "espace perçu",
+        "subjectivité urbaine"
+      ],
+      "concepts": [
+        "Henri Lefebvre",
+        "production of space",
+        "David Harvey"
+      ],
+      "concepts_derives": [
+        "espace musical vécu",
+        "fusion matérialité représentation imagination"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-S34-002"
+        },
+        {
+          "type": "relie",
+          "cible": "S34-A008"
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "liens_citations": [
+        "S34-Q006"
+      ],
+      "couche_narrative": [
+        "theorique",
+        "urbaine"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme cadre théorique ; à traduire avec sobriété en rédaction",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A011",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A011 — Manchester comme matrice critique à nuancer par Crosthwaite et Goddard",
+    "data": {
+      "id": "S34-A011",
+      "type_unite": "controverse",
+      "titre": "Manchester comme matrice critique à nuancer par Crosthwaite et Goddard",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          139,
+          154
+        ],
+        "imprimees": [
+          139,
+          154
+        ]
+      },
+      "citation": null,
+      "resume": "S34 défend puissamment une lecture urbaine. Cette force exige un contrepoids méthodologique : l’article doit être mobilisé avec S29 et S36 pour éviter que Manchester devienne une cause totale ou une explication unique de Joy Division.\n",
+      "role_argumentatif": [
+        "installer un garde-fou anti-déterministe",
+        "articuler S34 avec les sources qui critiquent l’historicisme trop parfait",
+        "préserver la force de la lecture urbaine sans la rendre totalisante"
+      ],
+      "niveau_preuve": {
+        "statut": "prudence_methodologique",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "critique"
+      },
+      "risque_surinterpretation": {
+        "niveau": "eleve",
+        "raison": "risque de transformer une lecture féconde en causalité totale"
+      },
+      "motifs": [
+        "Manchester",
+        "déterminisme urbain",
+        "historicisme"
+      ],
+      "concepts": [
+        "prudence historiographique",
+        "imaginative historicism"
+      ],
+      "concepts_derives": [
+        "matrice critique non déterministe"
+      ],
+      "relations": [
+        {
+          "type": "nuance",
+          "cible": "MYTH-003"
+        },
+        {
+          "type": "relie",
+          "cible": "S29-A006"
+        },
+        {
+          "type": "relie",
+          "cible": "S36"
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "liens_citations": [],
+      "couche_narrative": [
+        "methodologique",
+        "critique"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "règle d’usage issue de la confrontation des sources",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S34-A012",
+    "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+    "heading": "S34-A012 — Joy Division comme passerelle entre music sociology et urban studies",
+    "data": {
+      "id": "S34-A012",
+      "type_unite": "concept",
+      "titre": "Joy Division comme passerelle entre music sociology et urban studies",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "auteur": "Benjamin Fraser ; Abby Fuoto",
+      "pages": {
+        "pdf": [
+          151,
+          154
+        ],
+        "imprimees": [
+          151,
+          154
+        ]
+      },
+      "citation": null,
+      "resume": "La conclusion de S34 fait de Joy Division un cas permettant de réconcilier sociologie de la musique et études urbaines. L’intérêt du groupe ne tient pas seulement au passage du punk au post-punk, mais aussi à la manière dont sa musique rend audible l’expérience moderne de la ville.\n",
+      "role_argumentatif": [
+        "donner une portée générale à la lecture urbaine",
+        "situer Joy Division dans une histoire culturelle de la ville moderne",
+        "préparer le livre à sortir du simple récit musical"
+      ],
+      "niveau_preuve": {
+        "statut": "interpretation_critique",
+        "corroboration": "forte",
+        "confiance": "forte"
+      },
+      "stabilite": {
+        "statut": "stable",
+        "risque_revision": "faible"
+      },
+      "importance": {
+        "niveau": "majeure"
+      },
+      "risque_surinterpretation": {
+        "niveau": "moyen",
+        "raison": "risque de généralisation théorique excessive"
+      },
+      "motifs": [
+        "music sociology",
+        "urban studies",
+        "ville moderne",
+        "sidewalk ballet"
+      ],
+      "concepts": [
+        "sociology of music",
+        "urban studies",
+        "Jane Jacobs"
+      ],
+      "concepts_derives": [
+        "musique comme expérience urbaine",
+        "sidewalk ballet post-punk"
+      ],
+      "relations": [
+        {
+          "type": "prolonge",
+          "cible": "S34-A009"
+        },
+        {
+          "type": "prolonge",
+          "cible": "CONCEPT-S34-002"
+        }
+      ],
+      "liens_interchapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "liens_citations": [],
+      "couche_narrative": [
+        "theorique",
+        "conclusif"
+      ],
+      "usage_livre": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte comme conclusion critique",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
     }
   },
   {

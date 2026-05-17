@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T12:07:13"
+generated_at: "2026-05-17T13:10:09"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-17T12:07:13"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 174 |
-| Atomes critiques / majeurs | 21 |
-| Citations | 7 |
-| Événements chronologiques | 3 |
-| Personnes | 7 |
-| Chansons | 0 |
-| Sources mobilisées | 24 |
+| Atomes | 183 |
+| Atomes critiques / majeurs | 30 |
+| Citations | 12 |
+| Événements chronologiques | 7 |
+| Personnes | 16 |
+| Chansons | 1 |
+| Sources mobilisées | 25 |
 
 ## 4. Sources mobilisées
 
@@ -48,6 +48,7 @@ generated_at: "2026-05-17T12:07:13"
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 5 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 7 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 10 | 1 |
+| S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 9 | 5 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -65,6 +66,20 @@ generated_at: "2026-05-17T12:07:13"
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `critique` ; preuve : `forte`.
 - **S29-A018** — S29-A018 — Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `critique_historiographique` ; importance : `critique` ; preuve : `forte`.
+- **S34-A001** — S34-A001 — S34 comme source critique urbaine, non comme source biographique  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
+- **S34-A002** — S34-A002 — Grant Gee : Joy Division comme histoire d’une ville plutôt que d’un groupe  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `archive` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_visuelle`.
+- **S34-A004** — S34-A004 — Urbanization of consciousness : Simmel, Harvey et la perception métropolitaine  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `concept_theorique`.
+- **S34-A005** — S34-A005 — Hulme Crescents : la ruine moderniste comme expérience psychique  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_appuyee_sur_source_secondaire`.
+- **S34-A006** — S34-A006 — « Shadowplay » : Granada, centre-ville nocturne et projection urbaine  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_archive_televisuelle`.
+- **S34-A010** — S34-A010 — Lefebvre : espace vécu, espace conçu, espace perçu dans Joy Division  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `critique` ; preuve : `concept_theorique`.
+- **S34-A011** — S34-A011 — Manchester comme matrice critique à nuancer par Crosthwaite et Goddard  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `controverse` ; importance : `critique` ; preuve : `prudence_methodologique`.
 - **S45-A020** — S45-A020 — Ne pas confondre vote conservateur local et adhésion au thatchérisme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage issue d’un témoignage direct`.
 - **S45-A031** — S45-A031 — Manchester comme « nouvelle capitale » : scène d’auto-habilitation  
@@ -85,6 +100,10 @@ generated_at: "2026-05-17T12:07:13"
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `critique` ; preuve : `reconstruction_S76_et_temoin_scene`.
 - **S29-A017** — S29-A017 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
+- **S34-A003** — S34-A003 — Berman et Rauschenbusch : Manchester comme ville moderne contradictoire  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
+- **S34-A012** — S34-A012 — Joy Division comme passerelle entre music sociology et urban studies  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -275,16 +294,34 @@ generated_at: "2026-05-17T12:07:13"
 - **S41-Q001** — S41 — Hook, Unknown Pleasures, 2012 — statut : `{"original": "verifie", "pagination_papier": "a_completer", "pagination_pdf": "verifiee", "traduction": "stabilisee"}` — « as I remember it »
 - **S76-Q080** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
 - **S76-Q064** — S76 — Middles & Reade, Torn Apart, 2006 — statut : `candidate` — «  »
+- **S34-Q001** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
+- **S34-Q002** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
+- **S34-Q003** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
+- **S34-Q004** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
+- **S34-Q006** — S34 — Fraser & Fuoto, Manchester, 1976, 2012 — statut : `candidate` — «  »
 - **S29-Q003** — S29 — Goddard, Missions of Dead Souls, 2018 — statut : `candidate` — «  »
 
 ## 8. Chronologie rattachée
 
 - CHR-S76-1973-001 — La famille Curtis quitte Macclesfield pour New Moston, ce qui modifie les trajets, les sociabilités et le rapport de Curtis à Manchester.
+- CHR-S34-1976-001 — Fraser et Fuoto prennent 1976 comme seuil : retour à Manchester et aux premières configurations qui permettent la formation de Joy Division.
+- CHR-S34-1977-001 — L’article rappelle le passage de Stiff Kittens à Warsaw puis Joy Division, en reliant cette formation à la scène mancunienne.
+- CHR-S34-1978-001 — Joy Division apparaît dans Granada Reports et interprète « Shadowplay » avec des images urbaines synchronisées, selon l’analyse de S34.
+- CHR-S34-2007-001 — Le documentaire de Grant Gee devient dans S34 le support principal d’une lecture urbaine de Joy Division comme histoire de Manchester.
 - CHR-S29-1977-001 — Goddard mobilise Berardi et Fisher pour lire 1977 comme seuil d’une sensibilité punk/post-punk où le futur moderniste s’épuise.
 - CHR-1956-001 — Naissance de Ian Kevin Curtis à Old Trafford, Manchester.
 
 ## 9. Personnes et acteurs
 
+- PERS-S34-001 — Benjamin Fraser
+- PERS-S34-002 — Abby Fuoto
+- PERS-S34-003 — Grant Gee
+- PERS-S34-004 — Tony Wilson
+- PERS-S34-005 — Marshall Berman
+- PERS-S34-006 — Henri Lefebvre
+- PERS-S34-007 — Georg Simmel
+- PERS-S34-008 — David Harvey
+- PERS-S34-010 — Ian Curtis
 - PERS-003-S75 — Bernard Sumner
 - PERS-S76-039 — Donald Johnson
 - PERS-S76-040 — Eddie Garrity / Ed Banger
@@ -295,7 +332,7 @@ generated_at: "2026-05-17T12:07:13"
 
 ## 10. Chansons rattachées
 
-- Aucune chanson rattachée.
+- SONG-S34-001 — Shadowplay
 
 ## 11. Concepts récurrents
 
@@ -310,6 +347,7 @@ generated_at: "2026-05-17T12:07:13"
 - diy (4)
 - Ian Curtis (4)
 - postindustrial cityscapes (3)
+- imaginative historicism (3)
 - Ian Wood (3)
 - NME (3)
 - Macclesfield (3)
@@ -331,7 +369,6 @@ generated_at: "2026-05-17T12:07:13"
 - no future (2)
 - capitalist realism (2)
 - dyschronia (2)
-- imaginative historicism (2)
 - mythologisation (2)
 - atemporality (2)
 - post-punk (2)
@@ -355,6 +392,7 @@ generated_at: "2026-05-17T12:07:13"
 - enfance (2)
 - peter hook (2)
 - bernard sumner (2)
+- prudence historiographique (2)
 - welfare state (2)
 - race (2)
 - urban malaise (2)
@@ -363,6 +401,8 @@ generated_at: "2026-05-17T12:07:13"
 - salford (2)
 - géographie biographique (2)
 - mémoire ouvrière (2)
+- urban studies (2)
+- David Harvey (2)
 - Manchester industriel (2)
 - géographie sociale (2)
 - logement social (2)
@@ -376,22 +416,21 @@ generated_at: "2026-05-17T12:07:13"
 - ordre moral (2)
 - santé publique (2)
 - prévention (2)
-- oral history (2)
-- post-war inner city (2)
-- Anderton (2)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
-- Manchester (3)
+- Manchester (5)
 - Salford (3)
+- Shadowplay (2)
 - politique (2)
 - scène locale (2)
 - mémoire ouvrière (2)
 - Wythenshawe (2)
 - overspill estate (2)
-- Shadowplay (1)
+- ville moderne (2)
+- Hulme Crescents (2)
 - Granada (1)
 - World in Action (1)
 - monochrome (1)
@@ -422,8 +461,6 @@ generated_at: "2026-05-17T12:07:13"
 - tour (1)
 - travail répétitif (1)
 - 1979 (1)
-- crise anglaise (1)
-- disco (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -465,6 +502,25 @@ generated_at: "2026-05-17T12:07:13"
 - S74-A006 — illustre → CONCEPT-003
 - S74-A011 — nuance → MYTH-003
 - S74-A011 — complète → S74-A002
+- S34-A001 — prolonge → CONCEPT-004
+- S34-A001 — nuance → MYTH-003
+- S34-A002 — relie → S34-A001
+- S34-A002 — prolonge → S29-A007
+- S34-A003 — prolonge → CONCEPT-S34-001
+- S34-A003 — nuance → MYTH-003
+- S34-A004 — prépare → CONCEPT-S34-002
+- S34-A004 — prépare → S34-A007
+- S34-A005 — relie → S06
+- S34-A005 — relie → S20
+- S34-A006 — relie → S45-A056
+- S34-A006 — prolonge → CONCEPT-S34-003
+- S34-A010 — prolonge → CONCEPT-S34-002
+- S34-A010 — relie → S34-A008
+- S34-A011 — nuance → MYTH-003
+- S34-A011 — relie → S29-A006
+- S34-A011 — relie → S36
+- S34-A012 — prolonge → S34-A009
+- S34-A012 — prolonge → CONCEPT-S34-002
 - S76-A003 — prolonge → MOTIF-002
 - S76-A003 — nuance → MYTH-003
 - S76-A003 — requiert → CONCEPT-004
@@ -496,17 +552,18 @@ generated_at: "2026-05-17T12:07:13"
 | source_part | 14 |
 | concept_structurant | 9 |
 | analyse | 9 |
+| concept | 9 |
 | prudence_methodologique | 8 |
 | sociologie | 7 |
 | contexte_social | 6 |
 | evenement_politique | 5 |
-| concept | 5 |
+| lecture | 5 |
 | lieu_scene | 4 |
 | contexte | 4 |
 | biographie | 4 |
 | methode | 3 |
 | contrepoint | 3 |
-| lecture | 3 |
+| lieu | 3 |
 | politique_urbaine | 3 |
 | tension_documentaire | 2 |
 | acteur_institutionnel | 2 |
@@ -515,7 +572,6 @@ generated_at: "2026-05-17T12:07:13"
 | temporalite_culturelle | 2 |
 | critique_historiographique | 2 |
 | chronologie | 2 |
-| lieu | 2 |
 | urbanisme | 2 |
 | scene_fondatrice | 2 |
 | motif_discursif | 2 |
@@ -557,6 +613,8 @@ generated_at: "2026-05-17T12:07:13"
 | citation_repere | 1 |
 | biographie_collective | 1 |
 | temoignage | 1 |
+| archive | 1 |
+| controverse | 1 |
 | contexte_urbain | 1 |
 | lieu_memoire_urbain | 1 |
 | cas_urbain | 1 |
@@ -590,8 +648,8 @@ generated_at: "2026-05-17T12:07:13"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 11 |
-| majeure | 10 |
+| critique | 18 |
+| majeure | 12 |
 | majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -609,6 +667,15 @@ generated_at: "2026-05-17T12:07:13"
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division
 - S74-A006 [moyen] — risque de psychologiser Factory à partir de la seule trajectoire sociale de Wilson
 - S74-A011 [moyen] — risque de substituer un nouveau déterminisme local au déterminisme Manchester/Salford
+- S34-A001 [moyen] — risque de transformer une lecture urbaine en déterminisme biographique ou géographique
+- S34-A002 [moyen] — risque de confondre la thèse de Gee et l’analyse propre de Fraser et Fuoto
+- S34-A003 [moyen] — risque d’alourdir le manuscrit par une généalogie théorique trop autonome
+- S34-A004 [moyen] — risque de détacher le concept des chansons et de la matière sonore
+- S34-A005 [moyen] — risque de faire des Crescents une origine unique de l’esthétique Joy Division
+- S34-A006 [moyen] — citation de paroles à éviter ou limiter strictement
+- S34-A010 [moyen] — risque d’abstraction théorique si le passage n’est pas rattaché aux chansons et aux images
+- S34-A011 [eleve] — risque de transformer une lecture féconde en causalité totale
+- S34-A012 [moyen] — risque de généralisation théorique excessive
 - S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 - S76-A004 [moyen] — risque de surcorriger le mythe noir en idyllisant l'enfance
 - S76-A075 [moyen] — éviter de faire du lieu une cause unique du son ; il agit comme intensificateur spatial

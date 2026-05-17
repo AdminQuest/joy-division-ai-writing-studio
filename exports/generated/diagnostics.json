@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-17T12:06:59",
+  "generated_at": "2026-05-17T13:09:28",
   "status": "warning",
   "summary": {
-    "records_total": 4162,
+    "records_total": 4228,
     "records_by_kind": {
-      "atom": 1867,
-      "metadata": 78,
-      "unknown": 338,
+      "atom": 1879,
+      "metadata": 79,
+      "unknown": 350,
       "source": 63,
-      "concept": 225,
-      "motif": 291,
-      "myth": 37,
-      "quote": 363,
-      "chronology": 347,
+      "concept": 228,
+      "motif": 295,
+      "myth": 40,
+      "quote": 369,
+      "chronology": 353,
       "template": 336,
-      "song": 46,
+      "song": 53,
       "quote_batch": 1,
       "rules": 1,
-      "person": 169
+      "person": 181
     },
-    "diagnostics_total": 19578,
+    "diagnostics_total": 19677,
     "errors": 0,
-    "warnings": 19578,
+    "warnings": 19677,
     "sources_declared_in_registre_json": 51,
     "sources_used_in_records": 29,
     "sources_exported": 29,
@@ -704,12 +704,21 @@
         "auteur": "Benjamin Fraser ; Abby Fuoto",
         "titre": "Manchester, 1976: Documenting the urban nature of Joy Division’s musical production",
         "annee": "2012",
-        "records": 2,
-        "atoms": 0,
-        "quotes": 0,
-        "chronology": 0,
+        "records": 68,
+        "atoms": 12,
+        "quotes": 6,
+        "chronology": 6,
         "files": [
-          "sources/fraser_fuoto_manchester_1976/source.md"
+          "registers/chronology/s34_fraser_fuoto_chronology.md",
+          "registers/concepts/s34_fraser_fuoto_concepts_part_01.md",
+          "registers/motifs/s34_fraser_fuoto_motifs_part_01.md",
+          "registers/myths/s34_fraser_fuoto_myths_part_01.md",
+          "registers/people/s34_fraser_fuoto_people.md",
+          "registers/quotes/s34_fraser_fuoto_quotes.md",
+          "registers/songs/s34_fraser_fuoto_songs.md",
+          "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+          "sources/fraser_fuoto_manchester_1976/source.md",
+          "sources/fraser_fuoto_manchester_1976/source_part_01.md"
         ]
       },
       {
@@ -66682,6 +66691,228 @@
     },
     {
       "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme source critique ; à croiser pour les faits biographiques et les citations de paroles",
+      "record_id": "S34-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme analyse du dispositif documentaire",
+      "record_id": "S34-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme cadrage théorique",
+      "record_id": "S34-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme cadrage d’urban studies",
+      "record_id": "S34-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme lecture urbaine ; faits architecturaux à croiser avec S06 et S20",
+      "record_id": "S34-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for type_unite: lieu",
+      "record_id": "S34-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme lecture critique ; archive Granada à vérifier pour citation précise",
+      "record_id": "S34-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme lecture critique ; citations de paroles à vérifier et limiter",
+      "record_id": "S34-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme lecture sonore ; à croiser avec S72, S75 et témoignages de Hook/Sumner",
+      "record_id": "S34-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme lecture critique ; paroles à vérifier avant citation",
+      "record_id": "S34-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme cadre théorique ; à traduire avec sobriété en rédaction",
+      "record_id": "S34-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: règle d’usage issue de la confrontation des sources",
+      "record_id": "S34-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S34-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/source_part_01.md",
+      "message": "Invalid value for fiabilite: forte comme conclusion critique",
+      "record_id": "S34-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S34-012"
+    },
+    {
+      "level": "warning",
       "file": "sources/deluca_manchester_punk_threshold/registres_structurants_s15.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MYTHE-S15-001"
@@ -111640,6 +111871,90 @@
     },
     {
       "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S34-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S34-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S34-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S34-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S34-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S34-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S34-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S34-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S34-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S34-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S34-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S34-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: themes",
+      "record_id": "SONG-S34-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/songs/s34_fraser_fuoto_songs.md",
+      "message": "Missing required field: sources",
+      "record_id": "SONG-S34-007"
+    },
+    {
+      "level": "warning",
       "file": "registers/relations/s13_tomeo_relations_interzone_rave_era.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REL-S13-001"
@@ -113713,6 +114028,114 @@
       "file": "registers/quotes/s76_torn_apart_quotes_part_17.md",
       "message": "Missing required field: statut_verification",
       "record_id": "S76-Q186"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S34-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S34-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S34-Q001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S34-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S34-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S34-Q002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S34-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S34-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S34-Q003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S34-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S34-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S34-Q004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S34-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S34-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S34-Q005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: citation_originale",
+      "record_id": "S34-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: langue_originale",
+      "record_id": "S34-Q006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/quotes/s34_fraser_fuoto_quotes.md",
+      "message": "Missing required field: statut_verification",
+      "record_id": "S34-Q006"
     },
     {
       "level": "warning",
@@ -116908,6 +117331,78 @@
     },
     {
       "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-003"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-004"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-005"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-006"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-007"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-008"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-009"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-010"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-011"
+    },
+    {
+      "level": "warning",
+      "file": "registers/people/s34_fraser_fuoto_people.md",
+      "message": "Missing required field: sources",
+      "record_id": "PERS-S34-012"
+    },
+    {
+      "level": "warning",
       "file": "registers/people/s45_curtis_people_vote_conservateur.md",
       "message": "Missing required field: name",
       "record_id": "PERS-S45-IAN-CURTIS-VOTE-CONSERVATEUR"
@@ -117625,6 +118120,114 @@
       "file": "registers/myths/s06_carter_myths_hulme_lived_discursive_space_v2.md",
       "message": "Unable to infer documentary kind",
       "record_id": "MYTHS-S06-HULME-LIVED-DISCURSIVE-SPACE-V2"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S34-1976-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S34-1976-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Invalid value for certainty: interpretation_critique",
+      "record_id": "CHR-S34-1976-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S34-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S34-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Invalid value for certainty: source_secondaire",
+      "record_id": "CHR-S34-1977-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S34-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S34-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Invalid value for certainty: source_secondaire_a_croiser",
+      "record_id": "CHR-S34-1978-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S34-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S34-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Invalid value for certainty: interpretation_critique",
+      "record_id": "CHR-S34-1979-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S34-1979-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S34-1979-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Invalid value for certainty: interpretation_critique",
+      "record_id": "CHR-S34-1979-002"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: type",
+      "record_id": "CHR-S34-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Missing required field: sources",
+      "record_id": "CHR-S34-2007-001"
+    },
+    {
+      "level": "warning",
+      "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+      "message": "Invalid value for certainty: interpretation_critique",
+      "record_id": "CHR-S34-2007-001"
     },
     {
       "level": "warning",

@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T12:07:13"
+generated_at: "2026-05-17T13:10:09"
 ```
 
 ## 1. Fonction du chapitre
@@ -25,7 +25,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Atomes | 319 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
-| Événements chronologiques | 32 |
+| Événements chronologiques | 34 |
 | Personnes | 27 |
 | Chansons | 6 |
 | Sources mobilisées | 16 |
@@ -334,6 +334,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - CHR-S76-1977-004 — Warsaw joue au Newcastle Town Hall annex avec Penetration et The Adverts, le jour du Silver Jubilee.
 - CHR-S76-1977-005 — Warsaw enregistre cinq morceaux à Pennine Sound Studios, Oldham, avec Steve Brotherdale à la batterie.
 - CHR-S76-1977-006 — Warsaw joue lors du dernier week-end de l’Electric Circus ; la captation donnera ensuite « At A Later Date » sur *Short Circuit*.
+- CHR-S34-1976-001 — Fraser et Fuoto prennent 1976 comme seuil : retour à Manchester et aux premières configurations qui permettent la formation de Joy Division.
+- CHR-S34-1977-001 — L’article rappelle le passage de Stiff Kittens à Warsaw puis Joy Division, en reliant cette formation à la scène mancunienne.
 - CHR-S76-1978-010 — Gretton réunit une partie de l’argent nécessaire au rachat des bandes en ressortant *An Ideal for Living* en format 12 pouces sur Anonymous Records, avec la pochette dite « scaffolding sleeve ».
 - CHR-S76-1978-018 — Joy Division joue à Eric’s, Liverpool. S76 présente ce concert comme la première fois où le groupe bénéficie d’un rider et du concours d’Oz PA, future équipe régulière de sonorisation.
 - CHR-S75-1976-002 — Second concert des Sex Pistols à Manchester, identifié par Ott comme un choc plus direct pour Ian Curtis que le premier concert du 4 juin 1976.
