@@ -57,6 +57,28 @@ chapters/01/document_maitre.md
 chapters/14/document_maitre.md
 ```
 
+### 2.1. Règle impérative : aucun dossier `chapters/addenda/`
+
+Le dossier `chapters/addenda/` est interdit. Il crée un flux parallèle non lu par `tools/build_registers.py`, donc non intégré de manière fiable aux exports et aux documents maîtres.
+
+Tout complément destiné à un chapitre doit être placé directement dans le dossier du chapitre concerné :
+
+```text
+chapters/01/source_notes_sXX.md
+chapters/11/source_notes_sXX.md
+chapters/14/source_notes_sXX.md
+```
+
+Tout atome, source part ou fichier de passe destiné aux documents maîtres doit être placé dans `sources/<slug>/` sous forme de Markdown contenant des blocs YAML lisibles par le parser. Les notes de chapitre servent seulement à orienter l’usage rédactionnel ; la matière documentaire structurée reste dans `sources/` et `registers/`.
+
+Règle de contrôle : après toute intégration, la commande suivante ne doit retourner aucun fichier :
+
+```bash
+find chapters -path "*/addenda/*" -type f
+```
+
+Si une source concerne plusieurs chapitres, créer un fichier `source_notes_sXX.md` dans chaque dossier de chapitre concerné, ou un fichier groupé du type `source_notes_s13_s39_s40.md` lorsque la note porte sur plusieurs sources dans le même chapitre.
+
 ---
 
 ## 3. Règle impérative pour toute atomisation
@@ -336,11 +358,14 @@ Le traitement doit créer ou modifier directement :
 1. sources/<slug>/source_part_XX.md
 2. registres structurants si nécessaire seulement
 3. registres spécialisés utiles
-4. scripts de patch ou cleanup si un correctif local est nécessaire
-5. consignes terminal pour build_registers / audit / build_master_docs
-6. contrôles grep
-7. commande git add / commit / push
+4. notes de chapitre éventuelles dans chapters/XX/source_notes_sXX.md
+5. scripts de patch ou cleanup si un correctif local est nécessaire
+6. consignes terminal pour build_registers / audit / build_master_docs
+7. contrôles grep
+8. commande git add / commit / push
 ```
+
+Interdiction absolue : ne jamais créer de fichier dans `chapters/addenda/`. Un addendum transversal n’est pas lu par le pipeline documentaire et devient une source d’erreur. Si un complément concerne plusieurs chapitres, il doit être dispatché dans les dossiers `chapters/XX/` concernés.
 
 ### Contenu minimal du paquet
 
@@ -355,6 +380,7 @@ Le paquet doit comprendre :
 - personnes réellement utiles ;
 - chansons réellement utiles ;
 - rattachement aux chapitres via usage_livre ;
+- notes de chapitre éventuelles dans chapters/XX/ ;
 - prudences historiographiques ;
 - commandes terminal finales.
 ```
@@ -521,6 +547,12 @@ Contrôler la remontée dans les documents maîtres :
 
 ```bash
 grep -R "SXX-A\|SXX —" chapters/*/document_maitre.md
+```
+
+Contrôler qu’aucun addendum transversal n’a été créé :
+
+```bash
+find chapters -path "*/addenda/*" -type f
 ```
 
 Contrôler les registres spécialisés :
@@ -797,6 +829,8 @@ Sont interdits :
 - nouveaux schémas concurrents ;
 - duplication documentaire ;
 - registres improvisés ;
+- création ou maintien d’un dossier `chapters/addenda/` ;
+- ajout d’un complément documentaire dans un dossier transversal non lu par le pipeline ;
 - renommage d’identifiants ;
 - réutilisation d’un identifiant source déjà attribué ;
 - atomisation d’une source non canonisée ;
