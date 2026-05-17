@@ -212,6 +212,43 @@
   },
   {
     "kind": "source",
+    "id": "S39",
+    "file": "sources/bauman_liquid_modernity/source.md",
+    "heading": "S39 — Bauman, *Liquid Modernity*, 2000",
+    "data": {
+      "id": "S39",
+      "source_id": "S39",
+      "source_label": "S39 — Bauman, Liquid Modernity, 2000",
+      "source_short_title": "Bauman, Liquid Modernity, 2000",
+      "source_year": "2000",
+      "auteur": "Zygmunt Bauman",
+      "titre": "Liquid Modernity",
+      "annee": "2000",
+      "lieu_edition": "Cambridge",
+      "editeur": "Polity Press",
+      "nature": "ouvrage théorique / sociologie de la modernité",
+      "statut": "verifie ; source canonique fixée ; fichier Drive identifié",
+      "fiabilite": "forte comme cadre théorique ; non spécialisée sur Joy Division",
+      "dossier_source": "sources/bauman_liquid_modernity/",
+      "fichier_source": "S39_bauman_liquid_modernity_2000.pdf",
+      "fichier_source_original": "bauman-liquid-modernity.pdf",
+      "source_drive": "https://drive.google.com/file/d/1hrtrNh8RCZXUmjeHTv5d2NkzucmxvwpU/view?usp=drive_link",
+      "niveau_preuve": "source secondaire théorique / sociologie de la modernité",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "chapitres_secondaires": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 13"
+      ],
+      "citation_directe": false
+    }
+  },
+  {
+    "kind": "source",
     "id": "S71",
     "file": "sources/flowers/source.md",
     "heading": "Métadonnées",

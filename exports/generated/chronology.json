@@ -6053,6 +6053,215 @@
   },
   {
     "kind": "chronology",
+    "id": "CHR-S34-1976-001",
+    "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+    "heading": "CHR-S34-1976-001 — Manchester 1976 comme seuil de formation",
+    "data": {
+      "id": "CHR-S34-1976-001",
+      "type_unite": "chronology_event",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "date": "1976",
+      "precision_date": "annee",
+      "event": "Fraser et Fuoto prennent 1976 comme seuil : retour à Manchester et aux premières configurations qui permettent la formation de Joy Division.",
+      "location": "Manchester",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook"
+      ],
+      "songs": [],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "certainty": "interpretation_critique",
+      "related_atoms": [
+        "S34-A001"
+      ],
+      "prudence": "Repère de cadrage critique, non récit exhaustif de formation.",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S34-1977-001",
+    "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+    "heading": "CHR-S34-1977-001 — Stabilisation du nom Joy Division",
+    "data": {
+      "id": "CHR-S34-1977-001",
+      "type_unite": "chronology_event",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "date": "1977",
+      "precision_date": "annee",
+      "event": "L’article rappelle le passage de Stiff Kittens à Warsaw puis Joy Division, en reliant cette formation à la scène mancunienne.",
+      "location": "Manchester",
+      "people": [
+        "Ian Curtis",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Stephen Morris"
+      ],
+      "songs": [],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 2"
+      ],
+      "certainty": "source_secondaire",
+      "related_atoms": [
+        "S34-A001"
+      ],
+      "prudence": "À croiser avec S10, S41, S45, S75 et S76 pour les détails chronologiques.",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S34-1978-001",
+    "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+    "heading": "CHR-S34-1978-001 — Granada Reports et « Shadowplay »",
+    "data": {
+      "id": "CHR-S34-1978-001",
+      "type_unite": "chronology_event",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "date": "1978-09-20",
+      "precision_date": "jour",
+      "event": "Joy Division apparaît dans Granada Reports et interprète « Shadowplay » avec des images urbaines synchronisées, selon l’analyse de S34.",
+      "location": "Granada Television ; Manchester",
+      "people": [
+        "Ian Curtis",
+        "Tony Wilson"
+      ],
+      "songs": [
+        "Shadowplay"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "certainty": "source_secondaire_a_croiser",
+      "related_atoms": [
+        "S34-A006"
+      ],
+      "prudence": "Archive télévisuelle et datation à vérifier avant citation définitive.",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S34-1979-001",
+    "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+    "heading": "CHR-S34-1979-001 — *Unknown Pleasures* comme espace intérieur / extérieur",
+    "data": {
+      "id": "CHR-S34-1979-001",
+      "type_unite": "chronology_event",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "date": "1979-06",
+      "precision_date": "mois",
+      "event": "S34 mobilise *Unknown Pleasures* comme forme spatiale : faces Inside / Outside, espace sonore, séparation instrumentale et ville intérieure.",
+      "location": "Manchester ; Factory Records",
+      "people": [
+        "Ian Curtis",
+        "Martin Hannett"
+      ],
+      "songs": [
+        "Shadowplay",
+        "Interzone",
+        "Disorder",
+        "I Remember Nothing"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "certainty": "interpretation_critique",
+      "related_atoms": [
+        "S34-A008",
+        "S34-A010"
+      ],
+      "prudence": "Ne pas réduire l’espace sonore à Hannett seul.",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S34-1979-002",
+    "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+    "heading": "CHR-S34-1979-002 — « Transmission » comme danse urbaine",
+    "data": {
+      "id": "CHR-S34-1979-002",
+      "type_unite": "chronology_event",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "date": "1979-07",
+      "precision_date": "mois",
+      "event": "S34 lit « Transmission » comme exemple d’une lecture urbaine de la forme musicale : rythme, radio, danse et répétition.",
+      "location": "Manchester ; Factory Records",
+      "people": [
+        "Ian Curtis"
+      ],
+      "songs": [
+        "Transmission"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "certainty": "interpretation_critique",
+      "related_atoms": [
+        "S34-A009"
+      ],
+      "prudence": "Paroles et détails discographiques à croiser avec les sources discographiques.",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S34-2007-001",
+    "file": "registers/chronology/s34_fraser_fuoto_chronology.md",
+    "heading": "CHR-S34-2007-001 — Documentaire *Joy Division* de Grant Gee",
+    "data": {
+      "id": "CHR-S34-2007-001",
+      "type_unite": "chronology_event",
+      "source_id": "S34",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "date": "2007",
+      "precision_date": "annee",
+      "event": "Le documentaire de Grant Gee devient dans S34 le support principal d’une lecture urbaine de Joy Division comme histoire de Manchester.",
+      "location": "Manchester ; documentaire",
+      "people": [
+        "Grant Gee",
+        "Tony Wilson"
+      ],
+      "songs": [],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "certainty": "interpretation_critique",
+      "related_atoms": [
+        "S34-A002"
+      ],
+      "prudence": "Distinguer le film, les archives qu’il mobilise et l’analyse qu’en tirent Fraser et Fuoto.",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "chronology",
     "id": "CHR-S76-1980-002",
     "file": "registers/chronology/s76_torn_apart_chronology_part_13.md",
     "heading": "CHR-S76-1980-002 — Première session Pennine de « Love Will Tear Us Apart »",
@@ -7581,6 +7790,149 @@
         "Chapitre 1"
       ],
       "prudence": "Ne pas assimiler automatiquement cette scène à l’élection générale de 1979 ni à un vote personnel pour Margaret Thatcher sans source complémentaire."
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S29-1977-001",
+    "file": "registers/chronology/s29_goddard_chronology.md",
+    "heading": "CHR-S29-1977-001 — 1977 comme seuil culturel « no future »",
+    "data": {
+      "id": "CHR-S29-1977-001",
+      "type_unite": "chronology_event",
+      "source_id": "S29",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "date": "1977",
+      "precision_date": "annee",
+      "event": "Goddard mobilise Berardi et Fisher pour lire 1977 comme seuil d’une sensibilité punk/post-punk où le futur moderniste s’épuise.",
+      "location": "Grande-Bretagne ; Italie ; champ culturel post-punk",
+      "people": [
+        "Franco Berardi",
+        "Mark Fisher"
+      ],
+      "songs": [],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "certainty": "interpretation_critique",
+      "related_atoms": [
+        "S29-A005"
+      ],
+      "related_concepts": [
+        "CONCEPT-S29-003"
+      ],
+      "prudence": "Repère culturel rétrospectif, non événement biographique de Joy Division.",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S29-1979-001",
+    "file": "registers/chronology/s29_goddard_chronology.md",
+    "heading": "CHR-S29-1979-001 — « Dead Souls » comme titre-seuil hauntologique",
+    "data": {
+      "id": "CHR-S29-1979-001",
+      "type_unite": "chronology_event",
+      "source_id": "S29",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "date": "1979",
+      "precision_date": "annee",
+      "event": "Goddard lit « Dead Souls » comme un dispositif de hantise, de possession et de retour du passé, plutôt que comme une adaptation de Gogol.",
+      "location": "Joy Division / corpus discographique",
+      "people": [
+        "Ian Curtis",
+        "Nikolai Gogol"
+      ],
+      "songs": [
+        "Dead Souls"
+      ],
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 7",
+        "Chapitre 11"
+      ],
+      "certainty": "interpretation_critique",
+      "related_atoms": [
+        "S29-A010"
+      ],
+      "related_concepts": [
+        "CONCEPT-S29-002"
+      ],
+      "prudence": "Ne pas réduire la chanson à son titre littéraire ; ne pas citer longuement les paroles.",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S29-1980-001",
+    "file": "registers/chronology/s29_goddard_chronology.md",
+    "heading": "CHR-S29-1980-001 — *Missions of Dead Souls* comme résonance Throbbing Gristle / Joy Division",
+    "data": {
+      "id": "CHR-S29-1980-001",
+      "type_unite": "chronology_event",
+      "source_id": "S29",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "date": "1980",
+      "precision_date": "annee",
+      "event": "Goddard rapproche le titre du live de Throbbing Gristle, *Missions of Dead Souls*, des résonances hauntologiques entre Joy Division et l’industrial music.",
+      "location": "Throbbing Gristle ; industrial music",
+      "people": [
+        "Genesis P-Orridge"
+      ],
+      "songs": [],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "certainty": "interpretation_critique",
+      "related_atoms": [
+        "S29-A002",
+        "S29-A009"
+      ],
+      "prudence": "Résonance critique, non preuve d’influence directe.",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "chronology",
+    "id": "CHR-S29-2017-001",
+    "file": "registers/chronology/s29_goddard_chronology.md",
+    "heading": "CHR-S29-2017-001 — Mort de Mark Fisher et hantise du concept",
+    "data": {
+      "id": "CHR-S29-2017-001",
+      "type_unite": "chronology_event",
+      "source_id": "S29",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "date": "2017",
+      "precision_date": "annee",
+      "event": "Dans S29, la mort de Mark Fisher rend la sonic hauntology elle-même hantée et rend délicate la mise en relation Fisher / Curtis.",
+      "location": "champ critique britannique",
+      "people": [
+        "Mark Fisher",
+        "Ian Curtis"
+      ],
+      "songs": [],
+      "chapitres": [
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "certainty": "interpretation_critique",
+      "related_atoms": [
+        "S29-A004",
+        "S29-A012"
+      ],
+      "related_myths": [
+        "MYTH-S29-001"
+      ],
+      "prudence": "Ne pas faire de la mort une preuve esthétique ; éviter la symétrie tragique Curtis/Fisher.",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
     }
   },
   {

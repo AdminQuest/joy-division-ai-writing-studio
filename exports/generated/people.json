@@ -1123,6 +1123,335 @@
   },
   {
     "kind": "person",
+    "id": "PERS-S34-001",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-001 — Benjamin Fraser",
+    "data": {
+      "id": "PERS-S34-001",
+      "type_unite": "person",
+      "type": "auteur_critique",
+      "source_id": "S34",
+      "name": "Benjamin Fraser",
+      "role": "Co-auteur de l’article ; spécialiste des croisements entre urban studies, musique, film et littérature.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S34-A001"
+      ],
+      "notes": "À citer comme auteur de la lecture critique, non comme témoin de la scène mancunienne.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-002",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-002 — Abby Fuoto",
+    "data": {
+      "id": "PERS-S34-002",
+      "type_unite": "person",
+      "type": "auteur_critique",
+      "source_id": "S34",
+      "name": "Abby Fuoto",
+      "role": "Co-autrice de l’article ; apporte une connaissance de Joy Division et New Order dans une perspective critique.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S34-A001"
+      ],
+      "notes": "À citer comme autrice de la lecture critique, non comme témoin primaire.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-003",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-003 — Grant Gee",
+    "data": {
+      "id": "PERS-S34-003",
+      "type_unite": "person",
+      "type": "realisateur",
+      "source_id": "S34",
+      "name": "Grant Gee",
+      "role": "Réalisateur du documentaire *Joy Division* ; figure centrale de la lecture urbaine analysée par Fraser et Fuoto.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S34-A002",
+        "S34-A006"
+      ],
+      "notes": "Distinguer la thèse du film et l’interprétation universitaire de S34.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-004",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-004 — Tony Wilson",
+    "data": {
+      "id": "PERS-S34-004",
+      "type_unite": "person",
+      "type": "acteur_scene",
+      "source_id": "S34",
+      "name": "Tony Wilson",
+      "role": "Médiateur télévisuel et Factory ; dans S34, sa mémoire de Manchester soutient la lecture urbaine du documentaire.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S34-A002",
+        "S34-A006"
+      ],
+      "notes": "À croiser avec les sources Factory, Granada et les témoignages.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-005",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-005 — Marshall Berman",
+    "data": {
+      "id": "PERS-S34-005",
+      "type_unite": "person",
+      "type": "theoricien_urbain",
+      "source_id": "S34",
+      "name": "Marshall Berman",
+      "role": "Auteur d’un cadrage sur la modernité mobilisé par Gee et analysé par Fraser et Fuoto.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S34-A003"
+      ],
+      "related_concepts": [
+        "CONCEPT-S34-001"
+      ],
+      "notes": "Référence théorique à manier brièvement.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-006",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-006 — Henri Lefebvre",
+    "data": {
+      "id": "PERS-S34-006",
+      "type_unite": "person",
+      "type": "theoricien_urbain",
+      "source_id": "S34",
+      "name": "Henri Lefebvre",
+      "role": "Théoricien de la ville, de l’urban alienation et de la production de l’espace mobilisé dans S34.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S34-A010"
+      ],
+      "related_concepts": [
+        "CONCEPT-S34-002"
+      ],
+      "notes": "À relier aux chansons et à l’espace sonore, non à exposer de manière autonome.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-007",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-007 — Georg Simmel",
+    "data": {
+      "id": "PERS-S34-007",
+      "type_unite": "person",
+      "type": "theoricien_urbain",
+      "source_id": "S34",
+      "name": "Georg Simmel",
+      "role": "Théoricien de la surstimulation métropolitaine et de l’attitude blasée mobilisé pour lire la forme de « Interzone ».",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S34-A004",
+        "S34-A007"
+      ],
+      "related_concepts": [
+        "CONCEPT-S34-002"
+      ],
+      "notes": "Utile pour articuler ville, perception et superposition vocale.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-008",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-008 — David Harvey",
+    "data": {
+      "id": "PERS-S34-008",
+      "type_unite": "person",
+      "type": "geographe_urbain",
+      "source_id": "S34",
+      "name": "David Harvey",
+      "role": "Théoricien de l’urbanization of consciousness et de la récupération lefebvrienne de l’espace.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S34-A004",
+        "S34-A010"
+      ],
+      "related_concepts": [
+        "CONCEPT-S34-002"
+      ],
+      "notes": "À utiliser comme appui conceptuel, sans surcharger l’écriture.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-009",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-009 — Jane Jacobs",
+    "data": {
+      "id": "PERS-S34-009",
+      "type_unite": "person",
+      "type": "theoricienne_urbaine",
+      "source_id": "S34",
+      "name": "Jane Jacobs",
+      "role": "Référence au sidewalk ballet mobilisée dans la conclusion de S34 autour de « Transmission ».",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 13",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S34-A009",
+        "S34-A012"
+      ],
+      "notes": "À mobiliser seulement si le motif de la danse urbaine est conservé.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-010",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-010 — Ian Curtis",
+    "data": {
+      "id": "PERS-S34-010",
+      "type_unite": "person",
+      "type": "musicien",
+      "source_id": "S34",
+      "name": "Ian Curtis",
+      "role": "Chanteur et parolier ; dans S34, il est traité moins comme cas biographique que comme point de passage entre subjectivité et ville.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S34-A006",
+        "S34-A007",
+        "S34-A009"
+      ],
+      "notes": "Ne pas réduire la lecture urbaine à la biographie ou à la maladie.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-011",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-011 — Martin Hannett",
+    "data": {
+      "id": "PERS-S34-011",
+      "type_unite": "person",
+      "type": "producteur",
+      "source_id": "S34",
+      "name": "Martin Hannett",
+      "role": "Producteur dont l’usage de l’espace sonore est discuté par S34 via Reynolds, mais à ne pas isoler du rôle du groupe.",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "related_atoms": [
+        "S34-A008"
+      ],
+      "notes": "À croiser avec S72, S75 et les témoignages ; éviter le mythe du génie solitaire.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S34-012",
+    "file": "registers/people/s34_fraser_fuoto_people.md",
+    "heading": "PERS-S34-012 — Paul Morley",
+    "data": {
+      "id": "PERS-S34-012",
+      "type_unite": "person",
+      "type": "critique_musical",
+      "source_id": "S34",
+      "name": "Paul Morley",
+      "role": "Critique cité pour caractériser l’espace sonore et la non-connexion dans *Unknown Pleasures*.",
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 13"
+      ],
+      "related_atoms": [
+        "S34-A008"
+      ],
+      "notes": "Citation candidate à vérifier avant usage.",
+      "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+      "source_short_title": "Benjamin Fraser ; Abby Fuoto, Manchester, 1976: Documenting the urban nature of Joy Division’s musical production, 2012",
+      "source_year": "2012"
+    }
+  },
+  {
+    "kind": "person",
     "id": "PERS-S75-017",
     "file": "registers/people/s75_ott_people_part_02.md",
     "heading": "PERS-S75-017 — Derek Brandwood",
@@ -4027,6 +4356,335 @@
       "methodological_warnings": [
         "présence importante mais périphérique ; ne pas la surdévelopper sans recoupement"
       ]
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-001",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-001 — Michael Goddard",
+    "data": {
+      "id": "PERS-S29-001",
+      "type_unite": "person",
+      "type": "acteur_critique",
+      "source_id": "S29",
+      "name": "Michael Goddard",
+      "role": "Auteur du chapitre « Missions of Dead Souls » ; source critique hauntologique.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 7",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A001"
+      ],
+      "notes": "À citer comme auteur de la lecture critique, non comme témoin primaire.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-002",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-002 — Ian Curtis",
+    "data": {
+      "id": "PERS-S29-002",
+      "type_unite": "person",
+      "type": "musicien",
+      "source_id": "S29",
+      "name": "Ian Curtis",
+      "role": "Chanteur et parolier de Joy Division ; figure centrale de la lecture hauntologique, sous prudence anti-mythologique.",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 7",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A004",
+        "S29-A009",
+        "S29-A010",
+        "S29-A012"
+      ],
+      "notes": "Ne pas réduire Curtis à une figure prophétique ou clinique.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-003",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-003 — Genesis P-Orridge",
+    "data": {
+      "id": "PERS-S29-003",
+      "type_unite": "person",
+      "type": "temoin_problematique",
+      "source_id": "S29",
+      "name": "Genesis P-Orridge",
+      "role": "Figure de Throbbing Gristle et Psychic TV ; témoin revendiquant une affinité avec Ian Curtis.",
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A009"
+      ],
+      "related_myths": [
+        "MYTH-S29-002"
+      ],
+      "notes": "Témoin à croiser ; Goddard signale la fragilité de l’affinité revendiquée.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-004",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-004 — Cosey Fanni Tutti",
+    "data": {
+      "id": "PERS-S29-004",
+      "type_unite": "person",
+      "type": "temoin_critique",
+      "source_id": "S29",
+      "name": "Cosey Fanni Tutti",
+      "role": "Figure de Throbbing Gristle ; son témoignage fragilise le récit de Genesis P-Orridge mobilisé par Goddard.",
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A009"
+      ],
+      "notes": "À utiliser comme garde-fou contre la reprise non critique du récit P-Orridge.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-005",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-005 — Mark Fisher",
+    "data": {
+      "id": "PERS-S29-005",
+      "type_unite": "person",
+      "type": "critique_theorique",
+      "source_id": "S29",
+      "name": "Mark Fisher",
+      "role": "Théoricien de la sonic hauntology, du capitalist realism et des lost futures ; figure critique majeure de S29.",
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 11",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A003",
+        "S29-A004",
+        "S29-A005",
+        "S29-A012"
+      ],
+      "related_concepts": [
+        "CONCEPT-S29-002",
+        "CONCEPT-S29-003"
+      ],
+      "notes": "À utiliser comme cadre critique, non comme double narratif de Curtis.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-006",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-006 — Simon Reynolds",
+    "data": {
+      "id": "PERS-S29-006",
+      "type_unite": "person",
+      "type": "critique_musical",
+      "source_id": "S29",
+      "name": "Simon Reynolds",
+      "role": "Critique mobilisé pour la retromania et la spectralité de l’enregistrement.",
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A003"
+      ],
+      "related_concepts": [
+        "CONCEPT-S29-002"
+      ],
+      "notes": "À distinguer de Fisher dans la généalogie de la sonic hauntology.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-007",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-007 — Jacques Derrida",
+    "data": {
+      "id": "PERS-S29-007",
+      "type_unite": "person",
+      "type": "philosophe",
+      "source_id": "S29",
+      "name": "Jacques Derrida",
+      "role": "Origine théorique de la hauntology mobilisée par Goddard via Fisher.",
+      "chapitres": [
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A003"
+      ],
+      "notes": "Référence conceptuelle ; ne pas confondre hauntology derridienne et nostalgie.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-008",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-008 — Franco Berardi",
+    "data": {
+      "id": "PERS-S29-008",
+      "type_unite": "person",
+      "type": "theoricien",
+      "source_id": "S29",
+      "name": "Franco Berardi",
+      "role": "Auteur mobilisé pour penser l’après-futur, 1977 et l’épuisement des horizons modernistes.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 7",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A005"
+      ],
+      "related_concepts": [
+        "CONCEPT-S29-003"
+      ],
+      "notes": "Usage rétrospectif et culturel ; pas de preuve d’intention du groupe.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-009",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-009 — Paul Crosthwaite",
+    "data": {
+      "id": "PERS-S29-009",
+      "type_unite": "person",
+      "type": "critique_historiographique",
+      "source_id": "S29",
+      "name": "Paul Crosthwaite",
+      "role": "Auteur de la critique de l’« imaginative historicism » reprise par Goddard.",
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A006"
+      ],
+      "notes": "Garde-fou contre le déterminisme Manchester / Thatcher.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-010",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-010 — Grant Gee",
+    "data": {
+      "id": "PERS-S29-010",
+      "type_unite": "person",
+      "type": "realisateur",
+      "source_id": "S29",
+      "name": "Grant Gee",
+      "role": "Réalisateur du documentaire *Joy Division*, valorisé par Goddard via Fisher pour son régime fragmentaire d’archive.",
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A007"
+      ],
+      "notes": "À mobiliser pour penser l’archive fragmentaire.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-011",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-011 — Anton Corbijn",
+    "data": {
+      "id": "PERS-S29-011",
+      "type_unite": "person",
+      "type": "realisateur_photographe",
+      "source_id": "S29",
+      "name": "Anton Corbijn",
+      "role": "Réalisateur de *Control*, film utilisé par Goddard comme contrepoint à l’archive fragmentaire de Grant Gee.",
+      "chapitres": [
+        "Chapitre 8",
+        "Chapitre 14"
+      ],
+      "related_atoms": [
+        "S29-A007"
+      ],
+      "notes": "Ne pas réduire *Control* à une erreur ; l’opposition porte sur le régime de reconstitution.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
+    }
+  },
+  {
+    "kind": "person",
+    "id": "PERS-S29-012",
+    "file": "registers/people/s29_goddard_people.md",
+    "heading": "PERS-S29-012 — Nikolai Gogol",
+    "data": {
+      "id": "PERS-S29-012",
+      "type_unite": "person",
+      "type": "reference_litteraire",
+      "source_id": "S29",
+      "name": "Nikolai Gogol",
+      "role": "Référence littéraire attachée au titre « Dead Souls » ; chez Goddard, la chanson n’est pas une adaptation de Gogol.",
+      "chapitres": [
+        "Chapitre 5",
+        "Chapitre 7",
+        "Chapitre 11"
+      ],
+      "related_atoms": [
+        "S29-A010"
+      ],
+      "notes": "Titre-seuil, non clef narrative unique.",
+      "source_label": "S29 — Goddard, Missions of Dead Souls, 2018",
+      "source_short_title": "Michael Goddard, Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division, 2018",
+      "source_year": "2018"
     }
   },
   {
