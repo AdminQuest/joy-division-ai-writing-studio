@@ -443,7 +443,7 @@ S29 fournit ici une méthode : éviter la biographie reconstituée trop pleine e
 id: REL-S29-017
 source_id: S29
 relation_type: lecture_chanson
- de:
+de:
   - Dead Souls
   - Nikolai Gogol
 vers:
