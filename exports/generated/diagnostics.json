@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-17T18:06:58",
+  "generated_at": "2026-05-17T18:39:40",
   "status": "warning",
   "summary": {
-    "records_total": 4294,
+    "records_total": 4297,
     "records_by_kind": {
       "atom": 1910,
-      "metadata": 102,
+      "metadata": 103,
       "unknown": 360,
-      "source": 65,
+      "source": 67,
       "concept": 228,
       "motif": 295,
       "myth": 40,
@@ -22,9 +22,9 @@
     "diagnostics_total": 20009,
     "errors": 0,
     "warnings": 20009,
-    "sources_declared_in_registre_json": 52,
-    "sources_used_in_records": 32,
-    "sources_exported": 32,
+    "sources_declared_in_registre_json": 53,
+    "sources_used_in_records": 33,
+    "sources_exported": 33,
     "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -816,6 +816,21 @@
           "sources/amendola_troianiello_metropoli_spazio_periferico/registers_update_s42_metropoli_spazio_periferico.md",
           "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
           "sources/amendola_troianiello_metropoli_spazio_periferico/source.md"
+        ]
+      },
+      {
+        "source_id": "S43",
+        "source_label": "S43 — Capozzi, The weight on their shoulders, 2021",
+        "auteur": "Eugenio Capozzi",
+        "titre": "The weight on their shoulders. Ian Curtis e la metamorfosi dei baby boomers",
+        "annee": "2021",
+        "records": 3,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s43_capozzi_weight_on_their_shoulders_source_canonique.md",
+          "sources/capozzi_weight_on_their_shoulders/source.md"
         ]
       },
       {

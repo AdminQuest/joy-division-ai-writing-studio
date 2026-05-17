@@ -415,6 +415,31 @@
   },
   {
     "kind": "source",
+    "id": "S43",
+    "file": "sources/capozzi_weight_on_their_shoulders/source.md",
+    "heading": "S43 — Source canonique — Capozzi, « The weight on their shoulders. Ian Curtis e la metamorfosi dei baby boomers », 2021",
+    "data": {
+      "id": "S43",
+      "source_id": "S43",
+      "type_unite": "source",
+      "source_label": "S43 — Capozzi, The weight on their shoulders, 2021",
+      "source_short_title": "Capozzi, The weight on their shoulders, 2021",
+      "auteur": "Eugenio Capozzi",
+      "titre": "The weight on their shoulders. Ian Curtis e la metamorfosi dei baby boomers",
+      "annee": "2021",
+      "dossier_source": "sources/capozzi_weight_on_their_shoulders/",
+      "volume_contenant": "Alfonso Amendola et Linda Barone (dir.), Our Vision Touched the Sky: Fenomenologia dei Joy Division, Roma, Rogas Edizioni, 2021",
+      "editeur": "Rogas Edizioni",
+      "lieu_edition": "Roma",
+      "isbn": "9788845294778",
+      "fichier_source_original": "Alfonso Amendola e Linda Barone - Our vision touched the sky.pdf",
+      "pages_pdf_exemplaire": "p. 64-75",
+      "statut": "source canonique fixée",
+      "source_year": "2021"
+    }
+  },
+  {
+    "kind": "source",
     "id": "S15",
     "file": "sources/deluca_manchester_punk_threshold/source.md",
     "heading": "S15 — De Luca, The Sound and the Fury, 2021",
@@ -2275,6 +2300,27 @@
       "arbitrage": "Blue Orchids est déplacé en S73 afin de laisser S41 à Peter Hook, dont les fichiers atomisés utilisent déjà cet identifiant.",
       "source_short_title": "Blue Orchids, Référence historique à consolider, s.d.",
       "source_year": "s.d."
+    }
+  },
+  {
+    "kind": "source",
+    "id": "S43",
+    "file": "registers/references/s43_capozzi_weight_on_their_shoulders_source_canonique.md",
+    "heading": "S43 — Source canonique — Capozzi, « The weight on their shoulders », 2021",
+    "data": {
+      "id": "S43",
+      "source_id": "S43",
+      "type_unite": "reference_canonique",
+      "source_label": "S43 — Capozzi, The weight on their shoulders, 2021",
+      "source_short_title": "Capozzi, The weight on their shoulders, 2021",
+      "auteur": "Eugenio Capozzi",
+      "titre": "The weight on their shoulders. Ian Curtis e la metamorfosi dei baby boomers",
+      "annee": "2021",
+      "volume_contenant": "Alfonso Amendola et Linda Barone (dir.), Our Vision Touched the Sky: Fenomenologia dei Joy Division, Roma, Rogas Edizioni, 2021",
+      "dossier_source": "sources/capozzi_weight_on_their_shoulders/",
+      "pages_pdf_exemplaire": "p. 64-75",
+      "statut": "source canonique fixée",
+      "source_year": "2021"
     }
   }
 ]
