@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-17T20:40:37",
+  "generated_at": "2026-05-17T20:50:08",
   "summary": {
-    "records_total": 4409,
+    "records_total": 4412,
     "records_by_kind": {
       "atom": 1954,
-      "metadata": 114,
+      "metadata": 115,
       "unknown": 408,
-      "source": 71,
+      "source": 73,
       "concept": 233,
       "motif": 295,
       "myth": 40,
@@ -21,9 +21,9 @@
     "diagnostics_total": 20569,
     "errors": 0,
     "warnings": 20569,
-    "sources_declared_in_registre_json": 55,
-    "sources_used_in_records": 35,
-    "sources_exported": 35,
+    "sources_declared_in_registre_json": 56,
+    "sources_used_in_records": 36,
+    "sources_exported": 36,
     "declared_but_unused": 20,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
@@ -32,7 +32,7 @@
     "atom": 1954,
     "chronology": 353,
     "concept": 233,
-    "metadata": 114,
+    "metadata": 115,
     "motif": 295,
     "myth": 40,
     "person": 181,
@@ -40,7 +40,7 @@
     "quote_batch": 1,
     "rules": 1,
     "song": 53,
-    "source": 71,
+    "source": 73,
     "template": 336,
     "unknown": 408
   },
@@ -178,6 +178,10 @@
       "concept": 3,
       "myth": 3,
       "chronology": 6
+    },
+    "S35": {
+      "source": 2,
+      "metadata": 1
     },
     "S39": {
       "metadata": 8,
@@ -4498,6 +4502,21 @@
           "sources/fraser_fuoto_manchester_1976/relations_stabilisees.md",
           "sources/fraser_fuoto_manchester_1976/source.md",
           "sources/fraser_fuoto_manchester_1976/source_part_01.md"
+        ]
+      },
+      {
+        "source_id": "S35",
+        "source_label": "S35 — Morris, Record Play Pause, 2019",
+        "auteur": "Stephen Morris",
+        "titre": "Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I",
+        "annee": "2019",
+        "records": 3,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "registers/references/s35_morris_record_play_pause_source_canonique.md",
+          "sources/morris_record_play_pause/source.md"
         ]
       },
       {

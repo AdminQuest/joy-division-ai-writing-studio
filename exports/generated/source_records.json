@@ -507,6 +507,30 @@
   },
   {
     "kind": "source",
+    "id": "S35",
+    "file": "sources/morris_record_play_pause/source.md",
+    "heading": "S35 — Source canonique — Morris, *Record Play Pause*, 2019",
+    "data": {
+      "id": "S35",
+      "source_id": "S35",
+      "type_unite": "source",
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Morris, Record Play Pause, 2019",
+      "auteur": "Stephen Morris",
+      "titre": "Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I",
+      "annee": "2019",
+      "dossier_source": "sources/morris_record_play_pause/",
+      "editeur": "Constable",
+      "lieu_edition": "London",
+      "collection_ou_imprint": "Constable, an imprint of Little, Brown Book Group",
+      "isbn": "978-1-47212-619-1",
+      "fichier_source_original": "Stephen Morris - Record Play Pause - Confessions of a Post-Punk Percussionist.pdf",
+      "statut": "source canonique fixée",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "source",
     "id": "S44",
     "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/source.md",
     "heading": "S44 — Source canonique — Guarino, « I Joy Division tra vomito culturale e ideali sottoculturali », 2021",
@@ -2397,6 +2421,29 @@
       "pages_pdf_exemplaire": "p. 94-98",
       "statut": "source canonique fixée ; atomes v2 intégrés",
       "source_year": "2021"
+    }
+  },
+  {
+    "kind": "source",
+    "id": "S35",
+    "file": "registers/references/s35_morris_record_play_pause_source_canonique.md",
+    "heading": "S35 — Source canonique — Morris, *Record Play Pause*, 2019",
+    "data": {
+      "id": "S35",
+      "source_id": "S35",
+      "type_unite": "reference_canonique",
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Morris, Record Play Pause, 2019",
+      "auteur": "Stephen Morris",
+      "titre": "Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I",
+      "annee": "2019",
+      "lieu_edition": "London",
+      "editeur": "Constable",
+      "imprint": "Little, Brown Book Group",
+      "isbn": "978-1-47212-619-1",
+      "dossier_source": "sources/morris_record_play_pause/",
+      "statut": "source canonique fixée",
+      "source_year": "2019"
     }
   },
   {
