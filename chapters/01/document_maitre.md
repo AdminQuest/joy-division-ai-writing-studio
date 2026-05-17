@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T11:41:20"
+generated_at: "2026-05-17T12:07:13"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,8 +22,8 @@ generated_at: "2026-05-17T11:41:20"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 178 |
-| Atomes critiques / majeurs | 25 |
+| Atomes | 174 |
+| Atomes critiques / majeurs | 21 |
 | Citations | 7 |
 | Événements chronologiques | 3 |
 | Personnes | 7 |
@@ -47,7 +47,7 @@ generated_at: "2026-05-17T11:41:20"
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 2 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 5 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 7 | 0 |
-| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 14 | 1 |
+| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 10 | 1 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
@@ -61,14 +61,6 @@ generated_at: "2026-05-17T11:41:20"
 
 ## 5. Atomes critiques ou majeurs
 
-- **S29-A001** — S29-A001 — Goddard comme source critique hauntologique, non comme source biographique primaire  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S29-A002** — S29-A002 — Joy Division et industrial music : proximité hauntologique plutôt qu’influence sonore directe  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S29-A005** — S29-A005 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_theorique`.
-- **S29-A006** — S29-A006 — Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `controverse` ; importance : `critique` ; preuve : `critique_historiographique`.
 - **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `critique` ; preuve : `forte`.
 - **S29-A018** — S29-A018 — Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité  
@@ -333,7 +325,6 @@ generated_at: "2026-05-17T11:41:20"
 - Tactical Aid Group (2)
 - police-community relations (2)
 - Manchester post-industriel (2)
-- cancellation of the future (2)
 - source critique (2)
 - industrial music (2)
 - spiritual wasteland (2)
@@ -387,12 +378,13 @@ generated_at: "2026-05-17T11:41:20"
 - prévention (2)
 - oral history (2)
 - post-war inner city (2)
+- Anderton (2)
 
 ## 12. Motifs et chaînes relationnelles
 
 ### 12.1. Motifs dominants
 
-- Manchester (4)
+- Manchester (3)
 - Salford (3)
 - politique (2)
 - scène locale (2)
@@ -421,17 +413,17 @@ generated_at: "2026-05-17T11:41:20"
 - Thatcher (1)
 - conservatisme (1)
 - extrapolation (1)
-- hauntology (1)
-- source critique (1)
-- prudence historiographique (1)
-- industrial music (1)
-- postindustrial cityscapes (1)
-- spiritual wasteland (1)
-- ruines de la modernité (1)
-- no future (1)
-- lost futures (1)
-- dyschronia (1)
-- 1977 (1)
+- Londres (1)
+- punk (1)
+- auto-suffisance (1)
+- déclencheur (1)
+- Lower Broughton (1)
+- déplacement (1)
+- tour (1)
+- travail répétitif (1)
+- 1979 (1)
+- crise anglaise (1)
+- disco (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -454,17 +446,6 @@ generated_at: "2026-05-17T11:41:20"
 - S45-A020 — stabilise → REGISTRE-CITATIONS-VERIFIEES
 - S45-A020 — alerte → RISQUE-SURTRADUCTION-POLITIQUE
 - S45-A020 — nuance → S45-A019
-- S29-A001 — prolonge → CONCEPT-004
-- S29-A001 — nuance → MYTH-002
-- S29-A002 — nuance → MYTH-003
-- S29-A002 — prépare → CONCEPT-S29-001
-- S29-A002 — relie → S29-A008
-- S29-A005 — prolonge → CONCEPT-S29-003
-- S29-A005 — nuance → MYTH-002
-- S29-A005 — nuance → MYTH-003
-- S29-A006 — prolonge → CONCEPT-004
-- S29-A006 — déconstruit → MYTH-003
-- S29-A006 — nuance → MYTH-002
 - S75-A004 — nuance → MYTH-lesser_free_trade_hall_origine_absolue
 - S75-A004 — prolonge → CONCEPT-geographie_emotionnelle
 - S75-A014 — nuance → MYTH-curtis_centre_unique
@@ -516,16 +497,16 @@ generated_at: "2026-05-17T11:41:20"
 | concept_structurant | 9 |
 | analyse | 9 |
 | prudence_methodologique | 8 |
-| concept | 7 |
 | sociologie | 7 |
 | contexte_social | 6 |
 | evenement_politique | 5 |
+| concept | 5 |
 | lieu_scene | 4 |
-| lecture | 4 |
 | contexte | 4 |
 | biographie | 4 |
 | methode | 3 |
 | contrepoint | 3 |
+| lecture | 3 |
 | politique_urbaine | 3 |
 | tension_documentaire | 2 |
 | acteur_institutionnel | 2 |
@@ -548,7 +529,6 @@ generated_at: "2026-05-17T11:41:20"
 | contexte_institutionnel | 1 |
 | institution_policiere | 1 |
 | contexte_politique | 1 |
-| controverse | 1 |
 | modernisme_litteraire | 1 |
 | infrastructure | 1 |
 | interpretation_culturelle | 1 |
@@ -610,7 +590,7 @@ generated_at: "2026-05-17T11:41:20"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 15 |
+| critique | 11 |
 | majeure | 10 |
 | majeur | 2 |
 
@@ -621,10 +601,6 @@ generated_at: "2026-05-17T11:41:20"
 - S45-A031 [moyen] — Risque de reconstruire Manchester comme capitale évidente alors que la scène est encore précaire, locale et partiellement fantasmée.
 - S45-A019 [très élevé] — Risque de transformer un détail domestique et électoral en preuve d’un positionnement thatchérien, ou inversement de l’écarter parce qu’il contredit l’image attendue d’un groupe post-punk issu du Manchester en crise.
 - S45-A020 [très élevé] — « Conservateur » peut être surtraduit en « thatchérien », alors que le passage ne l’établit pas.
-- S29-A001 [eleve] — risque de transformer une lecture hauntologique en preuve d’intention ou en biographie psychologique
-- S29-A002 [moyen] — risque d’écrire que Throbbing Gristle influence directement Joy Division sans preuve sonore suffisante
-- S29-A005 [eleve] — risque de transformer Joy Division en oracle politique ou en anticipation littérale de Thatcher
-- S29-A006 [eleve] — risque double : déterminisme Manchester/Thatcher ou atemporalisation romantique du groupe
 - S75-A004 [moyen] — risque de durcir excessivement l'opposition Londres/Manchester
 - S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
 - S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale

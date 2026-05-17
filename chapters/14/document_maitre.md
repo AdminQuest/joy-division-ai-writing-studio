@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T11:41:20"
+generated_at: "2026-05-17T12:07:13"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 861 |
+| Atomes | 851 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 97 |
 | Événements chronologiques | 60 |
@@ -48,7 +48,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 11 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 12 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 4 | 0 |
-| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 28 | 5 |
+| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 18 | 5 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
@@ -70,20 +70,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `tension_documentaire` ; importance : `critique` ; preuve : `source critique secondaire`.
 - **S13-A008** — S13-A008 — Haçienda : du deuil de Curtis à la scène acid house  
   Source : S13 — Tomeo, Dance Dance Dance!, 2021 ; type : `lieu_institution` ; importance : `critique` ; preuve : `source critique secondaire`.
-- **S29-A001** — S29-A001 — Goddard comme source critique hauntologique, non comme source biographique primaire  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S29-A002** — S29-A002 — Joy Division et industrial music : proximité hauntologique plutôt qu’influence sonore directe  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S29-A003** — S29-A003 — Sonic hauntology : Derrida, Fisher, Reynolds et spectralité de l’enregistrement  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_theorique`.
-- **S29-A005** — S29-A005 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_theorique`.
-- **S29-A006** — S29-A006 — Crosthwaite contre le déterminisme : Joy Division n’est ni simple Manchester, ni pure éternité  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `controverse` ; importance : `critique` ; preuve : `critique_historiographique`.
-- **S29-A009** — S29-A009 — Throbbing Gristle : affinités, occulture et témoin problématique  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `temoignage_rapporté_problématisé`.
-- **S29-A012** — S29-A012 — Dépression, classe et exorcisme politique : Curtis et Fisher sans romantisation  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S29-A013** — S29-A013 — P-Orridge / Curtis : affinité revendiquée, mais témoin instable  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_temoin` ; importance : `critique` ; preuve : `moyenne`.
 - **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
@@ -134,6 +120,20 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_echec` ; importance : `critique` ; preuve : `témoignage direct + review rapportée`.
 - **S41-A099** — S41-A099 — Granada Reports : montage World in Action et naissance du geste scénique de Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `objet_audiovisuel` ; importance : `critique` ; preuve : `témoignage Hook sur archive audiovisuelle`.
+- **S41-A100** — S41-A100 — Rock Against Racism et Cabaret Voltaire : correction politique et montée Factory  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_politique_factory` ; importance : `critique` ; preuve : `chronologie éditoriale + citation Hook`.
+- **S41-A101** — S41-A101 — Brunel et Bristol dans la timeline : la violence de tournée vérifiée par témoins externes  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `citations témoins externes rapportées par Hook`.
+- **S41-A103** — S41-A103 — Hope & Anchor dans la timeline : anti-consécration londonienne confirmée par review  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_live` ; importance : `critique` ; preuve : `review rapportée + chronologie`.
+- **S41-A107** — S41-A107 — John Peel Session : validation radiophonique et prestige supérieur au chart placing  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `reception_radio` ; importance : `critique` ; preuve : `témoignage direct + fait radiophonique établi`.
+- **S41-A114** — S41-A114 — Bowdon Vale : Joy Division presque achevé avant l’album  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_live_pre_album` ; importance : `critique` ; preuve : `témoignage direct + archive filmique`.
+- **S41-A120** — S41-A120 — Anti-image : Saville, anonymat, grisaille et refus du rock portraituré  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `esthétique_visuelle` ; importance : `critique` ; preuve : `témoignage direct rétrospectif + objet visuel documenté`.
+- **S41-A121** — S41-A121 — Silence aux journalistes : Gretton interdit Hook/Sumner et fabrique malgré lui la mystique  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `strategie_medias` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 
 ## 6. Autres atomes utiles
 
@@ -275,28 +275,28 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_methodologique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S29-A003** — S29-A003 — Sonic hauntology : Derrida, Fisher, Reynolds et spectralité de l’enregistrement  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept_theorique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S29-A004** — S29-A004 — Fisher hanté à son tour : quand le concept devient lui-même posthume  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mythe` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S29-A004** — S29-A004 — Cancellation of the future : Joy Division, Berardi et Fisher  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S29-A005** — S29-A005 — Imaginative historicism : limite des lectures Manchester / Thatcher trop directes  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `critique_historiographique` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S29-A007** — S29-A007 — Grant Gee contre *Control* : l’archive fragmentaire saisit mieux le temps disparu  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `archive_visuelle` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S29-A008** — S29-A008 — Joy Division / Throbbing Gristle : industrial society, esotericism, occult and spiritual wasteland  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S29-A009** — S29-A009 — Mark Fisher et Ian Curtis : dépression, classe et expression politique  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `depression_politique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S29-A010** — S29-A010 — Hauntological past : persistance, insistance et mémoire spectrale de Joy Division  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `memoire_spectrale` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S29-A011** — S29-A011 — De « The Eternal » à « Decades » : état liminaire entre vie, mort et mémoire collective  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S29-A011** — S29-A011 — S29 comme source de cadrage critique, non preuve directe sur les intentions de Curtis  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `prudence_interpretative` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S29-A012** — S29-A012 — Risque de romantisation : suicide, dépression et mythologie postmortem  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mythe_prudence` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S29-A015** — S29-A015 — La spectralité de l’enregistrement : l’archive sonore comme retour des morts  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept_theorique` ; importance : `majeure` ; preuve : `forte`.
+- **S29-A017** — S29-A017 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
+- **S29-A019** — S29-A019 — Grant Gee contre *Control* : l’archive fragmentaire saisit mieux le temps disparu  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `mediation_audiovisuelle` ; importance : `majeure` ; preuve : `forte`.
+- **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2** — S29 — Passe v2 — Goddard, hauntology, industrial music, modernism and esotericism  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge`.
 
 ## 7. Citations disponibles
 
@@ -496,7 +496,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - unknown pleasures (6)
 - Sordide Sentimentale (6)
 - management (6)
-- sonic hauntology (5)
 - critique musicale (5)
 - manchester (5)
 - Kevin Cummins (5)
@@ -512,6 +511,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Peel Sessions (5)
 - Birmingham University (5)
 - culte (5)
+- sonic hauntology (4)
 - fanzine (4)
 - paul morley (4)
 - télévision (4)
@@ -532,7 +532,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Rob Gretton (16)
 - Peter Saville (10)
 - Buzzcocks tour (9)
-- Ian Curtis (9)
+- Ian Curtis (8)
 - Unknown Pleasures (8)
 - Factory (8)
 - fatigue (8)
@@ -541,7 +541,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Electric Circus (6)
 - Kevin Cummins (6)
 - Love Will Tear Us Apart (5)
-- Decades (5)
 - New Order (5)
 - Still (5)
 - Durutti Column (5)
@@ -555,11 +554,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Sounds (4)
 - Strawberry Studios (4)
 - NME (4)
-- Genesis P-Orridge (4)
-- Throbbing Gristle (4)
-- The Eternal (4)
 - Haçienda (4)
 - Ceremony (4)
+- Decades (4)
 - Control (4)
 - Moonlight Club (4)
 - America (4)
@@ -567,6 +564,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Hannett (4)
 - Plan K (4)
 - Licht und Blindheit (4)
+- Dead Souls (4)
+- épilepsie (4)
+- Sister Ray (4)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -622,34 +622,34 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A153 — prolonge → S45-A151
 - S45-A153 — nuance → MYTH-002
 - S45-A153 — prépare → CHAPITRE-13-MY-TIMING
-- S29-A001 — prolonge → CONCEPT-004
-- S29-A001 — nuance → MYTH-002
-- S29-A002 — nuance → MYTH-003
-- S29-A002 — prépare → CONCEPT-S29-001
-- S29-A002 — relie → S29-A008
-- S29-A003 — prolonge → CONCEPT-S29-002
-- S29-A003 — prolonge → MOTIF-004
-- S29-A003 — prépare → S29-A010
-- S29-A004 — nuance → MYTH-002
-- S29-A004 — prépare → MYTH-S29-001
-- S29-A004 — relie → S29-A009
-- S29-A005 — prolonge → CONCEPT-S29-003
-- S29-A005 — nuance → MYTH-002
-- S29-A005 — nuance → MYTH-003
-- S29-A006 — prolonge → CONCEPT-004
-- S29-A006 — déconstruit → MYTH-003
-- S29-A006 — nuance → MYTH-002
-- S29-A007 — prolonge → CONCEPT-S29-002
-- S29-A007 — relie → MOTIF-004
-- S29-A007 — nuance → MYTH-002
-- S29-A009 — nuance → S29-A002
-- S29-A009 — prolonge → CONCEPT-004
-- S29-A009 — prépare → MYTH-S29-002
-- S29-A011 — prolonge → MOTIF-006
-- S29-A011 — nuance → MYTH-002
-- S29-A011 — relie → S29-A005
-- S29-A012 — prolonge → CONCEPT-004
-- S29-A012 — nuance → MYTH-002
+- S13-A001 — prolonge → S12
+- S13-A001 — prolonge → S20
+- S13-A001 — prépare → S13-A005
+- S13-A002 — prolonge → CONCEPT-no-future
+- S13-A002 — prépare → S13-A010
+- S13-A003 — nuance → S13-A005
+- S13-A003 — prolonge → S74
+- S13-A003 — prolonge → S41
+- S13-A008 — prolonge → ORG-Factory-Records
+- S13-A008 — prolonge → PLACE-Hacienda
+- S13-A008 — prolonge → S41-Hacienda
+- S13-A009 — prolonge → S13-A008
+- S13-A009 — prolonge → ORG-New-Order
+- S13-A009 — nuance → MYTH-Curtis-centre-absolu
+- S13-A010 — prolonge → S13-A002
+- S13-A010 — prolonge → MYTH-rave-utopie
+- S13-A010 — nuance → S13-A003
+- S41-A107 — prolonge → S41-A079
+- S41-A107 — prolonge → CONCEPT-075
+- S41-A047 — prolonge → S41-A046
+- S41-A047 — prolonge → S41-A040
+- S41-A047 — alimente → REGISTRE-BOOTLEGS
+- S41-A049 — prolonge → S41-A001
+- S41-A049 — prolonge → REGISTRE-BOOTLEGS
+- S41-A053 — prolonge → S41-A052
+- S41-A053 — alimente → REGISTRE-GEOGRAPHIE-EMOTIONNELLE
+- S41-A053 — prolonge → S45-A144
+- S41-A025 — prolonge → CONCEPT-050
 
 ## 13. Distribution documentaire
 
@@ -672,26 +672,23 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | production | 8 |
 | contrepoint | 8 |
 | scene_fondatrice | 8 |
-| lecture | 7 |
-| concept | 7 |
-| controverse | 7 |
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
 | fait | 7 |
-| mythe | 6 |
 | source_part | 6 |
+| lecture | 6 |
+| controverse | 6 |
 | objet_audiovisuel | 5 |
-| lecture_chanson | 5 |
 | session_radio | 5 |
 | iconographie_photographe | 5 |
 | biographie | 5 |
+| mythe | 5 |
 | acteur_critique | 5 |
 | citation_repere | 5 |
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
 | concept_structurant | 4 |
-| archive_visuelle | 4 |
 | management | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
@@ -703,6 +700,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reprise_exterieure | 4 |
 | index_chanson | 4 |
 | session_studio | 4 |
+| lecture_chanson | 4 |
 | concert_europeen | 4 |
 | reception_presse | 3 |
 | temporalite_culturelle | 3 |
@@ -715,6 +713,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | dernier_concert | 3 |
 | esthétique_visuelle | 3 |
 | evenement_medical_live | 3 |
+| archive_visuelle | 3 |
 | transition_new_order | 3 |
 | objet_factory | 3 |
 | reception_posthume | 3 |
@@ -723,6 +722,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | chanson_transition | 3 |
 | design | 3 |
 | lecture_biographique | 3 |
+| concept | 3 |
 | objet_visuel | 3 |
 | decision_strategique | 3 |
 | conclusion_historiographique | 3 |
@@ -732,7 +732,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
 | critique_methodologique | 2 |
-| prudence_temoin | 2 |
 | concept_theorique | 2 |
 | critique_historiographique | 2 |
 | mediation_audiovisuelle | 2 |
@@ -796,6 +795,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | depression_politique | 1 |
 | memoire_spectrale | 1 |
 | prudence_interpretative | 1 |
+| prudence_temoin | 1 |
 | relation_esthetique | 1 |
 | contexte_critique | 1 |
 | concept_affectif | 1 |
@@ -1094,8 +1094,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 232 |
-| majeure | 45 |
+| critique | 225 |
+| majeure | 42 |
 | majeur | 28 |
 | structurante | 2 |
 | moyenne | 2 |
@@ -1121,16 +1121,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S45-A150 [élevé] — Risque de réécrire l’histoire en solution médicale évidente ; c’est une appréciation rétrospective.
 - S45-A152 [moyen] — Risque de fétichiser la dernière photographie ; elle doit rester un document affectif et domestique.
 - S45-A153 [très élevé] — Risque de transformer *Stroszek* en cause ou clé explicative unique.
-- S29-A001 [eleve] — risque de transformer une lecture hauntologique en preuve d’intention ou en biographie psychologique
-- S29-A002 [moyen] — risque d’écrire que Throbbing Gristle influence directement Joy Division sans preuve sonore suffisante
-- S29-A003 [moyen] — risque de confondre spectralité de l’enregistrement, occultisme et simple nostalgie
-- S29-A004 [eleve] — risque de faire de la mort une preuve esthétique ou de produire une symétrie Curtis/Fisher artificielle
-- S29-A005 [eleve] — risque de transformer Joy Division en oracle politique ou en anticipation littérale de Thatcher
-- S29-A006 [eleve] — risque double : déterminisme Manchester/Thatcher ou atemporalisation romantique du groupe
-- S29-A007 [moyen] — l’opposition doit rester un outil de lecture, non un jugement définitif sur les œuvres
-- S29-A009 [eleve] — P-Orridge peut aimanter une narration sensationnaliste et biographiquement faible
-- S29-A011 [eleve] — risque de lire *Closer* exclusivement à rebours de la mort de Curtis
-- S29-A012 [eleve] — risque de transformer la dépression en esthétique ou de faire de l’art une compensation rédemptrice
 - S13-A001 [élevé] — Risque d’utiliser Tomeo comme source historique directe sur Thatcher, Anderton ou l’ordre public local.
 - S13-A002 [moyen] — La formule est brillante mais schématique ; ne pas la transformer en périodisation historique suffisante.
 - S13-A003 [très élevé] — Ne jamais écrire que Joy Division invente la rave ou la techno.
@@ -1162,6 +1152,16 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - S41-A203 [moyen] — Ne pas faire de l’erreur un programme esthétique totalement conscient ; elle devient canon après coup.
 - S41-A204 [moyen] — Ne pas utiliser le dernier concert comme scène prophétique ; il reste aussi un bon concert selon Hook.
 - S41-A205 [très élevé] — Risque de relire l’euphorie comme masque évident ; Hook maintient l’incertitude.
+- S41-A207 [moyen] — Ne pas interpréter l’absence de cris comme absence d’affect ; Hook parle de sidération.
+- S41-A208 [élevé] — Ne pas faire de Rob un prophète froid ; la phrase s’inscrit dans une scène de sidération.
+- S41-A209 [moyen] — Ne pas présenter cette reprise comme froideur ; elle relève de la survie et du travail.
+- S41-A210 [très élevé] — Ne pas convertir la culpabilité en aveu causal ; elle relève de l’après-coup.
+- S41-A094 [faible] — Risque limité ; l’atome sert à éviter la téléologie Factory Records.
+- S41-A096 [faible à moyen] — Ne pas transformer les anecdotes en jugement global sur les groupes.
+- S41-A099 [élevé] — Hook reste spéculatif sur la danse de Curtis.
+- S41-A100 [moyen] — RAR est un élément de nuance, non une absolution totale.
+- S41-A101 [moyen] — Ne pas confondre citation de fan et preuve exhaustive.
+- S41-A102 [moyen] — La review formule une possibilité, non une consécration.
 
 ## 15. Lacunes et prochaines vérifications
 

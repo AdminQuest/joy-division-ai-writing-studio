@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T11:41:20"
+generated_at: "2026-05-17T12:07:13"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,7 +22,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 321 |
+| Atomes | 319 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 27 |
 | Événements chronologiques | 19 |
@@ -41,7 +41,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S22 | S22 — Wilkinson, City Fun and the politics of post-punk, 2018 | 5 | 0 |
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 8 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 2 | 0 |
-| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 7 | 0 |
+| S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 5 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
@@ -56,10 +56,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 ## 5. Atomes critiques ou majeurs
 
-- **S29-A001** — S29-A001 — Goddard comme source critique hauntologique, non comme source biographique primaire  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S29-A002** — S29-A002 — Joy Division et industrial music : proximité hauntologique plutôt qu’influence sonore directe  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S29-A014** — S29-A014 — Au-delà de l’influence : Joy Division et industrial music comme deux réponses aux mêmes ruines  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_esthetique` ; importance : `critique` ; preuve : `forte`.
 - **S41-A015** — S41-A015 — Acheter une basse : hasard instrumental, Mazel et naissance de Hooky bassiste  
@@ -126,6 +122,10 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct + analyse technique rétrospective`.
 - **S41-A155** — S41-A155 — « I Remember Nothing » : jam sans ordre, Transcendent 2000 et atmosphère finale  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_morceau` ; importance : `critique` ; preuve : `témoignage direct d’interprète + détails studio à croiser`.
+- **S41-A156** — S41-A156 — Timeline Four : 1979 comme année de superposition documentaire  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale + commentaires Hook`.
+- **S41-A160** — S41-A160 — Chronologie *Unknown Pleasures* : session, naissance de Natalie et sortie FACT 10  
+  Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_discographique` ; importance : `critique` ; preuve : `chronologie éditoriale discographique`.
 
 ## 6. Autres atomes utiles
 
@@ -537,11 +537,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S45-A078 — prolonge → CONCEPT-006
 - S45-A078 — prolonge → S45-A066
 - S45-A078 — nuance → MYTH-HANNETT-GENIE-ABSOLU
-- S29-A001 — prolonge → CONCEPT-004
-- S29-A001 — nuance → MYTH-002
-- S29-A002 — nuance → MYTH-003
-- S29-A002 — prépare → CONCEPT-S29-001
-- S29-A002 — relie → S29-A008
 - S13-A007 — prolonge → S41-Hannett-Unknown-Pleasures
 - S13-A007 — prolonge → S45-Hannett-catalyseur
 - S13-A007 — prépare → S13-A008
@@ -596,6 +591,11 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A068 — prolonge → CONCEPT-058
 - S41-A068 — prépare → S41-A069
 - S41-A069 — prolonge → CONCEPT-058
+- S41-A069 — prolonge → REGISTRE-BOOTLEGS
+- S41-A069 — prépare → S41-A071
+- S41-A073 — prolonge → CONCEPT-056
+- S41-A073 — prolonge → S41-A068
+- S41-A078 — prolonge → CONCEPT-063
 
 ## 13. Distribution documentaire
 
@@ -613,8 +613,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | fait | 9 |
 | session | 7 |
 | source_part | 7 |
-| concept | 6 |
 | lieu_studio | 5 |
+| concept | 5 |
 | session_radio | 4 |
 | discographie | 4 |
 | reception_critique | 4 |
@@ -654,7 +654,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | concept_scene | 1 |
 | mediations_scene | 1 |
 | concert | 1 |
-| lecture | 1 |
 | relation_inter_sources | 1 |
 | contrepoint | 1 |
 | economie_sonore | 1 |
@@ -749,7 +748,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 211 |
-| critique | 89 |
+| critique | 87 |
 | majeure | 11 |
 | majeur | 10 |
 
@@ -762,8 +761,6 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S45-A066 [moyen] — Risque de donner à Factory une cohérence entièrement constituée dès l’EP ; il s’agit d’un seuil, pas encore d’un système clos.
 - S45-A076 [moyen] — Risque de rétablir Curtis comme génie central au détriment du collectif ; l’atome doit précisément maintenir la tension catalyse / collectif.
 - S45-A078 [moyen] — Risque d’effacer l’apport du groupe au profit du producteur ou inversement.
-- S29-A001 [eleve] — risque de transformer une lecture hauntologique en preuve d’intention ou en biographie psychologique
-- S29-A002 [moyen] — risque d’écrire que Throbbing Gristle influence directement Joy Division sans preuve sonore suffisante
 - S13-A007 [élevé] — Vérifier chaque détail de bruitage avant utilisation factuelle.
 - S41-A108 [moyen] — Ne pas réduire « Digital » à Kraftwerk ni « Shadowplay » au Velvet Underground ; Hook insiste justement sur la transformation.
 - S41-A109 [élevé] — Risque d’héroïser Curtis comme seul organisateur du groupe ; le passage doit rester relationnel.
@@ -815,6 +812,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 - S41-A151 [faible] — Atome matériel ; son intérêt est la relation son / pauvreté.
 - S41-A153 [moyen] — Ne pas figer l’interprétation antireligieuse de Wilderness comme seule lecture possible.
 - S41-A004 [faible] — L’atome sert surtout de contre-mythe technique ; ne pas le surcharger.
+- S75-A060 [moyen] — ne pas isoler « Transmission » comme rupture totale ; elle prolonge et corrige *Unknown Pleasures*
+- S75-A069 [moyen] — Ott emploie une rhétorique très élevée ; conserver la force sans sacraliser excessivement
 
 ## 15. Lacunes et prochaines vérifications
 

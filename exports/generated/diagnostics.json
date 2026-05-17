@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-17T11:41:07",
-  "status": "error",
+  "generated_at": "2026-05-17T12:06:59",
+  "status": "warning",
   "summary": {
-    "records_total": 4172,
+    "records_total": 4162,
     "records_by_kind": {
-      "atom": 1879,
-      "metadata": 77,
+      "atom": 1867,
+      "metadata": 78,
       "unknown": 338,
-      "source": 62,
+      "source": 63,
       "concept": 225,
       "motif": 291,
       "myth": 37,
@@ -19,13 +19,13 @@
       "rules": 1,
       "person": 169
     },
-    "diagnostics_total": 19690,
-    "errors": 12,
-    "warnings": 19678,
+    "diagnostics_total": 19578,
+    "errors": 0,
+    "warnings": 19578,
     "sources_declared_in_registre_json": 51,
-    "sources_used_in_records": 28,
-    "sources_exported": 28,
-    "declared_but_unused": 23,
+    "sources_used_in_records": 29,
+    "sources_exported": 29,
+    "declared_but_unused": 22,
     "used_but_missing_from_registre_json": 0,
     "weak_source_labels": 0
   },
@@ -274,21 +274,6 @@
           "répétition",
           "rythme",
           "influence européenne"
-        ]
-      },
-      {
-        "source_id": "S34",
-        "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
-        "auteur": "Benjamin Fraser ; Abby Fuoto",
-        "titre": "Manchester, 1976: Documenting the urban nature of Joy Division’s musical production",
-        "annee": "2012",
-        "statut": "verifie",
-        "usage": [
-          "urbanité",
-          "incorporation de l’espace",
-          "Joy Division",
-          "Manchester",
-          "production musicale"
         ]
       },
       {
@@ -694,8 +679,8 @@
         "auteur": "Michael Goddard",
         "titre": "Missions of Dead Souls: A Hauntology of the Industrial, Modernism and Esotericism in the Music of Joy Division",
         "annee": "2018",
-        "records": 85,
-        "atoms": 35,
+        "records": 73,
+        "atoms": 23,
         "quotes": 5,
         "chronology": 4,
         "files": [
@@ -709,9 +694,22 @@
           "registers/songs/s29_goddard_songs.md",
           "sources/goddard_missions_dead_souls/relations_stabilisees.md",
           "sources/goddard_missions_dead_souls/source.md",
-          "sources/goddard_missions_dead_souls/source_part_01.md",
           "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
           "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2bis_2026-05-17.md"
+        ]
+      },
+      {
+        "source_id": "S34",
+        "source_label": "S34 — Fraser & Fuoto, Manchester, 1976, 2012",
+        "auteur": "Benjamin Fraser ; Abby Fuoto",
+        "titre": "Manchester, 1976: Documenting the urban nature of Joy Division’s musical production",
+        "annee": "2012",
+        "records": 2,
+        "atoms": 0,
+        "quotes": 0,
+        "chronology": 0,
+        "files": [
+          "sources/fraser_fuoto_manchester_1976/source.md"
         ]
       },
       {
@@ -13050,606 +13048,6 @@
     },
     {
       "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A001"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A002"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A003"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A004"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A004"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A004"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A004"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A004"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A004"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A004"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A004"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A005"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A006"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A006"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A006"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A006"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A006"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A006"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A006"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A006"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A007"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A007"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A007"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A007"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A007"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A007"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A007"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Invalid value for type_unite: archive_visuelle",
-      "record_id": "S29-A007"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A007"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A008"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A009"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A009"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A009"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A009"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A009"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A009"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A009"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Invalid value for type_unite: prudence_temoin",
-      "record_id": "S29-A009"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A009"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A010"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A010"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A010"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A010"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A010"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A010"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A010"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Invalid value for type_unite: lecture_chanson",
-      "record_id": "S29-A010"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A010"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Invalid value for type_unite: lecture_chanson",
-      "record_id": "S29-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A011"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: auteur",
-      "record_id": "S29-A012"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: concepts",
-      "record_id": "S29-A012"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: chapitres",
-      "record_id": "S29-A012"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: statut",
-      "record_id": "S29-A012"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: fiabilite",
-      "record_id": "S29-A012"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_interchapitres",
-      "record_id": "S29-A012"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing required field: liens_citations",
-      "record_id": "S29-A012"
-    },
-    {
-      "level": "warning",
-      "file": "sources/goddard_missions_dead_souls/source_part_01.md",
-      "message": "Missing nested field: stabilite.risque_revision",
-      "record_id": "S29-A012"
-    },
-    {
-      "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Missing required field: concepts",
       "record_id": "S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2"
@@ -13799,12 +13197,6 @@
       "record_id": "S29-A001"
     },
     {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
-      "record_id": "S29-A001"
-    },
-    {
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Missing required field: auteur",
@@ -13874,12 +13266,6 @@
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Invalid value for type_unite: relation_esthetique",
-      "record_id": "S29-A002"
-    },
-    {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
       "record_id": "S29-A002"
     },
     {
@@ -13955,12 +13341,6 @@
       "record_id": "S29-A003"
     },
     {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
-      "record_id": "S29-A003"
-    },
-    {
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Missing required field: auteur",
@@ -14030,12 +13410,6 @@
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Invalid value for type_unite: temporalite_culturelle",
-      "record_id": "S29-A004"
-    },
-    {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
       "record_id": "S29-A004"
     },
     {
@@ -14111,12 +13485,6 @@
       "record_id": "S29-A005"
     },
     {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
-      "record_id": "S29-A005"
-    },
-    {
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Missing required field: auteur",
@@ -14189,12 +13557,6 @@
       "record_id": "S29-A006"
     },
     {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
-      "record_id": "S29-A006"
-    },
-    {
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Missing required field: auteur",
@@ -14264,12 +13626,6 @@
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Invalid value for type_unite: lecture_chanson",
-      "record_id": "S29-A007"
-    },
-    {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
       "record_id": "S29-A007"
     },
     {
@@ -14351,12 +13707,6 @@
       "record_id": "S29-A008"
     },
     {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
-      "record_id": "S29-A008"
-    },
-    {
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Missing required field: auteur",
@@ -14426,12 +13776,6 @@
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Invalid value for type_unite: depression_politique",
-      "record_id": "S29-A009"
-    },
-    {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
       "record_id": "S29-A009"
     },
     {
@@ -14507,12 +13851,6 @@
       "record_id": "S29-A010"
     },
     {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
-      "record_id": "S29-A010"
-    },
-    {
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Missing required field: auteur",
@@ -14585,12 +13923,6 @@
       "record_id": "S29-A011"
     },
     {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
-      "record_id": "S29-A011"
-    },
-    {
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Missing required field: auteur",
@@ -14660,12 +13992,6 @@
       "level": "warning",
       "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
       "message": "Invalid value for type_unite: mythe_prudence",
-      "record_id": "S29-A012"
-    },
-    {
-      "level": "error",
-      "file": "sources/goddard_missions_dead_souls/source_part_hauntology_industrial_modernism_v2.md",
-      "message": "Duplicate id also found in sources/goddard_missions_dead_souls/source_part_01.md",
       "record_id": "S29-A012"
     },
     {
