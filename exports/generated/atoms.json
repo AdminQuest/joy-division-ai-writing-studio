@@ -85181,6 +85181,805 @@
   },
   {
     "kind": "atom",
+    "id": "S35-A001",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A001 — S35 comme mémoire interne rétrospective, non chronologie souveraine",
+    "data": {
+      "id": "S35-A001",
+      "source_id": "S35",
+      "pages_pdf": "1-358",
+      "type_unite": "prudence_methodologique",
+      "importance": "critique",
+      "preuve": "source_primaire_retrospective",
+      "concepts": [
+        "témoignage interne",
+        "mémoire autobiographique",
+        "humour rétrospectif",
+        "prudence historiographique"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 4",
+        "Chapitre 6",
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas transformer S35 en chronologie souveraine.",
+        "Croiser dates, dialogues, séquences médicales et responsabilités avec S41, S45, S75, S76 et sources contemporaines."
+      ],
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A002",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A002 — Macclesfield : enfance, industrie, Parkside et double décor mental",
+    "data": {
+      "id": "S35-A002",
+      "source_id": "S35",
+      "pages_pdf": "11-26",
+      "type_unite": "contexte_biographique",
+      "importance": "majeure",
+      "preuve": "témoignage_autobiographique",
+      "concepts": [
+        "Macclesfield",
+        "ville industrielle en déclin",
+        "Parkside",
+        "pharmacie",
+        "textile",
+        "imaginaire de l’enfance"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 12"
+      ],
+      "related_places": [
+        "Macclesfield",
+        "Gawsworth Road",
+        "Parkside",
+        "Jodrell Bank"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A003",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A003 — Radio, disques, télévision : l’oreille avant la technique",
+    "data": {
+      "id": "S35-A003",
+      "source_id": "S35",
+      "pages_pdf": "37-50",
+      "type_unite": "formation_sensible",
+      "importance": "utile",
+      "preuve": "témoignage_autobiographique",
+      "concepts": [
+        "radio",
+        "télévision",
+        "pop",
+        "imaginaire sonore",
+        "enfance médiatique"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3"
+      ],
+      "related_works": [
+        "Doctor Who",
+        "Top of the Pops",
+        "Juke Box Jury",
+        "Telstar"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A004",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A004 — Premières pertes de connaissance : expérience corporelle à traiter avec prudence",
+    "data": {
+      "id": "S35-A004",
+      "source_id": "S35",
+      "pages_pdf": "29-30",
+      "type_unite": "fait_biographique_prudent",
+      "importance": "utile",
+      "preuve": "témoignage_autobiographique",
+      "concepts": [
+        "perte de connaissance",
+        "psychologie",
+        "Parkside",
+        "enfance"
+      ],
+      "chapitres": [
+        "Chapitre 12"
+      ],
+      "related_people": [
+        "Stephen Morris"
+      ],
+      "related_places": [
+        "Christ Church Primary School",
+        "Parkside"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas rapprocher mécaniquement l’expérience corporelle de Morris de l’épilepsie de Curtis.",
+        "Utiliser comme contexte autobiographique, non comme diagnostic."
+      ],
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A005",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A005 — Hawkwind, Bowie, krautrock : matrices pré-punk de Morris",
+    "data": {
+      "id": "S35-A005",
+      "source_id": "S35",
+      "pages_pdf": "56-67",
+      "type_unite": "matrice_musicale",
+      "importance": "majeure",
+      "preuve": "témoignage_autobiographique",
+      "concepts": [
+        "pré-punk",
+        "space rock",
+        "glam",
+        "krautrock",
+        "expérimentation"
+      ],
+      "chapitres": [
+        "Chapitre 3"
+      ],
+      "related_people": [
+        "David Bowie",
+        "Mick Ronson",
+        "Brian Eno"
+      ],
+      "related_organizations": [
+        "Hawkwind",
+        "Faust",
+        "Can",
+        "Neu!",
+        "Kraftwerk"
+      ],
+      "related_places": [
+        "Free Trade Hall"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A006",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A006 — De la guitare ratée à la batterie : la percussion comme médium de simplicité",
+    "data": {
+      "id": "S35-A006",
+      "source_id": "S35",
+      "pages_pdf": "65-75, 82-85",
+      "type_unite": "apprentissage_instrumental",
+      "importance": "majeure",
+      "preuve": "témoignage_autobiographique",
+      "concepts": [
+        "batterie",
+        "simplicité",
+        "anti-virtuosité",
+        "apprentissage autodidacte",
+        "répétition"
+      ],
+      "chapitres": [
+        "Chapitre 3"
+      ],
+      "related_people": [
+        "Moe Tucker",
+        "Jaki Liebezeit",
+        "Klaus Dinger",
+        "Guy Evans",
+        "Keith Moon",
+        "David Greenwood"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A007",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A007 — Anti-virtuosité : Moe Tucker, Jaki Liebezeit et Klaus Dinger comme modèles",
+    "data": {
+      "id": "S35-A007",
+      "source_id": "S35",
+      "pages_pdf": "72-84",
+      "type_unite": "concept_rythmique",
+      "importance": "critique",
+      "preuve": "témoignage_autobiographique",
+      "concepts": [
+        "anti-virtuosité",
+        "motorik",
+        "répétition",
+        "batterie fonctionnelle"
+      ],
+      "chapitres": [
+        "Chapitre 3"
+      ],
+      "related_people": [
+        "Moe Tucker",
+        "Jaki Liebezeit",
+        "Klaus Dinger",
+        "John French"
+      ],
+      "related_organizations": [
+        "The Velvet Underground",
+        "Can",
+        "Neu!",
+        "Captain Beefheart"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A008",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A008 — Vinyle, bootlegs, magasins : culture matérielle du disque",
+    "data": {
+      "id": "S35-A008",
+      "source_id": "S35",
+      "pages_pdf": "92-98",
+      "type_unite": "culture_materielle",
+      "importance": "utile",
+      "preuve": "témoignage_autobiographique",
+      "concepts": [
+        "vinyle",
+        "import américain",
+        "bootleg",
+        "magasins de disques",
+        "matérialité"
+      ],
+      "chapitres": [
+        "Chapitre 1",
+        "Chapitre 3",
+        "Chapitre 14"
+      ],
+      "related_places": [
+        "Rare Records",
+        "Black Sedan",
+        "Manchester",
+        "Macclesfield"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A009",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A009 — Warsaw : annonce, audition et stabilisation par la batterie",
+    "data": {
+      "id": "S35-A009",
+      "source_id": "S35",
+      "pages_pdf": "Part 2, chap. 9-10",
+      "type_unite": "genese_groupe",
+      "importance": "critique",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "Warsaw",
+        "audition",
+        "stabilisation rythmique",
+        "DIY"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "related_people": [
+        "Stephen Morris",
+        "Ian Curtis",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Terry Mason"
+      ],
+      "related_organizations": [
+        "Warsaw",
+        "Joy Division"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Vérifier dates précises et annonces avec S41, S76 et presse contemporaine."
+      ],
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A010",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A010 — Drummer and Driver : batterie, logistique et économie pratique du groupe",
+    "data": {
+      "id": "S35-A010",
+      "source_id": "S35",
+      "pages_pdf": "Part 2, chap. 10",
+      "type_unite": "pratique_groupe",
+      "importance": "utile",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "drummer and driver",
+        "logistique",
+        "van",
+        "répétitions",
+        "groupe comme entreprise précaire"
+      ],
+      "chapitres": [
+        "Chapitre 2"
+      ],
+      "related_people": [
+        "Stephen Morris",
+        "Terry Mason"
+      ],
+      "related_organizations": [
+        "Warsaw",
+        "Joy Division"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A011",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A011 — Premières chansons : le rythme comme contrainte de construction",
+    "data": {
+      "id": "S35-A011",
+      "source_id": "S35",
+      "pages_pdf": "Part 2, chap. 11",
+      "type_unite": "emergence_repertoire",
+      "importance": "critique",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "premières chansons",
+        "répétition",
+        "construction collective",
+        "répertoire"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3"
+      ],
+      "related_songs": [
+        "Warsaw",
+        "No Love Lost",
+        "Leaders of Men",
+        "Failures",
+        "Digital",
+        "Glass"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A012",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A012 — *An Ideal for Living* : autoproduction et apprentissage par l’objet raté",
+    "data": {
+      "id": "S35-A012",
+      "source_id": "S35",
+      "pages_pdf": "Part 2, chap. 14",
+      "type_unite": "objet_discographique",
+      "importance": "critique",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "An Ideal for Living",
+        "autoproduction",
+        "DIY",
+        "pressage",
+        "controverse"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 5"
+      ],
+      "related_albums": [
+        "An Ideal for Living"
+      ],
+      "related_songs": [
+        "Warsaw",
+        "No Love Lost",
+        "Leaders of Men",
+        "Failures"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A013",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A013 — Factory Sample : entrée dans une médiation institutionnelle",
+    "data": {
+      "id": "S35-A013",
+      "source_id": "S35",
+      "pages_pdf": "Part 3, chap. 19",
+      "type_unite": "mediation_label",
+      "importance": "critique",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "Factory Sample",
+        "Factory Records",
+        "médiation",
+        "transition"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "related_people": [
+        "Tony Wilson",
+        "Rob Gretton",
+        "Martin Hannett"
+      ],
+      "related_organizations": [
+        "Factory Records",
+        "Joy Division"
+      ],
+      "related_songs": [
+        "Digital",
+        "Glass"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A014",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A014 — Rob Gretton : management, organisation et changement d’échelle",
+    "data": {
+      "id": "S35-A014",
+      "source_id": "S35",
+      "pages_pdf": "Part 3, chap. 17",
+      "type_unite": "acteur_mediation",
+      "importance": "majeure",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "management",
+        "Rob Gretton",
+        "organisation",
+        "changement d’échelle"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "related_people": [
+        "Rob Gretton",
+        "Stephen Morris"
+      ],
+      "related_organizations": [
+        "Joy Division",
+        "Factory Records"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A015",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A015 — Tony Wilson : télévision, Factory et pouvoir de légitimation",
+    "data": {
+      "id": "S35-A015",
+      "source_id": "S35",
+      "pages_pdf": "Part 3, chap. 18",
+      "type_unite": "acteur_mediation",
+      "importance": "majeure",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "Tony Wilson",
+        "Granada TV",
+        "Factory",
+        "légitimation"
+      ],
+      "chapitres": [
+        "Chapitre 2",
+        "Chapitre 6",
+        "Chapitre 14"
+      ],
+      "related_people": [
+        "Tony Wilson"
+      ],
+      "related_organizations": [
+        "Granada TV",
+        "Factory Records"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A016",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A016 — Martin Hannett : le studio comme instrument et contrainte",
+    "data": {
+      "id": "S35-A016",
+      "source_id": "S35",
+      "pages_pdf": "Part 3, chap. 19-21, 24",
+      "type_unite": "production_sonore",
+      "importance": "critique",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "Martin Hannett",
+        "studio comme instrument",
+        "production",
+        "tension",
+        "espace sonore"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6"
+      ],
+      "related_people": [
+        "Martin Hannett",
+        "Stephen Morris"
+      ],
+      "related_albums": [
+        "Unknown Pleasures",
+        "Closer"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A017",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A017 — *Unknown Pleasures* : écart entre scène, studio et réception interne",
+    "data": {
+      "id": "S35-A017",
+      "source_id": "S35",
+      "pages_pdf": "Part 3, chap. 21",
+      "type_unite": "album_production",
+      "importance": "critique",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "Unknown Pleasures",
+        "réception interne",
+        "Hannett",
+        "studio",
+        "son live"
+      ],
+      "chapitres": [
+        "Chapitre 3",
+        "Chapitre 6",
+        "Chapitre 10"
+      ],
+      "related_albums": [
+        "Unknown Pleasures"
+      ],
+      "related_people": [
+        "Martin Hannett",
+        "Peter Saville"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A018",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A018 — La maladie de Curtis : incompréhension collective et limites du groupe",
+    "data": {
+      "id": "S35-A018",
+      "source_id": "S35",
+      "pages_pdf": "Part 3, chap. 20-24",
+      "type_unite": "sante_prudence",
+      "importance": "critique",
+      "preuve": "témoignage_interne_retrospectif",
+      "concepts": [
+        "épilepsie",
+        "fatigue",
+        "tournée",
+        "incompréhension",
+        "prudence médicale"
+      ],
+      "chapitres": [
+        "Chapitre 4",
+        "Chapitre 12"
+      ],
+      "related_people": [
+        "Ian Curtis",
+        "Stephen Morris",
+        "Peter Hook",
+        "Bernard Sumner",
+        "Rob Gretton"
+      ],
+      "statut": "verifie",
+      "fiabilite": "moyenne",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas utiliser S35 comme source médicale autonome.",
+        "Croiser avec S45, S41, S76 et chronologies externes."
+      ],
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A019",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A019 — *Closer* : intensité tardive et clôture sans téléologie simple",
+    "data": {
+      "id": "S35-A019",
+      "source_id": "S35",
+      "pages_pdf": "Part 3, chap. 24",
+      "type_unite": "album_fin",
+      "importance": "critique",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "Closer",
+        "Britannia Row",
+        "fin de cycle",
+        "anti-téléologie"
+      ],
+      "chapitres": [
+        "Chapitre 6",
+        "Chapitre 12"
+      ],
+      "related_albums": [
+        "Closer"
+      ],
+      "related_people": [
+        "Ian Curtis",
+        "Martin Hannett"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "methodological_warnings": [
+        "Ne pas écrire Closer comme simple annonce de la mort de Curtis."
+      ],
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
+    "id": "S35-A020",
+    "file": "sources/morris_record_play_pause/atomes_s35_record_play_pause.md",
+    "heading": "S35-A020 — Mort de Curtis et recomposition : Starting Over / New York New York",
+    "data": {
+      "id": "S35-A020",
+      "source_id": "S35",
+      "pages_pdf": "Part 3, chap. 25-27",
+      "type_unite": "transition_posthume",
+      "importance": "critique",
+      "preuve": "témoignage_interne",
+      "concepts": [
+        "mort de Curtis",
+        "recomposition",
+        "New Order",
+        "continuité",
+        "rupture"
+      ],
+      "chapitres": [
+        "Chapitre 12",
+        "Chapitre 14"
+      ],
+      "related_people": [
+        "Ian Curtis",
+        "Stephen Morris",
+        "Bernard Sumner",
+        "Peter Hook",
+        "Gillian Gilbert"
+      ],
+      "related_organizations": [
+        "Joy Division",
+        "New Order"
+      ],
+      "statut": "verifie",
+      "fiabilite": "forte",
+      "citation_directe": false,
+      "source_label": "S35 — Morris, Record Play Pause, 2019",
+      "source_short_title": "Stephen Morris, Record Play Pause: Confessions of a Post-Punk Percussionist, Volume I, 2019",
+      "source_year": "2019"
+    }
+  },
+  {
+    "kind": "atom",
     "id": "S44-A001",
     "file": "sources/guarino_vomito_culturale_ideali_sottoculturali/atomes_s44_vomito_culturale.md",
     "heading": "S44-A001 — S44 comme essai sous-culturel, non source primaire",
