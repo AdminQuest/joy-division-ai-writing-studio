@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 3"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T17:20:38"
+generated_at: "2026-05-17T18:07:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 327 |
+| Atomes | 331 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 30 |
 | Événements chronologiques | 22 |
 | Personnes | 29 |
 | Chansons | 25 |
-| Sources mobilisées | 20 |
+| Sources mobilisées | 21 |
 
 ## 4. Sources mobilisées
 
@@ -44,6 +44,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 5 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 8 | 3 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 111 | 4 |
+| S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 4 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 14 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 39 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 24 | 3 |
@@ -664,6 +665,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | controverse | 2 |
 | lieu | 2 |
 | temoignage | 2 |
+| concept_structurant | 2 |
 | production_album | 2 |
 | citation_repere | 2 |
 | performance_live | 2 |
@@ -730,6 +732,8 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | economie_collective | 1 |
 | transdisciplinarite | 1 |
 | processus_creation | 1 |
+| prudence_methodologique | 1 |
+| rupture_esthetique | 1 |
 | reception_discographique | 1 |
 | reception_radio | 1 |
 | demythification | 1 |
@@ -772,7 +776,7 @@ Isoler les innovations sonores qui permettent au groupe de rompre avec la simple
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 211 |
-| critique | 93 |
+| critique | 97 |
 | majeure | 13 |
 | majeur | 10 |
 

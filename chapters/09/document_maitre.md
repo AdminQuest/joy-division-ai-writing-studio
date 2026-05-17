@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 9"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T17:20:38"
+generated_at: "2026-05-17T18:07:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-17T17:20:38"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 234 |
-| Atomes critiques / majeurs | 1 |
+| Atomes | 236 |
+| Atomes critiques / majeurs | 3 |
 | Citations | 4 |
 | Événements chronologiques | 1 |
 | Personnes | 3 |
 | Chansons | 3 |
-| Sources mobilisées | 21 |
+| Sources mobilisées | 22 |
 
 ## 4. Sources mobilisées
 
@@ -46,6 +46,7 @@ generated_at: "2026-05-17T17:20:38"
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 1 | 0 |
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 1 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 49 | 2 |
+| S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 6 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 46 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 20 | 0 |
@@ -60,6 +61,10 @@ generated_at: "2026-05-17T17:20:38"
 
 - **S75-A074** — S75-A074 — « Ceremony », « In a Lonely Place » et les chansons-ponts vers New Order  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_discographique` ; importance : `critique` ; preuve : `donnees_discographiques_et_interpretation`.
+- **S42-A007** — S42-A007 — Manchester, Liverpool, Sheffield : triangulation périphérique du post-punk  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_scene` ; importance : `majeure` ; preuve : `cartographie critique`.
+- **S42-A012** — S42-A012 — Liverpool et Sheffield : rhizome post-punk, Eric’s, Meatwhistle et Cabaret Voltaire  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_relationnelle` ; importance : `majeure` ; preuve : `cartographie critique ; faits à croiser`.
 
 ## 6. Autres atomes utiles
 
@@ -339,12 +344,20 @@ generated_at: "2026-05-17T17:20:38"
 - New Order (1)
 - absence (1)
 - transition (1)
+- triangulation du Nord (1)
+- scènes locales (1)
+- autonomie périphérique (1)
+- rhizome (1)
+- dispersion des scènes (1)
+- expérimentation électronique (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
 - S75-A074 — prolonge → MOTIF-001
 - S75-A074 — requiert → CONCEPT-004
 - S75-A074 — nuance → MYTH-002
+- S42-A007 — cartographie → REL-S42-007
+- S42-A012 — cartographie → REL-S42-007
 
 ## 13. Distribution documentaire
 
@@ -420,6 +433,8 @@ generated_at: "2026-05-17T17:20:38"
 | sociologie_scene | 1 |
 | réception_scene | 1 |
 | lecture_discographique | 1 |
+| cartographie_scene | 1 |
+| cartographie_relationnelle | 1 |
 | live_strategy | 1 |
 | bootleg_culture | 1 |
 | tournee | 1 |
@@ -467,11 +482,14 @@ generated_at: "2026-05-17T17:20:38"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 233 |
+| majeure | 2 |
 | critique | 1 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
 - S75-A074 [eleve] — très forte tentation de lire ces titres comme messages posthumes conscients
+- S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
+- S42-A012 [moyen] — Ne pas surcharger le manuscrit Joy Division d’une histoire exhaustive du post-punk anglais.
 
 ## 15. Lacunes et prochaines vérifications
 

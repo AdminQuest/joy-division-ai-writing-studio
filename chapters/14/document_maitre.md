@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 14"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T17:20:38"
+generated_at: "2026-05-17T18:07:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 870 |
+| Atomes | 877 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 98 |
 | Événements chronologiques | 62 |
 | Personnes | 81 |
 | Chansons | 11 |
-| Sources mobilisées | 30 |
+| Sources mobilisées | 31 |
 
 ## 4. Sources mobilisées
 
@@ -53,6 +53,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 7 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 142 | 3 |
+| S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 7 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 29 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 104 | 2 |
 | S47 | S47 — West, Joy Division, 1984 | 132 | 13 |
@@ -536,10 +537,10 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 - Rob Gretton (16)
 - Peter Saville (10)
 - Buzzcocks tour (9)
+- Factory (9)
 - Transmission (8)
 - Ian Curtis (8)
 - Unknown Pleasures (8)
-- Factory (8)
 - fatigue (8)
 - John Peel (6)
 - Electric Circus (6)
@@ -664,8 +665,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | analyse | 35 |
 | reception | 30 |
 | non qualifié | 27 |
+| prudence_methodologique | 14 |
 | memoire | 14 |
-| prudence_methodologique | 13 |
 | reception_live | 12 |
 | objet_discographique | 12 |
 | discographie | 11 |
@@ -673,11 +674,11 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | archive | 10 |
 | reception_poll | 10 |
 | reception_critique | 9 |
+| concept_structurant | 8 |
 | production | 8 |
 | contrepoint | 8 |
 | scene_fondatrice | 8 |
 | lecture | 8 |
-| concept_structurant | 7 |
 | methode | 7 |
 | sociologie | 7 |
 | relation | 7 |
@@ -693,6 +694,7 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | citation_repere | 5 |
 | live_set_context | 5 |
 | live_set_bootleg_context | 5 |
+| lecture_reception | 4 |
 | management | 4 |
 | economie_discographique | 4 |
 | scene_reseau | 4 |
@@ -736,7 +738,6 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | song | 3 |
 | reception_transnationale | 2 |
 | reception_precoce | 2 |
-| lecture_reception | 2 |
 | critique_methodologique | 2 |
 | concept_theorique | 2 |
 | critique_historiographique | 2 |
@@ -924,6 +925,9 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | genre_scene | 1 |
 | prudence_sociale | 1 |
 | comparaison_critique | 1 |
+| lieu_scene | 1 |
+| institution_scene | 1 |
+| cartographie_relationnelle | 1 |
 | bootleg_culture | 1 |
 | reception_album | 1 |
 | reception_comparative | 1 |
@@ -1103,8 +1107,8 @@ Suivre la patrimonialisation contemporaine, les détournements visuels, la cultu
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 552 |
-| critique | 237 |
-| majeure | 49 |
+| critique | 240 |
+| majeure | 53 |
 | majeur | 28 |
 | structurante | 2 |
 | moyenne | 2 |

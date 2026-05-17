@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 7"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T17:20:38"
+generated_at: "2026-05-17T18:07:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 113 |
+| Atomes | 119 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 9 |
 | Événements chronologiques | 13 |
 | Personnes | 16 |
 | Chansons | 16 |
-| Sources mobilisées | 14 |
+| Sources mobilisées | 15 |
 
 ## 4. Sources mobilisées
 
@@ -41,6 +41,7 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 13 | 3 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 2 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 17 | 2 |
+| S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 6 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 2 | 1 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 9 | 0 |
 | S71 | S71 — Flowers, Dreams Never End, 1995/2012 | 7 | 0 |
@@ -69,6 +70,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `lecture_chanson` ; importance : `critique` ; preuve : `forte`.
 - **S34-A007** — S34-A007 — « Interzone » : marche urbaine, fuite impossible et monotonie du bâti  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
+- **S42-A003** — S42-A003 — Centre / périphérie : le post-punk comme mouvement depuis les marges industrielles  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept critique`.
+- **S42-A006** — S42-A006 — Punk contre post-punk : destruction, reconstruction et expérimentation  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `rupture_esthetique` ; importance : `critique` ; preuve : `interprétation critique`.
+- **S42-A013** — S42-A013 — De la sous-culture au mainstream : réification et circulation globale du post-punk  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `lecture_reception` ; importance : `critique` ; preuve : `interprétation critique`.
 - **S74-A020** — S74-A020 — Spiral Scratch : Hannett et la naissance d’une esthétique de séparation sonore  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `analyse_studio` ; importance : `critique` ; preuve : `interpretation_critique`.
 - **S74-A024** — S74-A024 — An Ideal for Living : provocation visuelle, naïveté politique et premier objet litigieux  
@@ -115,12 +122,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `reconstruction_biographique_corroborable`.
 - **S29-A015** — S29-A015 — La spectralité de l’enregistrement : l’archive sonore comme retour des morts  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `concept_theorique` ; importance : `majeure` ; preuve : `forte`.
-- **S29-A017** — S29-A017 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
-  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
-- **S34-A009** — S34-A009 — « Transmission » : danse, radio et énergie urbaine  
-  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A001** — S75-A001 — Bedhead et « Disorder » comme preuve de l'intériorisation posthume de Joy Division  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `reception` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -168,10 +169,14 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `relation_inter_sources` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S29-A010** — S29-A010 — Hauntological past : persistance, insistance et mémoire spectrale de Joy Division  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `memoire_spectrale` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S29-A017** — S29-A017 — « After the future » : 1977 comme seuil d’une sensibilité sans avenir  
+  Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `temporalite_culturelle` ; importance : `majeure` ; preuve : `forte`.
 - **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2** — S29 — Passe v2 — Goddard, hauntology, industrial music, modernism and esotericism  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; à croiser pour les faits biographiques, les citations de paroles et les témoignages P-Orridge`.
 - **S29-PART-GODDARD-HAUNTOLOGY-INDUSTRIAL-MODERNISM-V2BIS-2026-05-17** — S29 — Passe v2 bis — Goddard, *Heart and Soul*, chapitre 1  
   Source : S29 — Goddard, Missions of Dead Souls, 2018 ; type : `source_part` ; importance : `non qualifiée` ; preuve : `forte comme source critique ; moyenne pour les faits biographiques rapportés ; à croiser pour P-Orridge, Curtis, Fisher et les citations de paroles`.
+- **S34-A009** — S34-A009 — « Transmission » : danse, radio et énergie urbaine  
+  Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S41-070** — S41-070 — Cargo Studios : entrée dans un environnement technique supérieur  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `contexte_technique` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-071** — S41-071 — Martin Hannett : première impression de sorcier technique  
@@ -206,6 +211,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `discographie` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S41-C03** — S41-C03 — Martin Hannett comme reconstructeur sonore  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **S42-A007** — S42-A007 — Manchester, Liverpool, Sheffield : triangulation périphérique du post-punk  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_scene` ; importance : `majeure` ; preuve : `cartographie critique`.
+- **S42-A010** — S42-A010 — Factory Records comme focal place esthétique et institutionnel  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `institution_scene` ; importance : `majeure` ; preuve : `interprétation critique`.
+- **S42-A012** — S42-A012 — Liverpool et Sheffield : rhizome post-punk, Eric’s, Meatwhistle et Cabaret Voltaire  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_relationnelle` ; importance : `majeure` ; preuve : `cartographie critique ; faits à croiser`.
 - **S45-013** — S45-013 — Factory Sample : première froideur Hannett  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `production` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S45-031** — S45-031 — *Closer* est vécu comme un album froid et distant  
@@ -274,12 +285,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A047** — S72-A047 — Talking Heads et Wire : art rock discipliné et formes courtes  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S72-A048** — S72-A048 — PiL et la chute du moment post-punk  
-  Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `synthese` ; importance : `non qualifiée` ; preuve : `forte`.
-- **S74-A007** — S74-A007 — Wilson, les pochettes de disques et l’esthétique matérielle  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `moyenne` ; preuve : `plausible`.
-- **S75-A048** — S75-A048 — « Shadowplay » comme gateway track : énergie rock et résistance au morbidisme  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 7. Citations disponibles
 
@@ -529,6 +534,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S75-A052 — nuance → MYTH-004
 - S75-A052 — prolonge → CONCEPT-006
 - S75-A052 — nuance → MYTH-003
+- S42-A003 — structure → REL-S42-003
+- S42-A006 — oppose_et_prolonge → REL-S42-006
+- S42-A007 — cartographie → REL-S42-007
+- S42-A010 — prolonge → REL-S42-008
+- S42-A012 — cartographie → REL-S42-007
+- S42-A013 — synthese → REL-S42-010
 - S74-A024 — nuance → MYTH-002
 - S74-A024 — prolonge → S74-A017
 - S74-A024 — relie → CONCEPT_ESTHETIQUE_PROVOCATION
@@ -551,12 +562,6 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S74-A041 — complète → S74-A040
 - S74-A041 — annonce → S74-A042
 - S74-A043 — prolonge → S74-A031
-- S74-A043 — complète → S74-A032
-- S74-A043 — annonce → CONCEPT_UNKNOWN_PLEASURES_ICON
-- S74-A056 — prolonge → S74-A055
-- S74-A056 — nuance → MYTH-006
-- S74-A056 — complète → S74-A043
-- S74-A060 — prolonge → S74-A024
 
 ## 13. Distribution documentaire
 
@@ -606,6 +611,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | concept_pratique | 1 |
 | comparaison_critique | 1 |
 | prudence_methodologique | 1 |
+| concept_structurant | 1 |
+| rupture_esthetique | 1 |
+| cartographie_scene | 1 |
+| institution_scene | 1 |
+| cartographie_relationnelle | 1 |
+| lecture_reception | 1 |
 | lieu | 1 |
 | institution | 1 |
 | session | 1 |
@@ -627,8 +638,8 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 73 |
-| critique | 31 |
-| majeure | 5 |
+| critique | 34 |
+| majeure | 8 |
 | majeur | 3 |
 | moyenne | 1 |
 
@@ -652,6 +663,12 @@ Cartographier les héritages musicaux et les reprises esthétiques de Joy Divisi
 - S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
 - S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
 - S75-A052 [moyen] — risque de minimiser Hannett en réaction au mythe inverse ; la force tient à l'articulation groupe/producteur
+- S42-A003 [élevé] — Risque de faire de la périphérie une cause totale du son Joy Division.
+- S42-A006 [moyen] — Ne pas réduire le punk à la seule destruction ni le post-punk à une simple sophistication.
+- S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
+- S42-A010 [moyen] — Ne pas faire de Factory l’unique moteur de la scène mancunienne.
+- S42-A012 [moyen] — Ne pas surcharger le manuscrit Joy Division d’une histoire exhaustive du post-punk anglais.
+- S42-A013 [moyen] — Ne pas confondre réification et trahison simple.
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
 - S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
 - S74-A031 [moyen] — risque de téléologie reliant trop directement le premier poster à l’ensemble de l’esthétique Factory ultérieure

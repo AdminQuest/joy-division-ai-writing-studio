@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 4"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T17:20:38"
+generated_at: "2026-05-17T18:07:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-17T17:20:38"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 232 |
+| Atomes | 234 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 55 |
 | Événements chronologiques | 44 |
 | Personnes | 31 |
 | Chansons | 13 |
-| Sources mobilisées | 9 |
+| Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
 
@@ -36,6 +36,7 @@ generated_at: "2026-05-17T17:20:38"
 |---|---|---|---|
 | S10 | S10 — Sumner, Chapter and Verse, 2014/2015 | 11 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 0 |
+| S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 31 | 3 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 13 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 3 | 1 |
@@ -86,6 +87,10 @@ generated_at: "2026-05-17T17:20:38"
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `session_studio` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S41-A220** — S41-A220 — « Twenty Four Hours » : vulnérabilité vocale et confusion de la puissance Curtis  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `analyse_voix_sante` ; importance : `critique` ; preuve : `témoignage direct + interprétation vocale`.
+- **S42-A002** — S42-A002 — « Shadowplay » comme seuil spatial : attente, centre, profondeur et silence urbain  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `lecture_chanson_espace` ; importance : `critique` ; preuve : `lecture critique de chanson`.
+- **S42-A011** — S42-A011 — Manchester post-industrielle : grise périphérie, médicaments, littérature et dégoût culturel  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `contexte_affectif` ; importance : `critique` ; preuve : `lecture critique de contexte`.
 - **S45-A030** — S45-A030 — La blue room de Barton Street : atelier domestique d’écriture  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `lieu_creatif` ; importance : `critique` ; preuve : `témoignage direct`.
 - **S45-A075** — S45-A075 — Les paroles comme matériau ouvert : plastic bag, notebooks et anti-message  
@@ -112,10 +117,6 @@ generated_at: "2026-05-17T17:20:38"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `principe_institutionnel` ; importance : `critique` ; preuve : `corrobore`.
 - **S75-A003** — S75-A003 — La grandeur posthume de Curtis comme piège téléologique  
   Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `mythe` ; importance : `critique` ; preuve : `corrobore`.
-- **S75-A020** — S75-A020 — « No Love Lost » comme début réel de Joy Division  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
-- **S75-A041** — S75-A041 — « Disorder » comme manifeste sonore d'entrée  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `lecture_musicale` ; importance : `critique` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 
 ## 6. Autres atomes utiles
 
@@ -528,6 +529,7 @@ generated_at: "2026-05-17T17:20:38"
 - She’s Lost Control (3)
 - Macclesfield (3)
 - fatigue (3)
+- médicaments (3)
 - Wythenshawe (3)
 - Terry Mason (3)
 - David Lewis Centre (3)
@@ -542,7 +544,6 @@ generated_at: "2026-05-17T17:20:38"
 - Digital (2)
 - Unknown Pleasures (2)
 - House of Dolls (2)
-- Throbbing Gristle (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -709,6 +710,8 @@ generated_at: "2026-05-17T17:20:38"
 | reception | 1 |
 | lecture_litteraire | 1 |
 | archive_visuelle | 1 |
+| lecture_chanson_espace | 1 |
+| contexte_affectif | 1 |
 | reception_comparative | 1 |
 | equipment_file | 1 |
 | citation_repere | 1 |
@@ -775,7 +778,7 @@ generated_at: "2026-05-17T17:20:38"
 
 | Importance | Nombre |
 |---|---|
-| critique | 101 |
+| critique | 103 |
 | non qualifiée | 94 |
 | majeure | 33 |
 | majeur | 3 |
@@ -835,14 +838,14 @@ generated_at: "2026-05-17T17:20:38"
 - S75-A047 [eleve] — risque majeur de réduire le morceau à l'épilepsie de Curtis ou à une anticipation de sa trajectoire
 - S75-A048 [moyen] — le morceau peut être trop facilement relu comme texte noir alors qu'Ott le replace dans une énergie plus ancienne
 - S75-A049 [eleve] — les images domestiques et médicales de « I Remember Nothing » imposent une prudence forte
+- S42-A002 [moyen] — Ne pas réduire « Shadowplay » à un simple document sociologique sur Manchester.
+- S42-A011 [élevé] — À ne pas utiliser comme preuve unique sur les pratiques médicales ou les lectures individuelles.
 - S74-A026 [eleve] — risque de substituer un anti-mythe trop brutal au mythe fondateur classique
 - S74-A027 [faible] — scène largement cohérente avec les autres récits internes, mais stylisée par Middles
 - S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique
 - S74-A032 [moyen] — risque de romantiser l’impraticabilité financière comme vertu en soi
 - S74-A035 [moyen] — risque de reconstruire a posteriori un moment de flottement comme stratégie consciente
 - S74-A036 [moyen] — risque de faire de Gretton un stratège totalement lucide alors que le choix reste empirique et risqué
-- S74-A037 [moyen] — risque de mythifier une clause informelle comme pure vertu sans examiner ses effets économiques
-- S74-A044 [moyen] — risque de survaloriser les Distractions uniquement comme faire-valoir de Joy Division
 
 ## 15. Lacunes et prochaines vérifications
 

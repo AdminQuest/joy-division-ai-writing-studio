@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 2"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T17:20:38"
+generated_at: "2026-05-17T18:07:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 319 |
+| Atomes | 322 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 31 |
 | Événements chronologiques | 34 |
 | Personnes | 27 |
 | Chansons | 6 |
-| Sources mobilisées | 16 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -40,6 +40,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | S26 | S26 — Butt, Eshun & Fisher (dir.), Post-Punk Then and Now, 2016 | 4 | 0 |
 | S27 | S27 — Riom, compte rendu de Crossley, Networks of Sound, Style and Subversion, 2016 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 60 | 4 |
+| S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 3 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 46 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 38 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 23 | 0 |
@@ -71,6 +72,10 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `scene_recrutement` ; importance : `critique` ; preuve : `témoignage direct rétrospectif avec reconnaissance de variantes mémorielles`.
 - **S41-A056** — S41-A056 — Timeline Two comme colonne vertébrale documentaire 1976-1977  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `chronologie_structurante` ; importance : `critique` ; preuve : `chronologie éditoriale établie par Hook et son appareil documentaire`.
+- **S42-A006** — S42-A006 — Punk contre post-punk : destruction, reconstruction et expérimentation  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `rupture_esthetique` ; importance : `critique` ; preuve : `interprétation critique`.
+- **S42-A008** — S42-A008 — Focal places : clubs, disquaires, salles de répétition et réseaux  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept sociologique appliqué`.
 - **S45-A022** — S45-A022 — Le second Lesser Free Trade Hall comme confirmation, non origine absolue  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `scene_fondatrice` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
 - **S45-A028** — S45-A028 — Recrutement de Curtis : « If we liked someone, they were in »  
@@ -119,10 +124,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `controverse` ; importance : `critique` ; preuve : `corrobore`.
 - **S74-A025** — S74-A025 — Keep On Keepin’ On : tentative absurde de greffe soul/punk  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `session` ; importance : `critique` ; preuve : `corrobore`.
-- **S74-A026** — S74-A026 — Stiff Test/Chiswick Challenge : démystification d’une scène fondatrice Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mythe` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A029** — S74-A029 — Little Peter Street et T.J. Davidson comme forge industrielle de l’image Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lieu` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -521,9 +522,9 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 - imagerie nazie (2)
 - Hitler Youth (2)
 - Liverpool (2)
+- expérimentation (2)
 - Piccadilly Plaza (2)
 - Martin Hannett (2)
-- Interzone (2)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -636,19 +637,20 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | tension_documentaire | 3 |
 | lieu | 3 |
 | source_part | 3 |
+| lieu_scene | 3 |
 | discographie | 3 |
 | evenement | 3 |
 | contexte | 3 |
 | reception | 3 |
 | infrastructure_scene | 2 |
 | temoignage | 2 |
-| lieu_scene | 2 |
 | scene_revelation | 2 |
 | rencontre_fondatrice | 2 |
 | reception_presse | 2 |
 | evenement_scene | 2 |
 | changement_nom | 2 |
 | bootleg | 2 |
+| concept_structurant | 2 |
 | micro_chronologie | 2 |
 | sociologie | 2 |
 | concept | 2 |
@@ -702,6 +704,7 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | concept_pratique | 1 |
 | conditions_materielles | 1 |
 | concept_collectif | 1 |
+| rupture_esthetique | 1 |
 | contexte_nom | 1 |
 | genealogie_culturelle | 1 |
 | archive_inedite | 1 |
@@ -725,7 +728,6 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | rencontre | 1 |
 | sociabilite_musicale | 1 |
 | influence_esthetique | 1 |
-| concept_structurant | 1 |
 | processus_creatif | 1 |
 | recrutement | 1 |
 | scene_live | 1 |
@@ -746,8 +748,8 @@ Décrire la mutation de Warsaw en Joy Division, depuis l’apprentissage punk ju
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 205 |
-| critique | 77 |
-| majeure | 18 |
+| critique | 79 |
+| majeure | 19 |
 | majeur | 15 |
 | moyenne | 2 |
 | structurante | 2 |

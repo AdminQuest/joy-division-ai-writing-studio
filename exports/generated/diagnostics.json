@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-17T17:20:25",
+  "generated_at": "2026-05-17T18:06:58",
   "status": "warning",
   "summary": {
-    "records_total": 4267,
+    "records_total": 4294,
     "records_by_kind": {
-      "atom": 1897,
-      "metadata": 98,
-      "unknown": 350,
+      "atom": 1910,
+      "metadata": 102,
+      "unknown": 360,
       "source": 65,
       "concept": 228,
       "motif": 295,
@@ -19,9 +19,9 @@
       "rules": 1,
       "person": 181
     },
-    "diagnostics_total": 19869,
+    "diagnostics_total": 20009,
     "errors": 0,
-    "warnings": 19869,
+    "warnings": 20009,
     "sources_declared_in_registre_json": 52,
     "sources_used_in_records": 32,
     "sources_exported": 32,
@@ -805,12 +805,16 @@
         "auteur": "Alfonso Amendola et Novella Troianiello",
         "titre": "Metropoli e spazio periferico nell underground post-punk inglese",
         "annee": "2021",
-        "records": 3,
-        "atoms": 0,
+        "records": 30,
+        "atoms": 13,
         "quotes": 0,
         "chronology": 0,
         "files": [
           "registers/references/s42_amendola_troianiello_metropoli_spazio_periferico_source_canonique.md",
+          "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+          "sources/amendola_troianiello_metropoli_spazio_periferico/dm_rag_update_s42_metropoli_spazio_periferico.md",
+          "sources/amendola_troianiello_metropoli_spazio_periferico/registers_update_s42_metropoli_spazio_periferico.md",
+          "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
           "sources/amendola_troianiello_metropoli_spazio_periferico/source.md"
         ]
       },
@@ -55098,6 +55102,846 @@
       "file": "sources/butt_eshun_fisher_post_punk_then_now/registres_structurants_s26.md",
       "message": "Unable to infer documentary kind",
       "record_id": "REF-S26-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S42-001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S42-002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S42-003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S42-004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S42-005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S42-006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S42-007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S42-008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S42-009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/relations_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Unable to infer documentary kind",
+      "record_id": "REL-S42-010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: prudence_methodologique",
+      "record_id": "S42-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A001"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: lecture_chanson_espace",
+      "record_id": "S42-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A002"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S42-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A003"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S42-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A004"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: lecture_reception",
+      "record_id": "S42-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A005"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: rupture_esthetique",
+      "record_id": "S42-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A006"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: cartographie_scene",
+      "record_id": "S42-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A007"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: concept_structurant",
+      "record_id": "S42-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A008"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: lieu_scene",
+      "record_id": "S42-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A009"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: institution_scene",
+      "record_id": "S42-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A010"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: contexte_affectif",
+      "record_id": "S42-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A011"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: cartographie_relationnelle",
+      "record_id": "S42-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A012"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: auteur",
+      "record_id": "S42-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: concepts",
+      "record_id": "S42-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: chapitres",
+      "record_id": "S42-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: statut",
+      "record_id": "S42-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: fiabilite",
+      "record_id": "S42-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: stabilite",
+      "record_id": "S42-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_interchapitres",
+      "record_id": "S42-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing required field: liens_citations",
+      "record_id": "S42-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Invalid value for type_unite: lecture_reception",
+      "record_id": "S42-A013"
+    },
+    {
+      "level": "warning",
+      "file": "sources/amendola_troianiello_metropoli_spazio_periferico/atoms_dm_s42_metropoli_spazio_periferico_v2.md",
+      "message": "Missing nested field: niveau_preuve.corroboration",
+      "record_id": "S42-A013"
     },
     {
       "level": "warning",

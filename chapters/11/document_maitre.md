@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 11"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T17:20:38"
+generated_at: "2026-05-17T18:07:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 212 |
+| Atomes | 214 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 16 |
 | Événements chronologiques | 7 |
 | Personnes | 10 |
 | Chansons | 15 |
-| Sources mobilisées | 18 |
+| Sources mobilisées | 19 |
 
 ## 4. Sources mobilisées
 
@@ -41,6 +41,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 6 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 6 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 31 | 0 |
+| S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 28 | 1 |
 | S47 | S47 — West, Joy Division, 1984 | 10 | 3 |
@@ -99,6 +100,10 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_politique_live` ; importance : `critique` ; preuve : `témoignage Hook inséré dans la timeline`.
 - **S41-A141** — S41-A141 — Plan K Bruxelles : première Europe, Burroughs et collision entre avant-garde et potacherie  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `evenement_europeen` ; importance : `critique` ; preuve : `témoignage direct rétrospectif`.
+- **S42-A004** — S42-A004 — Le post-punk produit des identités sociales autant qu’il les reflète  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `cadre théorique secondaire`.
+- **S42-A011** — S42-A011 — Manchester post-industrielle : grise périphérie, médicaments, littérature et dégoût culturel  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `contexte_affectif` ; importance : `critique` ; preuve : `lecture critique de contexte`.
 - **S45-A042** — S45-A042 — *An Ideal for Living* : imagerie nazie, spéculation politique et obsolescence rapide  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `controverse` ; importance : `critique` ; preuve : `témoignage direct + objet discographique vérifiable`.
 - **S45-A099** — S45-A099 — Lectures de souffrance : Dostoyevsky, Nietzsche, Sartre, Hesse, Ballard, Heartfield  
@@ -121,10 +126,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_direct_rapporte` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A053** — S74-A053 — Suicide de Curtis : mort privée contre mythe rock’n’roll  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `interpretation_critique` ; importance : `critique` ; preuve : `interpretation_critique`.
-- **S74-A054** — S74-A054 — Deborah Curtis contre la version simplifiée de la tragédie conjugale  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage_direct_rapporte` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
-- **S74-A056** — S74-A056 — Closer et Love Will Tear Us Apart : beauté posthume, design funéraire et campagne américaine absurde  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `reception_posthume` ; importance : `critique` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -575,7 +576,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | song | 5 |
 | tension_documentaire | 4 |
 | prudence_methodologique | 4 |
-| concept_structurant | 3 |
+| concept_structurant | 4 |
 | reception | 3 |
 | interpretation | 3 |
 | interpretation_esthetique | 3 |
@@ -647,6 +648,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | influence | 1 |
 | contexte | 1 |
 | comparaison_critique | 1 |
+| contexte_affectif | 1 |
 | genealogie_culturelle | 1 |
 | acteur_critique | 1 |
 | analyse_culturelle | 1 |
@@ -681,7 +683,7 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 133 |
-| critique | 57 |
+| critique | 59 |
 | majeure | 17 |
 | majeur | 5 |
 
@@ -728,6 +730,8 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S75-A018 [eleve] — objet hautement sensible ; risque d'apologie involontaire ou de condamnation sans contextualisation
 - S75-A034 [faible] — la lecture reste liée à une comparaison critique, pas à un fait isolé
 - S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale
+- S42-A004 [moyen] — Ne pas faire disparaître la matérialité sociale derrière la seule performance identitaire.
+- S42-A011 [élevé] — À ne pas utiliser comme preuve unique sur les pratiques médicales ou les lectures individuelles.
 - S74-A022 [moyen] — risque inverse de réduire Curtis à une stratégie de carrière alors que l’attraction demeure affective et imaginaire
 - S74-A024 [eleve] — risque symétrique de surpolitiser ou de dépolitiser entièrement l’imagerie
 - S74-A028 [eleve] — risque de confirmer trop vite la légende du groupe maudit et isolé
@@ -745,8 +749,6 @@ Interroger la persistance existentielle de Joy Division dans la condition humain
 - S74-A017 [eleve] — risque de téléologie tragique lisant le mariage et l’obsession scénique comme destin fatal
 - S76-A040 [tres_eleve] — risque de rabattre le nom sur une sympathie fasciste ou, inversement, de neutraliser la violence référentielle
 - S76-A043 [tres_eleve] — dossier politiquement sensible ; distinguer rumeur, perception, iconographie et position idéologique
-- S76-A152 [tres_eleve] — chanson la plus mythifiable du corpus ; risque d’absorber toute la biographie de Curtis
-- S76-A003 [moyen] — risque de projeter trop directement la guerre familiale sur l'esthétique Joy Division
 
 ## 15. Lacunes et prochaines vérifications
 

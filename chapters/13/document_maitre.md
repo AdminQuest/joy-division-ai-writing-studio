@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 13"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T17:20:38"
+generated_at: "2026-05-17T18:07:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 78 |
+| Atomes | 86 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 24 |
 | Événements chronologiques | 12 |
 | Personnes | 25 |
 | Chansons | 9 |
-| Sources mobilisées | 9 |
+| Sources mobilisées | 10 |
 
 ## 4. Sources mobilisées
 
@@ -38,6 +38,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | S15 | S15 — De Luca, The Sound and the Fury, 2021 | 1 | 0 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 10 | 5 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 15 | 0 |
+| S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 8 | 0 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S72 | S72 — Reynolds, Rip It Up and Start Again, 2005/2006 | 7 | 0 |
 | S74 | S74 — Middles, From Joy Division to New Order, 1996 | 13 | 0 |
@@ -70,6 +71,16 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_memoire` ; importance : `critique` ; preuve : `témoignage rétrospectif direct`.
 - **S41-A182** — S41-A182 — Britannia Row : studio vaisseau, silence nocturne et son de *Closer*  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `lieu_studio` ; importance : `critique` ; preuve : `témoignage direct + lieu documenté`.
+- **S42-A001** — S42-A001 — S42 comme article spatial et sociologique, non comme source primaire  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire critique`.
+- **S42-A002** — S42-A002 — « Shadowplay » comme seuil spatial : attente, centre, profondeur et silence urbain  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `lecture_chanson_espace` ; importance : `critique` ; preuve : `lecture critique de chanson`.
+- **S42-A003** — S42-A003 — Centre / périphérie : le post-punk comme mouvement depuis les marges industrielles  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept critique`.
+- **S42-A008** — S42-A008 — Focal places : clubs, disquaires, salles de répétition et réseaux  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept sociologique appliqué`.
+- **S42-A011** — S42-A011 — Manchester post-industrielle : grise périphérie, médicaments, littérature et dégoût culturel  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `contexte_affectif` ; importance : `critique` ; preuve : `lecture critique de contexte`.
 - **S74-A015** — S74-A015 — Sumner et l’effacement de Lower Broughton comme matrice de la noirceur  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `temoignage` ; importance : `critique` ; preuve : `temoignage_direct_rapporte`.
 - **S74-A018** — S74-A018 — L’Electric Circus comme vrai cœur catalytique du punk mancunien  
@@ -106,16 +117,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique_appuyee_sur_ecoute`.
 - **S34-A012** — S34-A012 — Joy Division comme passerelle entre music sociology et urban studies  
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
-- **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
-- **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
-- **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
-  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 
 ## 6. Autres atomes utiles
 
@@ -143,6 +144,12 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `tension_sociale` ; importance : `majeur` ; preuve : `témoignage direct rétrospectif`.
 - **S41-C01** — S41-C01 — Manchester comme matrice émotionnelle  
   Source : S41 — Hook, Unknown Pleasures, 2012 ; type : `concept_transversal` ; importance : `non qualifiée` ; preuve : `non qualifié`.
+- **S42-A007** — S42-A007 — Manchester, Liverpool, Sheffield : triangulation périphérique du post-punk  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_scene` ; importance : `majeure` ; preuve : `cartographie critique`.
+- **S42-A009** — S42-A009 — Electric Circus : matrice punk et héritage post-punk mancunien  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `lieu_scene` ; importance : `majeure` ; preuve : `source secondaire critique ; faits à croiser`.
+- **S42-A010** — S42-A010 — Factory Records comme focal place esthétique et institutionnel  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `institution_scene` ; importance : `majeure` ; preuve : `interprétation critique`.
 - **S46-028** — S46-028 — Plan K : William Burroughs et la rue de Manchester  
   Source : S46 — Johnson, An Ideal for Living, 1984 ; type : `evenement` ; importance : `non qualifiée` ; preuve : `moyenne`.
 - **S46-041** — S46-041 — Gretton et le refus symbolique du Sud  
@@ -167,6 +174,16 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `analyse` ; importance : `non qualifiée` ; preuve : `forte`.
 - **S72-A043** — S72-A043 — The Fall : Manchester par irritation, répétition et anti-lyrisme  
   Source : S72 — Reynolds, Rip It Up and Start Again, 2005/2006 ; type : `contrepoint` ; importance : `non qualifiée` ; preuve : `forte`.
+- **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
+- **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
+- **S74-A011** — S74-A011 — Wythenshawe comme matrice souterraine de Factory  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
+- **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
+- **S74-A028** — S74-A028 — Band on the Wall et l’aloofness imaginaire de Joy Division  
+  Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S74-A046** — S74-A046 — Granada, Liverpool et Factory : médiation télévisuelle empêchée  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `mediation_culturelle` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A057** — S74-A057 — Beach Club : lieu de transition entre post-punk sombre et second glam age  
@@ -390,6 +407,7 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - répétition (2)
 - Shadowplay (2)
 - image industrielle (2)
+- sociabilité musicale (2)
 - scène locale (2)
 - club (2)
 - Manchester (2)
@@ -414,7 +432,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - Britannia Row (1)
 - Pink Floyd (1)
 - Star Wars (1)
-- airless (1)
 
 ### 12.2. Relations déclarées entre atomes, mythes et concepts
 
@@ -449,6 +466,14 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S75-A028 — nuance → MYTH-003
 - S75-A028 — prolonge → MOTIF-002
 - S75-A028 — prépare → S75-A029
+- S42-A001 — garde_fou → REL-S42-001
+- S42-A002 — articule → REL-S42-002
+- S42-A003 — structure → REL-S42-003
+- S42-A007 — cartographie → REL-S42-007
+- S42-A008 — structure → REL-S42-008
+- S42-A009 — illustre → REL-S42-008
+- S42-A010 — prolonge → REL-S42-008
+- S42-A011 — alimente → REL-S42-009
 - S74-A028 — nuance → MYTH-002
 - S74-A028 — complète → S74-A021
 - S74-A028 — prolonge → S74-A018
@@ -490,14 +515,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S34-A003 — prolonge → CONCEPT-S34-001
 - S34-A003 — nuance → MYTH-003
 - S34-A004 — prépare → CONCEPT-S34-002
-- S34-A004 — prépare → S34-A007
-- S34-A005 — relie → S06
-- S34-A005 — relie → S20
-- S34-A006 — relie → S45-A056
-- S34-A006 — prolonge → CONCEPT-S34-003
-- S34-A007 — prolonge → S34-A004
-- S34-A007 — relie → S13
-- S34-A008 — prolonge → CONCEPT-006
 
 ## 13. Distribution documentaire
 
@@ -510,10 +527,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | lieu | 4 |
 | analyse | 3 |
 | biographie | 3 |
+| lieu_scene | 3 |
 | contexte | 2 |
 | contrepoint | 2 |
+| concept_structurant | 2 |
 | contexte_social | 2 |
-| lieu_scene | 2 |
 | atome_pont_document_maitre | 1 |
 | contexte_critique | 1 |
 | lieu_structurant | 1 |
@@ -528,6 +546,11 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 | concert_international | 1 |
 | lecture_textuelle | 1 |
 | archive | 1 |
+| prudence_methodologique | 1 |
+| lecture_chanson_espace | 1 |
+| cartographie_scene | 1 |
+| institution_scene | 1 |
+| contexte_affectif | 1 |
 | lieu_institution | 1 |
 | analyse_studio | 1 |
 | mediation_culturelle | 1 |
@@ -562,9 +585,9 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 
 | Importance | Nombre |
 |---|---|
-| critique | 27 |
+| critique | 32 |
+| majeure | 27 |
 | non qualifiée | 24 |
-| majeure | 24 |
 | majeur | 3 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -581,6 +604,14 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
 - S75-A027 [moyen] — risque de transformer le lieu en cathédrale mythique ; conserver sa fonction concrète de répétition
 - S75-A028 [eleve] — l'image industrielle peut confirmer trop facilement le mythe Manchester comme matrice unique
+- S42-A001 [élevé] — Risque de transformer une lecture sociologique en causalité historique.
+- S42-A002 [moyen] — Ne pas réduire « Shadowplay » à un simple document sociologique sur Manchester.
+- S42-A003 [élevé] — Risque de faire de la périphérie une cause totale du son Joy Division.
+- S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
+- S42-A008 [moyen] — Ne pas réduire un lieu à une cause ; le lieu fonctionne par réseau.
+- S42-A009 [moyen] — À croiser avec les sources testimoniales et discographiques sur les concerts précis.
+- S42-A010 [moyen] — Ne pas faire de Factory l’unique moteur de la scène mancunienne.
+- S42-A011 [élevé] — À ne pas utiliser comme preuve unique sur les pratiques médicales ou les lectures individuelles.
 - S74-A028 [eleve] — risque de confirmer trop vite la légende du groupe maudit et isolé
 - S74-A029 [eleve] — risque de transformer le local de répétition en cause directe de la musique
 - S74-A030 [moyen] — risque de romantiser l’insécurité et le chaos du Russell Club comme nécessité esthétique
@@ -621,8 +652,6 @@ Lire Joy Division à travers la géographie émotionnelle, les espaces vécus et
 - S76-A059 [moyen] — accumulation de noms très suggestive ; à traiter comme cartographie sociale, non comme réseau causal prouvé
 - S76-A060 [faible] — portrait social utile ; éviter seulement l’anecdote décorative
 - S76-A067 [moyen] — éviter de transformer chaque lieu en lieu mythique ; son intérêt tient à sa fonction intermédiaire
-- S76-A021 [faible] — matériau contextuel solide, peu spéculatif
-- S76-A137 [moyen] — architecture et intensité invitent à une sursymbolisation gothique
 
 ## 15. Lacunes et prochaines vérifications
 

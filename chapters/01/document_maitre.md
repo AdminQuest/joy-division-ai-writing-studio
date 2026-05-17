@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 1"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T17:20:38"
+generated_at: "2026-05-17T18:07:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ generated_at: "2026-05-17T17:20:38"
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 187 |
-| Atomes critiques / majeurs | 34 |
+| Atomes | 193 |
+| Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 7 |
 | Personnes | 16 |
 | Chansons | 1 |
-| Sources mobilisées | 27 |
+| Sources mobilisées | 28 |
 
 ## 4. Sources mobilisées
 
@@ -52,6 +52,7 @@ generated_at: "2026-05-17T17:20:38"
 | S39 | S39 — Bauman, Liquid Modernity, 2000 | 1 | 0 |
 | S40 | S40 — Cacciatore, ...waiting for something to happen..., 2021 | 3 | 0 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 8 | 1 |
+| S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 6 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 11 | 2 |
 | S46 | S46 — Johnson, An Ideal for Living, 1984 | 5 | 0 |
 | S47 | S47 — West, Joy Division, 1984 | 5 | 1 |
@@ -88,6 +89,16 @@ generated_at: "2026-05-17T17:20:38"
   Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire critique`.
 - **S40-A008** — S40-A008 — Garde-fou : l’hauntologie ne doit pas devenir une téléologie Joy Division  
   Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage historiographique`.
+- **S42-A001** — S42-A001 — S42 comme article spatial et sociologique, non comme source primaire  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `source secondaire critique`.
+- **S42-A002** — S42-A002 — « Shadowplay » comme seuil spatial : attente, centre, profondeur et silence urbain  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `lecture_chanson_espace` ; importance : `critique` ; preuve : `lecture critique de chanson`.
+- **S42-A003** — S42-A003 — Centre / périphérie : le post-punk comme mouvement depuis les marges industrielles  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `concept critique`.
+- **S42-A004** — S42-A004 — Le post-punk produit des identités sociales autant qu’il les reflète  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `concept_structurant` ; importance : `critique` ; preuve : `cadre théorique secondaire`.
+- **S42-A011** — S42-A011 — Manchester post-industrielle : grise périphérie, médicaments, littérature et dégoût culturel  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `contexte_affectif` ; importance : `critique` ; preuve : `lecture critique de contexte`.
 - **S45-A020** — S45-A020 — Ne pas confondre vote conservateur local et adhésion au thatchérisme  
   Source : S45 — Curtis, Touching from a Distance, 1995 ; type : `prudence_methodologique` ; importance : `critique` ; preuve : `règle d’usage issue d’un témoignage direct`.
 - **S45-A031** — S45-A031 — Manchester comme « nouvelle capitale » : scène d’auto-habilitation  
@@ -114,6 +125,8 @@ generated_at: "2026-05-17T17:20:38"
   Source : S34 — Fraser & Fuoto, Manchester, 1976, 2012 ; type : `concept` ; importance : `majeure` ; preuve : `interpretation_critique`.
 - **S40-A007** — S40-A007 — Futur perdu : outil de réception, non preuve historique  
   Source : S40 — Cacciatore, ...waiting for something to happen..., 2021 ; type : `prudence_conceptuelle` ; importance : `majeure` ; preuve : `garde-fou méthodologique`.
+- **S42-A007** — S42-A007 — Manchester, Liverpool, Sheffield : triangulation périphérique du post-punk  
+  Source : S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 ; type : `cartographie_scene` ; importance : `majeure` ; preuve : `cartographie critique`.
 - **S74-A002** — S74-A002 — Manchester comme géographie émotionnelle post-industrielle  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `corrobore`.
 - **S74-A006** — S74-A006 — Wilson entre Salford ouvrier et suburbia de Marple  
@@ -122,16 +135,6 @@ generated_at: "2026-05-17T17:20:38"
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `lecture` ; importance : `majeure` ; preuve : `plausible`.
 - **S74-A014** — S74-A014 — Hook entre Salford, Jamaïque et retour au déclassement urbain  
   Source : S74 — Middles, From Joy Division to New Order, 1996 ; type : `biographie` ; importance : `majeure` ; preuve : `plausible`.
-- **S75-A056** — S75-A056 — 1979 : crise anglaise, disco dominant et fatigue du punk  
-  Source : S75 — Ott, Joy Division's Unknown Pleasures, 2004 ; type : `contexte` ; importance : `majeure` ; preuve : `interpretation_contextuelle`.
-- **S76-A003** — S76-A003 — Old Trafford, guerre familiale et mémoire populaire comme arrière-plan Curtis  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_biographique` ; importance : `majeure` ; preuve : `memoire_familiale_rapportee`.
-- **S76-A004** — S76-A004 — Macclesfield : respectabilité, pauvreté relative et enfance non misérabiliste  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `contexte_social` ; importance : `majeure` ; preuve : `reconstruction_contextuelle`.
-- **S76-A058** — S76-A058 — Le pub comme audition sociale : Gretton devient acceptable parce qu’il appartient au même monde  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `sociabilite_scene` ; importance : `majeure` ; preuve : `temoignage_Peter_Hook`.
-- **S76-A067** — S76-A067 — Band On The Wall : lieu de transition, Musicians Collective et premier laboratoire public  
-  Source : S76 — Middles & Reade, Torn Apart, 2006 ; type : `lieu_scene` ; importance : `majeure` ; preuve : `reconstruction_S76_et_memoire_scene`.
 
 ## 6. Autres atomes utiles
 
@@ -504,6 +507,12 @@ generated_at: "2026-05-17T17:20:38"
 - S75-A056 — nuance → MYTH-003
 - S75-A056 — prolonge → CONCEPT-002
 - S75-A056 — prolonge → CONCEPT-001
+- S42-A001 — garde_fou → REL-S42-001
+- S42-A002 — articule → REL-S42-002
+- S42-A003 — structure → REL-S42-003
+- S42-A004 — nuance → REL-S42-004
+- S42-A007 — cartographie → REL-S42-007
+- S42-A011 — alimente → REL-S42-009
 - S74-A014 — complète → S74-A002
 - S74-A014 — prolonge → S41
 - S74-A015 — renforce → S74-A002
@@ -548,12 +557,6 @@ generated_at: "2026-05-17T17:20:38"
 - S76-A015 — nuance → MYTH-003
 - S76-A015 — prepare → S76-A016
 - S76-A058 — prolonge → S76-A056
-- S76-A058 — nuance → CONCEPT-management_post_punk
-- S76-A058 — prepare → S76-A059
-- S76-A059 — prolonge → S76-A058
-- S76-A059 — nuance → CONCEPT-scene_manchester
-- S76-A059 — relie → MOTIF-geographie_emotionnelle
-- S76-A067 — prolonge → S76-A058
 
 ## 13. Distribution documentaire
 
@@ -562,8 +565,8 @@ generated_at: "2026-05-17T17:20:38"
 | Type | Nombre |
 |---|---|
 | source_part | 14 |
-| prudence_methodologique | 11 |
-| concept_structurant | 9 |
+| prudence_methodologique | 12 |
+| concept_structurant | 11 |
 | analyse | 9 |
 | concept | 9 |
 | sociologie | 7 |
@@ -621,6 +624,9 @@ generated_at: "2026-05-17T17:20:38"
 | paradoxe_politique | 1 |
 | scene_regionale | 1 |
 | prudence_sociale | 1 |
+| lecture_chanson_espace | 1 |
+| cartographie_scene | 1 |
+| contexte_affectif | 1 |
 | reception_critique | 1 |
 | lieu_biographique | 1 |
 | citation_repere | 1 |
@@ -661,8 +667,8 @@ generated_at: "2026-05-17T17:20:38"
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 151 |
-| critique | 21 |
-| majeure | 13 |
+| critique | 26 |
+| majeure | 14 |
 | majeur | 2 |
 
 ## 14. Risques de surinterprétation et points de vigilance
@@ -679,6 +685,12 @@ generated_at: "2026-05-17T17:20:38"
 - S75-A004 [moyen] — risque de durcir excessivement l'opposition Londres/Manchester
 - S75-A014 [moyen] — risque de substituer un déterminisme social Sumner au déterminisme biographique Curtis
 - S75-A056 [moyen] — éviter de faire de la crise sociale une cause mécanique du son ; elle forme un climat, non une explication totale
+- S42-A001 [élevé] — Risque de transformer une lecture sociologique en causalité historique.
+- S42-A002 [moyen] — Ne pas réduire « Shadowplay » à un simple document sociologique sur Manchester.
+- S42-A003 [élevé] — Risque de faire de la périphérie une cause totale du son Joy Division.
+- S42-A004 [moyen] — Ne pas faire disparaître la matérialité sociale derrière la seule performance identitaire.
+- S42-A007 [moyen] — La comparaison ne doit pas dissoudre la spécificité mancunienne.
+- S42-A011 [élevé] — À ne pas utiliser comme preuve unique sur les pratiques médicales ou les lectures individuelles.
 - S74-A014 [moyen] — risque de surdéterminer l’esthétique du groupe par la seule biographie spatiale de Hook
 - S74-A015 [eleve] — risque de transformer une hypothèse mémorielle de Sumner en explication totale de Joy Division
 - S74-A002 [moyen] — risque de transformer Manchester en cause unique du son Joy Division

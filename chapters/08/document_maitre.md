@@ -6,7 +6,7 @@ type_unite: document_maitre
 chapitre: "Chapitre 8"
 source_generation: "tools/build_master_docs.py"
 statut: genere
-generated_at: "2026-05-17T17:20:38"
+generated_at: "2026-05-17T18:07:11"
 ```
 
 ## 1. Fonction du chapitre
@@ -22,13 +22,13 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 
 | Indicateur | Valeur |
 |---|---|
-| Atomes | 251 |
+| Atomes | 253 |
 | Atomes critiques / majeurs | 35 |
 | Citations | 12 |
 | Événements chronologiques | 24 |
 | Personnes | 12 |
 | Chansons | 4 |
-| Sources mobilisées | 16 |
+| Sources mobilisées | 17 |
 
 ## 4. Sources mobilisées
 
@@ -43,6 +43,7 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | S29 | S29 — Goddard, Missions of Dead Souls, 2018 | 2 | 2 |
 | S34 | S34 — Fraser & Fuoto, Manchester, 1976, 2012 | 1 | 1 |
 | S41 | S41 — Hook, Unknown Pleasures, 2012 | 104 | 0 |
+| S42 | S42 - Amendola & Troianiello, Metropoli e spazio periferico nell underground post-punk inglese, 2021 | 2 | 0 |
 | S45 | S45 — Curtis, Touching from a Distance, 1995 | 16 | 0 |
 | S68 | S68 — Broll, Joy Division, 1988 | 22 | 0 |
 | S70 | S70 — Suatoni, Dal cuore della città / From the Centre of the City, 1990 | 12 | 0 |
@@ -660,6 +661,8 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | processus_creation | 1 |
 | genre_scene | 1 |
 | prudence_sociale | 1 |
+| concept_structurant | 1 |
+| lieu_scene | 1 |
 | festival | 1 |
 | analyse_sonore | 1 |
 | bifurcation_institutionnelle | 1 |
@@ -693,9 +696,9 @@ Traiter la culture bootleg comme mémoire parallèle, archive souterraine et con
 | Importance | Nombre |
 |---|---|
 | non qualifiée | 123 |
-| critique | 102 |
+| critique | 103 |
 | majeur | 18 |
-| majeure | 8 |
+| majeure | 9 |
 
 ## 14. Risques de surinterprétation et points de vigilance
 
